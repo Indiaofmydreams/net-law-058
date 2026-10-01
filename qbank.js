@@ -1,4 +1,5 @@
-(()=>{const root=document.getElementById('qb-root');if(!root||typeof QBANK==='undefined')return;
+(()=>{const root=document.getElementById('qb-root');if(!root)return;
+const start=QBANK=>{
 const KEY='netlaw058-qb-v1';let saved=[];try{saved=JSON.parse(localStorage.getItem(KEY)||'[]')}catch{}
 const persist=()=>{try{localStorage.setItem(KEY,JSON.stringify(saved))}catch{}};
 let unit='All',q='',onlySaved=false,shown=10,allOn=false,rev=new Set();const pick={};
@@ -14,8 +15,8 @@ function meta(){const v=vis(),n=v.filter(([,i])=>isRev(i)).length;$('.qb-meta').
 function units_(){$('.qb-units').innerHTML=units.map(u=>`<button class="qb-u${u===unit?' on':''}" data-u="${u}">${u==='All'?'All units':u}</button>`).join('')}
 function setRev(card,i,on){card.classList.toggle('rev',on);card.querySelector('.qb-eye').setAttribute('aria-expanded',on);card.querySelector('.qb-eye').title=on?'Hide answer':'Show answer'}
 function draw(){const v=vis();list.innerHTML='';v.slice(0,shown).forEach(([x,i],n)=>{const c=document.createElement('div');c.className='qb-card';
-c.innerHTML=`<div class="qb-h"><span class="qb-n">${i+1}</span><p class="qb-q"></p><div class="qb-acts"><button class="qb-ic qb-star${saved.includes(i)?' on':''}" aria-label="Save question" title="Save for revision">★</button><button class="qb-ic qb-eye" aria-label="Show answer" aria-expanded="false" title="Show answer">${eye}</button></div></div>${x.u?`<span class="qb-u2" style="display:none"></span>`:''}<div class="qb-o">${x.o.map((t,k)=>`<div class="qb-opt${pick[i]===k?' sel':''}${k===x.a?' ok':''}" data-k="${k}" role="button" tabindex="0"><span></span><span class="mk">✓</span></div>`).join('')}</div><div class="qb-e"><div><p></p></div></div>`;
-c.querySelector('.qb-q').textContent=x.q;c.querySelectorAll('.qb-opt').forEach((o,k)=>o.firstChild.textContent=x.o[k]);c.querySelector('.qb-e p').textContent=x.e||'';
+c.innerHTML=`<div class="qb-h"><span class="qb-n">${i+1}</span><p class="qb-q"></p><div class="qb-acts"><button class="qb-ic qb-star${saved.includes(i)?' on':''}" aria-label="Save question" title="Save for revision">★</button><button class="qb-ic qb-eye" aria-label="Show answer" aria-expanded="false" title="Show answer">${eye}</button></div></div><span class="qb-u2"></span><div class="qb-o">${x.o.map((t,k)=>`<div class="qb-opt${pick[i]===k?' sel':''}${k===x.a?' ok':''}" data-k="${k}" role="button" tabindex="0"><span></span><span class="mk">✓</span></div>`).join('')}</div><div class="qb-e"><div><p></p></div></div>`;
+c.querySelector('.qb-q').textContent=x.q;c.querySelector('.qb-u2').textContent=[x.t,x.u].filter(Boolean).join(' · ');c.querySelectorAll('.qb-opt').forEach((o,k)=>o.firstChild.textContent=x.o[k]);c.querySelector('.qb-e p').textContent=x.e||'';
 c.querySelector('.qb-eye').onclick=()=>{if(allOn){allOn=false;rev=new Set(QBANK.map((_,k)=>k));$('.qb-all').classList.remove('on');$('.qb-all').setAttribute('aria-pressed','false')}const on=!rev.has(i);on?rev.add(i):rev.delete(i);setRev(c,i,on);meta()};
 c.querySelector('.qb-star').onclick=e=>{const s=saved.indexOf(i);s<0?saved.push(i):saved.splice(s,1);persist();e.currentTarget.classList.toggle('on',s<0);if(onlySaved){draw()}};
 c.querySelectorAll('.qb-opt').forEach(o=>{const f=()=>{pick[i]=+o.dataset.k;c.querySelectorAll('.qb-opt').forEach(z=>z.classList.toggle('sel',z===o))};o.onclick=f;o.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();f()}}});
@@ -28,4 +29,6 @@ $('.qb-search').oninput=e=>{q=e.target.value.trim().toLowerCase();shown=10;draw(
 $('.qb-saved').onclick=e=>{onlySaved=!onlySaved;e.currentTarget.classList.toggle('on',onlySaved);shown=10;draw()};
 $('.qb-more').onclick=()=>{shown+=10;draw()};
 units_();draw();
+};
+if(window.QBANK_DATA)start(window.QBANK_DATA);else fetch('questions.json').then(r=>r.json()).then(start).catch(()=>{root.innerHTML='<p class="qb-empty">Could not load questions.json. Upload it next to index.html.</p>'});
 })();
