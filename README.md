@@ -1,2 +1,20 @@
-# net-law-058
-Free UGC NET preparation resources for **Paper 1 and Paper 2 – Law (Code 058)**. Access topic-wise notes, MCQs, previous-year questions, important case laws, legal provisions and revision material. Cover the complete syllabus, practise regularly and strengthen your preparation with structured, exam-focused resources.
+# NET Law 058 — Website Starter
+
+A free static website starter for UGC NET Law Code 058 and Paper 1.
+
+## Files
+- index.html — website structure
+- styles.css — responsive design
+- script.js — interactive sample MCQ engine
+
+## Publish for free
+Upload these files to GitHub Pages or Cloudflare Pages.
+
+## Next content to add
+- Your complete Law 058 syllabus
+- Unit-wise notes
+- Your MCQ database
+- PYQs
+- Case-law pages
+- Paper 1 question banks
+- Search and filtering
