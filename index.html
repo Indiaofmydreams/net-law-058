@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="syllabus-pro.css">
+  <link rel="stylesheet" href="qbank.css">
   <link rel="stylesheet" href="disclaimer.css">
 </head>
 <body>
@@ -79,19 +80,7 @@
 
 <section id="syllabus" class="section sy"><div class="container" id="sy-root"></div></section>
 
-<section id="mcqs" class="section dark">
-  <div class="container">
-    <div class="section-head light"><div><span class="eyebrow">PRACTICE ENGINE</span><h2>Free Law MCQs</h2></div><p>Try the sample quiz. The same engine can later hold hundreds of questions.</p></div>
-    <div class="quiz-shell">
-      <div class="quiz-meta"><span id="q-number">Question 1 of 5</span><span id="score">Score: 0</span></div>
-      <div class="quiz-progress"><div id="quiz-bar"></div></div>
-      <h3 id="question">Loading…</h3>
-      <div id="options" class="options"></div>
-      <div id="explanation" class="explanation hidden"></div>
-      <div class="quiz-actions"><button id="next" class="btn primary" disabled>Next Question →</button><button id="restart" class="btn ghost">Restart</button></div>
-    </div>
-  </div>
-</section>
+<section id="mcqs" class="section qb"><div class="container" id="qb-root"></div></section>
 
 <section id="paper1" class="section soft">
   <div class="container">
@@ -140,6 +129,8 @@
 <script src="script.js"></script>
 <script src="syllabus-data.js"></script>
 <script src="syllabus-pro.js"></script>
+<script src="questions.js"></script>
+<script src="qbank.js"></script>
 <script src="disclaimer.js"></script>
 </body>
 </html>
