@@ -13,7 +13,7 @@ const T=[
 const back=document.createElement('div');back.className='tm-back';back.setAttribute('role','dialog');back.setAttribute('aria-modal','true');back.setAttribute('aria-labelledby','tm-t');
 back.innerHTML=`<div class="tm"><div class="tm-top"><div class="tm-ttl"><span class="tm-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"/><path d="M9 12l2 2 4-4"/></svg></span><div><h2 id="tm-t">Before you continue</h2><p>Disclaimer and terms of use · Updated 1 October 2026</p></div></div><button class="tm-agree" id="tm-ok">✓ I agree</button><button class="tm-x" id="tm-x" aria-label="Close">✕</button></div>
 <div class="tm-body"><p class="tm-lead">NET Law 058 is a free, independent study resource. The short version: use it to learn, and verify anything important. Tap a point for details.</p>${T.map(([a,b,c])=>`<div class="tm-i"><button class="tm-h" aria-expanded="false"><span><b>${a}</b><small>${b}</small></span><i></i></button><div class="tm-d"><div><p>${c}</p></div></div></div>`).join('')}</div>
-<div class="tm-foot">Questions or corrections: <a href="mailto:${EMAIL}" style="color:#9b6a1f;font-weight:700">${EMAIL}</a></div></div>`;
+<div class="tm-foot">Questions or corrections: <a href="mailto:${EMAIL}" style="color:var(--ac);font-weight:700">${EMAIL}</a></div></div>`;
 document.body.appendChild(back);
 const box=back.querySelector('.tm'),ok=back.querySelector('#tm-ok');
 back.querySelectorAll('.tm-h').forEach(h=>h.onclick=()=>{const i=h.closest('.tm-i'),o=i.classList.toggle('open');h.setAttribute('aria-expanded',o)});

@@ -5598,5 +5598,4205 @@
   ],
   "a": 1,
   "e": "Ombudsman."
+ },
+ {
+  "id": 401,
+  "u": "Teaching Aptitude",
+  "t": "Concept",
+  "q": "The 'memory level' of teaching is associated with:",
+  "o": [
+   "A. Herbart",
+   "B. Hunt",
+   "C. Bloom",
+   "D. Morrison"
+  ],
+  "a": 0,
+  "e": "Memory level (Herbart), understanding level (Morrison), reflective level (Hunt)."
+ },
+ {
+  "id": 402,
+  "u": "Teaching Aptitude",
+  "t": "Concept",
+  "q": "Reflective level of teaching is:",
+  "o": [
+   "A. Based on rote memory",
+   "B. Limited to lectures",
+   "C. Dictated by the teacher",
+   "D. Problem-centred and requires thoughtful analysis"
+  ],
+  "a": 3,
+  "e": "It is the highest level, involving problem solving and critical thinking."
+ },
+ {
+  "id": 403,
+  "u": "Teaching Aptitude",
+  "t": "Concept",
+  "q": "Which of these is a learner-centred method?",
+  "o": [
+   "A. Dictation",
+   "B. Lecture",
+   "C. Project method",
+   "D. Teacher-only demonstration"
+  ],
+  "a": 2,
+  "e": "Project work places the learner at the centre of activity."
+ },
+ {
+  "id": 404,
+  "u": "Teaching Aptitude",
+  "t": "Concept",
+  "q": "Formative evaluation is conducted:",
+  "o": [
+   "A. Before admission",
+   "B. Only at the end of the year",
+   "C. During the instructional process",
+   "D. After graduation"
+  ],
+  "a": 2,
+  "e": "It gives ongoing feedback to improve learning."
+ },
+ {
+  "id": 405,
+  "u": "Teaching Aptitude",
+  "t": "Concept",
+  "q": "CBCS stands for:",
+  "o": [
+   "A. Central Board Credit Scheme",
+   "B. Choice Based Credit System",
+   "C. Credit Based Course Syllabus",
+   "D. Common Basic Curriculum System"
+  ],
+  "a": 1,
+  "e": "A UGC framework giving students flexibility in choosing courses."
+ },
+ {
+  "id": 406,
+  "u": "Teaching Aptitude",
+  "t": "Match the following",
+  "q": "Match: A Formative, B Summative, C Diagnostic with (1) End of course (2) During instruction (3) Identify learning difficulties",
+  "o": [
+   "A. A-2, B-3, C-1",
+   "B. A-1, B-2, C-3",
+   "C. A-2, B-1, C-3",
+   "D. A-3, B-1, C-2"
+  ],
+  "a": 2,
+  "e": "Each type of evaluation has a distinct purpose."
+ },
+ {
+  "id": 407,
+  "u": "Teaching Aptitude",
+  "t": "Statements",
+  "q": "Consider the statements: 1. Teaching is a tri-polar process involving teacher, learner and curriculum. 2. Teaching is only transmission of information.",
+  "o": [
+   "A. Only statement 1 is correct",
+   "B. Only statement 2 is correct",
+   "C. Both statements are correct",
+   "D. Neither statement is correct"
+  ],
+  "a": 0,
+  "e": "Teaching is interactive; it is not mere transmission."
+ },
+ {
+  "id": 408,
+  "u": "Teaching Aptitude",
+  "t": "Statements",
+  "q": "Consider the statements: 1. Online teaching can be synchronous or asynchronous. 2. Asynchronous learning requires teacher and learner to be present at the same time.",
+  "o": [
+   "A. Only statement 1 is correct",
+   "B. Only statement 2 is correct",
+   "C. Both statements are correct",
+   "D. Neither statement is correct"
+  ],
+  "a": 0,
+  "e": "Asynchronous means anytime access, not simultaneous presence."
+ },
+ {
+  "id": 409,
+  "u": "Teaching Aptitude",
+  "t": "Assertion–Reason",
+  "q": "Assertion (A): Evaluation should be continuous.\nReason (R): Continuous evaluation helps identify learning gaps early.",
+  "o": [
+   "A. Both A and R are true, and R is the correct explanation of A",
+   "B. Both A and R are true, but R is not the correct explanation of A",
+   "C. A is true, but R is false",
+   "D. A is false, but R is true"
+  ],
+  "a": 0,
+  "e": "R explains why A is desirable."
+ },
+ {
+  "id": 410,
+  "u": "Teaching Aptitude",
+  "t": "Assertion–Reason",
+  "q": "Assertion (A): Teacher-centred methods promote active learner participation.\nReason (R): In lectures, the teacher is the main source of information.",
+  "o": [
+   "A. Both A and R are true, and R is the correct explanation of A",
+   "B. Both A and R are true, but R is not the correct explanation of A",
+   "C. A is true, but R is false",
+   "D. A is false, but R is true"
+  ],
+  "a": 3,
+  "e": "A is false; R is true."
+ },
+ {
+  "id": 411,
+  "u": "Research Aptitude",
+  "t": "Concept",
+  "q": "Research aimed at solving an immediate practical problem is:",
+  "o": [
+   "A. Historical research",
+   "B. Fundamental research",
+   "C. Applied research",
+   "D. Philosophical research"
+  ],
+  "a": 2,
+  "e": "Applied research solves real-world problems."
+ },
+ {
+  "id": 412,
+  "u": "Research Aptitude",
+  "t": "Concept",
+  "q": "Basic (fundamental) research aims at:",
+  "o": [
+   "A. Immediate policy use",
+   "B. Developing theory and knowledge",
+   "C. Product sales",
+   "D. Market surveys"
+  ],
+  "a": 1,
+  "e": "It extends knowledge without immediate application."
+ },
+ {
+  "id": 413,
+  "u": "Research Aptitude",
+  "t": "Concept",
+  "q": "A hypothesis is:",
+  "o": [
+   "A. A testable tentative statement",
+   "B. A literature review",
+   "C. A proven fact",
+   "D. A final conclusion"
+  ],
+  "a": 0,
+  "e": "It is tested through research."
+ },
+ {
+  "id": 414,
+  "u": "Research Aptitude",
+  "t": "Concept",
+  "q": "Sampling where every unit has an equal chance of selection is:",
+  "o": [
+   "A. Snowball sampling",
+   "B. Purposive sampling",
+   "C. Simple random sampling",
+   "D. Quota sampling"
+  ],
+  "a": 2,
+  "e": "Probability sampling method."
+ },
+ {
+  "id": 415,
+  "u": "Research Aptitude",
+  "t": "Concept",
+  "q": "Plagiarism means:",
+  "o": [
+   "A. Paraphrasing with credit",
+   "B. Presenting another's work as one's own",
+   "C. Peer review",
+   "D. Citing sources properly"
+  ],
+  "a": 1,
+  "e": "A breach of research ethics."
+ },
+ {
+  "id": 416,
+  "u": "Research Aptitude",
+  "t": "Match the following",
+  "q": "Match: A Experimental, B Historical, C Descriptive with (1) Studies past events (2) Manipulates variables (3) Describes existing conditions",
+  "o": [
+   "A. A-3, B-1, C-2",
+   "B. A-1, B-2, C-3",
+   "C. A-2, B-3, C-1",
+   "D. A-2, B-1, C-3"
+  ],
+  "a": 3,
+  "e": "Research methods and their focus."
+ },
+ {
+  "id": 417,
+  "u": "Research Aptitude",
+  "t": "Statements",
+  "q": "Consider the statements: 1. Qualitative research deals with non-numerical data. 2. Quantitative research relies on numerical data.",
+  "o": [
+   "A. Only statement 1 is correct",
+   "B. Only statement 2 is correct",
+   "C. Both statements are correct",
+   "D. Neither statement is correct"
+  ],
+  "a": 2,
+  "e": "Both are correct."
+ },
+ {
+  "id": 418,
+  "u": "Research Aptitude",
+  "t": "Statements",
+  "q": "Consider the statements: 1. A null hypothesis states there is no significant difference. 2. A null hypothesis is always proved true.",
+  "o": [
+   "A. Only statement 1 is correct",
+   "B. Only statement 2 is correct",
+   "C. Both statements are correct",
+   "D. Neither statement is correct"
+  ],
+  "a": 0,
+  "e": "It is tested and may be rejected."
+ },
+ {
+  "id": 419,
+  "u": "Research Aptitude",
+  "t": "Assertion–Reason",
+  "q": "Assertion (A): A literature review is an essential step in research.\nReason (R): It prevents duplication and identifies research gaps.",
+  "o": [
+   "A. Both A and R are true, and R is the correct explanation of A",
+   "B. Both A and R are true, but R is not the correct explanation of A",
+   "C. A is true, but R is false",
+   "D. A is false, but R is true"
+  ],
+  "a": 0,
+  "e": "R explains A."
+ },
+ {
+  "id": 420,
+  "u": "Research Aptitude",
+  "t": "Assertion–Reason",
+  "q": "Assertion (A): Stratified sampling suits heterogeneous populations.\nReason (R): It ensures every subgroup is represented.",
+  "o": [
+   "A. Both A and R are true, and R is the correct explanation of A",
+   "B. Both A and R are true, but R is not the correct explanation of A",
+   "C. A is true, but R is false",
+   "D. A is false, but R is true"
+  ],
+  "a": 0,
+  "e": "R explains A."
+ },
+ {
+  "id": 421,
+  "u": "Comprehension",
+  "t": "Concept",
+  "q": "Passage: 'Regular reading improves vocabulary and sharpens critical thinking, though it needs sustained effort.' The central idea is:",
+  "o": [
+   "A. Effort is harmful",
+   "B. Vocabulary is useless",
+   "C. Reading has benefits but needs effort",
+   "D. Critical thinking is inborn"
+  ],
+  "a": 2,
+  "e": "The passage states benefits and the effort required."
+ },
+ {
+  "id": 422,
+  "u": "Comprehension",
+  "t": "Concept",
+  "q": "Passage: 'The library was silent; only the clock ticked.' The mood is:",
+  "o": [
+   "A. Angry",
+   "B. Calm and quiet",
+   "C. Joyful",
+   "D. Chaotic"
+  ],
+  "a": 1,
+  "e": "Silence and a ticking clock suggest calm."
+ },
+ {
+  "id": 423,
+  "u": "Comprehension",
+  "t": "Concept",
+  "q": "In comprehension, 'inference' means:",
+  "o": [
+   "A. A personal opinion unrelated to the text",
+   "B. The title",
+   "C. A conclusion drawn from given information, though not stated directly",
+   "D. A word-for-word copy"
+  ],
+  "a": 2,
+  "e": "Inferences are supported by the passage."
+ },
+ {
+  "id": 424,
+  "u": "Comprehension",
+  "t": "Concept",
+  "q": "The word 'terse' most nearly means:",
+  "o": [
+   "A. Cheerful",
+   "B. Brief and to the point",
+   "C. Confusing",
+   "D. Lengthy"
+  ],
+  "a": 1,
+  "e": "Terse means concise."
+ },
+ {
+  "id": 425,
+  "u": "Comprehension",
+  "t": "Concept",
+  "q": "A good strategy for comprehension questions is to:",
+  "o": [
+   "A. Skip the passage",
+   "B. Guess",
+   "C. Use outside knowledge only",
+   "D. Base answers on the passage"
+  ],
+  "a": 3,
+  "e": "Answers must be supported by the text."
+ },
+ {
+  "id": 426,
+  "u": "Comprehension",
+  "t": "Concept",
+  "q": "The 'tone' of a passage refers to:",
+  "o": [
+   "A. The title",
+   "B. The number of paragraphs",
+   "C. The author's attitude",
+   "D. The font"
+  ],
+  "a": 2,
+  "e": "Tone reveals the author's attitude."
+ },
+ {
+  "id": 427,
+  "u": "Comprehension",
+  "t": "Match the following",
+  "q": "Match: A Candid, B Futile, C Prudent with (1) Frank (2) Useless (3) Careful",
+  "o": [
+   "A. A-2, B-1, C-3",
+   "B. A-1, B-2, C-3",
+   "C. A-1, B-3, C-2",
+   "D. A-3, B-2, C-1"
+  ],
+  "a": 1,
+  "e": "Word meanings."
+ },
+ {
+  "id": 428,
+  "u": "Comprehension",
+  "t": "Statements",
+  "q": "Consider the statements: 1. The title of a passage often hints at its central theme. 2. Supporting details are irrelevant to the main idea.",
+  "o": [
+   "A. Only statement 1 is correct",
+   "B. Only statement 2 is correct",
+   "C. Both statements are correct",
+   "D. Neither statement is correct"
+  ],
+  "a": 0,
+  "e": "Supporting details develop the main idea."
+ },
+ {
+  "id": 429,
+  "u": "Comprehension",
+  "t": "Statements",
+  "q": "Consider the statements: 1. An inference must be supported by the passage. 2. An assumption is always stated explicitly.",
+  "o": [
+   "A. Only statement 1 is correct",
+   "B. Only statement 2 is correct",
+   "C. Both statements are correct",
+   "D. Neither statement is correct"
+  ],
+  "a": 0,
+  "e": "Assumptions are usually unstated."
+ },
+ {
+  "id": 430,
+  "u": "Comprehension",
+  "t": "Assertion–Reason",
+  "q": "Assertion (A): Answers to comprehension questions should come from the passage.\nReason (R): Outside knowledge may distort the author's intended meaning.",
+  "o": [
+   "A. Both A and R are true, and R is the correct explanation of A",
+   "B. Both A and R are true, but R is not the correct explanation of A",
+   "C. A is true, but R is false",
+   "D. A is false, but R is true"
+  ],
+  "a": 0,
+  "e": "R explains A."
+ },
+ {
+  "id": 431,
+  "u": "Communication",
+  "t": "Concept",
+  "q": "The first element of the communication process is the:",
+  "o": [
+   "A. Feedback",
+   "B. Receiver",
+   "C. Channel",
+   "D. Sender"
+  ],
+  "a": 3,
+  "e": "Communication starts with the sender or source."
+ },
+ {
+  "id": 432,
+  "u": "Communication",
+  "t": "Concept",
+  "q": "'Noise' in communication refers to:",
+  "o": [
+   "A. The channel",
+   "B. The receiver",
+   "C. Only loud sound",
+   "D. Anything that distorts the message"
+  ],
+  "a": 3,
+  "e": "Noise can be physical, semantic or psychological."
+ },
+ {
+  "id": 433,
+  "u": "Communication",
+  "t": "Concept",
+  "q": "Feedback in communication:",
+  "o": [
+   "A. Is the same as noise",
+   "B. Is unnecessary",
+   "C. Shows whether the message was understood",
+   "D. Is only written"
+  ],
+  "a": 2,
+  "e": "It completes the communication loop."
+ },
+ {
+  "id": 434,
+  "u": "Communication",
+  "t": "Concept",
+  "q": "Non-verbal communication includes:",
+  "o": [
+   "A. Gestures and facial expressions",
+   "B. Written letters",
+   "C. Spoken words only",
+   "D. Emails"
+  ],
+  "a": 0,
+  "e": "Body language is non-verbal."
+ },
+ {
+  "id": 435,
+  "u": "Communication",
+  "t": "Concept",
+  "q": "The 'grapevine' is:",
+  "o": [
+   "A. Mass communication",
+   "B. Informal communication",
+   "C. Formal communication",
+   "D. Written communication"
+  ],
+  "a": 1,
+  "e": "It is informal and spreads quickly."
+ },
+ {
+  "id": 436,
+  "u": "Communication",
+  "t": "Match the following",
+  "q": "Match: A Shannon–Weaver, B Lasswell, C Berlo with (1) Who says what in which channel to whom (2) Noise concept (3) SMCR model",
+  "o": [
+   "A. A-2, B-1, C-3",
+   "B. A-1, B-2, C-3",
+   "C. A-2, B-3, C-1",
+   "D. A-3, B-1, C-2"
+  ],
+  "a": 0,
+  "e": "Communication models."
+ },
+ {
+  "id": 437,
+  "u": "Communication",
+  "t": "Statements",
+  "q": "Consider the statements: 1. Classroom communication is a two-way process. 2. Mass media can influence public opinion.",
+  "o": [
+   "A. Only statement 1 is correct",
+   "B. Only statement 2 is correct",
+   "C. Both statements are correct",
+   "D. Neither statement is correct"
+  ],
+  "a": 2,
+  "e": "Both are correct."
+ },
+ {
+  "id": 438,
+  "u": "Communication",
+  "t": "Statements",
+  "q": "Consider the statements: 1. Intercultural communication ignores cultural differences. 2. Barriers can be physical, semantic or psychological.",
+  "o": [
+   "A. Only statement 1 is correct",
+   "B. Only statement 2 is correct",
+   "C. Both statements are correct",
+   "D. Neither statement is correct"
+  ],
+  "a": 1,
+  "e": "Intercultural communication must recognise cultural differences."
+ },
+ {
+  "id": 439,
+  "u": "Communication",
+  "t": "Assertion–Reason",
+  "q": "Assertion (A): Effective communication requires feedback.\nReason (R): Feedback confirms whether the message was understood.",
+  "o": [
+   "A. Both A and R are true, and R is the correct explanation of A",
+   "B. Both A and R are true, but R is not the correct explanation of A",
+   "C. A is true, but R is false",
+   "D. A is false, but R is true"
+  ],
+  "a": 0,
+  "e": "R explains A."
+ },
+ {
+  "id": 440,
+  "u": "Communication",
+  "t": "Assertion–Reason",
+  "q": "Assertion (A): Written communication provides a permanent record.\nReason (R): Written messages cannot be misunderstood.",
+  "o": [
+   "A. Both A and R are true, and R is the correct explanation of A",
+   "B. Both A and R are true, but R is not the correct explanation of A",
+   "C. A is true, but R is false",
+   "D. A is false, but R is true"
+  ],
+  "a": 2,
+  "e": "R is false; written messages can be misread."
+ },
+ {
+  "id": 441,
+  "u": "Mathematical Reasoning and Aptitude",
+  "t": "Application",
+  "q": "Find the next term: 2, 4, 8, 16, ?",
+  "o": [
+   "A. 24",
+   "B. 30",
+   "C. 32",
+   "D. 36"
+  ],
+  "a": 2,
+  "e": "Each term doubles."
+ },
+ {
+  "id": 442,
+  "u": "Mathematical Reasoning and Aptitude",
+  "t": "Application",
+  "q": "20% of 250 is:",
+  "o": [
+   "A. 40",
+   "B. 45",
+   "C. 50",
+   "D. 55"
+  ],
+  "a": 2,
+  "e": "250 × 20/100 = 50."
+ },
+ {
+  "id": 443,
+  "u": "Mathematical Reasoning and Aptitude",
+  "t": "Application",
+  "q": "A train covers 120 km in 2 hours. Its speed is:",
+  "o": [
+   "A. 50 km/h",
+   "B. 60 km/h",
+   "C. 70 km/h",
+   "D. 80 km/h"
+  ],
+  "a": 1,
+  "e": "Speed = distance ÷ time."
+ },
+ {
+  "id": 444,
+  "u": "Mathematical Reasoning and Aptitude",
+  "t": "Application",
+  "q": "If A:B = 2:3 and B:C = 4:5, then A:C is:",
+  "o": [
+   "A. 2:5",
+   "B. 8:15",
+   "C. 6:10",
+   "D. 3:5"
+  ],
+  "a": 1,
+  "e": "Make B equal: A:B:C = 8:12:15."
+ },
+ {
+  "id": 445,
+  "u": "Mathematical Reasoning and Aptitude",
+  "t": "Application",
+  "q": "An article bought for ₹200 is sold for ₹250. Profit percent is:",
+  "o": [
+   "A. 20%",
+   "B. 25%",
+   "C. 30%",
+   "D. 50%"
+  ],
+  "a": 1,
+  "e": "Profit 50 on cost 200 = 25%."
+ },
+ {
+  "id": 446,
+  "u": "Mathematical Reasoning and Aptitude",
+  "t": "Application",
+  "q": "The average of 10, 20, 30 and 40 is:",
+  "o": [
+   "A. 20",
+   "B. 25",
+   "C. 30",
+   "D. 35"
+  ],
+  "a": 1,
+  "e": "Sum 100 ÷ 4 = 25."
+ },
+ {
+  "id": 447,
+  "u": "Mathematical Reasoning and Aptitude",
+  "t": "Application",
+  "q": "Find the next letter: A, C, E, G, ?",
+  "o": [
+   "A. J",
+   "B. K",
+   "C. I",
+   "D. H"
+  ],
+  "a": 2,
+  "e": "Alternate letters."
+ },
+ {
+  "id": 448,
+  "u": "Mathematical Reasoning and Aptitude",
+  "t": "Application",
+  "q": "If CAT is coded as DBU, DOG is coded as:",
+  "o": [
+   "A. DPH",
+   "B. EOH",
+   "C. EPH",
+   "D. EPG"
+  ],
+  "a": 2,
+  "e": "Each letter moves one step ahead."
+ },
+ {
+  "id": 449,
+  "u": "Mathematical Reasoning and Aptitude",
+  "t": "Application",
+  "q": "Simple interest on ₹1000 at 10% per annum for 2 years is:",
+  "o": [
+   "A. 100",
+   "B. 150",
+   "C. 200",
+   "D. 250"
+  ],
+  "a": 2,
+  "e": "SI = PRT/100 = 200."
+ },
+ {
+  "id": 450,
+  "u": "Mathematical Reasoning and Aptitude",
+  "t": "Application",
+  "q": "A woman points to a man: 'He is the son of my mother's only brother.' The man is her:",
+  "o": [
+   "A. Cousin",
+   "B. Nephew",
+   "C. Brother",
+   "D. Uncle"
+  ],
+  "a": 0,
+  "e": "Her maternal uncle's son is her cousin."
+ },
+ {
+  "id": 451,
+  "u": "Logical Reasoning",
+  "t": "Concept",
+  "q": "Arguing that a claim is true because it has not been proved false is:",
+  "o": [
+   "A. Ad hominem",
+   "B. Argumentum ad ignorantiam",
+   "C. Equivocation",
+   "D. Begging the question"
+  ],
+  "a": 1,
+  "e": "A fallacy of appeal to ignorance."
+ },
+ {
+  "id": 452,
+  "u": "Logical Reasoning",
+  "t": "Concept",
+  "q": "Attacking the person instead of the argument is:",
+  "o": [
+   "A. Slippery slope",
+   "B. Ad hominem",
+   "C. Circular reasoning",
+   "D. Straw man"
+  ],
+  "a": 1,
+  "e": "Ad hominem fallacy."
+ },
+ {
+  "id": 453,
+  "u": "Logical Reasoning",
+  "t": "Concept",
+  "q": "'All S are P' is a:",
+  "o": [
+   "A. Particular affirmative proposition",
+   "B. Particular negative proposition",
+   "C. Universal negative proposition",
+   "D. Universal affirmative (A) proposition"
+  ],
+  "a": 3,
+  "e": "A-type proposition."
+ },
+ {
+  "id": 454,
+  "u": "Logical Reasoning",
+  "t": "Concept",
+  "q": "In the square of opposition, A and O propositions are:",
+  "o": [
+   "A. Subcontraries",
+   "B. Subalterns",
+   "C. Contraries",
+   "D. Contradictories"
+  ],
+  "a": 3,
+  "e": "They always have opposite truth values."
+ },
+ {
+  "id": 455,
+  "u": "Logical Reasoning",
+  "t": "Concept",
+  "q": "Deductive reasoning moves from:",
+  "o": [
+   "A. Particular to general",
+   "B. Part to part only",
+   "C. General to particular",
+   "D. Effect to cause only"
+  ],
+  "a": 2,
+  "e": "Conclusion follows necessarily."
+ },
+ {
+  "id": 456,
+  "u": "Logical Reasoning",
+  "t": "Concept",
+  "q": "The conclusion of an inductive argument is:",
+  "o": [
+   "A. Probable",
+   "B. Certain",
+   "C. Always false",
+   "D. Necessary"
+  ],
+  "a": 0,
+  "e": "Induction gives probability, not certainty."
+ },
+ {
+  "id": 457,
+  "u": "Logical Reasoning",
+  "t": "Concept",
+  "q": "The pramana of inference in Indian logic is:",
+  "o": [
+   "A. Shabda",
+   "B. Pratyaksha",
+   "C. Anumana",
+   "D. Upamana"
+  ],
+  "a": 2,
+  "e": "Anumana is inference."
+ },
+ {
+  "id": 458,
+  "u": "Logical Reasoning",
+  "t": "Match the following",
+  "q": "Match: A Pratyaksha, B Anumana, C Shabda with (1) Inference (2) Perception (3) Testimony",
+  "o": [
+   "A. A-2, B-1, C-3",
+   "B. A-1, B-2, C-3",
+   "C. A-2, B-3, C-1",
+   "D. A-3, B-1, C-2"
+  ],
+  "a": 0,
+  "e": "Pramanas in Nyaya."
+ },
+ {
+  "id": 459,
+  "u": "Logical Reasoning",
+  "t": "Assertion–Reason",
+  "q": "Assertion (A): A valid deductive argument with true premises must have a true conclusion.\nReason (R): In a valid deductive argument the conclusion follows necessarily from the premises.",
+  "o": [
+   "A. Both A and R are true, and R is the correct explanation of A",
+   "B. Both A and R are true, but R is not the correct explanation of A",
+   "C. A is true, but R is false",
+   "D. A is false, but R is true"
+  ],
+  "a": 0,
+  "e": "R explains A."
+ },
+ {
+  "id": 460,
+  "u": "Logical Reasoning",
+  "t": "Statements",
+  "q": "Consider the statements: 1. An argument can be valid but unsound. 2. An argument is sound if it is valid and all premises are true.",
+  "o": [
+   "A. Only statement 1 is correct",
+   "B. Only statement 2 is correct",
+   "C. Both statements are correct",
+   "D. Neither statement is correct"
+  ],
+  "a": 2,
+  "e": "Both are correct."
+ },
+ {
+  "id": 461,
+  "u": "Data Interpretation",
+  "t": "Concept",
+  "q": "Data collected first-hand by the researcher is:",
+  "o": [
+   "A. Historical data",
+   "B. Secondary data",
+   "C. Derived data",
+   "D. Primary data"
+  ],
+  "a": 3,
+  "e": "Primary data is original."
+ },
+ {
+  "id": 462,
+  "u": "Data Interpretation",
+  "t": "Concept",
+  "q": "A histogram is used to represent:",
+  "o": [
+   "A. Qualitative categories only",
+   "B. Time zones",
+   "C. Maps",
+   "D. Continuous frequency distribution"
+  ],
+  "a": 3,
+  "e": "Bars touch for continuous data."
+ },
+ {
+  "id": 463,
+  "u": "Data Interpretation",
+  "t": "Concept",
+  "q": "A pie chart shows data as:",
+  "o": [
+   "A. Proportions of a whole",
+   "B. Trends over time",
+   "C. Correlation",
+   "D. Raw lists"
+  ],
+  "a": 0,
+  "e": "Sectors represent parts of 100%."
+ },
+ {
+  "id": 464,
+  "u": "Data Interpretation",
+  "t": "Concept",
+  "q": "Data that can be counted or measured numerically is:",
+  "o": [
+   "A. Narrative",
+   "B. Quantitative",
+   "C. Qualitative",
+   "D. Descriptive"
+  ],
+  "a": 1,
+  "e": "Numerical data."
+ },
+ {
+  "id": 465,
+  "u": "Data Interpretation",
+  "t": "Application",
+  "q": "The mean of 5, 10 and 15 is:",
+  "o": [
+   "A. 5",
+   "B. 10",
+   "C. 15",
+   "D. 20"
+  ],
+  "a": 1,
+  "e": "30 ÷ 3 = 10."
+ },
+ {
+  "id": 466,
+  "u": "Data Interpretation",
+  "t": "Application",
+  "q": "Sales rose from 100 in 2021 to 120 in 2022. The percentage increase is:",
+  "o": [
+   "A. 10%",
+   "B. 15%",
+   "C. 20%",
+   "D. 25%"
+  ],
+  "a": 2,
+  "e": "Increase 20 on 100 = 20%."
+ },
+ {
+  "id": 467,
+  "u": "Data Interpretation",
+  "t": "Application",
+  "q": "A pie-chart sector of 90° represents:",
+  "o": [
+   "A. 10%",
+   "B. 20%",
+   "C. 25%",
+   "D. 30%"
+  ],
+  "a": 2,
+  "e": "90/360 = 25%."
+ },
+ {
+  "id": 468,
+  "u": "Data Interpretation",
+  "t": "Concept",
+  "q": "The best graph for showing change over time is a:",
+  "o": [
+   "A. Scatter of names",
+   "B. Pie chart",
+   "C. Venn diagram",
+   "D. Line chart"
+  ],
+  "a": 3,
+  "e": "Line charts show trends."
+ },
+ {
+  "id": 469,
+  "u": "Data Interpretation",
+  "t": "Statements",
+  "q": "Consider the statements: 1. Qualitative data is descriptive. 2. Gender is quantitative data.",
+  "o": [
+   "A. Only statement 1 is correct",
+   "B. Only statement 2 is correct",
+   "C. Both statements are correct",
+   "D. Neither statement is correct"
+  ],
+  "a": 0,
+  "e": "Gender is categorical (qualitative)."
+ },
+ {
+  "id": 470,
+  "u": "Data Interpretation",
+  "t": "Assertion–Reason",
+  "q": "Assertion (A): Data interpretation requires careful reading of scales and units.\nReason (R): Misreading units can lead to wrong conclusions.",
+  "o": [
+   "A. Both A and R are true, and R is the correct explanation of A",
+   "B. Both A and R are true, but R is not the correct explanation of A",
+   "C. A is true, but R is false",
+   "D. A is false, but R is true"
+  ],
+  "a": 0,
+  "e": "R explains A."
+ },
+ {
+  "id": 471,
+  "u": "Information and Communication Technology (ICT)",
+  "t": "Concept",
+  "q": "HTTP stands for:",
+  "o": [
+   "A. HyperText Transfer Protocol",
+   "B. HyperText Transmission Process",
+   "C. High Transfer Text Protocol",
+   "D. Host Transfer Technology Protocol"
+  ],
+  "a": 0,
+  "e": "The web's basic protocol."
+ },
+ {
+  "id": 472,
+  "u": "Information and Communication Technology (ICT)",
+  "t": "Concept",
+  "q": "URL stands for:",
+  "o": [
+   "A. Universal Reference Link",
+   "B. Uniform Reference Locator",
+   "C. Uniform Resource Locator",
+   "D. Unified Resource Language"
+  ],
+  "a": 2,
+  "e": "Address of a web resource."
+ },
+ {
+  "id": 473,
+  "u": "Information and Communication Technology (ICT)",
+  "t": "Concept",
+  "q": "SWAYAM is a Government of India platform for:",
+  "o": [
+   "A. MOOCs (online courses)",
+   "B. Banking",
+   "C. Weather alerts",
+   "D. Railway booking"
+  ],
+  "a": 0,
+  "e": "Free online courses from school to postgraduate level."
+ },
+ {
+  "id": 474,
+  "u": "Information and Communication Technology (ICT)",
+  "t": "Concept",
+  "q": "DIKSHA is a platform mainly for:",
+  "o": [
+   "A. Banking",
+   "B. School education content and teachers",
+   "C. Sports",
+   "D. Taxation"
+  ],
+  "a": 1,
+  "e": "Digital Infrastructure for Knowledge Sharing."
+ },
+ {
+  "id": 475,
+  "u": "Information and Communication Technology (ICT)",
+  "t": "Concept",
+  "q": "An intranet is:",
+  "o": [
+   "A. A private network within an organisation",
+   "B. A type of virus",
+   "C. A search engine",
+   "D. A global public network"
+  ],
+  "a": 0,
+  "e": "Internal network."
+ },
+ {
+  "id": 476,
+  "u": "Information and Communication Technology (ICT)",
+  "t": "Concept",
+  "q": "Which of these is used for video conferencing?",
+  "o": [
+   "A. Paint",
+   "B. Notepad",
+   "C. MS Excel",
+   "D. Google Meet"
+  ],
+  "a": 3,
+  "e": "Meet supports video calls."
+ },
+ {
+  "id": 477,
+  "u": "Information and Communication Technology (ICT)",
+  "t": "Concept",
+  "q": "RAM stands for:",
+  "o": [
+   "A. Read Access Memory",
+   "B. Rapid Active Memory",
+   "C. Run All Memory",
+   "D. Random Access Memory"
+  ],
+  "a": 3,
+  "e": "Volatile working memory."
+ },
+ {
+  "id": 478,
+  "u": "Information and Communication Technology (ICT)",
+  "t": "Match the following",
+  "q": "Match: A SWAYAM, B Shodhganga, C NDLI with (1) Repository of theses (2) MOOC platform (3) National digital library",
+  "o": [
+   "A. A-2, B-1, C-3",
+   "B. A-1, B-2, C-3",
+   "C. A-3, B-1, C-2",
+   "D. A-2, B-3, C-1"
+  ],
+  "a": 0,
+  "e": "Digital initiatives in higher education."
+ },
+ {
+  "id": 479,
+  "u": "Information and Communication Technology (ICT)",
+  "t": "Statements",
+  "q": "Consider the statements: 1. E-mail is an asynchronous form of communication. 2. Cc in e-mail sends a copy to additional recipients.",
+  "o": [
+   "A. Only statement 1 is correct",
+   "B. Only statement 2 is correct",
+   "C. Both statements are correct",
+   "D. Neither statement is correct"
+  ],
+  "a": 2,
+  "e": "Both are correct."
+ },
+ {
+  "id": 480,
+  "u": "Information and Communication Technology (ICT)",
+  "t": "Assertion–Reason",
+  "q": "Assertion (A): Strong passwords improve online security.\nReason (R): Weak passwords are easier to guess or crack.",
+  "o": [
+   "A. Both A and R are true, and R is the correct explanation of A",
+   "B. Both A and R are true, but R is not the correct explanation of A",
+   "C. A is true, but R is false",
+   "D. A is false, but R is true"
+  ],
+  "a": 0,
+  "e": "R explains A."
+ },
+ {
+  "id": 481,
+  "u": "People, Development and Environment",
+  "t": "Concept",
+  "q": "The number of Sustainable Development Goals (SDGs) is:",
+  "o": [
+   "A. 8",
+   "B. 12",
+   "C. 17",
+   "D. 20"
+  ],
+  "a": 2,
+  "e": "Seventeen goals adopted by the UN."
+ },
+ {
+  "id": 482,
+  "u": "People, Development and Environment",
+  "t": "Concept",
+  "q": "The SDGs were adopted in:",
+  "o": [
+   "A. 2000",
+   "B. 2010",
+   "C. 2015",
+   "D. 2020"
+  ],
+  "a": 2,
+  "e": "Agenda 2030 was adopted in 2015."
+ },
+ {
+  "id": 483,
+  "u": "People, Development and Environment",
+  "t": "Concept",
+  "q": "The ozone layer is found in the:",
+  "o": [
+   "A. Exosphere",
+   "B. Mesosphere",
+   "C. Troposphere",
+   "D. Stratosphere"
+  ],
+  "a": 3,
+  "e": "It absorbs harmful UV radiation."
+ },
+ {
+  "id": 484,
+  "u": "People, Development and Environment",
+  "t": "Concept",
+  "q": "Acid rain is mainly caused by:",
+  "o": [
+   "A. Oxygen",
+   "B. Helium",
+   "C. Argon",
+   "D. Sulphur dioxide and nitrogen oxides"
+  ],
+  "a": 3,
+  "e": "These form acids in the atmosphere."
+ },
+ {
+  "id": 485,
+  "u": "People, Development and Environment",
+  "t": "Concept",
+  "q": "A major greenhouse gas is:",
+  "o": [
+   "A. Carbon dioxide",
+   "B. Oxygen",
+   "C. Nitrogen",
+   "D. Argon"
+  ],
+  "a": 0,
+  "e": "CO2 traps heat."
+ },
+ {
+  "id": 486,
+  "u": "People, Development and Environment",
+  "t": "Concept",
+  "q": "The Montreal Protocol deals with:",
+  "o": [
+   "A. Whaling",
+   "B. Ozone-depleting substances",
+   "C. Wetlands",
+   "D. Biodiversity"
+  ],
+  "a": 1,
+  "e": "Adopted in 1987."
+ },
+ {
+  "id": 487,
+  "u": "People, Development and Environment",
+  "t": "Concept",
+  "q": "Which is a renewable energy source?",
+  "o": [
+   "A. Petroleum",
+   "B. Coal",
+   "C. Natural gas",
+   "D. Solar energy"
+  ],
+  "a": 3,
+  "e": "Solar energy is continuously replenished."
+ },
+ {
+  "id": 488,
+  "u": "People, Development and Environment",
+  "t": "Concept",
+  "q": "The Paris Agreement aims to limit warming to well below:",
+  "o": [
+   "A. 1°C",
+   "B. 2°C",
+   "C. 3°C",
+   "D. 5°C"
+  ],
+  "a": 1,
+  "e": "Above pre-industrial levels, pursuing 1.5°C."
+ },
+ {
+  "id": 489,
+  "u": "People, Development and Environment",
+  "t": "Statements",
+  "q": "Consider the statements: 1. Anthropogenic activities contribute to climate change. 2. Biomass is a non-renewable resource.",
+  "o": [
+   "A. Only statement 1 is correct",
+   "B. Only statement 2 is correct",
+   "C. Both statements are correct",
+   "D. Neither statement is correct"
+  ],
+  "a": 0,
+  "e": "Biomass is renewable."
+ },
+ {
+  "id": 490,
+  "u": "People, Development and Environment",
+  "t": "Assertion–Reason",
+  "q": "Assertion (A): Deforestation increases atmospheric carbon dioxide.\nReason (R): Trees absorb carbon dioxide during photosynthesis.",
+  "o": [
+   "A. Both A and R are true, and R is the correct explanation of A",
+   "B. Both A and R are true, but R is not the correct explanation of A",
+   "C. A is true, but R is false",
+   "D. A is false, but R is true"
+  ],
+  "a": 0,
+  "e": "R explains A."
+ },
+ {
+  "id": 491,
+  "u": "Higher Education System",
+  "t": "Concept",
+  "q": "Nalanda, an ancient centre of higher learning, was located in:",
+  "o": [
+   "A. Tamil Nadu",
+   "B. Punjab",
+   "C. Gujarat",
+   "D. Bihar"
+  ],
+  "a": 3,
+  "e": "Nalanda Mahavihara, in present-day Bihar."
+ },
+ {
+  "id": 492,
+  "u": "Higher Education System",
+  "t": "Concept",
+  "q": "Takshashila (Taxila) was an ancient centre of learning in present-day:",
+  "o": [
+   "A. Nepal",
+   "B. Pakistan",
+   "C. Sri Lanka",
+   "D. Bhutan"
+  ],
+  "a": 1,
+  "e": "Taxila lies near Rawalpindi."
+ },
+ {
+  "id": 493,
+  "u": "Higher Education System",
+  "t": "Concept",
+  "q": "The UGC Act was passed in:",
+  "o": [
+   "A. 1948",
+   "B. 1953",
+   "C. 1956",
+   "D. 1986"
+  ],
+  "a": 2,
+  "e": "UGC became a statutory body in 1956."
+ },
+ {
+  "id": 494,
+  "u": "Higher Education System",
+  "t": "Concept",
+  "q": "NAAC is responsible for:",
+  "o": [
+   "A. Funding schools",
+   "B. Teacher recruitment",
+   "C. Assessment and accreditation of institutions",
+   "D. Conducting NET"
+  ],
+  "a": 2,
+  "e": "National Assessment and Accreditation Council."
+ },
+ {
+  "id": 495,
+  "u": "Higher Education System",
+  "t": "Concept",
+  "q": "NEP 2020 proposed a single umbrella regulator for higher education called:",
+  "o": [
+   "A. HECI",
+   "B. UGC only",
+   "C. NCTE only",
+   "D. AICTE only"
+  ],
+  "a": 0,
+  "e": "Higher Education Commission of India."
+ },
+ {
+  "id": 496,
+  "u": "Higher Education System",
+  "t": "Concept",
+  "q": "AICTE regulates:",
+  "o": [
+   "A. Medical education",
+   "B. Teacher education only",
+   "C. Technical education",
+   "D. School education"
+  ],
+  "a": 2,
+  "e": "All India Council for Technical Education."
+ },
+ {
+  "id": 497,
+  "u": "Higher Education System",
+  "t": "Concept",
+  "q": "The Radhakrishnan Commission (1948–49) reviewed:",
+  "o": [
+   "A. Technical education",
+   "B. Secondary education",
+   "C. Primary education",
+   "D. University education"
+  ],
+  "a": 3,
+  "e": "The University Education Commission."
+ },
+ {
+  "id": 498,
+  "u": "Higher Education System",
+  "t": "Concept",
+  "q": "NIRF is:",
+  "o": [
+   "A. A university",
+   "B. An exam",
+   "C. A scholarship",
+   "D. A ranking framework for institutions"
+  ],
+  "a": 3,
+  "e": "National Institutional Ranking Framework."
+ },
+ {
+  "id": 499,
+  "u": "Higher Education System",
+  "t": "Statements",
+  "q": "Consider the statements: 1. NCTE regulates teacher education. 2. The Bar Council of India regulates medical education.",
+  "o": [
+   "A. Only statement 1 is correct",
+   "B. Only statement 2 is correct",
+   "C. Both statements are correct",
+   "D. Neither statement is correct"
+  ],
+  "a": 0,
+  "e": "Medical education is regulated by the medical commission."
+ },
+ {
+  "id": 500,
+  "u": "Higher Education System",
+  "t": "Assertion–Reason",
+  "q": "Assertion (A): NAAC accreditation promotes quality assurance.\nReason (R): It evaluates institutions against defined criteria.",
+  "o": [
+   "A. Both A and R are true, and R is the correct explanation of A",
+   "B. Both A and R are true, but R is not the correct explanation of A",
+   "C. A is true, but R is false",
+   "D. A is false, but R is true"
+  ],
+  "a": 0,
+  "e": "R explains A."
+ },
+ {
+  "id": 501,
+  "u": "Teaching Aptitude",
+  "t": "Concept",
+  "q": "Which is a characteristic of good teaching?",
+  "o": [
+   "A. Relies only on dictation",
+   "B. Avoids questions",
+   "C. Encourages learner participation",
+   "D. Ignores feedback"
+  ],
+  "a": 2,
+  "e": "Good teaching is interactive and responsive."
+ },
+ {
+  "id": 502,
+  "u": "Teaching Aptitude",
+  "t": "Concept",
+  "q": "Teaching objectives are best stated in terms of:",
+  "o": [
+   "A. Teacher activity",
+   "B. Observable learner behaviour",
+   "C. Class timings",
+   "D. Syllabus length"
+  ],
+  "a": 1,
+  "e": "Behavioural objectives are measurable."
+ },
+ {
+  "id": 503,
+  "u": "Teaching Aptitude",
+  "t": "Concept",
+  "q": "In Bloom's original cognitive taxonomy, the lowest level is:",
+  "o": [
+   "A. Knowledge",
+   "B. Synthesis",
+   "C. Evaluation",
+   "D. Analysis"
+  ],
+  "a": 0,
+  "e": "Knowledge (remembering) is the base level."
+ },
+ {
+  "id": 504,
+  "u": "Teaching Aptitude",
+  "t": "Concept",
+  "q": "Individual differences among learners arise from:",
+  "o": [
+   "A. Seating",
+   "B. Syllabus",
+   "C. Heredity and environment",
+   "D. Teacher's mood"
+  ],
+  "a": 2,
+  "e": "Both nature and nurture shape learners."
+ },
+ {
+  "id": 505,
+  "u": "Teaching Aptitude",
+  "t": "Concept",
+  "q": "The Montessori method is mainly associated with:",
+  "o": [
+   "A. Distance learning",
+   "B. Adult education",
+   "C. University teaching",
+   "D. Early childhood education"
+  ],
+  "a": 3,
+  "e": "It stresses self-directed activity in young children."
+ },
+ {
+  "id": 506,
+  "u": "Teaching Aptitude",
+  "t": "Concept",
+  "q": "Which method is teacher-centred?",
+  "o": [
+   "A. Project method",
+   "B. Discovery method",
+   "C. Group discussion",
+   "D. Lecture method"
+  ],
+  "a": 3,
+  "e": "The teacher is the main source of information."
+ },
+ {
+  "id": 507,
+  "u": "Teaching Aptitude",
+  "t": "Concept",
+  "q": "Micro-teaching is used to:",
+  "o": [
+   "A. Develop specific teaching skills in a simplified setting",
+   "B. Test students",
+   "C. Teach large classes",
+   "D. Replace the syllabus"
+  ],
+  "a": 0,
+  "e": "It is a short, focused practice session."
+ },
+ {
+  "id": 508,
+  "u": "Teaching Aptitude",
+  "t": "Concept",
+  "q": "Which is an ICT-based teaching support?",
+  "o": [
+   "A. Learning management system",
+   "B. Printed chart",
+   "C. Chalk",
+   "D. Wall map"
+  ],
+  "a": 0,
+  "e": "LMS platforms deliver and track online learning."
+ },
+ {
+  "id": 509,
+  "u": "Teaching Aptitude",
+  "t": "Concept",
+  "q": "Computer-based testing is an example of:",
+  "o": [
+   "A. Oral examination",
+   "B. Technology-enabled evaluation",
+   "C. Teacher-made charts",
+   "D. Rote learning"
+  ],
+  "a": 1,
+  "e": "Assessment delivered through computers."
+ },
+ {
+  "id": 510,
+  "u": "Teaching Aptitude",
+  "t": "Concept",
+  "q": "Adult learners (andragogy) are typically:",
+  "o": [
+   "A. Self-directed and experience-based",
+   "B. Only memory-driven",
+   "C. Fully dependent",
+   "D. Disinterested"
+  ],
+  "a": 0,
+  "e": "Knowles's assumptions about adult learning."
+ },
+ {
+  "id": 511,
+  "u": "Teaching Aptitude",
+  "t": "Application",
+  "q": "A teacher asks learners to solve a real-life problem in groups. This is:",
+  "o": [
+   "A. Lecture",
+   "B. Dictation",
+   "C. Problem-based cooperative learning",
+   "D. Rote learning"
+  ],
+  "a": 2,
+  "e": "Learners collaborate on authentic problems."
+ },
+ {
+  "id": 512,
+  "u": "Teaching Aptitude",
+  "t": "Application",
+  "q": "A student repeatedly scores low in one topic. The teacher should first conduct:",
+  "o": [
+   "A. Diagnostic assessment",
+   "B. Ranking",
+   "C. Annual exam",
+   "D. Summative test"
+  ],
+  "a": 0,
+  "e": "It locates the exact learning difficulty."
+ },
+ {
+  "id": 513,
+  "u": "Teaching Aptitude",
+  "t": "Application",
+  "q": "A teacher gives immediate feedback after each answer. This mainly supports:",
+  "o": [
+   "A. Boredom",
+   "B. Punishment",
+   "C. Cramming",
+   "D. Reinforcement of learning"
+  ],
+  "a": 3,
+  "e": "Timely feedback strengthens correct learning."
+ },
+ {
+  "id": 514,
+  "u": "Teaching Aptitude",
+  "t": "Match the following",
+  "q": "Match: A Heuristic method, B Lecture, C Demonstration with (1) Learning by discovery (2) Teacher talks (3) Showing a procedure",
+  "o": [
+   "A. A-2, B-1, C-3",
+   "B. A-1, B-3, C-2",
+   "C. A-3, B-2, C-1",
+   "D. A-1, B-2, C-3"
+  ],
+  "a": 3,
+  "e": "Methods and their features."
+ },
+ {
+  "id": 515,
+  "u": "Teaching Aptitude",
+  "t": "Match the following",
+  "q": "Match: A Pedagogy, B Andragogy, C Heutagogy with (1) Teaching children (2) Teaching adults (3) Self-determined learning",
+  "o": [
+   "A. A-1, B-2, C-3",
+   "B. A-3, B-2, C-1",
+   "C. A-2, B-1, C-3",
+   "D. A-1, B-3, C-2"
+  ],
+  "a": 0,
+  "e": "Approaches by learner type."
+ },
+ {
+  "id": 516,
+  "u": "Teaching Aptitude",
+  "t": "Statements",
+  "q": "Consider the statements: 1. Learning outcomes should be measurable. 2. Evaluation means testing only.",
+  "o": [
+   "A. Only statement 1 is correct",
+   "B. Only statement 2 is correct",
+   "C. Both statements are correct",
+   "D. Neither statement is correct"
+  ],
+  "a": 0,
+  "e": "Evaluation is broader than testing."
+ },
+ {
+  "id": 517,
+  "u": "Teaching Aptitude",
+  "t": "Statements",
+  "q": "Consider the statements: 1. Individual differences must be considered in teaching. 2. All learners learn at the same pace.",
+  "o": [
+   "A. Only statement 1 is correct",
+   "B. Only statement 2 is correct",
+   "C. Both statements are correct",
+   "D. Neither statement is correct"
+  ],
+  "a": 0,
+  "e": "Learners differ in pace and style."
+ },
+ {
+  "id": 518,
+  "u": "Teaching Aptitude",
+  "t": "Assertion–Reason",
+  "q": "Assertion (A): Learner-centred methods improve engagement.\nReason (R): Learners take an active role in constructing knowledge.",
+  "o": [
+   "A. Both A and R are true, and R is the correct explanation of A",
+   "B. Both A and R are true, but R is not the correct explanation of A",
+   "C. A is true, but R is false",
+   "D. A is false, but R is true"
+  ],
+  "a": 0,
+  "e": "R explains A."
+ },
+ {
+  "id": 519,
+  "u": "Teaching Aptitude",
+  "t": "Assertion–Reason",
+  "q": "Assertion (A): Questioning is an effective teaching strategy.\nReason (R): It stimulates thinking and checks understanding.",
+  "o": [
+   "A. Both A and R are true, and R is the correct explanation of A",
+   "B. Both A and R are true, but R is not the correct explanation of A",
+   "C. A is true, but R is false",
+   "D. A is false, but R is true"
+  ],
+  "a": 0,
+  "e": "R explains A."
+ },
+ {
+  "id": 520,
+  "u": "Teaching Aptitude",
+  "t": "Assertion–Reason",
+  "q": "Assertion (A): Teaching support systems enhance learning.\nReason (R): Modern ICT tools can make content interactive.",
+  "o": [
+   "A. Both A and R are true, and R is the correct explanation of A",
+   "B. Both A and R are true, but R is not the correct explanation of A",
+   "C. A is true, but R is false",
+   "D. A is false, but R is true"
+  ],
+  "a": 0,
+  "e": "R explains A."
+ },
+ {
+  "id": 521,
+  "u": "Research Aptitude",
+  "t": "Concept",
+  "q": "Research ethics requires participants to give:",
+  "o": [
+   "A. Payment",
+   "B. Names publicly",
+   "C. Personal files",
+   "D. Informed consent"
+  ],
+  "a": 3,
+  "e": "Participants must agree knowingly and voluntarily."
+ },
+ {
+  "id": 522,
+  "u": "Research Aptitude",
+  "t": "Concept",
+  "q": "A research design is:",
+  "o": [
+   "A. A plan for collecting and analysing data",
+   "B. A budget",
+   "C. A final report",
+   "D. A reference list"
+  ],
+  "a": 0,
+  "e": "It is the blueprint of the study."
+ },
+ {
+  "id": 523,
+  "u": "Research Aptitude",
+  "t": "Concept",
+  "q": "A variable manipulated by the researcher is the:",
+  "o": [
+   "A. Extraneous variable",
+   "B. Dependent variable",
+   "C. Independent variable",
+   "D. Control group"
+  ],
+  "a": 2,
+  "e": "The cause or treatment."
+ },
+ {
+  "id": 524,
+  "u": "Research Aptitude",
+  "t": "Concept",
+  "q": "The outcome variable that is measured is the:",
+  "o": [
+   "A. Independent variable",
+   "B. Dependent variable",
+   "C. Constant",
+   "D. Moderator only"
+  ],
+  "a": 1,
+  "e": "It depends on the treatment."
+ },
+ {
+  "id": 525,
+  "u": "Research Aptitude",
+  "t": "Concept",
+  "q": "Reliability of a research tool refers to:",
+  "o": [
+   "A. Consistency of results",
+   "B. Cost",
+   "C. Measuring what it claims",
+   "D. Length of the tool"
+  ],
+  "a": 0,
+  "e": "Same results on repeated use."
+ },
+ {
+  "id": 526,
+  "u": "Research Aptitude",
+  "t": "Concept",
+  "q": "Validity of a research tool refers to:",
+  "o": [
+   "A. Popularity",
+   "B. Measuring what it is meant to measure",
+   "C. Speed",
+   "D. Consistency only"
+  ],
+  "a": 1,
+  "e": "Accuracy of measurement."
+ },
+ {
+  "id": 527,
+  "u": "Research Aptitude",
+  "t": "Concept",
+  "q": "Case study method focuses on:",
+  "o": [
+   "A. In-depth study of a single unit",
+   "B. Laboratory trials",
+   "C. Mathematical models",
+   "D. Large random samples"
+  ],
+  "a": 0,
+  "e": "Detailed study of one case."
+ },
+ {
+  "id": 528,
+  "u": "Research Aptitude",
+  "t": "Concept",
+  "q": "Which referencing style is widely used in social sciences?",
+  "o": [
+   "A. ISBN",
+   "B. DOI",
+   "C. HTML",
+   "D. APA"
+  ],
+  "a": 3,
+  "e": "American Psychological Association style."
+ },
+ {
+  "id": 529,
+  "u": "Research Aptitude",
+  "t": "Concept",
+  "q": "The abstract of a thesis is:",
+  "o": [
+   "A. The bibliography",
+   "B. A brief summary of the study",
+   "C. The index",
+   "D. The consent form"
+  ],
+  "a": 1,
+  "e": "It summarises aims, methods and findings."
+ },
+ {
+  "id": 530,
+  "u": "Research Aptitude",
+  "t": "Concept",
+  "q": "Ex-post facto research studies:",
+  "o": [
+   "A. Laboratory treatments",
+   "B. Future events",
+   "C. Events that have already occurred, without manipulation",
+   "D. Random trials"
+  ],
+  "a": 2,
+  "e": "Causes are studied after the fact."
+ },
+ {
+  "id": 531,
+  "u": "Research Aptitude",
+  "t": "Concept",
+  "q": "Action research aims at:",
+  "o": [
+   "A. Pure theory",
+   "B. Solving a practical problem in one's own setting",
+   "C. Market research",
+   "D. Historical analysis"
+  ],
+  "a": 1,
+  "e": "Common in classrooms."
+ },
+ {
+  "id": 532,
+  "u": "Research Aptitude",
+  "t": "Application",
+  "q": "A researcher assigns students to two groups to test a new teaching method. This is:",
+  "o": [
+   "A. Experimental research",
+   "B. Survey only",
+   "C. Historical research",
+   "D. Case study"
+  ],
+  "a": 0,
+  "e": "A treatment and a control group."
+ },
+ {
+  "id": 533,
+  "u": "Research Aptitude",
+  "t": "Application",
+  "q": "A researcher interviews 15 teachers in depth about their experiences. This approach is:",
+  "o": [
+   "A. Statistical only",
+   "B. Experimental",
+   "C. Qualitative",
+   "D. Quantitative"
+  ],
+  "a": 2,
+  "e": "Depth over numbers."
+ },
+ {
+  "id": 534,
+  "u": "Research Aptitude",
+  "t": "Application",
+  "q": "A researcher picks every 10th name from a list. This is:",
+  "o": [
+   "A. Cluster sampling",
+   "B. Systematic sampling",
+   "C. Quota sampling",
+   "D. Stratified sampling"
+  ],
+  "a": 1,
+  "e": "A fixed interval is used."
+ },
+ {
+  "id": 535,
+  "u": "Research Aptitude",
+  "t": "Match the following",
+  "q": "Match: A Population, B Sample, C Variable with (1) Subset of the population (2) Entire group (3) Characteristic that varies",
+  "o": [
+   "A. A-3, B-1, C-2",
+   "B. A-1, B-2, C-3",
+   "C. A-2, B-3, C-1",
+   "D. A-2, B-1, C-3"
+  ],
+  "a": 3,
+  "e": "Basic research terms."
+ },
+ {
+  "id": 536,
+  "u": "Research Aptitude",
+  "t": "Statements",
+  "q": "Consider the statements: 1. Plagiarism is a breach of research ethics. 2. Citing sources removes the need for originality.",
+  "o": [
+   "A. Only statement 1 is correct",
+   "B. Only statement 2 is correct",
+   "C. Both statements are correct",
+   "D. Neither statement is correct"
+  ],
+  "a": 0,
+  "e": "Originality is still required."
+ },
+ {
+  "id": 537,
+  "u": "Research Aptitude",
+  "t": "Statements",
+  "q": "Consider the statements: 1. A sample should be representative of the population. 2. A larger sample always removes bias.",
+  "o": [
+   "A. Only statement 1 is correct",
+   "B. Only statement 2 is correct",
+   "C. Both statements are correct",
+   "D. Neither statement is correct"
+  ],
+  "a": 0,
+  "e": "Bias depends on method, not size alone."
+ },
+ {
+  "id": 538,
+  "u": "Research Aptitude",
+  "t": "Assertion–Reason",
+  "q": "Assertion (A): Pilot studies are conducted before the main research.\nReason (R): They help refine tools and procedures.",
+  "o": [
+   "A. Both A and R are true, and R is the correct explanation of A",
+   "B. Both A and R are true, but R is not the correct explanation of A",
+   "C. A is true, but R is false",
+   "D. A is false, but R is true"
+  ],
+  "a": 0,
+  "e": "R explains A."
+ },
+ {
+  "id": 539,
+  "u": "Research Aptitude",
+  "t": "Assertion–Reason",
+  "q": "Assertion (A): Research should be objective.\nReason (R): Objectivity reduces the influence of personal bias.",
+  "o": [
+   "A. Both A and R are true, and R is the correct explanation of A",
+   "B. Both A and R are true, but R is not the correct explanation of A",
+   "C. A is true, but R is false",
+   "D. A is false, but R is true"
+  ],
+  "a": 0,
+  "e": "R explains A."
+ },
+ {
+  "id": 540,
+  "u": "Research Aptitude",
+  "t": "Assertion–Reason",
+  "q": "Assertion (A): Review of related literature is necessary.\nReason (R): It shows what is already known and what gaps remain.",
+  "o": [
+   "A. Both A and R are true, and R is the correct explanation of A",
+   "B. Both A and R are true, but R is not the correct explanation of A",
+   "C. A is true, but R is false",
+   "D. A is false, but R is true"
+  ],
+  "a": 0,
+  "e": "R explains A."
+ },
+ {
+  "id": 541,
+  "u": "Comprehension",
+  "t": "Concept",
+  "q": "Passage: 'Technology has made information easily accessible, yet the ability to judge its reliability remains rare.' The main point is:",
+  "o": [
+   "A. Reliability is unimportant",
+   "B. Judging reliability is rare despite easy access",
+   "C. Technology is harmful",
+   "D. Information is scarce"
+  ],
+  "a": 1,
+  "e": "The contrast is access versus judgment."
+ },
+ {
+  "id": 542,
+  "u": "Comprehension",
+  "t": "Concept",
+  "q": "The word 'meticulous' means:",
+  "o": [
+   "A. Rude",
+   "B. Lazy",
+   "C. Careful and precise",
+   "D. Careless"
+  ],
+  "a": 2,
+  "e": "Meticulous means showing great attention to detail."
+ },
+ {
+  "id": 543,
+  "u": "Comprehension",
+  "t": "Concept",
+  "q": "The antonym of 'scarce' is:",
+  "o": [
+   "A. Rare",
+   "B. Little",
+   "C. Limited",
+   "D. Abundant"
+  ],
+  "a": 3,
+  "e": "Scarce means in short supply."
+ },
+ {
+  "id": 544,
+  "u": "Comprehension",
+  "t": "Concept",
+  "q": "The word 'ephemeral' means:",
+  "o": [
+   "A. Heavy",
+   "B. Short-lived",
+   "C. Eternal",
+   "D. Famous"
+  ],
+  "a": 1,
+  "e": "Lasting a very short time."
+ },
+ {
+  "id": 545,
+  "u": "Comprehension",
+  "t": "Concept",
+  "q": "The antonym of 'verbose' is:",
+  "o": [
+   "A. Long",
+   "B. Wordy",
+   "C. Concise",
+   "D. Loud"
+  ],
+  "a": 2,
+  "e": "Verbose means using too many words."
+ },
+ {
+  "id": 546,
+  "u": "Comprehension",
+  "t": "Concept",
+  "q": "'Implicit' means:",
+  "o": [
+   "A. Clearly stated",
+   "B. Implied, not directly stated",
+   "C. Written",
+   "D. Wrong"
+  ],
+  "a": 1,
+  "e": "Opposite of explicit."
+ },
+ {
+  "id": 547,
+  "u": "Comprehension",
+  "t": "Concept",
+  "q": "Passage: 'Rivers have shaped civilisations, supplying water, fertile soil and transport.' Which statement is NOT supported?",
+  "o": [
+   "A. Rivers influenced civilisations",
+   "B. Rivers provided water",
+   "C. Rivers supported transport",
+   "D. Rivers have no role in agriculture"
+  ],
+  "a": 3,
+  "e": "Fertile soil implies a role in agriculture."
+ },
+ {
+  "id": 548,
+  "u": "Comprehension",
+  "t": "Concept",
+  "q": "A passage that argues for a viewpoint using reasons is:",
+  "o": [
+   "A. Purely factual",
+   "B. Argumentative",
+   "C. Descriptive",
+   "D. Narrative"
+  ],
+  "a": 1,
+  "e": "It aims to persuade."
+ },
+ {
+  "id": 549,
+  "u": "Comprehension",
+  "t": "Concept",
+  "q": "The 'gist' of a passage is its:",
+  "o": [
+   "A. Title only",
+   "B. Main idea in brief",
+   "C. First word",
+   "D. Longest sentence"
+  ],
+  "a": 1,
+  "e": "The essential meaning."
+ },
+ {
+  "id": 550,
+  "u": "Comprehension",
+  "t": "Concept",
+  "q": "Passage: 'She was reluctant to speak, yet her silence conveyed strong disapproval.' Her silence indicated:",
+  "o": [
+   "A. Confusion",
+   "B. Disapproval",
+   "C. Joy",
+   "D. Approval"
+  ],
+  "a": 1,
+  "e": "The passage states it directly."
+ },
+ {
+  "id": 551,
+  "u": "Comprehension",
+  "t": "Concept",
+  "q": "The idiom 'to burn the midnight oil' means:",
+  "o": [
+   "A. To waste fuel",
+   "B. To sleep early",
+   "C. To cook at night",
+   "D. To work late into the night"
+  ],
+  "a": 3,
+  "e": "Working or studying late."
+ },
+ {
+  "id": 552,
+  "u": "Comprehension",
+  "t": "Concept",
+  "q": "The idiom 'a piece of cake' means:",
+  "o": [
+   "A. A reward",
+   "B. A sweet dish",
+   "C. Something very easy",
+   "D. A gift"
+  ],
+  "a": 2,
+  "e": "An easy task."
+ },
+ {
+  "id": 553,
+  "u": "Comprehension",
+  "t": "Concept",
+  "q": "One word for 'a person who loves books' is:",
+  "o": [
+   "A. Philanthropist",
+   "B. Bibliophile",
+   "C. Misanthrope",
+   "D. Linguist"
+  ],
+  "a": 1,
+  "e": "Biblio means book."
+ },
+ {
+  "id": 554,
+  "u": "Comprehension",
+  "t": "Concept",
+  "q": "Fill in the blank: 'He insisted ___ going.'",
+  "o": [
+   "A. on",
+   "B. to",
+   "C. in",
+   "D. at"
+  ],
+  "a": 0,
+  "e": "'Insist on' is the correct collocation."
+ },
+ {
+  "id": 555,
+  "u": "Comprehension",
+  "t": "Concept",
+  "q": "Choose the correct spelling:",
+  "o": [
+   "A. Accomodation",
+   "B. Acomodation",
+   "C. Accommodation",
+   "D. Acommodation"
+  ],
+  "a": 2,
+  "e": "Double c and double m."
+ },
+ {
+  "id": 556,
+  "u": "Comprehension",
+  "t": "Concept",
+  "q": "The 'author's purpose' in a passage refers to:",
+  "o": [
+   "A. The publisher",
+   "B. Why the author wrote it",
+   "C. The font",
+   "D. The page count"
+  ],
+  "a": 1,
+  "e": "E.g. to inform, persuade or entertain."
+ },
+ {
+  "id": 557,
+  "u": "Comprehension",
+  "t": "Concept",
+  "q": "'Explicit' means:",
+  "o": [
+   "A. Unclear",
+   "B. Hidden",
+   "C. Doubtful",
+   "D. Clearly stated"
+  ],
+  "a": 3,
+  "e": "Opposite of implicit."
+ },
+ {
+  "id": 558,
+  "u": "Comprehension",
+  "t": "Statements",
+  "q": "Consider the statements: 1. Context helps decode unfamiliar words. 2. Every word has only one meaning in all contexts.",
+  "o": [
+   "A. Only statement 1 is correct",
+   "B. Only statement 2 is correct",
+   "C. Both statements are correct",
+   "D. Neither statement is correct"
+  ],
+  "a": 0,
+  "e": "Words can have several meanings."
+ },
+ {
+  "id": 559,
+  "u": "Comprehension",
+  "t": "Assertion–Reason",
+  "q": "Assertion (A): Skimming helps to grasp the general idea quickly.\nReason (R): It involves reading selected parts rather than every word.",
+  "o": [
+   "A. Both A and R are true, and R is the correct explanation of A",
+   "B. Both A and R are true, but R is not the correct explanation of A",
+   "C. A is true, but R is false",
+   "D. A is false, but R is true"
+  ],
+  "a": 0,
+  "e": "R explains A."
+ },
+ {
+  "id": 560,
+  "u": "Comprehension",
+  "t": "Assertion–Reason",
+  "q": "Assertion (A): Re-reading improves comprehension.\nReason (R): It allows the reader to notice details missed earlier.",
+  "o": [
+   "A. Both A and R are true, and R is the correct explanation of A",
+   "B. Both A and R are true, but R is not the correct explanation of A",
+   "C. A is true, but R is false",
+   "D. A is false, but R is true"
+  ],
+  "a": 0,
+  "e": "R explains A."
+ },
+ {
+  "id": 561,
+  "u": "Communication",
+  "t": "Concept",
+  "q": "The word 'communication' comes from the Latin 'communis', meaning:",
+  "o": [
+   "A. Channel",
+   "B. Common",
+   "C. Speech",
+   "D. Message"
+  ],
+  "a": 1,
+  "e": "To make common."
+ },
+ {
+  "id": 562,
+  "u": "Communication",
+  "t": "Concept",
+  "q": "Which is verbal communication?",
+  "o": [
+   "A. Posture",
+   "B. Gesture",
+   "C. Telephone conversation",
+   "D. Facial expression"
+  ],
+  "a": 2,
+  "e": "Uses spoken words."
+ },
+ {
+  "id": 563,
+  "u": "Communication",
+  "t": "Concept",
+  "q": "Upward communication flows:",
+  "o": [
+   "A. Outside the organisation",
+   "B. From subordinates to superiors",
+   "C. Between peers",
+   "D. From superiors to subordinates"
+  ],
+  "a": 1,
+  "e": "Reports and feedback."
+ },
+ {
+  "id": 564,
+  "u": "Communication",
+  "t": "Concept",
+  "q": "Horizontal communication occurs between:",
+  "o": [
+   "A. Customers only",
+   "B. Strangers",
+   "C. People at the same level",
+   "D. Boss and staff"
+  ],
+  "a": 2,
+  "e": "Peer-to-peer."
+ },
+ {
+  "id": 565,
+  "u": "Communication",
+  "t": "Concept",
+  "q": "A barrier caused by different meanings of words is:",
+  "o": [
+   "A. Spatial barrier",
+   "B. Physical barrier",
+   "C. Mechanical barrier",
+   "D. Semantic barrier"
+  ],
+  "a": 3,
+  "e": "Language-based."
+ },
+ {
+  "id": 566,
+  "u": "Communication",
+  "t": "Concept",
+  "q": "Kinesics is the study of:",
+  "o": [
+   "A. Time",
+   "B. Body movements",
+   "C. Space",
+   "D. Touch only"
+  ],
+  "a": 1,
+  "e": "Gestures and posture."
+ },
+ {
+  "id": 567,
+  "u": "Communication",
+  "t": "Concept",
+  "q": "Proxemics deals with:",
+  "o": [
+   "A. Dress",
+   "B. Voice tone",
+   "C. Use of space and distance",
+   "D. Time"
+  ],
+  "a": 2,
+  "e": "Personal space."
+ },
+ {
+  "id": 568,
+  "u": "Communication",
+  "t": "Concept",
+  "q": "Which is an example of mass media?",
+  "o": [
+   "A. Letter",
+   "B. Television",
+   "C. Face-to-face talk",
+   "D. Phone call"
+  ],
+  "a": 1,
+  "e": "Reaches large audiences."
+ },
+ {
+  "id": 569,
+  "u": "Communication",
+  "t": "Concept",
+  "q": "'Encoding' is done by the:",
+  "o": [
+   "A. Observer",
+   "B. Receiver",
+   "C. Sender",
+   "D. Channel"
+  ],
+  "a": 2,
+  "e": "The sender converts ideas into a message."
+ },
+ {
+  "id": 570,
+  "u": "Communication",
+  "t": "Concept",
+  "q": "'Decoding' is done by the:",
+  "o": [
+   "A. Receiver",
+   "B. Printer",
+   "C. Editor",
+   "D. Sender"
+  ],
+  "a": 0,
+  "e": "The receiver interprets the message."
+ },
+ {
+  "id": 571,
+  "u": "Communication",
+  "t": "Concept",
+  "q": "McLuhan's famous phrase says 'The medium is the:'",
+  "o": [
+   "A. Noise",
+   "B. Message",
+   "C. Feedback",
+   "D. Channel"
+  ],
+  "a": 1,
+  "e": "Marshall McLuhan, 1964."
+ },
+ {
+  "id": 572,
+  "u": "Communication",
+  "t": "Concept",
+  "q": "Public opinion is significantly shaped by:",
+  "o": [
+   "A. Only school",
+   "B. Only family",
+   "C. Only law",
+   "D. Mass media"
+  ],
+  "a": 3,
+  "e": "Media influence is wide."
+ },
+ {
+  "id": 573,
+  "u": "Communication",
+  "t": "Concept",
+  "q": "Which is a formal channel of communication?",
+  "o": [
+   "A. Gossip",
+   "B. Grapevine",
+   "C. Rumour",
+   "D. Official memo"
+  ],
+  "a": 3,
+  "e": "Follows organisational hierarchy."
+ },
+ {
+  "id": 574,
+  "u": "Communication",
+  "t": "Concept",
+  "q": "Effective listening requires:",
+  "o": [
+   "A. Distraction",
+   "B. Interruptions",
+   "C. Attention and feedback",
+   "D. Assumptions"
+  ],
+  "a": 2,
+  "e": "Active listening."
+ },
+ {
+  "id": 575,
+  "u": "Communication",
+  "t": "Match the following",
+  "q": "Match: A Kinesics, B Proxemics, C Chronemics with (1) Body movement (2) Space (3) Time",
+  "o": [
+   "A. A-2, B-1, C-3",
+   "B. A-1, B-2, C-3",
+   "C. A-3, B-2, C-1",
+   "D. A-1, B-3, C-2"
+  ],
+  "a": 1,
+  "e": "Branches of non-verbal communication."
+ },
+ {
+  "id": 576,
+  "u": "Communication",
+  "t": "Statements",
+  "q": "Consider the statements: 1. Communication is a one-way process only. 2. Feedback makes communication two-way.",
+  "o": [
+   "A. Only statement 1 is correct",
+   "B. Only statement 2 is correct",
+   "C. Both statements are correct",
+   "D. Neither statement is correct"
+  ],
+  "a": 1,
+  "e": "Feedback creates two-way flow."
+ },
+ {
+  "id": 577,
+  "u": "Communication",
+  "t": "Statements",
+  "q": "Consider the statements: 1. Group communication involves more than two people. 2. Intercultural communication requires cultural sensitivity.",
+  "o": [
+   "A. Only statement 1 is correct",
+   "B. Only statement 2 is correct",
+   "C. Both statements are correct",
+   "D. Neither statement is correct"
+  ],
+  "a": 2,
+  "e": "Both are correct."
+ },
+ {
+  "id": 578,
+  "u": "Communication",
+  "t": "Assertion–Reason",
+  "q": "Assertion (A): Body language can reinforce or contradict spoken words.\nReason (R): Non-verbal cues carry meaning.",
+  "o": [
+   "A. Both A and R are true, and R is the correct explanation of A",
+   "B. Both A and R are true, but R is not the correct explanation of A",
+   "C. A is true, but R is false",
+   "D. A is false, but R is true"
+  ],
+  "a": 0,
+  "e": "R explains A."
+ },
+ {
+  "id": 579,
+  "u": "Communication",
+  "t": "Assertion–Reason",
+  "q": "Assertion (A): Clear language reduces misunderstanding.\nReason (R): Ambiguous words create semantic barriers.",
+  "o": [
+   "A. Both A and R are true, and R is the correct explanation of A",
+   "B. Both A and R are true, but R is not the correct explanation of A",
+   "C. A is true, but R is false",
+   "D. A is false, but R is true"
+  ],
+  "a": 0,
+  "e": "R explains A."
+ },
+ {
+  "id": 580,
+  "u": "Communication",
+  "t": "Assertion–Reason",
+  "q": "Assertion (A): Classroom noise can hinder communication.\nReason (R): Noise is a barrier that distorts the message.",
+  "o": [
+   "A. Both A and R are true, and R is the correct explanation of A",
+   "B. Both A and R are true, but R is not the correct explanation of A",
+   "C. A is true, but R is false",
+   "D. A is false, but R is true"
+  ],
+  "a": 0,
+  "e": "R explains A."
+ },
+ {
+  "id": 581,
+  "u": "Mathematical Reasoning and Aptitude",
+  "t": "Application",
+  "q": "Next term: 3, 6, 12, 24, ?",
+  "o": [
+   "A. 36",
+   "B. 42",
+   "C. 48",
+   "D. 52"
+  ],
+  "a": 2,
+  "e": "Each term doubles."
+ },
+ {
+  "id": 582,
+  "u": "Mathematical Reasoning and Aptitude",
+  "t": "Application",
+  "q": "Next term: 1, 4, 9, 16, ?",
+  "o": [
+   "A. 20",
+   "B. 24",
+   "C. 25",
+   "D. 36"
+  ],
+  "a": 2,
+  "e": "Perfect squares."
+ },
+ {
+  "id": 583,
+  "u": "Mathematical Reasoning and Aptitude",
+  "t": "Application",
+  "q": "Next term: 2, 6, 12, 20, 30, ?",
+  "o": [
+   "A. 36",
+   "B. 40",
+   "C. 42",
+   "D. 48"
+  ],
+  "a": 2,
+  "e": "Differences increase by 2: next difference 12."
+ },
+ {
+  "id": 584,
+  "u": "Mathematical Reasoning and Aptitude",
+  "t": "Application",
+  "q": "25% of 480 is:",
+  "o": [
+   "A. 100",
+   "B. 110",
+   "C. 120",
+   "D. 125"
+  ],
+  "a": 2,
+  "e": "480 ÷ 4 = 120."
+ },
+ {
+  "id": 585,
+  "u": "Mathematical Reasoning and Aptitude",
+  "t": "Application",
+  "q": "A man walks 6 km in 1.5 hours. His speed is:",
+  "o": [
+   "A. 3 km/h",
+   "B. 4 km/h",
+   "C. 5 km/h",
+   "D. 6 km/h"
+  ],
+  "a": 1,
+  "e": "6 ÷ 1.5 = 4."
+ },
+ {
+  "id": 586,
+  "u": "Mathematical Reasoning and Aptitude",
+  "t": "Application",
+  "q": "If 5 pens cost ₹50, then 8 pens cost:",
+  "o": [
+   "A. ₹60",
+   "B. ₹70",
+   "C. ₹80",
+   "D. ₹90"
+  ],
+  "a": 2,
+  "e": "₹10 each."
+ },
+ {
+  "id": 587,
+  "u": "Mathematical Reasoning and Aptitude",
+  "t": "Application",
+  "q": "The ratio 15:25 in simplest form is:",
+  "o": [
+   "A. 2:3",
+   "B. 3:5",
+   "C. 5:3",
+   "D. 1:2"
+  ],
+  "a": 1,
+  "e": "Divide by 5."
+ },
+ {
+  "id": 588,
+  "u": "Mathematical Reasoning and Aptitude",
+  "t": "Application",
+  "q": "An article sold for ₹360 at 10% loss had a cost price of:",
+  "o": [
+   "A. ₹380",
+   "B. ₹400",
+   "C. ₹420",
+   "D. ₹450"
+  ],
+  "a": 1,
+  "e": "CP × 0.9 = 360, so CP = 400."
+ },
+ {
+  "id": 589,
+  "u": "Mathematical Reasoning and Aptitude",
+  "t": "Application",
+  "q": "A 20% discount on ₹500 gives a price of:",
+  "o": [
+   "A. ₹380",
+   "B. ₹400",
+   "C. ₹420",
+   "D. ₹450"
+  ],
+  "a": 1,
+  "e": "500 − 100 = 400."
+ },
+ {
+  "id": 590,
+  "u": "Mathematical Reasoning and Aptitude",
+  "t": "Application",
+  "q": "The average of 5 numbers is 20. Their sum is:",
+  "o": [
+   "A. 80",
+   "B. 90",
+   "C. 100",
+   "D. 120"
+  ],
+  "a": 2,
+  "e": "5 × 20."
+ },
+ {
+  "id": 591,
+  "u": "Mathematical Reasoning and Aptitude",
+  "t": "Application",
+  "q": "A is B's brother. B is C's sister. C is D's father. A is D's:",
+  "o": [
+   "A. Uncle",
+   "B. Cousin",
+   "C. Father",
+   "D. Brother"
+  ],
+  "a": 0,
+  "e": "A is C's brother, hence D's uncle."
+ },
+ {
+  "id": 592,
+  "u": "Mathematical Reasoning and Aptitude",
+  "t": "Application",
+  "q": "Book : Read :: Food : ?",
+  "o": [
+   "A. Cook",
+   "B. Plant",
+   "C. Buy",
+   "D. Eat"
+  ],
+  "a": 3,
+  "e": "Same function relationship."
+ },
+ {
+  "id": 593,
+  "u": "Mathematical Reasoning and Aptitude",
+  "t": "Application",
+  "q": "Find the odd one out: 3, 5, 9, 11",
+  "o": [
+   "A. 3",
+   "B. 5",
+   "C. 9",
+   "D. 11"
+  ],
+  "a": 2,
+  "e": "9 is not prime."
+ },
+ {
+  "id": 594,
+  "u": "Mathematical Reasoning and Aptitude",
+  "t": "Application",
+  "q": "If A=1, B=2, C=3, then CAB is coded as:",
+  "o": [
+   "A. 123",
+   "B. 312",
+   "C. 321",
+   "D. 213"
+  ],
+  "a": 1,
+  "e": "C=3, A=1, B=2."
+ },
+ {
+  "id": 595,
+  "u": "Mathematical Reasoning and Aptitude",
+  "t": "Application",
+  "q": "At 3:15, the angle between the clock hands is:",
+  "o": [
+   "A. 0°",
+   "B. 7.5°",
+   "C. 15°",
+   "D. 30°"
+  ],
+  "a": 1,
+  "e": "Hour hand at 97.5°, minute hand at 90°."
+ },
+ {
+  "id": 596,
+  "u": "Mathematical Reasoning and Aptitude",
+  "t": "Application",
+  "q": "A can do a work in 10 days and B in 15 days. Together they take:",
+  "o": [
+   "A. 5 days",
+   "B. 6 days",
+   "C. 7 days",
+   "D. 8 days"
+  ],
+  "a": 1,
+  "e": "1/10 + 1/15 = 1/6."
+ },
+ {
+  "id": 597,
+  "u": "Mathematical Reasoning and Aptitude",
+  "t": "Application",
+  "q": "Simple interest on ₹2000 at 5% for 3 years is:",
+  "o": [
+   "A. ₹250",
+   "B. ₹300",
+   "C. ₹350",
+   "D. ₹400"
+  ],
+  "a": 1,
+  "e": "2000 × 5 × 3 / 100."
+ },
+ {
+  "id": 598,
+  "u": "Mathematical Reasoning and Aptitude",
+  "t": "Application",
+  "q": "At 60 km/h, a distance of 150 km takes:",
+  "o": [
+   "A. 2 hours",
+   "B. 2.5 hours",
+   "C. 3 hours",
+   "D. 3.5 hours"
+  ],
+  "a": 1,
+  "e": "150 ÷ 60."
+ },
+ {
+  "id": 599,
+  "u": "Mathematical Reasoning and Aptitude",
+  "t": "Application",
+  "q": "If x + 5 = 12, then x is:",
+  "o": [
+   "A. 5",
+   "B. 6",
+   "C. 7",
+   "D. 8"
+  ],
+  "a": 2,
+  "e": "12 − 5 = 7."
+ },
+ {
+  "id": 600,
+  "u": "Mathematical Reasoning and Aptitude",
+  "t": "Application",
+  "q": "Next letter: B, D, F, H, ?",
+  "o": [
+   "A. K",
+   "B. I",
+   "C. L",
+   "D. J"
+  ],
+  "a": 3,
+  "e": "Alternate letters."
+ },
+ {
+  "id": 601,
+  "u": "Logical Reasoning",
+  "t": "Concept",
+  "q": "'No S are P' is an:",
+  "o": [
+   "A. I proposition",
+   "B. O proposition",
+   "C. E proposition",
+   "D. A proposition"
+  ],
+  "a": 2,
+  "e": "Universal negative."
+ },
+ {
+  "id": 602,
+  "u": "Logical Reasoning",
+  "t": "Concept",
+  "q": "'Some S are P' is an:",
+  "o": [
+   "A. O proposition",
+   "B. A proposition",
+   "C. E proposition",
+   "D. I proposition"
+  ],
+  "a": 3,
+  "e": "Particular affirmative."
+ },
+ {
+  "id": 603,
+  "u": "Logical Reasoning",
+  "t": "Concept",
+  "q": "'Some S are not P' is an:",
+  "o": [
+   "A. I proposition",
+   "B. A proposition",
+   "C. E proposition",
+   "D. O proposition"
+  ],
+  "a": 3,
+  "e": "Particular negative."
+ },
+ {
+  "id": 604,
+  "u": "Logical Reasoning",
+  "t": "Concept",
+  "q": "In the square of opposition, contrary propositions are:",
+  "o": [
+   "A. A and E",
+   "B. I and O",
+   "C. A and O",
+   "D. E and I"
+  ],
+  "a": 0,
+  "e": "They cannot both be true."
+ },
+ {
+  "id": 605,
+  "u": "Logical Reasoning",
+  "t": "Concept",
+  "q": "Subcontrary propositions are:",
+  "o": [
+   "A. E and O",
+   "B. I and O",
+   "C. A and E",
+   "D. A and I"
+  ],
+  "a": 1,
+  "e": "They cannot both be false."
+ },
+ {
+  "id": 606,
+  "u": "Logical Reasoning",
+  "t": "Concept",
+  "q": "'Post hoc ergo propter hoc' is the fallacy of:",
+  "o": [
+   "A. Appeal to force",
+   "B. Attacking the person",
+   "C. Assuming that because B followed A, A caused B",
+   "D. Circular reasoning"
+  ],
+  "a": 2,
+  "e": "False cause fallacy."
+ },
+ {
+  "id": 607,
+  "u": "Logical Reasoning",
+  "t": "Concept",
+  "q": "Circular reasoning is also called:",
+  "o": [
+   "A. Begging the question",
+   "B. Red herring",
+   "C. Slippery slope",
+   "D. Straw man"
+  ],
+  "a": 0,
+  "e": "The conclusion is assumed in the premise."
+ },
+ {
+  "id": 608,
+  "u": "Logical Reasoning",
+  "t": "Concept",
+  "q": "The 'straw man' fallacy involves:",
+  "o": [
+   "A. Equivocation",
+   "B. Hasty generalisation",
+   "C. Misrepresenting an opponent's argument",
+   "D. Appeal to pity"
+  ],
+  "a": 2,
+  "e": "Attacking a distorted version."
+ },
+ {
+  "id": 609,
+  "u": "Logical Reasoning",
+  "t": "Concept",
+  "q": "Appeal to authority is a fallacy when the authority is:",
+  "o": [
+   "A. Peer reviewed",
+   "B. An expert in the field",
+   "C. Cited properly",
+   "D. Irrelevant or unqualified"
+  ],
+  "a": 3,
+  "e": "Irrelevant authority proves nothing."
+ },
+ {
+  "id": 610,
+  "u": "Logical Reasoning",
+  "t": "Concept",
+  "q": "A categorical syllogism has how many terms?",
+  "o": [
+   "A. 2",
+   "B. 3",
+   "C. 4",
+   "D. 5"
+  ],
+  "a": 1,
+  "e": "Major, minor and middle terms."
+ },
+ {
+  "id": 611,
+  "u": "Logical Reasoning",
+  "t": "Concept",
+  "q": "The middle term of a syllogism:",
+  "o": [
+   "A. Appears in both premises but not in the conclusion",
+   "B. Appears only in the conclusion",
+   "C. Appears only in one premise",
+   "D. Is not used"
+  ],
+  "a": 0,
+  "e": "It links the premises."
+ },
+ {
+  "id": 612,
+  "u": "Logical Reasoning",
+  "t": "Concept",
+  "q": "Venn diagrams are used to test:",
+  "o": [
+   "A. Validity of syllogisms",
+   "B. Probability only",
+   "C. Sampling",
+   "D. Grammar"
+  ],
+  "a": 0,
+  "e": "Visual test of validity."
+ },
+ {
+  "id": 613,
+  "u": "Logical Reasoning",
+  "t": "Concept",
+  "q": "Which pramana means comparison?",
+  "o": [
+   "A. Anumana",
+   "B. Pratyaksha",
+   "C. Upamana",
+   "D. Shabda"
+  ],
+  "a": 2,
+  "e": "Knowledge through similarity."
+ },
+ {
+  "id": 614,
+  "u": "Logical Reasoning",
+  "t": "Concept",
+  "q": "Which pramana means verbal testimony?",
+  "o": [
+   "A. Shabda",
+   "B. Anumana",
+   "C. Pratyaksha",
+   "D. Upamana"
+  ],
+  "a": 0,
+  "e": "Testimony of a reliable source."
+ },
+ {
+  "id": 615,
+  "u": "Logical Reasoning",
+  "t": "Concept",
+  "q": "The five-membered Nyaya inference begins with:",
+  "o": [
+   "A. Udaharana",
+   "B. Pratijna (proposition)",
+   "C. Nigamana",
+   "D. Hetu"
+  ],
+  "a": 1,
+  "e": "Pratijna, hetu, udaharana, upanaya, nigamana."
+ },
+ {
+  "id": 616,
+  "u": "Logical Reasoning",
+  "t": "Application",
+  "q": "'The hill has fire because it has smoke.' Smoke is the:",
+  "o": [
+   "A. Paksha",
+   "B. Drishtanta",
+   "C. Hetu",
+   "D. Sadhya"
+  ],
+  "a": 2,
+  "e": "Hetu is the reason or middle term."
+ },
+ {
+  "id": 617,
+  "u": "Logical Reasoning",
+  "t": "Application",
+  "q": "'All birds fly. Penguins are birds. So penguins fly.' This argument has a:",
+  "o": [
+   "A. Strong induction",
+   "B. Valid but sound structure",
+   "C. True conclusion necessarily",
+   "D. False premise"
+  ],
+  "a": 3,
+  "e": "The first premise is false."
+ },
+ {
+  "id": 618,
+  "u": "Logical Reasoning",
+  "t": "Application",
+  "q": "Since 'No cats are dogs' is true, 'Some cats are dogs' is:",
+  "o": [
+   "A. False",
+   "B. True",
+   "C. Undetermined",
+   "D. Neither"
+  ],
+  "a": 0,
+  "e": "E and I are contradictories."
+ },
+ {
+  "id": 619,
+  "u": "Logical Reasoning",
+  "t": "Statements",
+  "q": "Consider the statements: 1. A valid argument can have a false conclusion. 2. A sound argument has a false premise.",
+  "o": [
+   "A. Only statement 1 is correct",
+   "B. Only statement 2 is correct",
+   "C. Both statements are correct",
+   "D. Neither statement is correct"
+  ],
+  "a": 0,
+  "e": "Sound arguments have true premises."
+ },
+ {
+  "id": 620,
+  "u": "Logical Reasoning",
+  "t": "Assertion–Reason",
+  "q": "Assertion (A): Inductive arguments yield probable conclusions.\nReason (R): Their conclusions go beyond the information in the premises.",
+  "o": [
+   "A. Both A and R are true, and R is the correct explanation of A",
+   "B. Both A and R are true, but R is not the correct explanation of A",
+   "C. A is true, but R is false",
+   "D. A is false, but R is true"
+  ],
+  "a": 0,
+  "e": "R explains A."
+ },
+ {
+  "id": 621,
+  "u": "Data Interpretation",
+  "t": "Application",
+  "q": "The median of 40, 50, 60, 70, 80 is:",
+  "o": [
+   "A. 50",
+   "B. 55",
+   "C. 60",
+   "D. 65"
+  ],
+  "a": 2,
+  "e": "Middle value."
+ },
+ {
+  "id": 622,
+  "u": "Data Interpretation",
+  "t": "Application",
+  "q": "The mode of 2, 3, 3, 4, 5 is:",
+  "o": [
+   "A. 2",
+   "B. 3",
+   "C. 4",
+   "D. 5"
+  ],
+  "a": 1,
+  "e": "Most frequent."
+ },
+ {
+  "id": 623,
+  "u": "Data Interpretation",
+  "t": "Application",
+  "q": "The range of 12, 18, 25, 30 is:",
+  "o": [
+   "A. 12",
+   "B. 16",
+   "C. 18",
+   "D. 20"
+  ],
+  "a": 2,
+  "e": "30 − 12."
+ },
+ {
+  "id": 624,
+  "u": "Data Interpretation",
+  "t": "Application",
+  "q": "45 out of 180 is what percent?",
+  "o": [
+   "A. 20%",
+   "B. 25%",
+   "C. 30%",
+   "D. 45%"
+  ],
+  "a": 1,
+  "e": "45/180 = 25%."
+ },
+ {
+  "id": 625,
+  "u": "Data Interpretation",
+  "t": "Application",
+  "q": "Population grew from 2,000 to 2,500. Percentage growth is:",
+  "o": [
+   "A. 20%",
+   "B. 25%",
+   "C. 30%",
+   "D. 50%"
+  ],
+  "a": 1,
+  "e": "500/2000."
+ },
+ {
+  "id": 626,
+  "u": "Data Interpretation",
+  "t": "Application",
+  "q": "In a pie chart of 360°, 30% corresponds to:",
+  "o": [
+   "A. 90°",
+   "B. 100°",
+   "C. 108°",
+   "D. 120°"
+  ],
+  "a": 2,
+  "e": "0.3 × 360."
+ },
+ {
+  "id": 627,
+  "u": "Data Interpretation",
+  "t": "Application",
+  "q": "The mean of 4, 8, 12, 16 is:",
+  "o": [
+   "A. 8",
+   "B. 10",
+   "C. 12",
+   "D. 14"
+  ],
+  "a": 1,
+  "e": "40 ÷ 4."
+ },
+ {
+  "id": 628,
+  "u": "Data Interpretation",
+  "t": "Concept",
+  "q": "A bar chart is best suited for:",
+  "o": [
+   "A. Showing a trend over decades only",
+   "B. Comparing categories",
+   "C. Writing text",
+   "D. Mapping places"
+  ],
+  "a": 1,
+  "e": "Bars compare values."
+ },
+ {
+  "id": 629,
+  "u": "Data Interpretation",
+  "t": "Concept",
+  "q": "A scatter plot shows:",
+  "o": [
+   "A. Relationship between two variables",
+   "B. A timeline",
+   "C. A family tree",
+   "D. Parts of a whole"
+  ],
+  "a": 0,
+  "e": "Points plotted on two axes."
+ },
+ {
+  "id": 630,
+  "u": "Data Interpretation",
+  "t": "Concept",
+  "q": "A frequency polygon is derived from:",
+  "o": [
+   "A. A table of names",
+   "B. A map",
+   "C. A histogram",
+   "D. A pie chart"
+  ],
+  "a": 2,
+  "e": "Join midpoints of bar tops."
+ },
+ {
+  "id": 631,
+  "u": "Data Interpretation",
+  "t": "Concept",
+  "q": "Data on religion or caste is:",
+  "o": [
+   "A. Interval",
+   "B. Quantitative",
+   "C. Continuous",
+   "D. Qualitative"
+  ],
+  "a": 3,
+  "e": "Categorical data."
+ },
+ {
+  "id": 632,
+  "u": "Data Interpretation",
+  "t": "Concept",
+  "q": "Height measured in centimetres is:",
+  "o": [
+   "A. Nominal data",
+   "B. Qualitative data",
+   "C. Discrete data",
+   "D. Continuous data"
+  ],
+  "a": 3,
+  "e": "Can take any value in a range."
+ },
+ {
+  "id": 633,
+  "u": "Data Interpretation",
+  "t": "Concept",
+  "q": "Number of students in a class is:",
+  "o": [
+   "A. Continuous data",
+   "B. Discrete data",
+   "C. Nominal data",
+   "D. Ordinal data"
+  ],
+  "a": 1,
+  "e": "Countable whole numbers."
+ },
+ {
+  "id": 634,
+  "u": "Data Interpretation",
+  "t": "Concept",
+  "q": "Cumulative frequency is obtained by:",
+  "o": [
+   "A. Adding frequencies successively",
+   "B. Subtracting frequencies",
+   "C. Multiplying frequencies",
+   "D. Dividing frequencies"
+  ],
+  "a": 0,
+  "e": "Running total."
+ },
+ {
+  "id": 635,
+  "u": "Data Interpretation",
+  "t": "Concept",
+  "q": "An ogive is a graph of:",
+  "o": [
+   "A. Class width",
+   "B. Sample size",
+   "C. Cumulative frequency",
+   "D. Mode"
+  ],
+  "a": 2,
+  "e": "Used to find median graphically."
+ },
+ {
+  "id": 636,
+  "u": "Data Interpretation",
+  "t": "Concept",
+  "q": "Which measure is least affected by extreme values?",
+  "o": [
+   "A. Median",
+   "B. Mean",
+   "C. Sum",
+   "D. Range"
+  ],
+  "a": 0,
+  "e": "Median depends on position."
+ },
+ {
+  "id": 637,
+  "u": "Data Interpretation",
+  "t": "Concept",
+  "q": "Secondary data is obtained from:",
+  "o": [
+   "A. Experiments",
+   "B. Direct observation",
+   "C. Existing sources such as reports and census",
+   "D. The researcher's own survey"
+  ],
+  "a": 2,
+  "e": "Already collected data."
+ },
+ {
+  "id": 638,
+  "u": "Data Interpretation",
+  "t": "Concept",
+  "q": "The Census in India is conducted every:",
+  "o": [
+   "A. 5 years",
+   "B. 10 years",
+   "C. 15 years",
+   "D. 20 years"
+  ],
+  "a": 1,
+  "e": "Decennial census."
+ },
+ {
+  "id": 639,
+  "u": "Data Interpretation",
+  "t": "Statements",
+  "q": "Consider the statements: 1. The mean is affected by outliers. 2. The median is the middle value of ordered data.",
+  "o": [
+   "A. Only statement 1 is correct",
+   "B. Only statement 2 is correct",
+   "C. Both statements are correct",
+   "D. Neither statement is correct"
+  ],
+  "a": 2,
+  "e": "Both are correct."
+ },
+ {
+  "id": 640,
+  "u": "Data Interpretation",
+  "t": "Assertion–Reason",
+  "q": "Assertion (A): Graphs make data easier to interpret.\nReason (R): Visual representation shows patterns and trends quickly.",
+  "o": [
+   "A. Both A and R are true, and R is the correct explanation of A",
+   "B. Both A and R are true, but R is not the correct explanation of A",
+   "C. A is true, but R is false",
+   "D. A is false, but R is true"
+  ],
+  "a": 0,
+  "e": "R explains A."
+ },
+ {
+  "id": 641,
+  "u": "Information and Communication Technology (ICT)",
+  "t": "Concept",
+  "q": "Which is an operating system?",
+  "o": [
+   "A. Windows",
+   "B. MS Word",
+   "C. Google Chrome",
+   "D. Excel"
+  ],
+  "a": 0,
+  "e": "Chrome is a browser; Word and Excel are applications."
+ },
+ {
+  "id": 642,
+  "u": "Information and Communication Technology (ICT)",
+  "t": "Concept",
+  "q": "Which is a web browser?",
+  "o": [
+   "A. Windows",
+   "B. Oracle",
+   "C. Firefox",
+   "D. Linux"
+  ],
+  "a": 2,
+  "e": "Software used to view websites."
+ },
+ {
+  "id": 643,
+  "u": "Information and Communication Technology (ICT)",
+  "t": "Concept",
+  "q": "Which is a search engine?",
+  "o": [
+   "A. Google",
+   "B. Windows",
+   "C. Notepad",
+   "D. Excel"
+  ],
+  "a": 0,
+  "e": "Searches web pages."
+ },
+ {
+  "id": 644,
+  "u": "Information and Communication Technology (ICT)",
+  "t": "Concept",
+  "q": "1 byte equals:",
+  "o": [
+   "A. 4 bits",
+   "B. 8 bits",
+   "C. 16 bits",
+   "D. 32 bits"
+  ],
+  "a": 1,
+  "e": "Eight bits."
+ },
+ {
+  "id": 645,
+  "u": "Information and Communication Technology (ICT)",
+  "t": "Concept",
+  "q": "CPU stands for:",
+  "o": [
+   "A. Control Process Unit",
+   "B. Computer Personal Unit",
+   "C. Central Processing Unit",
+   "D. Central Program Utility"
+  ],
+  "a": 2,
+  "e": "The brain of the computer."
+ },
+ {
+  "id": 646,
+  "u": "Information and Communication Technology (ICT)",
+  "t": "Concept",
+  "q": "WWW stands for:",
+  "o": [
+   "A. Web World Window",
+   "B. Wide World Web",
+   "C. World Web Wire",
+   "D. World Wide Web"
+  ],
+  "a": 3,
+  "e": "The information system on the internet."
+ },
+ {
+  "id": 647,
+  "u": "Information and Communication Technology (ICT)",
+  "t": "Concept",
+  "q": "Wi-Fi is a technology for:",
+  "o": [
+   "A. Printing",
+   "B. Storage",
+   "C. Typing",
+   "D. Wireless networking"
+  ],
+  "a": 3,
+  "e": "Wireless local connectivity."
+ },
+ {
+  "id": 648,
+  "u": "Information and Communication Technology (ICT)",
+  "t": "Concept",
+  "q": "A firewall is used for:",
+  "o": [
+   "A. Network security",
+   "B. Printing",
+   "C. Typing",
+   "D. Browsing speed"
+  ],
+  "a": 0,
+  "e": "Filters network traffic."
+ },
+ {
+  "id": 649,
+  "u": "Information and Communication Technology (ICT)",
+  "t": "Concept",
+  "q": "Phishing is:",
+  "o": [
+   "A. A fraudulent attempt to obtain sensitive information",
+   "B. A video format",
+   "C. A search technique",
+   "D. A backup"
+  ],
+  "a": 0,
+  "e": "Often through fake emails."
+ },
+ {
+  "id": 650,
+  "u": "Information and Communication Technology (ICT)",
+  "t": "Concept",
+  "q": "MOOC stands for:",
+  "o": [
+   "A. Multiple Online Offline Class",
+   "B. Massive Open Online Course",
+   "C. Major Online Open Course",
+   "D. Mobile Open Online Content"
+  ],
+  "a": 1,
+  "e": "Large-scale online courses."
+ },
+ {
+  "id": 651,
+  "u": "Information and Communication Technology (ICT)",
+  "t": "Concept",
+  "q": "NPTEL courses are offered by:",
+  "o": [
+   "A. IITs and IISc",
+   "B. NCERT only",
+   "C. IIMs only",
+   "D. State boards"
+  ],
+  "a": 0,
+  "e": "National Programme on Technology Enhanced Learning."
+ },
+ {
+  "id": 652,
+  "u": "Information and Communication Technology (ICT)",
+  "t": "Concept",
+  "q": "e-PG Pathshala provides:",
+  "o": [
+   "A. Scholarships",
+   "B. Bank loans",
+   "C. E-content for postgraduate courses",
+   "D. Railway tickets"
+  ],
+  "a": 2,
+  "e": "A UGC/MoE initiative."
+ },
+ {
+  "id": 653,
+  "u": "Information and Communication Technology (ICT)",
+  "t": "Concept",
+  "q": "Shodhganga is a repository of:",
+  "o": [
+   "A. Indian theses and dissertations",
+   "B. Maps",
+   "C. Movies",
+   "D. News"
+  ],
+  "a": 0,
+  "e": "Hosted by INFLIBNET."
+ },
+ {
+  "id": 654,
+  "u": "Information and Communication Technology (ICT)",
+  "t": "Concept",
+  "q": "The file extension of an Excel workbook is:",
+  "o": [
+   "A. .pptx",
+   "B. .xlsx",
+   "C. .pdf",
+   "D. .docx"
+  ],
+  "a": 1,
+  "e": "Spreadsheet format."
+ },
+ {
+  "id": 655,
+  "u": "Information and Communication Technology (ICT)",
+  "t": "Concept",
+  "q": "'Bcc' in e-mail stands for:",
+  "o": [
+   "A. Basic carbon copy",
+   "B. Blind carbon copy",
+   "C. Big copy cache",
+   "D. Bulk copy code"
+  ],
+  "a": 1,
+  "e": "Recipients are hidden from each other."
+ },
+ {
+  "id": 656,
+  "u": "Information and Communication Technology (ICT)",
+  "t": "Concept",
+  "q": "Cloud computing means:",
+  "o": [
+   "A. Delivering computing services over the internet",
+   "B. Storing data only on paper",
+   "C. Weather forecasting",
+   "D. Offline typing"
+  ],
+  "a": 0,
+  "e": "On-demand services via the internet."
+ },
+ {
+  "id": 657,
+  "u": "Information and Communication Technology (ICT)",
+  "t": "Concept",
+  "q": "The Digital India programme was launched in:",
+  "o": [
+   "A. 2010",
+   "B. 2013",
+   "C. 2015",
+   "D. 2018"
+  ],
+  "a": 2,
+  "e": "Launched in July 2015."
+ },
+ {
+  "id": 658,
+  "u": "Information and Communication Technology (ICT)",
+  "t": "Concept",
+  "q": "UPI stands for:",
+  "o": [
+   "A. Unified Payments Interface",
+   "B. Unique Pin Interface",
+   "C. Universal Payment Index",
+   "D. United Payment Internet"
+  ],
+  "a": 0,
+  "e": "Instant payment system."
+ },
+ {
+  "id": 659,
+  "u": "Information and Communication Technology (ICT)",
+  "t": "Statements",
+  "q": "Consider the statements: 1. Open educational resources are freely accessible. 2. An intranet is open to the public.",
+  "o": [
+   "A. Only statement 1 is correct",
+   "B. Only statement 2 is correct",
+   "C. Both statements are correct",
+   "D. Neither statement is correct"
+  ],
+  "a": 0,
+  "e": "An intranet is private."
+ },
+ {
+  "id": 660,
+  "u": "Information and Communication Technology (ICT)",
+  "t": "Assertion–Reason",
+  "q": "Assertion (A): Two-factor authentication increases security.\nReason (R): It requires an additional verification beyond the password.",
+  "o": [
+   "A. Both A and R are true, and R is the correct explanation of A",
+   "B. Both A and R are true, but R is not the correct explanation of A",
+   "C. A is true, but R is false",
+   "D. A is false, but R is true"
+  ],
+  "a": 0,
+  "e": "R explains A."
+ },
+ {
+  "id": 661,
+  "u": "People, Development and Environment",
+  "t": "Concept",
+  "q": "A primary air pollutant is:",
+  "o": [
+   "A. Photochemical smog",
+   "B. Peroxyacetyl nitrate",
+   "C. Ground-level ozone",
+   "D. Carbon monoxide"
+  ],
+  "a": 3,
+  "e": "Emitted directly; the others form in the air."
+ },
+ {
+  "id": 662,
+  "u": "People, Development and Environment",
+  "t": "Concept",
+  "q": "Biochemical oxygen demand (BOD) indicates:",
+  "o": [
+   "A. Noise level",
+   "B. Air quality",
+   "C. Soil fertility",
+   "D. Organic pollution in water"
+  ],
+  "a": 3,
+  "e": "Higher BOD means more organic pollution."
+ },
+ {
+  "id": 663,
+  "u": "People, Development and Environment",
+  "t": "Concept",
+  "q": "Noise pollution is measured in:",
+  "o": [
+   "A. Decibels",
+   "B. Pascals",
+   "C. Hertz only",
+   "D. Lux"
+  ],
+  "a": 0,
+  "e": "dB scale."
+ },
+ {
+  "id": 664,
+  "u": "People, Development and Environment",
+  "t": "Concept",
+  "q": "The Kyoto Protocol deals with:",
+  "o": [
+   "A. Ozone layer",
+   "B. Wetlands",
+   "C. Reducing greenhouse gas emissions",
+   "D. Whaling"
+  ],
+  "a": 2,
+  "e": "Adopted in 1997."
+ },
+ {
+  "id": 665,
+  "u": "People, Development and Environment",
+  "t": "Concept",
+  "q": "The 1992 Earth Summit was held in:",
+  "o": [
+   "A. Stockholm",
+   "B. Rio de Janeiro",
+   "C. Kyoto",
+   "D. Paris"
+  ],
+  "a": 1,
+  "e": "UNCED."
+ },
+ {
+  "id": 666,
+  "u": "People, Development and Environment",
+  "t": "Concept",
+  "q": "World Environment Day is observed on:",
+  "o": [
+   "A. 5 June",
+   "B. 22 April",
+   "C. 16 September",
+   "D. 22 March"
+  ],
+  "a": 0,
+  "e": "Since 1974."
+ },
+ {
+  "id": 667,
+  "u": "People, Development and Environment",
+  "t": "Concept",
+  "q": "Ozone depletion is mainly caused by:",
+  "o": [
+   "A. Argon",
+   "B. CFCs",
+   "C. Nitrogen",
+   "D. Oxygen"
+  ],
+  "a": 1,
+  "e": "Chlorofluorocarbons."
+ },
+ {
+  "id": 668,
+  "u": "People, Development and Environment",
+  "t": "Concept",
+  "q": "The ozone layer protects Earth from:",
+  "o": [
+   "A. Floods",
+   "B. Meteors only",
+   "C. Noise",
+   "D. Ultraviolet radiation"
+  ],
+  "a": 3,
+  "e": "Absorbs harmful UV."
+ },
+ {
+  "id": 669,
+  "u": "People, Development and Environment",
+  "t": "Concept",
+  "q": "A non-renewable resource is:",
+  "o": [
+   "A. Wind",
+   "B. Solar",
+   "C. Biomass",
+   "D. Coal"
+  ],
+  "a": 3,
+  "e": "Formed over millions of years."
+ },
+ {
+  "id": 670,
+  "u": "People, Development and Environment",
+  "t": "Concept",
+  "q": "Geothermal energy comes from:",
+  "o": [
+   "A. Sunlight",
+   "B. Heat inside the Earth",
+   "C. Wind",
+   "D. Tides"
+  ],
+  "a": 1,
+  "e": "Earth's internal heat."
+ },
+ {
+  "id": 671,
+  "u": "People, Development and Environment",
+  "t": "Concept",
+  "q": "Which is an anthropogenic disaster?",
+  "o": [
+   "A. Volcanic eruption",
+   "B. Earthquake",
+   "C. Chemical industrial accident",
+   "D. Tsunami"
+  ],
+  "a": 2,
+  "e": "Caused by human activity."
+ },
+ {
+  "id": 672,
+  "u": "People, Development and Environment",
+  "t": "Concept",
+  "q": "The Environment (Protection) Act in India was enacted in:",
+  "o": [
+   "A. 1972",
+   "B. 1981",
+   "C. 1986",
+   "D. 1991"
+  ],
+  "a": 2,
+  "e": "After the Bhopal tragedy."
+ },
+ {
+  "id": 673,
+  "u": "People, Development and Environment",
+  "t": "Concept",
+  "q": "NDMA stands for:",
+  "o": [
+   "A. National Disaster Management Authority",
+   "B. National Development Mission Agency",
+   "C. National Defence Medical Agency",
+   "D. National Drought Monitoring Authority"
+  ],
+  "a": 0,
+  "e": "Apex disaster body."
+ },
+ {
+  "id": 674,
+  "u": "People, Development and Environment",
+  "t": "Concept",
+  "q": "Among these, a biodiversity hotspot in India is:",
+  "o": [
+   "A. Ganga Plain",
+   "B. Deccan Plateau",
+   "C. Western Ghats",
+   "D. Thar Desert"
+  ],
+  "a": 2,
+  "e": "Western Ghats–Sri Lanka hotspot."
+ },
+ {
+  "id": 675,
+  "u": "People, Development and Environment",
+  "t": "Concept",
+  "q": "Among these, the gas with the highest global warming potential per molecule is:",
+  "o": [
+   "A. Oxygen",
+   "B. Carbon dioxide",
+   "C. Nitrogen",
+   "D. Methane"
+  ],
+  "a": 3,
+  "e": "Methane traps far more heat than CO2."
+ },
+ {
+  "id": 676,
+  "u": "People, Development and Environment",
+  "t": "Concept",
+  "q": "The Millennium Development Goals targeted the year:",
+  "o": [
+   "A. 2000",
+   "B. 2010",
+   "C. 2015",
+   "D. 2030"
+  ],
+  "a": 2,
+  "e": "MDGs ran from 2000 to 2015."
+ },
+ {
+  "id": 677,
+  "u": "People, Development and Environment",
+  "t": "Concept",
+  "q": "SDG 13 relates to:",
+  "o": [
+   "A. Climate action",
+   "B. Zero hunger",
+   "C. Clean water",
+   "D. Quality education"
+  ],
+  "a": 0,
+  "e": "Take urgent action on climate change."
+ },
+ {
+  "id": 678,
+  "u": "People, Development and Environment",
+  "t": "Concept",
+  "q": "Eutrophication results from:",
+  "o": [
+   "A. Nutrient enrichment of water bodies",
+   "B. Acid rain only",
+   "C. Noise",
+   "D. Oil spills only"
+  ],
+  "a": 0,
+  "e": "Excess nutrients cause algal blooms."
+ },
+ {
+  "id": 679,
+  "u": "People, Development and Environment",
+  "t": "Statements",
+  "q": "Consider the statements: 1. Eutrophication results from nutrient enrichment of water bodies. 2. It increases dissolved oxygen.",
+  "o": [
+   "A. Only statement 1 is correct",
+   "B. Only statement 2 is correct",
+   "C. Both statements are correct",
+   "D. Neither statement is correct"
+  ],
+  "a": 0,
+  "e": "It reduces dissolved oxygen."
+ },
+ {
+  "id": 680,
+  "u": "People, Development and Environment",
+  "t": "Assertion–Reason",
+  "q": "Assertion (A): Afforestation helps mitigate climate change.\nReason (R): Trees act as carbon sinks.",
+  "o": [
+   "A. Both A and R are true, and R is the correct explanation of A",
+   "B. Both A and R are true, but R is not the correct explanation of A",
+   "C. A is true, but R is false",
+   "D. A is false, but R is true"
+  ],
+  "a": 0,
+  "e": "R explains A."
+ },
+ {
+  "id": 681,
+  "u": "Higher Education System",
+  "t": "Concept",
+  "q": "Vikramashila, an ancient centre of learning, was in:",
+  "o": [
+   "A. Punjab",
+   "B. Assam",
+   "C. Bihar",
+   "D. Kerala"
+  ],
+  "a": 2,
+  "e": "Near Bhagalpur."
+ },
+ {
+  "id": 682,
+  "u": "Higher Education System",
+  "t": "Concept",
+  "q": "The Kothari Commission (1964–66) was concerned with:",
+  "o": [
+   "A. Agriculture only",
+   "B. Education and national development",
+   "C. Banking",
+   "D. Law reform"
+  ],
+  "a": 1,
+  "e": "It recommended the 10+2+3 structure."
+ },
+ {
+  "id": 683,
+  "u": "Higher Education System",
+  "t": "Concept",
+  "q": "The Academic Bank of Credits allows learners to:",
+  "o": [
+   "A. Change names",
+   "B. Pay fees",
+   "C. Take loans",
+   "D. Store and transfer academic credits"
+  ],
+  "a": 3,
+  "e": "Under NEP 2020."
+ },
+ {
+  "id": 684,
+  "u": "Higher Education System",
+  "t": "Concept",
+  "q": "NCERT is responsible for:",
+  "o": [
+   "A. University grants",
+   "B. Medical licensing",
+   "C. Law education",
+   "D. School curriculum and textbooks"
+  ],
+  "a": 3,
+  "e": "National Council of Educational Research and Training."
+ },
+ {
+  "id": 685,
+  "u": "Higher Education System",
+  "t": "Concept",
+  "q": "NCTE stands for:",
+  "o": [
+   "A. National Commission for Training and Evaluation",
+   "B. National Council for Teacher Education",
+   "C. National Centre for Technical Education",
+   "D. National Council for Tertiary Education"
+  ],
+  "a": 1,
+  "e": "Regulates teacher education."
+ },
+ {
+  "id": 686,
+  "u": "Higher Education System",
+  "t": "Concept",
+  "q": "IGNOU was established in:",
+  "o": [
+   "A. 1975",
+   "B. 1985",
+   "C. 1995",
+   "D. 2005"
+  ],
+  "a": 1,
+  "e": "Indira Gandhi National Open University."
+ },
+ {
+  "id": 687,
+  "u": "Higher Education System",
+  "t": "Concept",
+  "q": "The Right to Education Act came into force in:",
+  "o": [
+   "A. 2002",
+   "B. 2009",
+   "C. 2010",
+   "D. 2015"
+  ],
+  "a": 2,
+  "e": "Passed in 2009, effective April 2010."
+ },
+ {
+  "id": 688,
+  "u": "Higher Education System",
+  "t": "Concept",
+  "q": "NEP 2020 replaced the National Policy on Education of:",
+  "o": [
+   "A. 1968",
+   "B. 1986",
+   "C. 1992",
+   "D. 2005"
+  ],
+  "a": 1,
+  "e": "The 1986 policy, modified in 1992."
+ },
+ {
+  "id": 689,
+  "u": "Higher Education System",
+  "t": "Concept",
+  "q": "SWAYAM was launched mainly to:",
+  "o": [
+   "A. Sell books",
+   "B. Provide free online courses",
+   "C. Run railways",
+   "D. Collect taxes"
+  ],
+  "a": 1,
+  "e": "MOOCs platform."
+ },
+ {
+  "id": 690,
+  "u": "Higher Education System",
+  "t": "Concept",
+  "q": "RUSA stands for:",
+  "o": [
+   "A. Rashtriya Uchchatar Shiksha Abhiyan",
+   "B. Research University Standards Authority",
+   "C. Rural Universities Scheme for All",
+   "D. Regional University Support Agency"
+  ],
+  "a": 0,
+  "e": "Funding scheme for state higher education."
+ },
+ {
+  "id": 691,
+  "u": "Higher Education System",
+  "t": "Concept",
+  "q": "The Bar Council of India regulates:",
+  "o": [
+   "A. Engineering",
+   "B. Medical education",
+   "C. School boards",
+   "D. Legal education and the legal profession"
+  ],
+  "a": 3,
+  "e": "Under the Advocates Act, 1961."
+ },
+ {
+  "id": 692,
+  "u": "Higher Education System",
+  "t": "Concept",
+  "q": "AISHE is a survey on:",
+  "o": [
+   "A. School dropouts only",
+   "B. Higher education enrolment and institutions",
+   "C. Exams",
+   "D. Employment"
+  ],
+  "a": 1,
+  "e": "All India Survey on Higher Education."
+ },
+ {
+  "id": 693,
+  "u": "Higher Education System",
+  "t": "Concept",
+  "q": "Central universities are established by:",
+  "o": [
+   "A. UGC order",
+   "B. State cabinet",
+   "C. An Act of Parliament",
+   "D. Court order"
+  ],
+  "a": 2,
+  "e": "Central statute."
+ },
+ {
+  "id": 694,
+  "u": "Higher Education System",
+  "t": "Concept",
+  "q": "State universities are established by:",
+  "o": [
+   "A. Parliament",
+   "B. An Act of the State legislature",
+   "C. Private trust",
+   "D. President order"
+  ],
+  "a": 1,
+  "e": "State statute."
+ },
+ {
+  "id": 695,
+  "u": "Higher Education System",
+  "t": "Concept",
+  "q": "Universities founded in 1857 include:",
+  "o": [
+   "A. Calcutta, Bombay and Madras",
+   "B. Aligarh and Banaras",
+   "C. Delhi, Allahabad and Lucknow",
+   "D. Nalanda and Taxila"
+  ],
+  "a": 0,
+  "e": "First modern universities in India."
+ },
+ {
+  "id": 696,
+  "u": "Higher Education System",
+  "t": "Concept",
+  "q": "Wood's Despatch (1854) related to:",
+  "o": [
+   "A. Trade",
+   "B. Taxation",
+   "C. Education in British India",
+   "D. Railways"
+  ],
+  "a": 2,
+  "e": "Called the Magna Carta of English education in India."
+ },
+ {
+  "id": 697,
+  "u": "Higher Education System",
+  "t": "Concept",
+  "q": "The IITs are:",
+  "o": [
+   "A. State boards",
+   "B. Institutions of national importance for technical education",
+   "C. Private colleges only",
+   "D. Primary schools"
+  ],
+  "a": 1,
+  "e": "Created under the IIT Act."
+ },
+ {
+  "id": 698,
+  "u": "Higher Education System",
+  "t": "Concept",
+  "q": "NEP 2020 recommends the undergraduate programme to be:",
+  "o": [
+   "A. Only two years",
+   "B. Fixed one year",
+   "C. Closed",
+   "D. Flexible with multiple entry and exit"
+  ],
+  "a": 3,
+  "e": "Four-year, multidisciplinary programme."
+ },
+ {
+  "id": 699,
+  "u": "Higher Education System",
+  "t": "Statements",
+  "q": "Consider the statements: 1. The UGC provides grants to universities. 2. The UGC regulates school education.",
+  "o": [
+   "A. Only statement 1 is correct",
+   "B. Only statement 2 is correct",
+   "C. Both statements are correct",
+   "D. Neither statement is correct"
+  ],
+  "a": 0,
+  "e": "School education is not under the UGC."
+ },
+ {
+  "id": 700,
+  "u": "Higher Education System",
+  "t": "Assertion–Reason",
+  "q": "Assertion (A): Value education is important in higher education.\nReason (R): It develops ethical and social responsibility among learners.",
+  "o": [
+   "A. Both A and R are true, and R is the correct explanation of A",
+   "B. Both A and R are true, but R is not the correct explanation of A",
+   "C. A is true, but R is false",
+   "D. A is false, but R is true"
+  ],
+  "a": 0,
+  "e": "R explains A."
  }
 ]
