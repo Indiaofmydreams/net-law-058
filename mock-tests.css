@@ -46,3 +46,4 @@
 .mt-tag.ok{color:var(--ok-text)}.mt-tag.bad{color:var(--bad-text)}.mt-rc .c{color:var(--ok-text);font-weight:700}.mt-ex{background:var(--ok-soft);color:var(--ok-text);border-radius:8px;padding:10px 12px;font-size:.875rem}
 @media(max-width:860px){.mt-grid{grid-template-columns:1fr}.mt-pal{position:static}.mt-two{grid-template-columns:1fr}.mt-acts .pri{margin-left:0}.mt-timer{font-size:1.25rem}}
 @media(max-width:560px){.mt-acts .mt-btn{flex:1 1 45%}.mt-q{padding:16px}}
+.mt-p1{margin-top:44px}
