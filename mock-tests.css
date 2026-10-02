@@ -47,3 +47,12 @@
 @media(max-width:860px){.mt-grid{grid-template-columns:1fr}.mt-pal{position:static}.mt-two{grid-template-columns:1fr}.mt-acts .pri{margin-left:0}.mt-timer{font-size:1.25rem}}
 @media(max-width:560px){.mt-acts .mt-btn{flex:1 1 45%}.mt-q{padding:16px}}
 .mt-p1{margin-top:44px}
+
+/* Tough marking and exam polish */
+.mt-hard{display:inline-block;color:var(--bad-text);background:var(--bad-bg);border:1px solid var(--bad-text);border-radius:99px;padding:2px 10px;font-size:.6875rem;letter-spacing:.06em}
+.mt-mod{display:inline-block;color:var(--ac-d);background:var(--tint);border-radius:99px;padding:2px 10px;font-size:.6875rem;letter-spacing:.06em}
+.mt-q.tough{border-left:6px solid #d33a3a}
+.mt-hd{position:absolute;top:-1px;left:-1px;width:0;height:0;border-top:12px solid #d33a3a;border-right:12px solid transparent;border-top-left-radius:6px}
+i.mt-hd.inl{position:static;display:inline-block;vertical-align:-1px;margin-right:8px;border-top:14px solid #d33a3a;border-right:14px solid transparent}
+.mt-prog{height:6px;border-radius:9px;background:var(--chip);overflow:hidden;margin:-6px 0 14px}.mt-prog i{display:block;height:100%;width:0;background:var(--ac2);transition:width .3s}
+.mt-rc:has(.mt-hard){border-top:3px solid #d33a3a}
