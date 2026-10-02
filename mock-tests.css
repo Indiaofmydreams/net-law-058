@@ -56,3 +56,9 @@
 i.mt-hd.inl{position:static;display:inline-block;vertical-align:-1px;margin-right:8px;border-top:14px solid #d33a3a;border-right:14px solid transparent}
 .mt-prog{height:6px;border-radius:9px;background:var(--chip);overflow:hidden;margin:-6px 0 14px}.mt-prog i{display:block;height:100%;width:0;background:var(--ac2);transition:width .3s}
 .mt-rc:has(.mt-hard){border-top:3px solid #d33a3a}
+
+/* Red TOUGH label on homepage cards */
+.mt-tags{display:flex;gap:6px;flex-wrap:wrap;align-items:center}.mt-tags .tag{align-self:auto}
+.mt-card .mt-hard{background:#d33a3a;color:#fff;border-color:#d33a3a;font-weight:800}
+.mt-card.hard{border-top:4px solid #d33a3a}
+.mt-ct .mt-redt{color:#d33a3a;font-weight:800}[data-mode=dark] .mt-ct .mt-redt{color:#ff8a8a}
