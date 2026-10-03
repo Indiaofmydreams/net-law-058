@@ -952,15 +952,15 @@
    "id": 68,
    "category": "Administrative Law",
    "type": "mcq",
-   "question": "In Tata Cellular v. Union of India (1994), the Supreme Court held that judicial review of government contracts:",
+   "question": "In Subramanian Swamy v. Director, CBI (2014), a Constitution Bench of the Supreme Court:",
    "options": {
-    "A": "Concerns the decision-making process, not the decision itself, on grounds of illegality, irrationality and procedural impropriety",
-    "B": "Extends to substituting the court's own decision",
-    "C": "Is barred altogether",
-    "D": "Is limited to bias"
+    "A": "Struck down s.6A of the DSPE Act (prior sanction to investigate officers of Joint Secretary level and above) as violative of Art. 14",
+    "B": "Upheld s.6A of the Delhi Special Police Establishment Act as a valid classification",
+    "C": "Held the CBI is unconstitutional",
+    "D": "Held prior sanction is required for all public servants"
    },
    "answer": "A",
-   "explanation": "Courts do not sit in appeal over tender decisions."
+   "explanation": "Section 6A (the 'Single Directive' statutorily revived in 2003) created an unreasonable classification among corruption-accused public servants and was struck down under Art. 14."
   },
   {
    "id": 69,
