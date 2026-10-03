@@ -1,0 +1,2240 @@
+{
+  "title": "Indian Constitutional Amendments - UGC NET Law Question Bank",
+  "total_questions": 159,
+  "note": "Covers Amendments up to the 106th (2023). Verify any Amendment enacted after that date.",
+  "types": [
+    "mcq",
+    "statement",
+    "assertion_reason",
+    "match",
+    "chronological"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "category": "Amendment Procedure & Basic Structure",
+      "type": "mcq",
+      "question": "Which of the following requires a special majority AND ratification by at least half of the State legislatures under Art. 368(2)?",
+      "options": {
+        "A": "Amendment of the Citizenship provisions (Arts. 5-11)",
+        "B": "Formation of new States under Art. 3",
+        "C": "Election of the President (Arts. 54-55)",
+        "D": "Amendment of the Fifth Schedule"
+      },
+      "answer": "C",
+      "explanation": "Arts. 2, 3, 4, Fifth and Sixth Schedules and citizenship can be changed by simple majority outside Art. 368. Election of the President is in the proviso to Art. 368(2) requiring State ratification."
+    },
+    {
+      "id": 2,
+      "category": "Amendment Procedure & Basic Structure",
+      "type": "mcq",
+      "question": "Shankari Prasad Singh Deo v. Union of India (1951) upheld the validity of which Amendment?",
+      "options": {
+        "A": "Fourth Amendment",
+        "B": "Seventeenth Amendment",
+        "C": "Twenty-fourth Amendment",
+        "D": "First Amendment"
+      },
+      "answer": "D",
+      "explanation": "Held that the power to amend under Art. 368 includes power to amend Fundamental Rights; 'law' in Art. 13 does not include constitutional amendments."
+    },
+    {
+      "id": 3,
+      "category": "Amendment Procedure & Basic Structure",
+      "type": "mcq",
+      "question": "Sajjan Singh v. State of Rajasthan (1965) concerned the validity of which Amendment?",
+      "options": {
+        "A": "First Amendment",
+        "B": "Seventeenth Amendment",
+        "C": "Forty-second Amendment",
+        "D": "Twenty-fifth Amendment"
+      },
+      "answer": "B",
+      "explanation": "Upheld the 17th Amendment (1964) following Shankari Prasad, though two judges (Hidayatullah, Mudholkar) expressed doubts on basic features."
+    },
+    {
+      "id": 4,
+      "category": "Amendment Procedure & Basic Structure",
+      "type": "mcq",
+      "question": "I.C. Golak Nath v. State of Punjab (1967) was decided by a bench of:",
+      "options": {
+        "A": "7 judges, unanimously, upholding the Ninth Schedule",
+        "B": "13 judges, by 7:6, propounding the basic structure doctrine",
+        "C": "11 judges, by 6:5, holding Parliament cannot amend Fundamental Rights",
+        "D": "9 judges, by 5:4, upholding Parliament's power to amend Fundamental Rights"
+      },
+      "answer": "C",
+      "explanation": "Golak Nath overruled Shankari Prasad and Sajjan Singh, applying the doctrine of prospective overruling."
+    },
+    {
+      "id": 5,
+      "category": "Amendment Procedure & Basic Structure",
+      "type": "mcq",
+      "question": "Which Amendment was enacted to nullify the effect of Golak Nath and inserted Art. 13(4) and Art. 368(3)?",
+      "options": {
+        "A": "Thirty-ninth Amendment (1975)",
+        "B": "Twenty-fourth Amendment (1971)",
+        "C": "Twenty-fifth Amendment (1971)",
+        "D": "Forty-second Amendment (1976)"
+      },
+      "answer": "B",
+      "explanation": "24th Amendment declared Parliament's power to amend any provision incl. Part III, made Presidential assent compulsory and amended the marginal note of Art. 368."
+    },
+    {
+      "id": 6,
+      "category": "Amendment Procedure & Basic Structure",
+      "type": "mcq",
+      "question": "Article 31C (Directive Principles in Art. 39(b) and (c) to prevail over Arts. 14, 19 and 31) was inserted by:",
+      "options": {
+        "A": "Forty-second Amendment, 1976",
+        "B": "Forty-fourth Amendment, 1978",
+        "C": "Twenty-fifth Amendment, 1971",
+        "D": "Twenty-fourth Amendment, 1971"
+      },
+      "answer": "C",
+      "explanation": "25th Amendment also replaced 'compensation' by 'amount' in Art. 31(2)."
+    },
+    {
+      "id": 7,
+      "category": "Amendment Procedure & Basic Structure",
+      "type": "mcq",
+      "question": "Kesavananda Bharati v. State of Kerala (1973) was decided by a bench of ____ judges with a majority of ____.",
+      "options": {
+        "A": "11 judges; 6:5",
+        "B": "13 judges; 8:5",
+        "C": "9 judges; 5:4",
+        "D": "13 judges; 7:6"
+      },
+      "answer": "D",
+      "explanation": "The Court held Parliament can amend any provision but not alter the 'basic structure'. It struck down the 2nd part of Art. 31C (excluding judicial review) inserted by the 25th Amendment."
+    },
+    {
+      "id": 8,
+      "category": "Amendment Procedure & Basic Structure",
+      "type": "mcq",
+      "question": "Which provisions inserted by the 42nd Amendment were struck down in Minerva Mills v. Union of India (1980)?",
+      "options": {
+        "A": "Words 'Socialist' and 'Secular' in the Preamble",
+        "B": "Clauses (4) and (5) of Article 368",
+        "C": "Article 323A",
+        "D": "Article 51A (Fundamental Duties)"
+      },
+      "answer": "B",
+      "explanation": "Minerva Mills held limited amending power is itself a basic feature and that harmony between Part III and Part IV is part of the basic structure; it also struck down the extended Art. 31C."
+    },
+    {
+      "id": 9,
+      "category": "Amendment Procedure & Basic Structure",
+      "type": "mcq",
+      "question": "In Waman Rao v. Union of India (1981), the Supreme Court fixed which date for testing Ninth Schedule laws against the basic structure?",
+      "options": {
+        "A": "26 January 1950",
+        "B": "18 June 1951",
+        "C": "24 April 1973",
+        "D": "3 January 1977"
+      },
+      "answer": "C",
+      "explanation": "Ninth Schedule laws inserted before 24 April 1973 (the date of Kesavananda) were saved; those after are open to review. Reaffirmed in I.R. Coelho (2007)."
+    },
+    {
+      "id": 10,
+      "category": "Amendment Procedure & Basic Structure",
+      "type": "mcq",
+      "question": "In I.R. Coelho v. State of Tamil Nadu (2007), a nine-judge bench held that:",
+      "options": {
+        "A": "Ninth Schedule laws enjoy absolute immunity",
+        "B": "Art. 31A is a basic feature that cannot be amended",
+        "C": "Art. 31B is unconstitutional",
+        "D": "Ninth Schedule laws enacted after 24 April 1973 are open to judicial review on the touchstone of the basic structure"
+      },
+      "answer": "D",
+      "explanation": "Art. 31B immunity is not absolute; laws violating basic structure/Art. 21 and Art. 14 can be struck down."
+    },
+    {
+      "id": 11,
+      "category": "Amendment Procedure & Basic Structure",
+      "type": "statement",
+      "question": "I. The 24th Amendment made it obligatory for the President to give assent to Constitution Amendment Bills.\nII. Art. 368(3) declares that Art. 13 shall not apply to amendments made under Art. 368.",
+      "options": {
+        "A": "Both I and II are correct",
+        "B": "Only I is correct",
+        "C": "Only II is correct",
+        "D": "Neither I nor II is correct"
+      },
+      "answer": "A",
+      "explanation": "Both true. 24th Amendment (1971) inserted Art. 13(4) and 368(3) and made Presidential assent compulsory."
+    },
+    {
+      "id": 12,
+      "category": "Amendment Procedure & Basic Structure",
+      "type": "assertion_reason",
+      "question": "Assertion (A): Judicial review of constitutional amendments is possible in India.\nReason (R): Kesavananda Bharati held that amendments violating the basic structure are void.",
+      "options": {
+        "A": "Both A and R are true and R is the correct explanation of A",
+        "B": "Both A and R are true but R is not the correct explanation of A",
+        "C": "A is true but R is false",
+        "D": "A is false but R is true"
+      },
+      "answer": "A",
+      "explanation": "Basic structure review is the judicial check on Art. 368 power."
+    },
+    {
+      "id": 13,
+      "category": "Amendment Procedure & Basic Structure",
+      "type": "assertion_reason",
+      "question": "Assertion (A): Art. 368(4) and (5) were struck down in Minerva Mills.\nReason (R): The Court held that a limited amending power is itself a basic feature of the Constitution.",
+      "options": {
+        "A": "Both A and R are true and R is the correct explanation of A",
+        "B": "Both A and R are true but R is not the correct explanation of A",
+        "C": "A is true but R is false",
+        "D": "A is false but R is true"
+      },
+      "answer": "A",
+      "explanation": "Parliament cannot enlarge its own amending power into absolute power."
+    },
+    {
+      "id": 14,
+      "category": "Early Amendments (1951-1969)",
+      "type": "mcq",
+      "question": "The Ninth Schedule was added to the Constitution by which Amendment?",
+      "options": {
+        "A": "Seventeenth Amendment, 1964",
+        "B": "Fourth Amendment, 1955",
+        "C": "Seventh Amendment, 1956",
+        "D": "First Amendment, 1951"
+      },
+      "answer": "D",
+      "explanation": "Along with Arts. 31A and 31B, to protect land reform laws from judicial challenge."
+    },
+    {
+      "id": 15,
+      "category": "Early Amendments (1951-1969)",
+      "type": "mcq",
+      "question": "Which of the following was NOT done by the First Amendment Act, 1951?",
+      "options": {
+        "A": "Added 'public order', 'friendly relations with foreign States' and 'incitement to an offence' as grounds under Art. 19(2)",
+        "B": "Inserted Arts. 31A and 31B",
+        "C": "Inserted Article 21A",
+        "D": "Inserted Art. 15(4) for socially and educationally backward classes"
+      },
+      "answer": "C",
+      "explanation": "Art. 21A was inserted by the 86th Amendment (2002)."
+    },
+    {
+      "id": 16,
+      "category": "Early Amendments (1951-1969)",
+      "type": "mcq",
+      "question": "The First Amendment inserting Art. 15(4) was a response to the decision in:",
+      "options": {
+        "A": "Bela Banerjee v. State of W.B.",
+        "B": "A.K. Gopalan v. State of Madras",
+        "C": "State of Madras v. Champakam Dorairajan (1951)",
+        "D": "Re Berubari Union"
+      },
+      "answer": "C",
+      "explanation": "The Court struck down communal G.O. for college admissions; the 1st Amendment enabled special provisions for backward classes."
+    },
+    {
+      "id": 17,
+      "category": "Early Amendments (1951-1969)",
+      "type": "mcq",
+      "question": "The restriction on freedom of speech in the First Amendment was a reaction to which pair of 1950 cases?",
+      "options": {
+        "A": "A.K. Gopalan and Sajjan Singh",
+        "B": "Bela Banerjee and Champakam",
+        "C": "Kesavananda and Golak Nath",
+        "D": "Romesh Thappar v. State of Madras and Brij Bhushan v. State of Delhi"
+      },
+      "answer": "D",
+      "explanation": "Both cases struck down press-related restrictions on grounds of 'public safety' as unconstitutional."
+    },
+    {
+      "id": 18,
+      "category": "Early Amendments (1951-1969)",
+      "type": "mcq",
+      "question": "The Fourth Amendment (1955) made which change to Art. 31(2)?",
+      "options": {
+        "A": "Adequacy of compensation was made non-justiciable",
+        "B": "Right to property was abolished",
+        "C": "Compensation was replaced with 'amount'",
+        "D": "Right to property was made a legal right under Art. 300A"
+      },
+      "answer": "A",
+      "explanation": "Response to State of West Bengal v. Bela Banerjee (1954), which required 'just equivalent' compensation."
+    },
+    {
+      "id": 19,
+      "category": "Early Amendments (1951-1969)",
+      "type": "mcq",
+      "question": "The Seventh Amendment (1956) is associated with:",
+      "options": {
+        "A": "Reorganisation of States and abolition of the Part A, B, C classification",
+        "B": "Merger of Sikkim",
+        "C": "Anti-defection law",
+        "D": "Creation of Panchayati Raj"
+      },
+      "answer": "A",
+      "explanation": "It reorganised into 14 States and 6 Union Territories, enabled a common High Court for two or more States (Art. 231) and inserted Arts. 350A-350B."
+    },
+    {
+      "id": 20,
+      "category": "Early Amendments (1951-1969)",
+      "type": "mcq",
+      "question": "Article 350A (instruction in mother tongue at primary stage) and Art. 350B (Special Officer for linguistic minorities) were inserted by:",
+      "options": {
+        "A": "Sixty-first Amendment, 1989",
+        "B": "Seventh Amendment, 1956",
+        "C": "Third Amendment, 1954",
+        "D": "Twenty-first Amendment, 1967"
+      },
+      "answer": "B",
+      "explanation": "Linked to the States Reorganisation Commission recommendations."
+    },
+    {
+      "id": 21,
+      "category": "Early Amendments (1951-1969)",
+      "type": "mcq",
+      "question": "The Ninth Amendment (1960) was enacted following the opinion in:",
+      "options": {
+        "A": "Shankari Prasad",
+        "B": "Re Berubari Union and Exchange of Enclaves (1960)",
+        "C": "Keshavan Madhava Menon",
+        "D": "In re Kerala Education Bill"
+      },
+      "answer": "B",
+      "explanation": "The Court held cession of Indian territory requires a constitutional amendment under Art. 368, and that the Preamble is not part of the Constitution (later overruled in Kesavananda)."
+    },
+    {
+      "id": 22,
+      "category": "Early Amendments (1951-1969)",
+      "type": "mcq",
+      "question": "Which of the following was held in Re Berubari Union (1960), later overruled?",
+      "options": {
+        "A": "The Preamble is justiciable",
+        "B": "Preamble is amendable only once",
+        "C": "The Preamble is a part of the basic structure",
+        "D": "The Preamble is not a part of the Constitution"
+      },
+      "answer": "D",
+      "explanation": "Kesavananda Bharati (1973) held the Preamble is part of the Constitution; Union of India v. LIC (1995) reaffirmed."
+    },
+    {
+      "id": 23,
+      "category": "Early Amendments (1951-1969)",
+      "type": "mcq",
+      "question": "Dadra and Nagar Haveli were incorporated into India as a Union Territory by:",
+      "options": {
+        "A": "Tenth Amendment, 1961",
+        "B": "Fourteenth Amendment, 1962",
+        "C": "Twelfth Amendment, 1962",
+        "D": "Seventh Amendment, 1956"
+      },
+      "answer": "A",
+      "explanation": "12th (1962) integrated Goa, Daman and Diu; 14th (1962) integrated Puducherry."
+    },
+    {
+      "id": 24,
+      "category": "Early Amendments (1951-1969)",
+      "type": "mcq",
+      "question": "Special provisions for Nagaland (Art. 371A) were inserted by:",
+      "options": {
+        "A": "Twenty-second Amendment, 1969",
+        "B": "Thirteenth Amendment, 1962",
+        "C": "Thirty-sixth Amendment, 1975",
+        "D": "Fifty-third Amendment, 1986"
+      },
+      "answer": "B",
+      "explanation": "Nagaland became the 16th State in 1963."
+    },
+    {
+      "id": 25,
+      "category": "Early Amendments (1951-1969)",
+      "type": "mcq",
+      "question": "The Fourteenth Amendment (1962) is associated with:",
+      "options": {
+        "A": "Creation of Meghalaya",
+        "B": "Incorporation of Goa",
+        "C": "Creation of Nagaland",
+        "D": "Incorporation of Puducherry and insertion of Art. 239A"
+      },
+      "answer": "D",
+      "explanation": "Art. 239A provides for legislatures/councils for some Union Territories."
+    },
+    {
+      "id": 26,
+      "category": "Early Amendments (1951-1969)",
+      "type": "mcq",
+      "question": "Which Amendment raised the retirement age of High Court judges from 60 to 62 and extended HC writ jurisdiction under Art. 226?",
+      "options": {
+        "A": "Thirtieth Amendment, 1972",
+        "B": "Fifteenth Amendment, 1963",
+        "C": "Fifty-fourth Amendment, 1986",
+        "D": "Seventh Amendment, 1956"
+      },
+      "answer": "B",
+      "explanation": "Also permitted High Courts to issue writs to persons/authorities outside territorial limits if the cause of action arose within."
+    },
+    {
+      "id": 27,
+      "category": "Early Amendments (1951-1969)",
+      "type": "mcq",
+      "question": "Which Amendment inserted 'sovereignty and integrity of India' in the oath/affirmation of candidates and in Art. 19(2)-(4)?",
+      "options": {
+        "A": "Sixth Amendment",
+        "B": "Sixteenth Amendment, 1963",
+        "C": "Forty-second Amendment",
+        "D": "Eighteenth Amendment"
+      },
+      "answer": "B",
+      "explanation": "Enacted following the Sino-Indian conflict."
+    },
+    {
+      "id": 28,
+      "category": "Early Amendments (1951-1969)",
+      "type": "mcq",
+      "question": "Sindhi was added to the Eighth Schedule by the:",
+      "options": {
+        "A": "Ninety-sixth Amendment, 2011",
+        "B": "Seventy-first Amendment, 1992",
+        "C": "Ninety-second Amendment, 2003",
+        "D": "Twenty-first Amendment, 1967"
+      },
+      "answer": "D",
+      "explanation": "71st added Konkani, Manipuri, Nepali; 92nd added Bodo, Dogri, Maithili, Santhali; 96th replaced 'Oriya' with 'Odia'. The Schedule now lists 22 languages."
+    },
+    {
+      "id": 29,
+      "category": "Early Amendments (1951-1969)",
+      "type": "mcq",
+      "question": "The Thirteenth Amendment is related to Nagaland, while which Amendment dealt with the creation of Meghalaya as an autonomous State within Assam?",
+      "options": {
+        "A": "Twenty-second Amendment, 1969",
+        "B": "Twenty-seventh Amendment, 1971",
+        "C": "Fifty-first Amendment, 1984",
+        "D": "Thirty-first Amendment, 1973"
+      },
+      "answer": "A",
+      "explanation": "Inserted Art. 244A. 27th (1971) provided for Mizoram, Arunachal Pradesh and others as Union Territories and inserted Art. 239B."
+    },
+    {
+      "id": 30,
+      "category": "Early Amendments (1951-1969)",
+      "type": "mcq",
+      "question": "The Seventeenth Amendment (1964) is most notable for:",
+      "options": {
+        "A": "Expanding the Ninth Schedule and redefining 'estate' in Art. 31A",
+        "B": "Introducing Fundamental Duties",
+        "C": "Introducing anti-defection law",
+        "D": "Introducing Art. 21A"
+      },
+      "answer": "A",
+      "explanation": "Challenged in Sajjan Singh v. State of Rajasthan (1965)."
+    },
+    {
+      "id": 31,
+      "category": "Early Amendments (1951-1969)",
+      "type": "mcq",
+      "question": "The Fifth Amendment (1955) amended which Article?",
+      "options": {
+        "A": "Article 226",
+        "B": "Article 31",
+        "C": "Article 368",
+        "D": "Article 3 (time limit for State legislatures to express views on bills affecting States)"
+      },
+      "answer": "D",
+      "explanation": "Proviso to Art. 3 enables the President to specify a period within which the State legislature may express its views."
+    },
+    {
+      "id": 32,
+      "category": "1970s Amendments & Emergency Era",
+      "type": "mcq",
+      "question": "The Twenty-fifth Amendment replaced the word 'compensation' by 'amount' in Art. 31(2). This followed which case?",
+      "options": {
+        "A": "Kesavananda Bharati",
+        "B": "R.C. Cooper v. Union of India (Bank Nationalisation case, 1970)",
+        "C": "Golak Nath",
+        "D": "Indira Gandhi v. Raj Narain"
+      },
+      "answer": "B",
+      "explanation": "The Court had held that compensation must be the 'equivalent' of the property acquired."
+    },
+    {
+      "id": 33,
+      "category": "1970s Amendments & Emergency Era",
+      "type": "mcq",
+      "question": "Abolition of Privy Purses and insertion of Art. 363A was done by:",
+      "options": {
+        "A": "Twenty-ninth Amendment, 1972",
+        "B": "Twenty-fourth Amendment, 1971",
+        "C": "Twenty-fifth Amendment, 1971",
+        "D": "Twenty-sixth Amendment, 1971"
+      },
+      "answer": "D",
+      "explanation": "Followed Madhav Rao Scindia v. Union of India (1970-71), which struck down the Presidential Order derecognising Rulers."
+    },
+    {
+      "id": 34,
+      "category": "1970s Amendments & Emergency Era",
+      "type": "mcq",
+      "question": "The Thirty-first Amendment (1973) increased the strength of the Lok Sabha from:",
+      "options": {
+        "A": "525 to 545",
+        "B": "545 to 552",
+        "C": "500 to 525",
+        "D": "530 to 550"
+      },
+      "answer": "A",
+      "explanation": "Currently the maximum is 550 (530 States + 20 UTs) with the Anglo-Indian nomination ended by the 104th Amendment."
+    },
+    {
+      "id": 35,
+      "category": "1970s Amendments & Emergency Era",
+      "type": "mcq",
+      "question": "Telangana Regional Committee and Arts. 371D and 371E were inserted by:",
+      "options": {
+        "A": "Fifty-fifth Amendment, 1986",
+        "B": "Thirty-third Amendment, 1974",
+        "C": "Thirty-second Amendment, 1973",
+        "D": "Ninety-eighth Amendment, 2012"
+      },
+      "answer": "C",
+      "explanation": "Art. 371D relates to equitable opportunities in public employment and education in Andhra Pradesh/Telangana."
+    },
+    {
+      "id": 36,
+      "category": "1970s Amendments & Emergency Era",
+      "type": "mcq",
+      "question": "Which Amendment removed the monetary valuation limit for civil appeals to the Supreme Court?",
+      "options": {
+        "A": "Fifteenth Amendment, 1963",
+        "B": "Sixty-first Amendment, 1989",
+        "C": "Thirtieth Amendment, 1972",
+        "D": "Forty-second Amendment, 1976"
+      },
+      "answer": "C",
+      "explanation": "Appeals now lie on a 'substantial question of law of general importance'."
+    },
+    {
+      "id": 37,
+      "category": "1970s Amendments & Emergency Era",
+      "type": "mcq",
+      "question": "The Twenty-ninth Amendment (1972) placed which State land reform Acts in the Ninth Schedule?",
+      "options": {
+        "A": "Bihar Land Reforms Acts",
+        "B": "Zamindari Abolition Acts of UP",
+        "C": "Kerala Land Reforms (Amendment) Acts",
+        "D": "Madras Land Reforms Acts"
+      },
+      "answer": "C",
+      "explanation": "These were challenged in Kesavananda Bharati."
+    },
+    {
+      "id": 38,
+      "category": "1970s Amendments & Emergency Era",
+      "type": "mcq",
+      "question": "Sikkim became an Associate State by the ___ Amendment and a full State by the ___ Amendment.",
+      "options": {
+        "A": "34th (1974); 35th (1975)",
+        "B": "31st (1973); 32nd (1973)",
+        "C": "35th (1974); 36th (1975)",
+        "D": "36th (1975); 37th (1975)"
+      },
+      "answer": "C",
+      "explanation": "Sikkim became the 22nd State; Art. 371F inserted. The old Tenth Schedule for Sikkim was introduced by the 35th and omitted by the 36th."
+    },
+    {
+      "id": 39,
+      "category": "1970s Amendments & Emergency Era",
+      "type": "mcq",
+      "question": "The Thirty-third Amendment (1974) relates to:",
+      "options": {
+        "A": "Resignation of Members of Parliament/State Legislatures — Presiding officer must be satisfied that resignation is voluntary",
+        "B": "Extension of Lok Sabha term",
+        "C": "Disqualification on ground of defection",
+        "D": "Creation of Union Territories"
+      },
+      "answer": "A",
+      "explanation": "Amended Arts. 101(3)(b) and 190(3)(b)."
+    },
+    {
+      "id": 40,
+      "category": "1970s Amendments & Emergency Era",
+      "type": "mcq",
+      "question": "Thirty-eighth Amendment (1975) made which of the following non-justiciable?",
+      "options": {
+        "A": "Parliamentary privileges",
+        "B": "Election of the Prime Minister",
+        "C": "Appointment of Governors",
+        "D": "President's satisfaction in declaring Emergency (Art. 352), and in promulgating ordinances"
+      },
+      "answer": "D",
+      "explanation": "Later reversed by the 44th Amendment."
+    },
+    {
+      "id": 41,
+      "category": "1970s Amendments & Emergency Era",
+      "type": "mcq",
+      "question": "The Thirty-ninth Amendment (1975) placed the election of which functionaries beyond judicial scrutiny through the new Art. 329A?",
+      "options": {
+        "A": "President, Vice-President, Prime Minister and Speaker",
+        "B": "Governor and Chief Ministers",
+        "C": "Judges of High Courts",
+        "D": "Members of Rajya Sabha"
+      },
+      "answer": "A",
+      "explanation": "Clause (4) of Art. 329A was struck down in Indira Nehru Gandhi v. Raj Narain (1975)."
+    },
+    {
+      "id": 42,
+      "category": "1970s Amendments & Emergency Era",
+      "type": "mcq",
+      "question": "In Indira Nehru Gandhi v. Raj Narain (1975) the Supreme Court struck down which part of the 39th Amendment?",
+      "options": {
+        "A": "Clause (4) of Art. 329A, as violating free and fair elections, democracy and rule of law (basic structure)",
+        "B": "Ninth Schedule additions",
+        "C": "Art. 71",
+        "D": "Entire Art. 329A"
+      },
+      "answer": "A",
+      "explanation": "The Court applied the basic structure doctrine for the first time to strike down a constitutional amendment."
+    },
+    {
+      "id": 43,
+      "category": "1970s Amendments & Emergency Era",
+      "type": "mcq",
+      "question": "The Fortieth Amendment (1976) dealt with:",
+      "options": {
+        "A": "Territorial waters, continental shelf, EEZ and maritime zones (Art. 297)",
+        "B": "Fundamental Duties",
+        "C": "Lok Sabha tenure",
+        "D": "Anti-defection"
+      },
+      "answer": "A",
+      "explanation": "Also added more laws to the Ninth Schedule."
+    },
+    {
+      "id": 44,
+      "category": "1970s Amendments & Emergency Era",
+      "type": "mcq",
+      "question": "Which Committee's recommendations led to the Forty-second Amendment (1976)?",
+      "options": {
+        "A": "Ashok Mehta Committee",
+        "B": "Venkatachaliah Commission",
+        "C": "Swaran Singh Committee",
+        "D": "Sarkaria Commission"
+      },
+      "answer": "C",
+      "explanation": "Often called a 'Mini Constitution'."
+    },
+    {
+      "id": 45,
+      "category": "1970s Amendments & Emergency Era",
+      "type": "mcq",
+      "question": "Which of the following was NOT done by the Forty-second Amendment?",
+      "options": {
+        "A": "Added Part XIVA (Tribunals)",
+        "B": "Added Part IVA (Fundamental Duties)",
+        "C": "Inserted Art. 21A (Right to Education)",
+        "D": "Added 'Socialist', 'Secular' and 'Integrity' to the Preamble"
+      },
+      "answer": "C",
+      "explanation": "Art. 21A came by the 86th Amendment. The 42nd also added Arts. 39A, 43A, 48A and 31D."
+    },
+    {
+      "id": 46,
+      "category": "1970s Amendments & Emergency Era",
+      "type": "mcq",
+      "question": "Part XIVA (Arts. 323A and 323B) on Tribunals was inserted by which Amendment?",
+      "options": {
+        "A": "Seventy-third Amendment, 1992",
+        "B": "Fifty-second Amendment, 1985",
+        "C": "Forty-second Amendment, 1976",
+        "D": "Forty-fourth Amendment, 1978"
+      },
+      "answer": "C",
+      "explanation": "L. Chandra Kumar v. Union of India (1997) held clauses excluding High Court jurisdiction unconstitutional."
+    },
+    {
+      "id": 47,
+      "category": "1970s Amendments & Emergency Era",
+      "type": "mcq",
+      "question": "The Fundamental Duties were originally ____ in number, and the 11th duty was added by the ____ Amendment.",
+      "options": {
+        "A": "10; Eighty-sixth Amendment, 2002",
+        "B": "10; Sixty-first Amendment",
+        "C": "12; Forty-second Amendment",
+        "D": "11; Forty-fourth Amendment"
+      },
+      "answer": "A",
+      "explanation": "Art. 51A(k): duty of parent/guardian to provide education to child aged 6-14."
+    },
+    {
+      "id": 48,
+      "category": "1970s Amendments & Emergency Era",
+      "type": "mcq",
+      "question": "The term of Lok Sabha was extended from five to six years by the ____ Amendment and restored to five years by the ____ Amendment.",
+      "options": {
+        "A": "39th; 44th",
+        "B": "38th; 42nd",
+        "C": "42nd; 52nd",
+        "D": "42nd; 44th"
+      },
+      "answer": "D",
+      "explanation": "The extension was to remain valid during Emergency; 44th also restored Art. 83(2) and 172(1)."
+    },
+    {
+      "id": 49,
+      "category": "1970s Amendments & Emergency Era",
+      "type": "mcq",
+      "question": "Which Amendment deleted Art. 19(1)(f) and Art. 31 and made property a legal right under Art. 300A?",
+      "options": {
+        "A": "Forty-fourth Amendment, 1978",
+        "B": "Forty-second Amendment, 1976",
+        "C": "Fourth Amendment, 1955",
+        "D": "Twenty-fifth Amendment, 1971"
+      },
+      "answer": "A",
+      "explanation": "Property ceased to be a Fundamental Right; it is now a constitutional right and a human right (Jilubhai Nanbhai Khachar v. State of Gujarat, 1995)."
+    },
+    {
+      "id": 50,
+      "category": "1970s Amendments & Emergency Era",
+      "type": "mcq",
+      "question": "The Forty-fourth Amendment replaced 'internal disturbance' in Art. 352 with:",
+      "options": {
+        "A": "'Breakdown of constitutional machinery'",
+        "B": "'Armed rebellion'",
+        "C": "'Public emergency'",
+        "D": "'External aggression'"
+      },
+      "answer": "B",
+      "explanation": "Emergency must now be approved by Parliament within one month by special majority, and Arts. 20 and 21 cannot be suspended."
+    },
+    {
+      "id": 51,
+      "category": "1970s Amendments & Emergency Era",
+      "type": "mcq",
+      "question": "Under the Forty-fourth Amendment, which Fundamental Rights cannot be suspended during Emergency (Art. 359)?",
+      "options": {
+        "A": "Articles 20 and 21",
+        "B": "Articles 14 and 19",
+        "C": "Articles 25 and 26",
+        "D": "Articles 32 and 226"
+      },
+      "answer": "A",
+      "explanation": "Overcame ADM Jabalpur v. Shivkant Shukla (1976) which had held Art. 21 could be suspended."
+    },
+    {
+      "id": 52,
+      "category": "1970s Amendments & Emergency Era",
+      "type": "mcq",
+      "question": "ADM Jabalpur v. Shivkant Shukla (1976) was effectively superseded by which Amendment?",
+      "options": {
+        "A": "Forty-fourth Amendment",
+        "B": "Thirty-ninth Amendment",
+        "C": "Forty-second Amendment",
+        "D": "Fifty-second Amendment"
+      },
+      "answer": "A",
+      "explanation": "Habeas Corpus case; the 44th Amendment ensured that Arts. 20-21 remain enforceable during Emergency."
+    },
+    {
+      "id": 53,
+      "category": "1970s Amendments & Emergency Era",
+      "type": "mcq",
+      "question": "The Forty-third Amendment (1977) is notable for:",
+      "options": {
+        "A": "Introducing Part IXA",
+        "B": "Introducing the GST",
+        "C": "Introducing Art. 21A",
+        "D": "Repealing Arts. 31D and 32A inserted by the 42nd Amendment, restoring judicial review powers"
+      },
+      "answer": "D",
+      "explanation": "It restored the jurisdiction of the Supreme Court and High Courts curtailed by the 42nd."
+    },
+    {
+      "id": 54,
+      "category": "1970s Amendments & Emergency Era",
+      "type": "assertion_reason",
+      "question": "Assertion (A): The 44th Amendment removed the Right to Property from Part III.\nReason (R): It was inserted as a legal right under Art. 300A in Part XII.",
+      "options": {
+        "A": "Both A and R are true and R is the correct explanation of A",
+        "B": "Both A and R are true but R is not the correct explanation of A",
+        "C": "A is true but R is false",
+        "D": "A is false but R is true"
+      },
+      "answer": "A",
+      "explanation": "Property is now a constitutional right and not a Fundamental Right."
+    },
+    {
+      "id": 55,
+      "category": "1970s Amendments & Emergency Era",
+      "type": "assertion_reason",
+      "question": "Assertion (A): The 42nd Amendment is often referred to as the 'Mini Constitution'.\nReason (R): It made wide-ranging changes to the Preamble, Directive Principles, Fundamental Duties and judiciary.",
+      "options": {
+        "A": "Both A and R are true and R is the correct explanation of A",
+        "B": "Both A and R are true but R is not the correct explanation of A",
+        "C": "A is true but R is false",
+        "D": "A is false but R is true"
+      },
+      "answer": "A",
+      "explanation": "The 44th Amendment undid many of its changes."
+    },
+    {
+      "id": 56,
+      "category": "1970s Amendments & Emergency Era",
+      "type": "statement",
+      "question": "I. Art. 31C was inserted by the 25th Amendment and extended by the 42nd Amendment to all Directive Principles.\nII. The extended Art. 31C was struck down in Minerva Mills (1980).",
+      "options": {
+        "A": "Both I and II are correct",
+        "B": "Only I is correct",
+        "C": "Only II is correct",
+        "D": "Neither I nor II is correct"
+      },
+      "answer": "A",
+      "explanation": "Both true."
+    },
+    {
+      "id": 57,
+      "category": "1980s-1990s Amendments",
+      "type": "mcq",
+      "question": "The Anti-Defection Law and the Tenth Schedule were introduced by which Amendment?",
+      "options": {
+        "A": "Forty-second Amendment, 1976",
+        "B": "Sixty-first Amendment, 1989",
+        "C": "Ninety-first Amendment, 2003",
+        "D": "Fifty-second Amendment, 1985"
+      },
+      "answer": "D",
+      "explanation": "Arts. 101, 102, 190 and 191 were amended to include disqualification on defection."
+    },
+    {
+      "id": 58,
+      "category": "1980s-1990s Amendments",
+      "type": "mcq",
+      "question": "Kihoto Hollohan v. Zachillhu (1992) held that:",
+      "options": {
+        "A": "The Speaker's decision is final and non-justiciable",
+        "B": "The Tenth Schedule is valid but paragraph 7 (ouster of jurisdiction) is unconstitutional for want of ratification",
+        "C": "Para 4 (merger) is invalid",
+        "D": "The entire Tenth Schedule is unconstitutional"
+      },
+      "answer": "B",
+      "explanation": "Decided by a 3:2 majority; the Speaker acts as a tribunal and his decisions are subject to judicial review."
+    },
+    {
+      "id": 59,
+      "category": "1980s-1990s Amendments",
+      "type": "mcq",
+      "question": "Which Amendment removed the exception regarding 'split' in the Tenth Schedule?",
+      "options": {
+        "A": "Seventy-fourth Amendment",
+        "B": "Fifty-fifth Amendment",
+        "C": "Fifty-second Amendment",
+        "D": "Ninety-first Amendment, 2003"
+      },
+      "answer": "D",
+      "explanation": "Also capped the Council of Ministers at 15% of the total strength of the Lok Sabha (Art. 75(1A)) and inserted Art. 361B."
+    },
+    {
+      "id": 60,
+      "category": "1980s-1990s Amendments",
+      "type": "mcq",
+      "question": "The minimum voting age was reduced from 21 to 18 years by:",
+      "options": {
+        "A": "Forty-second Amendment",
+        "B": "Seventy-third Amendment",
+        "C": "Eighty-fourth Amendment",
+        "D": "Sixty-first Amendment (1988)"
+      },
+      "answer": "D",
+      "explanation": "Art. 326 was amended; came into force on 28 March 1989."
+    },
+    {
+      "id": 61,
+      "category": "1980s-1990s Amendments",
+      "type": "mcq",
+      "question": "Special provisions for Mizoram (Art. 371G) were inserted by the:",
+      "options": {
+        "A": "Fifty-sixth Amendment, 1987",
+        "B": "Thirteenth Amendment, 1962",
+        "C": "Fifty-fifth Amendment, 1986",
+        "D": "Fifty-third Amendment, 1986"
+      },
+      "answer": "D",
+      "explanation": "55th → Arunachal Pradesh (Art. 371H); 56th → Goa (Art. 371I)."
+    },
+    {
+      "id": 62,
+      "category": "1980s-1990s Amendments",
+      "type": "mcq",
+      "question": "Authoritative text of the Constitution in Hindi was provided under Art. 394A inserted by the:",
+      "options": {
+        "A": "Sixtieth Amendment",
+        "B": "Fifty-seventh Amendment",
+        "C": "Sixty-first Amendment",
+        "D": "Fifty-eighth Amendment, 1987"
+      },
+      "answer": "D",
+      "explanation": "President may publish authoritative Hindi translation."
+    },
+    {
+      "id": 63,
+      "category": "1980s-1990s Amendments",
+      "type": "mcq",
+      "question": "The Sixtieth Amendment (1988) increased the ceiling of profession tax from:",
+      "options": {
+        "A": "₹250 to ₹2,500 per annum",
+        "B": "₹2,500 to ₹25,000",
+        "C": "₹500 to ₹5,000",
+        "D": "₹100 to ₹1,000"
+      },
+      "answer": "A",
+      "explanation": "Amended Art. 276(2)."
+    },
+    {
+      "id": 64,
+      "category": "1980s-1990s Amendments",
+      "type": "mcq",
+      "question": "Delhi was given the status of 'National Capital Territory' by which Amendment?",
+      "options": {
+        "A": "Sixty-ninth Amendment, 1991",
+        "B": "Seventy-first Amendment",
+        "C": "Fifty-fifth Amendment",
+        "D": "Seventy-third Amendment"
+      },
+      "answer": "A",
+      "explanation": "Inserted Arts. 239AA and 239AB. Government of NCT of Delhi v. Union of India (2018) interpreted these provisions."
+    },
+    {
+      "id": 65,
+      "category": "1980s-1990s Amendments",
+      "type": "mcq",
+      "question": "The Seventy-third Amendment (1992) added which Part and Schedule?",
+      "options": {
+        "A": "Part IXA and Twelfth Schedule",
+        "B": "Part IXB and Eleventh Schedule",
+        "C": "Part IX and Eleventh Schedule",
+        "D": "Part XIVA and Ninth Schedule"
+      },
+      "answer": "C",
+      "explanation": "Arts. 243 to 243-O; the Eleventh Schedule has 29 subjects."
+    },
+    {
+      "id": 66,
+      "category": "1980s-1990s Amendments",
+      "type": "mcq",
+      "question": "The Seventy-fourth Amendment (1992) inserted:",
+      "options": {
+        "A": "Part IXA (Municipalities) and Twelfth Schedule (18 subjects)",
+        "B": "Part IXB (Co-operatives)",
+        "C": "Part IX (Panchayats) and Eleventh Schedule",
+        "D": "Part XVIII"
+      },
+      "answer": "A",
+      "explanation": "Arts. 243-P to 243-ZG."
+    },
+    {
+      "id": 67,
+      "category": "1980s-1990s Amendments",
+      "type": "mcq",
+      "question": "Art. 243-D requires reservation of not less than ____ of total seats for women in Panchayats.",
+      "options": {
+        "A": "One-half",
+        "B": "One-third",
+        "C": "One-fourth",
+        "D": "Twenty percent"
+      },
+      "answer": "B",
+      "explanation": "Raised to one-half by several States by State legislation."
+    },
+    {
+      "id": 68,
+      "category": "1980s-1990s Amendments",
+      "type": "mcq",
+      "question": "When did the 73rd and 74th Amendments come into force respectively?",
+      "options": {
+        "A": "26 January 1993 and 1 April 1993",
+        "B": "24 April 1992 and 1 June 1993",
+        "C": "24 April 1993 and 1 June 1993",
+        "D": "20 April 1992 and 1 June 1992"
+      },
+      "answer": "C",
+      "explanation": "Passed in December 1992 and ratified in 1993; 24 April is celebrated as National Panchayati Raj Day."
+    },
+    {
+      "id": 69,
+      "category": "1980s-1990s Amendments",
+      "type": "mcq",
+      "question": "The Seventy-second Amendment (1992) relates to:",
+      "options": {
+        "A": "Goa",
+        "B": "Reservation of seats for Scheduled Tribes in Tripura Legislative Assembly",
+        "C": "Sikkim",
+        "D": "Mizoram"
+      },
+      "answer": "B",
+      "explanation": "Minor but frequently asked."
+    },
+    {
+      "id": 70,
+      "category": "1980s-1990s Amendments",
+      "type": "mcq",
+      "question": "Which of the following Amendments dealt with Art. 16(4A) — reservation in promotions for SC/STs?",
+      "options": {
+        "A": "Eighty-second Amendment",
+        "B": "Eighty-first Amendment",
+        "C": "Eighty-fifth Amendment",
+        "D": "Seventy-seventh Amendment, 1995"
+      },
+      "answer": "D",
+      "explanation": "Followed Indra Sawhney v. Union of India (1992), which held that reservation in promotions was not permitted."
+    },
+    {
+      "id": 71,
+      "category": "1980s-1990s Amendments",
+      "type": "mcq",
+      "question": "The Seventy-sixth Amendment (1994) placed which State law in the Ninth Schedule?",
+      "options": {
+        "A": "Bihar Land Reforms Act",
+        "B": "Tamil Nadu Backward Classes, SC and ST (Reservation of Seats) Act, 1993 providing 69% reservation",
+        "C": "Maharashtra Maratha Reservation Act",
+        "D": "Karnataka Reservation Act"
+      },
+      "answer": "B",
+      "explanation": "Challenged in I.R. Coelho and in the Indra Sawhney context."
+    },
+    {
+      "id": 72,
+      "category": "1980s-1990s Amendments",
+      "type": "mcq",
+      "question": "Indra Sawhney v. Union of India (1992) was decided by a bench of:",
+      "options": {
+        "A": "Eleven judges",
+        "B": "Nine judges, upholding 27% OBC reservation but capping total reservation at 50%",
+        "C": "Five judges",
+        "D": "Seven judges"
+      },
+      "answer": "B",
+      "explanation": "Also introduced the 'creamy layer' exclusion and held Art. 16(4) does not permit reservation in promotions."
+    },
+    {
+      "id": 73,
+      "category": "1980s-1990s Amendments",
+      "type": "mcq",
+      "question": "S.R. Bommai v. Union of India (1994) is related to:",
+      "options": {
+        "A": "Imposition of President's Rule under Art. 356 and secularism",
+        "B": "Right to education",
+        "C": "Delimitation of constituencies",
+        "D": "Freedom of press"
+      },
+      "answer": "A",
+      "explanation": "Held that Art. 356 is subject to judicial review and secularism is part of the basic structure."
+    },
+    {
+      "id": 74,
+      "category": "1980s-1990s Amendments",
+      "type": "mcq",
+      "question": "The Fifty-ninth Amendment (1988), later repealed, extended the power to impose Emergency in which State?",
+      "options": {
+        "A": "Assam",
+        "B": "Punjab (Art. 356(5))",
+        "C": "Nagaland",
+        "D": "Jammu and Kashmir"
+      },
+      "answer": "B",
+      "explanation": "Repealed by the 63rd Amendment (1989)."
+    },
+    {
+      "id": 75,
+      "category": "1980s-1990s Amendments",
+      "type": "mcq",
+      "question": "The Sixty-fifth Amendment (1990) provided for:",
+      "options": {
+        "A": "National Commission for OBCs",
+        "B": "National Commission for SCs and STs (Art. 338)",
+        "C": "National Human Rights Commission",
+        "D": "National Judicial Commission"
+      },
+      "answer": "B",
+      "explanation": "Replaced by two separate commissions by the 89th Amendment (2003)."
+    },
+    {
+      "id": 76,
+      "category": "2000s Amendments",
+      "type": "mcq",
+      "question": "The Eighty-fourth Amendment (2001) froze delimitation of constituencies until:",
+      "options": {
+        "A": "2011",
+        "B": "2031",
+        "C": "The first census taken after the year 2026",
+        "D": "2001"
+      },
+      "answer": "C",
+      "explanation": "Based on 1991 census originally; the 87th Amendment (2003) changed this to 2001 census for readjustment."
+    },
+    {
+      "id": 77,
+      "category": "2000s Amendments",
+      "type": "mcq",
+      "question": "Which Amendment shifted the base of delimitation from 1991 census to 2001 census?",
+      "options": {
+        "A": "Eighty-fifth Amendment, 2001",
+        "B": "Ninety-first Amendment, 2003",
+        "C": "Eighty-seventh Amendment, 2003",
+        "D": "Eighty-fourth Amendment, 2001"
+      },
+      "answer": "C",
+      "explanation": "Delimitation was done under the Delimitation Act, 2002."
+    },
+    {
+      "id": 78,
+      "category": "2000s Amendments",
+      "type": "mcq",
+      "question": "The Eighty-fifth Amendment (2001) provided for:",
+      "options": {
+        "A": "Carry-forward of unfilled vacancies",
+        "B": "Consequential seniority in promotion for SC/ST government servants (Art. 16(4A))",
+        "C": "Creamy layer exclusion",
+        "D": "Relaxation of qualifying marks"
+      },
+      "answer": "B",
+      "explanation": "The 81st (2000) inserted Art. 16(4B) for carry-forward vacancies; the 82nd (2000) added the proviso to Art. 335."
+    },
+    {
+      "id": 79,
+      "category": "2000s Amendments",
+      "type": "mcq",
+      "question": "M. Nagaraj v. Union of India (2006) upheld the validity of the 77th, 81st, 82nd and 85th Amendments subject to which conditions?",
+      "options": {
+        "A": "Prior approval of the President",
+        "B": "Mandatory creamy layer for SCs only",
+        "C": "Only 50% ceiling",
+        "D": "Quantifiable data on backwardness and inadequacy of representation, and maintaining administrative efficiency"
+      },
+      "answer": "D",
+      "explanation": "Jarnail Singh v. Lachhmi Narain Gupta (2018) clarified that quantifiable data on backwardness is not needed for SC/ST but creamy layer applies."
+    },
+    {
+      "id": 80,
+      "category": "2000s Amendments",
+      "type": "mcq",
+      "question": "Right to Education (Art. 21A) was inserted by the:",
+      "options": {
+        "A": "Seventy-third Amendment, 1992",
+        "B": "Ninety-third Amendment, 2005",
+        "C": "Eighty-sixth Amendment, 2002",
+        "D": "Forty-second Amendment, 1976"
+      },
+      "answer": "C",
+      "explanation": "Free and compulsory education for children aged 6-14; Right to Education Act enacted in 2009 and enforced on 1 April 2010."
+    },
+    {
+      "id": 81,
+      "category": "2000s Amendments",
+      "type": "mcq",
+      "question": "Which case recognised education as a Fundamental Right up to the age of 14 years before the 86th Amendment?",
+      "options": {
+        "A": "Unni Krishnan J.P. v. State of A.P. (1993)",
+        "B": "Mohini Jain v. State of Karnataka (1992)",
+        "C": "T.M.A. Pai Foundation (2002)",
+        "D": "Pramati Educational Trust (2014)"
+      },
+      "answer": "A",
+      "explanation": "Mohini Jain (1992) first recognised right to education under Art. 21; Unni Krishnan limited it to age 14."
+    },
+    {
+      "id": 82,
+      "category": "2000s Amendments",
+      "type": "mcq",
+      "question": "The Eighty-ninth Amendment (2003) provided for:",
+      "options": {
+        "A": "Creation of National Commission for BCs",
+        "B": "GST",
+        "C": "Division of the National Commission for SC/ST into separate commissions (Arts. 338 and 338A)",
+        "D": "Anti-defection"
+      },
+      "answer": "C",
+      "explanation": "Separate National Commission for Scheduled Tribes under Art. 338A."
+    },
+    {
+      "id": 83,
+      "category": "2000s Amendments",
+      "type": "mcq",
+      "question": "Council of Ministers cannot exceed ____ of the total strength of the Lok Sabha/Legislative Assembly under the 91st Amendment.",
+      "options": {
+        "A": "12%",
+        "B": "10%",
+        "C": "20%",
+        "D": "15%"
+      },
+      "answer": "D",
+      "explanation": "In small States, minimum 12 Ministers; Art. 164(1A)."
+    },
+    {
+      "id": 84,
+      "category": "2000s Amendments",
+      "type": "mcq",
+      "question": "Service tax was brought under Art. 268A by the:",
+      "options": {
+        "A": "Ninety-seventh Amendment, 2011",
+        "B": "Eighty-eighth Amendment, 2003",
+        "C": "One Hundred and First Amendment, 2016",
+        "D": "Eightieth Amendment, 2000"
+      },
+      "answer": "B",
+      "explanation": "Art. 268A was omitted by the 101st Amendment."
+    },
+    {
+      "id": 85,
+      "category": "2000s Amendments",
+      "type": "mcq",
+      "question": "Eightieth Amendment (2000) implemented recommendations of which Finance Commission regarding tax devolution?",
+      "options": {
+        "A": "Twelfth Finance Commission",
+        "B": "Tenth Finance Commission — alternative scheme of devolution under Art. 270",
+        "C": "Eleventh Finance Commission",
+        "D": "Fourteenth Finance Commission"
+      },
+      "answer": "B",
+      "explanation": "Altered Arts. 268-272; share of Union taxes to States."
+    },
+    {
+      "id": 86,
+      "category": "2000s Amendments",
+      "type": "mcq",
+      "question": "Ninety-fourth Amendment (2006) removed the requirement of a tribal welfare Minister in which State?",
+      "options": {
+        "A": "Bihar (Art. 164(1) proviso)",
+        "B": "Gujarat",
+        "C": "Maharashtra",
+        "D": "Kerala"
+      },
+      "answer": "A",
+      "explanation": "Retained for Madhya Pradesh, Chhattisgarh, Jharkhand and Odisha."
+    },
+    {
+      "id": 87,
+      "category": "2000s Amendments",
+      "type": "mcq",
+      "question": "Ninety-third Amendment (2005) inserted which Clause?",
+      "options": {
+        "A": "Art. 15(6)",
+        "B": "Art. 21A",
+        "C": "Art. 16(6)",
+        "D": "Art. 15(5) — reservation in educational institutions including private unaided institutions (except minority institutions)"
+      },
+      "answer": "D",
+      "explanation": "It followed the T.M.A. Pai Foundation and Inamdar rulings on private unaided institutions."
+    },
+    {
+      "id": 88,
+      "category": "2000s Amendments",
+      "type": "mcq",
+      "question": "Ashoka Kumar Thakur v. Union of India (2008) upheld:",
+      "options": {
+        "A": "103rd Amendment",
+        "B": "Central Educational Institutions (Reservation in Admission) Act, 2006 and the 93rd Amendment, excluding the creamy layer among OBCs",
+        "C": "99th Amendment",
+        "D": "Mandal Commission Report in toto"
+      },
+      "answer": "B",
+      "explanation": "Constitution Bench decision by 5 judges (Justice Dalveer Bhandari dissenting in part)."
+    },
+    {
+      "id": 89,
+      "category": "2000s Amendments",
+      "type": "mcq",
+      "question": "Pramati Educational & Cultural Trust v. Union of India (2014) held that Art. 15(5) is constitutionally valid:",
+      "options": {
+        "A": "Only for government institutions",
+        "B": "For all private institutions including minority",
+        "C": "Insofar as it applies to private unaided non-minority institutions; minority institutions are exempt",
+        "D": "Only for aided institutions"
+      },
+      "answer": "C",
+      "explanation": "The Court did not apply Art. 15(5) to minority institutions protected by Art. 30(1)."
+    },
+    {
+      "id": 90,
+      "category": "2000s Amendments",
+      "type": "mcq",
+      "question": "Ninety-fifth Amendment (2009) extended reservation of seats for SC/ST in the Lok Sabha and State Assemblies up to:",
+      "options": {
+        "A": "2025",
+        "B": "2010",
+        "C": "2020",
+        "D": "2030"
+      },
+      "answer": "C",
+      "explanation": "Extended again by the 104th Amendment to 2030."
+    },
+    {
+      "id": 91,
+      "category": "2000s Amendments",
+      "type": "mcq",
+      "question": "Ninety-sixth Amendment (2011) replaced the word 'Oriya' in the Eighth Schedule with:",
+      "options": {
+        "A": "'Utkali'",
+        "B": "'Odia'",
+        "C": "'Odiya'",
+        "D": "'Kalinga'"
+      },
+      "answer": "B",
+      "explanation": "Also changed the name of the State from Orissa to Odisha by a separate Act."
+    },
+    {
+      "id": 92,
+      "category": "2000s Amendments",
+      "type": "mcq",
+      "question": "Which Amendment (2011) inserted Part IXB on Co-operative Societies?",
+      "options": {
+        "A": "Ninety-ninth Amendment",
+        "B": "One Hundred and First Amendment",
+        "C": "Ninety-seventh Amendment",
+        "D": "Ninety-fifth Amendment"
+      },
+      "answer": "C",
+      "explanation": "Added 'co-operative societies' to Art. 19(1)(c), Art. 43B (DPSP), and Part IXB (Arts. 243ZH-243ZT)."
+    },
+    {
+      "id": 93,
+      "category": "2000s Amendments",
+      "type": "mcq",
+      "question": "Special provisions for Hyderabad-Karnataka region (now Kalyana-Karnataka) are under Art. 371J, inserted by the:",
+      "options": {
+        "A": "Ninety-eighth Amendment, 2012",
+        "B": "One Hundred Amendment",
+        "C": "Ninety-fifth Amendment",
+        "D": "Ninety-seventh Amendment"
+      },
+      "answer": "A",
+      "explanation": "Provides for a regional development board and reservation in educational institutions and jobs."
+    },
+    {
+      "id": 94,
+      "category": "2000s Amendments",
+      "type": "mcq",
+      "question": "The Ninetieth Amendment (2003) relates to:",
+      "options": {
+        "A": "Anti-defection",
+        "B": "Sikkim's status",
+        "C": "Representation of Bodoland Territorial Areas District (Art. 332(6))",
+        "D": "Creation of Jharkhand"
+      },
+      "answer": "C",
+      "explanation": "Retains non-tribal representation in Assam's Bodoland Territorial Council."
+    },
+    {
+      "id": 95,
+      "category": "2000s Amendments",
+      "type": "statement",
+      "question": "I. The 92nd Amendment added Bodo, Dogri, Maithili and Santhali to the Eighth Schedule.\nII. The 71st Amendment added Konkani, Manipuri and Nepali to the Eighth Schedule.",
+      "options": {
+        "A": "Both I and II are correct",
+        "B": "Only I is correct",
+        "C": "Only II is correct",
+        "D": "Neither I nor II is correct"
+      },
+      "answer": "A",
+      "explanation": "Both true. The Eighth Schedule currently has 22 languages."
+    },
+    {
+      "id": 96,
+      "category": "Recent Amendments (2014-2023)",
+      "type": "mcq",
+      "question": "The National Judicial Appointments Commission (NJAC) was created by the:",
+      "options": {
+        "A": "Ninety-seventh Amendment",
+        "B": "One Hundred and Second Amendment",
+        "C": "Sixty-ninth Amendment",
+        "D": "Ninety-ninth Amendment, 2014"
+      },
+      "answer": "D",
+      "explanation": "Inserted Arts. 124A, 124B, 124C. Struck down in Supreme Court Advocates-on-Record Association v. Union of India (2015) by 4:1."
+    },
+    {
+      "id": 97,
+      "category": "Recent Amendments (2014-2023)",
+      "type": "mcq",
+      "question": "Which case is known as the 'Fourth Judges Case'?",
+      "options": {
+        "A": "Supreme Court Advocates-on-Record Association (1993)",
+        "B": "Supreme Court Advocates-on-Record Association v. Union of India (2015)",
+        "C": "In re Special Reference No. 1 of 1998",
+        "D": "S.P. Gupta v. Union of India (1981)"
+      },
+      "answer": "B",
+      "explanation": "First Judges Case: S.P. Gupta (1981); Second: SCAORA (1993); Third: Special Reference (1998)."
+    },
+    {
+      "id": 98,
+      "category": "Recent Amendments (2014-2023)",
+      "type": "mcq",
+      "question": "The Hundredth Amendment (2015) is related to:",
+      "options": {
+        "A": "Women reservation",
+        "B": "NJAC",
+        "C": "Land Boundary Agreement between India and Bangladesh — exchange of enclaves",
+        "D": "Goods and Services Tax"
+      },
+      "answer": "C",
+      "explanation": "Altered the First Schedule (territories of Assam, West Bengal, Tripura, Meghalaya)."
+    },
+    {
+      "id": 99,
+      "category": "Recent Amendments (2014-2023)",
+      "type": "mcq",
+      "question": "The GST was introduced by the ____ Amendment, which inserted Arts. 246A, 269A and 279A.",
+      "options": {
+        "A": "One Hundredth Amendment",
+        "B": "One Hundred and First Amendment, 2016",
+        "C": "Ninety-ninth Amendment",
+        "D": "One Hundred and Second Amendment"
+      },
+      "answer": "B",
+      "explanation": "GST came into effect on 1 July 2017; the GST Council is under Art. 279A."
+    },
+    {
+      "id": 100,
+      "category": "Recent Amendments (2014-2023)",
+      "type": "mcq",
+      "question": "The National Commission for Backward Classes (NCBC) was given constitutional status by the:",
+      "options": {
+        "A": "One Hundred and Second Amendment, 2018",
+        "B": "Ninety-third Amendment",
+        "C": "One Hundred and Third Amendment",
+        "D": "One Hundred and Fifth Amendment"
+      },
+      "answer": "A",
+      "explanation": "Inserted Arts. 338B and 342A."
+    },
+    {
+      "id": 101,
+      "category": "Recent Amendments (2014-2023)",
+      "type": "mcq",
+      "question": "The One Hundred and Fifth Amendment (2021) clarified that:",
+      "options": {
+        "A": "NCBC has no powers",
+        "B": "50% ceiling was abolished",
+        "C": "States and UTs may prepare their own lists of Socially and Educationally Backward Classes (Art. 342A(3))",
+        "D": "Only Parliament can identify SEBCs"
+      },
+      "answer": "C",
+      "explanation": "Overrode the effect of Jaishri Laxmanrao Patil v. Chief Minister of Maharashtra (2021) which struck down the Maratha reservation."
+    },
+    {
+      "id": 102,
+      "category": "Recent Amendments (2014-2023)",
+      "type": "mcq",
+      "question": "Dr. Jaishri Laxmanrao Patil v. Chief Minister (2021) is also known as the:",
+      "options": {
+        "A": "Maratha Reservation Case",
+        "B": "Mandal Case",
+        "C": "Mysore Reservation Case",
+        "D": "EWS Case"
+      },
+      "answer": "A",
+      "explanation": "Held that after the 102nd Amendment only the President/Parliament can identify SEBCs, and that the 50% ceiling from Indra Sawhney remained intact."
+    },
+    {
+      "id": 103,
+      "category": "Recent Amendments (2014-2023)",
+      "type": "mcq",
+      "question": "Ten percent reservation for Economically Weaker Sections was introduced by the:",
+      "options": {
+        "A": "One Hundred and Fifth Amendment",
+        "B": "One Hundred and Third Amendment, 2019",
+        "C": "One Hundred and Second Amendment",
+        "D": "One Hundred and Fourth Amendment"
+      },
+      "answer": "B",
+      "explanation": "Inserted Arts. 15(6) and 16(6)."
+    },
+    {
+      "id": 104,
+      "category": "Recent Amendments (2014-2023)",
+      "type": "mcq",
+      "question": "In Janhit Abhiyan v. Union of India (2022), the Supreme Court upheld the 103rd Amendment by a majority of:",
+      "options": {
+        "A": "5:0",
+        "B": "4:3",
+        "C": "4:1",
+        "D": "3:2"
+      },
+      "answer": "D",
+      "explanation": "CJI U.U. Lalit and Justice Ravindra Bhat dissented."
+    },
+    {
+      "id": 105,
+      "category": "Recent Amendments (2014-2023)",
+      "type": "mcq",
+      "question": "Which Amendment discontinued nomination of Anglo-Indian members to the Lok Sabha and State Assemblies?",
+      "options": {
+        "A": "One Hundred and Third Amendment",
+        "B": "Ninety-fifth Amendment",
+        "C": "One Hundred and Sixth Amendment",
+        "D": "One Hundred and Fourth Amendment, 2019"
+      },
+      "answer": "D",
+      "explanation": "Omitted Arts. 331 and 333 and extended SC/ST seat reservation to 2030."
+    },
+    {
+      "id": 106,
+      "category": "Recent Amendments (2014-2023)",
+      "type": "mcq",
+      "question": "The Nari Shakti Vandan Adhiniyam (2023) is the ____ Amendment Act.",
+      "options": {
+        "A": "One Hundred and Fourth",
+        "B": "One Hundred and Sixth Amendment",
+        "C": "One Hundred and Seventh",
+        "D": "One Hundred and Fifth"
+      },
+      "answer": "B",
+      "explanation": "Provides one-third reservation for women in the Lok Sabha, State Assemblies and Delhi Assembly (Arts. 330A, 332A, 239AA); effective after delimitation following the first census after commencement."
+    },
+    {
+      "id": 107,
+      "category": "Recent Amendments (2014-2023)",
+      "type": "mcq",
+      "question": "The Constitution (106th Amendment) Act, 2023 reserves one-third of seats for women, valid for:",
+      "options": {
+        "A": "25 years",
+        "B": "20 years",
+        "C": "10 years",
+        "D": "15 years from commencement (extendable by Parliament)"
+      },
+      "answer": "D",
+      "explanation": "Includes sub-reservation for SC/ST women."
+    },
+    {
+      "id": 108,
+      "category": "Recent Amendments (2014-2023)",
+      "type": "assertion_reason",
+      "question": "Assertion (A): The 99th Amendment creating the NJAC was declared unconstitutional.\nReason (R): It compromised the independence of the judiciary — a basic feature.",
+      "options": {
+        "A": "Both A and R are true and R is the correct explanation of A",
+        "B": "Both A and R are true but R is not the correct explanation of A",
+        "C": "A is true but R is false",
+        "D": "A is false but R is true"
+      },
+      "answer": "A",
+      "explanation": "Collegium system revived in the Fourth Judges Case."
+    },
+    {
+      "id": 109,
+      "category": "Recent Amendments (2014-2023)",
+      "type": "assertion_reason",
+      "question": "Assertion (A): The 103rd Amendment, providing EWS reservation, was upheld by the Supreme Court.\nReason (R): The 50% ceiling is part of the basic structure and cannot be exceeded under any circumstances.",
+      "options": {
+        "A": "Both A and R are true and R is the correct explanation of A",
+        "B": "Both A and R are true but R is not the correct explanation of A",
+        "C": "A is true but R is false",
+        "D": "A is false but R is true"
+      },
+      "answer": "C",
+      "explanation": "The majority held the 50% ceiling is not inviolable and EWS reservation does not violate basic structure; hence R is false."
+    },
+    {
+      "id": 110,
+      "category": "Recent Amendments (2014-2023)",
+      "type": "statement",
+      "question": "I. The 101st Amendment introduced Art. 279A (GST Council).\nII. Art. 268A (service tax) was omitted by the 101st Amendment.",
+      "options": {
+        "A": "Both I and II are correct",
+        "B": "Only I is correct",
+        "C": "Only II is correct",
+        "D": "Neither I nor II is correct"
+      },
+      "answer": "A",
+      "explanation": "Both true."
+    },
+    {
+      "id": 111,
+      "category": "Reservation & Eighth/Ninth Schedule Timeline",
+      "type": "mcq",
+      "question": "Which Amendment first extended reservation for SC/ST in legislatures (originally to 1960) up to 1970?",
+      "options": {
+        "A": "Twenty-third Amendment, 1969",
+        "B": "Sixty-second Amendment, 1989",
+        "C": "Forty-fifth Amendment, 1980",
+        "D": "Eighth Amendment, 1960"
+      },
+      "answer": "D",
+      "explanation": "23rd → 1980; 45th → 1990; 62nd → 2000; 79th → 2010; 95th → 2020; 104th → 2030."
+    },
+    {
+      "id": 112,
+      "category": "Reservation & Eighth/Ninth Schedule Timeline",
+      "type": "mcq",
+      "question": "The Seventy-ninth Amendment (1999) extended reservation for SC/ST in legislatures up to:",
+      "options": {
+        "A": "2020",
+        "B": "2030",
+        "C": "2010",
+        "D": "2000"
+      },
+      "answer": "C",
+      "explanation": "Subsequent extensions: 95th (2020) and 104th (2030)."
+    },
+    {
+      "id": 113,
+      "category": "Reservation & Eighth/Ninth Schedule Timeline",
+      "type": "mcq",
+      "question": "Which Amendment inserted Art. 16(4B) (carry-forward of unfilled vacancies for SC/ST)?",
+      "options": {
+        "A": "Eighty-second Amendment",
+        "B": "Seventy-seventh Amendment",
+        "C": "Eighty-fifth Amendment",
+        "D": "Eighty-first Amendment, 2000"
+      },
+      "answer": "D",
+      "explanation": "It treats carried-forward vacancies as a separate class, outside the 50% cap."
+    },
+    {
+      "id": 114,
+      "category": "Reservation & Eighth/Ninth Schedule Timeline",
+      "type": "mcq",
+      "question": "Which Amendment provides that nothing in Art. 335 prevents relaxation in qualifying marks for reservation in promotion for SC/ST?",
+      "options": {
+        "A": "Eighty-first Amendment",
+        "B": "Seventy-seventh Amendment",
+        "C": "Eighty-fifth Amendment",
+        "D": "Eighty-second Amendment, 2000"
+      },
+      "answer": "D",
+      "explanation": "Proviso added to Art. 335."
+    },
+    {
+      "id": 115,
+      "category": "Reservation & Eighth/Ninth Schedule Timeline",
+      "type": "mcq",
+      "question": "The Eighth Schedule originally had 14 languages. Which Amendment added Sindhi?",
+      "options": {
+        "A": "Seventy-first Amendment, 1992",
+        "B": "Twenty-first Amendment, 1967",
+        "C": "Fifty-third Amendment, 1986",
+        "D": "Ninety-second Amendment, 2003"
+      },
+      "answer": "B",
+      "explanation": "Languages currently: 22."
+    },
+    {
+      "id": 116,
+      "category": "Reservation & Eighth/Ninth Schedule Timeline",
+      "type": "mcq",
+      "question": "Which Amendment inserted Art. 371F for Sikkim?",
+      "options": {
+        "A": "Thirty-sixth Amendment, 1975",
+        "B": "Fifty-third Amendment, 1986",
+        "C": "Thirty-fifth Amendment, 1974",
+        "D": "Thirty-eighth Amendment, 1975"
+      },
+      "answer": "A",
+      "explanation": "Sikkim became the 22nd State of India."
+    },
+    {
+      "id": 117,
+      "category": "Reservation & Eighth/Ninth Schedule Timeline",
+      "type": "mcq",
+      "question": "Article 371I (Goa) was inserted by the:",
+      "options": {
+        "A": "Fifty-sixth Amendment, 1987",
+        "B": "Fifty-eighth Amendment, 1987",
+        "C": "Fifty-third Amendment, 1986",
+        "D": "Fifty-fifth Amendment, 1986"
+      },
+      "answer": "A",
+      "explanation": "Goa became the 25th State in 1987."
+    },
+    {
+      "id": 118,
+      "category": "Reservation & Eighth/Ninth Schedule Timeline",
+      "type": "mcq",
+      "question": "Which Amendment inserted Art. 21A in the Constitution?",
+      "options": {
+        "A": "Ninety-third Amendment",
+        "B": "Eighty-sixth Amendment, 2002",
+        "C": "Ninety-seventh Amendment",
+        "D": "Forty-fourth Amendment"
+      },
+      "answer": "B",
+      "explanation": "Also substituted Art. 45 and inserted Art. 51A(k)."
+    },
+    {
+      "id": 119,
+      "category": "Reservation & Eighth/Ninth Schedule Timeline",
+      "type": "mcq",
+      "question": "Which of these cases led to the First Amendment's insertion of Art. 31B and the Ninth Schedule?",
+      "options": {
+        "A": "Sajjan Singh",
+        "B": "Golak Nath",
+        "C": "Kameshwar Singh v. State of Bihar (Patna HC, 1950)",
+        "D": "Kesavananda"
+      },
+      "answer": "C",
+      "explanation": "The Patna HC struck down the Bihar Land Reforms Act, 1950 as violating Art. 14; the 1st Amendment protected zamindari abolition laws."
+    },
+    {
+      "id": 120,
+      "category": "Reservation & Eighth/Ninth Schedule Timeline",
+      "type": "mcq",
+      "question": "Which Amendment first altered Art. 3 by adding an Explanation that 'State' includes Union Territory in clause (a) of Art. 3?",
+      "options": {
+        "A": "Seventh Amendment",
+        "B": "Eighteenth Amendment, 1966",
+        "C": "Fifth Amendment",
+        "D": "Ninth Amendment"
+      },
+      "answer": "B",
+      "explanation": "Facilitated reorganisation of Punjab and creation of Haryana."
+    },
+    {
+      "id": 121,
+      "category": "Reservation & Eighth/Ninth Schedule Timeline",
+      "type": "mcq",
+      "question": "Which Amendment inserted Art. 239AA, 239AB for Delhi?",
+      "options": {
+        "A": "Fourteenth Amendment",
+        "B": "Sixty-ninth Amendment",
+        "C": "Seventy-first Amendment",
+        "D": "Seventh Amendment"
+      },
+      "answer": "B",
+      "explanation": "Delhi has a Legislative Assembly and Council of Ministers headed by a Chief Minister."
+    },
+    {
+      "id": 122,
+      "category": "Reservation & Eighth/Ninth Schedule Timeline",
+      "type": "mcq",
+      "question": "Which Amendment gave constitutional status to NCBC and inserted Art. 342A?",
+      "options": {
+        "A": "One Hundred and Second",
+        "B": "Ninety-ninth",
+        "C": "One Hundred and Third",
+        "D": "One Hundred and Fifth"
+      },
+      "answer": "A",
+      "explanation": "105th restored State power in Art. 342A(3)."
+    },
+    {
+      "id": 123,
+      "category": "Reservation & Eighth/Ninth Schedule Timeline",
+      "type": "mcq",
+      "question": "The Ninth Schedule's purpose is to:",
+      "options": {
+        "A": "Provide anti-defection law",
+        "B": "List subjects of the Concurrent List",
+        "C": "List 22 languages",
+        "D": "Protect certain laws from judicial review on grounds of violation of Fundamental Rights"
+      },
+      "answer": "D",
+      "explanation": "Art. 31B; subject to I.R. Coelho (2007)."
+    },
+    {
+      "id": 124,
+      "category": "Reservation & Eighth/Ninth Schedule Timeline",
+      "type": "mcq",
+      "question": "Which Article was inserted by the 99th Amendment as 'Judicial Appointments Commission'?",
+      "options": {
+        "A": "Article 217",
+        "B": "Article 124A",
+        "C": "Article 233",
+        "D": "Article 124"
+      },
+      "answer": "B",
+      "explanation": "Arts. 124A-124C."
+    },
+    {
+      "id": 125,
+      "category": "Chronological Arrangement",
+      "type": "chronological",
+      "question": "Arrange the following Amendments in chronological order (earliest first):\nP. First Amendment (1951)\nQ. Twenty-fourth Amendment (1971)\nR. Forty-second Amendment (1976)\nS. Seventh Amendment (1956)",
+      "options": {
+        "A": "P-S-Q-R",
+        "B": "Q-P-S-R",
+        "C": "S-Q-P-R",
+        "D": "Q-R-P-S"
+      },
+      "answer": "A",
+      "explanation": "1951, 1956, 1971, 1976."
+    },
+    {
+      "id": 126,
+      "category": "Chronological Arrangement",
+      "type": "chronological",
+      "question": "Arrange the following cases in chronological order:\nP. Sajjan Singh (1965)\nQ. Golak Nath (1967)\nR. Kesavananda Bharati (1973)\nS. Shankari Prasad (1951)",
+      "options": {
+        "A": "S-P-Q-R",
+        "B": "R-Q-P-S",
+        "C": "R-P-Q-S",
+        "D": "P-S-Q-R"
+      },
+      "answer": "A",
+      "explanation": "1951, 1965, 1967, 1973."
+    },
+    {
+      "id": 127,
+      "category": "Chronological Arrangement",
+      "type": "chronological",
+      "question": "Arrange the following cases in chronological order:\nP. Kesavananda Bharati (1973)\nQ. Indira Gandhi v. Raj Narain (1975)\nR. Minerva Mills (1980)\nS. Waman Rao (1981)",
+      "options": {
+        "A": "S-Q-P-R",
+        "B": "P-Q-R-S",
+        "C": "R-Q-S-P",
+        "D": "Q-S-P-R"
+      },
+      "answer": "B",
+      "explanation": "1973, 1975, 1980, 1981."
+    },
+    {
+      "id": 128,
+      "category": "Chronological Arrangement",
+      "type": "chronological",
+      "question": "Arrange the following Amendments in chronological order:\nP. Sixty-ninth Amendment (1991)\nQ. Eighty-sixth Amendment (2002)\nR. Fifty-second Amendment (1985)\nS. Forty-fourth Amendment (1978)",
+      "options": {
+        "A": "P-Q-R-S",
+        "B": "R-Q-S-P",
+        "C": "S-R-P-Q",
+        "D": "P-S-Q-R"
+      },
+      "answer": "C",
+      "explanation": "1978, 1985, 1991, 2002."
+    },
+    {
+      "id": 129,
+      "category": "Chronological Arrangement",
+      "type": "chronological",
+      "question": "Arrange the following Amendments in chronological order:\nP. Ninth Amendment (1960)\nQ. Seventeenth Amendment (1964)\nR. Twenty-fifth Amendment (1971)\nS. Fourth Amendment (1955)",
+      "options": {
+        "A": "Q-S-P-R",
+        "B": "Q-P-S-R",
+        "C": "P-R-Q-S",
+        "D": "S-P-Q-R"
+      },
+      "answer": "D",
+      "explanation": "1955, 1960, 1964, 1971."
+    },
+    {
+      "id": 130,
+      "category": "Chronological Arrangement",
+      "type": "chronological",
+      "question": "Arrange the following in order of year:\nP. Golak Nath (1967)\nQ. Re Berubari (1960)\nR. Bela Banerjee (1954)\nS. R.C. Cooper (1970)",
+      "options": {
+        "A": "R-Q-S-P",
+        "B": "R-P-S-Q",
+        "C": "P-S-Q-R",
+        "D": "R-Q-P-S"
+      },
+      "answer": "D",
+      "explanation": "1954, 1960, 1967, 1970."
+    },
+    {
+      "id": 131,
+      "category": "Chronological Arrangement",
+      "type": "chronological",
+      "question": "Arrange the following cases chronologically:\nP. S.R. Bommai (1994)\nQ. L. Chandra Kumar (1997)\nR. I.R. Coelho (2007)\nS. Kesavananda Bharati (1973)",
+      "options": {
+        "A": "S-P-Q-R",
+        "B": "P-S-R-Q",
+        "C": "Q-S-R-P",
+        "D": "R-P-Q-S"
+      },
+      "answer": "A",
+      "explanation": "1973, 1994, 1997, 2007."
+    },
+    {
+      "id": 132,
+      "category": "Chronological Arrangement",
+      "type": "chronological",
+      "question": "Arrange the following Amendments chronologically:\nP. One Hundred and First Amendment (2016)\nQ. One Hundred and Third Amendment (2019)\nR. Ninety-ninth Amendment (2014)\nS. One Hundredth Amendment (2015)",
+      "options": {
+        "A": "S-R-Q-P",
+        "B": "Q-S-P-R",
+        "C": "R-S-P-Q",
+        "D": "S-P-R-Q"
+      },
+      "answer": "C",
+      "explanation": "2014, 2015, 2016, 2019."
+    },
+    {
+      "id": 133,
+      "category": "Chronological Arrangement",
+      "type": "chronological",
+      "question": "Arrange the following cases chronologically:\nP. Ashoka Kumar Thakur (2008)\nQ. M. Nagaraj (2006)\nR. Kihoto Hollohan (1992)\nS. Minerva Mills (1980)",
+      "options": {
+        "A": "S-P-R-Q",
+        "B": "S-R-Q-P",
+        "C": "Q-P-S-R",
+        "D": "Q-R-S-P"
+      },
+      "answer": "B",
+      "explanation": "1980, 1992, 2006, 2008."
+    },
+    {
+      "id": 134,
+      "category": "Chronological Arrangement",
+      "type": "chronological",
+      "question": "Arrange the following Amendments chronologically:\nP. Forty-second Amendment (1976)\nQ. Thirty-sixth Amendment (1975)\nR. Thirty-first Amendment (1973)\nS. Forty-fourth Amendment (1978)",
+      "options": {
+        "A": "S-P-R-Q",
+        "B": "R-Q-P-S",
+        "C": "P-S-Q-R",
+        "D": "S-P-Q-R"
+      },
+      "answer": "B",
+      "explanation": "1973, 1975, 1976, 1978."
+    },
+    {
+      "id": 135,
+      "category": "Chronological Arrangement",
+      "type": "chronological",
+      "question": "Arrange the following chronologically:\nP. Ninety-third Amendment (2005)\nQ. Seventy-seventh Amendment (1995)\nR. Ninety-first Amendment (2003)\nS. Seventy-third Amendment (1992)",
+      "options": {
+        "A": "Q-P-R-S",
+        "B": "S-Q-R-P",
+        "C": "S-R-Q-P",
+        "D": "Q-S-P-R"
+      },
+      "answer": "B",
+      "explanation": "1992, 1995, 2003, 2005."
+    },
+    {
+      "id": 136,
+      "category": "Chronological Arrangement",
+      "type": "chronological",
+      "question": "Arrange the following chronologically:\nP. Fifth Amendment (1955)\nQ. Thirty-fifth Amendment (1974)\nR. Thirteenth Amendment (1962)\nS. Twenty-first Amendment (1967)",
+      "options": {
+        "A": "P-Q-S-R",
+        "B": "R-Q-S-P",
+        "C": "S-P-R-Q",
+        "D": "P-R-S-Q"
+      },
+      "answer": "D",
+      "explanation": "1955, 1962, 1967, 1974."
+    },
+    {
+      "id": 137,
+      "category": "Match the Following",
+      "type": "match",
+      "question": "Match the Amendment with its subject:\nList I:\n1. First Amendment\n2. Forty-second Amendment\n3. Seventy-third Amendment\n4. Eighty-sixth Amendment\nList II:\na. Panchayati Raj\nb. Right to Education\nc. Ninth Schedule\nd. Fundamental Duties",
+      "options": {
+        "A": "1-c, 2-d, 3-a, 4-b",
+        "B": "1-b, 2-d, 3-c, 4-a",
+        "C": "1-d, 2-c, 3-b, 4-a",
+        "D": "1-a, 2-c, 3-b, 4-d"
+      },
+      "answer": "A",
+      "explanation": "1-Ninth Schedule; 42nd-Part IVA; 73rd-Part IX; 86th-Art. 21A."
+    },
+    {
+      "id": 138,
+      "category": "Match the Following",
+      "type": "match",
+      "question": "Match the case with the Amendment/issue:\nList I:\n1. Shankari Prasad\n2. Golak Nath\n3. Kihoto Hollohan\n4. Indira Gandhi v. Raj Narain\nList II:\na. Prospective overruling\nb. Art. 329A\nc. Tenth Schedule\nd. First Amendment",
+      "options": {
+        "A": "1-d, 2-b, 3-c, 4-a",
+        "B": "1-d, 2-a, 3-c, 4-b",
+        "C": "1-d, 2-b, 3-a, 4-c",
+        "D": "1-d, 2-c, 3-b, 4-a"
+      },
+      "answer": "B",
+      "explanation": "Standard case–topic pairs."
+    },
+    {
+      "id": 139,
+      "category": "Match the Following",
+      "type": "match",
+      "question": "Match the Amendment with the year:\nList I:\n1. Twenty-fourth Amendment\n2. Fifty-second Amendment\n3. Seventy-third Amendment\n4. One Hundred and First Amendment\nList II:\na. 2016\nb. 1992\nc. 1971\nd. 1985",
+      "options": {
+        "A": "1-c, 2-d, 3-b, 4-a",
+        "B": "1-d, 2-b, 3-a, 4-c",
+        "C": "1-d, 2-b, 3-c, 4-a",
+        "D": "1-a, 2-d, 3-c, 4-b"
+      },
+      "answer": "A",
+      "explanation": "Standard dates."
+    },
+    {
+      "id": 140,
+      "category": "Match the Following",
+      "type": "match",
+      "question": "Match the Article with the Amendment that inserted it:\nList I:\n1. Article 21A\n2. Article 15(5)\n3. Article 279A\n4. Article 338B\nList II:\na. 93rd Amendment\nb. 101st Amendment\nc. 86th Amendment\nd. 102nd Amendment",
+      "options": {
+        "A": "1-d, 2-b, 3-a, 4-c",
+        "B": "1-a, 2-c, 3-b, 4-d",
+        "C": "1-d, 2-c, 3-b, 4-a",
+        "D": "1-c, 2-a, 3-b, 4-d"
+      },
+      "answer": "D",
+      "explanation": "Standard pairings."
+    },
+    {
+      "id": 141,
+      "category": "Match the Following",
+      "type": "match",
+      "question": "Match the Amendment with the State or Union Territory concerned:\nList I:\n1. Tenth Amendment\n2. Twelfth Amendment\n3. Thirteenth Amendment\n4. Thirty-sixth Amendment\nList II:\na. Goa, Daman and Diu\nb. Nagaland\nc. Dadra and Nagar Haveli\nd. Sikkim",
+      "options": {
+        "A": "1-d, 2-a, 3-b, 4-c",
+        "B": "1-a, 2-d, 3-b, 4-c",
+        "C": "1-d, 2-b, 3-c, 4-a",
+        "D": "1-c, 2-a, 3-b, 4-d"
+      },
+      "answer": "D",
+      "explanation": "Territorial integration amendments."
+    },
+    {
+      "id": 142,
+      "category": "Match the Following",
+      "type": "match",
+      "question": "Match the Amendment with the corresponding Article inserted:\nList I:\n1. Fifty-second Amendment\n2. Sixty-ninth Amendment\n3. Ninety-seventh Amendment\n4. Ninety-eighth Amendment\nList II:\na. Article 371J\nb. Article 239AA\nc. Part IXB\nd. Tenth Schedule",
+      "options": {
+        "A": "1-a, 2-c, 3-d, 4-b",
+        "B": "1-c, 2-d, 3-a, 4-b",
+        "C": "1-a, 2-b, 3-c, 4-d",
+        "D": "1-d, 2-b, 3-c, 4-a"
+      },
+      "answer": "D",
+      "explanation": "Standard."
+    },
+    {
+      "id": 143,
+      "category": "Match the Following",
+      "type": "match",
+      "question": "Match the case with its subject matter:\nList I:\n1. Indra Sawhney\n2. S.R. Bommai\n3. L. Chandra Kumar\n4. I.R. Coelho\nList II:\na. Ninth Schedule\nb. Mandal Commission and 50% ceiling\nc. Tribunals under Part XIVA\nd. Article 356",
+      "options": {
+        "A": "1-b, 2-a, 3-c, 4-d",
+        "B": "1-d, 2-a, 3-b, 4-c",
+        "C": "1-b, 2-d, 3-c, 4-a",
+        "D": "1-d, 2-b, 3-c, 4-a"
+      },
+      "answer": "C",
+      "explanation": "Standard."
+    },
+    {
+      "id": 144,
+      "category": "Match the Following",
+      "type": "match",
+      "question": "Match the Amendment with its subject:\nList I:\n1. Thirty-third Amendment\n2. Twenty-sixth Amendment\n3. Thirty-ninth Amendment\n4. Fifteenth Amendment\nList II:\na. Resignation of legislators\nb. Election of PM and Speaker\nc. Privy purses\nd. Retirement age of HC judges",
+      "options": {
+        "A": "1-b, 2-a, 3-c, 4-d",
+        "B": "1-a, 2-d, 3-b, 4-c",
+        "C": "1-b, 2-c, 3-d, 4-a",
+        "D": "1-a, 2-c, 3-b, 4-d"
+      },
+      "answer": "D",
+      "explanation": "Standard."
+    },
+    {
+      "id": 145,
+      "category": "Statement-Based & Mixed",
+      "type": "statement",
+      "question": "I. The 73rd Amendment introduced Part IX and Eleventh Schedule.\nII. The 74th Amendment introduced Part IXA and Twelfth Schedule.",
+      "options": {
+        "A": "Both I and II are correct",
+        "B": "Only I is correct",
+        "C": "Only II is correct",
+        "D": "Neither I nor II is correct"
+      },
+      "answer": "A",
+      "explanation": "Both statements are correct."
+    },
+    {
+      "id": 146,
+      "category": "Statement-Based & Mixed",
+      "type": "statement",
+      "question": "I. Art. 21A was inserted by the 86th Amendment.\nII. Art. 21A guarantees free and compulsory education to children aged 6-14.",
+      "options": {
+        "A": "Both I and II are correct",
+        "B": "Only I is correct",
+        "C": "Only II is correct",
+        "D": "Neither I nor II is correct"
+      },
+      "answer": "A",
+      "explanation": "Both are correct."
+    },
+    {
+      "id": 147,
+      "category": "Statement-Based & Mixed",
+      "type": "statement",
+      "question": "I. The Tenth Schedule was inserted by the 52nd Amendment.\nII. The Tenth Schedule was struck down in its entirety in Kihoto Hollohan.",
+      "options": {
+        "A": "Both I and II are correct",
+        "B": "Only I is correct",
+        "C": "Only II is correct",
+        "D": "Neither I nor II is correct"
+      },
+      "answer": "B",
+      "explanation": "Only para 7 was struck down; the Schedule was upheld."
+    },
+    {
+      "id": 148,
+      "category": "Statement-Based & Mixed",
+      "type": "statement",
+      "question": "I. The right to property is a Fundamental Right under Art. 31.\nII. The 44th Amendment deleted Art. 31 and Art. 19(1)(f).",
+      "options": {
+        "A": "Both I and II are correct",
+        "B": "Only I is correct",
+        "C": "Only II is correct",
+        "D": "Neither I nor II is correct"
+      },
+      "answer": "C",
+      "explanation": "Right to property ceased to be a Fundamental Right in 1978; Art. 300A now guarantees a legal right."
+    },
+    {
+      "id": 149,
+      "category": "Statement-Based & Mixed",
+      "type": "statement",
+      "question": "I. The 42nd Amendment inserted Art. 31C.\nII. Art. 31C was inserted by the 25th Amendment and extended by the 42nd.",
+      "options": {
+        "A": "Both I and II are correct",
+        "B": "Only I is correct",
+        "C": "Only II is correct",
+        "D": "Neither I nor II is correct"
+      },
+      "answer": "C",
+      "explanation": "Art. 31C was inserted by the 25th and extended by the 42nd."
+    },
+    {
+      "id": 150,
+      "category": "Statement-Based & Mixed",
+      "type": "statement",
+      "question": "I. The 103rd Amendment introduced reservation for EWS in educational institutions and public employment.\nII. The Supreme Court in Janhit Abhiyan declared the 103rd Amendment unconstitutional.",
+      "options": {
+        "A": "Both I and II are correct",
+        "B": "Only I is correct",
+        "C": "Only II is correct",
+        "D": "Neither I nor II is correct"
+      },
+      "answer": "B",
+      "explanation": "The Court upheld the 103rd Amendment by 3:2."
+    },
+    {
+      "id": 151,
+      "category": "Statement-Based & Mixed",
+      "type": "statement",
+      "question": "I. NJAC was created under Arts. 124A-124C.\nII. The NJAC Act, 2014 and the 99th Amendment were struck down in 2015.",
+      "options": {
+        "A": "Both I and II are correct",
+        "B": "Only I is correct",
+        "C": "Only II is correct",
+        "D": "Neither I nor II is correct"
+      },
+      "answer": "A",
+      "explanation": "Both true."
+    },
+    {
+      "id": 152,
+      "category": "Statement-Based & Mixed",
+      "type": "statement",
+      "question": "I. The 61st Amendment lowered the voting age to 18 years.\nII. It amended Art. 326.",
+      "options": {
+        "A": "Both I and II are correct",
+        "B": "Only I is correct",
+        "C": "Only II is correct",
+        "D": "Neither I nor II is correct"
+      },
+      "answer": "A",
+      "explanation": "Both true."
+    },
+    {
+      "id": 153,
+      "category": "Statement-Based & Mixed",
+      "type": "statement",
+      "question": "I. The 52nd Amendment inserted the Tenth Schedule.\nII. The 91st Amendment removed the split provision (one-third) under the Tenth Schedule.",
+      "options": {
+        "A": "Both I and II are correct",
+        "B": "Only I is correct",
+        "C": "Only II is correct",
+        "D": "Neither I nor II is correct"
+      },
+      "answer": "A",
+      "explanation": "Both true; the 91st also barred defectors from holding remunerative political posts (Art. 361B)."
+    },
+    {
+      "id": 154,
+      "category": "Statement-Based & Mixed",
+      "type": "statement",
+      "question": "I. The 97th Amendment added the right to form co-operative societies to Art. 19(1)(c).\nII. Part IXB was struck down in its entirety in Rajendra N. Shah.",
+      "options": {
+        "A": "Both I and II are correct",
+        "B": "Only I is correct",
+        "C": "Only II is correct",
+        "D": "Neither I nor II is correct"
+      },
+      "answer": "B",
+      "explanation": "Struck down only for State co-operative societies for want of ratification; remains for multi-State societies."
+    },
+    {
+      "id": 155,
+      "category": "Statement-Based & Mixed",
+      "type": "mcq",
+      "question": "Article 368 as it originally stood did not contain the term 'Constitutional Amendment' in its marginal note. Which Amendment added the words 'and procedure therefor'?",
+      "options": {
+        "A": "Twenty-fourth Amendment",
+        "B": "Forty-fourth Amendment",
+        "C": "Thirty-ninth Amendment",
+        "D": "Forty-second Amendment"
+      },
+      "answer": "A",
+      "explanation": "Marginal note changed to 'Power of Parliament to amend the Constitution and procedure therefor'."
+    },
+    {
+      "id": 156,
+      "category": "Statement-Based & Mixed",
+      "type": "mcq",
+      "question": "Which Amendment introduced the Preamble words 'Socialist', 'Secular' and 'Integrity'?",
+      "options": {
+        "A": "Fifty-second Amendment, 1985",
+        "B": "Forty-second Amendment, 1976",
+        "C": "Forty-fourth Amendment, 1978",
+        "D": "Twenty-fourth Amendment, 1971"
+      },
+      "answer": "B",
+      "explanation": "Challenged unsuccessfully in S.R. Bommai/other cases; Balram Singh v. Union of India (2024) upheld the 42nd Amendment insertions."
+    },
+    {
+      "id": 157,
+      "category": "Statement-Based & Mixed",
+      "type": "mcq",
+      "question": "Which Amendment introduced Article 51A on Fundamental Duties?",
+      "options": {
+        "A": "Sixty-first Amendment",
+        "B": "Eighty-sixth Amendment",
+        "C": "Forty-second Amendment",
+        "D": "Forty-fourth Amendment"
+      },
+      "answer": "C",
+      "explanation": "On the recommendation of the Swaran Singh Committee."
+    },
+    {
+      "id": 158,
+      "category": "Statement-Based & Mixed",
+      "type": "mcq",
+      "question": "Which Amendment removed 'right to property' from the list of Fundamental Rights?",
+      "options": {
+        "A": "Twenty-fifth Amendment",
+        "B": "Forty-fourth Amendment",
+        "C": "Fourth Amendment",
+        "D": "Forty-second Amendment"
+      },
+      "answer": "B",
+      "explanation": "Art. 300A."
+    },
+    {
+      "id": 159,
+      "category": "Statement-Based & Mixed",
+      "type": "mcq",
+      "question": "The Thirty-eighth Amendment, relating to Art. 352, was subsequently modified by the:",
+      "options": {
+        "A": "Fifty-second Amendment",
+        "B": "Forty-second Amendment",
+        "C": "Forty-fourth Amendment",
+        "D": "Forty-third Amendment"
+      },
+      "answer": "C",
+      "explanation": "The 44th made Emergency proclamation justiciable on grounds of malafide/absence of material (Minerva Mills)."
+    }
+  ]
+}

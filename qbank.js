@@ -30,5 +30,5 @@ $('.qb-saved').onclick=e=>{onlySaved=!onlySaved;e.currentTarget.classList.toggle
 $('.qb-more').onclick=()=>{shown+=10;draw()};
 units_();draw();
 };
-if(window.QBANK_DATA)start(window.QBANK_DATA);else fetch('questions.json').then(r=>r.json()).then(start).catch(()=>{root.innerHTML='<p class="qb-empty">Could not load questions.json. Upload it next to index.html.</p>'});
+if(window.QBANK_DATA)start(window.QBANK_DATA);else window.loadBank().then(start).catch(()=>{root.innerHTML='<p class="qb-empty">Could not load questions.json. Upload it next to index.html.</p>'});
 })();

@@ -49,5 +49,5 @@ function open(i){if(cur===i){close();return}cur=i;shown=10;res={};grid.querySele
 grid.addEventListener('click',e=>{const c=e.target.closest('.mod');if(c)open(+c.dataset.i)});
 grid.addEventListener('keydown',e=>{const c=e.target.closest('.mod');if(c&&(e.key==='Enter'||e.key===' ')){e.preventDefault();open(+c.dataset.i)}});
 inits.push(()=>{counts();if(cur>=0)render()});counts()});
-(window.QBANK_DATA?Promise.resolve(window.QBANK_DATA):fetch('questions.json').then(r=>r.json())).then(d=>{Q=d;document.querySelectorAll('[data-qcount]').forEach(e=>e.textContent=Math.floor(d.length/50)*50+'+');inits.forEach(f=>f())}).catch(()=>{Q=[];inits.forEach(f=>f())});
+(window.QBANK_DATA?Promise.resolve(window.QBANK_DATA):window.loadBank()).then(d=>{Q=d;document.querySelectorAll('[data-qcount]').forEach(e=>e.textContent=Math.floor(d.length/50)*50+'+');inits.forEach(f=>f())}).catch(()=>{Q=[];inits.forEach(f=>f())});
 })();
