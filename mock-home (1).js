@@ -1,0 +1,22 @@
+/* Homepage: mock test cards (with progress) and the digital clock. */
+(()=>{
+const g=k=>{try{return JSON.parse(localStorage.getItem(k))}catch{return null}};
+const root=document.getElementById('mock-root');
+if(root){const T=["Full-length paper · Set 1","Full-length paper · Set 2","Full-length paper · Set 3","Full-length paper · Set 4","Revision mix · Sets 1–4"],P=["Set 1 · All 10 units","Set 2 · All 10 units","Set 3 · All 10 units","Set 4 · All 10 units"];const card=(n,label,t,tag,q=100,m=90,hard=false)=>`<article class="mt-card${hard?' hard':''}"><div class="mt-tags"><span class="tag">${tag}</span>${hard?'<span class="mt-hard">▲ '+(hard===true?'TOUGH':hard)+'</span>':''}</div><h3>${label}</h3><p class="mt-ct">${t}</p><ul class="mt-mini"><li>${q} questions</li><li>${m} minutes</li><li>Free</li></ul><p class="mt-st" data-n="${n}">Not started</p><a class="btn primary" href="mock-test-${n}.html" aria-label="Start ${label}">Start Mock Test →</a><button type="button" class="mt-rs" data-n="${n}" aria-label="Reset ${label}">↺ Reset</button></article>`;
+root.innerHTML=`<div class="section-head"><div><span class="eyebrow">FREE · NO SIGN-UP</span><h2>Free Mock Tests – UGC NET Law (Code 058)</h2></div><p>Timed 100-question practice papers with a question palette, instant result analysis and full answer review.</p></div><div class="mt-cards">${T.map((t,i)=>card(i+1,'Mock Test '+(i+1),t,'MOCK TEST '+(i+1))).join('')}${card(13,"Mock Test 6","Full-length paper · All 10 units · <b class=\"mt-redt\">HARD</b>","MOCK TEST 6",100,120,"HARD")}</div><div class="section-head mt-p1"><div><span class="eyebrow">PAPER 1 · GENERAL APTITUDE</span><h2>Paper 1 Mock Tests</h2></div><p>Common to every subject. Sets 1–4 have 100 questions each. Mock A and B follow the real exam pattern (50 questions, 60 minutes) and carry questions marked tough in red.</p></div><div class="mt-cards">${P.map((t,i)=>card(6+i,'Paper 1 · Mock Test '+(i+1),t,'PAPER 1 · SET '+(i+1))).join('')}${card(10,"Exam Pattern Mock A","50 Q · Moderate to <b class=\"mt-redt\">TOUGH</b>","PAPER 1 · MOCK A",50,60,true)}${card(11,"Exam Pattern Mock B","50 Q · Moderate to <b class=\"mt-redt\">TOUGH</b>","PAPER 1 · MOCK B",50,60,true)}${card(12,"Exam Pattern Mock C","50 Q · <b class=\"mt-redt\">EXTREMELY TOUGH</b> · non-obvious","PAPER 1 · MOCK C",50,60,"EXTREMELY TOUGH")}</div><p class="mt-foot">Progress is saved in this browser only. Categories are website practice bands, not official NTA cut-offs.</p>`;
+const paint=()=>{root.querySelectorAll('.mt-st').forEach(el=>{const n=el.dataset.n,r=g(`netlaw058-mock-${n}-result`),a=g(`netlaw058-mock-${n}-attempt`);
+el.textContent='Not started';el.className='mt-st';
+if(a&&a.end){const c=Object.keys(a.ans||{}).length;el.textContent=a.end<=Date.now()?'Time up · open to see result':`In progress · ${c}/100 answered`;el.className='mt-st prog'}
+else if(r){el.textContent=`✓ Completed · ${r.marks}/200 marks`;el.className='mt-st done'}
+const b=root.querySelector(`.mt-rs[data-n="${n}"]`);if(b)b.disabled=!(a&&a.end||r)})};
+paint();
+root.addEventListener('click',e=>{const b=e.target.closest('.mt-rs');if(!b||b.disabled)return;const n=b.dataset.n;
+if(!confirm('Reset this mock test? Your saved answers, timer and result will be erased.'))return;
+try{Object.keys(localStorage).filter(k=>k.startsWith(`netlaw058-mock-${n}-`)).forEach(k=>localStorage.removeItem(k))}catch{}
+paint()});
+window.addEventListener('pageshow',paint);
+const s=document.createElement('style');s.textContent='.mt-rs{margin-top:8px;min-height:40px;border:1px solid var(--line2);background:var(--surface);color:var(--text2);border-radius:9px;font:inherit;font-weight:750;font-size:.8125rem;cursor:pointer}.mt-rs:hover:not(:disabled){background:var(--bad-bg);color:var(--bad-text);border-color:var(--bad-text)}.mt-rs:disabled{opacity:.4;cursor:not-allowed}';document.head.appendChild(s)}
+const tr=document.querySelector('.hero .trust-row');
+if(tr){const c=document.createElement('div');c.className='mt-clock';c.setAttribute('aria-hidden','true');c.innerHTML='<b class="t">--:--:--</b><span class="d"></span>';tr.after(c);
+const t=c.querySelector('.t'),d=c.querySelector('.d'),up=()=>{if(document.hidden)return;const n=new Date();t.textContent=n.toLocaleTimeString([],{hour:'2-digit',minute:'2-digit',second:'2-digit'});d.textContent=n.toLocaleDateString([],{weekday:'short',day:'numeric',month:'short',year:'numeric'})};up();setInterval(up,1000)}
+})();
