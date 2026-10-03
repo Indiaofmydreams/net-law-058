@@ -25,7 +25,7 @@ const SETS=[
 const eye='<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>';
 let Q=null;const inits=[];
 SETS.forEach(S=>{const grid=document.getElementById(S.grid),panel=document.getElementById(S.panel);if(!grid||!panel)return;
-const M=S.mods,inner=panel.querySelector('.mod-in');let cur=-1,shown=5,res={};
+const M=S.mods,inner=panel.querySelector('.mod-in');let cur=-1,shown=10,res={};
 const list=i=>(Q||[]).filter(x=>x.u===M[i][0]);
 grid.innerHTML=M.map((m,i)=>`<div class="unit mod" role="button" tabindex="0" data-i="${i}" aria-expanded="false"><span>${String(i+1).padStart(2,'0')}</span><h3>${m[1]}</h3><p>${m[2]}</p><b class="go">Practice MCQs <i>→</i></b><em class="cnt"></em></div>`).join('');
 const counts=()=>grid.querySelectorAll('.mod').forEach((c,i)=>{const n=list(i).length;c.querySelector('.cnt').textContent=n?n+' MCQs':'Coming soon'});
@@ -42,10 +42,10 @@ inner.querySelector('.mod-sub').textContent=Q===null?'Loading…':L.length?`${L.
 const box=inner.querySelector('.mod-list');
 if(Q&&!L.length)box.innerHTML='<div class="mod-empty"><b>MCQs for this module are coming soon.</b><span>Check back shortly, or try the other modules.</span></div>';
 L.slice(0,shown).forEach((x,k)=>box.appendChild(card(x,k+1,k)));
-if(L.length>shown){const more=document.createElement('button');more.className='qb-more';more.type='button';more.textContent=`Show more (${L.length-shown} left)`;more.onclick=()=>{const s=shown;shown+=5;L.slice(s,shown).forEach((x,k)=>box.insertBefore(card(x,s+k+1,s+k),more));if(L.length<=shown)more.remove();else more.textContent=`Show more (${L.length-shown} left)`};box.appendChild(more)}
+if(L.length>shown){const more=document.createElement('button');more.className='qb-more';more.type='button';more.textContent=`Show more (${L.length-shown} left)`;more.onclick=()=>{const s=shown;shown+=10;L.slice(s,shown).forEach((x,k)=>box.insertBefore(card(x,s+k+1,s+k),more));if(L.length<=shown)more.remove();else more.textContent=`Show more (${L.length-shown} left)`};box.appendChild(more)}
 inner.querySelector('.mod-x').onclick=close;score()}
 function close(){panel.classList.remove('open');grid.querySelectorAll('.mod').forEach(c=>{c.classList.remove('active');c.setAttribute('aria-expanded','false')});cur=-1}
-function open(i){if(cur===i){close();return}cur=i;shown=5;res={};grid.querySelectorAll('.mod').forEach((c,k)=>{c.classList.toggle('active',k===i);c.setAttribute('aria-expanded',k===i)});render();panel.classList.add('open');setTimeout(()=>panel.scrollIntoView({behavior:'smooth',block:'start'}),120)}
+function open(i){if(cur===i){close();return}cur=i;shown=10;res={};grid.querySelectorAll('.mod').forEach((c,k)=>{c.classList.toggle('active',k===i);c.setAttribute('aria-expanded',k===i)});render();panel.classList.add('open');setTimeout(()=>panel.scrollIntoView({behavior:'smooth',block:'start'}),120)}
 grid.addEventListener('click',e=>{const c=e.target.closest('.mod');if(c)open(+c.dataset.i)});
 grid.addEventListener('keydown',e=>{const c=e.target.closest('.mod');if(c&&(e.key==='Enter'||e.key===' ')){e.preventDefault();open(+c.dataset.i)}});
 inits.push(()=>{counts();if(cur>=0)render()});counts()});
