@@ -1,0 +1,3442 @@
+[
+  {
+    "id": 1,
+    "subject": "Jurisprudence",
+    "topic": "Nature and Sources of Law",
+    "difficulty": "Moderate",
+    "question": "Who defined law as 'the body of principles recognised and applied by the State in the administration of justice'?",
+    "options": [
+      "Austin",
+      "Salmond",
+      "Holland",
+      "Savigny"
+    ],
+    "answer": 1,
+    "explanation": "Salmond's definition focuses on State recognition and administration of justice.",
+    "reference": "Salmond on Jurisprudence"
+  },
+  {
+    "id": 2,
+    "subject": "Jurisprudence",
+    "topic": "Nature and Sources of Law",
+    "difficulty": "Easy",
+    "question": "Austin defined law as:",
+    "options": [
+      "A rule of external human action enforced by sovereign political authority",
+      "A set of rules recognised by courts",
+      "A moral order enforced by society",
+      "A command issued by a sovereign and backed by sanction"
+    ],
+    "answer": 3,
+    "explanation": "Austin's imperative theory defines law as a command of the sovereign backed by sanction.",
+    "reference": "Austin, The Province of Jurisprudence Determined (1832)"
+  },
+  {
+    "id": 3,
+    "subject": "Jurisprudence",
+    "topic": "Nature and Sources of Law",
+    "difficulty": "Moderate",
+    "question": "According to Austin, which of the following is NOT a source of positive law?",
+    "options": [
+      "Legislation",
+      "Precedent",
+      "Divine law",
+      "Custom (directly)"
+    ],
+    "answer": 2,
+    "explanation": "Austin called divine law and morality 'positive morality', not law proper.",
+    "reference": "Austin, The Province of Jurisprudence Determined (1832)"
+  },
+  {
+    "id": 4,
+    "subject": "Jurisprudence",
+    "topic": "Nature and Sources of Law",
+    "difficulty": "Easy",
+    "question": "The term 'Jurisprudence' is derived from the Latin words:",
+    "options": [
+      "Jus + prudence",
+      "Juris + dictio",
+      "Juris + prudentia",
+      "Lex + prudentia"
+    ],
+    "answer": 2,
+    "explanation": "Jurisprudence comes from 'juris' (law) and 'prudentia' (knowledge/skill).",
+    "reference": "General Jurisprudence"
+  },
+  {
+    "id": 5,
+    "subject": "Jurisprudence",
+    "topic": "Nature and Sources of Law",
+    "difficulty": "Easy",
+    "question": "Who is regarded as the 'Father of Jurisprudence'?",
+    "options": [
+      "Bentham",
+      "Savigny",
+      "Austin",
+      "Kelsen"
+    ],
+    "answer": 2,
+    "explanation": "Austin is regarded as the Father of Jurisprudence for systematising the analytical study of law.",
+    "reference": "Austin, The Province of Jurisprudence Determined (1832)"
+  },
+  {
+    "id": 6,
+    "subject": "Jurisprudence",
+    "topic": "Nature and Sources of Law",
+    "difficulty": "Moderate",
+    "question": "Which of the following is a formal source of law according to Salmond?",
+    "options": [
+      "Custom",
+      "Legislation",
+      "Precedent",
+      "Both Legislation and Precedent"
+    ],
+    "answer": 3,
+    "explanation": "Salmond distinguished formal sources (legislation, precedent) from material sources (customs, principles of justice).",
+    "reference": "Salmond on Jurisprudence"
+  },
+  {
+    "id": 7,
+    "subject": "Jurisprudence",
+    "topic": "Nature and Sources of Law",
+    "difficulty": "Easy",
+    "question": "Custom becomes law when:",
+    "options": [
+      "It is widely followed",
+      "It is recognised and enforced by courts",
+      "It has existed for 100 years",
+      "It is approved by the legislature"
+    ],
+    "answer": 1,
+    "explanation": "Custom acquires legal force when courts recognise and enforce it.",
+    "reference": "Salmond on Jurisprudence; General Jurisprudence"
+  },
+  {
+    "id": 8,
+    "subject": "Jurisprudence",
+    "topic": "Nature and Sources of Law",
+    "difficulty": "Easy",
+    "question": "Which source of law does Savigny give the highest importance to?",
+    "options": [
+      "Legislation",
+      "Custom",
+      "Judicial precedent",
+      "Equity"
+    ],
+    "answer": 1,
+    "explanation": "Savigny's Historical School held that law originates from the Volksgeist (spirit of the people), manifested through custom.",
+    "reference": "Savigny, Of the Vocation of Our Age for Legislation and Jurisprudence (1814)"
+  },
+  {
+    "id": 9,
+    "subject": "Jurisprudence",
+    "topic": "Nature and Sources of Law",
+    "difficulty": "Easy",
+    "question": "'Volksgeist' means:",
+    "options": [
+      "Will of the sovereign",
+      "Voice of the judiciary",
+      "Conscience of the legislature",
+      "Spirit of the people"
+    ],
+    "answer": 3,
+    "explanation": "Volksgeist = spirit/consciousness of the people, Savigny's foundational concept.",
+    "reference": "Savigny, Historical School"
+  },
+  {
+    "id": 10,
+    "subject": "Jurisprudence",
+    "topic": "Nature and Sources of Law",
+    "difficulty": "Moderate",
+    "question": "Holland defined jurisprudence as the:",
+    "options": [
+      "Philosophy of positive law",
+      "Formal science of positive law",
+      "Science of legislation",
+      "Science of rights and duties"
+    ],
+    "answer": 1,
+    "explanation": "Holland defined jurisprudence as the formal science of positive law.",
+    "reference": "Holland, Elements of Jurisprudence"
+  },
+  {
+    "id": 11,
+    "subject": "Jurisprudence",
+    "topic": "Nature and Sources of Law",
+    "difficulty": "Easy",
+    "question": "The doctrine of 'stare decisis' relates to which source of law?",
+    "options": [
+      "Legislation",
+      "Custom",
+      "Judicial Precedent",
+      "Equity"
+    ],
+    "answer": 2,
+    "explanation": "Stare decisis means 'stand by decided cases' — the principle of binding precedent.",
+    "reference": "General Jurisprudence; Common Law"
+  },
+  {
+    "id": 12,
+    "subject": "Jurisprudence",
+    "topic": "Nature and Sources of Law",
+    "difficulty": "Easy",
+    "question": "In which of the following is 'ratio decidendi' found?",
+    "options": [
+      "Judgment of a court",
+      "Obiter dicta",
+      "Legislature debates",
+      "Statutory provisions"
+    ],
+    "answer": 0,
+    "explanation": "Ratio decidendi (reason for the decision) is found in the judgment of a court and creates binding precedent.",
+    "reference": "Doctrine of Precedent"
+  },
+  {
+    "id": 13,
+    "subject": "Jurisprudence",
+    "topic": "Nature and Sources of Law",
+    "difficulty": "Easy",
+    "question": "'Obiter dicta' means:",
+    "options": [
+      "Remarks made by judge in passing, not binding",
+      "Binding principle of a case",
+      "Dissenting opinion of a judge",
+      "Majority opinion in a case"
+    ],
+    "answer": 0,
+    "explanation": "Obiter dicta = things said by the way; not binding but may be persuasive.",
+    "reference": "Doctrine of Precedent"
+  },
+  {
+    "id": 14,
+    "subject": "Jurisprudence",
+    "topic": "Nature and Sources of Law",
+    "difficulty": "Easy",
+    "question": "According to Paton, which of the following is the most important source of law in modern times?",
+    "options": [
+      "Custom",
+      "Precedent",
+      "Equity",
+      "Legislation"
+    ],
+    "answer": 3,
+    "explanation": "Paton considered legislation the most important source of law in modern times.",
+    "reference": "Paton, A Textbook of Jurisprudence"
+  },
+  {
+    "id": 15,
+    "subject": "Jurisprudence",
+    "topic": "Nature and Sources of Law",
+    "difficulty": "Moderate",
+    "question": "'Law is not found but made' — this view is associated with:",
+    "options": [
+      "Historical School",
+      "Natural Law School",
+      "Sociological School",
+      "Analytical School"
+    ],
+    "answer": 3,
+    "explanation": "The Analytical School views law as positively enacted/made, not discovered through custom.",
+    "reference": "Analytical/Positivist School of Jurisprudence"
+  },
+  {
+    "id": 16,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Easy",
+    "question": "The Analytical School of Jurisprudence is also known as:",
+    "options": [
+      "Natural Law School",
+      "Historical School",
+      "Sociological School",
+      "Imperative School"
+    ],
+    "answer": 3,
+    "explanation": "The Analytical School is called the Imperative School because law is seen as a command (imperative) of the sovereign.",
+    "reference": "Austin, Analytical/Imperative School"
+  },
+  {
+    "id": 17,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Easy",
+    "question": "Austin's three elements of positive law are:",
+    "options": [
+      "Command, Sovereign, Sanction",
+      "Duty, Right, Sanction",
+      "Custom, Precedent, Legislation",
+      "Reason, Nature, Justice"
+    ],
+    "answer": 0,
+    "explanation": "Austin: law = command + issued by sovereign + backed by sanction.",
+    "reference": "Austin, The Province of Jurisprudence Determined (1832)"
+  },
+  {
+    "id": 18,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Easy",
+    "question": "Who propounded the 'Pure Theory of Law'?",
+    "options": [
+      "Austin",
+      "Hart",
+      "Kelsen",
+      "Roscoe Pound"
+    ],
+    "answer": 2,
+    "explanation": "Hans Kelsen propounded the Pure Theory of Law.",
+    "reference": "Kelsen, Pure Theory of Law (1934, revised 1960)"
+  },
+  {
+    "id": 19,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "According to Kelsen, 'Grundnorm' means:",
+    "options": [
+      "The basic/fundamental norm from which all other norms derive validity",
+      "Supreme court judgment",
+      "Constitutional provision",
+      "Sovereign command"
+    ],
+    "answer": 0,
+    "explanation": "The Grundnorm is the presupposed basic norm that validates all other legal norms in the hierarchy.",
+    "reference": "Kelsen, Pure Theory of Law"
+  },
+  {
+    "id": 20,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "Kelsen's Pure Theory of Law is called 'pure' because:",
+    "options": [
+      "It is based on natural justice",
+      "It is free from politics, ethics, and sociology",
+      "It relies only on customs",
+      "It is derived from divine law"
+    ],
+    "answer": 1,
+    "explanation": "Kelsen wanted to establish law as an autonomous normative science, free from all non-legal elements.",
+    "reference": "Kelsen, Pure Theory of Law (1934)"
+  },
+  {
+    "id": 21,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Easy",
+    "question": "'Law is a command of the sovereign' — this definition is given by:",
+    "options": [
+      "Kelsen",
+      "Austin",
+      "Hart",
+      "Salmond"
+    ],
+    "answer": 1,
+    "explanation": "This is Austin's classic definition from his command/imperative theory.",
+    "reference": "Austin, The Province of Jurisprudence Determined (1832)"
+  },
+  {
+    "id": 22,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "Hart's 'Rule of Recognition' is a:",
+    "options": [
+      "Primary rule",
+      "Grundnorm",
+      "Customary rule",
+      "Secondary rule"
+    ],
+    "answer": 3,
+    "explanation": "Hart's secondary rules include: Rule of Recognition, Rule of Change, and Rule of Adjudication.",
+    "reference": "Hart, The Concept of Law (1961)"
+  },
+  {
+    "id": 23,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "Which jurist criticised Austin's command theory by pointing out it cannot apply to constitutional law, customary law, and international law?",
+    "options": [
+      "Kelsen",
+      "H.L.A. Hart",
+      "Roscoe Pound",
+      "Savigny"
+    ],
+    "answer": 1,
+    "explanation": "Hart's critique of Austin showed that command theory fails for power-conferring rules and other types of law.",
+    "reference": "Hart, The Concept of Law (1961)"
+  },
+  {
+    "id": 24,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "Savigny's Historical School developed in reaction to:",
+    "options": [
+      "The Natural Law revival",
+      "Bentham's utilitarianism",
+      "The codification movement in Germany",
+      "Roman Law system"
+    ],
+    "answer": 2,
+    "explanation": "Savigny opposed Thibaut's proposal for German codification, arguing law must grow organically from the people.",
+    "reference": "Savigny, Of the Vocation of Our Age (1814)"
+  },
+  {
+    "id": 25,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Easy",
+    "question": "Henry Maine's famous work 'Ancient Law' (1861) introduced the idea of movement of progressive societies from:",
+    "options": [
+      "Status to Contract",
+      "Contract to Status",
+      "Custom to Legislation",
+      "Morality to Law"
+    ],
+    "answer": 0,
+    "explanation": "Maine's famous thesis: progressive societies move from status (fixed by birth) to contract (freely negotiated).",
+    "reference": "Henry Maine, Ancient Law (1861)"
+  },
+  {
+    "id": 26,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "Roscoe Pound's concept of 'social engineering' means:",
+    "options": [
+      "Using law to build infrastructure",
+      "Balancing competing social interests through law",
+      "Enforcing sovereign commands",
+      "Codifying customs into statute"
+    ],
+    "answer": 1,
+    "explanation": "Pound viewed law as a tool for social engineering — balancing and reconciling competing interests.",
+    "reference": "Roscoe Pound, Sociological School"
+  },
+  {
+    "id": 27,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "Roscoe Pound classified interests into how many categories?",
+    "options": [
+      "Three",
+      "Two",
+      "Four",
+      "Five"
+    ],
+    "answer": 0,
+    "explanation": "Pound's three categories: Individual interests, Public interests, and Social interests.",
+    "reference": "Roscoe Pound, Sociological Jurisprudence"
+  },
+  {
+    "id": 28,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Easy",
+    "question": "'Law is a living thing and it mirrors the society' — this view best reflects:",
+    "options": [
+      "Analytical School",
+      "Natural Law School",
+      "Realist School",
+      "Sociological School"
+    ],
+    "answer": 3,
+    "explanation": "The Sociological School views law as a social phenomenon that must reflect and serve social needs.",
+    "reference": "Sociological School of Jurisprudence"
+  },
+  {
+    "id": 29,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "Oliver Wendell Holmes said: 'The prophecies of what courts will do in fact, and nothing more pretentious, are what I mean by the law.' This statement belongs to:",
+    "options": [
+      "Realist School",
+      "Natural Law School",
+      "Analytical School",
+      "Historical School"
+    ],
+    "answer": 0,
+    "explanation": "Holmes' statement is the classic expression of American Legal Realism.",
+    "reference": "Holmes, The Path of the Law (1897)"
+  },
+  {
+    "id": 30,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Hard",
+    "question": "The Realist School is divided into American Realism and Scandinavian Realism. Who among the following belongs to Scandinavian Realism?",
+    "options": [
+      "Jerome Frank",
+      "Karl Llewellyn",
+      "Axel Hägerström",
+      "Oliver Wendell Holmes"
+    ],
+    "answer": 2,
+    "explanation": "Axel Hägerström founded Scandinavian Realism, which focused on the psychological reality of law.",
+    "reference": "Scandinavian Realist School"
+  },
+  {
+    "id": 31,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Hard",
+    "question": "Lon Fuller's 'Inner Morality of Law' (Procedural Natural Law) requires eight principles of legality. Which of the following is NOT one of them?",
+    "options": [
+      "Laws must be general",
+      "Laws must be promulgated",
+      "Laws must be congruent with official action",
+      "Laws must be retrospective"
+    ],
+    "answer": 3,
+    "explanation": "Fuller requires laws to be prospective (not retrospective). Retrospective laws violate the inner morality of law.",
+    "reference": "Fuller, The Morality of Law (1964)"
+  },
+  {
+    "id": 32,
+    "subject": "Jurisprudence",
+    "topic": "Nature and Sources of Law",
+    "difficulty": "Easy",
+    "question": "'Ubi societas ibi jus' means:",
+    "options": [
+      "Where there is law, there is society",
+      "Law exists beyond society",
+      "Where there is society, there is law",
+      "Justice is blind"
+    ],
+    "answer": 2,
+    "explanation": "This Latin maxim expresses the inseparable link between society and law.",
+    "reference": "General Jurisprudence — Latin Maxims"
+  },
+  {
+    "id": 33,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Easy",
+    "question": "Which school of jurisprudence treats law as a 'social fact'?",
+    "options": [
+      "Natural Law",
+      "Sociological",
+      "Analytical",
+      "Historical"
+    ],
+    "answer": 1,
+    "explanation": "Sociological jurisprudence treats law as a social fact embedded in social relations.",
+    "reference": "Sociological School"
+  },
+  {
+    "id": 34,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "Match the following jurists with their schools: Austin — Savigny — Pound — Holmes",
+    "options": [
+      "Analytical, Historical, Sociological, Realist",
+      "Historical, Analytical, Realist, Sociological",
+      "Analytical, Sociological, Historical, Realist",
+      "Realist, Analytical, Sociological, Historical"
+    ],
+    "answer": 0,
+    "explanation": "Austin=Analytical, Savigny=Historical, Pound=Sociological, Holmes=Realist.",
+    "reference": "Schools of Jurisprudence"
+  },
+  {
+    "id": 35,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "Dworkin's critique of Hart argued that law also includes:",
+    "options": [
+      "Only rules",
+      "Principles and policies in addition to rules",
+      "Only sovereign commands",
+      "Only customs"
+    ],
+    "answer": 1,
+    "explanation": "Dworkin argued in 'Taking Rights Seriously' that law includes principles (binding) and policies, not just rules.",
+    "reference": "Dworkin, Taking Rights Seriously (1977)"
+  },
+  {
+    "id": 36,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "Who said 'Law is the cement of society and an essential medium of change'?",
+    "options": [
+      "Pound",
+      "Friedmann",
+      "Hart",
+      "Kelsen"
+    ],
+    "answer": 1,
+    "explanation": "W. Friedmann made this statement highlighting law's dual role in social cohesion and change.",
+    "reference": "W. Friedmann, Legal Theory"
+  },
+  {
+    "id": 37,
+    "subject": "Jurisprudence",
+    "topic": "Law and Morality",
+    "difficulty": "Easy",
+    "question": "'The existence of law is one thing; its merit or demerit is another.' This statement is attributed to:",
+    "options": [
+      "Kelsen",
+      "Hart",
+      "Fuller",
+      "Austin"
+    ],
+    "answer": 3,
+    "explanation": "This is Austin's classic statement of the separation between law and morality in positivism.",
+    "reference": "Austin, The Province of Jurisprudence Determined (1832)"
+  },
+  {
+    "id": 38,
+    "subject": "Jurisprudence",
+    "topic": "Law and Morality",
+    "difficulty": "Easy",
+    "question": "'Lex iniusta non est lex' (An unjust law is not a law) is associated with:",
+    "options": [
+      "Austin",
+      "St. Thomas Aquinas",
+      "Hart",
+      "Kelsen"
+    ],
+    "answer": 1,
+    "explanation": "St. Thomas Aquinas held that an unjust law lacks the character of law — a core Natural Law principle.",
+    "reference": "Aquinas, Summa Theologica; Natural Law School"
+  },
+  {
+    "id": 39,
+    "subject": "Jurisprudence",
+    "topic": "Law and Morality",
+    "difficulty": "Moderate",
+    "question": "The Hart-Fuller debate of 1958 was published in:",
+    "options": [
+      "Harvard Law Review",
+      "Oxford Law Review",
+      "Yale Law Journal",
+      "Cambridge Law Journal"
+    ],
+    "answer": 0,
+    "explanation": "The famous Hart-Fuller debate on law and morality was published in the Harvard Law Review, 1958.",
+    "reference": "Hart-Fuller Debate, Harvard Law Review (1958)"
+  },
+  {
+    "id": 40,
+    "subject": "Jurisprudence",
+    "topic": "Law and Morality",
+    "difficulty": "Moderate",
+    "question": "The Wolfenden Report (1957) recommended:",
+    "options": [
+      "Criminalising homosexuality",
+      "Enforcing moral standards through criminal law",
+      "Decriminalising homosexual acts between consenting adults in private",
+      "Codifying English customary law"
+    ],
+    "answer": 2,
+    "explanation": "The Wolfenden Report (1957) recommended decriminalisation of consensual adult homosexual acts, triggering the Hart-Devlin debate.",
+    "reference": "Wolfenden Report (1957); Hart-Devlin Debate"
+  },
+  {
+    "id": 41,
+    "subject": "Jurisprudence",
+    "topic": "Law and Morality",
+    "difficulty": "Moderate",
+    "question": "Lord Devlin's argument in the Hart-Devlin debate was:",
+    "options": [
+      "Law should never enforce morality",
+      "Shared morality is the cement of society and law may enforce it",
+      "Morality is irrelevant to law",
+      "Only harm-causing acts should be criminalised"
+    ],
+    "answer": 1,
+    "explanation": "Devlin argued that a shared morality holds society together and its enforcement by law is justified.",
+    "reference": "Lord Devlin, The Enforcement of Morals (1959)"
+  },
+  {
+    "id": 42,
+    "subject": "Jurisprudence",
+    "topic": "Law and Morality",
+    "difficulty": "Moderate",
+    "question": "Mill's 'Harm Principle' states:",
+    "options": [
+      "Law should enforce all moral standards",
+      "The only legitimate basis for restricting liberty is to prevent harm to others",
+      "Law and morality are identical",
+      "Sovereign can restrict liberty for any reason"
+    ],
+    "answer": 1,
+    "explanation": "Mill's harm principle from 'On Liberty' (1859): only harm to others can justify restricting individual freedom.",
+    "reference": "Mill, On Liberty (1859)"
+  },
+  {
+    "id": 43,
+    "subject": "Jurisprudence",
+    "topic": "Law and Morality",
+    "difficulty": "Moderate",
+    "question": "Radbruch's Formula was developed in response to:",
+    "options": [
+      "The Nuremberg Trials",
+      "The French Revolution",
+      "Atrocities of the Nazi regime",
+      "Both the Nuremberg Trials and Nazi atrocities"
+    ],
+    "answer": 3,
+    "explanation": "Radbruch's formula argued that extremely unjust laws lose their legal character — a post-WWII natural law revival.",
+    "reference": "Gustav Radbruch, Radbruch's Formula (post-WWII)"
+  },
+  {
+    "id": 44,
+    "subject": "Jurisprudence",
+    "topic": "Law and Morality",
+    "difficulty": "Moderate",
+    "question": "Which of the following best represents the 'separability thesis' in legal theory?",
+    "options": [
+      "Law and morality are conceptually separate",
+      "Law and morality are necessarily connected",
+      "Law derives its validity from morality",
+      "Natural law is superior to positive law"
+    ],
+    "answer": 0,
+    "explanation": "The separability thesis (Hart) holds that there is no necessary connection between law as it is and law as it ought to be.",
+    "reference": "Hart, The Concept of Law (1961)"
+  },
+  {
+    "id": 45,
+    "subject": "Jurisprudence",
+    "topic": "Law and Morality",
+    "difficulty": "Hard",
+    "question": "The 'Critical Legal Studies' (CLS) movement argues that:",
+    "options": [
+      "Law is neutral and objective",
+      "Law reflects universal moral values",
+      "Law is politics and serves dominant class interests",
+      "Law must be based on precedent alone"
+    ],
+    "answer": 2,
+    "explanation": "CLS holds that law is indeterminate and serves dominant power structures, not neutral principles.",
+    "reference": "Critical Legal Studies Movement"
+  },
+  {
+    "id": 46,
+    "subject": "Jurisprudence",
+    "topic": "Law and Morality",
+    "difficulty": "Hard",
+    "question": "The 'minimum content of natural law' concept was given by:",
+    "options": [
+      "Fuller",
+      "Kelsen",
+      "H.L.A. Hart",
+      "Dworkin"
+    ],
+    "answer": 2,
+    "explanation": "Hart, despite being a positivist, acknowledged a minimum moral content (protecting persons, property, promises) necessary for any legal system.",
+    "reference": "Hart, The Concept of Law (1961)"
+  },
+  {
+    "id": 47,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Rights and Duties",
+    "difficulty": "Moderate",
+    "question": "Hohfeld's analysis of legal rights is contained in his work:",
+    "options": [
+      "Fundamental Legal Conceptions as Applied in Judicial Reasoning",
+      "The Concept of Law",
+      "The Pure Theory of Law",
+      "The Morality of Law"
+    ],
+    "answer": 0,
+    "explanation": "Hohfeld's framework of jural relations was published in Yale Law Journal in 1913 and 1917.",
+    "reference": "Hohfeld, Fundamental Legal Conceptions (1913, 1917)"
+  },
+  {
+    "id": 48,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Rights and Duties",
+    "difficulty": "Moderate",
+    "question": "According to Hohfeld, the correlative of a 'right' is:",
+    "options": [
+      "Privilege",
+      "Duty",
+      "Power",
+      "Immunity"
+    ],
+    "answer": 1,
+    "explanation": "Right ↔ Duty is a jural correlative: one person's right creates another's duty.",
+    "reference": "Hohfeld, Fundamental Legal Conceptions (1913)"
+  },
+  {
+    "id": 49,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Rights and Duties",
+    "difficulty": "Moderate",
+    "question": "According to Hohfeld, the correlative of a 'privilege' (liberty) is:",
+    "options": [
+      "Right",
+      "Duty",
+      "Disability",
+      "No-right"
+    ],
+    "answer": 3,
+    "explanation": "Privilege ↔ No-right: If A has a privilege to do X, B has no right that A not do X.",
+    "reference": "Hohfeld, Fundamental Legal Conceptions (1913)"
+  },
+  {
+    "id": 50,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Rights and Duties",
+    "difficulty": "Moderate",
+    "question": "According to Hohfeld, the correlative of 'power' is:",
+    "options": [
+      "Immunity",
+      "Disability",
+      "Duty",
+      "Liability"
+    ],
+    "answer": 3,
+    "explanation": "Power ↔ Liability: A's power to change B's legal position means B has a liability to have their position changed.",
+    "reference": "Hohfeld, Fundamental Legal Conceptions (1913)"
+  },
+  {
+    "id": 51,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Rights and Duties",
+    "difficulty": "Moderate",
+    "question": "According to Hohfeld, the correlative of 'immunity' is:",
+    "options": [
+      "Liability",
+      "No-right",
+      "Disability",
+      "Duty"
+    ],
+    "answer": 2,
+    "explanation": "Immunity ↔ Disability: A's immunity means B has a disability to change A's legal position.",
+    "reference": "Hohfeld, Fundamental Legal Conceptions (1913)"
+  },
+  {
+    "id": 52,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Rights and Duties",
+    "difficulty": "Moderate",
+    "question": "The opposite of 'right' in Hohfeld's analysis is:",
+    "options": [
+      "No-right",
+      "Duty",
+      "Privilege",
+      "Disability"
+    ],
+    "answer": 0,
+    "explanation": "In Hohfeld's jural opposites table: Right ↔ No-right.",
+    "reference": "Hohfeld, Fundamental Legal Conceptions (1913)"
+  },
+  {
+    "id": 53,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Rights and Duties",
+    "difficulty": "Easy",
+    "question": "Ihering defined a legal right as:",
+    "options": [
+      "A command of the sovereign",
+      "A power recognised by the state",
+      "A duty imposed on others",
+      "A legally protected interest"
+    ],
+    "answer": 3,
+    "explanation": "Ihering's Interest Theory: rights are legally protected interests.",
+    "reference": "Ihering, Interest Theory of Rights"
+  },
+  {
+    "id": 54,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Rights and Duties",
+    "difficulty": "Moderate",
+    "question": "Austin defined a legal right as:",
+    "options": [
+      "A faculty given to persons by law",
+      "An interest protected by law",
+      "A privilege granted by the sovereign",
+      "A power over another person's acts"
+    ],
+    "answer": 3,
+    "explanation": "Austin: A right is a faculty conferred on one person by another's relative duty.",
+    "reference": "Austin, Will Theory of Rights"
+  },
+  {
+    "id": 55,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Rights and Duties",
+    "difficulty": "Moderate",
+    "question": "Which of the following jurists gave the 'Will Theory' of rights?",
+    "options": [
+      "Ihering",
+      "Austin",
+      "Savigny and Austin",
+      "Salmond"
+    ],
+    "answer": 2,
+    "explanation": "Will Theory (Savigny and Austin): a right is an expression of individual will/power.",
+    "reference": "Will Theory vs Interest Theory of Rights"
+  },
+  {
+    "id": 56,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Rights and Duties",
+    "difficulty": "Moderate",
+    "question": "'Perfect rights' and 'imperfect rights' were distinguished by:",
+    "options": [
+      "Salmond",
+      "Holland",
+      "Paton",
+      "Austin"
+    ],
+    "answer": 3,
+    "explanation": "Perfect rights = those the law will enforce. Imperfect rights = moral claims not enforceable by law (Austin's classification).",
+    "reference": "Austin, Jurisprudence"
+  },
+  {
+    "id": 57,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Rights and Duties",
+    "difficulty": "Moderate",
+    "question": "A 'public right' is different from a 'private right' in that:",
+    "options": [
+      "It vests in the State alone",
+      "It cannot be enforced in courts",
+      "It has no corresponding duty",
+      "It is available to every member of the community"
+    ],
+    "answer": 3,
+    "explanation": "A public right is available to every member of the public (e.g., right to use public roads).",
+    "reference": "Salmond on Jurisprudence; Classification of Rights"
+  },
+  {
+    "id": 58,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Rights and Duties",
+    "difficulty": "Moderate",
+    "question": "Which of the following is a characteristic of a legal duty according to Salmond?",
+    "options": [
+      "It must be moral in nature",
+      "It is an act recognised by law as obligatory",
+      "It must flow from a contract only",
+      "It must be owed to the sovereign"
+    ],
+    "answer": 1,
+    "explanation": "Salmond: a legal duty is an act or forbearance that is recognised by law as obligatory.",
+    "reference": "Salmond on Jurisprudence"
+  },
+  {
+    "id": 59,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Rights and Duties",
+    "difficulty": "Easy",
+    "question": "'Jural correlatives' and 'jural opposites' are concepts introduced by:",
+    "options": [
+      "Salmond",
+      "Dworkin",
+      "Hohfeld",
+      "Hart"
+    ],
+    "answer": 2,
+    "explanation": "Hohfeld introduced the framework of jural correlatives and jural opposites.",
+    "reference": "Hohfeld, Fundamental Legal Conceptions (1913)"
+  },
+  {
+    "id": 60,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Rights and Duties",
+    "difficulty": "Easy",
+    "question": "Human rights are distinguished from legal rights because:",
+    "options": [
+      "Human rights require legislation",
+      "Human rights are inherent and universal, independent of legal recognition",
+      "Human rights are enforceable in domestic courts",
+      "Human rights apply only to citizens"
+    ],
+    "answer": 1,
+    "explanation": "Human rights are inherent to all persons by virtue of humanity, regardless of legal recognition.",
+    "reference": "UDHR (1948); Human Rights theory"
+  },
+  {
+    "id": 61,
+    "subject": "Jurisprudence",
+    "topic": "Legal Personality",
+    "difficulty": "Easy",
+    "question": "The 'Fiction Theory' of corporate personality is associated with:",
+    "options": [
+      "Gierke",
+      "Savigny",
+      "Ihering",
+      "Brinz"
+    ],
+    "answer": 1,
+    "explanation": "Savigny's Fiction Theory: a corporation is a mere legal fiction; only humans can truly be legal persons.",
+    "reference": "Savigny, Fiction Theory of Corporate Personality"
+  },
+  {
+    "id": 62,
+    "subject": "Jurisprudence",
+    "topic": "Legal Personality",
+    "difficulty": "Easy",
+    "question": "The 'Realist Theory' of corporate personality is associated with:",
+    "options": [
+      "Savigny",
+      "Salmond",
+      "Gierke",
+      "Kelsen"
+    ],
+    "answer": 2,
+    "explanation": "Gierke's Organic/Realist Theory: a corporation has real existence as a social organism independent of its members.",
+    "reference": "Gierke, Realist/Organic Theory"
+  },
+  {
+    "id": 63,
+    "subject": "Jurisprudence",
+    "topic": "Legal Personality",
+    "difficulty": "Easy",
+    "question": "'Bracket Theory' of corporate personality is given by:",
+    "options": [
+      "Savigny",
+      "Gierke",
+      "Duguit",
+      "Ihering"
+    ],
+    "answer": 3,
+    "explanation": "Ihering's Bracket Theory: members are the real persons; the corporation is just a bracket around them.",
+    "reference": "Ihering, Bracket Theory"
+  },
+  {
+    "id": 64,
+    "subject": "Jurisprudence",
+    "topic": "Legal Personality",
+    "difficulty": "Moderate",
+    "question": "A 'corporation sole' consists of:",
+    "options": [
+      "A group of individuals",
+      "A single person and their successors in an office",
+      "A company with limited liability",
+      "A public authority with statutory powers"
+    ],
+    "answer": 1,
+    "explanation": "A corporation sole is a single person holding an office and their successors, e.g., the Crown, Bishop of a diocese.",
+    "reference": "Salmond on Jurisprudence; Corporation Sole"
+  },
+  {
+    "id": 65,
+    "subject": "Jurisprudence",
+    "topic": "Legal Personality",
+    "difficulty": "Moderate",
+    "question": "The legal position of an unborn child in law is:",
+    "options": [
+      "Has full legal personality from conception",
+      "Has legal personality only after birth but rights vest from conception for their benefit",
+      "Has no legal rights whatsoever",
+      "Has legal rights only after 6 months in the womb"
+    ],
+    "answer": 1,
+    "explanation": "Maxim: 'Nasciturus pro iam nato habetur' — the unborn is treated as already born for its benefit.",
+    "reference": "Nasciturus doctrine; Legal Personality"
+  },
+  {
+    "id": 66,
+    "subject": "Jurisprudence",
+    "topic": "Legal Personality",
+    "difficulty": "Moderate",
+    "question": "Which Indian river was granted legal personality by the Uttarakhand High Court?",
+    "options": [
+      "Yamuna only",
+      "Ganga only",
+      "Both Ganga and Yamuna",
+      "Narmada"
+    ],
+    "answer": 2,
+    "explanation": "In Mohd. Salim v. State of Uttarakhand (2017), both Ganga and Yamuna were granted legal personhood (later stayed by Supreme Court).",
+    "reference": "Mohd. Salim v. State of Uttarakhand (2017)"
+  },
+  {
+    "id": 67,
+    "subject": "Jurisprudence",
+    "topic": "Legal Personality",
+    "difficulty": "Moderate",
+    "question": "Dead persons in law:",
+    "options": [
+      "Retain full legal personality",
+      "Lose legal personality upon death but certain interests are protected",
+      "Retain personality for 30 years after death",
+      "Have personality only if they left a will"
+    ],
+    "answer": 1,
+    "explanation": "Death extinguishes legal personality, but interests in property and reputation receive some post-mortem protection.",
+    "reference": "Salmond on Jurisprudence; Legal Personality"
+  },
+  {
+    "id": 68,
+    "subject": "Jurisprudence",
+    "topic": "Legal Personality",
+    "difficulty": "Moderate",
+    "question": "The 'Concession Theory' of corporate personality holds that:",
+    "options": [
+      "Corporations have real existence independent of State",
+      "Personality is a fiction",
+      "All members collectively form the legal person",
+      "The State grants personality and can take it away"
+    ],
+    "answer": 3,
+    "explanation": "Under the Concession Theory, the State grants corporate personality — it is not inherent.",
+    "reference": "Concession Theory of Corporate Personality"
+  },
+  {
+    "id": 69,
+    "subject": "Jurisprudence",
+    "topic": "Concepts of Property, Ownership and Possession",
+    "difficulty": "Moderate",
+    "question": "Savigny's theory of possession requires:",
+    "options": [
+      "Only corpus possessionis",
+      "Only animus domini",
+      "Both corpus possessionis and animus domini",
+      "Neither corpus nor animus"
+    ],
+    "answer": 2,
+    "explanation": "Savigny required both corpus (physical control) and animus domini (intention to hold as owner).",
+    "reference": "Savigny, Theory of Possession"
+  },
+  {
+    "id": 70,
+    "subject": "Jurisprudence",
+    "topic": "Concepts of Property, Ownership and Possession",
+    "difficulty": "Moderate",
+    "question": "Ihering's theory of possession requires:",
+    "options": [
+      "Only animus domini",
+      "Both corpus and animus as equally essential",
+      "Primarily corpus possessionis; animus is presumed",
+      "Possession in law recognised by a court"
+    ],
+    "answer": 2,
+    "explanation": "Ihering: corpus is the main element; animus is presumed unless the law says otherwise.",
+    "reference": "Ihering, Theory of Possession"
+  },
+  {
+    "id": 71,
+    "subject": "Jurisprudence",
+    "topic": "Concepts of Property, Ownership and Possession",
+    "difficulty": "Easy",
+    "question": "'Animus domini' means:",
+    "options": [
+      "Intention to hold a thing as owner",
+      "Physical control over a thing",
+      "Legal title to property",
+      "Transfer of possession"
+    ],
+    "answer": 0,
+    "explanation": "Animus domini = intention to hold/possess as owner.",
+    "reference": "Theory of Possession — Latin terms"
+  },
+  {
+    "id": 72,
+    "subject": "Jurisprudence",
+    "topic": "Concepts of Property, Ownership and Possession",
+    "difficulty": "Easy",
+    "question": "'Corpus possessionis' means:",
+    "options": [
+      "Physical control over a thing",
+      "Intention to possess",
+      "Document of title",
+      "The owner's right to exclude"
+    ],
+    "answer": 0,
+    "explanation": "Corpus possessionis = the physical element of possession — actual control over the thing.",
+    "reference": "Theory of Possession — Latin terms"
+  },
+  {
+    "id": 73,
+    "subject": "Jurisprudence",
+    "topic": "Concepts of Property, Ownership and Possession",
+    "difficulty": "Moderate",
+    "question": "Who said ownership is 'a plenary real right'?",
+    "options": [
+      "Austin",
+      "Holland",
+      "Salmond",
+      "Paton"
+    ],
+    "answer": 2,
+    "explanation": "Salmond described ownership as a plenary (complete) real right — the highest form of real right.",
+    "reference": "Salmond on Jurisprudence"
+  },
+  {
+    "id": 74,
+    "subject": "Jurisprudence",
+    "topic": "Concepts of Property, Ownership and Possession",
+    "difficulty": "Easy",
+    "question": "'Nemo dat quod non habet' means:",
+    "options": [
+      "One cannot give what one does not have",
+      "Possession is nine-tenths of the law",
+      "The owner is always right",
+      "Property cannot be transferred without consent"
+    ],
+    "answer": 0,
+    "explanation": "This maxim means one cannot transfer a better title than one possesses.",
+    "reference": "Property Law — Latin Maxims"
+  },
+  {
+    "id": 75,
+    "subject": "Jurisprudence",
+    "topic": "Concepts of Property, Ownership and Possession",
+    "difficulty": "Easy",
+    "question": "'Possession is nine-tenths of the law' means:",
+    "options": [
+      "Possession creates a strong presumption of ownership",
+      "Ownership is more important than possession",
+      "Law protects possession for nine years",
+      "Nine types of possession exist in law"
+    ],
+    "answer": 0,
+    "explanation": "Possession creates a prima facie presumption of ownership, enforceable against everyone except the true owner.",
+    "reference": "Theory of Possession"
+  },
+  {
+    "id": 76,
+    "subject": "Jurisprudence",
+    "topic": "Concepts of Property, Ownership and Possession",
+    "difficulty": "Moderate",
+    "question": "The possessor of a thing is protected even against the true owner in some circumstances. This protection is justified by which theory?",
+    "options": [
+      "Will theory",
+      "Interest theory",
+      "Possessory title theory",
+      "Absolute right theory"
+    ],
+    "answer": 2,
+    "explanation": "Possessory title theory: possession itself creates a title good against all but the true owner.",
+    "reference": "Theory of Possession"
+  },
+  {
+    "id": 77,
+    "subject": "Jurisprudence",
+    "topic": "Concepts of Property, Ownership and Possession",
+    "difficulty": "Moderate",
+    "question": "'Mediate possession' means:",
+    "options": [
+      "Direct physical control of a thing",
+      "Possession through an intermediary (agent/bailee)",
+      "Possession by court order",
+      "Joint possession of two persons"
+    ],
+    "answer": 1,
+    "explanation": "Mediate possession = possession exercised through an agent, servant or bailee.",
+    "reference": "Salmond on Jurisprudence — Types of Possession"
+  },
+  {
+    "id": 78,
+    "subject": "Jurisprudence",
+    "topic": "Concepts of Property, Ownership and Possession",
+    "difficulty": "Moderate",
+    "question": "'Incorporeal ownership' relates to:",
+    "options": [
+      "Ownership of land",
+      "Ownership of tangible movables",
+      "Ownership of intangible rights like patents, copyrights",
+      "Ownership of government property"
+    ],
+    "answer": 2,
+    "explanation": "Incorporeal ownership is ownership over intangible things such as intellectual property rights.",
+    "reference": "Types of Ownership — Jurisprudence"
+  },
+  {
+    "id": 79,
+    "subject": "Jurisprudence",
+    "topic": "Concepts of Property, Ownership and Possession",
+    "difficulty": "Moderate",
+    "question": "When ownership and possession are with different persons, courts generally favour:",
+    "options": [
+      "The owner always",
+      "The possessor always",
+      "The owner unless another person is a bona fide purchaser for value",
+      "The State"
+    ],
+    "answer": 2,
+    "explanation": "Generally ownership prevails, but a bona fide purchaser for value without notice is an important exception.",
+    "reference": "Ownership vs Possession — Jurisprudence"
+  },
+  {
+    "id": 80,
+    "subject": "Jurisprudence",
+    "topic": "Concepts of Property, Ownership and Possession",
+    "difficulty": "Moderate",
+    "question": "'Vested ownership' is different from 'contingent ownership' in that:",
+    "options": [
+      "Vested ownership depends on a future condition",
+      "Vested ownership is immediate and unconditional",
+      "Contingent ownership is more secure",
+      "Both are the same in law"
+    ],
+    "answer": 1,
+    "explanation": "Vested ownership = immediate, unconditional. Contingent ownership = depends on a future uncertain event.",
+    "reference": "Types of Ownership — Jurisprudence"
+  },
+  {
+    "id": 81,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Liability",
+    "difficulty": "Moderate",
+    "question": "The rule in Rylands v. Fletcher (1868) established:",
+    "options": [
+      "Absolute liability",
+      "Strict liability",
+      "Vicarious liability",
+      "Fault-based liability"
+    ],
+    "answer": 1,
+    "explanation": "Rylands v. Fletcher established strict liability for non-natural use of land — with exceptions (act of God, consent, etc.).",
+    "reference": "Rylands v. Fletcher (1868)"
+  },
+  {
+    "id": 82,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Liability",
+    "difficulty": "Moderate",
+    "question": "The Supreme Court of India laid down the principle of 'Absolute Liability' (no exceptions) in:",
+    "options": [
+      "Rylands v. Fletcher",
+      "Donoghue v. Stevenson",
+      "Salomon v. Salomon",
+      "MC Mehta v. Union of India (Oleum Gas Leak case)"
+    ],
+    "answer": 3,
+    "explanation": "In MC Mehta v. Union of India (1987), the Supreme Court evolved absolute liability — stricter than Rylands v. Fletcher with no exceptions.",
+    "reference": "MC Mehta v. Union of India (1987)"
+  },
+  {
+    "id": 83,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Liability",
+    "difficulty": "Easy",
+    "question": "'Damnum sine injuria' means:",
+    "options": [
+      "Injury without damage",
+      "Legal injury with damage",
+      "Mental injury without physical harm",
+      "Damage without legal injury"
+    ],
+    "answer": 3,
+    "explanation": "Damnum sine injuria = damage without legal injury — not actionable in law.",
+    "reference": "Law of Torts — Latin Maxims"
+  },
+  {
+    "id": 84,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Liability",
+    "difficulty": "Easy",
+    "question": "'Injuria sine damnum' means:",
+    "options": [
+      "Damage without legal injury",
+      "Legal injury without actual damage",
+      "Self-inflicted damage",
+      "Damage to property only"
+    ],
+    "answer": 1,
+    "explanation": "Injuria sine damnum = legal right violated without actual damage — actionable (e.g., Ashby v. White).",
+    "reference": "Ashby v. White (1703)"
+  },
+  {
+    "id": 85,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Liability",
+    "difficulty": "Moderate",
+    "question": "The case of Ashby v. White (1703) illustrates which principle?",
+    "options": [
+      "Damnum sine injuria",
+      "Injuria sine damnum",
+      "Volenti non fit injuria",
+      "Res ipsa loquitur"
+    ],
+    "answer": 1,
+    "explanation": "Ashby v. White: A voter was prevented from voting (legal right violated) though no actual damage was proved — actionable.",
+    "reference": "Ashby v. White (1703)"
+  },
+  {
+    "id": 86,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Liability",
+    "difficulty": "Easy",
+    "question": "'Actus non facit reum nisi mens sit rea' means:",
+    "options": [
+      "Every act is criminal",
+      "An act does not make a person guilty unless there is a guilty mind",
+      "Strict liability applies to all acts",
+      "Only acts cause liability, not omissions"
+    ],
+    "answer": 1,
+    "explanation": "This fundamental maxim establishes that criminal liability requires both act (actus reus) and guilty mind (mens rea).",
+    "reference": "Criminal Law — Latin Maxims"
+  },
+  {
+    "id": 87,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Liability",
+    "difficulty": "Easy",
+    "question": "Vicarious liability in tort is based on the principle of:",
+    "options": [
+      "'Volenti non fit injuria' — consent negates liability",
+      "'Damnum sine injuria'",
+      "'Respondeat superior' — let the master answer",
+      "'Novus actus interveniens'"
+    ],
+    "answer": 2,
+    "explanation": "Respondeat superior: an employer is vicariously liable for torts committed by employees in course of employment.",
+    "reference": "Law of Torts — Vicarious Liability"
+  },
+  {
+    "id": 88,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Liability",
+    "difficulty": "Moderate",
+    "question": "Which of the following is NOT an exception to the rule of strict liability under Rylands v. Fletcher?",
+    "options": [
+      "Ignorance of the defendant",
+      "Act of God",
+      "Consent of the plaintiff",
+      "Act of a stranger/third party"
+    ],
+    "answer": 0,
+    "explanation": "Ignorance of the defendant is not a recognised exception to strict or absolute liability.",
+    "reference": "Rylands v. Fletcher (1868) — exceptions"
+  },
+  {
+    "id": 89,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Liability",
+    "difficulty": "Easy",
+    "question": "'Volenti non fit injuria' means:",
+    "options": [
+      "Voluntary acts are always lawful",
+      "Damage must be proved for liability",
+      "Employer is liable for employee's acts",
+      "No legal injury is done to a person who consents"
+    ],
+    "answer": 3,
+    "explanation": "Volenti non fit injuria: consent of the plaintiff is a complete defence to tortious liability.",
+    "reference": "Law of Torts — Defences"
+  },
+  {
+    "id": 90,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Liability",
+    "difficulty": "Easy",
+    "question": "The distinction between 'civil liability' and 'criminal liability' is that:",
+    "options": [
+      "Civil liability involves only fines",
+      "Criminal liability is enforced by the victim",
+      "Civil liability is remedial; criminal liability is penal/punitive",
+      "There is no distinction in modern law"
+    ],
+    "answer": 2,
+    "explanation": "Civil liability aims to compensate; criminal liability aims to punish and deter.",
+    "reference": "Jurisprudence — Concept of Liability"
+  },
+  {
+    "id": 91,
+    "subject": "Jurisprudence",
+    "topic": "Law, Poverty and Development",
+    "difficulty": "Moderate",
+    "question": "The concept of 'Law and Development' movement emerged primarily in:",
+    "options": [
+      "The 1940s",
+      "The 1960s–1970s",
+      "The 1990s",
+      "The 2000s"
+    ],
+    "answer": 1,
+    "explanation": "The Law and Development movement emerged in the 1960s-70s, focused on using law to transplant development models.",
+    "reference": "Law and Development Movement"
+  },
+  {
+    "id": 92,
+    "subject": "Jurisprudence",
+    "topic": "Law, Poverty and Development",
+    "difficulty": "Moderate",
+    "question": "The 'rule of law' as a tool for development requires which of the following?",
+    "options": [
+      "Executive supremacy",
+      "Predictable, accessible, and equally applied legal norms",
+      "Restriction of judicial review",
+      "Sovereign immunity from law"
+    ],
+    "answer": 1,
+    "explanation": "Rule of law as a development tool requires predictability, access, and equal application of norms.",
+    "reference": "Rule of Law and Development"
+  },
+  {
+    "id": 93,
+    "subject": "Jurisprudence",
+    "topic": "Law, Poverty and Development",
+    "difficulty": "Moderate",
+    "question": "Amartya Sen's 'capability approach' in relation to poverty and law argues that:",
+    "options": [
+      "Development is the expansion of real freedoms/capabilities that people enjoy",
+      "GDP growth alone measures development",
+      "Law is irrelevant to poverty reduction",
+      "Poverty is purely an economic phenomenon"
+    ],
+    "answer": 0,
+    "explanation": "Sen's capability approach: development = expansion of substantive freedoms and capabilities.",
+    "reference": "Amartya Sen, Development as Freedom (1999)"
+  },
+  {
+    "id": 94,
+    "subject": "Jurisprudence",
+    "topic": "Law, Poverty and Development",
+    "difficulty": "Easy",
+    "question": "The concept of 'access to justice' as a tool against poverty includes:",
+    "options": [
+      "Abolishing courts",
+      "Privatising the legal system",
+      "Making courts faster and cheaper for the poor",
+      "Limiting PIL jurisdiction"
+    ],
+    "answer": 2,
+    "explanation": "Access to justice means making legal remedies available, affordable and effective for the poor.",
+    "reference": "Access to Justice Movement"
+  },
+  {
+    "id": 95,
+    "subject": "Jurisprudence",
+    "topic": "Law, Poverty and Development",
+    "difficulty": "Easy",
+    "question": "Legal Aid to the poor in India is a constitutional mandate under Article:",
+    "options": [
+      "14",
+      "21",
+      "39A",
+      "32"
+    ],
+    "answer": 2,
+    "explanation": "Article 39A DPSP mandates equal justice and free legal aid; implemented through the Legal Services Authorities Act, 1987.",
+    "reference": "Constitution of India, Article 39A; Legal Services Authorities Act, 1987"
+  },
+  {
+    "id": 96,
+    "subject": "Jurisprudence",
+    "topic": "Global Justice",
+    "difficulty": "Moderate",
+    "question": "John Rawls' theory of justice is based on:",
+    "options": [
+      "Utilitarianism",
+      "Divine law",
+      "Historical evolution",
+      "'Justice as Fairness' behind a veil of ignorance"
+    ],
+    "answer": 3,
+    "explanation": "Rawls: justice as fairness; two principles chosen behind a veil of ignorance — equal liberties and difference principle.",
+    "reference": "Rawls, A Theory of Justice (1971)"
+  },
+  {
+    "id": 97,
+    "subject": "Jurisprudence",
+    "topic": "Global Justice",
+    "difficulty": "Moderate",
+    "question": "Rawls' 'Veil of Ignorance' thought experiment is used to:",
+    "options": [
+      "Criticise the judiciary",
+      "Support affirmative action always",
+      "Justify majority rule",
+      "Ensure impartial principles of justice are chosen without self-interest"
+    ],
+    "answer": 3,
+    "explanation": "Behind the veil of ignorance, no one knows their place in society, ensuring principles are chosen impartially.",
+    "reference": "Rawls, A Theory of Justice (1971)"
+  },
+  {
+    "id": 98,
+    "subject": "Jurisprudence",
+    "topic": "Global Justice",
+    "difficulty": "Easy",
+    "question": "Amartya Sen's major work on justice is titled:",
+    "options": [
+      "The Idea of Justice",
+      "A Theory of Justice",
+      "Law and Development",
+      "Justice and Human Rights"
+    ],
+    "answer": 0,
+    "explanation": "Sen's 'The Idea of Justice' (2009) critiques Rawls' ideal theory and advocates comparative justice assessments.",
+    "reference": "Amartya Sen, The Idea of Justice (2009)"
+  },
+  {
+    "id": 99,
+    "subject": "Jurisprudence",
+    "topic": "Global Justice",
+    "difficulty": "Moderate",
+    "question": "The concept of 'commutative justice' refers to:",
+    "options": [
+      "Justice in distribution of goods",
+      "Punishment proportional to crime",
+      "Justice in international trade",
+      "Fairness in exchanges and transactions between individuals"
+    ],
+    "answer": 3,
+    "explanation": "Commutative justice (Aristotle) = fairness in individual transactions and exchanges.",
+    "reference": "Aristotle, Nicomachean Ethics"
+  },
+  {
+    "id": 100,
+    "subject": "Jurisprudence",
+    "topic": "Global Justice",
+    "difficulty": "Moderate",
+    "question": "'Distributive justice' is concerned with:",
+    "options": [
+      "Punishment of criminals",
+      "Enforcement of contracts",
+      "Fair allocation of benefits and burdens in society",
+      "Resolution of disputes between states"
+    ],
+    "answer": 2,
+    "explanation": "Distributive justice deals with the fair allocation of social goods, benefits and burdens among members of society.",
+    "reference": "Aristotle; Rawls, A Theory of Justice (1971)"
+  },
+  {
+    "id": 101,
+    "subject": "Jurisprudence",
+    "topic": "Modernism and Post-Modernism",
+    "difficulty": "Moderate",
+    "question": "Post-modernism in law is associated with which of the following movements?",
+    "options": [
+      "Critical Legal Studies (CLS)",
+      "Legal Positivism",
+      "Natural Law",
+      "Historical School"
+    ],
+    "answer": 0,
+    "explanation": "Post-modernism in law is expressed through CLS, Feminist Jurisprudence, and Critical Race Theory.",
+    "reference": "Critical Legal Studies; Post-modern Jurisprudence"
+  },
+  {
+    "id": 102,
+    "subject": "Jurisprudence",
+    "topic": "Modernism and Post-Modernism",
+    "difficulty": "Hard",
+    "question": "Michel Foucault's contribution to legal theory is primarily through:",
+    "options": [
+      "Kelsen's Pure Theory critique",
+      "Development of the Grundnorm",
+      "Natural rights theory",
+      "Analysis of power-knowledge relations and how law disciplines society"
+    ],
+    "answer": 3,
+    "explanation": "Foucault analysed how law and punishment are tools of power and discipline in modern society.",
+    "reference": "Foucault, Discipline and Punish (1975)"
+  },
+  {
+    "id": 103,
+    "subject": "Jurisprudence",
+    "topic": "Modernism and Post-Modernism",
+    "difficulty": "Moderate",
+    "question": "'Deconstruction' as applied to law is associated with:",
+    "options": [
+      "Austin",
+      "Rawls",
+      "Derrida",
+      "Fuller"
+    ],
+    "answer": 2,
+    "explanation": "Jacques Derrida's deconstruction challenges stable meanings in legal texts and reveals internal contradictions.",
+    "reference": "Derrida, Post-modern Jurisprudence"
+  },
+  {
+    "id": 104,
+    "subject": "Jurisprudence",
+    "topic": "Modernism and Post-Modernism",
+    "difficulty": "Moderate",
+    "question": "The 'indeterminacy thesis' in CLS means:",
+    "options": [
+      "Legal rules are so open-textured that they cannot determine outcomes",
+      "Law has clear and determinate answers",
+      "Judges always follow precedent",
+      "Constitutional law is supreme"
+    ],
+    "answer": 0,
+    "explanation": "CLS's indeterminacy thesis: legal rules and precedents are so flexible that judges decide on ideological grounds.",
+    "reference": "Critical Legal Studies Movement"
+  },
+  {
+    "id": 105,
+    "subject": "Jurisprudence",
+    "topic": "Modernism and Post-Modernism",
+    "difficulty": "Moderate",
+    "question": "Feminist jurisprudence primarily critiques law for:",
+    "options": [
+      "Being too positivist",
+      "Ignoring custom",
+      "Being gender-biased and reflecting patriarchal power structures",
+      "Excessive reliance on natural law"
+    ],
+    "answer": 2,
+    "explanation": "Feminist jurisprudence exposes how law reflects and perpetuates patriarchal power.",
+    "reference": "Feminist Jurisprudence — MacKinnon, Gilligan"
+  },
+  {
+    "id": 106,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "The 'command theory' of law fails to account for which type of law?",
+    "options": [
+      "Criminal law",
+      "Permissive/power-conferring rules (e.g., law of contract and wills)",
+      "Constitutional law",
+      "Both power-conferring rules and constitutional law"
+    ],
+    "answer": 3,
+    "explanation": "Hart's critique: Austin's command theory cannot explain power-conferring rules or constitutional law.",
+    "reference": "Hart, The Concept of Law (1961)"
+  },
+  {
+    "id": 107,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "Which of the following correctly states the chronological development of Natural Law?",
+    "options": [
+      "Medieval → Greek → Roman → Modern",
+      "Roman → Greek → Medieval → Modern",
+      "Modern → Medieval → Greek → Roman",
+      "Greeks → Roman → Medieval → Renaissance → Modern"
+    ],
+    "answer": 3,
+    "explanation": "Natural law developed: Stoics/Greeks → Roman jurists → Aquinas (Medieval) → Grotius (Renaissance) → Social contract theorists → Fuller (Modern revival).",
+    "reference": "Natural Law School — Historical Development"
+  },
+  {
+    "id": 108,
+    "subject": "Jurisprudence",
+    "topic": "Nature and Sources of Law",
+    "difficulty": "Easy",
+    "question": "Hugo Grotius is known as the:",
+    "options": [
+      "Father of International Law",
+      "Father of Jurisprudence",
+      "Father of Natural Law",
+      "Father of Sociology of Law"
+    ],
+    "answer": 0,
+    "explanation": "Hugo Grotius is the Father of International Law. His work 'De Jure Belli ac Pacis' (1625) founded modern international law.",
+    "reference": "Grotius, De Jure Belli ac Pacis (1625)"
+  },
+  {
+    "id": 109,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "The concept of 'positive morality' was given by:",
+    "options": [
+      "Kelsen",
+      "Hart",
+      "Fuller",
+      "Austin"
+    ],
+    "answer": 3,
+    "explanation": "Austin divided norms into positive law, positive morality, and divine law. Only positive law is the proper subject of jurisprudence.",
+    "reference": "Austin, The Province of Jurisprudence Determined (1832)"
+  },
+  {
+    "id": 110,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Hard",
+    "question": "'Sociological jurisprudence' differs from 'sociology of law' in that:",
+    "options": [
+      "Sociological jurisprudence uses sociology to improve law; sociology of law studies law as a social fact",
+      "They are identical",
+      "Sociology of law is normative; sociological jurisprudence is empirical",
+      "Sociological jurisprudence ignores society"
+    ],
+    "answer": 0,
+    "explanation": "Sociological jurisprudence is normative (how law should serve society); sociology of law is empirical (how law functions in society).",
+    "reference": "Sociological School distinction"
+  },
+  {
+    "id": 111,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "The 'living law' concept was given by:",
+    "options": [
+      "Roscoe Pound",
+      "Eugen Ehrlich",
+      "Savigny",
+      "Holmes"
+    ],
+    "answer": 1,
+    "explanation": "Ehrlich: The 'living law' is the law actually followed in society, which may differ from official state law.",
+    "reference": "Ehrlich, Fundamental Principles of the Sociology of Law"
+  },
+  {
+    "id": 112,
+    "subject": "Jurisprudence",
+    "topic": "Nature and Sources of Law",
+    "difficulty": "Moderate",
+    "question": "Assertion (A): Austin excluded international law from the category of positive law. Reason (R): International law lacks a sovereign to enforce it.",
+    "options": [
+      "Both A and R are correct and R is the correct explanation of A",
+      "Both A and R are correct but R is not the correct explanation of A",
+      "A is correct but R is wrong",
+      "A is wrong but R is correct"
+    ],
+    "answer": 0,
+    "explanation": "Austin correctly excluded international law — it is positive morality, not positive law, because there is no sovereign above states.",
+    "reference": "Austin, The Province of Jurisprudence Determined (1832)"
+  },
+  {
+    "id": 113,
+    "subject": "Jurisprudence",
+    "topic": "Concepts of Property, Ownership and Possession",
+    "difficulty": "Moderate",
+    "question": "Assertion (A): Possession is protected even against the true owner in some cases. Reason (R): Possession creates prima facie evidence of ownership.",
+    "options": [
+      "Both A and R are correct and R is the correct explanation of A",
+      "Both A and R are correct but R is not the correct explanation of A",
+      "A is correct but R is wrong",
+      "R is correct but A is wrong"
+    ],
+    "answer": 0,
+    "explanation": "Possession is protected because it creates prima facie evidence of ownership and protects social order.",
+    "reference": "Theory of Possession — Jurisprudence"
+  },
+  {
+    "id": 114,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "Which of the following pairs is INCORRECTLY matched?",
+    "options": [
+      "Savigny — Historical School",
+      "Kelsen — Pure Theory",
+      "Austin — Analytical School",
+      "Roscoe Pound — Realist School"
+    ],
+    "answer": 3,
+    "explanation": "Roscoe Pound belongs to the Sociological School, NOT the Realist School.",
+    "reference": "Schools of Jurisprudence"
+  },
+  {
+    "id": 115,
+    "subject": "Jurisprudence",
+    "topic": "Legal Personality",
+    "difficulty": "Moderate",
+    "question": "The maxim 'Nasciturus pro iam nato habetur' protects the rights of:",
+    "options": [
+      "Unborn children",
+      "Deceased persons",
+      "Mentally unsound persons",
+      "Corporations"
+    ],
+    "answer": 0,
+    "explanation": "This maxim means the unborn is treated as already born for the purposes of protecting its interests.",
+    "reference": "Legal Personality — Nasciturus doctrine"
+  },
+  {
+    "id": 116,
+    "subject": "Jurisprudence",
+    "topic": "Nature and Sources of Law",
+    "difficulty": "Moderate",
+    "question": "Which of the following is described as a 'material source' of law by Salmond?",
+    "options": [
+      "Legislation",
+      "Precedent",
+      "Constitution",
+      "Custom and principles of justice"
+    ],
+    "answer": 3,
+    "explanation": "Salmond: material sources provide the content of law (custom, equity, justice); formal sources give it legal force (legislation, precedent).",
+    "reference": "Salmond on Jurisprudence"
+  },
+  {
+    "id": 117,
+    "subject": "Jurisprudence",
+    "topic": "Nature and Sources of Law",
+    "difficulty": "Moderate",
+    "question": "'Equity' as a source of law developed in England through:",
+    "options": [
+      "Parliament",
+      "Common Law courts",
+      "Court of Chancery",
+      "House of Lords"
+    ],
+    "answer": 2,
+    "explanation": "Equity developed in the Court of Chancery, administered by the Lord Chancellor to mitigate common law's harshness.",
+    "reference": "English Legal History; Judicature Acts 1873-75"
+  },
+  {
+    "id": 118,
+    "subject": "Jurisprudence",
+    "topic": "Nature and Sources of Law",
+    "difficulty": "Moderate",
+    "question": "Which of the following best describes 'conventional law'?",
+    "options": [
+      "Law made by Parliament",
+      "Law based on customs",
+      "Law derived from judicial decisions",
+      "Law arising from agreements between states (treaties)"
+    ],
+    "answer": 3,
+    "explanation": "Austin's classification: conventional law = law arising from agreements between parties, e.g., international treaties.",
+    "reference": "Austin, Jurisprudence — Classification of Law"
+  },
+  {
+    "id": 119,
+    "subject": "Jurisprudence",
+    "topic": "Nature and Sources of Law",
+    "difficulty": "Easy",
+    "question": "'Positive law' according to Austin consists of:",
+    "options": [
+      "Laws of God",
+      "Commands set by political superiors to political inferiors",
+      "Laws of nature",
+      "Moral rules enforced by public opinion"
+    ],
+    "answer": 1,
+    "explanation": "Positive law = commands set by determinate political superiors (sovereigns) to political inferiors.",
+    "reference": "Austin, The Province of Jurisprudence Determined (1832)"
+  },
+  {
+    "id": 120,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Easy",
+    "question": "The 'historical' school attributes the origin of law primarily to:",
+    "options": [
+      "Custom and popular consciousness",
+      "Reason",
+      "Divine will",
+      "Sovereign command"
+    ],
+    "answer": 0,
+    "explanation": "The Historical School: law springs from the spirit/consciousness of the people, expressed through custom.",
+    "reference": "Savigny, Historical School"
+  },
+  {
+    "id": 121,
+    "subject": "Jurisprudence",
+    "topic": "Nature and Sources of Law",
+    "difficulty": "Moderate",
+    "question": "Which of the following jurists held that 'legislation is the most democratic source of law'?",
+    "options": [
+      "Salmond",
+      "Bentham",
+      "Austin",
+      "Savigny"
+    ],
+    "answer": 1,
+    "explanation": "Bentham was a strong advocate of legislation and codification as a rational, democratic source of law.",
+    "reference": "Bentham, Utilitarianism and Legal Reform"
+  },
+  {
+    "id": 122,
+    "subject": "Jurisprudence",
+    "topic": "Nature and Sources of Law",
+    "difficulty": "Hard",
+    "question": "A custom to be recognised as law must satisfy which of the following conditions according to English common law?",
+    "options": [
+      "Antiquity, continuity, peacefulness, reasonableness, certainty, obligatory force",
+      "Age of 50 years, written form, judicial approval",
+      "Parliamentary recognition only",
+      "Universal acceptance and divine sanction"
+    ],
+    "answer": 0,
+    "explanation": "English common law requires customs to be ancient, continuous, peaceable, reasonable, certain, and compulsory to be legally recognised.",
+    "reference": "English Common Law — Custom as Source of Law"
+  },
+  {
+    "id": 123,
+    "subject": "Jurisprudence",
+    "topic": "Nature and Sources of Law",
+    "difficulty": "Easy",
+    "question": "'Judge-made law' or law created through precedent is called:",
+    "options": [
+      "Common law / case law",
+      "Statute law",
+      "Customary law",
+      "Delegated legislation"
+    ],
+    "answer": 0,
+    "explanation": "Common law or case law refers to law developed through judicial precedent.",
+    "reference": "Common Law system; Doctrine of Precedent"
+  },
+  {
+    "id": 124,
+    "subject": "Jurisprudence",
+    "topic": "Nature and Sources of Law",
+    "difficulty": "Easy",
+    "question": "'Delegated legislation' means:",
+    "options": [
+      "Law made by the courts",
+      "Constitutional amendments",
+      "International treaties ratified by Parliament",
+      "Law made by subordinate authorities under powers conferred by the legislature"
+    ],
+    "answer": 3,
+    "explanation": "Delegated legislation = secondary legislation made by executive/bodies under authority delegated by Parliament.",
+    "reference": "Administrative Law; Sources of Law"
+  },
+  {
+    "id": 125,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Easy",
+    "question": "'Law is a social fact' — this view is most closely associated with:",
+    "options": [
+      "Analytical positivism",
+      "Natural law",
+      "Historical school",
+      "Sociological jurisprudence"
+    ],
+    "answer": 3,
+    "explanation": "Sociological jurisprudence treats law as embedded in social reality, a social fact.",
+    "reference": "Sociological School of Jurisprudence"
+  },
+  {
+    "id": 126,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "The Natural Law theory underwent a 'renaissance' after World War II primarily due to:",
+    "options": [
+      "Kelsen's Pure Theory",
+      "The rise of the welfare state",
+      "Hart's critique of Austin",
+      "The Nuremberg Trials and atrocities of Nazism"
+    ],
+    "answer": 3,
+    "explanation": "The Nazi regime's use of positivist law to justify atrocities led to a natural law revival — Radbruch's formula, Fuller's work.",
+    "reference": "Post-WWII Natural Law Revival; Radbruch's Formula"
+  },
+  {
+    "id": 127,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Easy",
+    "question": "Who among the following said that law is 'the prediction of what courts will do'?",
+    "options": [
+      "Karl Llewellyn",
+      "Oliver Wendell Holmes",
+      "Jerome Frank",
+      "Roscoe Pound"
+    ],
+    "answer": 1,
+    "explanation": "Holmes stated this in 'The Path of the Law' (1897) — the foundational statement of American Legal Realism.",
+    "reference": "Holmes, The Path of the Law (1897)"
+  },
+  {
+    "id": 128,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Hard",
+    "question": "Jerome Frank's contribution to American Realism is his focus on:",
+    "options": [
+      "Statutory interpretation",
+      "'Fact skepticism' — uncertainty arising from the trial court's finding of facts",
+      "Appellate court decisions",
+      "Legislative history"
+    ],
+    "answer": 1,
+    "explanation": "Frank was a 'fact skeptic' — he focused on the unpredictability of fact-finding at trial level.",
+    "reference": "Jerome Frank, Law and the Modern Mind (1930)"
+  },
+  {
+    "id": 129,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Hard",
+    "question": "Karl Llewellyn is associated with which type of skepticism in American Realism?",
+    "options": [
+      "Fact skepticism",
+      "Value skepticism",
+      "Rule skepticism",
+      "Moral skepticism"
+    ],
+    "answer": 2,
+    "explanation": "Llewellyn was a 'rule skeptic' — he doubted that stated legal rules actually determine judicial decisions.",
+    "reference": "Karl Llewellyn, American Legal Realism"
+  },
+  {
+    "id": 130,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Easy",
+    "question": "Who among the following is NOT associated with the Natural Law school?",
+    "options": [
+      "Cicero",
+      "Jeremy Bentham",
+      "St. Thomas Aquinas",
+      "Hugo Grotius"
+    ],
+    "answer": 1,
+    "explanation": "Bentham was a legal positivist and utilitarian who strongly opposed natural law as 'nonsense upon stilts'.",
+    "reference": "Bentham, Anarchical Fallacies"
+  },
+  {
+    "id": 131,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Easy",
+    "question": "Bentham called natural rights:",
+    "options": [
+      "'Nonsense upon stilts'",
+      "The foundation of law",
+      "Divinely inspired",
+      "The basis of justice"
+    ],
+    "answer": 0,
+    "explanation": "Bentham attacked natural rights in 'Anarchical Fallacies' as 'nonsense upon stilts' — a famous positivist critique.",
+    "reference": "Bentham, Anarchical Fallacies"
+  },
+  {
+    "id": 132,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "Savigny's view that law cannot be made but only found/discovered is called:",
+    "options": [
+      "The Command Theory",
+      "The Volksgeist Theory",
+      "The Organic Theory",
+      "The Normative Theory"
+    ],
+    "answer": 1,
+    "explanation": "Volksgeist theory: law is not made but grows organically from the spirit/consciousness of the people.",
+    "reference": "Savigny, Historical School"
+  },
+  {
+    "id": 133,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "The 'sociological movement' in jurisprudence was pioneered in Europe by:",
+    "options": [
+      "Montesquieu and Comte",
+      "Roscoe Pound",
+      "Oliver Wendell Holmes",
+      "Savigny"
+    ],
+    "answer": 0,
+    "explanation": "Montesquieu's 'Spirit of Laws' (1748) and Comte's positivist sociology laid the European foundation for sociological jurisprudence.",
+    "reference": "Montesquieu, Spirit of Laws (1748)"
+  },
+  {
+    "id": 134,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "Eugen Ehrlich's concept of 'living law' means:",
+    "options": [
+      "Constitutional law that is enforceable",
+      "Natural law principles",
+      "Law reformed by legislation",
+      "Law actually observed in society, which may differ from official law"
+    ],
+    "answer": 3,
+    "explanation": "Ehrlich: the 'living law' is what people actually follow in their associations and groups, separate from state law.",
+    "reference": "Ehrlich, Fundamental Principles of the Sociology of Law"
+  },
+  {
+    "id": 135,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "Hart's primary rules are rules that:",
+    "options": [
+      "Confer powers on individuals or officials",
+      "Specify how other rules may be created or changed",
+      "Define the ultimate source of law",
+      "Impose obligations/duties on individuals"
+    ],
+    "answer": 3,
+    "explanation": "Primary rules impose duties and obligations on persons — they are the first-order rules of a legal system.",
+    "reference": "Hart, The Concept of Law (1961)"
+  },
+  {
+    "id": 136,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Hard",
+    "question": "Hart's secondary rules include all of the following EXCEPT:",
+    "options": [
+      "Rule of Sanction",
+      "Rule of Recognition",
+      "Rule of Change",
+      "Rule of Adjudication"
+    ],
+    "answer": 0,
+    "explanation": "Hart's three secondary rules: Recognition, Change, Adjudication. 'Rule of Sanction' is not one of them — that belongs to Austin.",
+    "reference": "Hart, The Concept of Law (1961)"
+  },
+  {
+    "id": 137,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "Dworkin's 'Hercules' is a metaphor for:",
+    "options": [
+      "An ideal sovereign",
+      "The strongest legal argument",
+      "A hypothetical ideal judge who finds the best answer for every case",
+      "The constitution of a democratic state"
+    ],
+    "answer": 2,
+    "explanation": "Hercules is Dworkin's ideal judge — omniscient, with infinite time — who can find the uniquely correct answer to every case.",
+    "reference": "Dworkin, Taking Rights Seriously (1977); Law's Empire (1986)"
+  },
+  {
+    "id": 138,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "Dworkin's 'Law as Integrity' means:",
+    "options": [
+      "Law must always be codified",
+      "Judges must follow precedent rigidly",
+      "Law must be interpreted as a coherent whole expressing consistent principles of justice",
+      "Law is identical to morality"
+    ],
+    "answer": 2,
+    "explanation": "Law as Integrity (Dworkin): judges must interpret law so that it expresses a coherent set of principles of justice and fairness.",
+    "reference": "Dworkin, Law's Empire (1986)"
+  },
+  {
+    "id": 139,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "Which school of jurisprudence is most closely associated with the term 'jus gentium'?",
+    "options": [
+      "Historical School",
+      "Analytical School",
+      "Natural Law School (Roman Law period)",
+      "Realist School"
+    ],
+    "answer": 2,
+    "explanation": "Jus gentium = law of nations/peoples; developed by Roman jurists as universal natural law applicable to all humanity.",
+    "reference": "Roman Jurisprudence; Natural Law"
+  },
+  {
+    "id": 140,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Easy",
+    "question": "'Sociological jurisprudence' in America is most associated with:",
+    "options": [
+      "Roscoe Pound",
+      "Savigny",
+      "Eugen Ehrlich",
+      "Oliver Wendell Holmes"
+    ],
+    "answer": 0,
+    "explanation": "Roscoe Pound is the dominant figure of American sociological jurisprudence.",
+    "reference": "Roscoe Pound, Sociological School"
+  },
+  {
+    "id": 141,
+    "subject": "Jurisprudence",
+    "topic": "Law and Morality",
+    "difficulty": "Easy",
+    "question": "Who argued that there is a 'necessary connection' between law and morality?",
+    "options": [
+      "Austin",
+      "Kelsen",
+      "American Realists",
+      "Natural Law theorists"
+    ],
+    "answer": 3,
+    "explanation": "Natural Law theorists hold that law must conform to morality to be valid law.",
+    "reference": "Natural Law School"
+  },
+  {
+    "id": 142,
+    "subject": "Jurisprudence",
+    "topic": "Law and Morality",
+    "difficulty": "Moderate",
+    "question": "The 'open texture' of law is a concept developed by:",
+    "options": [
+      "Dworkin",
+      "Austin",
+      "Fuller",
+      "H.L.A. Hart"
+    ],
+    "answer": 3,
+    "explanation": "Hart: language is inherently open-textured — rules have a clear core but a penumbra of uncertain cases requiring judicial discretion.",
+    "reference": "Hart, The Concept of Law (1961)"
+  },
+  {
+    "id": 143,
+    "subject": "Jurisprudence",
+    "topic": "Law and Morality",
+    "difficulty": "Moderate",
+    "question": "Hart's 'penumbra of doubt' refers to:",
+    "options": [
+      "Cases at the borderline where the rule's application is uncertain",
+      "The clear centre of meaning of a legal rule",
+      "Moral principles underlying law",
+      "Fundamental rights in the Constitution"
+    ],
+    "answer": 0,
+    "explanation": "Hart: every rule has a core of settled meaning and a penumbra of doubtful cases where interpretation is needed.",
+    "reference": "Hart, The Concept of Law (1961)"
+  },
+  {
+    "id": 144,
+    "subject": "Jurisprudence",
+    "topic": "Law and Morality",
+    "difficulty": "Moderate",
+    "question": "Fuller's eight principles of 'inner morality of law' are collectively called:",
+    "options": [
+      "Procedural natural law / principles of legality",
+      "Natural law principles",
+      "Constitutional morality",
+      "Positive morality"
+    ],
+    "answer": 0,
+    "explanation": "Fuller called his eight requirements procedural natural law or principles of legality.",
+    "reference": "Fuller, The Morality of Law (1964)"
+  },
+  {
+    "id": 145,
+    "subject": "Jurisprudence",
+    "topic": "Law and Morality",
+    "difficulty": "Moderate",
+    "question": "Which of the following is a Fuller requirement for law to be valid?",
+    "options": [
+      "Laws must be kept secret",
+      "Laws must be consistent with each other",
+      "Laws must be complex",
+      "Laws must be known only to judges"
+    ],
+    "answer": 1,
+    "explanation": "Fuller's eight principles include: generality, promulgation, non-retroactivity, clarity, non-contradiction, possibility of compliance, constancy, congruence.",
+    "reference": "Fuller, The Morality of Law (1964)"
+  },
+  {
+    "id": 146,
+    "subject": "Jurisprudence",
+    "topic": "Law and Morality",
+    "difficulty": "Hard",
+    "question": "'Constitutional morality' as a concept recently used by the Indian Supreme Court refers to:",
+    "options": [
+      "Religious morality enshrined in law",
+      "The morality inherent in constitutional values and principles",
+      "Public morality of the majority",
+      "Morality as defined by Parliament"
+    ],
+    "answer": 1,
+    "explanation": "Constitutional morality was used in Navtej Singh Johar v. Union of India (2018) to strike down Section 377 IPC.",
+    "reference": "Navtej Singh Johar v. Union of India (2018)"
+  },
+  {
+    "id": 147,
+    "subject": "Jurisprudence",
+    "topic": "Law and Morality",
+    "difficulty": "Easy",
+    "question": "Mill's work in which the 'harm principle' is elaborated is:",
+    "options": [
+      "Utilitarianism",
+      "A System of Logic",
+      "Principles of Political Economy",
+      "On Liberty (1859)"
+    ],
+    "answer": 3,
+    "explanation": "Mill elaborated the harm principle in 'On Liberty' (1859).",
+    "reference": "Mill, On Liberty (1859)"
+  },
+  {
+    "id": 148,
+    "subject": "Jurisprudence",
+    "topic": "Law and Morality",
+    "difficulty": "Moderate",
+    "question": "Devlin argued that sexual immorality between consenting adults should be criminalised because:",
+    "options": [
+      "It harms third parties",
+      "It violates divine law",
+      "Shared morality is the bond holding society together and its dissolution threatens society",
+      "The sovereign commands it"
+    ],
+    "answer": 2,
+    "explanation": "Devlin: morality is the cement of society; its breakdown threatens society's existence; therefore law may enforce it.",
+    "reference": "Lord Devlin, The Enforcement of Morals (1959)"
+  },
+  {
+    "id": 149,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Rights and Duties",
+    "difficulty": "Hard",
+    "question": "According to Salmond, a legal right has five essential elements. Which of the following is NOT one of them?",
+    "options": [
+      "Subject of the right (person of inherence)",
+      "Object of the right (subject matter)",
+      "Duration of the right",
+      "Content of the right (act or forbearance)"
+    ],
+    "answer": 2,
+    "explanation": "Salmond's five elements: person of inherence, person of incidence, content, subject matter, and title. Duration is not one of them.",
+    "reference": "Salmond on Jurisprudence — Elements of Rights"
+  },
+  {
+    "id": 150,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Rights and Duties",
+    "difficulty": "Moderate",
+    "question": "'Relative duties' according to Austin are:",
+    "options": [
+      "Duties owed to the sovereign",
+      "Self-regarding duties",
+      "Duties that correspond to rights of other persons",
+      "Duties owed to God"
+    ],
+    "answer": 2,
+    "explanation": "Relative duties are those that correspond to and correlate with the legal rights of other persons.",
+    "reference": "Austin, Jurisprudence — Duties"
+  },
+  {
+    "id": 151,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Rights and Duties",
+    "difficulty": "Moderate",
+    "question": "'Absolute duties' according to Austin include:",
+    "options": [
+      "Duties owed to indefinite persons",
+      "Duties correlating to specific rights",
+      "Only self-regarding duties",
+      "Only duties to the sovereign"
+    ],
+    "answer": 0,
+    "explanation": "Austin's absolute duties include duties to God, self-regarding duties, duties to the sovereign, and duties to indefinite persons (public duties).",
+    "reference": "Austin, Jurisprudence — Absolute Duties"
+  },
+  {
+    "id": 152,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Rights and Duties",
+    "difficulty": "Easy",
+    "question": "'In rem' rights are:",
+    "options": [
+      "Rights available against a specific person",
+      "Rights available against the world at large",
+      "Rights of property owners only",
+      "Rights arising from contract"
+    ],
+    "answer": 1,
+    "explanation": "In rem = against all (e.g., property rights, rights of ownership). In personam = against a specific person.",
+    "reference": "Jurisprudence — Classification of Rights"
+  },
+  {
+    "id": 153,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Rights and Duties",
+    "difficulty": "Easy",
+    "question": "'In personam' rights are:",
+    "options": [
+      "Rights against the world at large",
+      "Rights available against the State",
+      "Rights available against all citizens",
+      "Rights available against a specific determinate person"
+    ],
+    "answer": 3,
+    "explanation": "In personam = rights against a specific determinate person (e.g., contractual rights).",
+    "reference": "Jurisprudence — Classification of Rights"
+  },
+  {
+    "id": 154,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Rights and Duties",
+    "difficulty": "Moderate",
+    "question": "'Positive rights' require the duty-holder to:",
+    "options": [
+      "Refrain from doing something",
+      "Perform an active act or service",
+      "Pay compensation only",
+      "Surrender property"
+    ],
+    "answer": 1,
+    "explanation": "Positive rights impose an active duty (e.g., right to education = State must provide schools). Negative rights impose duty to refrain.",
+    "reference": "Classification of Rights — Positive and Negative"
+  },
+  {
+    "id": 155,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Rights and Duties",
+    "difficulty": "Moderate",
+    "question": "'Negative rights' impose on the duty-holder an obligation to:",
+    "options": [
+      "Perform a positive act",
+      "Pay a fine",
+      "Render a service",
+      "Refrain from interfering with the right-holder"
+    ],
+    "answer": 3,
+    "explanation": "Negative rights = duty to refrain (e.g., Right to life = duty not to kill).",
+    "reference": "Classification of Rights — Positive and Negative"
+  },
+  {
+    "id": 156,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Rights and Duties",
+    "difficulty": "Moderate",
+    "question": "'Proprietary rights' are rights:",
+    "options": [
+      "Relating to personal status",
+      "Having economic/monetary value (rights over property)",
+      "That are non-transferable",
+      "Available only to citizens"
+    ],
+    "answer": 1,
+    "explanation": "Proprietary rights have economic value (e.g., property rights). Personal rights relate to status and personality.",
+    "reference": "Jurisprudence — Proprietary and Personal Rights"
+  },
+  {
+    "id": 157,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Rights and Duties",
+    "difficulty": "Moderate",
+    "question": "Hohfeld's analysis was a critique of which problem in legal reasoning?",
+    "options": [
+      "The ambiguous use of the single word 'right' to mean different things",
+      "Excessive reliance on natural law",
+      "The lack of codified law",
+      "Judicial activism"
+    ],
+    "answer": 0,
+    "explanation": "Hohfeld showed that 'right' was used loosely to mean right, privilege, power, and immunity — four distinct concepts.",
+    "reference": "Hohfeld, Fundamental Legal Conceptions (1913)"
+  },
+  {
+    "id": 158,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Rights and Duties",
+    "difficulty": "Hard",
+    "question": "According to Hohfeld, 'immunity' means:",
+    "options": [
+      "Freedom from a legal duty",
+      "A privilege not to act",
+      "A right that cannot be waived",
+      "Exemption from another's power to change one's legal position"
+    ],
+    "answer": 3,
+    "explanation": "Immunity = exemption from another person's power to alter your legal position.",
+    "reference": "Hohfeld, Fundamental Legal Conceptions (1913)"
+  },
+  {
+    "id": 159,
+    "subject": "Jurisprudence",
+    "topic": "Legal Personality",
+    "difficulty": "Moderate",
+    "question": "'Corpus' in the context of a corporation means:",
+    "options": [
+      "The physical assets of the company",
+      "The charter of incorporation",
+      "The body of members forming the corporation",
+      "The registered office"
+    ],
+    "answer": 2,
+    "explanation": "Corpus = the body — in a corporation aggregate, it refers to the body of members.",
+    "reference": "Legal Personality — Corporation"
+  },
+  {
+    "id": 160,
+    "subject": "Jurisprudence",
+    "topic": "Legal Personality",
+    "difficulty": "Moderate",
+    "question": "The 'piercing of the corporate veil' doctrine means:",
+    "options": [
+      "Increasing a company's liability",
+      "Dissolving a company by court order",
+      "Looking behind the corporate entity to hold members/directors personally liable",
+      "Registering a company"
+    ],
+    "answer": 2,
+    "explanation": "Courts pierce the veil in cases of fraud, sham, or evasion of legal obligations.",
+    "reference": "Salomon v. Salomon; Corporate Veil Doctrine"
+  },
+  {
+    "id": 161,
+    "subject": "Jurisprudence",
+    "topic": "Legal Personality",
+    "difficulty": "Easy",
+    "question": "The principle of separate corporate personality was established in:",
+    "options": [
+      "Salomon v. Salomon & Co. Ltd.",
+      "Rylands v. Fletcher",
+      "Donoghue v. Stevenson",
+      "Ashby v. White"
+    ],
+    "answer": 0,
+    "explanation": "Salomon v. Salomon (1897): a company is a distinct legal person separate from its shareholders.",
+    "reference": "Salomon v. Salomon & Co. Ltd. (1897)"
+  },
+  {
+    "id": 162,
+    "subject": "Jurisprudence",
+    "topic": "Legal Personality",
+    "difficulty": "Easy",
+    "question": "A minor's legal personality is:",
+    "options": [
+      "Complete in all respects",
+      "Non-existent",
+      "Limited — certain rights and duties are restricted due to age",
+      "Same as that of an adult in all civil matters"
+    ],
+    "answer": 2,
+    "explanation": "Minors have legal personality but with limitations — they cannot contract, vote, etc.",
+    "reference": "Legal Personality — Minors"
+  },
+  {
+    "id": 163,
+    "subject": "Jurisprudence",
+    "topic": "Legal Personality",
+    "difficulty": "Moderate",
+    "question": "'Purpose theory' of corporate personality (Zweckvermögen theory) is given by:",
+    "options": [
+      "Savigny",
+      "Gierke",
+      "Ihering",
+      "Brinz"
+    ],
+    "answer": 3,
+    "explanation": "Brinz: a corporation is property dedicated to a purpose — no real person exists behind it.",
+    "reference": "Brinz, Purpose/Zweckvermögen Theory"
+  },
+  {
+    "id": 164,
+    "subject": "Jurisprudence",
+    "topic": "Legal Personality",
+    "difficulty": "Moderate",
+    "question": "In India, a temple or a mosque can be a:",
+    "options": [
+      "Natural person",
+      "Juristic/legal person",
+      "Quasi-person",
+      "None of the above"
+    ],
+    "answer": 1,
+    "explanation": "Hindu idols and religious endowments have been recognised as juristic persons in India capable of holding property.",
+    "reference": "Indian Case Law — Religious Institutions as Legal Persons"
+  },
+  {
+    "id": 165,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Liability",
+    "difficulty": "Moderate",
+    "question": "The maxim 'Actori incumbit onus probandi' relates to:",
+    "options": [
+      "Legal personality of minors",
+      "Burden of proof lies on the person who makes an assertion",
+      "Presumption of innocence",
+      "Corporate liability"
+    ],
+    "answer": 1,
+    "explanation": "This maxim means the burden of proof lies on the actor/claimant who makes the assertion.",
+    "reference": "Evidence Law — Latin Maxims"
+  },
+  {
+    "id": 166,
+    "subject": "Jurisprudence",
+    "topic": "Concepts of Property, Ownership and Possession",
+    "difficulty": "Moderate",
+    "question": "'Possessory lien' is a right to:",
+    "options": [
+      "Retain goods in one's possession until a debt is paid",
+      "Transfer possession of goods",
+      "Sell goods without the owner's consent",
+      "Register a claim to property"
+    ],
+    "answer": 0,
+    "explanation": "Possessory lien = right to retain another's property until a debt is discharged.",
+    "reference": "Property Law — Lien"
+  },
+  {
+    "id": 167,
+    "subject": "Jurisprudence",
+    "topic": "Concepts of Property, Ownership and Possession",
+    "difficulty": "Moderate",
+    "question": "Which of the following is an example of 'constructive possession'?",
+    "options": [
+      "Physically carrying goods in one's hands",
+      "Bailee holding goods for the bailor",
+      "Holding a key to a warehouse containing goods",
+      "Thief holding stolen property"
+    ],
+    "answer": 2,
+    "explanation": "Constructive possession = legal possession without direct physical control, e.g., holding the key to a warehouse.",
+    "reference": "Types of Possession — Jurisprudence"
+  },
+  {
+    "id": 168,
+    "subject": "Jurisprudence",
+    "topic": "Concepts of Property, Ownership and Possession",
+    "difficulty": "Moderate",
+    "question": "'Adverse possession' means:",
+    "options": [
+      "Possession with the consent of the true owner",
+      "Hostile, open, continuous possession for a prescribed period that may extinguish the original owner's title",
+      "Possession by government of private land",
+      "Temporary possession for a specific purpose"
+    ],
+    "answer": 1,
+    "explanation": "Adverse possession: hostile, open, continuous possession for the statutory period extinguishes the original owner's title.",
+    "reference": "Property Law — Adverse Possession; Limitation Act"
+  },
+  {
+    "id": 169,
+    "subject": "Jurisprudence",
+    "topic": "Concepts of Property, Ownership and Possession",
+    "difficulty": "Moderate",
+    "question": "'Immediate possession' and 'mediate possession' are concepts discussed by:",
+    "options": [
+      "Savigny",
+      "Austin",
+      "Salmond",
+      "Kelsen"
+    ],
+    "answer": 2,
+    "explanation": "Salmond distinguished immediate possession (direct physical control) from mediate possession (through agent/bailee).",
+    "reference": "Salmond on Jurisprudence — Possession"
+  },
+  {
+    "id": 170,
+    "subject": "Jurisprudence",
+    "topic": "Concepts of Property, Ownership and Possession",
+    "difficulty": "Hard",
+    "question": "'Jus in re aliena' means:",
+    "options": [
+      "Right of ownership over one's own property",
+      "Right over another's property (lesser rights like easement, mortgage, lease)",
+      "Right to inherit property",
+      "Right to transfer property"
+    ],
+    "answer": 1,
+    "explanation": "Jus in re aliena = encumbrances on another's property; includes easements, mortgages, leases.",
+    "reference": "Roman Law; Property — Jus in re aliena"
+  },
+  {
+    "id": 171,
+    "subject": "Jurisprudence",
+    "topic": "Concepts of Property, Ownership and Possession",
+    "difficulty": "Moderate",
+    "question": "'Co-ownership' or joint ownership is characterised by:",
+    "options": [
+      "One owner with exclusive rights",
+      "Sequential ownership",
+      "Temporary ownership by contract",
+      "Multiple persons each having equal undivided share in the same property"
+    ],
+    "answer": 3,
+    "explanation": "Co-ownership = multiple persons holding undivided shares in the same property simultaneously.",
+    "reference": "Property Law — Co-ownership"
+  },
+  {
+    "id": 172,
+    "subject": "Jurisprudence",
+    "topic": "Concepts of Property, Ownership and Possession",
+    "difficulty": "Moderate",
+    "question": "Austin's definition of ownership includes the following rights EXCEPT:",
+    "options": [
+      "Right to create obligations on third parties without consent",
+      "Right to use",
+      "Right to exclude others",
+      "Right to destroy"
+    ],
+    "answer": 0,
+    "explanation": "Austin's incidents of ownership: right to use indefinitely, manage, exclude others, alienate. Creating obligations on third parties is not included.",
+    "reference": "Austin, Jurisprudence — Ownership"
+  },
+  {
+    "id": 173,
+    "subject": "Jurisprudence",
+    "topic": "Concepts of Property, Ownership and Possession",
+    "difficulty": "Moderate",
+    "question": "The Roman law maxim 'superficies solo cedit' means:",
+    "options": [
+      "Water rights belong to the State",
+      "The possessor has better title than the stranger",
+      "Whatever is affixed to the soil belongs to the soil/owner of land",
+      "Property follows the person"
+    ],
+    "answer": 2,
+    "explanation": "Superficies solo cedit: whatever is built on land belongs to the landowner — the fixture follows the land.",
+    "reference": "Roman Law Maxims — Property"
+  },
+  {
+    "id": 174,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Liability",
+    "difficulty": "Moderate",
+    "question": "The principle 'res ipsa loquitur' means:",
+    "options": [
+      "The defendant is always liable",
+      "The thing speaks for itself — negligence is inferred from the very nature of the accident",
+      "Strict liability applies without exception",
+      "The plaintiff must always prove fault"
+    ],
+    "answer": 1,
+    "explanation": "Res ipsa loquitur: the accident speaks for itself — negligence is inferred without specific proof.",
+    "reference": "Law of Torts — Res Ipsa Loquitur"
+  },
+  {
+    "id": 175,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Liability",
+    "difficulty": "Moderate",
+    "question": "'Novus actus interveniens' means:",
+    "options": [
+      "A new act by the plaintiff breaks the chain of causation",
+      "A new intervening act by a third party breaks the chain of causation, relieving the defendant",
+      "The defendant's act was the sole cause",
+      "Contributory negligence by plaintiff"
+    ],
+    "answer": 1,
+    "explanation": "Novus actus interveniens: a new intervening act severs the causal link between defendant's act and plaintiff's damage.",
+    "reference": "Law of Torts — Causation"
+  },
+  {
+    "id": 176,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Liability",
+    "difficulty": "Easy",
+    "question": "'Contributory negligence' as a defence means:",
+    "options": [
+      "The plaintiff was entirely at fault",
+      "The plaintiff's own negligence contributed to the damage",
+      "The defendant had no duty of care",
+      "The damage was unforeseeable"
+    ],
+    "answer": 1,
+    "explanation": "Contributory negligence: plaintiff's own fault contributed to the damage — reduces or negates defendant's liability.",
+    "reference": "Law of Torts — Defences"
+  },
+  {
+    "id": 177,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Liability",
+    "difficulty": "Easy",
+    "question": "'Mens rea' is NOT required in which of the following?",
+    "options": [
+      "Offences of strict liability",
+      "Murder",
+      "Theft",
+      "Cheating"
+    ],
+    "answer": 0,
+    "explanation": "Strict liability offences do not require proof of mental element — the act alone is sufficient.",
+    "reference": "Criminal Law — Mens Rea and Strict Liability"
+  },
+  {
+    "id": 178,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Liability",
+    "difficulty": "Easy",
+    "question": "Criminal liability requires which of the following elements?",
+    "options": [
+      "Actus reus only",
+      "Mens rea only",
+      "Both actus reus and mens rea (generally)",
+      "Neither actus reus nor mens rea"
+    ],
+    "answer": 2,
+    "explanation": "Generally, criminal liability requires both actus reus (guilty act) and mens rea (guilty mind).",
+    "reference": "Criminal Law — Elements of Crime"
+  },
+  {
+    "id": 179,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Liability",
+    "difficulty": "Moderate",
+    "question": "The concept of 'vicarious criminal liability' of a master for servant's acts is:",
+    "options": [
+      "The general rule in criminal law",
+      "Not recognised in any jurisdiction",
+      "An exception, applied narrowly (e.g., licensing offences, public nuisance)",
+      "Same as civil vicarious liability"
+    ],
+    "answer": 2,
+    "explanation": "Vicarious criminal liability is an exception — applied in licensing and regulatory offences.",
+    "reference": "Criminal Law — Vicarious Liability"
+  },
+  {
+    "id": 180,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Liability",
+    "difficulty": "Easy",
+    "question": "'Strict liability' in criminal law means:",
+    "options": [
+      "The accused must have intended the crime",
+      "Negligence must be proved",
+      "The act alone is sufficient for liability — no mens rea is required",
+      "Liability is imposed only by a court of appeal"
+    ],
+    "answer": 2,
+    "explanation": "Strict liability: the act itself makes a person liable without proof of any mental element.",
+    "reference": "Criminal Law — Strict Liability"
+  },
+  {
+    "id": 181,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Liability",
+    "difficulty": "Easy",
+    "question": "The 'neighbour principle' in the law of negligence was laid down in:",
+    "options": [
+      "Donoghue v. Stevenson (1932)",
+      "Rylands v. Fletcher",
+      "Ashby v. White",
+      "Salomon v. Salomon"
+    ],
+    "answer": 0,
+    "explanation": "Lord Atkin in Donoghue v. Stevenson (1932): you owe a duty of care to your 'neighbour' — those reasonably foreseeably affected by your acts.",
+    "reference": "Donoghue v. Stevenson (1932)"
+  },
+  {
+    "id": 182,
+    "subject": "Jurisprudence",
+    "topic": "Concept of Liability",
+    "difficulty": "Moderate",
+    "question": "Which of the following is NOT a defence to tortious liability?",
+    "options": [
+      "Volenti non fit injuria",
+      "Act of God (Vis major)",
+      "Statutory authority",
+      "Ignorance of law"
+    ],
+    "answer": 3,
+    "explanation": "Ignorantia juris non excusat — ignorance of law is no excuse and is not a defence in tort.",
+    "reference": "Law of Torts — Defences"
+  },
+  {
+    "id": 183,
+    "subject": "Jurisprudence",
+    "topic": "Law, Poverty and Development",
+    "difficulty": "Moderate",
+    "question": "The 'Law and Development' movement's first wave (1960s) primarily aimed at:",
+    "options": [
+      "Using law as an instrument to transplant Western legal institutions in developing countries to promote economic growth",
+      "Codifying customary law",
+      "Abolishing colonial law",
+      "Establishing international courts"
+    ],
+    "answer": 0,
+    "explanation": "The first wave of Law and Development sought to use law to transplant Western liberal institutions to promote development.",
+    "reference": "Law and Development Movement — First Wave"
+  },
+  {
+    "id": 184,
+    "subject": "Jurisprudence",
+    "topic": "Law, Poverty and Development",
+    "difficulty": "Hard",
+    "question": "'Access to justice' as a movement was theorised by Mauro Cappelletti and Bryant Garth through their famous:",
+    "options": [
+      "Florence Project",
+      "Harvard Project",
+      "Yale Project",
+      "Oxford Project"
+    ],
+    "answer": 0,
+    "explanation": "The Florence Access-to-Justice Project (1970s) identified three 'waves' of access to justice reform.",
+    "reference": "Cappelletti & Garth, Florence Access-to-Justice Project (1970s)"
+  },
+  {
+    "id": 185,
+    "subject": "Jurisprudence",
+    "topic": "Law, Poverty and Development",
+    "difficulty": "Easy",
+    "question": "PIL (Public Interest Litigation) in India is primarily a tool for:",
+    "options": [
+      "Giving access to justice to the poor and marginalised",
+      "Corporate litigation",
+      "Resolving commercial disputes",
+      "Challenging international law"
+    ],
+    "answer": 0,
+    "explanation": "PIL in India was developed to give access to justice to those unable to approach courts — a judge-made tool for the poor.",
+    "reference": "Indian Constitutional Law — PIL"
+  },
+  {
+    "id": 186,
+    "subject": "Jurisprudence",
+    "topic": "Law, Poverty and Development",
+    "difficulty": "Moderate",
+    "question": "'Human Development Index' was developed by:",
+    "options": [
+      "World Bank",
+      "UNDP (United Nations Development Programme)",
+      "IMF",
+      "WTO"
+    ],
+    "answer": 1,
+    "explanation": "HDI was developed by UNDP, conceptualised by Mahbub ul Haq with input from Amartya Sen.",
+    "reference": "UNDP; Human Development Index"
+  },
+  {
+    "id": 187,
+    "subject": "Jurisprudence",
+    "topic": "Global Justice",
+    "difficulty": "Moderate",
+    "question": "Rawls' 'difference principle' states that:",
+    "options": [
+      "All inequalities are unjust",
+      "Social and economic inequalities are just only if they benefit the least advantaged members of society",
+      "Equal distribution of all goods is required",
+      "Meritocracy alone determines just distribution"
+    ],
+    "answer": 1,
+    "explanation": "Rawls' difference principle: inequalities are permissible only if they maximally benefit the least advantaged.",
+    "reference": "Rawls, A Theory of Justice (1971)"
+  },
+  {
+    "id": 188,
+    "subject": "Jurisprudence",
+    "topic": "Global Justice",
+    "difficulty": "Moderate",
+    "question": "'Commutative justice' is associated with which philosopher?",
+    "options": [
+      "Rawls",
+      "Bentham",
+      "Kelsen",
+      "Aristotle"
+    ],
+    "answer": 3,
+    "explanation": "Aristotle distinguished distributive justice (proportional allocation) and commutative justice (equality in exchange).",
+    "reference": "Aristotle, Nicomachean Ethics"
+  },
+  {
+    "id": 189,
+    "subject": "Jurisprudence",
+    "topic": "Global Justice",
+    "difficulty": "Moderate",
+    "question": "Aristotle's concept of justice is primarily:",
+    "options": [
+      "Based on equality — treating equals equally and unequals unequally in proportion",
+      "Retributive",
+      "Based on utility",
+      "Based on divine command"
+    ],
+    "answer": 0,
+    "explanation": "Aristotle: justice = proportional equality — giving each their due according to merit.",
+    "reference": "Aristotle, Nicomachean Ethics"
+  },
+  {
+    "id": 190,
+    "subject": "Jurisprudence",
+    "topic": "Global Justice",
+    "difficulty": "Moderate",
+    "question": "'Restorative justice' focuses on:",
+    "options": [
+      "Punishing the offender severely",
+      "Deterrence of future crimes",
+      "Repairing the harm caused by crime through cooperation of all parties",
+      "Rehabilitation alone"
+    ],
+    "answer": 2,
+    "explanation": "Restorative justice involves the victim, offender and community in repairing harm and restoring relationships.",
+    "reference": "Restorative Justice Theory"
+  },
+  {
+    "id": 191,
+    "subject": "Jurisprudence",
+    "topic": "Global Justice",
+    "difficulty": "Moderate",
+    "question": "The 'capabilities approach' to global justice was developed by:",
+    "options": [
+      "Rawls and Dworkin",
+      "Hart and Fuller",
+      "Amartya Sen and Martha Nussbaum",
+      "Pound and Holmes"
+    ],
+    "answer": 2,
+    "explanation": "The capabilities approach was co-developed by Amartya Sen and Martha Nussbaum, focusing on what people can do and be.",
+    "reference": "Sen and Nussbaum, Capabilities Approach"
+  },
+  {
+    "id": 192,
+    "subject": "Jurisprudence",
+    "topic": "Global Justice",
+    "difficulty": "Moderate",
+    "question": "'Corrective justice' according to Aristotle means:",
+    "options": [
+      "Rectifying an unjust transaction or harm — restoring equilibrium",
+      "Redistribution of wealth",
+      "Proportional punishment to offenders",
+      "Giving each person their due based on merit"
+    ],
+    "answer": 0,
+    "explanation": "Corrective justice (Aristotle) = restoring equality disturbed by unjust transactions or wrongs.",
+    "reference": "Aristotle, Nicomachean Ethics"
+  },
+  {
+    "id": 193,
+    "subject": "Jurisprudence",
+    "topic": "Modernism and Post-Modernism",
+    "difficulty": "Hard",
+    "question": "Critical Race Theory (CRT) argues that:",
+    "options": [
+      "Race is a biological fact determinative of legal rights",
+      "Law is race-neutral",
+      "Racism is embedded in law and legal institutions, not merely individual prejudice",
+      "Race has no relevance to legal analysis"
+    ],
+    "answer": 2,
+    "explanation": "CRT: racism is systemic and embedded in legal structures, not just individual acts of prejudice.",
+    "reference": "Critical Race Theory"
+  },
+  {
+    "id": 194,
+    "subject": "Jurisprudence",
+    "topic": "Modernism and Post-Modernism",
+    "difficulty": "Moderate",
+    "question": "'Feminist jurisprudence' challenges which assumption of mainstream jurisprudence?",
+    "options": [
+      "That law is objective and gender-neutral, when in fact it reflects male experience and perspective",
+      "That law is based on natural law",
+      "That courts make law",
+      "That morality and law are separate"
+    ],
+    "answer": 0,
+    "explanation": "Feminist jurisprudence exposes the male bias in supposedly neutral legal concepts and institutions.",
+    "reference": "Feminist Jurisprudence"
+  },
+  {
+    "id": 195,
+    "subject": "Jurisprudence",
+    "topic": "Modernism and Post-Modernism",
+    "difficulty": "Hard",
+    "question": "Lyotard defined postmodernism as:",
+    "options": [
+      "Acceptance of all grand narratives",
+      "Revival of natural law",
+      "Return to positivism",
+      "'Incredulity towards meta-narratives' — rejection of universal theories and truths"
+    ],
+    "answer": 3,
+    "explanation": "Lyotard: postmodernism = incredulity towards meta-narratives — rejection of universal explanatory systems.",
+    "reference": "Lyotard, The Postmodern Condition (1979)"
+  },
+  {
+    "id": 196,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "Assertion (A): Kelsen's Pure Theory excludes sociology, politics, and morality from the study of law. Reason (R): Kelsen wanted to establish law as an autonomous normative science.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": 0,
+    "explanation": "Kelsen excluded non-legal elements to establish jurisprudence as a pure normative science.",
+    "reference": "Kelsen, Pure Theory of Law (1934)"
+  },
+  {
+    "id": 197,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "Assertion (A): Savigny opposed codification of German law. Reason (R): Savigny believed law is a product of the Volksgeist and cannot be artificially made.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": 0,
+    "explanation": "Savigny opposed Thibaut's codification proposal — law grows organically from the spirit of the people.",
+    "reference": "Savigny, Of the Vocation of Our Age (1814)"
+  },
+  {
+    "id": 198,
+    "subject": "Jurisprudence",
+    "topic": "Concepts of Property, Ownership and Possession",
+    "difficulty": "Hard",
+    "question": "Assertion (A): Ihering's possession theory requires both corpus and animus with equal emphasis. Reason (R): Ihering treated animus as a social/legal presumption rather than a subjective mental element.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation",
+      "A is false but R is true",
+      "Both A and R are false"
+    ],
+    "answer": 2,
+    "explanation": "A is false — Ihering did NOT require equal emphasis on both. R is true — he treated animus as presumed.",
+    "reference": "Ihering, Theory of Possession"
+  },
+  {
+    "id": 199,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "Match the following works with their authors: 'The Province of Jurisprudence Determined' — 'The Concept of Law' — 'The Morality of Law' — 'Taking Rights Seriously'",
+    "options": [
+      "Hart, Austin, Dworkin, Fuller",
+      "Austin, Fuller, Hart, Dworkin",
+      "Dworkin, Hart, Austin, Fuller",
+      "Austin, Hart, Fuller, Dworkin"
+    ],
+    "answer": 3,
+    "explanation": "Austin (1832), Hart (1961), Fuller (1964), Dworkin (1977) — standard works of each school.",
+    "reference": "Key Works in Jurisprudence"
+  },
+  {
+    "id": 200,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "Match: Social Engineering — Volksgeist — Grundnorm — Rule of Recognition",
+    "options": [
+      "Savigny, Pound, Hart, Kelsen",
+      "Kelsen, Hart, Savigny, Pound",
+      "Pound, Savigny, Kelsen, Hart",
+      "Hart, Kelsen, Pound, Savigny"
+    ],
+    "answer": 2,
+    "explanation": "Pound=Social Engineering, Savigny=Volksgeist, Kelsen=Grundnorm, Hart=Rule of Recognition.",
+    "reference": "Schools of Jurisprudence — Key Concepts"
+  },
+  {
+    "id": 201,
+    "subject": "Jurisprudence",
+    "topic": "Nature and Sources of Law",
+    "difficulty": "Easy",
+    "question": "'Command' in Austin's sense must be issued by:",
+    "options": [
+      "A determinate human superior (sovereign) not in the habit of obedience to any other",
+      "Any official",
+      "Parliament alone",
+      "The judiciary"
+    ],
+    "answer": 0,
+    "explanation": "Austin's sovereign = determinate person(s) habitually obeyed but not in the habit of obeying any other superior.",
+    "reference": "Austin, The Province of Jurisprudence Determined (1832)"
+  },
+  {
+    "id": 202,
+    "subject": "Jurisprudence",
+    "topic": "Nature and Sources of Law",
+    "difficulty": "Easy",
+    "question": "The 'sanction' in Austin's theory is:",
+    "options": [
+      "A reward given for compliance",
+      "A moral condemnation",
+      "A legislative warning",
+      "The evil the sovereign will inflict for non-compliance with a command"
+    ],
+    "answer": 3,
+    "explanation": "Sanction = the likelihood of harm/evil that the sovereign will apply for non-compliance.",
+    "reference": "Austin, The Province of Jurisprudence Determined (1832)"
+  },
+  {
+    "id": 203,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Hard",
+    "question": "Hart distinguished between being 'obliged' and being under an 'obligation.' This distinction means:",
+    "options": [
+      "Both are identical",
+      "Being obliged = coerced by force; being under an obligation = accepting an internal point of view toward a rule",
+      "Obligation is voluntary; being obliged is contractual",
+      "Obligation arises only in criminal law"
+    ],
+    "answer": 1,
+    "explanation": "Hart: being obliged (gunman scenario) = external coercion. Obligation = internal acceptance of a rule as a standard.",
+    "reference": "Hart, The Concept of Law (1961)"
+  },
+  {
+    "id": 204,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "'External point of view' and 'internal point of view' towards law are concepts of:",
+    "options": [
+      "Kelsen",
+      "Dworkin",
+      "Fuller",
+      "H.L.A. Hart"
+    ],
+    "answer": 3,
+    "explanation": "Hart: internal point of view = accepting rules as binding. External point of view = observing regularities from outside without accepting them.",
+    "reference": "Hart, The Concept of Law (1961)"
+  },
+  {
+    "id": 205,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "'Teleological' theory of law means law is judged by:",
+    "options": [
+      "Its source",
+      "Its procedure",
+      "Its formal validity",
+      "Its purpose/end (telos)"
+    ],
+    "answer": 3,
+    "explanation": "Teleological theory: law must be evaluated by its purpose/end — associated with sociological and natural law schools.",
+    "reference": "Jurisprudence — Legal Theory Classification"
+  },
+  {
+    "id": 206,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "'Deontological' theory of law/ethics means:",
+    "options": [
+      "Judging acts by their consequences",
+      "Judging law by its source",
+      "Judging acts by whether they conform to rules/duties, regardless of consequences",
+      "Judging law by social utility"
+    ],
+    "answer": 2,
+    "explanation": "Deontology (Kant): acts are right or wrong based on conformity to duty/rules, not consequences.",
+    "reference": "Kant, Deontological Ethics; Jurisprudence"
+  },
+  {
+    "id": 207,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Easy",
+    "question": "Bentham's 'principle of utility' means:",
+    "options": [
+      "The greatest happiness of the greatest number is the measure of right and wrong",
+      "Law must be based on custom",
+      "Law must be obeyed regardless of its content",
+      "Natural law is the basis of all rights"
+    ],
+    "answer": 0,
+    "explanation": "Bentham's utilitarianism: the rightness of an act is measured by its tendency to produce maximum happiness for the maximum number.",
+    "reference": "Bentham, Introduction to the Principles of Morals and Legislation (1789)"
+  },
+  {
+    "id": 208,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "'Felicific calculus' is a concept given by:",
+    "options": [
+      "Bentham",
+      "Austin",
+      "Mill",
+      "Hart"
+    ],
+    "answer": 0,
+    "explanation": "Bentham's felicific calculus: a method to quantify pleasure and pain to measure the utility of an act.",
+    "reference": "Bentham, Introduction to the Principles of Morals and Legislation (1789)"
+  },
+  {
+    "id": 209,
+    "subject": "Jurisprudence",
+    "topic": "Nature and Sources of Law",
+    "difficulty": "Hard",
+    "question": "The term 'jurisprudence' was first used in a systematic sense by:",
+    "options": [
+      "Ulpian (Roman jurist)",
+      "Austin",
+      "Bentham",
+      "Aristotle"
+    ],
+    "answer": 0,
+    "explanation": "Ulpian defined jurisprudentia as 'the knowledge of things divine and human, the science of the just and unjust.'",
+    "reference": "Ulpian, Roman Jurisprudence"
+  },
+  {
+    "id": 210,
+    "subject": "Jurisprudence",
+    "topic": "Nature and Sources of Law",
+    "difficulty": "Moderate",
+    "question": "Ulpian's three precepts of law are:",
+    "options": [
+      "'Command, duty, sanction'",
+      "'Live honestly, harm no one, give every man his due'",
+      "'Custom, legislation, precedent'",
+      "'Reason, nature, justice'"
+    ],
+    "answer": 1,
+    "explanation": "Ulpian: honeste vivere (live honestly), alterum non laedere (harm no one), suum cuique tribuere (give each their due).",
+    "reference": "Ulpian — Roman Jurisprudence"
+  },
+  {
+    "id": 211,
+    "subject": "Jurisprudence",
+    "topic": "Nature and Sources of Law",
+    "difficulty": "Easy",
+    "question": "'Suum cuique tribuere' means:",
+    "options": [
+      "Live honestly",
+      "Do no harm to others",
+      "Give to each person their own (their due)",
+      "Respect the sovereign"
+    ],
+    "answer": 2,
+    "explanation": "Suum cuique tribuere = give to each what is their own/their due — one of Ulpian's three precepts.",
+    "reference": "Ulpian — Roman Law Maxims"
+  },
+  {
+    "id": 212,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "The concept of 'jus naturale' in Roman law was:",
+    "options": [
+      "The law of Roman citizens only",
+      "The law of all nations based on reason and nature",
+      "The Emperor's decrees",
+      "Codified statutory law"
+    ],
+    "answer": 1,
+    "explanation": "Jus naturale = universal natural law based on reason, applicable to all human beings.",
+    "reference": "Roman Jurisprudence — Jus naturale"
+  },
+  {
+    "id": 213,
+    "subject": "Jurisprudence",
+    "topic": "Schools of Jurisprudence",
+    "difficulty": "Moderate",
+    "question": "'Social solidarity' as a basis of law was propounded by:",
+    "options": [
+      "Savigny",
+      "Roscoe Pound",
+      "Ehrlich",
+      "Leon Duguit"
+    ],
+    "answer": 3,
+    "explanation": "Leon Duguit rejected sovereignty-based theories — law is based on social solidarity and interdependence.",
+    "reference": "Leon Duguit, Sociological School"
+  },
+  {
+    "id": 214,
+    "subject": "Jurisprudence",
+    "topic": "Nature and Sources of Law",
+    "difficulty": "Easy",
+    "question": "'Audi alteram partem' means:",
+    "options": [
+      "Hear one side only",
+      "Hear the other side / Both sides must be heard",
+      "The judge decides alone",
+      "Precedent must be followed"
+    ],
+    "answer": 1,
+    "explanation": "Audi alteram partem = hear the other side — a principle of natural justice requiring that both parties are heard.",
+    "reference": "Natural Justice — Latin Maxims"
+  },
+  {
+    "id": 215,
+    "subject": "Jurisprudence",
+    "topic": "Nature and Sources of Law",
+    "difficulty": "Easy",
+    "question": "'Nemo judex in causa sua' means:",
+    "options": [
+      "Everyone must follow the law",
+      "Judges are infallible",
+      "No one should be a judge in their own cause",
+      "Law must be codified"
+    ],
+    "answer": 2,
+    "explanation": "Nemo judex in causa sua = no person should be a judge in their own case — rule against bias (natural justice).",
+    "reference": "Natural Justice — Latin Maxims"
+  }
+]
