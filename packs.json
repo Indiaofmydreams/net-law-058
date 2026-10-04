@@ -1,5 +1,8 @@
 [
   { "file": "pack-constitutional-amendments.json", "unit": "Constitutional and Administrative Law" },
   { "file": "pack-constitutional-gap-fill.json", "unit": "Constitutional and Administrative Law" },
-  { "file": "pack-jurisprudence.json", "unit": "Jurisprudence" }
+  { "file": "pack-jurisprudence.json", "unit": "Jurisprudence" },
+  { "file": "pack-family-law.json", "unit": "Family Law" },
+  { "file": "pack-pil-ihl.json", "unit": "Public International Law and IHL" },
+  { "file": "pack-people-development-environment.json", "unit": "People, Development and Environment" }
 ]

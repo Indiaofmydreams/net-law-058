@@ -1,0 +1,1757 @@
+[
+ {
+  "id": 1,
+  "topic": "Nature and Definition of International Law",
+  "question": "\"International law is the body of rules and principles of action which are binding upon civilised states in their relations with one another.\" This definition is attributed to:",
+  "options": [
+   "Oppenheim",
+   "J.L. Brierly",
+   "J.G. Starke",
+   "Jeremy Bentham"
+  ],
+  "answer": 1,
+  "explanation": "J.L. Brierly's definition is the most cited in UGC NET. Oppenheim's definition uses 'customary and treaty rules'. Asked directly in June 2025."
+ },
+ {
+  "id": 2,
+  "topic": "Nature and Definition of International Law",
+  "question": "Who coined the term 'International Law'?",
+  "options": [
+   "Hugo Grotius",
+   "Jeremy Bentham",
+   "John Austin",
+   "Vattel"
+  ],
+  "answer": 1,
+  "explanation": "Jeremy Bentham coined the term in 'Introduction to the Principles of Morals and Legislation' (1789). Grotius is the Father of International Law — these two are the most swapped facts."
+ },
+ {
+  "id": 3,
+  "topic": "Nature and Definition of International Law",
+  "question": "Who is regarded as the 'Father of International Law'?",
+  "options": [
+   "Jeremy Bentham",
+   "John Austin",
+   "Hugo Grotius",
+   "Vattel"
+  ],
+  "answer": 2,
+  "explanation": "Hugo Grotius wrote 'De Jure Belli ac Pacis' (1625). He is the Father; Bentham coined the term. Never swap these."
+ },
+ {
+  "id": 4,
+  "topic": "Nature and Definition of International Law",
+  "question": "John Austin called International Law:",
+  "options": [
+   "True Law",
+   "Positive Morality",
+   "Natural Law",
+   "Jus Cogens"
+  ],
+  "answer": 1,
+  "explanation": "Austin denied IL was 'true law' because it lacks a sovereign enforcer — legislature, police, and sanction."
+ },
+ {
+  "id": 5,
+  "topic": "Nature and Definition of International Law",
+  "question": "Holland described International Law as:",
+  "options": [
+   "The foundation of civilization",
+   "The vanishing point of jurisprudence",
+   "Positive morality of states",
+   "The supreme law of nations"
+  ],
+  "answer": 1,
+  "explanation": "Holland, an analytical jurist, doubted IL's legal status and called it 'the vanishing point of jurisprudence'. Asked as a true/false statement in December 2025."
+ },
+ {
+  "id": 6,
+  "topic": "Nature and Definition of International Law",
+  "question": "The Grotian Theory of International Law is also known as:",
+  "options": [
+   "Naturalist Theory",
+   "Positivist Theory",
+   "Eclectic Theory",
+   "Monist Theory"
+  ],
+  "answer": 2,
+  "explanation": "Grotius combined natural law and positivist elements — hence 'Eclectic'. Grotius and Vattel were naturalists, NOT positivists."
+ },
+ {
+  "id": 7,
+  "topic": "Nature and Definition of International Law",
+  "question": "Which theory holds that International Law and Municipal Law are part of a single legal order?",
+  "options": [
+   "Dualist Theory",
+   "Monist Theory",
+   "Pluralist Theory",
+   "Positivist Theory"
+  ],
+  "answer": 1,
+  "explanation": "Monist Theory (Kelsen, Lauterpacht) — one unified legal system. Dualist Theory (Triepel, Anzilotti) — two separate systems."
+ },
+ {
+  "id": 8,
+  "topic": "Nature and Definition of International Law",
+  "question": "The doctrine of Pacta Sunt Servanda means:",
+  "options": [
+   "Treaties must be obeyed",
+   "States are sovereign and equal",
+   "No punishment without law",
+   "Agreements once made must be kept in good faith"
+  ],
+  "answer": 3,
+  "explanation": "Pacta Sunt Servanda is codified in Article 26 of VCLT 1969 — NOT Article 53 (jus cogens) and NOT Article 62 (rebus sic stantibus)."
+ },
+ {
+  "id": 9,
+  "topic": "Sources of International Law",
+  "question": "Which Article of the ICJ Statute enumerates the sources of International Law?",
+  "options": [
+   "Article 36",
+   "Article 38",
+   "Article 40",
+   "Article 59"
+  ],
+  "answer": 1,
+  "explanation": "Article 38 lists sources of IL. Article 36 deals with compulsory jurisdiction (optional clause). This swap is the single most repeated trap in UGC NET PIL questions."
+ },
+ {
+  "id": 10,
+  "topic": "Sources of International Law",
+  "question": "The two essential elements of Customary International Law are:",
+  "options": [
+   "Treaty and Opinio Juris",
+   "State Practice and Opinio Juris",
+   "State Consent and Judicial Decision",
+   "General Principles and State Practice"
+  ],
+  "answer": 1,
+  "explanation": "State Practice is the objective element; Opinio Juris (belief that the practice is legally obligatory) is the subjective element."
+ },
+ {
+  "id": 11,
+  "topic": "Sources of International Law",
+  "question": "Opinio Juris sive necessitatis refers to:",
+  "options": [
+   "The written text of a treaty",
+   "The belief that a practice is legally obligatory",
+   "A resolution of the UN General Assembly",
+   "A judgment of the ICJ"
+  ],
+  "answer": 1,
+  "explanation": "Opinio Juris is the SUBJECTIVE element of custom. State Practice is the OBJECTIVE element. UGC NET has repeatedly asked which is which."
+ },
+ {
+  "id": 12,
+  "topic": "Sources of International Law",
+  "question": "A treaty conflicting with a peremptory norm (jus cogens) is:",
+  "options": [
+   "Voidable",
+   "Void",
+   "Merely unenforceable",
+   "Subject to renegotiation"
+  ],
+  "answer": 1,
+  "explanation": "Under Article 53 of the VCLT 1969, a treaty conflicting with jus cogens is VOID ab initio — not voidable, not suspended. 'Voidable' as an answer is always wrong here."
+ },
+ {
+  "id": 13,
+  "topic": "Sources of International Law",
+  "question": "The Vienna Convention on the Law of Treaties was adopted in:",
+  "options": [
+   "1945",
+   "1961",
+   "1969",
+   "1974"
+  ],
+  "answer": 2,
+  "explanation": "VCLT adopted 1969, entered into force 1980. When asked 'adopted' — 1969. When asked 'entered into force' — 1980. This distinction is set as a trap."
+ },
+ {
+  "id": 14,
+  "topic": "Sources of International Law",
+  "question": "Under Article 59 of the ICJ Statute, judicial decisions are:",
+  "options": [
+   "Binding on all states",
+   "Binding only between the parties to the dispute",
+   "Persuasive authority only",
+   "Binding on all UN member states"
+  ],
+  "answer": 1,
+  "explanation": "ICJ decisions are not precedent in a strict sense — they bind only the parties to that specific case."
+ },
+ {
+  "id": 15,
+  "topic": "Sources of International Law",
+  "question": "Erga Omnes obligations were recognized in which landmark ICJ case?",
+  "options": [
+   "Corfu Channel Case (1949)",
+   "Barcelona Traction Case (1970)",
+   "Nicaragua v. USA (1986)",
+   "North Sea Continental Shelf Case (1969)"
+  ],
+  "answer": 1,
+  "explanation": "Barcelona Traction (Belgium v. Spain) 1970 — erga omnes = obligations owed to the international community as a whole. Do NOT confuse with Nottebohm (nationality) or Nicaragua (non-intervention)."
+ },
+ {
+  "id": 16,
+  "topic": "Sources of International Law",
+  "question": "Which of the following is NOT listed as a source of international law under Article 38(1) of the ICJ Statute?",
+  "options": [
+   "International Conventions",
+   "International Custom",
+   "UN General Assembly Resolutions",
+   "General Principles of Law"
+  ],
+  "answer": 2,
+  "explanation": "UNGA Resolutions are 'soft law' — not formally listed in Article 38(1), though they can contribute to opinio juris and crystallize into custom."
+ },
+ {
+  "id": 17,
+  "topic": "Sources of International Law",
+  "question": "The North Sea Continental Shelf Cases (1969) are most associated with which principle?",
+  "options": [
+   "Recognition of States",
+   "Formation of Customary International Law",
+   "Asylum and Extradition",
+   "UN Charter principles"
+  ],
+  "answer": 1,
+  "explanation": "ICJ clarified that state practice must be extensive, representative, and consistent — not necessarily universal. Do NOT confuse with the Lotus Case (freedom of states)."
+ },
+ {
+  "id": 18,
+  "topic": "Sources of International Law",
+  "question": "The PCIJ in the Lotus Case (1927) held that:",
+  "options": [
+   "States have absolute freedom to act unless a permissive rule exists",
+   "International law restricts state sovereignty at every step",
+   "Whatever is not expressly permitted is forbidden",
+   "Turkey had no jurisdiction over the French officer"
+  ],
+  "answer": 0,
+  "explanation": "Lotus Principle: 'restrictions upon the independence of States cannot be presumed' — what is not prohibited is permitted. The case was before the PCIJ, NOT the ICJ."
+ },
+ {
+  "id": 19,
+  "topic": "Sources of International Law",
+  "question": "Under VCLT, Article 32 — travaux préparatoires are used as:",
+  "options": [
+   "Primary means of treaty interpretation",
+   "Supplementary means of interpretation to confirm meaning or resolve ambiguity",
+   "Binding interpretation only if all parties consent",
+   "A tool for treaty amendment"
+  ],
+  "answer": 1,
+  "explanation": "Article 31 VCLT = primary rule (good faith, ordinary meaning, context). Article 32 = supplementary (travaux préparatoires). Do not elevate travaux to primary status."
+ },
+ {
+  "id": 20,
+  "topic": "Sources of International Law",
+  "question": "Which of the following correctly identifies the subsidiary sources of international law under Article 38(1)(d) of the ICJ Statute?",
+  "options": [
+   "UN Security Council Resolutions",
+   "Decisions of national courts only",
+   "Judicial decisions and teachings of the most highly qualified publicists",
+   "General Assembly Declarations"
+  ],
+  "answer": 2,
+  "explanation": "Article 38(1)(d) — BOTH judicial decisions AND teachings of publicists together. The examiner sometimes lists only one. The correct answer must include both."
+ },
+ {
+  "id": 21,
+  "topic": "Sources of International Law",
+  "question": "A state that persistently objects to an emerging rule of customary international law from its inception is:",
+  "options": [
+   "Still bound once the rule crystallizes as custom",
+   "Bound after 10 years of consistent state practice by others",
+   "Not bound by that rule — persistent objector doctrine",
+   "Required to take the matter to the ICJ"
+  ],
+  "answer": 2,
+  "explanation": "Persistent Objector Rule — the state must have objected FROM THE BEGINNING and CONSISTENTLY. A state that objects after custom forms remains bound. Authority: Anglo-Norwegian Fisheries Case (1951)."
+ },
+ {
+  "id": 22,
+  "topic": "Sources of International Law",
+  "question": "Jus cogens norms can only be modified by:",
+  "options": [
+   "A UN Security Council Resolution",
+   "A subsequent norm of general international law having the same character",
+   "A treaty signed by a majority of states",
+   "An ICJ advisory opinion"
+  ],
+  "answer": 1,
+  "explanation": "Article 53 VCLT — jus cogens can only be displaced by a subsequent peremptory norm of the same character."
+ },
+ {
+  "id": 23,
+  "topic": "Sources of International Law",
+  "question": "The principle ex injuria jus non oritur means:",
+  "options": [
+   "Rights arise from lawful acts only; illegal acts cannot generate legal rights",
+   "Law arises from injury suffered",
+   "Treaties override custom in all situations",
+   "Sovereignty is absolute"
+  ],
+  "answer": 0,
+  "explanation": "A state cannot acquire legal rights through an illegal act. Also called the Stimson Doctrine in context of non-recognition of territory acquired by force."
+ },
+ {
+  "id": 24,
+  "topic": "Sources of International Law",
+  "question": "A state may invoke fundamental change of circumstances (rebus sic stantibus) to terminate a treaty ONLY if:",
+  "options": [
+   "The change makes performance more difficult economically",
+   "The changed circumstances were the essential basis of consent AND the change radically transforms obligations still to be performed",
+   "The government of that state changes",
+   "A new head of state refuses to be bound"
+  ],
+  "answer": 1,
+  "explanation": "Article 62 VCLT — rebus sic stantibus is strictly limited. Economic hardship alone is insufficient. Both conditions must be met simultaneously."
+ },
+ {
+  "id": 25,
+  "topic": "Sources of International Law",
+  "question": "The Advisory Opinion on Reservations to the Genocide Convention (ICJ, 1951) laid down which test for permissibility of reservations?",
+  "options": [
+   "Unanimity of all parties to the treaty",
+   "Compatibility with the object and purpose of the treaty",
+   "Submission within 90 days of signing",
+   "Endorsement by the UN Secretary-General"
+  ],
+  "answer": 1,
+  "explanation": "ICJ's flexible test — departed from the traditional unanimity rule. This opened the modern law of reservations."
+ },
+ {
+  "id": 26,
+  "topic": "Sources of International Law",
+  "question": "Under VCLT, a treaty between State A and State B creates rights for State C (a third party) only if:",
+  "options": [
+   "State C is a member of the UN",
+   "The treaty expressly provides a right and State C assents — Article 36 VCLT",
+   "Automatically, as all treaties bind all states",
+   "The UN General Assembly endorses the treaty"
+  ],
+  "answer": 1,
+  "explanation": "Pacta tertiis nec nocent nec prosunt — a treaty binds only its parties. Article 36 creates a limited exception for third-party rights with their assent."
+ },
+ {
+  "id": 27,
+  "topic": "Sources of International Law",
+  "question": "Which of the following statements about Grotius and Vattel is correct?",
+  "options": [
+   "Both were positivists",
+   "Grotius was a naturalist; Vattel was a positivist",
+   "Both were naturalists",
+   "Vattel was a naturalist; Grotius was a positivist"
+  ],
+  "answer": 2,
+  "explanation": "Grotius and Vattel were NATURALISTS — NOT positivists. This appeared as a false statement in December 2025. Positivists: Bentham, Austin, Triepel, Anzilotti."
+ },
+ {
+  "id": 28,
+  "topic": "Recognition of States and Governments",
+  "question": "Which theory holds that recognition by other states is constitutive of international legal personality?",
+  "options": [
+   "Declaratory Theory",
+   "Constitutive Theory",
+   "Estrada Doctrine",
+   "Tobar Doctrine"
+  ],
+  "answer": 1,
+  "explanation": "Constitutive Theory (Oppenheim) — recognition CREATES the state's international personality. Declaratory Theory — recognition merely acknowledges an already existing fact."
+ },
+ {
+  "id": 29,
+  "topic": "Recognition of States and Governments",
+  "question": "The Montevideo Convention on Rights and Duties of States was signed in:",
+  "options": [
+   "1928",
+   "1933",
+   "1945",
+   "1961"
+  ],
+  "answer": 1,
+  "explanation": "Montevideo Convention 1933 — four criteria of statehood: permanent population, defined territory, effective government, capacity to enter into relations with other states."
+ },
+ {
+  "id": 30,
+  "topic": "Recognition of States and Governments",
+  "question": "Which of the following is NOT a criterion for statehood under the Montevideo Convention, 1933?",
+  "options": [
+   "Permanent population",
+   "Defined territory",
+   "Effective government",
+   "Recognition by the United Nations"
+  ],
+  "answer": 3,
+  "explanation": "The four Montevideo criteria do not include UN recognition. Recognition by other states is a separate question — and under Declaratory Theory, not even required for statehood."
+ },
+ {
+  "id": 31,
+  "topic": "Recognition of States and Governments",
+  "question": "The Estrada Doctrine was propounded by which country?",
+  "options": [
+   "USA",
+   "Mexico",
+   "France",
+   "Argentina"
+  ],
+  "answer": 1,
+  "explanation": "Estrada Doctrine — Mexican Foreign Minister Genaro Estrada, 1930. States should not comment on legitimacy of other governments. Asked directly in June 2025 — Mexico is the one-word answer."
+ },
+ {
+  "id": 32,
+  "topic": "Recognition of States and Governments",
+  "question": "De Facto recognition differs from De Jure recognition in that:",
+  "options": [
+   "De Facto is permanent while De Jure is temporary",
+   "De Facto is provisional and based on effective control",
+   "De Facto confers full diplomatic relations",
+   "De Jure does not imply legal recognition"
+  ],
+  "answer": 1,
+  "explanation": "De Facto = provisional, tentative, based on effective control. De Jure = full, legal, permanent. De Facto can be withdrawn; De Jure generally cannot."
+ },
+ {
+  "id": 33,
+  "topic": "Recognition of States and Governments",
+  "question": "The Tobar Doctrine, in contrast to the Estrada Doctrine, requires:",
+  "options": [
+   "Immediate recognition of all new governments",
+   "Non-interference in the internal affairs of any government",
+   "Governments arising from unconstitutional means must be confirmed by popular election before recognition",
+   "Recognition only by the UN Security Council"
+  ],
+  "answer": 2,
+  "explanation": "Tobar Doctrine (Ecuador) — requires democratic confirmation. Estrada Doctrine (Mexico) — no opinion on legitimacy. They are philosophically opposite."
+ },
+ {
+  "id": 34,
+  "topic": "Nationality, Refugees and IDPs",
+  "question": "Which Article of the UDHR 1948 provides that 'everyone has the right to a nationality'?",
+  "options": [
+   "Article 10",
+   "Article 15",
+   "Article 7",
+   "Article 21"
+  ],
+  "answer": 1,
+  "explanation": "Article 15 UDHR = right to nationality. Article 14 UDHR = right to seek and enjoy asylum. These two adjacent articles are the most swapped in UGC NET. Asked directly in December 2025."
+ },
+ {
+  "id": 35,
+  "topic": "Nationality, Refugees and IDPs",
+  "question": "The principle of non-refoulement is enshrined in:",
+  "options": [
+   "UN Charter, 1945",
+   "Article 33 of the 1951 Refugee Convention",
+   "Article 14 of UDHR 1948",
+   "Vienna Convention on Consular Relations, 1963"
+  ],
+  "answer": 1,
+  "explanation": "Non-refoulement = Article 33 of the 1951 Convention. Not Article 14 UDHR (that is right to seek asylum). Not UN Charter. This specific article number is tested every few cycles."
+ },
+ {
+  "id": 36,
+  "topic": "Nationality, Refugees and IDPs",
+  "question": "The 1951 Refugee Convention defines a refugee as someone who has a well-founded fear of persecution based on:",
+  "options": [
+   "Economic hardship",
+   "War or natural disaster",
+   "Race, religion, nationality, membership of a particular social group, or political opinion",
+   "Any violation of human rights"
+  ],
+  "answer": 2,
+  "explanation": "Five grounds only — Article 1A(2). Economic hardship, climate change, and natural disasters are NOT included. When these appear as options, eliminate them immediately."
+ },
+ {
+  "id": 37,
+  "topic": "Nationality, Refugees and IDPs",
+  "question": "Internally Displaced Persons (IDPs) differ from refugees because:",
+  "options": [
+   "IDPs have not fled persecution",
+   "IDPs remain within their own country's borders",
+   "IDPs are covered by the 1951 Convention",
+   "IDPs are only found in Africa"
+  ],
+  "answer": 1,
+  "explanation": "IDPs cross NO international border — they remain in their own country. Refugees cross an international border. IDPs are NOT covered by the 1951 Convention — this is a fundamental distinction."
+ },
+ {
+  "id": 38,
+  "topic": "Nationality, Refugees and IDPs",
+  "question": "The Nottebohm Case (ICJ, 1955) is a landmark case on the importance of:",
+  "options": [
+   "Asylum",
+   "Nationality and genuine connection",
+   "Extradition",
+   "Immunity of states"
+  ],
+  "answer": 1,
+  "explanation": "ICJ held Liechtenstein could not exercise diplomatic protection for Nottebohm as his nationality lacked 'genuine connection'. Asked directly in June 2025. Do NOT confuse with Barcelona Traction (erga omnes)."
+ },
+ {
+  "id": 39,
+  "topic": "Nationality, Refugees and IDPs",
+  "question": "UNHCR was established in:",
+  "options": [
+   "1945",
+   "1948",
+   "1950",
+   "1951"
+  ],
+  "answer": 2,
+  "explanation": "UNHCR established 1950, operational 1 January 1951. The 1951 Refugee Convention came AFTER UNHCR. UNHCR won Nobel Peace Prize in 1954 (first) and 1981 (second). The 1981 date appeared in December 2025."
+ },
+ {
+  "id": 40,
+  "topic": "Nationality, Refugees and IDPs",
+  "question": "The UN Guiding Principles on Internal Displacement (1998) are also known as:",
+  "options": [
+   "Nansen Principles",
+   "Deng Principles",
+   "Cartagena Principles",
+   "Bangkok Principles"
+  ],
+  "answer": 1,
+  "explanation": "Named after Dr. Francis Deng, Special Representative of the UN Secretary-General. These are NON-BINDING but reflect existing IHL, IHRL, and refugee law as applicable to IDPs."
+ },
+ {
+  "id": 41,
+  "topic": "Nationality, Refugees and IDPs",
+  "question": "The 1967 Protocol to the Refugee Convention was important because:",
+  "options": [
+   "It created UNHCR",
+   "It removed the geographic and temporal limitations of the 1951 Convention",
+   "It codified non-refoulement for the first time",
+   "It established refugee camps"
+  ],
+  "answer": 1,
+  "explanation": "The 1951 Convention originally applied only to European refugees and events before 1 January 1951. The 1967 Protocol made it universal by removing both the geographic and temporal limitations."
+ },
+ {
+  "id": 42,
+  "topic": "Nationality, Refugees and IDPs",
+  "question": "Under Article 1F of the 1951 Refugee Convention, a person is excluded from refugee status if they have committed:",
+  "options": [
+   "A traffic offence in the host country",
+   "A crime against peace, a war crime, or a crime against humanity",
+   "Any criminal act whatsoever",
+   "An offence against a UN agency"
+  ],
+  "answer": 1,
+  "explanation": "Exclusion Clauses (Article 1F) — who NEVER qualifies from the start. Cessation Clauses (Article 1C) — when refugee status ENDS. Do not swap these two concepts."
+ },
+ {
+  "id": 43,
+  "topic": "Nationality, Refugees and IDPs",
+  "question": "The Nansen Passport was a historic travel document for stateless persons issued under the authority of:",
+  "options": [
+   "UNHCR",
+   "League of Nations through Fridtjof Nansen as High Commissioner for Refugees (1922)",
+   "International Red Cross",
+   "League of Arab States"
+  ],
+  "answer": 1,
+  "explanation": "Nansen Passport (1922) — world's first internationally recognized refugee travel document. Issued under the League of Nations — NOT UNHCR which did not exist until 1950."
+ },
+ {
+  "id": 44,
+  "topic": "Nationality, Refugees and IDPs",
+  "question": "The Convention Relating to the Status of Stateless Persons was adopted in:",
+  "options": [
+   "1951",
+   "1954",
+   "1961",
+   "1967"
+  ],
+  "answer": 1,
+  "explanation": "1954 Convention — defines a stateless person as one 'not considered a national by any state under the operation of its law'. Separate from the 1951 Refugee Convention and the 1961 Convention on Reduction of Statelessness."
+ },
+ {
+  "id": 45,
+  "topic": "Nationality, Refugees and IDPs",
+  "question": "The Cartagena Declaration (1984) is significant because it:",
+  "options": [
+   "Created UNHCR",
+   "Expanded the refugee definition for Latin America to include persons fleeing generalized violence, civil war, and massive human rights violations",
+   "Applied to Asian states",
+   "Made non-refoulement legally binding"
+  ],
+  "answer": 1,
+  "explanation": "Cartagena Declaration (1984) = Latin America. OAU Convention (1969) = Africa. Bangkok Principles (AALCO, 1966) = Asia-Pacific. Know which regional instrument belongs to which region."
+ },
+ {
+  "id": 46,
+  "topic": "Nationality, Refugees and IDPs",
+  "question": "Jus soli as the basis of nationality means:",
+  "options": [
+   "Nationality follows the father's nationality",
+   "Nationality is acquired by birth on the territory of a state",
+   "Nationality is acquired by marriage",
+   "Nationality is conferred by legislative act only"
+  ],
+  "answer": 1,
+  "explanation": "Jus soli = right of the soil (USA, Canada). Jus sanguinis = right of blood/descent (Germany, Japan, India primarily). Do not invert these."
+ },
+ {
+  "id": 47,
+  "topic": "Nationality, Refugees and IDPs",
+  "question": "Before exercising diplomatic protection, which condition must normally be satisfied?",
+  "options": [
+   "The national must have resided in that state for 10 years",
+   "The local remedies available in the respondent state must first be exhausted",
+   "The UN Security Council must authorize the claim",
+   "The national must be a permanent resident"
+  ],
+  "answer": 1,
+  "explanation": "Exhaustion of Local Remedies Rule — a fundamental procedural prerequisite. PLUS the Nottebohm genuine link requirement on nationality. Both conditions must be met."
+ },
+ {
+  "id": 48,
+  "topic": "Nationality, Refugees and IDPs",
+  "question": "Under Article 14 of the UDHR 1948, the right to asylum is:",
+  "options": [
+   "An absolute right to be granted asylum in any state",
+   "A right to seek and enjoy asylum — not a right to demand it be granted",
+   "Only available to persons from Communist states",
+   "Limited to persons recognized as refugees"
+  ],
+  "answer": 1,
+  "explanation": "Article 14 UDHR says 'right to seek and enjoy' — not to receive or be granted. States have no binding obligation to grant asylum under UDHR alone."
+ },
+ {
+  "id": 49,
+  "topic": "Nationality, Refugees and IDPs",
+  "question": "Match the correct entries — Entry into force of the 1951 Refugee Convention occurred in which year?",
+  "options": [
+   "1951",
+   "1952",
+   "1954",
+   "1967"
+  ],
+  "answer": 2,
+  "explanation": "1951 Convention entered into force in 1954. The 1967 Protocol entered into force in 1967. UN Commission on Refugees formed in 1950. This exact matching appeared in December 2025."
+ },
+ {
+  "id": 50,
+  "topic": "Nationality, Refugees and IDPs",
+  "question": "Climate/environmental migrants who flee rising sea levels are currently classified under international law as:",
+  "options": [
+   "Refugees under the 1951 Convention",
+   "IDPs",
+   "Stateless persons",
+   "Environmental migrants — not covered by the 1951 Convention refugee definition"
+  ],
+  "answer": 3,
+  "explanation": "The 1951 Convention's five grounds do not include environmental causes. This is a significant contemporary gap in international refugee law — a high-probability topic for June 2026."
+ },
+ {
+  "id": 51,
+  "topic": "Extradition and Asylum",
+  "question": "The rule that an extradited person can only be tried for the crime specified in the extradition request is known as:",
+  "options": [
+   "Double Criminality Rule",
+   "Principle of Specialty",
+   "Political Offence Exception",
+   "Non Bis in Idem"
+  ],
+  "answer": 1,
+  "explanation": "Specialty = what you can be tried FOR. Double Criminality = where the act must be a crime in BOTH states. These two principles are tested in the same question with swapped definitions."
+ },
+ {
+  "id": 52,
+  "topic": "Extradition and Asylum",
+  "question": "The Double Criminality Rule in extradition means:",
+  "options": [
+   "The person must have committed two crimes",
+   "The act must be a crime in both the requesting and requested states",
+   "Extradition requires two treaties",
+   "The sentence must be doubled if extradited"
+  ],
+  "answer": 1,
+  "explanation": "Double Criminality = the act must constitute a crime under the laws of BOTH states. This is a basic threshold requirement for extradition."
+ },
+ {
+  "id": 53,
+  "topic": "Extradition and Asylum",
+  "question": "The Asylum Case (Colombia v. Peru) was decided by the ICJ in:",
+  "options": [
+   "1948",
+   "1950",
+   "1955",
+   "1960"
+  ],
+  "answer": 1,
+  "explanation": "Asylum Case 1950 — ICJ held Colombia had NO right to unilaterally characterize the offence as political to grant diplomatic asylum. No customary right of diplomatic asylum established."
+ },
+ {
+  "id": 54,
+  "topic": "Extradition and Asylum",
+  "question": "The principle of aut dedere aut judicare means:",
+  "options": [
+   "Extradite or prosecute",
+   "Grant asylum or extradite",
+   "Double punishment is forbidden",
+   "Specialty governs extradition"
+  ],
+  "answer": 0,
+  "explanation": "Aut dedere aut judicare — the obligation is ALTERNATIVE, not cumulative. States must either surrender the accused OR prosecute themselves. Found in Torture Convention Art. 7, Hague Hijacking Convention, Montreal Convention."
+ },
+ {
+  "id": 55,
+  "topic": "Extradition and Asylum",
+  "question": "The Soering Case (1989) decided by the European Court of Human Rights established that:",
+  "options": [
+   "Extradition can never be granted for capital offences",
+   "Extradition may violate Article 3 ECHR if the person would face inhuman treatment — 'death row phenomenon'",
+   "UK must extradite all murder suspects without conditions",
+   "The political offence exception applies to murder"
+  ],
+  "answer": 1,
+  "explanation": "Soering v. UK (1989) — decided by the EUROPEAN COURT OF HUMAN RIGHTS, NOT the ICJ. The examiner places ICJ as a distractor. Prospective violation of Article 3 ECHR bars extradition."
+ },
+ {
+  "id": 56,
+  "topic": "Extradition and Asylum",
+  "question": "Which of the following cases is NOT related to extradition?",
+  "options": [
+   "Savarkar case",
+   "Abu Salem case",
+   "Meunier Re case",
+   "Paquete Habana case"
+  ],
+  "answer": 3,
+  "explanation": "Paquete Habana is about customary international law and laws of naval warfare — NOT extradition. Asked in June 2025: when Paquete Habana appears in an extradition list, eliminate it immediately."
+ },
+ {
+  "id": 57,
+  "topic": "Extradition and Asylum",
+  "question": "The Castioni Re case (1891, UK) is significant because it:",
+  "options": [
+   "Established the double criminality rule",
+   "Established that political offenders are not extraditable",
+   "Required exhaustion of local remedies",
+   "Held that mercenaries cannot claim political offence exception"
+  ],
+  "answer": 1,
+  "explanation": "Castioni Re (1891) = political offence exception established. Meunier Re (1894) = exception narrowed (anarchists who target general public excluded). Both cases appear together in UGC NET extradition questions."
+ },
+ {
+  "id": 58,
+  "topic": "Extradition and Asylum",
+  "question": "The modern political offence exception does NOT apply to:",
+  "options": [
+   "Sedition against a foreign government",
+   "Espionage",
+   "Terrorist acts causing mass civilian casualties",
+   "Publishing anti-government pamphlets"
+  ],
+  "answer": 2,
+  "explanation": "Modern treaties and conventions (UN Convention Against Terrorism, etc.) exclude terrorist acts from political offence exception. The Meunier Re principle extended this further."
+ },
+ {
+  "id": 59,
+  "topic": "Extradition and Asylum",
+  "question": "The distinction between extradition and deportation is:",
+  "options": [
+   "There is no legal distinction",
+   "Extradition is surrender to a specifically requesting state for trial/punishment; deportation is removal from a state not necessarily to the requesting state",
+   "Deportation is lawful; extradition is unlawful",
+   "Only states can be deported; extradition applies to individuals"
+  ],
+  "answer": 1,
+  "explanation": "Key legal distinction: Extradition = surrender to requesting state for criminal proceedings. Deportation = immigration/public order removal. Rendition = informal/illegal transfer."
+ },
+ {
+  "id": 60,
+  "topic": "Extradition and Asylum",
+  "question": "Under the Draft Convention on Territorial Asylum adopted by UNGA in 1974, the grant of asylum is recognized as a sovereign right of a state under which Article?",
+  "options": [
+   "Article 1",
+   "Article 2",
+   "Article 3",
+   "Article 5"
+  ],
+  "answer": 0,
+  "explanation": "Article 1 of the 1974 Draft Convention on Territorial Asylum — sovereign right of state to grant asylum. Asked directly in December 2025 with Articles 2, 3, and 5 as distractors."
+ },
+ {
+  "id": 61,
+  "topic": "Extradition and Asylum",
+  "question": "What is the correct chronological order of these extradition cases: United States v. Rauscher, Soering v. UK, Kindler v. Canada?",
+  "options": [
+   "Soering, Rauscher, Kindler",
+   "Rauscher, Soering, Kindler",
+   "Kindler, Soering, Rauscher",
+   "Rauscher, Kindler, Soering"
+  ],
+  "answer": 1,
+  "explanation": "US v. Rauscher (1886) → Soering v. UK (1989) → Kindler v. Canada (1991). Rauscher is the oldest extradition case in the standard list. December 2025 tested this sequence directly."
+ },
+ {
+  "id": 62,
+  "topic": "Extradition and Asylum",
+  "question": "The Haya de la Torre Case (Colombia v. Peru, 1951) — follow-up to the Asylum Case — held that:",
+  "options": [
+   "Colombia must surrender Haya de la Torre to Peru",
+   "Haya de la Torre must leave the Colombian Embassy immediately",
+   "The ICJ declined to prescribe the specific manner in which Colombia's obligation to terminate the asylum should be carried out",
+   "Peru must grant safe conduct to Haya de la Torre"
+  ],
+  "answer": 2,
+  "explanation": "ICJ found asylum was irregularly granted but declined to order the specific manner of termination — left it to the parties to negotiate."
+ },
+ {
+  "id": 63,
+  "topic": "United Nations and Its Organs",
+  "question": "The UN Charter was signed on:",
+  "options": [
+   "24 October 1945",
+   "26 June 1945",
+   "1 January 1942",
+   "10 December 1948"
+  ],
+  "answer": 1,
+  "explanation": "UN Charter SIGNED 26 June 1945 at San Francisco. ENTERED INTO FORCE 24 October 1945 (UN Day). 10 December is Human Rights Day (UDHR). Never confuse these dates."
+ },
+ {
+  "id": 64,
+  "topic": "United Nations and Its Organs",
+  "question": "On which date did the United Nations Organisation come into existence?",
+  "options": [
+   "20 October 1945",
+   "24 October 1945",
+   "10 December 1948",
+   "10 December 1945"
+  ],
+  "answer": 1,
+  "explanation": "24 October 1945 = UN established (entry into force of Charter). Asked directly in June 2025. The distractor 10 December 1948 is UDHR adoption date. Extremely high frequency across 2020, 2022, 2024, June 2025."
+ },
+ {
+  "id": 65,
+  "topic": "United Nations and Its Organs",
+  "question": "How many principal organs does the UN have under Article 7 of the Charter?",
+  "options": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "answer": 2,
+  "explanation": "Six principal organs: General Assembly, Security Council, ECOSOC, Trusteeship Council, ICJ, Secretariat. WHO, ILO, UNESCO are specialized agencies — NOT principal organs."
+ },
+ {
+  "id": 66,
+  "topic": "United Nations and Its Organs",
+  "question": "The Security Council has how many members in total?",
+  "options": [
+   "10",
+   "11",
+   "15",
+   "20"
+  ],
+  "answer": 2,
+  "explanation": "15 members: 5 permanent (P5: USA, UK, France, Russia, China) + 10 non-permanent elected for 2-year terms. Non-permanent members serve 2 years, not 5."
+ },
+ {
+  "id": 67,
+  "topic": "United Nations and Its Organs",
+  "question": "Which Chapter of the UN Charter deals with enforcement action binding on all member states?",
+  "options": [
+   "Chapter VI",
+   "Chapter VII",
+   "Chapter VIII",
+   "Chapter XIV"
+  ],
+  "answer": 1,
+  "explanation": "Chapter VI = peaceful settlement = RECOMMENDATORY. Chapter VII = enforcement action = BINDING. This distinction is fundamental. When the examiner says SC resolutions are always binding — that is wrong; only Chapter VII decisions are binding."
+ },
+ {
+  "id": 68,
+  "topic": "United Nations and Its Organs",
+  "question": "The 'Uniting for Peace' Resolution 377A was adopted by:",
+  "options": [
+   "UN Security Council in 1945",
+   "UN General Assembly in 1950",
+   "UN General Assembly in 1956",
+   "UN Security Council in 1950"
+  ],
+  "answer": 1,
+  "explanation": "Resolution 377A — adopted by the GENERAL ASSEMBLY in 1950 (NOT Security Council). Enables GA to convene Emergency Special Session when SC is paralyzed by veto. First invoked during Korean War."
+ },
+ {
+  "id": 69,
+  "topic": "United Nations and Its Organs",
+  "question": "An abstention by a permanent member of the Security Council on a non-procedural (substantive) vote:",
+  "options": [
+   "Counts as a veto",
+   "Does not constitute a veto — established practice since 1946",
+   "Requires referral to the General Assembly",
+   "Nullifies the resolution automatically"
+  ],
+  "answer": 1,
+  "explanation": "Abstention ≠ veto — established by consistent SC practice since founding of the UN; confirmed in Namibia Advisory Opinion (1971). The veto requires an AFFIRMATIVE vote to block, not abstention."
+ },
+ {
+  "id": 70,
+  "topic": "United Nations and Its Organs",
+  "question": "The ICJ is located at:",
+  "options": [
+   "New York",
+   "Geneva",
+   "The Hague",
+   "Vienna"
+  ],
+  "answer": 2,
+  "explanation": "ICJ seat = The Hague, Netherlands. WTO = Geneva. UN main seat = New York. Frequently tested as part of international institution geography questions."
+ },
+ {
+  "id": 71,
+  "topic": "United Nations and Its Organs",
+  "question": "ICJ judges hold office for a term of:",
+  "options": [
+   "5 years",
+   "6 years",
+   "9 years",
+   "Life"
+  ],
+  "answer": 2,
+  "explanation": "15 judges, elected for 9-year terms, by BOTH General Assembly and Security Council simultaneously. No two judges may be of the same nationality. Re-election is possible."
+ },
+ {
+  "id": 72,
+  "topic": "United Nations and Its Organs",
+  "question": "The UN Secretary-General is appointed by:",
+  "options": [
+   "General Assembly alone",
+   "Security Council alone",
+   "General Assembly on recommendation of the Security Council",
+   "ICJ"
+  ],
+  "answer": 2,
+  "explanation": "Article 97 UN Charter — appointed by GA on SC recommendation. The SC recommendation is subject to veto. This two-step process is a direct exam question."
+ },
+ {
+  "id": 73,
+  "topic": "United Nations and Its Organs",
+  "question": "Article 99 of the UN Charter empowers the UN Secretary-General to:",
+  "options": [
+   "Veto Security Council resolutions",
+   "Bring to the attention of the Security Council any matter which may threaten international peace and security",
+   "Convene emergency sessions of the General Assembly",
+   "Deploy UN peacekeeping forces unilaterally"
+  ],
+  "answer": 1,
+  "explanation": "Article 99 = the SG's independent political power. When asked which organ or official can bring matters to the SC's attention — answer is Secretary-General under Article 99."
+ },
+ {
+  "id": 74,
+  "topic": "United Nations and Its Organs",
+  "question": "Article 2(7) of the UN Charter prohibits the UN from:",
+  "options": [
+   "Admitting new member states",
+   "Intervening in matters essentially within the domestic jurisdiction of states, subject to Chapter VII enforcement measures",
+   "Holding Security Council sessions without all P5 present",
+   "Imposing economic sanctions"
+  ],
+  "answer": 1,
+  "explanation": "Domestic Jurisdiction Clause — Article 2(7). Importantly: the Chapter VII exception overrides this non-intervention principle when there is a threat to peace, breach of peace, or act of aggression."
+ },
+ {
+  "id": 75,
+  "topic": "United Nations and Its Organs",
+  "question": "The Trusteeship Council has:",
+  "options": [
+   "Been formally abolished by UNGA resolution",
+   "Been dissolved because it completed its mandate — all trust territories became independent",
+   "Suspended operations in 1994 but still formally exists under the UN Charter",
+   "Been merged with ECOSOC"
+  ],
+  "answer": 2,
+  "explanation": "The Trusteeship Council has NOT been abolished. It suspended operations in 1994 when Palau (the last trust territory) became independent. It still formally exists under the Charter."
+ },
+ {
+  "id": 76,
+  "topic": "United Nations and Its Organs",
+  "question": "Which UN organ 'addresses global justice concerns' among the six principal organs?",
+  "options": [
+   "Trusteeship Council",
+   "General Assembly",
+   "International Court of Justice",
+   "Security Council"
+  ],
+  "answer": 2,
+  "explanation": "ICJ = global justice/judicial settlement. GA = political/legislative. SC = peace and security. Trusteeship Council = colonial territories. Asked directly in June 2025."
+ },
+ {
+  "id": 77,
+  "topic": "United Nations and Its Organs",
+  "question": "The correct order in which peaceful settlement methods appear in Article 33 of the UN Charter is:",
+  "options": [
+   "Mediation, Negotiation, Arbitration, Enquiry, Conciliation",
+   "Negotiation, Enquiry, Mediation, Conciliation, Arbitration",
+   "Arbitration, Conciliation, Mediation, Enquiry, Negotiation",
+   "Enquiry, Negotiation, Conciliation, Mediation, Arbitration"
+  ],
+  "answer": 1,
+  "explanation": "Article 33 UN Charter order: Negotiation → Enquiry → Mediation → Conciliation → Arbitration → Judicial Settlement → Regional Agencies. Enquiry coming SECOND (before Mediation) is the most commonly misplaced step. Tested in December 2025."
+ },
+ {
+  "id": 78,
+  "topic": "United Nations and Its Organs",
+  "question": "The three principles of UN peacekeeping operations established by Dag Hammarskjöld are:",
+  "options": [
+   "Force, Neutrality, Authorization",
+   "Consent of the host state, Impartiality, Non-use of force except in self-defence",
+   "Chapter VII, P5 approval, Regional coordination",
+   "Sovereignty, Non-intervention, Collective security"
+  ],
+  "answer": 1,
+  "explanation": "Classical UN peacekeeping (Chapter VI½) — three principles. Compulsory enforcement under Chapter VII is NOT a peacekeeping principle but a separate enforcement mechanism."
+ },
+ {
+  "id": 79,
+  "topic": "United Nations and Its Organs",
+  "question": "The Security Council established both ICTY (1993) and ICTR (1994) under which Chapter of the UN Charter?",
+  "options": [
+   "Chapter VI",
+   "Chapter VII",
+   "Chapter VIII",
+   "Chapter XIV"
+  ],
+  "answer": 1,
+  "explanation": "Both tribunals were established by SC Resolutions under Chapter VII as subsidiary organs of the Security Council. This gave them enforcement authority and obligated all UN member states to cooperate."
+ },
+ {
+  "id": 80,
+  "topic": "United Nations and Its Organs",
+  "question": "Under Article 94(2) of the UN Charter, if a state fails to comply with an ICJ judgment, the other party may:",
+  "options": [
+   "Directly impose sanctions",
+   "Refer the matter to the Security Council, which may make recommendations or take measures",
+   "Approach the General Assembly for enforcement",
+   "Automatically invoke Chapter VII action"
+  ],
+  "answer": 1,
+  "explanation": "Article 94(2) — referral to SC; but SC has discretion and P5 veto can block enforcement. This is why ICJ judgments can be defied — as demonstrated in Nicaragua v. USA (1986)."
+ },
+ {
+  "id": 81,
+  "topic": "Settlement of International Disputes",
+  "question": "The first modern international arbitration is considered to be:",
+  "options": [
+   "Corfu Channel Case",
+   "Alabama Claims Arbitration (1872)",
+   "Trail Smelter Arbitration (1941)",
+   "Lotus Case (1927)"
+  ],
+  "answer": 1,
+  "explanation": "Alabama Claims Arbitration (1872) — USA v. Great Britain. First modern international arbitration. Corfu Channel (1949) is a judicial settlement, NOT arbitration. Do not confuse the two."
+ },
+ {
+  "id": 82,
+  "topic": "Settlement of International Disputes",
+  "question": "Advisory opinions of the ICJ are:",
+  "options": [
+   "Binding on all UN members",
+   "Binding on the requesting organ",
+   "Not legally binding but carry great authoritative weight",
+   "Binding only on P5 members"
+  ],
+  "answer": 2,
+  "explanation": "Advisory opinions are NOT legally binding — this is a direct contrast with contentious jurisdiction judgments which ARE binding on the parties."
+ },
+ {
+  "id": 83,
+  "topic": "Settlement of International Disputes",
+  "question": "The Permanent Court of Arbitration (PCA) was established by the:",
+  "options": [
+   "UN Charter, 1945",
+   "Statute of the ICJ, 1945",
+   "Hague Convention for the Pacific Settlement of Disputes, 1899",
+   "Vienna Convention, 1969"
+  ],
+  "answer": 2,
+  "explanation": "PCA established 1899 — it is NOT a court but a roster of arbitrators. Do not confuse PCA (1899, arbitration) with PCIJ (1920, League of Nations court) or ICJ (1945, UN court)."
+ },
+ {
+  "id": 84,
+  "topic": "Settlement of International Disputes",
+  "question": "The method of dispute settlement where a third party only facilitates communication without proposing solutions is:",
+  "options": [
+   "Conciliation",
+   "Mediation",
+   "Good Offices",
+   "Arbitration"
+  ],
+  "answer": 2,
+  "explanation": "Good Offices = facilitates communication only, does not propose solutions. Mediation = suggests terms. Conciliation = investigates and proposes. Arbitration = binding decision."
+ },
+ {
+  "id": 85,
+  "topic": "Settlement of International Disputes",
+  "question": "The Trail Smelter Arbitration (1941) between USA and Canada established:",
+  "options": [
+   "State Immunity from jurisdiction",
+   "No state may allow its territory to be used in a manner that causes injury in the territory of another state",
+   "Diplomatic protection principles",
+   "Principle of non-intervention"
+  ],
+  "answer": 1,
+  "explanation": "Trail Smelter (1941) = no-harm rule / foundational principle in international environmental law. Do NOT confuse with Corfu Channel (duty to notify danger) or Nicaragua (non-intervention)."
+ },
+ {
+  "id": 86,
+  "topic": "Settlement of International Disputes",
+  "question": "In Nicaragua v. USA (1986), the ICJ found that the USA:",
+  "options": [
+   "Had lawfully exercised the right of self-defense",
+   "Violated customary international law and UN Charter by supporting Contras and mining Nicaraguan harbors",
+   "Was immune from ICJ jurisdiction",
+   "Had lawfully acted under Security Council authorization"
+  ],
+  "answer": 1,
+  "explanation": "Nicaragua Case (1986) — non-intervention principle AND threshold for customary law formation. USA lost on merits but blocked enforcement via SC veto. Do NOT confuse with Corfu Channel or Barcelona Traction."
+ },
+ {
+  "id": 87,
+  "topic": "Settlement of International Disputes",
+  "question": "Retorsion as a method of self-help refers to:",
+  "options": [
+   "Acts of war",
+   "Countermeasures that are lawful but unfriendly",
+   "Countermeasures that are otherwise illegal",
+   "Diplomatic severance as a last resort"
+  ],
+  "answer": 1,
+  "explanation": "Retorsion = lawful but unfriendly acts (e.g., withdrawing trade benefits). Reprisals = otherwise illegal acts used as countermeasures. This distinction is directly tested."
+ },
+ {
+  "id": 88,
+  "topic": "World Trade Organization (WTO)",
+  "question": "The WTO was established on:",
+  "options": [
+   "1 January 1947",
+   "1 January 1995",
+   "15 April 1994",
+   "24 October 1945"
+  ],
+  "answer": 1,
+  "explanation": "WTO established 1 January 1995. Marrakesh Agreement SIGNED 15 April 1994. GATT was 1947. Do not confuse the signing date (1994) with the establishment date (1995)."
+ },
+ {
+  "id": 89,
+  "topic": "World Trade Organization (WTO)",
+  "question": "WTO replaced which earlier arrangement?",
+  "options": [
+   "ITO (International Trade Organization)",
+   "GATT (General Agreement on Tariffs and Trade)",
+   "UNCTAD",
+   "IMF"
+  ],
+  "answer": 1,
+  "explanation": "WTO replaced GATT 1947. Note: GATT still exists as part of the WTO agreements — it is incorporated into the WTO framework, not discarded entirely."
+ },
+ {
+  "id": 90,
+  "topic": "World Trade Organization (WTO)",
+  "question": "The WTO's headquarters is located in:",
+  "options": [
+   "New York",
+   "Vienna",
+   "Geneva",
+   "Brussels"
+  ],
+  "answer": 2,
+  "explanation": "WTO = Geneva, Switzerland. ICJ = The Hague. UN main seat = New York. IAEA = Vienna. Frequently tested as international institution geography."
+ },
+ {
+  "id": 91,
+  "topic": "World Trade Organization (WTO)",
+  "question": "The Most Favoured Nation (MFN) principle in WTO means:",
+  "options": [
+   "Preference to the most powerful nation",
+   "Each member must give equal treatment to all other members",
+   "Developed nations get priority in trade concessions",
+   "The nation with highest GDP gets most favors"
+  ],
+  "answer": 1,
+  "explanation": "MFN = GATT Article I. Any trade advantage given to one WTO member must be extended to all others. National Treatment (GATT Art. III) = treat imported goods like domestic goods inside the border."
+ },
+ {
+  "id": 92,
+  "topic": "World Trade Organization (WTO)",
+  "question": "The Uruguay Round of GATT negotiations concluded in:",
+  "options": [
+   "1986",
+   "1990",
+   "1993",
+   "1994"
+  ],
+  "answer": 3,
+  "explanation": "Uruguay Round: began 1986, concluded 1994 with Marrakesh Agreement (15 April 1994). This led to creation of WTO on 1 January 1995."
+ },
+ {
+  "id": 93,
+  "topic": "World Trade Organization (WTO)",
+  "question": "The Dispute Settlement Body (DSB) of WTO operates under:",
+  "options": [
+   "TRIPS Agreement",
+   "Understanding on Rules and Procedures Governing Settlement of Disputes (DSU)",
+   "UN Charter",
+   "GATT 1947 alone"
+  ],
+  "answer": 1,
+  "explanation": "DSU = Dispute Settlement Understanding, Annex 2 to WTO Agreement. Two-tier system: Panel → Appellate Body. Binding rulings — the most active international dispute resolution mechanism."
+ },
+ {
+  "id": 94,
+  "topic": "World Trade Organization (WTO)",
+  "question": "TRIPS Agreement under WTO deals with:",
+  "options": [
+   "Trade in services",
+   "Trade in agricultural goods",
+   "Trade-related aspects of intellectual property rights",
+   "Trade-related investment measures"
+  ],
+  "answer": 2,
+  "explanation": "TRIPS = Trade-Related Intellectual Property Rights. TRIMS = Trade-Related Investment Measures. GATS = General Agreement on Trade in Services. These three acronyms are frequently swapped in exam questions."
+ },
+ {
+  "id": 95,
+  "topic": "World Trade Organization (WTO)",
+  "question": "National Treatment principle under GATT Article III means:",
+  "options": [
+   "All nations are equal in the WTO",
+   "Imported goods must be treated no less favourably than domestic goods once inside the border",
+   "Countries must treat their nationals better than foreigners",
+   "States should prefer national companies in government procurement"
+  ],
+  "answer": 1,
+  "explanation": "National Treatment = GATT Article III. MFN = GATT Article I. These two foundational non-discrimination principles are the most tested WTO concepts."
+ },
+ {
+  "id": 96,
+  "topic": "IHL — Conventions and Protocols",
+  "question": "How many Geneva Conventions were adopted in 1949?",
+  "options": [
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "answer": 2,
+  "explanation": "Four Geneva Conventions adopted in 1949 — NOT 1864 (that was only the First GC for wounded soldiers). 1949 = all four. 1977 = Additional Protocols I and II. 2005 = AP III (Red Crystal)."
+ },
+ {
+  "id": 97,
+  "topic": "IHL — Conventions and Protocols",
+  "question": "The Third Geneva Convention (GC III) of 1949 specifically protects:",
+  "options": [
+   "Wounded soldiers on land",
+   "Prisoners of War",
+   "Civilians",
+   "Wounded sailors at sea"
+  ],
+  "answer": 1,
+  "explanation": "GC I = wounded/sick on land. GC II = wounded/sick/shipwrecked at sea. GC III = POWs. GC IV = Civilians. This sequence must be automatic — tested every cycle in identification or matching format."
+ },
+ {
+  "id": 98,
+  "topic": "IHL — Conventions and Protocols",
+  "question": "Which Article of the Geneva Conventions of 1949 is called the 'mini convention within the conventions'?",
+  "options": [
+   "Article 2",
+   "Article 3",
+   "Article 4",
+   "Article 5"
+  ],
+  "answer": 1,
+  "explanation": "Common Article 3 = 'mini convention' = applies to Non-International Armed Conflicts. The exact phrase 'mini convention' was asked directly in June 2025. Article 2 = application to international armed conflicts."
+ },
+ {
+  "id": 99,
+  "topic": "IHL — Conventions and Protocols",
+  "question": "Common Article 3 of the Geneva Conventions applies to:",
+  "options": [
+   "International armed conflicts only",
+   "Non-international armed conflicts (civil wars) only",
+   "Both international and non-international armed conflicts equally",
+   "Armed conflicts involving UN forces only"
+  ],
+  "answer": 1,
+  "explanation": "Common Article 3 = NIAC only. Article 2 = IAC. AP I = IAC. AP II = NIAC (higher threshold than CA3). CA3 is the minimum floor for NIAC; AP II adds more protections for qualifying conflicts."
+ },
+ {
+  "id": 100,
+  "topic": "IHL — Conventions and Protocols",
+  "question": "Additional Protocol I (1977) to the Geneva Conventions applies to:",
+  "options": [
+   "Non-international armed conflicts",
+   "International armed conflicts",
+   "Both categories equally",
+   "Armed conflicts involving WMDs only"
+  ],
+  "answer": 1,
+  "explanation": "AP I (1977) = International Armed Conflicts (IAC). AP II (1977) = Non-International Armed Conflicts (NIAC). AP III (2005) = Red Crystal emblem. Know all three APs."
+ },
+ {
+  "id": 101,
+  "topic": "IHL — Conventions and Protocols",
+  "question": "The Martens Clause was originally introduced in the:",
+  "options": [
+   "Geneva Convention 1949",
+   "Hague Convention 1899",
+   "UN Charter 1945",
+   "Rome Statute 1998"
+  ],
+  "answer": 1,
+  "explanation": "Martens Clause (1899) — named after Friedrich Martens, Russian diplomat. States that civilians and combatants remain under protection of principles of law of nations even in cases not covered by specific treaty rules."
+ },
+ {
+  "id": 102,
+  "topic": "IHL — Conventions and Protocols",
+  "question": "The ICRC (International Committee of the Red Cross) was founded in:",
+  "options": [
+   "1859",
+   "1863",
+   "1864",
+   "1949"
+  ],
+  "answer": 1,
+  "explanation": "ICRC founded 1863 by Henry Dunant. First Geneva Convention was 1864. ICRC (1863) came BEFORE the First GC (1864) — not the other way around. When asked which is older, ICRC wins by one year."
+ },
+ {
+  "id": 103,
+  "topic": "IHL — Conventions and Protocols",
+  "question": "The principle of distinction in IHL requires:",
+  "options": [
+   "Distinguishing between combatants and civilians at all times",
+   "Distinguishing between international and non-international conflicts",
+   "Distinguishing between war crimes and crimes against humanity",
+   "Only officers can be targeted"
+  ],
+  "answer": 0,
+  "explanation": "Distinction = one of the four core IHL principles: Distinction, Proportionality, Military Necessity, Humanity. Distinction requires always separating combatants from civilians — attacks may only target combatants."
+ },
+ {
+  "id": 104,
+  "topic": "IHL — Conventions and Protocols",
+  "question": "The principle of proportionality in IHL means:",
+  "options": [
+   "Equal numbers of forces on both sides",
+   "Anticipated civilian casualties must not be excessive in relation to expected military advantage",
+   "States must use force equal to the attack received",
+   "Weapons must be proportionate to the target's size"
+  ],
+  "answer": 1,
+  "explanation": "Proportionality — Article 51(5)(b) AP I. Military Necessity permits measures necessary to achieve a legitimate military objective but cannot override specific IHL prohibitions."
+ },
+ {
+  "id": 105,
+  "topic": "IHL — Conventions and Protocols",
+  "question": "The Hague Conventions primarily deal with:",
+  "options": [
+   "Protection of victims of war",
+   "Conduct of hostilities — means and methods of warfare",
+   "Rights of refugees",
+   "Diplomatic immunity"
+  ],
+  "answer": 1,
+  "explanation": "Hague Law = conduct of hostilities (means and methods of warfare). Geneva Law = protection of victims (wounded, sick, POWs, civilians). These two streams are the foundational structure of IHL."
+ },
+ {
+  "id": 106,
+  "topic": "IHL — Conventions and Protocols",
+  "question": "A person hors de combat means:",
+  "options": [
+   "A spy",
+   "A civilian",
+   "A combatant who is wounded, sick, shipwrecked, or has surrendered",
+   "A war criminal"
+  ],
+  "answer": 2,
+  "explanation": "Hors de combat = 'out of the fight'. Such persons must be protected and cannot be attacked — core IHL protection."
+ },
+ {
+  "id": 107,
+  "topic": "IHL — Conventions and Protocols",
+  "question": "The Additional Protocol III (2005) introduced which emblem?",
+  "options": [
+   "Red Cross",
+   "Red Crescent",
+   "Red Lion",
+   "Red Crystal"
+  ],
+  "answer": 3,
+  "explanation": "AP III (2005) = Red Crystal — a neutral emblem for states that could not use the cross or crescent for religious/political reasons. The three emblems are: Red Cross, Red Crescent, Red Crystal."
+ },
+ {
+  "id": 108,
+  "topic": "IHL — Conventions and Protocols",
+  "question": "The correct chronological order of these weapons conventions entering into force is:",
+  "options": [
+   "Chemical Weapons Convention, Biological Weapons Convention, Ottawa Landmines, Conventional Weapons Convention",
+   "Biological Weapons Convention, Conventional Weapons Convention, Chemical Weapons Convention, Ottawa Landmines",
+   "Ottawa Landmines, Chemical Weapons Convention, Biological Weapons Convention, Conventional Weapons Convention",
+   "Conventional Weapons Convention, Ottawa Landmines, Chemical Weapons Convention, Biological Weapons Convention"
+  ],
+  "answer": 1,
+  "explanation": "BWC (1975) → CCW (1983) → CWC (1997) → Ottawa Landmines (1999). The trap is assuming CWC came before CCW — it did not. Asked directly in June 2025."
+ },
+ {
+  "id": 109,
+  "topic": "IHL — Conventions and Protocols",
+  "question": "Perfidy under IHL refers to:",
+  "options": [
+   "Legitimate deception such as camouflage and decoys",
+   "Acts inviting enemy confidence that they are protected under IHL, then exploiting that protection to kill or capture",
+   "Propaganda against the enemy",
+   "Attacking under cover of darkness"
+  ],
+  "answer": 1,
+  "explanation": "Perfidy = PROHIBITED (Article 37 AP I). Ruse of war = PERMITTED. Perfidy exploits protected status (e.g., feigning surrender, falsely using Red Cross emblem). Ruse = legitimate deception (camouflage, decoys)."
+ },
+ {
+  "id": 110,
+  "topic": "IHL — Conventions and Protocols",
+  "question": "Under GC III (POW Convention), prisoners of war are required to provide only:",
+  "options": [
+   "Full intelligence about their military unit",
+   "Name, rank, date of birth, and service number (the 'Big Four')",
+   "Their home address and family details",
+   "The location of their military base"
+  ],
+  "answer": 1,
+  "explanation": "Article 17 GC III — POWs cannot be compelled to give more than the Big Four. Any coercive interrogation violates GC III. 'Unit location' or 'military operations details' in the options = always wrong."
+ },
+ {
+  "id": 111,
+  "topic": "IHL — Conventions and Protocols",
+  "question": "Under Article 47 of Additional Protocol I, which of the following is a requirement for mercenary status?",
+  "options": [
+   "Being a national of a party to the conflict",
+   "Not being a member of the armed forces of a party to the conflict",
+   "Having served in the military before",
+   "Operating under UN authorization"
+  ],
+  "answer": 1,
+  "explanation": "If a person IS a national of a party to the conflict, they CANNOT be a mercenary by definition. All six Article 47 criteria must be met. Nationality of a party = automatic disqualification from mercenary status."
+ },
+ {
+  "id": 112,
+  "topic": "IHL — Conventions and Protocols",
+  "question": "The Chemical Weapons Convention (CWC) was adopted in:",
+  "options": [
+   "1972",
+   "1980",
+   "1993",
+   "1998"
+  ],
+  "answer": 2,
+  "explanation": "CWC adopted 1993, entered into force 1997. BWC adopted 1972, in force 1975. These years are tested in arrangement questions — BWC always comes before CWC."
+ },
+ {
+  "id": 113,
+  "topic": "IHL — Conventions and Protocols",
+  "question": "IHL Assertion-Reason: Assertion (A): IHL regulates the conduct of war (jus in bello), protecting persons not participating in hostilities and restricting means and methods of warfare. Reason (R): IHL is inspired by considerations of humanity and mitigation of human suffering. Select the correct option:",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": 0,
+  "explanation": "This assertion-reason has appeared in nearly identical form in 2021, 2022, and 2023. Both are true AND the Reason genuinely explains the Assertion. Answer is always option (1)."
+ },
+ {
+  "id": 114,
+  "topic": "Implementation of IHL — Challenges",
+  "question": "The Rome Statute establishing the ICC was adopted in:",
+  "options": [
+   "1993",
+   "1996",
+   "1998",
+   "2002"
+  ],
+  "answer": 2,
+  "explanation": "Rome Statute ADOPTED 1998, ENTERED INTO FORCE 17 July 2002. ICTY = 1993. ICTR = 1994. Chronological order: ICTY (1993) → ICTR (1994) → Rome Statute adopted (1998) → ICC operational (2002)."
+ },
+ {
+  "id": 115,
+  "topic": "Implementation of IHL — Challenges",
+  "question": "The ICC has jurisdiction over which crimes under Article 5 of the Rome Statute?",
+  "options": [
+   "Terrorism and drug trafficking",
+   "Genocide, crimes against humanity, war crimes, crime of aggression",
+   "All crimes committed by states",
+   "Crimes committed against UN peacekeepers only"
+  ],
+  "answer": 1,
+  "explanation": "Four crimes under Article 5 Rome Statute. The crime of aggression was added but only activated from 17 July 2018 via Kampala Amendments (2010). Terrorism and drug trafficking are NOT ICC crimes."
+ },
+ {
+  "id": 116,
+  "topic": "Implementation of IHL — Challenges",
+  "question": "The principle of complementarity under the Rome Statute means:",
+  "options": [
+   "ICC automatically prosecutes all war crimes",
+   "ICC acts only when states are genuinely unable or unwilling to prosecute — ICC is a court of last resort",
+   "ICC and national courts have equal and concurrent jurisdiction",
+   "Only states that ratified the Rome Statute are subject to ICC"
+  ],
+  "answer": 1,
+  "explanation": "Complementarity = ICC defers to genuinely functioning national systems. It is NOT a court of first resort. This is the fundamental structural principle of the ICC."
+ },
+ {
+  "id": 117,
+  "topic": "Implementation of IHL — Challenges",
+  "question": "The Responsibility to Protect (R2P) doctrine was endorsed at:",
+  "options": [
+   "Rome Conference, 1998",
+   "2005 UN World Summit",
+   "1993 Vienna Human Rights Conference",
+   "2001 Durban Conference"
+  ],
+  "answer": 1,
+  "explanation": "R2P endorsed at 2005 UN World Summit Outcome Document. NOT the 1998 Rome Conference. Covers four crimes: genocide, war crimes, ethnic cleansing, crimes against humanity. Political commitment — NOT a binding treaty."
+ },
+ {
+  "id": 118,
+  "topic": "Implementation of IHL — Challenges",
+  "question": "Universal Jurisdiction allows states to prosecute:",
+  "options": [
+   "Only their own nationals for crimes committed abroad",
+   "Any person for certain international crimes regardless of where committed or nationality",
+   "Only crimes committed in their territory",
+   "Only crimes authorized by the UN Security Council"
+  ],
+  "answer": 1,
+  "explanation": "Universal Jurisdiction applies to: grave breaches of Geneva Conventions, genocide, torture, piracy. Distinguished from ICC jurisdiction: Universal jurisdiction = state courts acting. ICC jurisdiction = The Hague court with complementarity."
+ },
+ {
+  "id": 119,
+  "topic": "Implementation of IHL — Challenges",
+  "question": "The Kampala Amendments (2010) to the Rome Statute activated the ICC's jurisdiction over:",
+  "options": [
+   "Terrorism",
+   "Drug trafficking",
+   "Crime of Aggression",
+   "Cyber warfare crimes"
+  ],
+  "answer": 2,
+  "explanation": "Kampala Review Conference 2010 — Crime of Aggression activated from 17 July 2018. NOT part of Rome Statute's original 1998 framework. When an option says 'Rome Statute originally included crime of aggression with full jurisdiction' — that is wrong."
+ },
+ {
+  "id": 120,
+  "topic": "Implementation of IHL — Challenges",
+  "question": "Command Responsibility under Article 28 of the Rome Statute means:",
+  "options": [
+   "Only those who personally commit war crimes can be prosecuted",
+   "Military commanders are criminally responsible for crimes of subordinates if they knew or should have known and failed to prevent or punish",
+   "Political leaders are immune from ICC prosecution",
+   "Command responsibility only applies to civilian leaders, not military commanders"
+  ],
+  "answer": 1,
+  "explanation": "Article 28 Rome Statute — applies to both military commanders and civilian superiors (different standards). Historical authority: Yamashita Case (1946). Both commanders AND civilians can bear responsibility."
+ },
+ {
+  "id": 121,
+  "topic": "Implementation of IHL — Challenges",
+  "question": "Which of the following is the primary contemporary challenge to IHL implementation?",
+  "options": [
+   "Lack of customary IHL rules",
+   "Over-regulation by too many overlapping treaties",
+   "Convergence of challenges: non-state armed groups, asymmetric warfare, terrorism, cyber operations, and lack of political will to prosecute",
+   "ICJ lacks jurisdiction over IHL violations"
+  ],
+  "answer": 2,
+  "explanation": "IHL implementation challenges are multi-dimensional in contemporary conflicts. Non-state armed groups not bound by IHL treaties is the single most cited challenge."
+ },
+ {
+  "id": 122,
+  "topic": "Implementation of IHL — Challenges",
+  "question": "The Genocide Convention was adopted in:",
+  "options": [
+   "1945",
+   "1948",
+   "1951",
+   "1966"
+  ],
+  "answer": 1,
+  "explanation": "Convention on the Prevention and Punishment of the Crime of Genocide — 1948. The term 'genocide' was coined by Raphael Lemkin (Polish-Jewish lawyer) in 1944."
+ },
+ {
+  "id": 123,
+  "topic": "Implementation of IHL — Challenges",
+  "question": "The ICTY (International Criminal Tribunal for the former Yugoslavia) was established in:",
+  "options": [
+   "1991",
+   "1993",
+   "1995",
+   "1998"
+  ],
+  "answer": 1,
+  "explanation": "ICTY established 1993 by SC Resolution 827. ICTR established 1994. Both under Chapter VII. ICTY was the first international tribunal since Nuremberg (1945)."
+ },
+ {
+  "id": 124,
+  "topic": "Mixed / Cross-Topical",
+  "question": "The Corfu Channel Case (ICJ, 1949) established which principle?",
+  "options": [
+   "Fishing rights in territorial waters",
+   "Duty to notify other states of known dangers in international straits",
+   "Diplomatic asylum rights",
+   "Right of recognition of new states"
+  ],
+  "answer": 1,
+  "explanation": "Corfu Channel Case (UK v. Albania, 1949) — mines in the Corfu Channel caused damage to British warships. ICJ held Albania responsible for failing to notify of the danger."
+ },
+ {
+  "id": 125,
+  "topic": "Mixed / Cross-Topical",
+  "question": "The principle of non-intervention under international law (as affirmed in the Nicaragua Case 1986) means:",
+  "options": [
+   "States should avoid participating in UN operations",
+   "No state may coercively intervene in the internal or external affairs of another state",
+   "States cannot interfere in trade of other states",
+   "Courts should not intervene in political questions"
+  ],
+  "answer": 1,
+  "explanation": "Non-intervention = Article 2(7) UN Charter; reaffirmed in Nicaragua v. USA (1986). The Nicaragua Case is the authority on BOTH the non-intervention principle AND formation of customary law."
+ },
+ {
+  "id": 126,
+  "topic": "Mixed / Cross-Topical",
+  "question": "Which document is described as a 'constitution for the oceans'?",
+  "options": [
+   "Hague Convention 1907",
+   "UNCLOS (UN Convention on the Law of the Sea, 1982)",
+   "Vienna Convention 1969",
+   "UN Charter 1945"
+  ],
+  "answer": 1,
+  "explanation": "UNCLOS 1982 — entered into force 1994. Governs territorial sea (12 nm), EEZ (200 nm), continental shelf, high seas. Called the 'constitution for the oceans'."
+ },
+ {
+  "id": 127,
+  "topic": "Mixed / Cross-Topical",
+  "question": "The International Law Commission (ILC) was established by the UN General Assembly in:",
+  "options": [
+   "1945",
+   "1947",
+   "1950",
+   "1956"
+  ],
+  "answer": 1,
+  "explanation": "ILC established 1947 — tasked with codification and progressive development of international law. The ILC's 2001 Articles on State Responsibility are the authoritative text on state responsibility."
+ },
+ {
+  "id": 128,
+  "topic": "Mixed / Cross-Topical",
+  "question": "Under which provision does the Vienna Convention on Consular Relations (1963) govern consular protection?",
+  "options": [
+   "Vienna Convention on Diplomatic Relations 1961",
+   "Vienna Convention on Consular Relations 1963",
+   "Vienna Convention on the Law of Treaties 1969",
+   "UN Charter Article 105"
+  ],
+  "answer": 1,
+  "explanation": "Three Vienna Conventions: Diplomatic Relations (1961), Consular Relations (1963), Law of Treaties (1969). These are used as distractors for each other in every few cycles."
+ },
+ {
+  "id": 129,
+  "topic": "Mixed / Cross-Topical",
+  "question": "Which of the following correctly states the hierarchical relationship in international law?",
+  "options": [
+   "Treaty > Custom > Jus Cogens",
+   "Jus Cogens > Treaty > Custom (roughly co-equal)",
+   "Custom > Treaty > Jus Cogens",
+   "All sources are always equal"
+  ],
+  "answer": 1,
+  "explanation": "Jus Cogens prevails over all — overrides both treaties and custom. Within ordinary sources, treaties and custom are largely co-equal (later treaty can override earlier custom and vice versa)."
+ },
+ {
+  "id": 130,
+  "topic": "Mixed / Cross-Topical",
+  "question": "The 'concept of responsibility of states for internationally wrongful acts' was codified in ILC Articles in:",
+  "options": [
+   "1969",
+   "1986",
+   "2001",
+   "2005"
+  ],
+  "answer": 2,
+  "explanation": "ILC Articles on State Responsibility — 2001. Key concepts: internationally wrongful act = breach of international obligation attributable to a state; circumstances precluding wrongfulness; countermeasures."
+ },
+ {
+  "id": 131,
+  "topic": "Assertion-Reason",
+  "question": "Assertion (A): The Security Council can take binding decisions on all matters. Reason (R): Under Chapter VII of the UN Charter, the Security Council can take enforcement action that is binding on all member states.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is false but R is true",
+   "A is true but R is false"
+  ],
+  "answer": 2,
+  "explanation": "A is FALSE — SC decisions under Chapter VI are recommendatory. Only Chapter VII decisions are binding. R correctly states the Chapter VII position. The word 'all matters' in A makes it wrong."
+ },
+ {
+  "id": 132,
+  "topic": "Assertion-Reason",
+  "question": "Assertion (A): The ICC exercises universal jurisdiction over international crimes. Reason (R): The ICC's jurisdiction is based on territorial or nationality link, or SC referral — not universal jurisdiction.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is false but R is true",
+   "A is true but R is false"
+  ],
+  "answer": 2,
+  "explanation": "ICC does NOT have universal jurisdiction. ICC jurisdiction: crime in State Party territory, accused is national of State Party, or UNSC refers the situation. R correctly explains why A is false."
+ },
+ {
+  "id": 133,
+  "topic": "Assertion-Reason",
+  "question": "Assertion (A): Common Article 3 of the Geneva Conventions is sometimes called a 'mini-convention'. Reason (R): It provides minimum humanitarian standards applicable in non-international armed conflicts across all four Geneva Conventions.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": 0,
+  "explanation": "Both correct — Common Article 3 is called a mini-convention precisely because it packs core IHL protections into one article applicable across all four GCs for NIAC situations."
+ },
+ {
+  "id": 134,
+  "topic": "Assertion-Reason",
+  "question": "Assertion (A): Non-refoulement under the 1951 Convention is an absolute and non-derogable right with no exceptions. Reason (R): Article 33(2) of the 1951 Convention allows refoulement of a refugee who is a danger to national security or has been convicted of a particularly serious crime.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is false but R is true",
+   "A is true but R is false"
+  ],
+  "answer": 2,
+  "explanation": "A is FALSE — non-refoulement has exceptions under Article 33(2) for national security threats or convicted serious criminals. R correctly states the exceptions. Non-refoulement under UNCAT is closer to absolute but under the 1951 Convention it is not."
+ },
+ {
+  "id": 135,
+  "topic": "Assertion-Reason",
+  "question": "Assertion (A): The Nottebohm Case established that diplomatic protection can be exercised based on any formal grant of nationality. Reason (R): The ICJ held that nationality must reflect a genuine connection — a social fact of attachment, interests, and sentiments.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "A is false but R is true",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false"
+  ],
+  "answer": 1,
+  "explanation": "A is FALSE — Nottebohm rejected the notion that any formal grant suffices. The ICJ required genuine connection. R correctly states the ICJ's actual holding in Nottebohm (1955)."
+ }
+]

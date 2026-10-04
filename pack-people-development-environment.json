@@ -1,0 +1,1117 @@
+{
+  "metadata": {
+    "title": "UGC NET Paper 1 - Unit IX: People, Development and Environment",
+    "total_questions": 85,
+    "source": "PYQ-based + High-Impact Topic Questions",
+    "exam": "UGC NET Paper 1",
+    "unit": "Unit IX",
+    "last_updated": "2026"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "topic": "SDGs",
+      "question": "Sustainable Development Goals (SDGs) are formally known as:",
+      "options": [
+        "A. Sustainable Living For All: 2022 Agenda",
+        "B. Transforming Our World: The 2030 Agenda for Sustainable Development",
+        "C. Life Of Dignity For All: 2022 Agenda",
+        "D. One Planet, One People: 2030 Agenda"
+      ],
+      "answer": "B",
+      "explanation": "The SDGs, adopted in September 2015 by all 193 UN member states, are formally titled 'Transforming Our World: The 2030 Agenda for Sustainable Development'."
+    },
+    {
+      "id": 2,
+      "topic": "SDGs",
+      "question": "Sustainable Development Goals have specific targets to be achieved by:",
+      "options": [
+        "A. 2022",
+        "B. 2025",
+        "C. 2030",
+        "D. 2050"
+      ],
+      "answer": "C",
+      "explanation": "The 17 SDGs have a deadline of 2030, as part of the 2030 Agenda for Sustainable Development adopted in 2015."
+    },
+    {
+      "id": 3,
+      "topic": "SDGs",
+      "question": "How many Sustainable Development Goals (SDGs) are there?",
+      "options": [
+        "A. 8",
+        "B. 12",
+        "C. 15",
+        "D. 17"
+      ],
+      "answer": "D",
+      "explanation": "There are 17 SDGs with 169 targets, adopted in 2015 to be achieved by 2030."
+    },
+    {
+      "id": 4,
+      "topic": "SDGs",
+      "question": "SDG 13 refers to:",
+      "options": [
+        "A. Clean and Affordable Energy",
+        "B. Life on Land",
+        "C. Climate Action",
+        "D. Responsible Consumption and Production"
+      ],
+      "answer": "C",
+      "explanation": "SDG 13 calls for urgent action to combat climate change and its impacts."
+    },
+    {
+      "id": 5,
+      "topic": "SDGs",
+      "question": "Which SDG focuses on Clean and Affordable Energy?",
+      "options": [
+        "A. SDG 6",
+        "B. SDG 7",
+        "C. SDG 9",
+        "D. SDG 11"
+      ],
+      "answer": "B",
+      "explanation": "SDG 7 aims to ensure access to affordable, reliable, sustainable, and modern energy for all."
+    },
+    {
+      "id": 6,
+      "topic": "MDGs vs SDGs",
+      "question": "Which of the following most accurately distinguishes MDGs from SDGs?",
+      "options": [
+        "A. MDGs applied to all countries; SDGs applied only to developing nations",
+        "B. MDGs were developed through multi-stakeholder consultations; SDGs were top-down",
+        "C. MDGs targeted developing countries and were top-down; SDGs are universal and multi-stakeholder",
+        "D. MDGs focused on environment; SDGs focused only on poverty reduction"
+      ],
+      "answer": "C",
+      "explanation": "MDGs (8 goals, 2000-2015) targeted only developing countries and were designed top-down. SDGs (17 goals, 2015-2030) are universal, applicable to all 193 nations, and developed through broader multi-stakeholder consultations."
+    },
+    {
+      "id": 7,
+      "topic": "MDGs",
+      "question": "How many Millennium Development Goals (MDGs) were there?",
+      "options": [
+        "A. 6",
+        "B. 8",
+        "C. 10",
+        "D. 17"
+      ],
+      "answer": "B",
+      "explanation": "There were 8 MDGs with a deadline of 2015. They were replaced by 17 SDGs in 2015 with a 2030 deadline."
+    },
+    {
+      "id": 8,
+      "topic": "International Agreements",
+      "question": "The Montreal Protocol (1987) primarily targets:",
+      "options": [
+        "A. Carbon dioxide emissions",
+        "B. Ozone-depleting substances like CFCs",
+        "C. Hydrofluorocarbons (HFCs)",
+        "D. Methane from agriculture"
+      ],
+      "answer": "B",
+      "explanation": "The Montreal Protocol (1987) is an international treaty designed to protect the ozone layer by phasing out production and consumption of ozone-depleting substances, primarily CFCs."
+    },
+    {
+      "id": 9,
+      "topic": "International Agreements",
+      "question": "In which country was the recent international agreement on phasing out Hydrofluorocarbons (HFCs) signed?",
+      "options": [
+        "A. Morocco",
+        "B. South Africa",
+        "C. Algeria",
+        "D. Rwanda"
+      ],
+      "answer": "D",
+      "explanation": "The Kigali Amendment to the Montreal Protocol, which aims to phase out HFCs, was signed in Kigali, Rwanda in 2016."
+    },
+    {
+      "id": 10,
+      "topic": "International Agreements",
+      "question": "The Kyoto Protocol set binding emission reduction targets for:",
+      "options": [
+        "A. All UN member states",
+        "B. Only developing nations",
+        "C. Only developed (Annex I) countries",
+        "D. G20 nations only"
+      ],
+      "answer": "C",
+      "explanation": "The Kyoto Protocol (1997) was the first legally binding climate treaty but set targets only for developed (Annex I) countries. This was a key difference from the Paris Agreement which applies to all nations."
+    },
+    {
+      "id": 11,
+      "topic": "International Agreements",
+      "question": "The Paris Agreement aims to limit global temperature rise to:",
+      "options": [
+        "A. 1°C above pre-industrial levels",
+        "B. 1.5°C above pre-industrial levels only",
+        "C. Well below 2°C, with efforts towards 1.5°C",
+        "D. 2.5°C above pre-industrial levels"
+      ],
+      "answer": "C",
+      "explanation": "The Paris Agreement (COP21, 2015) aims to hold global temperature increase to well below 2°C above pre-industrial levels, while pursuing efforts to limit the increase to 1.5°C."
+    },
+    {
+      "id": 12,
+      "topic": "International Agreements",
+      "question": "The Convention on Biological Diversity (CBD) was signed at:",
+      "options": [
+        "A. Kyoto, Japan (1997)",
+        "B. Paris, France (2015)",
+        "C. Rio de Janeiro, Brazil (1992)",
+        "D. Montreal, Canada (1987)"
+      ],
+      "answer": "C",
+      "explanation": "The CBD was signed at the Rio Earth Summit (UNCED) in 1992. Its three objectives are: conservation of biological diversity, sustainable use, and fair sharing of benefits from genetic resources."
+    },
+    {
+      "id": 13,
+      "topic": "International Agreements",
+      "question": "The International Solar Alliance (ISA) was proposed by India at:",
+      "options": [
+        "A. Rio+20 Summit, 2012",
+        "B. COP21, Paris, 2015",
+        "C. COP26, Glasgow, 2021",
+        "D. Kyoto Protocol Conference, 1997"
+      ],
+      "answer": "B",
+      "explanation": "India proposed the International Solar Alliance (ISA) at COP21 in Paris in 2015. The ISA was officially launched in January 2016 and is headquartered in Gurugram, Haryana, India."
+    },
+    {
+      "id": 14,
+      "topic": "International Agreements",
+      "question": "The Nagoya Protocol (2010) is related to:",
+      "options": [
+        "A. Ozone layer protection",
+        "B. Climate change mitigation",
+        "C. Access and benefit sharing of genetic resources under CBD",
+        "D. Reduction of greenhouse gases"
+      ],
+      "answer": "C",
+      "explanation": "The Nagoya Protocol (2010) is a supplementary agreement to the Convention on Biological Diversity, providing a framework for access to genetic resources and the fair and equitable sharing of benefits."
+    },
+    {
+      "id": 15,
+      "topic": "International Agreements",
+      "question": "The Rio Earth Summit (1992) produced which of the following documents/agreements? (i) Agenda 21 (ii) Rio Declaration (iii) UNFCCC (iv) Paris Agreement",
+      "options": [
+        "A. (i) and (ii) only",
+        "B. (i), (ii) and (iii)",
+        "C. (i), (ii), (iii) and (iv)",
+        "D. (ii), (iii) and (iv)"
+      ],
+      "answer": "B",
+      "explanation": "The 1992 Rio Earth Summit produced Agenda 21, the Rio Declaration on Environment and Development, the Convention on Biological Diversity, and the UNFCCC. The Paris Agreement came later in 2015."
+    },
+    {
+      "id": 16,
+      "topic": "Air Pollution",
+      "question": "Which of the following pollutant gases is NOT produced both naturally and as a result of industrial activity?",
+      "options": [
+        "A. Nitrous oxide",
+        "B. Methane",
+        "C. Carbon dioxide",
+        "D. Chlorofluorocarbons (CFCs)"
+      ],
+      "answer": "D",
+      "explanation": "CFCs are entirely man-made and have no natural source. CO2, methane, and nitrous oxide all have both natural and anthropogenic sources."
+    },
+    {
+      "id": 17,
+      "topic": "Air Pollution",
+      "question": "The dominant source of pollution due to oxides of nitrogen (NOx) in urban areas is:",
+      "options": [
+        "A. Power plants",
+        "B. Commercial sector",
+        "C. Energy use in industry",
+        "D. Road transport"
+      ],
+      "answer": "D",
+      "explanation": "In urban areas, road transport (vehicles) is the dominant source of NOx emissions, contributing to smog formation and respiratory problems."
+    },
+    {
+      "id": 18,
+      "topic": "Air Pollution",
+      "question": "Which of the following pollutants is the major cause of respiratory disease?",
+      "options": [
+        "A. Nitrogen oxides",
+        "B. Carbon monoxide",
+        "C. Volatile organic compounds",
+        "D. Suspended fine particles (PM2.5)"
+      ],
+      "answer": "D",
+      "explanation": "Suspended fine particles (PM2.5) are the primary cause of respiratory diseases as they can penetrate deep into the lungs and even enter the bloodstream."
+    },
+    {
+      "id": 19,
+      "topic": "Air Pollution",
+      "question": "Among the following air pollutants, which directly impacts human health as well as climate?",
+      "options": [
+        "A. Sulphur dioxide",
+        "B. Oxides of nitrogen",
+        "C. Soot (Black Carbon)",
+        "D. Chlorofluorocarbons"
+      ],
+      "answer": "C",
+      "explanation": "Soot (black carbon) is a 'short-lived climate pollutant' that directly impacts both human health (respiratory and cardiovascular disease) and climate (absorbs solar radiation, causes warming)."
+    },
+    {
+      "id": 20,
+      "topic": "Air Pollution",
+      "question": "Frequent episodes of dense smog in winter season in Delhi NCR can be attributed to: (i) Stubble burning (ii) Biomass burning in rural households (iii) Transport (iv) Transboundary movement of pollutants",
+      "options": [
+        "A. (i) and (iii) only",
+        "B. (i), (ii) and (iii) only",
+        "C. (i), (iii) and (iv) only",
+        "D. (i), (ii), (iii) and (iv)"
+      ],
+      "answer": "D",
+      "explanation": "Delhi's winter smog is a result of multiple combined factors: stubble burning in Haryana/Punjab, biomass burning for heating, transport emissions, and transboundary movement of pollutants — all four contribute."
+    },
+    {
+      "id": 21,
+      "topic": "Air Pollution",
+      "question": "Assertion (A): In urban areas, smog episodes occur frequently in winters. Reason (R): In winters, a lot of biomass is burnt by people for heating purposes.",
+      "options": [
+        "A. Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "B. Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "C. (A) is true and (R) is false",
+        "D. Both (A) and (R) are false"
+      ],
+      "answer": "B",
+      "explanation": "Both statements are true, but biomass burning is only one of several reasons for winter smog. Temperature inversion, low wind speed, and multiple pollution sources also contribute — so R is not the complete/correct explanation of A."
+    },
+    {
+      "id": 22,
+      "topic": "Air Pollution",
+      "question": "Photochemical smog is formed when:",
+      "options": [
+        "A. Sulphur dioxide reacts with rain water",
+        "B. NOx reacts with hydrocarbons in sunlight to form ground-level ozone",
+        "C. Coal is burned in industrial areas",
+        "D. Carbon dioxide combines with dust particles"
+      ],
+      "answer": "B",
+      "explanation": "Photochemical smog is a summer phenomenon formed when nitrogen dioxide (from traffic and industry) reacts with hydrocarbons in the presence of sunlight to produce ground-level ozone and other oxidants."
+    },
+    {
+      "id": 23,
+      "topic": "Air Pollution",
+      "question": "The Great Smog of London (1952) was primarily caused by:",
+      "options": [
+        "A. NOx from vehicles reacting with sunlight",
+        "B. Industrial pollution (coal burning) combined with high-pressure anticyclone and windless conditions",
+        "C. Agricultural stubble burning",
+        "D. Volcanic ash from nearby eruptions"
+      ],
+      "answer": "B",
+      "explanation": "The Great London Smog (December 5–9, 1952) was caused by a combination of industrial coal pollution and unusual weather — an anticyclone created still, cold conditions that trapped pollutants over the city for 5 days, killing thousands."
+    },
+    {
+      "id": 24,
+      "topic": "Water Pollution",
+      "question": "Which of the following is the largest source of water pollution in major rivers of India?",
+      "options": [
+        "A. Agricultural run-off",
+        "B. Religious practices",
+        "C. Unregulated small scale industries",
+        "D. Untreated sewage"
+      ],
+      "answer": "D",
+      "explanation": "Untreated sewage is the largest source of water pollution in India's major rivers, as a significant portion of municipal wastewater is discharged without adequate treatment."
+    },
+    {
+      "id": 25,
+      "topic": "Water Pollution",
+      "question": "The arsenic pollution in groundwater in Bangladesh and parts of India is due to:",
+      "options": [
+        "A. Industrial waste disposal",
+        "B. Thermal power plants",
+        "C. Natural geological sources",
+        "D. Agricultural practices"
+      ],
+      "answer": "C",
+      "explanation": "Arsenic contamination of groundwater in Bangladesh and West Bengal (India) is primarily due to natural geological sources — arsenic leaches from alluvial sediments into aquifers, not from industrial activity."
+    },
+    {
+      "id": 26,
+      "topic": "Water Pollution",
+      "question": "Which of the following is NOT a water-borne disease?",
+      "options": [
+        "A. Typhoid",
+        "B. Hepatitis A",
+        "C. Cholera",
+        "D. Dengue"
+      ],
+      "answer": "D",
+      "explanation": "Dengue is a vector-borne disease transmitted by the Aedes mosquito, not through contaminated water. Typhoid, Hepatitis A, and Cholera are all water-borne diseases."
+    },
+    {
+      "id": 27,
+      "topic": "Water Pollution",
+      "question": "In which country or region is per capita use of water maximum?",
+      "options": [
+        "A. India",
+        "B. USA",
+        "C. European Union",
+        "D. China"
+      ],
+      "answer": "C",
+      "explanation": "Among the given options, the European Union has the highest per capita water use. This is a PYQ-specific data point from NTA question papers."
+    },
+    {
+      "id": 28,
+      "topic": "Health and Pollutants",
+      "question": "Minamata disease is caused by:",
+      "options": [
+        "A. Excess fluoride in water",
+        "B. Mercury poisoning through contaminated fish",
+        "C. Cadmium accumulation in bones",
+        "D. Lead poisoning from paints"
+      ],
+      "answer": "B",
+      "explanation": "Minamata disease is a neurological illness caused by severe mercury poisoning. It was first discovered in Minamata, Japan in 1956, caused by industrial wastewater containing methylmercury discharged into the bay."
+    },
+    {
+      "id": 29,
+      "topic": "Health and Pollutants",
+      "question": "Itai-Itai disease is caused by:",
+      "options": [
+        "A. Mercury",
+        "B. Arsenic",
+        "C. Cadmium",
+        "D. Lead"
+      ],
+      "answer": "C",
+      "explanation": "Itai-Itai disease (meaning 'it hurts, it hurts' in Japanese) is caused by cadmium poisoning, leading to severe bone and kidney damage. It was first reported in Japan's Toyama Prefecture."
+    },
+    {
+      "id": 30,
+      "topic": "Health and Pollutants",
+      "question": "Excess fluoride in groundwater causes:",
+      "options": [
+        "A. Minamata disease",
+        "B. Fluorosis (dental and skeletal)",
+        "C. Itai-Itai disease",
+        "D. Blue baby syndrome"
+      ],
+      "answer": "B",
+      "explanation": "Excess fluoride causes fluorosis — dental fluorosis (mottling of teeth) and skeletal fluorosis (bone damage). It is common in parts of Rajasthan, Andhra Pradesh, and Gujarat in India."
+    },
+    {
+      "id": 31,
+      "topic": "Health and Pollutants",
+      "question": "Blue baby syndrome (methemoglobinemia) is caused by excess:",
+      "options": [
+        "A. Fluoride in drinking water",
+        "B. Nitrates in drinking water",
+        "C. Arsenic in groundwater",
+        "D. Lead in soil"
+      ],
+      "answer": "B",
+      "explanation": "Blue baby syndrome is caused by excess nitrates in drinking water, commonly from agricultural fertilizer run-off. Nitrates reduce the oxygen-carrying capacity of haemoglobin in infants."
+    },
+    {
+      "id": 32,
+      "topic": "Noise Pollution",
+      "question": "The permissible noise level (day time) in a residential area as per Indian standards is:",
+      "options": [
+        "A. 45 dB",
+        "B. 55 dB",
+        "C. 65 dB",
+        "D. 75 dB"
+      ],
+      "answer": "B",
+      "explanation": "As per Indian noise standards: Residential areas — Day: 55 dB, Night: 45 dB. Commercial: Day 65 dB, Night 55 dB. Industrial: Day 75 dB, Night 70 dB. Silence zones: Day 50 dB, Night 40 dB."
+    },
+    {
+      "id": 33,
+      "topic": "Noise Pollution",
+      "question": "What is the permissible noise level in silence zones (hospitals/schools) during daytime?",
+      "options": [
+        "A. 40 dB",
+        "B. 45 dB",
+        "C. 50 dB",
+        "D. 55 dB"
+      ],
+      "answer": "C",
+      "explanation": "Silence zones (hospitals, schools, courts) have the strictest noise limits: Day 50 dB, Night 40 dB, as per Indian noise pollution rules."
+    },
+    {
+      "id": 34,
+      "topic": "Waste Management",
+      "question": "Municipal Solid Waste (MSW) comprises of: (i) Household waste (ii) Sanitation residue (iii) Waste from streets (iv) Construction and demolition debris",
+      "options": [
+        "A. (i), (ii) and (iii) only",
+        "B. (i) and (iii) only",
+        "C. (i), (iii) and (iv) only",
+        "D. (i), (ii), (iii) and (iv)"
+      ],
+      "answer": "D",
+      "explanation": "Municipal Solid Waste includes all four: household waste, sanitation residue, waste from streets, and construction & demolition debris — all managed by municipal authorities."
+    },
+    {
+      "id": 35,
+      "topic": "Waste Management",
+      "question": "Biomedical waste in India is regulated under:",
+      "options": [
+        "A. Environmental Protection Act, 1986",
+        "B. Biomedical Waste Management Rules, 2016",
+        "C. Water (Prevention and Control of Pollution) Act, 1974",
+        "D. Solid Waste Management Rules, 2000"
+      ],
+      "answer": "B",
+      "explanation": "Biomedical waste (from hospitals, labs, clinics) is regulated under the Biomedical Waste Management Rules, 2016, which replaced the earlier 1998 rules."
+    },
+    {
+      "id": 36,
+      "topic": "Waste Management",
+      "question": "Which type of waste is the fastest growing category globally?",
+      "options": [
+        "A. Biomedical waste",
+        "B. Solid municipal waste",
+        "C. Electronic waste (E-waste)",
+        "D. Hazardous industrial waste"
+      ],
+      "answer": "C",
+      "explanation": "Electronic waste (e-waste) is the fastest growing waste stream globally, driven by rapid obsolescence of electronic devices and rising consumption of electronics."
+    },
+    {
+      "id": 37,
+      "topic": "Natural Hazards",
+      "question": "Which of the following phenomena is NOT a natural hazard?",
+      "options": [
+        "A. Wildfire",
+        "B. Lightning",
+        "C. Landslide",
+        "D. Chemical contamination"
+      ],
+      "answer": "D",
+      "explanation": "Chemical contamination is an anthropogenic (man-made) hazard, not a natural one. Wildfires (when lightning-caused), lightning, and landslides can all occur naturally."
+    },
+    {
+      "id": 38,
+      "topic": "Natural Hazards",
+      "question": "Which of the following natural hazards is NOT hydro-meteorological?",
+      "options": [
+        "A. Snow avalanche",
+        "B. Sea erosion",
+        "C. Tropical cyclone",
+        "D. Tsunami"
+      ],
+      "answer": "D",
+      "explanation": "Tsunami is a geophysical hazard caused by seismic activity (earthquakes, underwater landslides), not by weather or water cycle processes. Snow avalanche, sea erosion, and tropical cyclones are hydro-meteorological."
+    },
+    {
+      "id": 39,
+      "topic": "Natural Hazards",
+      "question": "A meteorological hazard among the following is:",
+      "options": [
+        "A. Avalanche",
+        "B. Coastal erosion",
+        "C. Landslide",
+        "D. Blizzard"
+      ],
+      "answer": "D",
+      "explanation": "A blizzard is a severe snowstorm with strong winds — a purely meteorological hazard. Avalanche and landslide are geomorphological; coastal erosion is a hydrological hazard."
+    },
+    {
+      "id": 40,
+      "topic": "Natural Hazards",
+      "question": "The occurrence of natural hazards is affected by: (a) Land use changes (b) Drainage and construction (c) Ozone depletion (d) Climate change",
+      "options": [
+        "A. (a), (b) and (c)",
+        "B. (a), (b) and (d)",
+        "C. (b), (c) and (d)",
+        "D. (a), (c) and (d)"
+      ],
+      "answer": "B",
+      "explanation": "Natural hazard occurrence is affected by land use changes, drainage/construction activities, and climate change. Ozone depletion alone does not directly affect natural hazard frequency."
+    },
+    {
+      "id": 41,
+      "topic": "Natural Hazards",
+      "question": "An earthquake of magnitude in the range of 6.0–6.9 on the Richter Scale is considered:",
+      "options": [
+        "A. Moderate",
+        "B. Strong",
+        "C. Major",
+        "D. Great"
+      ],
+      "answer": "B",
+      "explanation": "Richter Scale classification: <2.5 micro; 2.5–5.4 minor; 5.5–6.0 moderate; 6.0–6.9 Strong; 7.0–7.9 Major; 8.0+ Great."
+    },
+    {
+      "id": 42,
+      "topic": "Natural Hazards",
+      "question": "Two earthquakes A and B have magnitudes 5 and 6 respectively on the Richter Scale. The ratio of energies released EB/EA is approximately:",
+      "options": [
+        "A. ~8",
+        "B. ~16",
+        "C. ~32",
+        "D. ~64"
+      ],
+      "answer": "C",
+      "explanation": "Each unit increase on the Richter Scale corresponds to approximately 31.6 (≈32) times more energy released. So magnitude 6 releases ~32 times more energy than magnitude 5."
+    },
+    {
+      "id": 43,
+      "topic": "Natural Hazards",
+      "question": "World Meteorological Organisation's (WMO) objective was to reduce deaths from hydro-meteorological disasters over the decade 2010–2019 (compared to 1994–2003) by:",
+      "options": [
+        "A. 25%",
+        "B. 50%",
+        "C. 75%",
+        "D. 80%"
+      ],
+      "answer": "B",
+      "explanation": "The WMO set an objective to reduce deaths from hydro-meteorological disasters by 50% over the decade 2010–2019 compared to the reference decade 1994–2003."
+    },
+    {
+      "id": 44,
+      "topic": "Energy Resources",
+      "question": "A source of renewable energy which can be developed with minimum cost is:",
+      "options": [
+        "A. Tidal power",
+        "B. Wind mills",
+        "C. Geothermal energy",
+        "D. Biomass power"
+      ],
+      "answer": "D",
+      "explanation": "Biomass power can be developed with minimum cost as it uses agricultural waste, wood, and organic materials that are readily and cheaply available, requiring less infrastructure than tidal, wind, or geothermal."
+    },
+    {
+      "id": 45,
+      "topic": "Energy Resources",
+      "question": "Among the following fuels, which is the most environmentally friendly?",
+      "options": [
+        "A. Biogas",
+        "B. CNG",
+        "C. Hydrogen",
+        "D. Ethanol"
+      ],
+      "answer": "C",
+      "explanation": "Hydrogen is the most environmentally friendly fuel as it produces only water (H2O) when burned. It has zero carbon emissions at point of use, making it the cleanest combustion fuel."
+    },
+    {
+      "id": 46,
+      "topic": "Energy Resources",
+      "question": "As per India's renewable energy targets, the percentage share of solar and wind energy combined in total power from renewable sources by 2022 was about:",
+      "options": [
+        "A. ~50%",
+        "B. ~57%",
+        "C. ~75%",
+        "D. ~91.43%"
+      ],
+      "answer": "D",
+      "explanation": "In India's 2022 renewable target of 175 GW, solar (~100 GW) and wind (~60 GW) together accounted for ~91.43% of the total, as per government projections."
+    },
+    {
+      "id": 47,
+      "topic": "Energy Resources",
+      "question": "The percentage share of solar energy in India's total renewable energy target (2022) was approximately:",
+      "options": [
+        "A. ~47.5%",
+        "B. ~57.1%",
+        "C. ~65.5%",
+        "D. ~75%"
+      ],
+      "answer": "B",
+      "explanation": "Solar energy was targeted to contribute ~100 GW out of 175 GW total renewable capacity, amounting to approximately 57.1% of India's 2022 renewable target."
+    },
+    {
+      "id": 48,
+      "topic": "Energy Resources",
+      "question": "India's target for additional carbon sink (in CO2 equivalent) through forest and tree cover by 2030 is:",
+      "options": [
+        "A. 1 to 1.5 billion tonnes",
+        "B. 1.5 to 2 billion tonnes",
+        "C. 2.5 to 3 billion tonnes",
+        "D. 3.5 to 4 billion tonnes"
+      ],
+      "answer": "C",
+      "explanation": "As part of India's NDC under the Paris Agreement, India committed to creating an additional carbon sink of 2.5 to 3 billion tonnes of CO2 equivalent through forest and tree cover by 2030."
+    },
+    {
+      "id": 49,
+      "topic": "Energy Resources",
+      "question": "In terms of per capita energy consumption (kWh/year), the correct descending sequence is:",
+      "options": [
+        "A. Brazil > Russia > China > India",
+        "B. Russia > China > India > Brazil",
+        "C. Russia > China > Brazil > India",
+        "D. China > Russia > Brazil > India"
+      ],
+      "answer": "C",
+      "explanation": "Russia has the highest per capita energy consumption, followed by China, then Brazil, with India having the lowest per capita consumption among these four countries."
+    },
+    {
+      "id": 50,
+      "topic": "Energy Resources",
+      "question": "In terms of total CO2 emissions from a country, the correct descending sequence is:",
+      "options": [
+        "A. USA > China > India > Russia",
+        "B. China > USA > Russia > India",
+        "C. China > USA > India > Russia",
+        "D. USA > China > Russia > India"
+      ],
+      "answer": "C",
+      "explanation": "China is the world's largest CO2 emitter, followed by the USA, then India, then Russia in terms of total national CO2 emissions."
+    },
+    {
+      "id": 51,
+      "topic": "Energy Resources",
+      "question": "India's contribution to total global carbon dioxide emissions is approximately:",
+      "options": [
+        "A. ~3%",
+        "B. ~6%",
+        "C. ~10%",
+        "D. ~15%"
+      ],
+      "answer": "B",
+      "explanation": "India contributes approximately 6% of global CO2 emissions, making it the third-largest emitter in absolute terms, though its per capita emissions are among the lowest of major economies."
+    },
+    {
+      "id": 52,
+      "topic": "Energy Resources",
+      "question": "How much carbon (in billion tonnes) is being added to the atmosphere annually by burning of fossil fuels?",
+      "options": [
+        "A. 2–6 billion tonnes",
+        "B. 4–6 billion tonnes",
+        "C. 6–9 billion tonnes",
+        "D. 9–12 billion tonnes"
+      ],
+      "answer": "C",
+      "explanation": "Burning of fossil fuels (coal, oil, natural gas) adds approximately 6–9 billion tonnes of carbon to the atmosphere annually, as established in climate science literature referenced in UGC NET PYQs."
+    },
+    {
+      "id": 53,
+      "topic": "Climate Change",
+      "question": "Which greenhouse gas has the highest Global Warming Potential (GWP) per molecule?",
+      "options": [
+        "A. Carbon dioxide (CO2)",
+        "B. Methane (CH4)",
+        "C. Nitrous oxide (N2O)",
+        "D. Chlorofluorocarbons (CFCs)"
+      ],
+      "answer": "D",
+      "explanation": "CFCs have the highest GWP among common greenhouse gases. GWP order: CFCs >> N2O (298x CO2) >> CH4 (25x CO2) >> CO2 (baseline = 1). CFCs are also ozone-depleting."
+    },
+    {
+      "id": 54,
+      "topic": "Climate Change",
+      "question": "The annual range of temperature in the interior of continents is high compared to coastal areas because:",
+      "options": [
+        "A. Thermal difference between land and water only",
+        "B. Heavy rains in the interior compared to coastal areas",
+        "C. Presence of strong winds in the interior only",
+        "D. Variations in altitude between continents and oceans"
+      ],
+      "answer": "A",
+      "explanation": "The continentality effect occurs because land heats up and cools down much faster than water. This thermal difference between land and water is the primary reason for the higher annual temperature range in continental interiors."
+    },
+    {
+      "id": 55,
+      "topic": "Climate Change",
+      "question": "Which of the following is NOT a direct effect of climate change?",
+      "options": [
+        "A. Sea level rise",
+        "B. Glacier retreat",
+        "C. Ocean acidification",
+        "D. Ozone hole expansion"
+      ],
+      "answer": "D",
+      "explanation": "The ozone hole is caused by CFCs destroying ozone molecules — it is separate from climate change (though CFCs are also greenhouse gases). Sea level rise, glacier retreat, and ocean acidification are all direct consequences of global warming."
+    },
+    {
+      "id": 56,
+      "topic": "Climate Change",
+      "question": "NDCs in the context of the Paris Agreement stands for:",
+      "options": [
+        "A. National Development Contributions",
+        "B. Nationally Determined Contributions",
+        "C. National Decarbonisation Commitments",
+        "D. Non-Deforestation Clauses"
+      ],
+      "answer": "B",
+      "explanation": "NDCs (Nationally Determined Contributions) are climate action plans that each country voluntarily pledges under the Paris Agreement. Each country determines its own targets for reducing emissions and adapting to climate impacts."
+    },
+    {
+      "id": 57,
+      "topic": "Environmental Laws",
+      "question": "The Environmental Protection Act (EPA) of India was enacted in:",
+      "options": [
+        "A. 1972",
+        "B. 1980",
+        "C. 1984",
+        "D. 1986"
+      ],
+      "answer": "D",
+      "explanation": "The Environmental Protection Act was enacted in 1986, primarily in response to the Bhopal Gas Tragedy of December 1984. It is the umbrella legislation for environmental protection in India."
+    },
+    {
+      "id": 58,
+      "topic": "Environmental Laws",
+      "question": "The Bhopal Gas Tragedy occurred in:",
+      "options": [
+        "A. November 1982",
+        "B. December 1984",
+        "C. January 1986",
+        "D. March 1988"
+      ],
+      "answer": "B",
+      "explanation": "The Bhopal Gas Tragedy occurred on the night of December 2–3, 1984, at the Union Carbide India Limited pesticide plant. A methyl isocyanate (MIC) gas leak caused one of the world's worst industrial disasters."
+    },
+    {
+      "id": 59,
+      "topic": "Environmental Laws",
+      "question": "The National Action Plan on Climate Change (NAPCC) was launched in India in:",
+      "options": [
+        "A. 2005",
+        "B. 2008",
+        "C. 2012",
+        "D. 2015"
+      ],
+      "answer": "B",
+      "explanation": "India's NAPCC was launched in 2008. It outlines 8 national missions covering solar energy, energy efficiency, sustainable habitat, water, Himalayan ecosystems, green India, sustainable agriculture, and strategic knowledge."
+    },
+    {
+      "id": 60,
+      "topic": "Environmental Laws",
+      "question": "How many National Missions are included in India's National Action Plan on Climate Change (NAPCC)?",
+      "options": [
+        "A. 5",
+        "B. 6",
+        "C. 8",
+        "D. 10"
+      ],
+      "answer": "C",
+      "explanation": "NAPCC (2008) contains 8 National Missions: Solar Mission, Energy Efficiency, Sustainable Habitat, Water, Himalayan Ecosystem, Green India, Sustainable Agriculture, and Strategic Knowledge for Climate Change."
+    },
+    {
+      "id": 61,
+      "topic": "Environmental Laws",
+      "question": "Which National Mission under NAPCC focuses specifically on afforestation and improving forest cover?",
+      "options": [
+        "A. National Water Mission",
+        "B. National Mission for Sustaining the Himalayan Ecosystem",
+        "C. National Mission for a Green India",
+        "D. National Mission for Sustainable Agriculture"
+      ],
+      "answer": "C",
+      "explanation": "The National Mission for a Green India (GIM) under NAPCC aims to protect, restore, and enhance India's forest cover and respond to climate change through a combination of adaptation and mitigation measures."
+    },
+    {
+      "id": 62,
+      "topic": "Environmental Laws",
+      "question": "The Water (Prevention and Control of Pollution) Act in India was enacted in:",
+      "options": [
+        "A. 1974",
+        "B. 1980",
+        "C. 1981",
+        "D. 1986"
+      ],
+      "answer": "A",
+      "explanation": "The Water (Prevention and Control of Pollution) Act was enacted in 1974, establishing Central and State Pollution Control Boards to prevent water pollution in India."
+    },
+    {
+      "id": 63,
+      "topic": "Environmental Laws",
+      "question": "The Air (Prevention and Control of Pollution) Act was enacted in India in:",
+      "options": [
+        "A. 1974",
+        "B. 1977",
+        "C. 1981",
+        "D. 1986"
+      ],
+      "answer": "C",
+      "explanation": "The Air (Prevention and Control of Pollution) Act, 1981 was enacted to control air pollution in India, empowering Pollution Control Boards to set standards and take action against violators."
+    },
+    {
+      "id": 64,
+      "topic": "Sustainable Development",
+      "question": "Assertion (A): Conserving our soil resources is critical to human survival. Reason (R): Soil is home to many micro-organisms and contains minerals.",
+      "options": [
+        "A. Both (A) and (R) are correct and (R) is the correct explanation of (A)",
+        "B. Both (A) and (R) are correct but (R) is not the correct explanation of (A)",
+        "C. (A) is true and (R) is false",
+        "D. (A) is false and (R) is true"
+      ],
+      "answer": "B",
+      "explanation": "Both are true: soil conservation IS critical to survival (for food production, water filtration, etc.), and soil does host micro-organisms and minerals. But the reason (micro-organisms + minerals) is not the complete or correct explanation for why soil conservation is critical to human survival — food security is the primary reason."
+    },
+    {
+      "id": 65,
+      "topic": "Sustainable Development",
+      "question": "Assertion (A): The problems of environmental sustainability are difficult to resolve. Reason (R): Our understanding of how the environment works and how human choices affect it is inadequate.",
+      "options": [
+        "A. Both (A) and (R) are correct and (R) is the correct explanation of (A)",
+        "B. Both (A) and (R) are correct but (R) is not the correct explanation of (A)",
+        "C. (A) is true and (R) is false",
+        "D. (A) is false and (R) is true"
+      ],
+      "answer": "A",
+      "explanation": "Both statements are true, and here R correctly explains A. The difficulty in resolving environmental sustainability problems is indeed because our understanding of complex environmental systems and how our choices impact them remains insufficient."
+    },
+    {
+      "id": 66,
+      "topic": "Sustainable Development",
+      "question": "Assertion (A): People/population control measures do not necessarily help in checking environmental degradation. Reason (R): The relationship between population growth and environmental degradation is rather complex.",
+      "options": [
+        "A. Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "B. Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "C. (A) is true but (R) is false",
+        "D. (A) is false but (R) is true"
+      ],
+      "answer": "A",
+      "explanation": "Both are true and R correctly explains A. Population growth does not have a simple linear relationship with environmental degradation — consumption patterns, technology, and governance matter equally. The complexity of the relationship (R) explains why population control alone doesn't fix environmental issues (A)."
+    },
+    {
+      "id": 67,
+      "topic": "Natural Resources",
+      "question": "Natural vegetation of an area should be preserved mainly for the purpose of:",
+      "options": [
+        "A. Providing habitat for birds",
+        "B. Preventing soil erosion",
+        "C. Study by scientists",
+        "D. Providing genetic material for breeding new species"
+      ],
+      "answer": "D",
+      "explanation": "The primary reason for preserving natural vegetation is to maintain genetic diversity, which is essential for breeding new disease-resistant and climate-adaptive crop and plant varieties for future generations."
+    },
+    {
+      "id": 68,
+      "topic": "Natural Resources",
+      "question": "The tropical western Ghats biodiversity hotspot in India is situated primarily in:",
+      "options": [
+        "A. Punjab",
+        "B. Madhya Pradesh",
+        "C. Rajasthan",
+        "D. Kerala"
+      ],
+      "answer": "D",
+      "explanation": "The Western Ghats, a UNESCO World Heritage Site and one of the world's biodiversity hotspots, runs through Kerala, Karnataka, Goa, Maharashtra, and Tamil Nadu — with Kerala being the primary state."
+    },
+    {
+      "id": 69,
+      "topic": "Natural Resources",
+      "question": "India is planning to raise its installed renewable energy capacity by 2030 to:",
+      "options": [
+        "A. 175 GW",
+        "B. 250 GW",
+        "C. 300 GW",
+        "D. 500 GW"
+      ],
+      "answer": "D",
+      "explanation": "India has updated its renewable energy target to 500 GW of non-fossil fuel-based electricity capacity by 2030, as part of its updated NDC under the Paris Agreement."
+    },
+    {
+      "id": 70,
+      "topic": "Anthropogenic Activities",
+      "question": "Which of the following is the best definition of an 'anthropogenic' activity?",
+      "options": [
+        "A. Activities caused by natural geological processes",
+        "B. Activities caused by volcanic eruptions",
+        "C. Activities resulting from human action or influence",
+        "D. Activities related to animal behaviour"
+      ],
+      "answer": "C",
+      "explanation": "Anthropogenic refers to effects or objects produced or caused by human beings. Anthropogenic activities include industrialisation, deforestation, agriculture, urbanisation, and transportation."
+    },
+    {
+      "id": 71,
+      "topic": "Anthropogenic Activities",
+      "question": "Deforestation is primarily responsible for which of the following? (i) Loss of biodiversity (ii) Soil erosion (iii) Increased albedo (iv) Carbon release into the atmosphere",
+      "options": [
+        "A. (i) and (ii) only",
+        "B. (i), (ii) and (iv)",
+        "C. (ii), (iii) and (iv)",
+        "D. (i), (ii), (iii) and (iv)"
+      ],
+      "answer": "B",
+      "explanation": "Deforestation causes: loss of biodiversity (habitat destruction), soil erosion (no root systems to bind soil), and carbon release (trees are carbon stores). Deforestation actually DECREASES albedo in most cases (forests are darker than cleared land), so increased albedo is incorrect."
+    },
+    {
+      "id": 72,
+      "topic": "Biodiversity",
+      "question": "The three main objectives of the Convention on Biological Diversity (CBD) are:",
+      "options": [
+        "A. Conservation, Research, and Patenting of genetic resources",
+        "B. Conservation, Sustainable Use, and Fair and Equitable Benefit Sharing",
+        "C. Protection, Restoration, and Commercial Exploitation",
+        "D. Documentation, Conservation, and International Trade control"
+      ],
+      "answer": "B",
+      "explanation": "The CBD's three objectives are: (1) Conservation of biological diversity, (2) Sustainable use of its components, and (3) Fair and equitable sharing of benefits arising from genetic resources."
+    },
+    {
+      "id": 73,
+      "topic": "Biodiversity",
+      "question": "India's biodiversity is protected under the:",
+      "options": [
+        "A. Environmental Protection Act, 1986",
+        "B. Wildlife Protection Act, 1972",
+        "C. Biological Diversity Act, 2002",
+        "D. Forest Conservation Act, 1980"
+      ],
+      "answer": "C",
+      "explanation": "India's Biological Diversity Act, 2002 was enacted to implement the obligations under the Convention on Biological Diversity (CBD), providing a framework for conservation, sustainable use, and equitable benefit sharing."
+    },
+    {
+      "id": 74,
+      "topic": "Energy Resources",
+      "question": "Which of the following is NOT a renewable energy source?",
+      "options": [
+        "A. Tidal energy",
+        "B. Geothermal energy",
+        "C. Nuclear energy",
+        "D. Biomass energy"
+      ],
+      "answer": "C",
+      "explanation": "Nuclear energy uses uranium/thorium which are finite (non-renewable) resources, even though nuclear is sometimes classified as low-carbon. Tidal, geothermal, and biomass are renewable energy sources."
+    },
+    {
+      "id": 75,
+      "topic": "Soil Pollution",
+      "question": "Bioremediation refers to:",
+      "options": [
+        "A. Using chemicals to neutralise soil pollutants",
+        "B. Burning contaminated soil to destroy pollutants",
+        "C. Using microorganisms or plants to clean contaminated soil or water",
+        "D. Physical removal and replacement of contaminated soil"
+      ],
+      "answer": "C",
+      "explanation": "Bioremediation is a waste management technique that uses living organisms — mainly bacteria, fungi, or plants (phytoremediation) — to neutralise or remove pollutants from contaminated soil or water."
+    },
+    {
+      "id": 76,
+      "topic": "Climate Change",
+      "question": "Acid rain is primarily caused by emissions of:",
+      "options": [
+        "A. CO2 and CH4",
+        "B. SO2 and NOx",
+        "C. CFCs and HFCs",
+        "D. CO and particulate matter"
+      ],
+      "answer": "B",
+      "explanation": "Acid rain is caused by emissions of sulphur dioxide (SO2) and nitrogen oxides (NOx), mainly from burning fossil fuels and industrial processes. These gases react with water, oxygen, and other chemicals in the atmosphere to form acidic compounds."
+    },
+    {
+      "id": 77,
+      "topic": "Climate Change",
+      "question": "The 'greenhouse effect' naturally keeps Earth's surface about how much warmer than it would otherwise be?",
+      "options": [
+        "A. 10°C warmer",
+        "B. 23°C warmer",
+        "C. 33°C warmer",
+        "D. 45°C warmer"
+      ],
+      "answer": "C",
+      "explanation": "The natural greenhouse effect keeps Earth about 33°C warmer than it would otherwise be (average temperature would be -18°C without greenhouse gases, instead of the actual +15°C). The enhanced greenhouse effect from human emissions is causing additional unnatural warming."
+    },
+    {
+      "id": 78,
+      "topic": "International Agreements",
+      "question": "The UNFCCC (United Nations Framework Convention on Climate Change) was adopted in:",
+      "options": [
+        "A. 1987",
+        "B. 1992",
+        "C. 1997",
+        "D. 2005"
+      ],
+      "answer": "B",
+      "explanation": "UNFCCC was adopted at the Rio Earth Summit in 1992 and entered into force in 1994. It is the parent treaty under which both the Kyoto Protocol (1997) and the Paris Agreement (2015) were negotiated."
+    },
+    {
+      "id": 79,
+      "topic": "Environmental Laws",
+      "question": "The Forest Conservation Act in India was enacted in:",
+      "options": [
+        "A. 1972",
+        "B. 1974",
+        "C. 1980",
+        "D. 1986"
+      ],
+      "answer": "C",
+      "explanation": "The Forest Conservation Act, 1980 restricts the de-reservation of forests or use of forest land for non-forest purposes without prior approval of the Central Government."
+    },
+    {
+      "id": 80,
+      "topic": "Natural Hazards",
+      "question": "Which of the following is the correct sequence of steps in Disaster Management?",
+      "options": [
+        "A. Response → Mitigation → Preparedness → Recovery",
+        "B. Mitigation → Preparedness → Response → Recovery",
+        "C. Preparedness → Response → Mitigation → Recovery",
+        "D. Recovery → Mitigation → Preparedness → Response"
+      ],
+      "answer": "B",
+      "explanation": "The Disaster Management Cycle follows: Mitigation (reducing risk) → Preparedness (planning/training) → Response (during disaster) → Recovery (after disaster). This is the internationally accepted framework."
+    },
+    {
+      "id": 81,
+      "topic": "Pollution",
+      "question": "Eutrophication refers to:",
+      "options": [
+        "A. Increase in turbidity of water due to suspended particles",
+        "B. Depletion of oxygen in water bodies due to excess nutrient enrichment causing algal blooms",
+        "C. Contamination of water with heavy metals from industries",
+        "D. Evaporation of water bodies due to global warming"
+      ],
+      "answer": "B",
+      "explanation": "Eutrophication is the process by which excessive nutrients (mainly nitrogen and phosphorus from agricultural runoff and sewage) lead to algal blooms, depletion of dissolved oxygen, and death of aquatic life."
+    },
+    {
+      "id": 82,
+      "topic": "Sustainable Development",
+      "question": "The concept of Sustainable Development was prominently defined in the Brundtland Report as 'development that meets the needs of the present without compromising the ability of future generations to meet their own needs.' This report was published in:",
+      "options": [
+        "A. 1980",
+        "B. 1983",
+        "C. 1987",
+        "D. 1992"
+      ],
+      "answer": "C",
+      "explanation": "The Brundtland Report ('Our Common Future'), published in 1987 by the World Commission on Environment and Development (WCED), gave the most widely used definition of sustainable development."
+    },
+    {
+      "id": 83,
+      "topic": "Biodiversity",
+      "question": "Which of the following refers to the variety of species within a single ecosystem or habitat?",
+      "options": [
+        "A. Alpha diversity",
+        "B. Beta diversity",
+        "C. Gamma diversity",
+        "D. Delta diversity"
+      ],
+      "answer": "A",
+      "explanation": "Alpha diversity refers to the variety of species within a single ecosystem or habitat (local diversity). Beta diversity measures the change in species composition between different habitats. Gamma diversity refers to the overall diversity of a larger region."
+    },
+    {
+      "id": 84,
+      "topic": "Pollution",
+      "question": "The Clean Development Mechanism (CDM) was established under:",
+      "options": [
+        "A. Montreal Protocol",
+        "B. CBD (Convention on Biological Diversity)",
+        "C. Kyoto Protocol",
+        "D. Paris Agreement"
+      ],
+      "answer": "C",
+      "explanation": "The Clean Development Mechanism (CDM) is a flexible mechanism under the Kyoto Protocol that allows developed (Annex I) countries to invest in emission-reduction projects in developing countries and earn carbon credits."
+    },
+    {
+      "id": 85,
+      "topic": "Climate Change",
+      "question": "Which of the following statements about the Paris Agreement is INCORRECT?",
+      "options": [
+        "A. It applies to all UN member nations, both developed and developing",
+        "B. It requires all countries to submit legally binding emission targets",
+        "C. It aims to limit warming to well below 2°C above pre-industrial levels",
+        "D. It was adopted at COP21 in Paris in 2015"
+      ],
+      "answer": "B",
+      "explanation": "The Paris Agreement applies to all countries, but the NDCs (Nationally Determined Contributions) themselves are NOT legally binding — countries determine their own targets voluntarily. Only the obligation to submit and update NDCs is binding, not the targets within them. This is a frequent PYQ distinction."
+    }
+  ]
+}
