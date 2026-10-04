@@ -1,0 +1,3752 @@
+[
+  {
+    "id": 1,
+    "source_id": "id1",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Nature and Definition of Tort",
+    "question": "The word 'tort' is derived from which Latin term?",
+    "options": [
+      "Delictum",
+      "Injuria",
+      "Tortum",
+      "Damnum"
+    ],
+    "answer": 2,
+    "explanation": "Meaning 'twisted' or 'wrong.'"
+  },
+  {
+    "id": 2,
+    "source_id": "id2",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Nature and Definition of Tort",
+    "question": "Which of the following best defines a tort?",
+    "options": [
+      "A civil wrong independent of contract, redressable by an action for unliquidated damages",
+      "A breach of contract causing damage",
+      "A criminal act punishable by the state",
+      "A breach of trust in equity"
+    ],
+    "answer": 0,
+    "explanation": "A tort is a civil wrong independent of contract, remedied by unliquidated damages."
+  },
+  {
+    "id": 3,
+    "source_id": "id3",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Nature and Definition of Tort",
+    "question": "Who said: 'Tortious liability arises from the breach of a duty primarily fixed by law; this duty is towards persons generally and its breach is redressable by an action for unliquidated damages'?",
+    "options": [
+      "Salmond",
+      "Pollock",
+      "Winfield",
+      "Clerk & Lindsell"
+    ],
+    "answer": 2,
+    "explanation": "This is Winfield's definition of tortious liability."
+  },
+  {
+    "id": 4,
+    "source_id": "id4",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Nature and Definition of Tort",
+    "question": "According to Salmond, tort is:",
+    "options": [
+      "Any civil wrong",
+      "A civil wrong for which the remedy is a common law action for unliquidated damages, not being exclusively a breach of contract or trust",
+      "A breach of statutory duty",
+      "A wrong giving rise to liquidated damages"
+    ],
+    "answer": 1,
+    "explanation": "Salmond's definition excludes breaches of contract or trust."
+  },
+  {
+    "id": 5,
+    "source_id": "id5",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Nature and Definition of Tort",
+    "question": "Which theory says there is a general principle of liability and exceptions are defences?",
+    "options": [
+      "Pigeon-hole theory",
+      "Salmond's theory",
+      "Winfield's theory",
+      "Austin's theory"
+    ],
+    "answer": 2,
+    "explanation": "Winfield's theory holds that all unjustified harm is a tort unless there is a specific defence."
+  },
+  {
+    "id": 6,
+    "source_id": "id6",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Nature and Definition of Tort",
+    "question": "Which theory holds that only those acts are torts which fall within specific recognised categories?",
+    "options": [
+      "Winfield's theory",
+      "Holmes's theory",
+      "Pollock's theory",
+      "Pigeon-hole / Salmond's theory"
+    ],
+    "answer": 3,
+    "explanation": "Salmond's pigeon-hole theory holds only recognised categories are torts."
+  },
+  {
+    "id": 7,
+    "source_id": "id7",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Nature and Definition of Tort",
+    "question": "'Ubi jus ibi remedium' means:",
+    "options": [
+      "Where there is a wrong, there is a remedy",
+      "No remedy without right",
+      "Damage without legal injury",
+      "Legal injury without damage"
+    ],
+    "answer": 0,
+    "explanation": "Where there is a right, there is a remedy."
+  },
+  {
+    "id": 8,
+    "source_id": "id8",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Nature and Definition of Tort",
+    "question": "Tort law in India is primarily:",
+    "options": [
+      "Codified in a single statute",
+      "Based entirely on the Indian Penal Code",
+      "Judge-made / common law, supplemented by statutes",
+      "Based on Roman law exclusively"
+    ],
+    "answer": 2,
+    "explanation": "Indian tort law is largely judge-made common law."
+  },
+  {
+    "id": 9,
+    "source_id": "id9",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Nature and Definition of Tort",
+    "question": "Frederick Pollock defined tort as:",
+    "options": [
+      "An act or omission giving rise to civil liability",
+      "A breach of duty primarily fixed by law",
+      "An act or omission which is unauthorised by law and which infringes the legal right of another",
+      "Any civil wrong redressable by damages"
+    ],
+    "answer": 2,
+    "explanation": "Pollock's definition focuses on unauthorised acts infringing legal rights."
+  },
+  {
+    "id": 10,
+    "source_id": "id10",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Nature and Definition of Tort",
+    "question": "Which of the following is the correct sequence for the historical development of tort law in England?",
+    "options": [
+      "Writ system → Trespass → Action on the case",
+      "Action on the case → Trespass → Writ system",
+      "Common law → Equity → Statute",
+      "Roman law → Canon law → Common law"
+    ],
+    "answer": 0,
+    "explanation": "The writ system preceded trespass, which preceded the action on the case."
+  },
+  {
+    "id": 11,
+    "source_id": "id11",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Nature and Definition of Tort",
+    "question": "Which of the following wrongs can be simultaneously a tort AND a crime?",
+    "options": [
+      "Assault and battery",
+      "Defamation",
+      "Nuisance",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "Assault, defamation and nuisance can all be both torts and crimes."
+  },
+  {
+    "id": 12,
+    "source_id": "id12",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Nature and Definition of Tort",
+    "question": "The law of tort in India was applied by courts following the principle laid down in which case?",
+    "options": [
+      "Raghunath Prasad v. Deputy Commissioner (1927)",
+      "The Specific Relief Act",
+      "Peninsular & Oriental Steam Navigation Co. v. Secretary of State for India (1861)",
+      "Indian Penal Code"
+    ],
+    "answer": 2,
+    "explanation": "The P&O Steam Navigation case applied English common law tort principles in India with modifications."
+  },
+  {
+    "id": 13,
+    "source_id": "id13",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Principles of Tortious Liability",
+    "question": "The maxim 'damnum sine injuria' means:",
+    "options": [
+      "Injury without damage",
+      "Legal damage with legal injury",
+      "Damage without legal injury",
+      "No damage, no suit"
+    ],
+    "answer": 2,
+    "explanation": "Damage without legal injury — no action lies."
+  },
+  {
+    "id": 14,
+    "source_id": "id14",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Principles of Tortious Liability",
+    "question": "The maxim 'injuria sine damno' means:",
+    "options": [
+      "Damage without legal injury",
+      "No liability without fault",
+      "Legal injury without actual damage — yet actionable",
+      "Contributory negligence"
+    ],
+    "answer": 2,
+    "explanation": "Legal injury without actual damage is actionable per se."
+  },
+  {
+    "id": 15,
+    "source_id": "id15",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Principles of Tortious Liability",
+    "question": "In Ashby v. White (1703), the principle illustrated was:",
+    "options": [
+      "Damnum sine injuria",
+      "Volenti non fit injuria",
+      "Strict liability",
+      "Injuria sine damno"
+    ],
+    "answer": 3,
+    "explanation": "Plaintiff's right to vote was wrongfully denied; no actual loss but still actionable."
+  },
+  {
+    "id": 16,
+    "source_id": "id16",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Principles of Tortious Liability",
+    "question": "In Gloucester Grammar School case, the principle illustrated was:",
+    "options": [
+      "Injuria sine damno",
+      "Strict liability",
+      "Absolute liability",
+      "Damnum sine injuria"
+    ],
+    "answer": 3,
+    "explanation": "Opening a rival school caused damage but no legal wrong."
+  },
+  {
+    "id": 17,
+    "source_id": "id17",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Principles of Tortious Liability",
+    "question": "The concept of 'Malice in law' in tort means:",
+    "options": [
+      "Personal hatred",
+      "Motive to harm",
+      "Intentional commission of a wrongful act without just cause or excuse",
+      "Criminal intent"
+    ],
+    "answer": 2,
+    "explanation": "Malice in law does not require personal spite — it is intent to do a wrongful act."
+  },
+  {
+    "id": 18,
+    "source_id": "id18",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Principles of Tortious Liability",
+    "question": "'Malice in fact' in tort law refers to:",
+    "options": [
+      "Any intentional act",
+      "Strict liability situations",
+      "Actual ill-will or spite",
+      "Negligence"
+    ],
+    "answer": 2,
+    "explanation": "Malice in fact means actual ill-will or spite toward the plaintiff."
+  },
+  {
+    "id": 19,
+    "source_id": "id19",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Principles of Tortious Liability",
+    "question": "Which of the following is NOT an essential element of a tort?",
+    "options": [
+      "A wrongful act",
+      "Legal damage",
+      "Criminal intention",
+      "Legal remedy"
+    ],
+    "answer": 2,
+    "explanation": "Criminal intention is not required for a tort."
+  },
+  {
+    "id": 20,
+    "source_id": "id20",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Principles of Tortious Liability",
+    "question": "The principle of 'respondeat superior' means:",
+    "options": [
+      "Let the master answer / employer liable for employee's tort",
+      "Let the principal decide",
+      "Superior courts have jurisdiction",
+      "Strict liability of the state"
+    ],
+    "answer": 0,
+    "explanation": "The master is vicariously liable for servant's torts in course of employment."
+  },
+  {
+    "id": 21,
+    "source_id": "id21",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Principles of Tortious Liability",
+    "question": "Vicarious liability requires which relationship?",
+    "options": [
+      "Master-servant",
+      "Principal-agent",
+      "Partners",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "Vicarious liability arises in master-servant, principal-agent and partnership relationships."
+  },
+  {
+    "id": 22,
+    "source_id": "id22",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Principles of Tortious Liability",
+    "question": "For vicarious liability of master, the tort must be committed:",
+    "options": [
+      "With master's knowledge",
+      "With master's consent",
+      "At the master's premises only",
+      "During the course of employment"
+    ],
+    "answer": 3,
+    "explanation": "The tort must occur in the course of employment."
+  },
+  {
+    "id": 23,
+    "source_id": "id23",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Principles of Tortious Liability",
+    "question": "Limpus v. London General Omnibus Co. (1862) is related to:",
+    "options": [
+      "Defamation",
+      "Vicarious liability — act within course of employment even if prohibited",
+      "Nuisance",
+      "Strict liability"
+    ],
+    "answer": 1,
+    "explanation": "Prohibited act done in unauthorised way still within course of employment."
+  },
+  {
+    "id": 24,
+    "source_id": "id24",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Principles of Tortious Liability",
+    "question": "The doctrine of 'common employment' (fellow servant rule) was abolished in England by:",
+    "options": [
+      "Law Reform Act, 1945",
+      "Occupiers' Liability Act, 1957",
+      "Limitation Act, 1939",
+      "Law Reform (Personal Injuries) Act, 1948"
+    ],
+    "answer": 3,
+    "explanation": "The Law Reform (Personal Injuries) Act 1948 abolished the fellow servant rule."
+  },
+  {
+    "id": 25,
+    "source_id": "id25",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Principles of Tortious Liability",
+    "question": "Which of the following best represents the objective standard of care in negligence?",
+    "options": [
+      "Standard of a reasonable man (bonus pater familias)",
+      "Standard of the defendant personally",
+      "Standard of an expert",
+      "Standard prescribed by the court"
+    ],
+    "answer": 0,
+    "explanation": "The reasonable man standard is the objective test for negligence."
+  },
+  {
+    "id": 26,
+    "source_id": "id26",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Principles of Tortious Liability",
+    "question": "Donoghue v. Stevenson (1932) established:",
+    "options": [
+      "Strict liability",
+      "Neighbour principle and duty of care in negligence",
+      "Absolute liability",
+      "Defamation"
+    ],
+    "answer": 1,
+    "explanation": "Lord Atkin's neighbour principle — a manufacturer owes duty of care to the ultimate consumer."
+  },
+  {
+    "id": 27,
+    "source_id": "id27",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Principles of Tortious Liability",
+    "question": "The doctrine of 'qui facit per alium, facit per se' means:",
+    "options": [
+      "Let the master answer",
+      "He who acts through another acts himself — basis of vicarious liability",
+      "No liability without fault",
+      "Absolute liability"
+    ],
+    "answer": 1,
+    "explanation": "This maxim forms the philosophical basis of vicarious liability."
+  },
+  {
+    "id": 28,
+    "source_id": "id28",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Principles of Tortious Liability",
+    "question": "Independent contractors are generally NOT covered under vicarious liability EXCEPT when:",
+    "options": [
+      "The work is extra-hazardous",
+      "Non-delegable duty exists",
+      "Employer authorised the tort",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "In all three situations, the employer may be vicariously liable even for independent contractors."
+  },
+  {
+    "id": 29,
+    "source_id": "id29",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Principles of Tortious Liability",
+    "question": "Mersey Docks & Harbour Board v. Coggins & Griffiths (1947) is the leading case on:",
+    "options": [
+      "Defamation",
+      "Strict liability",
+      "Borrowed/loaned servant — determining who is the 'employer' for vicarious liability",
+      "Nuisance"
+    ],
+    "answer": 2,
+    "explanation": "The case determines which employer bears vicarious liability for a borrowed servant."
+  },
+  {
+    "id": 30,
+    "source_id": "id30",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Principles of Tortious Liability",
+    "question": "The test to determine master-servant relationship (control test) was extended in:",
+    "options": [
+      "Donoghue v. Stevenson",
+      "Mersey Docks case",
+      "Cassidy v. Ministry of Health (1951)",
+      "Limpus v. LGOC"
+    ],
+    "answer": 2,
+    "explanation": "Cassidy extended the control test — hospitals liable for negligence of doctors."
+  },
+  {
+    "id": 31,
+    "source_id": "id31",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Principles of Tortious Liability",
+    "question": "Lister v. Hesley Hall Ltd. (2001) extended vicarious liability to:",
+    "options": [
+      "Acts of independent contractors",
+      "Government employees",
+      "Medical negligence",
+      "Sexual abuse by an employee — 'close connection' test replacing the Salmond test"
+    ],
+    "answer": 3,
+    "explanation": "The close connection test replaced the narrower Salmond test for vicarious liability."
+  },
+  {
+    "id": 32,
+    "source_id": "id32",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Principles of Tortious Liability",
+    "question": "The 'frolic of his own' doctrine in vicarious liability means:",
+    "options": [
+      "When an employee deviates completely from his duties — employer not liable",
+      "Employee's act within scope of employment",
+      "Employer's personal liability",
+      "Borrowed servant doctrine"
+    ],
+    "answer": 0,
+    "explanation": "A complete deviation from duty takes the employee outside course of employment."
+  },
+  {
+    "id": 33,
+    "source_id": "id33",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Principles of Tortious Liability",
+    "question": "Joel v. Morrison (1834) established the principle of:",
+    "options": [
+      "Strict liability",
+      "Absolute liability",
+      "Nuisance",
+      "Deviation from employment route — still within course of employment if minor"
+    ],
+    "answer": 3,
+    "explanation": "A minor detour (deviation) does not take an employee outside course of employment."
+  },
+  {
+    "id": 34,
+    "source_id": "id34",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Principles of Tortious Liability",
+    "question": "Baker v. Bolton (1808) established the common law rule that:",
+    "options": [
+      "No action lies for death of another — later reversed by Fatal Accidents Act",
+      "Damages are awarded for death",
+      "Dependants can sue",
+      "State is liable for death"
+    ],
+    "answer": 0,
+    "explanation": "At common law, a personal action dies with the person. India's Fatal Accidents Act 1855 provides a remedy."
+  },
+  {
+    "id": 35,
+    "source_id": "id35",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Defences",
+    "question": "'Volenti non fit injuria' means:",
+    "options": [
+      "No injury to a willing person",
+      "Voluntary acceptance of risk is a complete defence",
+      "Both A and B",
+      "Strict liability defence"
+    ],
+    "answer": 2,
+    "explanation": "Both the meaning and legal effect of the maxim are correct."
+  },
+  {
+    "id": 36,
+    "source_id": "id36",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Defences",
+    "question": "For 'volenti non fit injuria' to apply, the plaintiff must have:",
+    "options": [
+      "Knowledge of risk only",
+      "Consented to the negligence",
+      "Been paid compensation",
+      "Knowledge + voluntary acceptance of the risk"
+    ],
+    "answer": 3,
+    "explanation": "Both scienter (knowledge) and volens (acceptance) are required."
+  },
+  {
+    "id": 37,
+    "source_id": "id37",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Defences",
+    "question": "In Hall v. Brooklands Auto Racing Club (1932):",
+    "options": [
+      "Strict liability was applied",
+      "Defamation was established",
+      "Volenti non fit injuria was upheld for a spectator at a motor race",
+      "Trespass was discussed"
+    ],
+    "answer": 2,
+    "explanation": "A spectator at a motor race accepted the inherent risk of the sport."
+  },
+  {
+    "id": 38,
+    "source_id": "id38",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Defences",
+    "question": "The defence of 'ex turpi causa non oritur actio' means:",
+    "options": [
+      "No action arises from an illegal act of plaintiff",
+      "Contributory negligence",
+      "Act of God",
+      "Statutory authority"
+    ],
+    "answer": 0,
+    "explanation": "A claimant cannot succeed if their claim arises from their own illegal conduct."
+  },
+  {
+    "id": 39,
+    "source_id": "id39",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Defences",
+    "question": "Contributory negligence as a complete defence was converted to partial defence in England by:",
+    "options": [
+      "Law Reform Act 1934",
+      "Law Reform (Contributory Negligence) Act 1945",
+      "Limitation Act 1939",
+      "Occupiers' Liability Act 1957"
+    ],
+    "answer": 1,
+    "explanation": "The 1945 Act introduced apportionment of damages instead of complete bar."
+  },
+  {
+    "id": 40,
+    "source_id": "id40",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Defences",
+    "question": "'Act of God' (vis major) as a defence requires:",
+    "options": [
+      "Any natural event",
+      "Human negligence",
+      "Statutory immunity",
+      "An extraordinary natural event that could not be anticipated or guarded against"
+    ],
+    "answer": 3,
+    "explanation": "The event must be extraordinary and beyond reasonable anticipation."
+  },
+  {
+    "id": 41,
+    "source_id": "id41",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Defences",
+    "question": "In Nichols v. Marsland (1876), which defence was successfully pleaded?",
+    "options": [
+      "Volenti non fit injuria",
+      "Contributory negligence",
+      "Statutory authority",
+      "Act of God"
+    ],
+    "answer": 3,
+    "explanation": "An extraordinary flood — act of God — was a successful defence to Rylands v. Fletcher."
+  },
+  {
+    "id": 42,
+    "source_id": "id42",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Defences",
+    "question": "The defence of statutory authority means:",
+    "options": [
+      "Acts done under express or implied authority of a statute are protected from tortious liability",
+      "Any government act is protected",
+      "Acts done by ministers are immune",
+      "Acts done by police are immune"
+    ],
+    "answer": 0,
+    "explanation": "Statutory authority must be express or implied — not a general government act."
+  },
+  {
+    "id": 43,
+    "source_id": "id43",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Defences",
+    "question": "Private defence is available in tort when:",
+    "options": [
+      "Force used is proportionate to the threat",
+      "There is an imminent threat",
+      "No more force than necessary is used",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "All three conditions must be met for private defence to succeed."
+  },
+  {
+    "id": 44,
+    "source_id": "id44",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Defences",
+    "question": "Necessity as a defence in tort:",
+    "options": [
+      "Is the same as volenti",
+      "Justifies intentional harm to prevent greater harm",
+      "Is available only in criminal law",
+      "Requires consent of the plaintiff"
+    ],
+    "answer": 1,
+    "explanation": "Necessity involves choosing the lesser of two evils."
+  },
+  {
+    "id": 45,
+    "source_id": "id45",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Defences",
+    "question": "Leigh v. Gladstone (1909) is related to which defence?",
+    "options": [
+      "Act of God",
+      "Necessity",
+      "Volenti",
+      "Statutory authority"
+    ],
+    "answer": 1,
+    "explanation": "Force-feeding of a prisoner was held justified under necessity."
+  },
+  {
+    "id": 46,
+    "source_id": "id46",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Defences",
+    "question": "Which of the following is NOT a general defence in tort?",
+    "options": [
+      "Volenti non fit injuria",
+      "Mistake of law",
+      "Act of God",
+      "Private defence"
+    ],
+    "answer": 1,
+    "explanation": "Mistake of law is not a defence in tort."
+  },
+  {
+    "id": 47,
+    "source_id": "id47",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Defences",
+    "question": "In Dann v. Hamilton (1939), the court held regarding 'volenti non fit injuria':",
+    "options": [
+      "Plaintiff who knowingly travelled with a drunk driver was held to have consented",
+      "Strict liability applied",
+      "Contributory negligence was the only defence",
+      "Mere knowledge of risk does not necessarily amount to consent — volenti not applied"
+    ],
+    "answer": 3,
+    "explanation": "Knowledge of risk alone does not establish voluntary acceptance — both are required."
+  },
+  {
+    "id": 48,
+    "source_id": "id48",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Defences",
+    "question": "The defence of volenti is NOT available when:",
+    "options": [
+      "Plaintiff was genuinely free to choose",
+      "Plaintiff had no real choice — economic or social compulsion (Smith v. Baker, 1891)",
+      "Plaintiff was a spectator at a sporting event",
+      "Plaintiff signed a waiver"
+    ],
+    "answer": 1,
+    "explanation": "Where there is no real freedom to choose, volenti cannot apply."
+  },
+  {
+    "id": 49,
+    "source_id": "id49",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Defences",
+    "question": "Haynes v. Harwood (1935) is a leading case on:",
+    "options": [
+      "Rescue cases — rescuer injured while saving third party from defendant's negligence — defendant liable",
+      "Strict liability",
+      "Nuisance",
+      "Volenti non fit injuria"
+    ],
+    "answer": 0,
+    "explanation": "Volenti does not apply to rescuers acting in an emergency."
+  },
+  {
+    "id": 50,
+    "source_id": "id50",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "General Defences",
+    "question": "Stanley v. Powell (1891) is a leading case on:",
+    "options": [
+      "Trespass",
+      "Nuisance",
+      "Inevitable accident — pellet deflected by tree and injured plaintiff; defendant not liable",
+      "Defamation"
+    ],
+    "answer": 2,
+    "explanation": "An unforeseeable deflection of a pellet constituted an inevitable accident."
+  },
+  {
+    "id": 51,
+    "source_id": "id51",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Negligence",
+    "question": "The three essential elements of negligence laid down in Donoghue v. Stevenson (1932) are:",
+    "options": [
+      "Malice, intent, damage",
+      "Strict liability, breach, consent",
+      "Fault, damage, injury",
+      "Duty, breach, damage"
+    ],
+    "answer": 3,
+    "explanation": "The three elements of negligence are duty of care, breach of that duty, and resulting damage."
+  },
+  {
+    "id": 52,
+    "source_id": "id52",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Negligence",
+    "question": "The 'neighbour principle' was propounded by:",
+    "options": [
+      "Lord Denning",
+      "Lord Atkin in Donoghue v. Stevenson",
+      "Lord Diplock",
+      "Lord Wilberforce"
+    ],
+    "answer": 1,
+    "explanation": "Lord Atkin's neighbour principle defines who owes a duty of care to whom."
+  },
+  {
+    "id": 53,
+    "source_id": "id53",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Negligence",
+    "question": "'Res ipsa loquitur' means:",
+    "options": [
+      "Strict liability",
+      "The thing speaks for itself — raises presumption of negligence",
+      "Absolute liability",
+      "Contributory negligence"
+    ],
+    "answer": 1,
+    "explanation": "Res ipsa loquitur raises a presumption of negligence from the facts themselves."
+  },
+  {
+    "id": 54,
+    "source_id": "id54",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Negligence",
+    "question": "Byrne v. Boadle (1863) is the leading case on:",
+    "options": [
+      "Defamation",
+      "Nuisance",
+      "Trespass",
+      "Res ipsa loquitur"
+    ],
+    "answer": 3,
+    "explanation": "A barrel falling from a warehouse established res ipsa loquitur."
+  },
+  {
+    "id": 55,
+    "source_id": "id55",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Negligence",
+    "question": "The Bolam test (1957) applies to the standard of care for:",
+    "options": [
+      "Ordinary persons",
+      "Employers",
+      "Professionals / medical practitioners",
+      "Minors"
+    ],
+    "answer": 2,
+    "explanation": "The Bolam test applies the standard of the ordinary skilled professional."
+  },
+  {
+    "id": 56,
+    "source_id": "id56",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Negligence",
+    "question": "Caparo Industries v. Dickman (1990) established a three-part test for duty of care:",
+    "options": [
+      "Damage, proximity, malice",
+      "Foreseeability, proximity, fairness/justice/reasonableness",
+      "Intent, damage, reasonableness",
+      "Duty, breach, causation"
+    ],
+    "answer": 1,
+    "explanation": "The Caparo three-part test is the current test for duty of care in England."
+  },
+  {
+    "id": 57,
+    "source_id": "id57",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Negligence",
+    "question": "In Jacob Mathew v. State of Punjab (2005), the Supreme Court of India held:",
+    "options": [
+      "Doctors are strictly liable",
+      "Negligence in medical cases requires proof of departure from accepted standard of care",
+      "Res ipsa loquitur always applies to medical negligence",
+      "Hospitals have absolute liability"
+    ],
+    "answer": 1,
+    "explanation": "Medical negligence requires proof of departure from accepted professional standards."
+  },
+  {
+    "id": 58,
+    "source_id": "id58",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Negligence",
+    "question": "The 'but for' test in negligence determines:",
+    "options": [
+      "Standard of care",
+      "Remoteness",
+      "Causation — but for defendant's breach, would damage have occurred?",
+      "Duty of care"
+    ],
+    "answer": 2,
+    "explanation": "The but-for test establishes factual causation in negligence."
+  },
+  {
+    "id": 59,
+    "source_id": "id59",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Negligence",
+    "question": "The 'reasonable man' standard in negligence was classically described in:",
+    "options": [
+      "Donoghue v. Stevenson",
+      "Caparo Industries",
+      "Blyth v. Birmingham Waterworks Co. (1856)",
+      "Bolam case"
+    ],
+    "answer": 2,
+    "explanation": "Negligence is doing something a prudent man would not do, or omitting what a prudent man would do."
+  },
+  {
+    "id": 60,
+    "source_id": "id60",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Negligence",
+    "question": "Paris v. Stepney Borough Council (1951) established that:",
+    "options": [
+      "Strict liability applies to employers",
+      "Standard of care is higher when the potential harm is more serious",
+      "Medical negligence standard applies to all",
+      "Res ipsa loquitur applies"
+    ],
+    "answer": 1,
+    "explanation": "One-eyed worker — employer should have provided goggles given higher potential harm."
+  },
+  {
+    "id": 61,
+    "source_id": "id61",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Negligence",
+    "question": "The 'learned hand formula' (B < PL) in negligence was propounded by:",
+    "options": [
+      "Lord Atkin",
+      "Lord Denning",
+      "Judge Learned Hand in United States v. Carroll Towing (1947)",
+      "Justice Bhagwati"
+    ],
+    "answer": 2,
+    "explanation": "B = burden of precaution; P = probability; L = magnitude of loss. If B < PL, defendant is negligent."
+  },
+  {
+    "id": 62,
+    "source_id": "id62",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Negligence",
+    "question": "The distinction between 'primary' and 'secondary' victims in nervous shock was established in:",
+    "options": [
+      "Donoghue v. Stevenson",
+      "Page v. Smith (1996) and Alcock v. Chief Constable of South Yorkshire (1991)",
+      "Wilkinson v. Downton",
+      "McLoughlin v. O'Brian"
+    ],
+    "answer": 1,
+    "explanation": "Page v. Smith covers primary victims; Alcock covers secondary victims (Hillsborough disaster)."
+  },
+  {
+    "id": 63,
+    "source_id": "id63",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Negligence",
+    "question": "In Alcock v. Chief Constable of South Yorkshire Police (1991), secondary victims must prove:",
+    "options": [
+      "Physical presence only",
+      "Proximity of relationship, proximity of time/space, and direct perception",
+      "Any relationship with the deceased",
+      "Mental illness prior to incident"
+    ],
+    "answer": 1,
+    "explanation": "The three requirements for secondary victim claims in psychiatric injury."
+  },
+  {
+    "id": 64,
+    "source_id": "id64",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Negligence",
+    "question": "Spring v. Guardian Assurance (1994) held:",
+    "options": [
+      "Strict liability applies to employers",
+      "Absolute liability in employment",
+      "Employers can be liable in negligence for negligent references causing economic loss",
+      "No duty of care for economic loss"
+    ],
+    "answer": 2,
+    "explanation": "A special relationship exists between employer and employee for references."
+  },
+  {
+    "id": 65,
+    "source_id": "id65",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Negligence",
+    "question": "Hedley Byrne & Co. v. Heller (1964) established liability for:",
+    "options": [
+      "Product liability",
+      "Medical negligence",
+      "Strict liability for financial institutions",
+      "Negligent misstatement causing pure economic loss — where there is a 'special relationship'"
+    ],
+    "answer": 3,
+    "explanation": "The special relationship test for negligent misstatement."
+  },
+  {
+    "id": 66,
+    "source_id": "id66",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Negligence",
+    "question": "Barnett v. Chelsea & Kensington Hospital (1969) is a leading case on:",
+    "options": [
+      "Medical negligence standard",
+      "Causation — 'but for' test — even if doctor had been careful, patient would have died; no liability",
+      "Res ipsa loquitur",
+      "Bolam test"
+    ],
+    "answer": 1,
+    "explanation": "The but-for test was not satisfied — arsenic poisoning was fatal regardless of treatment."
+  },
+  {
+    "id": 67,
+    "source_id": "id67",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Negligence",
+    "question": "The three requirements for res ipsa loquitur (Scott v. London & St. Katherine Docks, 1865) are:",
+    "options": [
+      "Foreseeability, proximity, fairness",
+      "Duty, breach, damage",
+      "Thing under defendant's control; accident would not ordinarily happen without negligence; no explanation given",
+      "Negligence, intention, damage"
+    ],
+    "answer": 2,
+    "explanation": "All three conditions must be satisfied for res ipsa loquitur to apply."
+  },
+  {
+    "id": 68,
+    "source_id": "id68",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Negligence",
+    "question": "Donoghue v. Stevenson (1932) — in the facts, the plaintiff found:",
+    "options": [
+      "A dead mouse in a tin of food",
+      "Chemicals in a bottle of water",
+      "A foreign object in a can of beer",
+      "A decomposed snail in a bottle of ginger beer"
+    ],
+    "answer": 3,
+    "explanation": "The decomposed snail in the opaque ginger beer bottle is the iconic fact of the case."
+  },
+  {
+    "id": 69,
+    "source_id": "id69",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Negligence",
+    "question": "Grant v. Australian Knitting Mills (1936) extended Donoghue v. Stevenson to hold that:",
+    "options": [
+      "Retailers are primarily liable",
+      "Manufacturers are liable for defective products even when sold through retailers without any possibility of intermediate examination",
+      "Strict liability applies to clothing",
+      "Contract with retailer bars tort claim"
+    ],
+    "answer": 1,
+    "explanation": "The principle of manufacturer's duty extends to all products without intermediate examination."
+  },
+  {
+    "id": 70,
+    "source_id": "id70",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Negligence",
+    "question": "Bourhill v. Young (1943) — a pregnant woman suffered nervous shock. The House of Lords held:",
+    "options": [
+      "She was within the area of foreseeable danger — duty of care established",
+      "Strict liability applied",
+      "Volenti non fit injuria applied",
+      "She was outside the area of foreseeable danger — no duty of care"
+    ],
+    "answer": 3,
+    "explanation": "The plaintiff was not within the foreseeable area of danger created by the defendant."
+  },
+  {
+    "id": 71,
+    "source_id": "id71",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Negligence",
+    "question": "Home Office v. Dorset Yacht Co. (1970) held:",
+    "options": [
+      "Home Office owed a duty of care for failure to prevent Borstal boys from escaping and damaging plaintiff's yacht",
+      "State is immune from negligence",
+      "Third parties have no duty",
+      "Strict liability applied"
+    ],
+    "answer": 0,
+    "explanation": "The Home Office was held liable for foreseeable damage caused by escaping Borstal boys."
+  },
+  {
+    "id": 72,
+    "source_id": "id72",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Negligence",
+    "question": "Municipal Corporation of Delhi v. Subhagwanti (1966) — a clock tower in Chandni Chowk collapsed. The Supreme Court applied:",
+    "options": [
+      "Rylands v. Fletcher",
+      "Absolute liability",
+      "Res ipsa loquitur — MCD liable for negligence in maintaining the structure",
+      "Volenti non fit injuria"
+    ],
+    "answer": 2,
+    "explanation": "Res ipsa loquitur applied — the collapse itself spoke to negligence in maintenance."
+  },
+  {
+    "id": 73,
+    "source_id": "id73",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Nuisance",
+    "question": "The essential difference between public and private nuisance is:",
+    "options": [
+      "Public nuisance affects community at large; private nuisance affects individual's use/enjoyment of land",
+      "Public nuisance is civil; private nuisance is criminal",
+      "Public nuisance requires malice; private nuisance does not",
+      "Both are identical"
+    ],
+    "answer": 0,
+    "explanation": "The distinction is between interference with community rights vs individual land rights."
+  },
+  {
+    "id": 74,
+    "source_id": "id74",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Nuisance",
+    "question": "Public nuisance is a:",
+    "options": [
+      "Tort only",
+      "Crime only",
+      "Both a crime and a tort (when special damage is caused to an individual)",
+      "Neither crime nor tort"
+    ],
+    "answer": 2,
+    "explanation": "Public nuisance is a crime; an individual can sue in tort only if they suffer special damage."
+  },
+  {
+    "id": 75,
+    "source_id": "id75",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Nuisance",
+    "question": "Sturges v. Bridgman (1879) established which principle in nuisance?",
+    "options": [
+      "Coming to a nuisance is no defence",
+      "Act of God",
+      "Volenti",
+      "Statutory authority"
+    ],
+    "answer": 0,
+    "explanation": "The fact that the plaintiff came to the nuisance does not bar their claim."
+  },
+  {
+    "id": 76,
+    "source_id": "id76",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Nuisance",
+    "question": "Radhey Shyam v. Gur Prasad (1978) — the Allahabad High Court held:",
+    "options": [
+      "Noise from a flour mill amounted to private nuisance affecting plaintiff's health and comfort",
+      "Noise from a flour mill was not nuisance",
+      "Nuisance requires physical damage",
+      "Coming to nuisance is a valid defence"
+    ],
+    "answer": 0,
+    "explanation": "Noise interference with comfort and health constitutes private nuisance."
+  },
+  {
+    "id": 77,
+    "source_id": "id77",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Nuisance",
+    "question": "Attorney General v. PYA Quarries Ltd. (1957) defined public nuisance as:",
+    "options": [
+      "Any nuisance in a public place",
+      "Government-caused nuisance",
+      "Nuisance on public roads only",
+      "Nuisance affecting a section of the public sufficiently large that it is not reasonable to expect one person to bring an action"
+    ],
+    "answer": 3,
+    "explanation": "The class of persons affected must be so large that individual action is unreasonable."
+  },
+  {
+    "id": 78,
+    "source_id": "id78",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Nuisance",
+    "question": "Hollywood Silver Fox Farm v. Emmett (1936) established that in private nuisance:",
+    "options": [
+      "Malice of the defendant is relevant — firing guns near plaintiff's farm to scare foxes was nuisance even though same act without malice would be lawful",
+      "Malice is irrelevant",
+      "Strict liability applies",
+      "Statutory authority is a complete defence"
+    ],
+    "answer": 0,
+    "explanation": "Malice can convert an otherwise lawful act into actionable nuisance."
+  },
+  {
+    "id": 79,
+    "source_id": "id79",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Nuisance",
+    "question": "Christie v. Davey (1893) illustrates:",
+    "options": [
+      "Rylands v. Fletcher",
+      "Defamation",
+      "Malice converts lawful act into nuisance — defendant banged on walls and shouted to disturb plaintiff's music lessons",
+      "Trespass"
+    ],
+    "answer": 2,
+    "explanation": "Deliberate interference motivated by malice constituted nuisance."
+  },
+  {
+    "id": 80,
+    "source_id": "id80",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Nuisance",
+    "question": "The locality/character of neighbourhood rule in nuisance was stated in:",
+    "options": [
+      "Hollywood Silver Fox Farm",
+      "Rylands v. Fletcher",
+      "Sturges v. Bridgman (1879) — 'what would be a nuisance in Belgrave Square would not necessarily be so in Bermondsey'",
+      "Donoghue v. Stevenson"
+    ],
+    "answer": 2,
+    "explanation": "The character of the neighbourhood is relevant in assessing private nuisance."
+  },
+  {
+    "id": 81,
+    "source_id": "id81",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Nuisance",
+    "question": "Under which section of the Code of Civil Procedure can a private individual sue against public nuisance?",
+    "options": [
+      "Section 91 CPC — with leave of the court or Advocate General's consent",
+      "Section 9 CPC",
+      "Order 1 Rule 8 CPC",
+      "Section 80 CPC"
+    ],
+    "answer": 0,
+    "explanation": "Section 91 CPC allows private individuals to sue for public nuisance with required consent."
+  },
+  {
+    "id": 82,
+    "source_id": "id82",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Trespass",
+    "question": "Trespass to land requires:",
+    "options": [
+      "Damage to land",
+      "Direct and intentional interference with land in another's possession — actionable per se",
+      "Malicious intent",
+      "Permission of owner"
+    ],
+    "answer": 1,
+    "explanation": "Trespass to land is actionable per se — no proof of damage needed."
+  },
+  {
+    "id": 83,
+    "source_id": "id83",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Trespass",
+    "question": "'Trespass ab initio' means:",
+    "options": [
+      "One who enters lawfully but misuses the authority becomes a trespasser from the beginning",
+      "Trespass from the start",
+      "Permission makes the entry lawful permanently",
+      "No remedy for trespass"
+    ],
+    "answer": 0,
+    "explanation": "The doctrine treats the original entry as unlawful if authority is subsequently abused."
+  },
+  {
+    "id": 84,
+    "source_id": "id84",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Trespass",
+    "question": "Six Carpenters' Case (1610) is the leading case on:",
+    "options": [
+      "Nuisance",
+      "Trespass ab initio",
+      "Defamation",
+      "Negligence"
+    ],
+    "answer": 1,
+    "explanation": "The Six Carpenters' Case established the doctrine of trespass ab initio."
+  },
+  {
+    "id": 85,
+    "source_id": "id85",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Trespass",
+    "question": "Trespass to the person includes:",
+    "options": [
+      "Negligence and nuisance",
+      "Defamation and malicious prosecution",
+      "Assault, battery, false imprisonment",
+      "Strict liability and nuisance"
+    ],
+    "answer": 2,
+    "explanation": "The three forms of trespass to person are assault, battery, and false imprisonment."
+  },
+  {
+    "id": 86,
+    "source_id": "id86",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Trespass",
+    "question": "In battery, the contact must be:",
+    "options": [
+      "Direct and intentional — even if not hostile",
+      "Hostile and intentional",
+      "Negligent",
+      "Consequential"
+    ],
+    "answer": 0,
+    "explanation": "Battery does not require hostility — direct intentional contact suffices."
+  },
+  {
+    "id": 87,
+    "source_id": "id87",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Trespass",
+    "question": "The cuius est solum doctrine in trespass to land was modified by:",
+    "options": [
+      "Bernstein v. Skyviews & General Ltd. (1978) — landowner's rights in airspace limited to height necessary for ordinary use",
+      "Donoghue v. Stevenson",
+      "Rylands v. Fletcher",
+      "Wagon Mound No. 1"
+    ],
+    "answer": 0,
+    "explanation": "Airspace rights are limited to what is necessary for the reasonable use and enjoyment of the land."
+  },
+  {
+    "id": 88,
+    "source_id": "id88",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Trespass",
+    "question": "Assault in tort law requires:",
+    "options": [
+      "Actual physical contact",
+      "An act creating reasonable apprehension of immediate unlawful force — no physical contact needed",
+      "Intent to injure",
+      "Use of a weapon"
+    ],
+    "answer": 1,
+    "explanation": "Assault is the apprehension of immediate unlawful force — not the force itself."
+  },
+  {
+    "id": 89,
+    "source_id": "id89",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Trespass",
+    "question": "False imprisonment requires:",
+    "options": [
+      "Imprisonment in a jail",
+      "Use of force",
+      "Imprisonment for a criminal offence",
+      "Total restraint of plaintiff's freedom of movement — even without physical contact"
+    ],
+    "answer": 3,
+    "explanation": "Any total restraint on movement constitutes false imprisonment."
+  },
+  {
+    "id": 90,
+    "source_id": "id90",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Trespass",
+    "question": "Meering v. Grahame-White Aviation Co. (1920) established that:",
+    "options": [
+      "Knowledge of imprisonment is essential",
+      "False imprisonment requires physical restraint only",
+      "The plaintiff need not be aware of the false imprisonment at the time for the tort to be committed",
+      "Consent is always a defence"
+    ],
+    "answer": 2,
+    "explanation": "False imprisonment can occur even if the plaintiff is unaware of the restraint."
+  },
+  {
+    "id": 91,
+    "source_id": "id91",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Trespass",
+    "question": "Bird v. Jones (1845) held:",
+    "options": [
+      "Partial obstruction of a public bridge was not false imprisonment as plaintiff had means of egress",
+      "Partial obstruction constitutes false imprisonment",
+      "Complete restraint is not required",
+      "Trespass to land occurred"
+    ],
+    "answer": 0,
+    "explanation": "False imprisonment requires total restraint — partial obstruction with escape route available is insufficient."
+  },
+  {
+    "id": 92,
+    "source_id": "id92",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Trespass",
+    "question": "Scott v. Shepherd (1773) is the classic case on:",
+    "options": [
+      "Nuisance",
+      "Negligence",
+      "Trespass — throwing a lighted squib through a market; direct and immediate force — trespass established",
+      "Defamation"
+    ],
+    "answer": 2,
+    "explanation": "The lighted squib case established that direct force constitutes trespass."
+  },
+  {
+    "id": 93,
+    "source_id": "id93",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Trespass",
+    "question": "Fowler v. Lanning (1959) held that in an action for trespass to person:",
+    "options": [
+      "Plaintiff must prove either intention or negligence — trespass is no longer actionable without fault",
+      "Trespass is actionable per se without proof of fault",
+      "Strict liability applies to trespass",
+      "No action lies without actual damage"
+    ],
+    "answer": 0,
+    "explanation": "The modern view requires proof of intention or negligence for trespass to person."
+  },
+  {
+    "id": 94,
+    "source_id": "id94",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Trespass",
+    "question": "Letang v. Cooper (1965) held that where the act causing injury is unintentional:",
+    "options": [
+      "The correct cause of action is negligence, not trespass to the person",
+      "Trespass applies to all physical contact",
+      "Both trespass and negligence can be pleaded",
+      "Intentional acts cannot be trespass"
+    ],
+    "answer": 0,
+    "explanation": "Unintentional acts causing personal injury should be sued in negligence, not trespass."
+  },
+  {
+    "id": 95,
+    "source_id": "id95",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Defamation",
+    "question": "Which of the following is NOT an essential element of defamation?",
+    "options": [
+      "Defamatory statement",
+      "Malicious intention (always required)",
+      "Publication",
+      "Reference to plaintiff"
+    ],
+    "answer": 1,
+    "explanation": "In libel, malice is presumed; malice is not always a required element."
+  },
+  {
+    "id": 96,
+    "source_id": "id96",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Defamation",
+    "question": "Libel is defamation in:",
+    "options": [
+      "Spoken form",
+      "Permanent/written form",
+      "Gestures only",
+      "Email only"
+    ],
+    "answer": 1,
+    "explanation": "Libel is in a permanent form — written, printed, or broadcast."
+  },
+  {
+    "id": 97,
+    "source_id": "id97",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Defamation",
+    "question": "Slander is actionable per se in which of the following cases?",
+    "options": [
+      "Imputation of a contagious disease",
+      "Imputation of unchastity to a woman",
+      "Imputation of crime punishable with imprisonment",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "All four categories of slander are actionable per se without proof of special damage."
+  },
+  {
+    "id": 98,
+    "source_id": "id98",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Defamation",
+    "question": "Hulton & Co. v. Jones (1910) established:",
+    "options": [
+      "Defamation requires intent to defame",
+      "Strict liability in defamation",
+      "Truth is no defence",
+      "A statement can be defamatory even if the defendant did not intend to refer to the plaintiff"
+    ],
+    "answer": 3,
+    "explanation": "Innocent publication is no defence if reasonable people would understand it to refer to the plaintiff."
+  },
+  {
+    "id": 99,
+    "source_id": "id99",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Defamation",
+    "question": "Which of the following is an absolute privilege in defamation?",
+    "options": [
+      "Parliamentary proceedings",
+      "Judicial proceedings",
+      "State communications",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "All three are absolute privileges — malice cannot defeat them."
+  },
+  {
+    "id": 100,
+    "source_id": "id100",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Defamation",
+    "question": "The defence of 'fair comment' in defamation applies to:",
+    "options": [
+      "Private matters",
+      "Any comment made honestly",
+      "Matters of public interest",
+      "Statements made under compulsion"
+    ],
+    "answer": 2,
+    "explanation": "Fair comment must be on a matter of public interest and based on true facts."
+  },
+  {
+    "id": 101,
+    "source_id": "id101",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Defamation",
+    "question": "Sim v. Stretch (1936) laid down the test for a defamatory statement as:",
+    "options": [
+      "Would the words tend to lower the plaintiff in the estimation of right-thinking members of society generally?",
+      "Would the statement cause hurt to feelings?",
+      "Any untrue statement",
+      "Any published statement"
+    ],
+    "answer": 0,
+    "explanation": "The right-thinking member of society test is the standard for defamation."
+  },
+  {
+    "id": 102,
+    "source_id": "id102",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Defamation",
+    "question": "Cassidy v. Daily Mirror Newspapers (1929) illustrates:",
+    "options": [
+      "Qualified privilege",
+      "Fair comment",
+      "Absolute privilege",
+      "Innuendo — statement innocuous on the face but defamatory in context"
+    ],
+    "answer": 3,
+    "explanation": "A photograph caption implied the plaintiff's wife was not his lawful wife — defamatory by innuendo."
+  },
+  {
+    "id": 103,
+    "source_id": "id103",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Defamation",
+    "question": "Monson v. Tussauds (1894) — placing a wax figure in the 'Chamber of Horrors' was held to be:",
+    "options": [
+      "Slander",
+      "Libel — a permanent representation",
+      "Not defamation",
+      "Nuisance"
+    ],
+    "answer": 1,
+    "explanation": "A wax effigy is a permanent representation and therefore libel."
+  },
+  {
+    "id": 104,
+    "source_id": "id104",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Defamation",
+    "question": "Reynolds v. Times Newspapers (2001) developed:",
+    "options": [
+      "Reynolds privilege — responsible journalism on matters of public interest as a form of qualified privilege",
+      "Absolute privilege for media",
+      "Strict liability for media defamation",
+      "Fair comment extended to all media"
+    ],
+    "answer": 0,
+    "explanation": "Reynolds privilege protects responsible journalism on matters of public concern."
+  },
+  {
+    "id": 105,
+    "source_id": "id105",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Defamation",
+    "question": "Under Section 499 IPC, which of the following is NOT an exception to defamation?",
+    "options": [
+      "Truth for public good",
+      "Statements made with malice",
+      "Fair comment on public conduct of public servants",
+      "Publication of court proceedings"
+    ],
+    "answer": 1,
+    "explanation": "Statements made with malice are NOT an exception — all other options are exceptions under S.499 IPC."
+  },
+  {
+    "id": 106,
+    "source_id": "id106",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Defamation",
+    "question": "The defence of 'justification' (truth) in defamation:",
+    "options": [
+      "Requires public interest additionally",
+      "Is a complete defence in civil defamation",
+      "Is not a defence",
+      "Is a defence only in criminal defamation"
+    ],
+    "answer": 1,
+    "explanation": "Truth is an absolute defence in civil defamation. In criminal defamation (S.499 IPC), truth must be for public good."
+  },
+  {
+    "id": 107,
+    "source_id": "id107",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Defamation",
+    "question": "'Legal innuendo' in defamation requires:",
+    "options": [
+      "The defamatory meaning to be apparent on the face of the statement",
+      "Malice of defendant",
+      "Actual damage",
+      "Extrinsic facts known to persons who read the statement that give it a defamatory meaning"
+    ],
+    "answer": 3,
+    "explanation": "Legal innuendo requires extrinsic facts to give a seemingly innocent statement a defamatory meaning."
+  },
+  {
+    "id": 108,
+    "source_id": "id108",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Remoteness of Damages",
+    "question": "The two leading tests for remoteness of damage in tort are:",
+    "options": [
+      "Donoghue test and Caparo test",
+      "Re Polemis test and Wagon Mound test",
+      "Bolam test and but-for test",
+      "Rylands test and Donoghue test"
+    ],
+    "answer": 1,
+    "explanation": "Re Polemis (directness) and Wagon Mound (foreseeability) are the two leading tests."
+  },
+  {
+    "id": 109,
+    "source_id": "id109",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Remoteness of Damages",
+    "question": "The Re Polemis (1921) test for remoteness is:",
+    "options": [
+      "Reasonable foreseeability",
+      "Proximity",
+      "Proportionality",
+      "Directness — defendant liable for all direct consequences"
+    ],
+    "answer": 3,
+    "explanation": "Re Polemis held the defendant liable for all direct consequences of their negligent act."
+  },
+  {
+    "id": 110,
+    "source_id": "id110",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Remoteness of Damages",
+    "question": "The Wagon Mound (No. 1) (1961) test for remoteness is:",
+    "options": [
+      "Reasonable foreseeability of the type of damage",
+      "Directness",
+      "Proximity",
+      "Neighbourhood principle"
+    ],
+    "answer": 0,
+    "explanation": "Wagon Mound No. 1 replaced Re Polemis with the foreseeability test."
+  },
+  {
+    "id": 111,
+    "source_id": "id111",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Remoteness of Damages",
+    "question": "The 'thin skull' or 'egg-shell skull' rule means:",
+    "options": [
+      "Defendant not liable for unforeseeable type of injury",
+      "Damages are to be reduced proportionately",
+      "Remoteness applies strictly",
+      "Defendant takes victim as he finds him — liable even if injury is more severe due to pre-existing condition"
+    ],
+    "answer": 3,
+    "explanation": "Once type of harm is foreseeable, defendant is liable for the full extent even if greater than expected."
+  },
+  {
+    "id": 112,
+    "source_id": "id112",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Remoteness of Damages",
+    "question": "Smith v. Leech Brain & Co. (1962) is the leading case on:",
+    "options": [
+      "Wagon Mound test",
+      "Contributory negligence",
+      "Strict liability",
+      "Thin skull / egg-shell skull rule"
+    ],
+    "answer": 3,
+    "explanation": "Burn on the lip triggered cancer due to pre-existing condition — defendant fully liable."
+  },
+  {
+    "id": 113,
+    "source_id": "id113",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Remoteness of Damages",
+    "question": "In Wagon Mound (No. 2) (1967), the Privy Council held:",
+    "options": [
+      "There was no liability",
+      "Re Polemis was restored",
+      "Directness was the test",
+      "Liability was upheld because the risk was foreseeable even if small"
+    ],
+    "answer": 3,
+    "explanation": "Even a small foreseeable risk of fire from oil is sufficient — defendant liable."
+  },
+  {
+    "id": 114,
+    "source_id": "id114",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Remoteness of Damages",
+    "question": "The principle of 'novus actus interveniens' means:",
+    "options": [
+      "Original defendant remains liable",
+      "A new intervening act breaks the chain of causation",
+      "Contributory negligence applies",
+      "Thin skull rule applies"
+    ],
+    "answer": 1,
+    "explanation": "A sufficiently independent intervening act breaks the chain of causation."
+  },
+  {
+    "id": 115,
+    "source_id": "id115",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Remoteness of Damages",
+    "question": "McKew v. Holland (1969) is related to:",
+    "options": [
+      "Thin skull rule",
+      "Remoteness — Wagon Mound test",
+      "Novus actus interveniens — plaintiff's unreasonable conduct broke the chain",
+      "Defamation"
+    ],
+    "answer": 2,
+    "explanation": "Plaintiff's unreasonable act of descending a steep staircase without support broke the chain."
+  },
+  {
+    "id": 116,
+    "source_id": "id116",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Remoteness of Damages",
+    "question": "Bradford v. Robinson Rentals (1967) is a leading case on:",
+    "options": [
+      "Wagon Mound test",
+      "Res ipsa loquitur",
+      "Thin skull rule — frostbite was a foreseeable type of injury even if extent was extreme",
+      "Contributory negligence"
+    ],
+    "answer": 2,
+    "explanation": "Cold injury was a foreseeable type — thin skull rule applied to the extreme frostbite."
+  },
+  {
+    "id": 117,
+    "source_id": "id117",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Remoteness of Damages",
+    "question": "Doughty v. Turner Manufacturing Co. (1964) — asbestos lid fell into molten liquid and an unforeseeable eruption occurred. Held:",
+    "options": [
+      "Thin skull rule applied",
+      "Strict liability for factories",
+      "Res ipsa loquitur applied",
+      "No liability — the type of damage (chemical eruption) was not foreseeable"
+    ],
+    "answer": 3,
+    "explanation": "The type of damage (chemical eruption) was unforeseeable — distinguished from thin skull."
+  },
+  {
+    "id": 118,
+    "source_id": "id118",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Remoteness of Damages",
+    "question": "Overseas Tankship (UK) Ltd. v. Morts Dock is the full name of:",
+    "options": [
+      "Wagon Mound No. 1 (1961)",
+      "Wagon Mound No. 2",
+      "Re Polemis",
+      "Cambridge Water Co. case"
+    ],
+    "answer": 0,
+    "explanation": "The Wagon Mound No. 1 case replaced Re Polemis with the reasonable foreseeability test."
+  },
+  {
+    "id": 119,
+    "source_id": "id119",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Remoteness of Damages",
+    "question": "Overseas Tankship (UK) Ltd. v. Miller Steamship Co. is popularly known as:",
+    "options": [
+      "Wagon Mound No. 1",
+      "Re Polemis",
+      "Wagon Mound No. 2 (1967)",
+      "Cambridge Water Co. case"
+    ],
+    "answer": 2,
+    "explanation": "Wagon Mound No. 2 — different plaintiffs, same fire, liability upheld as risk was foreseeable."
+  },
+  {
+    "id": 120,
+    "source_id": "id120",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Strict and Absolute Liability",
+    "question": "The rule in Rylands v. Fletcher (1868) states:",
+    "options": [
+      "Absolute liability without any exception",
+      "Strict liability only for nuisance",
+      "Negligence liability for dangerous things",
+      "A person who brings on his land something likely to do mischief if it escapes must keep it at his peril"
+    ],
+    "answer": 3,
+    "explanation": "The rule imposes strict liability for dangerous things that escape from land."
+  },
+  {
+    "id": 121,
+    "source_id": "id121",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Strict and Absolute Liability",
+    "question": "Which court formulated the rule in Rylands v. Fletcher?",
+    "options": [
+      "Court of Appeal by Lord Denning",
+      "House of Lords only",
+      "Exchequer Chamber by Blackburn J., affirmed by House of Lords",
+      "Privy Council"
+    ],
+    "answer": 2,
+    "explanation": "Blackburn J. formulated the rule; the House of Lords added the non-natural use requirement."
+  },
+  {
+    "id": 122,
+    "source_id": "id122",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Strict and Absolute Liability",
+    "question": "Which of the following is NOT a defence under Rylands v. Fletcher?",
+    "options": [
+      "Act of God",
+      "Remoteness of damage",
+      "Consent of plaintiff",
+      "Act of stranger"
+    ],
+    "answer": 1,
+    "explanation": "Remoteness of damage is not a recognised defence under Rylands v. Fletcher."
+  },
+  {
+    "id": 123,
+    "source_id": "id123",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Strict and Absolute Liability",
+    "question": "The requirement of 'non-natural use' under Rylands v. Fletcher was elaborated in:",
+    "options": [
+      "Donoghue v. Stevenson",
+      "Wagon Mound",
+      "Cambridge Water Co. v. Eastern Counties Leather (1994)",
+      "Richards v. Lothian (1913)"
+    ],
+    "answer": 3,
+    "explanation": "Richards v. Lothian clarified that non-natural use must be an extraordinary or unusual use of land."
+  },
+  {
+    "id": 124,
+    "source_id": "id124",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Strict and Absolute Liability",
+    "question": "In M.C. Mehta v. Union of India (1987) — Oleum Gas leak case — the Supreme Court of India:",
+    "options": [
+      "Applied Rylands v. Fletcher",
+      "Evolved the doctrine of absolute liability — no exceptions for industries engaged in hazardous/inherently dangerous activities",
+      "Applied contributory negligence",
+      "Applied Consumer Protection Act"
+    ],
+    "answer": 1,
+    "explanation": "Justice Bhagwati evolved absolute liability — more stringent than Rylands v. Fletcher."
+  },
+  {
+    "id": 125,
+    "source_id": "id125",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Strict and Absolute Liability",
+    "question": "The absolute liability doctrine in India differs from Rylands v. Fletcher because:",
+    "options": [
+      "Absolute liability allows act of God as defence",
+      "Absolute liability has no exceptions and compensation is proportionate to the capacity of enterprise",
+      "Absolute liability requires non-natural use",
+      "Absolute liability is codified"
+    ],
+    "answer": 1,
+    "explanation": "M.C. Mehta doctrine allows no exceptions and scales compensation to enterprise wealth."
+  },
+  {
+    "id": 126,
+    "source_id": "id126",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Strict and Absolute Liability",
+    "question": "In Rylands v. Fletcher (1868), the facts were:",
+    "options": [
+      "Gas leaked from defendant's factory",
+      "Chemicals contaminated a river",
+      "Fire spread from defendant's land",
+      "Defendant stored water in a reservoir; water burst through old mine shafts into plaintiff's mines"
+    ],
+    "answer": 3,
+    "explanation": "The case arose from water escaping through abandoned mine shafts to flood the plaintiff's mines."
+  },
+  {
+    "id": 127,
+    "source_id": "id127",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Strict and Absolute Liability",
+    "question": "Transco plc v. Stockport Metropolitan Borough Council (2003) — the House of Lords held:",
+    "options": [
+      "Rylands is to be abolished",
+      "Absolute liability is adopted in England",
+      "Foreseeability is irrelevant",
+      "Rylands v. Fletcher is a sub-species of private nuisance; non-natural use requires extraordinary/exceptional use"
+    ],
+    "answer": 3,
+    "explanation": "Transco confirmed Rylands as a sub-species of nuisance with a strict non-natural use requirement."
+  },
+  {
+    "id": 128,
+    "source_id": "id128",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Strict and Absolute Liability",
+    "question": "Cambridge Water Co. v. Eastern Counties Leather plc (1994) held that for Rylands v. Fletcher:",
+    "options": [
+      "Foreseeability of damage of the relevant type IS required",
+      "Foreseeability of damage is NOT required",
+      "Absolute liability applies in England",
+      "Act of God is no defence"
+    ],
+    "answer": 0,
+    "explanation": "Foreseeability of the type of damage is a prerequisite for Rylands v. Fletcher in England."
+  },
+  {
+    "id": 129,
+    "source_id": "id129",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Strict and Absolute Liability",
+    "question": "The Bhopal Gas Leak (December 2-3, 1984) was caused by leakage of which gas?",
+    "options": [
+      "Methyl Isocyanate (MIC)",
+      "Chlorine",
+      "Phosgene",
+      "Hydrogen Cyanide"
+    ],
+    "answer": 0,
+    "explanation": "Methyl Isocyanate (MIC) leaked from Union Carbide's plant in Bhopal."
+  },
+  {
+    "id": 130,
+    "source_id": "id130",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Strict and Absolute Liability",
+    "question": "In the Oleum Gas Leak case (M.C. Mehta v. Union of India, 1987), which factory leaked oleum gas?",
+    "options": [
+      "Union Carbide, Bhopal",
+      "ONGC",
+      "Shriram Food and Fertilisers Industries, Delhi",
+      "BPCL"
+    ],
+    "answer": 2,
+    "explanation": "Shriram Food and Fertilisers Industries in Delhi leaked oleum gas, prompting the absolute liability doctrine."
+  },
+  {
+    "id": 131,
+    "source_id": "id131",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Strict and Absolute Liability",
+    "question": "The Public Liability Insurance Act, 1991 was enacted as a consequence of:",
+    "options": [
+      "Absolute liability principle — to provide immediate relief to victims of hazardous substance accidents",
+      "Strict liability under Rylands v. Fletcher",
+      "Consumer Protection Act",
+      "Competition Act"
+    ],
+    "answer": 0,
+    "explanation": "The Act requires owners of hazardous substances to maintain insurance for immediate victim relief."
+  },
+  {
+    "id": 132,
+    "source_id": "id132",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Strict and Absolute Liability",
+    "question": "Charan Lal Sahu v. Union of India (1990) related to:",
+    "options": [
+      "Nuisance",
+      "Motor Vehicles Act",
+      "Bhopal Gas Leak and constitutional validity of the Bhopal Gas Leak Disaster (Processing of Claims) Act 1985",
+      "Consumer Protection Act"
+    ],
+    "answer": 2,
+    "explanation": "The Supreme Court upheld the validity of the Bhopal Act providing for government to represent victims."
+  },
+  {
+    "id": 133,
+    "source_id": "id133",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Strict and Absolute Liability",
+    "question": "The strict liability for dangerous animals (scienter rule) requires:",
+    "options": [
+      "Negligence in keeping the animal",
+      "Absolute liability regardless of knowledge",
+      "Knowledge of the animal's vicious propensity",
+      "Statutory notification"
+    ],
+    "answer": 2,
+    "explanation": "The owner must have knowledge (scienter) of the animal's dangerous propensity."
+  },
+  {
+    "id": 134,
+    "source_id": "id134",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Strict and Absolute Liability",
+    "question": "Sochacki v. Sas (1947) — fire lit in a fireplace spread. The court held:",
+    "options": [
+      "Rylands v. Fletcher applies — strict liability",
+      "Fire in a domestic fireplace is natural use — no strict liability under Rylands",
+      "Absolute liability applies",
+      "Contributory negligence reduces damages"
+    ],
+    "answer": 1,
+    "explanation": "Domestic use of a fireplace is natural use of land — Rylands does not apply."
+  },
+  {
+    "id": 135,
+    "source_id": "id135",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Strict and Absolute Liability",
+    "question": "Bolton v. Stone (1951) — a cricket ball hit outside the ground injured the plaintiff. Held:",
+    "options": [
+      "Strict liability applied to cricket grounds",
+      "The risk was so small and unlikely that no reasonable man would have guarded against it — no negligence",
+      "Nuisance was established",
+      "Contributory negligence fully applied"
+    ],
+    "answer": 1,
+    "explanation": "The extremely small probability of harm meant no negligence — risk was minimal."
+  },
+  {
+    "id": 136,
+    "source_id": "id136",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Strict and Absolute Liability",
+    "question": "Miller v. Jackson (1977) — Lord Denning held regarding a cricket ground causing nuisance:",
+    "options": [
+      "Public interest in cricket may outweigh individual right — injunction refused though damages granted",
+      "Injunction was granted stopping cricket",
+      "Strict liability applied",
+      "Plaintiff had come to nuisance — no remedy"
+    ],
+    "answer": 0,
+    "explanation": "Lord Denning balanced public interest against private nuisance — injunction refused, damages awarded."
+  },
+  {
+    "id": 137,
+    "source_id": "id137",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Strict and Absolute Liability",
+    "question": "State of Punjab v. Modern Cultivators (1965) held:",
+    "options": [
+      "State is immune for canal management",
+      "Sovereign immunity covers canal operations",
+      "State is liable when water from a government canal embankment flooded plaintiff's fields — Rylands v. Fletcher applied to State in non-sovereign capacity",
+      "Absolute liability applied"
+    ],
+    "answer": 2,
+    "explanation": "Canal management is a non-sovereign function — State liable under Rylands v. Fletcher."
+  },
+  {
+    "id": 138,
+    "source_id": "id138",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Tortious Liability of the State",
+    "question": "In India, the liability of the State in tort is governed by:",
+    "options": [
+      "Article 300 of the Constitution read with Section 65 of the Government of India Act, 1858",
+      "Article 12 only",
+      "IPC",
+      "Consumer Protection Act"
+    ],
+    "answer": 0,
+    "explanation": "Article 300 allows the Union and States to sue and be sued."
+  },
+  {
+    "id": 139,
+    "source_id": "id139",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Tortious Liability of the State",
+    "question": "The distinction between 'sovereign' and 'non-sovereign' functions for State tortious liability was first drawn in India in:",
+    "options": [
+      "Kasturilal v. State of U.P. (1965)",
+      "M.C. Mehta v. Union of India",
+      "Nilabati Behera v. State of Orissa",
+      "P.&O. Steam Navigation Co. v. Secretary of State (1861)"
+    ],
+    "answer": 3,
+    "explanation": "The P&O case first drew the sovereign/non-sovereign distinction in India."
+  },
+  {
+    "id": 140,
+    "source_id": "id140",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Tortious Liability of the State",
+    "question": "Kasturilal Ralia Ram Jain v. State of U.P. (1965) held:",
+    "options": [
+      "Loss of property while in police custody — State not liable as it was a sovereign function",
+      "State is absolutely liable",
+      "State liable for tort committed by its servants",
+      "State has no immunity"
+    ],
+    "answer": 0,
+    "explanation": "Police custody was held to be a sovereign function — State immune from liability."
+  },
+  {
+    "id": 141,
+    "source_id": "id141",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Tortious Liability of the State",
+    "question": "Nilabati Behera v. State of Orissa (1993) is significant because:",
+    "options": [
+      "State immunity was upheld",
+      "Consumer protection applied",
+      "Supreme Court awarded compensation under Article 32 for custodial death — public law remedy distinct from private tort law",
+      "Sovereign immunity was expanded"
+    ],
+    "answer": 2,
+    "explanation": "This case established constitutional tort as a distinct public law remedy."
+  },
+  {
+    "id": 142,
+    "source_id": "id142",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Tortious Liability of the State",
+    "question": "Rudal Shah v. State of Bihar (1983) is significant because:",
+    "options": [
+      "State immunity was upheld",
+      "Rylands v. Fletcher was applied",
+      "First case where Supreme Court awarded monetary compensation under Article 32 for wrongful detention of 14 years",
+      "Consumer protection applied to State"
+    ],
+    "answer": 2,
+    "explanation": "Rudal Shah was the first case awarding compensation under Article 32 for illegal detention."
+  },
+  {
+    "id": 143,
+    "source_id": "id143",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Tortious Liability of the State",
+    "question": "State of Rajasthan v. Vidyawati (1962) held:",
+    "options": [
+      "State liable for negligent driving by a government employee while on official duty — jeep accident case",
+      "State immune — sovereign function",
+      "No liability for State vehicles",
+      "Driver personally liable only"
+    ],
+    "answer": 0,
+    "explanation": "Driving a jeep is a non-sovereign/commercial function — State liable."
+  },
+  {
+    "id": 144,
+    "source_id": "id144",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Tortious Liability of the State",
+    "question": "D.K. Basu v. State of West Bengal (1997) affirmed:",
+    "options": [
+      "State immunity from tort",
+      "Absolute liability for private parties",
+      "Consumer protection for prisoners",
+      "Monetary compensation as a public law remedy for custodial torture and death under Article 21"
+    ],
+    "answer": 3,
+    "explanation": "D.K. Basu laid down guidelines for arrest and affirmed compensation for custodial violations."
+  },
+  {
+    "id": 145,
+    "source_id": "id145",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Tortious Liability of the State",
+    "question": "Chairman, Railway Board v. Chandrima Das (2000) held:",
+    "options": [
+      "Railways are immune from tort",
+      "Only private law tort remedy available",
+      "Railway is liable for gang rape of a woman in railway premises — public law remedy under Article 226 available",
+      "Contributory negligence reduces compensation"
+    ],
+    "answer": 2,
+    "explanation": "The State's fundamental duty to protect Article 21 rights extends to railway premises."
+  },
+  {
+    "id": 146,
+    "source_id": "id146",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Tortious Liability of the State",
+    "question": "Sebastian M. Hongray v. Union of India (1984) involved:",
+    "options": [
+      "Mandamus for compensation",
+      "Habeas corpus and directed payment of exemplary costs for custodial disappearance",
+      "Certiorari against the State",
+      "Prohibition"
+    ],
+    "answer": 1,
+    "explanation": "The Supreme Court directed exemplary costs for unexplained custodial disappearances."
+  },
+  {
+    "id": 147,
+    "source_id": "id147",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Tortious Liability of the State",
+    "question": "The trend of post-1993 Supreme Court decisions regarding State liability is:",
+    "options": [
+      "Eroding the sovereign/non-sovereign distinction and awarding compensation for constitutional tort",
+      "Expanding sovereign immunity",
+      "Restricting compensation",
+      "Codifying State liability"
+    ],
+    "answer": 0,
+    "explanation": "Post-Nilabati Behera, the Court has progressively expanded State liability through constitutional tort."
+  },
+  {
+    "id": 148,
+    "source_id": "id148",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Tortious Liability of the State",
+    "question": "The concept of 'constitutional tort' refers to:",
+    "options": [
+      "A tort defined in the Constitution",
+      "Violation of fundamental rights by the State giving rise to compensatory remedy under Articles 32/226",
+      "State's absolute liability",
+      "Rylands v. Fletcher applied to State"
+    ],
+    "answer": 1,
+    "explanation": "Constitutional tort is the remedy in public law for State violations of fundamental rights."
+  },
+  {
+    "id": 149,
+    "source_id": "id149",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Consumer Protection Act",
+    "question": "The Consumer Protection Act, 1986 was replaced by:",
+    "options": [
+      "Consumer Protection Act, 2015",
+      "Consumer Protection Act, 2019",
+      "Competition Act, 2019",
+      "It has not been replaced"
+    ],
+    "answer": 1,
+    "explanation": "The Consumer Protection Act 2019 replaced the 1986 Act."
+  },
+  {
+    "id": 150,
+    "source_id": "id150",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Consumer Protection Act",
+    "question": "Under the Consumer Protection Act 1986, 'consumer' means a person who:",
+    "options": [
+      "Buys goods/avails services for consideration, for personal use, not for commercial purpose",
+      "Buys goods/avails services for commercial resale",
+      "Any person who uses goods",
+      "Only the original purchaser"
+    ],
+    "answer": 0,
+    "explanation": "Commercial purpose excludes a person from being a 'consumer' under COPRA."
+  },
+  {
+    "id": 151,
+    "source_id": "id151",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Consumer Protection Act",
+    "question": "The three-tier redressal system under the Consumer Protection Act 1986 consists of:",
+    "options": [
+      "District Forum, State Commission, National Commission",
+      "Lok Adalat, State Commission, Supreme Court",
+      "District Court, High Court, Supreme Court",
+      "Arbitration, Mediation, Conciliation"
+    ],
+    "answer": 0,
+    "explanation": "The three tiers are District Forum, State Commission, and National Commission."
+  },
+  {
+    "id": 152,
+    "source_id": "id152",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Consumer Protection Act",
+    "question": "Pecuniary jurisdiction of the District Consumer Forum (1986 Act) was:",
+    "options": [
+      "Up to Rs. 1 crore",
+      "Up to Rs. 5 lakhs",
+      "Up to Rs. 20 lakhs",
+      "Unlimited"
+    ],
+    "answer": 2,
+    "explanation": "Under 1986 Act: up to Rs. 20 lakhs. Under 2019 Act: up to Rs. 1 crore."
+  },
+  {
+    "id": 153,
+    "source_id": "id153",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Consumer Protection Act",
+    "question": "'Deficiency in service' under the Consumer Protection Act means:",
+    "options": [
+      "Any fault in goods",
+      "Breach of contract only",
+      "Criminal negligence",
+      "Any fault, imperfection, shortcoming or inadequacy in quality, nature and manner of performance of service"
+    ],
+    "answer": 3,
+    "explanation": "Deficiency in service is broadly defined to cover any shortcoming in quality of service."
+  },
+  {
+    "id": 154,
+    "source_id": "id154",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Consumer Protection Act",
+    "question": "Which of the following is NOT a right of consumers under the Consumer Protection Act?",
+    "options": [
+      "Right to safety",
+      "Right to unlimited compensation",
+      "Right to be heard",
+      "Right to redressal"
+    ],
+    "answer": 1,
+    "explanation": "There is no right to unlimited compensation under COPRA."
+  },
+  {
+    "id": 155,
+    "source_id": "id155",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Consumer Protection Act",
+    "question": "Indian Medical Association v. V.P. Shantha (1995) held:",
+    "options": [
+      "Medical profession is outside Consumer Protection Act",
+      "Consumer Protection Act applies only to goods",
+      "Medical negligence is not a consumer dispute",
+      "Medical services fall within the purview of Consumer Protection Act 1986 — doctors and hospitals are covered"
+    ],
+    "answer": 3,
+    "explanation": "This landmark case brought medical services under the ambit of COPRA."
+  },
+  {
+    "id": 156,
+    "source_id": "id156",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Consumer Protection Act",
+    "question": "A complaint under the Consumer Protection Act 1986 must be filed within:",
+    "options": [
+      "1 year",
+      "2 years from the date cause of action arose",
+      "3 years",
+      "No limitation period"
+    ],
+    "answer": 1,
+    "explanation": "The limitation period is 2 years from the date of cause of action."
+  },
+  {
+    "id": 157,
+    "source_id": "id157",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Consumer Protection Act",
+    "question": "Under Section 17 of the Consumer Protection Act 1986, the State Commission has original jurisdiction for complaints exceeding:",
+    "options": [
+      "Rs. 5 lakhs",
+      "Rs. 20 lakhs",
+      "Rs. 1 crore",
+      "Rs. 50 lakhs"
+    ],
+    "answer": 1,
+    "explanation": "State Commission original jurisdiction: Rs. 20 lakhs to Rs. 1 crore (1986 Act)."
+  },
+  {
+    "id": 158,
+    "source_id": "id158",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Consumer Protection Act",
+    "question": "Spring Meadows Hospital v. Harjol Ahluwalia (1998) held:",
+    "options": [
+      "Parents of a child who became a vegetable due to medical negligence — both parents and child are consumers",
+      "Only the child is a consumer",
+      "Medical negligence not a consumer dispute",
+      "Parents have no locus standi"
+    ],
+    "answer": 0,
+    "explanation": "Both the patient and parents are consumers under COPRA in medical negligence cases."
+  },
+  {
+    "id": 159,
+    "source_id": "id159",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Consumer Protection Act",
+    "question": "Under the Consumer Protection Act 1986, a 'complaint' can be filed by:",
+    "options": [
+      "Consumer, registered consumer association, Central or State Government, one or more consumers on behalf of others",
+      "Only the individual consumer",
+      "Only NGOs",
+      "Only the government"
+    ],
+    "answer": 0,
+    "explanation": "COPRA allows class complaints and government complaints in addition to individual consumer complaints."
+  },
+  {
+    "id": 160,
+    "source_id": "id160",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Consumer Protection Act",
+    "question": "Which of the following services is NOT covered under the Consumer Protection Act 1986?",
+    "options": [
+      "Banking, insurance, medical",
+      "Transport and communication",
+      "Free services / services rendered free of charge",
+      "Housing and construction"
+    ],
+    "answer": 2,
+    "explanation": "Services rendered free of charge are excluded from the definition of 'service' under COPRA."
+  },
+  {
+    "id": 161,
+    "source_id": "id161",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Consumer Protection Act",
+    "question": "Ghaziabad Development Authority v. Balbir Singh (2004) — Supreme Court held:",
+    "options": [
+      "Housing authorities are immune",
+      "Compensation for mental agony and harassment by a housing authority is awardable under Consumer Protection Act",
+      "Only statutory damages apply",
+      "Consumer forum has no jurisdiction over housing authorities"
+    ],
+    "answer": 1,
+    "explanation": "Mental agony and harassment are compensable under COPRA against housing authorities."
+  },
+  {
+    "id": 162,
+    "source_id": "id162",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Consumer Protection Act",
+    "question": "Under Section 14(1)(d) of the Consumer Protection Act 1986, the District Forum can award:",
+    "options": [
+      "Compensation for loss or injury suffered due to negligence of opposite party",
+      "Imprisonment",
+      "Criminal fine",
+      "Injunction only"
+    ],
+    "answer": 0,
+    "explanation": "Section 14(1)(d) empowers the District Forum to award compensation for loss or injury."
+  },
+  {
+    "id": 163,
+    "source_id": "id163",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Consumer Protection Act",
+    "question": "Kishore Lal v. Chairman, ESI Corporation (2007) — Supreme Court held that Consumer Forums jurisdiction:",
+    "options": [
+      "Is excluded wherever special tribunals exist",
+      "Cannot entertain disputes involving government bodies",
+      "Is barred by limitation always",
+      "Is concurrent with other remedies unless expressly excluded by a special statute"
+    ],
+    "answer": 3,
+    "explanation": "Consumer Forum jurisdiction is concurrent — not ousted merely by existence of other forums."
+  },
+  {
+    "id": 164,
+    "source_id": "id164",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Consumer Protection Act",
+    "question": "Nizam Institute of Medical Sciences v. Prasanth S. Dhananka (2009) — the Supreme Court awarded Rs. 1 crore for medical negligence. The principle affirmed was:",
+    "options": [
+      "Fixed tariff applies to medical negligence",
+      "Compensation must be 'just' — covering future medical expenses, loss of earnings, pain and suffering comprehensively",
+      "No compensation beyond Rs. 10 lakhs",
+      "COPRA excludes government hospitals"
+    ],
+    "answer": 1,
+    "explanation": "Just compensation must be comprehensive and not merely symbolic."
+  },
+  {
+    "id": 165,
+    "source_id": "id165",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Consumer Protection Act",
+    "question": "Under the Consumer Protection Act 2019, complaints can now be filed:",
+    "options": [
+      "Only in the district where opposite party resides",
+      "Only at the national level",
+      "In the district where complainant resides or works for gain — major shift from 1986 Act",
+      "Only through advocates"
+    ],
+    "answer": 2,
+    "explanation": "The 2019 Act is more consumer-friendly — filing can be at complainant's location."
+  },
+  {
+    "id": 166,
+    "source_id": "id166",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Consumer Protection Act",
+    "question": "Under the Consumer Protection Act 2019, the pecuniary jurisdiction of the National Commission is:",
+    "options": [
+      "Above Rs. 1 crore",
+      "Above Rs. 10 crore",
+      "Above Rs. 20 crore",
+      "Unlimited"
+    ],
+    "answer": 1,
+    "explanation": "Under 2019 Act: National Commission jurisdiction is above Rs. 10 crore."
+  },
+  {
+    "id": 167,
+    "source_id": "id167",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Consumer Protection Act",
+    "question": "Lucknow Development Authority v. M.K. Gupta (1994) established:",
+    "options": [
+      "Government is immune from consumer disputes",
+      "Motor vehicles are consumer goods",
+      "Housing is a service under Consumer Protection Act — public authorities are covered",
+      "Competition law applies to housing"
+    ],
+    "answer": 2,
+    "explanation": "Public authorities offering housing services are covered under COPRA."
+  },
+  {
+    "id": 168,
+    "source_id": "id168",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Consumer Protection Act",
+    "question": "Section 2(o) of the Consumer Protection Act 1986 — which is specifically EXCLUDED from 'service'?",
+    "options": [
+      "Services under a contract of personal service (employment contract)",
+      "Medical services",
+      "Banking services",
+      "Insurance services"
+    ],
+    "answer": 0,
+    "explanation": "Employment/personal service contracts are excluded from the definition of 'service' under COPRA."
+  },
+  {
+    "id": 169,
+    "source_id": "id169",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Consumer Protection Act",
+    "question": "V. Kishan Rao v. Nikhil Super Speciality Hospital (2010) overruled the earlier position that:",
+    "options": [
+      "Doctors are not covered under COPRA",
+      "COPRA excludes government hospitals",
+      "Limitation of 2 years applies to medical cases",
+      "Medical negligence cases under COPRA must always be referred to expert bodies — consumer forums can adjudicate without expert evidence in all cases"
+    ],
+    "answer": 3,
+    "explanation": "Consumer forums need not always refer medical negligence cases to expert committees."
+  },
+  {
+    "id": 170,
+    "source_id": "id170",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Consumer Protection Act",
+    "question": "Ravneet Singh Bagga v. KLM Royal Dutch Airlines (1999) — National Commission held:",
+    "options": [
+      "Airlines are outside COPRA jurisdiction",
+      "Overbooking of confirmed tickets by an airline constitutes deficiency in service under COPRA",
+      "International airlines are immune",
+      "Overbooking is a standard trade practice"
+    ],
+    "answer": 1,
+    "explanation": "Overbooking a confirmed ticket is a deficiency in service under COPRA."
+  },
+  {
+    "id": 171,
+    "source_id": "id171",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Consumer Protection Act",
+    "question": "Maruti Udyog Ltd. v. Susheel Kumar Gabgotra (2006) — the Supreme Court held:",
+    "options": [
+      "Consumer's complaint alone is sufficient proof",
+      "Manufacturer is strictly liable without proof",
+      "Manufacturing defect must be proved by expert evidence; mere opinion of consumer is insufficient",
+      "COPRA does not cover vehicles"
+    ],
+    "answer": 2,
+    "explanation": "Expert evidence is required to establish manufacturing defects in consumer disputes."
+  },
+  {
+    "id": 172,
+    "source_id": "id172",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Consumer Protection Act",
+    "question": "Product liability under the Consumer Protection Act 2019 (Chapter VI) imposes liability on:",
+    "options": [
+      "Only manufacturers",
+      "Product manufacturer, product service provider, and product seller",
+      "Only importers",
+      "Only retailers"
+    ],
+    "answer": 1,
+    "explanation": "Chapter VI of the 2019 Act creates a three-party product liability framework."
+  },
+  {
+    "id": 173,
+    "source_id": "id173",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Consumer Protection Act",
+    "question": "Under the Consumer Protection Act 2019, the Central Consumer Protection Authority (CCPA) has power to:",
+    "options": [
+      "Promote, protect and enforce consumer rights; investigate violations; recall unsafe goods; impose penalties for misleading advertisements",
+      "Replace the National Commission",
+      "Adjudicate all consumer disputes",
+      "Regulate only e-commerce"
+    ],
+    "answer": 0,
+    "explanation": "CCPA is a new regulatory body under the 2019 Act with wide investigative and enforcement powers."
+  },
+  {
+    "id": 174,
+    "source_id": "id174",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Motor Vehicles Act 1988",
+    "question": "The Motor Vehicles Act, 1988 provides for 'no-fault liability' under:",
+    "options": [
+      "Section 166 only",
+      "Section 165 only",
+      "Section 146",
+      "Sections 140 and 163A"
+    ],
+    "answer": 3,
+    "explanation": "Both Section 140 and Section 163A provide no-fault liability mechanisms."
+  },
+  {
+    "id": 175,
+    "source_id": "id175",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Motor Vehicles Act 1988",
+    "question": "Under Section 140 of the Motor Vehicles Act 1988 (no-fault liability), compensation for death is:",
+    "options": [
+      "Rs. 25,000",
+      "Rs. 50,000",
+      "Rs. 1,00,000",
+      "Unlimited"
+    ],
+    "answer": 1,
+    "explanation": "Section 140: Rs. 50,000 for death; Rs. 25,000 for grievous hurt (original 1988 amounts)."
+  },
+  {
+    "id": 176,
+    "source_id": "id176",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Motor Vehicles Act 1988",
+    "question": "'No fault liability' under the Motor Vehicles Act means:",
+    "options": [
+      "Compensation is payable regardless of fault or negligence of the driver",
+      "Claimant must prove negligence",
+      "Insurance company is not liable",
+      "Owner is not liable"
+    ],
+    "answer": 0,
+    "explanation": "No fault liability does not require proof of negligence — it is a strict liability mechanism."
+  },
+  {
+    "id": 177,
+    "source_id": "id177",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Motor Vehicles Act 1988",
+    "question": "The Claims Tribunal under the Motor Vehicles Act 1988 is constituted under:",
+    "options": [
+      "Section 165",
+      "Section 140",
+      "Section 163A",
+      "Section 110"
+    ],
+    "answer": 0,
+    "explanation": "Section 165 provides for the constitution of Motor Accidents Claims Tribunals (MACT)."
+  },
+  {
+    "id": 178,
+    "source_id": "id178",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Motor Vehicles Act 1988",
+    "question": "Third-party insurance under the Motor Vehicles Act 1988 is:",
+    "options": [
+      "Optional",
+      "Required only for commercial vehicles",
+      "Compulsory",
+      "Required only in metropolitan cities"
+    ],
+    "answer": 2,
+    "explanation": "Section 146 makes third-party insurance compulsory for all motor vehicles."
+  },
+  {
+    "id": 179,
+    "source_id": "id179",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Motor Vehicles Act 1988",
+    "question": "Sarla Verma v. Delhi Transport Corporation (2009) is a landmark Supreme Court case on:",
+    "options": [
+      "No-fault liability under MV Act",
+      "Standardization of the multiplier method for calculating compensation in motor accident claims",
+      "Third party insurance",
+      "Claims tribunal jurisdiction"
+    ],
+    "answer": 1,
+    "explanation": "Sarla Verma standardized the multiplier method and income assessment for motor accident compensation."
+  },
+  {
+    "id": 180,
+    "source_id": "id180",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Motor Vehicles Act 1988",
+    "question": "National Insurance Co. Ltd. v. Pranay Sethi (2017) — the Constitution Bench held:",
+    "options": [
+      "No fault liability",
+      "Addition of future prospects while computing compensation for loss of dependency",
+      "Third party insurance mandatory",
+      "Compulsory insurance"
+    ],
+    "answer": 1,
+    "explanation": "Future prospects must be added — 40% for employed below 40 years, 25% for 40-50 years, 10% above 50."
+  },
+  {
+    "id": 181,
+    "source_id": "id181",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Motor Vehicles Act 1988",
+    "question": "Section 36 of the Motor Vehicles Act 1988 requires every driver of a transport vehicle to hold:",
+    "options": [
+      "An ordinary driving licence",
+      "A commercial permit",
+      "A transport vehicle licence (badge)",
+      "Central government authorisation"
+    ],
+    "answer": 2,
+    "explanation": "Transport vehicle drivers must hold a special transport licence/badge under Section 36."
+  },
+  {
+    "id": 182,
+    "source_id": "id182",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Motor Vehicles Act 1988",
+    "question": "Nagappa v. Gurudayal Singh (2003) — the Supreme Court held:",
+    "options": [
+      "MACT cannot award compensation beyond what is claimed in the petition",
+      "Only insurance companies can be respondents",
+      "Death claims have a fixed ceiling",
+      "MACT can award compensation exceeding the amount claimed — tribunal is not bound by amount in application"
+    ],
+    "answer": 3,
+    "explanation": "MACT has wide powers and is not limited by the amount claimed in the application."
+  },
+  {
+    "id": 183,
+    "source_id": "id183",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Motor Vehicles Act 1988",
+    "question": "United India Insurance Co. v. Lehru (2003) — Supreme Court held:",
+    "options": [
+      "A person travelling on the roof of a vehicle is a third party entitled to compensation",
+      "Roof passengers are not third parties",
+      "Insurance company is not liable for roof passengers",
+      "No fault liability does not apply to roof passengers"
+    ],
+    "answer": 0,
+    "explanation": "Roof passengers are third parties — insurance company cannot deny compensation on that ground."
+  },
+  {
+    "id": 184,
+    "source_id": "id184",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Motor Vehicles Act 1988",
+    "question": "Section 149(2) of the Motor Vehicles Act 1988 — which is a valid ground for insurer to defend a claim?",
+    "options": [
+      "Vehicle involved in an accident on a private road",
+      "Vehicle used without a valid permit",
+      "Claim exceeds policy amount",
+      "Claimant is a relative of the deceased"
+    ],
+    "answer": 1,
+    "explanation": "Use without a valid permit is a ground under Section 149(2) for insurer's defence."
+  },
+  {
+    "id": 185,
+    "source_id": "id185",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Motor Vehicles Act 1988",
+    "question": "Oriental Insurance Co. v. Nanjappan (2004) — the principle laid down is:",
+    "options": [
+      "Even where the driver had no valid licence, insurer must pay to third party and then recover from insured — 'pay and recover' rule",
+      "Insurer is completely absolved when licence is invalid",
+      "MACT has no jurisdiction in licence disputes",
+      "Criminal liability replaces civil liability"
+    ],
+    "answer": 0,
+    "explanation": "The pay-and-recover principle protects innocent third parties from insurer defences."
+  },
+  {
+    "id": 186,
+    "source_id": "id186",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Motor Vehicles Act 1988",
+    "question": "The Motor Vehicles (Amendment) Act 2019 enhanced no-fault compensation under Section 164 to:",
+    "options": [
+      "Rs. 1 lakh for death; Rs. 50,000 for grievous hurt",
+      "Rs. 5 lakhs for death; Rs. 2.5 lakhs for grievous hurt",
+      "Rs. 10 lakhs for death; Rs. 5 lakhs for grievous hurt",
+      "Unlimited compensation"
+    ],
+    "answer": 1,
+    "explanation": "The 2019 Amendment significantly enhanced no-fault compensation amounts."
+  },
+  {
+    "id": 187,
+    "source_id": "id187",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Motor Vehicles Act 1988",
+    "question": "National Insurance Co. Ltd. v. Swaran Singh (2004) — Constitution Bench laid down that:",
+    "options": [
+      "Invalid licence always absolves insurer",
+      "Insurer has no defence against third parties",
+      "Disqualification of driver does not automatically absolve insurer from third party liability — insurer must prove breach was fundamental",
+      "Third party claims are absolute"
+    ],
+    "answer": 2,
+    "explanation": "Merely proving no valid licence is not enough — insurer must show fundamental breach."
+  },
+  {
+    "id": 188,
+    "source_id": "id188",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Motor Vehicles Act 1988",
+    "question": "The structured formula for compensation under Section 163A of the MV Act is based on:",
+    "options": [
+      "Second Schedule — structured formula based on age and income",
+      "Multiplier method",
+      "Judicial discretion",
+      "Actuarial calculation"
+    ],
+    "answer": 0,
+    "explanation": "Section 163A uses the Second Schedule structured formula as an alternative to the fault-based claim."
+  },
+  {
+    "id": 189,
+    "source_id": "id189",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Motor Vehicles Act 1988",
+    "question": "The multiplier method for computing compensation considers:",
+    "options": [
+      "Actual loss of earnings only",
+      "Fixed sum per accident",
+      "Actuarial tables only",
+      "Annual dependency multiplied by multiplier based on age from the Second Schedule"
+    ],
+    "answer": 3,
+    "explanation": "The multiplier reflects the number of years the dependency would have continued."
+  },
+  {
+    "id": 190,
+    "source_id": "id190",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Motor Vehicles Act 1988",
+    "question": "Pushpabai Purshottam Udeshi v. Ranjit Ginning and Pressing Co. (1977) is a leading case on:",
+    "options": [
+      "Res ipsa loquitur in motor accident cases — owner is prima facie negligent when employed driver causes accident",
+      "No fault liability",
+      "Compulsory insurance",
+      "Claims tribunal jurisdiction"
+    ],
+    "answer": 0,
+    "explanation": "The owner of the vehicle bears prima facie liability when their employed driver causes an accident."
+  },
+  {
+    "id": 191,
+    "source_id": "id191",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Motor Vehicles Act 1988",
+    "question": "General Manager, Kerala SRTC v. Susamma Thomas (1994) is significant for:",
+    "options": [
+      "No fault liability",
+      "Laying down the basis for the multiplier method in motor accident compensation before Sarla Verma",
+      "Third party insurance",
+      "Claims tribunal procedure"
+    ],
+    "answer": 1,
+    "explanation": "Susamma Thomas established the multiplier method framework later refined in Sarla Verma."
+  },
+  {
+    "id": 192,
+    "source_id": "id192",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Motor Vehicles Act 1988",
+    "question": "Under the Motor Vehicles Act 1988, an insurer can avoid liability to a third party claimant on which grounds?",
+    "options": [
+      "Vehicle involved in accident on a state highway",
+      "Claimant is a minor",
+      "Accident occurred at night",
+      "Vehicle driven without a valid licence, policy obtained by misrepresentation, vehicle used beyond permitted purpose — all subject to pay and recover"
+    ],
+    "answer": 3,
+    "explanation": "All listed grounds allow insurer to recover from insured after paying third party under pay-and-recover."
+  },
+  {
+    "id": 193,
+    "source_id": "id193",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Competition Act 2002",
+    "question": "The Competition Act, 2002 replaced:",
+    "options": [
+      "Consumer Protection Act, 1986",
+      "MRTP Act, 1969",
+      "Companies Act, 1956",
+      "FEMA, 1999"
+    ],
+    "answer": 1,
+    "explanation": "The Competition Act 2002 replaced the Monopolies and Restrictive Trade Practices Act 1969."
+  },
+  {
+    "id": 194,
+    "source_id": "id194",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Competition Act 2002",
+    "question": "The Competition Commission of India (CCI) was established under:",
+    "options": [
+      "Article 39 of the Constitution",
+      "MRTP Act",
+      "Companies Act",
+      "Section 7 of the Competition Act, 2002"
+    ],
+    "answer": 3,
+    "explanation": "Section 7 of the Competition Act provides for the establishment of CCI."
+  },
+  {
+    "id": 195,
+    "source_id": "id195",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Competition Act 2002",
+    "question": "The Competition Commission of India (CCI) was operationalised in:",
+    "options": [
+      "2003",
+      "2007",
+      "2009",
+      "2002"
+    ],
+    "answer": 2,
+    "explanation": "Though the Act was passed in 2002, CCI became fully operational in 2009."
+  },
+  {
+    "id": 196,
+    "source_id": "id196",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Competition Act 2002",
+    "question": "Under Section 3 of the Competition Act 2002, which agreements are prohibited?",
+    "options": [
+      "All commercial agreements",
+      "Government contracts",
+      "International trade agreements",
+      "Anti-competitive agreements — horizontal and vertical"
+    ],
+    "answer": 3,
+    "explanation": "Section 3 prohibits both horizontal (per se) and vertical (rule of reason) anti-competitive agreements."
+  },
+  {
+    "id": 197,
+    "source_id": "id197",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Competition Act 2002",
+    "question": "Horizontal agreements presumed to be anti-competitive (per se rule) include:",
+    "options": [
+      "Exclusive supply agreements",
+      "Price fixing, bid rigging, market sharing, output limitation",
+      "Tie-in arrangements",
+      "Resale price maintenance"
+    ],
+    "answer": 1,
+    "explanation": "Horizontal agreements among competitors are presumed to have AAEC — per se void."
+  },
+  {
+    "id": 198,
+    "source_id": "id198",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Competition Act 2002",
+    "question": "Section 4 of the Competition Act 2002 deals with:",
+    "options": [
+      "Abuse of dominant position",
+      "Anti-competitive agreements",
+      "Regulation of combinations",
+      "CCI composition"
+    ],
+    "answer": 0,
+    "explanation": "Section 4 prohibits abuse of dominant position."
+  },
+  {
+    "id": 199,
+    "source_id": "id199",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Competition Act 2002",
+    "question": "'Dominant position' under the Competition Act 2002 is determined with respect to:",
+    "options": [
+      "Relevant market (relevant product market + relevant geographic market)",
+      "National market only",
+      "Global market",
+      "As determined by the government"
+    ],
+    "answer": 0,
+    "explanation": "Dominance is assessed in the context of the relevant market."
+  },
+  {
+    "id": 200,
+    "source_id": "id200",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Competition Act 2002",
+    "question": "'Combinations' under the Competition Act 2002 (Sections 5 & 6) refer to:",
+    "options": [
+      "Any business partnership",
+      "Government contracts",
+      "All joint ventures",
+      "Mergers, amalgamations, and acquisitions beyond prescribed thresholds requiring CCI approval"
+    ],
+    "answer": 3,
+    "explanation": "Combinations above prescribed asset/turnover thresholds require mandatory CCI approval."
+  },
+  {
+    "id": 201,
+    "source_id": "id201",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Competition Act 2002",
+    "question": "The per se rule vs the rule of reason in competition law:",
+    "options": [
+      "Per se — certain agreements are inherently anti-competitive; Rule of reason — effects are assessed",
+      "Both are the same",
+      "Per se applies to vertical agreements; Rule of reason to horizontal",
+      "Rule of reason applies only in criminal competition matters"
+    ],
+    "answer": 0,
+    "explanation": "Horizontal agreements (price fixing etc.) are per se; vertical agreements assessed under rule of reason."
+  },
+  {
+    "id": 202,
+    "source_id": "id202",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Competition Act 2002",
+    "question": "CCI v. Steel Authority of India Ltd. (2010) — the Supreme Court held:",
+    "options": [
+      "CCI has no interim powers",
+      "CCI can impose criminal penalties",
+      "CCI has power to grant interim relief under Section 33 after forming a prima facie opinion",
+      "CCI has jurisdiction only over private companies"
+    ],
+    "answer": 2,
+    "explanation": "CCI can grant interim orders under Section 33 upon forming a prima facie view."
+  },
+  {
+    "id": 203,
+    "source_id": "id203",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Competition Act 2002",
+    "question": "The 'relevant product market' under the Competition Act 2002 is defined under:",
+    "options": [
+      "Section 2(t)",
+      "Section 4",
+      "Section 19(7)",
+      "Section 5"
+    ],
+    "answer": 2,
+    "explanation": "Section 19(7) defines relevant product market based on demand-side substitutability."
+  },
+  {
+    "id": 204,
+    "source_id": "id204",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Competition Act 2002",
+    "question": "In Belaire Owner's Association v. DLF Ltd. (2011), CCI found DLF guilty of:",
+    "options": [
+      "Abuse of dominant position — imposition of one-sided terms on homebuyers in Gurgaon",
+      "Anti-competitive agreement",
+      "Predatory pricing",
+      "Cartelisation"
+    ],
+    "answer": 0,
+    "explanation": "DLF imposed unfair and one-sided terms on buyers — abuse of dominant position under Section 4."
+  },
+  {
+    "id": 205,
+    "source_id": "id205",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Competition Act 2002",
+    "question": "A 'cartel' under the Competition Act means:",
+    "options": [
+      "An association of producers, sellers or distributors who by agreement fix prices, limit production, or share markets",
+      "Any trade association",
+      "A government-approved combination",
+      "A joint venture"
+    ],
+    "answer": 0,
+    "explanation": "Cartels are the most serious form of anti-competitive conduct under the Competition Act."
+  },
+  {
+    "id": 206,
+    "source_id": "id206",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Competition Act 2002",
+    "question": "The leniency programme under the Competition Act allows:",
+    "options": [
+      "A cartel member who discloses the cartel to CCI to receive reduction in penalty",
+      "Any company to avoid all penalties",
+      "Government enterprises to avoid competition law",
+      "Small enterprises to be exempt from Competition Act"
+    ],
+    "answer": 0,
+    "explanation": "Leniency (lesser penalty) is available to cartel members who cooperate with CCI investigations."
+  },
+  {
+    "id": 207,
+    "source_id": "id207",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Competition Act 2002",
+    "question": "'Predatory pricing' under Section 4 of the Competition Act means:",
+    "options": [
+      "High pricing",
+      "Sale of goods or services at a price below cost with intent to eliminate competitors or reduce competition",
+      "Price discrimination",
+      "Price fixing with competitors"
+    ],
+    "answer": 1,
+    "explanation": "Predatory pricing is a form of abuse of dominance under Section 4."
+  },
+  {
+    "id": 208,
+    "source_id": "id208",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Competition Act 2002",
+    "question": "The Competition (Amendment) Act, 2023 introduced:",
+    "options": [
+      "Complete overhaul of the Act",
+      "Criminal liability for cartels",
+      "Merger of CCI with SEBI",
+      "Deal value threshold for combinations, settlement and commitment mechanism, reduced timelines for CCI approval"
+    ],
+    "answer": 3,
+    "explanation": "The 2023 Amendment modernised the combination regime and added settlement mechanisms."
+  },
+  {
+    "id": 209,
+    "source_id": "id209",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Competition Act 2002",
+    "question": "Under Section 6(2) of the Competition Act 2002, parties to a combination must notify CCI within:",
+    "options": [
+      "7 days of approval of merger by board/shareholders",
+      "30 days",
+      "60 days",
+      "90 days"
+    ],
+    "answer": 1,
+    "explanation": "Notification must be made within 30 days of the triggering event (board/shareholder approval)."
+  },
+  {
+    "id": 210,
+    "source_id": "id210",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Competition Act 2002",
+    "question": "FICCI-Multiplex Association of India v. United Producers/Distributors Forum (2011) — CCI found that:",
+    "options": [
+      "Coordinated refusal by film producers to supply films to multiplex owners constituted an anti-competitive agreement under Section 3",
+      "Film distribution is outside Competition Act",
+      "Multiplex owners abused dominant position",
+      "Vertical agreements were per se void"
+    ],
+    "answer": 0,
+    "explanation": "Collective refusal to deal is an anti-competitive horizontal agreement under Section 3."
+  },
+  {
+    "id": 211,
+    "source_id": "id211",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Competition Act 2002",
+    "question": "Section 19(3) of the Competition Act 2002 lists factors for determining AAEC. Which is NOT one of them?",
+    "options": [
+      "Revenue of the enterprise",
+      "Creation of barriers to entry",
+      "Foreclosure of competition",
+      "Accrual of benefits to consumers"
+    ],
+    "answer": 0,
+    "explanation": "Revenue of the enterprise is not a factor under Section 19(3) for AAEC determination."
+  },
+  {
+    "id": 212,
+    "source_id": "id212",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Competition Act 2002",
+    "question": "Under Section 27 of the Competition Act 2002, CCI can pass which orders?",
+    "options": [
+      "Imprisonment",
+      "Cease and desist order, modification of agreement, penalty up to 10% of average turnover",
+      "Winding up of enterprise",
+      "Criminal prosecution directly"
+    ],
+    "answer": 1,
+    "explanation": "Section 27 empowers CCI to order cessation, modification, and impose financial penalties."
+  },
+  {
+    "id": 213,
+    "source_id": "id213",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Competition Act 2002",
+    "question": "Excel Crop Care Ltd. v. CCI (2017) — the Supreme Court held:",
+    "options": [
+      "Exchange of price information between competitors can constitute an anti-competitive agreement under Section 3",
+      "Price information exchange is always lawful",
+      "Only written agreements are covered",
+      "Cartel requires a formal agreement document"
+    ],
+    "answer": 0,
+    "explanation": "Even circumstantial evidence of coordination can establish a cartel under Section 3."
+  },
+  {
+    "id": 214,
+    "source_id": "id214",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Competition Act 2002",
+    "question": "A 'horizontal agreement' under Section 3 of the Competition Act 2002 is one between:",
+    "options": [
+      "Enterprises at different stages (supplier-distributor)",
+      "Government and private enterprises",
+      "Parent and subsidiary companies",
+      "Enterprises at the same stage of production/distribution — competitors"
+    ],
+    "answer": 3,
+    "explanation": "Horizontal agreements are between competitors at the same level of the supply chain."
+  },
+  {
+    "id": 215,
+    "source_id": "id215",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Competition Act 2002",
+    "question": "The Director General investigates cases referred by CCI under which section of the Competition Act?",
+    "options": [
+      "Section 41",
+      "Section 33",
+      "Section 26",
+      "Section 19"
+    ],
+    "answer": 2,
+    "explanation": "Section 26 provides for investigation by the Director General on CCI's direction."
+  },
+  {
+    "id": 216,
+    "source_id": "id216",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "The rule in Wilkinson v. Downton (1897) relates to:",
+    "options": [
+      "Strict liability",
+      "Nuisance",
+      "Intentional infliction of nervous shock as a tort",
+      "Defamation"
+    ],
+    "answer": 2,
+    "explanation": "A false statement intentionally causing psychiatric harm is an independent tort."
+  },
+  {
+    "id": 217,
+    "source_id": "id217",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "The principle of 'actio personalis moritur cum persona' was modified in India by:",
+    "options": [
+      "The Limitation Act",
+      "The Code of Civil Procedure",
+      "The Consumer Protection Act",
+      "The Legal Representatives Suits Act, 1855 — allowing legal representatives to sue/be sued in tort"
+    ],
+    "answer": 3,
+    "explanation": "The Legal Representatives Suits Act 1855 allows causes of action to survive death."
+  },
+  {
+    "id": 218,
+    "source_id": "id218",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "Under the Fatal Accidents Act 1855 (India), who can sue for compensation upon death caused by a tort?",
+    "options": [
+      "Only spouse",
+      "Legal representatives/heirs of the deceased",
+      "Only children",
+      "Only parents"
+    ],
+    "answer": 1,
+    "explanation": "The Fatal Accidents Act 1855 allows legal representatives to sue for wrongful death."
+  },
+  {
+    "id": 219,
+    "source_id": "id219",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "The correct chronological order of key legislation is:",
+    "options": [
+      "Motor Vehicles Act → Consumer Protection Act → Competition Act → Fatal Accidents Act",
+      "Consumer Protection Act → Motor Vehicles Act → Competition Act → Fatal Accidents Act",
+      "Competition Act → Motor Vehicles Act → Consumer Protection Act → Fatal Accidents Act",
+      "Fatal Accidents Act 1855 → Consumer Protection Act 1986 → Motor Vehicles Act 1988 → Competition Act 2002"
+    ],
+    "answer": 3,
+    "explanation": "Fatal Accidents Act 1855 is the oldest; Competition Act 2002 is the most recent among these."
+  },
+  {
+    "id": 220,
+    "source_id": "id220",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "Absolute privileges in defamation (no malice can defeat them) include:",
+    "options": [
+      "Parliamentary proceedings, judicial proceedings, State communications between high officials",
+      "Media reports, fair comment, justification",
+      "Academic publications, trade union communications, employer references",
+      "All of the above"
+    ],
+    "answer": 0,
+    "explanation": "Only parliamentary, judicial, and certain State communications enjoy absolute privilege."
+  },
+  {
+    "id": 221,
+    "source_id": "id221",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "Glasgow Corporation v. Muir (1943) is related to:",
+    "options": [
+      "Strict liability",
+      "Nuisance",
+      "Objective standard of reasonable foreseeability in negligence",
+      "Defamation"
+    ],
+    "answer": 2,
+    "explanation": "Lord Macmillan confirmed that foreseeability is judged objectively — what the reasonable man would foresee."
+  },
+  {
+    "id": 222,
+    "source_id": "id222",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "The 'polluter pays' principle in Indian environmental tort law was significantly advanced in:",
+    "options": [
+      "M.C. Mehta v. Union of India (Ganga Pollution case, 1988)",
+      "Kasturilal v. U.P.",
+      "Sarla Verma case",
+      "Nilabati Behera case"
+    ],
+    "answer": 0,
+    "explanation": "The Ganga Pollution case applied the polluter pays principle in Indian environmental law."
+  },
+  {
+    "id": 223,
+    "source_id": "id223",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "Subhash Kumar v. State of Bihar (1991) — the Supreme Court recognised:",
+    "options": [
+      "Absolute liability of industries",
+      "Right to pollution-free water and air as part of the right to life under Article 21",
+      "Consumer rights",
+      "Motor vehicle compensation"
+    ],
+    "answer": 1,
+    "explanation": "The right to a clean environment is part of the right to life under Article 21."
+  },
+  {
+    "id": 224,
+    "source_id": "id224",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "The Environment Protection Act, 1986 was enacted largely in response to:",
+    "options": [
+      "Oleum Gas Leak",
+      "Floods in Assam",
+      "Nuclear tests in Rajasthan",
+      "Bhopal Gas Tragedy, December 1984"
+    ],
+    "answer": 3,
+    "explanation": "The Bhopal Gas Tragedy directly prompted the enactment of the Environment Protection Act 1986."
+  },
+  {
+    "id": 225,
+    "source_id": "id225",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "Halsey v. Esso Petroleum (1961) covered both public and private nuisance in relation to:",
+    "options": [
+      "Water contamination",
+      "Strict liability for oil",
+      "Smell, acid smuts, and noise from an oil depot — nuisance upheld",
+      "Trespass to land"
+    ],
+    "answer": 2,
+    "explanation": "The case involved multiple forms of interference — all constituting nuisance."
+  },
+  {
+    "id": 226,
+    "source_id": "id226",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "In contributory negligence under Indian law:",
+    "options": [
+      "It is a complete defence",
+      "It bars the claim entirely",
+      "It results in apportionment of damages",
+      "It is not recognised"
+    ],
+    "answer": 2,
+    "explanation": "Indian courts apply the apportionment principle analogous to the 1945 UK Act."
+  },
+  {
+    "id": 227,
+    "source_id": "id227",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "The principle 'joint tortfeasors' means:",
+    "options": [
+      "Each tortfeasor is jointly and severally liable for the whole damage",
+      "Each tortfeasor pays proportional damages only",
+      "Only the principal tortfeasor is liable",
+      "Damages are divided equally"
+    ],
+    "answer": 0,
+    "explanation": "Each joint tortfeasor is fully liable — the plaintiff can claim the full amount from any one of them."
+  },
+  {
+    "id": 228,
+    "source_id": "id228",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "Automobiles Dealers Association v. Global Automobiles (2012) — CCI held that exclusive territorial arrangements by automobile companies:",
+    "options": [
+      "Are always exempt",
+      "Amount to per se violations",
+      "Are outside CCI's jurisdiction",
+      "Could constitute vertical anti-competitive agreements under Section 3(4) — examined under rule of reason"
+    ],
+    "answer": 3,
+    "explanation": "Vertical agreements in automobile distribution are assessed under the rule of reason."
+  },
+  {
+    "id": 229,
+    "source_id": "id229",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "Charan Singh v. Healing Touch Hospital (2000) — the National Commission held regarding compensation:",
+    "options": [
+      "Compensation should be exemplary always",
+      "No compensation for medical services",
+      "Contributory negligence fully bars compensation",
+      "Compensation should be fair and not a windfall — proportionate to loss suffered"
+    ],
+    "answer": 3,
+    "explanation": "Compensation under COPRA should be fair and commensurate — not a windfall."
+  },
+  {
+    "id": 230,
+    "source_id": "id230",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "Under 'restrictive trade practice' under the Consumer Protection Act 1986, which is correct?",
+    "options": [
+      "Any restrictive business agreement",
+      "A trade practice which tends to bring about manipulation of price or conditions of delivery to affect flow of supplies creating unjustified costs/restrictions on consumers",
+      "Price fixation only",
+      "Monopolistic practice only"
+    ],
+    "answer": 1,
+    "explanation": "Restrictive trade practice involves manipulation affecting supply flow and imposing unjustified costs."
+  },
+  {
+    "id": 231,
+    "source_id": "id231",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "The de minimis exemption in competition law means:",
+    "options": [
+      "All small enterprises are exempt from Competition Act",
+      "Only MNCs are covered",
+      "Enterprises below certain turnover/asset thresholds are exempt from provisions relating to combinations",
+      "Section 3 does not apply to small traders"
+    ],
+    "answer": 2,
+    "explanation": "Small combinations below prescribed thresholds are exempt from mandatory CCI notification."
+  },
+  {
+    "id": 232,
+    "source_id": "id232",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "Raj Rani v. Oriental Insurance (2009) — regarding future prospects in motor accident compensation:",
+    "options": [
+      "Future prospects are not considered",
+      "Only actual income at time of death counts",
+      "Future prospects must be added to income — 50% addition for those under 40 years",
+      "Future prospects added only for government employees"
+    ],
+    "answer": 2,
+    "explanation": "Future prospects add 50% for under 40, 30% for 40-50, 15% for above 50 (later refined in Pranay Sethi)."
+  },
+  {
+    "id": 233,
+    "source_id": "id233",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "Tort law is distinguished from criminal law primarily because:",
+    "options": [
+      "Tort is a public wrong; crime is a private wrong",
+      "Tort is a private wrong; the remedy is compensation to the aggrieved party",
+      "Both are the same",
+      "Tort requires imprisonment"
+    ],
+    "answer": 1,
+    "explanation": "Tort is a private wrong — the remedy (unliquidated damages) goes to the injured party, not the State."
+  },
+  {
+    "id": 234,
+    "source_id": "id234",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "Fault liability is based on the principle:",
+    "options": [
+      "No liability without fault",
+      "Strict liability regardless of fault",
+      "Absolute liability",
+      "Statutory liability"
+    ],
+    "answer": 0,
+    "explanation": "Fault liability requires proof of intentional or negligent wrongdoing."
+  },
+  {
+    "id": 235,
+    "source_id": "id235",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "The test for nuisance is:",
+    "options": [
+      "Malicious use",
+      "Negligent use only",
+      "Intentional harm only",
+      "Reasonable user of land"
+    ],
+    "answer": 3,
+    "explanation": "The reasonable user test balances the defendant's use against the plaintiff's right to enjoyment."
+  },
+  {
+    "id": 236,
+    "source_id": "id236",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "Which of the following is a defence to private nuisance?",
+    "options": [
+      "Statutory authority",
+      "Prescriptive right (20 years)",
+      "Both A and B",
+      "Malice of defendant"
+    ],
+    "answer": 2,
+    "explanation": "Both statutory authority and a prescriptive right (long use) are defences to private nuisance."
+  },
+  {
+    "id": 237,
+    "source_id": "id237",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "The absolute liability principle applies in India to:",
+    "options": [
+      "All enterprises",
+      "Only government enterprises",
+      "Only MNCs",
+      "Enterprises engaged in hazardous or inherently dangerous industry"
+    ],
+    "answer": 3,
+    "explanation": "Absolute liability under M.C. Mehta applies to industries dealing in hazardous/dangerous activities."
+  },
+  {
+    "id": 238,
+    "source_id": "id238",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "Parental authority as a defence in tort covers:",
+    "options": [
+      "Any act by a parent",
+      "Reasonable and moderate acts done in good faith for child's benefit",
+      "Corporal punishment always",
+      "None of the above"
+    ],
+    "answer": 1,
+    "explanation": "Only reasonable acts done in good faith for the child's benefit are protected."
+  },
+  {
+    "id": 239,
+    "source_id": "id239",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "Inevitable accident means:",
+    "options": [
+      "Any accident",
+      "Act of God only",
+      "An accident not avoidable by any precaution a reasonable man could be expected to take",
+      "Negligent accident"
+    ],
+    "answer": 2,
+    "explanation": "Inevitable accident is distinct from Act of God — it covers human-caused but unpreventable events."
+  },
+  {
+    "id": 240,
+    "source_id": "id240",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "Necessity as a defence in tort:",
+    "options": [
+      "Justifies intentional harm to prevent greater harm",
+      "Is the same as volenti",
+      "Is available only in criminal law",
+      "Requires consent of the plaintiff"
+    ],
+    "answer": 0,
+    "explanation": "Necessity permits an intentional act that would otherwise be a tort in order to prevent greater harm."
+  },
+  {
+    "id": 241,
+    "source_id": "id241",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "Which section of the Motor Vehicles Act 1988 deals with compulsory third-party insurance?",
+    "options": [
+      "Section 140",
+      "Section 146",
+      "Section 165",
+      "Section 163A"
+    ],
+    "answer": 1,
+    "explanation": "Section 146 makes third-party insurance mandatory for all motor vehicles."
+  },
+  {
+    "id": 242,
+    "source_id": "id242",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "Under Section 166(3) of the Motor Vehicles Act 1988, where an accident involves death, an application for compensation may be made by:",
+    "options": [
+      "Only legal heirs",
+      "Only the insurer",
+      "Legal representatives of deceased, any agent authorised by them, or the insurer",
+      "Only the police"
+    ],
+    "answer": 2,
+    "explanation": "Section 166(3) allows legal representatives and their agents to file compensation applications."
+  },
+  {
+    "id": 243,
+    "source_id": "id243",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "Unfair trade practice under the Consumer Protection Act includes:",
+    "options": [
+      "Reasonable pricing only",
+      "False representation of goods, misleading advertisement, offering gifts or prizes with intent to deceive",
+      "Refusal to sell",
+      "Import of goods"
+    ],
+    "answer": 1,
+    "explanation": "Unfair trade practices include false representations, misleading ads, and deceptive prize offers."
+  },
+  {
+    "id": 244,
+    "source_id": "id244",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "Anns v. Merton LBC (1978) established which test for duty of care?",
+    "options": [
+      "Three-part Caparo test",
+      "Bolam test",
+      "Neighbour principle only",
+      "Two-stage test — proximity/foreseeability + policy reasons to limit duty"
+    ],
+    "answer": 3,
+    "explanation": "Lord Wilberforce's two-stage test was later modified and replaced by the Caparo three-part test."
+  },
+  {
+    "id": 245,
+    "source_id": "id245",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "The Gloucester Grammar School case (1410) is the earliest illustration of:",
+    "options": [
+      "Injuria sine damno",
+      "Strict liability",
+      "Nuisance",
+      "Damnum sine injuria"
+    ],
+    "answer": 3,
+    "explanation": "Opening a rival school caused financial loss but no legal wrong — damnum sine injuria."
+  },
+  {
+    "id": 246,
+    "source_id": "id246",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "Halsey v. Esso Petroleum (1961) is a case establishing liability for:",
+    "options": [
+      "Both public and private nuisance simultaneously — smell, acid smuts, noise",
+      "Strict liability only",
+      "Trespass to land only",
+      "Rylands v. Fletcher only"
+    ],
+    "answer": 0,
+    "explanation": "The case is unique in covering both public and private nuisance arising from the same defendant's activities."
+  },
+  {
+    "id": 247,
+    "source_id": "id247",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "The Wilkinson v. Downton (1897) rule has been absorbed under which modern tort category?",
+    "options": [
+      "Negligence",
+      "Strict liability",
+      "Nuisance",
+      "Intentional infliction of emotional distress / harassment"
+    ],
+    "answer": 3,
+    "explanation": "Wilkinson v. Downton now falls under intentional infliction of emotional distress as an independent tort."
+  },
+  {
+    "id": 248,
+    "source_id": "id248",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "Under the Consumer Protection Act 2019, e-commerce platforms are:",
+    "options": [
+      "Specifically regulated — must provide seller information, cannot indulge in unfair trade practices",
+      "Completely exempt",
+      "Only liable for defective goods",
+      "Regulated only by IT Act"
+    ],
+    "answer": 0,
+    "explanation": "The 2019 Act specifically includes e-commerce regulation — a major departure from the 1986 Act."
+  },
+  {
+    "id": 249,
+    "source_id": "id249",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "Under the Competition Act 2002, maximum penalty for cartelisation is:",
+    "options": [
+      "Rs. 10 crore fixed",
+      "5% of turnover",
+      "Imprisonment only",
+      "Up to 3 times profit per year of continuation of cartel OR 10% of average turnover, whichever is higher"
+    ],
+    "answer": 3,
+    "explanation": "The cartel penalty is the most severe under the Competition Act — up to 3× profit per year."
+  },
+  {
+    "id": 250,
+    "source_id": "id250",
+    "subject": "Law of Torts and Consumer Protection",
+    "topic": "Miscellaneous Torts",
+    "question": "Penalty for misleading advertisement under the Consumer Protection Act 2019 is:",
+    "options": [
+      "Rs. 1 lakh fixed penalty",
+      "Only injunction, no fine",
+      "Criminal imprisonment only",
+      "Up to Rs. 10 lakh (first offence), Rs. 50 lakh (subsequent offence); endorsers also liable"
+    ],
+    "answer": 3,
+    "explanation": "The 2019 Act introduced significant penalties for misleading ads and made endorsers liable."
+  }
+]

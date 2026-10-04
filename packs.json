@@ -1,8 +1,34 @@
 [
-  { "file": "pack-constitutional-amendments.json", "unit": "Constitutional and Administrative Law" },
-  { "file": "pack-constitutional-gap-fill.json", "unit": "Constitutional and Administrative Law" },
-  { "file": "pack-jurisprudence.json", "unit": "Jurisprudence" },
-  { "file": "pack-family-law.json", "unit": "Family Law" },
-  { "file": "pack-pil-ihl.json", "unit": "Public International Law and IHL" },
-  { "file": "pack-people-development-environment.json", "unit": "People, Development and Environment" }
+  {
+    "file": "pack-constitutional-amendments.json",
+    "unit": "Constitutional and Administrative Law"
+  },
+  {
+    "file": "pack-constitutional-gap-fill.json",
+    "unit": "Constitutional and Administrative Law"
+  },
+  {
+    "file": "pack-jurisprudence.json",
+    "unit": "Jurisprudence"
+  },
+  {
+    "file": "pack-family-law.json",
+    "unit": "Family Law"
+  },
+  {
+    "file": "pack-law-of-crimes.json",
+    "unit": "Law of Crimes"
+  },
+  {
+    "file": "pack-torts.json",
+    "unit": "Law of Torts and Consumer Protection"
+  },
+  {
+    "file": "pack-commercial-law.json",
+    "unit": "Commercial Law"
+  },
+  {
+    "file": "pack-ipr-it-law.json",
+    "unit": "Intellectual Property Rights and Information Technology Law"
+  }
 ]
