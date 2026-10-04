@@ -18,3 +18,14 @@ Upload these files to GitHub Pages or Cloudflare Pages.
 - Case-law pages
 - Paper 1 question banks
 - Search and filtering
+
+## Navigation kit (nl-nav.js)
+Every page that includes `accessibility.js` automatically gets, with no other edits:
+- a slim vertical reading-progress rail on the right (percentage, draggable handle)
+- Back to top / Go to bottom buttons
+
+New HTML pages: copy the `<script src="accessibility.js"></script>` line from any existing page. That is all.
+
+Long MCQ lists: use `NLNav.pager({...})` (range chips + pagination) and `NLNav.practice(el)` (attempted-questions bar).
+Any long element can also be followed by the rail with the attribute `data-nl-track`.
+Mock tests only get the rail and jump buttons; their engine is untouched.

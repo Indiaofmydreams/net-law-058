@@ -1,5 +1,6 @@
 /* accessibility.js: text-size toolbar (A A A). One file; only needs one <script> line in index.html. */
 (function () {
+  var SELF = document.currentScript && document.currentScript.src;   // used below to find nl-nav.js next to this file
   var SIZES = [100, 115, 130];            // normal, bigger, even bigger (% of base)
   var KEY = "nl-size", NAMES = ["Normal", "Bigger", "Biggest"];
   var css =
@@ -37,4 +38,11 @@
     var s = +get(KEY, 0); applySize(SIZES[s] ? s : 0, false);
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", build); else build();
+  /* Auto-load the shared navigation kit (reading-progress rail + back-to-top/bottom) so any page
+     that includes this one file gets it. Skipped if the page already loaded nl-nav.js itself. */
+  if (!window.NLNav && SELF) {
+    var js = document.createElement("script");
+    js.src = SELF.replace(/[^\/]*(\?.*)?$/, "nl-nav.js");
+    document.head.appendChild(js);
+  }
 })();
