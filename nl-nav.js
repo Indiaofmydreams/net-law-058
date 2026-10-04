@@ -8,6 +8,8 @@
      NLNav.pager({...})     range chips (1-100, 101-200 ...) + Prev / 1 2 3 / Next + page size
      NLNav.practice(host)   "Practice Progress: 35/100 attempted - 35%" bar
      NLNav.track(el)        make the reading rail follow this list instead of the whole page
+     Pomodoro timer (25/5, bottom-left) appears automatically on any page that uses pager()/practice(),
+     and on any page if <html data-nl-pomodoro> is set. Never on mock tests. It keeps running across pages.
      (or just put data-nl-track on any long element, no JS needed)
 
    Mock tests: only the rail and the jump buttons are added. Timer, palette, submit and results are not touched. */
@@ -57,8 +59,24 @@
     ".nl-pp-t{display:flex;flex-wrap:wrap;justify-content:space-between;gap:2px 14px;font-size:.875rem;color:var(--nl-tx)}.nl-pp-t span{color:var(--nl-mu);font-size:.8125rem}",
     ".nl-pp-b{height:8px;margin-top:8px;border-radius:99px;background:var(--nl-chip);overflow:hidden}.nl-pp-b i{display:block;height:100%;width:0;background:var(--nl-ok);transition:width .3s}",
     ".nl-ans{box-shadow:inset 3px 0 0 var(--nl-ok)}",
-    "@media(prefers-reduced-motion:reduce){#nl-rail,.nl-j,.nl-rg,.nl-pb,.nl-pp-b i{transition:none}}",
-    "@media print{#nl-rail,#nl-jump,.nl-rgs,.nl-pg{display:none!important}}"
+    /* pomodoro */
+    "#nl-pomo{position:fixed;left:14px;bottom:18px;z-index:31;display:flex;flex-direction:column;align-items:flex-start;gap:8px}#nl-pomo[hidden]{display:none}",
+    ".nl-po-pill{display:flex;align-items:center;gap:8px;min-height:44px;padding:0 14px 0 12px;border-radius:99px;border:1px solid var(--nl-ln);background:var(--nl-bg);color:var(--nl-tx);box-shadow:0 4px 14px rgba(0,0,0,.18);cursor:pointer;font:700 .875rem/1 system-ui,sans-serif;font-variant-numeric:tabular-nums;transition:background .2s}",
+    ".nl-po-pill:hover{background:var(--nl-tint)}.nl-po-pill:focus-visible,.nl-po-panel button:focus-visible,.nl-po-panel select:focus-visible,.nl-po-panel input:focus-visible{outline:3px solid var(--nl-ac);outline-offset:2px}",
+    "#nl-pomo[data-s=run] .nl-po-pill{border-color:var(--nl-ac)}#nl-pomo[data-s=run] .nl-po-pill svg{color:var(--nl-ac)}#nl-pomo[data-m=s] .nl-po-pill,#nl-pomo[data-m=l] .nl-po-pill{border-style:dashed}",
+    ".nl-po-panel{width:min(280px,calc(100vw - 28px));padding:14px;border-radius:16px;border:1px solid var(--nl-ln);background:var(--nl-bg);color:var(--nl-tx);box-shadow:0 8px 28px rgba(0,0,0,.22)}.nl-po-panel[hidden]{display:none}",
+    ".nl-po-h{display:flex;justify-content:space-between;align-items:center}.nl-po-h b{font-size:.8125rem;letter-spacing:.04em;text-transform:uppercase;color:var(--nl-mu)}",
+    ".nl-po-x{width:44px;height:44px;margin:-8px -8px -8px 0;border:0;background:none;color:var(--nl-mu);font-size:1.1rem;cursor:pointer;border-radius:10px}",
+    ".nl-po-t{margin:2px 0 8px;font:800 2.6rem/1.1 system-ui,sans-serif;font-variant-numeric:tabular-nums;text-align:center}",
+    ".nl-po-bar{height:6px;border-radius:99px;background:var(--nl-chip);overflow:hidden}.nl-po-bar i{display:block;height:100%;width:0;background:var(--nl-ok);transition:width .4s linear}",
+    ".nl-po-b{display:flex;gap:8px;margin:12px 0}.nl-po-b button{flex:1;min-height:44px;border:1px solid var(--nl-ln);border-radius:10px;background:var(--nl-bg);color:var(--nl-tx);font:inherit;font-size:.875rem;font-weight:700;cursor:pointer}",
+    ".nl-po-b button:hover{background:var(--nl-tint)}.nl-po-b .nl-po-go{background:var(--nl-btn);border-color:var(--nl-btn);color:var(--nl-on,#fff)}.nl-po-b .nl-po-go:hover{background:var(--nl-btn);filter:brightness(1.08)}",
+    ".nl-po-o{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px;font-size:.8125rem;color:var(--nl-mu)}.nl-po-o label{display:flex;align-items:center;gap:6px;min-height:44px}",
+    ".nl-po-o select{min-height:44px;padding:0 8px;border:1px solid var(--nl-ln);border-radius:10px;background:var(--nl-bg);color:var(--nl-tx);font:inherit}.nl-po-o input{width:20px;height:20px}",
+    ".nl-po-r{margin:2px 0 0;font-size:.8125rem;color:var(--nl-mu)}.nl-po-r b{color:var(--nl-tx)}",
+    "@media(max-width:560px){#nl-pomo{left:10px;bottom:10px}}",
+    "@media(prefers-reduced-motion:reduce){#nl-rail,.nl-j,.nl-rg,.nl-pb,.nl-pp-b i,.nl-po-pill,.nl-po-bar i{transition:none}}",
+    "@media print{#nl-rail,#nl-jump,#nl-pomo,.nl-rgs,.nl-pg{display:none!important}}"
   ].join("");
   var st = doc.createElement("style"); st.textContent = css; doc.head.appendChild(st);
 
@@ -151,6 +169,7 @@
 
   /* ---------- practice progress (attempted questions, separate from reading progress) ---------- */
   function practice(host) {
+    wantPomo(); 
     host.className = (host.className + " nl-pp").trim(); host.hidden = true;
     host.setAttribute("role", "group"); host.setAttribute("aria-label", "Practice progress");
     host.innerHTML = '<div class="nl-pp-t"><div><b>Practice Progress:</b> <span class="a"></span></div><span class="u"></span></div><div class="nl-pp-b" role="progressbar" aria-label="Questions attempted" aria-valuemin="0" aria-valuemax="100"><i></i></div>';
@@ -174,6 +193,7 @@
      api.setTotal(n, keep) : call whenever the (filtered) list length changes; keep=true keeps position
      api.get() -> {from,to,rs,re,range,ranges,page,pages,size,total}   from/to/rs/re are 0-based, end-exclusive */
   function pager(o) {
+    wantPomo();
     var RS = o.rangeSize || 100, label = o.label || "questions", paged = o.pagination !== false;
     var S = { total: 0, range: 0, page: 0, size: paged ? (o.pageSize || 20) : RS };
     var hosts = [o.rangeHost, o.topHost, o.bottomHost].filter(Boolean);
@@ -260,5 +280,115 @@
     };
   }
 
-  window.NLNav = { pager: pager, practice: practice, track: track_, untrack: untrack, refresh: refresh, scrollTo: scrollToEl, stickyOffset: stickyOffset };
+
+  /* ---------- pomodoro timer ---------- */
+  var PK = "nl-pomo-v1", PRE = { "25": { f: 25, s: 5, l: 15 }, "50": { f: 50, s: 10, l: 30 } };
+  var MODE = { f: "Focus", s: "Short break", l: "Long break" };
+  var P, po, poTick = null, poWant = false, poBuilt = false, T0 = "", actx = null;
+  function today() { try { return new Date().toLocaleDateString("en-CA"); } catch (e) { return String(new Date().getDate()); } }
+  function pLoad() {
+    try { var s = JSON.parse(localStorage.getItem(PK)); if (s && s.v === 1 && PRE[s.preset]) return s; } catch (e) {}
+    return { v: 1, preset: "25", mode: "f", status: "idle", left: 0, endAt: 0, cycle: 0, sound: true, day: today(), rounds: 0 };
+  }
+  function pSave() { try { localStorage.setItem(PK, JSON.stringify(P)); } catch (e) {} }
+  function dur(m) { return PRE[P.preset][m || P.mode] * 60000; }
+  function left() { return P.status === "run" ? Math.max(0, P.endAt - Date.now()) : P.status === "pause" ? P.left : dur(); }
+  function fmt(ms) { var t = Math.ceil(ms / 1000), m = Math.floor(t / 60), s = t % 60; return (m < 10 ? "0" : "") + m + ":" + (s < 10 ? "0" : "") + s; }
+  function isMock() { return !!(doc.querySelector(".mt-page,.mt-top") || doc.querySelector('script[src*="mock-test-engine"]') || doc.documentElement.hasAttribute("data-nl-pomodoro-off")); }
+
+  function beep() {
+    try {
+      if (navigator.vibrate) navigator.vibrate([200, 100, 200]);
+      var AC = window.AudioContext || window.webkitAudioContext; if (!AC) return;
+      actx = actx || new AC(); if (actx.state === "suspended") actx.resume();
+      [0, 0.28, 0.56].forEach(function (d) {
+        var o = actx.createOscillator(), g = actx.createGain(); o.type = "sine"; o.frequency.value = 880;
+        g.gain.setValueAtTime(0.0001, actx.currentTime + d); g.gain.exponentialRampToValueAtTime(0.25, actx.currentTime + d + 0.02); g.gain.exponentialRampToValueAtTime(0.0001, actx.currentTime + d + 0.22);
+        o.connect(g); g.connect(actx.destination); o.start(actx.currentTime + d); o.stop(actx.currentTime + d + 0.25);
+      });
+    } catch (e) {}
+  }
+  function rollDay() { if (P.day !== today()) { P.day = today(); P.rounds = 0; } }
+  function finish(quiet) {
+    var was = P.mode; rollDay();
+    if (was === "f") { P.rounds++; P.cycle++; P.mode = P.cycle >= 4 ? "l" : "s"; if (P.cycle >= 4) P.cycle = 0; } else P.mode = "f";
+    P.status = "idle"; P.left = 0; P.endAt = 0; pSave(); poRender();
+    if (!quiet) {
+      if (P.sound) beep();
+      say(was === "f" ? "Focus round complete. Time for a " + (P.mode === "l" ? "long" : "short") + " break." : "Break over. Ready for the next focus round.");
+    }
+  }
+  function tick() {
+    if (P.status !== "run") return poRender();
+    if (Date.now() >= P.endAt) {                       /* re-read first, so two open tabs never count one round twice */
+      var f = pLoad(); if (f.status === "run" && Date.now() >= f.endAt) { P = f; finish(false); } else { P = f; poRender(); }
+      return;
+    }
+    poRender();
+  }
+  function poStart() {
+    try { var AC = window.AudioContext || window.webkitAudioContext; if (AC && !actx) actx = new AC(); if (actx && actx.state === "suspended") actx.resume(); } catch (e) {}
+    rollDay(); var l = P.status === "pause" ? P.left : dur(); P.endAt = Date.now() + l; P.status = "run"; pSave(); poRender(); say(MODE[P.mode] + " started, " + Math.round(l / 60000) + " minutes");
+  }
+  function poPause() { P.left = Math.max(0, P.endAt - Date.now()); P.status = "pause"; pSave(); poRender(); say("Timer paused"); }
+  function poReset() { P.status = "idle"; P.left = 0; P.endAt = 0; pSave(); poRender(); say("Timer reset"); }
+  function poSkip() {
+    if (P.mode === "f") { P.mode = P.cycle >= 3 ? "l" : "s"; if (P.mode === "l") P.cycle = 0; else P.cycle++; } else P.mode = "f";
+    P.status = "idle"; P.left = 0; P.endAt = 0; pSave(); poRender(); say("Switched to " + MODE[P.mode]);
+  }
+
+  function poRender() {
+    if (!po) return;
+    var l = left(), run = P.status === "run", pct = clamp((1 - l / dur()) * 100, 0, 100);
+    po.root.setAttribute("data-s", P.status); po.root.setAttribute("data-m", P.mode);
+    po.time.textContent = fmt(l); po.big.textContent = fmt(l); po.mode.textContent = MODE[P.mode] + (P.status === "pause" ? " (paused)" : "");
+    po.bar.style.width = pct + "%";
+    po.go.textContent = run ? "Pause" : P.status === "pause" ? "Resume" : "Start";
+    po.pill.setAttribute("aria-label", "Pomodoro timer, " + MODE[P.mode] + ", " + fmt(l) + (run ? " running" : P.status === "pause" ? " paused" : " ready") + ". Open timer");
+    po.sel.value = P.preset; po.snd.checked = !!P.sound;
+    rollDay(); po.rounds.textContent = P.rounds;
+    po.cyc.textContent = P.mode === "f" ? "Round " + (P.cycle + 1) + " of 4" : P.mode === "l" ? "Long break" : "Break";
+    if (run) { if (!T0) T0 = doc.title; doc.title = "(" + fmt(l) + ") " + T0.replace(/^\(\d\d:\d\d\)\s*/, ""); } else if (T0) { doc.title = T0; T0 = ""; }
+    if (run && !poTick) poTick = setInterval(tick, 500);
+    if (!run && poTick) { clearInterval(poTick); poTick = null; }
+  }
+  function poBuild() {
+    if (poBuilt || !doc.body) return; poBuilt = true;
+    var r = doc.createElement("div"); r.id = "nl-pomo";
+    r.innerHTML =
+      '<div class="nl-po-panel" id="nl-po-panel" role="group" aria-label="Pomodoro timer" hidden>' +
+        '<div class="nl-po-h"><b class="nl-po-mode">Focus</b><button type="button" class="nl-po-x" aria-label="Close timer panel">\u2715</button></div>' +
+        '<div class="nl-po-t" role="timer" aria-live="off">25:00</div><div class="nl-po-bar" aria-hidden="true"><i></i></div>' +
+        '<div class="nl-po-b"><button type="button" class="nl-po-go">Start</button><button type="button" class="nl-po-rs">Reset</button><button type="button" class="nl-po-sk" title="Skip to the next phase">Skip</button></div>' +
+        '<div class="nl-po-o"><label>Preset <select aria-label="Timer preset"><option value="25">25 / 5 min</option><option value="50">50 / 10 min</option></select></label><label><input type="checkbox" class="nl-po-sn"> Sound</label></div>' +
+        '<p class="nl-po-r">Rounds today: <b class="nl-po-n">0</b> \u00b7 <span class="nl-po-c"></span></p></div>' +
+      '<button type="button" class="nl-po-pill" aria-expanded="false" aria-controls="nl-po-panel">' + ICON("M12 8v4l2.5 2.5M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM9 1h6").replace('width="20" height="20"', 'width="18" height="18"') + '<span class="nl-po-time">25:00</span></button>';
+    doc.body.appendChild(r);
+    var q = function (s) { return r.querySelector(s); };
+    po = { root: r, panel: q(".nl-po-panel"), pill: q(".nl-po-pill"), time: q(".nl-po-time"), big: q(".nl-po-t"), mode: q(".nl-po-mode"), bar: q(".nl-po-bar i"), go: q(".nl-po-go"), sel: q("select"), snd: q(".nl-po-sn"), rounds: q(".nl-po-n"), cyc: q(".nl-po-c") };
+    function toggle(open) { po.panel.hidden = !open; po.pill.setAttribute("aria-expanded", open); if (open) po.go.focus({ preventScroll: true }); else po.pill.focus({ preventScroll: true }); try { sessionStorage.setItem("nl-po-open", open ? "1" : ""); } catch (e) {} }
+    po.pill.onclick = function () { toggle(po.panel.hidden); };
+    q(".nl-po-x").onclick = function () { toggle(false); };
+    doc.addEventListener("keydown", function (e) { if (e.key === "Escape" && !po.panel.hidden) toggle(false); });
+    po.go.onclick = function () { P.status === "run" ? poPause() : poStart(); };
+    q(".nl-po-rs").onclick = poReset; q(".nl-po-sk").onclick = poSkip;
+    po.sel.onchange = function () { P.preset = po.sel.value; P.mode = "f"; P.cycle = 0; P.status = "idle"; P.left = 0; P.endAt = 0; pSave(); poRender(); say("Preset " + (P.preset === "50" ? "50 minutes focus, 10 minutes break" : "25 minutes focus, 5 minutes break")); };
+    po.snd.onchange = function () { P.sound = po.snd.checked; pSave(); };
+    window.addEventListener("storage", function (e) { if (e.key === PK) { P = pLoad(); poRender(); } });
+    doc.addEventListener("visibilitychange", function () { if (!doc.hidden) tick(); });
+    try { if (sessionStorage.getItem("nl-po-open")) { po.panel.hidden = false; po.pill.setAttribute("aria-expanded", "true"); } } catch (e) {}
+    /* a round that ended while this page was closed: count it quietly */
+    if (P.status === "run" && Date.now() >= P.endAt) finish(true);
+    poRender();
+  }
+  /* The timer is shown on MCQ pages, on pages that opt in, and anywhere it is already running or paused. Never on mock tests. */
+  function wantPomo() { poWant = true; if (doc.readyState !== "loading") poEnsure(); }
+  function poEnsure() {
+    if (isMock()) return;
+    P = P || pLoad();
+    if (poWant || doc.documentElement.hasAttribute("data-nl-pomodoro") || P.status !== "idle") poBuild();
+  }
+  if (doc.readyState === "loading") doc.addEventListener("DOMContentLoaded", poEnsure); else poEnsure();
+
+  window.NLNav = { pager: pager, practice: practice, track: track_, untrack: untrack, refresh: refresh, scrollTo: scrollToEl, stickyOffset: stickyOffset, pomodoro: { show: function () { poWant = true; P = P || pLoad(); poBuild(); } } };
 })();
