@@ -59,6 +59,21 @@
     ".nl-pp-t{display:flex;flex-wrap:wrap;justify-content:space-between;gap:2px 14px;font-size:.875rem;color:var(--nl-tx)}.nl-pp-t span{color:var(--nl-mu);font-size:.8125rem}",
     ".nl-pp-b{height:8px;margin-top:8px;border-radius:99px;background:var(--nl-chip);overflow:hidden}.nl-pp-b i{display:block;height:100%;width:0;background:var(--nl-ok);transition:width .3s}",
     ".nl-ans{box-shadow:inset 3px 0 0 var(--nl-ok)}",
+    /* shared buttons, daily goal, status filter, jump-to-number */
+    ".nl-btn{min-height:44px;padding:0 16px;border:1px solid var(--nl-ln);background:var(--nl-bg);color:var(--nl-tx);border-radius:12px;font:inherit;font-size:.8125rem;font-weight:700;cursor:pointer;transition:background .2s,border-color .2s}.nl-btn:hover{border-color:var(--nl-ac);background:var(--nl-tint)}.nl-btn:focus-visible,.nl-sf button:focus-visible,.nl-gt input:focus-visible,.nl-dg select:focus-visible{outline:3px solid var(--nl-ac);outline-offset:2px}",
+    ".nl-btn.pri{background:var(--nl-btn);border-color:var(--nl-btn);color:var(--nl-on,#fff)}.nl-btn.pri:hover{filter:brightness(1.08)}",
+    ".nl-dg{border:1px solid var(--nl-ln);background:var(--nl-bg);border-radius:14px;padding:12px 14px;margin:0 0 10px}.nl-dg[hidden]{display:none}",
+    ".nl-dg-t{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:4px 14px;font-size:.875rem;color:var(--nl-tx)}.nl-dg-t span{color:var(--nl-mu);font-size:.8125rem}",
+    ".nl-dg-b{height:8px;margin-top:8px;border-radius:99px;background:var(--nl-chip);overflow:hidden}.nl-dg-b i{display:block;height:100%;width:0;background:var(--nl-ok);transition:width .3s}",
+    ".nl-dg-g{display:flex;align-items:center;gap:6px;margin-top:6px;font-size:.8125rem;color:var(--nl-mu)}.nl-dg select{min-height:36px;padding:0 8px;border:1px solid var(--nl-ln);border-radius:8px;background:var(--nl-bg);color:var(--nl-tx);font:inherit}",
+    ".nl-sf{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:0 0 10px;font-size:.8125rem;color:var(--nl-mu)}",
+    ".nl-sf button{min-height:44px;padding:0 14px;border:1px solid var(--nl-ln);background:var(--nl-bg);color:var(--nl-mu);border-radius:99px;font:inherit;font-size:.8125rem;font-weight:700;cursor:pointer;transition:background .2s,border-color .2s,color .2s}",
+    ".nl-sf button:hover{border-color:var(--nl-ac);color:var(--nl-tx)}.nl-sf button[aria-pressed=true]{background:var(--nl-btn);border-color:var(--nl-btn);color:var(--nl-on,#fff)}",
+    ".nl-gt{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-left:auto;font-size:.8125rem;color:var(--nl-mu)}.nl-gt input{width:96px;min-height:44px;padding:0 10px;border:1px solid var(--nl-ln);border-radius:10px;background:var(--nl-bg);color:var(--nl-tx);font:inherit}.nl-gt input[aria-invalid=true]{border-color:#b3261e}",
+    ".nl-ge{flex:1 1 100%;color:#b3261e;font-size:.8125rem}.nl-ge:empty{display:none}",
+    ".nl-hit{outline:3px solid var(--nl-ac);outline-offset:3px;border-radius:16px}",
+    ".nl-retry{font-size:1.05rem}",
+    ".mod-btns{display:flex;flex-wrap:wrap;gap:8px;align-items:flex-start;justify-content:flex-end}",
     /* pomodoro */
     "#nl-pomo{position:fixed;left:14px;bottom:18px;z-index:31;display:flex;flex-direction:column;align-items:flex-start;gap:8px}#nl-pomo[hidden]{display:none}",
     ".nl-po-pill{display:flex;align-items:center;gap:8px;min-height:44px;padding:0 14px 0 12px;border-radius:99px;border:1px solid var(--nl-ln);background:var(--nl-bg);color:var(--nl-tx);box-shadow:0 4px 14px rgba(0,0,0,.18);cursor:pointer;font:700 .875rem/1 system-ui,sans-serif;font-variant-numeric:tabular-nums;transition:background .2s}",
@@ -167,6 +182,113 @@
   }
   if (doc.readyState === "loading") doc.addEventListener("DOMContentLoaded", build); else build();
 
+
+  /* ---------- saved progress (stored in the student's own browser, no sign-in) ----------
+     NLNav.prog.get(x)      -> {k, ok} | null        k = index of the option the student chose
+     NLNav.prog.set(x, k)   record an answer         NLNav.prog.clear(x)   forget it
+     NLNav.prog.status(x)   -> "u" | "ok" | "bad"    NLNav.prog.stats(list) -> {a, ok, bad, u}
+     NLNav.prog.setMany([[x,k],...])  record several at once (used by the quiz)
+     A question is identified by a hash of its wording + options, so progress survives re-ordering of the bank. */
+  var PGK = "nl-prog-v1", PG = null, hcache = typeof WeakMap === "function" ? new WeakMap() : null;
+  function h53(str) {                                   /* cyrb53: fast 53-bit string hash */
+    var h1 = 0xdeadbeef, h2 = 0x41c6ce57;
+    for (var i = 0; i < str.length; i++) { var c = str.charCodeAt(i); h1 = Math.imul(h1 ^ c, 2654435761); h2 = Math.imul(h2 ^ c, 1597334677); }
+    h1 = Math.imul(h1 ^ (h1 >>> 16), 2246822507) ^ Math.imul(h2 ^ (h2 >>> 13), 3266489909);
+    h2 = Math.imul(h2 ^ (h2 >>> 16), 2246822507) ^ Math.imul(h1 ^ (h1 >>> 13), 3266489909);
+    return (4294967296 * (2097151 & h2) + (h1 >>> 0)).toString(36);
+  }
+  var otx = function (t) { return String(t).replace(/^[A-D][.)]\s+/, "").replace(/\s+/g, " ").trim().toLowerCase(); };
+  function ids(x) {
+    var c = hcache && hcache.get(x); if (c) return c;
+    var oh = x.o.map(function (t) { return h53(otx(t)); });
+    c = { id: h53(String(x.q).replace(/\s+/g, " ").trim().toLowerCase() + "|" + x.o.map(otx).sort().join("|")), oh: oh };
+    if (hcache) hcache.set(x, c); return c;
+  }
+  function istDay(t) { return new Date((t == null ? Date.now() : t) + 19800000).toISOString().slice(0, 10); }   /* India Standard Time, UTC+5:30, no DST */
+  function pLoadAll() {
+    try { var d = JSON.parse(localStorage.getItem(PGK)); if (d && d.v === 1) return d; } catch (e) {}
+    return { v: 1, a: {}, days: {}, today: { d: "", ids: [] }, goal: 20 };
+  }
+  function pgs() { return PG || (PG = pLoadAll()); }
+  function pgSave() {
+    var keys = Object.keys(PG.days).sort(); while (keys.length > 400) delete PG.days[keys.shift()];
+    try { localStorage.setItem(PGK, JSON.stringify(PG)); } catch (e) {}
+  }
+  function pgChanged() { doc.dispatchEvent(new CustomEvent("nl-prog")); }
+  function countToday(key) {                            /* each question counts once per day toward the daily goal */
+    var g = pgs(), d = istDay(); if (g.today.d !== d) g.today = { d: d, ids: [] };
+    if (g.today.ids.indexOf(key) > -1) return;
+    g.today.ids.push(key);
+    var r = g.days[d] || (g.days[d] = { n: 0, met: false }); r.n++;
+    if (!r.met && r.n >= g.goal) { r.met = true; say("Daily goal reached: " + r.n + " questions today"); }
+  }
+  function streak() {
+    var g = pgs(), d = istDay(), t = Date.parse(d + "T00:00:00Z"), n = 0, cur = g.days[d];
+    if (!(cur && cur.met)) t -= 86400000;
+    for (;;) { var r = g.days[new Date(t).toISOString().slice(0, 10)]; if (r && r.met) { n++; t -= 86400000; } else break; }
+    return n;
+  }
+  var prog = {
+    get: function (x) {
+      var r = pgs().a[ids(x).id]; if (!r) return null;
+      var oh = ids(x).oh, k = oh.indexOf(r[0]); if (k < 0) return null;
+      return { k: k, ok: k === x.a };
+    },
+    status: function (x) { var r = prog.get(x); return !r ? "u" : r.ok ? "ok" : "bad"; },
+    stats: function (list) {
+      var o = { a: 0, ok: 0, bad: 0, u: 0, n: list.length };
+      for (var i = 0; i < list.length; i++) { var s = prog.status(list[i]); o[s === "u" ? "u" : "a"]++; if (s !== "u") o[s]++; }
+      return o;
+    },
+    set: function (x, k) { prog.setMany([[x, k]]); },
+    setMany: function (pairs) {
+      var g = pgs();
+      pairs.forEach(function (p) { var i = ids(p[0]); g.a[i.id] = [i.oh[p[1]], Date.now()]; countToday(i.id); });
+      pgSave(); pgChanged();
+    },
+    clear: function (x) { delete pgs().a[ids(x).id]; pgSave(); pgChanged(); },
+    touch: function (key) { countToday("t:" + key); pgSave(); pgChanged(); },     /* for pages with their own answer storage (Unit 2) */
+    daily: function () { var g = pgs(), d = istDay(), r = g.today.d === d ? g.days[d] : null; return { n: r ? r.n : 0, goal: g.goal, met: !!(r && r.met), streak: streak() }; },
+    setGoal: function (n) { var g = pgs(); g.goal = n; var d = istDay(), r = g.days[d]; if (r) r.met = r.n >= n; pgSave(); pgChanged(); },
+    id: function (x) { return ids(x).id; }
+  };
+  window.addEventListener("storage", function (e) { if (e.key === PGK) { PG = null; pgChanged(); } });
+
+  /* daily goal + streak widget: NLNav.daily(hostElement) */
+  function daily(host) {
+    host.className = (host.className + " nl-dg").trim();
+    host.setAttribute("role", "group"); host.setAttribute("aria-label", "Daily goal");
+    host.innerHTML = '<div class="nl-dg-t"><div><b>Today:</b> <span class="n"></span></div><span class="s"></span></div><div class="nl-dg-b" role="progressbar" aria-label="Daily goal progress" aria-valuemin="0" aria-valuemax="100"><i></i></div>' +
+      '<div class="nl-dg-g"><label>Daily goal <select aria-label="Daily goal in questions">' + [10, 20, 30, 50, 100].map(function (n) { return '<option value="' + n + '">' + n + " questions</option>"; }).join("") + "</select></label></div>";
+    var N = host.querySelector(".n"), S = host.querySelector(".s"), B = host.querySelector(".nl-dg-b"), F = B.firstChild, sel = host.querySelector("select");
+    function paint() {
+      var d = prog.daily(), p = Math.min(100, Math.round(d.n / d.goal * 100));
+      N.textContent = d.n + "/" + d.goal + " questions" + (d.met ? " \u2014 goal reached" : "");
+      S.textContent = d.streak ? "Streak: " + d.streak + (d.streak === 1 ? " day" : " days") : "Reach your goal today to start a streak";
+      F.style.width = p + "%"; B.setAttribute("aria-valuenow", p); sel.value = String(d.goal);
+    }
+    sel.onchange = function () { prog.setGoal(+sel.value); };
+    doc.addEventListener("nl-prog", paint); paint();
+  }
+
+  /* status filter: NLNav.statusFilter(host, onChange) -> {get(), reset(), counts(stats)}   (All / Unanswered / Mistakes) */
+  function statusFilter(host, onChange) {
+    var cur = "all";
+    host.className = (host.className + " nl-sf").trim(); host.setAttribute("role", "group"); host.setAttribute("aria-label", "Filter by your progress");
+    host.innerHTML = '<span aria-hidden="true">Show:</span><button type="button" data-f="all" aria-pressed="true">All</button><button type="button" data-f="u" aria-pressed="false">Unanswered <span class="nl-c"></span></button><button type="button" data-f="bad" aria-pressed="false">Mistakes <span class="nl-c"></span></button>';
+    function mark() { [].forEach.call(host.querySelectorAll("button"), function (b) { b.setAttribute("aria-pressed", b.dataset.f === cur); }); }
+    host.addEventListener("click", function (e) {
+      var b = e.target.closest("button"); if (!b || b.dataset.f === cur) return;
+      cur = b.dataset.f; mark(); onChange(cur);
+      say(cur === "all" ? "Showing all questions" : cur === "u" ? "Showing unanswered questions" : "Showing questions you answered wrongly");
+    });
+    return {
+      get: function () { return cur; },
+      reset: function () { cur = "all"; mark(); },
+      counts: function (st) { var c = host.querySelectorAll(".nl-c"); c[0].textContent = "(" + st.u + ")"; c[1].textContent = "(" + st.bad + ")"; }
+    };
+  }
+
   /* ---------- practice progress (attempted questions, separate from reading progress) ---------- */
   function practice(host) {
     wantPomo(); 
@@ -192,8 +314,9 @@
      o.onChange(state) : called after the user changes range, page or page size; re-draw the list there
      api.setTotal(n, keep) : call whenever the (filtered) list length changes; keep=true keeps position
      api.get() -> {from,to,rs,re,range,ranges,page,pages,size,total}   from/to/rs/re are 0-based, end-exclusive */
+  var pagerN = 0;
   function pager(o) {
-    wantPomo();
+    wantPomo(); var uid = ++pagerN;
     var RS = o.rangeSize || 100, label = o.label || "questions", paged = o.pagination !== false;
     var S = { total: 0, range: 0, page: 0, size: paged ? (o.pageSize || 20) : RS };
     var hosts = [o.rangeHost, o.topHost, o.bottomHost].filter(Boolean);
@@ -222,6 +345,9 @@
             '<button type="button" class="nl-pb" data-p="' + (v - 1) + '" aria-label="Page ' + v + '"' + (v - 1 === g.page ? ' aria-current="page"' : "") + ">" + v + "</button>";
         });
         h += '<button type="button" class="nl-pb" data-a="next"' + (g.page >= g.pages - 1 ? " disabled" : "") + ' aria-label="Next page"><span class="nl-t">Next </span>\u203a</button>';
+      }
+      if (withSize && o.list && g.total > 20) {
+        h += '<div class="nl-gt"><label for="nl-gi' + uid + '">Go to Q</label><input id="nl-gi' + uid + '" class="nl-gi" type="number" inputmode="numeric" min="1" max="' + g.total + '" placeholder="1\u2013' + g.total + '" aria-describedby="nl-ge' + uid + '"><button type="button" class="nl-pb" data-g="1" aria-label="Go to that question number">Go</button></div><p class="nl-ge" id="nl-ge' + uid + '" role="alert"></p>';
       }
       if (withSize && g.total > 10) {
         h += '<select aria-label="Questions per page" data-s="1">' + [10, 20, 50, 100].map(function (n) { return '<option value="' + n + '"' + (n === S.size ? " selected" : "") + ">" + n + " per page</option>"; }).join("") + "</select>";
@@ -252,6 +378,22 @@
       say(paged ? "Page " + (g.page + 1) + " of " + g.pages + ", " + label + " " + (g.from + 1) + " to " + g.to : label + " " + (g.rs + 1) + " to " + g.re);
       refresh();
     }
+    function jumpFrom(h) {
+      var inp = h.querySelector(".nl-gi"), err = h.querySelector(".nl-ge"), n = parseInt(inp.value, 10), tot = S.total;
+      if (!(n >= 1 && n <= tot)) { inp.setAttribute("aria-invalid", "true"); err.textContent = "Enter a number from 1 to " + tot + "."; inp.focus(); return; }
+      goTo(n);
+    }
+    function goTo(n) {                                   /* n = the number shown on the question card (1-based, in the current list) */
+      var r = Math.floor((n - 1) / RS), within = (n - 1) - r * RS;
+      S.range = clamp(r, 0, rangesN() - 1); S.page = clamp(Math.floor(within / S.size), 0, pagesN() - 1);
+      paint(); o.onChange && o.onChange(get());
+      var card = null; if (o.list) [].forEach.call(o.list.querySelectorAll(".qb-n"), function (e) { if (+e.textContent === n) card = e.closest(".qb-card"); });
+      if (card) {
+        scrollToEl(card); card.classList.add("nl-hit"); card.setAttribute("tabindex", "-1"); card.focus({ preventScroll: true });
+        setTimeout(function () { card.classList.remove("nl-hit"); }, 2600);
+      }
+      say("Question " + n); refresh();
+    }
     function refocus(host, sel) {
       var e = host && (host.querySelector(sel) || host.querySelector('[aria-current=page]') || host.querySelector("button:not(:disabled)"));
       if (e) e.focus({ preventScroll: true });
@@ -263,7 +405,9 @@
         if (d.r !== undefined) { go(+d.r, 0); refocus(h, '[data-r="' + d.r + '"]'); }
         else if (d.p !== undefined) { go(S.range, +d.p); refocus(h, '[data-p="' + d.p + '"]'); }
         else if (d.a) { go(S.range, S.page + (d.a === "next" ? 1 : -1)); refocus(h, '[data-a="' + d.a + '"]'); }
+        else if (d.g) jumpFrom(h);
       });
+      h.addEventListener("keydown", function (e) { if (e.key === "Enter" && e.target.classList && e.target.classList.contains("nl-gi")) { e.preventDefault(); jumpFrom(h); } });
       h.addEventListener("change", function (e) {
         if (!e.target.dataset.s) return;
         var first = get().from - bounds().rs, size = +e.target.value;
@@ -271,7 +415,7 @@
       });
     });
     return {
-      get: get,
+      get: get, goTo: goTo,
       setTotal: function (n, keep) {
         S.total = Math.max(0, n | 0);
         if (keep) { S.range = clamp(S.range, 0, rangesN() - 1); S.page = clamp(S.page, 0, pagesN() - 1); } else { S.range = 0; S.page = 0; }
@@ -390,5 +534,5 @@
   }
   if (doc.readyState === "loading") doc.addEventListener("DOMContentLoaded", poEnsure); else poEnsure();
 
-  window.NLNav = { pager: pager, practice: practice, track: track_, untrack: untrack, refresh: refresh, scrollTo: scrollToEl, stickyOffset: stickyOffset, pomodoro: { show: function () { poWant = true; P = P || pLoad(); poBuild(); } } };
+  window.NLNav = { pager: pager, practice: practice, prog: prog, daily: daily, statusFilter: statusFilter, istDay: istDay, track: track_, untrack: untrack, refresh: refresh, scrollTo: scrollToEl, stickyOffset: stickyOffset, pomodoro: { show: function () { poWant = true; P = P || pLoad(); poBuild(); } } };
 })();

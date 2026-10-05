@@ -29,7 +29,7 @@ select{min-height:44px;padding:0 12px;border:1px solid var(--ln);border-radius:1
 <h1>Constitutional &amp; Administrative Law</h1>
 <p style="color:var(--mu);margin:0"><span id="tot"></span> practice MCQs with answers, explanations and concept notes. Progress is saved in this browser only.</p>
 <div class="bar"><select id="fs" aria-label="Set"></select><select id="ft" aria-label="Topic"></select><button class="b" id="rs">↺ Reset progress</button></div>
-<div id="pp"></div><div id="rg"></div>
+<div id="dg"></div><div id="pp"></div><div id="rg"></div>
 <div id="app" class="g"></div></div>
 <script src="nl-nav.js"></script>
 <script>
@@ -43,7 +43,7 @@ $('fs').innerHTML='<option value="0">All sets</option>'+D.sets.map(s=>`<option v
 const topics=[...new Set(Q.map(x=>x.topic))].sort();
 $('ft').innerHTML='<option value="">All topics</option>'+topics.map(t=>`<option>${esc(t)}</option>`).join('');
 let pool=[],full=[],i=0;
-const pg=NLNav.pager({rangeHost:$('rg'),pagination:false,onChange:()=>{useRange();draw()}}),pp=NLNav.practice($('pp'));
+const pg=NLNav.pager({rangeHost:$('rg'),pagination:false,onChange:()=>{useRange();draw()}}),pp=NLNav.practice($('pp'));NLNav.daily($('dg'));
 const useRange=()=>{const g=pg.get();pool=full.slice(g.rs,g.re);i=0};
 const filt=()=>{const s=+$('fs').value,t=$('ft').value;full=Q.filter(x=>(!s||x.set===s)&&(!t||x.topic===t));pg.setTotal(full.length);useRange();draw()};
 function draw(){const app=$('app');if(!pool.length){pp.set(0,0);app.innerHTML='<div class="c">No questions match this filter.</div>';return}
@@ -54,7 +54,7 @@ app.innerHTML=`<section class="c"><p class="m">Set ${x.set} · Q${x.q_no} · ${e
 <div class="nav"><button class="b" id="pv" ${i?'':'disabled'}>← Previous</button><button class="b p sp" id="nx" ${i<pool.length-1?'':'disabled'}>Next →</button></div></section>
 <aside class="c pal"><h3>Question palette</h3><div class="pg">${pool.map((p,j)=>`<button class="n${A[p.id]?(A[p.id]===p.correct?' ok':' bad'):''}${j===i?' cur':''}" data-j="${j}" aria-label="Question ${R+j+1}">${R+j+1}</button>`).join('')}</div><p class="sc">Answered ${done}/${pool.length} · Correct ${right}${done?` · ${Math.round(right/done*100)}%`:''}</p></aside>`}
 $('app').addEventListener('click',e=>{const o=e.target.closest('.o'),n=e.target.closest('.n');
-if(o){A[pool[i].id]=o.dataset.k;save();draw();$('ex').scrollIntoView({block:'nearest'})}
+if(o){const first=!A[pool[i].id];A[pool[i].id]=o.dataset.k;save();if(first)NLNav.prog.touch('u2:'+pool[i].id);draw();$('ex').scrollIntoView({block:'nearest'})}
 else if(n){i=+n.dataset.j;draw()}
 else if(e.target.id==='pv'){i--;draw()}else if(e.target.id==='nx'){i++;draw();scrollTo(0,0)}});
 $('fs').onchange=$('ft').onchange=filt;
