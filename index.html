@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="disclaimer.css">
   <link rel="stylesheet" href="theme.css">
   <link rel="stylesheet" href="mock-tests.css">
+  <link rel="stylesheet" href="hero-carousel.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -37,7 +38,7 @@
 
 <main id="main" tabindex="-1">
 <section id="home" class="hero">
-  <div class="container hero-grid">
+  <div class="container hero-grid hero-grid-cc">
     <div>
       <span class="eyebrow">UGC NET • LAW • CODE 058</span>
       <h1>Prepare smarter.<br><span>Practice freely.</span></h1>
@@ -49,15 +50,137 @@
       <div class="trust-row"><span>✓ Free resources</span><span>✓ Topic-wise practice</span><span>✓ Case-law focused</span></div>
       <div id="nl-countdown"></div>
     </div>
-    <aside class="hero-card hc" aria-label="Free MCQ practice">
-      <div class="hc-top"><span class="pill">100% FREE · NO SIGN-UP</span></div>
-      <div class="hc-num"><span data-qcount>700+</span><small>free MCQs</small></div>
-      <h3>Practise the way the exam tests you</h3>
-      <p>A growing bank of Paper 1 and Law 058 questions, organised module by module and written in real exam styles: statements, assertion–reason, match-the-following and case-based. Tap an answer, see exactly why it is right, then move on.</p>
-      <ul><li>Every module of both papers, 20 in all</li><li>Instant feedback with clear explanations</li><li>Nothing to pay. Just open and practise</li></ul>
-      <div class="hc-btns"><a class="btn primary" href="#paper1">Paper 1 →</a><a class="btn secondary" href="#law">Law 058 →</a></div>
-      <p class="hc-foot">Pick one module. Answer ten questions. See where you stand today.</p>
-    </aside>
+    <div class="cc" data-cc role="region" aria-roledescription="carousel" aria-label="What you can practise on this site">
+      <div class="cc-stage">
+        <ul class="cc-track">
+          <li class="cc-slide" data-label="100% free MCQs" role="group" aria-roledescription="slide">
+            <a class="cc-card" href="#mcqs" draggable="false">
+              <div class="cc-body">
+                <span class="cc-tag">100% FREE · NO SIGN-UP</span>
+                <h3 class="cc-title">7000+ free MCQs</h3>
+                <p class="cc-line">Everything you need to practise. Nothing to pay.</p>
+                <p class="cc-more">4000+ Law 058 and 3000+ Paper 1 questions, organised topic-wise, each with a clear explanation. No sign-up, no paywall.</p>
+                <span class="btn primary cc-cta">Start Practising →</span>
+              </div>
+              <div class="cc-vis" aria-hidden="true">
+                <div class="cc-qcard"><i class="cc-bar w80"></i><i class="cc-bar w55"></i>
+                  <div class="cc-opt"><b>A</b><i class="cc-bar w60"></i></div>
+                  <div class="cc-opt on"><b>B</b><i class="cc-bar w70"></i><em>✓</em></div>
+                  <div class="cc-opt"><b>C</b><i class="cc-bar w50"></i></div>
+                  <div class="cc-why"><i class="cc-bar w90"></i><i class="cc-bar w65"></i></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="cc-slide" data-label="Paper 1" role="group" aria-roledescription="slide">
+            <a class="cc-card" href="#paper1" draggable="false">
+              <div class="cc-body">
+                <span class="cc-tag">GENERAL PAPER · 3000+ MCQs</span>
+                <h3 class="cc-title">Paper 1</h3>
+                <p class="cc-line">3000+ free MCQs, topic by topic, at no cost.</p>
+                <p class="cc-more">Teaching and research aptitude, reasoning, comprehension, data interpretation and more. Every answer is explained.</p>
+                <span class="btn primary cc-cta">Open Paper 1 →</span>
+              </div>
+              <div class="cc-vis" aria-hidden="true">
+                <div class="cc-chips"><span>Teaching aptitude</span><span>Research aptitude</span><span>Reasoning</span><span>Comprehension</span><span>Data interpretation</span></div>
+              </div>
+            </a>
+          </li>
+          <li class="cc-slide" data-label="Law 058" role="group" aria-roledescription="slide">
+            <a class="cc-card" href="#law" draggable="false">
+              <div class="cc-body">
+                <span class="cc-tag">SUBJECT PAPER · 4000+ MCQs</span>
+                <h3 class="cc-title">Law 058</h3>
+                <p class="cc-line">4000+ free MCQs. Every module. Zero cost.</p>
+                <p class="cc-more">Statements, assertion-reason, match-the-following and case-based questions in exam styles, with a case-law focus.</p>
+                <span class="btn primary cc-cta">Open Law 058 →</span>
+              </div>
+              <div class="cc-vis" aria-hidden="true">
+                <div class="cc-chips cc-chips-col"><span>Statements</span><span>Assertion–Reason</span><span>Match the following</span><span>Case-based</span></div>
+              </div>
+            </a>
+          </li>
+          <li class="cc-slide cc-feat" data-label="Mock Tests" role="group" aria-roledescription="slide">
+            <a class="cc-card" href="#mock-tests" draggable="false">
+              <div class="cc-body">
+                <span class="cc-tag">TEST YOURSELF</span>
+                <h3 class="cc-title">Mock Tests</h3>
+                <p class="cc-line">Practise in an exam-style environment.</p>
+                <p class="cc-more">Running timer, question palette, mark for review, and a score review at the end. Walk in having already done it.</p>
+                <span class="btn primary cc-cta">Take a Mock →</span>
+                <p class="cc-foot">Exam-style practice. Not affiliated with NTA or UGC.</p>
+              </div>
+              <div class="cc-vis" aria-hidden="true">
+                <div class="cc-mock">
+                  <div class="cc-mock-h"><span>Mock Test · Exam style</span><span class="cc-timer">⏱ 02:59:48</span></div>
+                  <div class="cc-mock-b">
+                    <div class="cc-mock-q">
+                      <small>Question 12</small>
+                      <i class="cc-bar w90"></i><i class="cc-bar w60"></i>
+                      <div class="cc-opt"><b>A</b><i class="cc-bar w55"></i></div>
+                      <div class="cc-opt on"><b>B</b><i class="cc-bar w70"></i></div>
+                      <div class="cc-opt"><b>C</b><i class="cc-bar w45"></i></div>
+                      <div class="cc-opt"><b>D</b><i class="cc-bar w60"></i></div>
+                    </div>
+                    <div class="cc-pal">
+                      <small>Palette</small>
+                      <div class="cc-pal-g"><u class="a">1</u><u class="a">2</u><u class="m">3</u><u class="a">4</u><u class="a">5</u><u>6</u><u class="a">7</u><u class="m">8</u><u class="a">9</u><u>10</u><u class="a">11</u><u class="c">12</u><u>13</u><u>14</u><u>15</u></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="cc-slide" data-label="PYQs" role="group" aria-roledescription="slide">
+            <a class="cc-card" href="#pyq" draggable="false">
+              <div class="cc-body">
+                <span class="cc-tag">PREVIOUS YEARS</span>
+                <h3 class="cc-title">PYQs</h3>
+                <p class="cc-line">See how the exam has actually asked it.</p>
+                <p class="cc-more">Year-wise papers with questions to revise topic by topic.</p>
+                <span class="btn primary cc-cta">Browse PYQs →</span>
+              </div>
+              <div class="cc-vis" aria-hidden="true">
+                <div class="cc-sheets"><div class="cc-sheet s3"></div><div class="cc-sheet s2"></div><div class="cc-sheet s1"><b>Year-wise</b><i class="cc-bar w80"></i><i class="cc-bar w60"></i><i class="cc-bar w70"></i><i class="cc-bar w40"></i></div></div>
+              </div>
+            </a>
+          </li>
+          <li class="cc-slide" data-label="Notes" role="group" aria-roledescription="slide">
+            <a class="cc-card" href="#notes" draggable="false">
+              <div class="cc-body">
+                <span class="cc-tag">FREE REVISION NOTES</span>
+                <h3 class="cc-title">Notes</h3>
+                <p class="cc-line">Free summary revision, built for confident recall.</p>
+                <p class="cc-more">Important concepts and memory-based events: cases, conventions, Acts and more. Short and structured.</p>
+                <span class="btn primary cc-cta">Explore Notes →</span>
+              </div>
+              <div class="cc-vis" aria-hidden="true">
+                <div class="cc-note"><div class="cc-note-t"><i class="cc-bar w60"></i></div><ul><li>Cases</li><li>Conventions</li><li>Acts</li></ul><i class="cc-bar w85"></i><i class="cc-bar w55"></i></div>
+              </div>
+            </a>
+          </li>
+          <li class="cc-slide" data-label="Pomodoro Technique" role="group" aria-roledescription="slide">
+            <a class="cc-card" href="#pomodoro" draggable="false">
+              <div class="cc-body">
+                <span class="cc-tag">STUDY SMARTER</span>
+                <h3 class="cc-title">The Pomodoro Technique</h3>
+                <p class="cc-line">25 minutes of focus. 5 minutes of rest. Repeat.</p>
+                <p class="cc-more">Work 25 minutes without distractions, rest 5, and take a longer break after four rounds.</p>
+                <span class="btn primary cc-cta">Start Focus Timer →</span>
+              </div>
+              <div class="cc-vis" aria-hidden="true">
+                <svg class="cc-clock" viewBox="0 0 160 160"><circle cx="80" cy="80" r="62" class="t"/><circle cx="80" cy="80" r="62" class="p" transform="rotate(-90 80 80)"/><text x="80" y="88" text-anchor="middle" class="n">25:00</text><text x="80" y="108" text-anchor="middle" class="s">FOCUS</text></svg>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="cc-ctrl">
+        <button type="button" class="cc-arrow" data-prev aria-label="Previous slide"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+        <div class="cc-dots" role="group" aria-label="Choose slide"></div>
+        <button type="button" class="cc-arrow" data-next aria-label="Next slide"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -135,5 +258,6 @@
 <script src="mock-home.js"></script>
 <script src="accessibility.js"></script>
 <script src="nl-countdown.js"></script>
+<script src="hero-carousel.js"></script>
 </body>
 </html>
