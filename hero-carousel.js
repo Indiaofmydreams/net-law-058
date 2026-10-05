@@ -1,10 +1,11 @@
-/* Hero carousel: centre-focus, auto-advance every 4.5s, pauses on hover/focus/touch, swipe on touch. */
+/* Hero carousel: one main card with a vertical option rail. Auto-advance every 4.5s, pauses on hover/focus/touch, swipe on touch. */
 (function () {
   var root = document.querySelector('[data-cc]');
   if (!root) return;
   var stage = root.querySelector('.cc-stage');
   var slides = [].slice.call(root.querySelectorAll('.cc-slide'));
   var dotsEl = root.querySelector('.cc-dots');
+  var rail = root.querySelector('.cc-rail');
   var n = slides.length, cur = 0, timer = null;
   var hovering = false, focused = false, touching = false, dragging = false, justDragged = false;
   var mqReduce = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -23,6 +24,20 @@
     return b;
   });
 
+  /* Vertical option rail: one button per slide, built from the slide's own label and tag. */
+  var opts = slides.map(function (s, i) {
+    var tagEl = s.querySelector('.cc-tag'), b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'cc-opt-btn';
+    b.setAttribute('aria-label', 'Show ' + s.getAttribute('data-label') + ' (' + (i + 1) + ' of ' + n + ')');
+    b.innerHTML = '<span class="co-t"></span><span class="co-s"></span><i class="co-bar" aria-hidden="true"></i>';
+    b.querySelector('.co-t').textContent = s.getAttribute('data-label');
+    b.querySelector('.co-s').textContent = tagEl ? tagEl.textContent : '';
+    b.addEventListener('click', function () { go(i); });
+    rail.appendChild(b);
+    return b;
+  });
+
   function rel(i) {
     var d = (((i - cur) % n) + n) % n;
     return d > n / 2 ? d - n : d;
@@ -38,6 +53,7 @@
       s.setAttribute('aria-hidden', d === 0 ? 'false' : 'true');
       card.tabIndex = d === 0 ? 0 : -1;
       dots[i].setAttribute('aria-current', d === 0 ? 'true' : 'false');
+      opts[i].setAttribute('aria-current', d === 0 ? 'true' : 'false');
     });
   }
   function canPlay() {
@@ -46,7 +62,12 @@
   function schedule() {
     clearTimeout(timer);
     stage.setAttribute('aria-live', canPlay() ? 'off' : 'polite');
+    /* Progress line on the active option mirrors the auto-slide timer. */
+    rail.classList.remove('is-run');
     if (!canPlay()) return;
+    rail.style.setProperty('--cc-delay', (mqMobile.matches ? DELAY_MOBILE : DELAY) + 'ms');
+    void rail.offsetWidth;
+    rail.classList.add('is-run');
     timer = setTimeout(function () { go(cur + 1); }, mqMobile.matches ? DELAY_MOBILE : DELAY);
   }
   function go(i) {
@@ -69,13 +90,18 @@
   root.addEventListener('keydown', function (e) {
     if (e.key === 'ArrowLeft') { e.preventDefault(); go(cur - 1); }
     else if (e.key === 'ArrowRight') { e.preventDefault(); go(cur + 1); }
+    else if ((e.key === 'ArrowUp' || e.key === 'ArrowDown') && rail.contains(e.target)) {
+      e.preventDefault();
+      go(cur + (e.key === 'ArrowDown' ? 1 : -1));
+      opts[cur].focus();
+    }
   });
 
-  /* A click on a peek card brings it to the centre; a click on the centre card follows its link. */
+  /* A click on the main card follows its link (unless it was the end of a swipe). */
   stage.addEventListener('click', function (e) {
     if (justDragged) { e.preventDefault(); return; }
     var s = e.target.closest('.cc-slide');
-    if (s && !s.classList.contains('is-active')) { e.preventDefault(); go(slides.indexOf(s)); }
+    if (s && !s.classList.contains('is-active')) e.preventDefault();
   });
 
   /* Swipe / drag (touch and pen) with snap to the nearest card. */

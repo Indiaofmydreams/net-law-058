@@ -1,15 +1,15 @@
-/* Hero carousel: centre-focus, 70% main / 15% peeks. Colours come from the active theme variables. */
-.hero-grid.hero-grid-cc{grid-template-columns:1fr;gap:38px}
-.cc{--cc-h:440px;--cc-gap:14px;--cc-w:70%;--cc-left:15%;position:relative;min-width:0}
-.cc-stage{position:relative;height:var(--cc-h);overflow:hidden;touch-action:pan-y;-webkit-user-select:none;user-select:none}
+/* Hero carousel: main card on the left, vertical option rail on the right. Colours come from the active theme variables. */
+section.hero{padding:44px 0 56px}
+.hero-grid.hero-grid-cc{grid-template-columns:1fr;gap:28px}
+.cc{--cc-h:440px;--cc-rail:300px;position:relative;min-width:0;display:grid;grid-template-columns:minmax(0,1fr) var(--cc-rail);gap:24px;align-items:start}
+.cc-main{min-width:0}
+.cc-stage{position:relative;height:var(--cc-h);touch-action:pan-y;-webkit-user-select:none;user-select:none}
 .cc-track{list-style:none;margin:0;padding:0;position:absolute;inset:0}
-.cc-slide{position:absolute;top:12px;bottom:34px;left:var(--cc-left);width:var(--cc-w);
-  transform:translateX(calc(var(--d,0)*(100% + var(--cc-gap)) + var(--dx,0px))) scale(var(--s,1));
-  opacity:var(--o,1);visibility:visible;
-  transition:transform .7s cubic-bezier(.45,.05,.25,1),opacity .7s cubic-bezier(.45,.05,.25,1),visibility 0s}
-.cc-slide.is-active{--s:1;--o:1;z-index:2}
-.cc-slide.is-prev,.cc-slide.is-next{--s:.94;--o:.55;z-index:1;cursor:pointer}
-.cc-slide.is-far{--s:.88;--o:0;visibility:hidden;pointer-events:none;transition:transform .7s cubic-bezier(.45,.05,.25,1),opacity .7s cubic-bezier(.45,.05,.25,1),visibility 0s linear .7s}
+.cc-slide{position:absolute;inset:0;
+  transform:translate(var(--dx,0px),calc(var(--d,0)*36px));
+  opacity:0;visibility:hidden;pointer-events:none;
+  transition:transform .6s cubic-bezier(.45,.05,.25,1),opacity .45s ease,visibility 0s linear .6s}
+.cc-slide.is-active{opacity:1;visibility:visible;pointer-events:auto;z-index:2;transition:transform .6s cubic-bezier(.45,.05,.25,1),opacity .55s ease .08s,visibility 0s}
 .cc-stage.is-drag .cc-slide{transition:none}
 
 .cc-card{display:grid;grid-template-columns:1.08fr .92fr;gap:22px;height:100%;padding:28px 32px;position:relative;overflow:hidden;
@@ -85,14 +85,85 @@
 /* Theme alignment */
 [data-scheme=royal] .cc-card{border-radius:6px}[data-scheme=royal] .cc-card{border-top-width:3px}
 
+/* Vertical option rail */
+.cc-rail{display:flex;flex-direction:column;gap:8px;height:var(--cc-h);min-width:0}
+.cc-opt-btn{position:relative;flex:1 1 0;min-height:44px;display:flex;flex-direction:column;justify-content:center;gap:2px;width:100%;padding:6px 16px 6px 20px;overflow:hidden;text-align:left;font:inherit;color:var(--text);cursor:pointer;
+  background:var(--surface);border:1px solid var(--line);border-radius:14px;
+  transition:background .25s,border-color .25s,transform .25s,box-shadow .25s}
+.cc-opt-btn::before{content:"";position:absolute;left:0;top:10px;bottom:10px;width:4px;border-radius:0 4px 4px 0;background:var(--line2);transition:background .25s}
+.cc-opt-btn:hover{background:var(--soft);border-color:var(--line2);transform:translateX(-3px)}
+.cc-opt-btn:focus-visible{outline:3px solid var(--ac);outline-offset:2px}
+.cc-opt-btn[aria-current=true]{background:var(--tint);border-color:var(--ac2);box-shadow:0 6px 16px color-mix(in srgb,var(--deep) 10%,transparent);transform:none}
+.cc-opt-btn[aria-current=true]::before{background:var(--ac)}
+.co-t{font-size:.9375rem;font-weight:800;line-height:1.2;letter-spacing:-.01em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.co-s{font-size:.6875rem;font-weight:700;letter-spacing:.04em;line-height:1.2;color:var(--mut);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cc-opt-btn[aria-current=true] .co-s{color:var(--ac-d)}
+.co-bar{position:absolute;left:0;bottom:0;height:3px;width:100%;background:var(--ac);transform:scaleX(0);transform-origin:left;opacity:0}
+.cc-rail.is-run .cc-opt-btn[aria-current=true] .co-bar{opacity:.85;animation:cc-fill var(--cc-delay,4500ms) linear forwards}
+@keyframes cc-fill{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+
+/* Controls sit under the main card */
+.cc-ctrl{justify-content:flex-start;padding-left:2px}
+
+/* Header clock: prominent, between the nav links and the theme controls */
+.hdr-clock{display:flex;align-items:center;gap:10px;padding:6px 16px 6px 12px;border:1px solid var(--line2);border-radius:99px;background:var(--surface);color:var(--text);font-variant-numeric:tabular-nums;white-space:nowrap;box-shadow:0 4px 12px color-mix(in srgb,var(--deep) 8%,transparent)}
+.hdr-clock .hc-dot{flex:none;width:9px;height:9px;border-radius:50%;background:var(--ac);box-shadow:0 0 0 0 color-mix(in srgb,var(--ac) 45%,transparent);animation:hc-pulse 2s ease-out infinite}
+.hdr-clock .hc-txt{display:flex;flex-direction:column;line-height:1.15}
+.hdr-clock .t{font-size:1.3125rem;font-weight:800;letter-spacing:.02em;color:var(--ac)}
+.hdr-clock .d{font-size:.6875rem;font-weight:700;color:var(--mut)}
+.hdr-clock+.theme-ctl{margin-left:14px}
+@keyframes hc-pulse{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--ac) 45%,transparent)}70%,100%{box-shadow:0 0 0 8px transparent}}
+
+/* Theme alignment */
+[data-scheme=royal] .cc-card{border-radius:6px}[data-scheme=royal] .cc-card{border-top-width:3px}
+[data-scheme=royal] .cc-opt-btn,[data-scheme=royal] .hdr-clock{border-radius:6px}
+
+/* Header: keep brand and links on one line; give the bar a little more room on wide screens */
+.site-header .brand,.site-header .brand span,.nav nav a{white-space:nowrap}
+@media(min-width:1240px){.site-header .nav.container{width:min(1280px,94%)}.nav nav{gap:18px}}
+
+/* Mid widths: tighter link spacing so brand, links and theme controls all fit */
+@media(max-width:1199px) and (min-width:901px){.nav nav{gap:13px}.nav nav a{font-size:.8125rem}.nav .theme-ctl{margin-left:12px}}
+
+/* Narrower desktops: tighten the header so brand, links, clock and theme controls all fit */
+@media(max-width:1239px) and (min-width:1200px){
+  .nav nav{gap:14px}.nav nav a{font-size:.8125rem}
+  .hdr-clock{padding:5px 12px 5px 10px}
+  .hdr-clock .t{font-size:1.125rem}
+  .hdr-clock .d{display:none}
+  .hdr-clock+.theme-ctl{margin-left:10px}
+}
+
+/* Tablet: narrower rail, single-column card */
+@media(max-width:999px){.cc{--cc-rail:250px;gap:18px}.co-s{display:none}}
 @media(max-width:899px){.cc{--cc-h:400px}.cc-vis{display:none}.cc-card{grid-template-columns:1fr}}
+
+/* Mobile: main card on top, option rail stacked underneath */
 @media(max-width:767px){
-  .hero-grid.hero-grid-cc{gap:28px}
-  .cc{--cc-h:465px;--cc-w:84%;--cc-left:8%;--cc-gap:10px}
+  section.hero{padding:26px 0 40px}
+  .hero-grid.hero-grid-cc{gap:22px}
+  .cc{--cc-h:465px;grid-template-columns:minmax(0,1fr);gap:14px}
   .cc-card{padding:22px 20px}
   .cc-more{min-height:0}
   .cc-slide.is-active .cc-more{opacity:1;transform:none}
   .cc-cta{margin-top:18px}.cc-more+.cc-cta{margin-top:auto}
   .cc-arrow{width:32px;height:32px}
+  .cc-ctrl{justify-content:center}
+  .cc-rail{height:auto;gap:6px}
+  .cc-opt-btn{flex:none;min-height:46px;padding:8px 40px 8px 18px;border-radius:12px}
+  .cc-opt-btn:hover{transform:none}
+  .cc-opt-btn::after{content:"";position:absolute;right:16px;top:50%;width:8px;height:8px;margin-top:-6px;border-right:2px solid var(--mut);border-bottom:2px solid var(--mut);transform:rotate(45deg);opacity:.7}
+  .cc-opt-btn[aria-current=true]::after{border-color:var(--ac);opacity:1}
 }
-@media(prefers-reduced-motion:reduce){.cc-slide,.cc-card,.cc-more,.cc-dot i{transition:none!important}}
+/* Below 1200px the clock gets its own slim row beneath the bar so nothing is squeezed */
+@media(max-width:1199px){
+  .site-header{padding-bottom:40px}
+  .hdr-clock{position:absolute;left:0;right:0;top:72px;height:40px;margin:0;justify-content:center;gap:10px;padding:0 14px;border:0;border-top:1px solid var(--line);border-radius:0;box-shadow:none;background:var(--soft)}
+  .hdr-clock .hc-txt{flex-direction:row;align-items:baseline;gap:10px}
+  .hdr-clock .t{font-size:1.1875rem}
+  .hdr-clock .d{font-size:.75rem}
+  .nav nav.open{z-index:2}
+  [data-scheme=royal] .hdr-clock{border-radius:0}
+}
+@media(max-width:380px){.hdr-clock .d{font-size:.6875rem}.hdr-clock .t{font-size:1.0625rem}}
+@media(prefers-reduced-motion:reduce){.cc-slide,.cc-card,.cc-more,.cc-dot i,.cc-opt-btn{transition:none!important}.hdr-clock .hc-dot,.co-bar{animation:none!important}}
