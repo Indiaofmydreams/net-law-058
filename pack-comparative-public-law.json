@@ -1,11 +1,1513 @@
 {
- "title": "Comparative Public Law - Set 3",
+ "title": "Comparative Public Law - Complete MCQ Bank (Sets 1-3)",
  "exam": "UGC NET Law",
  "subject": "Comparative Public Law",
- "totalQuestions": 50,
+ "totalQuestions": 150,
  "questions": [
   {
    "id": 1,
+   "set": 1,
+   "setQuestionNo": 1,
+   "nation": "USA",
+   "question": "Judicial review in the USA was established by the Supreme Court in:",
+   "options": {
+    "A": "Gibbons v. Ogden",
+    "B": "McCulloch v. Maryland",
+    "C": "Marbury v. Madison",
+    "D": "Dred Scott v. Sandford"
+   },
+   "answer": "C",
+   "topic": "USA"
+  },
+  {
+   "id": 2,
+   "set": 1,
+   "setQuestionNo": 2,
+   "nation": "USA",
+   "question": "The judicial power of the United States is vested in one Supreme Court under:",
+   "options": {
+    "A": "Article I",
+    "B": "Article III",
+    "C": "Article II",
+    "D": "Article V"
+   },
+   "answer": "B",
+   "topic": "USA"
+  },
+  {
+   "id": 3,
+   "set": 1,
+   "setQuestionNo": 3,
+   "nation": "USA",
+   "question": "The Commerce Clause of the US Constitution is found in:",
+   "options": {
+    "A": "Article I, Section 8, Clause 3",
+    "B": "Article I, Section 9",
+    "C": "Article II, Section 2",
+    "D": "Article III, Section 2"
+   },
+   "answer": "A",
+   "topic": "USA"
+  },
+  {
+   "id": 4,
+   "set": 1,
+   "setQuestionNo": 4,
+   "nation": "USA",
+   "question": "McCulloch v. Maryland (1819) is associated with which doctrine?",
+   "options": {
+    "A": "Dual sovereignty only",
+    "B": "Police power",
+    "C": "Political question",
+    "D": "Implied powers"
+   },
+   "answer": "D",
+   "topic": "USA"
+  },
+  {
+   "id": 5,
+   "set": 1,
+   "setQuestionNo": 5,
+   "nation": "USA",
+   "question": "Which case gave a broad interpretation of \"commerce\" to include navigation?",
+   "options": {
+    "A": "Lopez",
+    "B": "Gibbons v. Ogden",
+    "C": "Marbury v. Madison",
+    "D": "Plessy v. Ferguson"
+   },
+   "answer": "B",
+   "topic": "USA"
+  },
+  {
+   "id": 6,
+   "set": 1,
+   "setQuestionNo": 6,
+   "nation": "USA",
+   "question": "Justice Jackson's three-category framework in Youngstown Sheet & Tube Co. v. Sawyer concerns:",
+   "options": {
+    "A": "Federal-state relations",
+    "B": "Free speech",
+    "C": "Presidential power",
+    "D": "Due process"
+   },
+   "answer": "C",
+   "topic": "USA"
+  },
+  {
+   "id": 7,
+   "set": 1,
+   "setQuestionNo": 7,
+   "nation": "USA",
+   "question": "The \"separate but equal\" doctrine of Plessy v. Ferguson (1896) was repudiated in:",
+   "options": {
+    "A": "Brown v. Board of Education",
+    "B": "Roe v. Wade",
+    "C": "Miranda v. Arizona",
+    "D": "Mapp v. Ohio"
+   },
+   "answer": "A",
+   "topic": "USA"
+  },
+  {
+   "id": 8,
+   "set": 1,
+   "setQuestionNo": 8,
+   "nation": "USA",
+   "question": "Miranda v. Arizona is based on which Amendment?",
+   "options": {
+    "A": "Fourth",
+    "B": "Sixth",
+    "C": "Eighth",
+    "D": "Fifth"
+   },
+   "answer": "D",
+   "topic": "USA"
+  },
+  {
+   "id": 9,
+   "set": 1,
+   "setQuestionNo": 9,
+   "nation": "USA",
+   "question": "Which of the following is NOT part of Section 1 of the Fourteenth Amendment?",
+   "options": {
+    "A": "Citizenship Clause",
+    "B": "Commerce Clause",
+    "C": "Due Process Clause",
+    "D": "Equal Protection Clause"
+   },
+   "answer": "B",
+   "topic": "USA"
+  },
+  {
+   "id": 10,
+   "set": 1,
+   "setQuestionNo": 10,
+   "nation": "USA",
+   "question": "Roe v. Wade was overruled by:",
+   "options": {
+    "A": "Planned Parenthood v. Casey",
+    "B": "Gonzales v. Carhart",
+    "C": "Dobbs v. Jackson Women's Health Organization",
+    "D": "Whole Woman's Health v. Hellerstedt"
+   },
+   "answer": "C",
+   "topic": "USA"
+  },
+  {
+   "id": 11,
+   "set": 1,
+   "setQuestionNo": 11,
+   "nation": "USA",
+   "question": "Baker v. Carr (1962) held that:",
+   "options": {
+    "A": "Legislative malapportionment claims are justiciable",
+    "B": "Reapportionment is a non-justiciable political question",
+    "C": "Senate seats must be apportioned by population",
+    "D": "Gerrymandering is unconstitutional per se"
+   },
+   "answer": "A",
+   "topic": "USA"
+  },
+  {
+   "id": 12,
+   "set": 1,
+   "setQuestionNo": 12,
+   "nation": "USA",
+   "question": "The Bill of Rights (first ten Amendments) was ratified in:",
+   "options": {
+    "A": "1787",
+    "B": "1789",
+    "C": "1868",
+    "D": "1791"
+   },
+   "answer": "D",
+   "topic": "USA"
+  },
+  {
+   "id": 13,
+   "set": 1,
+   "setQuestionNo": 13,
+   "nation": "USA",
+   "question": "The \"incorporation doctrine\" applies the Bill of Rights to the states through the:",
+   "options": {
+    "A": "Tenth Amendment",
+    "B": "Due Process Clause of the Fourteenth Amendment",
+    "C": "Supremacy Clause",
+    "D": "Ninth Amendment"
+   },
+   "answer": "B",
+   "topic": "USA"
+  },
+  {
+   "id": 14,
+   "set": 1,
+   "setQuestionNo": 14,
+   "nation": "USA",
+   "question": "Under Article V, a constitutional amendment proposed by Congress must be ratified by:",
+   "options": {
+    "A": "Simple majority of the states",
+    "B": "Two-thirds of the states",
+    "C": "Three-fourths of the states",
+    "D": "Unanimous consent of the states"
+   },
+   "answer": "C",
+   "topic": "USA"
+  },
+  {
+   "id": 15,
+   "set": 1,
+   "setQuestionNo": 15,
+   "nation": "USA",
+   "question": "Conviction of a President on impeachment requires:",
+   "options": {
+    "A": "Two-thirds of Senators present",
+    "B": "Simple majority of the House",
+    "C": "Three-fourths of the Senate",
+    "D": "Simple majority of the Senate"
+   },
+   "answer": "A",
+   "topic": "USA"
+  },
+  {
+   "id": 16,
+   "set": 1,
+   "setQuestionNo": 16,
+   "nation": "USA",
+   "question": "Dred Scott v. Sandford (1857) held that:",
+   "options": {
+    "A": "Slavery was abolished in all territories",
+    "B": "Congress could regulate commerce among states",
+    "C": "States could secede from the Union",
+    "D": "Congress could not prohibit slavery in the territories, and Black persons were not citizens"
+   },
+   "answer": "D",
+   "topic": "USA"
+  },
+  {
+   "id": 17,
+   "set": 1,
+   "setQuestionNo": 17,
+   "nation": "USA",
+   "question": "The Chevron doctrine of judicial deference to agency interpretation was overruled in:",
+   "options": {
+    "A": "Seila Law v. CFPB",
+    "B": "Loper Bright Enterprises v. Raimondo",
+    "C": "West Virginia v. EPA",
+    "D": "Humphrey's Executor v. US"
+   },
+   "answer": "B",
+   "topic": "USA"
+  },
+  {
+   "id": 18,
+   "set": 1,
+   "setQuestionNo": 18,
+   "nation": "USA",
+   "question": "Under \"strict scrutiny\", a law must be:",
+   "options": {
+    "A": "Rationally related to a legitimate interest",
+    "B": "Substantially related to an important interest",
+    "C": "Narrowly tailored to a compelling governmental interest",
+    "D": "Reasonable and non-arbitrary"
+   },
+   "answer": "C",
+   "topic": "USA"
+  },
+  {
+   "id": 19,
+   "set": 1,
+   "setQuestionNo": 19,
+   "nation": "USA",
+   "question": "Citizens United v. FEC (2010) held that:",
+   "options": {
+    "A": "Corporate independent political expenditures are protected by the First Amendment",
+    "B": "Corporations have no free speech rights",
+    "C": "Campaign finance is a political question",
+    "D": "Contribution limits are unconstitutional in all cases"
+   },
+   "answer": "A",
+   "topic": "USA"
+  },
+  {
+   "id": 20,
+   "set": 1,
+   "setQuestionNo": 20,
+   "nation": "USA",
+   "question": "United States v. Lopez (1995) struck down the Gun-Free School Zones Act because:",
+   "options": {
+    "A": "It violated the Second Amendment",
+    "B": "It violated the Fourth Amendment",
+    "C": "It denied equal protection",
+    "D": "It exceeded Congress's Commerce Clause power"
+   },
+   "answer": "D",
+   "topic": "USA"
+  },
+  {
+   "id": 21,
+   "set": 1,
+   "setQuestionNo": 21,
+   "nation": "USA",
+   "question": "Burning the national flag was held to be protected symbolic speech in:",
+   "options": {
+    "A": "Schenck v. US",
+    "B": "Texas v. Johnson",
+    "C": "Tinker v. Des Moines",
+    "D": "Brandenburg v. Ohio"
+   },
+   "answer": "B",
+   "topic": "USA"
+  },
+  {
+   "id": 22,
+   "set": 1,
+   "setQuestionNo": 22,
+   "nation": "USA",
+   "question": "The \"actual malice\" standard for defamation of public officials originated in:",
+   "options": {
+    "A": "Gertz v. Welch",
+    "B": "Near v. Minnesota",
+    "C": "New York Times v. Sullivan",
+    "D": "Hustler v. Falwell"
+   },
+   "answer": "C",
+   "topic": "USA"
+  },
+  {
+   "id": 23,
+   "set": 1,
+   "setQuestionNo": 23,
+   "nation": "USA",
+   "question": "District of Columbia v. Heller (2008) recognised:",
+   "options": {
+    "A": "An individual right to keep and bear arms",
+    "B": "A collective militia-based right only",
+    "C": "A right to abortion",
+    "D": "A right to privacy in homes"
+   },
+   "answer": "A",
+   "topic": "USA"
+  },
+  {
+   "id": 24,
+   "set": 1,
+   "setQuestionNo": 24,
+   "nation": "USA",
+   "question": "Obergefell v. Hodges (2015) recognised same-sex marriage under:",
+   "options": {
+    "A": "The Ninth Amendment alone",
+    "B": "The Due Process and Equal Protection Clauses",
+    "C": "The Commerce Clause",
+    "D": "The First Amendment"
+   },
+   "answer": "B",
+   "topic": "USA"
+  },
+  {
+   "id": 25,
+   "set": 1,
+   "setQuestionNo": 25,
+   "nation": "USA",
+   "question": "The right to state-appointed counsel for indigent felony defendants was established in:",
+   "options": {
+    "A": "Escobedo v. Illinois",
+    "B": "Terry v. Ohio",
+    "C": "Betts v. Brady",
+    "D": "Gideon v. Wainwright"
+   },
+   "answer": "D",
+   "topic": "USA"
+  },
+  {
+   "id": 26,
+   "set": 1,
+   "setQuestionNo": 26,
+   "nation": "USA",
+   "question": "The exclusionary rule was made applicable to the states in:",
+   "options": {
+    "A": "Weeks v. US",
+    "B": "Katz v. US",
+    "C": "Mapp v. Ohio",
+    "D": "Olmstead v. US"
+   },
+   "answer": "C",
+   "topic": "USA"
+  },
+  {
+   "id": 27,
+   "set": 1,
+   "setQuestionNo": 27,
+   "nation": "USA",
+   "question": "In Trump v. United States (2024), the Supreme Court held that a former President has:",
+   "options": {
+    "A": "Immunity for official acts within core constitutional powers, with no immunity for unofficial acts",
+    "B": "Absolute immunity for all acts",
+    "C": "No immunity of any kind",
+    "D": "Immunity only while in office"
+   },
+   "answer": "A",
+   "topic": "USA"
+  },
+  {
+   "id": 28,
+   "set": 1,
+   "setQuestionNo": 28,
+   "nation": "USA",
+   "question": "The Supremacy Clause is contained in:",
+   "options": {
+    "A": "Article I",
+    "B": "Article II",
+    "C": "Article IV",
+    "D": "Article VI"
+   },
+   "answer": "D",
+   "topic": "USA"
+  },
+  {
+   "id": 29,
+   "set": 1,
+   "setQuestionNo": 29,
+   "nation": "USA",
+   "question": "Powers not delegated to the US nor prohibited to the States are reserved to the States or people by the:",
+   "options": {
+    "A": "Ninth Amendment",
+    "B": "Tenth Amendment",
+    "C": "Eleventh Amendment",
+    "D": "Fourteenth Amendment"
+   },
+   "answer": "B",
+   "topic": "USA"
+  },
+  {
+   "id": 30,
+   "set": 1,
+   "setQuestionNo": 30,
+   "nation": "UK",
+   "question": "\"Parliamentary sovereignty\" and the \"rule of law\" were classically expounded by:",
+   "options": {
+    "A": "Bagehot",
+    "B": "Jennings",
+    "C": "A.V. Dicey",
+    "D": "Wade"
+   },
+   "answer": "C",
+   "topic": "UK"
+  },
+  {
+   "id": 31,
+   "set": 1,
+   "setQuestionNo": 31,
+   "nation": "UK",
+   "question": "The UK Supreme Court was established by the:",
+   "options": {
+    "A": "Constitutional Reform Act 2005",
+    "B": "Human Rights Act 1998",
+    "C": "Supreme Court Act 1981",
+    "D": "Judicature Act 1873"
+   },
+   "answer": "A",
+   "topic": "UK"
+  },
+  {
+   "id": 32,
+   "set": 1,
+   "setQuestionNo": 32,
+   "nation": "UK",
+   "question": "In the Miller/Cherry case (2019), the UK Supreme Court held that:",
+   "options": {
+    "A": "Brexit required a fresh referendum",
+    "B": "Parliament could not be dissolved",
+    "C": "The Queen's assent was invalid",
+    "D": "The advice to prorogue Parliament was unlawful"
+   },
+   "answer": "D",
+   "topic": "UK"
+  },
+  {
+   "id": 33,
+   "set": 1,
+   "setQuestionNo": 33,
+   "nation": "UK",
+   "question": "Under Section 4 of the Human Rights Act 1998, courts can:",
+   "options": {
+    "A": "Strike down Acts of Parliament",
+    "B": "Issue a declaration of incompatibility",
+    "C": "Repeal conflicting legislation",
+    "D": "Suspend the Act"
+   },
+   "answer": "B",
+   "topic": "UK"
+  },
+  {
+   "id": 34,
+   "set": 1,
+   "setQuestionNo": 34,
+   "nation": "UK",
+   "question": "Under the Parliament Act 1911, the House of Lords can delay a Money Bill for a maximum of:",
+   "options": {
+    "A": "One year",
+    "B": "Two years",
+    "C": "One month",
+    "D": "Six months"
+   },
+   "answer": "C",
+   "topic": "UK"
+  },
+  {
+   "id": 35,
+   "set": 1,
+   "setQuestionNo": 35,
+   "nation": "France",
+   "question": "The Constitution of the Fifth French Republic was adopted in:",
+   "options": {
+    "A": "1958",
+    "B": "1946",
+    "C": "1875",
+    "D": "1971"
+   },
+   "answer": "A",
+   "topic": "France"
+  },
+  {
+   "id": 36,
+   "set": 1,
+   "setQuestionNo": 36,
+   "nation": "France",
+   "question": "The body exercising constitutional review in France is the:",
+   "options": {
+    "A": "Cour de Cassation",
+    "B": "Conseil d'État",
+    "C": "National Assembly",
+    "D": "Conseil constitutionnel"
+   },
+   "answer": "D",
+   "topic": "France"
+  },
+  {
+   "id": 37,
+   "set": 1,
+   "setQuestionNo": 37,
+   "nation": "France",
+   "question": "The apex court of French administrative law (droit administratif) is the:",
+   "options": {
+    "A": "Cour de Cassation",
+    "B": "Conseil d'État",
+    "C": "Conseil constitutionnel",
+    "D": "Tribunal des Conflits"
+   },
+   "answer": "B",
+   "topic": "France"
+  },
+  {
+   "id": 38,
+   "set": 1,
+   "setQuestionNo": 38,
+   "nation": "France",
+   "question": "Emergency powers of the French President are provided in:",
+   "options": {
+    "A": "Article 5",
+    "B": "Article 49",
+    "C": "Article 16",
+    "D": "Article 89"
+   },
+   "answer": "C",
+   "topic": "France"
+  },
+  {
+   "id": 39,
+   "set": 1,
+   "setQuestionNo": 39,
+   "nation": "Canada",
+   "question": "The Canadian Charter of Rights and Freedoms forms part of the:",
+   "options": {
+    "A": "Constitution Act, 1982",
+    "B": "British North America Act, 1867",
+    "C": "Statute of Westminster, 1931",
+    "D": "Canada Act, 1867"
+   },
+   "answer": "A",
+   "topic": "Canada"
+  },
+  {
+   "id": 40,
+   "set": 1,
+   "setQuestionNo": 40,
+   "nation": "Canada",
+   "question": "The \"notwithstanding clause\" in the Canadian Charter is:",
+   "options": {
+    "A": "Section 1",
+    "B": "Section 7",
+    "C": "Section 15",
+    "D": "Section 33"
+   },
+   "answer": "D",
+   "topic": "Canada"
+  },
+  {
+   "id": 41,
+   "set": 1,
+   "setQuestionNo": 41,
+   "nation": "Canada",
+   "question": "Under the Canadian Constitution, residuary powers (\"peace, order and good government\") vest in:",
+   "options": {
+    "A": "The Provinces",
+    "B": "The Federal Parliament",
+    "C": "The Crown alone",
+    "D": "The Supreme Court"
+   },
+   "answer": "B",
+   "topic": "Canada"
+  },
+  {
+   "id": 42,
+   "set": 1,
+   "setQuestionNo": 42,
+   "nation": "Australia",
+   "question": "Constitutional amendment in Australia under Section 128 requires:",
+   "options": {
+    "A": "Two-thirds of Parliament",
+    "B": "A parliamentary majority only",
+    "C": "A double majority at a referendum",
+    "D": "Consent of the Governor-General alone"
+   },
+   "answer": "C",
+   "topic": "Australia"
+  },
+  {
+   "id": 43,
+   "set": 1,
+   "setQuestionNo": 43,
+   "nation": "Australia",
+   "question": "Which Australian case rejected the doctrine of reserved state powers and implied immunities?",
+   "options": {
+    "A": "The Engineers' Case (1920)",
+    "B": "Cole v. Whitfield",
+    "C": "Mabo",
+    "D": "Tasmanian Dam Case"
+   },
+   "answer": "A",
+   "topic": "Australia"
+  },
+  {
+   "id": 44,
+   "set": 1,
+   "setQuestionNo": 44,
+   "nation": "Australia",
+   "question": "The implied freedom of political communication in Australia was recognised in:",
+   "options": {
+    "A": "Mabo v. Queensland",
+    "B": "Wik Peoples",
+    "C": "Dietrich v. The Queen",
+    "D": "Australian Capital Television v. Commonwealth (1992)"
+   },
+   "answer": "D",
+   "topic": "Australia"
+  },
+  {
+   "id": 45,
+   "set": 1,
+   "setQuestionNo": 45,
+   "nation": "Switzerland",
+   "question": "The Swiss executive is a:",
+   "options": {
+    "A": "Single President",
+    "B": "Collegial seven-member Federal Council",
+    "C": "Prime Minister with cabinet",
+    "D": "Dual executive"
+   },
+   "answer": "B",
+   "topic": "Switzerland"
+  },
+  {
+   "id": 46,
+   "set": 1,
+   "setQuestionNo": 46,
+   "nation": "Switzerland",
+   "question": "A distinctive feature of the Swiss constitutional system is:",
+   "options": {
+    "A": "Judicial supremacy",
+    "B": "Fused executive-legislature",
+    "C": "Direct democracy through initiative and referendum",
+    "D": "Unicameralism"
+   },
+   "answer": "C",
+   "topic": "Switzerland"
+  },
+  {
+   "id": 47,
+   "set": 1,
+   "setQuestionNo": 47,
+   "nation": "South Africa",
+   "question": "Government of the Republic of South Africa v. Grootboom (2000) concerned:",
+   "options": {
+    "A": "The right to housing, with reasonableness review",
+    "B": "Death penalty",
+    "C": "Same-sex marriage",
+    "D": "Land restitution only"
+   },
+   "answer": "A",
+   "topic": "South Africa"
+  },
+  {
+   "id": 48,
+   "set": 1,
+   "setQuestionNo": 48,
+   "nation": "India/USA",
+   "question": "Article 21 of the Indian Constitution uses \"procedure established by law\", whereas the US Constitution uses:",
+   "options": {
+    "A": "Natural justice",
+    "B": "Reasonable restriction",
+    "C": "Rule of law",
+    "D": "Due process of law"
+   },
+   "answer": "D",
+   "topic": "India/USA"
+  },
+  {
+   "id": 49,
+   "set": 1,
+   "setQuestionNo": 49,
+   "nation": "India",
+   "question": "K.C. Wheare described the Indian Constitution as:",
+   "options": {
+    "A": "Purely federal",
+    "B": "Quasi-federal",
+    "C": "Unitary",
+    "D": "Confederal"
+   },
+   "answer": "B",
+   "topic": "India"
+  },
+  {
+   "id": 50,
+   "set": 1,
+   "setQuestionNo": 50,
+   "nation": "Germany",
+   "question": "The \"eternity clause\" protecting basic constitutional principles appears in Article 79(3) of the Constitution of:",
+   "options": {
+    "A": "France",
+    "B": "Italy",
+    "C": "Germany",
+    "D": "Japan"
+   },
+   "answer": "C",
+   "topic": "Germany"
+  },
+  {
+   "id": 51,
+   "set": 2,
+   "setQuestionNo": 1,
+   "nation": "USA",
+   "question": "Katz v. United States (1967) introduced which test under the Fourth Amendment?",
+   "options": {
+    "A": "Clear and present danger",
+    "B": "Reasonable expectation of privacy",
+    "C": "Lemon test",
+    "D": "Rational basis"
+   },
+   "answer": "B",
+   "topic": "USA"
+  },
+  {
+   "id": 52,
+   "set": 2,
+   "setQuestionNo": 2,
+   "nation": "USA",
+   "question": "The Establishment Clause three-prong test (secular purpose, primary effect, no excessive entanglement) comes from:",
+   "options": {
+    "A": "Lemon v. Kurtzman",
+    "B": "Engel v. Vitale",
+    "C": "Employment Division v. Smith",
+    "D": "Wallace v. Jaffree"
+   },
+   "answer": "A",
+   "topic": "USA"
+  },
+  {
+   "id": 53,
+   "set": 2,
+   "setQuestionNo": 3,
+   "nation": "USA",
+   "question": "Brandenburg v. Ohio (1969) protects speech unless it is:",
+   "options": {
+    "A": "Offensive",
+    "B": "Directed at inciting imminent lawless action and likely to produce it",
+    "C": "Critical of the government",
+    "D": "Made by non-citizens"
+   },
+   "answer": "B",
+   "topic": "USA"
+  },
+  {
+   "id": 54,
+   "set": 2,
+   "setQuestionNo": 4,
+   "nation": "USA",
+   "question": "NFIB v. Sebelius (2012) upheld the ACA's individual mandate under Congress's:",
+   "options": {
+    "A": "Commerce power",
+    "B": "War power",
+    "C": "Taxing power",
+    "D": "Treaty power"
+   },
+   "answer": "C",
+   "topic": "USA"
+  },
+  {
+   "id": 55,
+   "set": 2,
+   "setQuestionNo": 5,
+   "nation": "USA",
+   "question": "INS v. Chadha (1983) held the legislative veto to be:",
+   "options": {
+    "A": "Valid under Article I",
+    "B": "Valid under Article III",
+    "C": "A political question",
+    "D": "Unconstitutional for violating bicameralism and presentment"
+   },
+   "answer": "D",
+   "topic": "USA"
+  },
+  {
+   "id": 56,
+   "set": 2,
+   "setQuestionNo": 6,
+   "nation": "USA",
+   "question": "Clinton v. City of New York (1998) struck down:",
+   "options": {
+    "A": "The Line Item Veto Act",
+    "B": "The Patriot Act",
+    "C": "The Affordable Care Act",
+    "D": "The Civil Rights Act"
+   },
+   "answer": "A",
+   "topic": "USA"
+  },
+  {
+   "id": 57,
+   "set": 2,
+   "setQuestionNo": 7,
+   "nation": "USA",
+   "question": "Humphrey's Executor v. United States (1935) concerned:",
+   "options": {
+    "A": "Treaty-making",
+    "B": "Presidential pardon",
+    "C": "Removal of independent agency commissioners",
+    "D": "Habeas corpus"
+   },
+   "answer": "C",
+   "topic": "USA"
+  },
+  {
+   "id": 58,
+   "set": 2,
+   "setQuestionNo": 8,
+   "nation": "USA",
+   "question": "Printz v. United States (1997) established the principle of:",
+   "options": {
+    "A": "Anti-commandeering of state officials",
+    "B": "Implied powers",
+    "C": "Judicial review",
+    "D": "Dormant commerce"
+   },
+   "answer": "A",
+   "topic": "USA"
+  },
+  {
+   "id": 59,
+   "set": 2,
+   "setQuestionNo": 9,
+   "nation": "USA",
+   "question": "Cooper v. Aaron (1958) affirmed that:",
+   "options": {
+    "A": "States may nullify federal law",
+    "B": "The Supreme Court's constitutional interpretations bind the states",
+    "C": "Segregation was valid",
+    "D": "Congress controls school policy"
+   },
+   "answer": "B",
+   "topic": "USA"
+  },
+  {
+   "id": 60,
+   "set": 2,
+   "setQuestionNo": 10,
+   "nation": "USA",
+   "question": "Griswold v. Connecticut (1965) recognised the right to privacy through:",
+   "options": {
+    "A": "The Third Amendment only",
+    "B": "The Commerce Clause",
+    "C": "Penumbras of the Bill of Rights",
+    "D": "The Eleventh Amendment"
+   },
+   "answer": "C",
+   "topic": "USA"
+  },
+  {
+   "id": 61,
+   "set": 2,
+   "setQuestionNo": 11,
+   "nation": "USA",
+   "question": "Bush v. Gore (2000) was decided primarily on the:",
+   "options": {
+    "A": "Equal Protection Clause",
+    "B": "Commerce Clause",
+    "C": "Takings Clause",
+    "D": "Establishment Clause"
+   },
+   "answer": "A",
+   "topic": "USA"
+  },
+  {
+   "id": 62,
+   "set": 2,
+   "setQuestionNo": 12,
+   "nation": "USA",
+   "question": "Shelby County v. Holder (2013) invalidated the coverage formula of the:",
+   "options": {
+    "A": "Civil Rights Act 1964",
+    "B": "Fair Housing Act",
+    "C": "Voting Rights Act 1965",
+    "D": "Americans with Disabilities Act"
+   },
+   "answer": "C",
+   "topic": "USA"
+  },
+  {
+   "id": 63,
+   "set": 2,
+   "setQuestionNo": 13,
+   "nation": "USA",
+   "question": "Rucho v. Common Cause (2019) held that partisan gerrymandering claims are:",
+   "options": {
+    "A": "Violations of the First Amendment",
+    "B": "Per se unconstitutional",
+    "C": "Decided under Article II",
+    "D": "Non-justiciable political questions in federal courts"
+   },
+   "answer": "D",
+   "topic": "USA"
+  },
+  {
+   "id": 64,
+   "set": 2,
+   "setQuestionNo": 14,
+   "nation": "USA",
+   "question": "Students for Fair Admissions v. Harvard (2023) held that race-conscious university admissions violate:",
+   "options": {
+    "A": "The Equal Protection Clause",
+    "B": "The Fifth Amendment only",
+    "C": "The Ninth Amendment",
+    "D": "The Commerce Clause"
+   },
+   "answer": "A",
+   "topic": "USA"
+  },
+  {
+   "id": 65,
+   "set": 2,
+   "setQuestionNo": 15,
+   "nation": "USA",
+   "question": "The Necessary and Proper Clause is found in:",
+   "options": {
+    "A": "Art. I, Sec. 8, Cl. 18",
+    "B": "Art. II, Sec. 3",
+    "C": "Art. III, Sec. 1",
+    "D": "Art. IV, Sec. 4"
+   },
+   "answer": "A",
+   "topic": "USA"
+  },
+  {
+   "id": 66,
+   "set": 2,
+   "setQuestionNo": 16,
+   "nation": "USA",
+   "question": "The 22nd Amendment provides:",
+   "options": {
+    "A": "Direct election of Senators",
+    "B": "Women's suffrage",
+    "C": "Presidential term limit of two terms",
+    "D": "Repeal of Prohibition"
+   },
+   "answer": "C",
+   "topic": "USA"
+  },
+  {
+   "id": 67,
+   "set": 2,
+   "setQuestionNo": 17,
+   "nation": "USA",
+   "question": "The 25th Amendment deals with:",
+   "options": {
+    "A": "Presidential succession and disability",
+    "B": "Poll tax",
+    "C": "Income tax",
+    "D": "Voting age"
+   },
+   "answer": "A",
+   "topic": "USA"
+  },
+  {
+   "id": 68,
+   "set": 2,
+   "setQuestionNo": 18,
+   "nation": "USA",
+   "question": "Who has the power to declare war under the US Constitution?",
+   "options": {
+    "A": "The President",
+    "B": "Congress",
+    "C": "The Supreme Court",
+    "D": "The Joint Chiefs"
+   },
+   "answer": "B",
+   "topic": "USA"
+  },
+  {
+   "id": 69,
+   "set": 2,
+   "setQuestionNo": 19,
+   "nation": "USA",
+   "question": "Youngstown Sheet & Tube v. Sawyer (1952) arose from President Truman's seizure of:",
+   "options": {
+    "A": "Railroads",
+    "B": "Coal mines",
+    "C": "Banks",
+    "D": "Steel mills"
+   },
+   "answer": "D",
+   "topic": "USA"
+  },
+  {
+   "id": 70,
+   "set": 2,
+   "setQuestionNo": 20,
+   "nation": "USA",
+   "question": "The Eleventh Amendment primarily concerns:",
+   "options": {
+    "A": "State sovereign immunity from suits by citizens of other states",
+    "B": "Right to bear arms",
+    "C": "Self-incrimination",
+    "D": "Trial by jury"
+   },
+   "answer": "A",
+   "topic": "USA"
+  },
+  {
+   "id": 71,
+   "set": 2,
+   "setQuestionNo": 21,
+   "nation": "USA",
+   "question": "Employment Division v. Smith (1990) held that neutral, generally applicable laws:",
+   "options": {
+    "A": "Always require strict scrutiny",
+    "B": "Are void under the First Amendment",
+    "C": "May burden religious practice without violating the Free Exercise Clause",
+    "D": "Violate the Establishment Clause"
+   },
+   "answer": "C",
+   "topic": "USA"
+  },
+  {
+   "id": 72,
+   "set": 2,
+   "setQuestionNo": 22,
+   "nation": "USA",
+   "question": "Gregg v. Georgia (1976) concerned:",
+   "options": {
+    "A": "Abolition of death penalty",
+    "B": "Reinstatement of the death penalty under guided discretion statutes",
+    "C": "Juvenile life sentences",
+    "D": "Search warrants"
+   },
+   "answer": "B",
+   "topic": "USA"
+  },
+  {
+   "id": 73,
+   "set": 2,
+   "setQuestionNo": 23,
+   "nation": "USA",
+   "question": "Luther v. Borden (1849) is an early example of the:",
+   "options": {
+    "A": "Incorporation doctrine",
+    "B": "Void for vagueness doctrine",
+    "C": "Political question doctrine",
+    "D": "Clear and present danger test"
+   },
+   "answer": "C",
+   "topic": "USA"
+  },
+  {
+   "id": 74,
+   "set": 2,
+   "setQuestionNo": 24,
+   "nation": "USA",
+   "question": "Korematsu v. United States (1944) concerned:",
+   "options": {
+    "A": "Flag salute",
+    "B": "Wartime internment of Japanese Americans",
+    "C": "School prayer",
+    "D": "Obscenity"
+   },
+   "answer": "B",
+   "topic": "USA"
+  },
+  {
+   "id": 75,
+   "set": 2,
+   "setQuestionNo": 25,
+   "nation": "USA",
+   "question": "The Dormant Commerce Clause doctrine restricts:",
+   "options": {
+    "A": "State laws that unduly burden interstate commerce",
+    "B": "Federal taxation",
+    "C": "Presidential power",
+    "D": "Judicial appointments"
+   },
+   "answer": "A",
+   "topic": "USA"
+  },
+  {
+   "id": 76,
+   "set": 2,
+   "setQuestionNo": 26,
+   "nation": "USA",
+   "question": "The Thirteenth Amendment:",
+   "options": {
+    "A": "Granted citizenship",
+    "B": "Abolished slavery",
+    "C": "Gave women the vote",
+    "D": "Ensured equal protection"
+   },
+   "answer": "B",
+   "topic": "USA"
+  },
+  {
+   "id": 77,
+   "set": 2,
+   "setQuestionNo": 27,
+   "nation": "UK",
+   "question": "Entick v. Carrington (1765) established that:",
+   "options": {
+    "A": "Parliament is supreme",
+    "B": "The Crown may search at will",
+    "C": "Executive action requires legal authority",
+    "D": "Judges may legislate"
+   },
+   "answer": "C",
+   "topic": "UK"
+  },
+  {
+   "id": 78,
+   "set": 2,
+   "setQuestionNo": 28,
+   "nation": "UK",
+   "question": "In Factortame (No. 2) (1991), UK courts:",
+   "options": {
+    "A": "Struck down an Act of Parliament",
+    "B": "Rejected EU law",
+    "C": "Abolished the Crown's prerogative",
+    "D": "Disapplied an Act of Parliament conflicting with directly effective EU law"
+   },
+   "answer": "D",
+   "topic": "UK"
+  },
+  {
+   "id": 79,
+   "set": 2,
+   "setQuestionNo": 29,
+   "nation": "UK",
+   "question": "R (Miller) v. Secretary of State for Exiting the EU (2017) held that:",
+   "options": {
+    "A": "Parliament's authorisation was required to trigger Article 50",
+    "B": "The Prime Minister alone could trigger Article 50",
+    "C": "A referendum was binding in law",
+    "D": "Scotland had a veto"
+   },
+   "answer": "A",
+   "topic": "UK"
+  },
+  {
+   "id": 80,
+   "set": 2,
+   "setQuestionNo": 30,
+   "nation": "UK",
+   "question": "The Fixed-term Parliaments Act 2011 was repealed by the:",
+   "options": {
+    "A": "Constitutional Reform Act 2005",
+    "B": "Dissolution and Calling of Parliament Act 2022",
+    "C": "Parliament Act 1949",
+    "D": "Human Rights Act 1998"
+   },
+   "answer": "B",
+   "topic": "UK"
+  },
+  {
+   "id": 81,
+   "set": 2,
+   "setQuestionNo": 31,
+   "nation": "UK",
+   "question": "The Salisbury Convention provides that the House of Lords will not:",
+   "options": {
+    "A": "Amend any bill",
+    "B": "Debate money bills",
+    "C": "Oppose at second reading a government bill implementing a manifesto commitment",
+    "D": "Sit during recess"
+   },
+   "answer": "C",
+   "topic": "UK"
+  },
+  {
+   "id": 82,
+   "set": 2,
+   "setQuestionNo": 32,
+   "nation": "France",
+   "question": "Article 49(3) of the French Constitution allows the Government to:",
+   "options": {
+    "A": "Adopt a bill without a vote unless a censure motion passes",
+    "B": "Dissolve Parliament",
+    "C": "Declare emergency",
+    "D": "Amend the Constitution"
+   },
+   "answer": "A",
+   "topic": "France"
+  },
+  {
+   "id": 83,
+   "set": 2,
+   "setQuestionNo": 33,
+   "nation": "France",
+   "question": "The 1971 Liberté d'association decision of the Conseil constitutionnel:",
+   "options": {
+    "A": "Abolished the Senate",
+    "B": "Created the Conseil d'État",
+    "C": "Introduced presidential elections",
+    "D": "Gave constitutional value to the Preamble (bloc de constitutionnalité)"
+   },
+   "answer": "D",
+   "topic": "France"
+  },
+  {
+   "id": 84,
+   "set": 2,
+   "setQuestionNo": 34,
+   "nation": "France",
+   "question": "The Question prioritaire de constitutionnalité (QPC) was introduced by the:",
+   "options": {
+    "A": "1958 Constitution",
+    "B": "2008 constitutional revision",
+    "C": "1962 referendum",
+    "D": "1946 Constitution"
+   },
+   "answer": "B",
+   "topic": "France"
+  },
+  {
+   "id": 85,
+   "set": 2,
+   "setQuestionNo": 35,
+   "nation": "Canada",
+   "question": "The Oakes test relates to:",
+   "options": {
+    "A": "Federal-provincial division of powers",
+    "B": "Aboriginal title",
+    "C": "Section 1 justification of Charter limits",
+    "D": "Amendment procedure"
+   },
+   "answer": "C",
+   "topic": "Canada"
+  },
+  {
+   "id": 86,
+   "set": 2,
+   "setQuestionNo": 36,
+   "nation": "Canada",
+   "question": "Reference re Secession of Quebec (1998) held that:",
+   "options": {
+    "A": "Quebec may secede unilaterally",
+    "B": "Secession is barred by the Charter",
+    "C": "Quebec has no rights",
+    "D": "Unilateral secession is not permitted, but a clear referendum majority creates a duty to negotiate"
+   },
+   "answer": "D",
+   "topic": "Canada"
+  },
+  {
+   "id": 87,
+   "set": 2,
+   "setQuestionNo": 37,
+   "nation": "Canada",
+   "question": "Section 52 of the Constitution Act, 1982 declares:",
+   "options": {
+    "A": "Supremacy of the Constitution",
+    "B": "The notwithstanding clause",
+    "C": "Equality rights",
+    "D": "Official languages"
+   },
+   "answer": "A",
+   "topic": "Canada"
+  },
+  {
+   "id": 88,
+   "set": 2,
+   "setQuestionNo": 38,
+   "nation": "Canada",
+   "question": "Exclusive provincial legislative powers are listed in:",
+   "options": {
+    "A": "Section 91",
+    "B": "Section 92 of the Constitution Act, 1867",
+    "C": "Section 33",
+    "D": "Section 7"
+   },
+   "answer": "B",
+   "topic": "Canada"
+  },
+  {
+   "id": 89,
+   "set": 2,
+   "setQuestionNo": 39,
+   "nation": "Australia",
+   "question": "Mabo v. Queensland (No. 2) (1992) rejected the doctrine of:",
+   "options": {
+    "A": "Federalism",
+    "B": "Separation of powers",
+    "C": "Terra nullius",
+    "D": "Responsible government"
+   },
+   "answer": "C",
+   "topic": "Australia"
+  },
+  {
+   "id": 90,
+   "set": 2,
+   "setQuestionNo": 40,
+   "nation": "Australia",
+   "question": "The Boilermakers' Case (1956) is associated with:",
+   "options": {
+    "A": "Strict separation of federal judicial power",
+    "B": "Free trade among states",
+    "C": "Native title",
+    "D": "Implied rights"
+   },
+   "answer": "A",
+   "topic": "Australia"
+  },
+  {
+   "id": 91,
+   "set": 2,
+   "setQuestionNo": 41,
+   "nation": "Australia",
+   "question": "The Commonwealth's enumerated legislative powers are principally in:",
+   "options": {
+    "A": "Section 51 of the Constitution",
+    "B": "Section 128",
+    "C": "Section 109",
+    "D": "Section 92"
+   },
+   "answer": "A",
+   "topic": "Australia"
+  },
+  {
+   "id": 92,
+   "set": 2,
+   "setQuestionNo": 42,
+   "nation": "Germany",
+   "question": "Article 1(1) of the Basic Law (Grundgesetz) declares that:",
+   "options": {
+    "A": "The Bundestag is supreme",
+    "B": "Human dignity is inviolable",
+    "C": "The President is head of government",
+    "D": "States are sovereign"
+   },
+   "answer": "B",
+   "topic": "Germany"
+  },
+  {
+   "id": 93,
+   "set": 2,
+   "setQuestionNo": 43,
+   "nation": "Germany",
+   "question": "The Lüth case (1958) established:",
+   "options": {
+    "A": "Judicial review of treaties",
+    "B": "Abolition of the death penalty",
+    "C": "Indirect horizontal effect of fundamental rights (objective order of values)",
+    "D": "Federal supremacy"
+   },
+   "answer": "C",
+   "topic": "Germany"
+  },
+  {
+   "id": 94,
+   "set": 2,
+   "setQuestionNo": 44,
+   "nation": "Germany",
+   "question": "The \"constructive vote of no confidence\" is in Article:",
+   "options": {
+    "A": "20",
+    "B": "79",
+    "C": "1",
+    "D": "67"
+   },
+   "answer": "D",
+   "topic": "Germany"
+  },
+  {
+   "id": 95,
+   "set": 2,
+   "setQuestionNo": 45,
+   "nation": "Germany",
+   "question": "The Federal Constitutional Court (Bundesverfassungsgericht) sits at:",
+   "options": {
+    "A": "Karlsruhe",
+    "B": "Berlin",
+    "C": "Bonn",
+    "D": "Munich"
+   },
+   "answer": "A",
+   "topic": "Germany"
+  },
+  {
+   "id": 96,
+   "set": 2,
+   "setQuestionNo": 46,
+   "nation": "South Africa",
+   "question": "S v. Makwanyane (1995) declared which punishment unconstitutional?",
+   "options": {
+    "A": "Corporal punishment",
+    "B": "Imprisonment",
+    "C": "Death penalty",
+    "D": "Fines"
+   },
+   "answer": "C",
+   "topic": "South Africa"
+  },
+  {
+   "id": 97,
+   "set": 2,
+   "setQuestionNo": 47,
+   "nation": "South Africa",
+   "question": "Section 39 of the 1996 Constitution requires courts interpreting the Bill of Rights to:",
+   "options": {
+    "A": "Ignore international law",
+    "B": "Follow only English law",
+    "C": "Follow only US precedent",
+    "D": "Consider international law and promote the values of an open and democratic society"
+   },
+   "answer": "D",
+   "topic": "South Africa"
+  },
+  {
+   "id": 98,
+   "set": 2,
+   "setQuestionNo": 48,
+   "nation": "Japan",
+   "question": "Renunciation of war is declared in which Article of the 1947 Constitution?",
+   "options": {
+    "A": "Article 9",
+    "B": "Article 1",
+    "C": "Article 25",
+    "D": "Article 96"
+   },
+   "answer": "A",
+   "topic": "Japan"
+  },
+  {
+   "id": 99,
+   "set": 2,
+   "setQuestionNo": 49,
+   "nation": "Switzerland",
+   "question": "The Swiss Federal Assembly consists of:",
+   "options": {
+    "A": "A single chamber",
+    "B": "The President and Cabinet",
+    "C": "The National Council and the Council of States",
+    "D": "Cantonal governors"
+   },
+   "answer": "C",
+   "topic": "Switzerland"
+  },
+  {
+   "id": 100,
+   "set": 2,
+   "setQuestionNo": 50,
+   "nation": "USA/India",
+   "question": "A key difference between the US Senate and India's Rajya Sabha is that the Senate:",
+   "options": {
+    "A": "Is directly elected only in part",
+    "B": "Has equal representation for each state regardless of population",
+    "C": "Has nominated members",
+    "D": "Cannot be dissolved or permanent"
+   },
+   "answer": "B",
+   "topic": "USA/India"
+  },
+  {
+   "id": 101,
+   "set": 3,
+   "setQuestionNo": 1,
    "nation": "USA",
    "question": "Martin v. Hunter's Lessee (1816) upheld the Supreme Court's power of:",
    "options": {
@@ -18,7 +1520,9 @@
    "topic": "USA"
   },
   {
-   "id": 2,
+   "id": 102,
+   "set": 3,
+   "setQuestionNo": 2,
    "nation": "USA",
    "question": "Fletcher v. Peck (1810) was the first case to:",
    "options": {
@@ -31,7 +1535,9 @@
    "topic": "USA"
   },
   {
-   "id": 3,
+   "id": 103,
+   "set": 3,
+   "setQuestionNo": 3,
    "nation": "USA",
    "question": "Lochner v. New York (1905) is associated with:",
    "options": {
@@ -44,7 +1550,9 @@
    "topic": "USA"
   },
   {
-   "id": 4,
+   "id": 104,
+   "set": 3,
+   "setQuestionNo": 4,
    "nation": "USA",
    "question": "West Coast Hotel v. Parrish (1937):",
    "options": {
@@ -57,7 +1565,9 @@
    "topic": "USA"
   },
   {
-   "id": 5,
+   "id": 105,
+   "set": 3,
+   "setQuestionNo": 5,
    "nation": "USA",
    "question": "Wickard v. Filburn (1942) upheld federal regulation of:",
    "options": {
@@ -70,7 +1580,9 @@
    "topic": "USA"
   },
   {
-   "id": 6,
+   "id": 106,
+   "set": 3,
+   "setQuestionNo": 6,
    "nation": "USA",
    "question": "United States v. Morrison (2000) struck down the civil remedy provision of the:",
    "options": {
@@ -83,7 +1595,9 @@
    "topic": "USA"
   },
   {
-   "id": 7,
+   "id": 107,
+   "set": 3,
+   "setQuestionNo": 7,
    "nation": "USA",
    "question": "Gonzales v. Raich (2005) held that Congress could:",
    "options": {
@@ -96,7 +1610,9 @@
    "topic": "USA"
   },
   {
-   "id": 8,
+   "id": 108,
+   "set": 3,
+   "setQuestionNo": 8,
    "nation": "USA",
    "question": "South Dakota v. Dole (1987) deals with conditions attached to federal funds under the:",
    "options": {
@@ -109,7 +1625,9 @@
    "topic": "USA"
   },
   {
-   "id": 9,
+   "id": 109,
+   "set": 3,
+   "setQuestionNo": 9,
    "nation": "USA",
    "question": "New York v. United States (1992) held that Congress cannot:",
    "options": {
@@ -122,7 +1640,9 @@
    "topic": "USA"
   },
   {
-   "id": 10,
+   "id": 110,
+   "set": 3,
+   "setQuestionNo": 10,
    "nation": "USA",
    "question": "Seminole Tribe v. Florida (1996) held that Congress cannot, under the Indian Commerce Clause:",
    "options": {
@@ -135,7 +1655,9 @@
    "topic": "USA"
   },
   {
-   "id": 11,
+   "id": 111,
+   "set": 3,
+   "setQuestionNo": 11,
    "nation": "USA",
    "question": "Heart of Atlanta Motel v. United States (1964) upheld Title II of the Civil Rights Act under the:",
    "options": {
@@ -148,7 +1670,9 @@
    "topic": "USA"
   },
   {
-   "id": 12,
+   "id": 112,
+   "set": 3,
+   "setQuestionNo": 12,
    "nation": "USA",
    "question": "United States v. Nixon (1974) held that executive privilege is:",
    "options": {
@@ -161,7 +1685,9 @@
    "topic": "USA"
   },
   {
-   "id": 13,
+   "id": 113,
+   "set": 3,
+   "setQuestionNo": 13,
    "nation": "USA",
    "question": "Nixon v. Fitzgerald (1982) gave the President:",
    "options": {
@@ -174,7 +1700,9 @@
    "topic": "USA"
   },
   {
-   "id": 14,
+   "id": 114,
+   "set": 3,
+   "setQuestionNo": 14,
    "nation": "USA",
    "question": "Clinton v. Jones (1997) held that a sitting President:",
    "options": {
@@ -187,7 +1715,9 @@
    "topic": "USA"
   },
   {
-   "id": 15,
+   "id": 115,
+   "set": 3,
+   "setQuestionNo": 15,
    "nation": "USA",
    "question": "Morrison v. Olson (1988) upheld the constitutionality of the:",
    "options": {
@@ -200,7 +1730,9 @@
    "topic": "USA"
   },
   {
-   "id": 16,
+   "id": 116,
+   "set": 3,
+   "setQuestionNo": 16,
    "nation": "USA",
    "question": "Myers v. United States (1926) concerned the President's power to:",
    "options": {
@@ -213,7 +1745,9 @@
    "topic": "USA"
   },
   {
-   "id": 17,
+   "id": 117,
+   "set": 3,
+   "setQuestionNo": 17,
    "nation": "USA",
    "question": "Zivotofsky v. Kerry (2015) held that the power to recognise foreign sovereigns belongs exclusively to:",
    "options": {
@@ -226,7 +1760,9 @@
    "topic": "USA"
   },
   {
-   "id": 18,
+   "id": 118,
+   "set": 3,
+   "setQuestionNo": 18,
    "nation": "USA",
    "question": "Missouri v. Holland (1920) upheld Congress's power to implement a:",
    "options": {
@@ -239,7 +1775,9 @@
    "topic": "USA"
   },
   {
-   "id": 19,
+   "id": 119,
+   "set": 3,
+   "setQuestionNo": 19,
    "nation": "USA",
    "question": "United States v. Curtiss-Wright (1936) described the President as the \"sole organ\" of the nation in:",
    "options": {
@@ -252,7 +1790,9 @@
    "topic": "USA"
   },
   {
-   "id": 20,
+   "id": 120,
+   "set": 3,
+   "setQuestionNo": 20,
    "nation": "USA",
    "question": "Hamdi v. Rumsfeld (2004) held that a US citizen detained as an enemy combatant is entitled to:",
    "options": {
@@ -265,7 +1805,9 @@
    "topic": "USA"
   },
   {
-   "id": 21,
+   "id": 121,
+   "set": 3,
+   "setQuestionNo": 21,
    "nation": "USA",
    "question": "Boumediene v. Bush (2008) held that Guantanamo detainees have:",
    "options": {
@@ -278,7 +1820,9 @@
    "topic": "USA"
   },
   {
-   "id": 22,
+   "id": 122,
+   "set": 3,
+   "setQuestionNo": 22,
    "nation": "USA",
    "question": "The \"clear and present danger\" test was formulated by Justice Holmes in:",
    "options": {
@@ -291,7 +1835,9 @@
    "topic": "USA"
   },
   {
-   "id": 23,
+   "id": 123,
+   "set": 3,
+   "setQuestionNo": 23,
    "nation": "USA",
    "question": "West Virginia v. Barnette (1943) held that compelling students to salute the flag:",
    "options": {
@@ -304,7 +1850,9 @@
    "topic": "USA"
   },
   {
-   "id": 24,
+   "id": 124,
+   "set": 3,
+   "setQuestionNo": 24,
    "nation": "USA",
    "question": "Loving v. Virginia (1967) struck down laws banning:",
    "options": {
@@ -317,7 +1865,9 @@
    "topic": "USA"
   },
   {
-   "id": 25,
+   "id": 125,
+   "set": 3,
+   "setQuestionNo": 25,
    "nation": "USA",
    "question": "Craig v. Boren (1976) established which standard for gender classifications?",
    "options": {
@@ -330,7 +1880,9 @@
    "topic": "USA"
   },
   {
-   "id": 26,
+   "id": 126,
+   "set": 3,
+   "setQuestionNo": 26,
    "nation": "USA",
    "question": "Lawrence v. Texas (2003) overruled:",
    "options": {
@@ -343,7 +1895,9 @@
    "topic": "USA"
   },
   {
-   "id": 27,
+   "id": 127,
+   "set": 3,
+   "setQuestionNo": 27,
    "nation": "USA",
    "question": "Terry v. Ohio (1968) permits a stop and frisk on:",
    "options": {
@@ -356,7 +1910,9 @@
    "topic": "USA"
   },
   {
-   "id": 28,
+   "id": 128,
+   "set": 3,
+   "setQuestionNo": 28,
    "nation": "USA",
    "question": "Texas v. White (1869) held that:",
    "options": {
@@ -369,7 +1925,9 @@
    "topic": "USA"
   },
   {
-   "id": 29,
+   "id": 129,
+   "set": 3,
+   "setQuestionNo": 29,
    "nation": "UK",
    "question": "R (Jackson) v. Attorney General (2005) upheld the validity of the:",
    "options": {
@@ -382,7 +1940,9 @@
    "topic": "UK"
   },
   {
-   "id": 30,
+   "id": 130,
+   "set": 3,
+   "setQuestionNo": 30,
    "nation": "UK",
    "question": "Pickin v. British Railways Board (1974) affirms that courts cannot:",
    "options": {
@@ -395,7 +1955,9 @@
    "topic": "UK"
   },
   {
-   "id": 31,
+   "id": 131,
+   "set": 3,
+   "setQuestionNo": 31,
    "nation": "UK",
    "question": "In the GCHQ case (1985), Lord Diplock identified three grounds of judicial review: illegality, irrationality, and:",
    "options": {
@@ -408,7 +1970,9 @@
    "topic": "UK"
   },
   {
-   "id": 32,
+   "id": 132,
+   "set": 3,
+   "setQuestionNo": 32,
    "nation": "UK",
    "question": "The Bill of Rights 1689 established the supremacy of:",
    "options": {
@@ -421,7 +1985,9 @@
    "topic": "UK"
   },
   {
-   "id": 33,
+   "id": 133,
+   "set": 3,
+   "setQuestionNo": 33,
    "nation": "UK",
    "question": "The Sewel Convention provides that Westminster will not normally legislate on:",
    "options": {
@@ -434,7 +2000,9 @@
    "topic": "UK"
   },
   {
-   "id": 34,
+   "id": 134,
+   "set": 3,
+   "setQuestionNo": 34,
    "nation": "France",
    "question": "The Blanco decision (1873) established:",
    "options": {
@@ -447,7 +2015,9 @@
    "topic": "France"
   },
   {
-   "id": 35,
+   "id": 135,
+   "set": 3,
+   "setQuestionNo": 35,
    "nation": "France",
    "question": "\"Cohabitation\" refers to a situation where:",
    "options": {
@@ -460,7 +2030,9 @@
    "topic": "France"
   },
   {
-   "id": 36,
+   "id": 136,
+   "set": 3,
+   "setQuestionNo": 36,
    "nation": "France",
    "question": "Article 61 of the Constitution provides for:",
    "options": {
@@ -473,7 +2045,9 @@
    "topic": "France"
   },
   {
-   "id": 37,
+   "id": 137,
+   "set": 3,
+   "setQuestionNo": 37,
    "nation": "Canada",
    "question": "The Patriation Reference (1981) held that constitutional convention required:",
    "options": {
@@ -486,7 +2060,9 @@
    "topic": "Canada"
   },
   {
-   "id": 38,
+   "id": 138,
+   "set": 3,
+   "setQuestionNo": 38,
    "nation": "Canada",
    "question": "Roncarelli v. Duplessis (1959) is a leading Canadian case on:",
    "options": {
@@ -499,7 +2075,9 @@
    "topic": "Canada"
   },
   {
-   "id": 39,
+   "id": 139,
+   "set": 3,
+   "setQuestionNo": 39,
    "nation": "Canada",
    "question": "Andrews v. Law Society of British Columbia (1989) was the first major Supreme Court decision on Charter:",
    "options": {
@@ -512,7 +2090,9 @@
    "topic": "Canada"
   },
   {
-   "id": 40,
+   "id": 140,
+   "set": 3,
+   "setQuestionNo": 40,
    "nation": "Canada",
    "question": "The \"living tree\" doctrine was articulated in the:",
    "options": {
@@ -525,7 +2105,9 @@
    "topic": "Canada"
   },
   {
-   "id": 41,
+   "id": 141,
+   "set": 3,
+   "setQuestionNo": 41,
    "nation": "Australia",
    "question": "Section 109 of the Constitution provides that, in case of inconsistency:",
    "options": {
@@ -538,7 +2120,9 @@
    "topic": "Australia"
   },
   {
-   "id": 42,
+   "id": 142,
+   "set": 3,
+   "setQuestionNo": 42,
    "nation": "Australia",
    "question": "Australian Communist Party v. Commonwealth (1951) struck down:",
    "options": {
@@ -551,7 +2135,9 @@
    "topic": "Australia"
   },
   {
-   "id": 43,
+   "id": 143,
+   "set": 3,
+   "setQuestionNo": 43,
    "nation": "Australia",
    "question": "Lange v. ABC (1997) modified the implied freedom of:",
    "options": {
@@ -564,7 +2150,9 @@
    "topic": "Australia"
   },
   {
-   "id": 44,
+   "id": 144,
+   "set": 3,
+   "setQuestionNo": 44,
    "nation": "Germany",
    "question": "The Solange I decision (1974) concerned the relationship between German fundamental rights and:",
    "options": {
@@ -577,7 +2165,9 @@
    "topic": "Germany"
   },
   {
-   "id": 45,
+   "id": 145,
+   "set": 3,
+   "setQuestionNo": 45,
    "nation": "Germany",
    "question": "Under Article 21(2) of the Basic Law, the power to ban unconstitutional political parties rests with the:",
    "options": {
@@ -590,7 +2180,9 @@
    "topic": "Germany"
   },
   {
-   "id": 46,
+   "id": 146,
+   "set": 3,
+   "setQuestionNo": 46,
    "nation": "Germany",
    "question": "The Federal President is elected by the:",
    "options": {
@@ -603,7 +2195,9 @@
    "topic": "Germany"
   },
   {
-   "id": 47,
+   "id": 147,
+   "set": 3,
+   "setQuestionNo": 47,
    "nation": "South Africa",
    "question": "The supremacy of the Constitution is declared in:",
    "options": {
@@ -616,7 +2210,9 @@
    "topic": "South Africa"
   },
   {
-   "id": 48,
+   "id": 148,
+   "set": 3,
+   "setQuestionNo": 48,
    "nation": "Japan",
    "question": "The Supreme Court is given the power of judicial review as the court of last resort under:",
    "options": {
@@ -629,7 +2225,9 @@
    "topic": "Japan"
   },
   {
-   "id": 49,
+   "id": 149,
+   "set": 3,
+   "setQuestionNo": 49,
    "nation": "Switzerland",
    "question": "Under Article 190 of the Federal Constitution, the Federal Supreme Court:",
    "options": {
@@ -642,7 +2240,9 @@
    "topic": "Switzerland"
   },
   {
-   "id": 50,
+   "id": 150,
+   "set": 3,
+   "setQuestionNo": 50,
    "nation": "Germany/India",
    "question": "The German provision analogous to India's basic structure doctrine is:",
    "options": {
