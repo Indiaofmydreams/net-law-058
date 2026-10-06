@@ -1,0 +1,15 @@
+Family Law pack update
+Upload: pack-family-law.json (replace the existing file in the repo). packs.json needs no change.
+
+Result: 230 existing + 170 new = 400 in the pack (+40 in questions.json = 440 Family Law MCQs on site).
+
+Of your 200 questions:
+- 26 removed as duplicates of questions already on the site (e.g. pious obligation, Mitakshara/Dayabhaga interest, survivorship, PCMA replaced, Sunni spouse shares, Hiba-bil-Shart, Shabnam Hashmi, HAMA s.16).
+- 4 removed as unreliable/redundant (185th Law Commission Report is on Evidence Act, not family law; "21st LC suggested optional UCC"; ABC v NCT near-duplicate; Hague duplicate).
+- ~35 corrected (see below). 
+
+Corrections: 
+Q7 only leprosy (not venereal disease) was deleted in 2019; Q15 s.16 HMA vs Revanasiddappa; Q31 cognates s.3(1)(c); Q32 s.22 HSA covers immovable property/business (not dwelling house, that is s.23); Q34 s.29 not s.8; Q38 s.15(2)(a) needs "no children" condition; Q43 step-mother is Class II Entry VI (not V); Q44 had two correct options; Q54 s.10(ii) not 10(iv); Q63/64 Triple Talaq Act s.7(a)/(b), compounding terms set by Magistrate; Q76 rewritten (old answer was not unique to DMMA); Q98 Tulsa rewritten; Q116 quote corrected; Q123 UCC does not cover adoption; Q134 was a 3-judge bench, not 5; Q141 Nandakumar is a Supreme Court case; Q145 Velusamy is PWDVA not s.125; Q148 s.70 ISA; Q162 option C replaced (it was also inaccurate); Q166 overriding effect is s.108A Wakf Act; Q167 s.213 ISA; Q171 s.9(2) HAMA is about giving in adoption; Q180 rewritten (hizanat age 7); Q181 distractor fixed; Q197 is s.8 GWA, not s.10.
+
+Answer positions: the file had ~82% of answers as option B (the old pack ~61%). All options were shuffled so correct answers are spread across A-D (about 23% each, B slightly higher where a question uses "both/above" style options).
+Topics were normalised to the 11 existing Family Law topic names; IDs run 1-400.
