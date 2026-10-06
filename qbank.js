@@ -6,7 +6,7 @@ const P=NLNav.prog;let unit='All',q='',onlySaved=false,allOn=false,rev=new Set()
 const units=['All',...new Set(QBANK.map(x=>x.u).filter(Boolean))],L='ABCD';
 const eye='<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>';
 root.innerHTML=`<div class="qb-top"><div><h2>Practice questions</h2><p>Try each question first. Tap the green eye to check the answer and explanation.</p></div></div>
-<div class="qb-tools"><div class="qb-row"><input class="qb-search" type="search" placeholder="Search questions" aria-label="Search questions"><button class="qb-saved">★ Saved</button><button class="qb-all" aria-pressed="false"><span class="qb-sw"></span>Show all answers</button><button class="nl-btn nl-qz" type="button" hidden>Random 20 quiz</button></div><div class="qb-units"></div></div>
+<div class="qb-tools"><div class="qb-row"><input class="qb-search" type="search" placeholder="Search questions" aria-label="Search questions"><button class="qb-saved">★ Saved</button><button class="qb-all" aria-pressed="false"><span class="qb-sw"></span>Show all answers</button></div><div class="qb-units"></div></div>
 <div class="qb-meta" aria-live="polite"></div><div class="nl-dg-h"></div><div class="nl-pp-h"></div><div class="nl-sf-h"></div><div class="nl-rg-h"></div><div class="nl-pg-t"></div><div class="qb-list"></div><div class="nl-pg-b"></div>`;
 const $=s=>root.querySelector(s),list=$('.qb-list');
 NLNav.daily($('.nl-dg-h'));
@@ -32,7 +32,6 @@ $('.qb-units').onclick=e=>{const b=e.target.closest('button');if(!b)return;unit=
 $('.qb-search').oninput=e=>{q=e.target.value.trim().toLowerCase();draw()};
 $('.qb-saved').onclick=e=>{onlySaved=!onlySaved;e.currentTarget.classList.toggle('on',onlySaved);draw()};
 units_();draw();
-const qz=$('.nl-qz');if(window.NLQuiz){qz.hidden=false;qz.onclick=()=>NLQuiz.start({title:unit==='All'?'All units':unit,pool:base().map(([x])=>x),opener:qz,onClose:()=>draw(true)})}
 document.addEventListener('nl-prog',()=>{sf.counts(P.stats(base().map(([x])=>x)));prac()});
 };
 if(window.QBANK_DATA)start(window.QBANK_DATA);else window.loadBank().then(start).catch(()=>{root.innerHTML='<p class="qb-empty">Could not load questions.json. Upload it next to index.html.</p>'});
