@@ -29,3 +29,4 @@ New HTML pages: copy the `<script src="accessibility.js"></script>` line from an
 Long MCQ lists: use `NLNav.pager({...})` (range chips + pagination) and `NLNav.practice(el)` (attempted-questions bar).
 Any long element can also be followed by the rail with the attribute `data-nl-track`.
 Mock tests only get the rail and jump buttons; their engine is untouched.
+
