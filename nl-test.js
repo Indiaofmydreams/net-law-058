@@ -1,11 +1,11 @@
 /* nl-test.js: "Test Your UGC NET Law Preparation" card on the home page.
-   A 20-question, 9-minute, Law-only test that runs INSIDE the card (no pop-up, no new page).
+   A 20-question, 7-minute, Law-only test that runs INSIDE the card (no pop-up, no new page).
 
    How it works
    - Questions come from the same bank as the rest of the site (window.loadBank), Law 058 units only. Paper 1 is excluded.
    - Every test is freshly shuffled: 2 random questions from each of the 10 Law units (20 in all, like a mini exam),
      then the order is mixed. Questions already used in this visit are avoided until the bank runs out.
-   - 9:00 countdown. At 0:00 the test is submitted automatically.
+   - 7:00 countdown. At 0:00 the test is submitted automatically.
    - Answers are saved to the student's progress (NLNav.prog) when the test ends, so "Mistakes", "Unanswered" and the
      daily goal in Practice questions stay in step. Best score and attempts are kept on the device only (localStorage).
    To change the length or time, edit N, PER and SECS below. */
@@ -25,18 +25,22 @@
     ["Intellectual Property Rights and Information Technology Law", "IPR & IT Law"],
     ["Comparative Public Law and Systems of Governance", "Comparative Public Law"]
   ];
-  var PER = 2, N = LAW.length * PER, SECS = 540, KEY = "netlaw058-test20-v1";
+  var PER = 2, N = LAW.length * PER, SECS = 420, MIN = SECS / 60, PACE = Math.round(SECS / N), KEY = "netlaw058-test20-v1";
   var doc = document, say = function (m) { if (window.announce) window.announce(m); };
   var S = { mode: "idle", by: null, loading: null, seen: [], Q: [], ans: [], i: 0, end: 0, t0: 0, tick: 0, said: {}, confirm: false, res: null };
 
   /* ---------- styles (theme variables, rem units: follows the site's text-size and colour controls) ---------- */
   var css = [
-    ".hero-row{display:flex;flex-wrap:wrap;gap:24px;align-items:flex-start}",
-    ".hero-row #nl-countdown{flex:1 1 360px;max-width:560px;min-width:0}.hero-row #nl-countdown:empty{display:none}.hero-row .nl-cd{margin:0}",
-    ".hero-row #nl-test{flex:1 1 380px;min-width:0}",
-    "@media(max-width:1000px){.hero-row #nl-countdown{max-width:none}}",
-    ".nlt{position:relative;scroll-margin-top:96px;padding:20px 22px 18px;color:var(--text);background:linear-gradient(135deg,var(--tint),var(--surface) 62%);border:1px solid var(--ac2);border-top:4px solid var(--ac);border-radius:20px;box-shadow:0 10px 28px color-mix(in srgb,var(--deep) 10%,transparent)}",
-    ".nlt-tag{display:inline-block;padding:5px 12px;border-radius:999px;background:var(--surface);color:var(--ac-d);font-size:.6875rem;font-weight:800;letter-spacing:.07em;border:1px solid var(--line2)}",
+    ".hero-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;align-items:stretch}",
+    ".hero-row #nl-countdown{display:flex;min-width:0}.hero-row #nl-countdown:empty{display:none}.hero-row:has(#nl-countdown:empty) #nl-test{grid-column:1/-1}",
+    ".hero-row .nl-cd{width:100%;max-width:none;margin:0;padding:22px 24px;display:flex;flex-direction:column;justify-content:center;border-radius:20px;border-top:4px solid var(--ac2);box-shadow:0 10px 28px color-mix(in srgb,var(--deep) 10%,transparent)}",
+    ".hero-row .nl-cd-t b{font-size:1.05rem}.hero-row .nl-cd-g{gap:10px;margin-top:16px}.hero-row .nl-cd-g div{padding:18px 4px}.hero-row .nl-cd-g strong{font-size:2.2rem}",
+    ".hero-row #nl-test{min-width:0;display:flex}.hero-row #nl-test>.nlt{width:100%}",
+    ".hero-row.is-live #nl-countdown{display:none}.hero-row.is-live #nl-test{grid-column:1/-1;justify-content:center}.hero-row.is-live #nl-test>.nlt{max-width:860px}",
+    "@media(max-width:900px){.hero-row{grid-template-columns:1fr}.hero-row .nl-cd-g strong{font-size:1.9rem}}",
+    "@media(max-width:420px){.hero-row .nl-cd{padding:16px 14px}.hero-row .nl-cd-g strong{font-size:1.5rem}}",
+    ".nlt{position:relative;scroll-margin-top:96px;display:flex;flex-direction:column;justify-content:center;padding:22px 24px 20px;color:var(--text);background:linear-gradient(135deg,var(--tint),var(--surface) 62%);border:1px solid var(--ac2);border-top:4px solid var(--ac);border-radius:20px;box-shadow:0 10px 28px color-mix(in srgb,var(--deep) 10%,transparent)}",
+    ".nlt-tag{align-self:flex-start;display:inline-block;padding:5px 12px;border-radius:999px;background:var(--surface);color:var(--ac-d);font-size:.6875rem;font-weight:800;letter-spacing:.07em;border:1px solid var(--line2)}",
     ".nlt h3{margin:12px 0 4px;font-size:clamp(1.25rem,2.2vw,1.6rem);line-height:1.2;letter-spacing:-.02em;font-weight:800}",
     ".nlt-lead{margin:0;font-size:1rem;font-weight:700;color:var(--ac-d)}",
     ".nlt-why{margin:8px 0 0;font-size:.875rem;line-height:1.55;color:var(--text2)}",
@@ -59,7 +63,7 @@
     ".nlt-op:has(input:checked){background:var(--tint);border-color:var(--ac);box-shadow:inset 0 0 0 1px var(--ac)}.nlt-op:has(input:focus-visible){outline:3px solid var(--ac);outline-offset:2px}",
     ".nlt-f{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:14px}.nlt-f .sp{flex:1}",
     ".nlt-warn{flex:1 1 100%;margin:0;font-size:.875rem;font-weight:700}",
-    ".nlt-pal{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}.nlt-pal button{width:36px;height:36px;padding:0;border:1px solid var(--line2);border-radius:9px;background:var(--surface);color:var(--text2);font:700 .8125rem system-ui,sans-serif;cursor:pointer}",
+    ".nlt-pal{display:grid;grid-template-columns:repeat(10,minmax(0,1fr));gap:6px;margin-top:14px}.nlt-pal button{width:100%;min-width:0;height:36px;padding:0;border:1px solid var(--line2);border-radius:9px;background:var(--surface);color:var(--text2);font:700 .8125rem system-ui,sans-serif;cursor:pointer}",
     ".nlt-pal button.a{background:var(--tint);border-color:var(--ac);color:var(--ac-d)}.nlt-pal button.c{background:var(--btn,var(--ac));border-color:var(--btn,var(--ac));color:var(--nl-on,#fff)}",
     ".nlt-hint{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 12px;margin:12px 0 0;font-size:.71875rem;color:var(--mut)}",
     ".nlt-link{padding:0;border:0;background:none;color:var(--ac-d);font:inherit;font-weight:700;text-decoration:underline;cursor:pointer}",
@@ -119,17 +123,18 @@
   }
 
   /* ---------- screens ---------- */
+  function live(on) { var row = host.parentNode; row && row.classList && row.classList.toggle("is-live", !!on); }
   function paintIdle(msg) {
-    S.mode = "idle"; clearInterval(S.tick);
+    S.mode = "idle"; clearInterval(S.tick); live(false);
     var d = store(), best = d && d.best != null ? '<span class="nlt-best">Your best: ' + d.best + "/" + N + " &middot; " + d.n + " attempt" + (d.n === 1 ? "" : "s") + "</span>" : "";
     host.innerHTML = '<section class="nlt" aria-labelledby="nlt-h">' +
-      '<span class="nlt-tag">FREE &middot; 9-MINUTE CHALLENGE</span>' +
+      '<span class="nlt-tag">FREE &middot; ' + MIN + '-MINUTE CHALLENGE</span>' +
       '<h3 id="nlt-h">Test Your UGC NET Law Preparation</h3>' +
-      '<p class="nlt-lead">20 MCQs. 9 minutes. See where you really stand.</p>' +
-      '<p class="nlt-why">A quick check of your <b>speed and accuracy</b> under time pressure: about 27 seconds per question. You get 2 questions from each of the 10 Law units, different every time.</p>' +
-      '<ul class="nlt-facts"><li>20 questions</li><li>9 minutes</li><li>Law only</li><li>Instant score</li></ul>' +
+      '<p class="nlt-lead">' + N + ' MCQs. ' + MIN + ' minutes. See where you really stand.</p>' +
+      '<p class="nlt-why">A quick check of your <b>speed and accuracy</b> under time pressure, at about ' + PACE + ' seconds a question. Two questions from each of the 10 Law units, fresh every time.</p>' +
+      '<ul class="nlt-facts"><li>' + N + ' questions</li><li>' + MIN + ' minutes</li><li>Law only</li><li>Instant score</li></ul>' +
       '<div class="nlt-cta"><button type="button" class="nlt-btn pri" data-a="start">Start the test \u2192</button>' + best + "</div>" +
-      (msg ? '<p class="nlt-foot" role="alert">' + esc(msg) + "</p>" : '<p class="nlt-foot">No sign-up. No negative marking. Practice only, not affiliated with NTA or UGC.</p>') + "</section>";
+      (msg ? '<p class="nlt-foot" role="alert">' + esc(msg) + "</p>" : '<p class="nlt-foot">No sign-up. No negative marking. Not affiliated with NTA or UGC.</p>') + "</section>";
   }
 
   function start(btn) {
@@ -138,11 +143,12 @@
       S.Q = draw(); S.ans = S.Q.map(function () { return -1; }); S.i = 0; S.confirm = false; S.res = null; S.said = {};
       S.t0 = Date.now(); S.end = S.t0 + SECS * 1000; S.mode = "run";
       clearInterval(S.tick); S.tick = setInterval(onTick, 250);
-      paintRun(true); toTop(); say("Test started. " + N + " questions, 9 minutes.");
+      paintRun(true); toTop(); say("Test started. " + N + " questions, " + MIN + " minutes.");
     }).catch(function () { paintIdle("Could not load the questions. Check your connection and refresh the page."); });
   }
 
   function paintRun(focus) {
+    live(true);
     var x = S.Q[S.i], last = S.i === N - 1, un = N - answered();
     host.innerHTML = '<section class="nlt" role="group" aria-label="Law test in progress">' +
       '<div class="nlt-top"><span class="nlt-qn">Question ' + (S.i + 1) + " of " + N + '</span><span class="nlt-ans">' + answered() + ' answered</span><span class="nlt-clock' + (left() <= 60 ? " warn" : "") + '" aria-hidden="true">\u23F1 ' + mmss(left()) + "</span></div>" +
@@ -185,6 +191,7 @@
   }
 
   function paintResult() {
+    live(true);
     var r = S.res, pct = Math.round(r.ok / N * 100);
     var msg = pct >= 85 ? "Outstanding. You are performing at exam-ready level." : pct >= 65 ? "Strong result. A little revision of the weaker units will push you higher." : pct >= 40 ? "A solid start. Revise the units flagged below, then retake." : "Every attempt builds recall. Study the answers below, then try again.";
     var rows = LAW.map(function (u) { return { name: u[1], ok: r.by[u[0]].ok, n: r.by[u[0]].n }; }).filter(function (u) { return u.n; }).sort(function (a, b) { return a.ok / a.n - b.ok / b.n; });
