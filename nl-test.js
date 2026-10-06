@@ -33,21 +33,21 @@
   var css = [
     ".hero-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;align-items:stretch}",
     ".hero-row #nl-countdown{display:flex;min-width:0}.hero-row #nl-countdown:empty{display:none}.hero-row:has(#nl-countdown:empty) #nl-test{grid-column:1/-1}",
-    ".hero-row .nl-cd{width:100%;max-width:none;margin:0;padding:22px 24px;display:flex;flex-direction:column;justify-content:center;border-radius:20px;border-top:4px solid var(--ac2);box-shadow:0 10px 28px color-mix(in srgb,var(--deep) 10%,transparent)}",
-    ".hero-row .nl-cd-t b{font-size:1.05rem}.hero-row .nl-cd-g{gap:10px;margin-top:16px}.hero-row .nl-cd-g div{padding:18px 4px}.hero-row .nl-cd-g strong{font-size:2.2rem}",
+    ".hero-row .nl-cd{width:100%;max-width:none;margin:0;padding:16px 22px;display:flex;flex-direction:column;justify-content:center;border-radius:20px;border-top:4px solid var(--ac2);box-shadow:0 10px 28px color-mix(in srgb,var(--deep) 10%,transparent)}",
+    ".hero-row .nl-cd-t{justify-content:center;text-align:center;flex-direction:column;align-items:center;gap:4px}.hero-row .nl-cd-t b{font-size:1.15rem;letter-spacing:.02em}.hero-row .nl-cd-g{gap:10px;margin-top:12px}.hero-row .nl-cd-g div{padding:12px 4px}.hero-row .nl-cd-g strong{font-size:2rem}",
     ".hero-row #nl-test{min-width:0;display:flex}.hero-row #nl-test>.nlt{width:100%}",
     ".hero-row.is-live #nl-countdown{display:none}.hero-row.is-live #nl-test{grid-column:1/-1;justify-content:center}.hero-row.is-live #nl-test>.nlt{max-width:860px}",
     "@media(max-width:900px){.hero-row{grid-template-columns:1fr}.hero-row .nl-cd-g strong{font-size:1.9rem}}",
     "@media(max-width:420px){.hero-row .nl-cd{padding:16px 14px}.hero-row .nl-cd-g strong{font-size:1.5rem}}",
-    ".nlt{position:relative;scroll-margin-top:96px;display:flex;flex-direction:column;justify-content:center;padding:22px 24px 20px;color:var(--text);background:linear-gradient(135deg,var(--tint),var(--surface) 62%);border:1px solid var(--ac2);border-top:4px solid var(--ac);border-radius:20px;box-shadow:0 10px 28px color-mix(in srgb,var(--deep) 10%,transparent)}",
+    ".nlt{position:relative;scroll-margin-top:96px;display:flex;flex-direction:column;justify-content:center;padding:14px 22px 12px;color:var(--text);background:linear-gradient(135deg,var(--tint),var(--surface) 62%);border:1px solid var(--ac2);border-top:4px solid var(--ac);border-radius:20px;box-shadow:0 10px 28px color-mix(in srgb,var(--deep) 10%,transparent)}",
     ".nlt-tag{align-self:flex-start;display:inline-block;padding:5px 12px;border-radius:999px;background:var(--surface);color:var(--ac-d);font-size:.6875rem;font-weight:800;letter-spacing:.07em;border:1px solid var(--line2)}",
-    ".nlt h3{margin:12px 0 4px;font-size:clamp(1.25rem,2.2vw,1.6rem);line-height:1.2;letter-spacing:-.02em;font-weight:800}",
-    ".nlt-lead{margin:0;font-size:1rem;font-weight:700;color:var(--ac-d)}",
-    ".nlt-why{margin:8px 0 0;font-size:.875rem;line-height:1.55;color:var(--text2)}",
-    ".nlt-facts{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 0;padding:0;list-style:none}.nlt-facts li{padding:6px 12px;border-radius:99px;background:var(--surface);border:1px solid var(--line2);font-size:.8125rem;font-weight:700}",
-    ".nlt-cta{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;margin-top:16px}",
+    ".nlt h3{margin:8px 0 2px;font-size:clamp(1.2rem,2vw,1.45rem);line-height:1.2;letter-spacing:-.02em;font-weight:800}",
+    ".nlt-lead{margin:0;font-size:.9375rem;font-weight:700;color:var(--ac-d)}",
+    ".nlt-why{margin:6px 0 0;font-size:.8125rem;line-height:1.5;color:var(--text2)}",
+    ".nlt-facts{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 0;padding:0;list-style:none}.nlt-facts li{padding:6px 12px;border-radius:99px;background:var(--surface);border:1px solid var(--line2);font-size:.8125rem;font-weight:700}",
+    ".nlt-cta{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;margin-top:10px}",
     ".nlt-best{font-size:.8125rem;font-weight:700;color:var(--text2)}",
-    ".nlt-foot{margin:12px 0 0;font-size:.71875rem;line-height:1.4;color:var(--mut)}",
+    ".nlt-foot{margin:6px 0 0;font-size:.71875rem;line-height:1.4;color:var(--mut)}",
     ".nlt-btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 20px;border:1px solid var(--line2);background:var(--surface);color:var(--text);border-radius:12px;font:inherit;font-size:.875rem;font-weight:700;cursor:pointer;text-decoration:none}",
     ".nlt-btn:hover:not(:disabled){border-color:var(--ac)}.nlt-btn:disabled{opacity:.45;cursor:not-allowed}",
     ".nlt-btn.pri{background:var(--btn,var(--ac));border-color:var(--btn,var(--ac));color:var(--nl-on,#fff)}",
@@ -131,7 +131,7 @@
       '<span class="nlt-tag">FREE &middot; ' + MIN + '-MINUTE CHALLENGE</span>' +
       '<h3 id="nlt-h">Test Your UGC NET Law Preparation</h3>' +
       '<p class="nlt-lead">' + N + ' MCQs. ' + MIN + ' minutes. See where you really stand.</p>' +
-      '<p class="nlt-why">A quick check of your <b>speed and accuracy</b> under time pressure, at about ' + PACE + ' seconds a question. Two questions from each of the 10 Law units, fresh every time.</p>' +
+      '<p class="nlt-why">Check your <b>speed and accuracy</b> under time pressure, about ' + PACE + ' seconds a question. Two from each of the 10 Law units, fresh every time.</p>' +
       '<ul class="nlt-facts"><li>' + N + ' questions</li><li>' + MIN + ' minutes</li><li>Law only</li><li>Instant score</li></ul>' +
       '<div class="nlt-cta"><button type="button" class="nlt-btn pri" data-a="start">Start the test \u2192</button>' + best + "</div>" +
       (msg ? '<p class="nlt-foot" role="alert">' + esc(msg) + "</p>" : '<p class="nlt-foot">No sign-up. No negative marking. Not affiliated with NTA or UGC.</p>') + "</section>";

@@ -1,7 +1,7 @@
 /* Hero carousel: main card on the left, vertical option rail on the right. Colours come from the active theme variables. */
-section.hero{padding:44px 0 56px}
-.hero-grid.hero-grid-cc{grid-template-columns:1fr;gap:28px}
-.cc{--cc-h:440px;--cc-rail:300px;position:relative;min-width:0;display:grid;grid-template-columns:minmax(0,1fr) var(--cc-rail);gap:24px;align-items:start}
+section.hero{padding:20px 0 32px}
+.hero-grid.hero-grid-cc{grid-template-columns:1fr;gap:22px}
+.cc{--cc-h:clamp(310px,calc(100vh - 450px),440px);--cc-rail:300px;position:relative;min-width:0;display:grid;grid-template-columns:minmax(0,1fr) var(--cc-rail);gap:24px;align-items:start}
 .cc-main{min-width:0}
 .cc-stage{position:relative;height:var(--cc-h);touch-action:pan-y;-webkit-user-select:none;user-select:none}
 .cc-track{list-style:none;margin:0;padding:0;position:absolute;inset:0}
@@ -12,7 +12,7 @@ section.hero{padding:44px 0 56px}
 .cc-slide.is-active{opacity:1;visibility:visible;pointer-events:auto;z-index:2;transition:transform .6s cubic-bezier(.45,.05,.25,1),opacity .55s ease .08s,visibility 0s}
 .cc-stage.is-drag .cc-slide{transition:none}
 
-.cc-card{display:grid;grid-template-columns:1.08fr .92fr;gap:22px;height:100%;padding:28px 32px;position:relative;overflow:hidden;
+.cc-card{display:grid;grid-template-columns:1.08fr .92fr;gap:22px;height:100%;padding:22px 30px;position:relative;overflow:hidden;
   background:var(--surface);color:var(--text);text-decoration:none;border:1px solid var(--line);border-top:4px solid var(--ac2);border-radius:20px;
   box-shadow:0 10px 28px color-mix(in srgb,var(--deep) 10%,transparent);
   transition:transform .35s cubic-bezier(.2,.7,.2,1),box-shadow .35s ease}
@@ -21,9 +21,9 @@ section.hero{padding:44px 0 56px}
 
 .cc-body{display:flex;flex-direction:column;align-items:flex-start;min-width:0}
 .cc-tag{display:inline-block;padding:5px 12px;border-radius:999px;background:var(--tint);color:var(--ac-d);font-size:.6875rem;font-weight:800;letter-spacing:.07em}
-.cc-title{margin:14px 0 8px;font-size:clamp(1.5rem,2.6vw,2.15rem);line-height:1.15;letter-spacing:-.03em;font-weight:800;color:var(--text)}
+.cc-title{margin:10px 0 6px;font-size:clamp(1.5rem,2.6vw,2.15rem);line-height:1.15;letter-spacing:-.03em;font-weight:800;color:var(--text)}
 .cc-line{margin:0;font-size:1rem;font-weight:600;line-height:1.45;color:var(--text)}
-.cc-more{margin:12px 0 0;min-height:4.8em;font-size:.875rem;line-height:1.6;color:var(--text2);transition:opacity .3s ease,transform .3s ease}
+.cc-more{margin:8px 0 0;min-height:3.4em;font-size:.875rem;line-height:1.6;color:var(--text2);transition:opacity .3s ease,transform .3s ease}
 .cc-cta{margin-top:auto;padding:11px 20px;font-size:.875rem;pointer-events:none}
 .cc-foot{margin:10px 0 0;font-size:.71875rem;line-height:1.4;color:var(--mut)}
 .cc-more+.cc-cta{margin-top:auto}
@@ -111,12 +111,15 @@ section.hero{padding:44px 0 56px}
 .hdr-clock .hc-txt{display:flex;flex-direction:column;line-height:1.15}
 .hdr-clock .t{font-size:1.3125rem;font-weight:800;letter-spacing:.02em;color:var(--ac)}
 .hdr-clock .d{font-size:.6875rem;font-weight:700;color:var(--mut)}
-.hdr-clock+.theme-ctl{margin-left:14px}
+.theme-ctl+.hdr-clock{margin-left:16px}
 @keyframes hc-pulse{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--ac) 45%,transparent)}70%,100%{box-shadow:0 0 0 8px transparent}}
 
 /* Theme alignment */
 [data-scheme=royal] .cc-card{border-radius:6px}[data-scheme=royal] .cc-card{border-top-width:3px}
 [data-scheme=royal] .cc-opt-btn,[data-scheme=royal] .hdr-clock{border-radius:6px}
+
+/* Wide screens: hero cards share the header's edges so brand, cards and clock line up */
+@media(min-width:1240px){section.hero .container{width:min(1280px,94%)}}
 
 /* Header: keep brand and links on one line; give the bar a little more room on wide screens */
 .site-header .brand,.site-header .brand span,.nav nav a{white-space:nowrap}
@@ -131,7 +134,7 @@ section.hero{padding:44px 0 56px}
   .hdr-clock{padding:5px 12px 5px 10px}
   .hdr-clock .t{font-size:1.125rem}
   .hdr-clock .d{display:none}
-  .hdr-clock+.theme-ctl{margin-left:10px}
+  .theme-ctl+.hdr-clock{margin-left:10px}
 }
 
 /* Tablet: narrower rail, single-column card */

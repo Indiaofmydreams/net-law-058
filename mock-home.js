@@ -8,6 +8,6 @@ root.querySelectorAll('.mt-st').forEach(el=>{const n=el.dataset.n,r=g(`netlaw058
 if(a&&a.end){const c=Object.keys(a.ans||{}).length;el.textContent=a.end<=Date.now()?'Time up · open to see result':`In progress · ${c}/100 answered`;el.className='mt-st prog'}
 else if(r){el.textContent=`✓ Completed · ${r.marks}/200 marks`;el.className='mt-st done'}})}
 const nv=document.querySelector('.site-header .nav'),tc=nv&&nv.querySelector('.theme-ctl');
-if(nv){const c=document.createElement('div');c.className='hdr-clock';c.setAttribute('aria-hidden','true');c.innerHTML='<i class="hc-dot"></i><span class="hc-txt"><b class="t">--:--:--</b><span class="d"></span></span>';nv.insertBefore(c,tc||null);
+if(nv){const c=document.createElement('div');c.className='hdr-clock';c.setAttribute('aria-hidden','true');c.innerHTML='<i class="hc-dot"></i><span class="hc-txt"><b class="t">--:--:--</b><span class="d"></span></span>';nv.appendChild(c);
 const t=c.querySelector('.t'),d=c.querySelector('.d'),up=()=>{if(document.hidden)return;const n=new Date();t.textContent=n.toLocaleTimeString([],{hour:'2-digit',minute:'2-digit',second:'2-digit'});d.textContent=n.toLocaleDateString([],{weekday:'short',day:'numeric',month:'short',year:'numeric'})};up();setInterval(up,1000)}
 })();
