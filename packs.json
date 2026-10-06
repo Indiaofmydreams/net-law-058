@@ -32,11 +32,19 @@
     "unit": "Intellectual Property Rights and Information Technology Law"
   },
   {
+    "file": "pack-pil-ihl.json",
+    "unit": "Public International Law and IHL"
+  },
+  {
     "file": "pack-environment-human-rights.json",
     "unit": "Environment and Human Rights Law"
   },
   {
     "file": "pack-comparative-public-law.json",
     "unit": "Comparative Public Law and Systems of Governance"
+  },
+  {
+    "file": "pack-people-development-environment.json",
+    "unit": "People, Development and Environment"
   }
 ]
