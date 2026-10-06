@@ -30,5 +30,13 @@
   {
     "file": "pack-ipr-it-law.json",
     "unit": "Intellectual Property Rights and Information Technology Law"
+  },
+  {
+    "file": "pack-environment-human-rights.json",
+    "unit": "Environment and Human Rights Law"
+  },
+  {
+    "file": "pack-comparative-public-law.json",
+    "unit": "Comparative Public Law and Systems of Governance"
   }
 ]

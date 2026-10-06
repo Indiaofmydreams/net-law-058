@@ -1,0 +1,658 @@
+{
+ "title": "Comparative Public Law - Set 3",
+ "exam": "UGC NET Law",
+ "subject": "Comparative Public Law",
+ "totalQuestions": 50,
+ "questions": [
+  {
+   "id": 1,
+   "nation": "USA",
+   "question": "Martin v. Hunter's Lessee (1816) upheld the Supreme Court's power of:",
+   "options": {
+    "A": "Reviewing presidential acts",
+    "B": "Creating federal common law crimes",
+    "C": "Appellate review of state court decisions on federal questions",
+    "D": "Giving advisory opinions"
+   },
+   "answer": "C",
+   "topic": "USA"
+  },
+  {
+   "id": 2,
+   "nation": "USA",
+   "question": "Fletcher v. Peck (1810) was the first case to:",
+   "options": {
+    "A": "Strike down a federal law",
+    "B": "Strike down a state law as unconstitutional",
+    "C": "Recognise judicial review",
+    "D": "Uphold implied powers"
+   },
+   "answer": "B",
+   "topic": "USA"
+  },
+  {
+   "id": 3,
+   "nation": "USA",
+   "question": "Lochner v. New York (1905) is associated with:",
+   "options": {
+    "A": "Commerce power",
+    "B": "Free speech",
+    "C": "Federal taxation",
+    "D": "Liberty of contract under substantive due process"
+   },
+   "answer": "D",
+   "topic": "USA"
+  },
+  {
+   "id": 4,
+   "nation": "USA",
+   "question": "West Coast Hotel v. Parrish (1937):",
+   "options": {
+    "A": "Upheld a state minimum wage law, ending the Lochner era",
+    "B": "Struck down the New Deal",
+    "C": "Upheld segregation",
+    "D": "Created strict scrutiny"
+   },
+   "answer": "A",
+   "topic": "USA"
+  },
+  {
+   "id": 5,
+   "nation": "USA",
+   "question": "Wickard v. Filburn (1942) upheld federal regulation of:",
+   "options": {
+    "A": "Interstate railways",
+    "B": "Banking",
+    "C": "Home-grown wheat, using the aggregate-effects reasoning",
+    "D": "Foreign trade"
+   },
+   "answer": "C",
+   "topic": "USA"
+  },
+  {
+   "id": 6,
+   "nation": "USA",
+   "question": "United States v. Morrison (2000) struck down the civil remedy provision of the:",
+   "options": {
+    "A": "Civil Rights Act 1964",
+    "B": "Violence Against Women Act",
+    "C": "Voting Rights Act",
+    "D": "Brady Act"
+   },
+   "answer": "B",
+   "topic": "USA"
+  },
+  {
+   "id": 7,
+   "nation": "USA",
+   "question": "Gonzales v. Raich (2005) held that Congress could:",
+   "options": {
+    "A": "Prohibit locally grown medical marijuana under the Commerce Clause",
+    "B": "Not regulate intrastate activity",
+    "C": "Not regulate drugs",
+    "D": "Regulate only interstate sales"
+   },
+   "answer": "A",
+   "topic": "USA"
+  },
+  {
+   "id": 8,
+   "nation": "USA",
+   "question": "South Dakota v. Dole (1987) deals with conditions attached to federal funds under the:",
+   "options": {
+    "A": "Treaty power",
+    "B": "Commerce power",
+    "C": "War power",
+    "D": "Spending power"
+   },
+   "answer": "D",
+   "topic": "USA"
+  },
+  {
+   "id": 9,
+   "nation": "USA",
+   "question": "New York v. United States (1992) held that Congress cannot:",
+   "options": {
+    "A": "Tax states",
+    "B": "Regulate waste",
+    "C": "Commandeer state legislatures to enact a federal regulatory programme",
+    "D": "Use the Commerce Clause"
+   },
+   "answer": "C",
+   "topic": "USA"
+  },
+  {
+   "id": 10,
+   "nation": "USA",
+   "question": "Seminole Tribe v. Florida (1996) held that Congress cannot, under the Indian Commerce Clause:",
+   "options": {
+    "A": "Regulate tribes",
+    "B": "Abrogate state sovereign immunity",
+    "C": "Tax tribes",
+    "D": "Make treaties"
+   },
+   "answer": "B",
+   "topic": "USA"
+  },
+  {
+   "id": 11,
+   "nation": "USA",
+   "question": "Heart of Atlanta Motel v. United States (1964) upheld Title II of the Civil Rights Act under the:",
+   "options": {
+    "A": "Commerce Clause",
+    "B": "Thirteenth Amendment only",
+    "C": "Ninth Amendment",
+    "D": "Treaty power"
+   },
+   "answer": "A",
+   "topic": "USA"
+  },
+  {
+   "id": 12,
+   "nation": "USA",
+   "question": "United States v. Nixon (1974) held that executive privilege is:",
+   "options": {
+    "A": "Absolute",
+    "B": "Non-existent",
+    "C": "A political question",
+    "D": "Qualified, not absolute, in criminal proceedings"
+   },
+   "answer": "D",
+   "topic": "USA"
+  },
+  {
+   "id": 13,
+   "nation": "USA",
+   "question": "Nixon v. Fitzgerald (1982) gave the President:",
+   "options": {
+    "A": "No immunity",
+    "B": "Immunity only for unofficial acts",
+    "C": "Absolute immunity from civil damages for official acts",
+    "D": "Immunity from impeachment"
+   },
+   "answer": "C",
+   "topic": "USA"
+  },
+  {
+   "id": 14,
+   "nation": "USA",
+   "question": "Clinton v. Jones (1997) held that a sitting President:",
+   "options": {
+    "A": "Is immune from all civil suits",
+    "B": "Is not immune from civil litigation over unofficial acts",
+    "C": "Cannot be sued in state courts",
+    "D": "Is immune from discovery"
+   },
+   "answer": "B",
+   "topic": "USA"
+  },
+  {
+   "id": 15,
+   "nation": "USA",
+   "question": "Morrison v. Olson (1988) upheld the constitutionality of the:",
+   "options": {
+    "A": "Independent counsel law",
+    "B": "Legislative veto",
+    "C": "Line item veto",
+    "D": "War Powers Resolution"
+   },
+   "answer": "A",
+   "topic": "USA"
+  },
+  {
+   "id": 16,
+   "nation": "USA",
+   "question": "Myers v. United States (1926) concerned the President's power to:",
+   "options": {
+    "A": "Pardon",
+    "B": "Veto",
+    "C": "Make treaties",
+    "D": "Remove executive officers"
+   },
+   "answer": "D",
+   "topic": "USA"
+  },
+  {
+   "id": 17,
+   "nation": "USA",
+   "question": "Zivotofsky v. Kerry (2015) held that the power to recognise foreign sovereigns belongs exclusively to:",
+   "options": {
+    "A": "Congress",
+    "B": "The Senate",
+    "C": "The President",
+    "D": "The courts"
+   },
+   "answer": "C",
+   "topic": "USA"
+  },
+  {
+   "id": 18,
+   "nation": "USA",
+   "question": "Missouri v. Holland (1920) upheld Congress's power to implement a:",
+   "options": {
+    "A": "State compact",
+    "B": "Treaty, even on matters otherwise reserved to the states",
+    "C": "Tax",
+    "D": "Executive order"
+   },
+   "answer": "B",
+   "topic": "USA"
+  },
+  {
+   "id": 19,
+   "nation": "USA",
+   "question": "United States v. Curtiss-Wright (1936) described the President as the \"sole organ\" of the nation in:",
+   "options": {
+    "A": "Foreign affairs",
+    "B": "Domestic policy",
+    "C": "Taxation",
+    "D": "Judicial appointments"
+   },
+   "answer": "A",
+   "topic": "USA"
+  },
+  {
+   "id": 20,
+   "nation": "USA",
+   "question": "Hamdi v. Rumsfeld (2004) held that a US citizen detained as an enemy combatant is entitled to:",
+   "options": {
+    "A": "Release",
+    "B": "A jury trial",
+    "C": "No review",
+    "D": "Due process, including a meaningful opportunity to contest detention"
+   },
+   "answer": "D",
+   "topic": "USA"
+  },
+  {
+   "id": 21,
+   "nation": "USA",
+   "question": "Boumediene v. Bush (2008) held that Guantanamo detainees have:",
+   "options": {
+    "A": "No rights",
+    "B": "Only treaty rights",
+    "C": "The constitutional privilege of habeas corpus",
+    "D": "A right to jury trial"
+   },
+   "answer": "C",
+   "topic": "USA"
+  },
+  {
+   "id": 22,
+   "nation": "USA",
+   "question": "The \"clear and present danger\" test was formulated by Justice Holmes in:",
+   "options": {
+    "A": "Brandenburg v. Ohio",
+    "B": "Schenck v. United States",
+    "C": "Abrams v. US",
+    "D": "Gitlow v. New York"
+   },
+   "answer": "B",
+   "topic": "USA"
+  },
+  {
+   "id": 23,
+   "nation": "USA",
+   "question": "West Virginia v. Barnette (1943) held that compelling students to salute the flag:",
+   "options": {
+    "A": "Violates the First Amendment",
+    "B": "Is valid",
+    "C": "Is a political question",
+    "D": "Violates the Fifth Amendment only"
+   },
+   "answer": "A",
+   "topic": "USA"
+  },
+  {
+   "id": 24,
+   "nation": "USA",
+   "question": "Loving v. Virginia (1967) struck down laws banning:",
+   "options": {
+    "A": "Same-sex marriage",
+    "B": "Polygamy",
+    "C": "Divorce",
+    "D": "Interracial marriage"
+   },
+   "answer": "D",
+   "topic": "USA"
+  },
+  {
+   "id": 25,
+   "nation": "USA",
+   "question": "Craig v. Boren (1976) established which standard for gender classifications?",
+   "options": {
+    "A": "Strict scrutiny",
+    "B": "Rational basis",
+    "C": "Intermediate scrutiny",
+    "D": "Absolute prohibition"
+   },
+   "answer": "C",
+   "topic": "USA"
+  },
+  {
+   "id": 26,
+   "nation": "USA",
+   "question": "Lawrence v. Texas (2003) overruled:",
+   "options": {
+    "A": "Griswold v. Connecticut",
+    "B": "Bowers v. Hardwick",
+    "C": "Roe v. Wade",
+    "D": "Plessy v. Ferguson"
+   },
+   "answer": "B",
+   "topic": "USA"
+  },
+  {
+   "id": 27,
+   "nation": "USA",
+   "question": "Terry v. Ohio (1968) permits a stop and frisk on:",
+   "options": {
+    "A": "Reasonable suspicion",
+    "B": "Mere hunch",
+    "C": "A warrant only",
+    "D": "Probable cause only"
+   },
+   "answer": "A",
+   "topic": "USA"
+  },
+  {
+   "id": 28,
+   "nation": "USA",
+   "question": "Texas v. White (1869) held that:",
+   "options": {
+    "A": "States may secede by vote",
+    "B": "The Union is dissolvable",
+    "C": "The Confederacy was lawful",
+    "D": "Secession was unconstitutional and the Union indestructible"
+   },
+   "answer": "D",
+   "topic": "USA"
+  },
+  {
+   "id": 29,
+   "nation": "UK",
+   "question": "R (Jackson) v. Attorney General (2005) upheld the validity of the:",
+   "options": {
+    "A": "Human Rights Act",
+    "B": "European Communities Act",
+    "C": "Parliament Act 1949",
+    "D": "Scotland Act"
+   },
+   "answer": "C",
+   "topic": "UK"
+  },
+  {
+   "id": 30,
+   "nation": "UK",
+   "question": "Pickin v. British Railways Board (1974) affirms that courts cannot:",
+   "options": {
+    "A": "Question the internal parliamentary process leading to an Act",
+    "B": "Interpret statutes",
+    "C": "Review executive action",
+    "D": "Apply common law"
+   },
+   "answer": "A",
+   "topic": "UK"
+  },
+  {
+   "id": 31,
+   "nation": "UK",
+   "question": "In the GCHQ case (1985), Lord Diplock identified three grounds of judicial review: illegality, irrationality, and:",
+   "options": {
+    "A": "Proportionality",
+    "B": "Procedural impropriety",
+    "C": "Legitimate expectation",
+    "D": "Bias"
+   },
+   "answer": "B",
+   "topic": "UK"
+  },
+  {
+   "id": 32,
+   "nation": "UK",
+   "question": "The Bill of Rights 1689 established the supremacy of:",
+   "options": {
+    "A": "The Crown",
+    "B": "The Church",
+    "C": "The judiciary",
+    "D": "Parliament over the Crown"
+   },
+   "answer": "D",
+   "topic": "UK"
+  },
+  {
+   "id": 33,
+   "nation": "UK",
+   "question": "The Sewel Convention provides that Westminster will not normally legislate on:",
+   "options": {
+    "A": "Foreign affairs",
+    "B": "Defence",
+    "C": "Devolved matters without the consent of the devolved legislature",
+    "D": "Taxation"
+   },
+   "answer": "C",
+   "topic": "UK"
+  },
+  {
+   "id": 34,
+   "nation": "France",
+   "question": "The Blanco decision (1873) established:",
+   "options": {
+    "A": "Judicial review of laws",
+    "B": "The autonomy of administrative law and state liability",
+    "C": "Presidential powers",
+    "D": "The Senate's role"
+   },
+   "answer": "B",
+   "topic": "France"
+  },
+  {
+   "id": 35,
+   "nation": "France",
+   "question": "\"Cohabitation\" refers to a situation where:",
+   "options": {
+    "A": "The President and Prime Minister belong to opposing political camps",
+    "B": "The Senate and Assembly differ",
+    "C": "Two Presidents serve",
+    "D": "Parliament is dissolved"
+   },
+   "answer": "A",
+   "topic": "France"
+  },
+  {
+   "id": 36,
+   "nation": "France",
+   "question": "Article 61 of the Constitution provides for:",
+   "options": {
+    "A": "Emergency powers",
+    "B": "Referendum",
+    "C": "Impeachment",
+    "D": "Review of laws by the Conseil constitutionnel before promulgation"
+   },
+   "answer": "D",
+   "topic": "France"
+  },
+  {
+   "id": 37,
+   "nation": "Canada",
+   "question": "The Patriation Reference (1981) held that constitutional convention required:",
+   "options": {
+    "A": "Unanimous provincial consent",
+    "B": "No provincial consent",
+    "C": "Substantial provincial consent for amendment affecting provinces",
+    "D": "Only UK approval"
+   },
+   "answer": "C",
+   "topic": "Canada"
+  },
+  {
+   "id": 38,
+   "nation": "Canada",
+   "question": "Roncarelli v. Duplessis (1959) is a leading Canadian case on:",
+   "options": {
+    "A": "Federalism",
+    "B": "The rule of law and limits on administrative discretion",
+    "C": "Free speech",
+    "D": "Language rights"
+   },
+   "answer": "B",
+   "topic": "Canada"
+  },
+  {
+   "id": 39,
+   "nation": "Canada",
+   "question": "Andrews v. Law Society of British Columbia (1989) was the first major Supreme Court decision on Charter:",
+   "options": {
+    "A": "Section 15 equality rights",
+    "B": "Section 7",
+    "C": "Section 33",
+    "D": "Section 2"
+   },
+   "answer": "A",
+   "topic": "Canada"
+  },
+  {
+   "id": 40,
+   "nation": "Canada",
+   "question": "The \"living tree\" doctrine was articulated in the:",
+   "options": {
+    "A": "Oakes case",
+    "B": "Quebec Secession Reference",
+    "C": "Patriation Reference",
+    "D": "Persons Case (Edwards v. Canada, 1929)"
+   },
+   "answer": "D",
+   "topic": "Canada"
+  },
+  {
+   "id": 41,
+   "nation": "Australia",
+   "question": "Section 109 of the Constitution provides that, in case of inconsistency:",
+   "options": {
+    "A": "State law prevails",
+    "B": "The High Court decides case by case",
+    "C": "Commonwealth law prevails to the extent of the inconsistency",
+    "D": "Both are void"
+   },
+   "answer": "C",
+   "topic": "Australia"
+  },
+  {
+   "id": 42,
+   "nation": "Australia",
+   "question": "Australian Communist Party v. Commonwealth (1951) struck down:",
+   "options": {
+    "A": "The Communist Party Dissolution Act",
+    "B": "The Banking Act",
+    "C": "The Immigration Act",
+    "D": "The Racial Discrimination Act"
+   },
+   "answer": "A",
+   "topic": "Australia"
+  },
+  {
+   "id": 43,
+   "nation": "Australia",
+   "question": "Lange v. ABC (1997) modified the implied freedom of:",
+   "options": {
+    "A": "Religion",
+    "B": "Political communication",
+    "C": "Movement",
+    "D": "Association only"
+   },
+   "answer": "B",
+   "topic": "Australia"
+  },
+  {
+   "id": 44,
+   "nation": "Germany",
+   "question": "The Solange I decision (1974) concerned the relationship between German fundamental rights and:",
+   "options": {
+    "A": "The UN Charter",
+    "B": "State constitutions",
+    "C": "International treaties",
+    "D": "European Community law"
+   },
+   "answer": "D",
+   "topic": "Germany"
+  },
+  {
+   "id": 45,
+   "nation": "Germany",
+   "question": "Under Article 21(2) of the Basic Law, the power to ban unconstitutional political parties rests with the:",
+   "options": {
+    "A": "Federal Constitutional Court",
+    "B": "Bundestag",
+    "C": "Federal President",
+    "D": "Bundesrat"
+   },
+   "answer": "A",
+   "topic": "Germany"
+  },
+  {
+   "id": 46,
+   "nation": "Germany",
+   "question": "The Federal President is elected by the:",
+   "options": {
+    "A": "Direct popular vote",
+    "B": "Bundestag alone",
+    "C": "Federal Convention (Bundesversammlung)",
+    "D": "Bundesrat alone"
+   },
+   "answer": "C",
+   "topic": "Germany"
+  },
+  {
+   "id": 47,
+   "nation": "South Africa",
+   "question": "The supremacy of the Constitution is declared in:",
+   "options": {
+    "A": "Section 1",
+    "B": "Section 2",
+    "C": "Section 7",
+    "D": "Section 36"
+   },
+   "answer": "B",
+   "topic": "South Africa"
+  },
+  {
+   "id": 48,
+   "nation": "Japan",
+   "question": "The Supreme Court is given the power of judicial review as the court of last resort under:",
+   "options": {
+    "A": "Article 81",
+    "B": "Article 9",
+    "C": "Article 1",
+    "D": "Article 96"
+   },
+   "answer": "A",
+   "topic": "Japan"
+  },
+  {
+   "id": 49,
+   "nation": "Switzerland",
+   "question": "Under Article 190 of the Federal Constitution, the Federal Supreme Court:",
+   "options": {
+    "A": "May strike down all laws",
+    "B": "Reviews only cantonal laws",
+    "C": "Has no jurisdiction",
+    "D": "Must apply federal statutes even if unconstitutional"
+   },
+   "answer": "D",
+   "topic": "Switzerland"
+  },
+  {
+   "id": 50,
+   "nation": "Germany/India",
+   "question": "The German provision analogous to India's basic structure doctrine is:",
+   "options": {
+    "A": "Article 1(3)",
+    "B": "Article 20",
+    "C": "Article 79(3), the eternity clause",
+    "D": "Article 93"
+   },
+   "answer": "C",
+   "topic": "Germany/India"
+  }
+ ]
+}
