@@ -23,6 +23,31 @@ select{min-height:44px;padding:0 12px;border:1px solid var(--ln);border-radius:1
 .sc{font-size:.85rem;color:var(--mu);margin:10px 0 0}
 @media(max-width:800px){.g{grid-template-columns:1fr}.pal{position:static}.sp{margin-left:0}}
 :root{--nl-on:#fff}@media(prefers-color-scheme:dark){:root{--nl-on:#1a0f17}}
+/* Mobile and tablet optimisation: media-query-only, desktop (above 1024px) unchanged */
+@media(max-width:1024px){
+html body .w a:first-child{display:inline-flex;align-items:center;min-height:44px}
+html body .n{min-width:44px;min-height:44px}
+html body .pg{grid-template-columns:repeat(auto-fill,minmax(44px,1fr));gap:8px}
+html body select{min-height:44px;font-size:1rem}
+html body .nl-pb,html body .nl-rg,html body .nl-j{min-height:44px;min-width:44px}
+html body a:focus-visible,html body button:focus-visible,html body select:focus-visible{outline:3px solid var(--ac);outline-offset:2px}
+}
+@media(max-width:600px){
+html body .w{padding:16px 16px 96px}
+html body .m,html body .sc,html body label{font-size:.875rem}
+html body .ex{font-size:1rem}
+html body .o{min-height:56px;font-size:1rem;padding:12px 14px}
+html body .b{min-height:48px;font-size:1rem}
+html body .nav{position:sticky;bottom:0;z-index:12;margin:18px -22px -22px;padding:10px 16px;background:var(--sf);border-top:1px solid var(--ln);border-radius:0 0 16px 16px}
+html body .nav .b{flex:1 1 calc(50% - 4px)}
+html body .bar select{flex:1 1 100%}
+html body .bar .b{flex:1 1 100%}
+html body #nl-rail{display:none}
+html body #nl-jump{right:8px;bottom:84px;gap:8px}
+html body #nl-jump .nl-j{width:44px;height:44px}
+html body #nl-pomo{left:8px;bottom:84px}
+html body .nl-t{display:none}
+}
 </style></head><body><div class="w">
 <a href="index.html">← Back to Paper 2 modules</a>
 <p class="ey" style="margin:18px 0 0">PAPER 2 · MODULE 02</p>

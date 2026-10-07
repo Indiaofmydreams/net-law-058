@@ -75,3 +75,147 @@ input,select,textarea{color:var(--text)}input::placeholder{color:var(--mut)}.men
 [data-scheme=navy] .hero{background:radial-gradient(circle at 88% 12%,var(--glow1) 0,transparent 46%),radial-gradient(circle at 4% 96%,var(--glow2) 0,transparent 46%),linear-gradient(135deg,var(--bg),var(--hero2))}
 [data-scheme=navy] :is(.unit,.note,.resource,.hero-card,.mt-card){border-top:3px solid var(--ac2)}
 [data-scheme=navy] :is(.btn,.unit,.note,.resource,.hero-card,.mt-card,.qb-card,.sy-card,.mt-q,.mt-pal,.pal-btn){border-radius:10px}
+
+/* =====================================================================
+   MOBILE & TABLET OPTIMISATION (appended; every rule is inside a media query,
+   so desktop widths above 1024px are untouched).
+   The "html body" prefix lifts specificity so these win over component CSS
+   that loads after theme.css and over styles injected by nl-nav.js.
+   ===================================================================== */
+
+/* ---------- Tablet and below (max 1024px) ---------- */
+@media (max-width:1024px){
+  html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+  html body img,html body video,html body svg,html body canvas{max-width:100%;height:auto}
+  html body h1,html body h2,html body h3,html body p,html body li,html body td,html body th{overflow-wrap:break-word}
+  html body pre,html body code{max-width:100%;overflow-x:auto;white-space:pre-wrap;word-break:break-word}
+  html body table{max-width:100%}
+  html body{-webkit-tap-highlight-color:color-mix(in srgb,var(--ac) 18%,transparent)}
+
+  /* Touch targets: at least 44 x 44 */
+  html body .brand{min-height:44px}
+  html body .nav nav.open>a,html body .nav nav.open .nav-dd-btn,html body .nav-dd-in a{min-height:44px;display:flex;align-items:center}
+  html body .nl-pb{min-width:44px;min-height:44px}
+  html body .nl-rg,html body .nl-pg select,html body .nl-j{min-height:44px}
+  html body .nl-j{min-width:44px}
+  html body .faq-copy{min-height:44px;min-width:44px;padding:8px 12px}
+  html body .faq-btn{min-height:44px;padding:10px 16px}
+  html body .faq-nav a{min-height:44px}
+  html body .mt-back{display:inline-flex;align-items:center;min-height:44px}
+  /* the sticky timer bar used to slide under the sticky site header; sit just below it instead */
+  html body .mt-top{top:73px}
+  html body .cc-arrow{width:44px;height:44px}
+  html body .cc-dot{min-width:28px;height:44px}
+  html body .mt-p:not(i){min-height:44px;min-width:44px}
+  html body .mt-pg{grid-template-columns:repeat(auto-fill,minmax(44px,1fr));gap:8px}
+  html body .mt-opt input,html body .sy-t input,html body .qb-o input{width:22px;height:22px;flex:none}
+  html body .syllabus-topic input{width:22px;height:22px;flex:none}
+  html body select,html body .sy-search,html body input[type=search],html body input[type=text]{min-height:44px;font-size:1rem}
+  html body .footer-grid a,html body .copyright a,html body .tm-foot a,html body .faq-crumb a,html body .pl-crumb a,html body .faq-pop a,html body .faq-links a,html body .note a,html body .unit a{display:inline-flex;align-items:center;min-height:44px}
+  html body .nl-dg-g{min-height:44px;gap:8px}
+  html body .nl-dg-g select,html body .nl-gt input{min-height:44px}
+
+  /* Layout safety */
+  html body .mt-intro,html body .mt-res{max-width:100%}
+  html body .quiz-shell{max-width:100%}
+  html body .faq-search input,html body .faq-search{max-width:100%}
+  html body .mt-tw,html body .tbl-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  html body .mt-tb{min-width:560px}
+
+  /* Visible focus (also on dark / coloured buttons) */
+  html body a:focus-visible,html body button:focus-visible,html body select:focus-visible,html body input:focus-visible,html body summary:focus-visible,html body [tabindex]:focus-visible{outline:3px solid var(--b2,var(--ac));outline-offset:2px}
+}
+
+/* Tablets only: two columns at most */
+@media (min-width:601px) and (max-width:1024px){
+  html body .unit-grid,html body .resource-grid,html body .notes-grid,html body .mt-cards,html body .plan-cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+  html body .stat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  html body .stat-grid div:nth-child(2n){border-right:0}
+}
+
+/* ---------- Phone (max 600px) ---------- */
+@media (max-width:600px){
+  html body{font-size:1rem;line-height:1.6}
+  html body :is(p,li,dd):not(#_){font-size:1rem}
+  html body :is(.cc-foot,.nlt-foot,.mt-foot,.mt-st,.mt-ct,.mt-note,.mt-meta,.mt-cnt,.mt-leg,.nl-info,.faq-stamp,.faq-note,.sy-note,.copyright,.tm-foot,.sc,.m):not(#_){font-size:.875rem}
+  html body .unit p,html body .resource p,html body .note p,html body .mt-ct,html body .mt-mini,html body .faq-a p,html body .faq-a li{font-size:1rem}
+  html body .mt-st,html body .mt-foot,html body .mt-note,html body .mt-meta,html body .mt-id span,html body .mt-leg,html body .mt-cnt{font-size:.875rem}
+  html body .eyebrow,html body .pill,html body .tag,html body .sy-tier,html body .mt-hard,html body .mt-mod{font-size:.75rem}
+  html body .nl-rg,html body .qb-u,html body .sy-chip,html body .qb-chip,html body .faq-btn,html body .faq-copy,html body .btn,html body .mt-chip{font-size:.9375rem}
+  html body .nl-info,html body .nl-pp-t span{font-size:.875rem}
+
+  /* Headings scale down so they never overflow */
+  html body .hero h1{font-size:clamp(2.125rem,10vw,3.125rem);line-height:1.08}
+  html body .section-head h2{font-size:clamp(1.625rem,7vw,2.1rem)}
+  html body h1{font-size:clamp(1.625rem,7.5vw,2.25rem);line-height:1.15}
+  html body h2{font-size:clamp(1.375rem,6vw,1.75rem)}
+  html body .mt-intro h1,html body .mt-rh h1{font-size:clamp(1.5rem,7vw,2rem)}
+  html body .hero-text{font-size:1.0625rem}
+  html body .mt-big b{font-size:2.5rem}
+
+  /* One column everywhere */
+  html body .unit-grid,html body .resource-grid,html body .notes-grid,html body .mt-cards,html body .plan-cards,html body .stat-grid,html body .mt-two,html body .footer-grid{grid-template-columns:minmax(0,1fr)}
+  html body .stat-grid div{border-right:0;border-bottom:1px solid rgba(255,255,255,.12)}
+  html body .stat-grid div:last-child{border-bottom:0}
+  html body .section{padding:56px 0}
+  html body .hero-actions .btn,html body .btn{min-height:48px}
+  html body .quiz-shell,html body .hero-card{padding:20px}
+  html body .mt-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
+
+  /* Floating helpers: rail hidden on phones, jump buttons kept 44px, tucked into the corner */
+  html body #nl-rail{display:none}
+  html body #nl-jump{right:8px;bottom:8px;gap:8px}
+  html body #nl-jump .nl-j{width:44px;height:44px;opacity:.9}
+  html body #nl-pomo{left:8px;bottom:8px}
+  html body .nl-t{display:none}
+  html body .nl-pb{min-width:44px;padding:0 10px}
+  html body .nl-pg{gap:6px}
+  /* leave room at the foot of the page so the buttons never hide the last line */
+  html body main,html body footer,html body .w{scroll-padding-bottom:80px}
+  html body footer{padding-bottom:84px}
+
+  /* Hero carousel: arrows + swipe + option rail; the 8px dots are too small to tap */
+  html body .cc-dots{display:none}
+  html body .cc-ctrl{gap:28px;justify-content:center}
+  html body .cc-card{overflow-wrap:break-word}
+
+  /* Mock tests */
+  html body .mt-page{padding-top:16px;padding-bottom:96px}
+  html body .mt-top{padding:6px 10px;gap:8px;flex-wrap:nowrap;background:var(--surface);border-radius:0 0 13px 13px}
+  html body .mt-top .mt-id{flex:1 1 auto;min-width:0;font-size:.9375rem;line-height:1.25}
+  html body .mt-top .mt-btn{min-height:44px;padding:0 12px;font-size:.875rem;flex:none}
+  html body .mt-timer{font-size:1.25rem;padding:4px 10px;flex:none}
+  html body .mt-q{padding:16px}
+  html body .mt-qt{font-size:1.125rem;line-height:1.55}
+  html body .mt-opt{min-height:56px;padding:12px 14px;gap:14px;font-size:1rem}
+  html body .mt-btn{min-height:48px;font-size:1rem}
+  html body .mt-acts{position:sticky;bottom:0;z-index:12;margin:20px -16px -16px;padding:10px 16px;gap:8px;background:var(--surface);border-top:1px solid var(--line);border-radius:0 0 14px 14px}
+  html body .mt-acts .mt-btn{flex:1 1 calc(50% - 4px)}
+  html body .mt-acts .pri{margin-left:0}
+  html body .mt-pal{padding:14px}
+  html body .mt-pg{max-height:none}
+  html body .mt-dlg{max-width:calc(100% - 32px);padding:20px}
+  html body .mt-toast{max-width:calc(100% - 32px);bottom:80px;text-align:center}
+  /* On a test page the palette and the sticky action bar replace the page jump buttons */
+  html body:has(.mt-page) #nl-jump{display:none}
+
+  /* FAQ */
+  html body .faq-fact strong{font-size:1.15rem}
+  html body .faq-btns{flex-wrap:wrap}
+  html body .faq-nav a{font-size:.9375rem}
+
+  /* Plan pages */
+  html body .route a,html body .pc-go,html body .plan-card a{min-height:44px;display:inline-flex;align-items:center}
+  html body .pc-line,html body .pc-go{font-size:.9375rem}
+
+  /* Syllabus / question bank */
+  html body .sy-t,html body .qb-opt{min-height:48px}
+  html body .qb-tools{top:64px}
+}
+
+/* Very small phones */
+@media (max-width:360px){
+  html body .mt-q{padding:14px}
+  html body .mt-acts{margin:20px -14px -14px;padding:10px 14px}
+  html body .nl-pb{min-width:44px}
+}
