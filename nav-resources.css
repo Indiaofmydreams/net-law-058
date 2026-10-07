@@ -1,0 +1,24 @@
+/* nav-resources.css: spacious header nav + "Resources" dropdown. Loads after theme.css; uses theme tokens only. */
+.nav nav{align-items:center;gap:clamp(18px,2.8vw,40px);margin-left:clamp(28px,4vw,64px)}
+.nav nav>a,.nav-dd-btn{padding:10px 0}
+.nav-dd{position:relative}
+.nav-dd-btn{display:inline-flex;align-items:center;gap:6px;border:0;background:none;color:var(--text2);font:inherit;font-size:.875rem;font-weight:600;cursor:pointer}
+.nav-dd-btn:hover,.nav-dd.open .nav-dd-btn{color:var(--ac)}
+.nav-dd-btn:focus-visible{outline:3px solid color-mix(in srgb,var(--ac) 38%,transparent);outline-offset:3px;border-radius:6px}
+.nav-chev{transition:transform .18s}
+.nav-dd.open .nav-chev{transform:rotate(180deg)}
+.nav-dd-menu{display:none;position:absolute;top:100%;left:-18px;min-width:210px;padding-top:10px;z-index:30}
+.nav-dd.open>.nav-dd-menu{display:block}
+.nav-dd-in{padding:8px;background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:0 18px 40px -18px rgba(0,0,0,.45)}
+.nav nav .nav-dd-in a{display:block;padding:11px 14px;border-radius:9px;white-space:nowrap}
+.nav nav .nav-dd-in a:hover,.nav nav .nav-dd-in a:focus-visible{background:var(--tint);color:var(--ac-d)}
+@media (hover:hover) and (min-width:901px){.nav-dd:hover>.nav-dd-menu{display:block}.nav-dd:hover .nav-dd-btn{color:var(--ac)}.nav-dd:hover .nav-chev{transform:rotate(180deg)}}
+@media(max-width:900px){
+  .nav nav{margin-left:0}
+  .nav nav.open{gap:2px;align-items:stretch}
+  .nav nav.open>a,.nav-dd-btn{padding:12px 4px}
+  .nav-dd-btn{width:100%;justify-content:space-between}
+  .nav-dd-menu{position:static;min-width:0;padding:0}
+  .nav-dd-in{padding:0 0 6px 14px;background:transparent;border:0;border-left:2px solid var(--line2);border-radius:0;box-shadow:none;margin-left:4px}
+}
+@media(prefers-reduced-motion:reduce){.nav-chev{transition:none}}
