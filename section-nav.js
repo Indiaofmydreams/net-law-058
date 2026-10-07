@@ -6,6 +6,7 @@
 
   var SECTIONS = [
     { id: "home",       label: "Home" },
+    { id: "plan",       label: "Study Plan" },
     { id: "mock-tests", label: "Mock Tests" },
     { id: "law",        label: "Law 058" },
     { id: "syllabus",   label: "Syllabus" },
