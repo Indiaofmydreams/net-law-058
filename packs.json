@@ -46,5 +46,9 @@
   {
     "file": "pack-people-development-environment.json",
     "unit": "People, Development and Environment"
+  },
+  {
+    "file": "pack-teaching-aptitude.json",
+    "unit": "Teaching Aptitude"
   }
 ]
