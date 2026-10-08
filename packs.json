@@ -50,5 +50,29 @@
   {
     "file": "pack-teaching-aptitude.json",
     "unit": "Teaching Aptitude"
+  },
+  {
+    "file": "pack-communication.json",
+    "unit": "Communication"
+  },
+  {
+    "file": "pack-research-aptitude.json",
+    "unit": "Research Aptitude"
+  },
+  {
+    "file": "pack-logical-reasoning.json",
+    "unit": "Logical Reasoning"
+  },
+  {
+    "file": "pack-data-interpretation.json",
+    "unit": "Data Interpretation"
+  },
+  {
+    "file": "pack-people-development-environment-2.json",
+    "unit": "People, Development and Environment"
+  },
+  {
+    "file": "pack-higher-education.json",
+    "unit": "Higher Education System"
   }
 ]

@@ -1,0 +1,4684 @@
+{
+ "metadata": {
+  "subject": "UGC NET Paper 1 - Data Interpretation",
+  "count": 334
+ },
+ "questions": [
+  {
+   "unit": "Data Interpretation",
+   "topic": "Primary and Secondary Data",
+   "question": "Data collected first-hand by the researcher for a specific purpose is called:",
+   "options": [
+    "Primary data",
+    "Secondary data",
+    "Tertiary data",
+    "Derived data"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 1
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Primary and Secondary Data",
+   "question": "A researcher uses an NSS report on household consumption to study spending patterns. For this researcher the data is:",
+   "options": [
+    "Secondary",
+    "Primary",
+    "Experimental",
+    "Purely qualitative"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 2
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Primary and Secondary Data",
+   "question": "Data collected by the Census Office is ___ for the Census Office and ___ for a scholar who later uses the published tables.",
+   "options": [
+    "Secondary, primary",
+    "Primary, primary",
+    "Secondary, secondary",
+    "Primary, secondary"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 3
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Primary and Secondary Data",
+   "question": "A teacher administers a test to her own students as part of her research. The data so generated is:",
+   "options": [
+    "Secondary",
+    "Primary",
+    "Published",
+    "Administrative"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 4
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Primary and Secondary Data",
+   "question": "A researcher downloads data from the Open Government Data Platform (data.gov.in). The data is:",
+   "options": [
+    "Primary",
+    "Experimental",
+    "Observational",
+    "Secondary"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 5
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Primary and Secondary Data",
+   "question": "Which of the following is NOT an advantage of primary data?",
+   "options": [
+    "It is cheap and quickly available",
+    "It is specific to the research problem",
+    "The researcher controls its quality",
+    "It is up to date"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 6
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Primary and Secondary Data",
+   "question": "The main limitation of secondary data is that:",
+   "options": [
+    "It is always costly",
+    "It cannot be analysed statistically",
+    "It is never published",
+    "It may not exactly fit the objectives of the present study"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 7
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Primary and Secondary Data",
+   "question": "Consider the statements:\nI. Primary data is original in nature.\nII. Secondary data has already been collected by someone else.\nIII. Secondary data is always more accurate than primary data.\nWhich of the statements are correct?",
+   "options": [
+    "II and III only",
+    "I and III only",
+    "I, II and III",
+    "I and II only"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 8
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Primary and Secondary Data",
+   "question": "Before using secondary data, a researcher should check its:",
+   "options": [
+    "Cost only",
+    "Suitability, reliability and adequacy",
+    "Colour and layout",
+    "Place of publication only"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 9
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Primary and Secondary Data",
+   "question": "Primary data collection is most justified when:",
+   "options": [
+    "Existing data fully answers the research problem",
+    "The researcher has very little time",
+    "The required information is not available in existing sources",
+    "The researcher has no budget"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 10
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Primary and Secondary Data",
+   "question": "Assertion (A): Secondary data is economical.\nReason (R): It has already been collected and compiled by others.",
+   "options": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 11
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Primary and Secondary Data",
+   "question": "Which of the following is a secondary source of data?",
+   "options": [
+    "Field interview",
+    "Researcher's own questionnaire",
+    "Direct observation",
+    "Census report published by the government"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 12
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Primary and Secondary Data",
+   "question": "Which of the following is a published secondary source?",
+   "options": [
+    "Focus group discussion",
+    "Laboratory experiment",
+    "Statistical Abstract",
+    "Schedule filled by an enumerator"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 13
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Primary and Secondary Data",
+   "question": "Which of the following is an unpublished secondary source?",
+   "options": [
+    "Economic Survey",
+    "Newspapers",
+    "Internal records of an office or company that are not published",
+    "Research journals"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 14
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Primary and Secondary Data",
+   "question": "The Handbook of Statistics on the Indian Economy is published by:",
+   "options": [
+    "NITI Aayog",
+    "Reserve Bank of India",
+    "SEBI",
+    "UGC"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 15
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Primary and Secondary Data",
+   "question": "Which of the following is a secondary data source?",
+   "options": [
+    "Researcher's field notes",
+    "Economic Survey of India",
+    "Researcher's own experiment",
+    "Researcher's own interviews"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 16
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Primary and Secondary Data",
+   "question": "Which of the following pairs is wrongly matched?",
+   "options": [
+    "Experiment – Primary",
+    "Journal article – Secondary",
+    "Interview conducted by the researcher – Secondary",
+    "Gazette – Secondary"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 17
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Primary and Secondary Data",
+   "question": "National Accounts Statistics in India are compiled by:",
+   "options": [
+    "ICMR",
+    "Ministry of Statistics and Programme Implementation (MoSPI)",
+    "ISRO",
+    "UGC"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 18
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Primary and Secondary Data",
+   "question": "Which of the following is a method of collecting primary data?",
+   "options": [
+    "Reports of the RBI",
+    "Census volumes",
+    "Observation",
+    "Journal articles"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 19
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Primary and Secondary Data",
+   "question": "Which of the following is a primary data collection tool?",
+   "options": [
+    "Questionnaire",
+    "Gazetteer",
+    "Annual report",
+    "Handbook of statistics"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 20
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Methods of Data Collection",
+   "question": "In the schedule method, the form is filled in by:",
+   "options": [
+    "The enumerator or investigator",
+    "The respondent himself",
+    "A computer only",
+    "The sampler"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 21
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Methods of Data Collection",
+   "question": "The questionnaire method requires the respondents to be:",
+   "options": [
+    "Illiterate",
+    "Children only",
+    "Literate",
+    "Enumerators"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 22
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Methods of Data Collection",
+   "question": "The main drawback of the mailed questionnaire is:",
+   "options": [
+    "High cost",
+    "Wide coverage",
+    "Low response rate",
+    "Interviewer bias"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 23
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Methods of Data Collection",
+   "question": "A survey in which every unit of the population is studied is called:",
+   "options": [
+    "Sample survey",
+    "Census",
+    "Pilot survey",
+    "Case study"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 24
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Methods of Data Collection",
+   "question": "The Census of India is conducted after every:",
+   "options": [
+    "5 years",
+    "15 years",
+    "10 years",
+    "20 years"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 25
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Methods of Data Collection",
+   "question": "The first synchronous Census of India was held in:",
+   "options": [
+    "1872",
+    "1901",
+    "1951",
+    "1881"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 26
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Methods of Data Collection",
+   "question": "The Census in India is conducted by:",
+   "options": [
+    "Office of the Registrar General and Census Commissioner, India",
+    "National Statistical Office",
+    "NITI Aayog",
+    "Finance Commission"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 27
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Methods of Data Collection",
+   "question": "Census 2011 was the ___ Census of India since 1872.",
+   "options": [
+    "14th",
+    "15th",
+    "16th",
+    "13th"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 28
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Methods of Data Collection",
+   "question": "The Census in India is conducted under the:",
+   "options": [
+    "Census Act, 1881",
+    "Census Act, 1948",
+    "Census Act, 1951",
+    "Registration Act, 1969"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 29
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Methods of Data Collection",
+   "question": "The Sample Registration System (SRS) provides reliable annual estimates of:",
+   "options": [
+    "Stock prices",
+    "GDP",
+    "Birth rate, death rate and infant mortality rate",
+    "Inflation"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 30
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Methods of Data Collection",
+   "question": "The National Sample Survey Office functions under the:",
+   "options": [
+    "Ministry of Finance",
+    "Ministry of Home Affairs",
+    "NITI Aayog",
+    "Ministry of Statistics and Programme Implementation"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 31
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Methods of Data Collection",
+   "question": "Which of the following is a non-probability sampling method?",
+   "options": [
+    "Snowball sampling",
+    "Simple random sampling",
+    "Stratified random sampling",
+    "Cluster sampling"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 32
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Methods of Data Collection",
+   "question": "When the population is divided into homogeneous groups and units are drawn at random from each group, the method is:",
+   "options": [
+    "Stratified sampling",
+    "Systematic sampling",
+    "Cluster sampling",
+    "Quota sampling"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 33
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Methods of Data Collection",
+   "question": "Selecting every k-th unit from a list after a random start is called:",
+   "options": [
+    "Cluster sampling",
+    "Stratified sampling",
+    "Judgement sampling",
+    "Systematic sampling"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 34
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Methods of Data Collection",
+   "question": "In which method are naturally occurring groups (such as villages or wards) randomly selected and all or some units within them studied?",
+   "options": [
+    "Quota sampling",
+    "Purposive sampling",
+    "Snowball sampling",
+    "Cluster sampling"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 35
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Methods of Data Collection",
+   "question": "Large-scale national surveys such as the NSS commonly use:",
+   "options": [
+    "Stratified multi-stage sampling",
+    "Convenience sampling",
+    "Quota sampling only",
+    "Snowball sampling"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 36
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Methods of Data Collection",
+   "question": "Non-sampling errors can occur in:",
+   "options": [
+    "Sample surveys only",
+    "Census only",
+    "Neither of them",
+    "Both census and sample surveys"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 37
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Methods of Data Collection",
+   "question": "Which of the following is NOT an advantage of a sample survey over a census?",
+   "options": [
+    "Lower cost",
+    "Faster results",
+    "Greater scope for intensive study",
+    "Absence of sampling error"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 38
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Methods of Data Collection",
+   "question": "A census is preferable to a sample survey when:",
+   "options": [
+    "The population is small or complete detailed information is needed",
+    "The population is very large and time is short",
+    "Testing is destructive",
+    "The budget is very low"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 39
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Methods of Data Collection",
+   "question": "A researcher lives with a tribal community for months to study its customs. This is:",
+   "options": [
+    "Non-participant observation",
+    "Structured interview",
+    "Participant observation",
+    "Mailed questionnaire"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 40
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Methods of Data Collection",
+   "question": "A structured interview is one in which:",
+   "options": [
+    "The conversation is completely open",
+    "Questions are predetermined and asked in a fixed order",
+    "No questions are asked",
+    "Only observation is used"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 41
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Methods of Data Collection",
+   "question": "A focus group discussion is a method of collecting:",
+   "options": [
+    "Qualitative primary data",
+    "Quantitative secondary data",
+    "Administrative data",
+    "Census data"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 42
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Methods of Data Collection",
+   "question": "A pilot survey is:",
+   "options": [
+    "The final survey",
+    "A complete enumeration",
+    "A small-scale trial conducted before the main survey",
+    "A source of secondary data"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 43
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Methods of Data Collection",
+   "question": "Data generated as a by-product of administrative functions, such as tax or registration records, is called:",
+   "options": [
+    "Survey data",
+    "Experimental data",
+    "Census data",
+    "Administrative data"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 44
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Methods of Data Collection",
+   "question": "Vital statistics on registered births and deaths come mainly from the:",
+   "options": [
+    "Civil Registration System",
+    "NSS",
+    "PLFS",
+    "AISHE"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 45
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Methods of Data Collection",
+   "question": "An advantage of administrative records is:",
+   "options": [
+    "They are designed specifically for research",
+    "Low cost and continuous coverage",
+    "No confidentiality issues arise",
+    "They always cover a sample only"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 46
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Methods of Data Collection",
+   "question": "A limitation of administrative records is that:",
+   "options": [
+    "They are very costly to collect",
+    "Their concepts and definitions are designed for administrative, not research, purposes",
+    "They are never available",
+    "They are too recent"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 47
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Classification of Data by Time, Geography and Category",
+   "question": "Classification of data according to time (for example year-wise or month-wise) is called:",
+   "options": [
+    "Chronological classification",
+    "Geographical classification",
+    "Qualitative classification",
+    "Quantitative classification"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 48
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Classification of Data by Time, Geography and Category",
+   "question": "Classification of data on the basis of place, such as state-wise or district-wise, is called:",
+   "options": [
+    "Chronological classification",
+    "Quantitative classification",
+    "Qualitative classification",
+    "Geographical (spatial) classification"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 49
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Classification of Data by Time, Geography and Category",
+   "question": "Classification of data on attributes such as gender, religion or marital status is called:",
+   "options": [
+    "Quantitative",
+    "Chronological",
+    "Qualitative",
+    "Geographical"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 50
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Classification of Data by Time, Geography and Category",
+   "question": "Classification of data on the basis of measurable characteristics such as height, income or marks is called:",
+   "options": [
+    "Qualitative",
+    "Quantitative",
+    "Geographical",
+    "Chronological"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 51
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Classification of Data by Time, Geography and Category",
+   "question": "Classifying a population by sex, then within each sex by literacy, and then by age group is an example of:",
+   "options": [
+    "Manifold classification",
+    "Simple classification",
+    "Dichotomous classification",
+    "Open-ended classification"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 52
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Classification of Data by Time, Geography and Category",
+   "question": "Classification into only two classes, such as literate and illiterate, is called:",
+   "options": [
+    "Manifold classification",
+    "Open-ended classification",
+    "Dichotomous classification",
+    "Cumulative classification"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 53
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Classification of Data by Time, Geography and Category",
+   "question": "Arranging data under North, South, East and West zones is an example of:",
+   "options": [
+    "Chronological classification",
+    "Geographical classification",
+    "Qualitative classification",
+    "Quantitative classification"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 54
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Classification of Data by Time, Geography and Category",
+   "question": "Classifying people as SC, ST, OBC and General is an example of:",
+   "options": [
+    "Quantitative classification",
+    "Categorical (qualitative) classification",
+    "Chronological classification",
+    "Geographical classification"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 55
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Classification of Data by Time, Geography and Category",
+   "question": "India's GDP figures for each year from 2015 to 2024 form:",
+   "options": [
+    "Cross-sectional data",
+    "A spatial series",
+    "Qualitative data",
+    "A time series"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 56
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Classification of Data by Time, Geography and Category",
+   "question": "State-wise literacy rates in Census 2011 form:",
+   "options": [
+    "A time series",
+    "A chronological series",
+    "Panel data",
+    "A spatial (cross-sectional) series"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 57
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Classification of Data by Time, Geography and Category",
+   "question": "The long-term upward or downward movement in a time series is called:",
+   "options": [
+    "Seasonal variation",
+    "Secular trend",
+    "Cyclical variation",
+    "Irregular variation"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 58
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Classification of Data by Time, Geography and Category",
+   "question": "The monthly sales of a shop for two years is an example of:",
+   "options": [
+    "Time series data",
+    "Spatial data",
+    "Qualitative data",
+    "Cross-sectional data"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 59
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Classification of Data by Time, Geography and Category",
+   "question": "The decadal population growth rate of India from 1901 to 2011 is an example of:",
+   "options": [
+    "Spatial series",
+    "Qualitative series",
+    "Chronological series",
+    "Cross-sectional series"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 60
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Classification of Data by Time, Geography and Category",
+   "question": "Which of the following is a time-based series?",
+   "options": [
+    "District-wise population",
+    "Yearly rainfall of a city",
+    "Population by religion",
+    "State-wise geographical area"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 61
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Classification of Data by Time, Geography and Category",
+   "question": "Which of the following is a geographical series?",
+   "options": [
+    "Yearly exports of India",
+    "Monthly rainfall of a city",
+    "Quarterly profit of a company",
+    "State-wise production of rice"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 62
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Classification of Data by Time, Geography and Category",
+   "question": "Cross-sectional data refers to data collected:",
+   "options": [
+    "On the same unit over many years",
+    "On one unit at many points in time",
+    "Only from secondary sources",
+    "On many units at a single point in time"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 63
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Classification of Data by Time, Geography and Category",
+   "question": "A study follows the same 500 households every year for five years. The data collected is:",
+   "options": [
+    "Panel (longitudinal) data",
+    "Cross-sectional data",
+    "Census data",
+    "Purely qualitative data"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 64
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Classification of Data by Time, Geography and Category",
+   "question": "In exclusive class intervals such as 10–20, 20–30, an observation with value 20 is placed in the class:",
+   "options": [
+    "10–20",
+    "Both classes",
+    "20–30",
+    "Neither class"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 65
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Classification of Data by Time, Geography and Category",
+   "question": "The class mark (mid-value) of the class interval 30–50 is:",
+   "options": [
+    "20",
+    "30",
+    "50",
+    "40"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 66
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Classification of Data by Time, Geography and Category",
+   "question": "The class width of the class interval 20–30 is:",
+   "options": [
+    "5",
+    "10",
+    "15",
+    "25"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 67
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Classification of Data by Time, Geography and Category",
+   "question": "The frequency of a class means:",
+   "options": [
+    "The number of observations falling in the class",
+    "The range of the class",
+    "The mid-value of the class",
+    "The total of all classes"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 68
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Classification of Data by Time, Geography and Category",
+   "question": "Class intervals such as 10–19, 20–29, 30–39 are called:",
+   "options": [
+    "Exclusive",
+    "Open-ended",
+    "Inclusive",
+    "Cumulative"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 69
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Classification of Data by Time, Geography and Category",
+   "question": "A class such as \"60 and above\" is called:",
+   "options": [
+    "Exclusive class",
+    "Inclusive class",
+    "Open-ended class",
+    "Modal class"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 70
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Classification of Data by Time, Geography and Category",
+   "question": "Cumulative frequency is:",
+   "options": [
+    "The running total of frequencies",
+    "The mid-value of classes",
+    "The difference between classes",
+    "The width of classes"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 71
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Classification of Data by Time, Geography and Category",
+   "question": "Which of the following is NOT an objective of classification?",
+   "options": [
+    "To condense the data",
+    "To facilitate comparison",
+    "To bring out similarities and differences",
+    "To increase the volume of raw data"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 72
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Classification of Data by Time, Geography and Category",
+   "question": "The systematic arrangement of data in rows and columns is called:",
+   "options": [
+    "Classification",
+    "Tabulation",
+    "Sampling",
+    "Coding"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 73
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Classification of Data by Time, Geography and Category",
+   "question": "In a statistical table, the row headings are called the:",
+   "options": [
+    "Caption",
+    "Title",
+    "Stub",
+    "Footnote"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 74
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Classification of Data by Time, Geography and Category",
+   "question": "In a statistical table, the column headings are called the:",
+   "options": [
+    "Stub",
+    "Source note",
+    "Caption",
+    "Body"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 75
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Classification of Data by Time, Geography and Category",
+   "question": "Which of the following is a continuous variable?",
+   "options": [
+    "Number of vehicles",
+    "Time taken to complete a task",
+    "Number of books",
+    "Number of children in a family"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 76
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Mixed Exam-Pattern Questions on Data Sources and Surveys",
+   "question": "Match List I with List II.\nList I (Type of series) | List II (Example)\na. Chronological | i. State-wise sugar production\nb. Geographical | ii. Annual rainfall 2010–2020\nc. Qualitative | iii. Classification by religion\nd. Quantitative | iv. Classification by income groups",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 77
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Mixed Exam-Pattern Questions on Data Sources and Surveys",
+   "question": "Assertion (A): Panel data is more informative than cross-sectional data about change at the individual level.\nReason (R): Panel data observes different units at each point in time.",
+   "options": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 78
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Mixed Exam-Pattern Questions on Data Sources and Surveys",
+   "question": "A study using district-level data of Census 2011 only is an example of:",
+   "options": [
+    "Cross-sectional study",
+    "Panel study",
+    "Time-series study",
+    "Longitudinal study"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 79
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Mixed Exam-Pattern Questions on Data Sources and Surveys",
+   "question": "Match List I with List II.\nList I | List II\na. Census | i. Complete enumeration every ten years\nb. Sample Registration System | ii. Continuous sample-based estimates of fertility and mortality\nc. National Sample Survey | iii. Household surveys on consumption and employment\nd. Civil Registration System | iv. Legal registration of births and deaths",
+   "options": [
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 80
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Mixed Exam-Pattern Questions on Data Sources and Surveys",
+   "question": "Consider the statements:\nI. A census covers the whole population.\nII. A sample survey covers only a portion of the population.\nIII. Sampling error is absent in a sample survey.\nWhich statements are correct?",
+   "options": [
+    "I only",
+    "II and III only",
+    "I, II and III",
+    "I and II only"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 81
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Mixed Exam-Pattern Questions on Data Sources and Surveys",
+   "question": "Which of the following is a non-sampling error?",
+   "options": [
+    "Sampling variability",
+    "Standard error",
+    "Non-response bias",
+    "Confidence interval"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 82
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Mixed Exam-Pattern Questions on Data Sources and Surveys",
+   "question": "Assertion (A): Stratified sampling improves the representativeness of a sample.\nReason (R): The population is divided into homogeneous strata and units are drawn from each stratum.",
+   "options": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 83
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Mixed Exam-Pattern Questions on Data Sources and Surveys",
+   "question": "Which one is the odd one out?",
+   "options": [
+    "Quota sampling",
+    "Simple random sampling",
+    "Stratified sampling",
+    "Cluster sampling"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 84
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Mixed Exam-Pattern Questions on Data Sources and Surveys",
+   "question": "Snowball sampling is most useful when:",
+   "options": [
+    "The population is large and a full list is available",
+    "The population is homogeneous",
+    "The target population is hard to identify or reach",
+    "A census is possible"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 85
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Mixed Exam-Pattern Questions on Data Sources and Surveys",
+   "question": "Quota sampling is:",
+   "options": [
+    "A non-probability method in which the investigator fills fixed quotas",
+    "A probability sampling method",
+    "A random sampling method",
+    "A systematic sampling method"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 86
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Mixed Exam-Pattern Questions on Data Sources and Surveys",
+   "question": "Which of the following is NOT a source of secondary data?",
+   "options": [
+    "Published reports",
+    "Ministry websites",
+    "Research journals",
+    "Personal interviews conducted by the researcher"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 87
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Mixed Exam-Pattern Questions on Data Sources and Surveys",
+   "question": "Which of the following is an example of administrative data?",
+   "options": [
+    "NSS survey data",
+    "UDISE+ data on schools",
+    "Census data",
+    "Focus group data"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 88
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Mixed Exam-Pattern Questions on Data Sources and Surveys",
+   "question": "The National Sample Survey (NSS) in India was initiated in:",
+   "options": [
+    "1947",
+    "1971",
+    "1991",
+    "1950"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 89
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Mixed Exam-Pattern Questions on Data Sources and Surveys",
+   "question": "The National Statistical Commission of India was constituted in:",
+   "options": [
+    "1950",
+    "1999",
+    "2005",
+    "2015"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 90
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Mixed Exam-Pattern Questions on Data Sources and Surveys",
+   "question": "The Periodic Labour Force Survey (PLFS) is conducted by:",
+   "options": [
+    "NITI Aayog",
+    "National Statistical Office, MoSPI",
+    "Reserve Bank of India",
+    "UGC"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 91
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Mixed Exam-Pattern Questions on Data Sources and Surveys",
+   "question": "The National Family Health Survey (NFHS) is coordinated by which institute as the nodal agency?",
+   "options": [
+    "International Institute for Population Sciences (IIPS), Mumbai",
+    "NTA",
+    "SEBI",
+    "ISRO"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 92
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Mixed Exam-Pattern Questions on Data Sources and Surveys",
+   "question": "The All India Survey on Higher Education (AISHE) is conducted by:",
+   "options": [
+    "UGC",
+    "NAAC",
+    "NTA",
+    "Ministry of Education"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 93
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Mixed Exam-Pattern Questions on Data Sources and Surveys",
+   "question": "Arrange the following steps of a data-based study in the correct order.\nI. Define the objectives\nII. Collect the data\nIII. Classify and tabulate the data\nIV. Analyse and interpret the data",
+   "options": [
+    "II, I, III, IV",
+    "I, II, III, IV",
+    "I, III, II, IV",
+    "II, III, I, IV"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 94
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Quantitative vs Qualitative Data and Measurement Scales",
+   "question": "Data expressed in numbers that can be measured or counted is called:",
+   "options": [
+    "Qualitative",
+    "Nominal",
+    "Quantitative",
+    "Categorical"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 95
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Quantitative vs Qualitative Data and Measurement Scales",
+   "question": "Qualitative data describes:",
+   "options": [
+    "Quantities in numbers",
+    "Only ratios",
+    "Only percentages",
+    "Attributes or qualities"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 96
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Quantitative vs Qualitative Data and Measurement Scales",
+   "question": "Which of the following is qualitative data?",
+   "options": [
+    "Height",
+    "Weight",
+    "Eye colour",
+    "Number of students"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 97
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Quantitative vs Qualitative Data and Measurement Scales",
+   "question": "Which of the following is quantitative data?",
+   "options": [
+    "Number of students in a class",
+    "Gender",
+    "Religion",
+    "Mother tongue"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 98
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Quantitative vs Qualitative Data and Measurement Scales",
+   "question": "Consider the statements:\nI. Qualitative data can be coded numerically.\nII. Numerical codes given to nominal categories can be meaningfully averaged.\nIII. Qualitative data includes opinions and descriptions.\nWhich are correct?",
+   "options": [
+    "I only",
+    "II and III only",
+    "I and III only",
+    "I, II and III"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 99
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Quantitative vs Qualitative Data and Measurement Scales",
+   "question": "Qualitative data is mainly collected through:",
+   "options": [
+    "Census counting only",
+    "Weighing instruments",
+    "In-depth interviews and focus groups",
+    "Statistical tables"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 100
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Quantitative vs Qualitative Data and Measurement Scales",
+   "question": "Which of the following is a discrete quantitative variable?",
+   "options": [
+    "Number of books on a shelf",
+    "Weight",
+    "Time",
+    "Distance"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 101
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Quantitative vs Qualitative Data and Measurement Scales",
+   "question": "The nominal scale:",
+   "options": [
+    "Has a true zero",
+    "Classifies items into categories without any order",
+    "Has equal intervals",
+    "Ranks items with equal gaps"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 102
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Quantitative vs Qualitative Data and Measurement Scales",
+   "question": "The religion of respondents is measured on which scale?",
+   "options": [
+    "Ordinal",
+    "Nominal",
+    "Interval",
+    "Ratio"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 103
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Quantitative vs Qualitative Data and Measurement Scales",
+   "question": "Roll numbers or PIN codes used only as labels are measured on which scale?",
+   "options": [
+    "Ratio",
+    "Interval",
+    "Ordinal",
+    "Nominal"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 104
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Quantitative vs Qualitative Data and Measurement Scales",
+   "question": "Which scale does NOT permit ranking of items?",
+   "options": [
+    "Nominal",
+    "Ordinal",
+    "Interval",
+    "Ratio"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 105
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Quantitative vs Qualitative Data and Measurement Scales",
+   "question": "Which is an example of an ordinal scale?",
+   "options": [
+    "Blood group",
+    "Weight in kg",
+    "Age in years",
+    "Grades such as A, B, C"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 106
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Quantitative vs Qualitative Data and Measurement Scales",
+   "question": "Positions in a race (1st, 2nd, 3rd) are measured on which scale?",
+   "options": [
+    "Nominal",
+    "Interval",
+    "Ordinal",
+    "Ratio"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 107
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Quantitative vs Qualitative Data and Measurement Scales",
+   "question": "Responses on a Likert scale (Strongly agree to Strongly disagree) are generally treated as:",
+   "options": [
+    "Nominal",
+    "Ratio",
+    "Continuous ratio data",
+    "Ordinal"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 108
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Quantitative vs Qualitative Data and Measurement Scales",
+   "question": "Which is an example of an interval scale?",
+   "options": [
+    "Gender",
+    "Temperature in Celsius",
+    "Rank",
+    "Height"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 109
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Quantitative vs Qualitative Data and Measurement Scales",
+   "question": "Which scale has an arbitrary zero point?",
+   "options": [
+    "Interval",
+    "Ratio",
+    "Nominal",
+    "Ordinal"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 110
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Quantitative vs Qualitative Data and Measurement Scales",
+   "question": "Temperature in Fahrenheit is measured on which scale?",
+   "options": [
+    "Nominal",
+    "Ordinal",
+    "Interval",
+    "Ratio"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 111
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Quantitative vs Qualitative Data and Measurement Scales",
+   "question": "Assertion (A): Celsius is an interval scale. Reason (R): Zero on the Celsius scale does not mean absence of temperature.",
+   "options": [
+    "Both true and R explains A",
+    "Both true but R does not explain A",
+    "A true, R false",
+    "A false, R true"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 112
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Quantitative vs Qualitative Data and Measurement Scales",
+   "question": "We cannot say 40°C is twice as hot as 20°C because:",
+   "options": [
+    "Celsius is a nominal scale",
+    "Celsius has no true zero",
+    "Celsius is qualitative",
+    "Celsius is discrete"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 113
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Quantitative vs Qualitative Data and Measurement Scales",
+   "question": "Which is an example of a ratio scale?",
+   "options": [
+    "Temperature in Celsius",
+    "Gender",
+    "Rank in class",
+    "Weight in kg"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 114
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Quantitative vs Qualitative Data and Measurement Scales",
+   "question": "The scale that permits meaningful statements like \"twice as much\" is:",
+   "options": [
+    "Ratio",
+    "Nominal",
+    "Ordinal",
+    "Interval"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 115
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Quantitative vs Qualitative Data and Measurement Scales",
+   "question": "Monthly income in rupees is measured on which scale?",
+   "options": [
+    "Nominal",
+    "Ordinal",
+    "Interval",
+    "Ratio"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 116
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Quantitative vs Qualitative Data and Measurement Scales",
+   "question": "The appropriate measure of central tendency for nominal data is:",
+   "options": [
+    "Mean",
+    "Median",
+    "Mode",
+    "Geometric mean"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 117
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Quantitative vs Qualitative Data and Measurement Scales",
+   "question": "The median is appropriate for data measured at least on which scale?",
+   "options": [
+    "Ordinal",
+    "Nominal",
+    "None",
+    "Ratio only"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 118
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Quantitative vs Qualitative Data and Measurement Scales",
+   "question": "The arithmetic mean generally requires data measured at least on which scale?",
+   "options": [
+    "Nominal",
+    "Interval",
+    "Ordinal",
+    "None"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 119
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Quantitative vs Qualitative Data and Measurement Scales",
+   "question": "The correct order of measurement scales from lowest to highest is:",
+   "options": [
+    "Nominal, Ordinal, Interval, Ratio",
+    "Ordinal, Nominal, Interval, Ratio",
+    "Nominal, Interval, Ordinal, Ratio",
+    "Ratio, Interval, Ordinal, Nominal"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 120
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Quantitative vs Qualitative Data and Measurement Scales",
+   "question": "Match List I with List II.\nList I | List II\na. Nominal | i. Temperature in °C\nb. Ordinal | ii. Age in years\nc. Interval | iii. Gender\nd. Ratio | iv. Class rank",
+   "options": [
+    "a-iv, b-iii, c-ii, d-i",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-iii, b-iv, c-i, d-ii"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 121
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Quantitative vs Qualitative Data and Measurement Scales",
+   "question": "Odd one out:",
+   "options": [
+    "Height",
+    "Gender",
+    "Weight",
+    "Income"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 122
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Graphical Representation of Data",
+   "question": "A frequency polygon is obtained by joining:",
+   "options": [
+    "Upper class limits",
+    "Mid-points of the tops of histogram bars",
+    "Lower class limits",
+    "Cumulative frequencies"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 123
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Graphical Representation of Data",
+   "question": "A histogram with unequal class widths should be plotted using:",
+   "options": [
+    "Cumulative frequency",
+    "Mid-values only",
+    "Class width only",
+    "Frequency density"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 124
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Graphical Representation of Data",
+   "question": "Frequency density equals:",
+   "options": [
+    "Frequency × class width",
+    "Frequency ÷ class width",
+    "Class width ÷ frequency",
+    "Cumulative frequency"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 125
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Graphical Representation of Data",
+   "question": "Which statement is correct?",
+   "options": [
+    "A histogram always has gaps between bars",
+    "Both suit only qualitative data",
+    "A bar chart suits only continuous data",
+    "A histogram suits continuous data while a bar chart suits categories"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 126
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Graphical Representation of Data",
+   "question": "Assertion (A): The bars of a histogram touch each other. Reason (R): The class intervals of continuous data are contiguous.",
+   "options": [
+    "Both true and R explains A",
+    "Both true but R does not explain A",
+    "A true, R false",
+    "A false, R true"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 127
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Graphical Representation of Data",
+   "question": "In a bar chart, the bars:",
+   "options": [
+    "Always touch each other",
+    "Show only time",
+    "Are drawn as angles",
+    "Are separated by gaps and usually show categories"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 128
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Graphical Representation of Data",
+   "question": "A component (stacked) bar chart shows:",
+   "options": [
+    "Cumulative frequency",
+    "Angles",
+    "The breakup of a total into its components within each bar",
+    "Correlation"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 129
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Graphical Representation of Data",
+   "question": "A multiple bar chart is used to:",
+   "options": [
+    "Compare two or more related variables side by side",
+    "Show one total only",
+    "Show cumulative frequency",
+    "Show angles"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 130
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Graphical Representation of Data",
+   "question": "Starting the vertical axis of a bar chart at a value far above zero:",
+   "options": [
+    "Has no effect",
+    "Removes data",
+    "Improves accuracy",
+    "Exaggerates the differences between bars"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 131
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Graphical Representation of Data",
+   "question": "In a bar chart, the value is read from the:",
+   "options": [
+    "Width of the bar",
+    "Height or length of the bar",
+    "Colour of the bar",
+    "Gap between bars"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 132
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Graphical Representation of Data",
+   "question": "A simple bar chart is a:",
+   "options": [
+    "Two-dimensional diagram",
+    "Three-dimensional diagram",
+    "One-dimensional diagram",
+    "Cartogram"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 133
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Graphical Representation of Data",
+   "question": "A pie chart shows:",
+   "options": [
+    "Trend over time",
+    "Correlation",
+    "Cumulative frequency",
+    "Parts as proportions of a whole"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 134
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Graphical Representation of Data",
+   "question": "The total angle at the centre of a pie chart is:",
+   "options": [
+    "360°",
+    "180°",
+    "270°",
+    "90°"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 135
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Graphical Representation of Data",
+   "question": "A line chart is best suited to show:",
+   "options": [
+    "Shares of a whole",
+    "Nominal categories only",
+    "Trends over time",
+    "Class intervals"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 136
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Graphical Representation of Data",
+   "question": "The horizontal axis of a line chart showing a time series usually represents:",
+   "options": [
+    "Time",
+    "Frequency",
+    "Percentage",
+    "Angle"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 137
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Graphical Representation of Data",
+   "question": "Month-wise rainfall over one year can best be shown by a:",
+   "options": [
+    "Pie chart only",
+    "Scatter diagram only",
+    "Line or bar chart",
+    "Lorenz curve"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 138
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Graphical Representation of Data",
+   "question": "The \"less than\" and \"more than\" ogives intersect at the:",
+   "options": [
+    "Median",
+    "Mean",
+    "Mode",
+    "Range"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 139
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Graphical Representation of Data",
+   "question": "The mode can be located graphically from a:",
+   "options": [
+    "Ogive",
+    "Histogram",
+    "Pie chart",
+    "Line chart"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 140
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Graphical Representation of Data",
+   "question": "The median can be located graphically from an:",
+   "options": [
+    "Histogram only",
+    "Pie chart",
+    "Ogive",
+    "Pictogram"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 141
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Graphical Representation of Data",
+   "question": "The relationship between two variables is displayed using a:",
+   "options": [
+    "Scatter diagram",
+    "Pie chart",
+    "Bar chart",
+    "Ogive"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 142
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Graphical Representation of Data",
+   "question": "A pictogram uses:",
+   "options": [
+    "Angles",
+    "Cumulative values",
+    "Dots only",
+    "Symbols or pictures to represent data"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 143
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Graphical Representation of Data",
+   "question": "Which of the following is a two-dimensional diagram?",
+   "options": [
+    "Simple bar chart",
+    "Pie chart",
+    "Line chart",
+    "Multiple bar chart"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 144
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Graphical Representation of Data",
+   "question": "The Lorenz curve is used to show:",
+   "options": [
+    "Inequality in the distribution of income or wealth",
+    "Seasonal variation",
+    "Correlation",
+    "Sampling error"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 145
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Graphical Representation of Data",
+   "question": "To study the relationship between study hours and marks, the best graph is a:",
+   "options": [
+    "Pie chart",
+    "Scatter diagram",
+    "Ogive",
+    "Histogram"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 146
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Graphical Representation of Data",
+   "question": "A table chart is most suitable when:",
+   "options": [
+    "Only visual trends are needed",
+    "Only percentages are shown",
+    "No numbers are needed",
+    "Exact values of several variables must be presented"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 147
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Graphical Representation of Data",
+   "question": "Which chart best compares the literacy rates of ten states?",
+   "options": [
+    "Line chart",
+    "Bar chart",
+    "Ogive",
+    "Scatter diagram"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 148
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Graphical Representation of Data",
+   "question": "Match List I with List II.\nList I | List II\na. Histogram | i. Trend over time\nb. Line chart | ii. Relationship between two variables\nc. Pie chart | iii. Continuous frequency distribution\nd. Scatter diagram | iv. Share of a whole",
+   "options": [
+    "a-i, b-iii, c-ii, d-iv",
+    "a-iv, b-ii, c-iii, d-i",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-ii, b-iv, c-i, d-iii"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 149
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Graphical Representation of Data",
+   "question": "Consider the statements:\nI. A pie chart shows relative shares.\nII. A line chart suits time-series data.\nIII. A histogram suits nominal data.\nWhich are correct?",
+   "options": [
+    "I and II only",
+    "II and III only",
+    "I and III only",
+    "I, II and III"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 150
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Basic Calculations: Percentages, Ratios, Averages and Growth",
+   "question": "15 is what percentage of 60?",
+   "options": [
+    "25%",
+    "20%",
+    "30%",
+    "15%"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 151
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Basic Calculations: Percentages, Ratios, Averages and Growth",
+   "question": "The percentage of girls in Q82 is:",
+   "options": [
+    "30%",
+    "35%",
+    "40%",
+    "45%"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 152
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Basic Calculations: Percentages, Ratios, Averages and Growth",
+   "question": "A student scores 360 out of 450. The percentage is:",
+   "options": [
+    "75%",
+    "85%",
+    "80%",
+    "90%"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 153
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Basic Calculations: Percentages, Ratios, Averages and Growth",
+   "question": "A price rises from ₹200 to ₹250. The percentage increase is:",
+   "options": [
+    "20%",
+    "50%",
+    "30%",
+    "25%"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 154
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Basic Calculations: Percentages, Ratios, Averages and Growth",
+   "question": "A price falls from ₹250 to ₹200. The percentage decrease is:",
+   "options": [
+    "25%",
+    "15%",
+    "10%",
+    "20%"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 155
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Basic Calculations: Percentages, Ratios, Averages and Growth",
+   "question": "A population grows from 80 lakh to 92 lakh. The growth rate is:",
+   "options": [
+    "15%",
+    "12%",
+    "18%",
+    "20%"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 156
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Basic Calculations: Percentages, Ratios, Averages and Growth",
+   "question": "Sales rise from 400 units in 2022 to 500 units in 2023. The growth rate is:",
+   "options": [
+    "20%",
+    "25%",
+    "22.5%",
+    "30%"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 157
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Basic Calculations: Percentages, Ratios, Averages and Growth",
+   "question": "Literacy rises from 60% to 75%. This is:",
+   "options": [
+    "An increase of 15% only",
+    "An increase of 25 percentage points",
+    "An increase of 15 percentage points, or 15%",
+    "An increase of 15 percentage points, or 25%"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 158
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Basic Calculations: Percentages, Ratios, Averages and Growth",
+   "question": "Two successive increases of 10% each are equivalent to a single increase of:",
+   "options": [
+    "20%",
+    "21%",
+    "22%",
+    "10%"
+   ],
+   "answer": "B",
+   "explanation": "1.10 × 1.10 = 1.21, so the net increase is 21%.",
+   "id": 159
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Basic Calculations: Percentages, Ratios, Averages and Growth",
+   "question": "An increase of 20% followed by a decrease of 20% results in a net:",
+   "options": [
+    "No change",
+    "4% increase",
+    "4% decrease",
+    "2% decrease"
+   ],
+   "answer": "C",
+   "explanation": "1.20 × 0.80 = 0.96, so the net decrease is 4%.",
+   "id": 160
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Basic Calculations: Percentages, Ratios, Averages and Growth",
+   "question": "₹1000 grows at 10% per annum, compounded, for 2 years. The final amount is:",
+   "options": [
+    "₹1200",
+    "₹1210",
+    "₹1100",
+    "₹1220"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 161
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Basic Calculations: Percentages, Ratios, Averages and Growth",
+   "question": "Yearly growth rates are 10%, 20% and 30%. Their simple average is:",
+   "options": [
+    "15%",
+    "25%",
+    "30%",
+    "20%"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 162
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Basic Calculations: Percentages, Ratios, Averages and Growth",
+   "question": "If A is 20% more than B, then B is what percentage less than A?",
+   "options": [
+    "20%",
+    "16⅔%",
+    "15%",
+    "25%"
+   ],
+   "answer": "B",
+   "explanation": "If B = 100, A = 120. B is less than A by 20 ÷ 120 = 16⅔%.",
+   "id": 163
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Basic Calculations: Percentages, Ratios, Averages and Growth",
+   "question": "The ratio 12 : 18 in simplest form is:",
+   "options": [
+    "2 : 3",
+    "3 : 2",
+    "4 : 5",
+    "6 : 7"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 164
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Basic Calculations: Percentages, Ratios, Averages and Growth",
+   "question": "₹500 is divided in the ratio 2 : 3. The larger share is:",
+   "options": [
+    "₹200",
+    "₹250",
+    "₹350",
+    "₹300"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 165
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Basic Calculations: Percentages, Ratios, Averages and Growth",
+   "question": "The ratio of boys to girls is 3 : 2 and the total is 50 students. The number of girls is:",
+   "options": [
+    "15",
+    "20",
+    "25",
+    "30"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 166
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Basic Calculations: Percentages, Ratios, Averages and Growth",
+   "question": "The average of 10, 20, 30, 40 and 50 is:",
+   "options": [
+    "30",
+    "25",
+    "35",
+    "40"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 167
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Basic Calculations: Percentages, Ratios, Averages and Growth",
+   "question": "The average of five numbers is 24. If one number, 30, is removed, the average of the remaining four is:",
+   "options": [
+    "23",
+    "24",
+    "21.5",
+    "22.5"
+   ],
+   "answer": "D",
+   "explanation": "Total = 5 × 24 = 120. Remaining sum = 120 − 30 = 90. Average = 90 ÷ 4 = 22.5.",
+   "id": 168
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Basic Calculations: Percentages, Ratios, Averages and Growth",
+   "question": "A class of 40 students has an average of 60 marks. The total marks are:",
+   "options": [
+    "2000",
+    "2200",
+    "2400",
+    "2600"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 169
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Basic Calculations: Percentages, Ratios, Averages and Growth",
+   "question": "In a pie chart, 25% of the data corresponds to an angle of:",
+   "options": [
+    "45°",
+    "90°",
+    "25°",
+    "180°"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 170
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Basic Calculations: Percentages, Ratios, Averages and Growth",
+   "question": "In a pie chart, 40% of the data corresponds to an angle of:",
+   "options": [
+    "120°",
+    "130°",
+    "144°",
+    "150°"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 171
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Basic Calculations: Percentages, Ratios, Averages and Growth",
+   "question": "A sector of 54° in a pie chart represents what percentage?",
+   "options": [
+    "10%",
+    "12%",
+    "20%",
+    "15%"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 172
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Basic Calculations: Percentages, Ratios, Averages and Growth",
+   "question": "In a pie chart, an item has a value of 80 out of a total of 480. Its angle is:",
+   "options": [
+    "60°",
+    "45°",
+    "72°",
+    "90°"
+   ],
+   "answer": "A",
+   "explanation": "Angle = (80 ÷ 480) × 360 = 60°.",
+   "id": 173
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Basic Calculations: Percentages, Ratios, Averages and Growth",
+   "question": "A sector of 72° represents what percentage of the total?",
+   "options": [
+    "20%",
+    "15%",
+    "18%",
+    "25%"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 174
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets (Basic)",
+   "question": "Study the following data and answer the question.\nRice production (in lakh tonnes)\nYear | 2019 | 2020 | 2021 | 2022 | 2023\nProduction | 120 | 132 | 150 | 165 | 180\n\nThe percentage increase in production from 2019 to 2021 is:",
+   "options": [
+    "20%",
+    "30%",
+    "15%",
+    "25%"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 175
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets (Basic)",
+   "question": "Study the following data and answer the question.\nRice production (in lakh tonnes)\nYear | 2019 | 2020 | 2021 | 2022 | 2023\nProduction | 120 | 132 | 150 | 165 | 180\n\nIn which year was the percentage increase over the previous year the highest?",
+   "options": [
+    "2020",
+    "2022",
+    "2023",
+    "2021"
+   ],
+   "answer": "D",
+   "explanation": "Yearly increases are 10% (2020), 13.64% (2021), 10% (2022) and 9.09% (2023), so 2021 is highest.",
+   "id": 176
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets (Basic)",
+   "question": "Study the following data and answer the question.\nRice production (in lakh tonnes)\nYear | 2019 | 2020 | 2021 | 2022 | 2023\nProduction | 120 | 132 | 150 | 165 | 180\n\nThe percentage increase in production from 2020 to 2023 is approximately:",
+   "options": [
+    "30%",
+    "36.36%",
+    "33.33%",
+    "40%"
+   ],
+   "answer": "B",
+   "explanation": "(180 − 132) ÷ 132 = 36.36%.",
+   "id": 177
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets (Basic)",
+   "question": "Study the following data and answer the question.\nA pie chart shows a household's monthly expenditure of ₹36,000.\nItem | Food | Rent | Education | Transport | Savings\nShare | 30% | 25% | 15% | 10% | 20%\n\nExpenditure on Rent exceeds expenditure on Transport by what percentage of the Transport expenditure?",
+   "options": [
+    "150%",
+    "15%",
+    "50%",
+    "100%"
+   ],
+   "answer": "A",
+   "explanation": "(25 − 10) ÷ 10 = 150%.",
+   "id": 178
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets (Basic)",
+   "question": "Study the following data and answer the question.\nA line chart shows enrolment in a university (in thousands).\nYear | 2020 | 2021 | 2022 | 2023\nEnrolment | 50 | 60 | 54 | 72\n\nThe percentage increase in enrolment from 2020 to 2021 is:",
+   "options": [
+    "10%",
+    "12%",
+    "25%",
+    "20%"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 179
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets (Basic)",
+   "question": "Study the following data and answer the question.\nA line chart shows enrolment in a university (in thousands).\nYear | 2020 | 2021 | 2022 | 2023\nEnrolment | 50 | 60 | 54 | 72\n\nThe percentage decrease in enrolment from 2021 to 2022 is:",
+   "options": [
+    "10%",
+    "6%",
+    "12%",
+    "8%"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 180
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets (Basic)",
+   "question": "Study the following data and answer the question.\nA line chart shows enrolment in a university (in thousands).\nYear | 2020 | 2021 | 2022 | 2023\nEnrolment | 50 | 60 | 54 | 72\n\nThe percentage increase in enrolment from 2022 to 2023 is:",
+   "options": [
+    "25%",
+    "30%",
+    "33.33%",
+    "36%"
+   ],
+   "answer": "C",
+   "explanation": "(72 − 54) ÷ 54 = 33.33%.",
+   "id": 181
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets (Basic)",
+   "question": "Study the following data and answer the question.\nRice production (in lakh tonnes)\nYear | 2019 | 2020 | 2021 | 2022 | 2023\nProduction | 120 | 132 | 150 | 165 | 180\n\nThe average production over the five years (in lakh tonnes) is:",
+   "options": [
+    "147.4",
+    "149.4",
+    "148.0",
+    "150.0"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 182
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets (Basic)",
+   "question": "Study the following data and answer the question.\nA pie chart shows a household's monthly expenditure of ₹36,000.\nItem | Food | Rent | Education | Transport | Savings\nShare | 30% | 25% | 15% | 10% | 20%\n\nThe combined amount spent on Food and Transport is:",
+   "options": [
+    "₹12,600",
+    "₹13,500",
+    "₹14,400",
+    "₹15,000"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 183
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets (Basic)",
+   "question": "Study the following data and answer the question.\nA line chart shows enrolment in a university (in thousands).\nYear | 2020 | 2021 | 2022 | 2023\nEnrolment | 50 | 60 | 54 | 72\n\nThe average yearly enrolment (in thousands) is:",
+   "options": [
+    "55",
+    "59",
+    "57",
+    "60"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 184
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets (Basic)",
+   "question": "Study the following data and answer the question.\nA line chart shows enrolment in a university (in thousands).\nYear | 2020 | 2021 | 2022 | 2023\nEnrolment | 50 | 60 | 54 | 72\n\nThe total enrolment over the four years is:",
+   "options": [
+    "2,16,000",
+    "2,26,000",
+    "2,46,000",
+    "2,36,000"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 185
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets (Basic)",
+   "question": "Study the following data and answer the question.\nRice production (in lakh tonnes)\nYear | 2019 | 2020 | 2021 | 2022 | 2023\nProduction | 120 | 132 | 150 | 165 | 180\n\nThe ratio of production in 2019 to production in 2023 is:",
+   "options": [
+    "3 : 4",
+    "3 : 2",
+    "2 : 3",
+    "4 : 5"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 186
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets (Basic)",
+   "question": "Study the following data and answer the question.\nA pie chart shows a household's monthly expenditure of ₹36,000.\nItem | Food | Rent | Education | Transport | Savings\nShare | 30% | 25% | 15% | 10% | 20%\n\nThe ratio of expenditure on Food to Savings is:",
+   "options": [
+    "2 : 3",
+    "3 : 2",
+    "5 : 3",
+    "3 : 5"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 187
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets (Basic)",
+   "question": "Study the following data and answer the question.\nA pie chart shows a household's monthly expenditure of ₹36,000.\nItem | Food | Rent | Education | Transport | Savings\nShare | 30% | 25% | 15% | 10% | 20%\n\nThe central angle for Education is:",
+   "options": [
+    "54°",
+    "36°",
+    "45°",
+    "60°"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 188
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets (Basic)",
+   "question": "Study the following data and answer the question.\nA pie chart shows a household's monthly expenditure of ₹36,000.\nItem | Food | Rent | Education | Transport | Savings\nShare | 30% | 25% | 15% | 10% | 20%\n\nThe amount spent on Rent is:",
+   "options": [
+    "₹9,000",
+    "₹8,000",
+    "₹9,500",
+    "₹10,000"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 189
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nStudent enrolment (in thousands)\nUniversity | 2020 | 2021 | 2022 | 2023\nA | 40 | 45 | 50 | 60\nB | 30 | 36 | 42 | 48\nC | 20 | 25 | 30 | 35\n\nTotal enrolment in 2022 (in thousands) is:",
+   "options": [
+    "118",
+    "120",
+    "125",
+    "122"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 190
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nPie chart. A state's education budget is ₹2,400 crore.\nHead | Primary | Secondary | Higher | Skill | Others\nShare | 30% | 25% | 20% | 15% | 10%\n\nPrimary exceeds Skill by (₹ crore):",
+   "options": [
+    "360",
+    "240",
+    "300",
+    "420"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 191
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nBar graph. Research papers published (in hundreds)\nInstitute | 2021 | 2022 | 2023\nP | 20 | 25 | 30\nQ | 15 | 18 | 24\nR | 10 | 20 | 26\n\nTotal papers by P over three years (in hundreds):",
+   "options": [
+    "70",
+    "75",
+    "80",
+    "85"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 192
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nBeneficiaries of a scheme (in lakh)\nState | 2022 | 2023\nA | 40 | 52\nB | 50 | 55\nC | 30 | 45\nD | 20 | 24\n\nThe total increase in beneficiaries from 2022 to 2023 (in lakh) is:",
+   "options": [
+    "36",
+    "30",
+    "34",
+    "40"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 193
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nPie chart. A state's education budget is ₹2,400 crore.\nHead | Primary | Secondary | Higher | Skill | Others\nShare | 30% | 25% | 20% | 15% | 10%\n\nThe amount allotted to Secondary education (₹ crore) is:",
+   "options": [
+    "500",
+    "600",
+    "540",
+    "720"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 194
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nMixed table. Population and literacy in 2023\nTown | Population | Literacy rate\nX | 50,000 | 80%\nY | 80,000 | 75%\nZ | 60,000 | 70%\n\nThe number of literates in Y is:",
+   "options": [
+    "60,000",
+    "56,000",
+    "62,000",
+    "64,000"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 195
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nMixed table. Population and literacy in 2023\nTown | Population | Literacy rate\nX | 50,000 | 80%\nY | 80,000 | 75%\nZ | 60,000 | 70%\n\nThe number of illiterates in Z is:",
+   "options": [
+    "18,000",
+    "15,000",
+    "20,000",
+    "24,000"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 196
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nMixed table. Population and literacy in 2023\nTown | Population | Literacy rate\nX | 50,000 | 80%\nY | 80,000 | 75%\nZ | 60,000 | 70%\n\nThe total number of illiterates in X and Y together is:",
+   "options": [
+    "25,000",
+    "30,000",
+    "28,000",
+    "32,000"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 197
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nTwo pie charts. 1,200 students by faculty, and the percentage of women in each faculty\nFaculty | Arts | Science | Commerce | Law | Education\nShare of students | 30% | 25% | 20% | 15% | 10%\nWomen in faculty | 60% | 40% | 50% | 40% | 70%\n\nThe number of women in Arts is:",
+   "options": [
+    "200",
+    "216",
+    "220",
+    "240"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 198
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nTwo pie charts. 1,200 students by faculty, and the percentage of women in each faculty\nFaculty | Arts | Science | Commerce | Law | Education\nShare of students | 30% | 25% | 20% | 15% | 10%\nWomen in faculty | 60% | 40% | 50% | 40% | 70%\n\nThe total number of women in Science and Law together is:",
+   "options": [
+    "180",
+    "200",
+    "192",
+    "210"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 199
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nTwo pie charts. 1,200 students by faculty, and the percentage of women in each faculty\nFaculty | Arts | Science | Commerce | Law | Education\nShare of students | 30% | 25% | 20% | 15% | 10%\nWomen in faculty | 60% | 40% | 50% | 40% | 70%\n\nThe number of men in Education is:",
+   "options": [
+    "30",
+    "36",
+    "40",
+    "48"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 200
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nStudent enrolment (in thousands)\nUniversity | 2020 | 2021 | 2022 | 2023\nA | 40 | 45 | 50 | 60\nB | 30 | 36 | 42 | 48\nC | 20 | 25 | 30 | 35\n\nThe percentage increase in enrolment of A from 2020 to 2023 is:",
+   "options": [
+    "50%",
+    "40%",
+    "60%",
+    "33.33%"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 201
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nPie chart. A state's education budget is ₹2,400 crore.\nHead | Primary | Secondary | Higher | Skill | Others\nShare | 30% | 25% | 20% | 15% | 10%\n\nIf the Skill allocation is increased by 20%, the new amount (₹ crore) is:",
+   "options": [
+    "400",
+    "420",
+    "432",
+    "450"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 202
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nBar graph. Research papers published (in hundreds)\nInstitute | 2021 | 2022 | 2023\nP | 20 | 25 | 30\nQ | 15 | 18 | 24\nR | 10 | 20 | 26\n\nThe percentage increase in R's papers from 2021 to 2022 is:",
+   "options": [
+    "50%",
+    "100%",
+    "75%",
+    "150%"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 203
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nBeneficiaries of a scheme (in lakh)\nState | 2022 | 2023\nA | 40 | 52\nB | 50 | 55\nC | 30 | 45\nD | 20 | 24\n\nThe percentage increase in total beneficiaries is approximately:",
+   "options": [
+    "21%",
+    "26%",
+    "24%",
+    "30%"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 204
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nLine graph. Exports and imports (₹ thousand crore)\nYear | 2019 | 2020 | 2021 | 2022 | 2023\nExports | 30 | 28 | 36 | 45 | 50\nImports | 40 | 35 | 42 | 48 | 55\n\nThe percentage increase in exports from 2020 to 2021 is approximately:",
+   "options": [
+    "25%",
+    "26.5%",
+    "28.6%",
+    "30%"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 205
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nStudent enrolment (in thousands)\nUniversity | 2020 | 2021 | 2022 | 2023\nA | 40 | 45 | 50 | 60\nB | 30 | 36 | 42 | 48\nC | 20 | 25 | 30 | 35\n\nThe average annual enrolment of C over the four years (in thousands) is:",
+   "options": [
+    "25",
+    "26.5",
+    "28",
+    "27.5"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 206
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nBar graph. Research papers published (in hundreds)\nInstitute | 2021 | 2022 | 2023\nP | 20 | 25 | 30\nQ | 15 | 18 | 24\nR | 10 | 20 | 26\n\nThe average annual papers of Q (in hundreds) is:",
+   "options": [
+    "18",
+    "19",
+    "20",
+    "21"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 207
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nBeneficiaries of a scheme (in lakh)\nState | 2022 | 2023\nA | 40 | 52\nB | 50 | 55\nC | 30 | 45\nD | 20 | 24\n\nThe average number of beneficiaries per state in 2023 (in lakh) is:",
+   "options": [
+    "42",
+    "46",
+    "44",
+    "48"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 208
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nLine graph. Exports and imports (₹ thousand crore)\nYear | 2019 | 2020 | 2021 | 2022 | 2023\nExports | 30 | 28 | 36 | 45 | 50\nImports | 40 | 35 | 42 | 48 | 55\n\nThe average annual exports over the five years (₹ thousand crore) is:",
+   "options": [
+    "37.8",
+    "36.8",
+    "38.4",
+    "39.0"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 209
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nStudent enrolment (in thousands)\nUniversity | 2020 | 2021 | 2022 | 2023\nA | 40 | 45 | 50 | 60\nB | 30 | 36 | 42 | 48\nC | 20 | 25 | 30 | 35\n\nA's share in total enrolment in 2023 is approximately:",
+   "options": [
+    "38%",
+    "40%",
+    "45%",
+    "42%"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 210
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nBar graph. Research papers published (in hundreds)\nInstitute | 2021 | 2022 | 2023\nP | 20 | 25 | 30\nQ | 15 | 18 | 24\nR | 10 | 20 | 26\n\nP's share of the total papers in 2023 is:",
+   "options": [
+    "35%",
+    "40%",
+    "42.5%",
+    "37.5%"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 211
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nMixed table. Population and literacy in 2023\nTown | Population | Literacy rate\nX | 50,000 | 80%\nY | 80,000 | 75%\nZ | 60,000 | 70%\n\nThe combined literacy rate of the three towns is approximately:",
+   "options": [
+    "74.7%",
+    "73.5%",
+    "75.0%",
+    "76.0%"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 212
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nBeneficiaries of a scheme (in lakh)\nState | 2022 | 2023\nA | 40 | 52\nB | 50 | 55\nC | 30 | 45\nD | 20 | 24\n\nIn 2022, A and C together accounted for what percentage of the total?",
+   "options": [
+    "40%",
+    "50%",
+    "45%",
+    "55%"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 213
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nTwo pie charts. 1,200 students by faculty, and the percentage of women in each faculty\nFaculty | Arts | Science | Commerce | Law | Education\nShare of students | 30% | 25% | 20% | 15% | 10%\nWomen in faculty | 60% | 40% | 50% | 40% | 70%\n\nThe overall percentage of women among the 1,200 students is:",
+   "options": [
+    "48%",
+    "49%",
+    "51%",
+    "50%"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 214
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nHistogram. Marks of 100 students\nMarks | 0–10 | 10–20 | 20–30 | 30–40 | 40–50\nStudents | 5 | 15 | 25 | 35 | 20\n\nThe percentage of students scoring between 10 and 30 is:",
+   "options": [
+    "30%",
+    "35%",
+    "45%",
+    "40%"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 215
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nPie chart. A state's education budget is ₹2,400 crore.\nHead | Primary | Secondary | Higher | Skill | Others\nShare | 30% | 25% | 20% | 15% | 10%\n\nThe ratio of Higher to Skill allocation is:",
+   "options": [
+    "4 : 3",
+    "3 : 4",
+    "5 : 4",
+    "2 : 1"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 216
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nMixed table. Population and literacy in 2023\nTown | Population | Literacy rate\nX | 50,000 | 80%\nY | 80,000 | 75%\nZ | 60,000 | 70%\n\nThe ratio of literates in X to literates in Z is:",
+   "options": [
+    "21 : 20",
+    "4 : 5",
+    "5 : 6",
+    "20 : 21"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 217
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nLine graph. Exports and imports (₹ thousand crore)\nYear | 2019 | 2020 | 2021 | 2022 | 2023\nExports | 30 | 28 | 36 | 45 | 50\nImports | 40 | 35 | 42 | 48 | 55\n\nThe ratio of exports to imports in 2023 is:",
+   "options": [
+    "11 : 10",
+    "9 : 10",
+    "10 : 11",
+    "5 : 6"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 218
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nPie chart. A state's education budget is ₹2,400 crore.\nHead | Primary | Secondary | Higher | Skill | Others\nShare | 30% | 25% | 20% | 15% | 10%\n\nThe central angle for Higher education is:",
+   "options": [
+    "60°",
+    "75°",
+    "90°",
+    "72°"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 219
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nStudent enrolment (in thousands)\nUniversity | 2020 | 2021 | 2022 | 2023\nA | 40 | 45 | 50 | 60\nB | 30 | 36 | 42 | 48\nC | 20 | 25 | 30 | 35\n\nIn which year was the absolute increase in total enrolment over the previous year the highest?",
+   "options": [
+    "2021",
+    "2022",
+    "2021 and 2022 equally",
+    "2023"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 220
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nBar graph. Research papers published (in hundreds)\nInstitute | 2021 | 2022 | 2023\nP | 20 | 25 | 30\nQ | 15 | 18 | 24\nR | 10 | 20 | 26\n\nWhich institute published the most papers over the three years?",
+   "options": [
+    "Q",
+    "R",
+    "P",
+    "Q and R equally"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 221
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nBeneficiaries of a scheme (in lakh)\nState | 2022 | 2023\nA | 40 | 52\nB | 50 | 55\nC | 30 | 45\nD | 20 | 24\n\nWhich state recorded the highest percentage growth?",
+   "options": [
+    "C",
+    "A",
+    "B",
+    "D"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 222
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nTwo pie charts. 1,200 students by faculty, and the percentage of women in each faculty\nFaculty | Arts | Science | Commerce | Law | Education\nShare of students | 30% | 25% | 20% | 15% | 10%\nWomen in faculty | 60% | 40% | 50% | 40% | 70%\n\nWhich faculty has the largest number of women?",
+   "options": [
+    "Science",
+    "Commerce",
+    "Education",
+    "Arts"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 223
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nLine graph. Exports and imports (₹ thousand crore)\nYear | 2019 | 2020 | 2021 | 2022 | 2023\nExports | 30 | 28 | 36 | 45 | 50\nImports | 40 | 35 | 42 | 48 | 55\n\nIn which year was the trade deficit (imports minus exports) lowest?",
+   "options": [
+    "2020",
+    "2021",
+    "2022",
+    "2023"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 224
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nLine graph. Exports and imports (₹ thousand crore)\nYear | 2019 | 2020 | 2021 | 2022 | 2023\nExports | 30 | 28 | 36 | 45 | 50\nImports | 40 | 35 | 42 | 48 | 55\n\nIn how many years did imports exceed exports by more than 5?",
+   "options": [
+    "2",
+    "4",
+    "3",
+    "5"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 225
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nHistogram. Marks of 100 students\nMarks | 0–10 | 10–20 | 20–30 | 30–40 | 40–50\nStudents | 5 | 15 | 25 | 35 | 20\n\nThe modal class is:",
+   "options": [
+    "30–40",
+    "10–20",
+    "20–30",
+    "40–50"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 226
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nHistogram. Marks of 100 students\nMarks | 0–10 | 10–20 | 20–30 | 30–40 | 40–50\nStudents | 5 | 15 | 25 | 35 | 20\n\nThe number of students scoring less than 30 is:",
+   "options": [
+    "40",
+    "45",
+    "50",
+    "55"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 227
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nHistogram. Marks of 100 students\nMarks | 0–10 | 10–20 | 20–30 | 30–40 | 40–50\nStudents | 5 | 15 | 25 | 35 | 20\n\nThe number of students scoring 20 and above is:",
+   "options": [
+    "70",
+    "75",
+    "85",
+    "80"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 228
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data Interpretation Sets: Tables, Pie, Bar, Line and Histogram",
+   "question": "Study the following data and answer the question.\nHistogram. Marks of 100 students\nMarks | 0–10 | 10–20 | 20–30 | 30–40 | 40–50\nStudents | 5 | 15 | 25 | 35 | 20\n\nThe median class is:",
+   "options": [
+    "20–30",
+    "40–50",
+    "30–40",
+    "10–20"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 229
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Drawing Conclusions From Data",
+   "question": "Literacy rises from 65% to 78%. The correct statement is:",
+   "options": [
+    "It rose by 13%",
+    "It rose by 20 percentage points",
+    "It rose by 13 percentage points",
+    "It decreased"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 230
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Drawing Conclusions From Data",
+   "question": "State A's population grows from 2 million to 4 million. State B's grows from 20 million to 24 million. Which is correct?",
+   "options": [
+    "A has the higher absolute and percentage increase",
+    "Both have equal percentage increase",
+    "B has the higher absolute and percentage increase",
+    "B has the higher absolute increase, A has the higher percentage increase"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 231
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Drawing Conclusions From Data",
+   "question": "A quantity of 100 rises by 50% and then falls by 50%. The final value is:",
+   "options": [
+    "75",
+    "100",
+    "50",
+    "125"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 232
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Drawing Conclusions From Data",
+   "question": "A price index is 100 in the base year and 125 this year. Prices have risen by:",
+   "options": [
+    "12.5%",
+    "125%",
+    "20%",
+    "25%"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 233
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Drawing Conclusions From Data",
+   "question": "Ice-cream sales and drowning incidents rise together every summer. The valid conclusion is:",
+   "options": [
+    "Ice cream causes drowning",
+    "Both may be driven by a third factor, such as hot weather",
+    "Drowning increases ice-cream sales",
+    "They cannot be related"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 234
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Drawing Conclusions From Data",
+   "question": "For highly skewed income data, the better measure of central tendency is the:",
+   "options": [
+    "Mean",
+    "Median",
+    "Range",
+    "Standard deviation"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 235
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Drawing Conclusions From Data",
+   "question": "A numerical value computed from a sample is called a:",
+   "options": [
+    "Statistic",
+    "Parameter",
+    "Frame",
+    "Census value"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 236
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Drawing Conclusions From Data",
+   "question": "Starting the vertical axis of a bar chart far above zero tends to:",
+   "options": [
+    "Reduce the apparent differences",
+    "Make no difference",
+    "Exaggerate the apparent differences",
+    "Change the data"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 237
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Drawing Conclusions From Data",
+   "question": "To show how the composition of expenditure changed over several years, the most suitable chart is a:",
+   "options": [
+    "Single pie chart",
+    "Ogive",
+    "Component (stacked) bar chart",
+    "Scatter diagram"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 238
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Drawing Conclusions From Data",
+   "question": "In a pie chart, two sectors account for 30% and 45%. The central angle of the remaining sector is:",
+   "options": [
+    "72°",
+    "90°",
+    "108°",
+    "120°"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 239
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "Which is an example of Government-to-Citizen (G2C) service?",
+   "options": [
+    "Passport Seva portal",
+    "Procurement through GeM",
+    "Inter-department data exchange",
+    "Payroll for staff"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 240
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "Exchange of data between two government departments is classified as:",
+   "options": [
+    "G2G",
+    "G2C",
+    "G2B",
+    "G2E"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 241
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "An online payroll and leave system for government staff is an example of:",
+   "options": [
+    "G2G",
+    "G2C",
+    "G2E",
+    "G2B"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 242
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "Match List I with List II.\nList I | List II\na. G2C | i. Online payroll for staff\nb. G2B | ii. Passport application\nc. G2G | iii. Inter-department data exchange\nd. G2E | iv. e-Procurement for suppliers",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-ii, b-iv, c-iii, d-i"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 243
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "The National e-Governance Plan (NeGP) was approved in:",
+   "options": [
+    "2006",
+    "1996",
+    "2000",
+    "2015"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 244
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "The Digital India programme is built on how many pillars?",
+   "options": [
+    "9",
+    "7",
+    "11",
+    "12"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 245
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "The National Informatics Centre (NIC) functions under:",
+   "options": [
+    "Ministry of Home Affairs",
+    "MeitY",
+    "Ministry of Finance",
+    "MoSPI"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 246
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "Common Service Centres (CSCs) are:",
+   "options": [
+    "Access points for delivering digital services in rural areas",
+    "Police stations",
+    "Banks only",
+    "Courts"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 247
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "The National Data Sharing and Accessibility Policy (NDSAP) aims to:",
+   "options": [
+    "Restrict access to government data",
+    "Sell data exclusively to private firms",
+    "Promote sharing and use of non-sensitive government data",
+    "Stop publication of datasets"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 248
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "data.gov.in is the:",
+   "options": [
+    "Tax filing portal",
+    "UPI portal",
+    "Open Government Data (OGD) Platform India",
+    "Passport portal"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 249
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "Consider the statements:\nI. Open data is freely available for use and redistribution.\nII. Open data should preferably be machine-readable.\nIII. Open data always includes personal and sensitive information.\nWhich are correct?",
+   "options": [
+    "I and II only",
+    "II and III only",
+    "I and III only",
+    "I, II and III"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 250
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "Match List I with List II.\nList I | List II\na. NDSAP | i. Legal recognition of electronic records\nb. IT Act, 2000 | ii. Policy for sharing government data\nc. RTI Act, 2005 | iii. Right to access public information\nd. DPDP Act, 2023 | iv. Protection of digital personal data",
+   "options": [
+    "a-i, b-ii, c-iii, d-iv",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-ii, b-i, c-iii, d-iv"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 251
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "Assertion (A): Open data promotes transparency and accountability. Reason (R): Public access lets citizens, researchers and the media scrutinise government performance.",
+   "options": [
+    "Both true and R explains A",
+    "Both true but R does not explain A",
+    "A true, R false",
+    "A false, R true"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 252
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "Assertion (A): Datasets with personal identifiers should be released on open data portals without anonymisation. Reason (R): Open data policies such as NDSAP apply to non-sensitive data.",
+   "options": [
+    "Both true and R explains A",
+    "Both true but R does not explain A",
+    "A true, R false",
+    "A false, R true"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 253
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "DigiLocker is:",
+   "options": [
+    "An online bank",
+    "A passport service",
+    "A voting system",
+    "A cloud platform to store and share authentic digital documents"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 254
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "The Unified Payments Interface (UPI) was developed by:",
+   "options": [
+    "RBI",
+    "NPCI",
+    "SEBI",
+    "NABARD"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 255
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "\"JAM\" in the context of governance stands for:",
+   "options": [
+    "Jobs, Agriculture, Manufacturing",
+    "Justice, Administration, Management",
+    "Jan Dhan, Aadhaar, Mobile",
+    "Jan Dhan, Atal Pension, Mudra"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 256
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "The main objective of Direct Benefit Transfer (DBT) is to:",
+   "options": [
+    "Increase paperwork",
+    "Raise prices",
+    "Transfer benefits directly to beneficiaries' bank accounts and reduce leakages",
+    "Delay payments"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 257
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "An Aadhaar number has how many digits?",
+   "options": [
+    "10",
+    "12",
+    "16",
+    "14"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 258
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "Aadhaar numbers are issued by:",
+   "options": [
+    "RBI",
+    "NIC",
+    "Election Commission",
+    "UIDAI"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 259
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "Match List I with List II.\nList I | List II\na. DigiLocker | i. Document storage\nb. UMANG | ii. Single mobile platform for many government services\nc. MyGov | iii. Citizen engagement platform\nd. e-NAM | iv. Online agricultural trading platform",
+   "options": [
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 260
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "The Right to Information Act was enacted in:",
+   "options": [
+    "2001",
+    "2013",
+    "2010",
+    "2005"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 261
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "The Information Technology Act, 2000 gives legal recognition to:",
+   "options": [
+    "Only paper records",
+    "Only passports",
+    "Electronic records and digital signatures",
+    "Only Aadhaar"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 262
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "Under the Digital Personal Data Protection Act, 2023, the individual to whom the data relates is the:",
+   "options": [
+    "Data Fiduciary",
+    "Data Processor",
+    "Data Principal",
+    "Data Auditor"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 263
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "Under the same Act, the entity that decides the purpose and means of processing personal data is the:",
+   "options": [
+    "Data Principal",
+    "Data Protection Board",
+    "Data Subject",
+    "Data Fiduciary"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 264
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "The right to privacy was declared a fundamental right in:",
+   "options": [
+    "Kesavananda Bharati case",
+    "Maneka Gandhi case",
+    "A.K. Gopalan case",
+    "K.S. Puttaswamy v. Union of India"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 265
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "CERT-In deals with:",
+   "options": [
+    "Cyber security incidents",
+    "Tax collection",
+    "Census operations",
+    "Elections"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 266
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "Anonymisation of data means:",
+   "options": [
+    "Only encrypting data",
+    "Removing personal identifiers so individuals cannot be identified",
+    "Adding names to records",
+    "Publishing addresses"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 267
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "The three Vs of big data are:",
+   "options": [
+    "Value, Verification, Validity",
+    "Vision, Voice, Visuals",
+    "Volume, Velocity, Variety",
+    "Vector, Volume, Vote"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 268
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "Data-driven decision-making means:",
+   "options": [
+    "Relying on intuition alone",
+    "Following precedent only",
+    "Following political preference",
+    "Basing decisions on analysis of data and evidence"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 269
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "Arrange the steps of a data-based policy cycle in order:\nI. Collect and analyse relevant data\nII. Identify the policy problem\nIII. Implement the policy\nIV. Monitor and evaluate outcomes",
+   "options": [
+    "II, I, III, IV",
+    "I, II, III, IV",
+    "II, III, I, IV",
+    "I, III, II, IV"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 270
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "Which is an example of data-driven governance?",
+   "options": [
+    "Deciding by rumour",
+    "Allocating resources using dashboards of real-time indicators",
+    "Ignoring statistics",
+    "Making arbitrary transfers"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 271
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "Predictive analytics in governance means:",
+   "options": [
+    "Using historical data to forecast likely future outcomes",
+    "Printing reports",
+    "Deleting old data",
+    "Counting only the present"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 272
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "A major concern in data-driven governance is:",
+   "options": [
+    "Reduced paper use",
+    "Risks to data privacy, security and algorithmic bias",
+    "Faster services",
+    "Lower costs"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 273
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "The Aspirational Districts Programme ranks districts using real-time data across how many broad themes?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 274
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "The SDG India Index is published by:",
+   "options": [
+    "RBI",
+    "UGC",
+    "NSO",
+    "NITI Aayog"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 275
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "PM Gati Shakti is:",
+   "options": [
+    "A cricket league",
+    "A health insurance scheme",
+    "A GIS-based platform for integrated infrastructure planning",
+    "A census exercise"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 276
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "The geoportal Bhuvan is associated with:",
+   "options": [
+    "ISRO",
+    "DRDO",
+    "NIC",
+    "BARC"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 277
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "Assertion (A): The digital divide can limit the benefits of e-governance. Reason (R): Citizens do not have equal access to devices, connectivity and digital literacy.",
+   "options": [
+    "Both true and R explains A",
+    "Both true but R does not explain A",
+    "A true, R false",
+    "A false, R true"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 278
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "Consider the statements:\nI. E-governance can reduce corruption by increasing transparency.\nII. E-governance removes the need for any physical service delivery in India.\nIII. E-governance can reduce time and cost for citizens.\nWhich are correct?",
+   "options": [
+    "I and II only",
+    "I and III only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 279
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "Data governance involves:",
+   "options": [
+    "Only hardware purchase",
+    "Only data deletion",
+    "Only printing",
+    "Policies and standards for data quality, security, privacy and availability"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 280
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "Which is NOT a dimension of data quality?",
+   "options": [
+    "Accuracy",
+    "Timeliness",
+    "Completeness",
+    "Colour"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 281
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "Metadata is:",
+   "options": [
+    "Very large data",
+    "Data about data",
+    "Deleted data",
+    "Encrypted data"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 282
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "Interoperability means:",
+   "options": [
+    "Speed of the internet",
+    "Deletion of data",
+    "The ability of different systems to exchange and use data",
+    "Cooling of servers"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 283
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Data and Governance",
+   "question": "Raw facts that are processed to become meaningful for a user are called:",
+   "options": [
+    "Metadata",
+    "Information",
+    "Noise",
+    "Code"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 284
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nFood grain production (thousand tonnes)\nState | 2019 | 2020 | 2021 | 2022 | 2023\nP | 120 | 150 | 135 | 180 | 210\nQ | 200 | 220 | 240 | 210 | 250\nR | 80 | 100 | 120 | 150 | 180\nS | 100 | 90 | 105 | 120 | 138\n\nTotal production of all four states in 2021 (thousand tonnes) is:",
+   "options": [
+    "580",
+    "620",
+    "640",
+    "600"
+   ],
+   "answer": "D",
+   "explanation": "135 + 240 + 120 + 105 = 600.",
+   "id": 285
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nRevenue and expenditure of a company (₹ crore)\nYear | Revenue | Expenditure\n2018 | 400 | 320\n2019 | 450 | 360\n2020 | 500 | 450\n2021 | 560 | 448\n2022 | 600 | 540\n2023 | 720 | 600\nProfit = Revenue − Expenditure. Profit % is calculated on expenditure.\n\nThe profit in 2021 (₹ crore) is:",
+   "options": [
+    "108",
+    "100",
+    "120",
+    "112"
+   ],
+   "answer": "D",
+   "explanation": "560 − 448 = 112.",
+   "id": 286
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nRevenue and expenditure of a company (₹ crore)\nYear | Revenue | Expenditure\n2018 | 400 | 320\n2019 | 450 | 360\n2020 | 500 | 450\n2021 | 560 | 448\n2022 | 600 | 540\n2023 | 720 | 600\nProfit = Revenue − Expenditure. Profit % is calculated on expenditure.\n\nThe total profit over the six years (₹ crore) is:",
+   "options": [
+    "492",
+    "512",
+    "502",
+    "522"
+   ],
+   "answer": "B",
+   "explanation": "Yearly profits are 80, 90, 50, 112, 60 and 120. 80 + 90 + 50 + 112 + 60 + 120 = 512.",
+   "id": 287
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nMonthly sales (units)\nProduct | Jan | Feb | Mar | Apr | May | Jun\nX | 200 | 240 | 180 | 300 | 270 | 330\nY | 150 | 160 | 200 | 200 | 240 | 250\nZ | 100 | 120 | 150 | 140 | 160 | 210\n\nThe total sales of X over six months are:",
+   "options": [
+    "1480",
+    "1520",
+    "1500",
+    "1540"
+   ],
+   "answer": "B",
+   "explanation": "200 + 240 + 180 + 300 + 270 + 330 = 1520.",
+   "id": 288
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nMonthly sales (units)\nProduct | Jan | Feb | Mar | Apr | May | Jun\nX | 200 | 240 | 180 | 300 | 270 | 330\nY | 150 | 160 | 200 | 200 | 240 | 250\nZ | 100 | 120 | 150 | 140 | 160 | 210\n\nThe total sales of X exceed the total sales of Z over six months by:",
+   "options": [
+    "600",
+    "660",
+    "680",
+    "640"
+   ],
+   "answer": "D",
+   "explanation": "Z total = 100 + 120 + 150 + 140 + 160 + 210 = 880. 1520 − 880 = 640.",
+   "id": 289
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nStudents in five courses\nCourse | Total students | Girls (%) | Pass (%)\nBA | 800 | 60 | 75\nBSc | 600 | 50 | 80\nBCom | 1000 | 40 | 70\nBEd | 400 | 75 | 90\nLLB | 200 | 30 | 60\n\nThe number of girls in BA is:",
+   "options": [
+    "420",
+    "480",
+    "440",
+    "460"
+   ],
+   "answer": "B",
+   "explanation": "60% of 800 = 480.",
+   "id": 290
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nStudents in five courses\nCourse | Total students | Girls (%) | Pass (%)\nBA | 800 | 60 | 75\nBSc | 600 | 50 | 80\nBCom | 1000 | 40 | 70\nBEd | 400 | 75 | 90\nLLB | 200 | 30 | 60\n\nThe total number of boys in all five courses is:",
+   "options": [
+    "1460",
+    "1420",
+    "1500",
+    "1540"
+   ],
+   "answer": "A",
+   "explanation": "Boys = total × (100 − girls %) ÷ 100.\nBA: 800 × 40% = 320\nBSc: 600 × 50% = 300\nBCom: 1000 × 60% = 600\nBEd: 400 × 25% = 100\nLLB: 200 × 70% = 140\nSum = 320 + 300 + 600 + 100 + 140 = 1460.",
+   "id": 291
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nStudents in five courses\nCourse | Total students | Girls (%) | Pass (%)\nBA | 800 | 60 | 75\nBSc | 600 | 50 | 80\nBCom | 1000 | 40 | 70\nBEd | 400 | 75 | 90\nLLB | 200 | 30 | 60\n\nThe number of students who passed in BCom is:",
+   "options": [
+    "650",
+    "680",
+    "700",
+    "720"
+   ],
+   "answer": "C",
+   "explanation": "70% of 1000 = 700.",
+   "id": 292
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nFive districts\nDistrict | Population (lakh) | Literacy (%) | Urban (%)\nA | 10 | 70 | 40\nB | 15 | 80 | 60\nC | 20 | 65 | 25\nD | 5 | 90 | 80\nE | 25 | 72 | 32\n\nThe number of literates in B (lakh) is:",
+   "options": [
+    "10.5",
+    "12",
+    "11",
+    "13.5"
+   ],
+   "answer": "B",
+   "explanation": "80% of 15 = 12 lakh.",
+   "id": 293
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nFive districts\nDistrict | Population (lakh) | Literacy (%) | Urban (%)\nA | 10 | 70 | 40\nB | 15 | 80 | 60\nC | 20 | 65 | 25\nD | 5 | 90 | 80\nE | 25 | 72 | 32\n\nThe total rural population of the five districts (lakh) is:",
+   "options": [
+    "45",
+    "30",
+    "40",
+    "50"
+   ],
+   "answer": "A",
+   "explanation": "Total urban = 4 + 9 + 5 + 4 + 8 = 30 lakh. Rural = 75 − 30 = 45 lakh.",
+   "id": 294
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nFive districts\nDistrict | Population (lakh) | Literacy (%) | Urban (%)\nA | 10 | 70 | 40\nB | 15 | 80 | 60\nC | 20 | 65 | 25\nD | 5 | 90 | 80\nE | 25 | 72 | 32\n\nThe total number of illiterates in C and E together (lakh) is:",
+   "options": [
+    "14",
+    "13",
+    "15",
+    "12"
+   ],
+   "answer": "A",
+   "explanation": "Illiterates in C = 35% of 20 = 7. Illiterates in E = 28% of 25 = 7. Total = 14 lakh.",
+   "id": 295
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nExpenditure pattern of two companies\nItem | Company A (%) | Company B (%)\nSalary | 30 | 25\nRaw material | 35 | 40\nRent | 10 | 15\nAdvertising | 15 | 12\nMiscellaneous | 10 | 8\nTotal expenditure: Company A = ₹40 lakh, Company B = ₹60 lakh.\n\nThe amount spent by A on salary (₹ lakh) is:",
+   "options": [
+    "10",
+    "14",
+    "16",
+    "12"
+   ],
+   "answer": "D",
+   "explanation": "30% of 40 = ₹12 lakh.",
+   "id": 296
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nExpenditure pattern of two companies\nItem | Company A (%) | Company B (%)\nSalary | 30 | 25\nRaw material | 35 | 40\nRent | 10 | 15\nAdvertising | 15 | 12\nMiscellaneous | 10 | 8\nTotal expenditure: Company A = ₹40 lakh, Company B = ₹60 lakh.\n\nThe total spent by both companies on advertising (₹ lakh) is:",
+   "options": [
+    "12.6",
+    "13.8",
+    "14.2",
+    "13.2"
+   ],
+   "answer": "D",
+   "explanation": "A: 15% of 40 = 6. B: 12% of 60 = 7.2. Total = ₹13.2 lakh.",
+   "id": 297
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nExpenditure pattern of two companies\nItem | Company A (%) | Company B (%)\nSalary | 30 | 25\nRaw material | 35 | 40\nRent | 10 | 15\nAdvertising | 15 | 12\nMiscellaneous | 10 | 8\nTotal expenditure: Company A = ₹40 lakh, Company B = ₹60 lakh.\n\nB's combined spending on salary and miscellaneous exceeds A's by (₹ lakh):",
+   "options": [
+    "3.0",
+    "3.8",
+    "4.2",
+    "4.8"
+   ],
+   "answer": "B",
+   "explanation": "A: (30% + 10%) of 40 = 16. B: (25% + 8%) of 60 = 19.8. Difference = 19.8 − 16 = ₹3.8 lakh.",
+   "id": 298
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nStaff of an organisation\nDepartment | Employees | Average monthly salary (₹)\nHR | 20 | 40,000\nFinance | 30 | 50,000\nIT | 50 | 60,000\nMarketing | 40 | 45,000\nOperations | 60 | 35,000\n\nThe monthly salary bill of IT (₹ lakh) is:",
+   "options": [
+    "30",
+    "28",
+    "32",
+    "36"
+   ],
+   "answer": "A",
+   "explanation": "50 × 60,000 = 30,00,000 = ₹30 lakh.",
+   "id": 299
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nStaff of an organisation\nDepartment | Employees | Average monthly salary (₹)\nHR | 20 | 40,000\nFinance | 30 | 50,000\nIT | 50 | 60,000\nMarketing | 40 | 45,000\nOperations | 60 | 35,000\n\nThe Marketing salary bill exceeds the Finance salary bill by:",
+   "options": [
+    "₹2.5 lakh",
+    "₹4 lakh",
+    "₹3 lakh",
+    "₹5 lakh"
+   ],
+   "answer": "C",
+   "explanation": "Marketing = 40 × 45,000 = 18 lakh. Finance = 30 × 50,000 = 15 lakh. Difference = ₹3 lakh.",
+   "id": 300
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nFood grain production (thousand tonnes)\nState | 2019 | 2020 | 2021 | 2022 | 2023\nP | 120 | 150 | 135 | 180 | 210\nQ | 200 | 220 | 240 | 210 | 250\nR | 80 | 100 | 120 | 150 | 180\nS | 100 | 90 | 105 | 120 | 138\n\nThe percentage increase in R's production from 2019 to 2023 is:",
+   "options": [
+    "125%",
+    "100%",
+    "112.5%",
+    "150%"
+   ],
+   "answer": "A",
+   "explanation": "(180 − 80) ÷ 80 × 100 = 100 ÷ 80 × 100 = 125%.",
+   "id": 301
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nRevenue and expenditure of a company (₹ crore)\nYear | Revenue | Expenditure\n2018 | 400 | 320\n2019 | 450 | 360\n2020 | 500 | 450\n2021 | 560 | 448\n2022 | 600 | 540\n2023 | 720 | 600\nProfit = Revenue − Expenditure. Profit % is calculated on expenditure.\n\nThe percentage increase in revenue from 2018 to 2023 is:",
+   "options": [
+    "70%",
+    "75%",
+    "85%",
+    "80%"
+   ],
+   "answer": "D",
+   "explanation": "(720 − 400) ÷ 400 × 100 = 320 ÷ 400 × 100 = 80%.",
+   "id": 302
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nBudget of a state (₹ crore)\nSector | 2022 | 2023\nEducation | 1200 | 1500\nHealth | 800 | 1120\nAgriculture | 1000 | 1100\nInfrastructure | 1500 | 1800\nWelfare | 500 | 580\n\nThe percentage increase in the total budget from 2022 to 2023 is:",
+   "options": [
+    "20%",
+    "21%",
+    "25%",
+    "22%"
+   ],
+   "answer": "D",
+   "explanation": "2022 total = 1200 + 800 + 1000 + 1500 + 500 = 5000.\n2023 total = 1500 + 1120 + 1100 + 1800 + 580 = 6100.\nIncrease = 1100 ÷ 5000 × 100 = 22%.",
+   "id": 303
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nExports by commodity (₹ thousand crore)\nCommodity | 2021 | 2022 | 2023\nTextiles | 40 | 50 | 60\nGems | 30 | 45 | 54\nEngineering | 80 | 100 | 120\nChemicals | 50 | 55 | 66\nAgriculture | 60 | 66 | 72\n\nThe percentage growth in Engineering exports from 2021 to 2023 is:",
+   "options": [
+    "50%",
+    "40%",
+    "45%",
+    "60%"
+   ],
+   "answer": "A",
+   "explanation": "(120 − 80) ÷ 80 × 100 = 50%.",
+   "id": 304
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nExports by commodity (₹ thousand crore)\nCommodity | 2021 | 2022 | 2023\nTextiles | 40 | 50 | 60\nGems | 30 | 45 | 54\nEngineering | 80 | 100 | 120\nChemicals | 50 | 55 | 66\nAgriculture | 60 | 66 | 72\n\nThe percentage growth in Gems exports from 2022 to 2023 is:",
+   "options": [
+    "18%",
+    "22%",
+    "20%",
+    "25%"
+   ],
+   "answer": "C",
+   "explanation": "(54 − 45) ÷ 45 × 100 = 9 ÷ 45 × 100 = 20%.",
+   "id": 305
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nStaff of an organisation\nDepartment | Employees | Average monthly salary (₹)\nHR | 20 | 40,000\nFinance | 30 | 50,000\nIT | 50 | 60,000\nMarketing | 40 | 45,000\nOperations | 60 | 35,000\n\nIf HR salaries rise by 10% and Operations salaries by 20%, the new total monthly salary bill (₹ lakh) is:",
+   "options": [
+    "95",
+    "97",
+    "96",
+    "98"
+   ],
+   "answer": "B",
+   "explanation": "HR increase = 10% of 8 lakh = 0.8 lakh.\nOperations increase = 20% of 21 lakh = 4.2 lakh.\nTotal increase = 5 lakh.\nNew bill = 92 + 5 = ₹97 lakh.",
+   "id": 306
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nRevenue and expenditure of a company (₹ crore)\nYear | Revenue | Expenditure\n2018 | 400 | 320\n2019 | 450 | 360\n2020 | 500 | 450\n2021 | 560 | 448\n2022 | 600 | 540\n2023 | 720 | 600\nProfit = Revenue − Expenditure. Profit % is calculated on expenditure.\n\nThe profit percentage in 2023 is:",
+   "options": [
+    "20%",
+    "15%",
+    "18%",
+    "25%"
+   ],
+   "answer": "A",
+   "explanation": "Profit = 720 − 600 = 120. 120 ÷ 600 × 100 = 20%.",
+   "id": 307
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nRevenue and expenditure of a company (₹ crore)\nYear | Revenue | Expenditure\n2018 | 400 | 320\n2019 | 450 | 360\n2020 | 500 | 450\n2021 | 560 | 448\n2022 | 600 | 540\n2023 | 720 | 600\nProfit = Revenue − Expenditure. Profit % is calculated on expenditure.\n\nIn how many years was the profit percentage exactly 25%?",
+   "options": [
+    "2",
+    "4",
+    "3",
+    "5"
+   ],
+   "answer": "C",
+   "explanation": "2018: 80 ÷ 320 = 25% ✓\n2019: 90 ÷ 360 = 25% ✓\n2020: 50 ÷ 450 = 11.1%\n2021: 112 ÷ 448 = 25% ✓\n2022: 60 ÷ 540 = 11.1%\n2023: 20%\nThat makes 3 years.",
+   "id": 308
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nFood grain production (thousand tonnes)\nState | 2019 | 2020 | 2021 | 2022 | 2023\nP | 120 | 150 | 135 | 180 | 210\nQ | 200 | 220 | 240 | 210 | 250\nR | 80 | 100 | 120 | 150 | 180\nS | 100 | 90 | 105 | 120 | 138\n\nThe average annual production of Q over the five years (thousand tonnes) is:",
+   "options": [
+    "216",
+    "224",
+    "220",
+    "228"
+   ],
+   "answer": "B",
+   "explanation": "200 + 220 + 240 + 210 + 250 = 1120. 1120 ÷ 5 = 224.",
+   "id": 309
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nMonthly sales (units)\nProduct | Jan | Feb | Mar | Apr | May | Jun\nX | 200 | 240 | 180 | 300 | 270 | 330\nY | 150 | 160 | 200 | 200 | 240 | 250\nZ | 100 | 120 | 150 | 140 | 160 | 210\n\nThe average monthly sales of Y are:",
+   "options": [
+    "190",
+    "195",
+    "200",
+    "205"
+   ],
+   "answer": "C",
+   "explanation": "150 + 160 + 200 + 200 + 240 + 250 = 1200. 1200 ÷ 6 = 200.",
+   "id": 310
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nExports by commodity (₹ thousand crore)\nCommodity | 2021 | 2022 | 2023\nTextiles | 40 | 50 | 60\nGems | 30 | 45 | 54\nEngineering | 80 | 100 | 120\nChemicals | 50 | 55 | 66\nAgriculture | 60 | 66 | 72\n\nThe average annual exports of Engineering over the three years (₹ thousand crore) are:",
+   "options": [
+    "100",
+    "90",
+    "95",
+    "105"
+   ],
+   "answer": "A",
+   "explanation": "(80 + 100 + 120) ÷ 3 = 300 ÷ 3 = 100.",
+   "id": 311
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nStudents in five courses\nCourse | Total students | Girls (%) | Pass (%)\nBA | 800 | 60 | 75\nBSc | 600 | 50 | 80\nBCom | 1000 | 40 | 70\nBEd | 400 | 75 | 90\nLLB | 200 | 30 | 60\n\nThe overall pass percentage of all students is approximately:",
+   "options": [
+    "72.3%",
+    "74%",
+    "75.3%",
+    "77%"
+   ],
+   "answer": "C",
+   "explanation": "Passed students are 600 (BA), 480 (BSc), 700 (BCom), 360 (BEd) and 120 (LLB), a total of 2260. Total students = 3000. 2260 ÷ 3000 × 100 = 75.3%.",
+   "id": 312
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nFive districts\nDistrict | Population (lakh) | Literacy (%) | Urban (%)\nA | 10 | 70 | 40\nB | 15 | 80 | 60\nC | 20 | 65 | 25\nD | 5 | 90 | 80\nE | 25 | 72 | 32\n\nThe overall literacy rate of the five districts is approximately:",
+   "options": [
+    "70.5%",
+    "72.7%",
+    "71.2%",
+    "73.4%"
+   ],
+   "answer": "B",
+   "explanation": "Literates are A 7, B 12, C 13, D 4.5 and E 18, a total of 54.5 lakh. Total population = 75 lakh. 54.5 ÷ 75 × 100 = 72.7%.",
+   "id": 313
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nStaff of an organisation\nDepartment | Employees | Average monthly salary (₹)\nHR | 20 | 40,000\nFinance | 30 | 50,000\nIT | 50 | 60,000\nMarketing | 40 | 45,000\nOperations | 60 | 35,000\n\nThe average monthly salary of all employees is:",
+   "options": [
+    "₹44,000",
+    "₹45,000",
+    "₹47,000",
+    "₹46,000"
+   ],
+   "answer": "D",
+   "explanation": "Salary bills are HR 8 lakh, Finance 15 lakh, IT 30 lakh, Marketing 18 lakh and Operations 21 lakh. Total = 92 lakh = 92,00,000. Total employees = 200. 92,00,000 ÷ 200 = ₹46,000.",
+   "id": 314
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nFood grain production (thousand tonnes)\nState | 2019 | 2020 | 2021 | 2022 | 2023\nP | 120 | 150 | 135 | 180 | 210\nQ | 200 | 220 | 240 | 210 | 250\nR | 80 | 100 | 120 | 150 | 180\nS | 100 | 90 | 105 | 120 | 138\n\nP's share in the total production of 2023 is approximately:",
+   "options": [
+    "27%",
+    "25%",
+    "29%",
+    "31%"
+   ],
+   "answer": "A",
+   "explanation": "2023 total = 210 + 250 + 180 + 138 = 778. 210 ÷ 778 × 100 = 26.99%, so about 27%.",
+   "id": 315
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nBudget of a state (₹ crore)\nSector | 2022 | 2023\nEducation | 1200 | 1500\nHealth | 800 | 1120\nAgriculture | 1000 | 1100\nInfrastructure | 1500 | 1800\nWelfare | 500 | 580\n\nThe share of Education in the 2022 budget is:",
+   "options": [
+    "24%",
+    "22%",
+    "20%",
+    "26%"
+   ],
+   "answer": "A",
+   "explanation": "1200 ÷ 5000 × 100 = 24%.",
+   "id": 316
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nMonthly sales (units)\nProduct | Jan | Feb | Mar | Apr | May | Jun\nX | 200 | 240 | 180 | 300 | 270 | 330\nY | 150 | 160 | 200 | 200 | 240 | 250\nZ | 100 | 120 | 150 | 140 | 160 | 210\n\nZ's share in the total sales of June is approximately:",
+   "options": [
+    "25.6%",
+    "27.6%",
+    "26.6%",
+    "28.6%"
+   ],
+   "answer": "C",
+   "explanation": "210 ÷ 790 × 100 = 26.6%.",
+   "id": 317
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nMarks of 100 students\nMarks | 0–10 | 10–20 | 20–30 | 30–40 | 40–50 | 50–60\nStudents | 5 | 10 | 20 | 30 | 25 | 10\n\nThe percentage of students scoring 40 or more is:",
+   "options": [
+    "25%",
+    "30%",
+    "35%",
+    "40%"
+   ],
+   "answer": "C",
+   "explanation": "25 + 10 = 35 students out of 100, so 35%.",
+   "id": 318
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nStudents in five courses\nCourse | Total students | Girls (%) | Pass (%)\nBA | 800 | 60 | 75\nBSc | 600 | 50 | 80\nBCom | 1000 | 40 | 70\nBEd | 400 | 75 | 90\nLLB | 200 | 30 | 60\n\nThe ratio of girls in BEd to girls in LLB is:",
+   "options": [
+    "3 : 1",
+    "5 : 1",
+    "4 : 1",
+    "6 : 1"
+   ],
+   "answer": "B",
+   "explanation": "BEd girls = 75% of 400 = 300. LLB girls = 30% of 200 = 60. 300 : 60 = 5 : 1.",
+   "id": 319
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nBudget of a state (₹ crore)\nSector | 2022 | 2023\nEducation | 1200 | 1500\nHealth | 800 | 1120\nAgriculture | 1000 | 1100\nInfrastructure | 1500 | 1800\nWelfare | 500 | 580\n\nThe ratio of Health in 2023 to Agriculture in 2022 is:",
+   "options": [
+    "25 : 28",
+    "28 : 25",
+    "14 : 11",
+    "7 : 6"
+   ],
+   "answer": "B",
+   "explanation": "1120 : 1000 = 112 : 100 = 28 : 25.",
+   "id": 320
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nExpenditure pattern of two companies\nItem | Company A (%) | Company B (%)\nSalary | 30 | 25\nRaw material | 35 | 40\nRent | 10 | 15\nAdvertising | 15 | 12\nMiscellaneous | 10 | 8\nTotal expenditure: Company A = ₹40 lakh, Company B = ₹60 lakh.\n\nThe ratio of A's expenditure on rent to B's expenditure on rent is:",
+   "options": [
+    "2 : 3",
+    "3 : 4",
+    "8 : 9",
+    "4 : 9"
+   ],
+   "answer": "D",
+   "explanation": "A's rent = 10% of 40 = 4. B's rent = 15% of 60 = 9. Ratio = 4 : 9.",
+   "id": 321
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nExports by commodity (₹ thousand crore)\nCommodity | 2021 | 2022 | 2023\nTextiles | 40 | 50 | 60\nGems | 30 | 45 | 54\nEngineering | 80 | 100 | 120\nChemicals | 50 | 55 | 66\nAgriculture | 60 | 66 | 72\n\nThe ratio of total exports in 2021 to total exports in 2023 is:",
+   "options": [
+    "5 : 7",
+    "65 : 93",
+    "13 : 19",
+    "2 : 3"
+   ],
+   "answer": "B",
+   "explanation": "2021 total = 40 + 30 + 80 + 50 + 60 = 260.\n2023 total = 60 + 54 + 120 + 66 + 72 = 372.\n260 : 372 = 65 : 93 (dividing both by 4).",
+   "id": 322
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nStaff of an organisation\nDepartment | Employees | Average monthly salary (₹)\nHR | 20 | 40,000\nFinance | 30 | 50,000\nIT | 50 | 60,000\nMarketing | 40 | 45,000\nOperations | 60 | 35,000\n\nThe ratio of the average salary in IT to that in Operations is:",
+   "options": [
+    "7 : 12",
+    "5 : 3",
+    "12 : 7",
+    "4 : 3"
+   ],
+   "answer": "C",
+   "explanation": "60,000 : 35,000 = 12 : 7 (dividing both by 5,000).",
+   "id": 323
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nBudget of a state (₹ crore)\nSector | 2022 | 2023\nEducation | 1200 | 1500\nHealth | 800 | 1120\nAgriculture | 1000 | 1100\nInfrastructure | 1500 | 1800\nWelfare | 500 | 580\n\nIn a pie chart of the 2022 budget, the central angle for Infrastructure is:",
+   "options": [
+    "96°",
+    "100°",
+    "120°",
+    "108°"
+   ],
+   "answer": "D",
+   "explanation": "Share = 1500 ÷ 5000 = 30%. Angle = 30% × 360° = 108°.",
+   "id": 324
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nExpenditure pattern of two companies\nItem | Company A (%) | Company B (%)\nSalary | 30 | 25\nRaw material | 35 | 40\nRent | 10 | 15\nAdvertising | 15 | 12\nMiscellaneous | 10 | 8\nTotal expenditure: Company A = ₹40 lakh, Company B = ₹60 lakh.\n\nIn a pie chart for Company B, the central angle for raw material is:",
+   "options": [
+    "126°",
+    "144°",
+    "135°",
+    "150°"
+   ],
+   "answer": "B",
+   "explanation": "40% × 360° = 144°.",
+   "id": 325
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nFood grain production (thousand tonnes)\nState | 2019 | 2020 | 2021 | 2022 | 2023\nP | 120 | 150 | 135 | 180 | 210\nQ | 200 | 220 | 240 | 210 | 250\nR | 80 | 100 | 120 | 150 | 180\nS | 100 | 90 | 105 | 120 | 138\n\nIn which year was the percentage growth in total production over the previous year the highest?",
+   "options": [
+    "2023",
+    "2020",
+    "2021",
+    "2022"
+   ],
+   "answer": "A",
+   "explanation": "Totals are 500, 560, 600, 660 and 778 (for 2019 to 2023).\n2020: 60 ÷ 500 = 12%\n2021: 40 ÷ 560 = 7.1%\n2022: 60 ÷ 600 = 10%\n2023: 118 ÷ 660 = 17.9%\nThe highest is 2023.",
+   "id": 326
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nBudget of a state (₹ crore)\nSector | 2022 | 2023\nEducation | 1200 | 1500\nHealth | 800 | 1120\nAgriculture | 1000 | 1100\nInfrastructure | 1500 | 1800\nWelfare | 500 | 580\n\nWhich sector recorded the highest percentage growth?",
+   "options": [
+    "Education",
+    "Health",
+    "Infrastructure",
+    "Welfare"
+   ],
+   "answer": "B",
+   "explanation": "Education: 300 ÷ 1200 = 25%\nHealth: 320 ÷ 800 = 40%\nAgriculture: 10%\nInfrastructure: 300 ÷ 1500 = 20%\nWelfare: 80 ÷ 500 = 16%\nThe highest is Health.",
+   "id": 327
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nFive districts\nDistrict | Population (lakh) | Literacy (%) | Urban (%)\nA | 10 | 70 | 40\nB | 15 | 80 | 60\nC | 20 | 65 | 25\nD | 5 | 90 | 80\nE | 25 | 72 | 32\n\nWhich district has the largest urban population?",
+   "options": [
+    "A",
+    "C",
+    "B",
+    "E"
+   ],
+   "answer": "C",
+   "explanation": "Urban population is A 4, B 9, C 5, D 4 and E 8 (lakh). The largest is B.",
+   "id": 328
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nMonthly sales (units)\nProduct | Jan | Feb | Mar | Apr | May | Jun\nX | 200 | 240 | 180 | 300 | 270 | 330\nY | 150 | 160 | 200 | 200 | 240 | 250\nZ | 100 | 120 | 150 | 140 | 160 | 210\n\nIn which month was the percentage increase in total sales over the previous month the highest?",
+   "options": [
+    "Apr",
+    "Feb",
+    "Mar",
+    "Jun"
+   ],
+   "answer": "A",
+   "explanation": "Monthly totals are 450, 520, 530, 640, 670 and 790.\nFeb: 70 ÷ 450 = 15.6%\nMar: 10 ÷ 520 = 1.9%\nApr: 110 ÷ 530 = 20.8%\nMay: 30 ÷ 640 = 4.7%\nJun: 120 ÷ 670 = 17.9%\nThe highest is April.",
+   "id": 329
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nExports by commodity (₹ thousand crore)\nCommodity | 2021 | 2022 | 2023\nTextiles | 40 | 50 | 60\nGems | 30 | 45 | 54\nEngineering | 80 | 100 | 120\nChemicals | 50 | 55 | 66\nAgriculture | 60 | 66 | 72\n\nWhich commodity had the highest percentage growth from 2021 to 2023?",
+   "options": [
+    "Textiles",
+    "Engineering",
+    "Chemicals",
+    "Gems"
+   ],
+   "answer": "D",
+   "explanation": "Textiles: 20 ÷ 40 = 50%\nGems: 24 ÷ 30 = 80%\nEngineering: 50%\nChemicals: 16 ÷ 50 = 32%\nAgriculture: 12 ÷ 60 = 20%\nThe highest is Gems.",
+   "id": 330
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nMarks of 100 students\nMarks | 0–10 | 10–20 | 20–30 | 30–40 | 40–50 | 50–60\nStudents | 5 | 10 | 20 | 30 | 25 | 10\n\nThe number of students scoring below 30 is:",
+   "options": [
+    "30",
+    "40",
+    "45",
+    "35"
+   ],
+   "answer": "D",
+   "explanation": "5 + 10 + 20 = 35.",
+   "id": 331
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nMarks of 100 students\nMarks | 0–10 | 10–20 | 20–30 | 30–40 | 40–50 | 50–60\nStudents | 5 | 10 | 20 | 30 | 25 | 10\n\nThe modal class is:",
+   "options": [
+    "30–40",
+    "20–30",
+    "40–50",
+    "50–60"
+   ],
+   "answer": "A",
+   "explanation": "The highest frequency is 30, so the modal class is 30–40.",
+   "id": 332
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nMarks of 100 students\nMarks | 0–10 | 10–20 | 20–30 | 30–40 | 40–50 | 50–60\nStudents | 5 | 10 | 20 | 30 | 25 | 10\n\nThe mean marks (using class mid-values) are:",
+   "options": [
+    "32",
+    "33",
+    "34",
+    "35"
+   ],
+   "answer": "C",
+   "explanation": "Mid-values are 5, 15, 25, 35, 45 and 55.\nΣfx = 25 + 150 + 500 + 1050 + 1125 + 550 = 3400.\nMean = 3400 ÷ 100 = 34.",
+   "id": 333
+  },
+  {
+   "unit": "Data Interpretation",
+   "topic": "Table-Based Data Interpretation Sets",
+   "question": "Study the following data and answer the question.\nMarks of 100 students\nMarks | 0–10 | 10–20 | 20–30 | 30–40 | 40–50 | 50–60\nStudents | 5 | 10 | 20 | 30 | 25 | 10\n\nThe median marks are:",
+   "options": [
+    "33",
+    "34",
+    "35",
+    "36"
+   ],
+   "answer": "C",
+   "explanation": "Cumulative frequencies are 5, 15, 35, 65, 90, 100. N/2 = 50, which falls in 30–40.\nMedian = L + [(N/2 − cf) ÷ f] × h = 30 + [(50 − 35) ÷ 30] × 10 = 30 + 5 = 35.",
+   "id": 334
+  }
+ ]
+}

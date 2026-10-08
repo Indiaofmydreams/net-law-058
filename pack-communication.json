@@ -1,0 +1,5552 @@
+{
+ "metadata": {
+  "subject": "UGC NET Paper 1 - Communication",
+  "count": 396
+ },
+ "questions": [
+  {
+   "unit": "Communication",
+   "topic": "Meaning, Elements and Characteristics of Communication",
+   "question": "The word \"communication\" comes from the Latin word \"communis\", which means:",
+   "options": [
+    "Common",
+    "To speak",
+    "To send",
+    "To listen"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 1
+  },
+  {
+   "unit": "Communication",
+   "topic": "Meaning, Elements and Characteristics of Communication",
+   "question": "\"Communication is the process of passing information and understanding from one person to another.\" This definition is given by:",
+   "options": [
+    "Harold Lasswell",
+    "Keith Davis",
+    "David Berlo",
+    "Aristotle"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 2
+  },
+  {
+   "unit": "Communication",
+   "topic": "Meaning, Elements and Characteristics of Communication",
+   "question": "Communication is best described as:",
+   "options": [
+    "Only speaking",
+    "Process of sharing information, ideas and feelings",
+    "One-way transmission of orders",
+    "Only mass media"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 3
+  },
+  {
+   "unit": "Communication",
+   "topic": "Meaning, Elements and Characteristics of Communication",
+   "question": "Which of the following is NOT an element of communication?",
+   "options": [
+    "Sender",
+    "Receiver",
+    "Feedback",
+    "Syllabus"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 4
+  },
+  {
+   "unit": "Communication",
+   "topic": "Meaning, Elements and Characteristics of Communication",
+   "question": "Converting a message into symbols or code is called:",
+   "options": [
+    "Encoding",
+    "Decoding",
+    "Feedback",
+    "Noise"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 5
+  },
+  {
+   "unit": "Communication",
+   "topic": "Meaning, Elements and Characteristics of Communication",
+   "question": "The process of interpreting a received message is done by the:",
+   "options": [
+    "Sender",
+    "Channel",
+    "Receiver",
+    "Noise source"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 6
+  },
+  {
+   "unit": "Communication",
+   "topic": "Meaning, Elements and Characteristics of Communication",
+   "question": "Any disturbance that interferes with the message in the communication process is called:",
+   "options": [
+    "Noise",
+    "Feedback",
+    "Context",
+    "Channel"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 7
+  },
+  {
+   "unit": "Communication",
+   "topic": "Meaning, Elements and Characteristics of Communication",
+   "question": "Feedback in communication helps to:",
+   "options": [
+    "Remove the message",
+    "Increase noise",
+    "Know whether the message was understood",
+    "Replace the channel"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 8
+  },
+  {
+   "unit": "Communication",
+   "topic": "Meaning, Elements and Characteristics of Communication",
+   "question": "The medium through which a message travels is called the:",
+   "options": [
+    "Code",
+    "Receiver",
+    "Source",
+    "Channel"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 9
+  },
+  {
+   "unit": "Communication",
+   "topic": "Meaning, Elements and Characteristics of Communication",
+   "question": "The physical, social and cultural setting in which communication occurs is its:",
+   "options": [
+    "Noise",
+    "Context",
+    "Feedback",
+    "Channel"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 10
+  },
+  {
+   "unit": "Communication",
+   "topic": "Meaning, Elements and Characteristics of Communication",
+   "question": "\"Communication is irreversible\" means:",
+   "options": [
+    "A message cannot be taken back once communicated",
+    "A message can always be deleted",
+    "Only written messages are permanent",
+    "The receiver cannot respond"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 11
+  },
+  {
+   "unit": "Communication",
+   "topic": "Meaning, Elements and Characteristics of Communication",
+   "question": "Which of the following is a characteristic of communication?",
+   "options": [
+    "It is static",
+    "It is purposeful",
+    "It is a one-time event",
+    "It is free of context"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 12
+  },
+  {
+   "unit": "Communication",
+   "topic": "Meaning, Elements and Characteristics of Communication",
+   "question": "Two-way communication differs from one-way communication because it involves:",
+   "options": [
+    "A sender",
+    "A message",
+    "Encoding",
+    "Feedback"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 13
+  },
+  {
+   "unit": "Communication",
+   "topic": "Meaning, Elements and Characteristics of Communication",
+   "question": "Who is regarded as the \"father of communication studies\"?",
+   "options": [
+    "Harold Lasswell",
+    "Claude Shannon",
+    "Wilbur Schramm",
+    "David Berlo"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 14
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "Aristotle's model of communication consists of:",
+   "options": [
+    "Source, message, channel, receiver",
+    "Who, what, channel, whom, effect",
+    "Speaker, speech, occasion, audience, effect",
+    "Sender, transmitter, receiver, destination, noise"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 15
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "Aristotle's model is:",
+   "options": [
+    "Circular",
+    "Linear and speaker-centred",
+    "Transactional",
+    "Helical"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 16
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "Which of the following is NOT one of Aristotle's modes of persuasion?",
+   "options": [
+    "Mythos",
+    "Ethos",
+    "Pathos",
+    "Logos"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 17
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "In Aristotle's modes of persuasion, \"ethos\" refers to:",
+   "options": [
+    "Logical reasoning",
+    "Credibility of the speaker",
+    "Emotional appeal",
+    "Timing of the speech"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 18
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "\"Logos\" in Aristotle's modes of persuasion refers to:",
+   "options": [
+    "Emotional appeal",
+    "Credibility of the speaker",
+    "Style of delivery",
+    "Logical reasoning"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 19
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "\"Pathos\" in Aristotle's modes of persuasion refers to:",
+   "options": [
+    "Emotional appeal",
+    "Credibility",
+    "Logic",
+    "Delivery"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 20
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "The Shannon-Weaver model is also known as the:",
+   "options": [
+    "Mathematical model",
+    "Circular model",
+    "Helical model",
+    "Gatekeeping model"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 21
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "The Shannon-Weaver model was originally conceived for improving communication in:",
+   "options": [
+    "Classroom teaching",
+    "Telephone and telegraph engineering",
+    "Newspaper publishing",
+    "Advertising"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 22
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "In the Shannon-Weaver model, the device that converts the message into signals is the:",
+   "options": [
+    "Receiver",
+    "Destination",
+    "Transmitter",
+    "Noise source"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 23
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "The original Shannon-Weaver model lacks:",
+   "options": [
+    "Noise",
+    "Channel",
+    "Feedback",
+    "Receiver"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 24
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "The idea of noise as a distorting factor is most associated with:",
+   "options": [
+    "Shannon-Weaver model",
+    "Aristotle's model",
+    "Lasswell's model",
+    "Gerbner's model"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 25
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "The Shannon-Weaver model is:",
+   "options": [
+    "Circular",
+    "Transactional",
+    "Helical",
+    "Linear"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 26
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "In Berlo's model, SMCR stands for:",
+   "options": [
+    "Sender, Medium, Code, Response",
+    "Source, Message, Channel, Receiver",
+    "Signal, Media, Channel, Reaction",
+    "Speaker, Message, Context, Result"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 27
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "Berlo proposed his SMCR model in:",
+   "options": [
+    "1948",
+    "1954",
+    "1960",
+    "1975"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 28
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "Which of the following is NOT a factor of source and receiver in Berlo's model?",
+   "options": [
+    "Attitudes",
+    "Noise",
+    "Knowledge",
+    "Social system"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 29
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "In Berlo's model, \"channels\" refer to:",
+   "options": [
+    "The five senses",
+    "Print, radio and TV only",
+    "Telephone and email only",
+    "Letters and memos"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 30
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "Which set represents the message factors in Berlo's model?",
+   "options": [
+    "Skills, attitudes, knowledge",
+    "Content, elements, treatment, structure, code",
+    "Seeing, hearing, touching",
+    "Sender, receiver, noise"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 31
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "Lasswell's model of communication was proposed in:",
+   "options": [
+    "1958",
+    "1948",
+    "1968",
+    "1978"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 32
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "In Lasswell's formula, \"Who\" corresponds to:",
+   "options": [
+    "Control analysis",
+    "Content analysis",
+    "Media analysis",
+    "Audience analysis"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 33
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "In Lasswell's formula, \"Says what\" corresponds to:",
+   "options": [
+    "Effect analysis",
+    "Media analysis",
+    "Audience analysis",
+    "Content analysis"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 34
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "In Lasswell's formula, \"In which channel\" corresponds to:",
+   "options": [
+    "Control analysis",
+    "Content analysis",
+    "Media analysis",
+    "Effect analysis"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 35
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "In Lasswell's formula, \"To whom\" corresponds to:",
+   "options": [
+    "Control analysis",
+    "Effect analysis",
+    "Content analysis",
+    "Audience analysis"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 36
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "In Lasswell's formula, \"With what effect\" corresponds to:",
+   "options": [
+    "Effect analysis",
+    "Control analysis",
+    "Media analysis",
+    "Content analysis"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 37
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "The three functions of communication in society identified by Lasswell are:",
+   "options": [
+    "Inform, educate, entertain",
+    "Persuade, entertain, sell",
+    "Encode, decode, respond",
+    "Surveillance, correlation, transmission of social heritage"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 38
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "Lasswell's model is best suited for the study of:",
+   "options": [
+    "Intrapersonal communication",
+    "Telephone engineering",
+    "Propaganda and mass communication",
+    "Non-verbal behaviour"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 39
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "The Osgood-Schramm model is:",
+   "options": [
+    "Circular",
+    "Linear",
+    "Hierarchical",
+    "Mathematical"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 40
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "In the Osgood-Schramm model, each participant performs the functions of:",
+   "options": [
+    "Only encoding",
+    "Only decoding",
+    "Neither encoding nor decoding",
+    "Encoding, decoding and interpreting"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 41
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "The Osgood-Schramm model improves on linear models because it:",
+   "options": [
+    "Adds feedback and circular flow",
+    "Eliminates the receiver",
+    "Adds mathematical noise",
+    "Removes the message"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 42
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "The concept of \"field of experience\" is associated with:",
+   "options": [
+    "Lasswell",
+    "Shannon",
+    "Schramm",
+    "Aristotle"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 43
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "According to Schramm, communication is most effective when:",
+   "options": [
+    "Fields of experience are completely separate",
+    "Noise is maximum",
+    "The channel is long",
+    "Fields of experience of sender and receiver overlap"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 44
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "The Westley-MacLean model was proposed in:",
+   "options": [
+    "1947",
+    "1967",
+    "1957",
+    "1977"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 45
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "In the Westley-MacLean model, \"C\" stands for:",
+   "options": [
+    "Channel role (gatekeeper)",
+    "Code",
+    "Culture",
+    "Context"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 46
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "In the Westley-MacLean model, \"A\" stands for:",
+   "options": [
+    "Audience",
+    "Agent",
+    "Analyst",
+    "Advocate (source)"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 47
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "The Westley-MacLean model is an extension of which earlier model?",
+   "options": [
+    "Berlo's SMCR",
+    "Shannon's",
+    "Newcomb's ABX",
+    "Aristotle's"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 48
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "Gerbner's general model of communication was proposed in:",
+   "options": [
+    "1936",
+    "1956",
+    "1976",
+    "1996"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 49
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "According to Gerbner's model, communication begins with:",
+   "options": [
+    "Feedback from the receiver",
+    "Noise",
+    "Encoding by the sender",
+    "Perception of an event"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 50
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "Frank Dance's model of communication is:",
+   "options": [
+    "Mathematical",
+    "Helical",
+    "Linear",
+    "Circular"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 51
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "Which of the following is NOT a linear model of communication?",
+   "options": [
+    "Aristotle's model",
+    "Lasswell's model",
+    "Osgood-Schramm model",
+    "Shannon-Weaver model"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 52
+  },
+  {
+   "unit": "Communication",
+   "topic": "Models of Communication",
+   "question": "Match List I (Model) with List II (Proponent):\nList I: A. Mathematical model, B. SMCR model, C. Circular model, D. \"Who says what…\" formula\nList II: I. Lasswell, II. Berlo, III. Shannon-Weaver, IV. Osgood-Schramm",
+   "options": [
+    "A-I, B-II, C-III, D-IV",
+    "A-II, B-I, C-IV, D-III",
+    "A-IV, B-III, C-II, D-I",
+    "A-III, B-II, C-IV, D-I"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 53
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Communication by Number of Participants",
+   "question": "Communication within oneself is called:",
+   "options": [
+    "Interpersonal",
+    "Group",
+    "Intrapersonal",
+    "Mass"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 54
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Communication by Number of Participants",
+   "question": "Self-talk is an example of:",
+   "options": [
+    "Interpersonal communication",
+    "Group communication",
+    "Mass communication",
+    "Intrapersonal communication"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 55
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Communication by Number of Participants",
+   "question": "Thinking, meditating and daydreaming are examples of:",
+   "options": [
+    "Mass communication",
+    "Intrapersonal communication",
+    "Public communication",
+    "Group communication"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 56
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Communication by Number of Participants",
+   "question": "Communication between two individuals is also called:",
+   "options": [
+    "Public communication",
+    "Mass communication",
+    "Intrapersonal communication",
+    "Dyadic communication"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 57
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Communication by Number of Participants",
+   "question": "Interpersonal communication is characterized by:",
+   "options": [
+    "Immediate feedback",
+    "Delayed feedback",
+    "No feedback",
+    "An anonymous audience"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 58
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Communication by Number of Participants",
+   "question": "A telephone conversation between two friends is:",
+   "options": [
+    "Mass communication",
+    "Interpersonal communication",
+    "Public communication",
+    "Intrapersonal communication"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 59
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Communication by Number of Participants",
+   "question": "A committee meeting is an example of:",
+   "options": [
+    "Mass communication",
+    "Intrapersonal communication",
+    "Public communication",
+    "Group communication"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 60
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Communication by Number of Participants",
+   "question": "Which type of communication involves a small number of people interacting to achieve a common goal?",
+   "options": [
+    "Intrapersonal",
+    "Group",
+    "Mass",
+    "Public"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 61
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Communication by Number of Participants",
+   "question": "A politician addressing a rally is an example of:",
+   "options": [
+    "Interpersonal communication",
+    "Group communication",
+    "Intrapersonal communication",
+    "Public communication"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 62
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Communication by Number of Participants",
+   "question": "In public communication, the speaker:",
+   "options": [
+    "Uses only written media",
+    "Talks only to himself",
+    "Addresses a large audience in a face-to-face setting",
+    "Has an anonymous audience"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 63
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Communication by Number of Participants",
+   "question": "Communication through media to a large, heterogeneous and widely dispersed audience is:",
+   "options": [
+    "Mass communication",
+    "Group communication",
+    "Interpersonal communication",
+    "Public communication"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 64
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Communication by Number of Participants",
+   "question": "The audience in mass communication is:",
+   "options": [
+    "Homogeneous and known",
+    "A single person",
+    "Heterogeneous and anonymous",
+    "Small and known"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 65
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Communication by Number of Participants",
+   "question": "Feedback in mass communication is generally:",
+   "options": [
+    "Delayed and indirect",
+    "Immediate and direct",
+    "Always absent",
+    "Instant"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 66
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Communication by Number of Participants",
+   "question": "A newspaper editorial is an example of:",
+   "options": [
+    "Interpersonal communication",
+    "Mass communication",
+    "Intrapersonal communication",
+    "Group communication"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 67
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Communication by Number of Participants",
+   "question": "Which type of communication reaches the largest audience?",
+   "options": [
+    "Intrapersonal",
+    "Interpersonal",
+    "Mass",
+    "Group"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 68
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Communication by Number of Participants",
+   "question": "Which type of communication involves the fewest participants?",
+   "options": [
+    "Mass",
+    "Intrapersonal",
+    "Public",
+    "Group"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 69
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Communication by Number of Participants",
+   "question": "The concept of gatekeeping is most relevant to:",
+   "options": [
+    "Intrapersonal communication",
+    "Interpersonal communication",
+    "Mass communication",
+    "Dyadic communication"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 70
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Communication by Number of Participants",
+   "question": "The concept of \"gatekeeper\" was introduced by:",
+   "options": [
+    "Harold Lasswell",
+    "David Berlo",
+    "Marshall McLuhan",
+    "Kurt Lewin"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 71
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Communication by Number of Participants",
+   "question": "The correct ascending order of communication types by number of participants is:",
+   "options": [
+    "Intrapersonal, interpersonal, group, public, mass",
+    "Interpersonal, intrapersonal, group, mass, public",
+    "Group, interpersonal, public, mass, intrapersonal",
+    "Mass, public, group, interpersonal, intrapersonal"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 72
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal and Non-Verbal Communication: Basics",
+   "question": "Verbal communication includes:",
+   "options": [
+    "Gestures and posture",
+    "Facial expressions",
+    "Oral and written communication",
+    "Eye contact"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 73
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal and Non-Verbal Communication: Basics",
+   "question": "Which of the following is an example of oral communication?",
+   "options": [
+    "Memo",
+    "Report",
+    "Email",
+    "Lecture"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 74
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal and Non-Verbal Communication: Basics",
+   "question": "Which of the following is an example of written communication?",
+   "options": [
+    "Telephone call",
+    "Interview",
+    "Speech",
+    "Report"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 75
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal and Non-Verbal Communication: Basics",
+   "question": "A major advantage of written communication is:",
+   "options": [
+    "It gives immediate feedback",
+    "It is always faster",
+    "It provides a permanent record",
+    "It is always informal"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 76
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal and Non-Verbal Communication: Basics",
+   "question": "A major limitation of oral communication is:",
+   "options": [
+    "Lack of a permanent record",
+    "Expensive printing",
+    "Delayed feedback",
+    "Need for literacy"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 77
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal and Non-Verbal Communication: Basics",
+   "question": "Which of the following is non-verbal communication?",
+   "options": [
+    "Facial expression",
+    "Email",
+    "Report",
+    "Letter"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 78
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal and Non-Verbal Communication: Basics",
+   "question": "According to Albert Mehrabian's 7-38-55 rule, the largest share of impact in conveying feelings comes from:",
+   "options": [
+    "Words",
+    "Tone of voice",
+    "Facial expression and body language",
+    "Written text"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 79
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal and Non-Verbal Communication: Basics",
+   "question": "The study of the use of space in communication is called:",
+   "options": [
+    "Kinesics",
+    "Proxemics",
+    "Haptics",
+    "Chronemics"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 80
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal and Non-Verbal Communication: Basics",
+   "question": "Communication through touch is called:",
+   "options": [
+    "Haptics",
+    "Chronemics",
+    "Oculesics",
+    "Kinesics"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 81
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal and Non-Verbal Communication: Basics",
+   "question": "The study of the use of time in communication is:",
+   "options": [
+    "Proxemics",
+    "Haptics",
+    "Oculesics",
+    "Chronemics"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 82
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal and Non-Verbal Communication: Basics",
+   "question": "Eye behaviour in communication is studied under:",
+   "options": [
+    "Haptics",
+    "Proxemics",
+    "Oculesics",
+    "Chronemics"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 83
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal and Non-Verbal Communication: Basics",
+   "question": "Tone, pitch and pace of voice come under:",
+   "options": [
+    "Kinesics",
+    "Paralanguage",
+    "Proxemics",
+    "Haptics"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 84
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal and Non-Verbal Communication: Basics",
+   "question": "The concept of proxemics was developed by:",
+   "options": [
+    "Edward T. Hall",
+    "Albert Mehrabian",
+    "Harold Lasswell",
+    "Wilbur Schramm"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 85
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal and Non-Verbal Communication: Basics",
+   "question": "The term \"kinesics\" was coined by:",
+   "options": [
+    "Edward Hall",
+    "Ray Birdwhistell",
+    "Albert Mehrabian",
+    "Wilbur Schramm"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 86
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal and Non-Verbal Communication: Basics",
+   "question": "Silence in communication is considered:",
+   "options": [
+    "Absence of communication",
+    "A form of non-verbal communication",
+    "Noise",
+    "Feedback error"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 87
+  },
+  {
+   "unit": "Communication",
+   "topic": "Organisational Communication: Flows, Grapevine and Networks",
+   "question": "Formal communication in an organization follows:",
+   "options": [
+    "The grapevine",
+    "The official chain of command",
+    "Rumours",
+    "Social networks"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 88
+  },
+  {
+   "unit": "Communication",
+   "topic": "Organisational Communication: Flows, Grapevine and Networks",
+   "question": "Informal communication is communication that:",
+   "options": [
+    "Follows official hierarchy",
+    "Is always written",
+    "Does not follow official channels",
+    "Is always upward"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 89
+  },
+  {
+   "unit": "Communication",
+   "topic": "Organisational Communication: Flows, Grapevine and Networks",
+   "question": "Downward communication flows from:",
+   "options": [
+    "Subordinates to superiors",
+    "Peers to peers",
+    "Across departments",
+    "Superiors to subordinates"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 90
+  },
+  {
+   "unit": "Communication",
+   "topic": "Organisational Communication: Flows, Grapevine and Networks",
+   "question": "Which of the following is an example of upward communication?",
+   "options": [
+    "Employee grievance report",
+    "Policy statement",
+    "Job instructions",
+    "Circular to staff"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 91
+  },
+  {
+   "unit": "Communication",
+   "topic": "Organisational Communication: Flows, Grapevine and Networks",
+   "question": "Horizontal (lateral) communication takes place between:",
+   "options": [
+    "Superior and subordinate",
+    "Persons at the same level",
+    "Subordinate and superior",
+    "Persons outside the organization"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 92
+  },
+  {
+   "unit": "Communication",
+   "topic": "Organisational Communication: Flows, Grapevine and Networks",
+   "question": "Diagonal communication takes place between:",
+   "options": [
+    "Persons at the same level",
+    "Boss and secretary only",
+    "Two friends outside work",
+    "Persons at different levels in different departments"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 93
+  },
+  {
+   "unit": "Communication",
+   "topic": "Organisational Communication: Flows, Grapevine and Networks",
+   "question": "The term \"grapevine\" originated during the:",
+   "options": [
+    "Industrial Revolution",
+    "American Civil War",
+    "Second World War",
+    "French Revolution"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 94
+  },
+  {
+   "unit": "Communication",
+   "topic": "Organisational Communication: Flows, Grapevine and Networks",
+   "question": "The most common grapevine pattern identified by Keith Davis is:",
+   "options": [
+    "Cluster chain",
+    "Single strand",
+    "Gossip chain",
+    "Probability chain"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 95
+  },
+  {
+   "unit": "Communication",
+   "topic": "Organisational Communication: Flows, Grapevine and Networks",
+   "question": "Among communication networks, the most centralized pattern is:",
+   "options": [
+    "Circle",
+    "All-channel",
+    "Wheel",
+    "Chain"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 96
+  },
+  {
+   "unit": "Communication",
+   "topic": "Organisational Communication: Flows, Grapevine and Networks",
+   "question": "Which network allows every member to communicate directly with every other member?",
+   "options": [
+    "Chain",
+    "Wheel",
+    "Y",
+    "All-channel"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 97
+  },
+  {
+   "unit": "Communication",
+   "topic": "Organisational Communication: Flows, Grapevine and Networks",
+   "question": "Which of the following is a limitation of the grapevine?\nIf you'd like, I can add another 50 on this topic with no repeats.",
+   "options": [
+    "It may spread rumours and distorted information",
+    "It is slow",
+    "It is always written",
+    "It follows the hierarchy"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 98
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal Communication",
+   "question": "Which of the following is NOT one of the 7 Cs of effective communication?",
+   "options": [
+    "Clarity",
+    "Courtesy",
+    "Concreteness",
+    "Competition"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 99
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal Communication",
+   "question": "The 7 Cs of communication were popularised by:",
+   "options": [
+    "Cutlip and Center",
+    "Shannon and Weaver",
+    "Berlo and Schramm",
+    "Hall and Hofstede"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 100
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal Communication",
+   "question": "Using simple and specific words so that the message is easily understood reflects:",
+   "options": [
+    "Courtesy",
+    "Completeness",
+    "Clarity",
+    "Consideration"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 101
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal Communication",
+   "question": "Expressing a message in the fewest words without losing its meaning is:",
+   "options": [
+    "Conciseness",
+    "Completeness",
+    "Correctness",
+    "Concreteness"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 102
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal Communication",
+   "question": "Correctness in communication refers to:",
+   "options": [
+    "Use of long sentences",
+    "Accuracy of facts, grammar and suitable level of language",
+    "Use of technical jargon",
+    "Speed of delivery"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 103
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal Communication",
+   "question": "A message that gives the receiver all the information needed to understand and act on it is:",
+   "options": [
+    "Concise",
+    "Complete",
+    "Courteous",
+    "Concrete"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 104
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal Communication",
+   "question": "Respect, politeness and sincerity in a message reflect:",
+   "options": [
+    "Clarity",
+    "Correctness",
+    "Conciseness",
+    "Courtesy"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 105
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal Communication",
+   "question": "Replacing \"Send it soon\" with \"Send it by 5 p.m. on Friday\" improves:",
+   "options": [
+    "Courtesy",
+    "Consideration",
+    "Conciseness",
+    "Concreteness"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 106
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal Communication",
+   "question": "The \"you-attitude\" in writing is associated with:",
+   "options": [
+    "Conciseness",
+    "Correctness",
+    "Consideration",
+    "Clarity"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 107
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal Communication",
+   "question": "Which of the following is NOT an example of written communication?",
+   "options": [
+    "Report",
+    "Group discussion",
+    "Email",
+    "Memo"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 108
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal Communication",
+   "question": "A major limitation of written communication is:",
+   "options": [
+    "Absence of a permanent record",
+    "Impossibility of revision",
+    "Delayed feedback",
+    "Inability to reach many people"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 109
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal Communication",
+   "question": "A major advantage of oral communication is:",
+   "options": [
+    "Immediate feedback",
+    "Permanent record",
+    "Legal evidence",
+    "Precision in wording"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 110
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal Communication",
+   "question": "Hearing differs from listening in that hearing is:",
+   "options": [
+    "A psychological process involving interpretation",
+    "Always intentional",
+    "The same as active listening",
+    "A physiological process of receiving sound"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 111
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal Communication",
+   "question": "Active listening involves:",
+   "options": [
+    "Hearing without responding",
+    "Attention, understanding and responding",
+    "Interrupting frequently",
+    "Preparing arguments while the speaker talks"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 112
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal Communication",
+   "question": "Passive listening is best described as:",
+   "options": [
+    "Receiving the message without active engagement or feedback",
+    "Questioning the speaker",
+    "Note-taking and paraphrasing",
+    "Evaluating the message critically"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 113
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal Communication",
+   "question": "Listening to music or poetry for enjoyment is:",
+   "options": [
+    "Critical listening",
+    "Empathic listening",
+    "Appreciative listening",
+    "Informational listening"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 114
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal Communication",
+   "question": "Listening to understand the speaker's feelings is:",
+   "options": [
+    "Critical listening",
+    "Discriminative listening",
+    "Empathic listening",
+    "Appreciative listening"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 115
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal Communication",
+   "question": "Evaluating and judging the speaker's arguments is:",
+   "options": [
+    "Appreciative listening",
+    "Critical (evaluative) listening",
+    "Empathic listening",
+    "Discriminative listening"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 116
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal Communication",
+   "question": "Listening to a lecture in order to learn facts is:",
+   "options": [
+    "Pseudo-listening",
+    "Informational (comprehensive) listening",
+    "Appreciative listening",
+    "Empathic listening"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 117
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal Communication",
+   "question": "Pretending to listen while thinking of something else is:",
+   "options": [
+    "Pseudo-listening",
+    "Active listening",
+    "Critical listening",
+    "Empathic listening"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 118
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal Communication",
+   "question": "Hearing only the parts of a message that interest you is:",
+   "options": [
+    "Active listening",
+    "Appreciative listening",
+    "Comprehensive listening",
+    "Selective listening"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 119
+  },
+  {
+   "unit": "Communication",
+   "topic": "Verbal Communication",
+   "question": "Which of the following is a barrier to listening?",
+   "options": [
+    "Prejudice against the speaker",
+    "Eye contact",
+    "Note-taking",
+    "Paraphrasing"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 120
+  },
+  {
+   "unit": "Communication",
+   "topic": "Non-Verbal Communication",
+   "question": "Edward Hall's \"intimate\" distance extends up to about:",
+   "options": [
+    "4 feet",
+    "12 feet",
+    "25 feet",
+    "18 inches"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 121
+  },
+  {
+   "unit": "Communication",
+   "topic": "Non-Verbal Communication",
+   "question": "Casual conversation among friends typically takes place in the:",
+   "options": [
+    "Personal zone",
+    "Intimate zone",
+    "Public zone",
+    "Social zone"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 122
+  },
+  {
+   "unit": "Communication",
+   "topic": "Non-Verbal Communication",
+   "question": "Formal business interactions generally take place in the:",
+   "options": [
+    "Intimate zone",
+    "Personal zone",
+    "Public zone",
+    "Social zone"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 123
+  },
+  {
+   "unit": "Communication",
+   "topic": "Non-Verbal Communication",
+   "question": "Addressing a large audience typically takes place in the:",
+   "options": [
+    "Intimate zone",
+    "Personal zone",
+    "Public zone",
+    "Social zone"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 124
+  },
+  {
+   "unit": "Communication",
+   "topic": "Non-Verbal Communication",
+   "question": "\"The Silent Language\" (1959) was written by:",
+   "options": [
+    "Albert Mehrabian",
+    "Edward T. Hall",
+    "Geert Hofstede",
+    "Ray Birdwhistell"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 125
+  },
+  {
+   "unit": "Communication",
+   "topic": "Non-Verbal Communication",
+   "question": "A thumbs-up sign, which has a direct verbal meaning, is an example of a/an:",
+   "options": [
+    "Illustrator",
+    "Adaptor",
+    "Emblem",
+    "Regulator"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 126
+  },
+  {
+   "unit": "Communication",
+   "topic": "Non-Verbal Communication",
+   "question": "Gestures that accompany speech to illustrate it, such as showing size with the hands, are:",
+   "options": [
+    "Emblems",
+    "Adaptors",
+    "Illustrators",
+    "Regulators"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 127
+  },
+  {
+   "unit": "Communication",
+   "topic": "Non-Verbal Communication",
+   "question": "Fidgeting or touching one's hair when nervous are examples of:",
+   "options": [
+    "Adaptors",
+    "Emblems",
+    "Illustrators",
+    "Regulators"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 128
+  },
+  {
+   "unit": "Communication",
+   "topic": "Non-Verbal Communication",
+   "question": "Facial expressions showing emotions such as joy or anger are called:",
+   "options": [
+    "Emblems",
+    "Affect displays",
+    "Regulators",
+    "Adaptors"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 129
+  },
+  {
+   "unit": "Communication",
+   "topic": "Non-Verbal Communication",
+   "question": "When verbal and non-verbal messages conflict, receivers generally tend to believe the:",
+   "options": [
+    "Verbal message",
+    "Written message",
+    "Neither of them",
+    "Non-verbal message"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 130
+  },
+  {
+   "unit": "Communication",
+   "topic": "Non-Verbal Communication",
+   "question": "Saying \"I'm fine\" while looking sad illustrates the non-verbal function of:",
+   "options": [
+    "Contradicting",
+    "Repeating",
+    "Substituting",
+    "Complementing"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 131
+  },
+  {
+   "unit": "Communication",
+   "topic": "Non-Verbal Communication",
+   "question": "Nodding while saying \"yes\" illustrates the non-verbal function of:",
+   "options": [
+    "Contradicting",
+    "Repeating",
+    "Deceiving",
+    "Regulating"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 132
+  },
+  {
+   "unit": "Communication",
+   "topic": "Non-Verbal Communication",
+   "question": "Monochronic cultures tend to:",
+   "options": [
+    "Do many things simultaneously",
+    "Treat schedules as flexible",
+    "Avoid deadlines",
+    "Prefer punctuality and doing one thing at a time"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 133
+  },
+  {
+   "unit": "Communication",
+   "topic": "Non-Verbal Communication",
+   "question": "Polychronic time orientation is characterized by:",
+   "options": [
+    "Strict scheduling",
+    "Single-task focus",
+    "A flexible approach to time and multitasking",
+    "Rigid deadlines"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 134
+  },
+  {
+   "unit": "Communication",
+   "topic": "Non-Verbal Communication",
+   "question": "Arriving late for an interview mainly communicates through:",
+   "options": [
+    "Haptics",
+    "Proxemics",
+    "Chronemics",
+    "Oculesics"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 135
+  },
+  {
+   "unit": "Communication",
+   "topic": "Non-Verbal Communication",
+   "question": "Dress, grooming and personal objects come under:",
+   "options": [
+    "Paralanguage",
+    "Appearance and artefacts",
+    "Haptics",
+    "Kinesics"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 136
+  },
+  {
+   "unit": "Communication",
+   "topic": "Non-Verbal Communication",
+   "question": "Which of the following is part of paralanguage?",
+   "options": [
+    "Handshake",
+    "Dress",
+    "Seating distance",
+    "Speaking pace and pauses"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 137
+  },
+  {
+   "unit": "Communication",
+   "topic": "Non-Verbal Communication",
+   "question": "Silence in communication can convey:",
+   "options": [
+    "Different meanings depending on context and culture",
+    "Only anger",
+    "Only agreement",
+    "Only ignorance"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 138
+  },
+  {
+   "unit": "Communication",
+   "topic": "Inter-Cultural Communication",
+   "question": "Hofstede defined culture as:",
+   "options": [
+    "Individual intelligence",
+    "Genetic inheritance",
+    "Economic status",
+    "Collective programming of the mind"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 139
+  },
+  {
+   "unit": "Communication",
+   "topic": "Inter-Cultural Communication",
+   "question": "Hofstede's cultural dimensions study was based on employees of:",
+   "options": [
+    "Toyota",
+    "Microsoft",
+    "IBM",
+    "Unilever"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 140
+  },
+  {
+   "unit": "Communication",
+   "topic": "Inter-Cultural Communication",
+   "question": "Edward Hall's concept of high-context and low-context cultures appears in his book:",
+   "options": [
+    "Beyond Culture",
+    "Culture's Consequences",
+    "The Process of Communication",
+    "Folkways"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 141
+  },
+  {
+   "unit": "Communication",
+   "topic": "Inter-Cultural Communication",
+   "question": "In high-context cultures, meaning is conveyed mainly through:",
+   "options": [
+    "Explicit words",
+    "Written contracts",
+    "Context, relationships and implicit cues",
+    "Technical language"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 142
+  },
+  {
+   "unit": "Communication",
+   "topic": "Inter-Cultural Communication",
+   "question": "Which of the following is generally regarded as a low-context culture?",
+   "options": [
+    "Germany",
+    "Japan",
+    "China",
+    "Saudi Arabia"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 143
+  },
+  {
+   "unit": "Communication",
+   "topic": "Inter-Cultural Communication",
+   "question": "Which of the following is generally regarded as a high-context culture?",
+   "options": [
+    "Japan",
+    "USA",
+    "Germany",
+    "Switzerland"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 144
+  },
+  {
+   "unit": "Communication",
+   "topic": "Inter-Cultural Communication",
+   "question": "The number of cultural dimensions in Hofstede's current model is:",
+   "options": [
+    "Two",
+    "Four",
+    "Six",
+    "Five"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 145
+  },
+  {
+   "unit": "Communication",
+   "topic": "Inter-Cultural Communication",
+   "question": "Which of the following is NOT one of Hofstede's dimensions?",
+   "options": [
+    "High-context vs low-context",
+    "Power distance",
+    "Uncertainty avoidance",
+    "Individualism vs collectivism"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 146
+  },
+  {
+   "unit": "Communication",
+   "topic": "Inter-Cultural Communication",
+   "question": "\"Power distance\" refers to the extent to which:",
+   "options": [
+    "Countries are geographically distant",
+    "People avoid risk",
+    "Less powerful members accept unequal distribution of power",
+    "Societies value achievement"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 147
+  },
+  {
+   "unit": "Communication",
+   "topic": "Inter-Cultural Communication",
+   "question": "\"Uncertainty avoidance\" refers to the degree to which:",
+   "options": [
+    "Inequality is accepted",
+    "People feel threatened by ambiguity",
+    "Competition is preferred",
+    "Group loyalty is valued"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 148
+  },
+  {
+   "unit": "Communication",
+   "topic": "Inter-Cultural Communication",
+   "question": "Individualism emphasizes:",
+   "options": [
+    "Group harmony over personal goals",
+    "Personal goals and independence",
+    "Obedience to authority",
+    "Long-term planning only"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 149
+  },
+  {
+   "unit": "Communication",
+   "topic": "Inter-Cultural Communication",
+   "question": "Judging other cultures by the standards of one's own culture is called:",
+   "options": [
+    "Cultural relativism",
+    "Acculturation",
+    "Assimilation",
+    "Ethnocentrism"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 150
+  },
+  {
+   "unit": "Communication",
+   "topic": "Inter-Cultural Communication",
+   "question": "The term \"ethnocentrism\" was coined by:",
+   "options": [
+    "Edward Hall",
+    "Geert Hofstede",
+    "Wilbur Schramm",
+    "William Graham Sumner"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 151
+  },
+  {
+   "unit": "Communication",
+   "topic": "Inter-Cultural Communication",
+   "question": "An oversimplified, generalized belief about a group of people is a:",
+   "options": [
+    "Norm",
+    "Stereotype",
+    "Fact",
+    "Value"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 152
+  },
+  {
+   "unit": "Communication",
+   "topic": "Inter-Cultural Communication",
+   "question": "A pre-formed negative attitude towards a group without adequate knowledge is:",
+   "options": [
+    "Empathy",
+    "Prejudice",
+    "Relativism",
+    "Feedback"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 153
+  },
+  {
+   "unit": "Communication",
+   "topic": "Inter-Cultural Communication",
+   "question": "Understanding a culture on its own terms rather than judging it is:",
+   "options": [
+    "Ethnocentrism",
+    "Stereotyping",
+    "Prejudice",
+    "Cultural relativism"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 154
+  },
+  {
+   "unit": "Communication",
+   "topic": "Inter-Cultural Communication",
+   "question": "The hypothesis that language shapes the way people think is the:",
+   "options": [
+    "Hall hypothesis",
+    "Lasswell hypothesis",
+    "Sapir-Whorf hypothesis",
+    "Mehrabian rule"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 155
+  },
+  {
+   "unit": "Communication",
+   "topic": "Inter-Cultural Communication",
+   "question": "In many East Asian cultures, the colour white is associated with:",
+   "options": [
+    "Wealth",
+    "Weddings only",
+    "Luck",
+    "Mourning"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 156
+  },
+  {
+   "unit": "Communication",
+   "topic": "Inter-Cultural Communication",
+   "question": "Which of the following is an effective strategy for cross-cultural communication?",
+   "options": [
+    "Developing cultural awareness and empathy",
+    "Using slang and idioms",
+    "Assuming others share your values",
+    "Avoiding feedback"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 157
+  },
+  {
+   "unit": "Communication",
+   "topic": "Inter-Cultural Communication",
+   "question": "In cross-cultural interactions, one should avoid:",
+   "options": [
+    "Active listening",
+    "Stereotyping",
+    "Patience",
+    "Seeking clarification"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 158
+  },
+  {
+   "unit": "Communication",
+   "topic": "Group Communication",
+   "question": "A group created by an organization to achieve specific tasks, such as a committee, is a:",
+   "options": [
+    "Informal group",
+    "Primary group",
+    "Formal group",
+    "Reference group"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 159
+  },
+  {
+   "unit": "Communication",
+   "topic": "Group Communication",
+   "question": "A group formed on the basis of friendship and common interests, without official sanction, is a:",
+   "options": [
+    "Informal group",
+    "Formal group",
+    "Task force",
+    "Committee"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 160
+  },
+  {
+   "unit": "Communication",
+   "topic": "Group Communication",
+   "question": "Which of the following is a primary group?",
+   "options": [
+    "A government committee",
+    "A large audience",
+    "A close family",
+    "A conference"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 161
+  },
+  {
+   "unit": "Communication",
+   "topic": "Group Communication",
+   "question": "The term \"primary group\" was coined by:",
+   "options": [
+    "Kurt Lewin",
+    "Irving Janis",
+    "Charles Horton Cooley",
+    "Bruce Tuckman"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 162
+  },
+  {
+   "unit": "Communication",
+   "topic": "Group Communication",
+   "question": "Secondary groups are generally:",
+   "options": [
+    "Small and intimate",
+    "Based on kinship",
+    "Without any structure",
+    "Larger, formal and goal-oriented"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 163
+  },
+  {
+   "unit": "Communication",
+   "topic": "Group Communication",
+   "question": "A few experts discussing a topic before an audience under a moderator is a:",
+   "options": [
+    "Workshop",
+    "Panel discussion",
+    "Symposium",
+    "Seminar"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 164
+  },
+  {
+   "unit": "Communication",
+   "topic": "Group Communication",
+   "question": "A series of short presentations by different experts on aspects of a single topic, followed by audience questions, is a:",
+   "options": [
+    "Symposium",
+    "Panel discussion",
+    "Workshop",
+    "Group discussion"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 165
+  },
+  {
+   "unit": "Communication",
+   "topic": "Group Communication",
+   "question": "A session emphasizing practical, hands-on skill development is a:",
+   "options": [
+    "Workshop",
+    "Seminar",
+    "Conference",
+    "Symposium"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 166
+  },
+  {
+   "unit": "Communication",
+   "topic": "Group Communication",
+   "question": "An academic meeting where a paper on a specialized topic is presented and then discussed is a:",
+   "options": [
+    "Workshop",
+    "Seminar",
+    "Panel discussion",
+    "Conference"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 167
+  },
+  {
+   "unit": "Communication",
+   "topic": "Group Communication",
+   "question": "A large formal gathering of people with a common interest, often with multiple sessions, is a:",
+   "options": [
+    "Symposium",
+    "Workshop",
+    "Conference",
+    "Panel discussion"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 168
+  },
+  {
+   "unit": "Communication",
+   "topic": "Group Communication",
+   "question": "The correct order of Tuckman's stages of group development is:",
+   "options": [
+    "Storming, forming, norming, performing",
+    "Norming, forming, storming, performing",
+    "Performing, norming, storming, forming",
+    "Forming, storming, norming, performing"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 169
+  },
+  {
+   "unit": "Communication",
+   "topic": "Group Communication",
+   "question": "The network in which information passes sequentially from one member to the next in a line is the:",
+   "options": [
+    "Wheel",
+    "Chain",
+    "Circle",
+    "All-channel"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 170
+  },
+  {
+   "unit": "Communication",
+   "topic": "Group Communication",
+   "question": "The network in which each member communicates with two adjacent members is the:",
+   "options": [
+    "Chain",
+    "Wheel",
+    "Circle",
+    "All-channel"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 171
+  },
+  {
+   "unit": "Communication",
+   "topic": "Group Communication",
+   "question": "The extent to which group members are attracted to the group and want to remain in it is:",
+   "options": [
+    "Cohesiveness",
+    "Conformity",
+    "Dominance",
+    "Polarisation"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 172
+  },
+  {
+   "unit": "Communication",
+   "topic": "Group Communication",
+   "question": "A leadership style that encourages participation and shared decision-making is:",
+   "options": [
+    "Autocratic",
+    "Laissez-faire",
+    "Bureaucratic",
+    "Democratic"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 173
+  },
+  {
+   "unit": "Communication",
+   "topic": "Group Communication",
+   "question": "The role of a leader in a group discussion is to:",
+   "options": [
+    "Dominate the discussion",
+    "Encourage participation of all and summarize key points",
+    "Impose conclusions",
+    "Avoid reaching conclusions"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 174
+  },
+  {
+   "unit": "Communication",
+   "topic": "Group Communication",
+   "question": "The role of members in a group discussion is to:",
+   "options": [
+    "Listen, contribute and respect others' views",
+    "Dominate the discussion",
+    "Stay silent throughout",
+    "Interrupt others"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 175
+  },
+  {
+   "unit": "Communication",
+   "topic": "Group Communication",
+   "question": "The concept of \"groupthink\" was proposed by:",
+   "options": [
+    "Kurt Lewin",
+    "Bruce Tuckman",
+    "Charles Cooley",
+    "Irving Janis"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 176
+  },
+  {
+   "unit": "Communication",
+   "topic": "Group Communication",
+   "question": "Which of the following is an advantage of group communication?",
+   "options": [
+    "It always saves time",
+    "It brings diverse ideas and better decisions",
+    "It eliminates all conflict",
+    "It needs no leader"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 177
+  },
+  {
+   "unit": "Communication",
+   "topic": "Group Communication",
+   "question": "Which of the following is a limitation of group communication?",
+   "options": [
+    "Diversity of ideas",
+    "Shared responsibility",
+    "Better decisions",
+    "It can be time-consuming and dominated by a few members"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 178
+  },
+  {
+   "unit": "Communication",
+   "topic": "Classroom Communication",
+   "question": "A lecture with no student response is an example of which interaction pattern?",
+   "options": [
+    "Two-way",
+    "One-way",
+    "Multi-way",
+    "Circular"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 179
+  },
+  {
+   "unit": "Communication",
+   "topic": "Classroom Communication",
+   "question": "A teacher asking a question, a student answering and the teacher reacting is:",
+   "options": [
+    "One-way",
+    "Circular",
+    "Two-way",
+    "Multi-way"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 180
+  },
+  {
+   "unit": "Communication",
+   "topic": "Classroom Communication",
+   "question": "Group work where students interact with each other and with the teacher is:",
+   "options": [
+    "Multi-way",
+    "One-way",
+    "Two-way",
+    "Linear"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 181
+  },
+  {
+   "unit": "Communication",
+   "topic": "Classroom Communication",
+   "question": "Which interaction pattern gives the maximum scope for student participation?",
+   "options": [
+    "One-way",
+    "Lecture-only",
+    "Two-way with only teacher questions",
+    "Multi-way"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 182
+  },
+  {
+   "unit": "Communication",
+   "topic": "Classroom Communication",
+   "question": "Flanders' Interaction Analysis Categories (FIAC) has how many categories?",
+   "options": [
+    "7",
+    "5",
+    "10",
+    "12"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 183
+  },
+  {
+   "unit": "Communication",
+   "topic": "Classroom Communication",
+   "question": "In Flanders' system, how many categories are for teacher talk?",
+   "options": [
+    "7",
+    "5",
+    "3",
+    "10"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 184
+  },
+  {
+   "unit": "Communication",
+   "topic": "Classroom Communication",
+   "question": "In Flanders' interaction analysis, observations are recorded every:",
+   "options": [
+    "3 seconds",
+    "1 second",
+    "10 seconds",
+    "1 minute"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 185
+  },
+  {
+   "unit": "Communication",
+   "topic": "Classroom Communication",
+   "question": "\"Teacher immediacy\" refers to behaviours that:",
+   "options": [
+    "Increase lecture speed",
+    "Increase test frequency",
+    "Reduce psychological distance between teacher and students",
+    "Replace technology"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 186
+  },
+  {
+   "unit": "Communication",
+   "topic": "Classroom Communication",
+   "question": "Eye contact, a smile and open posture by a teacher generally:",
+   "options": [
+    "Create fear",
+    "Build rapport and attention",
+    "Distract students",
+    "Reduce participation"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 187
+  },
+  {
+   "unit": "Communication",
+   "topic": "Classroom Communication",
+   "question": "Pausing for a few seconds after asking a question, so students can think, is called:",
+   "options": [
+    "Dead time",
+    "Silence penalty",
+    "Lag period",
+    "Wait time"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 188
+  },
+  {
+   "unit": "Communication",
+   "topic": "Classroom Communication",
+   "question": "Which question is most likely to encourage higher-order thinking?",
+   "options": [
+    "Is the sky blue?",
+    "Who wrote this book?",
+    "Is this answer correct?",
+    "Why did the policy fail and what alternatives existed?"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 189
+  },
+  {
+   "unit": "Communication",
+   "topic": "Classroom Communication",
+   "question": "Probing questions are used to:",
+   "options": [
+    "End the discussion",
+    "Seek deeper or clearer responses from students",
+    "Punish students",
+    "Test memory only"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 190
+  },
+  {
+   "unit": "Communication",
+   "topic": "Classroom Communication",
+   "question": "Effective feedback in the classroom should be:",
+   "options": [
+    "Vague and delayed",
+    "Only critical",
+    "Given only at the year-end",
+    "Specific, timely and constructive"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 191
+  },
+  {
+   "unit": "Communication",
+   "topic": "Classroom Communication",
+   "question": "In Edgar Dale's Cone of Experience, the base represents:",
+   "options": [
+    "Direct, purposeful experiences",
+    "Verbal symbols",
+    "Visual symbols",
+    "Television"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 192
+  },
+  {
+   "unit": "Communication",
+   "topic": "Classroom Communication",
+   "question": "SWAYAM is:",
+   "options": [
+    "A research grant scheme",
+    "A MOOCs platform of the Government of India",
+    "A school examination board",
+    "A radio channel"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 193
+  },
+  {
+   "unit": "Communication",
+   "topic": "Classroom Communication",
+   "question": "A U-shaped (horseshoe) seating arrangement in class:",
+   "options": [
+    "Reduces interaction",
+    "Is used only for exams",
+    "Prevents discussion",
+    "Promotes face-to-face interaction among students and teacher"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 194
+  },
+  {
+   "unit": "Communication",
+   "topic": "Classroom Communication",
+   "question": "An inclusive classroom communication climate:",
+   "options": [
+    "Favours only high achievers",
+    "Ignores diversity",
+    "Respects diversity and involves all learners",
+    "Uses a single method for all"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 195
+  },
+  {
+   "unit": "Communication",
+   "topic": "Classroom Communication",
+   "question": "A teacher's listening to students:",
+   "options": [
+    "Wastes class time",
+    "Is unnecessary",
+    "Encourages participation and helps understand learner needs",
+    "Matters only in exams"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 196
+  },
+  {
+   "unit": "Communication",
+   "topic": "Classroom Communication",
+   "question": "According to McCroskey, the dimensions of teacher credibility are:",
+   "options": [
+    "Competence, character (trustworthiness) and caring",
+    "Age, gender and rank",
+    "Speed, accuracy and volume",
+    "Fame, wealth and power"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 197
+  },
+  {
+   "unit": "Communication",
+   "topic": "Classroom Communication",
+   "question": "Communication competence is generally described as a combination of:",
+   "options": [
+    "Age and experience",
+    "Knowledge, skills and motivation",
+    "Speed of delivery",
+    "Fluency only"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 198
+  },
+  {
+   "unit": "Communication",
+   "topic": "Barriers to Communication: General",
+   "question": "Anything that prevents or distorts a message from reaching the receiver as intended is a:",
+   "options": [
+    "Channel",
+    "Barrier to communication",
+    "Feedback",
+    "Code"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 199
+  },
+  {
+   "unit": "Communication",
+   "topic": "Barriers to Communication: General",
+   "question": "Barriers to communication can occur:",
+   "options": [
+    "Only at the sender's end",
+    "Only at the receiver's end",
+    "At any stage of the communication process",
+    "Only in the channel"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 200
+  },
+  {
+   "unit": "Communication",
+   "topic": "Barriers to Communication: General",
+   "question": "Which of the following is NOT a category of communication barriers?",
+   "options": [
+    "Mathematical",
+    "Physical",
+    "Semantic",
+    "Psychological"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 201
+  },
+  {
+   "unit": "Communication",
+   "topic": "Barriers to Communication: General",
+   "question": "The most common effect of communication barriers is:",
+   "options": [
+    "Faster decisions",
+    "Better relationships",
+    "Higher efficiency",
+    "Misunderstanding and distortion of the message"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 202
+  },
+  {
+   "unit": "Communication",
+   "topic": "Barriers to Communication: General",
+   "question": "Barriers arising from the surroundings in which communication takes place are:",
+   "options": [
+    "Semantic",
+    "Physical or environmental",
+    "Personal",
+    "Organizational"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 203
+  },
+  {
+   "unit": "Communication",
+   "topic": "Barriers to Communication: General",
+   "question": "Barriers related to the meaning of words and symbols are:",
+   "options": [
+    "Physical",
+    "Technological",
+    "Organizational",
+    "Semantic or language"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 204
+  },
+  {
+   "unit": "Communication",
+   "topic": "Barriers to Communication: General",
+   "question": "Barriers arising from the emotional state of the sender or receiver are:",
+   "options": [
+    "Physical",
+    "Technological",
+    "Psychological",
+    "Semantic"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 205
+  },
+  {
+   "unit": "Communication",
+   "topic": "Barriers to Communication: General",
+   "question": "Barriers arising from cultural and status differences are:",
+   "options": [
+    "Socio-cultural",
+    "Physical",
+    "Semantic",
+    "Technological"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 206
+  },
+  {
+   "unit": "Communication",
+   "topic": "Barriers to Communication: General",
+   "question": "Barriers arising from the structure and hierarchy of an institution are:",
+   "options": [
+    "Organizational",
+    "Personal",
+    "Physical",
+    "Semantic"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 207
+  },
+  {
+   "unit": "Communication",
+   "topic": "Barriers to Communication: General",
+   "question": "Barriers arising from machines, software or lack of digital access are:",
+   "options": [
+    "Physical",
+    "Technological",
+    "Personal",
+    "Psychological"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 208
+  },
+  {
+   "unit": "Communication",
+   "topic": "Physical or Environmental Barriers",
+   "question": "A noisy classroom due to nearby construction work is an example of a:",
+   "options": [
+    "Semantic barrier",
+    "Psychological barrier",
+    "Physical barrier",
+    "Personal barrier"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 209
+  },
+  {
+   "unit": "Communication",
+   "topic": "Physical or Environmental Barriers",
+   "question": "Which of the following is a physical barrier?",
+   "options": [
+    "Jargon",
+    "Prejudice",
+    "Distance between sender and receiver",
+    "Stereotype"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 210
+  },
+  {
+   "unit": "Communication",
+   "topic": "Physical or Environmental Barriers",
+   "question": "Poor acoustics in an auditorium is a:",
+   "options": [
+    "Physical (environmental) barrier",
+    "Semantic barrier",
+    "Psychological barrier",
+    "Organizational barrier"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 211
+  },
+  {
+   "unit": "Communication",
+   "topic": "Physical or Environmental Barriers",
+   "question": "Conveying complex technical data through a brief voice call illustrates:",
+   "options": [
+    "Stereotyping",
+    "Prejudice",
+    "Gender bias",
+    "Poor choice of channel"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 212
+  },
+  {
+   "unit": "Communication",
+   "topic": "Physical or Environmental Barriers",
+   "question": "Time pressure is classified as a:",
+   "options": [
+    "Physical or environmental barrier",
+    "Semantic barrier",
+    "Psychological barrier",
+    "Socio-cultural barrier"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 213
+  },
+  {
+   "unit": "Communication",
+   "topic": "Physical or Environmental Barriers",
+   "question": "Which of the following is NOT a physical barrier?",
+   "options": [
+    "Noise",
+    "Distance",
+    "Time pressure",
+    "Jargon"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 214
+  },
+  {
+   "unit": "Communication",
+   "topic": "Physical or Environmental Barriers",
+   "question": "Semantic noise refers to:",
+   "options": [
+    "Loud sounds",
+    "Confusing or ambiguous language that distorts meaning",
+    "Equipment failure",
+    "Physical distance"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 215
+  },
+  {
+   "unit": "Communication",
+   "topic": "Physical or Environmental Barriers",
+   "question": "A listener's own worries distracting them from the message is called:",
+   "options": [
+    "Physical noise",
+    "Channel failure",
+    "Time pressure",
+    "Psychological noise"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 216
+  },
+  {
+   "unit": "Communication",
+   "topic": "Physical or Environmental Barriers",
+   "question": "Honking traffic outside a lecture room is an example of:",
+   "options": [
+    "Semantic noise",
+    "Psychological noise",
+    "Physical noise",
+    "Feedback"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 217
+  },
+  {
+   "unit": "Communication",
+   "topic": "Physical or Environmental Barriers",
+   "question": "Lack of regular contact between a head office and a remote branch is hampered mainly by:",
+   "options": [
+    "Geographical distance",
+    "Jargon",
+    "Stereotypes",
+    "Prejudice"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 218
+  },
+  {
+   "unit": "Communication",
+   "topic": "Physical or Environmental Barriers",
+   "question": "Poor lighting, uncomfortable temperature and an overcrowded room are:",
+   "options": [
+    "Semantic barriers",
+    "Physical barriers",
+    "Personal barriers",
+    "Organizational barriers"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 219
+  },
+  {
+   "unit": "Communication",
+   "topic": "Physical or Environmental Barriers",
+   "question": "Back-benchers who cannot see or hear the speaker in a large hall face a:",
+   "options": [
+    "Socio-cultural barrier",
+    "Psychological barrier",
+    "Physical barrier",
+    "Semantic barrier"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 220
+  },
+  {
+   "unit": "Communication",
+   "topic": "Physical or Environmental Barriers",
+   "question": "Physical barriers can be reduced by:",
+   "options": [
+    "Using jargon",
+    "Choosing a quiet, well-equipped venue",
+    "Increasing hierarchy",
+    "Ignoring feedback"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 221
+  },
+  {
+   "unit": "Communication",
+   "topic": "Semantic or Language Barriers",
+   "question": "Use of technical terms unfamiliar to the receiver is called:",
+   "options": [
+    "Feedback",
+    "Jargon",
+    "Redundancy",
+    "Encoding"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 222
+  },
+  {
+   "unit": "Communication",
+   "topic": "Semantic or Language Barriers",
+   "question": "A doctor using medical terminology with a layperson illustrates a:",
+   "options": [
+    "Physical barrier",
+    "Organizational barrier",
+    "Technological barrier",
+    "Semantic barrier due to jargon"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 223
+  },
+  {
+   "unit": "Communication",
+   "topic": "Semantic or Language Barriers",
+   "question": "The word \"light\" (not heavy / not dark) illustrates a barrier due to:",
+   "options": [
+    "Noise",
+    "Different meanings of words",
+    "Distance",
+    "Hierarchy"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 224
+  },
+  {
+   "unit": "Communication",
+   "topic": "Semantic or Language Barriers",
+   "question": "\"Visiting relatives can be boring\" is an example of:",
+   "options": [
+    "Jargon",
+    "Time pressure",
+    "Prejudice",
+    "Ambiguity"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 225
+  },
+  {
+   "unit": "Communication",
+   "topic": "Semantic or Language Barriers",
+   "question": "Poor vocabulary on the part of the sender:",
+   "options": [
+    "Makes it hard to express ideas clearly",
+    "Improves clarity",
+    "Removes ambiguity",
+    "Increases feedback"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 226
+  },
+  {
+   "unit": "Communication",
+   "topic": "Semantic or Language Barriers",
+   "question": "When sender and receiver attach different meanings to the same words, it is called:",
+   "options": [
+    "Bypassing",
+    "Filtering",
+    "Feedback",
+    "Framing"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 227
+  },
+  {
+   "unit": "Communication",
+   "topic": "Semantic or Language Barriers",
+   "question": "Slang is most likely to create barriers for:",
+   "options": [
+    "Close friends",
+    "Outsiders and non-native speakers",
+    "The sender only",
+    "Peers who use it"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 228
+  },
+  {
+   "unit": "Communication",
+   "topic": "Semantic or Language Barriers",
+   "question": "The idiom \"kick the bucket\" may cause misunderstanding for:",
+   "options": [
+    "Native speakers only",
+    "Teachers only",
+    "Nobody",
+    "Non-native speakers who take it literally"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 229
+  },
+  {
+   "unit": "Communication",
+   "topic": "Semantic or Language Barriers",
+   "question": "Words like \"soon\" or \"as early as possible\" create:",
+   "options": [
+    "Concreteness",
+    "Clarity",
+    "Vagueness and ambiguity",
+    "Completeness"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 230
+  },
+  {
+   "unit": "Communication",
+   "topic": "Semantic or Language Barriers",
+   "question": "Semantic barriers can be reduced by using:",
+   "options": [
+    "Technical terms",
+    "Long sentences",
+    "Simple, familiar words",
+    "Slang"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 231
+  },
+  {
+   "unit": "Communication",
+   "topic": "Semantic or Language Barriers",
+   "question": "A language barrier arises when:",
+   "options": [
+    "The message is printed",
+    "Sender and receiver do not share a common language or proficiency",
+    "Distance is short",
+    "Noise is low"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 232
+  },
+  {
+   "unit": "Communication",
+   "topic": "Semantic or Language Barriers",
+   "question": "Literal word-for-word translation may distort meaning, creating a:",
+   "options": [
+    "Physical barrier",
+    "Technological barrier",
+    "Semantic barrier",
+    "Organizational barrier"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 233
+  },
+  {
+   "unit": "Communication",
+   "topic": "Semantic or Language Barriers",
+   "question": "Which of the following is a semantic barrier?",
+   "options": [
+    "Ambiguous wording",
+    "Loud machinery",
+    "Power failure",
+    "Information overload"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 234
+  },
+  {
+   "unit": "Communication",
+   "topic": "Semantic or Language Barriers",
+   "question": "Which pair consists only of semantic barriers?",
+   "options": [
+    "Jargon, ambiguity",
+    "Noise, distance",
+    "Fear, anger",
+    "Hierarchy, overload"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 235
+  },
+  {
+   "unit": "Communication",
+   "topic": "Psychological or Emotional Barriers",
+   "question": "Strong anger on the part of the receiver usually:",
+   "options": [
+    "Improves understanding",
+    "Distorts interpretation of the message",
+    "Removes barriers",
+    "Increases listening"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 236
+  },
+  {
+   "unit": "Communication",
+   "topic": "Psychological or Emotional Barriers",
+   "question": "Subordinates hiding errors for fear of reprimand illustrates a:",
+   "options": [
+    "Physical barrier",
+    "Technological barrier",
+    "Psychological barrier (fear)",
+    "Semantic barrier"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 237
+  },
+  {
+   "unit": "Communication",
+   "topic": "Psychological or Emotional Barriers",
+   "question": "A student too anxious before an exam to absorb instructions faces a:",
+   "options": [
+    "Physical barrier",
+    "Semantic barrier",
+    "Psychological barrier (stress)",
+    "Channel barrier"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 238
+  },
+  {
+   "unit": "Communication",
+   "topic": "Psychological or Emotional Barriers",
+   "question": "Rejecting an idea because of a pre-formed negative opinion of the speaker is:",
+   "options": [
+    "Noise",
+    "Ambiguity",
+    "Technical failure",
+    "Prejudice"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 239
+  },
+  {
+   "unit": "Communication",
+   "topic": "Psychological or Emotional Barriers",
+   "question": "A receiver who is uninterested in the topic is likely to show:",
+   "options": [
+    "Close attention",
+    "Better feedback",
+    "Clearer understanding",
+    "Poor retention and response"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 240
+  },
+  {
+   "unit": "Communication",
+   "topic": "Psychological or Emotional Barriers",
+   "question": "Mind wandering during a meeting due to inattention is a:",
+   "options": [
+    "Psychological barrier",
+    "Physical barrier",
+    "Technological barrier",
+    "Organizational barrier"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 241
+  },
+  {
+   "unit": "Communication",
+   "topic": "Psychological or Emotional Barriers",
+   "question": "Which emotion is most likely to hinder objective reception of a message?",
+   "options": [
+    "Calm",
+    "Curiosity",
+    "Interest",
+    "Anger"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 242
+  },
+  {
+   "unit": "Communication",
+   "topic": "Psychological or Emotional Barriers",
+   "question": "Which of the following is an emotional barrier?",
+   "options": [
+    "Receiver too upset to listen properly",
+    "Message printed in small font",
+    "Telephone line disconnected",
+    "Message in a foreign language"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 243
+  },
+  {
+   "unit": "Communication",
+   "topic": "Psychological or Emotional Barriers",
+   "question": "Which of the following is NOT a psychological barrier?",
+   "options": [
+    "Stress",
+    "Fear",
+    "Technical failure",
+    "Prejudice"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 244
+  },
+  {
+   "unit": "Communication",
+   "topic": "Psychological or Emotional Barriers",
+   "question": "Forming a judgment before the speaker finishes is called:",
+   "options": [
+    "Feedback",
+    "Paraphrasing",
+    "Encoding",
+    "Premature evaluation"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 245
+  },
+  {
+   "unit": "Communication",
+   "topic": "Psychological or Emotional Barriers",
+   "question": "A hostile attitude on the part of the receiver may lead to:",
+   "options": [
+    "Easy acceptance",
+    "Better clarity",
+    "Rejection of the message",
+    "More feedback"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 246
+  },
+  {
+   "unit": "Communication",
+   "topic": "Psychological or Emotional Barriers",
+   "question": "To reduce psychological barriers, a communicator should:",
+   "options": [
+    "Use jargon",
+    "Choose an appropriate time and show empathy",
+    "Raise the voice",
+    "Avoid feedback"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 247
+  },
+  {
+   "unit": "Communication",
+   "topic": "Psychological or Emotional Barriers",
+   "question": "Stage fright is an example of a:",
+   "options": [
+    "Physical barrier",
+    "Psychological barrier",
+    "Technological barrier",
+    "Organizational barrier"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 248
+  },
+  {
+   "unit": "Communication",
+   "topic": "Psychological or Emotional Barriers",
+   "question": "Fear and mistrust may cause receivers to:",
+   "options": [
+    "Withhold information or respond defensively",
+    "Share freely",
+    "Listen better",
+    "Ask more questions"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 249
+  },
+  {
+   "unit": "Communication",
+   "topic": "Socio-Cultural Barriers",
+   "question": "The same gesture meaning approval in one culture and an insult in another is a:",
+   "options": [
+    "Physical barrier",
+    "Technological barrier",
+    "Organizational barrier",
+    "Cultural barrier"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 250
+  },
+  {
+   "unit": "Communication",
+   "topic": "Socio-Cultural Barriers",
+   "question": "A junior employee hesitating to speak frankly to a senior illustrates:",
+   "options": [
+    "Noise",
+    "Status difference (socio-cultural barrier)",
+    "Jargon",
+    "Technical failure"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 251
+  },
+  {
+   "unit": "Communication",
+   "topic": "Socio-Cultural Barriers",
+   "question": "Assuming that all older employees cannot learn technology is a:",
+   "options": [
+    "Feedback",
+    "Stereotype",
+    "Redundancy",
+    "Noise"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 252
+  },
+  {
+   "unit": "Communication",
+   "topic": "Socio-Cultural Barriers",
+   "question": "Ignoring a suggestion because of the speaker's gender is:",
+   "options": [
+    "Semantic barrier",
+    "Physical barrier",
+    "Technological barrier",
+    "Gender bias"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 253
+  },
+  {
+   "unit": "Communication",
+   "topic": "Socio-Cultural Barriers",
+   "question": "Differing cultural attitudes to punctuality and deadlines can create a:",
+   "options": [
+    "Physical barrier",
+    "Technological barrier",
+    "Socio-cultural barrier",
+    "Organizational barrier"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 254
+  },
+  {
+   "unit": "Communication",
+   "topic": "Socio-Cultural Barriers",
+   "question": "Which of the following is a socio-cultural barrier?",
+   "options": [
+    "Status differences",
+    "Poor acoustics",
+    "Power failure",
+    "Information overload"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 255
+  },
+  {
+   "unit": "Communication",
+   "topic": "Socio-Cultural Barriers",
+   "question": "Social prejudice based on religion or region is a:",
+   "options": [
+    "Physical barrier",
+    "Technological barrier",
+    "Socio-cultural barrier",
+    "Semantic barrier"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 256
+  },
+  {
+   "unit": "Communication",
+   "topic": "Socio-Cultural Barriers",
+   "question": "Socio-cultural barriers can be overcome by:",
+   "options": [
+    "Rigid hierarchy",
+    "Use of slang",
+    "Time pressure",
+    "Cultural awareness and respect for diversity"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 257
+  },
+  {
+   "unit": "Communication",
+   "topic": "Socio-Cultural Barriers",
+   "question": "Which of the following is NOT a socio-cultural barrier?",
+   "options": [
+    "Equipment failure",
+    "Gender bias",
+    "Stereotype",
+    "Cultural difference"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 258
+  },
+  {
+   "unit": "Communication",
+   "topic": "Socio-Cultural Barriers",
+   "question": "Social or economic class differences between sender and receiver may lead to:",
+   "options": [
+    "Better clarity",
+    "Reluctance, mistrust or misinterpretation",
+    "Less noise",
+    "Automatic feedback"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 259
+  },
+  {
+   "unit": "Communication",
+   "topic": "Socio-Cultural Barriers",
+   "question": "Gender bias in communication means:",
+   "options": [
+    "Poor acoustics",
+    "Using technical language",
+    "Judging or responding to messages based on the sender's gender",
+    "Time pressure"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 260
+  },
+  {
+   "unit": "Communication",
+   "topic": "Socio-Cultural Barriers",
+   "question": "Stereotypes hinder communication because they:",
+   "options": [
+    "Create fixed, oversimplified expectations about people",
+    "Improve clarity",
+    "Increase feedback",
+    "Reduce noise"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 261
+  },
+  {
+   "unit": "Communication",
+   "topic": "Organizational Barriers",
+   "question": "Messages passing through many levels of a tall hierarchy tend to be:",
+   "options": [
+    "Faster and clearer",
+    "More accurate",
+    "Delayed and distorted",
+    "Always complete"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 262
+  },
+  {
+   "unit": "Communication",
+   "topic": "Organizational Barriers",
+   "question": "Poorly defined structure or unclear reporting lines cause:",
+   "options": [
+    "Better coordination",
+    "Faster decisions",
+    "Confusion about whom to communicate with",
+    "Less noise"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 263
+  },
+  {
+   "unit": "Communication",
+   "topic": "Organizational Barriers",
+   "question": "When employees receive more information than they can process, the barrier is:",
+   "options": [
+    "Jargon",
+    "Noise",
+    "Stereotyping",
+    "Information overload"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 264
+  },
+  {
+   "unit": "Communication",
+   "topic": "Organizational Barriers",
+   "question": "Lack of trust between management and employees leads to:",
+   "options": [
+    "Open sharing",
+    "Guarded, suspicious communication",
+    "Faster feedback",
+    "Better listening"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 265
+  },
+  {
+   "unit": "Communication",
+   "topic": "Organizational Barriers",
+   "question": "Subordinates passing only favourable information to superiors is called:",
+   "options": [
+    "Feedback",
+    "Bypassing",
+    "Filtering",
+    "Encoding"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 266
+  },
+  {
+   "unit": "Communication",
+   "topic": "Organizational Barriers",
+   "question": "Excessive reliance on formal channels in a rigid hierarchy often causes:",
+   "options": [
+    "Faster response",
+    "Free flow of information",
+    "Informality",
+    "Delays"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 267
+  },
+  {
+   "unit": "Communication",
+   "topic": "Organizational Barriers",
+   "question": "Which of the following is an organizational barrier?",
+   "options": [
+    "Hierarchy",
+    "Noise",
+    "Prejudice",
+    "Slang"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 268
+  },
+  {
+   "unit": "Communication",
+   "topic": "Organizational Barriers",
+   "question": "Reducing the number of levels in the hierarchy helps by:",
+   "options": [
+    "Lengthening the path",
+    "Shortening the path and reducing distortion",
+    "Increasing distortion",
+    "Increasing delay"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 269
+  },
+  {
+   "unit": "Communication",
+   "topic": "Organizational Barriers",
+   "question": "An open-door policy helps by:",
+   "options": [
+    "Increasing distance between ranks",
+    "Blocking feedback",
+    "Increasing jargon",
+    "Encouraging free upward communication and trust"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 270
+  },
+  {
+   "unit": "Communication",
+   "topic": "Organizational Barriers",
+   "question": "Information overload can be reduced by:",
+   "options": [
+    "Prioritising and summarising information",
+    "Sending more emails",
+    "Using jargon",
+    "Increasing the levels"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 271
+  },
+  {
+   "unit": "Communication",
+   "topic": "Organizational Barriers",
+   "question": "Employees fearing blame if they share problems indicates:",
+   "options": [
+    "Lack of trust",
+    "Technical failure",
+    "Poor acoustics",
+    "Language difference"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 272
+  },
+  {
+   "unit": "Communication",
+   "topic": "Organizational Barriers",
+   "question": "Which of the following is NOT an organizational barrier?",
+   "options": [
+    "Poor structure",
+    "Gender bias",
+    "Information overload",
+    "Lack of trust"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 273
+  },
+  {
+   "unit": "Communication",
+   "topic": "Technological Barriers",
+   "question": "A server crash during an online class is a:",
+   "options": [
+    "Semantic barrier",
+    "Technical failure",
+    "Psychological barrier",
+    "Personal barrier"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 274
+  },
+  {
+   "unit": "Communication",
+   "topic": "Technological Barriers",
+   "question": "The digital divide refers to:",
+   "options": [
+    "Distance between two cities",
+    "Difference in vocabulary",
+    "Gap between levels in a hierarchy",
+    "The gap between those with and without access to digital technology"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 275
+  },
+  {
+   "unit": "Communication",
+   "topic": "Technological Barriers",
+   "question": "Students in remote areas lacking internet connectivity face a:",
+   "options": [
+    "Technological barrier of lack of access",
+    "Semantic barrier",
+    "Psychological barrier",
+    "Personal barrier"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 276
+  },
+  {
+   "unit": "Communication",
+   "topic": "Technological Barriers",
+   "question": "Which of the following is a technological barrier?",
+   "options": [
+    "Slang",
+    "Prejudice",
+    "Hierarchy",
+    "A power outage disrupting a video conference"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 277
+  },
+  {
+   "unit": "Communication",
+   "topic": "Technological Barriers",
+   "question": "Inability to use digital tools effectively contributes to:",
+   "options": [
+    "Semantic barrier",
+    "Physical noise",
+    "Digital divide",
+    "Stereotyping"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 278
+  },
+  {
+   "unit": "Communication",
+   "topic": "Technological Barriers",
+   "question": "A file that cannot be opened because of software incompatibility is a:",
+   "options": [
+    "Technological barrier",
+    "Psychological barrier",
+    "Socio-cultural barrier",
+    "Semantic barrier"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 279
+  },
+  {
+   "unit": "Communication",
+   "topic": "Technological Barriers",
+   "question": "A suitable remedy for technological barriers is:",
+   "options": [
+    "Ignoring the problem",
+    "Reliable infrastructure, backups and training",
+    "Increasing hierarchy",
+    "Using jargon"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 280
+  },
+  {
+   "unit": "Communication",
+   "topic": "Technological Barriers",
+   "question": "Which of the following is NOT a technological barrier?",
+   "options": [
+    "Technical failure",
+    "Digital divide",
+    "Selective perception",
+    "Lack of access"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 281
+  },
+  {
+   "unit": "Communication",
+   "topic": "Personal Barriers",
+   "question": "Selective perception means:",
+   "options": [
+    "Hearing everything equally",
+    "Seeing or hearing only what one expects or wants to",
+    "Perfect listening",
+    "Ignoring noise"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 282
+  },
+  {
+   "unit": "Communication",
+   "topic": "Personal Barriers",
+   "question": "Interrupting the speaker and thinking of one's own reply is an example of:",
+   "options": [
+    "Active listening",
+    "Empathy",
+    "Poor listening",
+    "Feedback"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 283
+  },
+  {
+   "unit": "Communication",
+   "topic": "Personal Barriers",
+   "question": "Assuming the receiver knows the background without checking is a:",
+   "options": [
+    "Wrong assumption",
+    "Clarity",
+    "Feedback",
+    "Concreteness"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 284
+  },
+  {
+   "unit": "Communication",
+   "topic": "Personal Barriers",
+   "question": "Lack of feedback means:",
+   "options": [
+    "The receiver always understands",
+    "Noise decreases",
+    "The sender cannot tell whether the message was understood",
+    "The channel improves"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 285
+  },
+  {
+   "unit": "Communication",
+   "topic": "Personal Barriers",
+   "question": "Which of the following is a personal barrier?",
+   "options": [
+    "Selective perception",
+    "Noise",
+    "Hierarchy",
+    "Digital divide"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 286
+  },
+  {
+   "unit": "Communication",
+   "topic": "Personal Barriers",
+   "question": "A remedy for lack of feedback is to:",
+   "options": [
+    "Avoid questions",
+    "Speak faster",
+    "Use jargon",
+    "Ask questions and invite responses"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 287
+  },
+  {
+   "unit": "Communication",
+   "topic": "Personal Barriers",
+   "question": "A manager who notices only the faults of an employee he dislikes shows:",
+   "options": [
+    "Digital divide",
+    "Selective perception",
+    "Poor acoustics",
+    "Time pressure"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 288
+  },
+  {
+   "unit": "Communication",
+   "topic": "Personal Barriers",
+   "question": "Which pair consists of personal barriers?",
+   "options": [
+    "Noise and distance",
+    "Jargon and slang",
+    "Hierarchy and overload",
+    "Poor listening and wrong assumptions"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 289
+  },
+  {
+   "unit": "Communication",
+   "topic": "Overcoming Barriers",
+   "question": "Feedback helps overcome barriers by:",
+   "options": [
+    "Increasing noise",
+    "Delaying the message",
+    "Hiding errors",
+    "Confirming whether the message was understood as intended"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 290
+  },
+  {
+   "unit": "Communication",
+   "topic": "Overcoming Barriers",
+   "question": "Active listening helps by:",
+   "options": [
+    "Paying full attention and clarifying",
+    "Interrupting the speaker",
+    "Judging early",
+    "Ignoring tone"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 291
+  },
+  {
+   "unit": "Communication",
+   "topic": "Overcoming Barriers",
+   "question": "Empathy helps by:",
+   "options": [
+    "Increasing jargon",
+    "Avoiding feedback",
+    "Seeing the message from the receiver's viewpoint",
+    "Raising the voice"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 292
+  },
+  {
+   "unit": "Communication",
+   "topic": "Overcoming Barriers",
+   "question": "Using simple language mainly reduces:",
+   "options": [
+    "Physical barriers",
+    "Semantic barriers",
+    "Technological barriers",
+    "Organizational barriers"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 293
+  },
+  {
+   "unit": "Communication",
+   "topic": "Overcoming Barriers",
+   "question": "Choosing the appropriate channel means:",
+   "options": [
+    "Selecting a medium that suits the message and audience",
+    "Increasing noise",
+    "Using one medium for everything",
+    "Avoiding written communication"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 294
+  },
+  {
+   "unit": "Communication",
+   "topic": "Overcoming Barriers",
+   "question": "Clarifying ideas before communicating helps reduce:",
+   "options": [
+    "Feedback",
+    "Ambiguity and confusion",
+    "Listening",
+    "Trust"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 295
+  },
+  {
+   "unit": "Communication",
+   "topic": "Overcoming Barriers",
+   "question": "Which of the following is NOT a way to overcome barriers?",
+   "options": [
+    "Seeking feedback",
+    "Active listening",
+    "Using complex jargon",
+    "Empathy"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 296
+  },
+  {
+   "unit": "Communication",
+   "topic": "Overcoming Barriers",
+   "question": "Repeating key points or using more than one channel helps to:",
+   "options": [
+    "Increase noise",
+    "Create jargon",
+    "Reduce feedback",
+    "Reinforce understanding"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 297
+  },
+  {
+   "unit": "Communication",
+   "topic": "Mass Communication: Meaning, Characteristics and Functions",
+   "question": "Which of the following is a characteristic of mass communication?",
+   "options": [
+    "Small, known audience",
+    "Use of a technological medium",
+    "Face-to-face contact",
+    "Immediate personal feedback"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 298
+  },
+  {
+   "unit": "Communication",
+   "topic": "Mass Communication: Meaning, Characteristics and Functions",
+   "question": "In mass media, a gatekeeper decides:",
+   "options": [
+    "What information is selected and reaches the audience",
+    "Only advertising rates",
+    "Audience size",
+    "Printing cost"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 299
+  },
+  {
+   "unit": "Communication",
+   "topic": "Mass Communication: Meaning, Characteristics and Functions",
+   "question": "David Manning White's 1950 gatekeeping study analysed the decisions of a:",
+   "options": [
+    "Newspaper wire editor",
+    "TV anchor",
+    "Radio jockey",
+    "Film censor"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 300
+  },
+  {
+   "unit": "Communication",
+   "topic": "Mass Communication: Meaning, Characteristics and Functions",
+   "question": "Mass communication messages are typically:",
+   "options": [
+    "Personalised for each receiver",
+    "Secret",
+    "Spoken only",
+    "Standardised and produced for many at once"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 301
+  },
+  {
+   "unit": "Communication",
+   "topic": "Mass Communication: Meaning, Characteristics and Functions",
+   "question": "Anonymity in mass communication means:",
+   "options": [
+    "The sender knows every receiver personally",
+    "The communicator and audience are largely unknown to each other",
+    "The message has no source",
+    "Receivers are always identified"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 302
+  },
+  {
+   "unit": "Communication",
+   "topic": "Mass Communication: Meaning, Characteristics and Functions",
+   "question": "Mass communication is usually produced by:",
+   "options": [
+    "Organisations (media institutions)",
+    "Individuals in private",
+    "Only governments",
+    "Receivers"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 303
+  },
+  {
+   "unit": "Communication",
+   "topic": "Mass Communication: Meaning, Characteristics and Functions",
+   "question": "In mass communication, sender and receiver are linked through:",
+   "options": [
+    "Direct touch",
+    "Eye contact",
+    "Telepathy",
+    "Technological media"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 304
+  },
+  {
+   "unit": "Communication",
+   "topic": "Mass Communication: Meaning, Characteristics and Functions",
+   "question": "Reporting news and weather forecasts mainly serves the function of:",
+   "options": [
+    "Persuasion",
+    "Entertainment",
+    "Informing",
+    "Education"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 305
+  },
+  {
+   "unit": "Communication",
+   "topic": "Mass Communication: Meaning, Characteristics and Functions",
+   "question": "Science documentaries mainly serve the function of:",
+   "options": [
+    "Persuasion",
+    "Education",
+    "Entertainment",
+    "Surveillance"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 306
+  },
+  {
+   "unit": "Communication",
+   "topic": "Mass Communication: Meaning, Characteristics and Functions",
+   "question": "Films, serials and music shows mainly serve the function of:",
+   "options": [
+    "Informing",
+    "Educating",
+    "Entertaining",
+    "Persuading"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 307
+  },
+  {
+   "unit": "Communication",
+   "topic": "Mass Communication: Meaning, Characteristics and Functions",
+   "question": "Advertisements and editorials primarily aim to:",
+   "options": [
+    "Only entertain",
+    "Only educate",
+    "Persuade",
+    "Only inform"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 308
+  },
+  {
+   "unit": "Communication",
+   "topic": "Mass Communication: Meaning, Characteristics and Functions",
+   "question": "Which of the following is NOT a function of mass media?",
+   "options": [
+    "Inform",
+    "Prosecute",
+    "Educate",
+    "Entertain"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 309
+  },
+  {
+   "unit": "Communication",
+   "topic": "Mass Communication: Meaning, Characteristics and Functions",
+   "question": "Mass media are:",
+   "options": [
+    "The channels or tools used for mass communication",
+    "The audience",
+    "Feedback only",
+    "The message only"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 310
+  },
+  {
+   "unit": "Communication",
+   "topic": "Mass Communication: Meaning, Characteristics and Functions",
+   "question": "In mass communication, the same message reaches many receivers:",
+   "options": [
+    "One by one",
+    "Only after a year",
+    "Only by post",
+    "Simultaneously or nearly so"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 311
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Mass Media",
+   "question": "Which of the following is a print medium?",
+   "options": [
+    "Radio",
+    "Newspaper",
+    "Television",
+    "Podcast"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 312
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Mass Media",
+   "question": "The first printing press in India was set up in:",
+   "options": [
+    "Goa, 1556",
+    "Bombay, 1780",
+    "Calcutta, 1800",
+    "Madras, 1900"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 313
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Mass Media",
+   "question": "The first newspaper in India was:",
+   "options": [
+    "Hicky's Bengal Gazette",
+    "The Hindu",
+    "The Times of India",
+    "Samachar Darpan"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 314
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Mass Media",
+   "question": "Udant Martand (1826) is regarded as the first:",
+   "options": [
+    "English newspaper",
+    "Urdu newspaper",
+    "Tamil newspaper",
+    "Hindi newspaper"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 315
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Mass Media",
+   "question": "Compared with newspapers, magazines are generally:",
+   "options": [
+    "Published less frequently, with a longer shelf life",
+    "Published hourly",
+    "Audio-only",
+    "Radio-based"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 316
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Mass Media",
+   "question": "Newspapers and periodicals in India are registered with the:",
+   "options": [
+    "TRAI",
+    "CBFC",
+    "RNI",
+    "BARC"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 317
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Mass Media",
+   "question": "Which of the following is an electronic medium?",
+   "options": [
+    "Magazine",
+    "Book",
+    "Television",
+    "Pamphlet"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 318
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Mass Media",
+   "question": "The Indian State Broadcasting Service was renamed All India Radio in:",
+   "options": [
+    "1927",
+    "1936",
+    "1947",
+    "1957"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 319
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Mass Media",
+   "question": "Doordarshan began television broadcasting in India in:",
+   "options": [
+    "1947",
+    "1959",
+    "1952",
+    "1982"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 320
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Mass Media",
+   "question": "Colour television was introduced in India in:",
+   "options": [
+    "1975",
+    "1991",
+    "1995",
+    "1982"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 321
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Mass Media",
+   "question": "India's first full-length feature film was:",
+   "options": [
+    "Alam Ara",
+    "Mother India",
+    "Pather Panchali",
+    "Raja Harishchandra"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 322
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Mass Media",
+   "question": "India's first talkie (1931) was:",
+   "options": [
+    "Raja Harishchandra",
+    "Mother India",
+    "Alam Ara",
+    "Pather Panchali"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 323
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Mass Media",
+   "question": "Films are certified for public exhibition in India by the:",
+   "options": [
+    "PCI",
+    "CBFC",
+    "TRAI",
+    "BARC"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 324
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Mass Media",
+   "question": "Which of the following is a digital or new medium?",
+   "options": [
+    "Newspaper",
+    "Radio",
+    "Magazine",
+    "Podcast"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 325
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Mass Media",
+   "question": "OTT stands for:",
+   "options": [
+    "On-the-telephone",
+    "Online transfer technology",
+    "Over-the-top",
+    "Open television transmission"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 326
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Mass Media",
+   "question": "The word \"blog\" is short for:",
+   "options": [
+    "Big log",
+    "Broadcast log",
+    "Web log",
+    "Block log"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 327
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Mass Media",
+   "question": "A defining feature of social media compared with traditional media is:",
+   "options": [
+    "One-way flow only",
+    "Fixed schedule",
+    "No audience participation",
+    "User-generated content and interactivity"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 328
+  },
+  {
+   "unit": "Communication",
+   "topic": "Types of Mass Media",
+   "question": "Public Internet services in India were launched by VSNL in:",
+   "options": [
+    "1995",
+    "1985",
+    "2000",
+    "2005"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 329
+  },
+  {
+   "unit": "Communication",
+   "topic": "Role of Mass Media in Society",
+   "question": "Mass media shape public opinion mainly by:",
+   "options": [
+    "Making laws",
+    "Collecting taxes",
+    "Selecting, presenting and interpreting information on issues",
+    "Conducting elections"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 330
+  },
+  {
+   "unit": "Communication",
+   "topic": "Role of Mass Media in Society",
+   "question": "The press is called the \"Fourth Estate\" because it:",
+   "options": [
+    "Is the fourth military branch",
+    "Acts as a watchdog over the three organs of government",
+    "Collects revenue",
+    "Frames laws"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 331
+  },
+  {
+   "unit": "Communication",
+   "topic": "Role of Mass Media in Society",
+   "question": "The phrase \"Fourth Estate\" is commonly attributed to:",
+   "options": [
+    "Lasswell",
+    "Berlo",
+    "Aristotle",
+    "Edmund Burke"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 332
+  },
+  {
+   "unit": "Communication",
+   "topic": "Role of Mass Media in Society",
+   "question": "In a democracy, the media's key role is:",
+   "options": [
+    "Replacing the judiciary",
+    "Controlling elections",
+    "Informing citizens and holding power accountable",
+    "Making policy"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 333
+  },
+  {
+   "unit": "Communication",
+   "topic": "Role of Mass Media in Society",
+   "question": "Public health campaigns on television illustrate the role of media in:",
+   "options": [
+    "Censorship",
+    "Education and awareness",
+    "Gatekeeping only",
+    "Selling goods"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 334
+  },
+  {
+   "unit": "Communication",
+   "topic": "Role of Mass Media in Society",
+   "question": "Portraying social issues like gender inequality can promote:",
+   "options": [
+    "Social change",
+    "Social stagnation",
+    "Censorship",
+    "Isolation"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 335
+  },
+  {
+   "unit": "Communication",
+   "topic": "Role of Mass Media in Society",
+   "question": "Passing on values and traditions across generations through media is:",
+   "options": [
+    "Surveillance",
+    "Cultural transmission",
+    "Correlation",
+    "Gatekeeping"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 336
+  },
+  {
+   "unit": "Communication",
+   "topic": "Role of Mass Media in Society",
+   "question": "Watchdog journalism mainly involves:",
+   "options": [
+    "Exposing corruption and wrongdoing",
+    "Reporting only sports",
+    "Reporting only weather",
+    "Providing only entertainment"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 337
+  },
+  {
+   "unit": "Communication",
+   "topic": "Role of Mass Media in Society",
+   "question": "Highlighting poverty, health and literacy issues to mobilise action reflects the media's role in:",
+   "options": [
+    "Entertainment only",
+    "Advertising only",
+    "Cultural isolation",
+    "Social change and development"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 338
+  },
+  {
+   "unit": "Communication",
+   "topic": "Role of Mass Media in Society",
+   "question": "Press freedom in India is derived from Article 19(1)(a), which guarantees:",
+   "options": [
+    "Freedom of speech and expression",
+    "Right to equality",
+    "Right to property",
+    "Right to constitutional remedies"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 339
+  },
+  {
+   "unit": "Communication",
+   "topic": "Media Theories and Effects",
+   "question": "The hypodermic needle theory assumes the audience is:",
+   "options": [
+    "Active and selective",
+    "Immune to media",
+    "Passive and directly influenced",
+    "Independent"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 340
+  },
+  {
+   "unit": "Communication",
+   "topic": "Media Theories and Effects",
+   "question": "Another name for the hypodermic needle theory is the:",
+   "options": [
+    "Two-step flow theory",
+    "Uses and gratifications theory",
+    "Cultivation theory",
+    "Magic bullet theory"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 341
+  },
+  {
+   "unit": "Communication",
+   "topic": "Media Theories and Effects",
+   "question": "The 1938 \"War of the Worlds\" radio broadcast is often linked with:",
+   "options": [
+    "Two-step flow",
+    "Agenda-setting",
+    "Spiral of silence",
+    "Hypodermic needle theory"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 342
+  },
+  {
+   "unit": "Communication",
+   "topic": "Media Theories and Effects",
+   "question": "The two-step flow theory was proposed by:",
+   "options": [
+    "McCombs",
+    "Gerbner",
+    "Lazarsfeld, with Berelson and Gaudet",
+    "Noelle-Neumann"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 343
+  },
+  {
+   "unit": "Communication",
+   "topic": "Media Theories and Effects",
+   "question": "In the two-step flow, information flows from the media to:",
+   "options": [
+    "Everyone directly",
+    "Opinion leaders, who pass it to others",
+    "Governments only",
+    "Advertisers"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 344
+  },
+  {
+   "unit": "Communication",
+   "topic": "Media Theories and Effects",
+   "question": "The two-step flow theory originated from a study of the:",
+   "options": [
+    "1938 radio drama",
+    "1940 US presidential election campaign",
+    "1968 election",
+    "1991 war"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 345
+  },
+  {
+   "unit": "Communication",
+   "topic": "Media Theories and Effects",
+   "question": "Opinion leaders are:",
+   "options": [
+    "Government officers",
+    "Newspaper owners only",
+    "Advertisers",
+    "Individuals who influence others' opinions and relay media content"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 346
+  },
+  {
+   "unit": "Communication",
+   "topic": "Media Theories and Effects",
+   "question": "The multi-step flow theory suggests that:",
+   "options": [
+    "Media effects are direct",
+    "Media influence passes through several layers of people",
+    "The audience is passive",
+    "Only television matters"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 347
+  },
+  {
+   "unit": "Communication",
+   "topic": "Media Theories and Effects",
+   "question": "The agenda-setting theory was proposed by:",
+   "options": [
+    "McCombs and Shaw",
+    "Katz and Blumler",
+    "Gerbner",
+    "Lazarsfeld"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 348
+  },
+  {
+   "unit": "Communication",
+   "topic": "Media Theories and Effects",
+   "question": "According to agenda-setting, the media are most successful in telling people:",
+   "options": [
+    "What to think",
+    "How to vote",
+    "What to think about",
+    "What to buy"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 349
+  },
+  {
+   "unit": "Communication",
+   "topic": "Media Theories and Effects",
+   "question": "The idea that the press tells people \"what to think about\" is attributed to:",
+   "options": [
+    "Gerbner",
+    "Bernard Cohen",
+    "Noelle-Neumann",
+    "Katz"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 350
+  },
+  {
+   "unit": "Communication",
+   "topic": "Media Theories and Effects",
+   "question": "The uses and gratifications theory focuses on:",
+   "options": [
+    "What media do to people",
+    "Media ownership",
+    "What people do with media",
+    "Media law"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 351
+  },
+  {
+   "unit": "Communication",
+   "topic": "Media Theories and Effects",
+   "question": "The uses and gratifications approach is associated with:",
+   "options": [
+    "Katz, Blumler and Gurevitch",
+    "Lazarsfeld",
+    "McCombs and Shaw",
+    "Gerbner"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 352
+  },
+  {
+   "unit": "Communication",
+   "topic": "Media Theories and Effects",
+   "question": "Watching a comedy show to relax meets the need for:",
+   "options": [
+    "Escapism or tension release",
+    "Surveillance",
+    "Social prestige",
+    "Voting"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 353
+  },
+  {
+   "unit": "Communication",
+   "topic": "Media Theories and Effects",
+   "question": "The cultivation theory was proposed by:",
+   "options": [
+    "Lazarsfeld",
+    "McCombs",
+    "Noelle-Neumann",
+    "Gerbner"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 354
+  },
+  {
+   "unit": "Communication",
+   "topic": "Media Theories and Effects",
+   "question": "Cultivation theory studies the long-term effects of:",
+   "options": [
+    "Newspaper reading",
+    "Television viewing",
+    "Radio listening",
+    "Book reading"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 355
+  },
+  {
+   "unit": "Communication",
+   "topic": "Media Theories and Effects",
+   "question": "\"Mean world syndrome\" refers to the belief that:",
+   "options": [
+    "Light viewers fear crime",
+    "Radio listeners are violent",
+    "Heavy TV viewers perceive the world as more dangerous than it is",
+    "Readers are pessimistic"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 356
+  },
+  {
+   "unit": "Communication",
+   "topic": "Media Theories and Effects",
+   "question": "The spiral of silence theory was proposed by:",
+   "options": [
+    "Gerbner",
+    "Lazarsfeld",
+    "McCombs",
+    "Elisabeth Noelle-Neumann"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 357
+  },
+  {
+   "unit": "Communication",
+   "topic": "Media Theories and Effects",
+   "question": "In the spiral of silence, people with minority opinions tend to:",
+   "options": [
+    "Speak louder",
+    "Join the majority loudly",
+    "Remain silent for fear of isolation",
+    "Ignore the media"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 358
+  },
+  {
+   "unit": "Communication",
+   "topic": "Media Theories and Effects",
+   "question": "The media dependency theory was proposed by:",
+   "options": [
+    "Ball-Rokeach and DeFleur",
+    "Katz and Lazarsfeld",
+    "Gerbner",
+    "Shaw"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 359
+  },
+  {
+   "unit": "Communication",
+   "topic": "Media Theories and Effects",
+   "question": "Dependency on media is greatest during:",
+   "options": [
+    "Stable, calm periods only",
+    "Vacations only",
+    "Never",
+    "Social change, conflict or crisis"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 360
+  },
+  {
+   "unit": "Communication",
+   "topic": "Media Theories and Effects",
+   "question": "Match List I (Theory) with List II (Proponent):\nList I: A. Agenda-setting, B. Spiral of silence, C. Cultivation, D. Two-step flow\nList II: I. Gerbner, II. Lazarsfeld, III. McCombs and Shaw, IV. Noelle-Neumann",
+   "options": [
+    "A-III, B-IV, C-I, D-II",
+    "A-I, B-II, C-III, D-IV",
+    "A-II, B-I, C-IV, D-III",
+    "A-IV, B-III, C-II, D-I"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 361
+  },
+  {
+   "unit": "Communication",
+   "topic": "Media and Development",
+   "question": "Development communication refers to:",
+   "options": [
+    "Only advertising",
+    "The use of communication to support social and economic development",
+    "Entertainment only",
+    "Censorship"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 362
+  },
+  {
+   "unit": "Communication",
+   "topic": "Media and Development",
+   "question": "\"Mass Media and National Development\" (1964) was written by:",
+   "options": [
+    "Lasswell",
+    "Berlo",
+    "Wilbur Schramm",
+    "McLuhan"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 363
+  },
+  {
+   "unit": "Communication",
+   "topic": "Media and Development",
+   "question": "SITE (1975–76) was an experiment in:",
+   "options": [
+    "Satellite television for education and development in villages",
+    "Print journalism",
+    "Radio drama",
+    "Film censorship"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 364
+  },
+  {
+   "unit": "Communication",
+   "topic": "Media and Development",
+   "question": "India's first dedicated educational satellite, launched in 2004, was:",
+   "options": [
+    "EDUSAT",
+    "INSAT-1A",
+    "Aryabhata",
+    "Chandrayaan"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 365
+  },
+  {
+   "unit": "Communication",
+   "topic": "Media and Development",
+   "question": "The National Mission on Education through ICT (NMEICT) aims at:",
+   "options": [
+    "Registering newspapers",
+    "Film certification",
+    "Radio broadcasting",
+    "Leveraging ICT for teaching and learning in higher education"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 366
+  },
+  {
+   "unit": "Communication",
+   "topic": "Media and Development",
+   "question": "E-governance means:",
+   "options": [
+    "Using ICT to deliver government services and information to citizens, businesses and agencies",
+    "Printing government gazettes",
+    "Radio news bulletins",
+    "Film censorship"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 367
+  },
+  {
+   "unit": "Communication",
+   "topic": "Media and Development",
+   "question": "G2C in e-governance stands for:",
+   "options": [
+    "Government to Company",
+    "General to Consumer",
+    "Government to Citizen",
+    "Group to Citizen"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 368
+  },
+  {
+   "unit": "Communication",
+   "topic": "Media and Development",
+   "question": "The National e-Governance Plan (NeGP) was launched in:",
+   "options": [
+    "1996",
+    "2006",
+    "2016",
+    "2020"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 369
+  },
+  {
+   "unit": "Communication",
+   "topic": "Issues and Concerns",
+   "question": "Which of the following is a principle of media ethics?",
+   "options": [
+    "Sensationalism",
+    "Paid propaganda",
+    "Rumour-spreading",
+    "Accuracy and fairness"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 370
+  },
+  {
+   "unit": "Communication",
+   "topic": "Issues and Concerns",
+   "question": "\"Paid news\" means:",
+   "options": [
+    "News about payments",
+    "Subscription-based news",
+    "News or analysis appearing in the media for a price in cash or kind",
+    "News about banks"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 371
+  },
+  {
+   "unit": "Communication",
+   "topic": "Issues and Concerns",
+   "question": "Systematically favouring one side in news coverage is:",
+   "options": [
+    "Objectivity",
+    "Gatekeeping",
+    "Cultivation",
+    "Media bias"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 372
+  },
+  {
+   "unit": "Communication",
+   "topic": "Issues and Concerns",
+   "question": "Exaggerating events to attract audiences is called:",
+   "options": [
+    "Objectivity",
+    "Sensationalism",
+    "Fact-checking",
+    "Literacy"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 373
+  },
+  {
+   "unit": "Communication",
+   "topic": "Issues and Concerns",
+   "question": "Deliberately created false information intended to deceive is:",
+   "options": [
+    "Misinformation",
+    "Disinformation",
+    "Malinformation",
+    "Opinion"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 374
+  },
+  {
+   "unit": "Communication",
+   "topic": "Issues and Concerns",
+   "question": "False information shared without intent to harm is:",
+   "options": [
+    "Disinformation",
+    "Propaganda",
+    "Misinformation",
+    "Satire"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 375
+  },
+  {
+   "unit": "Communication",
+   "topic": "Issues and Concerns",
+   "question": "A deepfake is:",
+   "options": [
+    "AI-generated synthetic media showing people saying or doing things they never did",
+    "A kind of encryption",
+    "A TV rating",
+    "A newspaper layout"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 376
+  },
+  {
+   "unit": "Communication",
+   "topic": "Issues and Concerns",
+   "question": "Albert Bandura's Bobo doll experiments suggested that children may:",
+   "options": [
+    "Find violence cathartic",
+    "Be unaffected by TV",
+    "Imitate aggressive behaviour they observe",
+    "Become calmer"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 377
+  },
+  {
+   "unit": "Communication",
+   "topic": "Issues and Concerns",
+   "question": "Desensitization to media violence means:",
+   "options": [
+    "Reduced emotional response after repeated exposure",
+    "Heightened emotional response to violence",
+    "Increased empathy",
+    "Improved media literacy"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 378
+  },
+  {
+   "unit": "Communication",
+   "topic": "Issues and Concerns",
+   "question": "TRPs in India are measured by:",
+   "options": [
+    "PCI",
+    "BARC",
+    "CBFC",
+    "ABC"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 379
+  },
+  {
+   "unit": "Communication",
+   "topic": "Issues and Concerns",
+   "question": "Commercialization of media means:",
+   "options": [
+    "Public service broadcasting",
+    "Free press",
+    "Media literacy",
+    "Prioritising profit and advertising over public interest"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 380
+  },
+  {
+   "unit": "Communication",
+   "topic": "Issues and Concerns",
+   "question": "The right to privacy was recognised as a fundamental right in:",
+   "options": [
+    "Justice K.S. Puttaswamy v. Union of India (2017)",
+    "Kesavananda Bharati",
+    "Maneka Gandhi",
+    "Romesh Thappar"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 381
+  },
+  {
+   "unit": "Communication",
+   "topic": "Issues and Concerns",
+   "question": "Cyberbullying refers to:",
+   "options": [
+    "Printing errors",
+    "Radio interference",
+    "Harassment using digital platforms",
+    "Film censorship"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 382
+  },
+  {
+   "unit": "Communication",
+   "topic": "Issues and Concerns",
+   "question": "The Information Technology Act in India was enacted in:",
+   "options": [
+    "1995",
+    "2010",
+    "1986",
+    "2000"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 383
+  },
+  {
+   "unit": "Communication",
+   "topic": "Issues and Concerns",
+   "question": "Media literacy is the ability to:",
+   "options": [
+    "Own a television",
+    "Access, analyse, evaluate and create media",
+    "Print newspapers",
+    "Read only newspapers"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 384
+  },
+  {
+   "unit": "Communication",
+   "topic": "Indian Context",
+   "question": "The Press Council of India is:",
+   "options": [
+    "A TV regulator",
+    "A statutory quasi-judicial body to preserve press freedom and improve standards",
+    "A private club",
+    "A film board"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 385
+  },
+  {
+   "unit": "Communication",
+   "topic": "Indian Context",
+   "question": "The present Press Council of India functions under the Press Council Act of:",
+   "options": [
+    "1952",
+    "1990",
+    "2000",
+    "1978"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 386
+  },
+  {
+   "unit": "Communication",
+   "topic": "Indian Context",
+   "question": "The Chairman of the Press Council of India is traditionally a:",
+   "options": [
+    "Retired Supreme Court judge",
+    "Serving Prime Minister",
+    "Film director",
+    "Newspaper owner"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 387
+  },
+  {
+   "unit": "Communication",
+   "topic": "Indian Context",
+   "question": "National Press Day in India is observed on:",
+   "options": [
+    "3 May",
+    "23 July",
+    "16 November",
+    "5 June"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 388
+  },
+  {
+   "unit": "Communication",
+   "topic": "Indian Context",
+   "question": "Prasar Bharati comprises:",
+   "options": [
+    "Doordarshan and All India Radio",
+    "PTI and UNI",
+    "BBC and CNN",
+    "ABC and RNI"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 389
+  },
+  {
+   "unit": "Communication",
+   "topic": "Indian Context",
+   "question": "The Prasar Bharati Act was passed in:",
+   "options": [
+    "1975",
+    "2000",
+    "1990",
+    "1982"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 390
+  },
+  {
+   "unit": "Communication",
+   "topic": "Indian Context",
+   "question": "National Broadcasting Day in India is observed on:",
+   "options": [
+    "23 July",
+    "16 November",
+    "3 May",
+    "15 August"
+   ],
+   "answer": "A",
+   "explanation": null,
+   "id": 391
+  },
+  {
+   "unit": "Communication",
+   "topic": "Indian Context",
+   "question": "The motto of All India Radio is:",
+   "options": [
+    "Satyam Shivam Sundaram",
+    "Vande Mataram",
+    "Bahujan Hitaya Bahujan Sukhaya",
+    "Jai Hind"
+   ],
+   "answer": "C",
+   "explanation": null,
+   "id": 392
+  },
+  {
+   "unit": "Communication",
+   "topic": "Indian Context",
+   "question": "The tagline of Doordarshan is:",
+   "options": [
+    "Bahujan Hitaya Bahujan Sukhaya",
+    "Jai Hind",
+    "Sarve Bhavantu Sukhinah",
+    "Satyam Shivam Sundaram"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 393
+  },
+  {
+   "unit": "Communication",
+   "topic": "Indian Context",
+   "question": "The impact of social media in India includes:",
+   "options": [
+    "Eliminating radio",
+    "Enabling citizen journalism and rapid mobilisation, as well as the spread of rumours",
+    "Banning television",
+    "No influence on politics"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 394
+  },
+  {
+   "unit": "Communication",
+   "topic": "Indian Context",
+   "question": "The IT (Intermediary Guidelines and Digital Media Ethics Code) Rules were notified in:",
+   "options": [
+    "2005",
+    "2021",
+    "2012",
+    "2018"
+   ],
+   "answer": "B",
+   "explanation": null,
+   "id": 395
+  },
+  {
+   "unit": "Communication",
+   "topic": "Indian Context",
+   "question": "Which section of the IT Act was struck down in Shreya Singhal v. Union of India (2015)?",
+   "options": [
+    "Section 67",
+    "Section 43",
+    "Section 69",
+    "Section 66A"
+   ],
+   "answer": "D",
+   "explanation": null,
+   "id": 396
+  }
+ ]
+}
