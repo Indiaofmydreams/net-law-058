@@ -171,3 +171,8 @@ section.hero{padding:20px 0 32px}
 @media(max-width:380px){.hdr-clock .d{font-size:.6875rem}.hdr-clock .t{font-size:1.0625rem}}
 @media(prefers-reduced-motion:reduce){.cc-slide,.cc-card,.cc-more,.cc-dot i,.cc-opt-btn{transition:none!important}.hdr-clock .hc-dot,.co-bar{animation:none!important}}
 .cc-chips span em{font-style:normal;opacity:.7;margin-left:4px;font-variant-numeric:tabular-nums}
+.cc-multi{display:flex;flex-direction:column;gap:8px;width:100%}
+.cc-multi small{font-size:.6875rem;font-weight:800;letter-spacing:.07em;color:var(--ac-d)}
+.cc-chips-sm{gap:6px;justify-content:flex-start}.cc-chips-sm span{padding:5px 10px;font-size:.71875rem}
+.cc-types span{background:var(--surface);border-color:var(--ac2);color:var(--ac-d)}
+.cc-types span:nth-child(odd){background:var(--surface);border-color:var(--ac2);color:var(--ac-d)}
