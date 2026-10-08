@@ -16,7 +16,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: This is the single most-tested definition in UGC NET. B.O. Smith = \"system of actions.\"",
-   "id": 1
+   "id": "Q000001"
   },
   {
    "unit": "Teaching Aptitude",
@@ -30,7 +30,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Gage = interpersonal influence. Smith = system of actions. Dewey = stimulation of child's powers.",
-   "id": 2
+   "id": "Q000002"
   },
   {
    "unit": "Teaching Aptitude",
@@ -44,7 +44,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Three poles = Teacher + Learner + Curriculum/Content. This exact question has appeared in PYQs.",
-   "id": 3
+   "id": "Q000003"
   },
   {
    "unit": "Teaching Aptitude",
@@ -58,7 +58,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Modern view — teaching is intentional effort, but learning depends on the learner too. Behaviourists said no teaching without learning; constructivists disagree.",
-   "id": 4
+   "id": "Q000004"
   },
   {
    "unit": "Teaching Aptitude",
@@ -72,7 +72,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Indoctrination imposes beliefs without evidence. Teaching encourages questioning. High-order Bloom's.",
-   "id": 5
+   "id": "Q000005"
   },
   {
    "unit": "Teaching Aptitude",
@@ -86,7 +86,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Jackson wrote \"Life in Classrooms.\" Face-to-face = Jackson.",
-   "id": 6
+   "id": "Q000006"
   },
   {
    "unit": "Teaching Aptitude",
@@ -100,7 +100,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Rote = Memory Level only. Good teaching goes beyond memory to understanding and reflection.",
-   "id": 7
+   "id": "Q000007"
   },
   {
    "unit": "Teaching Aptitude",
@@ -114,7 +114,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Higher education = Reflective Level. UGC NET consistently tests this distinction.",
-   "id": 8
+   "id": "Q000008"
   },
   {
    "unit": "Teaching Aptitude",
@@ -128,7 +128,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: No single theory governs all of higher education. This is a trap question — the answer acknowledges plurality.",
-   "id": 9
+   "id": "Q000009"
   },
   {
    "unit": "Teaching Aptitude",
@@ -142,7 +142,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Dewey = social situations + stimulation. Remember: Dewey = social, democratic education.",
-   "id": 10
+   "id": "Q000010"
   },
   {
    "unit": "Teaching Aptitude",
@@ -156,7 +156,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Classic instructional design model. PYQ favourite. Pre-active → Interactive → Post-active phases of teaching.",
-   "id": 11
+   "id": "Q000011"
   },
   {
    "unit": "Teaching Aptitude",
@@ -170,7 +170,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Ryan identified three phases. Pre-active = planning before class. Interactive = during class. Post-active = reflection after class.",
-   "id": 12
+   "id": "Q000012"
   },
   {
    "unit": "Teaching Aptitude",
@@ -184,7 +184,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Micro-teaching involves specific skills (probing, reinforcement, stimulus variation). Macro-teaching = broader planning acts.",
-   "id": 13
+   "id": "Q000013"
   },
   {
    "unit": "Teaching Aptitude",
@@ -198,7 +198,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Developed at Stanford in 1963 by Dwight Allen. Involves teaching a small group for a short duration (5–20 mins) to practise one skill at a time.",
-   "id": 14
+   "id": "Q000014"
   },
   {
    "unit": "Teaching Aptitude",
@@ -212,7 +212,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: PCK = knowing your subject AND how to teach it. Shulman introduced this in 1986. Very important for NET.",
-   "id": 15
+   "id": "Q000015"
   },
   {
    "unit": "Teaching Aptitude",
@@ -226,7 +226,7 @@
    ],
    "answer": "A",
    "explanation": "Mnemonic for original Bloom (low to high): K-C-A-A-S-E → \"Kids Can Always Achieve Something Extraordinary\"\nKnowledge → Comprehension → Application → Analysis → Synthesis → Evaluation",
-   "id": 16
+   "id": "Q000016"
   },
   {
    "unit": "Teaching Aptitude",
@@ -240,7 +240,7 @@
    ],
    "answer": "A",
    "explanation": "Mnemonic for revised Bloom (low to high): R-U-A-A-E-C → \"Really Understanding Always Allows Excellent Creations\"\nRemember → Understand → Apply → Analyse → Evaluate → Create",
-   "id": 17
+   "id": "Q000017"
   },
   {
    "unit": "Teaching Aptitude",
@@ -254,7 +254,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: The key change in 2001 revision — Synthesis became Create AND moved to the top. Evaluation moved one level down.",
-   "id": 18
+   "id": "Q000018"
   },
   {
    "unit": "Teaching Aptitude",
@@ -268,7 +268,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Design, formulate, construct, compose = Create level. Any new product = Create.",
-   "id": 19
+   "id": "Q000019"
   },
   {
    "unit": "Teaching Aptitude",
@@ -282,7 +282,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Justify, judge, critique, defend, assess = Evaluate. Evaluation = making judgements with evidence.",
-   "id": 20
+   "id": "Q000020"
   },
   {
    "unit": "Teaching Aptitude",
@@ -296,7 +296,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Remember = recall, identify, list, define. It is the floor of cognitive functioning.",
-   "id": 21
+   "id": "Q000021"
   },
   {
    "unit": "Teaching Aptitude",
@@ -310,7 +310,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: HOTS = Analyse + Evaluate + Create in revised Bloom's. LOTS = Remember + Understand + Apply.",
-   "id": 22
+   "id": "Q000022"
   },
   {
    "unit": "Teaching Aptitude",
@@ -324,7 +324,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Apply verbs: Solve, demonstrate, use, compute, execute. \"List\" = Remember. \"Explain\" = Understand. \"Judge\" = Evaluate.",
-   "id": 23
+   "id": "Q000023"
   },
   {
    "unit": "Teaching Aptitude",
@@ -338,7 +338,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Krathwohl developed affective domain in 1964. Dave/Simpson = psychomotor. Bloom = cognitive (1956).",
-   "id": 24
+   "id": "Q000024"
   },
   {
    "unit": "Teaching Aptitude",
@@ -352,7 +352,7 @@
    ],
    "answer": "B",
    "explanation": "Mnemonic (Affective, low to high): R-R-V-O-C → \"Really Responsible Values Organise Character\"\nReceiving → Responding → Valuing → Organisation → Characterisation",
-   "id": 25
+   "id": "Q000025"
   },
   {
    "unit": "Teaching Aptitude",
@@ -366,7 +366,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Affective = feelings, dispositions, appreciation. It is the domain most neglected in traditional teaching.",
-   "id": 26
+   "id": "Q000026"
   },
   {
    "unit": "Teaching Aptitude",
@@ -380,7 +380,7 @@
    ],
    "answer": "D",
    "explanation": "Mnemonic (Psychomotor, Dave): I-M-P-A-N → \"I Must Perfect All Neurons\"\nImitation → Manipulation → Precision → Articulation → Naturalisation",
-   "id": 27
+   "id": "Q000027"
   },
   {
    "unit": "Teaching Aptitude",
@@ -394,7 +394,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Recall = Remember (lowest cognitive). This is a classic example used in PYQs.",
-   "id": 28
+   "id": "Q000028"
   },
   {
    "unit": "Teaching Aptitude",
@@ -408,7 +408,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Bloom's taxonomy provides the framework for writing behavioural/learning objectives — each domain and level has specific action verbs.",
-   "id": 29
+   "id": "Q000029"
   },
   {
    "unit": "Teaching Aptitude",
@@ -422,7 +422,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Comprehension (original) = Understand (revised). This mapping question has appeared in PYQs.",
-   "id": 30
+   "id": "Q000030"
   },
   {
    "unit": "Teaching Aptitude",
@@ -436,7 +436,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Critique = Evaluate level = HOTS. Define/List/Identify = Remember = LOTS.",
-   "id": 31
+   "id": "Q000031"
   },
   {
    "unit": "Teaching Aptitude",
@@ -450,7 +450,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: All three changes are correct. Nouns (Knowledge, Comprehension) → Verbs (Remember, Understand). This is a PYQ-style assertion question.",
-   "id": 32
+   "id": "Q000032"
   },
   {
    "unit": "Teaching Aptitude",
@@ -464,7 +464,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Compare and contrast = break down and find relationships = Analyse. Classic exam trap — students think \"compare\" = understand, but it's analyse.",
-   "id": 33
+   "id": "Q000033"
   },
   {
    "unit": "Teaching Aptitude",
@@ -478,7 +478,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Most teaching and exams focus on cognitive. Affective domain (values, attitudes) is systematically ignored. This view is widely cited in NET study materials.",
-   "id": 34
+   "id": "Q000034"
   },
   {
    "unit": "Teaching Aptitude",
@@ -492,7 +492,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Smooth, automatic, without instructions = fully internalised = Naturalisation (highest). If they needed to check = lower level.",
-   "id": 35
+   "id": "Q000035"
   },
   {
    "unit": "Teaching Aptitude",
@@ -506,7 +506,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Morrison's three levels is one of the most asked topics. Memory = lowest, Reflective = highest.",
-   "id": 36
+   "id": "Q000036"
   },
   {
    "unit": "Teaching Aptitude",
@@ -520,7 +520,7 @@
    ],
    "answer": "B",
    "explanation": "Mnemonic: MUR (low to high) — M*emory → U*nderstanding → R*eflective. Mud goes up to River.",
-   "id": 37
+   "id": "Q000037"
   },
   {
    "unit": "Teaching Aptitude",
@@ -534,7 +534,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Reflective level = highest = critical thinking + creative problem solving. This is the TARGET of higher education.",
-   "id": 38
+   "id": "Q000038"
   },
   {
    "unit": "Teaching Aptitude",
@@ -548,7 +548,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Memory level needs repetition and recall. Problem-solving = Reflective. Discussion = Understanding.",
-   "id": 39
+   "id": "Q000039"
   },
   {
    "unit": "Teaching Aptitude",
@@ -562,7 +562,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Memory = Reproductive (repeats). Understanding = Reconstructive (rebuilds meaning). Reflective = Creative (new ideas).",
-   "id": 40
+   "id": "Q000040"
   },
   {
    "unit": "Teaching Aptitude",
@@ -576,7 +576,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Dewey's \"reflective thinking\" and problem-solving philosophy directly underpins the Reflective level.",
-   "id": 41
+   "id": "Q000041"
   },
   {
    "unit": "Teaching Aptitude",
@@ -590,7 +590,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Factual recall question = Memory level. No reasoning, no application.",
-   "id": 42
+   "id": "Q000042"
   },
   {
    "unit": "Teaching Aptitude",
@@ -604,7 +604,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Understanding WHY requires conceptual grasp of air pressure and boiling points. Above recall but not fully reflective.",
-   "id": 43
+   "id": "Q000043"
   },
   {
    "unit": "Teaching Aptitude",
@@ -618,7 +618,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Design + novel experiment = creative problem-solving = Reflective level.",
-   "id": 44
+   "id": "Q000044"
   },
   {
    "unit": "Teaching Aptitude",
@@ -632,7 +632,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Memory level = teacher-centred = teacher as transmitter. Reflective = teacher as facilitator.",
-   "id": 45
+   "id": "Q000045"
   },
   {
    "unit": "Teaching Aptitude",
@@ -646,7 +646,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Reflective = highest cognitive demand. Requires synthesis, evaluation, creativity — all HOTS.",
-   "id": 46
+   "id": "Q000047"
   },
   {
    "unit": "Teaching Aptitude",
@@ -660,7 +660,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Morrison's Mastery Model — Pre-test → Teach → Test → Reteach → Test again — was designed for conceptual understanding, not just recall.",
-   "id": 47
+   "id": "Q000048"
   },
   {
    "unit": "Teaching Aptitude",
@@ -674,7 +674,7 @@
    ],
    "answer": "B",
    "explanation": "Mnemonic: MUR → Think of \"My Understanding Rises\"",
-   "id": 48
+   "id": "Q000049"
   },
   {
    "unit": "Teaching Aptitude",
@@ -688,7 +688,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Insight = sudden grasp of a concept's structure (Gestalt psychology). Understanding level involves grasping relationships. Reflective goes further to applying insight in novel problems.",
-   "id": 49
+   "id": "Q000050"
   },
   {
    "unit": "Teaching Aptitude",
@@ -702,7 +702,7 @@
    ],
    "answer": "C",
    "explanation": "Mnemonic for Piaget's stages: S-P-C-F → \"Some People Create Fantasy\"\nSensorimotor (0–2) → Preoperational (2–7) → Concrete Operational (7–11) → Formal Operational (12+)",
-   "id": 50
+   "id": "Q000051"
   },
   {
    "unit": "Teaching Aptitude",
@@ -716,7 +716,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Adolescence = \"Who am I?\" crisis. Identity formation is the central task. This has appeared in PYQs.",
-   "id": 51
+   "id": "Q000052"
   },
   {
    "unit": "Teaching Aptitude",
@@ -730,7 +730,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Kapp coined it in 1833. Knowles POPULARISED it in 1968–70. This distinction is tested in NET. Answer carefully — who coined vs. who popularised.",
-   "id": 52
+   "id": "Q000053"
   },
   {
    "unit": "Teaching Aptitude",
@@ -744,7 +744,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Knowles' 1968 article and 1973 book made andragogy globally known. He developed the 6 principles.",
-   "id": 53
+   "id": "Q000054"
   },
   {
    "unit": "Teaching Aptitude",
@@ -758,7 +758,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Knowles says adults are INTERNALLY (intrinsically) motivated. External motivation = pedagogy (child-centred approach). This is a classic trap question.",
-   "id": 54
+   "id": "Q000055"
   },
   {
    "unit": "Teaching Aptitude",
@@ -772,7 +772,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Pedagogy = child-led by teacher. Andragogy = adult leads own learning. This is the fundamental distinction.",
-   "id": 55
+   "id": "Q000056"
   },
   {
    "unit": "Teaching Aptitude",
@@ -786,7 +786,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Knowles' principle of \"Need to Know\" — adults must understand the relevance before committing to learning.",
-   "id": 56
+   "id": "Q000057"
   },
   {
    "unit": "Teaching Aptitude",
@@ -800,7 +800,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Individual differences are multidimensional. Educational implication: differentiated instruction.",
-   "id": 57
+   "id": "Q000058"
   },
   {
    "unit": "Teaching Aptitude",
@@ -814,7 +814,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Differentiated instruction = same learning goals, different pathways. Most important implication for teaching.",
-   "id": 58
+   "id": "Q000059"
   },
   {
    "unit": "Teaching Aptitude",
@@ -828,7 +828,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: ZPD is the \"sweet spot\" for teaching — the gap between independent and assisted performance. Scaffolding operates here.",
-   "id": 59
+   "id": "Q000060"
   },
   {
    "unit": "Teaching Aptitude",
@@ -842,7 +842,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Scaffolding = temporary + purposeful + gradually withdrawn. Associated with Vygotsky and Bruner.",
-   "id": 60
+   "id": "Q000061"
   },
   {
    "unit": "Teaching Aptitude",
@@ -856,7 +856,7 @@
    ],
    "answer": "B",
    "explanation": "Mnemonic: VAK — \"V-A-K\" — See, Hear, Do",
-   "id": 61
+   "id": "Q000062"
   },
   {
    "unit": "Teaching Aptitude",
@@ -870,7 +870,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Adolescence = peer group dominance. Erikson's Identity stage = social identity formation through peers.",
-   "id": 62
+   "id": "Q000063"
   },
   {
    "unit": "Teaching Aptitude",
@@ -884,7 +884,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Knowles — experience is the distinguishing characteristic of adult learners. It is both a resource and a filter.",
-   "id": 63
+   "id": "Q000064"
   },
   {
    "unit": "Teaching Aptitude",
@@ -898,7 +898,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Meta = about. Metacognition = awareness and regulation of one's own cognitive processes. Develops in adolescence. Very important concept.",
-   "id": 64
+   "id": "Q000065"
   },
   {
    "unit": "Teaching Aptitude",
@@ -912,7 +912,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Formal Operational = abstract + hypothetical + deductive reasoning. This is the new capacity emerging at adolescence.",
-   "id": 65
+   "id": "Q000066"
   },
   {
    "unit": "Teaching Aptitude",
@@ -926,7 +926,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Adolescence = \"storm and stress\" (G. Stanley Hall's term). Emotional turbulence is normal and developmentally expected.",
-   "id": 66
+   "id": "Q000067"
   },
   {
    "unit": "Teaching Aptitude",
@@ -940,7 +940,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Adults want to solve real problems, not master academic subjects for their own sake. This is the core of andragogy.",
-   "id": 67
+   "id": "Q000068"
   },
   {
    "unit": "Teaching Aptitude",
@@ -954,7 +954,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Adults become ready to learn when their life situation demands it — career change, new responsibility, etc.",
-   "id": 68
+   "id": "Q000069"
   },
   {
    "unit": "Teaching Aptitude",
@@ -968,7 +968,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Freire's \"Pedagogy of the Oppressed\" (1968) — banking education = passive, oppressive. He advocated problem-posing education = dialogue = liberation. Very important trending concept.",
-   "id": 69
+   "id": "Q000070"
   },
   {
    "unit": "Teaching Aptitude",
@@ -982,7 +982,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Kilpatrick developed project method in 1918, based on Dewey's philosophy. PYQ — appeared multiple times.",
-   "id": 70
+   "id": "Q000071"
   },
   {
    "unit": "Teaching Aptitude",
@@ -996,7 +996,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Dewey's reflective thinking = 5 steps: Identify problem → Define → Collect data → Hypothesise → Test. Problem-solving = Dewey.",
-   "id": 71
+   "id": "Q000072"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1010,7 +1010,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Seminar = student-led discussion, presentation, critique. Develops research, communication, critical analysis — perfect for higher education.",
-   "id": 72
+   "id": "Q000073"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1024,7 +1024,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Lecture = most efficient information delivery. Its limitation = passive learner, only Memory level.",
-   "id": 73
+   "id": "Q000074"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1038,7 +1038,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Learner-centred = student is active. Lecture/Demonstration/Recitation = teacher active, student passive.",
-   "id": 74
+   "id": "Q000075"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1052,7 +1052,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: PYQ. Government of India platform for free MOOCs. Full form has been directly asked in NET.",
-   "id": 75
+   "id": "Q000276"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1066,7 +1066,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: SWAYAMPRABHA = 32+ DTH channels broadcasting educational content 24×7. Complements SWAYAM. Bridges digital divide.",
-   "id": 76
+   "id": "Q000311"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1080,7 +1080,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: PYQ. Massive = unlimited enrolment. Open = no entry barrier. Key features: video lectures, quizzes, discussion forums, certificates.",
-   "id": 77
+   "id": "Q000078"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1094,7 +1094,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Siemens' Connectivism (2004) = learning through networks. cMOOC = knowledge co-created. xMOOC = content-delivery (Coursera model).",
-   "id": 78
+   "id": "Q000079"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1108,7 +1108,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Blended/Hybrid = best of both worlds. Post-COVID, this is the most tested emerging pedagogy in UGC NET.",
-   "id": 79
+   "id": "Q000080"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1122,7 +1122,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Case study = real-world complex scenarios. Used in law, medicine, management. Harvard pioneered this method.",
-   "id": 80
+   "id": "Q000081"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1136,7 +1136,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Socrates used questioning (maieutics = midwifery of ideas) to draw out knowledge. Discussion method is the modern descendant.",
-   "id": 81
+   "id": "Q000082"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1150,7 +1150,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Simulation/Role play = experiential learning. Develops empathy, decision-making, communication. Used in teacher training, management, medical education.",
-   "id": 82
+   "id": "Q000083"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1164,7 +1164,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Tutorial = small group (3–8 students typically) + direct teacher interaction + personalised feedback. Common in UK university system.",
-   "id": 83
+   "id": "Q000084"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1178,7 +1178,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: The key distinction is modality. Quality of thinking depends on HOW the method is used, not the medium itself.",
-   "id": 84
+   "id": "Q000085"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1192,7 +1192,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: NPTEL is a joint initiative of IITs and IISc for free online courses, especially STEM. Feeds into SWAYAM.",
-   "id": 85
+   "id": "Q000086"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1206,7 +1206,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Flipped = flip homework and lecture. At home = watch lecture. In class = practise, discuss, problem-solve. Promotes HOTS in class.",
-   "id": 86
+   "id": "Q000087"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1220,7 +1220,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Psychomotor = motor skills. Learn by seeing (demonstration) + doing (practice). Imitation → Manipulation in Dave's taxonomy.",
-   "id": 87
+   "id": "Q000088"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1234,7 +1234,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Cooperative learning (Johnson & Johnson) = positive interdependence + individual accountability + face-to-face interaction. Based on Vygotsky's social learning.",
-   "id": 88
+   "id": "Q000089"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1248,7 +1248,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Constructivism = learner builds knowledge through experience and inquiry. Teacher = guide, not transmitter. Piaget + Vygotsky = constructivism.",
-   "id": 89
+   "id": "Q000090"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1262,7 +1262,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Most concrete = bottom of cone = best retention. Most abstract = top (verbal symbols). Bottom = Do. Middle = Observe. Top = Abstract symbols.",
-   "id": 90
+   "id": "Q000091"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1276,7 +1276,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Traditional teaching relies most heavily on verbal symbols (lectures, textbooks) — ironically the LEAST effective for retention per Dale.",
-   "id": 91
+   "id": "Q000092"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1290,7 +1290,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: CAI modes — students interact with computer programs. Drill = practice. Tutorial = guided learning. Simulation = virtual lab. Game = motivation.",
-   "id": 92
+   "id": "Q000093"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1304,7 +1304,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: INFLIBNET = UGC initiative for inter-university library connectivity. Provides access to e-journals, e-books to university researchers.",
-   "id": 93
+   "id": "Q000094"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1318,7 +1318,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: NDLI = single-window portal for digital educational resources from school to research level. IIT Kharagpur manages it.",
-   "id": 94
+   "id": "Q000095"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1332,7 +1332,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Smart boards combine touch screen, internet, projector = ICT-based. They allow real-time interaction and multimedia.",
-   "id": 95
+   "id": "Q000096"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1346,7 +1346,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: LMS = digital platform to manage, deliver, track learning. Moodle is the most popular open-source LMS.",
-   "id": 96
+   "id": "Q000097"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1360,7 +1360,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Non-projected = no projection needed = blackboard, charts, models, specimens. Projected = requires light projection device.",
-   "id": 97
+   "id": "Q000098"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1374,7 +1374,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: CAT is the most sophisticated form of CBT. If you answer correctly, next question is harder; if wrong, easier. GRE uses CAT.",
-   "id": 98
+   "id": "Q000099"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1388,7 +1388,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: ICT = umbrella term for all digital tools in education. Internet, computers, mobile devices, multimedia = ICT.",
-   "id": 99
+   "id": "Q000100"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1402,7 +1402,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: OHP = traditional projected aid using transparent sheets. Now largely replaced by LCD projectors. Still asked in NET.",
-   "id": 100
+   "id": "Q000101"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1416,7 +1416,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: E-Learning = broad term covering online courses, digital content, virtual classrooms, CBT, MOOCs.",
-   "id": 101
+   "id": "Q000102"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1430,7 +1430,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Virtual = synchronous online = same time, different place. Zoom/Google Meet = virtual classroom platforms.",
-   "id": 102
+   "id": "Q000103"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1444,7 +1444,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Dale's Cone — 3D models = more concrete than 2D charts or text. Abstract science concepts become tangible.",
-   "id": 103
+   "id": "Q000104"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1458,7 +1458,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Podcast = audio-only = auditory learner advantage. VARK model: Visual, Auditory, Reading/Writing, Kinesthetic.",
-   "id": 104
+   "id": "Q000105"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1472,7 +1472,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Tyler's Rationale (1949) = first systematic model of curriculum and evaluation. Evaluation = measuring achievement of objectives.",
-   "id": 105
+   "id": "Q000106"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1486,7 +1486,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Scriven coined both terms in 1967. Tyler = father of evaluation, but Scriven = formative/summative distinction.",
-   "id": 106
+   "id": "Q000107"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1500,7 +1500,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Summative = final, certifying, high-stakes. End-semester exam = summative. No improvement loop.",
-   "id": 107
+   "id": "Q000109"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1514,7 +1514,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Diagnostic goes DEEPER than formative — finds WHY a student struggles, not just that they struggle. Used for remediation.",
-   "id": 108
+   "id": "Q000110"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1528,7 +1528,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Placement = entry behaviour test. Conducted BEFORE instruction. Used for streaming, grouping, readiness assessment.",
-   "id": 109
+   "id": "Q000111"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1542,7 +1542,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: NRE = competitive, creates rank, percentile. Normal distribution expected. Competitive entrance exams = NRE.",
-   "id": 110
+   "id": "Q000112"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1556,7 +1556,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: CRE = mastery model. Pass/fail based on criterion, not class average. Driving test, NET qualifying score = CRE.",
-   "id": 111
+   "id": "Q000113"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1570,7 +1570,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Mastery = reach criterion = CRE. Not about rank. Bloom's Mastery Learning Model uses CRE.",
-   "id": 112
+   "id": "Q000114"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1584,7 +1584,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: UGC introduced CBCS from 2015–16. It replaced the traditional annual/semester exam-only system with credit-based grading.",
-   "id": 113
+   "id": "Q000115"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1598,7 +1598,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: SGPA = GPA for one semester. CGPA = cumulative across all semesters. UGC uses a 10-point grading scale.",
-   "id": 114
+   "id": "Q000116"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1612,7 +1612,7 @@
    ],
    "answer": "D",
    "explanation": "Mnemonic: O=10, A+=9, A=8, B+=7, B=6, C=5, P=4, F=0 → \"Outstanding tops the 10-point scale\"",
-   "id": 115
+   "id": "Q000117"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1626,7 +1626,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Portfolio = ongoing, holistic, authentic. Shows progress not just a snapshot. Used in arts, writing, professional courses.",
-   "id": 116
+   "id": "Q000118"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1640,7 +1640,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Authentic = performance-based = projects, demonstrations, presentations. Tests what students can DO, not just recall.",
-   "id": 117
+   "id": "Q000119"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1654,7 +1654,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Rubric = scoring guide. Makes assessment transparent, consistent, criterion-referenced. Reduces subjectivity.",
-   "id": 118
+   "id": "Q000120"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1668,7 +1668,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: If books are allowed, mere recall is useless. Only HOTS questions are meaningful = OBE promotes Bloom's higher levels.",
-   "id": 119
+   "id": "Q000121"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1682,7 +1682,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: CCE = formative + summative + scholastic + co-scholastic. Introduced in school education. Holistic assessment approach.",
-   "id": 120
+   "id": "Q000122"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1696,7 +1696,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: OBE = backward design. Start with outcomes → design curriculum → assess achievement. Central to NEP 2020 and NAAC.",
-   "id": 121
+   "id": "Q000123"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1710,7 +1710,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Measurement = quantification (score). Assessment = interpretation. Evaluation = judgement of worth. Evaluation is broadest.",
-   "id": 122
+   "id": "Q000124"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1724,7 +1724,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: NET = final, certifying (Summative) + based on qualifying cut-off (Criterion-Referenced). Both apply.",
-   "id": 123
+   "id": "Q000125"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1738,7 +1738,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Self-assessment = learners judge own work = metacognition = reflects on own thinking. Aligns with Andragogy (self-direction).",
-   "id": 124
+   "id": "Q000126"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1752,7 +1752,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Peer assessment = collaborative, develops critical thinking, communication, and metacognition. Common in higher education.",
-   "id": 125
+   "id": "Q000127"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1766,7 +1766,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: NEP 2020 introduced multiple entry-exit in 4-year degree programs. 1 year = Certificate, 2 years = Diploma, 3 years = Degree, 4 years = Honours.",
-   "id": 126
+   "id": "Q000128"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1780,7 +1780,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Placement = before = entry assessment. Diagnostic = during = difficulty analysis. Formative = during = improvement. Summative = after = certification.",
-   "id": 127
+   "id": "Q000129"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1794,7 +1794,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: NAAC's 7 criteria: 1-Curricular Aspects, 2-Teaching-Learning, 3-Research, 4-Infrastructure, 5-Student Support, 6-Governance, 7-Institutional Values. Often tested.",
-   "id": 128
+   "id": "Q000130"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1808,7 +1808,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: NEP 2020 (National Education Policy 2020) replaced NPE 1986. Key features: multidisciplinary, flexible, OBE, mother tongue instruction, 5+3+3+4 school structure.",
-   "id": 129
+   "id": "Q000131"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1822,7 +1822,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: NEP 2020 = multidisciplinary + Academic Bank of Credits (ABC) + multiple entry-exit + internationalisation.",
-   "id": 130
+   "id": "Q000132"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1836,7 +1836,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: ABC = digital credit repository. Like a bank account for credits. Students can pause, transfer, and resume education. Huge flexibility.",
-   "id": 131
+   "id": "Q000133"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1850,7 +1850,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Siemens (2004) — Connectivism = knowledge distributed across networks. Learning = connecting nodes. Most relevant for 21st-century digital learning.",
-   "id": 132
+   "id": "Q000134"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1864,7 +1864,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Constructivism (Piaget, Vygotsky, Bruner) = learner builds knowledge. Teacher facilitates, scaffolds, provokes thinking. NOT a transmitter.",
-   "id": 133
+   "id": "Q000135"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1878,7 +1878,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Salamanca Statement (1994) + RTE Act 2009 (India) = inclusive education = all children, regular classrooms, appropriate support.",
-   "id": 134
+   "id": "Q000136"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1892,7 +1892,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Digital divide = equity issue in online education. SWAYAMPRABHA (DTH) was launched partly to address this — those without internet can still access education.",
-   "id": 135
+   "id": "Q000137"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1906,7 +1906,7 @@
    ],
    "answer": "B",
    "explanation": "Mnemonic: ID-C-FT-C → \"I Don't Care For That Conclusion\" (until I test it)\nIdentify → Define → Collect → Formulate → Test → Conclude",
-   "id": 136
+   "id": "Q000138"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1920,7 +1920,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Both are necessary. Formative = ongoing improvement. Summative = final certification. They are complementary, not competing.",
-   "id": 137
+   "id": "Q000139"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1934,7 +1934,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Physical/institutional factors = furniture, lighting, space, acoustics, temperature. These affect learner attention and comfort.",
-   "id": 138
+   "id": "Q000140"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1948,7 +1948,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: All these = ongoing, feedback-driven, adjustment-oriented = Formative. Classic applied scenario question in NET.",
-   "id": 139
+   "id": "Q000141"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1962,7 +1962,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Behaviourists (Skinner, Thorndike) = no learning = no teaching. Constructivists say teaching is the provision of conditions — learning depends on the learner's active engagement.",
-   "id": 140
+   "id": "Q000142"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1976,7 +1976,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Seminar = student-led, critical discussion, research-based. Most appropriate for postgraduate education.",
-   "id": 141
+   "id": "Q000143"
   },
   {
    "unit": "Teaching Aptitude",
@@ -1990,7 +1990,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Hidden curriculum (Philip Jackson) = what students learn beyond formal content — punctuality, obedience, hierarchy. Very important trending concept.",
-   "id": 142
+   "id": "Q000144"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2004,7 +2004,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Bloom's Mastery Learning (1971) = diagnostic pre-test → teach → formative test → corrective instruction → post-test. All students CAN achieve if conditions are right.",
-   "id": 143
+   "id": "Q000145"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2018,7 +2018,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: OBE = constructive alignment (Biggs) — outcomes → teaching strategies → assessment must all align. This is the cornerstone of NAAC, NBA, and NEP 2020.",
-   "id": 144
+   "id": "Q000146"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2032,7 +2032,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Higher education values epistemic humility. Teacher as co-learner (constructivist view). Admitting uncertainty models good academic behaviour.",
-   "id": 145
+   "id": "Q000147"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2046,7 +2046,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Both require active student engagement, inquiry, and self-direction. Lecture/Demonstration/Recitation = teacher-centred.",
-   "id": 146
+   "id": "Q000148"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2060,7 +2060,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Finding WHY = Diagnostic. Designing remedial = corrective action. This is the fullest application of diagnostic evaluation.",
-   "id": 147
+   "id": "Q000149"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2074,7 +2074,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Shulman's PCK + humanistic teacher qualities + learner-centred approach = the gold standard answer for \"best teacher\" questions in NET. Technology and personality are supplementary, not primary.\n## 100 MCQs — Objectives, Levels, Learner Characteristics & Factors Affecting Teaching\nFresh set — no repeats from previous 150",
-   "id": 148
+   "id": "Q000150"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2088,7 +2088,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: NEP 2020 explicitly emphasises holistic development — not just job readiness. This framing appears in recent NET papers.",
-   "id": 149
+   "id": "Q000151"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2102,7 +2102,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Behavioural objectives (Mager, 1962) = specific, measurable, observable. They say what the learner WILL DO, not what the teacher will do.",
-   "id": 150
+   "id": "Q000152"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2116,7 +2116,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Mager's ABC of objectives:\nA = Audience (who), B = Behaviour (observable verb), C = Condition (under what circumstances), D = Degree/Criterion (how well).\nThe three core = Performance + Condition + Criterion.",
-   "id": 151
+   "id": "Q000153"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2130,7 +2130,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: \"List\" = observable verb + \"five causes\" = criterion + \"without notes\" = condition. Options A, B, D use vague verbs — understand, know, appreciate — not measurable.",
-   "id": 152
+   "id": "Q000154"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2144,7 +2144,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: \"Love,\" \"appreciate,\" \"value\" = affective domain. Deals with emotions, attitudes, dispositions.",
-   "id": 153
+   "id": "Q000155"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2158,7 +2158,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Aims = broad, long-term, philosophical. Objectives = specific, short-term, measurable. Aims flow from society's vision of an ideal human being.",
-   "id": 154
+   "id": "Q000156"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2172,7 +2172,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Aim = \"develop good citizens.\" Objective = \"student will explain three rights of a citizen.\" Hierarchically: Aim → Goal → Objective → Learning outcome.",
-   "id": 155
+   "id": "Q000157"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2186,7 +2186,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Compose + original = Create level. Any production of a new product = Create.",
-   "id": 156
+   "id": "Q000158"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2200,7 +2200,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Tyler's (1949) three sources = learner needs + society's demands + subject matter. Then filtered through philosophical and psychological screens.",
-   "id": 157
+   "id": "Q000159"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2214,7 +2214,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: \"Demonstrate correct operation\" = physical skill = psychomotor. Any hands-on manipulation of equipment = psychomotor.",
-   "id": 158
+   "id": "Q000160"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2228,7 +2228,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Tyler = curriculum rationale (1949). Bloom = taxonomy for classifying objectives (1956). Mager = how to write precise behavioural objectives (1962). All three built on each other.",
-   "id": 159
+   "id": "Q000161"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2242,7 +2242,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Use + calculate = Apply. Define = Remember. Explain = Understand. Evaluate limitations = Evaluate.",
-   "id": 160
+   "id": "Q000162"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2256,7 +2256,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Immediate = lesson-level objectives. These are the daily, specific, observable objectives tied to a single class or unit.",
-   "id": 161
+   "id": "Q000163"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2270,7 +2270,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Objectives describe what the LEARNER will do, not the teacher. \"The teacher will explain...\" is a teaching activity, not a learning objective.",
-   "id": 162
+   "id": "Q000164"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2284,7 +2284,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: \"Given a passage\" = condition. \"Identify the main idea\" = behaviour. \"80% accuracy\" = criterion. Mager's complete format.",
-   "id": 163
+   "id": "Q000165"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2298,7 +2298,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Dewey's famous statement: \"Education is not preparation for life; education is life itself.\" Growth = continuous reconstruction of experience.",
-   "id": 164
+   "id": "Q000166"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2312,7 +2312,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Affective objectives cannot be measured by written tests alone. They require observation of actual behaviour and attitudes over time.",
-   "id": 165
+   "id": "Q000167"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2326,7 +2326,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Terminal = end-point. Mager's framework — terminal behaviour = what learner CAN DO after the lesson that they couldn't before.",
-   "id": 166
+   "id": "Q000168"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2340,7 +2340,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Hierarchical narrowing: Aim (broadest, philosophical) → Goal (program-level) → Objective (lesson-level) → Learning Outcome (specific, measurable result).",
-   "id": 167
+   "id": "Q000169"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2354,7 +2354,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: \"By end of course\" = programme-level. \"Critically analyse\" = HOTS (Analyse level). This is the kind of outcome OBE and NAAC frameworks require.",
-   "id": 168
+   "id": "Q000170"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2368,7 +2368,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Levels of teaching = qualitative differences in the cognitive engagement required. Memory = lowest demand. Reflective = highest demand.",
-   "id": 169
+   "id": "Q000171"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2382,7 +2382,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Memory level = teacher is transmitter. Information flows one way. Student stores and reproduces. Teacher-centred.",
-   "id": 170
+   "id": "Q000172"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2396,7 +2396,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Understanding = conceptual grasp. Goes beyond storage to meaning-making. Can explain WHY, not just WHAT.",
-   "id": 171
+   "id": "Q000173"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2410,7 +2410,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Reflective = inquiry, problem-solving, critical thinking = progressive education (Dewey). Critical pedagogy (Freire) also emphasises reflective consciousness.",
-   "id": 172
+   "id": "Q000174"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2424,7 +2424,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Hypothetical, novel, open-ended = reflective. No single right answer. Requires creative and critical thinking.",
-   "id": 173
+   "id": "Q000175"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2438,7 +2438,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Understanding = conceptual connections. Concept maps show relationships. Discussion develops conceptual clarity. Both go beyond simple recall.",
-   "id": 174
+   "id": "Q000176"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2452,7 +2452,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Transfer = applying knowledge to new contexts. Memory level = context-specific only. Understanding = near transfer. Reflective = far transfer to novel problems.",
-   "id": 175
+   "id": "Q000177"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2466,7 +2466,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Herbart's 5 formal steps (Preparation, Presentation, Association, Generalisation, Application) were systematic but still emphasised structured knowledge transmission — most aligned with Memory-Understanding.\nNote: Herbart is associated with Memory level in Morrison's framework specifically because the formal steps focus on structured presentation and association, not critical inquiry.",
-   "id": 176
+   "id": "Q000178"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2480,7 +2480,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Recites = reproduces = Memory level. Explains WHY = Understanding. Debates = Reflective. Designs = also Reflective.",
-   "id": 177
+   "id": "Q000179"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2494,7 +2494,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Reflective = HOTS = requires assessment tools that allow creativity and critical reasoning. MCQs and fill-in-blanks test Memory level primarily.",
-   "id": 178
+   "id": "Q000180"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2508,7 +2508,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Rote learning can be driven by fear of exam or reward. But reflective, critical engagement requires genuine curiosity and intrinsic interest — cannot be forced.",
-   "id": 179
+   "id": "Q000181"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2522,7 +2522,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Memory level questions = What is? Who is? When did? — single correct factual answer. Understanding = Why/How. Reflective = What if/Suppose/Design.",
-   "id": 180
+   "id": "Q000182"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2536,7 +2536,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Understanding = Gestalt psychology's \"insight\" = sudden grasp of the whole structure. Meaning is constructed, not just stored.",
-   "id": 181
+   "id": "Q000183"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2550,7 +2550,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Reproduces = Memory. Cannot apply = has not reached Understanding. Classic exam trap — knowing a formula ≠ understanding it.",
-   "id": 182
+   "id": "Q000184"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2564,7 +2564,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: ZPD = gap between assisted and independent performance. Scaffolded Understanding leads to autonomous Reflective thinking — the ZPD process spans both levels.",
-   "id": 183
+   "id": "Q000185"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2578,7 +2578,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Rote-learned material without meaning decays rapidly (Ebbinghaus forgetting curve). Meaningful learning (Understanding/Reflective) is retained far longer.",
-   "id": 184
+   "id": "Q000186"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2592,7 +2592,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Constructivism = prior knowledge + experience → new knowledge construction. Reflective level = constructivist ideal.",
-   "id": 185
+   "id": "Q000187"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2606,7 +2606,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: As levels rise, teacher's role shifts from active transmitter to passive facilitator. This shift is a recurring NET question pattern.",
-   "id": 186
+   "id": "Q000188"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2620,7 +2620,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Generating own examples = demonstrating understanding + applying concept to real context. Higher than recall, not yet full reflective inquiry.",
-   "id": 187
+   "id": "Q000189"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2634,7 +2634,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Research = original inquiry, hypothesis formation, critical analysis = exactly what Reflective level develops. Memory and Understanding are prerequisites, not sufficient.",
-   "id": 188
+   "id": "Q000190"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2648,7 +2648,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Paulo Freire called this \"banking education.\" Rote-focused higher education produces dependent, uncritical thinkers — the opposite of what universities should produce.",
-   "id": 189
+   "id": "Q000191"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2662,7 +2662,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Memory ≈ Remember/Understand. Understanding ≈ Apply/Analyse. Reflective ≈ Evaluate/Create. The two frameworks are complementary.",
-   "id": 190
+   "id": "Q000192"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2676,7 +2676,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Kohler's ape (Sultan) suddenly grasped the solution to reach a banana = insight = sudden reorganisation of perception = Understanding level. Reflective goes further — creating solutions to completely novel problems.",
-   "id": 191
+   "id": "Q000193"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2690,7 +2690,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Question type determines level of cognitive engagement. Only factual questions = Memory level ceiling for students.",
-   "id": 192
+   "id": "Q000194"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2704,7 +2704,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Surface learning (Marton & Säljö) = rote, reproduction, no depth = Memory level. Deep learning = meaning-making = Understanding. Deepest = Reflective.",
-   "id": 193
+   "id": "Q000195"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2718,7 +2718,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Reflective = Create + Evaluate in Bloom's terms. Original thought, multiple perspectives, independent judgement.",
-   "id": 194
+   "id": "Q000196"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2732,7 +2732,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Ausubel's meaningful learning = new information anchored to existing cognitive structure (assimilation). This is exactly what Understanding level achieves — making content meaningful.",
-   "id": 195
+   "id": "Q000197"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2746,7 +2746,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Memory level is considered insufficient for university education. Understanding level is the minimum acceptable; Reflective is the ideal. This is a value-laden but commonly tested position in NET.",
-   "id": 196
+   "id": "Q000198"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2760,7 +2760,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Deep approach = intention to understand + relating ideas + critical evaluation = Understanding + Reflective. Surface approach = Memory level.",
-   "id": 197
+   "id": "Q000199"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2774,7 +2774,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Novel problem + transfer + independent application = Reflective level. Discussion alone = Understanding. Novel = the key word for Reflective.",
-   "id": 198
+   "id": "Q000200"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2788,7 +2788,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Qualitative differences in learning = style. Quantitative = how much = intelligence/aptitude. Both types of individual differences matter.",
-   "id": 199
+   "id": "Q000201"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2802,7 +2802,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: VARK = Visual, Auditory, Read/Write, Kinesthetic — Neil Fleming (1987). Do not confuse with VAK (Visual, Auditory, Kinesthetic) which omits Read/Write.",
-   "id": 200
+   "id": "Q000202"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2816,7 +2816,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Gardner (1983) — 8 intelligences: Linguistic, Logical-Mathematical, Spatial, Musical, Bodily-Kinesthetic, Interpersonal, Intrapersonal, Naturalist. Implication: teach to diverse strengths.",
-   "id": 201
+   "id": "Q000203"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2830,7 +2830,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Inter = between persons = social intelligence. Intra = within person = self-awareness. This confusion appears in NET questions.",
-   "id": 202
+   "id": "Q000204"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2844,7 +2844,7 @@
    ],
    "answer": "D",
    "explanation": "Mnemonic: CRAA → \"Cycling Round And Around\"\nConcrete Experience → Reflective Observation → Abstract Conceptualisation → Active Experimentation",
-   "id": 203
+   "id": "Q000205"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2858,7 +2858,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Read/Write = text-dominant. Visual = diagrams/charts. Auditory = listening/discussion. Kinesthetic = hands-on/experience.",
-   "id": 204
+   "id": "Q000206"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2872,7 +2872,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Witkin (1954) — Field Independent = analytical, separates figure from background easily, works independently. Field Dependent = holistic, context-dependent, better at social interaction.",
-   "id": 205
+   "id": "Q000207"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2886,7 +2886,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Field Independent = analytical, self-directed, good at STEM. Field Dependent = holistic, social, good at humanities and interpersonal tasks.",
-   "id": 206
+   "id": "Q000208"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2900,7 +2900,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Young adulthood = forming close relationships vs. emotional isolation. College students are in this stage. Implication: peer learning, collaborative environments support development.",
-   "id": 207
+   "id": "Q000209"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2914,7 +2914,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Knowles' andragogy principle — adult experience = richest learning resource. New learning is always filtered through what adults already know and have lived.",
-   "id": 208
+   "id": "Q000210"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2928,7 +2928,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Adolescence = peer dominance. Whether peers value studying strongly predicts individual motivation. Social belonging = powerful motivator.",
-   "id": 209
+   "id": "Q000211"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2942,7 +2942,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Piaget's Formal Operational stage (12+) = hypothetical-deductive reasoning emerges. This is the defining academic cognitive change of adolescence.",
-   "id": 210
+   "id": "Q000212"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2956,7 +2956,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Bandura (1977) — self-efficacy ≠ actual ability. It is PERCEIVED competence. High self-efficacy → greater effort → better performance. Critical learner characteristic.",
-   "id": 211
+   "id": "Q000213"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2970,7 +2970,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Seligman's Learned Helplessness (1967) = repeated failure → belief that outcomes are uncontrollable → giving up. Opposite of self-efficacy.",
-   "id": 212
+   "id": "Q000214"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2984,7 +2984,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Dweck (2006) — Growth mindset vs. Fixed mindset. Growth = brain as a muscle. Fixed = talent is destiny. Growth mindset learners persist, embrace challenges, learn from failure.",
-   "id": 213
+   "id": "Q000215"
   },
   {
    "unit": "Teaching Aptitude",
@@ -2998,7 +2998,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Maslow (1943) — needs hierarchy: Physiological → Safety → Love/Belonging → Esteem → Self-actualisation. A hungry, unsafe, or socially isolated student cannot effectively engage in cognitive learning.",
-   "id": 214
+   "id": "Q000216"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3012,7 +3012,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Adults have established self-concepts. Being treated as children (directed, controlled) causes resistance. Andragogy = respect adult self-concept.",
-   "id": 215
+   "id": "Q000217"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3026,7 +3026,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Constructivism (Piaget, Vygotsky, Ausubel) = prior knowledge + new experience → new understanding. Prior knowledge is the anchor — Ausubel called these \"advance organisers.\"",
-   "id": 216
+   "id": "Q000218"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3040,7 +3040,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Adults juggle multiple roles; learning must fit into complex life contexts. This is why adult education must be flexible, relevant, and immediately applicable.",
-   "id": 217
+   "id": "Q000219"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3054,7 +3054,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Internal locus = \"I control my success\" = higher achievement. External locus = \"luck/teacher decides\" = lower persistence. Rotter (1954). Highly relevant to motivation and achievement.",
-   "id": 218
+   "id": "Q000220"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3068,7 +3068,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Goleman (1995) — EQ includes self-awareness, self-regulation, empathy, motivation, social skills. Research suggests EQ predicts success better than IQ in many life domains.",
-   "id": 219
+   "id": "Q000221"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3082,7 +3082,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Cooperative learning = social + cognitive. Addresses interpersonal intelligence (Gardner), social characteristics of learners, Vygotsky's social learning.",
-   "id": 220
+   "id": "Q000222"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3096,7 +3096,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Adolescent readiness = maturation of prefrontal cortex + social/emotional developmental tasks (identity, relationships). Contrast with adult readiness = triggered by life situations.",
-   "id": 221
+   "id": "Q000223"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3110,7 +3110,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Intrinsic motivation (Deci & Ryan's Self-Determination Theory) = curiosity, mastery, personal growth. Best predictor of deep learning and long-term achievement.",
-   "id": 222
+   "id": "Q000224"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3124,7 +3124,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Prefrontal cortex = judgement, impulse control, planning, decision-making. Fully matures around age 25. This explains why adolescents show risk-taking behaviour and emotional impulsivity — educational implication: structure and guidance remain necessary.",
-   "id": 223
+   "id": "Q000225"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3138,7 +3138,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Shulman (1986) — PCK = intersection of content knowledge + pedagogical knowledge. The most important professional knowledge a teacher must have.",
-   "id": 224
+   "id": "Q000226"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3152,7 +3152,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Ausubel — \"The most important factor influencing learning is what the learner already knows. Ascertain this and teach accordingly.\" Prior knowledge = foundation of new learning.",
-   "id": 225
+   "id": "Q000227"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3166,7 +3166,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: This is one of the most quoted lines in educational psychology and has appeared directly in UGC NET. Prior knowledge = most crucial learner variable.",
-   "id": 226
+   "id": "Q000228"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3180,7 +3180,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Hidden curriculum = institutional culture. What the institution implicitly values shapes what and how teaching occurs, even beyond the formal syllabus.",
-   "id": 227
+   "id": "Q000229"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3194,7 +3194,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Adaptive/Responsive teaching = real-time adjustment based on formative feedback. Highest expression of teacher skill. Requires both content knowledge and learner awareness.",
-   "id": 228
+   "id": "Q000230"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3208,7 +3208,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Dale's Cone = more concrete = more effective. Lab experiments = direct experience = base of cone = highest retention. Verbal = top = most abstract = least effective.",
-   "id": 229
+   "id": "Q000231"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3222,7 +3222,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: \"The rich get richer\" in learning. Named after Biblical Matthew 25:29. Strong foundational knowledge accelerates further learning. Directly affects teaching — weak prior knowledge students fall further behind without intervention.",
-   "id": 230
+   "id": "Q000232"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3236,7 +3236,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Institutional quality = leadership vision + teacher growth opportunities + culture. These systemic factors shape teaching more than physical infrastructure alone.",
-   "id": 231
+   "id": "Q000233"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3250,7 +3250,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: External noise = physical environment = distraction = reduced attention = impaired teaching effectiveness. Environment includes both classroom interior and surrounding context.",
-   "id": 232
+   "id": "Q000234"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3264,7 +3264,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Large classes force teachers toward lecture method (Memory level). Small classes enable discussion, tutorials, personalised feedback (Understanding/Reflective levels).",
-   "id": 233
+   "id": "Q000235"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3278,7 +3278,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Kounin's \"withitness\" (1970) = teacher's eyes-in-the-back-of-the-head quality. Awareness of all classroom happenings simultaneously = effective classroom management.",
-   "id": 234
+   "id": "Q000236"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3292,7 +3292,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Rosenthal & Jacobson (1968) — when teachers were told certain students were \"bloomers\" (randomly selected), those students actually improved more. Expectation → teacher behaviour → student outcome. Very important concept for NET.",
-   "id": 235
+   "id": "Q000237"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3306,7 +3306,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Teacher can influence study skills, habits, and motivation. But SES and home environment are external — teacher must work around them, not directly change them. Policy-level interventions are needed.",
-   "id": 236
+   "id": "Q000238"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3320,7 +3320,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Maslach's Burnout Inventory (1981) — three components: emotional exhaustion + depersonalisation + reduced efficacy. Burned-out teachers deliver poorer quality instruction.",
-   "id": 237
+   "id": "Q000239"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3334,7 +3334,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Internet + smart board = real-time access to current knowledge, multimedia, simulations. Directly upgrades teaching from static to dynamic.",
-   "id": 238
+   "id": "Q000240"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3348,7 +3348,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Equipment, library, digital resources = support material factors. These are external to the teacher but affect what and how effectively teaching can occur.",
-   "id": 239
+   "id": "Q000241"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3362,7 +3362,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Psychological climate = learning environment. Amy Edmondson's \"psychological safety\" is now recognised as the most critical environmental factor for learning and creativity.",
-   "id": 240
+   "id": "Q000242"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3376,7 +3376,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Culturally Responsive Teaching (Gloria Ladson-Billings) = connecting curriculum to students' lived cultural experience. Addresses diversity as a learner factor.",
-   "id": 241
+   "id": "Q000243"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3390,7 +3390,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Carroll's Model of Learning (1963) — degree of learning = time spent/time needed. More time actively engaged = more learning. Distractions, off-task behaviour reduce effective learning time.",
-   "id": 242
+   "id": "Q000244"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3404,7 +3404,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Adults typically choose to learn. Voluntary participation + internal motivation = strongest predictor of adult learning success. Forced adult learning (compliance training) has very poor outcomes.",
-   "id": 243
+   "id": "Q000245"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3418,7 +3418,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Attention is multidetermined. Teachers can enhance attention through: relevance (connection to learner's life), novelty (stimulus variation), and a comfortable physical environment.",
-   "id": 244
+   "id": "Q000246"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3432,7 +3432,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Direct from UGC NET syllabus for Unit I. These exact five categories are stated in the official syllabus. Knowing them by name is important.",
-   "id": 245
+   "id": "Q000247"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3446,7 +3446,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Transfer = applying learning in new contexts. Requires meaningful learning (not rote), examples from real life, and assessment that tests application — multiple factors working together.",
-   "id": 246
+   "id": "Q000248"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3460,7 +3460,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Teaching is a transactional process. Best teacher + unmotivated learner = limited success. Motivated learner + poor teacher = partial success. Optimal = both factors aligned.",
-   "id": 247
+   "id": "Q000249"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3474,7 +3474,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Institutional support for teacher growth = the most sustainable way to improve teaching quality system-wide. Individual teacher effort matters, but institutional structures determine whether that effort is sustained and rewarded.",
-   "id": 248
+   "id": "Q000250"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3488,7 +3488,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: The first MOOC was \"Connectivism and Connective Knowledge\" by George Siemens and Stephen Downes, University of Manitoba, Canada, 2008. 2,300 participants enrolled.",
-   "id": 249
+   "id": "Q000252"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3502,7 +3502,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: 2012 = explosive growth of MOOC platforms. New York Times called it \"The Year of the MOOC.\" Coursera (Stanford), edX (MIT+Harvard), Udacity (Stanford) all launched.",
-   "id": 250
+   "id": "Q000253"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3516,7 +3516,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Massive = unlimited, no cap. MOOCs have enrolled hundreds of thousands simultaneously. Limitation of 30 = traditional classroom, not MOOC.",
-   "id": 251
+   "id": "Q000254"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3530,7 +3530,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: cMOOC = Connectivist MOOC. Based on George Siemens' Connectivism theory. Knowledge is distributed across networks. Learners co-create knowledge through interaction.",
-   "id": 252
+   "id": "Q000255"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3544,7 +3544,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: xMOOC = content-focused, lecture-based, quiz-assessed. Coursera, edX = xMOOC model. Content flows from expert to learner. Contrast with cMOOC = networked, collaborative knowledge-creation.",
-   "id": 253
+   "id": "Q000256"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3558,7 +3558,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Siemens' Connectivism (2004) = learning by connecting nodes in a network. Knowledge exists in the network, not just in the individual. Internet-age learning theory.",
-   "id": 254
+   "id": "Q000257"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3572,7 +3572,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Both co-created connectivism and co-facilitated the first MOOC (CCK08). Siemens wrote \"Connectivism: A Learning Theory for the Digital Age\" (2004). Downes expanded it.",
-   "id": 255
+   "id": "Q000258"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3586,7 +3586,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Coursera = Andrew Ng + Daphne Koller, Stanford, 2012. edX = MIT + Harvard, 2012. Udacity = Sebastian Thrun, Stanford, 2012.",
-   "id": 256
+   "id": "Q000259"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3600,7 +3600,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: edX launched in 2012 as a non-profit. MIT + Harvard = edX. Now owned by 2U Inc. Still offers free audit options.",
-   "id": 257
+   "id": "Q000260"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3614,7 +3614,7 @@
    ],
    "answer": "C",
    "explanation": "Direct memory: PYQ. SWAYAM = India's own MOOC platform. Free, government-run, covers school to postgraduate level.",
-   "id": 258
+   "id": "Q000261"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3628,7 +3628,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: NPTEL (National Programme on Technology Enhanced Learning) = IITs + IISc joint initiative. STEM-focused courses. These now integrate with SWAYAM.",
-   "id": 259
+   "id": "Q000262"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3642,7 +3642,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: MOOCs use online assessment tools. Quizzes = automated. Assignments = submitted online. Peer review = scalable feedback mechanism for large enrolments.",
-   "id": 260
+   "id": "Q000263"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3656,7 +3656,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: This is one of the most significant criticisms of MOOCs. Despite massive enrolment, very few students complete courses. Research consistently shows 5–15% completion. Low accountability + no social pressure = high dropout.",
-   "id": 261
+   "id": "Q000264"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3670,7 +3670,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: MOOCs lack the social bonding and accountability of traditional classrooms. No teacher watching = easy to abandon. This is the most cited limitation in research.",
-   "id": 262
+   "id": "Q000265"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3684,7 +3684,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: MOOCs democratise education — anyone with internet can access courses from top universities globally, at any time, for free or very low cost. This is their greatest strength.",
-   "id": 263
+   "id": "Q000266"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3698,7 +3698,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: With 50,000 enrolled students, one instructor cannot give individual feedback. Peer assessment = scalable solution. Also develops critical thinking in assessors.",
-   "id": 264
+   "id": "Q000267"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3712,7 +3712,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Hybrid MOOC = best of both = online flexibility + human interaction and accountability of in-person meetings. Addresses completion rate problem.",
-   "id": 265
+   "id": "Q000268"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3726,7 +3726,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: The vision = democratise access. Rural student in India or Africa can access MIT-quality lectures. Remove geographic, economic, and social barriers to quality education.",
-   "id": 266
+   "id": "Q000269"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3740,7 +3740,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: MOOC weakness = no physical lab, no campus social life, no sports, no mentoring relationships. Best for theoretical knowledge; limited for psychomotor/professional skills.",
-   "id": 267
+   "id": "Q000270"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3754,7 +3754,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Most MOOCs provide digital certificates (PDF/shareable on LinkedIn). \"Verified certificate\" = identity verified via webcam/ID. Not equivalent to a formal degree.",
-   "id": 268
+   "id": "Q000271"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3768,7 +3768,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: OER = openly licensed content (Creative Commons). MOOCs often use and distribute OER. UNESCO promotes OER as fundamental to equitable education.",
-   "id": 269
+   "id": "Q000272"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3782,7 +3782,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Forums = learners teaching each other, sharing perspectives = social learning. Vygotsky = learning through social interaction. Discussion forums partially compensate for MOOC's isolation.",
-   "id": 270
+   "id": "Q000273"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3796,7 +3796,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: edX MicroMasters, Coursera Specialisations, Georgia Tech's online MS degree via Udacity = MOOCs evolving toward formal credentials. The line between MOOC and online degree is blurring.",
-   "id": 271
+   "id": "Q000274"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3810,7 +3810,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Self-paced = maximum flexibility. No cohort deadlines. Learner controls schedule entirely. Most suitable for working adult learners (andragogy principle).",
-   "id": 272
+   "id": "Q000275"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3824,7 +3824,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: MoE (formerly MHRD) launched SWAYAM. Renamed MoHRD to MoE in 2020 under NEP 2020. Both names acceptable in answer.",
-   "id": 273
+   "id": "Q000277"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3838,7 +3838,7 @@
    ],
    "answer": "B",
    "explanation": "Direct memory: SWAYAM was officially launched on July 9, 2017. Prime Minister Narendra Modi inaugurated it.",
-   "id": 274
+   "id": "Q000278"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3852,7 +3852,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: SWAYAM = 4-quadrant approach:\nQ1 = Video lectures\nQ2 = Reading material (e-books, PDF)\nQ3 = Self-assessment (MCQs, assignments)\nQ4 = Discussion forum (doubt-clearing)",
-   "id": 275
+   "id": "Q000279"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3866,7 +3866,7 @@
    ],
    "answer": "A",
    "explanation": "Direct memory: 4 quadrants is one of the most frequently asked SWAYAM facts in UGC NET.\nMnemonic: V-R-S-D → \"Very Reliable Study Device\"\nVideo → Reading → Self-assessment → Discussion",
-   "id": 276
+   "id": "Q000280"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3880,7 +3880,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: SWAYAM covers Class 9 onwards to postgraduate. Not primary level. Covers school board curricula, UG, PG, and professional courses.",
-   "id": 277
+   "id": "Q000281"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3894,7 +3894,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: 9 National Coordinators manage different subject areas on SWAYAM. Different institutions handle different disciplines.",
-   "id": 278
+   "id": "Q000282"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3908,7 +3908,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: UGC circular (2016) — universities must allow credit transfer for SWAYAM courses. Students can earn up to 40% credits through SWAYAM. This is the most important UGC-level implication.",
-   "id": 279
+   "id": "Q000283"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3922,7 +3922,7 @@
    ],
    "answer": "B",
    "explanation": "Direct memory: UGC recommendation = up to 40% of total credits can come from SWAYAM courses. This figure has appeared in NET questions.",
-   "id": 280
+   "id": "Q000284"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3936,7 +3936,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Watching lectures, reading material, and discussion = FREE. To get a certificate, student must appear in a proctored end-term exam = nominal registration fee.",
-   "id": 281
+   "id": "Q000285"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3950,7 +3950,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: The final certification requires a physical proctored exam to ensure authenticity. This differentiates SWAYAM from other open online learning — it has credibility through examination.",
-   "id": 282
+   "id": "Q000286"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3964,7 +3964,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: 9 National Coordinators on SWAYAM:\n- NPTEL = Engineering, Basic Sciences\n- UGC = Post-graduation\n- CEC = Undergraduate\n- NCERT = School (9–12)\n- NIOS = School (open)\n- IGNOU = Out-of-school\n- IIMB = Management\n- AICTE = Technical\n- NH-E = Law",
-   "id": 283
+   "id": "Q000287"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3978,7 +3978,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: CEC = national coordinator for undergraduate courses on SWAYAM. CEC was established by UGC for educational broadcasting and now manages UG content on SWAYAM.",
-   "id": 284
+   "id": "Q000288"
   },
   {
    "unit": "Teaching Aptitude",
@@ -3992,7 +3992,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: SWAYAM runs on Open edX — the open-source platform also used by edX globally. Microsoft provided technical support for initial implementation.",
-   "id": 285
+   "id": "Q000289"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4006,7 +4006,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: SWAYAM's mission = bridge the quality gap. Students in remote areas, small colleges, and underserved communities get the SAME quality content as top-tier institution students.",
-   "id": 286
+   "id": "Q000290"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4020,7 +4020,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: SWAYAM = India's own national MOOC platform. It is India's answer to Coursera, edX, etc. — built on Indian needs, in Indian languages, with Indian content.",
-   "id": 287
+   "id": "Q000291"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4034,7 +4034,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Many Indian students struggle with English-medium content. SWAYAM courses in Hindi and regional languages dramatically expand accessibility — critical for equity.",
-   "id": 288
+   "id": "Q000292"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4048,7 +4048,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Discussion forum = Q4 of 4-quadrant approach. Enables social learning (Vygotsky) in the otherwise isolated online environment.",
-   "id": 289
+   "id": "Q000293"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4062,7 +4062,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Self-assessment quizzes = formative = immediate feedback = learner adjusts understanding. Not for final certification. Promotes metacognition.",
-   "id": 290
+   "id": "Q000294"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4076,7 +4076,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: A student in a small college in rural Chhattisgarh can now access an IIT professor's lectures. SWAYAM equalises quality access — this is its most transformative contribution.",
-   "id": 291
+   "id": "Q000295"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4090,7 +4090,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: NEP 2020 explicitly mentions SWAYAM and online education as central to achieving its goals of multidisciplinary, flexible, accessible education. SWAYAM + ABC (Academic Bank of Credits) = NEP 2020 implementation tools.",
-   "id": 292
+   "id": "Q000296"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4104,7 +4104,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: SWAYAM = designed for INDIAN educational system. Credit transfer, Indian curriculum alignment, Indian language options = uniquely Indian features absent in Coursera/edX.",
-   "id": 293
+   "id": "Q000297"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4118,7 +4118,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Proctored = supervised in-person. Ensures authenticity of certification. NTA (National Testing Agency) or designated centres conduct these exams.",
-   "id": 294
+   "id": "Q000298"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4132,7 +4132,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: SWAYAM helps but requires internet/device. Students without connectivity still cannot access it — hence SWAYAMPRABHA (DTH) was added to reach those without internet.",
-   "id": 295
+   "id": "Q000299"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4146,7 +4146,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: UGC's credit transfer framework = official integration of SWAYAM into the formal degree system. This gives SWAYAM academic legitimacy beyond just informal upskilling.",
-   "id": 296
+   "id": "Q000300"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4160,7 +4160,7 @@
    ],
    "answer": "D",
    "explanation": "Direct memory: MoE funds and oversees SWAYAM as part of its national digital education infrastructure.",
-   "id": 297
+   "id": "Q000301"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4174,7 +4174,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: SWAYAM = theoretical and knowledge-based courses. Physical/psychomotor skills requiring physical presence cannot be taught on SWAYAM. Same limitation as all MOOCs.",
-   "id": 298
+   "id": "Q000302"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4188,7 +4188,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: SWAYAMPRABHA content complements SWAYAM. The same video lectures broadcast on DTH are also available on the SWAYAM platform — two delivery channels, same content.",
-   "id": 299
+   "id": "Q000303"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4202,7 +4202,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: AICTE (All India Council for Technical Education) = national coordinator for technical courses on SWAYAM. Coordinates with engineering colleges.",
-   "id": 300
+   "id": "Q000304"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4216,7 +4216,7 @@
    ],
    "answer": "C",
    "explanation": "Direct memory: IIMB = Management domain on SWAYAM. IIM Bangalore brings MBA-level content to SWAYAM platform.",
-   "id": 301
+   "id": "Q000305"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4230,7 +4230,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: NIOS (National Institute of Open Schooling) = coordinator for out-of-school and open learner content on SWAYAM.",
-   "id": 302
+   "id": "Q000306"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4244,7 +4244,7 @@
    ],
    "answer": "A",
    "explanation": "Direct memory: 9 National Coordinators on SWAYAM.\nMnemonic: NUC-NIA-IIC → NPTEL, UGC, CEC, NCERT, NIOS, IGNOU, AICTE, IIMB, NHE (Law)",
-   "id": 303
+   "id": "Q000307"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4258,7 +4258,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: The primary target = students in thousands of ordinary colleges across India who have poor quality teaching, limited library resources, and geographic disadvantages.",
-   "id": 304
+   "id": "Q000308"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4272,7 +4272,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: ABC = digital credit bank. SWAYAM credits → deposited in ABC → counted toward degree. Together they create a flexible, credit-based education ecosystem.",
-   "id": 305
+   "id": "Q000309"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4286,7 +4286,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: COVID-19 = SWAYAM's greatest test and validation. Enrolment surged dramatically. Proved the value of digital infrastructure. Post-COVID, SWAYAM became a permanent fixture.",
-   "id": 306
+   "id": "Q000310"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4300,7 +4300,7 @@
    ],
    "answer": "B",
    "explanation": "Direct memory: SWAYAMPRABHA launched with 32 DTH channels. This specific number has been asked in UGC NET.",
-   "id": 307
+   "id": "Q000312"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4314,7 +4314,7 @@
    ],
    "answer": "D",
    "explanation": "Direct memory: 24×7 broadcasting. Each 4-hour slot is repeated 6 times daily to maximise reach across time zones and learner schedules.",
-   "id": 308
+   "id": "Q000313"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4328,7 +4328,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: SWAYAMPRABHA addresses the digital divide specifically. Where internet fails (rural India, hilly terrain, economically poor households), a TV with DTH connection works. Critical equity tool.",
-   "id": 309
+   "id": "Q000314"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4342,7 +4342,7 @@
    ],
    "answer": "B",
    "explanation": "Direct memory: SWAYAMPRABHA uses GSAT-15 satellite for Ku-band transmission. This technical detail has appeared in some NET question banks.",
-   "id": 310
+   "id": "Q000315"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4356,7 +4356,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: SWAYAMPRABHA = same content as SWAYAM, delivered via DTH. The content ecosystem is shared — SWAYAM (internet) + SWAYAMPRABHA (DTH) = complementary.",
-   "id": 311
+   "id": "Q000316"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4370,7 +4370,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: CEC = primary coordinator for SWAYAMPRABHA. CEC has been producing educational video content since the 1990s for Doordarshan.",
-   "id": 312
+   "id": "Q000317"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4384,7 +4384,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: SWAYAMPRABHA mirrors SWAYAM coverage. Class 9+ to PG. Includes vocational and professional content.",
-   "id": 313
+   "id": "Q000318"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4398,7 +4398,7 @@
    ],
    "answer": "D",
    "explanation": "Direct memory: SWAYAMPRABHA was launched simultaneously with SWAYAM in 2017. Both launched on July 9, 2017.",
-   "id": 314
+   "id": "Q000319"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4412,7 +4412,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: DTH penetration in India = much higher than broadband internet in rural areas. A TV set with a DTH dish is sufficient — no data cost, no smartphone needed. This is SWAYAMPRABHA's key advantage.",
-   "id": 315
+   "id": "Q000320"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4426,7 +4426,7 @@
    ],
    "answer": "C",
    "explanation": "Direct memory: Each 4-hour content block repeats 6 times in 24 hours = 6 × 4 = 24 hours. Students can watch at any convenient time.",
-   "id": 316
+   "id": "Q000321"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4440,7 +4440,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: SWAYAMPRABHA's limitation = it is still one-way (broadcast, no interaction). But it solves the ACCESS problem for the internet-less student.",
-   "id": 317
+   "id": "Q000322"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4454,7 +4454,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: SWAYAMPRABHA is broadcast on DD Free Dish (Doordarshan's free DTH). No subscription needed. Free access = maximum reach to economically weaker sections.",
-   "id": 318
+   "id": "Q000323"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4468,7 +4468,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Article 21A = right to education for all children 6–14. SWAYAMPRABHA extends this spirit to higher education through free, accessible content.",
-   "id": 319
+   "id": "Q000324"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4482,7 +4482,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Old Doordarshan education = occasional, low quality, not curriculum-aligned. SWAYAMPRABHA = dedicated, 24×7, IIT/IIM-quality, aligned with SWAYAM content.",
-   "id": 320
+   "id": "Q000325"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4496,7 +4496,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: SWAYAMPRABHA = content delivery only. It is not a standalone certification mechanism. Students must enrol on SWAYAM, complete course requirements, and pass the proctored exam.",
-   "id": 321
+   "id": "Q000326"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4510,7 +4510,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: SWAYAMPRABHA's raison d'être = serve the last mile. Students in aspirational districts, tribal areas, and economically marginalised communities who are excluded from internet-based platforms.",
-   "id": 322
+   "id": "Q000327"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4524,7 +4524,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Most SWAYAM/SWAYAMPRABHA content = English. Hindi content growing. Regional language content being developed — a priority under NEP 2020 for mother tongue instruction.",
-   "id": 323
+   "id": "Q000328"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4538,7 +4538,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Television = passive medium. Student watches but cannot ask questions. No ZPD, no scaffolding, no social learning during broadcast. Students must go online for interaction.",
-   "id": 324
+   "id": "Q000329"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4552,7 +4552,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: The two are designed as complementary. SWAYAM = for those with internet. SWAYAMPRABHA = for those without. Together = near-universal coverage of Indian student population.",
-   "id": 325
+   "id": "Q000330"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4566,7 +4566,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: UGC's 2016 and subsequent circulars = formal bridge between informal MOOC learning (SWAYAM) and formal degree programmes. Credit transfer = legitimisation of MOOCs.",
-   "id": 326
+   "id": "Q000331"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4580,7 +4580,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: ODL = traditional distance education (IGNOU model). MOOCs = digital-era ODL. Both share the philosophy of breaking geographic and time barriers to education.",
-   "id": 327
+   "id": "Q000332"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4594,7 +4594,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: SWAYAM ≠ degree-granting. IGNOU = full degrees, diplomas, certificates through distance mode. SWAYAM = supplementary + credit transfer. Key distinction.",
-   "id": 328
+   "id": "Q000333"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4608,7 +4608,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: MOOCs align perfectly with Knowles' andragogy — self-direction, flexibility, learning at own pace, choosing relevant courses = adult learning principles in action.",
-   "id": 329
+   "id": "Q000334"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4622,7 +4622,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Post-NEP 2020, SWAYAM + ABC + blended learning = official policy. MOOCs not replacing but SUPPLEMENTING traditional education. Integration is the current trend.",
-   "id": 330
+   "id": "Q000335"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4636,7 +4636,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Micro-credentials = 21st-century trend. Short courses + certificates that can stack into diplomas or degrees. edX MicroMasters, Coursera Specialisations = examples. NEP 2020 envisions this.",
-   "id": 331
+   "id": "Q000336"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4650,7 +4650,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: COVID = digital education accelerant. SWAYAM enrolment jumped dramatically. Blended learning went from optional to necessary. This shift became permanent.",
-   "id": 332
+   "id": "Q000337"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4664,7 +4664,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: AI-driven adaptive learning = personalised MOOC. Platform tracks performance → adjusts next lesson difficulty → provides targeted feedback. The future of MOOCs.",
-   "id": 333
+   "id": "Q000338"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4678,7 +4678,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Learning Analytics = big data applied to education. MOOC platforms generate enormous data (clicks, time spent, quiz scores, forum activity) → used to identify at-risk students, improve content, personalise learning.",
-   "id": 334
+   "id": "Q000339"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4692,7 +4692,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: edX was originally launched as non-profit (MIT + Harvard). Coursera, Udemy, Udacity = for-profit. edX was later acquired by 2U Inc. but maintained open access courses.",
-   "id": 335
+   "id": "Q000340"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4706,7 +4706,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: SWAYAM Plus = industry-focused extension. Bridges academia-industry gap. Skill development + employment readiness = key purpose.",
-   "id": 336
+   "id": "Q000341"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4720,7 +4720,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Scale is MOOC's biggest pedagogical challenge. 50,000 students = impossible for individual feedback. Solutions: peer assessment, automated grading, AI feedback. Engagement = completion rate problem.",
-   "id": 337
+   "id": "Q000342"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4734,7 +4734,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: NPTEL predates SWAYAM (started 2003). It was the precursor to SWAYAM — its content was the foundation. Now NPTEL = national coordinator for engineering/science courses on SWAYAM.",
-   "id": 338
+   "id": "Q000343"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4748,7 +4748,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: The MASSIVE + OPEN combination distinguishes MOOCs. Traditional LMS-based e-learning (Moodle for a single college) = closed, enrolled students only, not open access.",
-   "id": 339
+   "id": "Q000344"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4762,7 +4762,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: \"Active-Learning\" in SWAYAM's name = the 4-quadrant model ensures learners DO things (take quizzes, join discussions, submit assignments) not just watch videos. Active ≠ passive consumption.",
-   "id": 340
+   "id": "Q000345"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4776,7 +4776,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Flexibility of time and place = defining feature of MOOCs. Learner studies at midnight or from a village or from abroad = \"anytime, anywhere.\"",
-   "id": 341
+   "id": "Q000346"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4790,7 +4790,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: This is the flipped classroom + blended learning model. SWAYAM = content delivery (homework/pre-class). Classroom = HOTS, interaction, application. Best pedagogical use of SWAYAM.",
-   "id": 342
+   "id": "Q000347"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4804,7 +4804,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Research shows MOOC users globally are predominantly already-educated adults with degrees. The truly marginalised lack devices, internet, digital literacy. This \"participation paradox\" is a major critique.",
-   "id": 343
+   "id": "Q000348"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4818,7 +4818,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: NEP 2020 envisions an integrated ecosystem:\nSWAYAM = MOOCs / SWAYAMPRABHA = DTH / DIKSHA = school teacher training / ABC = credit banking / NDLI = digital library / Virtual Labs = online lab simulations. All together.",
-   "id": 344
+   "id": "Q000349"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4832,7 +4832,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: This is INCORRECT. Certification = mandatory proctored examination at a designated centre. Watching videos alone = no certificate. This is the most common misconception about SWAYAM.",
-   "id": 345
+   "id": "Q000350"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4846,7 +4846,7 @@
    ],
    "answer": "B",
    "explanation": "Direct memory: UGC introduced CBCS from the academic session 2015–16. This year is directly asked in NET.",
-   "id": 346
+   "id": "Q000351"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4860,7 +4860,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: CBCS = student choice + credit accumulation + mobility across institutions. Replaces rigid, fixed-course annual system.",
-   "id": 347
+   "id": "Q000352"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4874,7 +4874,7 @@
    ],
    "answer": "A",
    "explanation": "Direct memory: PYQ.\nMnemonic: CEA → \"Choose Every Avenue\"\nCore → Elective → Ability Enhancement Courses",
-   "id": 348
+   "id": "Q000353"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4888,7 +4888,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Core = mandatory, discipline-specific. A Physics student MUST take core Physics courses. No choice here — choice comes in Elective and AEC.",
-   "id": 349
+   "id": "Q000354"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4902,7 +4902,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: DSE = electives within your discipline. Chemistry student might choose between Organic Chemistry specialisation or Analytical Chemistry = DSE choice.",
-   "id": 350
+   "id": "Q000355"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4916,7 +4916,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: GE = interdisciplinary. Science student taking History as GE = broadening perspective. Promotes NEP 2020's multidisciplinary vision.",
-   "id": 351
+   "id": "Q000356"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4930,7 +4930,7 @@
    ],
    "answer": "B",
    "explanation": "Direct memory: AECC = Environmental Science + MIL (Modern Indian Language/English Communication). Both compulsory for ALL students regardless of discipline.",
-   "id": 352
+   "id": "Q000357"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4944,7 +4944,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: SEC = employability + skill = hands-on, practical. Examples: Computer skills, communication skills, entrepreneurship. Bridges academia-employment gap.",
-   "id": 353
+   "id": "Q000358"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4958,7 +4958,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Credit definition under UGC: 1 credit = 1 hour/week lecture = 2 hours/week tutorial/lab. This contact-hour to credit mapping is important.",
-   "id": 354
+   "id": "Q000359"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4972,7 +4972,7 @@
    ],
    "answer": "C",
    "explanation": "Direct memory: UGC guideline = minimum 120 credits for 3-year UG degree under CBCS. 40 credits per year × 3 years = 120.",
-   "id": 355
+   "id": "Q000360"
   },
   {
    "unit": "Teaching Aptitude",
@@ -4986,7 +4986,7 @@
    ],
    "answer": "D",
    "explanation": "Direct memory: SGPA = one semester's GPA. CGPA = cumulative across all semesters. Both calculated on 10-point scale.",
-   "id": 356
+   "id": "Q000361"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5000,7 +5000,7 @@
    ],
    "answer": "C",
    "explanation": "Direct memory: CGPA = overall GPA across all semesters of the entire degree programme.",
-   "id": 357
+   "id": "Q000362"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5014,7 +5014,7 @@
    ],
    "answer": "C",
    "explanation": "Direct memory:\nO=10, A+=9, A=8, B+=7, B=6, C=5, P=4, F=0\nMnemonic: \"Outstanding A-plus A Before-plus Before C Passes, Fails = 10,9,8,7,6,5,4,0\"",
-   "id": 358
+   "id": "Q000363"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5028,7 +5028,7 @@
    ],
    "answer": "D",
    "explanation": "Applied calculation:\nTotal credit points = (4×8) + (4×7) + (2×10) = 32 + 28 + 20 = 80\nTotal credits = 4+4+2 = 10\nSGPA = 80/10 = 8.0\nConcept: SGPA = Σ(Credits × Grade Points) ÷ Σ(Credits). This applied formula question has appeared in UGC NET pattern papers.",
-   "id": 359
+   "id": "Q000364"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5042,7 +5042,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Credit transfer = mobility. Student moves from Delhi University to Hyderabad University — credits earned don't get wasted. Core feature of CBCS enabling national academic mobility.",
-   "id": 360
+   "id": "Q000365"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5056,7 +5056,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Percentage marks = not comparable across universities (one gives marks liberally, another strictly). Grade points on 10-point scale = standardised, internationally comparable.",
-   "id": 361
+   "id": "Q000366"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5070,7 +5070,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Generic Elective = from ANOTHER discipline. Chemistry student taking Sociology = GE. Chemistry courses (A, B, D) = Core or DSE.",
-   "id": 362
+   "id": "Q000367"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5084,7 +5084,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Horizontal = lateral movement at same level. Vertical = upward to higher degree. CBCS enables both.",
-   "id": 363
+   "id": "Q000368"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5098,7 +5098,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: NEP 2020 and CBCS share philosophy: student chooses, credits accumulate, disciplines mix, institutions become permeable. CBCS is the structural mechanism for NEP 2020 goals.",
-   "id": 364
+   "id": "Q000369"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5112,7 +5112,7 @@
    ],
    "answer": "B",
    "explanation": "Direct memory: PYQ pattern. NEP 2020 multiple exit options.\nMnemonic: 1=C, 2=D, 3=Deg, 4=H → \"Certificates Don't Determine Honours\"",
-   "id": 365
+   "id": "Q000370"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5126,7 +5126,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Audit = attend and learn, no grade impact. Useful for students wanting exposure to a subject without affecting SGPA.",
-   "id": 366
+   "id": "Q000371"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5140,7 +5140,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: CBCS = India's adaptation of ECTS. ECTS = credit framework enabling mobility across European universities. CBCS replicates this for Indian higher education.",
-   "id": 367
+   "id": "Q000372"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5154,7 +5154,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: CBCS = course-by-course progression. Failure in one = retake that course only. No \"year fail\" concept. This reduces the devastating impact of one poor performance.",
-   "id": 368
+   "id": "Q000373"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5168,7 +5168,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: UGC CBCS model = blend of continuous internal assessment (assignments, quizzes, mid-term) + end-semester examination. Exact ratio varies by institution but 25–40% internal is typical.",
-   "id": 369
+   "id": "Q000374"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5182,7 +5182,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: CBCS works well in large, well-resourced universities. In smaller colleges = few faculty, few courses = \"choice\" is illusory. This gap between design and implementation is widely cited.",
-   "id": 370
+   "id": "Q000375"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5196,7 +5196,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: ABC (launched 2021 under NEP 2020) = digital credit locker. Multiple institutions contribute credits → student accumulates → redeems for degree. Complementary to CBCS.",
-   "id": 371
+   "id": "Q000376"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5210,7 +5210,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: IITs have used credit systems since their founding. HCU, JNU, and other central universities had credit systems before UGC universalised CBCS. UGC learned from these.",
-   "id": 372
+   "id": "Q000377"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5224,7 +5224,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Open Elective = truly open = cross-disciplinary. Any student, any department can enrol. Maximises interdisciplinary exposure. Example: Philosophy course open to Science students.",
-   "id": 373
+   "id": "Q000378"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5238,7 +5238,7 @@
    ],
    "answer": "C",
    "explanation": "Direct memory: 3 years × 2 semesters per year = 6 semesters. Each semester = 15–18 weeks. PYQ level fact.",
-   "id": 374
+   "id": "Q000379"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5252,7 +5252,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Pre-CBCS = annual system, fixed courses, no choice, no mobility, one bad year = repeat entire year. CBCS = flexibility, choice, credit accumulation, mobility.",
-   "id": 375
+   "id": "Q000380"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5266,7 +5266,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: CBT = digital examination. Paper-pencil replaced by computer screen + keyboard/mouse. UGC NET itself shifted to CBT mode via NTA from 2018.",
-   "id": 376
+   "id": "Q000381"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5280,7 +5280,7 @@
    ],
    "answer": "C",
    "explanation": "Direct memory: NTA established in 2017. Conducts UGC NET, JEE, NEET, CUET in CBT mode. UGC NET shifted to NTA-CBT mode from December 2018.",
-   "id": 377
+   "id": "Q000382"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5294,7 +5294,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: CAT = intelligent testing. Answer correctly → next question harder. Answer wrongly → next question easier. Efficient — fewer questions needed for accurate ability estimation. GRE uses CAT.",
-   "id": 378
+   "id": "Q000383"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5308,7 +5308,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: IRT = statistical model describing relationship between person's ability and probability of answering item correctly. CAT uses IRT to select optimal next item from item bank.",
-   "id": 379
+   "id": "Q000384"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5322,7 +5322,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Item bank = prerequisite for CBT and CAT. Questions pre-validated for difficulty, discrimination, and content coverage. CAT selects from item bank in real time.",
-   "id": 380
+   "id": "Q000385"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5336,7 +5336,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: CBT advantages: speed (instant scoring), integrity (randomisation prevents copying), efficiency (no paper, printing, manual checking), accessibility (can include multimedia).",
-   "id": 381
+   "id": "Q000386"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5350,7 +5350,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Each candidate gets a different order of questions or different question set from the item bank = malpractice prevention. Critical advantage of CBT over paper exams.",
-   "id": 382
+   "id": "Q000387"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5364,7 +5364,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Remote proctoring = AI + human invigilator monitors candidate via webcam. Detects eye movement, face recognition, background sounds. Became common post-COVID.",
-   "id": 383
+   "id": "Q000388"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5378,7 +5378,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: CBT assumes computer literacy and access. Candidates unfamiliar with computers struggle with the interface regardless of content knowledge. Equity concern for India.",
-   "id": 384
+   "id": "Q000389"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5392,7 +5392,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Mock test = practice on the actual CBT interface. Reduces interface anxiety. Ensures candidates are not disadvantaged by unfamiliarity with the digital format.",
-   "id": 385
+   "id": "Q000390"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5406,7 +5406,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: On-screen tools = paperless + ensures all candidates use same standardised tool. Prevents advantages from better physical calculators.",
-   "id": 386
+   "id": "Q000391"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5420,7 +5420,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: NEET UG remains paper-pencil (OMR-based) as of recent years, given concerns about digital infrastructure equity for medical aspirants across India. JEE, NET, CUET = CBT.",
-   "id": 387
+   "id": "Q000392"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5434,7 +5434,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Psychometrics = science of psychological measurement. CBT uses psychometric principles: item analysis, reliability, validity, IRT, norm-setting.",
-   "id": 388
+   "id": "Q000393"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5448,7 +5448,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Reliability = consistency. Validity = accuracy. A reliable test gives same score on re-test. A valid test measures what it intends to. Both essential for CBT quality.",
-   "id": 389
+   "id": "Q000394"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5462,7 +5462,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Content validity = does it cover the syllabus? Construct validity = does it measure the right ability? Criterion validity = does it predict relevant outcomes? All aspects of validity.",
-   "id": 390
+   "id": "Q000395"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5476,7 +5476,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Normalisation (equating) = because different test sessions may have different difficulty levels. Normalised score = statistically adjusted so a candidate in an easier session is not advantaged over one in a harder session.",
-   "id": 391
+   "id": "Q000396"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5490,7 +5490,7 @@
    ],
    "answer": "C",
    "explanation": "Direct memory: NTA uses percentile scores for normalisation. Percentile = percentage of candidates who scored BELOW a given candidate. Used in JEE Main, CUET.",
-   "id": 392
+   "id": "Q000397"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5504,7 +5504,7 @@
    ],
    "answer": "A",
    "explanation": "Applied concept: 90 percentile does NOT mean 90%. It means you scored better than 90% of candidates. Frequently confused in NET questions.",
-   "id": 393
+   "id": "Q000398"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5518,7 +5518,7 @@
    ],
    "answer": "A",
    "explanation": "Applied concept: Percentile = relative standing. 95th percentile = only 5% candidates scored above this person. Very high standing.",
-   "id": 394
+   "id": "Q000399"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5532,7 +5532,7 @@
    ],
    "answer": "A",
    "explanation": "Direct memory: CUET = CBT. Introduced from 2022 for UG admissions to central universities. Conducted by NTA. Replaced individual university entrance tests.",
-   "id": 395
+   "id": "Q000400"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5546,7 +5546,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: UGC NET = no negative marking (important!). JEE = -1 for wrong MCQ. Purpose = reduce guessing effect on scores. CBT can implement negative marking automatically.",
-   "id": 396
+   "id": "Q000401"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5560,7 +5560,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: CBT \"mark for review\" = candidate flags question → continues → returns before time ends. Paper tests = scribbling and erasing. CBT = clean, structured review process.",
-   "id": 397
+   "id": "Q000402"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5574,7 +5574,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: AI proctoring = comprehensive surveillance. Multiple people = impersonation flag. Screen switch = external help flag. Eye movement away from screen = possible reference material.",
-   "id": 398
+   "id": "Q000403"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5588,7 +5588,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Item difficulty index (p) = number correct/total attempted. p=0.8 = easy (80% got it right). p=0.2 = hard. Item analysis is core to CBT item bank quality.",
-   "id": 399
+   "id": "Q000404"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5602,7 +5602,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: CBT excels at objective, auto-scorable formats. Long descriptive essays requiring nuanced human judgement = challenge for CBT (though AI essay scoring is emerging). Currently, descriptive = human scored.",
-   "id": 400
+   "id": "Q000405"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5616,7 +5616,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Evaluate = to find the value/worth of. Evaluation = judgement of worth based on evidence. Not just measurement — includes value judgement.",
-   "id": 401
+   "id": "Q000406"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5630,7 +5630,7 @@
    ],
    "answer": "A",
    "explanation": "Direct memory: Tyler's definition = most cited in UGC NET. Father of evaluation. Objective-centred view.",
-   "id": 402
+   "id": "Q000407"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5644,7 +5644,7 @@
    ],
    "answer": "D",
    "explanation": "Concept:\nTesting = one specific instrument\nMeasurement = quantification using any instrument\nAssessment = interpretation of measurement\nEvaluation = value judgement based on all evidence\nMnemonic: \"Tests Measure Academic Excellence\" (T→M→A→E, narrow to broad)",
-   "id": 403
+   "id": "Q000408"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5658,7 +5658,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Measurement = quantification. Score = 75/100 = measurement. Whether that is \"good\" = evaluation. Measurement does not interpret — it only counts.",
-   "id": 404
+   "id": "Q000409"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5672,7 +5672,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Assessment = evidence collection + interpretation. Evaluation = assessment + judging worth (pass/fail, good/poor, accept/reject). Evaluation is the broader, final act.",
-   "id": 405
+   "id": "Q000410"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5686,7 +5686,7 @@
    ],
    "answer": "C",
    "explanation": "Direct memory: Scriven (1967) coined both formative and summative evaluation. His context = curriculum evaluation. Bloom then applied it to classroom instruction.",
-   "id": 406
+   "id": "Q000411"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5700,7 +5700,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Bloom (1971) took Scriven's concept and operationalised it for classroom use in his Mastery Learning model. He showed how formative assessment drives corrective instruction.",
-   "id": 407
+   "id": "Q000412"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5714,7 +5714,7 @@
    ],
    "answer": "A",
    "explanation": "Applied concept: Exit ticket = quick formative check. Immediate, ongoing, low-stakes. Teacher uses results to adjust next class. Classic formative tool.",
-   "id": 408
+   "id": "Q000413"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5728,7 +5728,7 @@
    ],
    "answer": "D",
    "explanation": "Applied concept: Final board exam = after instruction completes = summative. It certifies, does not improve ongoing instruction.",
-   "id": 409
+   "id": "Q000414"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5742,7 +5742,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Formative = is the student learning? Diagnostic = WHY is the student not learning? What specific misconception or gap? Diagnostic informs remedial teaching.",
-   "id": 410
+   "id": "Q000415"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5756,7 +5756,7 @@
    ],
    "answer": "A",
    "explanation": "Applied concept: Diagnostic = find specific error pattern + prescribe targeted remediation. Not punitive — corrective.",
-   "id": 411
+   "id": "Q000416"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5770,7 +5770,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Placement = entry point assessment. Determines learner's readiness, prior knowledge, appropriate level or group. Happens BEFORE teaching starts.",
-   "id": 412
+   "id": "Q000417"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5784,7 +5784,7 @@
    ],
    "answer": "C",
    "explanation": "Applied concept: Entrance exam → determine appropriate placement = Placement evaluation. Not certifying (summative), not ongoing (formative), not cause-finding (diagnostic).",
-   "id": 413
+   "id": "Q000418"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5798,7 +5798,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: NRT = competitive = bell curve = only a proportion can score high. Designed to DISCRIMINATE between students. Useful for selection.",
-   "id": 414
+   "id": "Q000419"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5812,7 +5812,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: CRT = mastery = has this student learned what they needed to? No ranking. Each student evaluated against the standard independently.",
-   "id": 415
+   "id": "Q000420"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5826,7 +5826,7 @@
    ],
    "answer": "C",
    "explanation": "Applied concept: You either meet the driving standard or you don't. It doesn't matter if 50% or 90% passed — the criterion (safe driving skills) determines pass/fail. Not competitive.",
-   "id": 416
+   "id": "Q000421"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5840,7 +5840,7 @@
    ],
    "answer": "D",
    "explanation": "Applied concept: JEE Advanced = must score better than others = relative performance = NRT. The cut-off is not absolute — it depends on how others perform.",
-   "id": 417
+   "id": "Q000422"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5854,7 +5854,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: If exam only tests recall → teachers teach for recall. If exam tests application → teaching shifts to application. Washback can be positive (good assessment drives good teaching) or negative (rote exam drives rote teaching).",
-   "id": 418
+   "id": "Q000423"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5868,7 +5868,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: High-stakes = UGC NET, NEET, JEE, board exams. Results determine life outcomes. Low-stakes = class quiz. High-stakes creates pressure; good design is critical.",
-   "id": 419
+   "id": "Q000424"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5882,7 +5882,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Dylan Wiliam's influential framework. FOR = formative = tool for improvement. OF = summative = tool for judgement. A third: Assessment AS Learning = self-assessment.",
-   "id": 420
+   "id": "Q000425"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5896,7 +5896,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Assessment AS Learning = the most advanced concept. Student uses assessment to understand their own thinking process. Highest form of learner-centred evaluation. Promotes metacognition.",
-   "id": 421
+   "id": "Q000426"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5910,7 +5910,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Summative = sum total = final judgement = grades, degrees, certificates. Report card, degree certificate, NET result = all summative outcomes.",
-   "id": 422
+   "id": "Q000427"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5924,7 +5924,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Portfolio = shows journey, not just destination. Traditional exam = snapshot. Portfolio = video of growth. Best for arts, writing, research, and professional education.",
-   "id": 423
+   "id": "Q000428"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5938,7 +5938,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Rubric = scoring guide with criteria + performance descriptors. Students know in advance what \"excellent\" vs. \"adequate\" looks like. Reduces teacher bias and inconsistency.",
-   "id": 424
+   "id": "Q000429"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5952,7 +5952,7 @@
    ],
    "answer": "B",
    "explanation": "Applied concept: Rubric shared in advance = transparency + self-regulation + goal clarity. Student work improves because expectations are explicit. Aligns with Assessment FOR and AS Learning.",
-   "id": 425
+   "id": "Q000430"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5966,7 +5966,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: CCE = comprehensive = beyond academics. Includes personality, values, participation, sports, arts. Aims for holistic assessment consistent with affective and psychomotor domains.",
-   "id": 426
+   "id": "Q000431"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5980,7 +5980,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Continuous = distributed across time = reduces exam pressure = reduces rote preparation for one high-stakes event = promotes sustained learning.",
-   "id": 427
+   "id": "Q000432"
   },
   {
    "unit": "Teaching Aptitude",
@@ -5994,7 +5994,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Authentic = real-world performance. MCQ recall tests = Remember. Authentic tasks = demonstrate HOTS. Performance-based, project-based, case-based = authentic.",
-   "id": 428
+   "id": "Q000433"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6008,7 +6008,7 @@
    ],
    "answer": "A",
    "explanation": "Applied concept: Real patient + real clinical skill = authentic. Tests what the student can actually DO, not just what they know about doing it. Most valid form of professional assessment.",
-   "id": 429
+   "id": "Q000434"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6022,7 +6022,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: This is what summative evaluation does, NOT formative. Formative = no high-stakes grade. Formative = feedback only. Classic trap question.",
-   "id": 430
+   "id": "Q000435"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6036,7 +6036,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Self-evaluation = student judges own work = metacognition (thinking about learning) = self-regulation = andragogy principle of self-direction. Highest form of learner autonomy.",
-   "id": 431
+   "id": "Q000436"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6050,7 +6050,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Inter-rater reliability = if two teachers grade the same essay independently, do they give similar marks? Low inter-rater reliability = subjective, unfair. Rubrics improve inter-rater reliability.",
-   "id": 432
+   "id": "Q000437"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6064,7 +6064,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: High-stakes exams have most powerful washback. If NET tests only recall → coaching institutes teach only recall. If NET tested critical thinking → pedagogy would shift.",
-   "id": 433
+   "id": "Q000438"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6078,7 +6078,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: CBCS evaluation = hybrid. Internal (assignments, mid-term, projects) + external (end-semester) = grade point = no single high-stakes moment.",
-   "id": 434
+   "id": "Q000439"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6092,7 +6092,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Innovations = move away from closed-book, single-sitting, marks-based traditional exams toward diverse, performance-based, technology-enabled, learner-centred approaches.",
-   "id": 435
+   "id": "Q000440"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6106,7 +6106,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: OBE design must have HOTS questions. If questions can be answered by simply copying from the book, OBE fails its purpose. Good OBE = synthesis + evaluation questions.",
-   "id": 436
+   "id": "Q000441"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6120,7 +6120,7 @@
    ],
    "answer": "D",
    "explanation": "Applied concept: Continuous improvement = formative philosophy applied at institutional level. NAAC's Internal Quality Assurance Cell (IQAC) = institutional formative evaluation.",
-   "id": 437
+   "id": "Q000442"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6134,7 +6134,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: IQAC = UGC mandate = every NAAC-accredited institution must have IQAC. Functions like institutional formative evaluation — ongoing feedback, Annual Quality Assurance Reports (AQAR).",
-   "id": 438
+   "id": "Q000443"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6148,7 +6148,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: 360-degree = multiple perspectives. Teacher alone = limited view. Peer + self + teacher + external = comprehensive picture of learner development. Used in professional education.",
-   "id": 439
+   "id": "Q000444"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6162,7 +6162,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: OBE's constructive alignment (Biggs) — Define outcome → Design teaching → Assess achievement of that outcome. Assessment validity = how well it measures the stated outcome.",
-   "id": 440
+   "id": "Q000445"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6176,7 +6176,7 @@
    ],
    "answer": "C",
    "explanation": "Concept: Backward design (Wiggins & McTighe, 1998) = start with end goal (outcomes) → design assessment → design instruction. OBE uses this logic. NEP 2020 mandates this.",
-   "id": 441
+   "id": "Q000446"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6190,7 +6190,7 @@
    ],
    "answer": "B",
    "explanation": "Applied concept: Using assessment data to identify and address a specific learning gap = diagnostic + formative use of data. The teacher is functioning as a responsive, data-driven educator.",
-   "id": 442
+   "id": "Q000447"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6204,7 +6204,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Single high-stakes exam = all eggs in one basket = extreme anxiety. Diversified evaluation (CCE, portfolio, formative) = distributes pressure = reduces anxiety = promotes learning.",
-   "id": 443
+   "id": "Q000448"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6218,7 +6218,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Modern view = evaluation embedded throughout the teaching-learning cycle. Pre-instruction (placement) + during (formative) + after (summative) = continuous loop of improvement.",
-   "id": 444
+   "id": "Q000449"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6232,7 +6232,7 @@
    ],
    "answer": "C",
    "explanation": "Applied concept: Assessment → reflection → instructional adjustment = the evaluation-teaching feedback loop. This is the highest expression of teaching at the Reflective Level. Data-driven, learner-centred, improvement-oriented teaching.",
-   "id": 445
+   "id": "Q000450"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6246,7 +6246,7 @@
    ],
    "answer": "D",
    "explanation": "Concept: Tagore = complete development + original contribution. His Shantiniketan embodied this — nature, creativity, freedom. Frequently tested alongside Dewey and Gandhi.",
-   "id": 446
+   "id": "Q000451"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6260,7 +6260,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Gandhi = all-round development = Nai Talim (Basic Education). Craft-centred, mother-tongue medium, integrated. \"Drawing out\" = education from Latin \"educare\" = to bring out.",
-   "id": 447
+   "id": "Q000452"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6274,7 +6274,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Educare = draw out. This root supports child-centred, constructivist education — the idea that knowledge exists within the child and education reveals it. Contrast with \"banking education.\"",
-   "id": 448
+   "id": "Q000453"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6288,7 +6288,7 @@
    ],
    "answer": "A",
    "explanation": "Concept: Aristotle = \"mens sana in corpore sano\" = intellectual + physical development. Holistic ancient Greek view. Often paired with Plato's definition in NET questions.",
-   "id": 449
+   "id": "Q000454"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6302,7 +6302,7 @@
    ],
    "answer": "B",
    "explanation": "Concept: Spencer (1860) = education = preparation for complete living in all its aspects — health, occupation, family, social. Utilitarian, scientific view of education.",
-   "id": 450
+   "id": "Q000455"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6316,7 +6316,7 @@
    ],
    "answer": "A",
    "explanation": "Direct memory: PYQ. Dewey's most famous statement. Education = continuous growth, continuous reconstruction of experience. Not a means to life — IS life.",
-   "id": 451
+   "id": "Q000456"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6330,7 +6330,7 @@
    ],
    "answer": "D",
    "explanation": null,
-   "id": 452
+   "id": "Q000457"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6344,7 +6344,7 @@
    ],
    "answer": "D",
    "explanation": null,
-   "id": 453
+   "id": "Q000458"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6358,7 +6358,7 @@
    ],
    "answer": "A",
    "explanation": null,
-   "id": 454
+   "id": "Q000459"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6372,7 +6372,7 @@
    ],
    "answer": "A",
    "explanation": null,
-   "id": 455
+   "id": "Q000460"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6386,7 +6386,7 @@
    ],
    "answer": "A",
    "explanation": null,
-   "id": 456
+   "id": "Q000461"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6400,7 +6400,7 @@
    ],
    "answer": "D",
    "explanation": null,
-   "id": 457
+   "id": "Q000462"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6414,7 +6414,7 @@
    ],
    "answer": "C",
    "explanation": null,
-   "id": 458
+   "id": "Q000463"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6428,7 +6428,7 @@
    ],
    "answer": "B",
    "explanation": null,
-   "id": 459
+   "id": "Q000464"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6442,7 +6442,7 @@
    ],
    "answer": "A",
    "explanation": null,
-   "id": 460
+   "id": "Q000465"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6456,7 +6456,7 @@
    ],
    "answer": "B",
    "explanation": null,
-   "id": 461
+   "id": "Q000466"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6470,7 +6470,7 @@
    ],
    "answer": "D",
    "explanation": null,
-   "id": 462
+   "id": "Q000467"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6484,7 +6484,7 @@
    ],
    "answer": "A",
    "explanation": null,
-   "id": 463
+   "id": "Q000468"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6498,7 +6498,7 @@
    ],
    "answer": "D",
    "explanation": null,
-   "id": 464
+   "id": "Q000469"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6512,7 +6512,7 @@
    ],
    "answer": "A",
    "explanation": null,
-   "id": 465
+   "id": "Q000470"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6526,7 +6526,7 @@
    ],
    "answer": "D",
    "explanation": null,
-   "id": 466
+   "id": "Q000471"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6540,7 +6540,7 @@
    ],
    "answer": "D",
    "explanation": null,
-   "id": 467
+   "id": "Q000472"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6554,7 +6554,7 @@
    ],
    "answer": "A",
    "explanation": null,
-   "id": 468
+   "id": "Q000473"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6568,7 +6568,7 @@
    ],
    "answer": "A",
    "explanation": null,
-   "id": 469
+   "id": "Q000474"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6582,7 +6582,7 @@
    ],
    "answer": "B",
    "explanation": null,
-   "id": 470
+   "id": "Q000475"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6596,7 +6596,7 @@
    ],
    "answer": "C",
    "explanation": null,
-   "id": 471
+   "id": "Q000476"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6610,7 +6610,7 @@
    ],
    "answer": "B",
    "explanation": null,
-   "id": 472
+   "id": "Q000477"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6624,7 +6624,7 @@
    ],
    "answer": "C",
    "explanation": null,
-   "id": 473
+   "id": "Q000478"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6638,7 +6638,7 @@
    ],
    "answer": "B",
    "explanation": null,
-   "id": 474
+   "id": "Q000479"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6652,7 +6652,7 @@
    ],
    "answer": "D",
    "explanation": null,
-   "id": 475
+   "id": "Q000480"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6666,7 +6666,7 @@
    ],
    "answer": "A",
    "explanation": null,
-   "id": 476
+   "id": "Q000481"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6680,7 +6680,7 @@
    ],
    "answer": "C",
    "explanation": null,
-   "id": 477
+   "id": "Q000482"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6694,7 +6694,7 @@
    ],
    "answer": "C",
    "explanation": null,
-   "id": 478
+   "id": "Q000483"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6708,7 +6708,7 @@
    ],
    "answer": "C",
    "explanation": null,
-   "id": 479
+   "id": "Q000484"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6722,7 +6722,7 @@
    ],
    "answer": "D",
    "explanation": null,
-   "id": 480
+   "id": "Q000485"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6736,7 +6736,7 @@
    ],
    "answer": "C",
    "explanation": null,
-   "id": 481
+   "id": "Q000486"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6750,7 +6750,7 @@
    ],
    "answer": "A",
    "explanation": null,
-   "id": 482
+   "id": "Q000487"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6764,7 +6764,7 @@
    ],
    "answer": "A",
    "explanation": null,
-   "id": 483
+   "id": "Q000488"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6778,7 +6778,7 @@
    ],
    "answer": "D",
    "explanation": null,
-   "id": 484
+   "id": "Q000489"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6792,7 +6792,7 @@
    ],
    "answer": "B",
    "explanation": null,
-   "id": 485
+   "id": "Q000490"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6806,7 +6806,7 @@
    ],
    "answer": "C",
    "explanation": null,
-   "id": 486
+   "id": "Q000491"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6820,7 +6820,7 @@
    ],
    "answer": "C",
    "explanation": null,
-   "id": 487
+   "id": "Q000492"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6834,7 +6834,7 @@
    ],
    "answer": "B",
    "explanation": null,
-   "id": 488
+   "id": "Q000493"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6848,7 +6848,7 @@
    ],
    "answer": "B",
    "explanation": null,
-   "id": 489
+   "id": "Q000494"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6862,7 +6862,7 @@
    ],
    "answer": "D",
    "explanation": null,
-   "id": 490
+   "id": "Q000495"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6876,7 +6876,7 @@
    ],
    "answer": "A",
    "explanation": null,
-   "id": 491
+   "id": "Q000496"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6890,7 +6890,7 @@
    ],
    "answer": "A",
    "explanation": null,
-   "id": 492
+   "id": "Q000497"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6904,7 +6904,7 @@
    ],
    "answer": "A",
    "explanation": null,
-   "id": 493
+   "id": "Q000498"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6918,7 +6918,7 @@
    ],
    "answer": "C",
    "explanation": null,
-   "id": 494
+   "id": "Q000499"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6932,7 +6932,7 @@
    ],
    "answer": "C",
    "explanation": null,
-   "id": 495
+   "id": "Q000500"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6946,7 +6946,7 @@
    ],
    "answer": "D",
    "explanation": null,
-   "id": 496
+   "id": "Q000501"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6960,7 +6960,7 @@
    ],
    "answer": "B",
    "explanation": null,
-   "id": 497
+   "id": "Q000502"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6974,7 +6974,7 @@
    ],
    "answer": "B",
    "explanation": null,
-   "id": 498
+   "id": "Q000503"
   },
   {
    "unit": "Teaching Aptitude",
@@ -6988,7 +6988,7 @@
    ],
    "answer": "C",
    "explanation": null,
-   "id": 499
+   "id": "Q000504"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7002,7 +7002,7 @@
    ],
    "answer": "D",
    "explanation": null,
-   "id": 500
+   "id": "Q000505"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7016,7 +7016,7 @@
    ],
    "answer": "C",
    "explanation": null,
-   "id": 501
+   "id": "Q000506"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7030,7 +7030,7 @@
    ],
    "answer": "B",
    "explanation": null,
-   "id": 502
+   "id": "Q000507"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7044,7 +7044,7 @@
    ],
    "answer": "A",
    "explanation": null,
-   "id": 503
+   "id": "Q000508"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7058,7 +7058,7 @@
    ],
    "answer": "C",
    "explanation": null,
-   "id": 504
+   "id": "Q000509"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7072,7 +7072,7 @@
    ],
    "answer": "A",
    "explanation": null,
-   "id": 505
+   "id": "Q000510"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7086,7 +7086,7 @@
    ],
    "answer": "B",
    "explanation": null,
-   "id": 506
+   "id": "Q000511"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7100,7 +7100,7 @@
    ],
    "answer": "C",
    "explanation": null,
-   "id": 507
+   "id": "Q000512"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7114,7 +7114,7 @@
    ],
    "answer": "B",
    "explanation": null,
-   "id": 508
+   "id": "Q000513"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7128,7 +7128,7 @@
    ],
    "answer": "B",
    "explanation": null,
-   "id": 509
+   "id": "Q000514"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7142,7 +7142,7 @@
    ],
    "answer": "C",
    "explanation": null,
-   "id": 510
+   "id": "Q000515"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7156,7 +7156,7 @@
    ],
    "answer": "D",
    "explanation": null,
-   "id": 511
+   "id": "Q000516"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7170,7 +7170,7 @@
    ],
    "answer": "C",
    "explanation": null,
-   "id": 512
+   "id": "Q000517"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7184,7 +7184,7 @@
    ],
    "answer": "D",
    "explanation": null,
-   "id": 513
+   "id": "Q000518"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7198,7 +7198,7 @@
    ],
    "answer": "B",
    "explanation": null,
-   "id": 514
+   "id": "Q000519"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7212,7 +7212,7 @@
    ],
    "answer": "C",
    "explanation": null,
-   "id": 515
+   "id": "Q000520"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7226,7 +7226,7 @@
    ],
    "answer": "D",
    "explanation": null,
-   "id": 516
+   "id": "Q000521"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7240,7 +7240,7 @@
    ],
    "answer": "C",
    "explanation": null,
-   "id": 517
+   "id": "Q000522"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7254,7 +7254,7 @@
    ],
    "answer": "A",
    "explanation": null,
-   "id": 518
+   "id": "Q000523"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7268,7 +7268,7 @@
    ],
    "answer": "D",
    "explanation": null,
-   "id": 519
+   "id": "Q000524"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7282,7 +7282,7 @@
    ],
    "answer": "C",
    "explanation": null,
-   "id": 520
+   "id": "Q000525"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7296,7 +7296,7 @@
    ],
    "answer": "C",
    "explanation": null,
-   "id": 521
+   "id": "Q000526"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7310,7 +7310,7 @@
    ],
    "answer": "A",
    "explanation": null,
-   "id": 522
+   "id": "Q000527"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7324,7 +7324,7 @@
    ],
    "answer": "C",
    "explanation": null,
-   "id": 523
+   "id": "Q000528"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7338,7 +7338,7 @@
    ],
    "answer": "C",
    "explanation": null,
-   "id": 524
+   "id": "Q000529"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7352,7 +7352,7 @@
    ],
    "answer": "D",
    "explanation": null,
-   "id": 525
+   "id": "Q000530"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7366,7 +7366,7 @@
    ],
    "answer": "A",
    "explanation": null,
-   "id": 526
+   "id": "Q000531"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7380,7 +7380,7 @@
    ],
    "answer": "C",
    "explanation": null,
-   "id": 527
+   "id": "Q000532"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7394,7 +7394,7 @@
    ],
    "answer": "B",
    "explanation": null,
-   "id": 528
+   "id": "Q000533"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7408,7 +7408,7 @@
    ],
    "answer": "D",
    "explanation": null,
-   "id": 529
+   "id": "Q000534"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7422,7 +7422,7 @@
    ],
    "answer": "D",
    "explanation": null,
-   "id": 530
+   "id": "Q000535"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7436,7 +7436,7 @@
    ],
    "answer": "C",
    "explanation": null,
-   "id": 531
+   "id": "Q000536"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7450,7 +7450,7 @@
    ],
    "answer": "A",
    "explanation": null,
-   "id": 532
+   "id": "Q000537"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7464,7 +7464,7 @@
    ],
    "answer": "D",
    "explanation": null,
-   "id": 533
+   "id": "Q000538"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7478,7 +7478,7 @@
    ],
    "answer": "B",
    "explanation": null,
-   "id": 534
+   "id": "Q000539"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7492,7 +7492,7 @@
    ],
    "answer": "C",
    "explanation": null,
-   "id": 535
+   "id": "Q000540"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7506,7 +7506,7 @@
    ],
    "answer": "C",
    "explanation": null,
-   "id": 536
+   "id": "Q000541"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7520,7 +7520,7 @@
    ],
    "answer": "B",
    "explanation": null,
-   "id": 537
+   "id": "Q000542"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7534,7 +7534,7 @@
    ],
    "answer": "C",
    "explanation": null,
-   "id": 538
+   "id": "Q000543"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7548,7 +7548,7 @@
    ],
    "answer": "A",
    "explanation": null,
-   "id": 539
+   "id": "Q000544"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7562,7 +7562,7 @@
    ],
    "answer": "D",
    "explanation": null,
-   "id": 540
+   "id": "Q000545"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7576,7 +7576,7 @@
    ],
    "answer": "A",
    "explanation": null,
-   "id": 541
+   "id": "Q000546"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7590,7 +7590,7 @@
    ],
    "answer": "B",
    "explanation": null,
-   "id": 542
+   "id": "Q000547"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7604,7 +7604,7 @@
    ],
    "answer": "B",
    "explanation": null,
-   "id": 543
+   "id": "Q000548"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7618,7 +7618,7 @@
    ],
    "answer": "B",
    "explanation": null,
-   "id": 544
+   "id": "Q000549"
   },
   {
    "unit": "Teaching Aptitude",
@@ -7632,7 +7632,7 @@
    ],
    "answer": "C",
    "explanation": null,
-   "id": 545
+   "id": "Q000550"
   }
  ]
 }
