@@ -1,5 +1,9 @@
 /* nl-quiz.js: "Random 20 quiz" with a score and answer review.
-   NLQuiz.start({ title, pool, n = 20, opener, onClose })
+   NLQuiz.start({ title, pool, n = 20, opener, onClose, questions, seconds, heading, onFinish })
+     questions : (optional) a fixed list to ask instead of a random draw, e.g. the daily quiz
+     seconds   : (optional) countdown limit; the quiz is submitted automatically at 00:00
+     heading   : (optional) replaces the default "Random N quiz" heading
+     onFinish  : (optional) called with ({ok, wrong, skip, ms}, total) when the quiz is scored
      pool   : array of questions in the site format {q, o:[4 options], a:index, e:explanation}
      opener : the button that opened it (focus returns there)
    Answers are saved to the student's progress (NLNav.prog) only when the quiz is finished, so Mistakes,
@@ -35,7 +39,7 @@
     "@media(prefers-reduced-motion:reduce){.nlq-bar i,.nlq-op{transition:none}}",
     "@media(max-width:560px){.nlq-box{padding:14px}.nlq-b{padding:0 14px}}"
   ].join("");
-  var st = doc.createElement("style"); st.textContent = css; doc.head.appendChild(st);
+  var st = doc.createElement("style"); st.textContent = css + '.nlq-clock.low{color:#c0392b;font-weight:800}'; doc.head.appendChild(st);
 
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
   function mmss(ms) { var t = Math.round(ms / 1000), m = Math.floor(t / 60), s = t % 60; return (m < 10 ? "0" : "") + m + ":" + (s < 10 ? "0" : "") + s; }
@@ -49,9 +53,10 @@
   }
 
   function start(o) {
-    var pool = (o.pool || []).filter(function (x) { return x && x.o && x.o.length === 4; });
+    var pool = (o.pool || o.questions || []).filter(function (x) { return x && x.o && x.o.length === 4; });
     if (!pool.length) { say("There are no questions to build a quiz from."); return; }
-    var N = o.n || 20, key = o.title || "all", opener = o.opener || doc.activeElement, prevOverflow = doc.body.style.overflow;
+    var LIM = (o.seconds || 0) * 1000, timedOut = false;
+    var N = o.questions ? o.questions.length : (o.n || 20), key = o.title || "all", opener = o.opener || doc.activeElement, prevOverflow = doc.body.style.overflow;
     var Q, ans, i, t0, tick, confirming, result;
 
     var ov = doc.createElement("div"); ov.className = "nlq-ov";
@@ -59,19 +64,20 @@
     ov.appendChild(box); doc.body.appendChild(ov); doc.body.style.overflow = "hidden";
 
     function newRun() {
-      Q = draw(pool, N, key); ans = Q.map(function () { return -1; }); i = 0; t0 = Date.now(); confirming = false; result = null;
-      clearInterval(tick); tick = setInterval(function () { var e = box.querySelector(".nlq-clock"); if (e && !result) e.textContent = mmss(Date.now() - t0); }, 1000);
+      Q = o.questions ? o.questions.slice() : draw(pool, N, key); timedOut = false; ans = Q.map(function () { return -1; }); i = 0; t0 = Date.now(); confirming = false; result = null;
+      clearInterval(tick); tick = setInterval(function () { if (result) return; var e = box.querySelector(".nlq-clock"); if (e) { e.textContent = clock(); e.classList.toggle("low", !!LIM && Date.now() - t0 > LIM - 30000); } if (LIM && Date.now() - t0 >= LIM) { timedOut = true; finish(); } }, 500);
       paintQ(true); say("Quiz started. " + Q.length + " questions.");
     }
+    function clock() { return LIM ? mmss(Math.max(0, LIM - (Date.now() - t0))) : mmss(Date.now() - t0); }
     function head(sub) {
-      return '<div class="nlq-h"><div><h2 id="nlq-title">Random ' + Q.length + ' quiz</h2><p>' + esc(sub) + '</p></div><button type="button" class="nlq-x" aria-label="Close quiz">\u2715</button></div>';
+      return '<div class="nlq-h"><div><h2 id="nlq-title">' + esc(o.heading || "Random " + Q.length + " quiz") + '</h2><p>' + esc(sub) + '</p></div><button type="button" class="nlq-x" aria-label="Close quiz">\u2715</button></div>';
     }
     function answered() { return ans.filter(function (a) { return a > -1; }).length; }
 
     function paintQ(focusFirst) {
       var x = Q[i], last = i === Q.length - 1;
-      box.innerHTML = head(o.title + " \u00b7 " + pool.length + " questions in this set") +
-        '<div class="nlq-meta"><span>Question ' + (i + 1) + " of " + Q.length + " \u00b7 " + answered() + ' answered</span><span class="nlq-clock" aria-hidden="true">' + mmss(Date.now() - t0) + '</span></div>' +
+      box.innerHTML = head(o.questions ? o.title : o.title + " \u00b7 " + pool.length + " questions in this set") +
+        '<div class="nlq-meta"><span>Question ' + (i + 1) + " of " + Q.length + " \u00b7 " + answered() + ' answered</span><span class="nlq-clock' + (LIM && Date.now() - t0 > LIM - 30000 ? ' low' : '') + '" ' + (LIM ? 'title="Time left" ' : '') + 'aria-hidden="true">' + (LIM ? '\u23f1 ' : '') + clock() + '</span></div>' +
         '<div class="nlq-bar" role="progressbar" aria-label="Quiz progress" aria-valuemin="0" aria-valuemax="' + Q.length + '" aria-valuenow="' + (i + 1) + '"><i style="width:' + ((i + 1) / Q.length * 100) + '%"></i></div>' +
         '<p class="nlq-q" id="nlq-q">' + esc(x.q) + "</p>" +
         '<fieldset class="nlq-o" aria-labelledby="nlq-q"><legend>Choose one answer</legend>' +
@@ -84,15 +90,16 @@
     }
 
     function finish() {
-      clearInterval(tick); var ms = Date.now() - t0, ok = 0, pairs = [];
+      clearInterval(tick); var ms = LIM ? Math.min(LIM, Date.now() - t0) : Date.now() - t0, ok = 0, pairs = [];
       Q.forEach(function (x, k) { if (ans[k] > -1) { pairs.push([x, ans[k]]); if (ans[k] === x.a) ok++; } });
       if (pairs.length) NLNav.prog.setMany(pairs);
       result = { ok: ok, wrong: pairs.length - ok, skip: Q.length - pairs.length, ms: ms, filter: "all" };
-      paintR(); say("Quiz finished. You scored " + ok + " out of " + Q.length + ".");
+      paintR(); say((timedOut ? "Time is up. " : "") + "Quiz finished. You scored " + ok + " out of " + Q.length + ".");
+      if (o.onFinish) { try { o.onFinish(result, Q.length); } catch (err) {} }
     }
     function paintR() {
       var r = result, pct = Math.round(r.ok / Q.length * 100);
-      var msg = pct >= 80 ? "Excellent work." : pct >= 50 ? "Good effort. Review the mistakes below." : "Keep practising. Review the answers below and try again.";
+      var msg = (timedOut ? "Time is up, so the quiz was submitted automatically. " : "") + (pct >= 80 ? "Excellent work." : pct >= 50 ? "Good effort. Review the mistakes below." : "Keep practising. Review the answers below and try again.");
       var items = Q.map(function (x, k) {
         var a = ans[k], good = a === x.a; if (r.filter === "bad" && good) return "";
         return '<div class="nlq-r ' + (good ? "ok" : "no") + '"><p class="v">' + (k + 1) + ". " + (good ? "CORRECT" : a < 0 ? "NOT ANSWERED" : "INCORRECT") + '</p><p class="t">' + esc(x.q) + "</p>" +
@@ -104,7 +111,7 @@
         '<p class="nlq-msg">' + msg + "</p>" +
         '<div class="nlq-sw" role="group" aria-label="Which answers to review"><button type="button" data-f="all" aria-pressed="' + (r.filter === "all") + '">All answers</button><button type="button" data-f="bad" aria-pressed="' + (r.filter === "bad") + '">Wrong or skipped</button></div>' +
         (items || '<p class="nlq-msg">Nothing to review. Every answer was correct.</p>') +
-        '<div class="nlq-f"><span class="sp"></span><button type="button" class="nlq-b" data-a="close">Close</button><button type="button" class="nlq-b pri" data-a="again">New random ' + N + "</button></div>";
+        '<div class="nlq-f"><span class="sp"></span><button type="button" class="nlq-b" data-a="close">Close</button><button type="button" class="nlq-b pri" data-a="again">' + (o.questions ? "Retry this quiz" : "New random " + N) + "</button></div>";
       var h = box.querySelector(".nlq-score"); h.setAttribute("tabindex", "-1"); h.focus({ preventScroll: false });
     }
 

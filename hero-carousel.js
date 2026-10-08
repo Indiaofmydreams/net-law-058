@@ -7,6 +7,7 @@
   var dotsEl = root.querySelector('.cc-dots');
   var rail = root.querySelector('.cc-rail');
   var n = slides.length, cur = 0, timer = null;
+  var paused = false;
   var hovering = false, focused = false, touching = false, dragging = false, justDragged = false;
   var mqReduce = window.matchMedia('(prefers-reduced-motion: reduce)');
   var mqMobile = window.matchMedia('(max-width: 767px)');
@@ -57,7 +58,7 @@
     });
   }
   function canPlay() {
-    return !mqReduce.matches && !hovering && !focused && !touching && !dragging && !document.hidden;
+    return !paused && !mqReduce.matches && !hovering && !focused && !touching && !dragging && !document.hidden;
   }
   function schedule() {
     clearTimeout(timer);
@@ -85,6 +86,9 @@
   root.addEventListener('focusin', function (e) { focused = e.target.matches(':focus-visible'); schedule(); });
   root.addEventListener('focusout', function (e) { if (!root.contains(e.relatedTarget)) { focused = false; schedule(); } });
   document.addEventListener('visibilitychange', schedule);
+  /* A quiz (or anything else) can stop the auto-slide with root.dispatchEvent(new Event('cc-pause')) and restart it with 'cc-resume'. */
+  root.addEventListener('cc-pause', function () { paused = true; schedule(); });
+  root.addEventListener('cc-resume', function () { paused = false; schedule(); });
   if (mqReduce.addEventListener) { mqReduce.addEventListener('change', schedule); mqMobile.addEventListener('change', schedule); }
 
   root.addEventListener('keydown', function (e) {
