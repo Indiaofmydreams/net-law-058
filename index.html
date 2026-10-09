@@ -37,9 +37,19 @@
 .cc-stats div+div{border-left:1px solid var(--ac2)}
 .cc-stats b{font-size:1.75rem;line-height:1;font-weight:800;letter-spacing:-.03em;color:var(--ac-d);font-variant-numeric:tabular-nums}
 .cc-stats span{font-size:.6875rem;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:var(--text2)}
+.cc-ticks{list-style:none;margin:auto 0 0;padding:0;display:grid;gap:7px}
+.cc-ticks li{display:flex;align-items:center;gap:9px;font-size:.875rem;font-weight:650;line-height:1.3;color:var(--text)}
+.cc-ticks li::before{content:"\2713";display:grid;place-items:center;flex:none;width:20px;height:20px;border-radius:50%;background:var(--ac);color:#fff;font-size:.6875rem;font-weight:800}
+.cc-ticks+.cc-cta{margin-top:14px}
+@media(min-width:768px) and (max-height:800px){.cc-title{margin:6px 0 3px}.cc-ticks{gap:5px}.cc-ticks+.cc-cta{margin-top:10px}}
 .cc-stats+.cc-cta{margin-top:12px}
 @media(min-width:768px) and (max-height:800px){.cc-stats div{padding:5px 15px;min-width:92px}.cc-stats b{font-size:1.4rem}.cc-stats+.cc-cta{margin-top:9px}.cc-more{min-height:0}}
 @media(max-width:767px){.cc-stats div{padding:8px 16px;min-width:0}.cc-stats b{font-size:1.5rem}}
+</style>
+<style id="cc-dq">
+.dq-vis{align-items:flex-start}
+.dq-clock{align-self:flex-start;padding:8px 18px;border-radius:14px;border:1px solid var(--ac2);background:var(--tint);color:var(--ac-d);font-size:2.25rem;line-height:1.1;font-weight:800;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.dq-date{font-weight:700!important;letter-spacing:.04em!important;text-transform:none!important;color:var(--text2)!important}
 </style>
 </head>
 <body>
@@ -69,13 +79,14 @@
       <div class="cc-main">
       <div class="cc-stage">
         <ul class="cc-track">
-          <li class="cc-slide" data-label="100% free MCQs" role="group" aria-roledescription="slide">
+          <li class="cc-slide" data-label="Welcome" role="group" aria-roledescription="slide">
             <a class="cc-card" href="#mcqs" draggable="false">
               <div class="cc-body">
-                <span class="cc-tag">100% FREE · NO SIGN-UP</span>
+                <span class="cc-tag">WELCOME · 100% FREE · NO SIGN-UP</span>
                 <h3 class="cc-title">7000+ free MCQs</h3>
-                <p class="cc-line">Everything you need to practise. Nothing to pay.</p>
-                <p class="cc-more">3,580 Law 058 and 4,267 Paper 1 questions, organised topic-wise, each with a clear explanation. No sign-up, no paywall.</p>
+                <p class="cc-line">Welcome. Practise everything. Pay nothing.</p>
+                <p class="cc-more">3,580 Law 058 and 4,267 Paper 1 questions, organised topic-wise, each with a clear explanation.</p>
+                <ul class="cc-ticks"><li>No need to sign in</li><li>Your progress is saved in this browser</li></ul>
                 <span class="btn primary cc-cta">Start Practising →</span>
               </div>
               <div class="cc-vis" aria-hidden="true">
@@ -88,17 +99,38 @@
               </div>
             </a>
           </li>
+          <li class="cc-slide" data-label="Daily Quiz" role="group" aria-roledescription="slide">
+            <a class="cc-card" href="#mcqs" draggable="false" aria-haspopup="dialog">
+              <div class="cc-body">
+                <span class="cc-tag">DAILY · 10 QUESTIONS · 4 MINUTES</span>
+                <h3 class="cc-title">Daily Paper 1 Quiz</h3>
+                <p class="cc-line">10 fresh questions every day. Beat the clock.</p>
+                <p class="cc-more">The same 10 for everyone, picked each day from Paper 1. Tap to begin: the 4-minute timer starts straight away and the quiz submits itself at 00:00.</p>
+                <div class="cc-stats" aria-label="10 questions in 4 minutes"><div><b>10</b><span>Questions</span></div><div><b>4</b><span>Minutes</span></div></div>
+                <span class="btn primary cc-cta">Start today’s quiz →</span>
+              </div>
+              <div class="cc-vis" aria-hidden="true">
+                <div class="cc-multi dq-vis">
+                  <small class="dq-date">Today</small>
+                  <div class="dq-clock">⏱ 04:00</div>
+                  <small>Questions drawn from</small>
+                  <div class="cc-chips cc-chips-sm"><span>Teaching</span><span>Research</span><span>Comprehension</span><span>Communication</span><span>Logical Reasoning</span><span>ICT</span><span>People &amp; Environment</span><span>Higher Education</span></div>
+                </div>
+              </div>
+            </a>
+          </li>
           <li class="cc-slide" data-label="Paper 1" role="group" aria-roledescription="slide">
             <a class="cc-card" href="#paper1" draggable="false">
               <div class="cc-body">
                 <span class="cc-tag">GENERAL PAPER · 4,267 MCQs</span>
                 <h3 class="cc-title">Paper 1</h3>
-                <p class="cc-line">4,267 free MCQs across all 10 modules, at no cost.</p>
+                <p class="cc-line">4,267 free MCQs across 10 syllabus units.</p>
                 <p class="cc-more">Teaching, research, comprehension, communication, reasoning, data interpretation, ICT, environment and higher education. Every answer is explained.</p>
+                <div class="cc-stats" aria-label="Exam pattern: 50 questions, 100 marks"><div><b>50</b><span>Questions</span></div><div><b>100</b><span>Marks</span></div></div>
                 <span class="btn primary cc-cta">Open Paper 1 →</span>
               </div>
               <div class="cc-vis" aria-hidden="true">
-                <div class="cc-chips"><span>Teaching Aptitude <em>575</em></span><span>Research Aptitude <em>722</em></span><span>Comprehension <em>30</em></span><span>Communication <em>426</em></span><span>Mathematical Reasoning <em>30</em></span><span>Logical Reasoning <em>628</em></span><span>Data Interpretation <em>364</em></span><span>ICT <em>30</em></span><span>People, Development &amp; Environment <em>709</em></span><span>Higher Education System <em>753</em></span></div>
+                <div class="cc-multi"><small>Syllabus · 10 modules</small><div class="cc-chips cc-chips-sm cc-syl"><span>Teaching Aptitude <em>575</em></span><span>Research Aptitude <em>722</em></span><span>Comprehension <em>30</em></span><span>Communication <em>426</em></span><span>Mathematical Reasoning <em>30</em></span><span>Logical Reasoning <em>628</em></span><span>Data Interpretation <em>364</em></span><span>ICT <em>30</em></span><span>People, Development &amp; Environment <em>709</em></span><span>Higher Education System <em>753</em></span></div></div>
               </div>
             </a>
           </li>
@@ -293,6 +325,7 @@
 <script src="nl-countdown.js"></script>
 <script src="hero-carousel.js"></script>
 <script src="carousel-counts.js"></script>
+<script src="daily-quiz.js"></script>
 <script src="nl-test.js"></script>
 <script src="section-nav.js"></script>
 <script src="plan.js"></script>

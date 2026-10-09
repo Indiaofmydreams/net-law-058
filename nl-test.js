@@ -45,7 +45,8 @@
     ".nlt-lead{margin:0;font-size:.9375rem;font-weight:700;color:var(--ac-d)}",
     ".nlt-why{margin:6px 0 0;font-size:.8125rem;line-height:1.5;color:var(--text2)}",
     ".nlt-facts{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 0;padding:0;list-style:none}.nlt-facts li{padding:6px 12px;border-radius:99px;background:var(--surface);border:1px solid var(--line2);font-size:.8125rem;font-weight:700}",
-    ".nlt-cta{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;margin-top:10px}",
+    ".nlt-stats{display:flex;align-self:flex-start;margin:12px 0 0;border:1px solid var(--ac2);border-radius:14px;background:var(--surface);overflow:hidden}.nlt-stats div{display:flex;flex-direction:column;gap:2px;padding:8px 18px;min-width:92px}.nlt-stats div+div{border-left:1px solid var(--ac2)}.nlt-stats b{font-size:1.625rem;line-height:1;font-weight:800;letter-spacing:-.03em;color:var(--ac-d);font-variant-numeric:tabular-nums}.nlt-stats span{font-size:.6875rem;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:var(--text2)}",
+    ".nlt-cta{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;margin-top:14px}",
     ".nlt-best{font-size:.8125rem;font-weight:700;color:var(--text2)}",
     ".nlt-foot{margin:6px 0 0;font-size:.71875rem;line-height:1.4;color:var(--mut)}",
     ".nlt-btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 20px;border:1px solid var(--line2);background:var(--surface);color:var(--text);border-radius:12px;font:inherit;font-size:.875rem;font-weight:700;cursor:pointer;text-decoration:none}",
@@ -131,10 +132,9 @@
       '<span class="nlt-tag">FREE &middot; ' + MIN + '-MINUTE CHALLENGE</span>' +
       '<h3 id="nlt-h">Test Your UGC NET Law Preparation</h3>' +
       '<p class="nlt-lead">' + N + ' MCQs. ' + MIN + ' minutes. See where you really stand.</p>' +
-      '<p class="nlt-why">Check your <b>speed and accuracy</b> under time pressure, about ' + PACE + ' seconds a question. Two from each of the 10 Law units, fresh every time.</p>' +
-      '<ul class="nlt-facts"><li>' + N + ' questions</li><li>' + MIN + ' minutes</li><li>Law only</li><li>Instant score</li></ul>' +
+      '<div class="nlt-stats" aria-label="' + N + ' questions, ' + MIN + ' minutes, 10 Law units"><div><b>' + N + '</b><span>Questions</span></div><div><b>' + MIN + '</b><span>Minutes</span></div><div><b>10</b><span>Law units</span></div></div>' +
       '<div class="nlt-cta"><button type="button" class="nlt-btn pri" data-a="start">Start the test \u2192</button>' + best + "</div>" +
-      (msg ? '<p class="nlt-foot" role="alert">' + esc(msg) + "</p>" : '<p class="nlt-foot">No sign-up. No negative marking. Not affiliated with NTA or UGC.</p>') + "</section>";
+      (msg ? '<p class="nlt-foot" role="alert">' + esc(msg) + "</p>" : '<p class="nlt-foot">Instant score &middot; No sign-up &middot; No negative marking. Not affiliated with NTA or UGC.</p>') + "</section>";
   }
 
   function start(btn) {

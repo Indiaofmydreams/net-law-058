@@ -47,8 +47,8 @@
     if (s1) {
       var tag1 = 'GENERAL PAPER · ' + fmt(t1) + ' MCQs';
       s1.querySelector('.cc-tag').textContent = tag1;
-      s1.querySelector('.cc-line').textContent = fmt(t1) + ' free MCQs across all 10 modules, at no cost.';
-      s1.querySelector('.cc-chips').innerHTML = P1.map(chip(cnt)).join('');
+      s1.querySelector('.cc-line').textContent = fmt(t1) + ' free MCQs across 10 syllabus units.';
+      var syl1 = s1.querySelector('.cc-syl'); if (syl1) syl1.innerHTML = P1.map(chip(cnt)).join('');
       railSub(s1, tag1);
     }
 
