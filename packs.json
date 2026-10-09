@@ -74,5 +74,13 @@
   {
     "file": "pack-higher-education.json",
     "unit": "Higher Education System"
+  },
+  {
+    "file": "pack-ict.json",
+    "unit": "Information and Communication Technology (ICT)"
+  },
+  {
+    "file": "pack-comprehension.json",
+    "unit": "Comprehension"
   }
 ]
