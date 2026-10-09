@@ -1,0 +1,17 @@
+Theme update (10 Oct 2026): dual-colour themes
+-----------------------------------------------
+Removed: Green, Orange and Royal Gold (gold read as yellow).
+Kept/rebuilt as dual-colour (primary hue + one companion hue from the colour wheel), each in light AND dark:
+  Royal Navy (default)  navy 226 deg + sky 203 deg
+  Blue                  blue 212 deg + indigo 250 deg
+  Aqua                  cyan-blue 194 deg + azure 228 deg
+  Purple                violet 268 deg + periwinkle 232 deg
+  Magenta               magenta 326 deg + violet 274 deg
+No orange, yellow or green is used anywhere in the interface (the only warm colours left are in the photo welcome-graduates.jpg).
+Correct answers now use a cool cyan-blue and wrong answers a rose-crimson, both with text labels (Correct / Incorrect).
+Text/background pairs are contrast-checked; most are 7:1+, the lowest muted-text pairs are about 5.2:1 (WCAG AA).
+Files changed: theme.css, m-themes.css, theme.js, m-app.js, m-app.css, app.html, hero-carousel.css, styles.css, qbank.css,
+syllabus-pro.css, disclaimer.css, faq.css, section-nav.css, ese.js, nl-quiz.js, nl-nav.js, nl-test.js, nl-countdown.js, modules.js, qbank.js,
+unit-2 page and every page that carries the theme picker.
+Visitors who had picked Green/Orange/Royal Gold are moved to Royal Navy automatically.
+Not touched: "index .html" and "mock-home (1).js" (stale duplicates with spaces in the file name; safe to delete).

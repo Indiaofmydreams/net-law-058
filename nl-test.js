@@ -74,11 +74,11 @@
     ".nlt-msg{margin:12px 0 0;text-align:center;font-size:.9375rem;color:var(--text2)}",
     ".nlt-h4{margin:16px 0 8px;font-size:.8125rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:var(--text2)}",
     ".nlt-units{list-style:none;margin:0;padding:0;display:grid;gap:6px}.nlt-units li{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:8px 12px;border-radius:10px;background:var(--surface);border:1px solid var(--line);font-size:.8125rem;font-weight:600}",
-    ".nlt-units .n{font-weight:800;white-space:nowrap}.nlt-units .lo{border-color:var(--bad-text,#9b2c2c)}.nlt-units .lo .n{color:var(--bad-text,#9b2c2c)}.nlt-units .hi .n{color:var(--ok-text,#1f5c3b)}",
+    ".nlt-units .n{font-weight:800;white-space:nowrap}.nlt-units .lo{border-color:var(--bad-text,#9b2c2c)}.nlt-units .lo .n{color:var(--bad-text,#9b2c2c)}.nlt-units .hi .n{color:var(--ok-text,#0c465f)}",
     ".nlt details{margin-top:14px}.nlt summary{min-height:44px;display:flex;align-items:center;font-size:.875rem;font-weight:800;cursor:pointer}",
     ".nlt-sw{display:flex;gap:8px;margin:4px 0 10px}.nlt-sw button{min-height:40px;padding:0 14px;border:1px solid var(--line2);background:var(--surface);color:var(--text2);border-radius:99px;font:inherit;font-size:.8125rem;font-weight:700;cursor:pointer}.nlt-sw button[aria-pressed=true]{background:var(--btn,var(--ac));border-color:var(--btn,var(--ac));color:var(--nl-on,#fff)}",
     ".nlt-r{margin:0 0 10px;padding:12px 14px;border:1px solid var(--line);border-radius:14px;background:var(--surface)}.nlt-r p{margin:4px 0;font-size:.875rem}.nlt-r .t{font-weight:700;white-space:pre-line}.nlt-r .v{font-size:.75rem;font-weight:800;letter-spacing:.03em}.nlt-r .e{color:var(--text2)}",
-    ".nlt-r.ok{box-shadow:inset 4px 0 0 var(--ok,#2f6f58)}.nlt-r.no{box-shadow:inset 4px 0 0 var(--bad-text,#9b2c2c)}",
+    ".nlt-r.ok{box-shadow:inset 4px 0 0 var(--ok,#2d4aa9)}.nlt-r.no{box-shadow:inset 4px 0 0 var(--bad-text,#9b2c2c)}",
     "@media(max-width:560px){.nlt{padding:16px 14px}.nlt-btn{padding:0 14px}.nlt-cta .nlt-btn{width:100%}}",
     "@media(prefers-reduced-motion:reduce){.nlt-bar i,.nlt-op{transition:none}}"
   ].join("");

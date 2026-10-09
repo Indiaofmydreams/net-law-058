@@ -24,7 +24,7 @@
 
   /* ---------- styles (use the site's theme variables, with fallbacks for standalone pages) ---------- */
   var css = [
-    ":root{--nl-ac:var(--ac,#2f6f58);--nl-btn:var(--btn,var(--ac,#2f6f58));--nl-bg:var(--surface,var(--sf,#fff));--nl-ln:var(--line,var(--ln,#e1ebe7));--nl-tx:var(--text,var(--tx,#1e3138));--nl-mu:var(--mut,var(--mu,#5b6670));--nl-tint:var(--tint,#e3f0ea);--nl-chip:var(--chip,#e8eeec);--nl-ok:var(--ok,var(--ac,#2f6f58))}",
+    ":root{--nl-ac:var(--ac,#2d4aa9);--nl-btn:var(--btn,var(--ac,#2d4aa9));--nl-bg:var(--surface,var(--sf,#fff));--nl-ln:var(--line,var(--ln,#e1ebe7));--nl-tx:var(--text,var(--tx,#1e3138));--nl-mu:var(--mut,var(--mu,#5b6670));--nl-tint:var(--tint,#e3e8fb);--nl-chip:var(--chip,#e8eeec);--nl-ok:var(--ok,var(--ac,#2d4aa9))}",
     /* reading rail */
     "#nl-rail{position:fixed;right:3px;top:116px;bottom:28px;width:14px;z-index:30;pointer-events:none;opacity:0;transition:opacity .25s}",
     "#nl-rail.on{opacity:1}#nl-rail[hidden]{display:none}",

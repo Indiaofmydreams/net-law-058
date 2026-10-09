@@ -46,7 +46,7 @@ const IBM=on=>sv(P.bm,22,on?'currentColor':'none');
 /* ---------- units ---------- */
 const LAW=[["Jurisprudence","Jurisprudence","Schools, rights, duties, liability and thinkers.","scale"],["Constitutional and Administrative Law","Constitutional & Administrative Law","Fundamental rights, institutions, judicial review.","cols"],["Public International Law and IHL","Public International Law & IHL","Sources, recognition, the UN, WTO and IHL.","globe"],["Law of Crimes","Law of Crimes","Criminal liability, offences, defences.","shield"],["Law of Torts and Consumer Protection","Torts & Consumer Protection","Negligence, strict liability, consumer law.","warn"],["Commercial Law","Commercial Law","Contracts, sale of goods, partnership, company law.","brief"],["Family Law","Family Law","Marriage, divorce, maintenance, succession.","heart"],["Environment and Human Rights Law","Environment & Human Rights","Environmental principles, NGT, human rights.","leaf"],["Intellectual Property Rights and Information Technology Law","IPR & IT Law","Copyright, patents, trademarks, cyber law.","bulb"],["Comparative Public Law and Systems of Governance","Comparative Public Law","Federalism, rule of law, ombudsman.","swap"]];
 const P1=[["Teaching Aptitude","Teaching Aptitude","Concepts, methods, support systems, evaluation.","cap"],["Research Aptitude","Research Aptitude","Types, methods, steps, ethics and writing.","flask"],["Comprehension","Comprehension","Passages, central ideas and inference.","file"],["Communication","Communication","Types, barriers, classroom, mass media.","chat"],["Mathematical Reasoning and Aptitude","Mathematical Reasoning","Series, coding, ratio, percentage.","calc"],["Logical Reasoning","Logical Reasoning","Arguments, fallacies, syllogisms, Venn.","gear"],["Data Interpretation","Data Interpretation","Tables, charts, graphs.","bars"],["Information and Communication Technology (ICT)","ICT","Internet, terminology, digital initiatives.","mon"],["People, Development and Environment","People, Development & Environment","SDGs, pollution, climate, hazards.","tree"],["Higher Education System","Higher Education System","Institutions, regulators and policies.","inst"]];
-const COL=['#16a34a','#e11d48','#2563eb','#d97706','#7c3aed','#db2777','#dc2626','#0284c7','#0891b2','#ea580c'];
+const COL=['var(--ac)','var(--c2)','var(--ac)','var(--c2)','var(--ac)','var(--c2)','var(--ac)','var(--c2)','var(--ac)','var(--c2)'];
 const SETS={L:LAW,P:P1};
 const unitOf=key=>{const m=/^([LP])(\d+)$/.exec(key);return m?{set:m[1],i:+m[2],u:SETS[m[1]][+m[2]]}:null};
 
@@ -79,8 +79,8 @@ const ST=Object.assign({view:'card',exp:0,fs:1},ls.get('nl-m-set',{}));
 const saveST=()=>ls.set('nl-m-set',ST);
 const BM=ls.get('nl-m-bm',{});const saveBM=()=>ls.set('nl-m-bm',BM);
 const POS=ls.get('nl-m-pos',{});const savePOS=()=>ls.set('nl-m-pos',POS);
-const SCHEMES=[['app','Classic Blue','#1750e6'],['green','Green','#5a9279'],['orange','Orange','#d08a5c'],['blue','Slate Blue','#6a9ac4'],['aqua','Aqua','#4fa3a8'],['purple','Purple','#8f78b8'],['magenta','Magenta','#e0409a'],['royal','Royal Gold','#c99a2e'],['navy','Royal Navy','#1d3a8a']];
-function setTheme(s,m){const r=document.documentElement,t=ls.get('netlaw058-theme',{});if(s)t.s=s;if(m)t.m=m;ls.set('netlaw058-theme',t);r.dataset.scheme=t.s||'app';r.dataset.mode=t.m||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
+const SCHEMES=[['navy','Royal Navy','#607bd2'],['blue','Blue','#6095d2'],['aqua','Aqua','#359cbb'],['purple','Purple','#9560d2'],['magenta','Magenta','#d260a1']];
+function setTheme(s,m){const r=document.documentElement,t=ls.get('netlaw058-theme',{});if(s)t.s=s;if(m)t.m=m;ls.set('netlaw058-theme',t);r.dataset.scheme=t.s||'navy';r.dataset.mode=t.m||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
 const mt=$('meta[name=theme-color]');if(mt)mt.content=getComputedStyle(r).getPropertyValue('--surface').trim()||'#fff'}
 
 /* ---------- question bank (same loading rules as bank-loader.js) ---------- */
@@ -164,13 +164,13 @@ R.home=()=>{
   else cont=`<div class="card cont">${ico('scale',COL[0])}<div class="ti"><h3>Start with Jurisprudence</h3><p>Pick a subject and begin practising</p></div><a class="btn sm" href="#/practice/L0">Start</a></div>`;
   let all=0,att=0,ok=0,bad=0;if(S.bank){all=S.bank.length;const s=prog.stats(S.bank);att=s.a;ok=s.ok;bad=s.bad}
   const dg=prog.daily(),pc=all?att/all*100:0;
-  const T=[['/subjects','scale','Law 058','#2563eb'],['/subjects/1','cap','Paper 1','#7c3aed'],['/mocks','test','Mock Tests','#dc2626'],['/plan','cal','Study Plan','#16a34a'],['/syllabus/0','book','Syllabus','#0891b2'],['/notes','file','Notes','#d97706']];
+  const T=[['/subjects','scale','Law 058','var(--ac)'],['/subjects/1','cap','Paper 1','var(--c2)'],['/mocks','test','Mock Tests','var(--ac)'],['/plan','cal','Study Plan','var(--ac)'],['/syllabus/0','book','Syllabus','var(--c2)'],['/notes','file','Notes','var(--c2)']];
   screen({top:`<div class="tb"><button class="ib" data-a="drawer" aria-label="Menu">${I.menu}</button><h1>NET Law 058</h1><a class="ib" href="#/search" aria-label="Search questions">${I.search}</a></div>`,nav:'home',
   body:`<div class="hello"><b>UGC NET Law (058) &amp; Paper 1</b><span>Free MCQs, mock tests, notes and study plans.</span></div>${cdHTML()}<h2 class="h2">Continue practising</h2>${cont}
   <div class="tiles">${T.map(t=>`<a class="tile" href="#${t[0]}">${t[4]?'<span class="badge">SOON</span>':''}<span class="ico" style="--c:${t[3]}">${I[t[1]]}</span>${t[2]}</a>`).join('')}</div>
   <h2 class="h2">Your progress</h2><div class="card"><div class="prog-n"><b>${fnum(att)} <span>/ ${all?fnum(all):'…'}</span></b><em>${pc.toFixed(1)}%</em></div><div class="bar"><i style="width:${pc}%"></i></div>
   <div class="mini"><span style="--c:var(--ok)">${fnum(ok)} correct</span><span style="--c:var(--bad)">${fnum(bad)} incorrect</span></div>
-  <div class="mini" style="margin-top:7px"><span style="--c:var(--ac)">Today ${dg.n}/${dg.goal}</span><span style="--c:#d97706">${dg.streak}-day streak</span></div></div>`});
+  <div class="mini" style="margin-top:7px"><span style="--c:var(--ac)">Today ${dg.n}/${dg.goal}</span><span style="--c:var(--c2)">${dg.streak}-day streak</span></div></div>`});
   if(!S.bank)loadBank().then(()=>{if((location.hash.slice(1)||'/')==='/')R.home()}).catch(()=>{});
 };
 
@@ -293,7 +293,7 @@ function mockStatus(n){const a=ls.get(AK(n)),r=ls.get(RK(n));
   if(a&&a.end)return a.end<=Date.now()?['Time up','go']:[`In progress · ${Object.keys(a.ans||{}).length} done`,'go'];
   if(r)return[`✓ ${r.marks} marks`,'ok'];return['Not started','']}
 R.mocks=()=>{
-  const row=m=>{const[s,c]=mockStatus(m.n);return`<a class="row" href="#/mock/${m.n}">${ico('test',m.p===2?'#2563eb':'#d97706')}<div class="ti"><h3>${esc(m.t)}</h3><p>${m.q} questions · ${m.m>=60&&m.m%60===0?m.m/60+(m.m===60?' hour':' hours'):m.m+' minutes'}${m.h?` · <b style="color:var(--bad-text)">${m.h}</b>`:''}</p></div><span class="st ${c}">${s}</span></a>`};
+  const row=m=>{const[s,c]=mockStatus(m.n);return`<a class="row" href="#/mock/${m.n}">${ico('test',m.p===2?'var(--ac)':'var(--c2)')}<div class="ti"><h3>${esc(m.t)}</h3><p>${m.q} questions · ${m.m>=60&&m.m%60===0?m.m/60+(m.m===60?' hour':' hours'):m.m+' minutes'}${m.h?` · <b style="color:var(--bad-text)">${m.h}</b>`:''}</p></div><span class="st ${c}">${s}</span></a>`};
   screen({top:`<div class="tb"><button class="ib" data-a="drawer">${I.menu}</button><h1>Mock Tests</h1></div>`,nav:'mock',
   body:`<h2 class="h2">Paper 2 · Law 058</h2><div class="rows">${MOCKS.filter(m=>m.p===2).map(row).join('')}</div><h2 class="h2">Paper 1 · General aptitude</h2><div class="rows">${MOCKS.filter(m=>m.p===1).map(row).join('')}</div><p class="muted" style="font-size:.75rem;text-align:center;margin:14px 6px 0">Free exam-style practice. 2 marks per question, no negative marking. Not affiliated with NTA or UGC.</p>`})};
 let E=null;
@@ -349,7 +349,7 @@ function result(r){cleanup=null;const{Q,TOT}=E,mx=TOT*2,C=2*Math.PI*54,subs={};
   screen({top:tbar('Test Result',{la:'tolist'}),body:`<div class="card res"><div class="ring"><svg viewBox="0 0 120 120"><circle class="bg" cx="60" cy="60" r="54"/><circle class="fg" cx="60" cy="60" r="54" stroke-dasharray="${C}" stroke-dashoffset="${C*(1-r.pct/100)}"/></svg><b>${Math.round(r.pct)}%</b></div><div class="sc"><small>Score</small><div>${r.marks} <span>/ ${mx}</span></div><p>${band(r.pct)}</p></div></div>
   <div class="kp"><div class="g">${I.check}<b>${r.correct}</b>Correct</div><div class="r">${I.close}<b>${r.wrong}</b>Incorrect</div><div>${I.clock}<b>${r.unans}</b>Not Attempted</div></div>
   <p class="muted" style="font-size:.75rem;margin:0 2px 4px">Accuracy ${r.acc.toFixed(0)}% · Time taken ${dur(r.taken)}${r.auto?' · auto-submitted':''}</p>
-  <h2 class="h2">Subject-wise</h2><div class="rows">${L.map(v=>`<div class="sub-r"><span class="n">${esc(v.k)}</span><div class="bar"><i style="width:${v.acc}%;background:${v.att?v.acc>=70?'var(--ok)':v.acc>=50?'#d97706':'var(--bad)':'var(--line2)'}"></i></div><span class="p">${v.att?Math.round(v.acc)+'%':'–'}</span></div>`).join('')}</div>
+  <h2 class="h2">Subject-wise</h2><div class="rows">${L.map(v=>`<div class="sub-r"><span class="n">${esc(v.k)}</span><div class="bar"><i style="width:${v.acc}%;background:${v.att?v.acc>=70?'var(--ok)':v.acc>=50?'var(--c2)':'var(--bad)':'var(--line2)'}"></i></div><span class="p">${v.att?Math.round(v.acc)+'%':'–'}</span></div>`).join('')}</div>
   ${weak.length||strong.length?`<div class="card" style="margin-top:10px;font-size:.8125rem;line-height:1.55">${weak.length?`<b style="color:var(--bad-text)">Revise first:</b> ${weak.map(v=>esc(v.k)+' ('+Math.round(v.acc)+'%)').join('; ')}.<br>`:''}${strong.length?`<b style="color:var(--ok-text)">Strong:</b> ${strong.map(v=>esc(v.k)).join('; ')}.`:''}</div>`:''}
   <h2 class="h2">Review answers</h2><div class="chips" id="rvf"><button class="chip on" data-a="rvf" data-f="all">All ${TOT}</button><button class="chip" data-a="rvf" data-f="ok">Correct ${r.correct}</button><button class="chip" data-a="rvf" data-f="bad">Incorrect ${r.wrong}</button><button class="chip" data-a="rvf" data-f="un">Skipped ${r.unans}</button></div><div id="rv" style="margin-top:8px">${Q.map((x,i)=>{const a=r.ans[i],k=a===undefined?'un':a===x.a?'ok':'bad';
   return`<div class="rv ${k}" data-k="${k}" style="--c:${k==='ok'?'var(--ok)':k==='bad'?'var(--bad)':'var(--line2)'}"><button data-a="rvt"><span class="qn">Q${i+1}</span><span class="qt">${esc(x.q)}</span></button><div class="det"><div class="opts">${x.o.map((t,j)=>`<div class="opt${j===x.a?' ok':j===a?' bad':''}"><span class="ol">${'ABCD'[j]}</span><span class="ot">${esc(strip(t))}</span></div>`).join('')}</div><p><b>${a===undefined?'Not answered.':'Your answer: '+'ABCD'[a]+'.'}</b> Correct: ${'ABCD'[x.a]}.</p>${x.e?`<p>${esc(x.e)}</p>`:''}</div></div>`}).join('')}</div>`,
@@ -368,11 +368,11 @@ R.notes=()=>{const N=[['IPR','Idea–Expression Dichotomy','Meaning, rationale, 
   screen({top:`<div class="tb"><button class="ib" data-a="drawer">${I.menu}</button><h1>Notes</h1><a class="ib" href="#/search">${I.search}</a></div>`,nav:'notes',
   body:`<h2 class="h2">Notes built for revision</h2><div class="rows">${N.map(n=>`<div class="row" style="align-items:flex-start"><div class="ti"><span class="badge" style="background:var(--tint);color:var(--ac-d)">${n[0]}</span><h3 style="margin-top:5px">${n[1]}</h3><p>${n[2]}</p></div><span class="st">Soon</span></div>`).join('')}</div>
   <h2 class="h2">Resources</h2><div class="rows">
-  <a class="row" href="#/syllabus/0">${ico('book','#2563eb')}<div class="ti"><h3>Syllabus · Law 058</h3></div>${I.chevR}</a>
-  <a class="row" href="#/syllabus/1">${ico('book','#7c3aed')}<div class="ti"><h3>Syllabus · Paper 1</h3></div>${I.chevR}</a>
-  <a class="row" href="#/pyq">${ico('target','#ea580c')}<div class="ti"><h3>Previous-Year Questions</h3></div>${I.chevR}</a>
-  <a class="row" href="unit-2-constitutional-administrative-law.html">${ico('cols','#16a34a')}<div class="ti"><h3>Unit II · Constitutional & Administrative Law</h3></div>${I.ext}</a>
-  <a class="row" href="faq.html">${ico('help','#0891b2')}<div class="ti"><h3>FAQ</h3></div>${I.ext}</a></div>`})};
+  <a class="row" href="#/syllabus/0">${ico('book','var(--ac)')}<div class="ti"><h3>Syllabus · Law 058</h3></div>${I.chevR}</a>
+  <a class="row" href="#/syllabus/1">${ico('book','var(--c2)')}<div class="ti"><h3>Syllabus · Paper 1</h3></div>${I.chevR}</a>
+  <a class="row" href="#/pyq">${ico('target','var(--c2)')}<div class="ti"><h3>Previous-Year Questions</h3></div>${I.chevR}</a>
+  <a class="row" href="unit-2-constitutional-administrative-law.html">${ico('cols','var(--ac)')}<div class="ti"><h3>Unit II · Constitutional & Administrative Law</h3></div>${I.ext}</a>
+  <a class="row" href="faq.html">${ico('help','var(--c2)')}<div class="ti"><h3>FAQ</h3></div>${I.ext}</a></div>`})};
 R.syllabus=([p])=>{const set=p==='1'?1:0;let Y=null;try{Y=new Function(S.syl+';return syllabus')()}catch{}
   if(!Y&&!S.syl){fetch('syllabus-data.js').then(r=>r.text()).then(t=>{S.syl=t;R.syllabus([p])}).catch(()=>screen({top:tbar('Syllabus'),body:'<div class="empty"><b>Could not load syllabus</b></div>'}));screen({top:tbar('Syllabus'),body:'<div class="empty"><div class="spin"></div></div>'});return}
   const data=set?Y.paper1:Y.law,U=set?P1:LAW;
@@ -385,7 +385,7 @@ R.bookmarks=()=>{const l=S.bank.filter(x=>BM[qid(x)]);
 A.bmgo=()=>{S.prac=null;go('/practice/BM')};
 A.bmopen=t=>{const l=S.bank.filter(x=>BM[qid(x)]);openSession('BM','Bookmarks',l,+t.dataset.i);go('/practice/BM')};
 R.history=()=>{const items=MOCKS.map(m=>({m,r:ls.get(RK(m.n))})).filter(z=>z.r).sort((a,b)=>b.r.at-a.r.at);
-  screen({top:tbar('Test History'),body:items.length?`<div class="rows">${items.map(({m,r})=>`<a class="row" href="#/mock/${m.n}">${ico('test','#7c3aed')}<div class="ti"><h3>${esc(m.t)}</h3><p>${new Date(r.at).toLocaleDateString('en-IN',{day:'numeric',month:'short'})} · ${r.correct} right, ${r.wrong} wrong</p></div><span class="st ok">${r.marks}/${m.q*2}</span></a>`).join('')}</div>`:'<div class="empty"><b>No tests taken yet</b>Your completed mock tests will be listed here.</div>'})};
+  screen({top:tbar('Test History'),body:items.length?`<div class="rows">${items.map(({m,r})=>`<a class="row" href="#/mock/${m.n}">${ico('test','var(--c2)')}<div class="ti"><h3>${esc(m.t)}</h3><p>${new Date(r.at).toLocaleDateString('en-IN',{day:'numeric',month:'short'})} · ${r.correct} right, ${r.wrong} wrong</p></div><span class="st ok">${r.marks}/${m.q*2}</span></a>`).join('')}</div>`:'<div class="empty"><b>No tests taken yet</b>Your completed mock tests will be listed here.</div>'})};
 R.profile=()=>{const all=S.bank.length,s=prog.stats(S.bank),res=MOCKS.map(m=>ls.get(RK(m.n))?{m,r:ls.get(RK(m.n))}:null).filter(Boolean),avg=res.length?Math.round(res.reduce((a,z)=>a+z.r.pct,0)/res.length):0,dg=prog.daily(),pc=s.a/all*100;
   screen({top:`<div class="tb"><button class="ib" data-a="drawer">${I.menu}</button><h1>My Progress</h1></div>`,nav:'prof',
   body:`<div class="card"><b style="font-size:.8125rem;color:var(--mut)">Overall progress</b><div class="prog-n"><b>${fnum(s.a)} <span>/ ${fnum(all)}</span></b><em>${pc.toFixed(1)}%</em></div><div class="bar"><i style="width:${pc}%"></i></div><div class="mini"><span style="--c:var(--ok)">${fnum(s.ok)} correct</span><span style="--c:var(--bad)">${fnum(s.bad)} incorrect</span><span style="--c:var(--line2)">${s.a?Math.round(s.ok/s.a*100):0}% accuracy</span></div></div>

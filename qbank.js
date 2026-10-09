@@ -5,7 +5,7 @@ const persist=()=>{try{localStorage.setItem(KEY,JSON.stringify(saved))}catch{}};
 const P=NLNav.prog;let unit='All',q='',onlySaved=false,allOn=false,rev=new Set(),snap=[];
 const units=['All',...new Set(QBANK.map(x=>x.u).filter(Boolean))],L='ABCD';
 const eye='<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>';
-root.innerHTML=`<div class="qb-top"><div><h2>Practice questions</h2><p>Try each question first. Tap the green eye to check the answer and explanation.</p></div></div>
+root.innerHTML=`<div class="qb-top"><div><h2>Practice questions</h2><p>Try each question first. Tap the eye icon to check the answer and explanation.</p></div></div>
 <div class="qb-tools"><div class="qb-row"><input class="qb-search" type="search" placeholder="Search questions" aria-label="Search questions"><button class="qb-saved">★ Saved</button><button class="qb-all" aria-pressed="false"><span class="qb-sw"></span>Show all answers</button></div><div class="qb-units"></div></div>
 <div class="qb-meta" aria-live="polite"></div><div class="nl-dg-h"></div><div class="nl-pp-h"></div><div class="nl-sf-h"></div><div class="nl-rg-h"></div><div class="nl-pg-t"></div><div class="qb-list"></div><div class="nl-pg-b"></div>`;
 const $=s=>root.querySelector(s),list=$('.qb-list');

@@ -60,7 +60,7 @@ section.hero{padding:20px 0 32px}
 .cc-pal{padding:8px;border:1px solid var(--line);border-radius:8px;background:var(--soft)}
 .cc-pal-g{display:grid;grid-template-columns:repeat(4,1fr);gap:4px}
 .cc-pal-g u{display:grid;place-items:center;aspect-ratio:1;border-radius:5px;background:var(--chip);color:var(--text2);font-size:.5625rem;font-weight:700;text-decoration:none}
-.cc-pal-g u.a{background:var(--ac);color:#fff}.cc-pal-g u.m{background:#e0a526;color:#2b1d00}.cc-pal-g u.c{outline:2px solid var(--ac);outline-offset:1px;background:var(--surface);color:var(--ac)}
+.cc-pal-g u.a{background:var(--ac);color:#fff}.cc-pal-g u.m{background:var(--c2-deep);color:#fff}.cc-pal-g u.c{outline:2px solid var(--ac);outline-offset:1px;background:var(--surface);color:var(--ac)}
 .cc-sheets{position:relative;width:200px;height:210px}
 .cc-sheet{position:absolute;inset:0;border:1px solid var(--line2);border-radius:12px;background:var(--surface)}
 .cc-sheet.s3{transform:translate(18px,-10px) rotate(5deg);background:var(--chip)}.cc-sheet.s2{transform:translate(9px,-5px) rotate(2.5deg);background:var(--tint)}
@@ -83,7 +83,7 @@ section.hero{padding:20px 0 32px}
 .cc-dot[aria-current=true] i{width:26px;background:var(--ac)}
 
 /* Theme alignment */
-[data-scheme=royal] .cc-card{border-radius:6px}[data-scheme=royal] .cc-card{border-top-width:3px}
+
 
 /* Vertical option rail */
 .cc-rail{display:flex;flex-direction:column;gap:8px;height:var(--cc-h);min-width:0}
@@ -115,8 +115,8 @@ section.hero{padding:20px 0 32px}
 @keyframes hc-pulse{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--ac) 45%,transparent)}70%,100%{box-shadow:0 0 0 8px transparent}}
 
 /* Theme alignment */
-[data-scheme=royal] .cc-card{border-radius:6px}[data-scheme=royal] .cc-card{border-top-width:3px}
-[data-scheme=royal] .cc-opt-btn,[data-scheme=royal] .hdr-clock{border-radius:6px}
+
+
 
 /* Wide screens: hero cards share the header's edges so brand, cards and clock line up */
 @media(min-width:1240px){section.hero .container{width:min(1280px,94%)}}
@@ -166,7 +166,7 @@ section.hero{padding:20px 0 32px}
   .hdr-clock .t{font-size:1.1875rem}
   .hdr-clock .d{font-size:.75rem}
   .nav nav.open{z-index:2}
-  [data-scheme=royal] .hdr-clock{border-radius:0}
+  
 }
 @media(max-width:380px){.hdr-clock .d{font-size:.6875rem}.hdr-clock .t{font-size:1.0625rem}}
 @media(prefers-reduced-motion:reduce){.cc-slide,.cc-card,.cc-more,.cc-dot i,.cc-opt-btn{transition:none!important}.hdr-clock .hc-dot,.co-bar{animation:none!important}}

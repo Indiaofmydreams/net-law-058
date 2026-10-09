@@ -44,7 +44,7 @@ b.onclick=()=>{const on=!c.classList.contains('rev');show(on);window.announce&&w
 const st=P.get(x);if(st){mark(st.k);show(true)}return c}
 function render(){const m=M[cur],L=list(cur);
 inner.innerHTML=`<div class="mod-head"><div><span class="eyebrow">MODULE ${String(cur+1).padStart(2,'0')}</span><h3>${m[1]}</h3><p class="mod-sub"></p><p class="mod-score" aria-live="polite"></p></div><div class="mod-btns"><button class="nl-btn nl-qz" type="button" hidden>Random 20 quiz</button><button class="mod-x" type="button">✕ Close</button></div></div><div class="nl-dg-h"></div><div class="nl-pp-h"></div><div class="nl-sf-h"></div><div class="nl-rg-h"></div><div class="nl-pg-t"></div><div class="mod-list"></div><div class="nl-pg-b"></div>`;
-inner.querySelector('.mod-sub').textContent=Q===null?'Loading…':L.length?`${L.length} questions. Tap an option to check it, or tap the green eye to see the answer.`:'';
+inner.querySelector('.mod-sub').textContent=Q===null?'Loading…':L.length?`${L.length} questions. Tap an option to check it, or tap the eye icon to see the answer.`:'';
 const box=inner.querySelector('.mod-list');trk&&NLNav.untrack(trk);trk=null;pg=pp=sf=null;redraw=null;
 if(Q&&!L.length)box.innerHTML='<div class="mod-empty"><b>MCQs for this module are coming soon.</b><span>Check back shortly, or try the other modules.</span></div>';
 else if(L.length){

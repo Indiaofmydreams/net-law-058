@@ -1,7 +1,5 @@
-/* NET Law 058: phone app interface (app.html). Uses colour schemes from m-themes.css */
-:root{--bad:#d64545;--bad-bd:#f0b7b7;--r:14px}
-[data-scheme=app]{--bg:#f4f6fb;--surface:#fff;--soft:#eef2f9;--chip:#e5ebf5;--line:#e2e8f2;--line2:#ccd5e4;--text:#0f1b33;--text2:#3f4e66;--mut:#6a7a91;--ac:#1750e6;--ac-d:#0f3bb4;--ac2:#5b86f0;--tint:#e8efff;--btn:#1750e6;--ok:#1f9d5c;--ok-bg:#e8f8ef;--ok-bd:#a6dcbd;--ok-text:#146a3e;--bad-bg:#fdeeee;--bad-text:#a02525;--sel-bg:#e8efff}
-[data-mode=dark][data-scheme=app]{--bg:#0a0f1d;--surface:#121a2e;--soft:#0e1527;--chip:#1b2540;--line:#222e4a;--line2:#34456a;--text:#e8edf8;--text2:#b5c0d6;--mut:#8d9bb5;--ac:#7ea2ff;--ac-d:#a9c1ff;--ac2:#4d78e8;--tint:#182544;--btn:#2f5be0;--ok:#35b878;--ok-bg:#12291f;--ok-bd:#2c5a43;--ok-text:#b9e4cb;--bad-bg:#3a2024;--bad-text:#f4b3b3;--bad-bd:#6a3438;--sel-bg:#182544}
+/* NET Law 058: phone app interface (app.html). Uses colour schemes from m-themes.css (Royal Navy default) */
+:root{--bad:#c42b4c;--bad-bd:#f0b9c5;--r:14px}[data-mode=dark]{--bad:#ff8fa8;--bad-bd:#6e2f3d}
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html,body{height:100%;margin:0;overscroll-behavior:none}
 body{font-family:Manrope,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text);font-size:15px;line-height:1.4;-webkit-text-size-adjust:100%}

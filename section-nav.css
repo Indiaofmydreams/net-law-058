@@ -82,21 +82,21 @@
 
 /* Hover / keyboard focus on a single item */
 .nlsn a:hover .nlsn-mark::before,
-.nlsn a:focus-visible .nlsn-mark::before{ opacity: 1; width: .85rem; background: var(--ac, #2f6f58); }
+.nlsn a:focus-visible .nlsn-mark::before{ opacity: 1; width: .85rem; background: var(--ac, #2d4aa9); }
 .nlsn a:hover{ color: var(--text, #1e3138); }
-.nlsn a:focus-visible{ outline: 2px solid var(--b2, var(--ac, #2f6f58)); outline-offset: -2px; }
+.nlsn a:focus-visible{ outline: 2px solid var(--b2, var(--ac, #2d4aa9)); outline-offset: -2px; }
 
 /* Current section */
 .nlsn a.is-active .nlsn-mark::before{
   opacity: 1;
   width: .95rem;
   height: 3px;
-  background: var(--ac, #2f6f58);
+  background: var(--ac, #2d4aa9);
 }
-.nlsn a.is-active{ color: var(--ac-d, var(--ac, #2f6f58)); }
+.nlsn a.is-active{ color: var(--ac-d, var(--ac, #2d4aa9)); }
 .nlsn a.is-active .nlsn-label{ font-weight: 800; }
 .nlsn.is-open a.is-active,
-.nlsn:hover a.is-active{ background: var(--tint, rgba(47,111,88,.12)); }
+.nlsn:hover a.is-active{ background: var(--tint, rgba(45,74,169,.12)); }
 
 /* Unobtrusive where space is tight or irrelevant: the header already collapses to a menu at 900px */
 @media (max-width: 900px), (max-height: 460px){

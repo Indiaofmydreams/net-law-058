@@ -102,7 +102,7 @@
 .faq-cta h2{margin:0 0 6px;font-size:1.35rem;font-weight:800;color:#fff}
 .faq-cta p{margin:0;opacity:.92;max-width:52ch;line-height:1.55}
 .faq-cta .row{display:flex;flex-wrap:wrap;gap:10px}
-.faq-cta a{padding:12px 18px;border-radius:10px;font-weight:750;font-size:.875rem;text-decoration:none;background:#fff;color:#14231f}
+.faq-cta a{padding:12px 18px;border-radius:10px;font-weight:750;font-size:.875rem;text-decoration:none;background:#fff;color:#16213f}
 .faq-cta a.ghost{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.65)}
 .faq-cta a:focus-visible{outline:3px solid #fff;outline-offset:2px}
 .faq-stamp{font-size:.8125rem;color:var(--mut);margin:18px 0 0}
