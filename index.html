@@ -51,6 +51,16 @@
 .dq-clock{align-self:flex-start;padding:8px 18px;border-radius:14px;border:1px solid var(--ac2);background:var(--tint);color:var(--ac-d);font-size:2.25rem;line-height:1.1;font-weight:800;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
 .dq-date{font-weight:700!important;letter-spacing:.04em!important;text-transform:none!important;color:var(--text2)!important}
 </style>
+<style id="cc-ese">
+.cc-sub{margin:8px 0 0;font-size:.875rem;line-height:1.55;color:var(--text2)}
+.cc-ese-fix{display:none}
+.ese-prev{width:100%;max-width:330px;padding:18px 18px 14px;border:1px solid var(--ac2);border-radius:18px;background:var(--surface);box-shadow:0 10px 26px color-mix(in srgb,var(--deep) 12%,transparent);display:grid;grid-template-columns:auto 1fr;gap:6px 16px;align-items:center}
+.ese-mini{position:relative;width:96px;height:96px}.ese-mini svg{width:100%;height:100%;transform:rotate(-90deg)}.ese-mini circle{fill:none;stroke-width:10;stroke-linecap:round}.ese-mini .bg{stroke:var(--chip)}.ese-mini .fg{stroke:var(--ac)}
+.ese-mini b{position:absolute;inset:0;display:grid;place-content:center;text-align:center;font-size:1.75rem;line-height:1;font-weight:800;letter-spacing:-.04em;color:var(--ac-d)}.ese-mini b small{display:block;margin-top:3px;font-size:.5rem;font-weight:800;letter-spacing:.09em;color:var(--text2)}
+.ese-rows{display:grid;gap:9px}.ese-rows span{display:block;font-size:.6875rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--text2)}.ese-rows i{display:block;height:6px;margin-top:3px;border-radius:99px;background:var(--chip);overflow:hidden}.ese-rows i b{display:block;height:100%;border-radius:99px;background:var(--ac)}
+.ese-note{grid-column:1/-1;margin:6px 0 0;padding-top:8px;border-top:1px dashed var(--line2);font-size:.75rem;font-weight:700;color:var(--mut)}
+@media(min-width:768px) and (max-height:800px){.cc-slide[data-label="Exam Strategy Engine"] .cc-line{font-size:.9375rem;line-height:1.4}.cc-slide[data-label="Exam Strategy Engine"] .cc-sub{font-size:.8125rem;line-height:1.45;margin-top:5px}}
+</style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -95,6 +105,29 @@
                   <div class="cc-opt on"><b>B</b><i class="cc-bar w70"></i><em>✓</em></div>
                   <div class="cc-opt"><b>C</b><i class="cc-bar w50"></i></div>
                   <div class="cc-why"><i class="cc-bar w90"></i><i class="cc-bar w65"></i></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="cc-slide cc-feat" data-label="Exam Strategy Engine" role="group" aria-roledescription="slide">
+            <a class="cc-card" href="#home" draggable="false" aria-haspopup="dialog">
+              <div class="cc-body">
+                <span class="cc-tag">PERSONAL NET STRATEGY · 13 QUICK QUESTIONS</span>
+                <h3 class="cc-title">Exam Strategy Engine</h3>
+                <p class="cc-line">The Exam Strategy Engine analyses your preparation, performance, time, and weaknesses to identify how you should prepare — not just what you should study.</p>
+                <p class="cc-sub">It then builds a personalised NET strategy designed to maximise your score and adapt as your performance improves.</p>
+                <span class="btn primary cc-cta">Build my strategy →</span>
+              </div>
+              <div class="cc-vis" aria-hidden="true">
+                <div class="ese-prev">
+                  <div class="ese-mini"><svg viewBox="0 0 120 120"><circle class="bg" cx="60" cy="60" r="54"/><circle class="fg" cx="60" cy="60" r="54" stroke-dasharray="339.3" stroke-dashoffset="156"/></svg><b>54<small>READINESS</small></b></div>
+                  <div class="ese-rows">
+                    <div><span>Preparation</span><i><b style="width:62%"></b></i></div>
+                    <div><span>Performance</span><i><b style="width:48%"></b></i></div>
+                    <div><span>Time</span><i><b style="width:70%"></b></i></div>
+                    <div><span>Weaknesses</span><i><b style="width:36%"></b></i></div>
+                  </div>
+                  <p class="ese-note">Sample preview</p>
                 </div>
               </div>
             </a>
@@ -326,6 +359,7 @@
 <script src="hero-carousel.js"></script>
 <script src="carousel-counts.js"></script>
 <script src="daily-quiz.js"></script>
+<script src="ese.js"></script>
 <script src="nl-test.js"></script>
 <script src="section-nav.js"></script>
 <script src="plan.js"></script>
