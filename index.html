@@ -27,6 +27,13 @@
   <link rel="stylesheet" href="plan.css">
   <link rel="stylesheet" href="nav-resources.css">
 <style id="cc-paper2">
+@media(min-width:768px){
+.cc-rail{height:auto;min-height:var(--cc-h);gap:5px}
+.cc-opt-btn{flex:1 0 auto;min-height:48px}
+.co-t{line-height:1.25}
+}
+@media(min-width:900px){.cc{--cc-h:clamp(400px,calc(100vh - 380px),472px)}}
+.cc-vis .gr-art{display:block;width:100%;max-width:440px;height:auto;max-height:calc(var(--cc-h) - 40px);object-fit:cover;margin:0 auto;border-radius:22px;border:3px solid #fff;box-shadow:0 16px 32px rgba(11,24,54,.25)}
 /* Paper 2 slide: syllabus label, compact left-aligned chips, exam-pattern block */
 .cc-multi{display:flex;flex-direction:column;gap:10px;width:100%}
 .cc-multi small{font-size:.8125rem;font-weight:800;letter-spacing:.09em;color:var(--ac-d);text-transform:uppercase}
@@ -100,19 +107,14 @@
                 <span class="btn primary cc-cta">Start Practising →</span>
               </div>
               <div class="cc-vis" aria-hidden="true">
-                <div class="cc-qcard"><i class="cc-bar w80"></i><i class="cc-bar w55"></i>
-                  <div class="cc-opt"><b>A</b><i class="cc-bar w60"></i></div>
-                  <div class="cc-opt on"><b>B</b><i class="cc-bar w70"></i><em>✓</em></div>
-                  <div class="cc-opt"><b>C</b><i class="cc-bar w50"></i></div>
-                  <div class="cc-why"><i class="cc-bar w90"></i><i class="cc-bar w65"></i></div>
-                </div>
+                <img class="gr-art" src="welcome-graduates.jpg" alt="Two graduates celebrating with UGC NET JRF Qualified certificates" width="1000" height="667" loading="eager">
               </div>
             </a>
           </li>
           <li class="cc-slide cc-feat" data-label="Exam Strategy Engine" role="group" aria-roledescription="slide">
             <a class="cc-card" href="#home" draggable="false" aria-haspopup="dialog">
               <div class="cc-body">
-                <span class="cc-tag">PERSONAL NET STRATEGY · 13 QUICK QUESTIONS</span>
+                <span class="cc-tag">PERSONAL NET STRATEGY</span>
                 <h3 class="cc-title">Exam Strategy Engine</h3>
                 <p class="cc-line">The Exam Strategy Engine analyses your preparation, performance, time, and weaknesses to identify how you should prepare — not just what you should study.</p>
                 <p class="cc-sub">It then builds a personalised NET strategy designed to maximise your score and adapt as your performance improves.</p>
