@@ -219,3 +219,185 @@ input,select,textarea{color:var(--text)}input::placeholder{color:var(--mut)}.men
   html body .mt-acts{margin:20px -14px -14px;padding:10px 14px}
   html body .nl-pb{min-width:44px}
 }
+
+/* =====================================================================
+   VIBRANT LAYER (v1)  -  contrasting accents for every theme
+   ---------------------------------------------------------------------
+   Every theme keeps its own brand colour and gains TWO supporting colours,
+   chosen by colour psychology: one warm/optimistic or cool/calm contrast
+   (--c2) and one balancing colour (--c3). Nothing here changes layout,
+   content or meaning. Correct / wrong / hard colours are untouched.
+   Text on tinted backgrounds always uses the "-ink" tokens (WCAG AA, 5:1+).
+   TO REVERT: delete everything from this banner to the end of the
+   "END OF VIBRANT LAYER" marker. Nothing else in the file depends on it.
+   ===================================================================== */
+
+/* ---- 1. Colour tokens: c2 = primary contrast, c3 = balancing colour ----
+   -c2 / -c3   vivid colour: borders, bars, dots, glows, big graphics
+   -ink        text-safe version (use on tints and white)
+   -deep       fill for white text (badges, buttons)
+   -hi         bright version for the dark stats strip and footer            */
+:root,[data-scheme=green]{--c2:#F0A81A;--c2-ink:#815808;--c2-deep:#b25900;--c2-hi:#f0a81a;--c3:#3B93E0;--c3-ink:#1961a0;--c3-deep:#1e74c0;--c3-hi:#80b9eb;--c2-num:#b25900;--c3-num:#1e74c0;--t2:#1e74c0;--t2t:#1961a0;--star:#c98400}
+[data-scheme=orange]{--c2:#12A0A8;--c2-ink:#0b666b;--c2-deep:#0e7b81;--c2-hi:#18d5df;--c3:#5B6CE0;--c3-ink:#3247d8;--c3-deep:#5667df;--c3-hi:#b8bff2;--c2-num:#0e7b81;--c3-num:#5667df;--t2:#5667df;--t2t:#3247d8;--star:#c98400}
+[data-scheme=blue]{--c2:#F2A516;--c2-ink:#805607;--c2-deep:#b25900;--c2-hi:#f6c05c;--c3:#22B38C;--c3-ink:#146b54;--c3-deep:#188064;--c3-hi:#58dfbb;--c2-num:#b25900;--c3-num:#188064;--t2:#188064;--t2t:#146b54;--star:#c98400}
+[data-scheme=aqua]{--c2:#F0704F;--c2-ink:#b0300f;--c2-deep:#d13912;--c2-hi:#f9c2b5;--c3:#8465E0;--c3-ink:#633cd8;--c3-deep:#7c5bde;--c3-hi:#d5cbf5;--c2-num:#d13912;--c3-num:#7c5bde;--t2:#7c5bde;--t2t:#633cd8;--star:#c98400}
+[data-scheme=purple]{--c2:#F2AA14;--c2-ink:#7e5807;--c2-deep:#b25900;--c2-hi:#f2aa14;--c3:#17B0A3;--c3-ink:#0e6a62;--c3-deep:#117f76;--c3-hi:#1bcbbc;--c2-num:#b25900;--c3-num:#117f76;--t2:#117f76;--t2t:#0e6a62;--star:#c98400}
+[data-scheme=magenta]{--c2:#12A9B8;--c2-ink:#0a616a;--c2-deep:#0d7b86;--c2-hi:#15c3d4;--c3:#F5B014;--c3-ink:#7d5805;--c3-deep:#b25900;--c3-hi:#f5b014;--c2-num:#0d7b86;--c3-num:#b25900;--t2:#b25900;--t2t:#7d5805;--star:#c98400}
+[data-scheme=royal]{--c2:#2F6FE0;--c2-ink:#1a51b1;--c2-deep:#2a6bdf;--c2-hi:#6494e8;--c3:#C23A58;--c3-ink:#982d45;--c3-deep:#c23a58;--c3-hi:#d6768b;--c2-num:#2a6bdf;--c3-num:#c23a58;--t2:#c23a58;--t2t:#982d45;--star:#c98400}
+[data-scheme=navy]{--c2:#F59E0B;--c2-ink:#7a4f05;--c2-deep:#b25900;--c2-hi:#f59e0b;--c3:#22A7D8;--c3-ink:#125974;--c3-deep:#197a9e;--c3-hi:#24abdc;--c2-num:#b25900;--c3-num:#197a9e;--t2:#197a9e;--t2t:#125974;--star:#c98400}
+[data-mode=dark][data-scheme=green]{--c2:#f0a81a;--c2-ink:#f2b53c;--c2-deep:#b25900;--c2-hi:#f0a81a;--c3:#4096e1;--c3-ink:#85bcec;--c3-deep:#1e74c0;--c3-hi:#4096e1;--c2-num:#f2b53c;--c3-num:#85bcec;--t2:#1e74c0;--t2t:#85bcec;--star:#f5b82e}
+[data-mode=dark][data-scheme=orange]{--c2:#12a0a8;--c2-ink:#16c5cf;--c2-deep:#0e7b81;--c2-hi:#12a0a8;--c3:#7a88e6;--c3-ink:#a3adee;--c3-deep:#5667df;--c3-hi:#7a88e6;--c2-num:#16c5cf;--c3-num:#a3adee;--t2:#5667df;--t2t:#a3adee;--star:#f5b82e}
+[data-mode=dark][data-scheme=blue]{--c2:#f2a516;--c2-ink:#f4b033;--c2-deep:#b25900;--c2-hi:#f2a516;--c3:#22b38c;--c3-ink:#28d2a4;--c3-deep:#188064;--c3-hi:#22b38c;--c2-num:#f4b033;--c3-num:#28d2a4;--t2:#188064;--t2t:#28d2a4;--star:#f5b82e}
+[data-mode=dark][data-scheme=aqua]{--c2:#f0704f;--c2-ink:#f59e87;--c2-deep:#d13912;--c2-hi:#f0704f;--c3:#9c84e6;--c3-ink:#bdacee;--c3-deep:#7c5bde;--c3-hi:#9c84e6;--c2-num:#f59e87;--c3-num:#bdacee;--t2:#7c5bde;--t2t:#bdacee;--star:#f5b82e}
+[data-mode=dark][data-scheme=purple]{--c2:#f2aa14;--c2-ink:#f2aa14;--c2-deep:#b25900;--c2-hi:#f2aa14;--c3:#17b0a3;--c3-ink:#1ac6b7;--c3-deep:#117f76;--c3-hi:#17b0a3;--c2-num:#f2aa14;--c3-num:#1ac6b7;--t2:#117f76;--t2t:#1ac6b7;--star:#f5b82e}
+[data-mode=dark][data-scheme=magenta]{--c2:#12a9b8;--c2-ink:#14b8c9;--c2-deep:#0d7b86;--c2-hi:#12a9b8;--c3:#f5b014;--c3-ink:#f5b014;--c3-deep:#b25900;--c3-hi:#f5b014;--c2-num:#14b8c9;--c3-num:#f5b014;--t2:#b25900;--t2t:#f5b014;--star:#f5b82e}
+[data-mode=dark][data-scheme=royal]{--c2:#5a8ce6;--c2-ink:#8fb1ee;--c2-deep:#2a6bdf;--c2-hi:#5a8ce6;--c3:#d36c83;--c3-ink:#e19bab;--c3-deep:#c23a58;--c3-hi:#d36c83;--c2-num:#8fb1ee;--c3-num:#e19bab;--t2:#c23a58;--t2t:#e19bab;--star:#f5b82e}
+[data-mode=dark][data-scheme=navy]{--c2:#f59e0b;--c2-ink:#f6a51d;--c2-deep:#b25900;--c2-hi:#f59e0b;--c3:#22a7d8;--c3-ink:#5ec1e6;--c3-deep:#197a9e;--c3-hi:#22a7d8;--c2-num:#f6a51d;--c3-num:#5ec1e6;--t2:#197a9e;--t2t:#5ec1e6;--star:#f5b82e}
+
+/* derived tints (follow the active light/dark surface) */
+:root{--c2-tint:color-mix(in srgb,var(--c2) 16%,var(--surface));--c3-tint:color-mix(in srgb,var(--c3) 16%,var(--surface))}
+[data-mode=dark]{--c2-tint:color-mix(in srgb,var(--c2) 20%,var(--surface));--c3-tint:color-mix(in srgb,var(--c3) 20%,var(--surface))}
+
+/* ---- 2. Rotating accent: items cycle brand -> c2 -> c3 ----
+   Sets --k (decor), --ki (text), --kd (fill for white text), --kt (tint).    */
+html:root body :is(.cc-slide,.cc-opt-btn,.cc-dot,.unit-grid>.unit,.notes-grid>.note,.resource-grid>.resource,.mt-cards>.mt-card,.cycle>li,.phases>li,.route>li):nth-child(3n+1){--k:var(--ac2);--ki:var(--ac-d);--kd:var(--btn);--kt:var(--tint)}
+html:root body :is(.cc-slide,.cc-opt-btn,.cc-dot,.unit-grid>.unit,.notes-grid>.note,.resource-grid>.resource,.mt-cards>.mt-card,.cycle>li,.phases>li,.route>li):nth-child(3n+2){--k:var(--c2);--ki:var(--c2-ink);--kd:var(--c2-deep);--kt:var(--c2-tint)}
+html:root body :is(.cc-slide,.cc-opt-btn,.cc-dot,.unit-grid>.unit,.notes-grid>.note,.resource-grid>.resource,.mt-cards>.mt-card,.cycle>li,.phases>li,.route>li):nth-child(3n){--k:var(--c3);--ki:var(--c3-ink);--kd:var(--c3-deep);--kt:var(--c3-tint)}
+
+/* ---- 3. Header: gradient accent line, spark on the logo, live clock ---- */
+html:root body .site-header{border-bottom:1px solid var(--line)}
+html:root body .site-header::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:3px;pointer-events:none;background:linear-gradient(90deg,var(--ac2) 0%,var(--c2) 36%,var(--c3) 70%,var(--ac2) 100%)}
+html:root body .brand-mark{position:relative;background:linear-gradient(135deg,var(--deep),var(--ac))}
+html:root body .brand-mark::after{content:"";position:absolute;right:-4px;top:-4px;width:11px;height:11px;border-radius:50%;background:var(--c2);box-shadow:0 0 0 2px var(--surface)}
+html:root body .hdr-clock{border-color:color-mix(in srgb,var(--c2) 42%,var(--line2))}
+html:root body .hdr-clock .hc-dot{background:var(--c2);animation-name:hc-pulse-v}
+@keyframes hc-pulse-v{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--c2) 55%,transparent)}70%,100%{box-shadow:0 0 0 9px transparent}}
+@supports(-webkit-background-clip:text) or (background-clip:text){html:root body .hdr-clock .t{background:linear-gradient(90deg,var(--ac),var(--c3-ink));-webkit-background-clip:text;background-clip:text;color:transparent}}
+
+/* theme picker: swatches now show the whole palette, not one dot */
+html:root body .pal-dot{background:conic-gradient(var(--ac2) 0 38%,var(--c2) 0 70%,var(--c3) 0)}
+html:root body .sw-opt[data-s=green] i{background:conic-gradient(#5a9279 0 38%,#F0A81A 0 70%,#3B93E0 0)}
+html:root body .sw-opt[data-s=orange] i{background:conic-gradient(#d08a5c 0 38%,#12A0A8 0 70%,#5B6CE0 0)}
+html:root body .sw-opt[data-s=blue] i{background:conic-gradient(#6a9ac4 0 38%,#F2A516 0 70%,#22B38C 0)}
+html:root body .sw-opt[data-s=aqua] i{background:conic-gradient(#4fa3a8 0 38%,#F0704F 0 70%,#8465E0 0)}
+html:root body .sw-opt[data-s=purple] i{background:conic-gradient(#8f78b8 0 38%,#F2AA14 0 70%,#17B0A3 0)}
+html:root body .sw-opt[data-s=magenta] i{background:conic-gradient(#e0409a 0 38%,#12A9B8 0 70%,#F5B014 0)}
+html:root body .sw-opt[data-s=royal] i{background:conic-gradient(#c99a2e 0 38%,#2F6FE0 0 70%,#C23A58 0)}
+html:root body .sw-opt[data-s=navy] i{background:conic-gradient(#1d3a8a 0 38%,#F59E0B 0 70%,#22A7D8 0)}
+
+/* ---- 4. Hero: a warm and a cool glow join the brand glow ---- */
+html:root body .hero{background:radial-gradient(circle at 90% 8%,var(--glow1) 0,transparent 38%),radial-gradient(circle at 4% 94%,var(--glow2) 0,transparent 40%),radial-gradient(circle at 58% 112%,color-mix(in srgb,var(--c2) 20%,transparent) 0,transparent 42%),radial-gradient(circle at 26% -12%,color-mix(in srgb,var(--c3) 16%,transparent) 0,transparent 40%),linear-gradient(135deg,var(--bg),var(--hero2))}
+
+/* ---- 5. Buttons: brand fill + a contrasting rim (draws the eye to the action) ---- */
+html:root body .btn.primary,html:root body .nlt-btn.pri{background-image:linear-gradient(135deg,transparent,color-mix(in srgb,var(--deep) 30%,transparent));box-shadow:0 10px 20px -10px color-mix(in srgb,var(--btn) 75%,transparent),inset 0 -3px 0 var(--c2);transition:transform .18s ease,box-shadow .18s ease,filter .18s}
+html:root body .btn.primary:hover,html:root body .nlt-btn.pri:hover:not(:disabled){transform:translateY(-1px);box-shadow:0 14px 24px -10px color-mix(in srgb,var(--btn) 80%,transparent),inset 0 -3px 0 var(--c2)}
+html:root body .btn.primary.cc-cta{background-color:var(--kd);border-color:var(--kd)}
+
+/* ---- 6. Hero carousel: each slide has its own colour, rail matches ---- */
+html:root body .cc-card{border-top-color:var(--k,var(--ac2));background:radial-gradient(circle at 100% 0,color-mix(in srgb,var(--k,var(--ac2)) 14%,transparent),transparent 48%),var(--surface)}
+html:root body .cc-feat .cc-card{border-color:color-mix(in srgb,var(--k,var(--ac2)) 45%,var(--line));border-top-color:var(--k,var(--ac2));background:radial-gradient(circle at 100% 0,color-mix(in srgb,var(--k,var(--ac2)) 20%,transparent),transparent 52%),linear-gradient(135deg,var(--kt,var(--tint)),var(--surface) 62%)}
+html:root body .cc-tag{background:var(--kt,var(--tint));color:var(--ki,var(--ac-d))}
+html:root body .cc-multi small{color:var(--ki,var(--ac-d))}
+html:root body .cc-opt.on{border-color:var(--k,var(--ac));background:var(--kt,var(--tint))}
+html:root body .cc-opt.on b{background:var(--kd,var(--ac))}
+html:root body .cc-opt em{color:var(--ki,var(--ac))}
+html:root body .cc-note{border-left-color:var(--k,var(--ac))}
+html:root body .cc-clock .p{stroke:var(--k,var(--ac))}
+html:root body .cc-mock-h{background:var(--kd,var(--btn))}
+html:root body .cc-sheet.s2{background:var(--kt,var(--tint))}
+html:root body .cc-sheet.s1 b{color:var(--ki,var(--ac-d))}
+/* chips: each topic gets its own hue */
+html:root body .cc-chips span:nth-child(3n+1),html:root body .cc-note li:nth-child(3n+1){background:var(--tint);color:var(--ac-d);border-color:color-mix(in srgb,var(--ac) 28%,transparent)}
+html:root body .cc-chips span:nth-child(3n+2),html:root body .cc-note li:nth-child(3n+2){background:var(--c2-tint);color:var(--c2-ink);border-color:color-mix(in srgb,var(--c2) 38%,transparent)}
+html:root body .cc-chips span:nth-child(3n),html:root body .cc-note li:nth-child(3n){background:var(--c3-tint);color:var(--c3-ink);border-color:color-mix(in srgb,var(--c3) 38%,transparent)}
+/* stat boxes inside slides: three colours */
+html:root body .cc-stats{border-color:color-mix(in srgb,var(--c2) 45%,var(--line2))}
+html:root body .cc-stats div+div{border-left-color:color-mix(in srgb,var(--c2) 45%,var(--line2))}
+html:root body .cc-stats div:nth-child(3n+1) b{color:var(--ac-d)}
+html:root body .cc-stats div:nth-child(3n+2) b{color:var(--c2-num)}
+html:root body .cc-stats div:nth-child(3n) b{color:var(--c3-num)}
+/* daily quiz clock runs warm: time is the point */
+html:root body .dq-clock{border-color:var(--c2);background:var(--c2-tint);color:var(--c2-ink)}
+/* rail */
+html:root body .cc-opt-btn::before{background:color-mix(in srgb,var(--k,var(--ac)) 62%,var(--line2))}
+html:root body .cc-opt-btn:hover{border-color:color-mix(in srgb,var(--k,var(--ac)) 55%,var(--line2))}
+html:root body .cc-opt-btn[aria-current=true]{background:var(--kt,var(--tint));border-color:var(--k,var(--ac2))}
+html:root body .cc-opt-btn[aria-current=true]::before{background:var(--k,var(--ac))}
+html:root body .cc-opt-btn[aria-current=true] .co-s{color:var(--ki,var(--ac-d))}
+html:root body .co-bar{background:var(--k,var(--ac))}
+/* dots */
+html:root body .cc-dot i{background:color-mix(in srgb,var(--k,var(--ac)) 36%,var(--line2))}
+html:root body .cc-dot[aria-current=true] i{background:var(--k,var(--ac))}
+
+/* ---- 7. Countdown + 7-minute challenge: two cards, two contrasting tops ---- */
+html:root body .hero-row .nl-cd{border-top-color:var(--c3)}
+html:root body .nl-cd-g div:nth-child(1){background:var(--tint)}
+html:root body .nl-cd-g div:nth-child(1) strong{color:var(--ac-d)}
+html:root body .nl-cd-g div:nth-child(2){background:var(--c2-tint)}
+html:root body .nl-cd-g div:nth-child(2) strong{color:var(--c2-num)}
+html:root body .nl-cd-g div:nth-child(3){background:var(--c3-tint)}
+html:root body .nl-cd-g div:nth-child(3) strong{color:var(--c3-num)}
+html:root body .nl-cd-g div:nth-child(4){background:linear-gradient(135deg,var(--btn),var(--deep));box-shadow:inset 0 -3px 0 var(--c2)}
+html:root body .nl-cd-g div:nth-child(4) strong{color:#fff}
+html:root body .nl-cd-g div:nth-child(4) small{color:rgba(255,255,255,.86)}
+html:root body .nlt{border-color:color-mix(in srgb,var(--c2) 42%,var(--line));border-top-color:var(--c2);background:radial-gradient(circle at 100% 0,color-mix(in srgb,var(--c2) 18%,transparent),transparent 50%),linear-gradient(135deg,var(--c2-tint),var(--surface) 62%)}
+html:root body .nlt-tag{border-color:color-mix(in srgb,var(--c2) 50%,var(--line2));color:var(--c2-ink)}
+html:root body .nlt-stats{border-color:color-mix(in srgb,var(--c2) 45%,var(--line2))}
+html:root body .nlt-stats div+div{border-left-color:color-mix(in srgb,var(--c2) 45%,var(--line2))}
+html:root body .nlt-stats div:nth-child(3n+1) b{color:var(--ac-d)}
+html:root body .nlt-stats div:nth-child(3n+2) b{color:var(--c2-num)}
+html:root body .nlt-stats div:nth-child(3n) b{color:var(--c3-num)}
+html:root body .nlt-bar i{background:linear-gradient(90deg,var(--ac),var(--c2))}
+
+/* ---- 8. Section rhythm: accent bars, gently tinted bands ---- */
+html:root body .eyebrow::before,html:root body .pl-body h2 small::before{content:"";display:inline-block;vertical-align:middle;width:24px;height:3px;margin-right:10px;border-radius:3px;background:linear-gradient(90deg,var(--c2),var(--c3))}
+html:root body .section-head h2::after{content:"";display:block;width:58px;height:4px;margin-top:14px;border-radius:4px;background:linear-gradient(90deg,var(--ac),var(--c2) 62%,var(--c3))}
+html:root body .section.soft{background:linear-gradient(180deg,color-mix(in srgb,var(--c3) 5%,var(--soft)),var(--soft) 50%,color-mix(in srgb,var(--c2) 5%,var(--soft)))}
+html:root body .section.sy{background:linear-gradient(var(--surface),color-mix(in srgb,var(--c3) 8%,var(--soft)))}
+html:root body .section.qb{background:linear-gradient(180deg,color-mix(in srgb,var(--c3) 5%,var(--soft)),var(--soft) 40%)}
+
+/* ---- 9. Stats strip + footer ---- */
+html:root body .stats{position:relative}
+html:root body .stats::before,html:root body footer::before{content:"";position:absolute;left:0;right:0;top:0;height:4px;background:linear-gradient(90deg,var(--ac2),var(--c2),var(--c3))}
+html:root body .stat-grid strong::before{content:"";display:block;width:24px;height:3px;margin-bottom:10px;border-radius:3px;background:currentColor}
+html:root body .stat-grid div:nth-child(odd) strong{color:var(--c2-hi)}
+html:root body .stat-grid div:nth-child(even) strong{color:var(--c3-hi)}
+html:root body footer{position:relative}
+html:root body .footer-grid strong{color:var(--c2-hi)}
+html:root body .footer-grid a:hover{color:var(--c3-hi)}
+
+/* ---- 10. Cards: coloured top edge + matching number / chip / link ---- */
+html:root body :is(.unit-grid>.unit,.notes-grid>.note,.resource-grid>.resource){border-top:4px solid var(--k,var(--ac2))}
+html:root body :is(.unit-grid>.unit,.resource-grid>.resource)>span{color:var(--ki,var(--ac))}
+html:root body .unit-grid>.unit .cnt{background:var(--kt,var(--chip));color:var(--ki,var(--mut))}
+html:root body .unit-grid>.unit .go,html:root body .notes-grid>.note a,html:root body .resource-grid>.resource a{color:var(--ki,var(--ac))}
+html:root body .unit-grid>.unit:hover{border-color:color-mix(in srgb,var(--k,var(--ac)) 55%,var(--line));box-shadow:0 14px 28px -16px color-mix(in srgb,var(--k,var(--ac)) 55%,transparent)}
+html:root body .unit.mod.active{border-color:var(--k,var(--b2));box-shadow:0 14px 32px color-mix(in srgb,var(--k,var(--b2)) 30%,transparent)}
+html:root body :is(.notes-grid>.note,.resource-grid>.resource) .tag{background:var(--kt,var(--tint));color:var(--ki,var(--ac-d))}
+/* mock-test cards (the red HARD card keeps its red edge) */
+html:root body .mt-cards>.mt-card:not(.hard){border-top:4px solid var(--k,var(--ac2))}
+html:root body .mt-cards>.mt-card:not(.hard) .tag{background:var(--kt,var(--tint));color:var(--ki,var(--ac-d))}
+html:root body .mt-cards>.mt-card:not(.hard):hover{box-shadow:0 14px 30px -14px color-mix(in srgb,var(--k,var(--ac)) 50%,transparent)}
+
+/* ---- 11. Study plans: cool = lots of time, warm = urgency ---- */
+html:root body .plan-card{border-top:4px solid var(--pk,var(--ac2))}
+html:root body .plan-card[data-plan="6"]{--pk:var(--c3);--pi:var(--c3-ink);--pn:var(--c3-num);--pt:var(--c3-tint)}
+html:root body .plan-card[data-plan="3"]{--pk:var(--ac2);--pi:var(--ac-d);--pn:var(--ac);--pt:var(--tint)}
+html:root body .plan-card[data-plan="1"]{--pk:var(--c2);--pi:var(--c2-ink);--pn:var(--c2-num);--pt:var(--c2-tint)}
+html:root body .plan-card[data-plan="2"],html:root body .plan-card[data-plan="0.5"],html:root body .plan-card[data-plan="2w"]{--pk:var(--c2-deep);--pi:var(--c2-ink);--pn:var(--c2-num);--pt:var(--c2-tint)}
+html:root body .plan-card .pc-time,html:root body .plan-card .pc-go{color:var(--pi,var(--ac))}
+html:root body .plan-card .pc-time b{color:var(--pn,var(--ac))}
+html:root body .plan-card:hover,html:root body .plan-card:focus-visible,html:root body .plan-card.is-fit{border-color:var(--pk,var(--ac))}
+html:root body .plan-card .pc-flag{background:var(--pt,var(--tint));color:var(--pi,var(--ac-d))}
+html:root body .plan-card:hover{box-shadow:0 16px 30px -18px color-mix(in srgb,var(--pk,var(--ac)) 60%,transparent)}
+html:root body .cycle>li::before{background:var(--kd,var(--ac))}
+html:root body .cycle>li:not(:last-child)::after{color:var(--k,var(--ac2))}
+html:root body .cycle>li:last-child{background:var(--kt,var(--tint));border-color:var(--k,var(--ac2))}
+html:root body .phases>li::before{background:var(--k,var(--ac))}
+html:root body .route>li::before{background:var(--kt,var(--tint));color:var(--ki,var(--ac-d))}
+html:root body .pl-hero{background:radial-gradient(circle at 92% 0,color-mix(in srgb,var(--c2) 18%,transparent),transparent 42%),radial-gradient(circle at 0 100%,color-mix(in srgb,var(--c3) 14%,transparent),transparent 44%),linear-gradient(180deg,var(--tint),var(--bg) 92%)}
+
+/* ---- 12. Progress: bars blend brand into the contrast colours ---- */
+html:root body .sy-prog div i,html:root body .syllabus-track div,html:root body .progress div,html:root body .quiz-progress div{background:linear-gradient(90deg,var(--ac2),var(--c2),var(--c3))}
+
+/* ===== END OF VIBRANT LAYER ===== */
