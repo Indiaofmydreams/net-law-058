@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>/* phones get the app interface (app.html) */(function(){try{var q=location.search,s=sessionStorage;if(/[?&]desktop=1/.test(q)){s.setItem('nl-desktop','1');return}var f=/[?&]app=1/.test(q);if(f)s.removeItem('nl-desktop');else if(s.getItem('nl-desktop'))return;if(!f&&!(Math.min(screen.width,screen.height)<768&&(matchMedia('(pointer:coarse)').matches||/Mobi|Android|iPhone|iPod/i.test(navigator.userAgent))))return;var h=location.hash.replace('#',''),m={'mock-tests':'/mocks',law:'/subjects',paper1:'/subjects/1',mcqs:'/subjects',plan:'/plan',notes:'/notes',syllabus:'/notes',pyq:'/pyq'};location.replace('app.html'+(m[h]?'#'+m[h]:''))}catch(e){}})()</script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Free UGC NET Law (058) and Paper 1 preparation: 7,000+ MCQs with explanations, mock tests, notes, and study plans for 6 months, 3 months, 1 month or 2 weeks.">
