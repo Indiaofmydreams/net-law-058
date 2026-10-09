@@ -15,3 +15,10 @@ syllabus-pro.css, disclaimer.css, faq.css, section-nav.css, ese.js, nl-quiz.js, 
 unit-2 page and every page that carries the theme picker.
 Visitors who had picked Green/Orange/Royal Gold are moved to Royal Navy automatically.
 Not touched: "index .html" and "mock-home (1).js" (stale duplicates with spaces in the file name; safe to delete).
+
+Added: three HIGH-CONTRAST themes (light + dark each, dual-colour, no orange/yellow/green)
+  Midnight HC   deep indigo 242 deg + azure 212 deg
+  Ruby HC       deep crimson 346 deg + orchid-violet 290 deg
+  Graphite HC   deep steel blue 216 deg + cyan 192 deg
+Text pairs are 7:1+ (WCAG AAA), muted text 8.5:1+, borders firmer (2px on inputs/buttons), links underlined, 4px focus ring.
+Only theme.css, theme.js, m-themes.css, m-app.js, app.html and the pages carrying the theme picker changed in this round.

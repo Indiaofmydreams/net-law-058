@@ -79,7 +79,7 @@ const ST=Object.assign({view:'card',exp:0,fs:1},ls.get('nl-m-set',{}));
 const saveST=()=>ls.set('nl-m-set',ST);
 const BM=ls.get('nl-m-bm',{});const saveBM=()=>ls.set('nl-m-bm',BM);
 const POS=ls.get('nl-m-pos',{});const savePOS=()=>ls.set('nl-m-pos',POS);
-const SCHEMES=[['navy','Royal Navy','#607bd2'],['blue','Blue','#6095d2'],['aqua','Aqua','#359cbb'],['purple','Purple','#9560d2'],['magenta','Magenta','#d260a1']];
+const SCHEMES=[['navy','Royal Navy','#607bd2'],['blue','Blue','#6095d2'],['aqua','Aqua','#359cbb'],['purple','Purple','#9560d2'],['magenta','Magenta','#d260a1'],['midnight','Midnight HC','#4d47eb'],['ruby','Ruby HC','#e11948'],['graphite','Graphite HC','#1e6ee6']];
 function setTheme(s,m){const r=document.documentElement,t=ls.get('netlaw058-theme',{});if(s)t.s=s;if(m)t.m=m;ls.set('netlaw058-theme',t);r.dataset.scheme=t.s||'navy';r.dataset.mode=t.m||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
 const mt=$('meta[name=theme-color]');if(mt)mt.content=getComputedStyle(r).getPropertyValue('--surface').trim()||'#fff'}
 
