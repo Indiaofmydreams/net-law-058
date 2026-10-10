@@ -38,3 +38,6 @@
 .ab :is(a,summary):focus-visible,.ab-tw:focus-visible{outline:3px solid var(--ac);outline-offset:2px}
 .faq-nav a{font-size:.9375rem}
 @media (max-width:900px){.ab-cards,.ab-cards2,.ab-links{grid-template-columns:1fr}.faq-nav{position:static}}
+
+.ab-table tr.tot th,.ab-table tr.tot td{background:var(--soft);color:var(--text);font-weight:800}
+.ab .faq-item .faq-a ul{font-size:1rem;line-height:1.7}
