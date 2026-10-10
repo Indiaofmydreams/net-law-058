@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://YOUR-SITE-URL/sitemap.xml
+Sitemap: https://indiaofmydreams.github.io/net-law-058/sitemap.xml
