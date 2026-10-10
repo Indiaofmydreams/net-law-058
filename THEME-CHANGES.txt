@@ -22,3 +22,12 @@ Added: three HIGH-CONTRAST themes (light + dark each, dual-colour, no orange/yel
   Graphite HC   deep steel blue 216 deg + cyan 192 deg
 Text pairs are 7:1+ (WCAG AAA), muted text 8.5:1+, borders firmer (2px on inputs/buttons), links underlined, 4px focus ring.
 Only theme.css, theme.js, m-themes.css, m-app.js, app.html and the pages carrying the theme picker changed in this round.
+
+Round 3 (10 Oct 2026): cut-off update merged + balanced light mode
+  - cutoff.html, faq.html, index.html and the 5 study-plan pages from NET-Law-058-cutoff-update.zip were merged in; their theme picker
+    (which had brought back Green, Orange and Royal Gold) now lists only the 8 current themes. cutoff.css/js/data are unchanged.
+  - All 13 mock-test pages had a shorter pre-paint theme list; fixed.
+  - Light mode (Royal Navy, Blue, Aqua, Purple, Magenta): dark, high-contrast bands in each theme\x27s own dark palette on the top text-size bar,
+    header, home carousel and the FAQ / Cut-off / Study-plan title bands, with light content below. Dark mode is unchanged.
+  - Light-mode ink and borders made firmer: body text about 17:1, secondary text 9:1, muted text 6.5:1.
+  - Midnight HC, Ruby HC and Graphite HC are unchanged.
