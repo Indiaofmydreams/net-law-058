@@ -137,7 +137,7 @@ A.back=back;A.close=closeSheet;A.reload=()=>location.reload();
 A.toast=t=>toast(t.dataset.m);
 
 /* ---------- landing ---------- */
-R.landing=()=>{screen({body:`<div class="land"><div class="logo">${sv(P.scale,76)}</div><h1>NET Law 058</h1><p class="tag">WELCOME · 100% FREE · NO SIGN-UP</p><p class="d" style="margin-bottom:10px"><b style="font-size:1.35rem;color:var(--text)">7000+ free MCQs</b><br>Welcome. Practise everything. Pay nothing.</p><p class="d">3,580 Law 058 and 4,267 Paper 1 questions, organised topic-wise, each with a clear explanation.</p><ul class="ticks"><li>No need to sign in</li><li>Your progress is saved in this browser</li></ul>
+R.landing=()=>{screen({body:`<div class="land"><div class="logo">${sv(P.scale,76)}</div><h1>NET Law 058</h1><p class="tag">WELCOME · 100% FREE · NO SIGN-UP</p><p class="d" style="margin-bottom:10px"><b style="font-size:1.35rem;color:var(--text)">9,000+ free MCQs</b><br>Welcome. Practise everything. Pay nothing.</p><p class="d">3,580 Law 058 and 5,705 Paper 1 questions, organised topic-wise, each with a clear explanation.</p><ul class="ticks"><li>No need to sign in</li><li>Your progress is saved in this browser</li></ul>
 <button class="btn" data-a="enter">Start Practising ${I.chevR}</button></div>`,flush:true})};
 A.enter=()=>{ls.set('nl-m-seen',1);go('/')};
 
