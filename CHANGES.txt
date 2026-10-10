@@ -13,3 +13,11 @@ Q7 only leprosy (not venereal disease) was deleted in 2019; Q15 s.16 HMA vs Reva
 
 Answer positions: the file had ~82% of answers as option B (the old pack ~61%). All options were shuffled so correct answers are spread across A-D (about 23% each, B slightly higher where a question uses "both/above" style options).
 Topics were normalised to the 11 existing Family Law topic names; IDs run 1-400.
+
+----
+Paper 1 sets split into exam-pattern tests
+- Each 100-question Paper 1 set (old mock-test-6..9) is now two 50-question, 60-minute tests, numbered Paper 1 Mock Test 1 to 8 (files mock-test-14..21).
+  Set 1 = 14/15, Set 2 = 16/17, Set 3 = 18/19, Set 4 = 20/21. Each part has exactly 5 questions from each of the 10 units.
+- Answer options reshuffled: each part has A/B/C/D correct answers at 13/12/13/12 or 12/13/12/13 (25 each per set); no 3 equal answers in a row.
+- Upload: new mock-test-14..21 .html + mock-test-data-14..21.js, and changed mock-home.js, m-app.js, sw.js, CHANGES.txt.
+  Delete mock-test-data-6..9.js from the repo. mock-test-6..9.html are now small redirect pages to Part 1.
