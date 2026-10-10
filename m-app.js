@@ -287,7 +287,7 @@ A.hit=t=>{openSession('S','Search: '+(S.lastQ||'').trim(),S.hits,+t.dataset.i);l
 const MOCKS=[
 {n:1,t:'Mock Test 1',s:'Full-length paper · Set 1',q:100,m:90,p:2},{n:2,t:'Mock Test 2',s:'Full-length paper · Set 2',q:100,m:90,p:2},{n:3,t:'Mock Test 3',s:'Full-length paper · Set 3',q:100,m:90,p:2},{n:4,t:'Mock Test 4',s:'Full-length paper · Set 4',q:100,m:90,p:2},{n:5,t:'Mock Test 5 · Revision Mix',s:'Revision mix · Sets 1–4',q:100,m:90,p:2},{n:13,t:'Mock Test 6 (Hard)',s:'All 10 units · Hard',q:100,m:120,p:2,h:'HARD'},
 {n:14,t:'Paper 1 · Mock Test 1',s:'5 questions per unit',q:50,m:60,p:1},{n:15,t:'Paper 1 · Mock Test 2',s:'5 questions per unit',q:50,m:60,p:1},{n:16,t:'Paper 1 · Mock Test 3',s:'5 questions per unit',q:50,m:60,p:1},{n:17,t:'Paper 1 · Mock Test 4',s:'5 questions per unit',q:50,m:60,p:1},{n:18,t:'Paper 1 · Mock Test 5',s:'5 questions per unit',q:50,m:60,p:1},{n:19,t:'Paper 1 · Mock Test 6',s:'5 questions per unit',q:50,m:60,p:1},{n:20,t:'Paper 1 · Mock Test 7',s:'5 questions per unit',q:50,m:60,p:1},{n:21,t:'Paper 1 · Mock Test 8',s:'5 questions per unit',q:50,m:60,p:1},
-{n:10,t:'Paper 1 · Exam Pattern Mock A',s:'Moderate to tough',q:50,m:60,p:1,h:'TOUGH'},{n:11,t:'Paper 1 · Exam Pattern Mock B',s:'Moderate to tough',q:50,m:60,p:1,h:'TOUGH'},{n:12,t:'Paper 1 · Exam Pattern Mock C',s:'Extremely tough',q:50,m:60,p:1,h:'EXTREME'}];
+{n:10,t:'Paper 1 · Mock Test 9',s:'Moderate to tough',q:50,m:60,p:1,h:'TOUGH'},{n:11,t:'Paper 1 · Mock Test 10',s:'Moderate to tough',q:50,m:60,p:1,h:'TOUGH'},{n:12,t:'Paper 1 · Mock Test 11',s:'Extremely tough',q:50,m:60,p:1,h:'EXTREME'}];
 const AK=n=>`netlaw058-mock-${n}-attempt`,RK=n=>`netlaw058-mock-${n}-result`;
 const mockMeta=n=>MOCKS.find(m=>m.n===n);
 const MC={};
