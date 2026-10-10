@@ -254,3 +254,9 @@ svg{display:block;flex:none}
 .plan.fit{border-color:var(--ac);box-shadow:0 0 0 1px var(--ac)}
 
 .ticks{list-style:none;margin:0 0 24px;padding:0;display:grid;gap:8px;text-align:left}.ticks li{display:flex;align-items:center;gap:9px;font-weight:700;font-size:.9rem}.ticks li::before{content:"\2713";display:grid;place-items:center;width:20px;height:20px;border-radius:50%;background:var(--ac);color:#fff;font-size:.7rem}
+
+/* PWA install card on Home */
+.card.ins{display:flex;align-items:center;gap:10px;margin:10px 0;padding:10px 10px 10px 14px;border-color:var(--ac2,var(--line));background:var(--tint)}
+.card.ins>svg{flex:none;width:26px;height:26px;color:var(--ac)}
+.card.ins .ti{flex:1;min-width:0}.card.ins h3{margin:0;font-size:.9375rem;font-weight:800}.card.ins p{margin:1px 0 0;font-size:.75rem;color:var(--text2)}
+.card.ins .btn{width:auto;min-height:40px;padding:0 14px;font-size:.875rem}

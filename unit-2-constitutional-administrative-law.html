@@ -49,7 +49,15 @@ html body #nl-jump .nl-j{width:44px;height:44px}
 html body #nl-pomo{left:8px;bottom:84px}
 html body .nl-t{display:none}
 }
-</style></head><body><div class="w">
+</style><link rel="manifest" href="manifest.json">
+<link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="NET Law 058">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+</head><body><div class="w">
 <a href="index.html">← Back to Paper 2 modules</a>
 <p class="ey" style="margin:18px 0 0">PAPER 2 · MODULE 02</p>
 <h1>Constitutional &amp; Administrative Law</h1>
@@ -86,4 +94,5 @@ else if(e.target.id==='pv'){i--;draw()}else if(e.target.id==='nx'){i++;draw();sc
 $('fs').onchange=$('ft').onchange=filt;
 $('rs').onclick=()=>{if(confirm('Reset all progress for this module?')){A={};save();draw()}};
 filt();
-</script></body></html>
+</script><script src="pwa.js" defer></script>
+</body></html>

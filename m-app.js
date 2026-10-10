@@ -144,11 +144,14 @@ A.enter=()=>{ls.set('nl-m-seen',1);go('/')};
 /* ---------- drawer ---------- */
 A.drawer=()=>{const dk=document.documentElement.dataset.mode==='dark',cs=document.documentElement.dataset.scheme;
 openSheet(`<div class="brand">${sv(P.scale,26)}<span>NET Law 058</span></div><div class="sh-b"><div class="dl">
-<a href="#/">${I.home}Home</a><a href="#/plan">${I.cal}Study Plan</a><a href="#/mocks">${I.test}Mock Tests</a><a href="#/subjects">${I.scale}Law 058</a><a href="#/subjects/1">${I.cap}Paper 1</a><a href="#/syllabus/0">${I.book}Syllabus</a><a href="#/notes">${I.file}Notes</a><a href="#/pyq">${I.target}PYQs</a><a href="#/bookmarks">${I.bm}Bookmarks</a><a href="#/profile">${I.user}My progress</a><a href="faq.html">${I.help}FAQ & exam pattern</a><button data-a="desktop">${I.desk}Use desktop site</button></div>
+<a href="#/">${I.home}Home</a><a href="#/plan">${I.cal}Study Plan</a><a href="#/mocks">${I.test}Mock Tests</a><a href="#/subjects">${I.scale}Law 058</a><a href="#/subjects/1">${I.cap}Paper 1</a><a href="#/syllabus/0">${I.book}Syllabus</a><a href="#/notes">${I.file}Notes</a><a href="#/pyq">${I.target}PYQs</a><a href="#/bookmarks">${I.bm}Bookmarks</a><a href="#/profile">${I.user}My progress</a><a href="faq.html">${I.help}FAQ & exam pattern</a>${window.NLPWA&&NLPWA.available()?`<button data-a="install">${sv('<path d="M12 4v11M7 11l5 5 5-5M5 20h14"/>')}Install app</button>`:''}<button data-a="desktop">${I.desk}Use desktop site</button></div>
 <div class="fld" style="margin-top:12px"><b>Appearance</b><div class="sw">${SCHEMES.map(s=>`<button class="swb ${cs===s[0]?'on':''}" style="--c:${s[2]}" data-a="scheme" data-s="${s[0]}"><i></i>${s[1]}</button>`).join('')}</div><button class="btn sec sm" style="margin-top:10px" data-a="mode">${dk?I.sun+' Light mode':I.moon+' Dark mode'}</button></div></div>`,'left')};
 A.scheme=t=>{setTheme(t.dataset.s);A.drawer()};
 A.mode=()=>{setTheme(null,document.documentElement.dataset.mode==='dark'?'light':'dark');A.drawer()};
 A.desktop=()=>{location.href='index.html?desktop=1'};
+A.install=()=>{closeSheet();if(window.NLPWA)NLPWA.install()};
+A.insno=()=>{if(window.NLPWA)NLPWA.dismiss();route()};
+addEventListener('nlpwa:change',()=>{if((location.hash.slice(1)||'/')==='/'&&ls.get('nl-m-seen',0)&&sheet.hidden)R.home()});
 
 /* ---------- home ---------- */
 const greet=()=>{const h=new Date().getHours();return h<12?'Good Morning!':h<17?'Good Afternoon!':'Good Evening!'};
@@ -166,7 +169,7 @@ R.home=()=>{
   const dg=prog.daily(),pc=all?att/all*100:0;
   const T=[['/subjects','scale','Law 058','var(--ac)'],['/subjects/1','cap','Paper 1','var(--c2)'],['/mocks','test','Mock Tests','var(--ac)'],['/plan','cal','Study Plan','var(--ac)'],['/syllabus/0','book','Syllabus','var(--c2)'],['/notes','file','Notes','var(--c2)']];
   screen({top:`<div class="tb"><button class="ib" data-a="drawer" aria-label="Menu">${I.menu}</button><h1>NET Law 058</h1><a class="ib" href="#/search" aria-label="Search questions">${I.search}</a></div>`,nav:'home',
-  body:`<div class="hello"><b>UGC NET Law (058) &amp; Paper 1</b><span>Free MCQs, mock tests, notes and study plans.</span></div>${cdHTML()}<h2 class="h2">Continue practising</h2>${cont}
+  body:`<div class="hello"><b>UGC NET Law (058) &amp; Paper 1</b><span>Free MCQs, mock tests, notes and study plans.</span></div>${cdHTML()}${window.NLPWA&&NLPWA.available()&&!NLPWA.dismissed()?`<div class="card ins">${sv('<path d="M12 4v11M7 11l5 5 5-5M5 20h14"/>')}<div class="ti"><h3>Install this app</h3><p>Quick launch from your home screen, works offline</p></div><button class="btn sm" data-a="install">Install</button><button class="ib" data-a="insno" aria-label="Dismiss">${I.close}</button></div>`:''}<h2 class="h2">Continue practising</h2>${cont}
   <div class="tiles">${T.map(t=>`<a class="tile" href="#${t[0]}">${t[4]?'<span class="badge">SOON</span>':''}<span class="ico" style="--c:${t[3]}">${I[t[1]]}</span>${t[2]}</a>`).join('')}</div>
   <h2 class="h2">Your progress</h2><div class="card"><div class="prog-n"><b>${fnum(att)} <span>/ ${all?fnum(all):'…'}</span></b><em>${pc.toFixed(1)}%</em></div><div class="bar"><i style="width:${pc}%"></i></div>
   <div class="mini"><span style="--c:var(--ok)">${fnum(ok)} correct</span><span style="--c:var(--bad)">${fnum(bad)} incorrect</span></div>
@@ -394,6 +397,7 @@ R.profile=()=>{const all=S.bank.length,s=prog.stats(S.bank),res=MOCKS.map(m=>ls.
   <button class="row" data-a="goal">${I.target}<div class="ti"><h3>Daily goal</h3><p>Today ${dg.n}/${dg.goal} · ${dg.streak}-day streak</p></div>${I.chevR}</button>
   <button class="row" data-a="drawer">${I.gear}<div class="ti"><h3>Appearance</h3><p>Colour theme and dark mode</p></div>${I.chevR}</button>
   <button class="row" data-a="resetall">${I.trash}<div class="ti"><h3>Reset practice progress</h3></div>${I.chevR}</button>
+  ${window.NLPWA&&NLPWA.available()?`<button class="row" data-a="install">${sv('<path d="M12 4v11M7 11l5 5 5-5M5 20h14"/>')}<div class="ti"><h3>Install app</h3><p>Add to your home screen, works offline</p></div>${I.chevR}</button>`:''}
   <button class="row" data-a="desktop">${I.desk}<div class="ti"><h3>Use desktop site</h3></div>${I.chevR}</button>
   <button class="row" data-a="about">${I.info}<div class="ti"><h3>About</h3></div>${I.chevR}</button></div>`})};
 A.goal=()=>{const g=prog.daily().goal;openSheet(`<div class="sh-h"><h2>Daily goal</h2><button class="ib" data-a="close">${I.close}</button></div><div class="sh-b"><p class="muted" style="margin:0 0 12px">Questions to answer each day.</p><div class="seg">${[10,20,30,50,100].map(n=>`<button class="${n===g?'on':''}" data-a="setgoal" data-n="${n}">${n}</button>`).join('')}</div></div>`)};

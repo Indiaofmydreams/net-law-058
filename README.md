@@ -30,3 +30,6 @@ Long MCQ lists: use `NLNav.pager({...})` (range chips + pagination) and `NLNav.p
 Any long element can also be followed by the rail with the attribute `data-nl-track`.
 Mock tests only get the rail and jump buttons; their engine is untouched.
 
+
+## Installable app (PWA)
+See PWA.md. New HTML pages: add `<link rel="manifest" href="manifest.json">` in `<head>` and `<script src="pwa.js" defer></script>` before `</body>` (copy from any page).

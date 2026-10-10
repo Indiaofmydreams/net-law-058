@@ -1,0 +1,66 @@
+/* NET Law 058 PWA UI. Uses the site's theme variables (with fallbacks) so every colour theme and dark mode just works. */
+
+/* Nav items. Desktop: entry inside the Resources dropdown. <= 900px: pill at the end of the hamburger menu. */
+.nl-install-nav,.nl-install-dd{display:inline-flex;align-items:center;gap:8px;font:inherit;line-height:1;cursor:pointer;white-space:nowrap}
+.nl-install-nav{font-size:.8125rem;font-weight:750;padding:9px 14px;border-radius:99px;border:1.5px solid var(--ac,#2d4aa9);background:var(--tint,#e6ebf9);color:var(--ac-d,#1f3784);min-height:44px;align-self:flex-start;margin-top:6px}
+.nl-install-nav:hover{background:var(--ac,#2d4aa9);color:#fff}
+.nl-install-dd{display:flex;width:100%;font-size:.875rem;font-weight:750;padding:11px 14px;border:0;border-radius:9px;background:none;color:var(--ac-d,#1f3784);text-align:left}
+.nl-install-dd:hover,.nl-install-dd:focus-visible{background:var(--tint,#e6ebf9)}
+.nav-dd-in .nl-install-dd{margin-top:4px;border-top:1px solid var(--line,#d4d9e8);border-radius:0 0 9px 9px;padding-top:13px}
+.nl-install-nav:focus-visible,.nl-install-dd:focus-visible,.nl-btn:focus-visible,.nl-x:focus-visible,.nl-dlg summary:focus-visible{outline:3px solid color-mix(in srgb,var(--ac,#2d4aa9) 40%,transparent);outline-offset:2px}
+.nl-install-nav[hidden],.nl-install-dd[hidden],[data-nl-install][hidden],[data-nl-show][hidden]{display:none!important}
+@media(min-width:901px){.nl-install-nav{display:none!important}}
+@media(max-width:900px){.nl-install-dd{display:none!important}}
+
+/* Homepage strip */
+.nl-strip{background:var(--soft,#eff1f8);border-bottom:1px solid var(--line,#d4d9e8);padding:14px 0}
+.nl-strip-in{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.nl-strip-ic{flex:none;width:44px;height:44px;border-radius:12px}
+.nl-strip-t{flex:1 1 280px;min-width:0}
+.nl-strip-t b{display:block;font-size:1rem;color:var(--text,#0a1024);letter-spacing:-.01em}
+.nl-strip-t span{display:block;font-size:.8125rem;color:var(--text2,#343b51);margin-top:2px}
+.nl-strip-a{display:flex;align-items:center;gap:8px}
+.nl-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font:inherit;font-size:.875rem;font-weight:750;min-height:44px;padding:0 18px;border-radius:10px;border:1px solid var(--line2,#a3acc7);background:var(--surface,#fff);color:var(--text,#0a1024);cursor:pointer}
+.nl-btn-p{background:var(--btn,#2a459d);border-color:var(--btn,#2a459d);color:#fff}
+.nl-btn-p:hover{filter:brightness(1.08)}
+.nl-x{font:inherit;font-size:.8125rem;font-weight:700;min-height:44px;padding:0 12px;border:0;background:none;color:var(--mut,#494f65);cursor:pointer;border-radius:8px}
+.nl-x:hover{color:var(--text,#0a1024);text-decoration:underline}
+@media(max-width:560px){.nl-strip-a{width:100%}.nl-strip-a .nl-btn{flex:1}}
+
+/* Footer link */
+.nl-foot-link{background:none;border:0;padding:0;margin:7px 0;font:inherit;font-size:.8125rem;color:#9da7b7;cursor:pointer;text-align:left;display:block}
+.nl-foot-link:hover{text-decoration:underline}
+
+/* Instructions dialog */
+.nl-dlg{width:min(560px,calc(100vw - 24px));max-height:calc(100dvh - 32px);padding:0;border:1px solid var(--line,#d4d9e8);border-radius:18px;background:var(--surface,#fff);color:var(--text,#0a1024);box-shadow:0 30px 80px rgba(0,0,0,.35);overflow:hidden}
+.nl-dlg[open]{display:flex}
+.nl-dlg::backdrop{background:rgba(8,12,28,.55)}
+.nl-dlg-in{display:flex;flex-direction:column;width:100%;max-height:inherit;margin:0}
+.nl-dlg-h{display:flex;gap:14px;padding:20px 20px 12px;align-items:flex-start}
+.nl-dlg-h img{border-radius:11px;flex:none}
+.nl-dlg-h h2{margin:0 0 4px;font-size:1.1875rem;letter-spacing:-.02em;color:var(--text,#0a1024)}
+.nl-dlg-h p{margin:0;font-size:.8125rem;line-height:1.5;color:var(--text2,#343b51)}
+.nl-dlg-b{padding:4px 20px 8px;overflow:auto;-webkit-overflow-scrolling:touch}
+.nl-lead{margin:8px 0 6px;font-size:.6875rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--ac-d,#1f3784)}
+.nl-g,.nl-more{border:1px solid var(--line,#d4d9e8);border-radius:12px;margin:8px 0;background:var(--bg,#f8f9fc)}
+.nl-g summary,.nl-more summary{cursor:pointer;padding:12px 14px;font-weight:750;font-size:.875rem;color:var(--text,#0a1024);min-height:44px;display:flex;align-items:center}
+.nl-more{background:none}
+.nl-more>.nl-g{margin:8px 10px}
+.nl-g ol{margin:0;padding:0 16px 12px 36px;font-size:.875rem;line-height:1.55;color:var(--text2,#343b51)}
+.nl-g li{margin:6px 0;padding-left:4px}
+.nl-g li b{color:var(--text,#0a1024)}
+.nl-ic{vertical-align:-4px;margin:0 2px;color:var(--ac,#2d4aa9)}
+.nl-k{display:inline-block;padding:0 7px;border:1px solid var(--line2,#a3acc7);border-radius:6px;background:var(--surface,#fff);line-height:1.3}
+.nl-note{margin:8px 14px 12px;font-size:.78125rem;line-height:1.5;color:var(--mut,#494f65)}
+.nl-dlg-b>.nl-note{margin:10px 2px}
+.nl-warn{margin:0 20px 6px;padding:10px 12px;border-radius:10px;background:var(--bad-bg,#fdedef);color:var(--bad-text,#9c1c31);font-size:.8125rem;font-weight:650}
+.nl-dlg-f{padding:12px 20px 18px;display:flex;justify-content:flex-end;border-top:1px solid var(--line,#d4d9e8)}
+.nl-dlg-f .nl-btn{min-width:110px}
+
+/* Never show install UI inside the installed app */
+@media(display-mode:standalone),(display-mode:fullscreen),(display-mode:minimal-ui){[data-nl-install],[data-nl-show]{display:none!important}}
+@media(prefers-reduced-motion:no-preference){.nl-dlg[open]{animation:nlpop .18s ease-out}@keyframes nlpop{from{opacity:0;transform:translateY(8px) scale(.98)}to{opacity:1;transform:none}}}
+
+/* guard against host-page resets (e.g. the phone app styles bare img/svg) */
+.nl-dlg img{display:block;flex:none;width:44px;height:44px;max-width:none;object-fit:contain}
+.nl-dlg svg.nl-ic{display:inline-block;width:18px;height:18px}
