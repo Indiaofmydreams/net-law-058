@@ -82,5 +82,9 @@
   {
     "file": "pack-comprehension.json",
     "unit": "Comprehension"
+  },
+  {
+    "file": "pack-mathematical-reasoning.json",
+    "unit": "Mathematical Reasoning and Aptitude"
   }
 ]
