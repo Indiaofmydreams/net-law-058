@@ -1,0 +1,128 @@
+/* watermark.css  -  NETLAWVERSE.IN reading watermark
+ *
+ * One shared stylesheet, no JavaScript, no per-question markup. It paints a faint diagonal
+ * "NETLAWVERSE.IN" pattern over every question surface on the site by CSS selector, so questions
+ * rendered later by the quiz / question-bank / mock-test / app scripts are covered automatically.
+ *
+ * How it works
+ *   - Each host below gets one ::after overlay. pointer-events:none means taps, clicks, text
+ *     selection and scrolling pass straight through it; it is aria-hidden by nature (no content).
+ *   - Two staggered tile layers of different sizes (360x240 and 520x330) so the combined pattern
+ *     repeats only every few thousand px, and every card restarts the pattern at its own corner.
+ *     That makes it much harder to remove from a screenshot by subtracting one repeated tile.
+ *   - The ink colour is baked into the SVG at ~6-8% alpha; light and dark variants switch on the
+ *     site's own <html data-mode> attribute (set by theme.js / m-app.js), so every theme follows.
+ *
+ * Tuning: change --wm-fade (0 = off, 1 = default, 1.6 = stronger) on :root or on one host.
+ * To cover a new question container, add its selector to the host list below.
+ */
+
+:root{--wm-fade:1}
+
+/* Hosts need a positioning context. :where() keeps specificity at zero, so any position the
+   site already sets on these elements (sticky, absolute...) still wins. */
+:where(.uq,
+  .qb-card,
+  .nlq-box:not(.ese-box),
+  .nlt,
+  .mt-q,
+  .mt-rc,
+  [data-qi],
+  [data-wm],
+  .rv .det){position:relative}
+
+:is(.uq,
+  .qb-card,
+  .nlq-box:not(.ese-box),
+  .nlt,
+  .mt-q,
+  .mt-rc,
+  [data-qi],
+  [data-wm],
+  .rv .det)::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  border-radius:inherit;
+  pointer-events:none;
+  user-select:none;
+  -webkit-user-select:none;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27360%27 height=%27240%27 viewBox=%270 0 360 240%27%3E%3Cg fill=%27%230a1024%27 fill-opacity=%270.065%27 font-family=%27Helvetica Neue,Arial,sans-serif%27 font-weight=%27600%27 font-size=%2712%27 letter-spacing=%273%27%3E%3Ctext x=%2795%27 y=%2770%27 transform=%27rotate(-30 95 70)%27 text-anchor=%27middle%27%3ENETLAWVERSE.IN%3C/text%3E%3Ctext x=%27275%27 y=%27190%27 transform=%27rotate(-30 275 190)%27 text-anchor=%27middle%27%3ENETLAWVERSE.IN%3C/text%3E%3C/g%3E%3C/svg%3E"),url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27520%27 height=%27330%27 viewBox=%270 0 520 330%27%3E%3Cg fill=%27%230a1024%27 fill-opacity=%270.038%27 font-family=%27Helvetica Neue,Arial,sans-serif%27 font-weight=%27600%27 font-size=%2710%27 letter-spacing=%272.6%27%3E%3Ctext x=%27130%27 y=%27250%27 transform=%27rotate(-30 130 250)%27 text-anchor=%27middle%27%3ENETLAWVERSE.IN%3C/text%3E%3Ctext x=%27390%27 y=%2795%27 transform=%27rotate(-30 390 95)%27 text-anchor=%27middle%27%3ENETLAWVERSE.IN%3C/text%3E%3C/g%3E%3C/svg%3E");
+  background-size:360px 240px,520px 330px;
+  background-position:0 0,170px 110px;
+  background-repeat:repeat,repeat;
+  opacity:var(--wm-fade);
+  contain:strict;
+}
+
+/* Dark mode: light ink instead of dark ink. */
+[data-mode="dark"] :is(.uq,
+  .qb-card,
+  .nlq-box:not(.ese-box),
+  .nlt,
+  .mt-q,
+  .mt-rc,
+  [data-qi],
+  [data-wm],
+  .rv .det)::after,
+[data-mode="dark"]:is(.uq,
+  .qb-card,
+  .nlq-box:not(.ese-box),
+  .nlt,
+  .mt-q,
+  .mt-rc,
+  [data-qi],
+  [data-wm],
+  .rv .det)::after{
+  background-image:url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27360%27 height=%27240%27 viewBox=%270 0 360 240%27%3E%3Cg fill=%27%23e8eaf3%27 fill-opacity=%270.08%27 font-family=%27Helvetica Neue,Arial,sans-serif%27 font-weight=%27600%27 font-size=%2712%27 letter-spacing=%273%27%3E%3Ctext x=%2795%27 y=%2770%27 transform=%27rotate(-30 95 70)%27 text-anchor=%27middle%27%3ENETLAWVERSE.IN%3C/text%3E%3Ctext x=%27275%27 y=%27190%27 transform=%27rotate(-30 275 190)%27 text-anchor=%27middle%27%3ENETLAWVERSE.IN%3C/text%3E%3C/g%3E%3C/svg%3E"),url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27520%27 height=%27330%27 viewBox=%270 0 520 330%27%3E%3Cg fill=%27%23e8eaf3%27 fill-opacity=%270.046%27 font-family=%27Helvetica Neue,Arial,sans-serif%27 font-weight=%27600%27 font-size=%2710%27 letter-spacing=%272.6%27%3E%3Ctext x=%27130%27 y=%27250%27 transform=%27rotate(-30 130 250)%27 text-anchor=%27middle%27%3ENETLAWVERSE.IN%3C/text%3E%3Ctext x=%27390%27 y=%2795%27 transform=%27rotate(-30 390 95)%27 text-anchor=%27middle%27%3ENETLAWVERSE.IN%3C/text%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* No theme attribute at all (script blocked): follow the operating system. */
+@media (prefers-color-scheme:dark){
+  html:not([data-mode]) :is(.uq,
+  .qb-card,
+  .nlq-box:not(.ese-box),
+  .nlt,
+  .mt-q,
+  .mt-rc,
+  [data-qi],
+  [data-wm],
+  .rv .det)::after{background-image:url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27360%27 height=%27240%27 viewBox=%270 0 360 240%27%3E%3Cg fill=%27%23e8eaf3%27 fill-opacity=%270.08%27 font-family=%27Helvetica Neue,Arial,sans-serif%27 font-weight=%27600%27 font-size=%2712%27 letter-spacing=%273%27%3E%3Ctext x=%2795%27 y=%2770%27 transform=%27rotate(-30 95 70)%27 text-anchor=%27middle%27%3ENETLAWVERSE.IN%3C/text%3E%3Ctext x=%27275%27 y=%27190%27 transform=%27rotate(-30 275 190)%27 text-anchor=%27middle%27%3ENETLAWVERSE.IN%3C/text%3E%3C/g%3E%3C/svg%3E"),url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27520%27 height=%27330%27 viewBox=%270 0 520 330%27%3E%3Cg fill=%27%23e8eaf3%27 fill-opacity=%270.046%27 font-family=%27Helvetica Neue,Arial,sans-serif%27 font-weight=%27600%27 font-size=%2710%27 letter-spacing=%272.6%27%3E%3Ctext x=%27130%27 y=%27250%27 transform=%27rotate(-30 130 250)%27 text-anchor=%27middle%27%3ENETLAWVERSE.IN%3C/text%3E%3Ctext x=%27390%27 y=%2795%27 transform=%27rotate(-30 390 95)%27 text-anchor=%27middle%27%3ENETLAWVERSE.IN%3C/text%3E%3C/g%3E%3C/svg%3E");}
+}
+
+/* Phones: slightly smaller marks, otherwise identical. */
+@media (max-width:560px){
+  :is(.uq,
+  .qb-card,
+  .nlq-box:not(.ese-box),
+  .nlt,
+  .mt-q,
+  .mt-rc,
+  [data-qi],
+  [data-wm],
+  .rv .det)::after{background-size:300px 200px,430px 275px;background-position:0 0,140px 90px}
+}
+
+/* High-contrast themes already use stronger borders and ink: back the watermark off further. */
+html:is([data-scheme="midnight"],[data-scheme="ruby"],[data-scheme="graphite"]) :is(.uq,
+  .qb-card,
+  .nlq-box:not(.ese-box),
+  .nlt,
+  .mt-q,
+  .mt-rc,
+  [data-qi],
+  [data-wm],
+  .rv .det)::after{opacity:calc(var(--wm-fade) * .6)}
+
+/* Users who ask the OS for more contrast get a quieter watermark too. */
+@media (prefers-contrast:more){
+  :is(.uq,
+  .qb-card,
+  .nlq-box:not(.ese-box),
+  .nlt,
+  .mt-q,
+  .mt-rc,
+  [data-qi],
+  [data-wm],
+  .rv .det)::after{opacity:calc(var(--wm-fade) * .6)}
+}

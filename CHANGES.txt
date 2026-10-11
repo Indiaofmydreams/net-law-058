@@ -21,3 +21,8 @@ Paper 1 sets split into exam-pattern tests
 - Answer options reshuffled: each part has A/B/C/D correct answers at 13/12/13/12 or 12/13/12/13 (25 each per set); no 3 equal answers in a row.
 - Upload: new mock-test-14..21 .html + mock-test-data-14..21.js, and changed mock-home.js, m-app.js, sw.js, CHANGES.txt.
   Delete mock-test-data-6..9.js from the repo. mock-test-6..9.html are now small redirect pages to Part 1.
+
+Watermark (11 Oct 2026)
+  Added watermark.css (shared, CSS-only). Linked from index.html, app.html, mock-test-1..21.html, the 10 ugc-net-law-unit-*.html
+  and 10 ugc-net-paper-1-unit-*.html pages. m-app.js: one wrapper <div data-wm> around the in-app test question.
+  sw.js: watermark.css added to the pre-cache list and VERSION bumped v10 -> v11 so installed apps pick it up.

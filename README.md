@@ -33,3 +33,14 @@ Mock tests only get the rail and jump buttons; their engine is untouched.
 
 ## Installable app (PWA)
 See PWA.md. New HTML pages: add `<link rel="manifest" href="manifest.json">` in `<head>` and `<script src="pwa.js" defer></script>` before `</body>` (copy from any page).
+
+
+## Reading watermark (watermark.css)
+A faint diagonal "NETLAWVERSE.IN" pattern sits over every question surface (unit-page MCQs, question bank cards,
+quiz overlay incl. its review, timed test, mock-test questions and review, app practice / test / review).
+It is CSS only: no JavaScript, no per-question markup, so new questions and new quiz packs are covered automatically.
+- New page with questions: add `<link rel="stylesheet" href="watermark.css">` after the other stylesheets (copy from any page).
+- New question container class: add its selector to the host list at the top of `watermark.css` (the list appears in the rules as `:is(...)`).
+- Strength: `:root{--wm-fade:1}` (0 = off, 1 = default, 1.5 = stronger). High-contrast themes automatically use 60% of this.
+- Colours follow `<html data-mode>` so every theme in light and dark is covered.
+- `m-app.js`: the app's mock-test question body is wrapped in `<div data-wm>` so it has something to attach to.
