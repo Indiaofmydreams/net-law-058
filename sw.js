@@ -10,13 +10,13 @@
  *     localStorage, which a service worker never reads or writes.
  *
  * All URLs are resolved against the worker's own scope, so this works unchanged under
- * https://<user>.github.io/net-law-058/ and under a custom domain at "/".
+ * https://netlawverse.in/ and under a custom domain at "/".
  *
  * To force clients to drop old caches after a big change, bump VERSION below.
  */
 'use strict';
 
-const VERSION = 'v6';
+const VERSION = 'v7';
 const PREFIX = 'nl058-';
 const PAGES = PREFIX + 'pages-' + VERSION;   // site files
 const FONTS = PREFIX + 'fonts-v1';           // Google Fonts (css + woff2)
@@ -33,7 +33,7 @@ const CORE = [
   'styles.css', 'syllabus-pro.css', 'qbank.css', 'disclaimer.css', 'theme.css', 'mock-tests.css',
   'hero-carousel.css', 'section-nav.css', 'plan.css', 'nav-resources.css', 'about.css', 'faq.css',
   'cutoff.css', 'm-app.css', 'm-themes.css',
-  'script.js', 'syllabus-pro.js', 'bank-loader.js', 'nl-nav.js', 'nl-quiz.js',
+  'script.js', 'syllabus-pro.js', 'bank-loader.js', 'nl-nav.js', 'nl-report.js', 'nl-quiz.js',
   'qbank.js', 'modules.js', 'theme.js', 'disclaimer.js', 'mock-home.js', 'accessibility.js',
   'nl-countdown.js', 'hero-carousel.js', 'carousel-counts.js', 'daily-quiz.js', 'ese.js',
   'nl-test.js', 'section-nav.js', 'plan.js', 'nav-resources.js', 'about.js', 'faq.js',

@@ -1,5 +1,5 @@
 (()=>{
-const EMAIL='your-email@example.com',KEY='netlaw058-terms-v1';
+const EMAIL='netlawverse@gmail.com',KEY='netlaw058-terms-v1';
 const T=[
 ["Study aid, not advice","Notes, MCQs and PYQs are for education only.","Everything here is for general academic use. It is not legal advice, official exam guidance, or a substitute for textbooks, bare Acts, judgments or official notifications."],
 ["No official affiliation","Independent. Not linked to UGC, NTA or any authority.","NET Law 058 is not affiliated with, authorised by or endorsed by the UGC, the NTA or any government body. Names such as UGC NET, statutes and cases are used only to identify the subject matter."],

@@ -82,7 +82,7 @@
         '<p class="nlq-q" id="nlq-q">' + esc(x.q) + "</p>" +
         '<fieldset class="nlq-o" aria-labelledby="nlq-q"><legend>Choose one answer</legend>' +
         x.o.map(function (t, k) { return '<label class="nlq-op"><input type="radio" name="nlq" value="' + k + '"' + (ans[i] === k ? " checked" : "") + "><span>" + esc(t) + "</span></label>"; }).join("") + "</fieldset>" +
-        '<div class="nlq-f"><button type="button" class="nlq-b" data-a="prev"' + (i ? "" : " disabled") + '>\u2039 Previous</button><span class="sp"></span>' +
+        '<div class="nlq-f"><button type="button" class="nlq-b" data-a="prev"' + (i ? "" : " disabled") + '>\u2039 Previous</button>' + (window.NLReport ? NLReport.btn(x, (o.title || "Quiz") + " - Q" + (i + 1)) : "") + '<span class="sp"></span>' +
         (last ? '<button type="button" class="nlq-b pri" data-a="finish">Finish quiz</button>' : '<button type="button" class="nlq-b pri" data-a="next">Next \u203a</button>') + "</div>" +
         (confirming ? '<div class="nlq-f"><p class="nlq-warn" role="alert">' + (Q.length - answered()) + ' question' + (Q.length - answered() === 1 ? "" : "s") + ' unanswered. Finish anyway?</p><button type="button" class="nlq-b" data-a="back">Keep going</button><button type="button" class="nlq-b pri" data-a="finish-now">Finish anyway</button></div>' : "") +
         '<p class="nlq-hint">Keys: A\u2013D or 1\u20134 choose \u00b7 N next \u00b7 P previous \u00b7 Esc close. Answers are scored at the end.</p>';
@@ -103,7 +103,7 @@
       var items = Q.map(function (x, k) {
         var a = ans[k], good = a === x.a; if (r.filter === "bad" && good) return "";
         return '<div class="nlq-r ' + (good ? "ok" : "no") + '"><p class="v">' + (k + 1) + ". " + (good ? "CORRECT" : a < 0 ? "NOT ANSWERED" : "INCORRECT") + '</p><p class="t">' + esc(x.q) + "</p>" +
-          (good ? "" : '<p>Your answer: ' + (a < 0 ? "none" : esc(x.o[a])) + "</p>") + "<p><b>Correct answer: " + esc(x.o[x.a]) + "</b></p>" + (x.e ? '<p class="e">' + esc(x.e) + "</p>" : "") + "</div>";
+          (good ? "" : '<p>Your answer: ' + (a < 0 ? "none" : esc(x.o[a])) + "</p>") + "<p><b>Correct answer: " + esc(x.o[x.a]) + "</b></p>" + (x.e ? '<p class="e">' + esc(x.e) + "</p>" : "") + (window.NLReport ? '<p>' + NLReport.btn(x, (o.title || "Quiz") + " - Q" + (k + 1)) + '</p>' : "") + "</div>";
       }).join("");
       box.innerHTML = head(o.title) +
         '<div class="nlq-score" role="status"><b>' + r.ok + "</b><span> / " + Q.length + " \u00b7 " + pct + '%</span></div>' +
@@ -134,6 +134,7 @@
       else if (a === "again") newRun(); else if (a === "close") close(true);
     });
     function onKey(e) {
+      if (doc.querySelector(".nlr-ov")) return;           /* the Report dialog is open: let it handle keys */
       if (e.key === "Escape") { e.preventDefault(); close(!!result); return; }
       if (e.key === "Tab") {                              /* keep keyboard focus inside the dialog */
         var f = [].filter.call(box.querySelectorAll("button,input,[tabindex]"), function (el) { return !el.disabled && el.tabIndex >= 0 && el.offsetParent !== null; });

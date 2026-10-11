@@ -15,7 +15,7 @@ Every page also gets `<link rel="manifest">`, icon and Apple meta tags in `<head
 `index.html` has a new install strip under the hero and an "Install App" footer link; `app.html` (phone interface) has an install card on Home and rows in the menu and Profile.
 
 ## Paths
-All URLs are relative, so the same files work at `https://<user>.github.io/net-law-058/` and on a custom domain at `/`.
+All URLs are relative, so the same files work at `https://netlawverse.in/` and on a custom domain at `/`.
 Manifest: `start_url "./?source=pwa"`, `scope "./"`. Worker scope = the folder `sw.js` is in.
 Note: moving to a custom domain later changes the origin, so users must install again on the new domain (progress in localStorage does not move across origins).
 
@@ -31,8 +31,8 @@ Note: moving to a custom domain later changes the origin, so users must install 
 * Phone app (`app.html`): card on Home, "Install app" in the ☰ menu and in Profile.
 * Shown only when installing is possible: native prompt (`beforeinstallprompt`) where supported, iOS, or after ~2.5 s as manual steps in other browsers. Hidden when already running as an installed app, after `appinstalled`, and on non-HTTPS pages.
 
-## Testing after deploy (https://indiaofmydreams.github.io/net-law-058/)
-1. **Chrome desktop**: open the site, DevTools → Application → *Manifest* (no errors, icons shown) and *Service Workers* (activated, scope `/net-law-058/`). Resources → Install App → Install. The app opens in its own window.
+## Testing after deploy (https://netlawverse.in/)
+1. **Chrome desktop**: open the site, DevTools → Application → *Manifest* (no errors, icons shown) and *Service Workers* (activated, scope `/`). Resources → Install App → Install. The app opens in its own window.
 2. **Offline**: browse a few pages, wait ~15 s, DevTools → Network → Offline (or turn on airplane mode in the installed app). Reload; open Mock Test 1 and an MCQ unit. Pages and quizzes should work. An unvisited page shows the offline page.
 3. **Android Chrome**: Install card / menu → Install. Launch from the home screen: no browser bar.
 4. **iPhone/iPad Safari**: Share → Add to Home Screen. The in-app card shows the same steps.

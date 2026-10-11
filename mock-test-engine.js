@@ -24,7 +24,7 @@ function exam(){
 app.innerHTML=`<div class="mt-top"><div class="mt-id"><b>${esc(M.title)}</b><span id="qn"></span></div><div class="mt-timer" id="tm" role="timer" aria-label="Time remaining">--:--:--</div><button class="mt-btn dng" id="sub">Submit Test</button></div>
 <div class="mt-prog" aria-hidden="true"><i id="pb"></i></div>
 <div class="mt-grid"><section class="mt-q" aria-label="Question"><p class="mt-meta" id="meta"></p><h2 class="mt-qt" id="qt"></h2><div class="mt-opts" id="op" role="radiogroup" aria-labelledby="qt"></div>
-<div class="mt-acts"><button class="mt-btn" id="pv">← Previous</button><button class="mt-btn" id="mk"></button><button class="mt-btn" id="cl">Clear Response</button><button class="mt-btn pri" id="nx">Next →</button></div></section>
+<div class="mt-acts"><button class="mt-btn" id="pv">← Previous</button><button class="mt-btn" id="mk"></button><button class="mt-btn" id="cl">Clear Response</button><span id="rpw"></span><button class="mt-btn pri" id="nx">Next →</button></div></section>
 <aside class="mt-pal" aria-label="Question palette"><h3>Question palette</h3><div class="mt-pg" id="pg"></div>
 <ul class="mt-leg"><li><i class="mt-p nv"></i>Not visited</li><li><i class="mt-p va"></i>Visited, unanswered</li><li><i class="mt-p an"></i>Answered</li><li><i class="mt-p mr"></i>Marked for review</li><li><i class="mt-p amr"></i>Answered and marked</li><li><i class="mt-hd inl"></i>Tough question (red mark)</li></ul><p class="mt-cnt" id="cnt"></p><p class="mt-cnt">Keys: A–D select · N next · P previous · M mark</p></aside></div>
 <dialog id="dlg" class="mt-dlg" aria-labelledby="dt"><h2 id="dt">Submit test?</h2><p id="dp"></p><div class="mt-row"><button class="mt-btn" id="no">Continue test</button><button class="mt-btn dng" id="yes">Yes, submit</button></div></dialog>`;
@@ -36,6 +36,7 @@ function pal(){pg.querySelectorAll('.mt-p').forEach((b,i)=>{const s=st(i);b.clas
 const n=Object.keys(A.ans).length,m=Object.keys(A.mk).filter(k=>A.mk[k]).length;$('#cnt').textContent=`${n} answered · ${TOT-n} unanswered · ${m} marked`;$('#pb').style.width=n/TOT*100+'%'}
 function show(i,focus){A.cur=i;A.vis[i]=1;save();const x=Q[i];
 $('#qn').textContent=`Question ${i+1}/${TOT}`;$('#meta').innerHTML=esc(x.s)+' · '+(tough(x)?'<b class="mt-hard">▲ TOUGH</b>':'<b class="mt-mod">MODERATE</b>');$('.mt-q').classList.toggle('tough',tough(x));$('#qt').textContent=x.q;
+if(window.NLReport)$('#rpw').innerHTML=NLReport.btn(x,M.title+' - Q'+(i+1));
 $('#op').innerHTML=x.o.map((t,k)=>`<label class="mt-opt"><input type="radio" name="o" value="${k}" ${A.ans[i]===k?'checked':''}><span></span></label>`).join('');
 $('#op').querySelectorAll('.mt-opt span').forEach((s,k)=>s.textContent=x.o[k]);
 $('#op').onchange=e=>{A.ans[i]=+e.target.value;save();pal()};
@@ -49,7 +50,7 @@ const dlg=$('#dlg');
 $('#sub').onclick=()=>{const n=Object.keys(A.ans).length,m=Object.keys(A.mk).filter(k=>A.mk[k]).length;$('#dp').textContent=`You have answered ${n} of ${TOT} questions, left ${TOT-n} unanswered and marked ${m} for review. Time left: ${fmt(A.end-Date.now())}. You cannot change answers after submitting.`;dlg.showModal?dlg.showModal():dlg.setAttribute('open','')};
 $('#no').onclick=()=>dlg.close();$('#yes').onclick=()=>{dlg.close();submit(false)};
 window.onbeforeunload=e=>{e.preventDefault();e.returnValue=''};
-document.onkeydown=e=>{if(!A||e.ctrlKey||e.metaKey||e.altKey||dlg.open||e.key.length!==1)return;const k=e.key.toLowerCase();
+document.onkeydown=e=>{if(!A||e.ctrlKey||e.metaKey||e.altKey||dlg.open||e.key.length!==1||document.querySelector('.nlr-ov'))return;const k=e.key.toLowerCase();
 if(k==='n'&&A.cur<TOT-1)show(A.cur+1,true);else if(k==='p'&&A.cur>0)show(A.cur-1,true);else if(k==='m')$('#mk').click();
 else if('abcd1234'.includes(k)){const r=$('#op').querySelectorAll('input')['abcd1234'.indexOf(k)%4];if(r){r.checked=true;r.dispatchEvent(new Event('change',{bubbles:true}))}}};
 const tm=$('#tm');
@@ -95,7 +96,8 @@ app.innerHTML=`<div class="mt-res"><div class="mt-rh"><div><span class="eyebrow"
 <h2 class="mt-h">Review answers</h2><div class="mt-fl" role="group" aria-label="Filter review"><button class="mt-chip on" data-f="all">All (${TOT})</button><button class="mt-chip" data-f="ok">Correct (${r.correct})</button><button class="mt-chip" data-f="bad">Incorrect (${r.wrong})</button><button class="mt-chip" data-f="un">Unanswered (${r.unans})</button></div><div id="rv"></div></div>`;
 const rv=app.querySelector('#rv');
 Q.forEach((x,i)=>{const a=ans[i],k=a===undefined?'un':a===x.a?'ok':'bad',d=document.createElement('article');d.className='mt-rc '+k;d.dataset.k=k;
-d.innerHTML=`<p class="mt-meta"><b>Q${i+1}</b> · <span class="s"></span> · ${tough(x)?'<b class="mt-hard">▲ TOUGH</b>':esc(x.d)} · <b class="mt-tag ${k}">${k==='ok'?'✓ Correct':k==='bad'?'✗ Incorrect':'– Unanswered'}</b></p><p class="mt-qt q"></p><p class="y"></p><p class="c"></p><p class="mt-ex"></p>`;
+d.innerHTML=`<p class="mt-meta"><b>Q${i+1}</b> · <span class="s"></span> · ${tough(x)?'<b class="mt-hard">▲ TOUGH</b>':esc(x.d)} · <b class="mt-tag ${k}">${k==='ok'?'✓ Correct':k==='bad'?'✗ Incorrect':'– Unanswered'}</b></p><p class="mt-qt q"></p><p class="y"></p><p class="c"></p><p class="mt-ex"></p><p class="mt-rp"></p>`;
+if(window.NLReport)d.querySelector('.mt-rp').innerHTML=NLReport.btn(x,M.title+' - Q'+(i+1));
 d.querySelector('.s').textContent=x.s;d.querySelector('.q').textContent=x.q;d.querySelector('.y').textContent='Your answer: '+(a===undefined?'Not answered':x.o[a]);d.querySelector('.c').textContent='Correct answer: '+x.o[x.a];d.querySelector('.mt-ex').textContent='Explanation: '+(x.e||'');rv.appendChild(d)});
 app.querySelector('.mt-fl').onclick=e=>{const b=e.target.closest('button');if(!b)return;app.querySelectorAll('.mt-chip').forEach(c=>c.classList.toggle('on',c===b));rv.querySelectorAll('.mt-rc').forEach(c=>c.hidden=b.dataset.f!=='all'&&c.dataset.k!==b.dataset.f)};
 app.querySelector('#re').onclick=()=>{if(confirm('Start a fresh attempt? Your last result will be replaced when you submit the new one.')){const t=Date.now();A={start:t,end:t+DUR,ans:{},mk:{},vis:{0:1},cur:0,w:{}};save();exam()}};

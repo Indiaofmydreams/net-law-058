@@ -1,4 +1,9 @@
 User-agent: *
 Allow: /
+# Question data files and app internals are not pages
+Disallow: /pack-
+Disallow: /questions.json
+Disallow: /mock-test-data-
+Disallow: /packs.json
 
-Sitemap: https://indiaofmydreams.github.io/net-law-058/sitemap.xml
+Sitemap: https://netlawverse.in/sitemap.xml

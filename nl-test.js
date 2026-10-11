@@ -156,7 +156,7 @@
       '<p class="nlt-q" id="nlt-q">' + esc(x.q) + "</p>" +
       '<fieldset class="nlt-o" aria-labelledby="nlt-q"><legend>Choose one answer</legend>' +
       x.o.map(function (t, k) { return '<label class="nlt-op"><input type="radio" name="nlt" value="' + k + '"' + (S.ans[S.i] === k ? " checked" : "") + "><span>" + esc(t) + "</span></label>"; }).join("") + "</fieldset>" +
-      '<div class="nlt-f"><button type="button" class="nlt-btn" data-a="prev"' + (S.i ? "" : " disabled") + '>\u2039 Previous</button><span class="sp"></span>' +
+      '<div class="nlt-f"><button type="button" class="nlt-btn" data-a="prev"' + (S.i ? "" : " disabled") + '>\u2039 Previous</button>' + (window.NLReport ? NLReport.btn(x, "Law test - Q" + (S.i + 1)) : "") + '<span class="sp"></span>' +
       (last ? '<button type="button" class="nlt-btn pri" data-a="finish">Submit test</button>' : '<button type="button" class="nlt-btn pri" data-a="next">Next \u203A</button>') + "</div>" +
       (S.confirm ? '<div class="nlt-f"><p class="nlt-warn" role="alert">' + un + " question" + (un === 1 ? "" : "s") + ' not answered. Submit anyway?</p><button type="button" class="nlt-btn" data-a="back">Keep going</button><button type="button" class="nlt-btn pri" data-a="submit">Submit anyway</button></div>' : "") +
       '<div class="nlt-pal" role="group" aria-label="Jump to a question">' + S.Q.map(function (_, k) {
@@ -198,7 +198,7 @@
     var items = S.Q.map(function (x, k) {
       var a = S.ans[k], good = a === x.a; if (r.filter === "bad" && good) return "";
       return '<div class="nlt-r ' + (good ? "ok" : "no") + '"><p class="v">' + (k + 1) + ". " + (good ? "CORRECT" : a < 0 ? "NOT ANSWERED" : "INCORRECT") + '</p><p class="t">' + esc(x.q) + "</p>" +
-        (good ? "" : "<p>Your answer: " + (a < 0 ? "none" : esc(x.o[a])) + "</p>") + "<p><b>Correct answer: " + esc(x.o[x.a]) + "</b></p>" + (x.e ? '<p class="e">' + esc(x.e) + "</p>" : "") + "</div>";
+        (good ? "" : "<p>Your answer: " + (a < 0 ? "none" : esc(x.o[a])) + "</p>") + "<p><b>Correct answer: " + esc(x.o[x.a]) + "</b></p>" + (x.e ? '<p class="e">' + esc(x.e) + "</p>" : "") + (window.NLReport ? "<p>" + NLReport.btn(x, "Law test - Q" + (k + 1)) + "</p>" : "") + "</div>";
     }).join("");
     var open = host.querySelector("details") && host.querySelector("details").open;
     host.innerHTML = '<section class="nlt" role="group" aria-label="Law test result">' +
