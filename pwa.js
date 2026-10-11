@@ -224,7 +224,7 @@
     el.innerHTML =
       '<form method="dialog" class="nl-dlg-in">' +
         '<div class="nl-dlg-h"><img src="' + BASE + 'icons/icon-192.png" width="44" height="44" alt=""><div><h2 id="nl-dlg-t">Install ' + NAME + '</h2>' +
-        '<p>Opens in its own window, launches from your home screen, and keeps your practice and mock-test progress on this device. Pages you have opened work offline.</p></div></div>' +
+        '<p>Opens in its own window, launches from your home screen, and keeps your practice and mock-test progress on this device.</p></div></div>' +
         warn + '<div class="nl-dlg-b"><p class="nl-lead">How to install on your device</p>' + guideHTML(key, true) +
         '<details class="nl-more"><summary>Instructions for other browsers and devices</summary>' + others + '</details>' +
         '<p class="nl-note">Already installed? Open it from your home screen, app list, taskbar or Dock. Installing is free and can be undone any time by uninstalling it like any other app.</p></div>' +
