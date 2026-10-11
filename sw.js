@@ -16,7 +16,7 @@
  */
 'use strict';
 
-const VERSION = 'v2';
+const VERSION = 'v3';
 const PREFIX = 'nl058-';
 const PAGES = PREFIX + 'pages-' + VERSION;   // site files
 const FONTS = PREFIX + 'fonts-v1';           // Google Fonts (css + woff2)
@@ -34,7 +34,6 @@ const CORE = [
   'ugc-net-law-2-week-preparation-plan.html', 'unit-2-constitutional-administrative-law.html',
   'manifest.json', 'pwa.js', 'pwa.css',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon.svg', 'icons/apple-touch-icon.png', 'icons/favicon-32.png',
-  'welcome-graduates.jpg',
   'styles.css', 'syllabus-pro.css', 'qbank.css', 'disclaimer.css', 'theme.css', 'mock-tests.css',
   'hero-carousel.css', 'section-nav.css', 'plan.css', 'nav-resources.css', 'about.css', 'faq.css',
   'cutoff.css', 'm-app.css', 'm-themes.css',
