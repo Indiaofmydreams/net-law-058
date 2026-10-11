@@ -3,7 +3,6 @@ Allow: /
 # Question data files and app internals are not pages
 Disallow: /pack-
 Disallow: /questions.json
-Disallow: /mock-test-data-
 Disallow: /packs.json
 
 Sitemap: https://netlawverse.in/sitemap.xml

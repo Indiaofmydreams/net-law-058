@@ -1,0 +1,16 @@
+/* mcq-pages.css: MCQ hub / topic pages and mock-test previews. Uses theme tokens only. */
+.mq-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px;margin:0 0 8px}
+.mq-card{display:flex;flex-direction:column;gap:4px;padding:14px 16px;background:var(--surface);border:1px solid var(--line);border-radius:14px;text-decoration:none;color:var(--text)}
+.mq-card b{font-size:.9688rem;line-height:1.35;font-weight:750}
+.mq-card span{font-size:.8125rem;color:var(--mut);font-weight:650}
+.mq-card:hover,.mq-card:focus-visible{border-color:var(--ac);outline:none}
+.mq-card:hover b{color:var(--ac)}
+.mq-list{margin:8px 0 14px;padding-left:20px;line-height:1.7;color:var(--text2)}
+.mq-list a{color:var(--ac);font-weight:650;text-decoration:none}
+.mq-list a:hover{text-decoration:underline}
+.mq-list span{color:var(--mut);font-size:.8125rem}
+.mt-preview{margin:36px 0 56px}
+.mt-preview h2{font-size:1.3rem;margin:26px 0 12px;line-height:1.25}
+.mt-preview p{color:var(--text2);line-height:1.65}
+#app:has(.mt-top)~.mt-preview,#app:has(.mt-res)~.mt-preview{display:none}
+.up-hero .faq-sub a{color:inherit;text-decoration:underline}
