@@ -102,8 +102,12 @@
   }
 
   doc.addEventListener("click", function (e) {
-    var b = e.target.closest && e.target.closest("[data-nlr]"); if (!b) return;
+    var b = e.target.closest && e.target.closest("[data-nlr],[data-nlr-q]"); if (!b) return;
     e.preventDefault(); e.stopPropagation();
+    if (b.hasAttribute("data-nlr-q")) {                  /* static buttons written into a page's HTML */
+      try { open(JSON.parse(b.getAttribute("data-nlr-q")), b.getAttribute("data-nlr-c") || ""); } catch (err) {}
+      return;
+    }
     var p = store[+b.getAttribute("data-nlr")]; if (p) open(p.q, p.c);
   }, true);
 
