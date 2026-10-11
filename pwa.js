@@ -8,7 +8,7 @@
 (function () {
   'use strict';
   var d = document, w = window, nav = navigator;
-  var WARM_OFFLINE_DATA = true;                 // pre-download question bank + mock tests in the background
+  var WARM_OFFLINE_DATA = false;                 // pre-download question bank + mock tests in the background
   var DISMISS_DAYS = 14;                        // how long "Not now" hides the homepage strip
   var KEY_INSTALLED = 'nl-pwa-installed', KEY_DISMISS = 'nl-pwa-dismiss', KEY_WARM = 'nl-pwa-warm';
 

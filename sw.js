@@ -16,7 +16,7 @@
  */
 'use strict';
 
-const VERSION = 'v3';
+const VERSION = 'v4';
 const PREFIX = 'nl058-';
 const PAGES = PREFIX + 'pages-' + VERSION;   // site files
 const FONTS = PREFIX + 'fonts-v1';           // Google Fonts (css + woff2)
@@ -156,6 +156,7 @@ self.addEventListener('message', (event) => {
    The file list is discovered from packs.json and by probing mock-test-1, 2, 3, ... so new
    packs / mock tests need no change here. */
 async function warm() {
+  return; // bulk offline download disabled: content stays online-first
   const cache = await caches.open(PAGES);
   let ok = 0, failed = 0;
   const grab = async (p) => {
