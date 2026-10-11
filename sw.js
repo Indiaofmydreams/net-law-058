@@ -16,7 +16,7 @@
  */
 'use strict';
 
-const VERSION = 'v4';
+const VERSION = 'v6';
 const PREFIX = 'nl058-';
 const PAGES = PREFIX + 'pages-' + VERSION;   // site files
 const FONTS = PREFIX + 'fonts-v1';           // Google Fonts (css + woff2)
@@ -28,23 +28,25 @@ const FONT_HOSTS = ['fonts.googleapis.com', 'fonts.gstatic.com'];
 /* App shell: pages, styles, scripts, icons. Pre-cached at install (best effort; see below). */
 const CORE = [
   './', 'index.html', 'app.html', 'offline.html',
-  'about.html', 'faq.html', 'cutoff.html', 'ugc-net-paper-1.html',
-  'ugc-net-law-preparation-plan.html', 'ugc-net-law-6-month-preparation-plan.html',
-  'ugc-net-law-3-month-preparation-plan.html', 'ugc-net-law-1-month-preparation-plan.html',
-  'ugc-net-law-2-week-preparation-plan.html', 'unit-2-constitutional-administrative-law.html',
-  'manifest.json', 'pwa.js', 'pwa.css',
+    'manifest.json', 'pwa.js', 'pwa.css',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon.svg', 'icons/apple-touch-icon.png', 'icons/favicon-32.png',
   'styles.css', 'syllabus-pro.css', 'qbank.css', 'disclaimer.css', 'theme.css', 'mock-tests.css',
   'hero-carousel.css', 'section-nav.css', 'plan.css', 'nav-resources.css', 'about.css', 'faq.css',
   'cutoff.css', 'm-app.css', 'm-themes.css',
-  'script.js', 'syllabus-data.js', 'syllabus-pro.js', 'bank-loader.js', 'nl-nav.js', 'nl-quiz.js',
+  'script.js', 'syllabus-pro.js', 'bank-loader.js', 'nl-nav.js', 'nl-quiz.js',
   'qbank.js', 'modules.js', 'theme.js', 'disclaimer.js', 'mock-home.js', 'accessibility.js',
   'nl-countdown.js', 'hero-carousel.js', 'carousel-counts.js', 'daily-quiz.js', 'ese.js',
   'nl-test.js', 'section-nav.js', 'plan.js', 'nav-resources.js', 'about.js', 'faq.js',
-  'cutoff.js', 'cutoff-data.js', 'mock-test-engine.js', 'm-app.js',
+  'cutoff.js', 'mock-test-engine.js', 'm-app.js',
 ];
 /* If any of these cannot be fetched the install fails and is retried later. */
 const REQUIRED = ['index.html', 'app.html', 'offline.html'];
+
+/* Learning content (questions, packs, mock tests) is never stored: it is always fetched live, so it needs internet. */
+const LIVE_ONLY = /\/(questions\.(json|js)|packs\.json|pack-[^/]+\.json|exam-dates\.json|syllabus-data\.js|cutoff-data\.js|mock-test-data-\d+\.js|mock-test-\d+\.html)$/;
+
+/* Content pages (notes, study plans, Paper 1 guide, cut-offs, FAQ, About): live only, offline.html when there is no internet. */
+const LIVE_PAGES = /\/(ugc-net-[^/]+|unit-[^/]+|mock-test-\d+|cutoff|faq|about)\.html$/;
 
 const stripSearch = (url) => { const u = new URL(url); u.search = ''; u.hash = ''; return u.href; };
 
@@ -85,6 +87,8 @@ self.addEventListener('fetch', (event) => {
   if (url.origin === self.location.origin) {
     if (!url.href.startsWith(BASE)) return;              // outside our scope
     if (url.pathname.endsWith('/sw.js')) return;         // never cache the worker itself
+    if (req.mode === 'navigate' && LIVE_PAGES.test(url.pathname)) { event.respondWith(fetch(req).catch(async () => (await (await caches.open(PAGES)).match(abs('offline.html'))) || Response.error())); return; }
+    if (LIVE_ONLY.test(url.pathname)) return;            // content: network only, never saved
     event.respondWith(req.mode === 'navigate' ? navigate(event) : asset(event));
   } else if (FONT_HOSTS.includes(url.hostname)) {
     event.respondWith(font(event));
