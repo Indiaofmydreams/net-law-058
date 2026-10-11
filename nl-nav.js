@@ -108,6 +108,13 @@
   }
   function scrollToEl(el) {
     if (!el) return;
+    /* A card inside the scrollable practice box: scroll the box to it, then bring the box itself into view. */
+    var box = el.closest && el.closest(".qb-list");
+    if (box && box !== el && box.scrollHeight > box.clientHeight + 2) {
+      var dy = el.getBoundingClientRect().top - box.getBoundingClientRect().top;
+      box.scrollTo({ top: Math.max(0, box.scrollTop + dy - 8), behavior: reduce() ? "auto" : "smooth" });
+      el = box;
+    }
     var y = el.getBoundingClientRect().top + window.pageYOffset - stickyOffset(el) - 10;
     window.scrollTo({ top: Math.max(0, y), behavior: reduce() ? "auto" : "smooth" });
   }

@@ -26,3 +26,10 @@ Watermark (11 Oct 2026)
   Added watermark.css (shared, CSS-only). Linked from index.html, app.html, mock-test-1..21.html, the 10 ugc-net-law-unit-*.html
   and 10 ugc-net-paper-1-unit-*.html pages. m-app.js: one wrapper <div data-wm> around the in-app test question.
   sw.js: watermark.css added to the pre-cache list and VERSION bumped v10 -> v11 so installed apps pick it up.
+
+Practice questions scroll box (11 Oct 2026)
+  index.html "Practice questions": the 20 cards on a page now sit in a framed box (about two questions tall) that scrolls
+  inside, instead of one very long page. Screens 700px wide and up only; phones use app.html, unchanged.
+  qbank.css  : .qb-list box (height, scroll, snap). Change the height on the max-height line (default: screen height - 195px, max 820px).
+  qbank.js   : box returns to the top on page/filter change; keeps its place when you un-star in Saved view.
+  nl-nav.js  : "Go to Q" and pager now scroll inside the box (scrollToEl).
