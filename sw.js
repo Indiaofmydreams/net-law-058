@@ -16,7 +16,7 @@
  */
 'use strict';
 
-const VERSION = 'v11';
+const VERSION = 'v12';
 const PREFIX = 'nl058-';
 const PAGES = PREFIX + 'pages-' + VERSION;   // site files
 const FONTS = PREFIX + 'fonts-v1';           // Google Fonts (css + woff2)
@@ -37,7 +37,7 @@ const CORE = [
   'qbank.js', 'modules.js', 'theme.js', 'disclaimer.js', 'mock-home.js', 'accessibility.js',
   'nl-countdown.js', 'hero-carousel.js', 'carousel-counts.js', 'daily-quiz.js', 'ese.js',
   'nl-test.js', 'section-nav.js', 'plan.js', 'nav-resources.js', 'about.js', 'faq.js',
-  'cutoff.js', 'mock-test-engine.js', 'm-app.js',
+  'cutoff.js', 'mock-test-engine.js', 'm-app.js', 'm-wisdom.js', 'm-extras.js',
 ];
 /* If any of these cannot be fetched the install fails and is retried later. */
 const REQUIRED = ['index.html', 'app.html', 'offline.html'];

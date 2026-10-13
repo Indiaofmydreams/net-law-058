@@ -10,6 +10,7 @@ const pad=n=>String(n).padStart(2,'0');
 const fmt=ms=>{const s=Math.ceil(Math.max(0,ms)/1000);return pad(Math.floor(s/3600))+':'+pad(Math.floor(s%3600/60))+':'+pad(s%60)};
 const dur=ms=>{const m=Math.floor(ms/60000),s=Math.floor(ms%60000/1000);return m+'m '+s+'s'};
 const fnum=n=>n.toLocaleString('en-IN');
+const TQ=matchMedia('(min-width:768px)');let isTab=TQ.matches;
 
 /* ---------- icons ---------- */
 const sv=(p,s=22,f='none')=>`<svg viewBox="0 0 24 24" width="${s}" height="${s}" fill="${f}" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${p}</svg>`;
@@ -38,7 +39,12 @@ calc:'<rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 12h2M12
 gear:'<circle cx="12" cy="12" r="3"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1"/>',
 mon:'<rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/>',tree:'<path d="M12 21v-6M12 15c-4 0-6-3-5-6 0-3 2-5 5-6 3 1 5 3 5 6 1 3-1 6-5 6z"/>',
 inst:'<path d="M3 21h18M5 21V9l7-5 7 5v12M9 21v-6h6v6"/>',desk:'<rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/>',info:'<circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 7.5v.5"/>',
-trash:'<path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13"/>',target:'<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/>',help:'<circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 114 2c-.8.6-1.5 1-1.5 2M12 17v.5"/>'
+trash:'<path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13"/>',target:'<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/>',help:'<circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 114 2c-.8.6-1.5 1-1.5 2M12 17v.5"/>',
+download:'<path d="M12 4v11M7 11l5 5 5-5M5 20h14"/>',compass:'<circle cx="12" cy="12" r="9"/><path d="M15.6 8.4l-2.1 5.1-5.1 2.1 2.1-5.1z"/>',
+quote:'<path d="M9.5 7C6.5 8 5 10.4 5 14v3h5v-5H7.5c.1-2 1-3.3 2.5-4zM19 7c-3 1-4.5 3.4-4.5 7v3h5v-5H17c.1-2 1-3.3 2.5-4z"/>',
+spark:'<path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/><path d="M19 16l.7 1.8L21.5 18.5l-1.8.7L19 21l-.7-1.8-1.8-.7 1.8-.7z"/>',
+share:'<path d="M12 15V4M8 8l4-4 4 4M6 12H5a1 1 0 00-1 1v7a1 1 0 001 1h14a1 1 0 001-1v-7a1 1 0 00-1-1h-1"/>',
+copy:'<rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V5a1 1 0 00-1-1H5a1 1 0 00-1 1v10a1 1 0 001 1h3"/>'
 };
 const I=new Proxy({},{get:(_,k)=>sv(P[k])});
 const IBM=on=>sv(P.bm,22,on?'currentColor':'none');
@@ -46,7 +52,7 @@ const IBM=on=>sv(P.bm,22,on?'currentColor':'none');
 /* ---------- units ---------- */
 const LAW=[["Jurisprudence","Jurisprudence","Schools, rights, duties, liability and thinkers.","scale"],["Constitutional and Administrative Law","Constitutional & Administrative Law","Fundamental rights, institutions, judicial review.","cols"],["Public International Law and IHL","Public International Law & IHL","Sources, recognition, the UN, WTO and IHL.","globe"],["Law of Crimes","Law of Crimes","Criminal liability, offences, defences.","shield"],["Law of Torts and Consumer Protection","Torts & Consumer Protection","Negligence, strict liability, consumer law.","warn"],["Commercial Law","Commercial Law","Contracts, sale of goods, partnership, company law.","brief"],["Family Law","Family Law","Marriage, divorce, maintenance, succession.","heart"],["Environment and Human Rights Law","Environment & Human Rights","Environmental principles, NGT, human rights.","leaf"],["Intellectual Property Rights and Information Technology Law","IPR & IT Law","Copyright, patents, trademarks, cyber law.","bulb"],["Comparative Public Law and Systems of Governance","Comparative Public Law","Federalism, rule of law, ombudsman.","swap"]];
 const P1=[["Teaching Aptitude","Teaching Aptitude","Concepts, methods, support systems, evaluation.","cap"],["Research Aptitude","Research Aptitude","Types, methods, steps, ethics and writing.","flask"],["Comprehension","Comprehension","Passages, central ideas and inference.","file"],["Communication","Communication","Types, barriers, classroom, mass media.","chat"],["Mathematical Reasoning and Aptitude","Mathematical Reasoning","Series, coding, ratio, percentage.","calc"],["Logical Reasoning","Logical Reasoning","Arguments, fallacies, syllogisms, Venn.","gear"],["Data Interpretation","Data Interpretation","Tables, charts, graphs.","bars"],["Information and Communication Technology (ICT)","ICT","Internet, terminology, digital initiatives.","mon"],["People, Development and Environment","People, Development & Environment","SDGs, pollution, climate, hazards.","tree"],["Higher Education System","Higher Education System","Institutions, regulators and policies.","inst"]];
-const COL=['var(--ac)','var(--c2)','var(--ac)','var(--c2)','var(--ac)','var(--c2)','var(--ac)','var(--c2)','var(--ac)','var(--c2)'];
+const COL=['var(--c3-deep)','var(--c2-deep)','var(--c3-deep)','var(--c2-deep)','var(--c3-deep)','var(--c2-deep)','var(--c3-deep)','var(--c2-deep)','var(--c3-deep)','var(--c2-deep)'];
 const SETS={L:LAW,P:P1};
 const unitOf=key=>{const m=/^([LP])(\d+)$/.exec(key);return m?{set:m[1],i:+m[2],u:SETS[m[1]][+m[2]]}:null};
 
@@ -75,13 +81,13 @@ const stc=new Map();
 const ustats=(key,list)=>{let s=stc.get(key);if(!s){s=prog.stats(list);stc.set(key,s)}return s};
 
 /* ---------- settings, bookmarks, theme ---------- */
-const ST=Object.assign({view:'card',exp:0,fs:1},ls.get('nl-m-set',{}));
+const ST=Object.assign({view:isTab?'list':'card',exp:0,fs:1},ls.get('nl-m-set',{}));
 const saveST=()=>ls.set('nl-m-set',ST);
 const BM=ls.get('nl-m-bm',{});const saveBM=()=>ls.set('nl-m-bm',BM);
 const POS=ls.get('nl-m-pos',{});const savePOS=()=>ls.set('nl-m-pos',POS);
 const SCHEMES=[['navy','Royal Navy','#607bd2'],['blue','Blue','#6095d2'],['aqua','Aqua','#359cbb'],['purple','Purple','#9560d2'],['magenta','Magenta','#d260a1'],['midnight','Midnight HC','#4d47eb'],['ruby','Ruby HC','#e11948'],['graphite','Graphite HC','#1e6ee6']];
 function setTheme(s,m){const r=document.documentElement,t=ls.get('netlaw058-theme',{});if(s)t.s=s;if(m)t.m=m;ls.set('netlaw058-theme',t);r.dataset.scheme=t.s||'navy';r.dataset.mode=t.m||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
-const mt=$('meta[name=theme-color]');if(mt)mt.content=getComputedStyle(r).getPropertyValue('--surface').trim()||'#fff'}
+const mt=$('meta[name=theme-color]');if(mt)mt.content=getComputedStyle(r).getPropertyValue('--deep').trim()||'#17234a'}
 
 /* ---------- question bank (same loading rules as bank-loader.js) ---------- */
 const S={bank:null,by:{},err:false,hist:0,prac:null,ex:new Set(),exam:null,peek:new Set()};
@@ -97,7 +103,7 @@ const list=(set,i)=>S.by[SETS[set][i][0]]||[];
 const keyList=key=>{const u=unitOf(key);return u?list(u.set,u.i):[]};
 
 /* ---------- shell ---------- */
-const top=$('#top'),view=$('#view'),nav=$('#nav'),foot=$('#foot'),sheet=$('#sheet'),shade=$('#shade'),toastEl=$('#toast'),appEl=$('#app');
+const top=$('#top'),view=$('#view'),nav=$('#nav'),foot=$('#foot'),sheet=$('#sheet'),shade=$('#shade'),toastEl=$('#toast'),appEl=$('#app'),ins=$('#ins');
 let toastT=null;
 function toast(m,warn){toastEl.textContent=m;toastEl.className=warn?'warn':'';toastEl.hidden=false;clearTimeout(toastT);toastT=setTimeout(()=>toastEl.hidden=true,warn?6000:2400)}
 function openSheet(html,cls=''){sheet.className=cls;sheet.innerHTML=html;sheet.hidden=false;shade.hidden=false}
@@ -106,11 +112,23 @@ shade.onclick=closeSheet;
 const go=p=>{location.hash='#'+p};
 const back=()=>{if(S.hist>0)history.back();else go('/')};
 const NAV=[['/','home','Home','home'],['/subjects','sub','Practice','pencil'],['/mocks','mock','Mock Test','test'],['/notes','notes','Notes','file'],['/profile','prof','Profile','user']];
+const NAV2=[['/strategy','Strategy','compass'],['/wisdom','Wisdom','quote'],['/faq','FAQ','help'],['/mission','Mission','flag']];
+const navHTML=on=>`<div class="rb"><i>${sv(P.scale,24)}</i><span>NET Law 058</span></div>`+NAV.map(n=>`<a href="#${n[0]}" class="${on===n[1]?'on':''}"><span class="ni">${sv(P[n[3]])}</span>${n[2]}</a>`).join('')+(isTab?`<span class="nsec"></span>`+NAV2.map(n=>`<a href="#${n[0]}" class="${on==='x'+n[0]?'on':''}"><span class="ni">${sv(P[n[2]])}</span>${n[1]}</a>`).join(''):'');
+/* install strip (every screen except a running timed test): see pwa.js, NLPWA.visible() */
+function updateIns(o){const v=!!(window.NLPWA&&NLPWA.visible&&NLPWA.visible())&&!(o&&o.exam);
+  if(!v){ins.hidden=true;return}
+  const ios=NLPWA.platform&&NLPWA.platform()==='ios';
+  ins.innerHTML=`<div class="insb"><span class="ii">${I.download}</span><div class="it"><b>${ios?'Add to Home Screen':'Install the app'}</b><small>${ios?'Opens full screen like an app':'Faster, full screen, works offline'}</small></div><button class="btn sm" data-a="install">${ios?'Show me how':'Install'}</button></div>`;
+  ins.hidden=false}
 function screen(o){
+  S.lastO=o;
   top.innerHTML=o.top||'';top.hidden=!o.top;
-  view.innerHTML=o.body||'';view.className=o.flush?'flush':'';
-  if(o.nav){nav.hidden=false;nav.innerHTML=NAV.map(n=>`<a href="#${n[0]}" class="${o.nav===n[1]?'on':''}">${sv(P[n[3]])}${n[2]}</a>`).join('')}else nav.hidden=true;
+  view.innerHTML=o.flush?(o.body||''):`<div class="w${o.wcls?' '+o.wcls:''}">${o.body||''}</div>`;view.className=(o.flush?'flush ':'')+(o.cls||'');
+  if(o.nav)S.lastNav=o.nav;
+  const key=o.nav||(isTab&&!o.exam&&!o.land?(o.xnav||S.lastNav||'home'):null);
+  if(key){nav.hidden=false;nav.innerHTML=navHTML(key)}else nav.hidden=true;
   foot.hidden=!o.foot;foot.innerHTML=o.foot||'';
+  updateIns(o);
   if(!o.keep)view.scrollTop=0;
 }
 const tbar=(title,{sub='',right='',left=I.back,la='back'}={})=>`<div class="tb"><button class="ib" data-a="${la}" aria-label="Back">${left}</button><h1>${esc(title)}${sub?`<small>${sub}</small>`:''}</h1>${right}</div>`;
@@ -118,7 +136,7 @@ const loading=(msg='Loading questions…')=>screen({top:tbar('NET Law 058',{left
 const ico=(name,c)=>`<span class="ico" style="--c:${c}">${I[name]}</span>`;
 
 /* ---------- routing ---------- */
-const NEEDS_BANK=/^\/(subjects|practice|search|bookmarks|profile|syllabus)/;
+const NEEDS_BANK=/^\/(subjects|practice|search|bookmarks|profile|syllabus|strategy)/;
 let cleanup=null;
 function route(){
   toastEl.hidden=true;if(cleanup){cleanup();cleanup=null}closeSheet();
@@ -128,6 +146,14 @@ function route(){
   const f=R[p[0]||'home'];(f||R.home)(p.slice(1));
 }
 const R={};
+/* lazy features: loaded the first time they are opened, then cached by the service worker */
+const JSP={};
+function loadJS(f){return JSP[f]||(JSP[f]=new Promise((ok,no)=>{const e=document.createElement('script');e.src=f;e.onload=ok;e.onerror=()=>{delete JSP[f];no()};document.head.appendChild(e)}))}
+function lazy(name,file){const stub=()=>{
+  screen({top:tbar(name==='strategy'?'Exam strategy':name==='faq'?'FAQ':name==='wisdom'?'Wisdom':'Our mission'),body:'<div class="empty" style="padding-top:90px"><div class="spin"></div><b>Opening…</b></div>',xnav:'x/'+name});
+  loadJS(file).then(()=>{if(R[name]===stub)throw 0;if((location.hash.slice(1)||'/').split('/')[1]===name)route()}).catch(()=>screen({top:tbar('NET Law 058'),body:'<div class="empty"><b>Could not open this</b>Check your connection and try again.<br><br><button class="btn" data-a="reload">Retry</button></div>'}))};
+  R[name]=stub}
+lazy('strategy','m-extras.js');lazy('faq','m-extras.js');lazy('wisdom','m-wisdom.js');lazy('mission','m-wisdom.js');
 addEventListener('hashchange',()=>{S.hist++;route()});
 
 /* ---------- actions (event delegation) ---------- */
@@ -137,51 +163,62 @@ A.back=back;A.close=closeSheet;A.reload=()=>location.reload();
 A.toast=t=>toast(t.dataset.m);
 
 /* ---------- landing ---------- */
-R.landing=()=>{screen({body:`<div class="land"><div class="logo">${sv(P.scale,76)}</div><h1>NET Law 058</h1><p class="tag">WELCOME · 100% FREE · NO SIGN-UP</p><p class="d" style="margin-bottom:10px"><b style="font-size:1.35rem;color:var(--text)">9,000+ free MCQs</b><br>Welcome. Practise everything. Pay nothing.</p><p class="d">3,580 Law 058 and 5,705 Paper 1 questions, organised topic-wise, each with a clear explanation.</p><ul class="ticks"><li>No need to sign in</li><li>Your progress is saved in this browser</li></ul>
-<button class="btn" data-a="enter">Start Practising ${I.chevR}</button></div>`,flush:true})};
+R.landing=()=>{screen({land:1,flush:true,body:`<div class="land"><div class="lg">${sv(P.scale,48)}</div><h1>NET Law 058</h1><p class="tag">100% free. No sign-up.</p><p class="big">9,000+ free MCQs</p><p class="d">Practise everything, pay nothing. 3,580 Law 058 and 5,705 Paper 1 questions, organised topic-wise, each with a clear explanation.</p><ul class="ticks"><li>No need to sign in</li><li>Your progress is saved in this browser</li></ul>
+<button class="btn lt" data-a="enter">Start practising ${I.chevR}</button></div>`})};
 A.enter=()=>{ls.set('nl-m-seen',1);go('/')};
 
 /* ---------- drawer ---------- */
-A.drawer=()=>{const dk=document.documentElement.dataset.mode==='dark',cs=document.documentElement.dataset.scheme;
-openSheet(`<div class="brand">${sv(P.scale,26)}<span>NET Law 058</span></div><div class="sh-b"><div class="dl">
-<a href="#/">${I.home}Home</a><a href="#/plan">${I.cal}Study Plan</a><a href="#/mocks">${I.test}Mock Tests</a><a href="#/subjects">${I.scale}Law 058</a><a href="#/subjects/1">${I.cap}Paper 1</a><a href="#/syllabus/0">${I.book}Syllabus</a><a href="#/notes">${I.file}Notes</a><a href="#/pyq">${I.target}PYQs</a><a href="#/bookmarks">${I.bm}Bookmarks</a><a href="#/profile">${I.user}My progress</a><a href="faq.html">${I.help}FAQ & exam pattern</a>${window.NLPWA&&NLPWA.available()?`<button data-a="install">${sv('<path d="M12 4v11M7 11l5 5 5-5M5 20h14"/>')}Install app</button>`:''}<button data-a="desktop">${I.desk}Use desktop site</button></div>
-<div class="fld" style="margin-top:12px"><b>Appearance</b><div class="sw">${SCHEMES.map(s=>`<button class="swb ${cs===s[0]?'on':''}" style="--c:${s[2]}" data-a="scheme" data-s="${s[0]}"><i></i>${s[1]}</button>`).join('')}</div><button class="btn sec sm" style="margin-top:10px" data-a="mode">${dk?I.sun+' Light mode':I.moon+' Dark mode'}</button></div></div>`,'left')};
+A.drawer=()=>{const dk=document.documentElement.dataset.mode==='dark',cs=document.documentElement.dataset.scheme,vis=window.NLPWA&&NLPWA.visible&&NLPWA.visible();
+openSheet(`<div class="brand"><span class="lg">${sv(P.scale,22)}</span><span>NET Law 058</span></div><div class="sh-b"><div class="dl">
+<a href="#/">${I.home}Home</a><a href="#/strategy">${I.compass}Exam strategy</a><a href="#/plan">${I.cal}Study Plan</a><a href="#/mocks">${I.test}Mock Tests</a><a href="#/subjects">${I.scale}Law 058</a><a href="#/subjects/1">${I.cap}Paper 1</a><a href="#/syllabus/0">${I.book}Syllabus</a><a href="#/notes">${I.file}Notes</a><a href="#/pyq">${I.target}PYQs</a><a href="#/bookmarks">${I.bm}Bookmarks</a><a href="#/profile">${I.user}My progress</a><div class="dsep"></div><a href="#/wisdom">${I.quote}Wisdom for the journey</a><a href="#/faq">${I.help}FAQ &amp; exam pattern</a><a href="#/mission">${I.flag}Mission statement</a><div class="dsep"></div>${vis?`<button data-a="install">${I.download}Install app</button>`:''}<button data-a="desktop">${I.desk}Use desktop site</button></div>
+<div class="fld" style="margin-top:14px"><b>Appearance</b><div class="sw">${SCHEMES.map(s=>`<button class="swb ${cs===s[0]?'on':''}" style="--c:${s[2]}" data-a="scheme" data-s="${s[0]}"><i></i>${s[1]}</button>`).join('')}</div><button class="btn sec sm" style="margin-top:12px" data-a="mode">${dk?I.sun+' Light mode':I.moon+' Dark mode'}</button></div></div>`,'left')};
 A.scheme=t=>{setTheme(t.dataset.s);A.drawer()};
 A.mode=()=>{setTheme(null,document.documentElement.dataset.mode==='dark'?'light':'dark');A.drawer()};
 A.desktop=()=>{location.href='index.html?desktop=1'};
 A.install=()=>{closeSheet();if(window.NLPWA)NLPWA.install()};
-A.insno=()=>{if(window.NLPWA)NLPWA.dismiss();route()};
-addEventListener('nlpwa:change',()=>{if((location.hash.slice(1)||'/')==='/'&&ls.get('nl-m-seen',0)&&sheet.hidden)R.home()});
+addEventListener('nlpwa:change',()=>updateIns(S.lastO));
 
 /* ---------- home ---------- */
-const greet=()=>{const h=new Date().getHours();return h<12?'Good Morning!':h<17?'Good Afternoon!':'Good Evening!'};
+const greet=()=>{const h=new Date().getHours();return h<12?'Good morning':h<17?'Good afternoon':'Good evening'};
 let EXAM=null;fetch('exam-dates.json').then(r=>r.json()).then(d=>{EXAM=d;const el=$('#cd');if(el)el.outerHTML=cdHTML()}).catch(()=>{});
-function cdHTML(){if(!EXAM||!EXAM.date)return'<div id="cd"></div>';const m=/^(\d{4})-(\d{1,2})-(\d{1,2})$/.exec(EXAM.date);if(!m)return'<div id="cd"></div>';
+function cdHTML(){if(!EXAM||!EXAM.date)return'<div class="cdn" id="cd"></div>';const m=/^(\d{4})-(\d{1,2})-(\d{1,2})$/.exec(EXAM.date);if(!m)return'<div class="cdn" id="cd"></div>';
 const [h,mi]=(EXAM.time||'00:00').split(':').map(Number),t=Date.UTC(+m[1],+m[2]-1,+m[3],h||0,mi||0)-19800000,d=Math.ceil((t-Date.now())/864e5);
-const ds=new Date(t+19800000).toLocaleDateString('en-IN',{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'});
-return`<div class="cd" id="cd">${I.cal}<span style="flex:1">${esc(EXAM.name||'UGC NET')} · ${ds}</span>${d>0?`<span><b>${d}</b> day${d>1?'s':''} to go</span>`:'<b>Exam time</b>'}</div>`}
+const ds=new Date(t+19800000).toLocaleDateString('en-IN',{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'}),nm=esc((EXAM.name||'UGC NET').replace(/ EXAM$/i,' exam'));
+return`<div class="cdn" id="cd">${d>0?`<b>${d}</b><span>day${d>1?'s':''} to go<small>${nm} · ${ds}</small></span>`:`<b class="now">Exam time</b><span><small>${nm} · ${ds}</small></span>`}</div>`}
+const ringSVG=(pc,r=34)=>{const C=2*Math.PI*r;return`<svg viewBox="0 0 80 80"><circle class="bg" cx="40" cy="40" r="${r}"/><circle class="fg" cx="40" cy="40" r="${r}" stroke-dasharray="${C}" stroke-dashoffset="${C*(1-Math.min(100,Math.max(0,pc))/100)}"/></svg>`};
+/* wisdom of the day: data lives in m-wisdom.js and is fetched quietly after the home screen has drawn */
+const dohaList=()=>{const W=window.NLM_WISDOM,o=[];if(W)W.authors.forEach(a=>a.d.forEach(d=>o.push({a:a.n,t:d[0],m:d[1]})));return o};
+const dayNo=()=>Math.floor(Date.parse(istDay()+'T00:00:00Z')/864e5);
+function devFont(){if(document.getElementById('dvf'))return;const l=document.createElement('link');l.id='dvf';l.rel='stylesheet';l.href='https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi:ital@0;1&display=swap';document.head.appendChild(l)}
+function wisCard(){const L=dohaList();if(!L.length)return`<a class="wis" id="wis" href="#/wisdom">${I.quote}<p class="dv" style="font-family:inherit;font-size:1.0625rem;line-height:1.4;font-weight:800">Wisdom for the journey</p><p class="tr">A doha for every aspirant, to read when you begin or when you need to pause.</p><span class="by"><span></span><em>Read more ${I.chevR}</em></span></a>`;
+  devFont();const x=L[dayNo()%L.length];return`<a class="wis" id="wis" href="#/wisdom">${I.quote}<p class="dv" lang="hi">${esc(x.t)}</p><p class="tr">${esc(x.m)}</p><span class="by">${esc(x.a)}<em>More dohas ${I.chevR}</em></span></a>`}
 R.home=()=>{
   const last=ls.get('nl-m-last',null);let cont='';
   if(S.bank&&last&&keyList(last.key).length){const L=keyList(last.key),u=unitOf(last.key),s=ustats(last.key,L);
     cont=`<div class="card cont">${ico(u.u[3],COL[u.i])}<div class="ti"><h3>${esc(u.u[1])}</h3><p>${fnum(s.a)} of ${fnum(L.length)} attempted</p><div class="bar"><i style="width:${s.a/L.length*100}%"></i></div></div><a class="btn sm" href="#/practice/${last.key}">Resume</a></div>`}
-  else cont=`<div class="card cont">${ico('scale',COL[0])}<div class="ti"><h3>Start with Jurisprudence</h3><p>Pick a subject and begin practising</p></div><a class="btn sm" href="#/practice/L0">Start</a></div>`;
+  else cont=`<div class="card cont">${ico('scale',COL[0])}<div class="ti"><h3>Start practising</h3><p>Begin with Jurisprudence</p></div><a class="btn sm" href="#/practice/L0">Start</a></div>`;
   let all=0,att=0,ok=0,bad=0;if(S.bank){all=S.bank.length;const s=prog.stats(S.bank);att=s.a;ok=s.ok;bad=s.bad}
-  const dg=prog.daily(),pc=all?att/all*100:0;
-  const T=[['/subjects','scale','Law 058','var(--ac)'],['/subjects/1','cap','Paper 1','var(--c2)'],['/mocks','test','Mock Tests','var(--ac)'],['/plan','cal','Study Plan','var(--ac)'],['/syllabus/0','book','Syllabus','var(--c2)'],['/notes','file','Notes','var(--c2)']];
-  screen({top:`<div class="tb"><button class="ib" data-a="drawer" aria-label="Menu">${I.menu}</button><h1>NET Law 058</h1><a class="ib" href="#/search" aria-label="Search questions">${I.search}</a></div>`,nav:'home',
-  body:`<div class="hello"><b>UGC NET Law (058) &amp; Paper 1</b><span>Free MCQs, mock tests, notes and study plans.</span></div>${cdHTML()}${window.NLPWA&&NLPWA.available()&&!NLPWA.dismissed()?`<div class="card ins">${sv('<path d="M12 4v11M7 11l5 5 5-5M5 20h14"/>')}<div class="ti"><h3>Install this app</h3><p>Quick launch from your home screen, works offline</p></div><button class="btn sm" data-a="install">Install</button><button class="ib" data-a="insno" aria-label="Dismiss">${I.close}</button></div>`:''}<h2 class="h2">Continue practising</h2>${cont}
-  <div class="tiles">${T.map(t=>`<a class="tile" href="#${t[0]}">${t[4]?'<span class="badge">SOON</span>':''}<span class="ico" style="--c:${t[3]}">${I[t[1]]}</span>${t[2]}</a>`).join('')}</div>
-  <h2 class="h2">Your progress</h2><div class="card"><div class="prog-n"><b>${fnum(att)} <span>/ ${all?fnum(all):'…'}</span></b><em>${pc.toFixed(1)}%</em></div><div class="bar"><i style="width:${pc}%"></i></div>
-  <div class="mini"><span style="--c:var(--ok)">${fnum(ok)} correct</span><span style="--c:var(--bad)">${fnum(bad)} incorrect</span></div>
-  <div class="mini" style="margin-top:7px"><span style="--c:var(--ac)">Today ${dg.n}/${dg.goal}</span><span style="--c:var(--c2)">${dg.streak}-day streak</span></div></div>`});
+  const dg=prog.daily(),pc=all?att/all*100:0,cnt=set=>S.bank?fnum(SETS[set].reduce((a,_,i)=>a+list(set,i).length,0))+' questions':'10 units';
+  const T=[['/mocks','test','Mock Tests','var(--c3-deep)'],['/plan','cal','Study Plan','var(--c2-deep)'],['/syllabus/0','book','Syllabus','var(--c3-deep)'],['/notes','file','Notes','var(--c2-deep)']];
+  const es=ls.get('nl-m-ese',null);
+  const strat=`<a class="strat" href="#/strategy"><span class="sg">${I.compass}</span><div class="ti"><h3>${es?`Readiness ${es.r} out of 100`:'Your NET strategy'}</h3><p>${es?`Focus next: ${esc(es.f||'keep practising daily')}`:'A personal plan built from your accuracy, mocks and days left.'}</p></div><span class="go">${es?'Open':'Build'}${I.chevR}</span></a>`;
+  const prg=`<div class="card"><div class="prog-n"><b>${fnum(att)} <span>/ ${all?fnum(all):'…'}</span></b><em>${pc.toFixed(1)}%</em></div><div class="bar"><i style="width:${pc}%"></i></div><div class="mini"><span style="--c:var(--ok)">${fnum(ok)} correct</span><span style="--c:var(--bad)">${fnum(bad)} incorrect</span><span style="--c:var(--c2)">Today ${dg.n}/${dg.goal}</span><span style="--c:var(--c3)">${dg.streak}-day streak</span></div></div>`;
+  const left=`${cont}<div class="bigs"><a class="bigt a" href="#/subjects"><span class="bgi">${sv(P.scale,112)}</span><span class="gi">${I.scale}</span><b>Law 058</b><small>${cnt('L')}${I.chevR}</small></a><a class="bigt b" href="#/subjects/1"><span class="bgi">${sv(P.cap,112)}</span><span class="gi">${I.cap}</span><b>Paper 1</b><small>${cnt('P')}${I.chevR}</small></a></div><h2 class="h2">Quick access</h2><div class="tiles">${T.map(t=>`<a class="tile" href="#${t[0]}"><span class="ico" style="--c:${t[3]}">${I[t[1]]}</span>${t[2]}</a>`).join('')}</div>`;
+  const right=`<h2 class="h2">Make a plan</h2>${strat}<h2 class="h2">Your progress</h2>${prg}`;
+  screen({top:`<div class="tb"><button class="ib" data-a="drawer" aria-label="Menu">${I.menu}</button><h1><span class="lg">${sv(P.scale,19)}</span>NET Law 058</h1><a class="ib" href="#/search" aria-label="Search questions">${I.search}</a></div>`,nav:'home',flush:true,
+  body:`<section class="hero"><div class="w"><p class="hi">${greet()}</p><h2 class="ht">UGC NET Law (058) &amp; Paper 1</h2><p class="hs">Free MCQs, mock tests, notes and study plans.</p><div class="hx">${cdHTML()}<div class="hring">${ringSVG(pc)}<b>${Math.round(pc)}%<small>practised</small></b></div></div></div></section>
+  <div class="w pad">${isTab?`<div class="home-g"><div>${left}</div><div>${right}</div></div>`:left+right}
+  <h2 class="h2">Wisdom for today</h2>${wisCard()}
+  <h2 class="h2">Learn more</h2><div class="duo"><a class="mc" href="#/faq">${ico('help','var(--c2-deep)')}<b>FAQ &amp; exam pattern</b><small>Marking, syllabus, how to prepare</small></a><a class="mc" href="#/mission">${ico('flag','var(--c3-deep)')}<b>Our mission</b><small>Why NetLawVerse exists</small></a></div></div>`});
   if(!S.bank)loadBank().then(()=>{if((location.hash.slice(1)||'/')==='/')R.home()}).catch(()=>{});
+  if(!window.NLM_WISDOM)setTimeout(()=>loadJS('m-wisdom.js').then(()=>{const el=$('#wis');if(el&&(location.hash.slice(1)||'/')==='/'){const t=document.createElement('div');t.innerHTML=wisCard();el.replaceWith(t.firstChild)}}).catch(()=>{}),350);
 };
 
 /* ---------- subjects ---------- */
 R.subjects=([p])=>{const set=p==='1'?'P':'L',U=SETS[set];
   const rows=U.map((u,i)=>{const L=list(set,i),s=ustats(set+i,L);return`<a class="row" href="#/practice/${set}${i}">${ico(u[3],COL[i])}<div class="ti"><h3>${esc(u[1])}</h3><p>${fnum(L.length)} questions${s.a?` · ${s.a} done`:''}</p>${s.a?`<div class="bar"><i style="width:${s.a/Math.max(1,L.length)*100}%"></i></div>`:''}</div>${I.chevR}</a>`}).join('');
   screen({top:`<div class="tb"><button class="ib" data-a="drawer">${I.menu}</button><h1>Subjects</h1><a class="ib" href="#/search" aria-label="Search">${I.search}</a></div>`,nav:'sub',
-  body:`<div class="seg tabs"><button class="${set==='L'?'on':''}" data-a="tab" data-p="0">Paper 2 · Law 058</button><button class="${set==='P'?'on':''}" data-a="tab" data-p="1">Paper 1 · General Aptitude</button></div><div class="rows">${rows}</div>`})};
+  body:`<div class="seg tabs"><button class="${set==='L'?'on':''}" data-a="tab" data-p="0">Paper 2 · Law 058</button><button class="${set==='P'?'on':''}" data-a="tab" data-p="1">Paper 1 · General Aptitude</button></div><div class="rows two">${rows}</div>`})};
 A.tab=t=>{location.replace('#/subjects/'+(t.dataset.p==='1'?'1':''))};
 
 /* ---------- practice ---------- */
@@ -215,7 +252,7 @@ function cardHTML(x,i,compact){
     return`<button class="${c}" data-a="opt" data-i="${i}" data-k="${k}"${g?' aria-disabled="true"':''}><span class="ol">${'ABCD'[k]}</span><span class="ot">${esc(strip(t))}</span><span class="om">${m}</span></button>`}).join('');
   const exp=`<div class="exp${open?' open':''}"><div class="exp-row"><button class="exp-b" data-a="exp" data-i="${i}" aria-expanded="${open}">${I.eye}<span>Explanation</span>${I.chevD}</button>${g?`<button class="rt" data-a="retry" data-i="${i}" aria-label="Try again">${I.retry}</button>`:''}${window.NLReport?NLReport.btn(x,'Practice Q'+(i+1),{icon:1}):''}</div><div class="exp-c"><div class="exp-ans">${I.check}Correct Answer: ${'ABCD'[x.a]}. ${esc(strip(x.o[x.a]))}</div><p>${esc(x.e||'No explanation added yet.')}</p></div></div>`;
   if(compact)return`<div class="lq" data-qi="${i}"><div class="lq-h"><span class="lq-n">${i+1}</span><p class="q">${esc(x.q)}</p><button class="bm${BM[id]?' on':''}" data-a="bmq" data-i="${i}" aria-label="Bookmark">${IBM(BM[id])}</button></div><div class="opts">${opts}</div>${exp}</div>`;
-  return`<div data-qi="${i}"><p class="q">${esc(x.q)}</p><div class="opts">${opts}</div>${exp}</div>`}
+  return`<div data-qi="${i}"><p class="q">${esc(x.q)}</p><div class="opts big">${opts}</div>${exp}</div>`}
 function pracTop(){const pr=PR(),n=pr.items.length,x=pr.items[pr.pos],card=ST.view==='card';
   const sub=card?`${pr.pos+1}/${n}`:`${pr.pos+1}–${Math.min(n,pr.pos+pageN)} of ${n}`;
   return`<div class="tb"><button class="ib" data-a="back" aria-label="Back">${I.back}</button><h1>${esc(pr.title)}<small>${sub}${pr.filter!=='all'?' · '+(pr.filter==='u'?'unattempted':'mistakes'):''}</small></h1>
@@ -229,7 +266,7 @@ function drawPrac(keep){const pr=PR();
   let body;
   if(ST.view==='card')body=cardHTML(pr.items[pr.pos],pr.pos,false);
   else{const s=Math.floor(pr.pos/pageN)*pageN;body=pr.items.slice(s,s+pageN).map((x,k)=>cardHTML(x,s+k,true)).join('')}
-  screen({top:pracTop(),body,foot:pracFoot(),keep});
+  screen({top:pracTop(),body,foot:pracFoot(),keep,cls:ST.view==='list'?'lst':'',xnav:'sub'});
   POS[pr.key]=pr.pos;if(pr.key!=='S'&&pr.key!=='BM'||true)savePOS();
   if(ST.view==='card')bindSwipe();
 }
@@ -296,9 +333,9 @@ function mockStatus(n){const a=ls.get(AK(n)),r=ls.get(RK(n));
   if(a&&a.end)return a.end<=Date.now()?['Time up','go']:[`In progress · ${Object.keys(a.ans||{}).length} done`,'go'];
   if(r)return[`✓ ${r.marks} marks`,'ok'];return['Not started','']}
 R.mocks=()=>{
-  const row=m=>{const[s,c]=mockStatus(m.n);return`<a class="row" href="#/mock/${m.n}">${ico('test',m.p===2?'var(--ac)':'var(--c2)')}<div class="ti"><h3>${esc(m.t)}</h3><p>${m.q} questions · ${m.m>=60&&m.m%60===0?m.m/60+(m.m===60?' hour':' hours'):m.m+' minutes'}${m.h?` · <b style="color:var(--bad-text)">${m.h}</b>`:''}</p></div><span class="st ${c}">${s}</span></a>`};
+  const row=m=>{const[s,c]=mockStatus(m.n);return`<a class="row" href="#/mock/${m.n}">${ico('test',m.p===2?'var(--c3-deep)':'var(--c2-deep)')}<div class="ti"><h3>${esc(m.t)}</h3><p>${m.q} questions · ${m.m>=60&&m.m%60===0?m.m/60+(m.m===60?' hour':' hours'):m.m+' minutes'}${m.h?` · <b style="color:var(--bad-text)">${m.h}</b>`:''}</p></div><span class="st ${c}">${s}</span></a>`};
   screen({top:`<div class="tb"><button class="ib" data-a="drawer">${I.menu}</button><h1>Mock Tests</h1></div>`,nav:'mock',
-  body:`<h2 class="h2">Paper 2 · Law 058</h2><div class="rows">${MOCKS.filter(m=>m.p===2).map(row).join('')}</div><h2 class="h2">Paper 1 · General aptitude</h2><div class="rows">${MOCKS.filter(m=>m.p===1).map(row).join('')}</div><p class="muted" style="font-size:.75rem;text-align:center;margin:14px 6px 0">Free exam-style practice. 2 marks per question, no negative marking. Not affiliated with NTA or UGC.</p>`})};
+  body:`<h2 class="h2">Paper 2 · Law 058</h2><div class="rows two">${MOCKS.filter(m=>m.p===2).map(row).join('')}</div><h2 class="h2">Paper 1 · General aptitude</h2><div class="rows two">${MOCKS.filter(m=>m.p===1).map(row).join('')}</div><p class="muted" style="font-size:.75rem;text-align:center;margin:14px 6px 0">Free exam-style practice. 2 marks per question, no negative marking. Not affiliated with NTA or UGC.</p>`})};
 let E=null;
 R.mock=([ns])=>{const n=+ns,meta=mockMeta(n);if(!meta)return go('/mocks');
   screen({top:tbar(meta.t),body:'<div class="empty" style="padding-top:80px"><div class="spin"></div><b>Loading test…</b></div>'});
@@ -317,7 +354,7 @@ function drawExam(keep){const{A:a,Q,TOT}=E,i=a.cur,x=Q[i];a.vis[i]=1;
   const ans=Object.keys(a.ans).length;
   screen({top:`<div class="tb"><button class="ib" data-a="exleave" aria-label="Leave">${I.back}</button><h1>${esc(E.M.title)}<small>${ans} of ${TOT} answered</small></h1><span class="pill" id="tm">${fmt(a.end-Date.now())}</span></div><div class="qbar"><button class="pill" data-a="xpal">Q ${i+1} / ${TOT} ${sv(P.grid,15)}</button><span style="flex:1"></span><button class="pill" style="${a.mk[i]?'':'background:var(--chip);color:var(--text2)'}" data-a="xmark">${sv(P.flag,15)}${a.mk[i]?'Marked':'Mark'}</button><button class="pill" style="background:var(--chip);color:var(--text2)" data-a="xclear" ${a.ans[i]===undefined?'disabled':''}>Clear</button></div>`,
   body:`<div data-wm><div class="meta"><span class="badge">${esc(x.s)}</span>${x.d==='Difficult'?'<span class="badge" style="background:var(--bad-bg);color:var(--bad-text)">TOUGH</span>':''}</div><p class="q">${esc(x.q)}</p><div class="opts">${x.o.map((t,k)=>`<button class="opt${a.ans[i]===k?' picked':''}" data-a="xopt" data-k="${k}"><span class="ol">${'ABCD'[k]}</span><span class="ot">${esc(strip(t))}</span></button>`).join('')}</div>${window.NLReport?`<p style="margin:12px 0 0">${NLReport.btn(x,esc(E.M.title)+' - Q'+(i+1))}</p>`:''}</div>`,
-  foot:`<button class="fb" data-a="xprev" ${i===0?'disabled':''}>${I.back}Previous</button><button class="fb pri" data-a="${i===TOT-1?'xsubmit':'xnext'}">${i===TOT-1?'Submit':'Next'}${i===TOT-1?'':sv(P.chevR)}</button>`,keep});
+  foot:`<button class="fb" data-a="xprev" ${i===0?'disabled':''}>${I.back}Previous</button><button class="fb pri" data-a="${i===TOT-1?'xsubmit':'xnext'}">${i===TOT-1?'Submit':'Next'}${i===TOT-1?'':sv(P.chevR)}</button>`,keep,exam:1,wcls:'exam-w'});
   saveA();clearInterval(E.tick);E.tick=setInterval(loop,500);cleanup=()=>{clearInterval(E&&E.tick)};
   view.ontouchstart=e=>{swX=e.touches[0].clientX;swY=e.touches[0].clientY};view.ontouchend=e=>{const dx=e.changedTouches[0].clientX-swX,dy=e.changedTouches[0].clientY-swY;if(Math.abs(dx)>70&&Math.abs(dy)<45){dx<0?A.xnext():A.xprev()}};
 }
@@ -365,17 +402,20 @@ A.retake=()=>{if(!confirm('Start a fresh attempt? Your last result is replaced w
 /* ---------- plan, notes, syllabus, pyq ---------- */
 const PLANS=[['6','MONTHS','Build your foundation','Learn each unit, test it the same day, and revise more than once.','ugc-net-law-6-month-preparation-plan.html'],['3','MONTHS','Accelerate your preparation','Cover everything, test as you study and begin PYQs early.','ugc-net-law-3-month-preparation-plan.html'],['1','MONTH','Consolidate and test','Stop widening. Revise, test, find weak units and close them.','ugc-net-law-1-month-preparation-plan.html'],['2','WEEKS','Retrieve, practise and refine','Revise what is most likely to matter and practise retrieving it.','ugc-net-law-2-week-preparation-plan.html']];
 R.plan=()=>{let fit=-1;if(EXAM&&EXAM.date){const d=Math.round((Date.parse(EXAM.date+'T00:00:00')-new Date().setHours(0,0,0,0))/864e5);if(d>=1)fit=d>=135?0:d>=60?1:d>=22?2:3}
-  screen({top:tbar('Study Plan'),body:`<p class="muted" style="margin:2px 2px 12px;font-size:.875rem">How much time do you have? Pick a pathway.${fit>=0?' The highlighted one is the closest fit for your exam date.':''}</p>${PLANS.map((p,i)=>`<a class="plan${i===fit?' fit':''}" href="${p[4]}"><span class="tm"><b>${p[0]}</b><i>${p[1]}</i></span><div style="flex:1"><h3>${p[2]}${i===fit?' <span class="badge" style="background:var(--tint);color:var(--ac-d)">CLOSEST FIT</span>':''}</h3><p>${p[3]}</p></div>${I.chevR}</a>`).join('')}<a class="btn ghost" href="ugc-net-law-preparation-plan.html" style="margin-top:4px">Compare all pathways</a>`})};
+  screen({top:tbar('Study Plan'),body:`<p class="muted" style="margin:2px 2px 12px;font-size:.875rem">How much time do you have? Pick a pathway.${fit>=0?' The highlighted one is the closest fit for your exam date.':''}</p><div class="plans">${PLANS.map((p,i)=>`<a class="plan${i===fit?' fit':''}" href="${p[4]}"><span class="tm"><b>${p[0]}</b><i>${p[1]}</i></span><div style="flex:1"><h3>${p[2]}${i===fit?' <span class="badge" style="background:var(--tint);color:var(--ac-d)">CLOSEST FIT</span>':''}</h3><p>${p[3]}</p></div>${I.chevR}</a>`).join('')}</div><a class="btn ghost" href="ugc-net-law-preparation-plan.html" style="margin-top:4px">Compare all pathways</a>`})};
 R.pyq=()=>screen({top:tbar('Past Year Questions'),nav:'home',body:`<div class="empty" style="padding-top:60px">${sv(P.target,56)}<b style="margin-top:12px">Coming next</b>Year-wise and topic-wise UGC NET Law PYQs, with answers and concise explanations.<br><br><a class="btn" href="#/subjects">Practise MCQs</a></div>`});
 R.notes=()=>{const N=[['IPR','Idea–Expression Dichotomy','Meaning, rationale, historical development and leading Indian cases.'],['CONSTITUTION','Basic Structure Doctrine','Kesavananda Bharati, Minerva Mills and later developments.'],['JURISPRUDENCE','Schools of Jurisprudence','Natural law, analytical, historical, sociological and realist approaches.'],['CONTRACT','Indian Contract Act','Offer, acceptance, consideration, capacity and discharge.']];
   screen({top:`<div class="tb"><button class="ib" data-a="drawer">${I.menu}</button><h1>Notes</h1><a class="ib" href="#/search">${I.search}</a></div>`,nav:'notes',
   body:`<h2 class="h2">Notes built for revision</h2><div class="rows">${N.map(n=>`<div class="row" style="align-items:flex-start"><div class="ti"><span class="badge" style="background:var(--tint);color:var(--ac-d)">${n[0]}</span><h3 style="margin-top:5px">${n[1]}</h3><p>${n[2]}</p></div><span class="st">Soon</span></div>`).join('')}</div>
   <h2 class="h2">Resources</h2><div class="rows">
-  <a class="row" href="#/syllabus/0">${ico('book','var(--ac)')}<div class="ti"><h3>Syllabus · Law 058</h3></div>${I.chevR}</a>
-  <a class="row" href="#/syllabus/1">${ico('book','var(--c2)')}<div class="ti"><h3>Syllabus · Paper 1</h3></div>${I.chevR}</a>
-  <a class="row" href="#/pyq">${ico('target','var(--c2)')}<div class="ti"><h3>Previous-Year Questions</h3></div>${I.chevR}</a>
-  <a class="row" href="unit-2-constitutional-administrative-law.html">${ico('cols','var(--ac)')}<div class="ti"><h3>Unit II · Constitutional & Administrative Law</h3></div>${I.ext}</a>
-  <a class="row" href="faq.html">${ico('help','var(--c2)')}<div class="ti"><h3>FAQ</h3></div>${I.ext}</a></div>`})};
+  <a class="row" href="#/syllabus/0">${ico('book','var(--c3-deep)')}<div class="ti"><h3>Syllabus · Law 058</h3></div>${I.chevR}</a>
+  <a class="row" href="#/syllabus/1">${ico('book','var(--c2-deep)')}<div class="ti"><h3>Syllabus · Paper 1</h3></div>${I.chevR}</a>
+  <a class="row" href="#/pyq">${ico('target','var(--c2-deep)')}<div class="ti"><h3>Previous-Year Questions</h3></div>${I.chevR}</a>
+  <a class="row" href="unit-2-constitutional-administrative-law.html">${ico('cols','var(--c3-deep)')}<div class="ti"><h3>Unit II · Constitutional & Administrative Law</h3></div>${I.ext}</a>
+  <a class="row" href="#/strategy">${ico('compass','var(--c3-deep)')}<div class="ti"><h3>Exam strategy</h3><p>Your personal plan</p></div>${I.chevR}</a>
+  <a class="row" href="#/faq">${ico('help','var(--c2-deep)')}<div class="ti"><h3>FAQ &amp; exam pattern</h3></div>${I.chevR}</a>
+  <a class="row" href="#/wisdom">${ico('quote','var(--c3-deep)')}<div class="ti"><h3>Wisdom for the journey</h3></div>${I.chevR}</a>
+  <a class="row" href="#/mission">${ico('flag','var(--c2-deep)')}<div class="ti"><h3>Mission statement</h3></div>${I.chevR}</a></div>`})};
 R.syllabus=([p])=>{const set=p==='1'?1:0;let Y=null;try{Y=new Function(S.syl+';return syllabus')()}catch{}
   if(!Y&&!S.syl){fetch('syllabus-data.js').then(r=>r.text()).then(t=>{S.syl=t;R.syllabus([p])}).catch(()=>screen({top:tbar('Syllabus'),body:'<div class="empty"><b>Could not load syllabus</b></div>'}));screen({top:tbar('Syllabus'),body:'<div class="empty"><div class="spin"></div></div>'});return}
   const data=set?Y.paper1:Y.law,U=set?P1:LAW;
@@ -388,7 +428,7 @@ R.bookmarks=()=>{const l=S.bank.filter(x=>BM[qid(x)]);
 A.bmgo=()=>{S.prac=null;go('/practice/BM')};
 A.bmopen=t=>{const l=S.bank.filter(x=>BM[qid(x)]);openSession('BM','Bookmarks',l,+t.dataset.i);go('/practice/BM')};
 R.history=()=>{const items=MOCKS.map(m=>({m,r:ls.get(RK(m.n))})).filter(z=>z.r).sort((a,b)=>b.r.at-a.r.at);
-  screen({top:tbar('Test History'),body:items.length?`<div class="rows">${items.map(({m,r})=>`<a class="row" href="#/mock/${m.n}">${ico('test','var(--c2)')}<div class="ti"><h3>${esc(m.t)}</h3><p>${new Date(r.at).toLocaleDateString('en-IN',{day:'numeric',month:'short'})} · ${r.correct} right, ${r.wrong} wrong</p></div><span class="st ok">${r.marks}/${m.q*2}</span></a>`).join('')}</div>`:'<div class="empty"><b>No tests taken yet</b>Your completed mock tests will be listed here.</div>'})};
+  screen({top:tbar('Test History'),body:items.length?`<div class="rows">${items.map(({m,r})=>`<a class="row" href="#/mock/${m.n}">${ico('test','var(--c2-deep)')}<div class="ti"><h3>${esc(m.t)}</h3><p>${new Date(r.at).toLocaleDateString('en-IN',{day:'numeric',month:'short'})} · ${r.correct} right, ${r.wrong} wrong</p></div><span class="st ok">${r.marks}/${m.q*2}</span></a>`).join('')}</div>`:'<div class="empty"><b>No tests taken yet</b>Your completed mock tests will be listed here.</div>'})};
 R.profile=()=>{const all=S.bank.length,s=prog.stats(S.bank),res=MOCKS.map(m=>ls.get(RK(m.n))?{m,r:ls.get(RK(m.n))}:null).filter(Boolean),avg=res.length?Math.round(res.reduce((a,z)=>a+z.r.pct,0)/res.length):0,dg=prog.daily(),pc=s.a/all*100;
   screen({top:`<div class="tb"><button class="ib" data-a="drawer">${I.menu}</button><h1>My Progress</h1></div>`,nav:'prof',
   body:`<div class="card"><b style="font-size:.8125rem;color:var(--mut)">Overall progress</b><div class="prog-n"><b>${fnum(s.a)} <span>/ ${fnum(all)}</span></b><em>${pc.toFixed(1)}%</em></div><div class="bar"><i style="width:${pc}%"></i></div><div class="mini"><span style="--c:var(--ok)">${fnum(s.ok)} correct</span><span style="--c:var(--bad)">${fnum(s.bad)} incorrect</span><span style="--c:var(--line2)">${s.a?Math.round(s.ok/s.a*100):0}% accuracy</span></div></div>
@@ -397,13 +437,24 @@ R.profile=()=>{const all=S.bank.length,s=prog.stats(S.bank),res=MOCKS.map(m=>ls.
   <button class="row" data-a="goal">${I.target}<div class="ti"><h3>Daily goal</h3><p>Today ${dg.n}/${dg.goal} · ${dg.streak}-day streak</p></div>${I.chevR}</button>
   <button class="row" data-a="drawer">${I.gear}<div class="ti"><h3>Appearance</h3><p>Colour theme and dark mode</p></div>${I.chevR}</button>
   <button class="row" data-a="resetall">${I.trash}<div class="ti"><h3>Reset practice progress</h3></div>${I.chevR}</button>
-  ${window.NLPWA&&NLPWA.available()?`<button class="row" data-a="install">${sv('<path d="M12 4v11M7 11l5 5 5-5M5 20h14"/>')}<div class="ti"><h3>Install app</h3><p>Add to your home screen, works offline</p></div>${I.chevR}</button>`:''}
+  ${window.NLPWA&&NLPWA.visible&&NLPWA.visible()?`<button class="row" data-a="install">${sv('<path d="M12 4v11M7 11l5 5 5-5M5 20h14"/>')}<div class="ti"><h3>Install app</h3><p>Add to your home screen, works offline</p></div>${I.chevR}</button>`:''}
   <button class="row" data-a="desktop">${I.desk}<div class="ti"><h3>Use desktop site</h3></div>${I.chevR}</button>
   <button class="row" data-a="about">${I.info}<div class="ti"><h3>About</h3></div>${I.chevR}</button></div>`})};
 A.goal=()=>{const g=prog.daily().goal;openSheet(`<div class="sh-h"><h2>Daily goal</h2><button class="ib" data-a="close">${I.close}</button></div><div class="sh-b"><p class="muted" style="margin:0 0 12px">Questions to answer each day.</p><div class="seg">${[10,20,30,50,100].map(n=>`<button class="${n===g?'on':''}" data-a="setgoal" data-n="${n}">${n}</button>`).join('')}</div></div>`)};
 A.setgoal=t=>{prog.setGoal(+t.dataset.n);closeSheet();route()};
 A.resetall=()=>{if(!confirm('Erase ALL saved practice answers on this phone? Mock results and bookmarks are kept.'))return;ls.rm(PGK);PG=null;PGV++;stc.clear();S.ex.clear();S.peek.clear();S.prac=null;route();toast('Progress reset')};
 A.about=()=>openSheet(`<div class="sh-h"><h2>About</h2><button class="ib" data-a="close">${I.close}</button></div><div class="sh-b"><p style="margin:0;color:var(--text2);line-height:1.6;font-size:.9rem">NET Law 058 is a free educational resource for UGC NET Law (Code 058) and Paper 1. It is not affiliated with NTA or UGC. Verify important points with official sources. Your progress, bookmarks and mock attempts are stored only in this browser.</p></div>`);
+
+/* ---------- keyboard (tablets with a keyboard) and layout changes ---------- */
+document.addEventListener('keydown',e=>{if(e.metaKey||e.ctrlKey||e.altKey||(e.target.closest&&e.target.closest('input,textarea,select')))return;
+  if(!sheet.hidden){if(e.key==='Escape')closeSheet();return}
+  const h=location.hash,n='1234'.indexOf(e.key),l='abcd'.indexOf(e.key.toLowerCase());
+  if(/^#\/practice\//.test(h)&&PR()&&PR().items.length){if(e.key==='ArrowRight')A.next();else if(e.key==='ArrowLeft')A.prev();else if(ST.view==='card'&&(n>-1||l>-1)&&e.key.length===1)A.opt({dataset:{i:PR().pos,k:n>-1?n:l}})}
+  else if(/^#\/mock\//.test(h)&&E&&E.A){if(e.key==='ArrowRight')A.xnext();else if(e.key==='ArrowLeft')A.xprev();else if((n>-1||l>-1)&&e.key.length===1)A.xopt({dataset:{k:n>-1?n:l}})}});
+(TQ.addEventListener?TQ.addEventListener.bind(TQ,'change'):TQ.addListener.bind(TQ))(e=>{isTab=e.matches;if(!(E&&E.A&&/^#\/mock\//.test(location.hash)))route()});
+
+/* small API for the lazily loaded features (m-wisdom.js, m-extras.js) */
+window.NLM={$,esc,sv,P,I,ico,screen,tbar,R,A,go,back,ls,prog,S,list,keyList,unitOf,LAW,P1,SETS,COL,ustats,loadBank,fnum,istDay,dayNo,PLANS,MOCKS,mockStatus,RK,toast,openSheet,closeSheet,route,pgs,exam:()=>EXAM,isTab:()=>isTab,dohas:dohaList,devFont,ringSVG};
 
 /* ---------- start ---------- */
 setTheme();

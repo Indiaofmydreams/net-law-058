@@ -33,3 +33,11 @@ Practice questions scroll box (11 Oct 2026)
   qbank.css  : .qb-list box (height, scroll, snap). Change the height on the max-height line (default: screen height - 195px, max 820px).
   qbank.js   : box returns to the top on page/filter change; keeps its place when you un-star in Saved view.
   nl-nav.js  : "Go to Q" and pager now scroll inside the box (scrollToEl).
+
+==== Mobile + tablet app redesign (v12) ====
+Look: deep band header/hero over a light page (as on the website), gradient icon chips, pill nav, dark mode in each of the 8 schemes.
+Home: countdown + progress ring hero, Law 058 / Paper 1 tiles, Exam strategy card, Wisdom of the day, FAQ and Mission cards.
+New in-app screens (lazy-loaded, ~11 KB + ~35 KB, only when opened): #/strategy (Exam Strategy Engine lite, on-device), #/faq, #/wisdom, #/mission.
+Install: always-visible strip on every screen until installed (hidden during a running timed test). pwa.js: no <dialog> (broke on older iOS), in-app browser detection + Copy link, fresh iOS steps, NLPWA.visible()/platform().
+Tablets (touch, short side < 1100px, incl. iPadOS) now open app.html: side rail, two-column practice (List view default), centred dialogs, keyboard: arrows and 1-4 / A-D. ?desktop=1 still opts out.
+Files: m-app.css, m-app.js, m-wisdom.js (new), m-extras.js (new), pwa.js, pwa.css, app.html, index.html, sw.js (v12), manifest.json.

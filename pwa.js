@@ -23,7 +23,9 @@
   var ua = nav.userAgent || '';
   var isIOS = /iPad|iPhone|iPod/.test(ua) || (nav.platform === 'MacIntel' && nav.maxTouchPoints > 1);
   var isAndroid = /Android/i.test(ua);
-  var inApp = /FBAN|FBAV|Instagram|Line\/|WhatsApp|Telegram|MicroMessenger|Snapchat|; wv\)/i.test(ua);
+  var isApp = !!d.getElementById('app');            // the phone/tablet app interface (app.html)
+  var iosWebview = isIOS && !/Safari\//.test(ua);      // in-app browsers on iOS (WKWebView) drop the Safari token
+  var inApp = iosWebview || /FBAN|FBAV|Instagram|Line\/|WhatsApp|Telegram|MicroMessenger|Snapchat|GSA\/|LinkedInApp|Twitter|Pinterest|Gmail|Messenger|KAKAOTALK|; wv\)/i.test(ua) || /^android-app:/.test(d.referrer || '');
   var isSamsung = /SamsungBrowser/i.test(ua);
   var isFirefox = /Firefox|FxiOS/i.test(ua);
   var isEdge = /Edg(e|A|iOS)?\//.test(ua);
@@ -65,7 +67,7 @@
   }
 
   /* ---------- install state ---------- */
-  var st = { deferred: null, fallback: false, installed: store(KEY_INSTALLED) === '1', open: false };
+  var st = { deferred: null, fallback: isApp, installed: isApp ? false : store(KEY_INSTALLED) === '1', open: false };   // in the app the manual steps are available at once
 
   w.addEventListener('beforeinstallprompt', function (e) {
     e.preventDefault();                          // we show our own button instead of the browser mini-infobar
@@ -89,6 +91,7 @@
     if (st.fallback) return 'manual';
     return 'none';
   }
+  function visible() { return secure && !standalone() && !st.installed; }
   function dismissed() { var t = +store(KEY_DISMISS) || 0; return Date.now() - t < DISMISS_DAYS * 864e5; }
 
   /* ---------- CSS (loaded only when there is something to show) ---------- */
@@ -160,23 +163,24 @@
     openDialog();
   }
 
-  /* ---------- instructions dialog ---------- */
+  /* ---------- instructions sheet (plain element, not <dialog>: <dialog> is missing or buggy on older iPhones/iPads) ---------- */
   var SHARE = '<svg class="nl-ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-label="Share"><path d="M12 15V3M8 7l4-4 4 4M6 11H5a1 1 0 00-1 1v8a1 1 0 001 1h14a1 1 0 001-1v-8a1 1 0 00-1-1h-1"/></svg>';
   var PLUS = '<svg class="nl-ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-label="Plus"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M12 8v8M8 12h8"/></svg>';
   var DOTS = '<b class="nl-k" aria-label="three dots menu">⋮</b>';
   var NAME = 'NET Law 058';
 
   var GUIDES = {
-    ios: ['iPhone / iPad (Safari)', [
-      'Open this site in <b>Safari</b> (installing is not possible from other apps’ built-in browsers).',
-      'Tap the <b>Share</b> button ' + SHARE + ' (bottom bar on iPhone, top bar on iPad).',
-      'Scroll down and tap <b>Add to Home Screen</b> ' + PLUS + '.',
-      'Keep “Open as Web App” on if it is shown, then tap <b>Add</b>. Launch ' + NAME + ' from your Home Screen.'],
-      'Using Chrome, Edge or Firefox on iPhone? Tap its <b>Share</b> or <b>menu</b> button and choose <b>Add to Home Screen</b>. If you cannot find it, open this page in Safari instead.'],
+    ios: ['iPhone and iPad (Safari)', [
+      'Open this page in <b>Safari</b>. Adding to the Home Screen does not work from inside WhatsApp, Instagram, Gmail or other apps’ built-in browsers.',
+      'Tap the <b>Share</b> button ' + SHARE + '. On iPhone it is in the bottom bar (on newer iOS it can be under the <b>⋯</b> button); on iPad it is at the top.',
+      'Scroll the sheet and tap <b>Add to Home Screen</b> ' + PLUS + '. If you cannot see it, tap <b>View More</b> first.',
+      'Keep <b>Open as Web App</b> switched on if it is shown, then tap <b>Add</b>. Open ' + NAME + ' from your Home Screen.'],
+      'Using Chrome, Edge or Firefox on iPhone? Tap its <b>Share</b> or <b>menu</b> button and choose <b>Add to Home Screen</b>. If that option is missing, open this page in Safari instead.'],
     android: ['Android (Chrome, Edge, Brave)', [
       'Tap the browser menu ' + DOTS + ' (top right).',
       'Tap <b>Install app</b> (or <b>Add to Home screen</b>, then <b>Install</b>).',
-      'Confirm. ' + NAME + ' now opens from your home screen or app drawer like any other app.']],
+      'Confirm. ' + NAME + ' now opens from your home screen or app drawer like any other app.'],
+      'Opened this from WhatsApp or another app? Tap ' + DOTS + ' and choose <b>Open in Chrome</b> first, then install.'],
     samsung: ['Samsung Internet', [
       'Tap the menu <b>≡</b> (bottom right).',
       'Tap <b>Add page to</b>, then <b>Home screen</b> (or <b>Install</b> if shown).',
@@ -211,27 +215,44 @@
     return '<details class="nl-g"' + (open ? ' open' : '') + '><summary>' + g[0] + '</summary><ol>' + steps + '</ol>' + (g[2] ? '<p class="nl-note">' + g[2] + '</p>' : '') + '</details>';
   }
 
+  function copyLink(btn) {
+    var url = BASE, done = function (ok) { btn.textContent = ok ? 'Link copied. Paste it in ' + (isIOS ? 'Safari' : 'Chrome') : 'Long-press the address bar to copy'; };
+    try {
+      if (nav.clipboard && nav.clipboard.writeText) { nav.clipboard.writeText(url).then(function () { done(true); }, function () { done(false); }); return; }
+    } catch (e) {}
+    try {
+      var t = d.createElement('textarea'); t.value = url; t.setAttribute('readonly', ''); t.style.cssText = 'position:fixed;top:0;left:0;opacity:0;font-size:16px';
+      d.body.appendChild(t); t.select(); t.setSelectionRange(0, url.length); var ok = d.execCommand('copy'); d.body.removeChild(t); done(ok);
+    } catch (e) { done(false); }
+  }
+
   var dlg = null, lastFocus = null;
   function buildDialog() {
     var key = detect();
     var order = ['ios', 'android', 'samsung', 'firefoxAndroid', 'desktop', 'mac', 'firefox'];
     var others = order.filter(function (k) { return k !== key; }).map(function (k) { return guideHTML(k, false); }).join('');
     var warn = '';
-    if (inApp) warn = '<p class="nl-warn">You seem to be inside another app’s browser (WhatsApp, Instagram, etc.). Open this page in ' + (isIOS ? 'Safari' : 'Chrome') + ' first, then install.</p>';
-    var el = d.createElement('dialog');
-    el.className = 'nl-dlg';
-    el.setAttribute('aria-labelledby', 'nl-dlg-t');
+    if (inApp) warn = '<div class="nl-warn"><p>You seem to be inside another app’s built-in browser (WhatsApp, Instagram, Gmail, etc.). Installing only works from ' + (isIOS ? 'Safari' : 'Chrome') + '.</p><button type="button" class="nl-btn nl-copy" data-nl-copy>Copy link to open in ' + (isIOS ? 'Safari' : 'Chrome') + '</button></div>';
+    var el = d.createElement('div');
+    el.className = 'nl-sheet'; el.hidden = true;
+    el.setAttribute('role', 'dialog'); el.setAttribute('aria-modal', 'true'); el.setAttribute('aria-labelledby', 'nl-dlg-t');
     el.innerHTML =
-      '<form method="dialog" class="nl-dlg-in">' +
-        '<div class="nl-dlg-h"><img src="' + BASE + 'icons/icon-192.png" width="44" height="44" alt=""><div><h2 id="nl-dlg-t">Install ' + NAME + '</h2>' +
-        '<p>Opens in its own window, launches from your home screen, and keeps your practice and mock-test progress on this device.</p></div></div>' +
+      '<div class="nl-bk" data-nl-close></div>' +
+      '<div class="nl-pn nl-dlg" tabindex="-1"><div class="nl-dlg-in">' +
+        '<div class="nl-dlg-h"><img src="' + BASE + 'icons/icon-192.png" width="44" height="44" alt=""><div><h2 id="nl-dlg-t">' + (key === 'ios' ? 'Add ' + NAME + ' to your Home Screen' : 'Install ' + NAME) + '</h2>' +
+        '<p>Opens full screen like an app, launches from your home screen, and keeps your practice and mock-test progress on this device.</p></div></div>' +
         warn + '<div class="nl-dlg-b"><p class="nl-lead">How to install on your device</p>' + guideHTML(key, true) +
         '<details class="nl-more"><summary>Instructions for other browsers and devices</summary>' + others + '</details>' +
-        '<p class="nl-note">Already installed? Open it from your home screen, app list, taskbar or Dock. Installing is free and can be undone any time by uninstalling it like any other app.</p></div>' +
-        '<div class="nl-dlg-f"><button class="nl-btn nl-btn-p" value="close" autofocus>Got it</button></div>' +
-      '</form>';
-    el.addEventListener('close', function () { st.open = false; if (lastFocus && lastFocus.focus) try { lastFocus.focus(); } catch (e) {} });
-    el.addEventListener('click', function (e) { if (e.target === el) el.close(); });   // backdrop click
+        '<p class="nl-note">Already installed? Open it from your home screen, app list, taskbar or Dock. Installing is free and can be undone any time by removing it like any other app.</p></div>' +
+        '<div class="nl-dlg-f"><button type="button" class="nl-btn nl-btn-p" data-nl-close>Got it</button></div>' +
+      '</div></div>';
+    el.addEventListener('click', function (e) {
+      var t = e.target.closest ? e.target.closest('[data-nl-close],[data-nl-copy]') : null;
+      if (!t) return;
+      if (t.hasAttribute('data-nl-copy')) { copyLink(t); return; }
+      closeDialog();
+    });
+    el.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeDialog(); });
     d.body.appendChild(el);
     return el;
   }
@@ -239,15 +260,23 @@
     lastFocus = d.activeElement;
     loadCss().then(function () {
       if (!dlg) dlg = buildDialog();
-      st.open = true;
-      if (typeof dlg.showModal === 'function') { if (!dlg.open) dlg.showModal(); } else dlg.setAttribute('open', '');
+      st.open = true; dlg.hidden = false;
+      d.documentElement.classList.add('nl-lock');
+      var pn = dlg.querySelector('.nl-pn'); if (pn && pn.focus) try { pn.focus({ preventScroll: true }); } catch (e) {}
     });
   }
-  function closeDialog() { if (dlg && dlg.open) try { dlg.close(); } catch (e) {} }
+  function closeDialog() {
+    if (!dlg || dlg.hidden) return;
+    dlg.hidden = true; st.open = false; d.documentElement.classList.remove('nl-lock');
+    if (lastFocus && lastFocus.focus) try { lastFocus.focus({ preventScroll: true }); } catch (e) {}
+  }
 
   /* ---------- public API for the phone app ---------- */
   w.NLPWA = {
     available: function () { return mode() !== 'none'; },
+    visible: visible,                            // true whenever the app is not installed / not running as an app: drives the always-on install strip
+    platform: function () { return detect(); },
+    inApp: function () { return inApp; },
     dismissed: dismissed,
     dismiss: dismiss,
     install: install,
