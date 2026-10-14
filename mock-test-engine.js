@@ -7,6 +7,8 @@ const SUG={"Teaching Aptitude":"teaching methods, learner characteristics, evalu
 const ld=k=>{try{return JSON.parse(localStorage.getItem(k))}catch{return null}},sv=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v));return true}catch{return false}},rm=k=>{try{localStorage.removeItem(k)}catch{}};
 const say=m=>{const l=document.getElementById('live');if(l){l.textContent='';setTimeout(()=>l.textContent=m,60)}};
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const SH=(p,o)=>window.NLShare?NLShare.btn(p,o):'';
+const mockUrl=()=>{const l=document.querySelector('link[rel="canonical"]');return l&&l.href?l.href.split('#')[0]:location.href.split('#')[0].split('?')[0]};
 const pad=n=>String(n).padStart(2,'0'),fmt=ms=>{const s=Math.ceil(Math.max(0,ms)/1000);return pad(Math.floor(s/3600))+':'+pad(Math.floor(s%3600/60))+':'+pad(s%60)};
 const dur=ms=>{const m=Math.floor(ms/60000),s=Math.floor(ms%60000/1000);return m+' min '+s+' s'};
 let A=null,tick=null;const tough=x=>x.d==='Difficult';
@@ -16,7 +18,7 @@ function intro(){const r=ld(RK);
 app.innerHTML=`<div class="mt-intro"><span class="eyebrow">${esc(M.eyebrow||'UGC NET LAW · CODE 058')}</span><h1>${esc(M.title)}</h1><p class="mt-sub">${esc(M.blurb)}</p>
 <ul class="mt-facts"><li>${TOT} questions</li><li>${M.minutes||90} minutes</li><li>${MARK} marks each · ${MAXM} total</li><li>No negative marking</li><li>Free</li></ul>
 <h2 class="mt-h">Before you begin</h2><ul class="mt-rules"><li>The timer starts when you press Start and keeps running on its own clock, even if you switch tabs.</li><li>If you refresh or close the page, your attempt and remaining time are restored from this browser when you return. The timer does not pause while you are away.</li><li>The test submits automatically at zero. You will be warned at 15, 5 and 1 minute.</li><li>Progress is saved in this browser only. Clearing site data, private browsing or another device will lose it. This is a practice tool, not a secure or proctored exam, and results can be edited by anyone with browser access.</li></ul>
-<div class="mt-row"><button class="mt-btn pri" id="go">Start Mock Test</button>${r?'<button class="mt-btn" id="last">View last result</button>':''}<a class="mt-btn" href="index.html#mock-tests">All mock tests</a></div></div>`;
+<div class="mt-row"><button class="mt-btn pri" id="go">Start Mock Test</button>${r?'<button class="mt-btn" id="last">View last result</button>':''}<a class="mt-btn" href="index.html#mock-tests">All mock tests</a>${SH(()=>NLShare.make.mock({title:M.title,n:TOT,minutes:M.minutes||90,marks:MAXM,desc:M.blurb,url:mockUrl()}),{plain:1,cls:'mt-btn',label:'Share this test',aria:'Share this mock test'})}</div></div>`;
 app.querySelector('#go').onclick=()=>{const t=Date.now();A={start:t,end:t+DUR,ans:{},mk:{},vis:{0:1},cur:0,w:{}};save();exam()};
 const l=app.querySelector('#last');if(l)l.onclick=()=>result(r)}
 
@@ -50,7 +52,7 @@ const dlg=$('#dlg');
 $('#sub').onclick=()=>{const n=Object.keys(A.ans).length,m=Object.keys(A.mk).filter(k=>A.mk[k]).length;$('#dp').textContent=`You have answered ${n} of ${TOT} questions, left ${TOT-n} unanswered and marked ${m} for review. Time left: ${fmt(A.end-Date.now())}. You cannot change answers after submitting.`;dlg.showModal?dlg.showModal():dlg.setAttribute('open','')};
 $('#no').onclick=()=>dlg.close();$('#yes').onclick=()=>{dlg.close();submit(false)};
 window.onbeforeunload=e=>{e.preventDefault();e.returnValue=''};
-document.onkeydown=e=>{if(!A||e.ctrlKey||e.metaKey||e.altKey||dlg.open||e.key.length!==1||document.querySelector('.nlr-ov'))return;const k=e.key.toLowerCase();
+document.onkeydown=e=>{if(!A||e.ctrlKey||e.metaKey||e.altKey||dlg.open||e.key.length!==1||document.querySelector('.nlr-ov,.nls-ov'))return;const k=e.key.toLowerCase();
 if(k==='n'&&A.cur<TOT-1)show(A.cur+1,true);else if(k==='p'&&A.cur>0)show(A.cur-1,true);else if(k==='m')$('#mk').click();
 else if('abcd1234'.includes(k)){const r=$('#op').querySelectorAll('input')['abcd1234'.indexOf(k)%4];if(r){r.checked=true;r.dispatchEvent(new Event('change',{bubbles:true}))}}};
 const tm=$('#tm');
@@ -85,7 +87,7 @@ const E=diffs.Easy;if(E&&E.att>=10&&E.w/E.att>=.3)sg.push(`${E.w} of ${E.att} ea
 if(r.acc>=70&&att>=60&&r.pct<70)sg.push(`Your accuracy on attempted questions is strong (${r.acc.toFixed(0)}%), but you attempted only ${att}. Work on speed to raise your total.`);
 if(!sg.length)sg.push('Your performance is balanced across modules. Retake this test after a few days, or try another mock test, to check consistency.');
 const tt=Q.filter(tough).length,tc=Q.filter((x,i)=>tough(x)&&ans[i]===x.a).length;const cat=band(r.pct);
-app.innerHTML=`<div class="mt-res"><div class="mt-rh"><div><span class="eyebrow">RESULT</span><h1>${esc(M.title)}</h1><p class="mt-sub">${r.auto?'Submitted automatically when time expired · ':''}Attempted ${new Date(r.at).toLocaleString()}</p></div><div class="mt-row"><button class="mt-btn pri" id="re">Retake test</button><a class="mt-btn" href="index.html#mock-tests">All mock tests</a></div></div>
+app.innerHTML=`<div class="mt-res"><div class="mt-rh"><div><span class="eyebrow">RESULT</span><h1>${esc(M.title)}</h1><p class="mt-sub">${r.auto?'Submitted automatically when time expired · ':''}Attempted ${new Date(r.at).toLocaleString()}</p></div><div class="mt-row"><button class="mt-btn pri" id="re">Retake test</button>${SH(()=>NLShare.make.score({what:M.title,score:r.marks+'/'+MAXM,pct:Math.round(r.pct),correct:r.correct,wrong:r.wrong,time:dur(r.taken),url:mockUrl(),kind:'mock',chips:[r.correct+' correct',r.acc.toFixed(0)+'% accuracy',dur(r.taken)]}),{plain:1,cls:'mt-btn',label:'Share my score',aria:'Share my score'})}<a class="mt-btn" href="index.html#mock-tests">All mock tests</a></div></div>
 <div class="mt-score"><div class="mt-big"><b>${r.marks}</b><span>/ ${MAXM} marks</span></div><div><div class="mt-cat">${cat}</div><div>${r.pct.toFixed(1)}% score</div></div></div>
 <div class="mt-kpis">${[['Total questions',TOT],['Correct',r.correct],['Incorrect',r.wrong],['Unattempted',r.unans],['Accuracy',r.acc.toFixed(1)+'%'],['Time taken',dur(r.taken)],...(tt?[['Tough questions correct',tc+' of '+tt]]:[])].map(([a,b])=>`<div class="mt-kpi"><b>${b}</b><span>${a}</span></div>`).join('')}</div>
 <p class="mt-note">Marking: ${MARK} marks per correct answer, no negative marking (as in UGC NET Paper 2). Categories (Excellent 85+, Very Good 70–84, Good 55–69, Needs Improvement 40–54, Requires Focused Revision below 40, on percentage score) are website practice bands only, not official NTA qualification or cut-off categories. Results are stored only in this browser and are not tamper-proof.</p>
@@ -97,7 +99,7 @@ app.innerHTML=`<div class="mt-res"><div class="mt-rh"><div><span class="eyebrow"
 const rv=app.querySelector('#rv');
 Q.forEach((x,i)=>{const a=ans[i],k=a===undefined?'un':a===x.a?'ok':'bad',d=document.createElement('article');d.className='mt-rc '+k;d.dataset.k=k;
 d.innerHTML=`<p class="mt-meta"><b>Q${i+1}</b> · <span class="s"></span> · ${tough(x)?'<b class="mt-hard">▲ TOUGH</b>':esc(x.d)} · <b class="mt-tag ${k}">${k==='ok'?'✓ Correct':k==='bad'?'✗ Incorrect':'– Unanswered'}</b></p><p class="mt-qt q"></p><p class="y"></p><p class="c"></p><p class="mt-ex"></p><p class="mt-rp"></p>`;
-if(window.NLReport)d.querySelector('.mt-rp').innerHTML=NLReport.btn(x,M.title+' - Q'+(i+1));
+d.querySelector('.mt-rp').innerHTML=(window.NLReport?NLReport.btn(x,M.title+' - Q'+(i+1)):'')+' '+SH(()=>NLShare.make.question(x,M.title),{icon:1,aria:'Share this question'});
 d.querySelector('.s').textContent=x.s;d.querySelector('.q').textContent=x.q;d.querySelector('.y').textContent='Your answer: '+(a===undefined?'Not answered':x.o[a]);d.querySelector('.c').textContent='Correct answer: '+x.o[x.a];d.querySelector('.mt-ex').textContent='Explanation: '+(x.e||'');rv.appendChild(d)});
 app.querySelector('.mt-fl').onclick=e=>{const b=e.target.closest('button');if(!b)return;app.querySelectorAll('.mt-chip').forEach(c=>c.classList.toggle('on',c===b));rv.querySelectorAll('.mt-rc').forEach(c=>c.hidden=b.dataset.f!=='all'&&c.dataset.k!==b.dataset.f)};
 app.querySelector('#re').onclick=()=>{if(confirm('Start a fresh attempt? Your last result will be replaced when you submit the new one.')){const t=Date.now();A={start:t,end:t+DUR,ans:{},mk:{},vis:{0:1},cur:0,w:{}};save();exam()}};

@@ -198,7 +198,7 @@
     var items = S.Q.map(function (x, k) {
       var a = S.ans[k], good = a === x.a; if (r.filter === "bad" && good) return "";
       return '<div class="nlt-r ' + (good ? "ok" : "no") + '"><p class="v">' + (k + 1) + ". " + (good ? "CORRECT" : a < 0 ? "NOT ANSWERED" : "INCORRECT") + '</p><p class="t">' + esc(x.q) + "</p>" +
-        (good ? "" : "<p>Your answer: " + (a < 0 ? "none" : esc(x.o[a])) + "</p>") + "<p><b>Correct answer: " + esc(x.o[x.a]) + "</b></p>" + (x.e ? '<p class="e">' + esc(x.e) + "</p>" : "") + (window.NLReport ? "<p>" + NLReport.btn(x, "Law test - Q" + (k + 1)) + "</p>" : "") + "</div>";
+        (good ? "" : "<p>Your answer: " + (a < 0 ? "none" : esc(x.o[a])) + "</p>") + "<p><b>Correct answer: " + esc(x.o[x.a]) + "</b></p>" + (x.e ? '<p class="e">' + esc(x.e) + "</p>" : "") + (window.NLReport || window.NLShare ? "<p>" + (window.NLReport ? NLReport.btn(x, "Law test - Q" + (k + 1)) : "") + (window.NLShare ? " " + NLShare.btn(function () { return NLShare.make.question(x, "Law test"); }, { icon: 1, aria: "Share this question" }) : "") + "</p>" : "") + "</div>";
     }).join("");
     var open = host.querySelector("details") && host.querySelector("details").open;
     host.innerHTML = '<section class="nlt" role="group" aria-label="Law test result">' +
@@ -214,7 +214,12 @@
       '<p class="nlt-foot" id="nlt-note">Your answers are saved to your practice progress on this device.</p></section>';
   }
 
-  function share() {
+  function share(opener) {
+    if (window.NLShare) {
+      var rr = S.res, pc = Math.round(rr.ok / N * 100);
+      NLShare.open(NLShare.make.score({ what: "UGC NET Law 20-MCQ test", score: rr.ok + "/" + N, pct: pc, correct: rr.ok, wrong: rr.wrong, time: mmss(rr.sec), kind: "quiz", chips: [rr.ok + " correct", rr.wrong + " wrong", mmss(rr.sec)] }), opener);
+      return;
+    }
     var r = S.res, text = "I scored " + r.ok + "/" + N + " in " + mmss(r.sec) + " on the UGC NET Law 20-MCQ test. Can you beat it? Try it free:", url = location.href.split("#")[0] + "#home";
     var note = host.querySelector("#nlt-note");
     if (navigator.share) { navigator.share({ title: "UGC NET Law test", text: text, url: url }).catch(function () {}); return; }
@@ -235,7 +240,7 @@
     else if (a === "submit") finish(false);
     else if (a === "back") { S.confirm = false; paintRun(true); }
     else if (a === "quit") { if (window.confirm("Quit this test? Your answers will not be saved.")) { say("Test cancelled."); paintIdle(); var sb = host.querySelector('[data-a="start"]'); sb && sb.focus({ preventScroll: true }); } }
-    else if (a === "share") share();
+    else if (a === "share") share(b);
   });
   host.addEventListener("change", function (e) {
     if (e.target.name !== "nlt") return;

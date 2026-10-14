@@ -9,7 +9,9 @@ window.NLM_WISDOM={authors:[{"n":"Sant Kabir","era":"15th century · 10 dohas","
 var AU=window.NLM_WISDOM.authors,SHORT=['Kabir','Tulsidas','Rahim','Vrind'];
 var ST={f:'all',i:null};
 function all(){var o=[];AU.forEach(function(a,k){a.d.forEach(function(d){o.push({a:a.n,k:k,t:d[0],m:d[1]})})});return o}
-function share(x){var txt=x.t+'\n('+x.m+')\n— '+x.a+'\nNetLawVerse · https://netlawverse.in/wisdom.html';
+function share(x){
+  if(window.NLShare){NLShare.open(NLShare.make.text({kind:'wisdom',heading:'Share this doha',title:'Wisdom for the journey',desc:x.m,url:'https://netlawverse.in/wisdom.html',lines:['📜 '+x.t,'('+x.m+')','— '+x.a,'','From NetLawVerse: free UGC NET Law (058) & Paper 1 preparation 👇'],short:x.t.split('\n')[0]+' — '+x.a}));return}
+  var txt=x.t+'\n('+x.m+')\n— '+x.a+'\nNetLawVerse · https://netlawverse.in/wisdom.html';
   if(navigator.share){navigator.share({text:txt}).catch(function(){});return}
   try{navigator.clipboard.writeText(txt).then(function(){N.toast('Doha copied')},function(){N.toast('Could not copy',1)})}catch(e){N.toast('Could not copy',1)}}
 

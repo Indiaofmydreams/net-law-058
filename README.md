@@ -44,3 +44,7 @@ It is CSS only: no JavaScript, no per-question markup, so new questions and new 
 - Strength: `:root{--wm-fade:1}` (0 = off, 1 = default, 1.5 = stronger). High-contrast themes automatically use 60% of this.
 - Colours follow `<html data-mode>` so every theme in light and dark is covered.
 - `m-app.js`: the app's mock-test question body is wrapped in `<div data-wm>` so it has something to attach to.
+
+
+## Share kit (nl-share.js)
+Share buttons for the site, pages, questions, mock tests, scores and dohas, with rich link previews. See SHARE.md. New HTML pages: copy the `nl-share.js` script line from any existing page.

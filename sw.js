@@ -16,7 +16,7 @@
  */
 'use strict';
 
-const VERSION = 'v12';
+const VERSION = 'v13';
 const PREFIX = 'nl058-';
 const PAGES = PREFIX + 'pages-' + VERSION;   // site files
 const FONTS = PREFIX + 'fonts-v1';           // Google Fonts (css + woff2)
@@ -33,7 +33,7 @@ const CORE = [
   'styles.css', 'syllabus-pro.css', 'qbank.css', 'disclaimer.css', 'theme.css', 'mock-tests.css',
   'hero-carousel.css', 'section-nav.css', 'plan.css', 'nav-resources.css', 'about.css', 'faq.css',
   'cutoff.css', 'm-app.css', 'm-themes.css', 'unit-page.css', 'watermark.css',
-  'script.js', 'syllabus-pro.js', 'bank-loader.js', 'nl-nav.js', 'nl-report.js', 'nl-quiz.js',
+  'script.js', 'syllabus-pro.js', 'bank-loader.js', 'nl-nav.js', 'nl-report.js', 'nl-share.js', 'nl-quiz.js',
   'qbank.js', 'modules.js', 'theme.js', 'disclaimer.js', 'mock-home.js', 'accessibility.js',
   'nl-countdown.js', 'hero-carousel.js', 'carousel-counts.js', 'daily-quiz.js', 'ese.js',
   'nl-test.js', 'section-nav.js', 'plan.js', 'nav-resources.js', 'about.js', 'faq.js',

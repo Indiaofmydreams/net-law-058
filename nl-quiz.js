@@ -103,7 +103,7 @@
       var items = Q.map(function (x, k) {
         var a = ans[k], good = a === x.a; if (r.filter === "bad" && good) return "";
         return '<div class="nlq-r ' + (good ? "ok" : "no") + '"><p class="v">' + (k + 1) + ". " + (good ? "CORRECT" : a < 0 ? "NOT ANSWERED" : "INCORRECT") + '</p><p class="t">' + esc(x.q) + "</p>" +
-          (good ? "" : '<p>Your answer: ' + (a < 0 ? "none" : esc(x.o[a])) + "</p>") + "<p><b>Correct answer: " + esc(x.o[x.a]) + "</b></p>" + (x.e ? '<p class="e">' + esc(x.e) + "</p>" : "") + (window.NLReport ? '<p>' + NLReport.btn(x, (o.title || "Quiz") + " - Q" + (k + 1)) + '</p>' : "") + "</div>";
+          (good ? "" : '<p>Your answer: ' + (a < 0 ? "none" : esc(x.o[a])) + "</p>") + "<p><b>Correct answer: " + esc(x.o[x.a]) + "</b></p>" + (x.e ? '<p class="e">' + esc(x.e) + "</p>" : "") + (window.NLReport || window.NLShare ? '<p>' + (window.NLReport ? NLReport.btn(x, (o.title || "Quiz") + " - Q" + (k + 1)) : "") + (window.NLShare ? " " + NLShare.btn(function () { return NLShare.make.question(x, o.title); }, { icon: 1, aria: "Share this question" }) : "") + '</p>' : "") + "</div>";
       }).join("");
       box.innerHTML = head(o.title) +
         '<div class="nlq-score" role="status"><b>' + r.ok + "</b><span> / " + Q.length + " \u00b7 " + pct + '%</span></div>' +
@@ -111,7 +111,7 @@
         '<p class="nlq-msg">' + msg + "</p>" +
         '<div class="nlq-sw" role="group" aria-label="Which answers to review"><button type="button" data-f="all" aria-pressed="' + (r.filter === "all") + '">All answers</button><button type="button" data-f="bad" aria-pressed="' + (r.filter === "bad") + '">Wrong or skipped</button></div>' +
         (items || '<p class="nlq-msg">Nothing to review. Every answer was correct.</p>') +
-        '<div class="nlq-f"><span class="sp"></span><button type="button" class="nlq-b" data-a="close">Close</button><button type="button" class="nlq-b pri" data-a="again">' + (o.questions ? "Retry this quiz" : "New random " + N) + "</button></div>";
+        '<div class="nlq-f"><span class="sp"></span>' + (window.NLShare ? NLShare.btn(function () { return NLShare.make.score({ what: o.title || o.heading || "UGC NET quiz", score: r.ok + "/" + Q.length, pct: pct, correct: r.ok, wrong: r.wrong, time: mmss(r.ms), kind: "quiz", chips: [r.ok + " correct", r.wrong + " wrong", mmss(r.ms)] }); }, { plain: 1, cls: "nlq-b", label: "Share score", aria: "Share my score" }) : "") + '<button type="button" class="nlq-b" data-a="close">Close</button><button type="button" class="nlq-b pri" data-a="again">' + (o.questions ? "Retry this quiz" : "New random " + N) + "</button></div>";
       var h = box.querySelector(".nlq-score"); h.setAttribute("tabindex", "-1"); h.focus({ preventScroll: false });
     }
 
@@ -134,7 +134,7 @@
       else if (a === "again") newRun(); else if (a === "close") close(true);
     });
     function onKey(e) {
-      if (doc.querySelector(".nlr-ov")) return;           /* the Report dialog is open: let it handle keys */
+      if (doc.querySelector(".nlr-ov,.nls-ov")) return;           /* the Report dialog is open: let it handle keys */
       if (e.key === "Escape") { e.preventDefault(); close(!!result); return; }
       if (e.key === "Tab") {                              /* keep keyboard focus inside the dialog */
         var f = [].filter.call(box.querySelectorAll("button,input,[tabindex]"), function (el) { return !el.disabled && el.tabIndex >= 0 && el.offsetParent !== null; });
