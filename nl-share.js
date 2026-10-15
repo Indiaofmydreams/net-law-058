@@ -71,7 +71,7 @@
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
   function clean(s) { return String(s == null ? "" : s).replace(/\s+/g, " ").trim(); }
   function strip(t) { return clean(t).replace(/^[A-Da-d][.)]\s+/, ""); }
-  function cut(s, n) { s = clean(s); return s.length > n ? s.slice(0, n - 1).replace(/\s+\S*$/, "") + "…" : s; }
+  function cut(s, n) { s = clean(s); return s.length > n ? s.slice(0, n - 1).replace(/\s+\S*$/, "") + "\u2026" : s; }
   function enc(s) { return encodeURIComponent(s); }
   function meta(sel) { var m = doc.querySelector(sel); return m ? clean(m.getAttribute("content")) : ""; }
   function canon() {
@@ -94,20 +94,20 @@
   /* A payload: {kind, heading, title, desc, image, url, text:function(ch)->string (no link), short:string (for X)}.
      text() receives the channel id so WhatsApp can get *bold*. */
   function B(ch, s) { return ch === "whatsapp" ? "*" + s + "*" : s; }
-  function featureBlock(ch) { return SITE.features.map(function (f) { return "✅ " + f; }).join("\n"); }
+  function featureBlock(ch) { return SITE.features.map(function (f) { return "\u2705 " + f; }).join("\n"); }
 
   function site() {
     return {
       kind: "site", heading: "Share NET Law 058", title: SITE.name + ": " + SITE.headline,
       desc: SITE.features.join(". ") + ". " + SITE.promise, url: SITE.url, image: SITE.url + "og-site.png",
-      text: function (ch) { return "📚 " + B(ch, SITE.name + ": " + SITE.headline) + "\n\n" + featureBlock(ch) + "\n\n" + SITE.promise + " 👇"; },
+      text: function (ch) { return "\uD83D\uDCDA " + B(ch, SITE.name + ": " + SITE.headline) + "\n\n" + featureBlock(ch) + "\n\n" + SITE.promise + " \uD83D\uDC47"; },
       short: "Free UGC NET Law (058) & Paper 1 prep: 9,000+ MCQs, 17 mock tests, notes, study plans. No sign-up."
     };
   }
   function pageTitle() {
     var h = doc.querySelector("h1");
     var t = clean(meta('meta[property="og:title"]') || (h && h.textContent) || doc.title);
-    return t.replace(/\s*[|–—-]\s*(UGC NET Law|NET Law 058)\s*$/i, "");
+    return t.replace(/\s*[|\u2013\u2014-]\s*(UGC NET Law|NET Law 058)\s*$/i, "");
   }
   function page() {
     var p = location.pathname.replace(/\/index\.html$/, "/");
@@ -115,7 +115,7 @@
     var t = pageTitle(), d = meta('meta[property="og:description"]') || meta('meta[name="description"]');
     return {
       kind: "page", heading: "Share this page", title: t, desc: d, url: canon(),
-      text: function (ch) { return "📖 " + B(ch, t) + "\n" + cut(d, 150) + "\n\n" + FEATURE_LINE + " 👇"; },
+      text: function (ch) { return "\uD83D\uDCD6 " + B(ch, t) + "\n" + cut(d, 150) + "\n\n" + FEATURE_LINE + " \uD83D\uDC47"; },
       short: cut(t, 110) + ". Free on NET Law 058."
     };
   }
@@ -128,19 +128,19 @@
       kind: "question", heading: "Share this question", title: "Can you answer this UGC NET question?",
       desc: cut(q, 170), url: url, image: SITE.url + "og-mcq.png",
       text: function (ch) {
-        return "🧠 " + B(ch, "UGC NET Law question: can you answer it?") + "\n\n" + cut(q, 380) + "\n\n" +
-          opts.map(function (t, k) { return L[k] + ") " + cut(t, 120); }).join("\n") + "\n\nCheck the answer and explanation, free 👇";
+        return "\uD83E\uDDE0 " + B(ch, "UGC NET Law question: can you answer it?") + "\n\n" + cut(q, 380) + "\n\n" +
+          opts.map(function (t, k) { return L[k] + ") " + cut(t, 120); }).join("\n") + "\n\nCheck the answer and explanation, free \uD83D\uDC47";
       },
       short: "UGC NET question: " + cut(q, 150),
       card: { type: "question", q: q, opts: opts, tag: x.u || x.s || "UGC NET Law question" }, file: "net-law-058-question.png"
     };
   }
   function mock(o) {
-    var line = o.n + " questions · " + o.minutes + " min" + (o.marks ? " · " + o.marks + " marks" : "") + " · free";
+    var line = o.n + " questions \u00B7 " + o.minutes + " min" + (o.marks ? " \u00B7 " + o.marks + " marks" : "") + " \u00B7 free";
     return {
       kind: "mock", heading: "Share this mock test", title: o.title + ": free UGC NET mock test",
       desc: o.desc || "Timed mock test with a question palette, instant result analysis and full answer review. No sign-up.", url: o.url || canon(), image: SITE.url + "og-mock.png",
-      text: function (ch) { return "📝 " + B(ch, o.title) + "\n" + line + "\nTimed paper with instant result analysis and full answer review. No sign-up.\n\nTry it 👇"; },
+      text: function (ch) { return "\uD83D\uDCDD " + B(ch, o.title) + "\n" + line + "\nTimed paper with instant result analysis and full answer review. No sign-up.\n\nTry it \uD83D\uDC47"; },
       short: o.title + ": free timed UGC NET mock test, instant result analysis."
     };
   }
@@ -150,9 +150,9 @@
       kind: o.kind || "score", heading: "Share your score", title: head, url: o.url || canon(), image: (o.kind === "mock" ? SITE.url + "og-mock.png" : SITE.url + "og-site.png"),
       desc: "Think you can beat it? Take it free on " + SITE.name + ": MCQs, mock tests, notes and study plans.",
       text: function (ch) {
-        return "🎯 " + B(ch, head + " on " + SITE.name + "!") + "\n" +
-          (o.correct != null ? "✅ " + o.correct + " correct · ❌ " + o.wrong + " wrong" + (o.time ? " · ⏱ " + o.time : "") + "\n" : "") +
-          "Think you can beat me? Try it free 👇";
+        return "\uD83C\uDFAF " + B(ch, head + " on " + SITE.name + "!") + "\n" +
+          (o.correct != null ? "\u2705 " + o.correct + " correct \u00B7 \u274C " + o.wrong + " wrong" + (o.time ? " \u00B7 \u23F1 " + o.time : "") + "\n" : "") +
+          "Think you can beat me? Try it free \uD83D\uDC47";
       },
       short: head + ". Can you beat it? Free on NET Law 058.",
       card: { top: o.what, big: o.score, sub: o.pct != null ? o.pct + "%" : "", chips: o.chips || [] }, file: "net-law-058-score.png"
@@ -379,7 +379,7 @@
     tiles += '<button type="button" class="nls-t" style="--nlc:#4a5568" data-do="copy"><i>' + IC.copy + "</i><span>Copy link</span></button>";
     if (native) tiles = '<button type="button" class="nls-t" style="--nlc:#2d4aa9" data-do="native"><i>' + IC.more + "</i><span>More apps</span></button>" + tiles;
     var ov = doc.createElement("div"); ov.className = "nls-ov";
-    ov.innerHTML = '<div class="nls-box" role="dialog" aria-modal="true" aria-labelledby="nls-t"><div class="nls-h"><h2 id="nls-t">' + esc(p.heading || "Share") + '</h2><button type="button" class="nls-x" data-do="close" aria-label="Close">✕</button></div>' +
+    ov.innerHTML = '<div class="nls-box" role="dialog" aria-modal="true" aria-labelledby="nls-t"><div class="nls-h"><h2 id="nls-t">' + esc(p.heading || "Share") + '</h2><button type="button" class="nls-x" data-do="close" aria-label="Close">\u2715</button></div>' +
       '<div class="nls-pv' + (img ? "" : " noimg") + '">' + (img ? '<img src="' + esc(img) + '" alt="" loading="lazy">' : "") + "<div><b>" + esc(cut(p.title, 90)) + "</b><small>" + esc(cut(p.desc, 130)) + "</small><em>" + esc(SITE.host) + "</em></div></div>" +
       (canFiles ? picBtn : "") + '<div class="nls-g">' + tiles + "</div>" + (canFiles ? "" : picBtn) +
       (hasPic && !canFiles && canClip ? '<p class="nls-hint">WhatsApp and Telegram: the picture is copied, then paste it in the chat (Ctrl/Cmd + V).</p>' : "") +
@@ -472,7 +472,7 @@
       var dv = clean(bq.innerHTML.replace(/<br\s*\/?>/gi, "\n").replace(/<[^>]+>/g, "")).replace(/\s*\n\s*/g, " "), meaning = tr ? clean(tr.textContent) : "";
       var sec = fig.closest("section,article"), hd = sec && sec.querySelector("h2,h3"), au = hd ? clean(hd.textContent) : "";
       var p = text({ kind: "wisdom", heading: "Share this doha", title: "Wisdom for the journey", desc: meaning, url: SITE.url + "wisdom.html",
-        lines: ["📜 " + dv, meaning, au ? "— " + au : "", "", "From NetLawVerse: free UGC NET Law (058) & Paper 1 preparation 👇"], short: cut(dv, 120) });
+        lines: ["\uD83D\uDCDC " + dv, meaning, au ? "\u2014 " + au : "", "", "From NetLawVerse: free UGC NET Law (058) & Paper 1 preparation \uD83D\uDC47"], short: cut(dv, 120) });
       var w = doc.createElement("div"); w.style.margin = "10px 0 0"; w.innerHTML = btn(p, { label: "Share this doha", aria: "Share this doha" }); fig.appendChild(w);
     });
     /* footer strip: shares the whole site */
