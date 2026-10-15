@@ -15,7 +15,7 @@
    - "Share" button in the site header (shares this page)
    - "Share this page" button in the page hero
    - "Share" button next to "Report this question" on every static MCQ question
-   - "Share NET Law 058 with a friend" strip at the top of the footer
+   - "Share NET Law-Verse with a friend" strip at the top of the footer
 
    FROM CODE
    NLShare.open(payload, opener)      open the sheet
@@ -36,7 +36,7 @@
 
   /* ---------- site facts: the ONE place to edit the feature list that goes out with every share ---------- */
   var SITE = {
-    name: "NET Law 058", brand: "NetLawVerse", url: "https://netlawverse.in/", host: "netlawverse.in",
+    name: "NET Law-Verse", brand: "NET Law-Verse: The Universe of Law", url: "https://netlawverse.in/", host: "netlawverse.in",
     image: "https://netlawverse.in/og-site.png",
     headline: "UGC NET Law (058) & Paper 1: free preparation",
     features: [
@@ -98,7 +98,7 @@
 
   function site() {
     return {
-      kind: "site", heading: "Share NET Law 058", title: SITE.name + ": " + SITE.headline,
+      kind: "site", heading: "Share NET Law-Verse", title: SITE.name + ": " + SITE.headline,
       desc: SITE.features.join(". ") + ". " + SITE.promise, url: SITE.url, image: SITE.url + "og-site.png",
       text: function (ch) { return "\uD83D\uDCDA " + B(ch, SITE.name + ": " + SITE.headline) + "\n\n" + featureBlock(ch) + "\n\n" + SITE.promise + " \uD83D\uDC47"; },
       short: "Free UGC NET Law (058) & Paper 1 prep: 9,000+ MCQs, 17 mock tests, notes, study plans. No sign-up."
@@ -107,7 +107,7 @@
   function pageTitle() {
     var h = doc.querySelector("h1");
     var t = clean(meta('meta[property="og:title"]') || (h && h.textContent) || doc.title);
-    return t.replace(/\s*[|\u2013\u2014-]\s*(UGC NET Law|NET Law 058)\s*$/i, "");
+    return t.replace(/\s*[|\u2013\u2014-]\s*(UGC NET Law|NET Law-Verse(?::\s*The Universe of Law)?)\s*$/i, "");
   }
   function page() {
     var p = location.pathname.replace(/\/index\.html$/, "/");
@@ -116,7 +116,7 @@
     return {
       kind: "page", heading: "Share this page", title: t, desc: d, url: canon(),
       text: function (ch) { return "\uD83D\uDCD6 " + B(ch, t) + "\n" + cut(d, 150) + "\n\n" + FEATURE_LINE + " \uD83D\uDC47"; },
-      short: cut(t, 110) + ". Free on NET Law 058."
+      short: cut(t, 110) + ". Free on NET Law-Verse."
     };
   }
   function question(x, ctx, o) {
@@ -154,7 +154,7 @@
           (o.correct != null ? "\u2705 " + o.correct + " correct \u00B7 \u274C " + o.wrong + " wrong" + (o.time ? " \u00B7 \u23F1 " + o.time : "") + "\n" : "") +
           "Think you can beat me? Try it free \uD83D\uDC47";
       },
-      short: head + ". Can you beat it? Free on NET Law 058.",
+      short: head + ". Can you beat it? Free on NET Law-Verse.",
       card: { top: o.what, big: o.score, sub: o.pct != null ? o.pct + "%" : "", chips: o.chips || [] }, file: "net-law-058-score.png"
     };
   }
@@ -440,8 +440,8 @@
     var tc = doc.querySelector(".site-header .theme-ctl");
     var cc = doc.querySelector(".cc-ctrl");   /* home page: the header is full (nav + clock), so Share goes under the hero instead */
     if (cc && !cc.querySelector(".nls-cc")) {
-      var c = doc.createElement("button"); c.type = "button"; c.className = "nl-shr nls-cc"; c.setAttribute("data-nls-site", ""); c.setAttribute("aria-label", "Share NET Law 058");
-      c.innerHTML = IC.share + "<span>Share NET Law 058</span>"; cc.appendChild(c);
+      var c = doc.createElement("button"); c.type = "button"; c.className = "nl-shr nls-cc"; c.setAttribute("data-nls-site", ""); c.setAttribute("aria-label", "Share NET Law-Verse");
+      c.innerHTML = IC.share + "<span>Share NET Law-Verse</span>"; cc.appendChild(c);
     }
     if (hdr && !cc && !doc.querySelector(".nls-hdr")) {
       var h = doc.createElement("button"); h.type = "button"; h.className = "nl-shr nls-hdr"; h.setAttribute("data-nls-page", ""); h.setAttribute("aria-label", "Share this page"); h.title = "Share this page";
@@ -449,7 +449,7 @@
       if (tc && tc.parentNode) tc.parentNode.insertBefore(h, tc); else hdr.appendChild(h);
     }
     var dd = doc.querySelector("#nav-res .nav-dd-in");
-    if (dd && !dd.querySelector("[data-nls-site]")) { var li = doc.createElement("a"); li.href = "#"; li.setAttribute("data-nls-site", ""); li.textContent = "Share NET Law 058"; dd.appendChild(li); }
+    if (dd && !dd.querySelector("[data-nls-site]")) { var li = doc.createElement("a"); li.href = "#"; li.setAttribute("data-nls-site", ""); li.textContent = "Share NET Law-Verse"; dd.appendChild(li); }
     var hero = doc.querySelector(".faq-hero .container, .pl-hero .container");
     if (hero && !hero.querySelector(".nls-hero")) {
       var w = doc.createElement("div"); w.className = "nls-hero";
@@ -472,7 +472,7 @@
       var dv = clean(bq.innerHTML.replace(/<br\s*\/?>/gi, "\n").replace(/<[^>]+>/g, "")).replace(/\s*\n\s*/g, " "), meaning = tr ? clean(tr.textContent) : "";
       var sec = fig.closest("section,article"), hd = sec && sec.querySelector("h2,h3"), au = hd ? clean(hd.textContent) : "";
       var p = text({ kind: "wisdom", heading: "Share this doha", title: "Wisdom for the journey", desc: meaning, url: SITE.url + "wisdom.html",
-        lines: ["\uD83D\uDCDC " + dv, meaning, au ? "\u2014 " + au : "", "", "From NetLawVerse: free UGC NET Law (058) & Paper 1 preparation \uD83D\uDC47"], short: cut(dv, 120) });
+        lines: ["\uD83D\uDCDC " + dv, meaning, au ? "\u2014 " + au : "", "", "From NET Law-Verse: free UGC NET Law (058) & Paper 1 preparation \uD83D\uDC47"], short: cut(dv, 120) });
       var w = doc.createElement("div"); w.style.margin = "10px 0 0"; w.innerHTML = btn(p, { label: "Share this doha", aria: "Share this doha" }); fig.appendChild(w);
     });
     /* footer strip: shares the whole site */
@@ -480,9 +480,9 @@
     if (ft && !ft.querySelector(".nls-foot")) {
       var sp = site(), box = doc.createElement("div"); box.className = "container nls-foot";
       var links = CH.filter(function (c) { return !c.mobile || isMobile; }).map(function (c) {
-        return '<a class="nls-ci" style="--nlc:' + c.c + '" href="' + esc(chHref(c, sp)) + '" target="_blank" rel="noopener noreferrer" aria-label="Share NET Law 058 on ' + c.name + '" title="' + c.name + '">' + IC[c.id] + "</a>";
+        return '<a class="nls-ci" style="--nlc:' + c.c + '" href="' + esc(chHref(c, sp)) + '" target="_blank" rel="noopener noreferrer" aria-label="Share NET Law-Verse on ' + c.name + '" title="' + c.name + '">' + IC[c.id] + "</a>";
       }).join("");
-      box.innerHTML = '<div><b>Know someone preparing for UGC NET?</b><span class="d">Share NET Law 058 with a friend: free MCQs, mock tests, notes and study plans.</span></div><div class="nls-row">' + links +
+      box.innerHTML = '<div><b>Know someone preparing for UGC NET?</b><span class="d">Share NET Law-Verse with a friend: free MCQs, mock tests, notes and study plans.</span></div><div class="nls-row">' + links +
         '<button type="button" class="nls-ci" style="--nlc:#4a5568" data-nls-site aria-label="More ways to share" title="Copy link or more apps">' + IC.copy + "</button></div>";
       ft.insertBefore(box, ft.firstChild);
     }

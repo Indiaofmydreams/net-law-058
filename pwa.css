@@ -1,4 +1,4 @@
-/* NET Law 058 PWA UI. Uses the site's theme variables (with fallbacks) so every colour theme and dark mode just works. */
+/* NET Law-Verse PWA UI. Uses the site's theme variables (with fallbacks) so every colour theme and dark mode just works. */
 
 /* Nav items. Desktop: entry inside the Resources dropdown. <= 900px: pill at the end of the hamburger menu. */
 .nl-install-nav,.nl-install-dd{display:inline-flex;align-items:center;gap:8px;font:inherit;line-height:1;cursor:pointer;white-space:nowrap}

@@ -1,4 +1,4 @@
-/* NET Law 058: phone + tablet app interface (app.html).
+/* NET Law-Verse: phone + tablet app interface (app.html).
    Colours come from m-themes.css (8 schemes, each light + dark). Light mode pairs a deep band (header, hero) with a light page,
    exactly like the website; dark mode keeps the same structure in the scheme's dark palette. */
 :root{--bad:#c42b4c;--bad-bd:#f0b9c5;--r:18px;--page:var(--soft);--rail:92px;--maxw:1040px;

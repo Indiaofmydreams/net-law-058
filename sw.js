@@ -1,4 +1,4 @@
-/* NET Law 058 service worker.
+/* NET Law-Verse service worker.
  *
  * Goals: installable + works offline, WITHOUT ever getting in the way of site updates.
  *   - Every request goes to the NETWORK FIRST (identical to a site with no service worker).
@@ -16,7 +16,7 @@
  */
 'use strict';
 
-const VERSION = 'v13';
+const VERSION = 'v14';
 const PREFIX = 'nl058-';
 const PAGES = PREFIX + 'pages-' + VERSION;   // site files
 const FONTS = PREFIX + 'fonts-v1';           // Google Fonts (css + woff2)
@@ -29,7 +29,7 @@ const FONT_HOSTS = ['fonts.googleapis.com', 'fonts.gstatic.com'];
 const CORE = [
   './', 'index.html', 'app.html', 'offline.html',
     'manifest.json', 'pwa.js', 'pwa.css',
-  'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon.svg', 'icons/apple-touch-icon.png', 'icons/favicon-32.png',
+  'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon.svg', 'icons/apple-touch-icon.png', 'icons/favicon-32.png', 'icons/favicon-48.png', 'icons/favicon-96.png', 'favicon.ico',
   'styles.css', 'syllabus-pro.css', 'qbank.css', 'disclaimer.css', 'theme.css', 'mock-tests.css',
   'hero-carousel.css', 'section-nav.css', 'plan.css', 'nav-resources.css', 'about.css', 'faq.css',
   'cutoff.css', 'm-app.css', 'm-themes.css', 'unit-page.css', 'watermark.css',

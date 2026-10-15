@@ -1,4 +1,4 @@
-/* nl-nav.js: shared navigation kit for NET Law 058. One file, CSS included, no other dependency.
+/* nl-nav.js: shared navigation kit for NET Law-Verse. One file, CSS included, no other dependency.
 
    EVERY PAGE that loads accessibility.js gets this file automatically, so any new page gets:
      1. a slim vertical reading-progress rail on the right edge (with % and a draggable handle)

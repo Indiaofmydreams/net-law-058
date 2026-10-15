@@ -11,7 +11,7 @@
 (function () {
   "use strict";
   if (window.NLReport) return;
-  var SITE = { email: "netlawverse@gmail.com", name: "NetLawVerse", url: "https://netlawverse.in/" };
+  var SITE = { email: "netlawverse@gmail.com", name: "NET Law-Verse", url: "https://netlawverse.in/" };
   var doc = document, L = "ABCD";
 
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }

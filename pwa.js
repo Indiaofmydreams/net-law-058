@@ -1,4 +1,4 @@
-/* NET Law 058 PWA helper: service-worker registration + "Install App" UI.
+/* NET Law-Verse PWA helper: service-worker registration + "Install App" UI.
  * Loaded (deferred) by every page. Adds nothing visible unless installing is actually possible.
  *
  * Any element with  data-nl-install  or  data-nl-show  is shown/hidden automatically; clicking an
@@ -167,7 +167,7 @@
   var SHARE = '<svg class="nl-ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-label="Share"><path d="M12 15V3M8 7l4-4 4 4M6 11H5a1 1 0 00-1 1v8a1 1 0 001 1h14a1 1 0 001-1v-8a1 1 0 00-1-1h-1"/></svg>';
   var PLUS = '<svg class="nl-ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-label="Plus"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M12 8v8M8 12h8"/></svg>';
   var DOTS = '<b class="nl-k" aria-label="three dots menu">⋮</b>';
-  var NAME = 'NET Law 058';
+  var NAME = 'NET Law-Verse';
 
   var GUIDES = {
     ios: ['iPhone and iPad (Safari)', [

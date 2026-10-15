@@ -1,4 +1,4 @@
-/* NET Law 058 phone app: Wisdom (nīti dohas) and Mission statement.
+/* NET Law-Verse phone app: Wisdom (nīti dohas) and Mission statement.
    Loaded on demand by m-app.js (the home card fetches it quietly after the first screen has drawn).
    Text is the same as wisdom.html and mission.html. */
 (function(){
@@ -10,8 +10,8 @@ var AU=window.NLM_WISDOM.authors,SHORT=['Kabir','Tulsidas','Rahim','Vrind'];
 var ST={f:'all',i:null};
 function all(){var o=[];AU.forEach(function(a,k){a.d.forEach(function(d){o.push({a:a.n,k:k,t:d[0],m:d[1]})})});return o}
 function share(x){
-  if(window.NLShare){NLShare.open(NLShare.make.text({kind:'wisdom',heading:'Share this doha',title:'Wisdom for the journey',desc:x.m,url:'https://netlawverse.in/wisdom.html',lines:['\uD83D\uDCDC '+x.t,'('+x.m+')','— '+x.a,'','From NetLawVerse: free UGC NET Law (058) & Paper 1 preparation \uD83D\uDC47'],short:x.t.split('\n')[0]+' — '+x.a}));return}
-  var txt=x.t+'\n('+x.m+')\n— '+x.a+'\nNetLawVerse · https://netlawverse.in/wisdom.html';
+  if(window.NLShare){NLShare.open(NLShare.make.text({kind:'wisdom',heading:'Share this doha',title:'Wisdom for the journey',desc:x.m,url:'https://netlawverse.in/wisdom.html',lines:['\uD83D\uDCDC '+x.t,'('+x.m+')','— '+x.a,'','From NET Law-Verse: free UGC NET Law (058) & Paper 1 preparation \uD83D\uDC47'],short:x.t.split('\n')[0]+' — '+x.a}));return}
+  var txt=x.t+'\n('+x.m+')\n— '+x.a+'\nNET Law-Verse · https://netlawverse.in/wisdom.html';
   if(navigator.share){navigator.share({text:txt}).catch(function(){});return}
   try{navigator.clipboard.writeText(txt).then(function(){N.toast('Doha copied')},function(){N.toast('Could not copy',1)})}catch(e){N.toast('Could not copy',1)}}
 
@@ -40,8 +40,8 @@ function dc(k){var d=DOHA[k];return'<div class="dc"><p class="dv" lang="hi">'+es
 R.mission=function(){
   N.devFont();
   screen({xnav:'x/mission',top:tbar('Our mission'),body:
-   '<div class="hero-s"><h2>The Universe of Law</h2><p>NetLawVerse: convenience, comfort and affordability for every law aspirant.</p></div>'+
-   '<div class="prose"><p>At NetLawVerse, we sincerely believe that a good legal career should not be out of reach because of distance, distraction or a heavy fee. In this age of technology, no aspirant should be held back by the hurdles of yesterday, such as long commutes, crowded classrooms and rigid timetables. We have humbly set out to bring quality law exam preparation to your screen, so that every aspirant may study with ease and dignity.</p></div>'+
+   '<div class="hero-s"><h2>The Universe of Law</h2><p>NET Law-Verse: convenience, comfort and affordability for every law aspirant.</p></div>'+
+   '<div class="prose"><p>At NET Law-Verse, we sincerely believe that a good legal career should not be out of reach because of distance, distraction or a heavy fee. In this age of technology, no aspirant should be held back by the hurdles of yesterday, such as long commutes, crowded classrooms and rigid timetables. We have humbly set out to bring quality law exam preparation to your screen, so that every aspirant may study with ease and dignity.</p></div>'+
    dc(0)+
    '<div class="pil">'+
     '<div class="pi">'+N.ico('globe','var(--c3-deep)')+'<div><h3>Convenience</h3><p>Convenience is at the heart of our effort. Whether you are travelling, at your desk or relaxing at home, we hope your preparation can travel with you. You may choose when and where to study, without putting your life on hold, so that every moment you invest is well spent.</p></div></div>'+
@@ -52,6 +52,6 @@ R.mission=function(){
    '<p>We have begun our journey with UGC NET Paper 1 and UGC NET Law Paper 2, and we remain committed to growing with the trust of our learners. We warmly welcome your feedback and regard it as a gift, since your suggestions help us improve. We also hold fast to honesty and transparency, offering accurate content and fair pricing without false promises, so that our learners may understand the law and not merely memorise it.</p>'+
    '<p>Above all, we promise to keep learning, keep improving and keep walking beside you with humility and care. Your success is our success, and together we hope to turn aspiration into achievement.</p></div>'+
    dc(2)+
-   '<a class="btn" href="#/subjects" style="margin-top:6px">Start practising free</a><a class="btn ghost" href="mailto:netlawverse@gmail.com?subject=Feedback%20on%20NetLawVerse" style="margin-top:10px">Share your feedback</a>'});
+   '<a class="btn" href="#/subjects" style="margin-top:6px">Start practising free</a><a class="btn ghost" href="mailto:netlawverse@gmail.com?subject=Feedback%20on%20NET%20Law-Verse" style="margin-top:10px">Share your feedback</a>'});
 };
 })();

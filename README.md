@@ -1,4 +1,4 @@
-# NET Law 058 — Website Starter
+# NET Law-Verse — Website Starter
 
 A free static website starter for UGC NET Law Code 058 and Paper 1.
 

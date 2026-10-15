@@ -49,3 +49,21 @@ New in-app screens (lazy-loaded, ~11 KB + ~35 KB, only when opened): #/strategy 
 Install: always-visible strip on every screen until installed (hidden during a running timed test). pwa.js: no <dialog> (broke on older iOS), in-app browser detection + Copy link, fresh iOS steps, NLPWA.visible()/platform().
 Tablets (touch, short side < 1100px, incl. iPadOS) now open app.html: side rail, two-column practice (List view default), centred dialogs, keyboard: arrows and 1-4 / A-D. ?desktop=1 still opts out.
 Files: m-app.css, m-app.js, m-wisdom.js (new), m-extras.js (new), pwa.js, pwa.css, app.html, index.html, sw.js (v12), manifest.json.
+
+----
+Brand + favicon update (16 Oct 2026)
+- Site name is now "NET Law-Verse" everywhere it used to say "NET Law 058" or "NetLawVerse" (titles, headers, footers, JSON-LD, share text, FAQ, manifest, PWA, app view). Exam-name uses such as "UGC NET Law 058" and "Law 058" (subject code) are unchanged on purpose.
+- New lockup "NET Law-Verse" + "THE UNIVERSE OF LAW" in header, footer and app drawer (CSS at the end of styles.css: .brand-txt / .brand-nm / .brand-tag). Footer copyright, home welcome slide, home title, mission page, manifest name and og:/JSON-LD brand carry "NET Law-Verse: The Universe of Law".
+- FAVICON (Google search logo): added /favicon.ico (16/32/48), icons/favicon-48.png, favicon-96.png, favicon-144.png; icon.svg redrawn with paths (no font dependency); every page now declares ico + svg + 48px + 96px + 192px + apple-touch-icon with absolute paths. Icons rebuilt from the NL tile with teal dot.
+- Home page JSON-LD: WebSite/Organization now have alternateName, slogan and an ImageObject logo.
+- og-site/mcq/mock/notes/plan/image.png redrawn with the new name + tagline.
+- sw.js VERSION v14 and pre-cache list updated.
+
+----
+FIX: topic MCQ links went to the 404 page (16 Oct 2026)
+- All unit pages link to /mcq/ugc-net-law/<unit>/ and /mcq/ugc-net-paper-1/<unit>/ (also used by canonicals, sitemap and share links), but the 20 MCQ folders were sitting at the site root (family-law/, teaching-aptitude/ ...), so every topic link and "See all N topic sets" opened a 404.
+- Moved the 10 Law folders into mcq/ugc-net-law/ and the 10 Paper 1 folders into mcq/ugc-net-paper-1/. No link text had to change. If your repo still has the 20 old root folders, delete them after uploading.
+
+----
+Icons redrawn to match the supplied logo design (16 Oct 2026)
+- NL in Outfit SemiBold (drawn as paths), 24% corner radius, notched teal dot, #111d45 to #1f3373 gradient. Files: icons/icon.svg, favicon-32/48/96/144.png, icon-192/512.png, icon-maskable-192/512.png, apple-touch-icon.png, favicon.ico, icon-maskable-512.png, and the six og-*.png preview images.

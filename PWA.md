@@ -1,4 +1,4 @@
-# NET Law 058 as an installable app (PWA)
+# NET Law-Verse as an installable app (PWA)
 
 Static HTML/CSS/JS only. No backend, no build step, no framework.
 

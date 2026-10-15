@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "NET Law 058 – UGC NET Law & Paper 1 Practice",
-  "short_name": "NET Law 058",
-  "description": "Free UGC NET Law (058) and Paper 1 MCQs with explanations, mock tests, notes and study plans.",
+  "name": "NET Law-Verse: The Universe of Law",
+  "short_name": "NetLawVerse",
+  "description": "NET Law-Verse: The Universe of Law. Free UGC NET Law (058) and Paper 1 MCQs with explanations, mock tests, notes and study plans.",
   "start_url": "./?source=pwa",
   "scope": "./",
   "display": "standalone",
