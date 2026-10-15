@@ -330,6 +330,7 @@
     ".nls-b{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;min-height:46px;margin:0 0 8px;padding:0 14px;border-radius:12px;border:1px solid var(--line,#d9e0ec);background:var(--surface,#fff);color:inherit;font:inherit;font-size:.9rem;font-weight:700;cursor:pointer}",
     ".nls-b svg{width:18px;height:18px}.nls-b.pri{background:var(--btn,var(--ac,#2d4aa9));border-color:var(--btn,var(--ac,#2d4aa9));color:var(--nl-on,#fff)}",
     ".nls-d{margin:2px 0 8px;font-size:.8rem}.nls-d summary{cursor:pointer;font-weight:700;color:var(--mut,#5b6670);padding:6px 0}.nls-d pre{margin:6px 0 8px;padding:10px 12px;border-radius:10px;background:var(--chip,#eef1f8);white-space:pre-wrap;word-break:break-word;font:inherit;font-size:.78rem;line-height:1.5;max-height:170px;overflow:auto}",
+    ".nls-hint{margin:0 0 8px;font-size:.74rem;line-height:1.4;color:var(--mut,#5b6670);text-align:center}",
     ".nls-st{margin:6px 0 0;min-height:1.2em;text-align:center;font-size:.8rem;font-weight:700;color:var(--ac,#2d4aa9)}",
     "[data-nls] svg{width:16px;height:16px;flex:none}[data-nls]:not(.nl-shr) svg{margin-right:7px}",
     "@media(max-width:340px){.nls-g{grid-template-columns:repeat(3,1fr)}}"
@@ -363,7 +364,13 @@
     var img = p.image || meta('meta[property="og:image"]') || SITE.image;
     if (img && img.indexOf(SITE.url) === 0 && location.origin !== SITE.url.replace(/\/$/, "")) img = location.origin + "/" + img.slice(SITE.url.length);  /* preview from this origin while testing */
     var shareUrl = withUtm(p.url, "native", p.kind), full = p.text("native") + "\n" + p.url;
-    var hasPic = !!(p.card || (img && /^(site|page|mock)$/.test(p.kind)));
+    var hasPic = !!(p.card || (img && /^(site|page|mock|wisdom)$/.test(p.kind)));
+    var canFiles = false;
+    try { var tf = new File([new Blob(["x"], { type: "image/png" })], "a.png", { type: "image/png" }); canFiles = !!(navigator.canShare && navigator.canShare({ files: [tf] })); } catch (er) {}
+    var canClip = !!(window.ClipboardItem && navigator.clipboard && navigator.clipboard.write);
+    function picBlob() { return p.card ? drawCard(p.card) : fetchPic(img); }
+    var picBtn = hasPic ? '<button type="button" class="nls-b pri" data-do="card">' + IC.image +
+      (canFiles ? "Send image + link (WhatsApp, Instagram...)" : p.card ? "Download image" : "Download preview image") + "</button>" : "";
     function track(ch) { try { doc.dispatchEvent(new CustomEvent("nl-share", { detail: { channel: ch, kind: p.kind, url: p.url } })); } catch (er) {} }
     var native = typeof navigator.share === "function";
     var tiles = CH.filter(function (c) { return !c.mobile || isMobile; }).map(function (c) {
@@ -374,8 +381,8 @@
     var ov = doc.createElement("div"); ov.className = "nls-ov";
     ov.innerHTML = '<div class="nls-box" role="dialog" aria-modal="true" aria-labelledby="nls-t"><div class="nls-h"><h2 id="nls-t">' + esc(p.heading || "Share") + '</h2><button type="button" class="nls-x" data-do="close" aria-label="Close">✕</button></div>' +
       '<div class="nls-pv' + (img ? "" : " noimg") + '">' + (img ? '<img src="' + esc(img) + '" alt="" loading="lazy">' : "") + "<div><b>" + esc(cut(p.title, 90)) + "</b><small>" + esc(cut(p.desc, 130)) + "</small><em>" + esc(SITE.host) + "</em></div></div>" +
-      '<div class="nls-g">' + tiles + "</div>" +
-      (hasPic ? '<button type="button" class="nls-b pri" data-do="card">' + IC.image + (p.card ? "Share as image" : "Share preview image") + "</button>" : "") +
+      (canFiles ? picBtn : "") + '<div class="nls-g">' + tiles + "</div>" + (canFiles ? "" : picBtn) +
+      (hasPic && !canFiles && canClip ? '<p class="nls-hint">WhatsApp and Telegram: the picture is copied, then paste it in the chat (Ctrl/Cmd + V).</p>' : "") +
       '<details class="nls-d"><summary>See the message that goes with the link</summary><pre>' + esc(full) + '</pre><button type="button" class="nls-b" data-do="msg">' + IC.copy + "Copy message with link</button></details>" +
       '<p class="nls-st" role="status" aria-live="polite"></p></div>';
     doc.body.appendChild(ov); openEl = ov;
@@ -384,6 +391,16 @@
     ov.addEventListener("click", function (e) {
       if (e.target === ov) { close(); return; }
       var a = e.target.closest("a[data-ch]");
+      if (a && hasPic && !canFiles && canClip && (a.dataset.ch === "whatsapp" || a.dataset.ch === "telegram")) {
+        e.preventDefault(); track(a.dataset.ch);
+        var href = a.href;
+        try {
+          navigator.clipboard.write([new ClipboardItem({ "image/png": picBlob().then(function (b) { return b.type === "image/png" ? b : b.slice(0, b.size, "image/png"); }) })])
+            .then(function () { note("Picture copied. Paste it in the chat with Ctrl/Cmd + V."); }, function () { note(""); });
+        } catch (er) {}
+        window.open(href, "_blank", "noopener,noreferrer");
+        return;
+      }
       if (a) { try { doc.dispatchEvent(new CustomEvent("nl-share", { detail: { channel: a.dataset.ch, kind: p.kind, url: p.url } })); } catch (er) {} setTimeout(close, 450); return; }
       var b = e.target.closest("[data-do]"); if (!b) return; var d = b.dataset["do"];
       if (d === "close") close();
