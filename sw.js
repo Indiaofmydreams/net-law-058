@@ -16,7 +16,7 @@
  */
 'use strict';
 
-const VERSION = 'v14';
+const VERSION = 'v15';
 const PREFIX = 'nl058-';
 const PAGES = PREFIX + 'pages-' + VERSION;   // site files
 const FONTS = PREFIX + 'fonts-v1';           // Google Fonts (css + woff2)
@@ -32,21 +32,21 @@ const CORE = [
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon.svg', 'icons/apple-touch-icon.png', 'icons/favicon-32.png', 'icons/favicon-48.png', 'icons/favicon-96.png', 'favicon.ico',
   'styles.css', 'syllabus-pro.css', 'qbank.css', 'disclaimer.css', 'theme.css', 'mock-tests.css',
   'hero-carousel.css', 'section-nav.css', 'plan.css', 'nav-resources.css', 'about.css', 'faq.css',
-  'cutoff.css', 'm-app.css', 'm-themes.css', 'unit-page.css', 'watermark.css',
+  'cutoff.css', 'pyq.css', 'm-app.css', 'm-themes.css', 'unit-page.css', 'watermark.css',
   'script.js', 'syllabus-pro.js', 'bank-loader.js', 'nl-nav.js', 'nl-report.js', 'nl-share.js', 'nl-quiz.js',
   'qbank.js', 'modules.js', 'theme.js', 'disclaimer.js', 'mock-home.js', 'accessibility.js',
   'nl-countdown.js', 'hero-carousel.js', 'carousel-counts.js', 'daily-quiz.js', 'ese.js',
   'nl-test.js', 'section-nav.js', 'plan.js', 'nav-resources.js', 'about.js', 'faq.js',
-  'cutoff.js', 'mock-test-engine.js', 'm-app.js', 'm-wisdom.js', 'm-extras.js',
+  'cutoff.js', 'pyq.js', 'mock-test-engine.js', 'm-app.js', 'm-wisdom.js', 'm-extras.js',
 ];
 /* If any of these cannot be fetched the install fails and is retried later. */
 const REQUIRED = ['index.html', 'app.html', 'offline.html'];
 
 /* Learning content (questions, packs, mock tests) is never stored: it is always fetched live, so it needs internet. */
-const LIVE_ONLY = /\/(questions\.(json|js)|packs\.json|pack-[^/]+\.json|exam-dates\.json|syllabus-data\.js|cutoff-data\.js|mock-test-data-\d+\.js|mock-test-\d+\.html)$/;
+const LIVE_ONLY = /\/(questions\.(json|js)|packs\.json|pack-[^/]+\.json|exam-dates\.json|syllabus-data\.js|cutoff-data\.js|pyq-data\.json|mock-test-data-\d+\.js|mock-test-\d+\.html)$/;
 
 /* Content pages (notes, study plans, Paper 1 guide, cut-offs, FAQ, About): live only, offline.html when there is no internet. */
-const LIVE_PAGES = /\/(ugc-net-[^/]+|unit-[^/]+|mock-test-\d+|cutoff|faq|about)\.html$/;
+const LIVE_PAGES = /\/(ugc-net-[^/]+|unit-[^/]+|mock-test-\d+|cutoff|faq|about|pyq)\.html$/;
 
 const stripSearch = (url) => { const u = new URL(url); u.search = ''; u.hash = ''; return u.href; };
 

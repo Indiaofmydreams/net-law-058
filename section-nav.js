@@ -13,7 +13,7 @@
     { id: "mcqs",       label: "MCQs" },
     { id: "paper1",     label: "Paper 1" },
     { id: "notes",      label: "Notes" },
-    { id: "pyq",        label: "PYQs" }
+    { id: "pyq",        label: "PYQs", href: "pyq.html" }
   ];
 
   var LINE_RATIO = 0.3;      // a section counts as "current" once its top passes 30% down the visible area
@@ -43,7 +43,7 @@
       if (!el) return;
       var li = document.createElement("li");
       var a = document.createElement("a");
-      a.href = "#" + s.id;
+      a.href = s.href || ("#" + s.id);
       a.setAttribute("data-nlsn", s.id);
       a.innerHTML = '<span class="nlsn-mark" aria-hidden="true"></span><span class="nlsn-label"></span>';
       a.lastChild.textContent = s.label;
@@ -125,6 +125,7 @@
       var a = e.target.closest ? e.target.closest("a[data-nlsn]") : null;
       if (!a) return;
       if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+      if (a.getAttribute("href").charAt(0) !== "#") return;   /* entries with a real page (PYQs) just navigate */
       e.preventDefault();
       goTo(a.getAttribute("data-nlsn"));
     });

@@ -237,7 +237,7 @@
       : m.days < 90 ? "2 full-length mocks a week" : m.days < 180 ? "1 full-length mock a week" : "a full mock every two weeks, rising to weekly as the exam nears";
     out.push({ title: "Your practice and mock rhythm", find: m.mocksN ? "You have completed " + m.mocksN + " mock" + (m.mocksN === 1 ? "" : "s") + " here. Keep them regular and always review them." : "You have not taken a mock here yet. Take one soon: it shows you the exam, not just your knowledge.",
       pts: ["For your timeline, aim for " + mp + ".", "Daily: " + m.goal + " MCQs, mixing the weakest units with fresh ones.", "After each mock, spend as long reviewing it as you did taking it.", "Use previous-year questions to see how the exam actually asks things.", "Use the 7-minute 20-question test and the Daily Quiz as quick checks between mocks."],
-      acts: [["Take a mock test", "#mock-tests"], ["Previous-year questions", "#pyq"], t20Act] });
+      acts: [["Take a mock test", "#mock-tests"], ["Previous-year questions", "pyq.html"], t20Act] });
 
     /* 9 */
     var spd = g("loss").v === 3 ? "Time is one of your named leaks, so build speed deliberately." : "Speed matters for everyone: it is what turns knowledge into marks.";

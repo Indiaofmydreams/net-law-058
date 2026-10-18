@@ -1,3 +1,8 @@
+PYQ page (18 Oct 2026)
+- New pyq.html (+ pyq.css, pyq.js, pyq-data.json, PYQ-README.txt): 700 UGC NET Law PYQs in one pool, shuffled tests of 20 / 50 / 100 questions, timer = half a minute per question, explanations where available, rationale + disclaimer + links to other sections on the page.
+- Every PYQs link on the site now goes to pyq.html (about 2,000 links on ~470 pages, home nav/footer/carousel/section nav, FAQ, phone app). Home "Coming next" block is now a teaser.
+- sw.js VERSION v15. See PYQ-README.txt for the data format and the full list of changed files.
+
 Share kit + link previews (14 Oct 2026)
 - nl-share.js now loaded on every page (and app.html); see SHARE.md for where Share appears.
 - FIXED: 32 pages (incl. index.html) pointed og:image at icons/og-image.png, which does not exist, so links shared with no picture.
