@@ -3,35 +3,60 @@
    How it works
    - All previous-year questions live in ONE file, pyq-data.json (see PYQ-README.txt for how to add a paper).
      Each item: { q: question, o: [4 options], a: index of correct option (0-3), e: explanation (optional),
-                  s: source paper label, n: note about the paper/key (optional) }
+                  s: source paper label, u: unit code (L1-L10 Law 058, P1-P10 Paper 1), n: note about the paper/key (optional) }
    - The "id" used inside the original files is not used anywhere. Students always see 1, 2, 3 ... in the order drawn.
    - Every test is a fresh random draw of 20, 50 or 100 questions from the whole pool, in random order.
      Questions are drawn from those not yet seen on this device first, so repeated tests cover the whole pool
      before anything repeats (the "seen" list is kept in localStorage and resets itself when the pool is used up).
-   - Timer = half a minute per question: 20 Q = 10 min, 50 Q = 25 min, 100 Q = 50 min. At 0:00 the test is submitted.
-   - Explanations are shown in the review ONLY for questions that have one. Nothing is sent anywhere.
-   To change the lengths or the time rule, edit LENS and SEC_PER_Q below. */
+   - Two clocks (PACES below): "half-time" = 30 seconds a question, "exam pace" = 72 seconds a question
+     (the real paper: 150 questions in 3 hours). At 0:00 the test is submitted.
+   - Result: score, unit-wise breakdown (weakest first, with a Revise link to that unit's notes), full review.
+     Explanations are shown ONLY for questions that have one.
+   - "Retake wrong and skipped": re-runs just the missed questions, reshuffled, on the same clock. Retakes do not change
+     the best score or the seen list.
+   Nothing is sent anywhere. To change lengths or clocks, edit LENS and PACES below. */
 (function () {
   "use strict";
   var host = document.getElementById("pq-app"); if (!host) return;
 
-  var LENS = [20, 50, 100], SEC_PER_Q = 30, KEY = "netlaw-pyq-v1", SEEN = "netlaw-pyq-seen-v1", DATA = "pyq-data.json";
+  var LENS = [20, 50, 100], KEY = "netlaw-pyq-v1", SEEN = "netlaw-pyq-seen-v1", DATA = "pyq-data.json";
+  var PACES = {
+    half: { sps: 30, name: "Half-time", sub: "30 seconds a question", note: "Half a minute per question, so the time is half the number of questions. Tighter than the real exam, so the real pace feels roomy." },
+    exam: { sps: 72, name: "Exam pace", sub: "72 seconds a question", note: "72 seconds per question, the average on the real paper (150 questions in 3 hours). 50 questions = 60 minutes, 100 = 120." }
+  };
+  var UN = {
+    L1: ["Jurisprudence", "ugc-net-law-unit-1-jurisprudence.html"], L2: ["Constitutional & Administrative Law", "ugc-net-law-unit-2-constitutional-administrative-law.html"],
+    L3: ["Public International Law & IHL", "ugc-net-law-unit-3-public-international-law-ihl.html"], L4: ["Law of Crimes", "ugc-net-law-unit-4-law-of-crimes.html"],
+    L5: ["Torts & Consumer Protection", "ugc-net-law-unit-5-torts-consumer-protection.html"], L6: ["Commercial Law", "ugc-net-law-unit-6-commercial-law.html"],
+    L7: ["Family Law", "ugc-net-law-unit-7-family-law.html"], L8: ["Environment & Human Rights", "ugc-net-law-unit-8-environment-human-rights.html"],
+    L9: ["IPR & IT Law", "ugc-net-law-unit-9-ipr-it-law.html"], L10: ["Comparative Public Law", "ugc-net-law-unit-10-comparative-public-law.html"],
+    P1: ["Teaching Aptitude", "ugc-net-paper-1-unit-1-teaching-aptitude.html"], P2: ["Research Aptitude", "ugc-net-paper-1-unit-2-research-aptitude.html"],
+    P3: ["Comprehension", "ugc-net-paper-1-unit-3-comprehension.html"], P4: ["Communication", "ugc-net-paper-1-unit-4-communication.html"],
+    P5: ["Mathematical Reasoning", "ugc-net-paper-1-unit-5-mathematical-reasoning.html"], P6: ["Logical Reasoning", "ugc-net-paper-1-unit-6-logical-reasoning.html"],
+    P7: ["Data Interpretation", "ugc-net-paper-1-unit-7-data-interpretation.html"], P8: ["ICT", "ugc-net-paper-1-unit-8-ict.html"],
+    P9: ["People, Development & Environment", "ugc-net-paper-1-unit-9-people-development-environment.html"], P10: ["Higher Education System", "ugc-net-paper-1-unit-10-higher-education-system.html"]
+  };
+  var ORDER = ["L1", "L2", "L3", "L4", "L5", "L6", "L7", "L8", "L9", "L10", "P1", "P2", "P3", "P4", "P5", "P6", "P7", "P8", "P9", "P10"];
   var doc = document, say = function (m) { if (window.announce) window.announce(m); };
-  var S = { mode: "idle", bank: null, loading: null, N: 50, Q: [], ans: [], i: 0, secs: 0, end: 0, t0: 0, tick: 0, said: {}, confirm: false, res: null, fromFresh: 0 };
+  var S = { mode: "idle", bank: null, loading: null, N: 50, pace: "half", Q: [], ans: [], i: 0, secs: 0, end: 0, t0: 0, tick: 0, said: {}, confirm: false, res: null, fromFresh: 0, retake: false };
 
   /* ---------- helpers ---------- */
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
   function mmss(sec) { sec = Math.max(0, Math.round(sec)); var m = Math.floor(sec / 60), s = sec % 60; return (m < 10 ? "0" : "") + m + ":" + (s < 10 ? "0" : "") + s; }
-  function mins(n) { return Math.round(n * SEC_PER_Q / 60); }
+  function sps() { return PACES[S.pace].sps; }
+  function mins(n) { return Math.round(n * sps() / 60); }
   function shuffle(a) { a = a.slice(); for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)), t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
   function hash(s) { var h = 5381; for (var i = 0; i < s.length; i++) h = ((h << 5) + h + s.charCodeAt(i)) | 0; return (h >>> 0).toString(36); }
   function get(k) { try { return JSON.parse(localStorage.getItem(k) || "null"); } catch (e) { return null; } }
   function put(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+  function bkey(n) { return S.pace === "half" ? String(n) : n + "e"; }          /* "half" keeps the original keys, so earlier best scores survive */
   function left() { return Math.max(0, Math.ceil((S.end - Date.now()) / 1000)); }
   function answered() { return S.ans.filter(function (a) { return a > -1; }).length; }
   function reduced() { return window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches; }
   function toTop() { var el = host.firstElementChild; el && el.scrollIntoView({ behavior: reduced() ? "auto" : "smooth", block: "start" }); }
   function plural(n, w) { return n + " " + w + (n === 1 ? "" : "s"); }
+  function uname(c) { return UN[c] ? UN[c][0] : ""; }
+  function group(c) { return c && c.charAt(0) === "P" ? "Paper 1" : "Law 058"; }
 
   /* ---------- data ---------- */
   function load() {
@@ -43,14 +68,20 @@
     }).catch(function (e) { S.loading = null; throw e; }));
   }
   function fillCounts(arr) {                       /* keep every number on the page in step with the data file */
-    var by = {}, order = [];
-    arr.forEach(function (x) { if (!by[x.s]) { by[x.s] = 0; order.push(x.s); } by[x.s]++; });
-    [].forEach.call(doc.querySelectorAll("[data-pq-total]"), function (el) { el.textContent = arr.length; });
-    [].forEach.call(doc.querySelectorAll("[data-pq-papers]"), function (el) { el.textContent = order.length; });
-    [].forEach.call(doc.querySelectorAll("[data-pq-expl]"), function (el) { el.textContent = arr.filter(function (x) { return x.e; }).length; });
-    [].forEach.call(doc.querySelectorAll("[data-pq-notes]"), function (el) { el.textContent = arr.filter(function (x) { return x.n; }).length; });
+    var by = {}, order = [], un = {};
+    arr.forEach(function (x) { if (!by[x.s]) { by[x.s] = 0; order.push(x.s); } by[x.s]++; if (x.u) un[x.u] = (un[x.u] || 0) + 1; });
+    function setAll(sel, v) { [].forEach.call(doc.querySelectorAll(sel), function (el) { el.textContent = v; }); }
+    setAll("[data-pq-total]", arr.length); setAll("[data-pq-papers]", order.length);
+    setAll("[data-pq-expl]", arr.filter(function (x) { return x.e; }).length);
+    setAll("[data-pq-notes]", arr.filter(function (x) { return x.n; }).length);
+    setAll("[data-pq-units-n]", Object.keys(un).length);
     var list = doc.querySelector("[data-pq-list]");
     if (list) list.innerHTML = order.map(function (s) { return "<li><b>" + by[s] + "</b> " + esc(s) + "</li>"; }).join("");
+    var ul = doc.querySelector("[data-pq-units]");
+    if (ul) ul.innerHTML = ["Law 058", "Paper 1"].map(function (g) {
+      return '<h3 class="pq-gh">' + g + '</h3><ul class="pq-papers">' + ORDER.filter(function (c) { return group(c) === g && un[c]; }).map(function (c) {
+        return '<li><a href="' + UN[c][1] + '">' + esc(UN[c][0]) + " <b>" + un[c] + "</b></a></li>"; }).join("") + "</ul>";
+    }).join("");
   }
   function draw(n) {
     var seen = get(SEEN) || [], set = {}; seen.forEach(function (k) { set[k] = 1; });
@@ -73,10 +104,17 @@
   function coverage() { var s = get(SEEN) || []; return s.length; }
 
   /* ---------- screens ---------- */
+  function bestHTML() {
+    var d = get(KEY) || {}, b = d[bkey(S.N)];
+    return b ? '<span class="pq-best">Your best at ' + S.N + " (" + PACES[S.pace].name.toLowerCase() + "): " + b.best + "/" + S.N + " &middot; " + plural(b.n, "attempt") + "</span>" : "";
+  }
+  function ruleText() {
+    var total = S.bank ? S.bank.length : null;
+    return PACES[S.pace].note + (total ? " Questions are drawn at random from all " + total + " in the pool." : "");
+  }
   function paintIdle(msg) {
     S.mode = "idle"; clearInterval(S.tick);
-    var d = get(KEY) || {}, total = S.bank ? S.bank.length : null;
-    var best = d[S.N] ? '<span class="pq-best">Your best at ' + S.N + ": " + d[S.N].best + "/" + S.N + " &middot; " + plural(d[S.N].n, "attempt") + "</span>" : "";
+    var total = S.bank ? S.bank.length : null;
     var cov = total && coverage() ? '<p class="pq-rule">You have covered ' + coverage() + " of " + total + " questions so far. New tests pick unseen questions first.</p>" : "";
     host.innerHTML = '<section class="pq" aria-labelledby="pq-h">' +
       '<span class="pq-tag">FREE &middot; SHUFFLED PYQ TEST</span>' +
@@ -85,28 +123,42 @@
       '<h3 class="pq-h4" id="pq-len-h">How many questions?</h3>' +
       '<fieldset class="pq-lens" aria-labelledby="pq-len-h"><legend>Number of questions</legend>' +
       LENS.map(function (n) {
-        return '<label class="pq-len"><input type="radio" name="pq-n" value="' + n + '"' + (n === S.N ? " checked" : "") + "><b>" + n + "</b><span>Questions</span><em>" + mins(n) + " minutes</em><small>" + SEC_PER_Q + " seconds each</small></label>";
+        return '<label class="pq-len"><input type="radio" name="pq-n" value="' + n + '"' + (n === S.N ? " checked" : "") + "><b>" + n + "</b><span>Questions</span><em data-t=\"" + n + '">' + mins(n) + " minutes</em></label>";
       }).join("") + "</fieldset>" +
-      '<p class="pq-rule">The timer is half a minute per question, so the time is half the number of questions. ' + (total ? "Questions are drawn at random from all " + total + " in the pool." : "") + "</p>" + cov +
-      '<div class="pq-cta"><button type="button" class="pq-btn pri" data-a="start">Start the test →</button>' + best + "</div>" +
-      (msg ? '<p class="pq-foot" role="alert">' + esc(msg) + "</p>" : '<p class="pq-foot">Instant score &middot; No sign-up &middot; No negative marking. Not affiliated with NTA or UGC.</p>') + "</section>";
+      '<h3 class="pq-h4" id="pq-pace-h">Which clock?</h3>' +
+      '<fieldset class="pq-lens pq-paces" aria-labelledby="pq-pace-h"><legend>Clock</legend>' +
+      Object.keys(PACES).map(function (k) {
+        return '<label class="pq-len pq-pace"><input type="radio" name="pq-p" value="' + k + '"' + (k === S.pace ? " checked" : "") + "><em>" + PACES[k].name + "</em><small>" + PACES[k].sub + "</small></label>";
+      }).join("") + "</fieldset>" +
+      '<p class="pq-rule" id="pq-rule">' + ruleText() + "</p>" + cov +
+      '<div class="pq-cta"><button type="button" class="pq-btn pri" data-a="start">Start the test →</button><span id="pq-bestwrap">' + bestHTML() + "</span></div>" +
+      (msg ? '<p class="pq-foot" role="alert">' + esc(msg) + "</p>" : '<p class="pq-foot">Instant score &middot; Unit-wise result &middot; No sign-up &middot; No negative marking. Not affiliated with NTA or UGC.</p>') + "</section>";
+  }
+  function refreshIdle() {                         /* update the setup card in place (keeps keyboard focus) */
+    [].forEach.call(host.querySelectorAll("[data-t]"), function (el) { el.textContent = mins(+el.getAttribute("data-t")) + " minutes"; });
+    var r = host.querySelector("#pq-rule"); if (r) r.textContent = ruleText();
+    var b = host.querySelector("#pq-bestwrap"); if (b) b.innerHTML = bestHTML();
   }
 
   function start(btn) {
     if (btn) { btn.disabled = true; btn.textContent = "Loading questions…"; }
     load().then(function () {
       var n = Math.min(S.N, S.bank.length), r = draw(n);
-      S.Q = r.Q; S.fromFresh = r.fromFresh; S.ans = S.Q.map(function () { return -1; }); S.i = 0; S.confirm = false; S.res = null; S.said = {};
-      S.secs = S.Q.length * SEC_PER_Q; S.t0 = Date.now(); S.end = S.t0 + S.secs * 1000; S.mode = "run";
-      clearInterval(S.tick); S.tick = setInterval(onTick, 250);
-      paintRun(true); toTop(); say("Test started. " + S.Q.length + " questions, " + mins(S.Q.length) + " minutes.");
+      begin(r.Q, false, r.fromFresh);
     }).catch(function () { paintIdle("Could not load the questions. Check your connection and refresh the page."); });
+  }
+  function begin(Q, retake, fromFresh) {
+    S.Q = Q; S.retake = !!retake; S.fromFresh = fromFresh || 0; S.ans = Q.map(function () { return -1; }); S.i = 0; S.confirm = false; S.res = null; S.said = {};
+    S.secs = Q.length * sps(); S.t0 = Date.now(); S.end = S.t0 + S.secs * 1000; S.mode = "run";
+    clearInterval(S.tick); S.tick = setInterval(onTick, 250);
+    paintRun(true); toTop();
+    say((retake ? "Retake started. " : "Test started. ") + Q.length + " questions, " + Math.round(S.secs / 60) + " minutes.");
   }
 
   function paintRun(focus) {
     var N = S.Q.length, x = S.Q[S.i], last = S.i === N - 1, un = N - answered();
-    host.innerHTML = '<section class="pq" role="group" aria-label="PYQ test in progress">' +
-      '<div class="pq-top"><span class="pq-qn">Question ' + (S.i + 1) + " of " + N + '</span><span class="pq-ans">' + answered() + ' answered</span><span class="pq-clock' + (left() <= 60 ? " warn" : "") + '" aria-hidden="true">⏱ ' + mmss(left()) + "</span></div>" +
+    host.innerHTML = '<section class="pq" role="group" aria-label="' + (S.retake ? "PYQ retake" : "PYQ test") + ' in progress">' +
+      '<div class="pq-top"><span class="pq-qn">' + (S.retake ? "Retake · " : "") + "Question " + (S.i + 1) + " of " + N + '</span><span class="pq-ans">' + answered() + ' answered</span><span class="pq-clock' + (left() <= 60 ? " warn" : "") + '" aria-hidden="true">⏱ ' + mmss(left()) + "</span></div>" +
       '<div class="pq-bar" role="progressbar" aria-label="Test progress" aria-valuemin="0" aria-valuemax="' + N + '" aria-valuenow="' + (S.i + 1) + '"><i style="width:' + ((S.i + 1) / N * 100) + '%"></i></div>' +
       '<p class="pq-q" id="pq-q">' + esc(x.q) + "</p>" +
       '<fieldset class="pq-o" aria-labelledby="pq-q"><legend>Choose one answer</legend>' +
@@ -133,49 +185,64 @@
   function finish(timeUp) {
     if (S.mode !== "run") return;
     clearInterval(S.tick); S.mode = "result";
-    var N = S.Q.length, used = Math.min(S.secs, Math.round((Date.now() - S.t0) / 1000)), ok = 0, tried = 0;
-    S.Q.forEach(function (x, k) { if (S.ans[k] > -1) { tried++; if (S.ans[k] === x.a) ok++; } });
-    var d = get(KEY) || {}, prev = d[N], n = (prev && prev.n || 0) + 1, pb = !prev || ok > prev.best;
-    d[N] = { best: pb ? ok : prev.best, n: n, last: ok }; put(KEY, d);
-    commitSeen();
-    S.res = { ok: ok, wrong: tried - ok, skip: N - tried, sec: used, timeUp: !!timeUp, pb: pb && n > 1, prevBest: prev && prev.best, filter: "all" };
+    var N = S.Q.length, used = Math.min(S.secs, Math.round((Date.now() - S.t0) / 1000)), ok = 0, tried = 0, by = {};
+    S.Q.forEach(function (x, k) {
+      var u = x.u || "", b = by[u] || (by[u] = { ok: 0, n: 0 }); b.n++;
+      if (S.ans[k] > -1) { tried++; if (S.ans[k] === x.a) { ok++; b.ok++; } }
+    });
+    var prev = null, pb = false;
+    if (!S.retake) {                                /* retakes never touch the best score or the seen list */
+      var d = get(KEY) || {}, key = bkey(N); prev = d[key]; var n = (prev && prev.n || 0) + 1; pb = !prev || ok > prev.best;
+      d[key] = { best: pb ? ok : prev.best, n: n, last: ok }; put(KEY, d); commitSeen(); pb = pb && n > 1;
+    }
+    S.res = { ok: ok, wrong: tried - ok, skip: N - tried, sec: used, timeUp: !!timeUp, pb: pb, prevBest: prev && prev.best, filter: "all", by: by, retake: S.retake, total: S.secs };
     paintResult(); toTop();
     say((timeUp ? "Time is up. " : "Test submitted. ") + "You scored " + ok + " out of " + N + ".");
   }
 
+  function missed() { return S.Q.filter(function (x, k) { return S.ans[k] !== x.a; }); }
+
   function paintResult() {
-    var r = S.res, N = S.Q.length, pct = Math.round(r.ok / N * 100);
-    var msg = pct >= 85 ? "Outstanding. You are performing at exam-ready level." : pct >= 65 ? "Strong result. Read the explanations for the ones you missed, then take another shuffle." : pct >= 40 ? "A solid start. Go through the review below, revise those topics, then retake." : "Every attempt builds recall. Study the answers below, then try a fresh shuffle.";
+    var r = S.res, N = S.Q.length, pct = Math.round(r.ok / N * 100), miss = r.wrong + r.skip;
+    var msg = pct >= 85 ? "Outstanding. You are performing at exam-ready level." : pct >= 65 ? "Strong result. Revise the weaker units below, then take another shuffle." : pct >= 40 ? "A solid start. Go through the unit list and the review below, revise, then retake." : "Every attempt builds recall. Study the answers below, then try again.";
+    var rows = Object.keys(r.by).filter(function (u) { return u && UN[u] && r.by[u].n; }).map(function (u) { return { u: u, ok: r.by[u].ok, n: r.by[u].n }; })
+      .sort(function (a, b) { return a.ok / a.n - b.ok / b.n || b.n - a.n; });
+    var units = rows.length ? '<h3 class="pq-h4">Where to focus next</h3><ul class="pq-units">' + rows.map(function (x) {
+      var c = x.ok === x.n ? " hi" : x.ok === 0 ? " lo" : "";
+      return '<li class="' + c.trim() + '"><span class="un"><span>' + esc(uname(x.u)) + ' <i>' + group(x.u) + "</i></span>" +
+        (x.ok < x.n ? '<a href="' + UN[x.u][1] + '">Revise this unit →</a>' : "") + '</span><span class="n">' + x.ok + "/" + x.n + "</span></li>";
+    }).join("") + "</ul>" : "";
     var cnt = { all: N, bad: r.wrong, skip: r.skip };
     var items = S.Q.map(function (x, k) {
       var a = S.ans[k], good = a === x.a, cls = good ? "ok" : a < 0 ? "sk" : "no";
-      if (r.filter === "bad" && a < 0) return ""; if (r.filter === "bad" && good) return "";
+      if (r.filter === "bad" && (a < 0 || good)) return "";
       if (r.filter === "skip" && a > -1) return "";
       return '<div class="pq-r ' + cls + '"><p class="v">' + (k + 1) + ". " + (good ? "CORRECT" : a < 0 ? "NOT ANSWERED" : "INCORRECT") + '</p><p class="t">' + esc(x.q) + "</p>" +
         (good ? "" : "<p>Your answer: " + (a < 0 ? "none" : esc(x.o[a])) + "</p>") + "<p><b>Correct answer: " + esc(x.o[x.a]) + "</b></p>" +
         (x.e ? '<p class="e">' + esc(x.e) + "</p>" : "") +
         (x.n ? '<p class="nt"><b>Note on this question:</b> ' + esc(x.n) + "</p>" : "") +
-        '<p class="src">' + esc(x.s) + "</p>" +
+        '<p class="src">' + (uname(x.u) ? esc(uname(x.u)) + " · " : "") + esc(x.s) + "</p>" +
         (window.NLReport || window.NLShare ? "<p>" + (window.NLReport ? NLReport.btn(x, "PYQ test (" + x.s + ") - Q" + (k + 1)) : "") + (window.NLShare ? " " + NLShare.btn(function () { return NLShare.make.question(x, "UGC NET Law PYQ"); }, { icon: 1, aria: "Share this question" }) : "") + "</p>" : "") + "</div>";
     }).join("");
     var open = host.querySelector("details") && host.querySelector("details").open;
-    host.innerHTML = '<section class="pq" role="group" aria-label="PYQ test result">' +
-      '<span class="pq-tag">' + (r.timeUp ? "TIME&#39;S UP" : "TEST COMPLETE") + " &middot; " + N + " QUESTIONS</span>" +
+    host.innerHTML = '<section class="pq" role="group" aria-label="PYQ ' + (r.retake ? "retake" : "test") + ' result">' +
+      '<span class="pq-tag">' + (r.timeUp ? "TIME&#39;S UP" : r.retake ? "RETAKE COMPLETE" : "TEST COMPLETE") + " &middot; " + N + " QUESTIONS</span>" +
       '<div class="pq-score" role="status"><b>' + r.ok + "</b><span> / " + N + " &middot; " + pct + "%</span></div>" +
       (r.pb ? '<p class="pq-pb">New personal best at ' + N + " questions!</p>" : r.prevBest != null ? '<p class="pq-pb">Your best at ' + N + ": " + Math.max(r.prevBest, r.ok) + "/" + N + "</p>" : "") +
-      '<div class="pq-chips"><span>' + r.ok + " correct</span><span>" + r.wrong + " wrong</span><span>" + r.skip + " skipped</span><span>Time " + mmss(r.sec) + " of " + mmss(S.secs) + "</span><span>" + (r.sec / N).toFixed(0) + " s per question</span></div>" +
-      '<p class="pq-msg">' + msg + "</p>" +
+      '<div class="pq-chips"><span>' + r.ok + " correct</span><span>" + r.wrong + " wrong</span><span>" + r.skip + " skipped</span><span>Time " + mmss(r.sec) + " of " + mmss(r.total) + "</span><span>" + (r.sec / N).toFixed(0) + " s per question</span></div>" +
+      '<p class="pq-msg">' + msg + "</p>" + units +
       '<details class="pq-det"' + (open || r.filter !== "all" ? " open" : "") + '><summary>Review all answers</summary><div class="pq-sw" role="group" aria-label="Which answers to review">' +
       '<button type="button" data-f="all" aria-pressed="' + (r.filter === "all") + '">All (' + cnt.all + ')</button><button type="button" data-f="bad" aria-pressed="' + (r.filter === "bad") + '">Wrong (' + cnt.bad + ')</button><button type="button" data-f="skip" aria-pressed="' + (r.filter === "skip") + '">Skipped (' + cnt.skip + ")</button></div>" +
       (items || '<p class="pq-msg">Nothing here. Well done.</p>') + "</details>" +
-      '<div class="pq-f"><button type="button" class="pq-btn pri" data-a="again">New shuffled test</button><button type="button" class="pq-btn" data-a="change">Change length</button><button type="button" class="pq-btn" data-a="share">Share my score</button></div>' +
-      '<p class="pq-foot">Each new test draws different questions where it can. Scores are kept on this device only.</p></section>';
+      '<div class="pq-f">' + (miss ? '<button type="button" class="pq-btn pri" data-a="retake">Retake my wrong ones (' + miss + ")</button>" : "") +
+      '<button type="button" class="pq-btn' + (miss ? "" : " pri") + '" data-a="again">New shuffled test</button><button type="button" class="pq-btn" data-a="change">Change length or clock</button><button type="button" class="pq-btn" data-a="share">Share my score</button></div>' +
+      '<p class="pq-foot">' + (miss ? "“Wrong ones” means wrong and skipped, reshuffled, on the same clock. " : "") + (r.retake ? "Retakes do not change your best score. " : "") + "Scores are kept on this device only.</p></section>";
   }
 
   function share(opener) {
     var r = S.res, N = S.Q.length, pc = Math.round(r.ok / N * 100);
     if (window.NLShare) {
-      NLShare.open(NLShare.make.score({ what: "UGC NET Law " + N + "-question PYQ test", score: r.ok + "/" + N, pct: pc, correct: r.ok, wrong: r.wrong, time: mmss(r.sec), kind: "quiz", url: location.href.split("#")[0], chips: [r.ok + " correct", r.wrong + " wrong", mmss(r.sec)] }), opener);
+      NLShare.open(NLShare.make.score({ what: "UGC NET Law " + N + "-question PYQ " + (r.retake ? "retake" : "test"), score: r.ok + "/" + N, pct: pc, correct: r.ok, wrong: r.wrong, time: mmss(r.sec), kind: "quiz", url: location.href.split("#")[0], chips: [r.ok + " correct", r.wrong + " wrong", mmss(r.sec)] }), opener);
       return;
     }
     var text = "I scored " + r.ok + "/" + N + " on a shuffled UGC NET Law PYQ test. Try it free:", url = location.href.split("#")[0];
@@ -192,6 +259,7 @@
     var N = S.Q.length;
     if (a === "start") start(b);
     else if (a === "again") { S.mode = "idle"; start(b); }
+    else if (a === "retake") { var m = missed(); if (m.length) begin(shuffle(m), true, 0); }
     else if (a === "change") { paintIdle(); toTop(); }
     else if (a === "next") { S.i = Math.min(N - 1, S.i + 1); S.confirm = false; paintRun(true); }
     else if (a === "prev") { S.i = Math.max(0, S.i - 1); S.confirm = false; paintRun(true); }
@@ -202,7 +270,8 @@
     else if (a === "share") share(b);
   });
   host.addEventListener("change", function (e) {
-    if (e.target.name === "pq-n") { S.N = +e.target.value; var d = get(KEY) || {}, bst = host.querySelector(".pq-best"); if (bst) bst.remove(); if (d[S.N]) { var c = host.querySelector(".pq-cta"); c && c.insertAdjacentHTML("beforeend", '<span class="pq-best">Your best at ' + S.N + ": " + d[S.N].best + "/" + S.N + " &middot; " + plural(d[S.N].n, "attempt") + "</span>"); } return; }
+    if (e.target.name === "pq-n") { S.N = +e.target.value; refreshIdle(); return; }
+    if (e.target.name === "pq-p") { S.pace = e.target.value; refreshIdle(); return; }
     if (e.target.name !== "pq") return;
     S.ans[S.i] = +e.target.value;
     var m = host.querySelector(".pq-ans"); if (m) m.textContent = answered() + " answered";
@@ -216,8 +285,8 @@
     else if (k === "p") { var pv = host.querySelector('[data-a="prev"]'); pv && !pv.disabled && pv.click(); }
   });
 
-  /* ?n=20|50|100 in the link pre-selects a length (e.g. from the home page) */
-  try { var qn = +new URLSearchParams(location.search).get("n"); if (LENS.indexOf(qn) > -1) S.N = qn; } catch (e) {}
+  /* ?n=20|50|100 and ?pace=half|exam in the link pre-select the setup (e.g. from the home page) */
+  try { var qs = new URLSearchParams(location.search), qn = +qs.get("n"), qp = qs.get("pace"); if (LENS.indexOf(qn) > -1) S.N = qn; if (PACES[qp]) S.pace = qp; } catch (e) {}
   paintIdle();
   load().then(function () { if (S.mode === "idle") paintIdle(); }).catch(function () {});   /* warm the data so Start is instant */
 })();

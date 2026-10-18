@@ -1,6 +1,7 @@
 PYQ page (18 Oct 2026)
 - New pyq.html (+ pyq.css, pyq.js, pyq-data.json, PYQ-README.txt): 700 UGC NET Law PYQs in one pool, shuffled tests of 20 / 50 / 100 questions, timer = half a minute per question, explanations where available, rationale + disclaimer + links to other sections on the page.
 - Every PYQs link on the site now goes to pyq.html (about 2,000 links on ~470 pages, home nav/footer/carousel/section nav, FAQ, phone app). Home "Coming next" block is now a teaser.
+- Update (same day): all 700 questions tagged by unit (field "u"); unit-wise result with Revise links; Half-time (30 s) or Exam pace (72 s) clock; "Retake my wrong ones"; unit counts section on the page.
 - sw.js VERSION v15. See PYQ-README.txt for the data format and the full list of changed files.
 
 Share kit + link previews (14 Oct 2026)
