@@ -4,5 +4,8 @@ Allow: /
 Disallow: /pack-
 Disallow: /questions.json
 Disallow: /packs.json
+# Source files for the notes generator
+Disallow: /_notes-data/
+Disallow: /_tools/
 
 Sitemap: https://netlawverse.in/sitemap.xml

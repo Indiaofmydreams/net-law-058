@@ -1,0 +1,138 @@
+{
+ "papers": [
+  {
+   "id": "ugc-net-paper-1",
+   "name": "UGC NET Paper 1",
+   "blurb": "General paper for all candidates: teaching and research aptitude, reasoning, ICT and higher education.",
+   "units": [
+    {
+     "n": 1,
+     "slug": "teaching-aptitude",
+     "name": "Teaching Aptitude",
+     "page": "/ugc-net-paper-1-unit-1-teaching-aptitude.html"
+    },
+    {
+     "n": 2,
+     "slug": "research-aptitude",
+     "name": "Research Aptitude",
+     "page": "/ugc-net-paper-1-unit-2-research-aptitude.html"
+    },
+    {
+     "n": 3,
+     "slug": "comprehension",
+     "name": "Comprehension",
+     "page": "/ugc-net-paper-1-unit-3-comprehension.html"
+    },
+    {
+     "n": 4,
+     "slug": "communication",
+     "name": "Communication",
+     "page": "/ugc-net-paper-1-unit-4-communication.html"
+    },
+    {
+     "n": 5,
+     "slug": "mathematical-reasoning",
+     "name": "Mathematical Reasoning",
+     "page": "/ugc-net-paper-1-unit-5-mathematical-reasoning.html"
+    },
+    {
+     "n": 6,
+     "slug": "logical-reasoning",
+     "name": "Logical Reasoning",
+     "page": "/ugc-net-paper-1-unit-6-logical-reasoning.html"
+    },
+    {
+     "n": 7,
+     "slug": "data-interpretation",
+     "name": "Data Interpretation",
+     "page": "/ugc-net-paper-1-unit-7-data-interpretation.html"
+    },
+    {
+     "n": 8,
+     "slug": "ict",
+     "name": "ICT",
+     "page": "/ugc-net-paper-1-unit-8-ict.html"
+    },
+    {
+     "n": 9,
+     "slug": "people-development-environment",
+     "name": "People, Development & Environment",
+     "page": "/ugc-net-paper-1-unit-9-people-development-environment.html"
+    },
+    {
+     "n": 10,
+     "slug": "higher-education-system",
+     "name": "Higher Education System",
+     "page": "/ugc-net-paper-1-unit-10-higher-education-system.html"
+    }
+   ]
+  },
+  {
+   "id": "ugc-net-law-058",
+   "name": "UGC NET Law (058)",
+   "blurb": "Paper 2, Law: the ten units of the Law 058 syllabus.",
+   "units": [
+    {
+     "n": 1,
+     "slug": "jurisprudence",
+     "name": "Jurisprudence",
+     "page": "/ugc-net-law-unit-1-jurisprudence.html"
+    },
+    {
+     "n": 2,
+     "slug": "constitutional-administrative-law",
+     "name": "Constitutional & Administrative Law",
+     "page": "/ugc-net-law-unit-2-constitutional-administrative-law.html"
+    },
+    {
+     "n": 3,
+     "slug": "public-international-law-ihl",
+     "name": "Public International Law & IHL",
+     "page": "/ugc-net-law-unit-3-public-international-law-ihl.html"
+    },
+    {
+     "n": 4,
+     "slug": "law-of-crimes",
+     "name": "Law of Crimes",
+     "page": "/ugc-net-law-unit-4-law-of-crimes.html"
+    },
+    {
+     "n": 5,
+     "slug": "torts-consumer-protection",
+     "name": "Torts & Consumer Protection",
+     "page": "/ugc-net-law-unit-5-torts-consumer-protection.html"
+    },
+    {
+     "n": 6,
+     "slug": "commercial-law",
+     "name": "Commercial Law",
+     "page": "/ugc-net-law-unit-6-commercial-law.html"
+    },
+    {
+     "n": 7,
+     "slug": "family-law",
+     "name": "Family Law",
+     "page": "/ugc-net-law-unit-7-family-law.html"
+    },
+    {
+     "n": 8,
+     "slug": "environment-human-rights",
+     "name": "Environment & Human Rights",
+     "page": "/ugc-net-law-unit-8-environment-human-rights.html"
+    },
+    {
+     "n": 9,
+     "slug": "ipr-it-law",
+     "name": "IPR & IT Law",
+     "page": "/ugc-net-law-unit-9-ipr-it-law.html"
+    },
+    {
+     "n": 10,
+     "slug": "comparative-public-law",
+     "name": "Comparative Public Law",
+     "page": "/ugc-net-law-unit-10-comparative-public-law.html"
+    }
+   ]
+  }
+ ]
+}

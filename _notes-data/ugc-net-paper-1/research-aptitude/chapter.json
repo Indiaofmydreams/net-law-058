@@ -1,0 +1,791 @@
+{
+ "paper": "ugc-net-paper-1",
+ "paper_name": "UGC NET Paper 1",
+ "unit": 2,
+ "slug": "research-aptitude",
+ "name": "Research Aptitude",
+ "unit_page": "/ugc-net-paper-1-unit-2-research-aptitude.html",
+ "mcq_base": "/mcq/ugc-net-paper-1/research-aptitude/",
+ "mcq_index": "/mcq/ugc-net-paper-1/research-aptitude/",
+ "mcq_total": "700+",
+ "updated": "2026-10-20",
+ "seo_title": "UGC NET Paper 1 Research Aptitude Notes (Unit 2)",
+ "description": "Free detailed UGC NET Paper 1 Research Aptitude notes: concepts, memory points and exam traps for 29 topics and 157 sub-topics, with revision mode.",
+ "intro": "Every sub-topic is explained in the same three parts: Concept (read once, slowly), Memorise (names, dates and one-line facts) and Analyse / traps (the look-alike options that cost marks). Read the chapter in order, or search for any concept and jump straight to it.",
+ "modules": [
+  {
+   "id": "m1",
+   "title": "Research: Meaning, Types and Paradigms",
+   "blurb": "What research is, how it is classified, and the philosophy of knowledge behind it.",
+   "topics": [
+    "1A",
+    "1B",
+    "1C"
+   ]
+  },
+  {
+   "id": "m2",
+   "title": "Research Methods",
+   "blurb": "Experimental, descriptive, historical, qualitative and quantitative methods.",
+   "topics": [
+    "2A",
+    "2B",
+    "2C",
+    "2D",
+    "2E"
+   ]
+  },
+  {
+   "id": "m3",
+   "title": "Steps of Research",
+   "blurb": "From choosing a problem to writing the report: literature, hypotheses, design, sampling, data and analysis.",
+   "topics": [
+    "3A",
+    "3B",
+    "3C",
+    "3D",
+    "3E",
+    "3F",
+    "3G",
+    "3H"
+   ]
+  },
+  {
+   "id": "m4",
+   "title": "Thesis, Article and Academic Writing",
+   "blurb": "Thesis and article structure, referencing styles, seminars and conferences.",
+   "topics": [
+    "4A",
+    "4B",
+    "4C",
+    "4D"
+   ]
+  },
+  {
+   "id": "m5",
+   "title": "ICT in Research",
+   "blurb": "Digital tools for search, data collection, analysis, databases, referencing and plagiarism checking.",
+   "topics": [
+    "5A",
+    "5B",
+    "5C",
+    "5D",
+    "5E",
+    "5F"
+   ]
+  },
+  {
+   "id": "m6",
+   "title": "Research Ethics and Integrity",
+   "blurb": "Ethical principles, plagiarism and academic integrity, consent, confidentiality and honest reporting.",
+   "topics": [
+    "6A",
+    "6B",
+    "6C"
+   ]
+  }
+ ],
+ "topics": {
+  "1A": {
+   "slug": "meaning-and-characteristics-of-research",
+   "mcq": [
+    {
+     "slug": "meaning-and-characteristics-of-research-part-1",
+     "label": "Meaning and Characteristics of Research · Part 1"
+    },
+    {
+     "slug": "meaning-and-characteristics-of-research-part-2",
+     "label": "Meaning and Characteristics of Research · Part 2"
+    }
+   ],
+   "related": [
+    {
+     "id": "1C",
+     "why": "The philosophy behind scientific method, objectivity and value-freedom"
+    },
+    {
+     "id": "1B",
+     "why": "How research is classified once you know what it is"
+    },
+    {
+     "id": "3C",
+     "why": "Where hypotheses enter the research process"
+    }
+   ]
+  },
+  "1B": {
+   "slug": "types-of-research",
+   "mcq": [
+    {
+     "slug": "types-of-research-part-1",
+     "label": "Types of Research · Part 1"
+    },
+    {
+     "slug": "types-of-research-part-2",
+     "label": "Types of Research · Part 2"
+    },
+    {
+     "slug": "types-of-research-part-3",
+     "label": "Types of Research · Part 3"
+    }
+   ],
+   "related": [
+    {
+     "id": "2A",
+     "why": "Experimental research in depth"
+    },
+    {
+     "id": "2D",
+     "why": "Qualitative research in depth"
+    },
+    {
+     "id": "2E",
+     "why": "Quantitative research in depth"
+    }
+   ]
+  },
+  "1C": {
+   "slug": "positivism-and-post-positivism",
+   "mcq": [
+    {
+     "slug": "positivism-and-post-positivism-part-1",
+     "label": "Positivism and Post-positivism · Part 1"
+    },
+    {
+     "slug": "positivism-and-post-positivism-part-2",
+     "label": "Positivism and Post-positivism · Part 2"
+    }
+   ],
+   "related": [
+    {
+     "id": "2E",
+     "why": "Quantitative methods grow out of positivism"
+    },
+    {
+     "id": "2D",
+     "why": "Qualitative methods grow out of interpretivism"
+    },
+    {
+     "id": "3C",
+     "why": "Falsification and hypothesis testing"
+    }
+   ]
+  },
+  "2A": {
+   "slug": "experimental-method",
+   "mcq": [
+    {
+     "slug": "experimental-method",
+     "label": "Experimental Method"
+    }
+   ],
+   "related": [
+    {
+     "id": "3D",
+     "why": "Experimental and quasi-experimental designs compared"
+    },
+    {
+     "id": "3C",
+     "why": "The hypothesis an experiment tests"
+    },
+    {
+     "id": "2E",
+     "why": "Statistics used to analyse experimental data"
+    }
+   ]
+  },
+  "2B": {
+   "slug": "descriptive-method",
+   "mcq": [
+    {
+     "slug": "descriptive-method",
+     "label": "Descriptive Method"
+    }
+   ],
+   "related": [
+    {
+     "id": "3F",
+     "why": "Questionnaires, schedules and tools in full detail"
+    },
+    {
+     "id": "3E",
+     "why": "Sampling for surveys"
+    },
+    {
+     "id": "5B",
+     "why": "Online survey tools"
+    }
+   ]
+  },
+  "2C": {
+   "slug": "historical-method",
+   "mcq": [
+    {
+     "slug": "historical-method",
+     "label": "Historical Method"
+    }
+   ],
+   "related": [
+    {
+     "id": "3B",
+     "why": "Primary and secondary sources of literature"
+    },
+    {
+     "id": "4C",
+     "why": "Citation conventions for documenting sources"
+    },
+    {
+     "id": "2D",
+     "why": "A contrasting, non-numerical approach"
+    }
+   ]
+  },
+  "2D": {
+   "slug": "qualitative-method",
+   "mcq": [
+    {
+     "slug": "qualitative-method",
+     "label": "Qualitative Method"
+    }
+   ],
+   "related": [
+    {
+     "id": "1C",
+     "why": "Interpretivism and constructivism behind it"
+    },
+    {
+     "id": "3F",
+     "why": "Interviews and observation as tools"
+    },
+    {
+     "id": "5C",
+     "why": "Qualitative analysis software"
+    }
+   ]
+  },
+  "2E": {
+   "slug": "quantitative-method",
+   "mcq": [
+    {
+     "slug": "quantitative-method",
+     "label": "Quantitative Method"
+    }
+   ],
+   "related": [
+    {
+     "id": "3G",
+     "why": "Applying statistics to collected data"
+    },
+    {
+     "id": "3E",
+     "why": "Sampling for numerical studies"
+    },
+    {
+     "id": "5C",
+     "why": "Statistical software"
+    }
+   ]
+  },
+  "3A": {
+   "slug": "identifying-and-selecting-a-research-problem",
+   "mcq": [
+    {
+     "slug": "identifying-and-selecting-a-research-problem",
+     "label": "Identifying and Selecting a Research Problem"
+    }
+   ],
+   "related": [
+    {
+     "id": "3B",
+     "why": "The literature review comes next"
+    },
+    {
+     "id": "3C",
+     "why": "A problem statement leads to a hypothesis"
+    },
+    {
+     "id": "1A",
+     "why": "What counts as research at all"
+    }
+   ]
+  },
+  "3B": {
+   "slug": "review-of-literature",
+   "mcq": [
+    {
+     "slug": "review-of-literature",
+     "label": "Review of Literature"
+    }
+   ],
+   "related": [
+    {
+     "id": "5A",
+     "why": "Digital tools for searching literature"
+    },
+    {
+     "id": "5D",
+     "why": "Databases and repositories"
+    },
+    {
+     "id": "4C",
+     "why": "Citing what you review"
+    }
+   ]
+  },
+  "3C": {
+   "slug": "formulating-hypotheses",
+   "mcq": [
+    {
+     "slug": "formulating-hypotheses",
+     "label": "Formulating Hypotheses"
+    }
+   ],
+   "related": [
+    {
+     "id": "3A",
+     "why": "The problem a hypothesis answers"
+    },
+    {
+     "id": "2E",
+     "why": "Tests used to decide on a hypothesis"
+    },
+    {
+     "id": "3D",
+     "why": "Design chosen to test it"
+    }
+   ]
+  },
+  "3D": {
+   "slug": "research-design",
+   "mcq": [
+    {
+     "slug": "research-design",
+     "label": "Research Design"
+    }
+   ],
+   "related": [
+    {
+     "id": "2A",
+     "why": "Experimental method in detail"
+    },
+    {
+     "id": "3E",
+     "why": "Sampling follows design"
+    },
+    {
+     "id": "1B",
+     "why": "Types of research"
+    }
+   ]
+  },
+  "3E": {
+   "slug": "sampling",
+   "mcq": [
+    {
+     "slug": "sampling",
+     "label": "Sampling"
+    }
+   ],
+   "related": [
+    {
+     "id": "3D",
+     "why": "The design that determines the sample"
+    },
+    {
+     "id": "3F",
+     "why": "Tools used to collect from the sample"
+    },
+    {
+     "id": "2B",
+     "why": "Surveys depend on sampling"
+    }
+   ]
+  },
+  "3F": {
+   "slug": "data-collection",
+   "mcq": [
+    {
+     "slug": "data-collection",
+     "label": "Data Collection"
+    }
+   ],
+   "related": [
+    {
+     "id": "2B",
+     "why": "Descriptive and survey methods"
+    },
+    {
+     "id": "5B",
+     "why": "Digital tools for collecting data"
+    },
+    {
+     "id": "3G",
+     "why": "What happens to data afterwards"
+    }
+   ]
+  },
+  "3G": {
+   "slug": "data-analysis-and-interpretation",
+   "mcq": [
+    {
+     "slug": "data-analysis-and-interpretation",
+     "label": "Data Analysis and Interpretation"
+    }
+   ],
+   "related": [
+    {
+     "id": "2E",
+     "why": "Quantitative method and scales of measurement"
+    },
+    {
+     "id": "5C",
+     "why": "Software for analysis"
+    },
+    {
+     "id": "3H",
+     "why": "Reporting the results"
+    }
+   ]
+  },
+  "3H": {
+   "slug": "report-writing",
+   "mcq": [
+    {
+     "slug": "report-writing",
+     "label": "Report Writing"
+    }
+   ],
+   "related": [
+    {
+     "id": "4A",
+     "why": "Thesis format"
+    },
+    {
+     "id": "4C",
+     "why": "Referencing and citation"
+    },
+    {
+     "id": "3G",
+     "why": "The results being reported"
+    }
+   ]
+  },
+  "4A": {
+   "slug": "format-and-structure-of-a-thesis",
+   "mcq": [
+    {
+     "slug": "format-and-structure-of-a-thesis",
+     "label": "Format and Structure of a Thesis"
+    }
+   ],
+   "related": [
+    {
+     "id": "3H",
+     "why": "General report writing"
+    },
+    {
+     "id": "4B",
+     "why": "Writing the same work as an article"
+    },
+    {
+     "id": "4C",
+     "why": "Referencing in a thesis"
+    }
+   ]
+  },
+  "4B": {
+   "slug": "format-and-structure-of-a-research-article",
+   "mcq": [
+    {
+     "slug": "format-and-structure-of-a-research-article",
+     "label": "Format and Structure of a Research Article"
+    }
+   ],
+   "related": [
+    {
+     "id": "4A",
+     "why": "Thesis format for comparison"
+    },
+    {
+     "id": "5D",
+     "why": "Journal indexing and metrics"
+    },
+    {
+     "id": "6A",
+     "why": "Authorship and publication ethics"
+    }
+   ]
+  },
+  "4C": {
+   "slug": "styles-of-referencing-and-citation",
+   "mcq": [
+    {
+     "slug": "styles-of-referencing-and-citation-part-1",
+     "label": "Styles of Referencing and Citation · Part 1"
+    },
+    {
+     "slug": "styles-of-referencing-and-citation-part-2",
+     "label": "Styles of Referencing and Citation · Part 2"
+    }
+   ],
+   "related": [
+    {
+     "id": "5E",
+     "why": "Reference-manager software"
+    },
+    {
+     "id": "6B",
+     "why": "Citation as the cure for plagiarism"
+    },
+    {
+     "id": "3H",
+     "why": "Footnotes and references in reports"
+    }
+   ]
+  },
+  "4D": {
+   "slug": "research-paper-article-workshop-seminar-conference-and-symposium",
+   "mcq": [
+    {
+     "slug": "research-paper-article-workshop-seminar-conference-and-symposium",
+     "label": "Research Paper, Seminar, Conference and Symposium"
+    }
+   ],
+   "related": [
+    {
+     "id": "4B",
+     "why": "Writing the article you present"
+    },
+    {
+     "id": "4A",
+     "why": "Thesis structure"
+    },
+    {
+     "id": "6A",
+     "why": "Publication ethics"
+    }
+   ],
+   "seo_title": "Seminar, Conference and Symposium Notes | UGC NET Paper 1"
+  },
+  "5A": {
+   "slug": "digital-tools-for-literature-search",
+   "mcq": [
+    {
+     "slug": "digital-tools-for-literature-search",
+     "label": "Digital Tools for Literature Search"
+    }
+   ],
+   "related": [
+    {
+     "id": "3B",
+     "why": "The literature review these tools serve"
+    },
+    {
+     "id": "5D",
+     "why": "Databases and repositories"
+    },
+    {
+     "id": "5E",
+     "why": "Managing what you find"
+    }
+   ]
+  },
+  "5B": {
+   "slug": "digital-tools-for-data-collection",
+   "mcq": [
+    {
+     "slug": "digital-tools-for-data-collection",
+     "label": "Digital Tools for Data Collection"
+    }
+   ],
+   "related": [
+    {
+     "id": "3F",
+     "why": "Data collection methods"
+    },
+    {
+     "id": "2B",
+     "why": "Survey research"
+    },
+    {
+     "id": "6C",
+     "why": "Consent and data protection online"
+    }
+   ]
+  },
+  "5C": {
+   "slug": "digital-tools-for-data-analysis",
+   "mcq": [
+    {
+     "slug": "digital-tools-for-data-analysis",
+     "label": "Digital Tools for Data Analysis"
+    }
+   ],
+   "related": [
+    {
+     "id": "3G",
+     "why": "The analysis these tools perform"
+    },
+    {
+     "id": "2E",
+     "why": "Quantitative method"
+    },
+    {
+     "id": "2D",
+     "why": "Qualitative analysis"
+    }
+   ]
+  },
+  "5D": {
+   "slug": "online-databases-and-repositories",
+   "mcq": [
+    {
+     "slug": "online-databases-and-repositories",
+     "label": "Online Databases and Repositories"
+    }
+   ],
+   "related": [
+    {
+     "id": "5A",
+     "why": "Search tools"
+    },
+    {
+     "id": "4B",
+     "why": "Journal metrics and indexing"
+    },
+    {
+     "id": "3B",
+     "why": "Literature sources"
+    }
+   ]
+  },
+  "5E": {
+   "slug": "reference-managers",
+   "mcq": [
+    {
+     "slug": "reference-managers",
+     "label": "Reference Managers"
+    }
+   ],
+   "related": [
+    {
+     "id": "4C",
+     "why": "The referencing styles they format"
+    },
+    {
+     "id": "5F",
+     "why": "Checking similarity after writing"
+    },
+    {
+     "id": "5A",
+     "why": "Collecting references"
+    }
+   ]
+  },
+  "5F": {
+   "slug": "plagiarism-checking-tools",
+   "mcq": [
+    {
+     "slug": "plagiarism-checking-tools",
+     "label": "Plagiarism-checking Tools"
+    }
+   ],
+   "related": [
+    {
+     "id": "6B",
+     "why": "Plagiarism and academic integrity"
+    },
+    {
+     "id": "5E",
+     "why": "Reference managers"
+    },
+    {
+     "id": "4C",
+     "why": "Citation practice"
+    }
+   ]
+  },
+  "6A": {
+   "slug": "ethical-principles-in-research",
+   "mcq": [
+    {
+     "slug": "ethical-principles-in-research-part-1",
+     "label": "Ethical Principles in Research · Part 1"
+    },
+    {
+     "slug": "ethical-principles-in-research-part-2",
+     "label": "Ethical Principles in Research · Part 2"
+    }
+   ],
+   "related": [
+    {
+     "id": "6B",
+     "why": "Plagiarism and integrity in detail"
+    },
+    {
+     "id": "6C",
+     "why": "Consent, confidentiality and honest reporting"
+    },
+    {
+     "id": "4B",
+     "why": "Authorship and publication"
+    }
+   ]
+  },
+  "6B": {
+   "slug": "plagiarism-and-academic-integrity",
+   "mcq": [
+    {
+     "slug": "plagiarism-and-academic-integrity-part-1",
+     "label": "Plagiarism and Academic Integrity · Part 1"
+    },
+    {
+     "slug": "plagiarism-and-academic-integrity-part-2",
+     "label": "Plagiarism and Academic Integrity · Part 2"
+    }
+   ],
+   "related": [
+    {
+     "id": "5F",
+     "why": "Detection software"
+    },
+    {
+     "id": "4C",
+     "why": "Correct citation"
+    },
+    {
+     "id": "6A",
+     "why": "Research misconduct"
+    }
+   ]
+  },
+  "6C": {
+   "slug": "informed-consent-confidentiality-and-honesty-in-reporting-data",
+   "mcq": [
+    {
+     "slug": "informed-consent-confidentiality-and-honesty-in-reporting-data-part-1",
+     "label": "Informed Consent, Confidentiality and Honest Reporting · Part 1"
+    },
+    {
+     "slug": "informed-consent-confidentiality-and-honesty-in-reporting-data-part-2",
+     "label": "Informed Consent, Confidentiality and Honest Reporting · Part 2"
+    }
+   ],
+   "related": [
+    {
+     "id": "6A",
+     "why": "Ethical principles"
+    },
+    {
+     "id": "5B",
+     "why": "Online data collection"
+    },
+    {
+     "id": "3F",
+     "why": "Data collection"
+    }
+   ],
+   "seo_title": "Informed Consent and Confidentiality in Research | UGC NET Notes"
+  }
+ }
+}
