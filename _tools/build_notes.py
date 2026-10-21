@@ -125,11 +125,99 @@ def parse_rapid(part):
     return {"rows": rows, "note": plain(note.group(1)) if note else ""}
 
 
+def md_block(text):
+    return markdown.markdown(text.strip(), extensions=["tables", "sane_lists"]).replace("<table>", '<table class="up-table">')
+
+
+def strong_terms(html_, limit=8, maxlen=30):
+    out = []
+    for t in re.findall(r"<strong>(.+?)</strong>", html_):
+        t = plain(t).rstrip(":;,. ")
+        if 2 < len(t) <= maxlen and t.lower() not in [x.lower() for x in out]:
+            out.append(t)
+    return out[:limit]
+
+
+def parse_prose_sub(num, title, body):
+    """A section written as ordinary prose, lists and tables (no Concept/Memorise/Traps labels)."""
+    html_ = md_block(body)
+    sub = {"num": num, "id": slug_id(num), "title": title, "kind": "prose", "body": html_, "raw": body, "tables": [], "mem": [], "concept": "", "trap": ""}
+    sub["words"] = len(plain(html_).split())
+    m = re.match(r"\s*<p>(.+?)</p>", html_, re.S)
+    if m:
+        sub["summary"] = trunc(first_sentence(plain(m.group(1))), 175)
+    else:  # section opens with a list: summarise by the lead term of each item
+        leads = []
+        for li in re.findall(r"<li>(.*?)</li>", html_, re.S):
+            t = strong_terms(li, 1, 40)
+            if t:
+                leads.append(t[0])
+        sub["summary"] = trunc("Covers " + ", ".join(leads[:5]) + (" and more." if len(leads) > 5 else "."), 175) if leads else trunc(plain(html_), 175)
+    sub["terms"] = strong_terms(html_, 5)
+    sub["revterms"] = strong_terms(html_, 8)
+    return sub
+
+
+def parse_chapters_md(path):
+    """Format 'chapters': ## Chapter N: Title > ### N.M Section, plus ### Memory Capsule / ### Analysis Angle per chapter."""
+    text = path.read_text(encoding="utf-8")
+    topics, order = {}, []
+    for part in re.split(r"\n(?=## )", text):
+        m = re.match(r"## Chapter (\d+)[:.]? (.+)", part)
+        if not m:
+            continue
+        tid, title = m.group(1), m.group(2).strip()
+        subs, capsule, angle = [], [], ""
+        for chunk in re.split(r"\n(?=### )", part)[1:]:
+            head, _, body = chunk.partition("\n")
+            if head.startswith("### Memory Capsule"):
+                capsule = [md_inline(l[2:]) for l in body.splitlines() if l.startswith("- ")]
+            elif head.startswith("### Analysis Angle"):
+                angle = re.sub(r"^<p>(.*)</p>$", r"\1", md_block(body), flags=re.S)
+            else:
+                m2 = re.match(r"### (\d+\.\d+) (.+)", head)
+                num, st = (m2.group(1), m2.group(2).strip()) if m2 else (f"{tid}.{len(subs) + 1}", head[4:].strip())
+                subs.append(parse_prose_sub(num, st, body))
+        topics[tid] = {"id": tid, "title": title, "subs": subs, "capsule": capsule, "angle": angle}
+        order.append(tid)
+    return topics, order
+
+
+def rapid_from_subs(topics, nums):
+    """Rows for the rapid-recall page from list sections such as '**Label:** fact. **Label:** fact.'"""
+    rows = []
+    for n in nums:
+        for t in topics.values():
+            for s in t["subs"]:
+                if s["num"] != n:
+                    continue
+                for line in s["raw"].splitlines():
+                    if not line.startswith("- "):
+                        continue
+                    for lab, txt in re.findall(r"\*\*([^*]+?):\*\*\s*(.*?)(?=\s\*\*[^*]+?:\*\*|$)", line[2:]):
+                        txt = txt.replace("\\<", "&lt;").replace("\\>", "&gt;").strip().rstrip(".")
+                        rows.append((md_inline(lab), md_inline(txt[:1].upper() + txt[1:])))
+    return {"rows": rows, "note": ""}
+
+
+def xref(h, ch):
+    """'Chapter 6' in the source text becomes a link to the matching topic page (the site calls them topics)."""
+    def r(m):
+        t = ch["topics"].get(m.group(1))
+        return f'<a href="{t["url"]}">Topic {m.group(1)}</a>' if t else m.group(0)
+    return re.sub(r"Chapter (\d+)", r, h)
+
+
 def load_chapters():
     chapters = []
     for cj in sorted(DATA.glob("*/*/chapter.json")):
         ch = json.loads(cj.read_text(encoding="utf-8"))
-        topics, order, rapid = parse_content(cj.parent / "content.md")
+        fmt = ch.get("format", "pattern")
+        if fmt == "chapters":
+            topics, order = parse_chapters_md(cj.parent / "content.md")
+            rapid = rapid_from_subs(topics, ch.get("rapid_from", []))
+        else:
+            topics, order, rapid = parse_content(cj.parent / "content.md")
         ch["_dir"] = cj.parent
         ch["rapid"] = rapid
         ch["base"] = f"/notes/{ch['paper']}/{ch['slug']}/"
@@ -147,7 +235,14 @@ def load_chapters():
                 t["url"] = ch["base"] + t["slug"] + ".html"
                 t["words"] = sum(s["words"] for s in t["subs"])
                 t["minutes"] = max(1, math.ceil(t["words"] / WPM))
-                t["n_mem"] = sum(len(s["mem"]) for s in t["subs"])
+                t.setdefault("capsule", [])
+                t.setdefault("angle", "")
+                if fmt == "chapters":
+                    t["n_mem"] = len(t["capsule"])
+                    t["n_trap"] = 1 if t["angle"] else 0
+                else:
+                    t["n_mem"] = sum(len(s["mem"]) for s in t["subs"])
+                    t["n_trap"] = len(t["subs"])
                 ch["topics"][tid] = t
                 flat.append(t)
         ch["flat"] = flat
@@ -156,6 +251,14 @@ def load_chapters():
         ch["n_topics"] = len(flat)
         ch["n_subs"] = sum(len(t["subs"]) for t in flat)
         ch["n_mem"] = sum(t["n_mem"] for t in flat)
+        ch["n_trap"] = sum(t["n_trap"] for t in flat)
+        ch["fmt"] = fmt
+        if fmt == "chapters":  # cross-reference "Chapter N" mentions
+            for t in flat:
+                for s in t["subs"]:
+                    s["body"] = xref(s["body"], ch)
+                t["capsule"] = [xref(c, ch) for c in t["capsule"]]
+                t["angle"] = xref(t["angle"], ch)
         ch["words"] = sum(t["words"] for t in flat)
         ch["minutes"] = sum(t["minutes"] for t in flat)
         for mod in ch["modules"]:
@@ -265,6 +368,12 @@ def search_box(scope=""):
     )
 
 
+def revise_hint(ch):
+    if ch.get("fmt") == "chapters":
+        return "Revision mode hides the full explanations and keeps each section's key terms and lists, plus the Memory Capsule and Analysis Angle. Use it from your second read onward."
+    return "Revision mode hides the Concept paragraphs and keeps the Memorise points, exam traps and tables. Use it from your second read onward."
+
+
 def mode_toggle():
     return (
         '<div class="nt-mode" role="group" aria-label="Reading mode">'
@@ -273,7 +382,7 @@ def mode_toggle():
     )
 
 
-def tree(ch, cur=None):
+def tree(ch, cur=None):  # noqa
     """Right-hand chapter contents: modules > topics, with the current topic expanded into its sub-topics."""
     out = ['<nav class="nt-tree" aria-label="Chapter contents">']
     for mod in ch["modules"]:
@@ -289,7 +398,9 @@ def tree(ch, cur=None):
             )
             if c:
                 out.append('<ol class="nt-subs">' + "".join(
-                    f'<li><a href="#{s["id"]}" data-sub="{s["id"]}"><b>{s["num"].split(".")[1]}</b> {esc(s["title"])}</a></li>' for s in t["subs"]) + "</ol>")
+                    f'<li><a href="#{s["id"]}" data-sub="{s["id"]}"><b>{s["num"].split(".")[1]}</b> {esc(s["title"])}</a></li>' for s in t["subs"])
+                    + ('<li><a href="#capsule"><b>&#9733;</b> Memory Capsule</a></li>' if t["capsule"] else "")
+                    + ('<li><a href="#angle"><b>&#9733;</b> Analysis Angle</a></li>' if t["angle"] else "") + "</ol>")
             out.append("</li>")
         out.append("</ol></details>")
     out.append(f'<p class="nt-tree-foot"><a href="{ch["base"]}rapid-recall.html">Rapid-recall sheet</a> · <a href="{ch["base"]}">Chapter overview</a></p>')
@@ -342,13 +453,17 @@ def build_topic(ch, t, i):
         track.append("</ol></li>")
     track.append("</ol></nav>")
 
-    stats = badges([
-        f'{plural(len(t["subs"]), "sub-topic")}',
-        f'{t["n_mem"]} memory points',
-        f'{len(t["subs"])} exam-trap notes',
-        f'{mins(t["minutes"])} read',
-        f'Topic {i + 1} of {ch["n_topics"]}',
-    ])
+    if ch["fmt"] == "chapters":
+        stats = badges([plural(len(t["subs"]), "sub-topic")] + ([f'{t["n_mem"]}-point Memory Capsule'] if t["capsule"] else []) + (["Analysis Angle"] if t["angle"] else [])
+                       + [f'{mins(t["minutes"])} read', f'Topic {i + 1} of {ch["n_topics"]}'])
+    else:
+        stats = badges([
+            f'{plural(len(t["subs"]), "sub-topic")}',
+            f'{t["n_mem"]} memory points',
+            f'{len(t["subs"])} exam-trap notes',
+            f'{mins(t["minutes"])} read',
+            f'Topic {i + 1} of {ch["n_topics"]}',
+        ])
     hero = f"""<section class="faq-hero up-hero nt-hero">
   <div class="container">
     {cb}
@@ -368,11 +483,25 @@ def build_topic(ch, t, i):
         covers.append(
             f'<li><a href="#{s["id"]}"><span class="nt-num">{s["num"]}</span><span class="nt-map-t"><b>{esc(s["title"])}</b>'
             f'<span class="nt-map-s">{esc(s["summary"])}</span></span></a>{chips_html}</li>')
+    for anchor, lab, txt in (("capsule", "Memory Capsule", "The names, dates and one-line facts from this topic, for daily recall."),
+                             ("angle", "Analysis Angle", "How examiners twist this topic, and how to reason through scenario questions.")):
+        if (anchor == "capsule" and t["capsule"]) or (anchor == "angle" and t["angle"]):
+            covers.append(f'<li><a href="#{anchor}"><span class="nt-num">&#9733;</span><span class="nt-map-t"><b>{lab}</b><span class="nt-map-s">{txt}</span></span></a></li>')
     covers.append("</ol></section>")
 
     body = [mode_toggle().replace('class="nt-mode"', 'class="nt-mode nt-mode-main"'),
-            '<p class="nt-mode-hint">Revision mode hides the Concept paragraphs and keeps the Memorise points, exam traps and tables. Use it from your second read onward.</p>']
+            f'<p class="nt-mode-hint">{revise_hint(ch)}</p>']
     for s in t["subs"]:
+        if s.get("kind") == "prose":
+            rt = "".join(f"<li>{esc(x)}</li>" for x in s["revterms"])
+            body.append(
+                f'<article class="nt-sub nt-prose" id="{s["id"]}" data-sub="{s["id"]}" aria-labelledby="h-{s["id"]}">'
+                f'<h2 id="h-{s["id"]}"><span class="nt-num">{s["num"]}</span>{esc(s["title"])}<a class="nt-anchor" href="#{s["id"]}" aria-label="Link to {esc(s["title"])}">#</a></h2>'
+                f'<div class="nt-revsum"><p class="nt-lbl">In brief</p><p>{esc(s["summary"])}</p>' + (f'<ul class="nt-chips" aria-label="Key terms">{rt}</ul>' if rt else "") + '</div>'
+                f'<div class="nt-pbody">{s["body"]}</div>'
+                f'<p class="nt-sub-foot"><button type="button" class="nt-done" data-done="{s["id"]}" aria-pressed="false">Mark as studied</button>'
+                f'<a href="#covers">Back to topic map &uarr;</a></p></article>')
+            continue
         mem = "".join(f"<li>{m}</li>" for m in s["mem"])
         tabs = "".join(f'<div class="up-tw nt-table">{x}</div>' for x in s["tables"])
         body.append(
@@ -384,6 +513,13 @@ def build_topic(ch, t, i):
             f'<p class="nt-sub-foot"><button type="button" class="nt-done" data-done="{s["id"]}" aria-pressed="false">Mark as studied</button>'
             f'<a href="#covers">Back to topic map &uarr;</a></p></article>')
 
+    if t["capsule"]:
+        body.append('<section class="nt-sub nt-capsule" id="capsule" aria-labelledby="h-capsule"><h2 id="h-capsule"><span class="nt-num">&#9733;</span>Memory Capsule: ' + esc(t["title"]) + '</h2>'
+                    '<div class="nt-mem"><p class="nt-lbl">Memorise</p><ul>' + "".join(f"<li>{c}</li>" for c in t["capsule"]) + '</ul></div></section>')
+    if t["angle"]:
+        body.append('<section class="nt-sub nt-angle" id="angle" aria-labelledby="h-angle"><h2 id="h-angle"><span class="nt-num">&#9733;</span>Analysis Angle: ' + esc(t["title"]) + '</h2>'
+                    '<div class="nt-trap"><p class="nt-lbl">Analyse / traps</p><p>' + t["angle"] + '</p></div>'
+                    '<p class="nt-sub-foot"><a href="#covers">Back to topic map &uarr;</a></p></section>')
     mcq = "".join(f'<li><a href="{ch["mcq_base"]}{m["slug"]}.html">{esc(m["label"])} MCQs</a></li>' for m in t["mcq"])
     practise = (f'<section id="practise" aria-labelledby="h-practise" class="nt-practise"><h2 id="h-practise">Test yourself on {esc(t["title"])}</h2>'
                 f'<p>Practise with free MCQs and answer keys, then return here to fix what you got wrong.</p><ul class="nt-pills">{mcq}'
@@ -456,7 +592,7 @@ def build_chapter(ch):
     url = BASE + ch["base"]
     stats = "".join(f'<li><b>{n}</b><span>{lbl}</span></li>' for n, lbl in [
         (len(ch["modules"]), "modules"), (ch["n_topics"], "topics"), (ch["n_subs"], "sub-topics"), (ch["n_mem"], "memory points"),
-        (ch["n_subs"], "exam-trap notes"), (mins(ch["minutes"]), "to read once")])
+        (ch["n_trap"], "analysis angles" if ch["fmt"] == "chapters" else "exam-trap notes"), (mins(ch["minutes"]), "to read once")])
     hero = f"""<section class="faq-hero up-hero nt-hero">
   <div class="container">
     {cb}
@@ -470,7 +606,11 @@ def build_chapter(ch):
   </div>
 </section>"""
 
-    how = f"""<section id="how" aria-labelledby="h-how"><h2 id="h-how">How to use these notes</h2>
+    if ch.get("how"):
+        how = ('<section id="how" aria-labelledby="h-how"><h2 id="h-how">How to use these notes</h2><ol class="nt-rounds">'
+               + "".join(f'<li><b>{esc(a)}</b><span>{b}</span></li>' for a, b in ch["how"]) + '</ol></section>')
+    else:
+      how = f"""<section id="how" aria-labelledby="h-how"><h2 id="h-how">How to use these notes</h2>
 <ol class="nt-rounds">
 <li><b>Round 1: Read</b><span>Go module by module. Read each <i>Concept</i> once, slowly; it is what lets you answer reasoning and “which statement is correct” questions.</span></li>
 <li><b>Round 2: Revise</b><span>Switch on <i>Revision mode</i> on any topic page. You see only the <i>Memorise</i> points, the <i>Analyse / traps</i> notes and the comparison tables.</span></li>
@@ -542,9 +682,9 @@ def build_rapid(ch):
 </div></section>
 <div class="container up-wrap nt-wrap"><div class="up-main">
 <section aria-labelledby="h-rr"><h2 id="h-rr">High-yield facts</h2>
-<div class="nt-filter"><label class="sr-only" for="nt-rr-q">Filter the sheet</label><input id="nt-rr-q" type="search" placeholder="Filter: e.g. Popper, 2017, FAIR" autocomplete="off"><span id="nt-rr-n" role="status" aria-live="polite"></span></div>
+<div class="nt-filter"><label class="sr-only" for="nt-rr-q">Filter the sheet</label><input id="nt-rr-q" type="search" placeholder="Filter: e.g. {esc(ch.get("rapid_placeholder", "Popper, 2017, FAIR"), True)}" autocomplete="off"><span id="nt-rr-n" role="status" aria-live="polite"></span></div>
 <div class="up-tw"><table class="up-table nt-rr" id="nt-rr"><caption class="sr-only">Rapid-recall facts</caption><thead><tr><th scope="col">Item</th><th scope="col">Key fact</th></tr></thead><tbody>{rows}</tbody></table></div>
-<p class="nt-note">{esc(ch["rapid"]["note"])}</p></section>
+{f'<p class="nt-note">{esc(ch["rapid"]["note"])}</p>' if ch["rapid"]["note"] else ""}</section>
 <section aria-labelledby="h-rr2"><h2 id="h-rr2">Where each fact is explained</h2><p>Open the topic for the concept behind any line you cannot recall.</p>
 <ul class="nt-pills">{"".join(f'<li><a href="{t["url"]}">{t["id"]} {esc(t["title"])}</a></li>' for t in ch["flat"])}</ul></section>
 <p class="up-pn"><a href="{ch["base"]}">&larr; Chapter overview</a><a href="{ch["mcq_index"]}">Practise MCQs &rarr;</a></p>
@@ -585,7 +725,7 @@ def build_hub(chapters):
 {"".join(sections)}
 <section aria-labelledby="h-how"><h2 id="h-how">How every chapter is organised</h2>
 <ol class="nt-rounds"><li><b>Chapter overview</b><span>The whole syllabus map in one page: modules, topics and every sub-topic.</span></li>
-<li><b>Topic page</b><span>Sub-topics in sequence, each with Concept, Memorise and Analyse / traps, plus a contents list on the right.</span></li>
+<li><b>Topic page</b><span>Sub-topics in sequence with memory points and exam traps, plus a contents list on the right.</span></li>
 <li><b>Revision</b><span>Revision mode on every topic page and a rapid-recall sheet for each chapter.</span></li></ol></section>
 <p class="faq-stamp">New chapters are added regularly.</p>
 </div><aside class="up-side nt-side"><div class="up-box"><h2>Also on NET Law-Verse</h2><a href="/mcq/">MCQs by topic</a><a href="/pyq.html">Previous-year questions</a><a href="/#mock-tests">Mock tests</a><a href="/ugc-net-law-preparation-plan.html">Study plans</a><a href="/cutoff.html">Cut-off trend</a></div></aside></div>"""
@@ -600,8 +740,12 @@ def build_search(chapters):
     for ch in chapters:
         for t in ch["flat"]:
             for s in t["subs"]:
-                body = plain(" ".join([s["concept"]] + s["mem"] + [s["trap"]] + s["tables"]))
+                body = plain(" ".join([s["concept"]] + s["mem"] + [s["trap"]] + s["tables"] + [s.get("body", "")]))
                 out.append({"u": f'{t["url"]}#{s["id"]}', "t": f'{s["num"]} {s["title"]}', "p": f'{t["title"]} · {ch["name"]}', "c": ch["slug"], "x": body})
+            if t["capsule"]:
+                out.append({"u": f'{t["url"]}#capsule', "t": f'Memory Capsule: {t["title"]}', "p": f'{t["title"]} · {ch["name"]}', "c": ch["slug"], "x": plain(" ".join(t["capsule"]))})
+            if t["angle"]:
+                out.append({"u": f'{t["url"]}#angle', "t": f'Analysis Angle: {t["title"]}', "p": f'{t["title"]} · {ch["name"]}', "c": ch["slug"], "x": plain(t["angle"])})
     return json.dumps(out, ensure_ascii=False, separators=(",", ":"))
 
 

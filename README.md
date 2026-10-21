@@ -56,7 +56,12 @@ Chapter overview + one page per topic (sub-topics as anchored sections), right-h
     pip install markdown
     python3 _tools/build_notes.py        # run from anywhere; rewrites notes/ and the notes block in sitemap.xml
 
-Add a new chapter (e.g. Teaching Aptitude):
+Two content formats are supported (set `"format"` in chapter.json):
+- default (Research Aptitude): `## TOPIC 1A` > `### 1A.1` with **Concept / Memorise / Analyse / traps** per sub-topic.
+- `"format": "chapters"` (Teaching Aptitude): `## Chapter 1: Title` > `### 1.1 Section` as ordinary prose, lists and tables, plus `### Memory Capsule: Chapter N` and `### Analysis Angle: Chapter N` at the end of each chapter. "Chapter N" mentions become links to the topic page. The rapid-recall page is built from the list sections named in `"rapid_from"` (for example `["10.5","10.2","10.3"]`). Optional chapter.json keys: `how` (the "How to use" steps) and `rapid_placeholder`.
+  Convert the .docx with `pandoc file.docx -t gfm --wrap=none -o content.md`.
+
+Add a new chapter (e.g. Comprehension):
 1. Make `_notes-data/<paper>/<chapter>/` containing
    - `content.md`: your .docx converted with `pandoc file.docx -t gfm --wrap=none -o content.md`. Same pattern as Research Aptitude:
      `## TOPIC 1A – Title`, then `### 1A.1 Sub-topic title`, then `**Concept.**` paragraph, `**Memorise.**` bullets (or a table), `**Analyse / traps.**` paragraph.

@@ -82,6 +82,18 @@
 .nt-revise .nt-concept{display:none}
 .nt-revise .nt-sub{padding-top:16px}
 .nt-revise .nt-mem{background:var(--tint)}
+/* prose-style sections (Teaching Aptitude format): paragraphs, lists, numbered lists */
+.nt-pbody>p{margin:0 0 12px;font-size:1.0125rem;line-height:1.75;color:var(--text)}
+.nt-pbody ul,.nt-pbody ol{margin:0 0 14px;padding-left:22px;line-height:1.7;color:var(--text)}.nt-pbody li{margin:7px 0}
+.nt-pbody strong{color:var(--text)}
+.nt-pbody .up-table{font-size:.875rem}
+.nt-revsum{display:none;margin:0 0 12px}.nt-revsum p:not(.nt-lbl){margin:0;line-height:1.6;color:var(--text2)}
+.nt-revsum .nt-chips{margin:8px 0 0}
+.nt-capsule .nt-mem{margin:0}.nt-angle .nt-trap{margin:0 0 12px}
+.nt-capsule h2 .nt-num,.nt-angle h2 .nt-num{min-width:0}
+.nt-revise .nt-prose .nt-revsum{display:block}
+.nt-revise .nt-prose .nt-pbody>p{display:none}
+.nt-revise .nt-prose .nt-pbody{margin-top:4px}
 
 /* practise / related / prev-next */
 .nt-practise,.nt-related{margin:26px 0}
