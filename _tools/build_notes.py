@@ -191,11 +191,20 @@ def rapid_from_subs(topics, nums):
             for s in t["subs"]:
                 if s["num"] != n:
                     continue
-                for line in s["raw"].splitlines():
+                lines = s["raw"].splitlines()
+                for li, line in enumerate(lines):
+                    if line.startswith("|"):  # table row: first column is the item, the other columns are the fact
+                        nxt = lines[li + 1] if li + 1 < len(lines) else ""
+                        if re.match(r"\|[-\s|:]+\|$", line) or re.match(r"\|[-\s|:]+\|$", nxt):  # separator or header row
+                            continue
+                        cells = [c.strip() for c in line.strip().strip("|").split("|")]
+                        if len(cells) in (2, 3) and cells[0] and cells[1]:
+                            rows.append((md_inline(cells[0]), md_inline("; ".join(c for c in cells[1:] if c))))
+                        continue
                     if not line.startswith("- "):
                         continue
                     for lab, txt in re.findall(r"\*\*([^*]+?):\*\*\s*(.*?)(?=\s\*\*[^*]+?:\*\*|$)", line[2:]):
-                        txt = txt.replace("\\<", "&lt;").replace("\\>", "&gt;").strip().rstrip(".")
+                        txt = txt.replace("\\<", "&lt;").replace("\\>", "&gt;").strip().rstrip(".;")
                         rows.append((md_inline(lab), md_inline(txt[:1].upper() + txt[1:])))
     return {"rows": rows, "note": ""}
 
@@ -219,6 +228,8 @@ def load_chapters():
         else:
             topics, order, rapid = parse_content(cj.parent / "content.md")
         ch["_dir"] = cj.parent
+        if ch.get("search_placeholder"):
+            PLACEHOLDER[ch["slug"]] = ch["search_placeholder"]
         ch["rapid"] = rapid
         ch["base"] = f"/notes/{ch['paper']}/{ch['slug']}/"
         # merge content + structure; validate
@@ -359,18 +370,27 @@ def mins(m):
     return f"{m} min" if m < 90 else f"{m / 60:.1f} h"
 
 
+PLACEHOLDER = {}  # chapter slug -> search hint, filled from chapter.json ("search_placeholder")
+
+
 def search_box(scope=""):
+    ph = esc(PLACEHOLDER.get(scope, "Find a concept: e.g. Kuhn, Type I error, APA"), True)
     return (
         f'<div class="nt-search" data-index="/notes/search-index.json" data-scope="{scope}">'
         '<label class="sr-only" for="nt-q">Search the notes</label>'
-        '<input id="nt-q" type="search" placeholder="Find a concept: e.g. Kuhn, Type I error, APA" autocomplete="off" spellcheck="false">'
+        f'<input id="nt-q" type="search" placeholder="{ph}" autocomplete="off" spellcheck="false">'
         '<ul class="nt-results" hidden></ul><p class="sr-only" role="status" aria-live="polite"></p></div>'
     )
 
 
 def revise_hint(ch):
     if ch.get("fmt") == "chapters":
-        return "Revision mode hides the full explanations and keeps each section's key terms and lists, plus the Memory Capsule and Analysis Angle. Use it from your second read onward."
+        cap = any(t["capsule"] for t in ch["flat"])
+        ang = any(t["angle"] for t in ch["flat"])
+        if cap and ang:
+            return "Revision mode hides the full explanations and keeps each section's key terms and lists, plus the Memory Capsule and Analysis Angle. Use it from your second read onward."
+        extra = " and the Analysis Angle" if ang else (" and the Memory Capsule" if cap else "")
+        return "Revision mode hides the full explanations and keeps each section's key terms, lists and tables" + extra + ". Use it from your second read onward."
     return "Revision mode hides the Concept paragraphs and keeps the Memorise points, exam traps and tables. Use it from your second read onward."
 
 
@@ -590,9 +610,11 @@ def build_chapter(ch):
     first = ch["flat"][0]
     cb, cb_ld = crumbs([("Home", "/"), ("Study notes", "/notes/"), (ch["name"], None)])
     url = BASE + ch["base"]
+    hide = ch.get("hide_stats", [])
     stats = "".join(f'<li><b>{n}</b><span>{lbl}</span></li>' for n, lbl in [
         (len(ch["modules"]), "modules"), (ch["n_topics"], "topics"), (ch["n_subs"], "sub-topics"), (ch["n_mem"], "memory points"),
-        (ch["n_trap"], "analysis angles" if ch["fmt"] == "chapters" else "exam-trap notes"), (mins(ch["minutes"]), "to read once")])
+        (ch["n_trap"], "analysis angles" if ch["fmt"] == "chapters" else "exam-trap notes"), (mins(ch["minutes"]), "to read once")]
+        if lbl not in hide and not (n == 0 and lbl in ("memory points", "analysis angles", "exam-trap notes")))
     hero = f"""<section class="faq-hero up-hero nt-hero">
   <div class="container">
     {cb}
@@ -626,7 +648,7 @@ def build_chapter(ch):
             m1 = t["mcq"][0]
             cards.append(
                 f'<article class="nt-topic" id="t-{t["id"].lower()}"><h3><a href="{t["url"]}" data-topic="{t["id"]}" data-n="{len(t["subs"])}"><span class="nt-num">{t["id"]}</span>{esc(t["title"])}</a></h3>'
-                f'<p class="nt-meta">{plural(len(t["subs"]), "sub-topic")} · {t["n_mem"]} memory points · {mins(t["minutes"])}</p>'
+                f'<p class="nt-meta">{plural(len(t["subs"]), "sub-topic")} · {(str(t["n_mem"]) + " memory points · ") if t["n_mem"] and "memory points" not in ch.get("hide_stats", []) else ""}{mins(t["minutes"])}</p>'
                 f'<details open><summary>Sub-topics</summary><ul class="nt-sublist">{subs}</ul></details>'
                 f'<p class="nt-links"><a href="{t["url"]}">Read</a><a href="{t["url"]}#revise" data-revise>Revise</a><a href="{ch["mcq_base"]}{m1["slug"]}.html">MCQs</a></p></article>')
         mods.append(

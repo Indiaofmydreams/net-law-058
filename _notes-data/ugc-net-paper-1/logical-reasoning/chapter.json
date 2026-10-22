@@ -1,0 +1,660 @@
+{
+ "format": "chapters",
+ "paper": "ugc-net-paper-1",
+ "paper_name": "UGC NET Paper 1",
+ "unit": 6,
+ "slug": "logical-reasoning",
+ "name": "Logical Reasoning",
+ "unit_page": "/ugc-net-paper-1-unit-6-logical-reasoning.html",
+ "mcq_base": "/mcq/ugc-net-paper-1/logical-reasoning/",
+ "mcq_index": "/mcq/ugc-net-paper-1/logical-reasoning/",
+ "mcq_total": "620+",
+ "updated": "2026-10-21",
+ "seo_title": "UGC NET Paper 1 Logical Reasoning Notes (Unit 6): Free Study Notes",
+ "description": "Free UGC NET Paper 1 Logical Reasoning notes: 19 topics, 73 sub-topics on syllogism, fallacies, Venn diagrams, Indian logic, vyapti and hetvabhasas.",
+ "intro": "Logical Reasoning has two halves. Part A is Western logic: arguments, categorical propositions, syllogisms, fallacies, language, induction and Venn diagrams (Topics 1 to 8). Part B is Indian logic: the pramanas, anumana, vyapti and hetvabhasas, then the remaining pramanas and theories of error (Topics 9 to 18). Typically 4 to 6 questions come from this unit, and they are rule-based, so they are among the most scoring. Topic 19 gives a one-page memory sheet and exam strategy.",
+ "how": [
+  [
+   "Round 1: Read",
+   "Go in order: Western logic first (the rules), then Indian logic (the schools and the pramanas). Each section gives the definition, the rule, an example and the common trap."
+  ],
+  [
+   "Round 2: Revise",
+   "Switch on <i>Revision mode</i> on any topic page to see each section's key terms, lists and tables without the explanations. Rewrite the school-wise tables from memory the next day."
+  ],
+  [
+   "Last week: Recall",
+   "Use the <a href=\"/notes/ugc-net-paper-1/logical-reasoning/rapid-recall.html\">rapid-recall sheet</a>, the strategy notes in Topic 19 (memory, concept and analysis questions), then practise MCQs topic by topic and return to the matching section for every error."
+  ]
+ ],
+ "rapid_from": [
+  "19.1"
+ ],
+ "rapid_placeholder": "Barbara, vyapti, Prabhakara",
+ "search_placeholder": "Find a concept: e.g. syllogism, vyapti, hetvabhasa, Barbara",
+ "hide_stats": [
+  "memory points"
+ ],
+ "modules": [
+  {
+   "id": "m1",
+   "title": "Western Logic: Arguments and Categorical Reasoning",
+   "blurb": "Statements, arguments and validity, categorical propositions and the categorical syllogism.",
+   "topics": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "id": "m2",
+   "title": "Western Logic: Argument Forms, Fallacies and Language",
+   "blurb": "Conditional and disjunctive arguments, formal and informal fallacies, and how terms and definitions work.",
+   "topics": [
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  {
+   "id": "m3",
+   "title": "Western Logic: Induction, Analogy and Venn Diagrams",
+   "blurb": "Mill's methods, arguments from analogy, and diagram tests of validity.",
+   "topics": [
+    "7",
+    "8"
+   ]
+  },
+  {
+   "id": "m4",
+   "title": "Indian Logic: Knowledge and Perception",
+   "blurb": "The theory of the pramanas and the first pramana, pratyaksha.",
+   "topics": [
+    "9",
+    "10"
+   ]
+  },
+  {
+   "id": "m5",
+   "title": "Indian Logic: Inference",
+   "blurb": "Anumana, vyapti and the hetvabhasas: the heart of Nyaya logic.",
+   "topics": [
+    "11",
+    "12",
+    "13"
+   ]
+  },
+  {
+   "id": "m6",
+   "title": "Indian Logic: Other Pramanas and Theories of Error",
+   "blurb": "Upamana, shabda, arthapatti, anupalabdhi and the theories of illusion.",
+   "topics": [
+    "14",
+    "15",
+    "16",
+    "17",
+    "18"
+   ]
+  },
+  {
+   "id": "m7",
+   "title": "Quick Revision and Exam Strategy",
+   "blurb": "A one-page memory sheet, how to approach each question type, and the commonest traps.",
+   "topics": [
+    "19"
+   ]
+  }
+ ],
+ "topics": {
+  "1": {
+   "slug": "argument-truth-validity",
+   "seo_title": "Argument, Truth and Validity Notes | UGC NET Logical Reasoning",
+   "description": "UGC NET Paper 1 Logical Reasoning notes on statements, arguments, truth, validity, soundness, and deductive versus inductive reasoning.",
+   "lead": "Start here. What logic studies, statements and arguments, how truth differs from validity and soundness, and deductive versus inductive reasoning.",
+   "mcq": [
+    {
+     "slug": "understanding-the-structure-of-arguments-deductive-and-inductive-reasoning-part-1",
+     "label": "Arguments, Deductive and Inductive Reasoning (Part 1)"
+    },
+    {
+     "slug": "understanding-the-structure-of-arguments-deductive-and-inductive-reasoning-part-2",
+     "label": "Arguments, Deductive and Inductive Reasoning (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "2",
+     "why": "Categorical propositions are the building blocks of arguments"
+    },
+    {
+     "id": "3",
+     "why": "The syllogism is the classic deductive argument"
+    },
+    {
+     "id": "7",
+     "why": "Induction and analogy in detail"
+    }
+   ]
+  },
+  "2": {
+   "slug": "categorical-propositions",
+   "seo_title": "Categorical Propositions: A, E, I, O Notes | UGC NET Logic",
+   "description": "UGC NET Paper 1 notes on categorical propositions: A, E, I, O forms, the square of opposition, existential import, conversion, obversion and contraposition.",
+   "lead": "The four forms A, E, I and O, the traditional square of opposition, existential import, and immediate inference by conversion, obversion and contraposition.",
+   "mcq": [
+    {
+     "slug": "understanding-the-structure-of-arguments-deductive-and-inductive-reasoning-part-3",
+     "label": "Arguments, Deductive and Inductive Reasoning (Part 3)"
+    },
+    {
+     "slug": "additional-concept-questions-logical-reasoning-part-1",
+     "label": "Additional Concept Questions (Part 1)"
+    }
+   ],
+   "related": [
+    {
+     "id": "1",
+     "why": "Statements, arguments and validity"
+    },
+    {
+     "id": "3",
+     "why": "Syllogisms are built from three categorical propositions"
+    },
+    {
+     "id": "8",
+     "why": "Venn diagrams show what each proposition says"
+    }
+   ]
+  },
+  "3": {
+   "slug": "categorical-syllogism",
+   "seo_title": "Categorical Syllogism Notes: Moods, Figures | UGC NET Paper 1",
+   "description": "UGC NET Paper 1 notes on the categorical syllogism: structure, mood and figure, valid moods with mnemonic names (Barbara, Celarent) and the rules and fallacies.",
+   "lead": "Structure of the syllogism, mood and figure, the valid moods and their mnemonic names, and the syllogism rules with the fallacy each one prevents.",
+   "mcq": [
+    {
+     "slug": "understanding-the-structure-of-arguments-deductive-and-inductive-reasoning-part-4",
+     "label": "Arguments, Deductive and Inductive Reasoning (Part 4)"
+    },
+    {
+     "slug": "additional-concept-questions-logical-reasoning-part-2",
+     "label": "Additional Concept Questions (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "2",
+     "why": "Categorical propositions and immediate inference"
+    },
+    {
+     "id": "8",
+     "why": "Venn diagrams test the validity of syllogisms"
+    },
+    {
+     "id": "5",
+     "why": "Breaking a rule creates a formal fallacy"
+    }
+   ]
+  },
+  "4": {
+   "slug": "hypothetical-disjunctive-dilemma-sorites",
+   "seo_title": "Hypothetical Syllogism, Dilemma, Sorites Notes | UGC NET",
+   "description": "UGC NET Paper 1 notes on hypothetical and disjunctive syllogisms, dilemma, sorites, enthymeme, the laws of thought and basic truth-functional logic.",
+   "lead": "Conditional and disjunctive arguments, dilemma, sorites and enthymeme, the three laws of thought, and the truth tables for basic connectives.",
+   "mcq": [
+    {
+     "slug": "additional-concept-questions-logical-reasoning-part-3",
+     "label": "Additional Concept Questions (Part 3)"
+    },
+    {
+     "slug": "understanding-the-structure-of-arguments-deductive-and-inductive-reasoning-part-2",
+     "label": "Arguments, Deductive and Inductive Reasoning (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "3",
+     "why": "The categorical syllogism: the other main argument form"
+    },
+    {
+     "id": "5",
+     "why": "Affirming the consequent and denying the antecedent are fallacies"
+    },
+    {
+     "id": "1",
+     "why": "Validity and soundness"
+    }
+   ]
+  },
+  "5": {
+   "slug": "fallacies",
+   "seo_title": "Fallacies Notes: Relevance, Presumption, Ambiguity | UGC NET",
+   "description": "UGC NET Paper 1 notes on formal and informal fallacies: fallacies of relevance, presumption and ambiguity with Latin names, meanings and examples.",
+   "lead": "Formal versus informal fallacies, then the three informal families with their Latin names and examples: relevance, presumption and ambiguity.",
+   "mcq": [
+    {
+     "slug": "additional-concept-questions-logical-reasoning-part-4",
+     "label": "Additional Concept Questions (Part 4)"
+    },
+    {
+     "slug": "understanding-the-structure-of-arguments-deductive-and-inductive-reasoning-part-3",
+     "label": "Arguments, Deductive and Inductive Reasoning (Part 3)"
+    }
+   ],
+   "related": [
+    {
+     "id": "3",
+     "why": "Formal fallacies break the syllogism rules"
+    },
+    {
+     "id": "6",
+     "why": "Fallacies of ambiguity come from how language is used"
+    },
+    {
+     "id": "13",
+     "why": "Indian counterpart: hetvabhasas, the fallacies of inference"
+    }
+   ]
+  },
+  "6": {
+   "slug": "language-terms-definitions",
+   "seo_title": "Language, Terms and Definition Notes | UGC NET Logical Reasoning",
+   "description": "UGC NET Paper 1 notes on the uses of language, connotation and denotation, kinds of terms, definition and the five predicables of Porphyry.",
+   "lead": "The three uses of language, connotation versus denotation, kinds of terms, how to define, rules of definition, and Porphyry's five predicables.",
+   "mcq": [
+    {
+     "slug": "additional-concept-questions-logical-reasoning-part-1",
+     "label": "Additional Concept Questions (Part 1)"
+    },
+    {
+     "slug": "additional-concept-questions-logical-reasoning-part-2",
+     "label": "Additional Concept Questions (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "5",
+     "why": "Ambiguity fallacies arise from shifting word meanings"
+    },
+    {
+     "id": "1",
+     "why": "Statements and arguments"
+    },
+    {
+     "id": "7",
+     "why": "Analogy and induction rely on clear terms"
+    }
+   ]
+  },
+  "7": {
+   "slug": "induction-and-analogy",
+   "seo_title": "Induction and Analogy Notes: Mill's Methods | UGC NET Paper 1",
+   "description": "UGC NET Paper 1 notes on induction and analogy: kinds of induction, Mill's experimental methods (canons of induction) and testing an argument from analogy.",
+   "lead": "Kinds of induction, Mill's five experimental methods, and how to judge the strength of an argument from analogy.",
+   "mcq": [
+    {
+     "slug": "analogies-venn-diagram-part-1",
+     "label": "Analogies and Venn Diagrams (Part 1)"
+    },
+    {
+     "slug": "analogies-venn-diagram-part-2",
+     "label": "Analogies and Venn Diagrams (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "1",
+     "why": "Deductive versus inductive reasoning"
+    },
+    {
+     "id": "5",
+     "why": "False cause and hasty generalisation are inductive fallacies"
+    },
+    {
+     "id": "11",
+     "why": "Anumana: the Indian theory of inference"
+    }
+   ]
+  },
+  "8": {
+   "slug": "venn-diagrams",
+   "seo_title": "Venn Diagrams Notes: Testing Syllogisms | UGC NET Paper 1",
+   "description": "UGC NET Paper 1 notes on Venn diagrams: diagramming A, E, I and O propositions, testing a syllogism for validity, and Euler diagrams for class relations.",
+   "lead": "Draw the four propositions, test a syllogism by diagramming its premises, and read everyday class relations from Euler diagrams.",
+   "mcq": [
+    {
+     "slug": "analogies-venn-diagram-part-3",
+     "label": "Analogies and Venn Diagrams (Part 3)"
+    },
+    {
+     "slug": "analogies-venn-diagram-part-4",
+     "label": "Analogies and Venn Diagrams (Part 4)"
+    }
+   ],
+   "related": [
+    {
+     "id": "3",
+     "why": "The syllogism you are testing"
+    },
+    {
+     "id": "2",
+     "why": "The four propositions you are drawing"
+    },
+    {
+     "id": "4",
+     "why": "Other argument forms and truth-functional logic"
+    }
+   ]
+  },
+  "9": {
+   "slug": "pramana-theory",
+   "seo_title": "Pramana Theory Notes: Means of Knowledge | UGC NET Indian Logic",
+   "description": "UGC NET Paper 1 notes on Indian logic: the four factors of knowledge, the number of pramanas accepted by each school, key texts and authors, and pramanyavada.",
+   "lead": "Start of Part B. The factors of knowledge, how many pramanas each school accepts (a favourite table), key texts and authors, and how knowledge is validated.",
+   "mcq": [
+    {
+     "slug": "indian-logic-means-of-knowledge-part-1",
+     "label": "Indian Logic: Means of Knowledge (Part 1)"
+    },
+    {
+     "slug": "indian-logic-means-of-knowledge-part-2",
+     "label": "Indian Logic: Means of Knowledge (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "10",
+     "why": "Pratyaksha: the first and most widely accepted pramana"
+    },
+    {
+     "id": "11",
+     "why": "Anumana: inference"
+    },
+    {
+     "id": "14",
+     "why": "Upamana, shabda, arthapatti and anupalabdhi follow"
+    }
+   ]
+  },
+  "10": {
+   "slug": "pratyaksha-perception",
+   "seo_title": "Pratyaksha (Perception) Notes: Sannikarsha | UGC NET Logic",
+   "description": "UGC NET Paper 1 notes on pratyaksha: definition, classification, the six ordinary and three extraordinary contacts (sannikarsha).",
+   "lead": "Definition of perception, its classification (nirvikalpaka and savikalpaka), the six ordinary contacts, and the three extraordinary contacts.",
+   "mcq": [
+    {
+     "slug": "indian-logic-means-of-knowledge-part-3",
+     "label": "Indian Logic: Means of Knowledge (Part 3)"
+    },
+    {
+     "slug": "pramanas-pratyaksha-anumana-upamana-shabda-arthapatti-and-anupalabdhi-part-1",
+     "label": "The Six Pramanas (Part 1)"
+    }
+   ],
+   "related": [
+    {
+     "id": "9",
+     "why": "Pramana theory: the schools and the factors of knowledge"
+    },
+    {
+     "id": "11",
+     "why": "Inference builds on perception"
+    },
+    {
+     "id": "18",
+     "why": "Theories of error explain faulty perception"
+    }
+   ]
+  },
+  "11": {
+   "slug": "anumana-inference",
+   "seo_title": "Anumana (Inference) Notes: Five-Membered Syllogism | UGC NET",
+   "description": "UGC NET Paper 1 notes on anumana: meaning and process, purvavat, sheshavat and samanyatodrishta, svartha and parartha, and the five-membered Nyaya syllogism.",
+   "lead": "The process of inference, its kinds, svartha versus parartha, and the five members: pratijna, hetu, udaharana, upanaya and nigamana.",
+   "mcq": [
+    {
+     "slug": "structure-and-kinds-of-anumana-vyapti-hetvabhasas-part-1",
+     "label": "Anumana, Vyapti and Hetvabhasas (Part 1)"
+    },
+    {
+     "slug": "structure-and-kinds-of-anumana-vyapti-hetvabhasas-part-2",
+     "label": "Anumana, Vyapti and Hetvabhasas (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "12",
+     "why": "Vyapti: the invariable relation that makes inference valid"
+    },
+    {
+     "id": "13",
+     "why": "Hetvabhasas: how an inference goes wrong"
+    },
+    {
+     "id": "3",
+     "why": "Western counterpart: the categorical syllogism"
+    }
+   ]
+  },
+  "12": {
+   "slug": "vyapti",
+   "seo_title": "Vyapti Notes: Invariable Relation, Upadhi | UGC NET Logic",
+   "description": "UGC NET Paper 1 notes on vyapti: definition, kinds, how vyapti is established in Nyaya, upadhi, and the views of other schools.",
+   "lead": "Vyapti defined, its kinds, how Nyaya establishes it, upadhi (the conditional that breaks it), and how other schools see it.",
+   "mcq": [
+    {
+     "slug": "structure-and-kinds-of-anumana-vyapti-hetvabhasas-part-3",
+     "label": "Anumana, Vyapti and Hetvabhasas (Part 3)"
+    },
+    {
+     "slug": "structure-and-kinds-of-anumana-vyapti-hetvabhasas-part-1",
+     "label": "Anumana, Vyapti and Hetvabhasas (Part 1)"
+    }
+   ],
+   "related": [
+    {
+     "id": "11",
+     "why": "Anumana: the inference that rests on vyapti"
+    },
+    {
+     "id": "13",
+     "why": "A missing vyapti produces a hetvabhasa"
+    }
+   ]
+  },
+  "13": {
+   "slug": "hetvabhasas",
+   "seo_title": "Hetvabhasas Notes: Fallacies of Inference | UGC NET Paper 1",
+   "description": "UGC NET Paper 1 notes on hetvabhasas: conditions of a valid hetu, the five Nyaya hetvabhasas in Tarkasamgraha order, their varieties and other lists.",
+   "lead": "The conditions of a valid hetu, the five hetvabhasas in Tarkasamgraha order (savyabhichara, viruddha, satpratipaksha, asiddha, badhita), varieties and other lists.",
+   "mcq": [
+    {
+     "slug": "structure-and-kinds-of-anumana-vyapti-hetvabhasas-part-4",
+     "label": "Anumana, Vyapti and Hetvabhasas (Part 4)"
+    },
+    {
+     "slug": "structure-and-kinds-of-anumana-vyapti-hetvabhasas-part-2",
+     "label": "Anumana, Vyapti and Hetvabhasas (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "12",
+     "why": "Vyapti decides whether a hetu is valid"
+    },
+    {
+     "id": "11",
+     "why": "Anumana and its five members"
+    },
+    {
+     "id": "5",
+     "why": "Western counterpart: formal and informal fallacies"
+    }
+   ]
+  },
+  "14": {
+   "slug": "upamana",
+   "seo_title": "Upamana (Comparison) Notes: Gavaya Example, School Views | UGC NET",
+   "description": "UGC NET Paper 1 notes on upamana: definition, the gavaya example, the four steps, and what each school says about it.",
+   "lead": "Knowledge through similarity: the gavaya example, the steps of upamana, and which schools accept it, reject it or reduce it.",
+   "mcq": [
+    {
+     "slug": "pramanas-pratyaksha-anumana-upamana-shabda-arthapatti-and-anupalabdhi-part-2",
+     "label": "The Six Pramanas (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "9",
+     "why": "Pramana theory: how many pramanas each school accepts"
+    },
+    {
+     "id": "15",
+     "why": "Shabda: the next pramana"
+    },
+    {
+     "id": "11",
+     "why": "Anumana, to which some schools reduce upamana"
+    }
+   ]
+  },
+  "15": {
+   "slug": "shabda-testimony",
+   "seo_title": "Shabda (Verbal Testimony) Notes: Vrittis | UGC NET Logic",
+   "description": "UGC NET Paper 1 notes on shabda: kinds, conditions for understanding a sentence (akanksha, yogyata, sannidhi, tatparya), vrittis, theories and school positions.",
+   "lead": "Reliable testimony and its kinds, the four conditions of sentence understanding, the powers of a word, theories of word-meaning, and school positions.",
+   "mcq": [
+    {
+     "slug": "pramanas-pratyaksha-anumana-upamana-shabda-arthapatti-and-anupalabdhi-part-3",
+     "label": "The Six Pramanas (Part 3)"
+    }
+   ],
+   "related": [
+    {
+     "id": "9",
+     "why": "Pramana theory and the school counts"
+    },
+    {
+     "id": "14",
+     "why": "Upamana"
+    },
+    {
+     "id": "16",
+     "why": "Arthapatti"
+    }
+   ]
+  },
+  "16": {
+   "slug": "arthapatti",
+   "seo_title": "Arthapatti (Postulation) Notes: Anyathanupapatti | UGC NET Paper 1",
+   "description": "UGC NET Paper 1 notes on arthapatti: definition, the fat Devadatta example, its two kinds, school positions and arthapatti versus anumana.",
+   "lead": "Presumption to explain what is otherwise inexplicable: the classic example, its two kinds, which schools accept it, and how it differs from anumana.",
+   "mcq": [
+    {
+     "slug": "pramanas-pratyaksha-anumana-upamana-shabda-arthapatti-and-anupalabdhi-part-4",
+     "label": "The Six Pramanas (Part 4)"
+    }
+   ],
+   "related": [
+    {
+     "id": "11",
+     "why": "Anumana: compare inference with postulation"
+    },
+    {
+     "id": "15",
+     "why": "Shabda"
+    },
+    {
+     "id": "17",
+     "why": "Anupalabdhi"
+    }
+   ]
+  },
+  "17": {
+   "slug": "anupalabdhi",
+   "seo_title": "Anupalabdhi Notes: Four Kinds of Abhava | UGC NET Logic",
+   "description": "UGC NET Paper 1 notes on anupalabdhi: the pramana for knowing absence, the four kinds of abhava, and how each school treats it.",
+   "lead": "How absence is known: the four kinds of abhava with examples, and which schools accept anupalabdhi as a separate pramana.",
+   "mcq": [
+    {
+     "slug": "pramanas-pratyaksha-anumana-upamana-shabda-arthapatti-and-anupalabdhi-part-4",
+     "label": "The Six Pramanas (Part 4)"
+    },
+    {
+     "slug": "pramanas-pratyaksha-anumana-upamana-shabda-arthapatti-and-anupalabdhi-part-3",
+     "label": "The Six Pramanas (Part 3)"
+    }
+   ],
+   "related": [
+    {
+     "id": "10",
+     "why": "Perception: Nyaya explains absence as perception"
+    },
+    {
+     "id": "16",
+     "why": "Arthapatti"
+    },
+    {
+     "id": "9",
+     "why": "Pramana theory"
+    }
+   ]
+  },
+  "18": {
+   "slug": "theories-of-error-khyativada",
+   "seo_title": "Theories of Error (Khyativada) Notes | UGC NET Indian Logic",
+   "description": "UGC NET Paper 1 notes on the Indian theories of error: anyathakhyati, akhyati, atmakhyati, asatkhyati, anirvachaniyakhyati and satkhyati, plus Jaina doctrines.",
+   "lead": "The six theories of illusion (the shell mistaken for silver) matched to their schools, plus the Jaina doctrines asked most often.",
+   "mcq": [
+    {
+     "slug": "indian-logic-means-of-knowledge-part-4",
+     "label": "Indian Logic: Means of Knowledge (Part 4)"
+    }
+   ],
+   "related": [
+    {
+     "id": "10",
+     "why": "Perception and its errors"
+    },
+    {
+     "id": "9",
+     "why": "Pramana theory and validity of knowledge"
+    },
+    {
+     "id": "17",
+     "why": "Anupalabdhi"
+    }
+   ]
+  },
+  "19": {
+   "slug": "quick-revision-and-exam-strategy",
+   "seo_title": "Logical Reasoning Quick Revision and Strategy | UGC NET",
+   "description": "One-page memory sheet for UGC NET Paper 1 Logical Reasoning, plus exam strategy for memory, concept and analysis questions and the commonest traps.",
+   "lead": "The whole unit on one page, how to attack memory, concept and analysis questions, the commonest traps, and a revision plan.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "Logical Reasoning Mixed Practice Set 1"
+    },
+    {
+     "slug": "mixed-practice-set-2",
+     "label": "Logical Reasoning Mixed Practice Set 2"
+    }
+   ],
+   "related": [
+    {
+     "id": "9",
+     "why": "School-wise pramana counts"
+    },
+    {
+     "id": "13",
+     "why": "Hetvabhasa order and conditions"
+    },
+    {
+     "id": "3",
+     "why": "Syllogism moods and rules"
+    }
+   ]
+  }
+ }
+}

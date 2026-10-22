@@ -70,3 +70,7 @@ Add a new chapter (e.g. Comprehension):
 2. Run the script. The hub page, sitemap and search index pick the chapter up automatically.
 3. Link to the chapter from the old unit page (see the "Detailed study notes" block in ugc-net-paper-1-unit-2-research-aptitude.html).
 Styling is in `notes.css`, behaviour in `notes.js` (both use the existing theme tokens). Reader progress is stored only in the reader's browser (localStorage key `nl-notes-v1`).
+
+Extra chapter.json keys (chapters format): `search_placeholder` (hint text in the search box), `hide_stats` (e.g. `["memory points"]` to hide a counter on the chapter overview).
+`rapid_from` accepts sub-topics that are bullet lists ("**Label:** fact") or 2/3-column tables (first column = item).
+Topics written without "###" sub-headings are not supported by the builder: give every "## Chapter N" at least one "### N.M" section, and no text between the two.

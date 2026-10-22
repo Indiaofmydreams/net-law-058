@@ -1,0 +1,433 @@
+{
+ "format": "chapters",
+ "paper": "ugc-net-paper-1",
+ "paper_name": "UGC NET Paper 1",
+ "unit": 9,
+ "slug": "people-development-environment",
+ "name": "People, Development and Environment",
+ "unit_page": "/ugc-net-paper-1-unit-9-people-development-environment.html",
+ "mcq_base": "/mcq/ugc-net-paper-1/people-development-environment/",
+ "mcq_index": "/mcq/ugc-net-paper-1/people-development-environment/",
+ "mcq_total": "700+",
+ "updated": "2026-10-21",
+ "seo_title": "UGC NET Paper 1 People, Development & Environment Notes (Unit 9)",
+ "description": "Free UGC NET Paper 1 People, Development and Environment notes: 10 topics and 58 sub-topics on SDGs, pollution, hazards, the EP Act 1986 and climate treaties.",
+ "intro": "Unit IX usually contributes about five questions, and the syllabus is small and repeats across years. The notes follow the official syllabus order: sustainable development, human impact, pollution, health, resources, hazards, the Environment (Protection) Act, 1986 and international agreements. Each topic explains the concept, gives the facts to memorise in lists and tables, and ends with an Analysis Angle. Topic 10 is a last-day toolkit with a master timeline, a numbers sheet and look-alike pairs.",
+ "how": [
+  [
+   "Round 1: Concept",
+   "Read the Concept section of a topic once, slowly, so the logic is clear. It is what lets you answer reasoning and statement questions."
+  ],
+  [
+   "Round 2: Memory",
+   "Memorise the lists and tables of that topic in a single sitting, then revise them the next day. Revision mode shows the lists and tables without the explanations."
+  ],
+  [
+   "Round 3: Analysis",
+   "Read the <i>Analysis Angle</i> at the end of each topic and restate each point in your own words, because options are often disguised cause-and-effect links."
+  ],
+  [
+   "Last week: Recall",
+   "Use the <a href=\"/notes/ugc-net-paper-1/people-development-environment/rapid-recall.html\">rapid-recall sheet</a> and Topic 10 (timeline, numbers sheet, look-alike pairs). Watch the near-identical pairs: Kyoto and Paris, Montreal and Vienna, Water Act and Air Act, MDG and SDG."
+  ]
+ ],
+ "rapid_from": [
+  "10.1",
+  "10.2",
+  "10.3",
+  "10.5"
+ ],
+ "rapid_placeholder": "Kyoto, 1987, Betz limit",
+ "search_placeholder": "Find a concept: e.g. Montreal, SDG 13, Section 15, Betz limit",
+ "hide_stats": [
+  "memory points"
+ ],
+ "modules": [
+  {
+   "id": "m1",
+   "title": "Development and Human Impact",
+   "blurb": "Sustainable development, the MDGs and SDGs, and how human activities change the environment.",
+   "topics": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "id": "m2",
+   "title": "Pollution, Health and Resources",
+   "blurb": "Environmental issues, their effects on human health, and natural and energy resources.",
+   "topics": [
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "id": "m3",
+   "title": "Hazards, Law and Global Action",
+   "blurb": "Natural hazards and mitigation, the Environment (Protection) Act, 1986 and international agreements.",
+   "topics": [
+    "6",
+    "7",
+    "8"
+   ]
+  },
+  {
+   "id": "m4",
+   "title": "Syllabus, Question Framing and Revision",
+   "blurb": "The official syllabus and how it is examined, then the last-day revision toolkit.",
+   "topics": [
+    "9",
+    "10"
+   ]
+  }
+ ],
+ "topics": {
+  "1": {
+   "slug": "sustainable-development-mdgs-sdgs",
+   "seo_title": "Sustainable Development, MDGs and SDGs Notes | UGC NET",
+   "description": "UGC NET Paper 1 notes on sustainable development: the Brundtland definition, road to the SDGs, the 8 MDGs, 17 SDGs, MDGs versus SDGs and India.",
+   "lead": "Start here. Growth versus development, the Brundtland definition, the road from Stockholm to the SDGs, all eight MDGs and 17 SDGs, and India's institutions.",
+   "mcq": [
+    {
+     "slug": "millennium-and-sustainable-development-goals-part-1",
+     "label": "Millennium and Sustainable Development Goals (Part 1)"
+    },
+    {
+     "slug": "millennium-and-sustainable-development-goals-part-2",
+     "label": "Millennium and Sustainable Development Goals (Part 2)"
+    },
+    {
+     "slug": "millennium-and-sustainable-development-goals-additional-practice",
+     "label": "MDGs and SDGs (Additional Practice)"
+    }
+   ],
+   "related": [
+    {
+     "id": "2",
+     "why": "How human activity creates the problems these goals address"
+    },
+    {
+     "id": "8",
+     "why": "International agreements that carry the goals forward"
+    },
+    {
+     "id": "10",
+     "why": "Timeline and numbers sheet: MDG and SDG facts"
+    }
+   ],
+   "title": "Development and Environment: Sustainable Development, MDGs and SDGs"
+  },
+  "2": {
+   "slug": "anthropogenic-activities",
+   "seo_title": "Anthropogenic Activities and Impacts Notes | UGC NET Paper 1",
+   "description": "UGC NET Paper 1 notes on human and environment interaction: anthropogenic activities and impacts, environmental movements and events, key terms.",
+   "lead": "How people change the environment: major activities and their impacts, environmental movements and events (Chipko, Silent Valley and more), and the key mechanisms and terms.",
+   "mcq": [
+    {
+     "slug": "human-and-environment-interaction-anthropogenic-activities-part-1",
+     "label": "Human and Environment Interaction (Part 1)"
+    },
+    {
+     "slug": "human-and-environment-interaction-anthropogenic-activities-part-2",
+     "label": "Human and Environment Interaction (Part 2)"
+    },
+    {
+     "slug": "anthropogenic-activities-and-their-environmental-impacts-additional-practice",
+     "label": "Anthropogenic Activities (Additional Practice)"
+    }
+   ],
+   "related": [
+    {
+     "id": "3",
+     "why": "The environmental issues these activities produce"
+    },
+    {
+     "id": "1",
+     "why": "Sustainable development as the response"
+    },
+    {
+     "id": "4",
+     "why": "How the resulting pollutants affect health"
+    }
+   ],
+   "title": "Human and Environment Interaction: Anthropogenic Activities and Their Impacts"
+  },
+  "3": {
+   "slug": "environmental-issues",
+   "seo_title": "Environmental Issues Notes: Pollution, Waste, Climate | UGC NET",
+   "description": "UGC NET Paper 1 notes on local, regional and global environmental issues: air, water, soil and noise pollution, waste and climate change.",
+   "lead": "Issues sorted by scale, then each in turn: air, water, soil and noise pollution, waste, and climate change, with the examiner's analysis angle.",
+   "mcq": [
+    {
+     "slug": "environmental-issues-air-pollution",
+     "label": "Environmental Issues: Air Pollution"
+    },
+    {
+     "slug": "environmental-issues-water-pollution",
+     "label": "Environmental Issues: Water Pollution"
+    },
+    {
+     "slug": "environmental-issues-soil-pollution-and-degradation",
+     "label": "Environmental Issues: Soil Pollution and Degradation"
+    },
+    {
+     "slug": "environmental-issues-noise-pollution",
+     "label": "Environmental Issues: Noise Pollution"
+    },
+    {
+     "slug": "environmental-issues-waste",
+     "label": "Environmental Issues: Waste"
+    },
+    {
+     "slug": "environmental-issues-climate-change",
+     "label": "Environmental Issues: Climate Change"
+    }
+   ],
+   "related": [
+    {
+     "id": "4",
+     "why": "Health impacts of these pollutants"
+    },
+    {
+     "id": "7",
+     "why": "The Environment (Protection) Act, 1986 and its rules"
+    },
+    {
+     "id": "2",
+     "why": "The human activities behind these issues"
+    }
+   ],
+   "title": "Environmental Issues: Local, Regional and Global"
+  },
+  "4": {
+   "slug": "pollutants-and-human-health",
+   "seo_title": "Pollutants and Human Health Notes | UGC NET Paper 1 Unit 9",
+   "description": "UGC NET Paper 1 notes on how air pollutants, water, food and soil contaminants, and biological and physical agents affect human health.",
+   "lead": "The exposure chain from source to effect, then air pollutants, water, food and soil contaminants, and biological and physical agents, each with its health effect.",
+   "mcq": [
+    {
+     "slug": "impacts-of-pollutants-on-human-health-part-1",
+     "label": "Impacts of Pollutants on Human Health (Part 1)"
+    },
+    {
+     "slug": "impacts-of-pollutants-on-human-health-part-2",
+     "label": "Impacts of Pollutants on Human Health (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "3",
+     "why": "The pollution types behind these effects"
+    },
+    {
+     "id": "7",
+     "why": "Legal limits and standards under the EP Act"
+    },
+    {
+     "id": "10",
+     "why": "Metal and disease pairs in the mnemonics"
+    }
+   ],
+   "title": "Impacts of Pollutants on Human Health"
+  },
+  "5": {
+   "slug": "natural-and-energy-resources",
+   "seo_title": "Natural and Energy Resources Notes | UGC NET Paper 1 Unit 9",
+   "description": "UGC NET Paper 1 notes on natural and energy resources: solar, wind, soil, hydro, geothermal, biomass and nuclear energy, and forests.",
+   "lead": "Renewable versus non-renewable resources, then solar, wind, soil, hydro, geothermal, biomass, nuclear and forests with the key Indian facts.",
+   "mcq": [
+    {
+     "slug": "natural-and-energy-resources-part-1",
+     "label": "Natural and Energy Resources (Part 1)"
+    },
+    {
+     "slug": "natural-and-energy-resources-part-2",
+     "label": "Natural and Energy Resources (Part 2)"
+    },
+    {
+     "slug": "energy-resources",
+     "label": "Energy Resources"
+    }
+   ],
+   "related": [
+    {
+     "id": "8",
+     "why": "International Solar Alliance and climate agreements"
+    },
+    {
+     "id": "3",
+     "why": "Pollution and climate impacts of fossil fuels"
+    },
+    {
+     "id": "1",
+     "why": "SDG 7 and sustainable energy"
+    }
+   ],
+   "title": "Natural and Energy Resources"
+  },
+  "6": {
+   "slug": "natural-hazards-and-disasters",
+   "seo_title": "Natural Hazards and Disasters Notes: Mitigation | UGC NET",
+   "description": "UGC NET Paper 1 notes on natural hazards and disasters: earthquakes, tsunamis, cyclones, floods, droughts, institutions, frameworks and mitigation.",
+   "lead": "Hazard versus disaster, earthquakes and tsunamis, cyclones, floods, droughts and landslides, the institutions and frameworks, and mitigation by hazard.",
+   "mcq": [
+    {
+     "slug": "natural-hazards-and-disasters-mitigation-strategies-part-1",
+     "label": "Natural Hazards and Disasters (Part 1)"
+    },
+    {
+     "slug": "natural-hazards-and-disasters-mitigation-strategies-part-2",
+     "label": "Natural Hazards and Disasters (Part 2)"
+    },
+    {
+     "slug": "natural-hazards",
+     "label": "Natural Hazards"
+    }
+   ],
+   "related": [
+    {
+     "id": "2",
+     "why": "Human activity increases vulnerability"
+    },
+    {
+     "id": "7",
+     "why": "Legal framework alongside the Disaster Management Act"
+    },
+    {
+     "id": "10",
+     "why": "Timeline of major disasters and frameworks"
+    }
+   ],
+   "title": "Natural Hazards and Disasters: Mitigation Strategies"
+  },
+  "7": {
+   "slug": "environment-protection-act-1986",
+   "seo_title": "Environment (Protection) Act 1986 Notes | UGC NET Paper 1",
+   "description": "UGC NET Paper 1 notes on the Environment (Protection) Act, 1986: definitions, key sections, rules, constitutional provisions, principles and cases.",
+   "lead": "Why India needed an umbrella law, the key definitions, the sections to remember (3, 5, 6, 7, 8, 15), rules and notifications, and landmark principles and cases.",
+   "mcq": [
+    {
+     "slug": "the-environment-protection-act-1986-part-1",
+     "label": "The Environment (Protection) Act, 1986 (Part 1)"
+    },
+    {
+     "slug": "the-environment-protection-act-1986-part-2",
+     "label": "The Environment (Protection) Act, 1986 (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "3",
+     "why": "The pollution issues the Act regulates"
+    },
+    {
+     "id": "8",
+     "why": "International agreements the Act implements"
+    },
+    {
+     "id": "10",
+     "why": "Look-alike pairs: Water Act, Air Act and EP Act"
+    }
+   ],
+   "title": "The Environment (Protection) Act, 1986"
+  },
+  "8": {
+   "slug": "international-environmental-agreements",
+   "seo_title": "Environmental Agreements Notes: Montreal, Kyoto, Paris | UGC NET",
+   "description": "UGC NET Paper 1 notes on the Montreal Protocol, Rio Summit, CBD, Kyoto Protocol, Paris Agreement and the International Solar Alliance.",
+   "lead": "A treaty snapshot, then each major agreement in turn: Montreal, Rio, the Convention on Biological Diversity, Kyoto, Paris and the International Solar Alliance.",
+   "mcq": [
+    {
+     "slug": "international-agreements-and-efforts-part-1",
+     "label": "International Agreements and Efforts (Part 1)"
+    },
+    {
+     "slug": "international-agreements-and-efforts-part-2",
+     "label": "International Agreements and Efforts (Part 2)"
+    },
+    {
+     "slug": "international-agreements",
+     "label": "International Agreements"
+    }
+   ],
+   "related": [
+    {
+     "id": "7",
+     "why": "How India implements these treaties in law"
+    },
+    {
+     "id": "1",
+     "why": "Rio, Kyoto and Paris on the road to the SDGs"
+    },
+    {
+     "id": "3",
+     "why": "Climate change and ozone depletion"
+    }
+   ],
+   "title": "International Agreements and Efforts"
+  },
+  "9": {
+   "slug": "syllabus-map-and-question-framing",
+   "seo_title": "UGC NET Unit 9 Syllabus and Question Types | Environment Notes",
+   "description": "The official UGC NET Paper 1 Unit IX syllabus for People, Development and Environment, how questions are framed, and a study method that works.",
+   "lead": "The official Unit IX syllabus, the six ways questions are usually framed, and a five-step study method for this unit.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "People, Development & Environment Mixed Practice Set 1"
+    },
+    {
+     "slug": "mixed-practice-set-2",
+     "label": "People, Development & Environment Mixed Practice Set 2"
+    }
+   ],
+   "related": [
+    {
+     "id": "1",
+     "why": "Begin the unit here"
+    },
+    {
+     "id": "8",
+     "why": "Agreements: a frequent source of questions"
+    },
+    {
+     "id": "10",
+     "why": "The revision toolkit for the last days"
+    }
+   ],
+   "title": "Syllabus Map, Question Framing and Study Method"
+  },
+  "10": {
+   "slug": "revision-toolkit",
+   "seo_title": "Environment Revision Toolkit: Timeline, Numbers | UGC NET",
+   "description": "Last-day revision for UGC NET Paper 1 Unit 9: master timeline, numbers sheet, look-alike pairs, cross-topic chains, mnemonics and a checklist.",
+   "lead": "This section gathers what is worth reading again on the last day: a master timeline for chronological-order questions, a numbers sheet, a table of look-alike pairs where marks are usually lost, and the cross-topic chains that analysis questions are built on.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-3",
+     "label": "People, Development & Environment Mixed Practice Set 3"
+    },
+    {
+     "slug": "mixed-practice-set-4",
+     "label": "People, Development & Environment Mixed Practice Set 4"
+    }
+   ],
+   "related": [
+    {
+     "id": "8",
+     "why": "Treaties in the timeline and look-alike pairs"
+    },
+    {
+     "id": "7",
+     "why": "EP Act section mnemonics"
+    },
+    {
+     "id": "1",
+     "why": "MDG and SDG numbers"
+    }
+   ],
+   "title": "Revision Toolkit: Timeline, Numbers and Look-Alike Pairs"
+  }
+ }
+}

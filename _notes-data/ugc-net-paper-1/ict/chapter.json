@@ -1,0 +1,696 @@
+{
+ "format": "chapters",
+ "paper": "ugc-net-paper-1",
+ "paper_name": "UGC NET Paper 1",
+ "unit": 8,
+ "slug": "ict",
+ "name": "ICT",
+ "unit_page": "/ugc-net-paper-1-unit-8-ict.html",
+ "mcq_base": "/mcq/ugc-net-paper-1/ict/",
+ "mcq_index": "/mcq/ugc-net-paper-1/ict/",
+ "mcq_total": "730+",
+ "updated": "2026-10-21",
+ "seo_title": "UGC NET Paper 1 ICT Notes (Unit 8): Free Detailed Study Notes",
+ "description": "Free UGC NET Paper 1 ICT notes: 18 topics, 92 sub-topics on computers, networks, internet, e-learning, cyber law and Digital India, with revision mode.",
+ "intro": "ICT is one of the most scoring Paper 1 units: about 5 questions, 10 marks. These notes run from computer basics through networks, the internet, e-learning, cyber law and Digital India, and end with the exam pattern and an A to Z abbreviations list. Digital initiatives (Topic 14), cyber law (Topic 15) and abbreviations (Topic 18) are asked almost every year, so start there if time is short.",
+ "how": [
+  [
+   "Round 1: Read",
+   "Go topic by topic in order. Topics 1 to 13 are stable computer, internet and learning concepts that repeat in pattern; Topics 14 to 16 carry the facts examiners ask most often."
+  ],
+  [
+   "Round 2: Revise",
+   "Switch on <i>Revision mode</i> on any topic page. You see each section's key terms, lists and tables without the explanations. Rewrite the tables from memory the next day."
+  ],
+  [
+   "Last week: Recall",
+   "Use the <a href=\"/notes/ugc-net-paper-1/ict/rapid-recall.html\">rapid-recall sheet</a> (digital initiatives, arrange-in-order sequences and abbreviations), the checklist in Topic 17, then practise MCQs topic by topic."
+  ]
+ ],
+ "rapid_from": [
+  "14.1",
+  "17.6",
+  "18.1",
+  "18.2",
+  "18.3",
+  "18.4",
+  "18.5"
+ ],
+ "rapid_placeholder": "SWAYAM, SMTP, UIDAI",
+ "search_placeholder": "Find a concept: e.g. SWAYAM, router, IT Act, MOOC",
+ "hide_stats": [
+  "memory points"
+ ],
+ "modules": [
+  {
+   "id": "m1",
+   "title": "Foundations: ICT, Computers, Hardware and Software",
+   "blurb": "What ICT is, how a computer works, and the hardware and software it runs on.",
+   "topics": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "id": "m2",
+   "title": "Devices, Memory and Operating Systems",
+   "blurb": "Input and output devices, memory and storage, and the operating system that manages them.",
+   "topics": [
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  {
+   "id": "m3",
+   "title": "Internet, Networks and Communication",
+   "blurb": "The internet and web, computer networks and their devices, and communication technologies from Wi-Fi to video conferencing.",
+   "topics": [
+    "7",
+    "8",
+    "9",
+    "10"
+   ]
+  },
+  {
+   "id": "m4",
+   "title": "Digital Learning and ICT in Education",
+   "blurb": "Digital learning, e-learning models and LMS, and the role of ICT across education.",
+   "topics": [
+    "11",
+    "12",
+    "13"
+   ]
+  },
+  {
+   "id": "m5",
+   "title": "Digital Initiatives, Cyber Safety and E-Governance",
+   "blurb": "The highest-yield topics: Indian digital platforms, cyber law and security, e-governance and Digital India.",
+   "topics": [
+    "14",
+    "15",
+    "16"
+   ]
+  },
+  {
+   "id": "m6",
+   "title": "Exam Pattern and Quick Reference",
+   "blurb": "How the unit is examined, how to solve special question formats, and an A to Z list of abbreviations.",
+   "topics": [
+    "17",
+    "18"
+   ]
+  }
+ ],
+ "topics": {
+  "1": {
+   "slug": "basics-of-ict",
+   "seo_title": "Basics of ICT Notes: Meaning, Components, DIKW | UGC NET Paper 1",
+   "description": "UGC NET Paper 1 notes on the meaning and scope of ICT, its components, its role in teaching, research and administration, the digital divide and DIKW.",
+   "lead": "Start here. What ICT is, its components and tools, how it helps teaching, research and administration, the digital divide, and the Data to Wisdom (DIKW) order.",
+   "mcq": [
+    {
+     "slug": "basic-concepts-of-ict",
+     "label": "Basic Concepts of ICT"
+    },
+    {
+     "slug": "ict-abbreviations-and-terminology-part-1",
+     "label": "ICT Abbreviations and Terminology (Part 1)"
+    }
+   ],
+   "related": [
+    {
+     "id": "2",
+     "why": "Computers are the core hardware of every ICT system"
+    },
+    {
+     "id": "11",
+     "why": "Digital learning builds directly on ICT in teaching"
+    },
+    {
+     "id": "13",
+     "why": "ICT in education: roles, policy and challenges"
+    }
+   ]
+  },
+  "2": {
+   "slug": "computer-fundamentals",
+   "seo_title": "Computer Fundamentals Notes: CPU, Number Systems | UGC NET",
+   "description": "UGC NET Paper 1 notes on computer fundamentals: generations of computers, types of computers, the CPU, number systems and conversions, and units of data.",
+   "lead": "What a computer is, its five generations, the types of computers, how the CPU works, binary-decimal-octal-hex number systems, and bit-to-petabyte units of data.",
+   "mcq": [
+    {
+     "slug": "generations-of-computers",
+     "label": "Generations of Computers"
+    },
+    {
+     "slug": "types-of-computers",
+     "label": "Types of Computers"
+    },
+    {
+     "slug": "cpu-alu-control-unit-and-registers",
+     "label": "CPU: ALU, Control Unit and Registers"
+    },
+    {
+     "slug": "number-systems",
+     "label": "Number Systems"
+    },
+    {
+     "slug": "units-of-data",
+     "label": "Units of Data"
+    }
+   ],
+   "related": [
+    {
+     "id": "3",
+     "why": "Hardware and software: what the computer is made of and runs"
+    },
+    {
+     "id": "5",
+     "why": "Memory and storage hold the data the CPU works on"
+    },
+    {
+     "id": "18",
+     "why": "Abbreviations such as ASCII, BIT and VLSI"
+    }
+   ]
+  },
+  "3": {
+   "slug": "hardware-and-software",
+   "seo_title": "Hardware and Software Notes: Licensing, Firmware | UGC NET Paper 1",
+   "description": "UGC NET Paper 1 notes on hardware, system and application software, software licensing (freeware, shareware, open source) and hardware versus firmware.",
+   "lead": "Hardware, system and application software, how software is licensed, and the differences between hardware, software and firmware that examiners like to test.",
+   "mcq": [
+    {
+     "slug": "software-system-and-application",
+     "label": "Software: System and Application"
+    }
+   ],
+   "related": [
+    {
+     "id": "4",
+     "why": "Input and output devices are the visible hardware"
+    },
+    {
+     "id": "6",
+     "why": "The operating system is the key system software"
+    },
+    {
+     "id": "2",
+     "why": "Computer generations and the CPU"
+    }
+   ]
+  },
+  "4": {
+   "slug": "input-and-output-devices",
+   "seo_title": "Input and Output Devices Notes (OMR, MICR, OCR) | UGC NET Paper 1",
+   "description": "UGC NET Paper 1 notes on input devices, output devices and devices that do both, with the OMR, MICR and OCR distinctions asked in exams.",
+   "lead": "Which devices send data in, which present results, which do both, and the exam favourites: OMR, MICR, OCR, barcode and touchscreen.",
+   "mcq": [
+    {
+     "slug": "input-and-output-devices",
+     "label": "Input and Output Devices"
+    }
+   ],
+   "related": [
+    {
+     "id": "3",
+     "why": "Peripherals are hardware; software drives them"
+    },
+    {
+     "id": "5",
+     "why": "Memory and storage sit between input and output"
+    },
+    {
+     "id": "2",
+     "why": "The CPU processes what the input devices send"
+    }
+   ]
+  },
+  "5": {
+   "slug": "memory-and-storage",
+   "seo_title": "Memory and Storage Notes: RAM, ROM, Cache | UGC NET Paper 1 ICT",
+   "description": "UGC NET Paper 1 notes on the memory hierarchy, primary memory (RAM, ROM, cache), secondary storage and the key differences between them.",
+   "lead": "The memory hierarchy from register to tape, RAM versus ROM, cache, secondary and optical storage, and the comparison tables examiners reuse.",
+   "mcq": [
+    {
+     "slug": "memory-ram-rom-cache-and-secondary-storage",
+     "label": "Memory: RAM, ROM, Cache and Secondary Storage"
+    }
+   ],
+   "related": [
+    {
+     "id": "2",
+     "why": "CPU, number systems and units of data"
+    },
+    {
+     "id": "6",
+     "why": "The operating system manages memory"
+    },
+    {
+     "id": "3",
+     "why": "Firmware and BIOS live in ROM"
+    }
+   ]
+  },
+  "6": {
+   "slug": "operating-systems",
+   "seo_title": "Operating Systems Notes: Functions and Types | UGC NET ICT",
+   "description": "UGC NET Paper 1 notes on operating systems: functions, types (batch, real-time, multi-user), popular OS, user interfaces and frequently asked basics.",
+   "lead": "What an OS does, its types, Windows, Linux, macOS, Android and iOS, command-line versus graphical interfaces, and the basics asked repeatedly.",
+   "mcq": [
+    {
+     "slug": "software-system-and-application",
+     "label": "Software: System and Application"
+    }
+   ],
+   "related": [
+    {
+     "id": "3",
+     "why": "System software and licensing"
+    },
+    {
+     "id": "5",
+     "why": "Memory management is an OS function"
+    },
+    {
+     "id": "15",
+     "why": "Malware and security affect the OS"
+    }
+   ]
+  },
+  "7": {
+   "slug": "internet-and-world-wide-web",
+   "seo_title": "Internet and WWW Notes: Protocols, Web 1.0 to 3.0 | UGC NET",
+   "description": "UGC NET Paper 1 notes on the history of the internet, internet versus WWW, connection types, protocols and ports, browsers, Web 1.0 to 3.0 and intranet.",
+   "lead": "From ARPANET to the web: internet versus WWW, connection types, protocols and ports, browsers and search engines, Web 1.0, 2.0 and 3.0, social media, intranet and extranet.",
+   "mcq": [
+    {
+     "slug": "history-of-the-internet",
+     "label": "History of the Internet"
+    },
+    {
+     "slug": "internet-vs-world-wide-web",
+     "label": "Internet vs World Wide Web"
+    },
+    {
+     "slug": "internet-connection-types",
+     "label": "Internet Connection Types"
+    },
+    {
+     "slug": "protocols-tcp-ip-http-ftp-smtp-telnet",
+     "label": "Protocols: TCP/IP, HTTP, FTP, SMTP, Telnet"
+    },
+    {
+     "slug": "web-1-0-2-0-and-3-0",
+     "label": "Web 1.0, 2.0 and 3.0"
+    }
+   ],
+   "related": [
+    {
+     "id": "8",
+     "why": "Networks: the infrastructure the internet runs on"
+    },
+    {
+     "id": "10",
+     "why": "E-mail and conferencing run on internet protocols"
+    },
+    {
+     "id": "15",
+     "why": "Cybersecurity: the risks of using the web"
+    }
+   ]
+  },
+  "8": {
+   "slug": "computer-networks",
+   "seo_title": "Computer Networks Notes: LAN, WAN, Topologies | UGC NET ICT",
+   "description": "UGC NET Paper 1 notes on computer networks: types by geography (PAN, LAN, MAN, WAN), topologies, transmission modes and media, and the OSI and TCP/IP models.",
+   "lead": "Network types from PAN to WAN, bus, star, ring and mesh topologies, simplex, half-duplex and full-duplex modes, transmission media, and the layered models.",
+   "mcq": [
+    {
+     "slug": "networking-basics-lan-wan-ip-and-the-web-part-1",
+     "label": "Networking Basics: LAN, WAN, IP and the Web (Part 1)"
+    },
+    {
+     "slug": "networking-basics-lan-wan-ip-and-the-web-part-2",
+     "label": "Networking Basics: LAN, WAN, IP and the Web (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "9",
+     "why": "The devices that build and connect networks"
+    },
+    {
+     "id": "7",
+     "why": "The internet is a network of networks"
+    },
+    {
+     "id": "10",
+     "why": "Communication technologies that ride on networks"
+    }
+   ]
+  },
+  "9": {
+   "slug": "networking-devices",
+   "seo_title": "Networking Devices Notes: Hub, Switch, Router, Gateway | UGC NET",
+   "description": "UGC NET Paper 1 notes on networking devices (NIC, hub, switch, bridge, router, gateway, modem, repeater) with layer mapping and MAC versus IP address.",
+   "lead": "One table for every networking device: what it does, its key point, the layer it works at, MAC versus IP address, and modem versus router.",
+   "mcq": [
+    {
+     "slug": "networking-basics-lan-wan-ip-and-the-web-part-1",
+     "label": "Networking Basics: LAN, WAN, IP and the Web (Part 1)"
+    }
+   ],
+   "related": [
+    {
+     "id": "8",
+     "why": "Networks and topologies these devices connect"
+    },
+    {
+     "id": "7",
+     "why": "The internet depends on routers and gateways"
+    },
+    {
+     "id": "15",
+     "why": "Firewalls and network security"
+    }
+   ]
+  },
+  "10": {
+   "slug": "communication-technologies",
+   "seo_title": "Communication Technologies Notes: 5G, E-mail | UGC NET ICT",
+   "description": "UGC NET Paper 1 notes on wireless technologies, mobile generations (1G to 5G), satellite communication, e-mail, audio and video conferencing.",
+   "lead": "Bluetooth, Wi-Fi and NFC, mobile generations from 1G to 5G, satellite links, how e-mail works and the conferencing tools used in teaching.",
+   "mcq": [
+    {
+     "slug": "communication-technologies-voip-sms-gsm-and-mobile-networks",
+     "label": "Communication Technologies: VoIP, SMS, GSM and Mobile Networks"
+    },
+    {
+     "slug": "e-mail-protocols-smtp-pop3-imap",
+     "label": "E-mail Protocols: SMTP, POP3, IMAP"
+    },
+    {
+     "slug": "e-mail-advantages-limitations-and-netiquette",
+     "label": "E-mail: Advantages, Limitations and Netiquette"
+    },
+    {
+     "slug": "audio-and-video-conferencing-meaning-types-and-requirements",
+     "label": "Audio and Video-Conferencing: Meaning, Types and Requirements"
+    }
+   ],
+   "related": [
+    {
+     "id": "7",
+     "why": "Protocols, browsers and the web"
+    },
+    {
+     "id": "8",
+     "why": "Networks and transmission media"
+    },
+    {
+     "id": "12",
+     "why": "E-learning relies on conferencing and e-mail"
+    }
+   ]
+  },
+  "11": {
+   "slug": "digital-learning",
+   "seo_title": "Digital Learning Notes: Features, Models, NEP 2020 | UGC NET",
+   "description": "UGC NET Paper 1 notes on digital learning: meaning, features, key theories and models, the NEP 2020 link and the challenges of learning with technology.",
+   "lead": "What digital learning means, its features, the theories and models examiners turn into analysis questions, its link to NEP 2020, and its challenges.",
+   "mcq": [
+    {
+     "slug": "e-learning-modes-lms-and-moocs",
+     "label": "E-learning Modes, LMS and MOOCs"
+    },
+    {
+     "slug": "virtual-classrooms-oer-and-open-access",
+     "label": "Virtual Classrooms, OER and Open Access"
+    }
+   ],
+   "related": [
+    {
+     "id": "12",
+     "why": "E-learning: modes, models and LMS"
+    },
+    {
+     "id": "13",
+     "why": "ICT in education: roles and policy"
+    },
+    {
+     "id": "14",
+     "why": "Indian platforms that deliver digital learning"
+    }
+   ]
+  },
+  "12": {
+   "slug": "e-learning",
+   "seo_title": "E-Learning Notes: Modes, LMS, MOOCs, OER | UGC NET Paper 1",
+   "description": "UGC NET Paper 1 notes on e-learning: synchronous and asynchronous modes, blended and flipped models, cMOOC and xMOOC, LMS, OER and open access.",
+   "lead": "E-learning modes, the very frequently asked models (blended, flipped, cMOOC, xMOOC), learning management systems, advantages, limits, and open-source resources.",
+   "mcq": [
+    {
+     "slug": "e-learning-modes-lms-and-moocs",
+     "label": "E-learning Modes, LMS and MOOCs"
+    },
+    {
+     "slug": "virtual-classrooms-oer-and-open-access",
+     "label": "Virtual Classrooms, OER and Open Access"
+    },
+    {
+     "slug": "social-media-and-its-educational-uses",
+     "label": "Social Media and Its Educational Uses"
+    }
+   ],
+   "related": [
+    {
+     "id": "11",
+     "why": "Digital learning: features and theories"
+    },
+    {
+     "id": "14",
+     "why": "SWAYAM, NPTEL and other national platforms"
+    },
+    {
+     "id": "13",
+     "why": "ICT in education: the wider picture"
+    }
+   ]
+  },
+  "13": {
+   "slug": "ict-in-education",
+   "seo_title": "ICT in Education Notes: Roles, Policy, Challenges | UGC NET",
+   "description": "UGC NET Paper 1 notes on ICT in education: its roles, policy and programmes, ICT and teaching skills, and the challenges and concerns.",
+   "lead": "The roles ICT plays in education, the national policies and programmes behind it, the teaching skills it needs, and its challenges and concerns.",
+   "mcq": [
+    {
+     "slug": "ict-in-education-governance",
+     "label": "ICT in Education Governance"
+    },
+    {
+     "slug": "other-national-digital-education-initiatives",
+     "label": "Other National Digital Education Initiatives"
+    }
+   ],
+   "related": [
+    {
+     "id": "11",
+     "why": "Digital learning: features and models"
+    },
+    {
+     "id": "14",
+     "why": "Indian digital initiatives for education"
+    },
+    {
+     "id": "16",
+     "why": "ICT in education governance and e-governance"
+    }
+   ]
+  },
+  "14": {
+   "slug": "digital-initiatives-and-online-platforms",
+   "seo_title": "Indian Digital Initiatives: SWAYAM, NPTEL, NDLI, ABC | UGC NET",
+   "description": "UGC NET Paper 1 notes on Indian digital initiatives: who runs SWAYAM, SWAYAM Prabha, NPTEL, e-PG Pathshala, NDLI, Shodhganga, NAD, ABC and APAAR.",
+   "lead": "The highest-yield area of the unit: who runs each platform, what it does and its keyword, plus the look-alike pairs examiners use as traps.",
+   "mcq": [
+    {
+     "slug": "swayam-and-swayam-prabha",
+     "label": "SWAYAM and SWAYAM Prabha"
+    },
+    {
+     "slug": "e-pg-pathshala-e-pathshala-pm-e-vidya-and-diksha",
+     "label": "e-PG Pathshala, e-Pathshala, PM e-Vidya and DIKSHA"
+    },
+    {
+     "slug": "nptel-nmeict-virtual-labs-e-yantra-and-spoken-tutorial",
+     "label": "NPTEL, NMEICT, Virtual Labs, e-Yantra and Spoken Tutorial"
+    },
+    {
+     "slug": "digital-libraries-and-repositories-ndli-shodhganga-inflibnet",
+     "label": "Digital Libraries and Repositories: NDLI, Shodhganga, INFLIBNET"
+    },
+    {
+     "slug": "nad-digilocker-academic-bank-of-credits-and-apaar",
+     "label": "NAD, DigiLocker, Academic Bank of Credits and APAAR"
+    }
+   ],
+   "related": [
+    {
+     "id": "12",
+     "why": "MOOCs, LMS and open resources behind these platforms"
+    },
+    {
+     "id": "16",
+     "why": "Digital India and e-governance"
+    },
+    {
+     "id": "18",
+     "why": "Full forms of UGC, INFLIBNET, CEC and other bodies"
+    }
+   ]
+  },
+  "15": {
+   "slug": "cybersecurity-and-cyber-law",
+   "seo_title": "Cyber Security and IT Act Notes: Malware, Cyber Law | UGC NET",
+   "description": "UGC NET Paper 1 notes on cyber ethics, cybercrime, malware, cyber security measures, the IT Act 2000, CERT-In, copyright, IPR and plagiarism.",
+   "lead": "Netiquette and cyber ethics, types of cybercrime and malware, security principles and measures, Indian cyber law, and copyright, IPR and plagiarism.",
+   "mcq": [
+    {
+     "slug": "cyber-ethics-netiquette-and-cybercrime",
+     "label": "Cyber Ethics, Netiquette and Cybercrime"
+    },
+    {
+     "slug": "cyber-security-threats-malware-and-protection-part-1",
+     "label": "Cyber Security: Threats, Malware and Protection (Part 1)"
+    },
+    {
+     "slug": "cyber-security-threats-malware-and-protection-part-2",
+     "label": "Cyber Security: Threats, Malware and Protection (Part 2)"
+    },
+    {
+     "slug": "cyber-laws-it-act-dpdp-act-and-institutions",
+     "label": "Cyber Laws: IT Act, DPDP Act and Institutions"
+    }
+   ],
+   "related": [
+    {
+     "id": "16",
+     "why": "E-governance runs on secure systems and the IT Act"
+    },
+    {
+     "id": "7",
+     "why": "The internet is where most threats arise"
+    },
+    {
+     "id": "17",
+     "why": "Cyber law is asked in almost every paper"
+    }
+   ]
+  },
+  "16": {
+   "slug": "e-governance-and-digital-india",
+   "seo_title": "E-Governance and Digital India Notes: NeGP, Aadhaar, UPI | UGC NET",
+   "description": "UGC NET Paper 1 notes on e-governance, models and benefits, NeGP and Digital India, key applications (Aadhaar, UPI, DigiLocker, GeM) and education governance.",
+   "lead": "E-governance meaning and models, the National e-Governance Plan, Digital India and its pillars, key platforms such as Aadhaar, UPI and GeM, and education governance.",
+   "mcq": [
+    {
+     "slug": "e-governance-meaning-objectives-and-models",
+     "label": "E-Governance: Meaning, Objectives and Models"
+    },
+    {
+     "slug": "national-e-governance-plan-negp",
+     "label": "National e-Governance Plan (NeGP)"
+    },
+    {
+     "slug": "digital-india-and-its-pillars",
+     "label": "Digital India and Its Pillars"
+    },
+    {
+     "slug": "aadhaar-upi-bhim-umang-and-mygov",
+     "label": "Aadhaar, UPI, BHIM, UMANG and MyGov"
+    },
+    {
+     "slug": "e-courts-e-office-and-gem",
+     "label": "e-Courts, e-Office and GeM"
+    }
+   ],
+   "related": [
+    {
+     "id": "14",
+     "why": "Digital initiatives in higher education"
+    },
+    {
+     "id": "15",
+     "why": "IT Act, data protection and cyber safety"
+    },
+    {
+     "id": "18",
+     "why": "Full forms of UIDAI, NPCI, MeitY, NIC and others"
+    }
+   ]
+  },
+  "17": {
+   "slug": "exam-pattern-and-question-formats",
+   "seo_title": "ICT Exam Pattern and Question Formats | UGC NET Paper 1 Unit 8",
+   "description": "How the ICT unit of UGC NET Paper 1 is examined: question styles, recent trends, scoring strategy, and how to solve match, statement and arrange-in-order items.",
+   "lead": "Where the marks come from: question styles, recent trends, a scoring strategy, how to attack match, statement and order questions, and a last-week checklist.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "ICT Mixed Practice Set 1"
+    },
+    {
+     "slug": "mixed-practice-set-2",
+     "label": "ICT Mixed Practice Set 2"
+    }
+   ],
+   "related": [
+    {
+     "id": "14",
+     "why": "The most frequently asked area"
+    },
+    {
+     "id": "15",
+     "why": "Cyber law repeats every year"
+    },
+    {
+     "id": "18",
+     "why": "Abbreviations are guaranteed marks"
+    }
+   ]
+  },
+  "18": {
+   "slug": "ict-abbreviations",
+   "seo_title": "ICT Abbreviations and Full Forms for UGC NET Paper 1 (A to Z)",
+   "description": "A to Z list of ICT abbreviations and full forms for UGC NET Paper 1: ARPANET, BIOS, DNS, HTTP, MICR, SMTP, UIDAI, VPN, WWW and more.",
+   "lead": "Every ICT abbreviation worth knowing, in alphabetical order so you can find one in seconds. A guaranteed source of marks every year.",
+   "mcq": [
+    {
+     "slug": "ict-abbreviations-and-terminology-part-1",
+     "label": "ICT Abbreviations and Terminology (Part 1)"
+    },
+    {
+     "slug": "ict-abbreviations-and-terminology-part-2",
+     "label": "ICT Abbreviations and Terminology (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "14",
+     "why": "Bodies and platforms behind the abbreviations"
+    },
+    {
+     "id": "17",
+     "why": "Match-the-following strategy for abbreviations"
+    },
+    {
+     "id": "7",
+     "why": "Protocols and web terms"
+    }
+   ]
+  }
+ }
+}

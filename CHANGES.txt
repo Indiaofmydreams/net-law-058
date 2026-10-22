@@ -1,3 +1,19 @@
+Study notes: ICT, Logical Reasoning, People Development & Environment (21 Oct 2026)
+- Three new chapters in /notes/ (format "chapters"), built from the .docx files by _tools/build_notes.py:
+  ICT (Unit 8): 6 modules, 18 topics, 92 sub-topics. Logical Reasoning (Unit 6): 7 modules, 19 topics, 73 sub-topics.
+  People, Development & Environment (Unit 9): 4 modules, 10 topics, 58 sub-topics, with an Analysis Angle on topics 1-8.
+  Each has a chapter overview, one page per topic, a rapid-recall sheet, JSON-LD, breadcrumbs, related topics and MCQ links.
+- New data: _notes-data/ugc-net-paper-1/{ict,logical-reasoning,people-development-environment}/ (content.md + chapter.json).
+- Unit pages 6, 8 and 9 now carry the "Detailed study notes" block, the sidebar "Detailed notes" box and an "On this page" link.
+- build_notes.py (backward compatible, Teaching and Research output unchanged except one "0 memory points" label dropped):
+  rapid_from also reads 2- and 3-column tables; optional chapter.json keys "search_placeholder" and "hide_stats";
+  revision hint and topic cards no longer mention memory points / capsules when a chapter has none.
+- notes/ hub, notes/search-index.json and the notes block of sitemap.xml regenerated (+53 URLs).
+- Content tidy-ups made while converting: removed drafting notes ("this chat", "your MCQ sets", author stamp); ICT is Unit 8 (the .docx said Unit 9);
+  ICT abbreviations regrouped A-Z; ICT exam pattern + question formats became Topic 17; Logic topics 19+20 merged into Topic 19;
+  PDE unit map became Topic 9 and the revision toolkit Topic 10.
+
+----
 PYQ page (18 Oct 2026)
 - New pyq.html (+ pyq.css, pyq.js, pyq-data.json, PYQ-README.txt): 700 UGC NET Law PYQs in one pool, shuffled tests of 20 / 50 / 100 questions, timer = half a minute per question, explanations where available, rationale + disclaimer + links to other sections on the page.
 - Every PYQs link on the site now goes to pyq.html (about 2,000 links on ~470 pages, home nav/footer/carousel/section nav, FAQ, phone app). Home "Coming next" block is now a teaser.
