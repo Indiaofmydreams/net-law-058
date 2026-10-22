@@ -1,0 +1,462 @@
+{
+ "format": "chapters",
+ "paper": "ugc-net-law-058",
+ "paper_name": "UGC NET Law (058)",
+ "paper_code": "",
+ "unit": 10,
+ "slug": "comparative-public-law",
+ "name": "Comparative Public Law and Systems of Governance",
+ "short_name": "Comparative Public Law",
+ "unit_page": "/ugc-net-law-unit-10-comparative-public-law.html",
+ "mcq_base": "/mcq/ugc-net-law/comparative-public-law/",
+ "mcq_index": "/mcq/ugc-net-law/comparative-public-law/",
+ "mcq_total": "190+",
+ "updated": "2026-10-22",
+ "seo_title": "UGC NET Law Comparative Public Law Notes (Unit 10)",
+ "description": "UGC NET Law Comparative Public Law notes: 12 topics, 63 sub-topics on federalism, rule of law, constitutional review and the Ombudsman. Free, with revision mode.",
+ "intro": "Unit X is a comparison unit, and examiners love contrasts: India versus the USA, the UK versus the USA, Switzerland versus France. The ten topics cover comparative method, forms of government, federalism, rule of law, separation of powers, the judiciary, constitutional review, amendment, the Ombudsman and open government. Each topic ends with a Memory Capsule of exam traps, and Topic 11 collects question patterns, a one-page cheat sheet of names and numbers, common mistakes and a revision plan.",
+ "how": [
+  [
+   "Round 1: Read",
+   "Start with Topic 0 for the four kinds of questions, then read Topics 1 to 10 in order. Build a mental table for each topic: definition, thinkers, cases and the country-wise comparison."
+  ],
+  [
+   "Round 2: Revise",
+   "Switch on <i>Revision mode</i> on any topic page to keep each section's tables and lists, plus the Memory Capsule of exam traps. Write the comparison tables (India, USA, UK, France) from memory."
+  ],
+  [
+   "Last week: Recall",
+   "Use the <a href=\"/notes/ugc-net-law-058/comparative-public-law/rapid-recall.html\">rapid-recall sheet</a> (names and numbers by topic), then Topic 11 and practice MCQs."
+  ]
+ ],
+ "rapid_from": [
+  "11.2"
+ ],
+ "rapid_placeholder": "Dicey, 1803, Sweden 1809",
+ "search_placeholder": "Find a concept: e.g. Dicey, Marbury, Bommai, Ombudsman, FOIA",
+ "xref": "topic",
+ "modules": [
+  {
+   "id": "m1",
+   "title": "Foundations of Comparison",
+   "blurb": "How the unit is examined, the method of comparative law, and the forms of government that the rest of the unit compares.",
+   "topics": [
+    "0",
+    "1",
+    "2"
+   ]
+  },
+  {
+   "id": "m2",
+   "title": "Federalism, Rule of Law and Separation of Powers",
+   "blurb": "The USA, Canada and India as federal models, formal and substantive rule of law, and separation of powers in four countries.",
+   "topics": [
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "id": "m3",
+   "title": "Judiciary, Constitutional Review and Amendment",
+   "blurb": "Judicial independence and activism, systems of constitutional review, and how constitutions are amended.",
+   "topics": [
+    "6",
+    "7",
+    "8"
+   ]
+  },
+  {
+   "id": "m4",
+   "title": "Accountability, Open Government and Master Revision",
+   "blurb": "The Ombudsman, open government and the right to information, and a master revision section.",
+   "topics": [
+    "9",
+    "10",
+    "11"
+   ]
+  }
+ ],
+ "topics": {
+  "0": {
+   "slug": "how-this-unit-is-examined",
+   "seo_title": "UGC NET Law Unit 10: How Comparative Public Law Is Examined",
+   "description": "Start here for UGC NET Law Unit 10 Comparative Public Law: the four kinds of questions (memory, concept, match, analysis) and how to study a comparison unit.",
+   "lead": "The four kinds of questions this unit produces and a method for studying a unit that is all contrasts.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "Mixed Practice Set 1"
+    },
+    {
+     "slug": "mixed-practice-set-2",
+     "label": "Mixed Practice Set 2"
+    },
+    {
+     "slug": "mixed-practice-set-3",
+     "label": "Mixed Practice Set 3"
+    }
+   ],
+   "related": [
+    {
+     "id": "1",
+     "why": "Begin with the method of comparative law"
+    },
+    {
+     "id": "11",
+     "why": "Master revision section"
+    },
+    {
+     "id": "2",
+     "why": "Forms of government"
+    }
+   ]
+  },
+  "1": {
+   "slug": "comparative-law-method",
+   "seo_title": "Comparative Law Notes: Methodology, Functional Method | UGC NET Law",
+   "description": "UGC NET Law notes on comparative law: meaning, history (Lambert, Rabel), purposes, types of comparison, functional method, legal families, transplants and problems.",
+   "lead": "What comparative law is, who built it, why we compare, the main methods (especially the functional method) and the problems of comparison.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "Mixed Practice Set 1"
+    }
+   ],
+   "related": [
+    {
+     "id": "2",
+     "why": "Applying comparison to forms of government"
+    },
+    {
+     "id": "4",
+     "why": "Rule of law across legal systems"
+    },
+    {
+     "id": "0",
+     "why": "How the unit is examined"
+    }
+   ]
+  },
+  "2": {
+   "slug": "forms-of-government",
+   "seo_title": "Forms of Government Notes: Presidential, Federal | UGC NET Law",
+   "description": "UGC NET Law notes on forms of government: parliamentary, presidential, semi-presidential, unitary and federal systems, with comparison tables and exam traps.",
+   "lead": "Parliamentary and presidential government, semi-presidential hybrids, unitary and federal states, with a comparison table for each pair.",
+   "mcq": [
+    {
+     "slug": "usa-part-1",
+     "label": "USA (Part 1)"
+    },
+    {
+     "slug": "uk",
+     "label": "UK"
+    },
+    {
+     "slug": "france",
+     "label": "France"
+    }
+   ],
+   "related": [
+    {
+     "id": "3",
+     "why": "Federalism in the USA, Canada and India"
+    },
+    {
+     "id": "5",
+     "why": "Separation of powers in each system"
+    },
+    {
+     "id": "6",
+     "why": "The judiciary in each system"
+    }
+   ]
+  },
+  "3": {
+   "slug": "models-of-federalism",
+   "seo_title": "Federalism: USA, Canada and India Compared | UGC NET Law",
+   "description": "UGC NET Law notes on federalism in the USA, Canada and India: origins, structure, phases, landmark cases, the Privy Council and Bommai, with a comparison table.",
+   "lead": "How the US, Canadian and Indian federations are built, how they evolved, the cases that shaped them and a three-country table.",
+   "mcq": [
+    {
+     "slug": "usa-part-1",
+     "label": "USA (Part 1)"
+    },
+    {
+     "slug": "canada",
+     "label": "Canada"
+    },
+    {
+     "slug": "australia",
+     "label": "Australia"
+    }
+   ],
+   "related": [
+    {
+     "id": "2",
+     "why": "Unitary and federal government in general"
+    },
+    {
+     "id": "8",
+     "why": "Amending a federal constitution"
+    },
+    {
+     "id": "7",
+     "why": "Who decides federal disputes: constitutional review"
+    }
+   ]
+  },
+  "4": {
+   "slug": "rule-of-law-formal-and-substantive",
+   "seo_title": "Rule of Law: Formal vs Substantive, Dicey, Fuller | UGC NET Law",
+   "description": "UGC NET Law notes on the rule of law: Dicey, formal views (Fuller, Raz), substantive views (Dworkin, Bingham), and the rule of law in India, UK and USA.",
+   "lead": "Dicey's three principles, the formal and substantive conceptions, a comparison table, and the rule of law in India, the UK and the USA.",
+   "mcq": [
+    {
+     "slug": "uk",
+     "label": "UK"
+    },
+    {
+     "slug": "mixed-practice-set-2",
+     "label": "Mixed Practice Set 2"
+    }
+   ],
+   "related": [
+    {
+     "id": "5",
+     "why": "Separation of powers, the rule of law's partner"
+    },
+    {
+     "id": "6",
+     "why": "An independent judiciary secures the rule of law"
+    },
+    {
+     "id": "1",
+     "why": "Comparative method and legal families"
+    }
+   ]
+  },
+  "5": {
+   "slug": "separation-of-powers",
+   "seo_title": "Separation of Powers: India, UK, USA, France | UGC NET Law",
+   "description": "UGC NET Law notes on separation of powers: Locke and Montesquieu, the USA, the UK, France and India, with cases such as Ram Jawaya Kapur and a comparison table.",
+   "lead": "The theory behind separation of powers and how it works in the USA, UK, France and India, with a four-country table.",
+   "mcq": [
+    {
+     "slug": "usa-part-3",
+     "label": "USA (Part 3)"
+    },
+    {
+     "slug": "uk",
+     "label": "UK"
+    },
+    {
+     "slug": "france",
+     "label": "France"
+    }
+   ],
+   "related": [
+    {
+     "id": "4",
+     "why": "Rule of law, the other limit on government"
+    },
+    {
+     "id": "6",
+     "why": "Independence of the judiciary"
+    },
+    {
+     "id": "2",
+     "why": "Presidential and parliamentary systems"
+    }
+   ]
+  },
+  "6": {
+   "slug": "independence-of-judiciary-judicial-activism",
+   "seo_title": "Judicial Independence and Activism: India, UK, USA | UGC NET Law",
+   "description": "UGC NET Law notes on judicial independence, activism and accountability: the Judges Cases in India, the UK after the Constitutional Reform Act, and the USA.",
+   "lead": "Independence of the judiciary as a concept, then India (Judges Cases, accountability), judicial activism, the UK and the USA.",
+   "mcq": [
+    {
+     "slug": "usa-part-4",
+     "label": "USA (Part 4)"
+    },
+    {
+     "slug": "uk",
+     "label": "UK"
+    }
+   ],
+   "related": [
+    {
+     "id": "7",
+     "why": "Constitutional review, the judiciary's main check"
+    },
+    {
+     "id": "5",
+     "why": "Separation of powers and the courts"
+    },
+    {
+     "id": "4",
+     "why": "Rule of law and judicial independence"
+    }
+   ]
+  },
+  "7": {
+   "slug": "systems-of-constitutional-review",
+   "seo_title": "Constitutional Review: India, USA, Switzerland, France | UGC NET Law",
+   "description": "UGC NET Law notes on constitutional review: concept and models, the USA (Marbury), India, Switzerland, France (Conseil constitutionnel) and a comparison table.",
+   "lead": "Models of constitutional review, and how the USA, India, Switzerland and France each do it, with a four-country table.",
+   "mcq": [
+    {
+     "slug": "usa-part-4",
+     "label": "USA (Part 4)"
+    },
+    {
+     "slug": "france",
+     "label": "France"
+    },
+    {
+     "slug": "germany",
+     "label": "Germany"
+    }
+   ],
+   "related": [
+    {
+     "id": "6",
+     "why": "The judiciary that exercises review"
+    },
+    {
+     "id": "8",
+     "why": "Amendment and the basic structure"
+    },
+    {
+     "id": "3",
+     "why": "Federalism and judicial review"
+    }
+   ]
+  },
+  "8": {
+   "slug": "amendment-of-the-constitution",
+   "seo_title": "Constitutional Amendment: India, USA, South Africa | UGC NET Law",
+   "description": "UGC NET Law notes on amending constitutions: Article 368 in India, Article V in the USA, Section 74 in South Africa, with a comparison table.",
+   "lead": "Why and how constitutions are amended, with India's Article 368 and basic structure, the USA's Article V and South Africa's three-tier procedure.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-3",
+     "label": "Mixed Practice Set 3"
+    },
+    {
+     "slug": "canada",
+     "label": "Canada"
+    }
+   ],
+   "related": [
+    {
+     "id": "7",
+     "why": "Constitutional review and the limits of amendment"
+    },
+    {
+     "id": "3",
+     "why": "Federalism and the amendment process"
+    },
+    {
+     "id": "11",
+     "why": "Cheat sheet of amendments and cases"
+    }
+   ]
+  },
+  "9": {
+   "slug": "ombudsman",
+   "seo_title": "Ombudsman Notes: Sweden, UK, India and the Lokpal | UGC NET Law",
+   "description": "UGC NET Law notes on the Ombudsman: concept and features, Sweden's original model, the UK, and India's Lokpal and Lokayuktas Act 2013, with a comparison table.",
+   "lead": "The Ombudsman idea, the Swedish original, the UK Parliamentary Commissioner, and India's Lokpal and State Lokayuktas.",
+   "mcq": [
+    {
+     "slug": "uk",
+     "label": "UK"
+    },
+    {
+     "slug": "mixed-practice-set-3",
+     "label": "Mixed Practice Set 3"
+    }
+   ],
+   "related": [
+    {
+     "id": "10",
+     "why": "Open government and the right to information"
+    },
+    {
+     "id": "4",
+     "why": "Rule of law and accountability"
+    },
+    {
+     "id": "11",
+     "why": "Cheat sheet"
+    }
+   ]
+  },
+  "10": {
+   "slug": "open-government-and-right-to-information",
+   "seo_title": "Open Government and RTI: USA FOIA, UK, India | UGC NET Law",
+   "description": "UGC NET Law notes on open government: US FOIA 1966 and its nine exemptions, UK FOIA 2000, India's RTI Act 2005 and information commissions.",
+   "lead": "The idea of open government, then freedom of information in the USA and the UK, and the RTI Act 2005 in India.",
+   "mcq": [
+    {
+     "slug": "uk",
+     "label": "UK"
+    },
+    {
+     "slug": "mixed-practice-set-2",
+     "label": "Mixed Practice Set 2"
+    }
+   ],
+   "related": [
+    {
+     "id": "9",
+     "why": "The Ombudsman, a companion accountability tool"
+    },
+    {
+     "id": "4",
+     "why": "Rule of law and transparency"
+    },
+    {
+     "id": "11",
+     "why": "Cheat sheet"
+    }
+   ]
+  },
+  "11": {
+   "slug": "master-revision",
+   "seo_title": "Comparative Public Law Master Revision and Cheat Sheet | UGC NET Law",
+   "description": "Master revision for UGC NET Law Unit 10: question patterns, a one-page cheat sheet of names and numbers, common mistakes to avoid and a practical revision plan.",
+   "lead": "The last-week sheet: question patterns, names and numbers topic by topic, mistakes to avoid and how to revise.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "Mixed Practice Set 1"
+    },
+    {
+     "slug": "mixed-practice-set-2",
+     "label": "Mixed Practice Set 2"
+    },
+    {
+     "slug": "mixed-practice-set-3",
+     "label": "Mixed Practice Set 3"
+    }
+   ],
+   "related": [
+    {
+     "id": "0",
+     "why": "How the unit is examined"
+    },
+    {
+     "id": "1",
+     "why": "Method of comparative law"
+    },
+    {
+     "id": "2",
+     "why": "Forms of government"
+    }
+   ]
+  }
+ }
+}

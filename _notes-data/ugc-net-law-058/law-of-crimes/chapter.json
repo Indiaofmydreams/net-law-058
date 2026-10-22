@@ -1,0 +1,462 @@
+{
+ "format": "chapters",
+ "paper": "ugc-net-law-058",
+ "paper_name": "UGC NET Law (058)",
+ "paper_code": "",
+ "unit": 4,
+ "slug": "law-of-crimes",
+ "name": "Law of Crimes",
+ "short_name": "Law of Crimes",
+ "unit_page": "/ugc-net-law-unit-4-law-of-crimes.html",
+ "mcq_base": "/mcq/ugc-net-law/law-of-crimes/",
+ "mcq_index": "/mcq/ugc-net-law/law-of-crimes/",
+ "mcq_total": "480+",
+ "updated": "2026-10-22",
+ "seo_title": "UGC NET Law Law of Crimes Notes (Unit 4): BNS and IPC",
+ "description": "UGC NET Law Law of Crimes notes: 12 topics, 75 sub-topics on BNS offences, general exceptions, abetment, property crimes and punishment. Free, with revision mode.",
+ "intro": "Law of Crimes is now tested under the Bharatiya Nyaya Sanhita, 2023 (BNS), but options still mix BNS and old IPC numbering and most case law was decided under the IPC. Every topic therefore gives the BNS section first and the IPC section in brackets. Topic 0 is the place to start: it holds the BNS at a glance, the IPC to BNS conversion table and the exam pattern. Topics 1 to 3 are the general part (liability, inchoate crimes, general exceptions); Topics 4 to 9 are the offences; Topic 10 is punishment; Topic 11 is a final revision sheet.",
+ "how": [
+  [
+   "Round 1: Read",
+   "Start with Topic 0, then read the general part (Topics 1 to 3) before any offence. Topics 1 to 4 and 6 are the most question-dense; Topic 7 is the most current-affairs heavy."
+  ],
+  [
+   "Round 2: Revise",
+   "Switch on <i>Revision mode</i> on any topic page to keep each section's key lists and tables, plus the Memory Capsule at the end of the topic. Rewrite the comparison tables (abetment, conspiracy, attempt; theft, extortion, robbery, dacoity) from memory."
+  ],
+  [
+   "Last week: Recall",
+   "Use the <a href=\"/notes/ugc-net-law-058/law-of-crimes/rapid-recall.html\">rapid-recall sheet</a> (IPC to BNS sections, the exceptions section map, case-to-principle and number facts), then Topic 11 and practice MCQs."
+  ]
+ ],
+ "rapid_from": [
+  "0.2",
+  "3.1",
+  "11.1",
+  "11.3",
+  "11.4"
+ ],
+ "rapid_placeholder": "s.103, 34, Nanavati, 7 and 12",
+ "search_placeholder": "Find a concept: e.g. s.103 BNS, mens rea, private defence, dacoity, POCSO",
+ "xref": "topic",
+ "modules": [
+  {
+   "id": "m1",
+   "title": "Start Here and the General Part",
+   "blurb": "The BNS and the IPC conversion table, then the principles every offence rests on: criminal liability, inchoate crimes and general exceptions.",
+   "topics": [
+    "0",
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "id": "m2",
+   "title": "Offences Against the Person and the State",
+   "blurb": "Homicide, hurt, kidnapping and trafficking, then offences against the State, organised crime and terrorism.",
+   "topics": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "id": "m3",
+   "title": "Property, Women and Children, Drugs and Currency",
+   "blurb": "Theft to forgery, sexual and domestic offences and POCSO, and the NDPS and counterfeiting offences.",
+   "topics": [
+    "6",
+    "7",
+    "8"
+   ]
+  },
+  {
+   "id": "m4",
+   "title": "Public Order, Punishment and Final Revision",
+   "blurb": "Unlawful assembly and riot, theories and kinds of punishment, and a final sheet of cases, confusing pairs and numbers.",
+   "topics": [
+    "9",
+    "10",
+    "11"
+   ]
+  }
+ ],
+ "topics": {
+  "0": {
+   "slug": "scope-law-used-and-exam-pattern",
+   "seo_title": "BNS vs IPC Conversion Table and Exam Pattern | UGC NET Law",
+   "description": "Start here for UGC NET Law Unit 4: the BNS 2023 at a glance, the IPC to BNS section conversion table and how Law of Crimes is tested in Paper 2.",
+   "lead": "Read this first: the BNS replaced the IPC on 1 July 2024, what is new and dropped, the section conversion table, and how the unit is examined.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "Mixed Practice Set 1"
+    },
+    {
+     "slug": "general-principles-part-1",
+     "label": "General Principles (Part 1)"
+    }
+   ],
+   "related": [
+    {
+     "id": "1",
+     "why": "Begin the general part of criminal liability"
+    },
+    {
+     "id": "5",
+     "why": "Organised crime and terrorism are new BNS offences"
+    },
+    {
+     "id": "11",
+     "why": "Final sheet of cases, pairs and numbers"
+    }
+   ]
+  },
+  "1": {
+   "slug": "general-principles-of-criminal-liability",
+   "seo_title": "Criminal Liability Notes: Actus Reus, Mens Rea, s.3(5) | UGC NET Law",
+   "description": "UGC NET Law notes on criminal liability: elements of a crime, actus reus, mens rea, strict and absolute liability, and individual, group and constructive liability.",
+   "lead": "Actus reus and mens rea, where mens rea is not required, and how liability spreads to groups through common intention and common object.",
+   "mcq": [
+    {
+     "slug": "general-principles-part-1",
+     "label": "General Principles (Part 1)"
+    },
+    {
+     "slug": "general-principles-part-2",
+     "label": "General Principles (Part 2)"
+    },
+    {
+     "slug": "general-principles-part-3",
+     "label": "General Principles (Part 3)"
+    }
+   ],
+   "related": [
+    {
+     "id": "2",
+     "why": "Abetment, conspiracy and attempt build on these principles"
+    },
+    {
+     "id": "3",
+     "why": "General exceptions remove liability even when the act is proved"
+    },
+    {
+     "id": "9",
+     "why": "Common object and unlawful assembly in detail"
+    }
+   ]
+  },
+  "2": {
+   "slug": "stages-of-crime-and-inchoate-offences",
+   "seo_title": "Abetment, Conspiracy and Attempt Notes | UGC NET Law Crimes",
+   "description": "UGC NET Law notes on stages of crime and inchoate offences: abetment (BNS ss.45-60), criminal conspiracy (s.61), attempt (s.62) and a comparison table.",
+   "lead": "The four stages of a crime, then abetment, conspiracy and attempt with their tests, punishments and a three-way comparison.",
+   "mcq": [
+    {
+     "slug": "stages-of-crime-part-1",
+     "label": "Stages of Crime (Part 1)"
+    },
+    {
+     "slug": "stages-of-crime-part-2",
+     "label": "Stages of Crime (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "1",
+     "why": "The mens rea and actus reus principles behind inchoate crimes"
+    },
+    {
+     "id": "4",
+     "why": "Attempt to murder and abetment of suicide"
+    },
+    {
+     "id": "5",
+     "why": "Conspiracy and organised crime"
+    }
+   ]
+  },
+  "3": {
+   "slug": "general-exceptions",
+   "seo_title": "General Exceptions (BNS ss.14-44) and Private Defence | UGC NET Law",
+   "description": "UGC NET Law notes on BNS general exceptions (ss.14-44; IPC 76-106): mistake, accident, necessity, infancy, insanity, intoxication, consent, private defence.",
+   "lead": "The section map from IPC to BNS, then each defence in turn: mistake, accident, necessity, infancy, insanity, intoxication, consent, duress, trifles and private defence.",
+   "mcq": [
+    {
+     "slug": "general-exceptions-part-1",
+     "label": "General Exceptions (Part 1)"
+    },
+    {
+     "slug": "general-exceptions-part-2",
+     "label": "General Exceptions (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "1",
+     "why": "The liability these exceptions answer"
+    },
+    {
+     "id": "4",
+     "why": "Private defence and the exceptions to murder"
+    },
+    {
+     "id": "7",
+     "why": "Consent in sexual and bodily offences"
+    }
+   ]
+  },
+  "4": {
+   "slug": "offences-against-the-human-body",
+   "seo_title": "Murder and Culpable Homicide Notes (BNS ss.100-146) | UGC NET Law",
+   "description": "UGC NET Law notes on offences against the body: culpable homicide, murder, hit and run, hurt, kidnapping, abduction and trafficking, with BNS and IPC sections.",
+   "lead": "Culpable homicide versus murder, death by negligence and hit and run, grievous hurt, restraint, kidnapping versus abduction and trafficking.",
+   "mcq": [
+    {
+     "slug": "offences-against-human-body-part-1",
+     "label": "Offences Against Human Body (Part 1)"
+    },
+    {
+     "slug": "offences-against-human-body-part-2",
+     "label": "Offences Against Human Body (Part 2)"
+    },
+    {
+     "slug": "offences-against-human-body-part-3",
+     "label": "Offences Against Human Body (Part 3)"
+    }
+   ],
+   "related": [
+    {
+     "id": "3",
+     "why": "Private defence and the exceptions that reduce murder"
+    },
+    {
+     "id": "7",
+     "why": "Dowry death, acid attack and offences against women"
+    },
+    {
+     "id": "10",
+     "why": "The death penalty and its limits"
+    }
+   ]
+  },
+  "5": {
+   "slug": "offences-against-the-state-and-terrorism",
+   "seo_title": "Offences Against the State and Terrorism Notes | UGC NET Law",
+   "description": "UGC NET Law notes on offences against the State: waging war, s.152 BNS, organised crime (s.111), terrorist act (s.113) and special anti-terror laws.",
+   "lead": "Waging war and the new s.152, organised crime and terrorism inside the BNS, and the special anti-terror and security statutes.",
+   "mcq": [
+    {
+     "slug": "offences-against-state-part-1",
+     "label": "Offences Against State (Part 1)"
+    },
+    {
+     "slug": "offences-against-state-part-2",
+     "label": "Offences Against State (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "0",
+     "why": "What the BNS added and dropped"
+    },
+    {
+     "id": "4",
+     "why": "Murder and homicide in terror cases"
+    },
+    {
+     "id": "9",
+     "why": "Public order offences next to the State offences"
+    }
+   ]
+  },
+  "6": {
+   "slug": "offences-against-property",
+   "seo_title": "Theft, Robbery, Cheating and Forgery Notes (BNS) | UGC NET Law",
+   "description": "UGC NET Law notes on offences against property: theft and snatching, extortion, robbery, dacoity, breach of trust, cheating, mischief, trespass and forgery.",
+   "lead": "Theft to forgery in sequence, with a table that separates theft, extortion, robbery and dacoity and the cases that mark each line.",
+   "mcq": [
+    {
+     "slug": "offences-against-property-part-1",
+     "label": "Offences Against Property (Part 1)"
+    },
+    {
+     "slug": "offences-against-property-part-2",
+     "label": "Offences Against Property (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "3",
+     "why": "Private defence of property"
+    },
+    {
+     "id": "8",
+     "why": "Counterfeiting of coin, notes and stamps"
+    },
+    {
+     "id": "11",
+     "why": "Confusing pairs: theft, extortion, robbery, dacoity"
+    }
+   ]
+  },
+  "7": {
+   "slug": "offences-against-women-and-children",
+   "seo_title": "Offences Against Women and Children Notes (BNS, POCSO) | UGC NET Law",
+   "description": "UGC NET Law notes on offences against women and children: rape (ss.63-73), sexual harassment, cruelty and dowry, marriage offences, miscarriage and POCSO 2012.",
+   "lead": "Rape and sexual offences, harassment, cruelty and dowry, offences relating to marriage and miscarriage, offences against children and the POCSO Act.",
+   "mcq": [
+    {
+     "slug": "offences-against-women-and-children-part-1",
+     "label": "Offences Against Women and Children (Part 1)"
+    },
+    {
+     "slug": "offences-against-women-and-children-part-2",
+     "label": "Offences Against Women and Children (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "4",
+     "why": "Hurt, acid attack and dowry death"
+    },
+    {
+     "id": "3",
+     "why": "Consent as a defence and its limits"
+    },
+    {
+     "id": "10",
+     "why": "Compensation to victims of crime"
+    }
+   ]
+  },
+  "8": {
+   "slug": "drug-trafficking-and-counterfeiting",
+   "seo_title": "NDPS Act and Counterfeiting Notes | UGC NET Law Crimes",
+   "description": "UGC NET Law notes on drug trafficking and counterfeiting: NDPS Act 1985 scheme, punishments, bail and search rules, currency and stamp offences.",
+   "lead": "The NDPS scheme and punishment bands, the bail and presumption rules that drive the case law, and counterfeit currency, stamps and goods.",
+   "mcq": [
+    {
+     "slug": "drug-trafficking-and-counterfeiting-part-1",
+     "label": "Drug Trafficking and Counterfeiting (Part 1)"
+    },
+    {
+     "slug": "drug-trafficking-and-counterfeiting-part-2",
+     "label": "Drug Trafficking and Counterfeiting (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "5",
+     "why": "Organised crime provisions in the BNS"
+    },
+    {
+     "id": "6",
+     "why": "Forgery and cheating"
+    },
+    {
+     "id": "10",
+     "why": "Sentencing and punishment"
+    }
+   ]
+  },
+  "9": {
+   "slug": "offences-against-public-tranquillity",
+   "seo_title": "Unlawful Assembly, Riot and Affray Notes | UGC NET Law",
+   "description": "UGC NET Law notes on public tranquillity: unlawful assembly (s.189), common object (s.190), rioting, affray, promoting enmity, religion offences and public nuisance.",
+   "lead": "Unlawful assembly, common object, riot and affray with a comparison table, then enmity, religion, public mischief and nuisance offences.",
+   "mcq": [
+    {
+     "slug": "offences-against-public-tranquility-part-1",
+     "label": "Offences Against Public Tranquillity (Part 1)"
+    },
+    {
+     "slug": "offences-against-public-tranquility-part-2",
+     "label": "Offences Against Public Tranquillity (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "1",
+     "why": "Common object versus common intention"
+    },
+    {
+     "id": "5",
+     "why": "Offences against the State"
+    },
+    {
+     "id": "11",
+     "why": "Confusing pairs for revision"
+    }
+   ]
+  },
+  "10": {
+   "slug": "theories-and-kinds-of-punishment",
+   "seo_title": "Theories of Punishment and Death Penalty Notes | UGC NET Law",
+   "description": "UGC NET Law notes on punishment: theories, kinds of punishment (BNS s.4), the death penalty, sentencing, probation and compensation to victims of crime.",
+   "lead": "The theories of punishment, the kinds of punishment in the BNS including community service, the death penalty, probation and victim compensation.",
+   "mcq": [
+    {
+     "slug": "theories-of-punishment-part-1",
+     "label": "Theories of Punishment (Part 1)"
+    },
+    {
+     "slug": "theories-of-punishment-part-2",
+     "label": "Theories of Punishment (Part 2)"
+    },
+    {
+     "slug": "theories-of-punishment-part-3",
+     "label": "Theories of Punishment (Part 3)"
+    }
+   ],
+   "related": [
+    {
+     "id": "4",
+     "why": "Murder and the death penalty"
+    },
+    {
+     "id": "7",
+     "why": "Compensation to victims of sexual offences"
+    },
+    {
+     "id": "11",
+     "why": "Final revision sheet"
+    }
+   ]
+  },
+  "11": {
+   "slug": "final-revision-sheet",
+   "seo_title": "Law of Crimes Final Revision: Cases, Pairs, Numbers | UGC NET Law",
+   "description": "Final revision sheet for UGC NET Law Unit 4: case to principle, confusing pairs, what changed in the BNS, number facts and the technique for statement MCQs.",
+   "lead": "The last-day sheet: landmark cases matched to principles, commonly confused pairs, new BNS provisions, number facts and MCQ technique.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "Mixed Practice Set 1"
+    },
+    {
+     "slug": "mixed-practice-set-2",
+     "label": "Mixed Practice Set 2"
+    }
+   ],
+   "related": [
+    {
+     "id": "0",
+     "why": "The IPC to BNS conversion table"
+    },
+    {
+     "id": "1",
+     "why": "General principles to revisit"
+    },
+    {
+     "id": "6",
+     "why": "Property offences: the pairs examiners confuse"
+    }
+   ]
+  }
+ },
+ "rapid_labels": [
+  "0.2",
+  "3.1"
+ ]
+}

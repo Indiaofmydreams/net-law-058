@@ -195,3 +195,11 @@
   .site-header,footer,.nt-side,.nt-mode,.nt-mode-hint,.nt-done,.nt-search,.nt-sub-foot,.nt-pn,.nt-up,.nt-track,.up-cta{display:none!important}
   .up-wrap{display:block}.nt-sub{break-inside:avoid;border:0;padding:0 0 12px}
 }
+
+/* topic overview (text before the first sub-topic) and tables inside prose sections */
+.nt-overview{background:var(--tint)}
+.nt-revise .nt-overview{display:none}
+.nt-pbody .nt-table .up-table{margin:0}
+/* phones/tablets: let wide tables scroll inside their box instead of stretching the page */
+.nt-wrap>.up-main{min-width:0}
+@media(max-width:900px){.nt-wrap{grid-template-columns:minmax(0,1fr)}}

@@ -1,0 +1,869 @@
+{
+ "format": "chapters",
+ "paper": "ugc-net-law-058",
+ "paper_name": "UGC NET Law (058)",
+ "paper_code": "",
+ "unit": 2,
+ "slug": "constitutional-administrative-law",
+ "name": "Constitutional and Administrative Law",
+ "short_name": "Constitutional Law",
+ "unit_page": "/ugc-net-law-unit-2-constitutional-administrative-law.html",
+ "mcq_base": "/mcq/ugc-net-law/constitutional-administrative-law/",
+ "mcq_index": "/mcq/ugc-net-law/constitutional-administrative-law/",
+ "mcq_total": "500+",
+ "updated": "2026-10-22",
+ "seo_title": "UGC NET Law Constitutional & Administrative Law Notes (Unit 2)",
+ "description": "UGC NET Law Constitutional Law notes: 25 topics, 110 sub-topics on Fundamental Rights, Emergency, Parliament and judicial review. Free, with revision mode.",
+ "intro": "Constitutional and Administrative Law is a core unit of Law 058, and it rewards both concepts and recall: Articles, landmark cases and amendments are tested alongside doctrines. These notes run from the Preamble through Fundamental Rights, the Union and State governments, Emergency and the Election Commission, then into Administrative Law (delegated legislation, natural justice, judicial review). Topics 16 to 25 are built for revision: Article tables, case laws, amendments, recent cases (2019 to 2026), doctrines, comparison tables, commissions, statutes and mnemonics.",
+ "how": [
+  [
+   "Round 1: Read",
+   "Go through Topics 1 to 15 in order. Each sub-topic explains the rule, the Articles behind it and the cases that decided it. Topics 13 to 15 (Administrative Law) are shorter but tested on concepts, so read them slowly."
+  ],
+  [
+   "Round 2: Revise",
+   "Switch on <i>Revision mode</i> on any topic page to see only each section's key terms, lists and tables. Then work through Topics 16 to 18 (Article, case and amendment tables) and Topic 21 (comparison tables)."
+  ],
+  [
+   "Last week: Recall",
+   "Use the <a href=\"/notes/ugc-net-law-058/constitutional-administrative-law/rapid-recall.html\">rapid-recall sheet</a> (Articles, landmark cases, amendments, commissions), then Topics 24 and 25, and practise MCQs topic by topic."
+  ]
+ ],
+ "rapid_from": [
+  "16.1",
+  "16.2",
+  "16.3",
+  "16.4",
+  "16.5",
+  "16.6",
+  "16.7",
+  "16.8",
+  "16.9",
+  "17.1",
+  "17.2",
+  "18.1",
+  "22.1"
+ ],
+ "rapid_placeholder": "Kesavananda, 42nd, Article 356",
+ "search_placeholder": "Find a concept: e.g. Article 21, basic structure, Wednesbury, Sarkaria",
+ "xref": "none",
+ "modules": [
+  {
+   "id": "m1",
+   "title": "Foundations: Preamble, Rights, Duties and Directive Principles",
+   "blurb": "The Preamble and Part III and IV: the rights citizens hold, the duties they owe and the goals the State must pursue.",
+   "topics": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  {
+   "id": "m2",
+   "title": "The Union and State Government",
+   "blurb": "The President and Governor, Parliament, the division of legislative power and the Supreme Court and High Courts.",
+   "topics": [
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+   ]
+  },
+  {
+   "id": "m3",
+   "title": "Emergency, Special Provisions and Elections",
+   "blurb": "National, State and Financial Emergency, special status provisions, and the Election Commission.",
+   "topics": [
+    "10",
+    "11",
+    "12"
+   ]
+  },
+  {
+   "id": "m4",
+   "title": "Administrative Law",
+   "blurb": "What administrative law is, the principles of natural justice, and how courts review administrative action.",
+   "topics": [
+    "13",
+    "14",
+    "15"
+   ]
+  },
+  {
+   "id": "m5",
+   "title": "Quick-Reference Tables: Articles, Cases and Amendments",
+   "blurb": "Tables to memorise: Articles by Part, landmark cases with years, and every key constitutional amendment.",
+   "topics": [
+    "16",
+    "17",
+    "18"
+   ]
+  },
+  {
+   "id": "m6",
+   "title": "Recent Cases, Doctrines, Comparisons and Statutes",
+   "blurb": "Post-2019 decisions, doctrines, the comparison tables examiners love, commissions and administrative-law statutes.",
+   "topics": [
+    "19",
+    "20",
+    "21",
+    "22",
+    "23"
+   ]
+  },
+  {
+   "id": "m7",
+   "title": "Exam Strategy and Mnemonics",
+   "blurb": "The topics that repeat most often and the mnemonics that lock them in.",
+   "topics": [
+    "24",
+    "25"
+   ]
+  }
+ ],
+ "topics": {
+  "1": {
+   "slug": "preamble",
+   "seo_title": "Preamble of the Constitution Notes: Text, Keywords | UGC NET Law",
+   "description": "UGC NET Law notes on the Preamble: full text, meaning of each keyword, Berubari and Kesavananda Bharati, amendability, and the SSSDR and JLEF memory anchors.",
+   "lead": "Where the Constitution begins: the text, each keyword from sovereign to fraternity, whether the Preamble is part of the Constitution, and whether it can be amended.",
+   "mcq": [
+    {
+     "slug": "amendment-procedure-and-basic-structure",
+     "label": "Amendment Procedure and Basic Structure"
+    },
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "Mixed Practice Set 1"
+    }
+   ],
+   "related": [
+    {
+     "id": "2",
+     "why": "Liberty, equality and justice become enforceable in Part III"
+    },
+    {
+     "id": "4",
+     "why": "Justice and the socialist aim are worked out in Part IV"
+    },
+    {
+     "id": "18",
+     "why": "The 42nd Amendment (1976) added three words"
+    }
+   ]
+  },
+  "2": {
+   "slug": "fundamental-rights",
+   "seo_title": "Fundamental Rights (Articles 12-35) Notes | UGC NET Law",
+   "description": "UGC NET Law notes on Fundamental Rights: Article 12 State, Article 13, equality, Article 19 freedoms, Articles 20-22, religion, cultural rights and Article 32.",
+   "lead": "Part III in ten sections: who counts as the State, how Article 13 voids laws, the six groups of rights, and Article 32 as the remedy.",
+   "mcq": [
+    {
+     "slug": "fundamental-rights-part-1",
+     "label": "Fundamental Rights (Part 1)"
+    },
+    {
+     "slug": "fundamental-rights-part-2",
+     "label": "Fundamental Rights (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "3",
+     "why": "Duties are the other side of rights"
+    },
+    {
+     "id": "4",
+     "why": "The long FR versus DPSP debate"
+    },
+    {
+     "id": "15",
+     "why": "Writs are how courts enforce these rights"
+    },
+    {
+     "id": "10",
+     "why": "Articles 358 and 359 and the suspension of rights"
+    }
+   ]
+  },
+  "3": {
+   "slug": "fundamental-duties",
+   "seo_title": "Fundamental Duties (Article 51-A) Notes | UGC NET Law",
+   "description": "UGC NET Law notes on Fundamental Duties: background, the 11 duties of Article 51-A, key features and enforceability.",
+   "lead": "Why duties were added in 1976, the eleven duties in order, and why they are not directly enforceable.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "Mixed Practice Set 1"
+    },
+    {
+     "slug": "statement-based-and-mixed",
+     "label": "Statement Based and Mixed"
+    }
+   ],
+   "related": [
+    {
+     "id": "2",
+     "why": "Rights that the duties balance"
+    },
+    {
+     "id": "4",
+     "why": "Duties and Directive Principles are both non-justiciable"
+    },
+    {
+     "id": "22",
+     "why": "Swaran Singh and Verma Committees on duties"
+    }
+   ]
+  },
+  "4": {
+   "slug": "directive-principles",
+   "seo_title": "Directive Principles (Articles 36-51) Notes | UGC NET Law",
+   "description": "UGC NET Law notes on Directive Principles of State Policy: nature, classification, the FR versus DPSP journey and the DPSPs that led to legislation.",
+   "lead": "The goals of the State in Part IV, how they are classified, and how courts moved from FR over DPSP to harmony between them.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-2",
+     "label": "Mixed Practice Set 2"
+    },
+    {
+     "slug": "statement-based-and-mixed",
+     "label": "Statement Based and Mixed"
+    }
+   ],
+   "related": [
+    {
+     "id": "2",
+     "why": "Fundamental Rights, the enforceable half of the balance"
+    },
+    {
+     "id": "3",
+     "why": "Fundamental Duties, added alongside in 1976"
+    },
+    {
+     "id": "17",
+     "why": "Champakam to Minerva Mills: the cases on FR and DPSP"
+    }
+   ]
+  },
+  "5": {
+   "slug": "union-executive",
+   "seo_title": "Union Executive Notes: President, VP, PM | UGC NET Law",
+   "description": "UGC NET Law notes on the Union Executive: the President's election, powers and removal, the Vice President, and the Prime Minister and Council of Ministers.",
+   "lead": "Who the President is, how the President is elected and removed, and how real executive power sits with the Council of Ministers.",
+   "mcq": [
+    {
+     "slug": "union-executive",
+     "label": "Union Executive"
+    }
+   ],
+   "related": [
+    {
+     "id": "6",
+     "why": "The Governor mirrors the President at State level"
+    },
+    {
+     "id": "7",
+     "why": "The executive is accountable to Parliament"
+    },
+    {
+     "id": "10",
+     "why": "Emergency powers of the President"
+    }
+   ]
+  },
+  "6": {
+   "slug": "state-executive-governor",
+   "seo_title": "Governor Notes: Appointment, Powers, Key Cases | UGC NET Law",
+   "description": "UGC NET Law notes on the Governor: status, appointment, qualifications, term, removal, powers, discretion and key cases such as Rameshwar Prasad and Nabam Rebia.",
+   "lead": "The Governor's status, appointment and removal, the powers exercised on aid and advice and those in discretion, and the cases that tested them.",
+   "mcq": [
+    {
+     "slug": "governor",
+     "label": "Governor"
+    }
+   ],
+   "related": [
+    {
+     "id": "5",
+     "why": "The President, whose office the Governor parallels"
+    },
+    {
+     "id": "10",
+     "why": "President's Rule under Article 356"
+    },
+    {
+     "id": "21",
+     "why": "President versus Governor: comparison table"
+    }
+   ]
+  },
+  "7": {
+   "slug": "parliament",
+   "seo_title": "Parliament Notes: Money Bill, Privileges, Tenth Schedule | UGC NET",
+   "description": "UGC NET Law notes on Parliament: composition, Money Bills (Article 110), privileges (Article 105), the Tenth Schedule anti-defection law and Article 368 amendment.",
+   "lead": "How Parliament is composed, what makes a Money Bill, the privileges of members, the anti-defection law, and how the Constitution is amended.",
+   "mcq": [
+    {
+     "slug": "parliament",
+     "label": "Parliament"
+    },
+    {
+     "slug": "amendment-procedure-and-basic-structure",
+     "label": "Amendment Procedure and Basic Structure"
+    }
+   ],
+   "related": [
+    {
+     "id": "8",
+     "why": "Parliament's lawmaking power against the States"
+    },
+    {
+     "id": "9",
+     "why": "Courts review what Parliament passes"
+    },
+    {
+     "id": "21",
+     "why": "Lok Sabha versus Rajya Sabha"
+    }
+   ]
+  },
+  "8": {
+   "slug": "union-state-legislative-relations",
+   "seo_title": "Union-State Legislative Relations Notes | UGC NET Law",
+   "description": "UGC NET Law notes on Union-State legislative relations: the three lists of the Seventh Schedule, key doctrines and when Parliament can legislate on the State List.",
+   "lead": "The Union, State and Concurrent Lists, the doctrines courts use to resolve overlap, and the situations in which Parliament may legislate on a State subject.",
+   "mcq": [
+    {
+     "slug": "union-state-relations",
+     "label": "Union State Relations"
+    },
+    {
+     "slug": "legislative-powers",
+     "label": "Legislative Powers"
+    }
+   ],
+   "related": [
+    {
+     "id": "7",
+     "why": "The Parliament that exercises these powers"
+    },
+    {
+     "id": "10",
+     "why": "Emergency changes the federal balance"
+    },
+    {
+     "id": "22",
+     "why": "Sarkaria and Punchhi on Centre-State relations"
+    }
+   ]
+  },
+  "9": {
+   "slug": "judiciary",
+   "seo_title": "Judiciary Notes: Supreme Court, High Courts, Collegium | UGC NET",
+   "description": "UGC NET Law notes on the Judiciary: Supreme Court (Articles 124-147), High Courts (Articles 214-231), the Three Judges Cases and PIL.",
+   "lead": "The Supreme Court and High Courts, how judges are appointed through the Collegium, and the rise of public interest litigation.",
+   "mcq": [
+    {
+     "slug": "judiciary",
+     "label": "Judiciary"
+    }
+   ],
+   "related": [
+    {
+     "id": "15",
+     "why": "Judicial review of administrative action"
+    },
+    {
+     "id": "2",
+     "why": "Article 32 and the enforcement of rights"
+    },
+    {
+     "id": "19",
+     "why": "Recent judgments of the Court"
+    }
+   ]
+  },
+  "10": {
+   "slug": "emergency-provisions",
+   "seo_title": "Emergency Provisions: Articles 352, 356, 360 Notes | UGC NET Law",
+   "description": "UGC NET Law notes on Emergency: Article 352 National Emergency, Article 358 versus 359, Article 356 President's Rule, Article 360 Financial Emergency and key cases.",
+   "lead": "The three emergencies, the difference between Articles 358 and 359, President's Rule and the cases that set limits on it.",
+   "mcq": [
+    {
+     "slug": "emergency-provisions-part-1",
+     "label": "Emergency Provisions (Part 1)"
+    },
+    {
+     "slug": "emergency-provisions-part-2",
+     "label": "Emergency Provisions (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "2",
+     "why": "Articles 20 and 21 cannot be suspended"
+    },
+    {
+     "id": "6",
+     "why": "The Governor's report behind Article 356"
+    },
+    {
+     "id": "18",
+     "why": "38th, 42nd and 44th Amendments on Emergency"
+    }
+   ]
+  },
+  "11": {
+   "slug": "special-and-transitional-provisions",
+   "seo_title": "Special and Transitional Provisions (Part XXI) Notes | UGC NET Law",
+   "description": "UGC NET Law notes on Part XXI: Article 370, the special provisions of Article 371 for States, and Union Territories.",
+   "lead": "The temporary and special provisions of Part XXI: Article 370, the Article 371 group for particular States, and Union Territories.",
+   "mcq": [
+    {
+     "slug": "elections-and-special-provisions",
+     "label": "Elections and Special Provisions"
+    }
+   ],
+   "related": [
+    {
+     "id": "8",
+     "why": "Special status and the federal balance"
+    },
+    {
+     "id": "10",
+     "why": "Other extraordinary provisions: Emergency"
+    },
+    {
+     "id": "18",
+     "why": "Amendments that created these provisions"
+    }
+   ]
+  },
+  "12": {
+   "slug": "election-commission-of-india",
+   "seo_title": "Election Commission of India Notes: Powers, Cases | UGC NET Law",
+   "description": "UGC NET Law notes on the Election Commission of India: constitutional basis, composition, appointment, tenure and removal, powers and key cases.",
+   "lead": "How the Commission is set up, how its members are appointed and removed, what powers it holds over elections, and the cases on those powers.",
+   "mcq": [
+    {
+     "slug": "elections-and-special-provisions",
+     "label": "Elections and Special Provisions"
+    }
+   ],
+   "related": [
+    {
+     "id": "7",
+     "why": "The legislature it holds elections for"
+    },
+    {
+     "id": "11",
+     "why": "Special provisions in Part XXI"
+    },
+    {
+     "id": "5",
+     "why": "The offices of President and Vice President it conducts elections for"
+    }
+   ]
+  },
+  "13": {
+   "slug": "administrative-law-nature-and-scope",
+   "seo_title": "Administrative Law Notes: Delegated Legislation, Lokpal | UGC NET",
+   "description": "UGC NET Law notes on Administrative Law: meaning, growth, Dicey's critique, rule of law, separation of powers, delegated legislation, Ombudsman and Lokpal.",
+   "lead": "What administrative law covers, why it grew, how Dicey's critique was answered, and how delegated legislation and the Lokpal fit in.",
+   "mcq": [
+    {
+     "slug": "administrative-law-part-1",
+     "label": "Administrative Law (Part 1)"
+    },
+    {
+     "slug": "administrative-law-part-2",
+     "label": "Administrative Law (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "14",
+     "why": "The fair-hearing rules every authority must follow"
+    },
+    {
+     "id": "15",
+     "why": "How courts control administrative power"
+    },
+    {
+     "id": "23",
+     "why": "Statutes such as the RTI and Lokpal Acts"
+    }
+   ]
+  },
+  "14": {
+   "slug": "principles-of-natural-justice",
+   "seo_title": "Natural Justice Notes: Audi Alteram, Nemo Judex | UGC NET Law",
+   "description": "UGC NET Law notes on natural justice: the two principal rules, exclusion of the rules, bias, reasoned decisions and legitimate expectation.",
+   "lead": "The two rules of fair procedure, when they can be excluded, and how legitimate expectation protects people dealing with the State.",
+   "mcq": [
+    {
+     "slug": "natural-justice",
+     "label": "Natural Justice"
+    }
+   ],
+   "related": [
+    {
+     "id": "15",
+     "why": "Natural justice is a ground of judicial review"
+    },
+    {
+     "id": "13",
+     "why": "The wider field of administrative law"
+    },
+    {
+     "id": "2",
+     "why": "Article 14 and Article 21 and fair procedure"
+    }
+   ]
+  },
+  "15": {
+   "slug": "judicial-review-of-administrative-action",
+   "seo_title": "Judicial Review of Administrative Action Notes | UGC NET Law",
+   "description": "UGC NET Law notes on judicial review of administrative action: Lord Diplock's grounds, Indian grounds, proportionality, the five writs and tribunals.",
+   "lead": "The grounds on which courts strike down administrative action, from Lord Diplock's three heads to proportionality, and the five writs in detail.",
+   "mcq": [
+    {
+     "slug": "judicial-review-part-1",
+     "label": "Judicial Review (Part 1)"
+    },
+    {
+     "slug": "judicial-review-part-2",
+     "label": "Judicial Review (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "14",
+     "why": "Natural justice, one of the grounds"
+    },
+    {
+     "id": "9",
+     "why": "The courts that exercise review"
+    },
+    {
+     "id": "20",
+     "why": "Doctrines such as Wednesbury and legitimate expectation"
+    }
+   ]
+  },
+  "16": {
+   "slug": "important-articles-quick-reference",
+   "seo_title": "Important Constitution Articles: Quick Reference | UGC NET Law",
+   "description": "Quick-reference tables of important Articles of the Indian Constitution by Part: Fundamental Rights, DPSPs, executive, Parliament, judiciary and Emergency.",
+   "lead": "Article-by-Article tables for nine groups of provisions, built for quick recall of what each Article does.",
+   "mcq": [
+    {
+     "slug": "match-the-following",
+     "label": "Match the Following"
+    },
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "Mixed Practice Set 1"
+    }
+   ],
+   "related": [
+    {
+     "id": "2",
+     "why": "Read Part III in full before revising its table"
+    },
+    {
+     "id": "17",
+     "why": "Cases that interpret these Articles"
+    },
+    {
+     "id": "25",
+     "why": "Mnemonics for Articles"
+    }
+   ]
+  },
+  "17": {
+   "slug": "landmark-case-laws",
+   "seo_title": "Landmark Constitutional and Administrative Law Cases | UGC NET Law",
+   "description": "Landmark constitutional and administrative law cases with year and one-line importance, from A.K. Gopalan and Kesavananda Bharati to Maneka Gandhi.",
+   "lead": "Two case tables, one for constitutional law and one for administrative law, each with the year and a one-line holding.",
+   "mcq": [
+    {
+     "slug": "landmark-cases",
+     "label": "Landmark Cases"
+    }
+   ],
+   "related": [
+    {
+     "id": "19",
+     "why": "Cases decided since 2019"
+    },
+    {
+     "id": "20",
+     "why": "Doctrines these cases created"
+    },
+    {
+     "id": "18",
+     "why": "Amendments that followed the cases"
+    }
+   ]
+  },
+  "18": {
+   "slug": "constitutional-amendments",
+   "seo_title": "Important Constitutional Amendments by Year | UGC NET Law",
+   "description": "Table of important Constitutional Amendments with year and key change, from the 1st Amendment (1951) to the 105th, for UGC NET Law.",
+   "lead": "One table of the amendments examiners ask about, in order of year, with what each one changed.",
+   "mcq": [
+    {
+     "slug": "early-amendments-1951-1969",
+     "label": "Early Amendments 1951 1969"
+    },
+    {
+     "slug": "1970s-amendments-and-emergency-era",
+     "label": "1970s Amendments and Emergency Era"
+    },
+    {
+     "slug": "1980s-1990s-amendments",
+     "label": "1980s 1990s Amendments"
+    },
+    {
+     "slug": "2000s-amendments",
+     "label": "2000s Amendments"
+    },
+    {
+     "slug": "recent-amendments-2014-2023",
+     "label": "Recent Amendments 2014 2023"
+    },
+    {
+     "slug": "reservation-and-eighth-ninth-schedule-timeline",
+     "label": "Reservation and Eighth Ninth Schedule Timeline"
+    },
+    {
+     "slug": "chronological-arrangement",
+     "label": "Chronological Arrangement"
+    }
+   ],
+   "related": [
+    {
+     "id": "7",
+     "why": "Article 368 and how amendments are made"
+    },
+    {
+     "id": "10",
+     "why": "The Emergency-era amendments"
+    },
+    {
+     "id": "17",
+     "why": "Cases that triggered amendments"
+    }
+   ]
+  },
+  "19": {
+   "slug": "recent-case-laws-2019-2026",
+   "seo_title": "Recent Supreme Court Cases (2019-2026) for UGC NET Law",
+   "description": "Recent Supreme Court cases from 2019 to 2026 for UGC NET Law: constitutional and administrative law decisions with year, court and key holding.",
+   "lead": "Post-2019 decisions that are increasingly appearing in UGC NET Law papers, with the court and the key holding for each.",
+   "mcq": [
+    {
+     "slug": "landmark-cases",
+     "label": "Landmark Cases"
+    },
+    {
+     "slug": "statement-based-and-mixed",
+     "label": "Statement Based and Mixed"
+    }
+   ],
+   "related": [
+    {
+     "id": "17",
+     "why": "The older landmark cases"
+    },
+    {
+     "id": "20",
+     "why": "Doctrines applied in these cases"
+    },
+    {
+     "id": "2",
+     "why": "Fundamental Rights, where most recent cases arise"
+    }
+   ]
+  },
+  "20": {
+   "slug": "key-doctrines",
+   "seo_title": "Key Doctrines of Constitutional and Administrative Law | UGC NET Law",
+   "description": "Key doctrines of constitutional and administrative law for UGC NET Law: basic structure, eclipse, severability, pith and substance, Wednesbury and more.",
+   "lead": "A compiled list of the doctrines, constitutional and administrative, that examiners test by name.",
+   "mcq": [
+    {
+     "slug": "statement-based-and-mixed",
+     "label": "Statement Based and Mixed"
+    },
+    {
+     "slug": "amendment-procedure-and-basic-structure",
+     "label": "Amendment Procedure and Basic Structure"
+    }
+   ],
+   "related": [
+    {
+     "id": "17",
+     "why": "The cases behind each doctrine"
+    },
+    {
+     "id": "15",
+     "why": "Administrative doctrines in judicial review"
+    },
+    {
+     "id": "25",
+     "why": "Mnemonics for the doctrines"
+    }
+   ]
+  },
+  "21": {
+   "slug": "comparison-tables",
+   "seo_title": "Constitutional Law Comparison Tables | UGC NET Law",
+   "description": "Comparison tables for UGC NET Law: President vs Governor, Lok Sabha vs Rajya Sabha, the three Emergencies, Article 32 vs 226, certiorari vs prohibition.",
+   "lead": "Five side-by-side tables for the pairs examiners compare most often.",
+   "mcq": [
+    {
+     "slug": "match-the-following",
+     "label": "Match the Following"
+    },
+    {
+     "slug": "statement-based-and-mixed",
+     "label": "Statement Based and Mixed"
+    }
+   ],
+   "related": [
+    {
+     "id": "6",
+     "why": "The Governor, in full"
+    },
+    {
+     "id": "7",
+     "why": "Lok Sabha and Rajya Sabha, in full"
+    },
+    {
+     "id": "10",
+     "why": "The three Emergencies, in full"
+    }
+   ]
+  },
+  "22": {
+   "slug": "commissions-and-reports",
+   "seo_title": "Commissions and Committees: Constitutional Law | UGC NET Law",
+   "description": "Important commissions and committees in constitutional law for UGC NET: Sarkaria, Punchhi, Venkatachaliah, Swaran Singh, ARC and Law Commission reports.",
+   "lead": "One table of the commissions and committees, with year and key recommendations, that shaped the Constitution and Centre-State relations.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-3",
+     "label": "Mixed Practice Set 3"
+    }
+   ],
+   "related": [
+    {
+     "id": "8",
+     "why": "Sarkaria and Punchhi on Centre-State relations"
+    },
+    {
+     "id": "3",
+     "why": "The Swaran Singh Committee and duties"
+    },
+    {
+     "id": "23",
+     "why": "Lokpal and other statutes born from reports"
+    }
+   ]
+  },
+  "23": {
+   "slug": "statutory-provisions-administrative-law",
+   "seo_title": "Administrative Law Statutes: RTI, Lokpal, PCA | UGC NET Law",
+   "description": "UGC NET Law notes on statutes in administrative law: Administrative Tribunals Act 1985, RTI Act 2005, Lokpal Act 2013, Prevention of Corruption Act and PHRA.",
+   "lead": "Five statutes in administrative law, each with its key provisions: tribunals, RTI, Lokpal, corruption and human rights.",
+   "mcq": [
+    {
+     "slug": "administrative-law-part-2",
+     "label": "Administrative Law (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "13",
+     "why": "Administrative law concepts these statutes apply"
+    },
+    {
+     "id": "15",
+     "why": "Tribunals and judicial review"
+    },
+    {
+     "id": "22",
+     "why": "The ARC reports behind the Lokpal"
+    }
+   ]
+  },
+  "24": {
+   "slug": "most-repeated-topics",
+   "seo_title": "Most Repeated UGC NET Law Topics: Focus List | UGC NET Law",
+   "description": "Strategic focus list for UGC NET Law Unit 2: high-frequency, medium-frequency and low-frequency but high-value constitutional and administrative law topics.",
+   "lead": "What appears in almost every paper, what appears regularly, and what appears rarely but earns full marks.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-4",
+     "label": "Mixed Practice Set 4"
+    },
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "Mixed Practice Set 1"
+    }
+   ],
+   "related": [
+    {
+     "id": "25",
+     "why": "Mnemonics for the high-frequency items"
+    },
+    {
+     "id": "17",
+     "why": "The cases on the focus list"
+    },
+    {
+     "id": "20",
+     "why": "The doctrines on the focus list"
+    }
+   ]
+  },
+  "25": {
+   "slug": "memory-mnemonics",
+   "seo_title": "Constitutional Law Mnemonics: HMCPQ, SRFDES, CARD | UGC NET Law",
+   "description": "Constitutional law mnemonics for UGC NET Law: Emergency Articles, five writs (HMCPQ), basic structure (SRFDES), Governor's discretion (CARD), three lists.",
+   "lead": "Eight mnemonic sets for the Emergency Articles, writs, basic structure, Governor's discretion, the three lists and the 44th Amendment.",
+   "mcq": [
+    {
+     "slug": "chronological-arrangement",
+     "label": "Chronological Arrangement"
+    },
+    {
+     "slug": "mixed-practice-set-2",
+     "label": "Mixed Practice Set 2"
+    }
+   ],
+   "related": [
+    {
+     "id": "24",
+     "why": "The focus list these mnemonics serve"
+    },
+    {
+     "id": "16",
+     "why": "Article tables to pair with the mnemonics"
+    },
+    {
+     "id": "20",
+     "why": "Doctrines behind the mnemonics"
+    }
+   ]
+  }
+ },
+ "hide_stats": [
+  "memory points"
+ ]
+}

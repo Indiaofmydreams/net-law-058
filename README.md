@@ -74,3 +74,8 @@ Styling is in `notes.css`, behaviour in `notes.js` (both use the existing theme 
 Extra chapter.json keys (chapters format): `search_placeholder` (hint text in the search box), `hide_stats` (e.g. `["memory points"]` to hide a counter on the chapter overview).
 `rapid_from` accepts sub-topics that are bullet lists ("**Label:** fact") or 2/3-column tables (first column = item).
 Topics written without "###" sub-headings are not supported by the builder: give every "## Chapter N" at least one "### N.M" section, and no text between the two.
+
+Law (058) chapters: same pipeline, paper folder `_notes-data/ugc-net-law-058/` (listed in site.json). Extra chapter.json keys used there:
+`paper_code` ("" hides "CODE 00"), `xref` ("chapter" | "topic" | "none": how "Chapter N" / "topic N" in the text become links), `rapid_labels` (sub-topic numbers whose 3-column tables keep column names in the rapid sheet).
+Text between "## Chapter N" and the first "###" becomes the topic Overview. A "### Memory Capsule: Chapter N" bullet list ends a topic. A topic numbered 0 is a "Start here" topic.
+Nested lists are fine (pandoc output is re-indented automatically).

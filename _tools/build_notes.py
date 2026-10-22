@@ -125,8 +125,34 @@ def parse_rapid(part):
     return {"rows": rows, "note": plain(note.group(1)) if note else ""}
 
 
+def fix_nested(text):
+    """Python-Markdown only nests lists indented by 4 spaces; pandoc writes 2 (bullets) or 4 (numbers).
+    Re-indent every list line to 4 spaces per nesting level so nested lists stay nested."""
+    item = re.compile(r"^( *)(?:[-*+]|\d+[.)])\s")
+    out, stack = [], []
+    for line in text.split("\n"):
+        m = item.match(line)
+        if m:
+            ind = len(m.group(1))
+            while stack and stack[-1] > ind:
+                stack.pop()
+            if not stack or stack[-1] < ind:
+                stack.append(ind)
+            out.append("    " * (len(stack) - 1) + line[ind:])
+        elif not line.strip():
+            out.append(line)
+        elif line.startswith(" ") and stack:  # continuation paragraph of a list item
+            out.append("    " * len(stack) + line.lstrip())
+        else:
+            stack = []
+            out.append(line)
+    return "\n".join(out)
+
+
 def md_block(text):
-    return markdown.markdown(text.strip(), extensions=["tables", "sane_lists"]).replace("<table>", '<table class="up-table">')
+    out = markdown.markdown(fix_nested(text.strip()), extensions=["tables", "sane_lists"]).replace("<table>", '<table class="up-table">')
+    # wide tables scroll inside their own box on phones instead of stretching the page
+    return re.sub(r'(<table class="up-table">.*?</table>)', r'<div class="up-tw nt-table">\1</div>', out, flags=re.S)
 
 
 def strong_terms(html_, limit=8, maxlen=30):
@@ -168,7 +194,9 @@ def parse_chapters_md(path):
             continue
         tid, title = m.group(1), m.group(2).strip()
         subs, capsule, angle = [], [], ""
-        for chunk in re.split(r"\n(?=### )", part)[1:]:
+        chunks = re.split(r"\n(?=### )", part)
+        overview_md = chunks[0].partition("\n")[2].strip()  # optional overview paragraph(s) before the first sub-topic
+        for chunk in chunks[1:]:
             head, _, body = chunk.partition("\n")
             if head.startswith("### Memory Capsule"):
                 capsule = [md_inline(l[2:]) for l in body.splitlines() if l.startswith("- ")]
@@ -178,12 +206,13 @@ def parse_chapters_md(path):
                 m2 = re.match(r"### (\d+\.\d+) (.+)", head)
                 num, st = (m2.group(1), m2.group(2).strip()) if m2 else (f"{tid}.{len(subs) + 1}", head[4:].strip())
                 subs.append(parse_prose_sub(num, st, body))
-        topics[tid] = {"id": tid, "title": title, "subs": subs, "capsule": capsule, "angle": angle}
+        topics[tid] = {"id": tid, "title": title, "subs": subs, "capsule": capsule, "angle": angle,
+                       "overview": md_block(overview_md) if overview_md else ""}
         order.append(tid)
     return topics, order
 
 
-def rapid_from_subs(topics, nums):
+def rapid_from_subs(topics, nums, label_subs=()):
     """Rows for the rapid-recall page from list sections such as '**Label:** fact. **Label:** fact.'"""
     rows = []
     for n in nums:
@@ -192,14 +221,21 @@ def rapid_from_subs(topics, nums):
                 if s["num"] != n:
                     continue
                 lines = s["raw"].splitlines()
+                hdr = []
                 for li, line in enumerate(lines):
                     if line.startswith("|"):  # table row: first column is the item, the other columns are the fact
                         nxt = lines[li + 1] if li + 1 < len(lines) else ""
                         if re.match(r"\|[-\s|:]+\|$", line) or re.match(r"\|[-\s|:]+\|$", nxt):  # separator or header row
+                            if re.match(r"\|[-\s|:]+\|$", nxt):
+                                hdr = [c.strip() for c in line.strip().strip("|").split("|")]
                             continue
                         cells = [c.strip() for c in line.strip().strip("|").split("|")]
                         if len(cells) in (2, 3) and cells[0] and cells[1]:
-                            rows.append((md_inline(cells[0]), md_inline("; ".join(c for c in cells[1:] if c))))
+                            if n in label_subs and len(cells) == 3 and len(hdr) == 3:  # keep the column names, e.g. "IPC 34; BNS 3(5)"
+                                fact = "; ".join(f"{h} {c}" for h, c in zip(hdr[1:], cells[1:]) if c)
+                            else:
+                                fact = "; ".join(c for c in cells[1:] if c)
+                            rows.append((md_inline(cells[0]), md_inline(fact)))
                         continue
                     if not line.startswith("- "):
                         continue
@@ -210,7 +246,20 @@ def rapid_from_subs(topics, nums):
 
 
 def xref(h, ch):
-    """'Chapter 6' in the source text becomes a link to the matching topic page (the site calls them topics)."""
+    """Links references to other topics of the same chapter.
+    chapter.json "xref": "chapter" (default) turns 'Chapter 6' into a link to topic 6 (the site calls them topics);
+    "topic" links 'topic 6' / 'topics 1, 2 and 6' instead (use it when 'Chapter N' means a statute chapter); "none" links nothing."""
+    mode = ch.get("xref", "chapter")
+    if mode == "none":
+        return h
+    if mode == "topic":
+        def run(m):
+            def one(n):
+                t = ch["topics"].get(n.group(0))
+                return f'<a href="{t["url"]}">{n.group(0)}</a>' if t else n.group(0)
+            return m.group(1) + " " + re.sub(r"\d+", one, m.group(2))
+        return re.sub(r"\b([Tt]opics?) (\d+(?:(?:,\s*|\s+and\s+|\s+or\s+|\s+to\s+)\d+)*)", run, h)
+
     def r(m):
         t = ch["topics"].get(m.group(1))
         return f'<a href="{t["url"]}">Topic {m.group(1)}</a>' if t else m.group(0)
@@ -224,7 +273,7 @@ def load_chapters():
         fmt = ch.get("format", "pattern")
         if fmt == "chapters":
             topics, order = parse_chapters_md(cj.parent / "content.md")
-            rapid = rapid_from_subs(topics, ch.get("rapid_from", []))
+            rapid = rapid_from_subs(topics, ch.get("rapid_from", []), ch.get("rapid_labels", []))
         else:
             topics, order, rapid = parse_content(cj.parent / "content.md")
         ch["_dir"] = cj.parent
@@ -244,7 +293,8 @@ def load_chapters():
                 t = {**topics[tid], **ch["topics"][tid]}
                 t["module"] = mod
                 t["url"] = ch["base"] + t["slug"] + ".html"
-                t["words"] = sum(s["words"] for s in t["subs"])
+                t.setdefault("overview", "")
+                t["words"] = sum(s["words"] for s in t["subs"]) + len(plain(t["overview"]).split())
                 t["minutes"] = max(1, math.ceil(t["words"] / WPM))
                 t.setdefault("capsule", [])
                 t.setdefault("angle", "")
@@ -269,6 +319,7 @@ def load_chapters():
                 for s in t["subs"]:
                     s["body"] = xref(s["body"], ch)
                 t["capsule"] = [xref(c, ch) for c in t["capsule"]]
+                t["overview"] = xref(t["overview"], ch)
                 t["angle"] = xref(t["angle"], ch)
         ch["words"] = sum(t["words"] for t in flat)
         ch["minutes"] = sum(t["minutes"] for t in flat)
@@ -417,7 +468,7 @@ def tree(ch, cur=None):  # noqa
                 f'<b>{t["id"]}</b> {esc(t["title"])}</a><span class="nt-cnt" title="{plural(len(t["subs"]), "sub-topic")}">{len(t["subs"])}</span>'
             )
             if c:
-                out.append('<ol class="nt-subs">' + "".join(
+                out.append('<ol class="nt-subs">' + ('<li><a href="#overview" data-sub="overview"><b>&sect;</b> Overview</a></li>' if t.get("overview") else "") + "".join(
                     f'<li><a href="#{s["id"]}" data-sub="{s["id"]}"><b>{s["num"].split(".")[1]}</b> {esc(s["title"])}</a></li>' for s in t["subs"])
                     + ('<li><a href="#capsule"><b>&#9733;</b> Memory Capsule</a></li>' if t["capsule"] else "")
                     + ('<li><a href="#angle"><b>&#9733;</b> Analysis Angle</a></li>' if t["angle"] else "") + "</ol>")
@@ -475,7 +526,7 @@ def build_topic(ch, t, i):
 
     if ch["fmt"] == "chapters":
         stats = badges([plural(len(t["subs"]), "sub-topic")] + ([f'{t["n_mem"]}-point Memory Capsule'] if t["capsule"] else []) + (["Analysis Angle"] if t["angle"] else [])
-                       + [f'{mins(t["minutes"])} read', f'Topic {i + 1} of {ch["n_topics"]}'])
+                       + [f'{mins(t["minutes"])} read', (f'Topic {t["id"]} of {flat[-1]["id"]}' if flat[0]["id"] == "0" else f'Topic {i + 1} of {ch["n_topics"]}')])
     else:
         stats = badges([
             f'{plural(len(t["subs"]), "sub-topic")}',
@@ -508,9 +559,16 @@ def build_topic(ch, t, i):
         if (anchor == "capsule" and t["capsule"]) or (anchor == "angle" and t["angle"]):
             covers.append(f'<li><a href="#{anchor}"><span class="nt-num">&#9733;</span><span class="nt-map-t"><b>{lab}</b><span class="nt-map-s">{txt}</span></span></a></li>')
     covers.append("</ol></section>")
+    if t.get("overview"):
+        covers.insert(2, f'<li><a href="#overview"><span class="nt-num">&sect;</span><span class="nt-map-t"><b>Overview</b>'
+                         f'<span class="nt-map-s">{esc(trunc(first_sentence(plain(t["overview"])), 175))}</span></span></a></li>')
 
     body = [mode_toggle().replace('class="nt-mode"', 'class="nt-mode nt-mode-main"'),
             f'<p class="nt-mode-hint">{revise_hint(ch)}</p>']
+    if t.get("overview"):
+        body.append('<section class="nt-sub nt-overview" id="overview" data-sub="overview" aria-labelledby="h-overview"><h2 id="h-overview"><span class="nt-num">&sect;</span>Overview'
+                    f'<a class="nt-anchor" href="#overview" aria-label="Link to the overview">#</a></h2><div class="nt-pbody">{t["overview"]}</div>'
+                    '<p class="nt-sub-foot"><span></span><a href="#covers">Back to topic map &uarr;</a></p></section>')
     for s in t["subs"]:
         if s.get("kind") == "prose":
             rt = "".join(f"<li>{esc(x)}</li>" for x in s["revterms"])
@@ -618,12 +676,12 @@ def build_chapter(ch):
     hero = f"""<section class="faq-hero up-hero nt-hero">
   <div class="container">
     {cb}
-    <span class="eyebrow">{esc(ch["paper_name"].upper())} · CODE 00 · UNIT {ch["unit"]:02d}</span>
+    <span class="eyebrow">{esc(ch["paper_name"].upper())}{" · CODE " + esc(ch.get("paper_code", "00")) if ch.get("paper_code", "00") else ""} · UNIT {ch["unit"]:02d}</span>
     <h1>{esc(ch["paper_name"])} {esc(ch["name"])}: Detailed Study Notes</h1>
     <p class="faq-sub">{esc(ch["intro"])}</p>
     <ul class="nt-stats" aria-label="Size of this chapter">{stats}</ul>
     <div class="nt-hero-row">{search_box(ch["slug"])}
-    <div class="up-cta"><a href="{first["url"]}" id="nt-start">Start with {first["id"]}: {esc(first["title"])}</a><a class="ghost" id="nt-resume" href="#" hidden>Continue where you left off</a><a class="ghost" href="{ch["base"]}rapid-recall.html">Rapid-recall sheet</a></div></div>
+    <div class="up-cta"><a href="{first["url"]}" id="nt-start">{"Start here" if first["id"] == "0" else "Start with " + first["id"]}: {esc(first["title"])}</a><a class="ghost" id="nt-resume" href="#" hidden>Continue where you left off</a><a class="ghost" href="{ch["base"]}rapid-recall.html">Rapid-recall sheet</a></div></div>
     <p class="faq-note">NET Law-Verse is an independent study aid, not affiliated with UGC or NTA. Always check the official <a href="https://ugcnet.nta.ac.in/" target="_blank" rel="noopener">UGC NET syllabus</a>.</p>
   </div>
 </section>"""
@@ -694,8 +752,9 @@ def build_rapid(ch):
     url = BASE + ch["base"] + "rapid-recall.html"
     cb, cb_ld = crumbs([("Home", "/"), ("Study notes", "/notes/"), (ch["name"], ch["base"]), ("Rapid-recall sheet", ch["base"] + "rapid-recall.html")])
     rows = "".join(f"<tr><th scope=\"row\">{a}</th><td>{b}</td></tr>" for a, b in ch["rapid"]["rows"])
-    title = f'{ch["name"]} Rapid-Recall Sheet | UGC NET Paper 1'
-    desc = f'One-page rapid-recall sheet for UGC NET Paper 1 {ch["name"]}: {len(ch["rapid"]["rows"])} high-yield names, dates and facts to revise in the last days before the exam.'
+    sn = ch.get("short_name", ch["name"])  # optional shorter name for titles
+    title = f'{sn} Rapid-Recall Sheet | {ch["paper_name"]}'
+    desc = f'One-page rapid-recall sheet for {ch["paper_name"]} {sn}: {len(ch["rapid"]["rows"])} high-yield names, dates and facts to revise in the last days before the exam.'
     main = f"""<section class="faq-hero up-hero nt-hero"><div class="container">{cb}
 <span class="eyebrow">{esc(ch["paper_name"].upper())} · UNIT {ch["unit"]:02d} · REVISION</span>
 <h1>{esc(ch["name"])} Rapid-Recall Sheet</h1>
@@ -764,6 +823,8 @@ def build_search(chapters):
             for s in t["subs"]:
                 body = plain(" ".join([s["concept"]] + s["mem"] + [s["trap"]] + s["tables"] + [s.get("body", "")]))
                 out.append({"u": f'{t["url"]}#{s["id"]}', "t": f'{s["num"]} {s["title"]}', "p": f'{t["title"]} · {ch["name"]}', "c": ch["slug"], "x": body})
+            if t.get("overview"):
+                out.append({"u": f'{t["url"]}#overview', "t": f'Overview: {t["title"]}', "p": f'{t["title"]} · {ch["name"]}', "c": ch["slug"], "x": plain(t["overview"])})
             if t["capsule"]:
                 out.append({"u": f'{t["url"]}#capsule', "t": f'Memory Capsule: {t["title"]}', "p": f'{t["title"]} · {ch["name"]}', "c": ch["slug"], "x": plain(" ".join(t["capsule"]))})
             if t["angle"]:

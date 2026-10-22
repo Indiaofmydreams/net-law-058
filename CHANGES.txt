@@ -1,3 +1,26 @@
+Study notes: four Law (058) chapters (22 Oct 2026)
+- New chapters in /notes/ugc-net-law-058/ (format "chapters"), built from the .docx files by _tools/build_notes.py:
+  Unit 2 Constitutional and Administrative Law: 7 modules, 25 topics, 110 sub-topics.
+  Unit 4 Law of Crimes: 4 modules, 12 topics (0 to 11), 75 sub-topics.
+  Unit 8 Environment and Human Rights: 4 modules, 11 topics (0 to 10), 73 sub-topics.
+  Unit 10 Comparative Public Law: 4 modules, 12 topics (0 to 11), 63 sub-topics.
+  Each has a chapter overview, one page per topic, a rapid-recall sheet, JSON-LD, breadcrumbs, related topics and MCQ links (to /mcq/ugc-net-law/<unit>/).
+- New data: _notes-data/ugc-net-law-058/<chapter>/{content.md,chapter.json}. Topic numbers follow the source notes, so "Topic 0" is the Start-here topic in Units 4, 8 and 10.
+- build_notes.py (existing Paper 1 chapters rebuild identically except the table wrapper below):
+  * nested bullet/number lists keep their nesting (pandoc's 2-space indent is re-indented for Python-Markdown);
+  * tables in prose sections sit in a scroll box (.up-tw), and notes.css lets the page column shrink on phones (no sideways page scroll). 40 existing Paper 1 topic pages changed only by this wrapper;
+  * text between "## Chapter N" and the first "###" is now kept as a topic "Overview" (shown first, hidden in Revision mode, searchable);
+  * chapter.json "xref": "chapter" (default), "topic" (links "topic 6" / "topics 1, 2 and 6") or "none". Law chapters use "topic"/"none" because "Chapter N" there means a statute chapter;
+  * chapter.json "paper_code" (default "00"; "" hides it) and "rapid_labels" (sub-topic numbers whose 3-column tables keep their column names, e.g. "IPC 34; BNS 3(5)");
+  * rapid-recall page title and description use the paper name instead of "UGC NET Paper 1";
+  * a chapter that starts at Topic 0 shows "Start here" on its button and "Topic 4 of 11" badges.
+- Unit pages 2, 4, 8 and 10 now carry the "Detailed study notes" block, the sidebar "Detailed notes" box and an "On this page" link.
+- notes/ hub, notes/search-index.json (now about 1.1 MB, 380 KB gzipped, loaded only when someone searches) and the notes block of sitemap.xml regenerated.
+- Content tidy-ups while converting: stale 18-item contents list removed from Unit 2 (the notes have 25 sections); author stamps and drafting notes removed
+  ("my memory of...", "my judgement", "you already have MCQs"); "Memory aids", "Quick revision", "Memory hooks" and "Exam traps" lists became each topic's Memory Capsule;
+  Unit 10 master revision A to D became Topic 11; Unit 4 section 0 and Unit 8 exam pattern became Topic 0.
+
+----
 Study notes: ICT, Logical Reasoning, People Development & Environment (21 Oct 2026)
 - Three new chapters in /notes/ (format "chapters"), built from the .docx files by _tools/build_notes.py:
   ICT (Unit 8): 6 modules, 18 topics, 92 sub-topics. Logical Reasoning (Unit 6): 7 modules, 19 topics, 73 sub-topics.

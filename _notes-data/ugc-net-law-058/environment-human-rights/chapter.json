@@ -1,0 +1,421 @@
+{
+ "format": "chapters",
+ "paper": "ugc-net-law-058",
+ "paper_name": "UGC NET Law (058)",
+ "paper_code": "",
+ "unit": 8,
+ "slug": "environment-human-rights",
+ "name": "Environment and Human Rights",
+ "short_name": "Environment & Human Rights",
+ "unit_page": "/ugc-net-law-unit-8-environment-human-rights.html",
+ "mcq_base": "/mcq/ugc-net-law/environment-human-rights/",
+ "mcq_index": "/mcq/ugc-net-law/environment-human-rights/",
+ "mcq_total": "430+",
+ "updated": "2026-10-22",
+ "seo_title": "UGC NET Law Environment & Human Rights Notes (Unit 8)",
+ "description": "UGC NET Law Environment & Human Rights notes: 11 topics, 73 sub-topics on the NGT, Rio, the International Bill of Rights and NHRC. Free, with revision mode.",
+ "intro": "Unit VIII is one of the most predictable units of Law 058: ten syllabus topics, mostly factual questions, and the same years, Articles, section numbers, bodies and landmark cases recycled every cycle. Topic 0 gives the exam pattern, trends and a priority map. Topics 1 to 5 cover environment law (concepts, international law, the Indian framework, EIA and hazardous waste, the National Green Tribunal) and Topics 6 to 10 cover human rights (concept, universalism and relativism, the International Bill of Rights, group rights, NHRC and national commissions).",
+ "how": [
+  [
+   "Round 1: Read",
+   "Start with Topic 0 and its priority map. Read the topics marked very high first: the NGT (Topic 5), NHRC and commissions (Topic 10), the International Bill of Rights (Topic 8) and the Indian framework (Topic 3)."
+  ],
+  [
+   "Round 2: Revise",
+   "Switch on <i>Revision mode</i> on any topic page to keep each section's key lists and tables, plus the Memory Capsule at the end of the topic. Rewrite the conference chronology and the commission comparison from memory."
+  ],
+  [
+   "Last week: Recall",
+   "Use the <a href=\"/notes/ugc-net-law-058/environment-human-rights/rapid-recall.html\">rapid-recall sheet</a> (conferences, conventions, statutes, cases, HR timeline) and then practise MCQs topic by topic."
+  ]
+ ],
+ "rapid_from": [
+  "2.3",
+  "2.6",
+  "3.1",
+  "3.5",
+  "3.6",
+  "6.4",
+  "8.5"
+ ],
+ "rapid_placeholder": "Stockholm, 1992, Article 48A",
+ "search_placeholder": "Find a concept: e.g. NGT, Vellore, Rio 1992, NHRC, Article 21",
+ "xref": "topic",
+ "modules": [
+  {
+   "id": "m1",
+   "title": "Environment: Concepts and International Law",
+   "blurb": "What the environment and pollution mean in law, and the international conferences, conventions and principles behind environmental law.",
+   "topics": [
+    "0",
+    "1",
+    "2"
+   ]
+  },
+  {
+   "id": "m2",
+   "title": "Environment Law in India",
+   "blurb": "The constitutional and statutory framework, EIA and hazardous waste rules, and the National Green Tribunal.",
+   "topics": [
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "id": "m3",
+   "title": "Human Rights: Concepts and Instruments",
+   "blurb": "The concept and history of human rights, the universalism debate, and the International Bill of Rights.",
+   "topics": [
+    "6",
+    "7",
+    "8"
+   ]
+  },
+  {
+   "id": "m4",
+   "title": "Human Rights in India: Groups and Institutions",
+   "blurb": "Rights of women, children, persons with disabilities, the elderly, minorities and weaker sections, and the NHRC and national commissions.",
+   "topics": [
+    "9",
+    "10"
+   ]
+  }
+ ],
+ "topics": {
+  "0": {
+   "slug": "exam-pattern-trends-and-priority-map",
+   "seo_title": "UGC NET Law Unit 8: Exam Pattern, Trends, Priority Map",
+   "description": "Start here for UGC NET Law Unit 8 Environment and Human Rights: paper pattern, question trends, a priority map of the ten topics and how to read the notes.",
+   "lead": "How Unit VIII is tested, the trends you can plan around, and a priority map that tells you which of the ten topics to read first.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "Mixed Practice Set 1"
+    },
+    {
+     "slug": "mixed-practice-set-2",
+     "label": "Mixed Practice Set 2"
+    },
+    {
+     "slug": "mixed-practice-set-3",
+     "label": "Mixed Practice Set 3"
+    }
+   ],
+   "related": [
+    {
+     "id": "5",
+     "why": "The most examined environmental topic"
+    },
+    {
+     "id": "10",
+     "why": "NHRC and commissions: very high priority"
+    },
+    {
+     "id": "8",
+     "why": "The International Bill of Rights: very high priority"
+    }
+   ]
+  },
+  "1": {
+   "slug": "meaning-of-environment-and-pollution",
+   "seo_title": "Environment and Pollution: Meaning and Principles | UGC NET Law",
+   "description": "UGC NET Law notes on the concept of environment and pollution: statutory definitions, types and sources of pollution and the principles environmental law protects.",
+   "lead": "The legal meaning of environment and pollution, the sources of pollution, and the principles that explain what environmental law protects.",
+   "mcq": [
+    {
+     "slug": "environment-and-pollution",
+     "label": "Environment and Pollution"
+    }
+   ],
+   "related": [
+    {
+     "id": "2",
+     "why": "International law and principles"
+    },
+    {
+     "id": "3",
+     "why": "Definitions in the EP, Water and Air Acts"
+    },
+    {
+     "id": "4",
+     "why": "Pollution control through EIA"
+    }
+   ]
+  },
+  "2": {
+   "slug": "international-environmental-law-and-un-conferences",
+   "seo_title": "International Environmental Law: Stockholm, Rio, Paris | UGC NET Law",
+   "description": "UGC NET Law notes on international environmental law: sources, foundational cases, UN conferences, Stockholm 1972, Rio 1992, conventions, COPs, principles.",
+   "lead": "Sources of international environmental law, the foundational cases, the conference chronology, Stockholm and Rio in detail, conventions, COPs and core principles.",
+   "mcq": [
+    {
+     "slug": "international-env-law-and-un-conferences-part-1",
+     "label": "International Environmental Law and UN Conferences (Part 1)"
+    },
+    {
+     "slug": "international-env-law-and-un-conferences-part-2",
+     "label": "International Environmental Law and UN Conferences (Part 2)"
+    },
+    {
+     "slug": "international-env-law-specific",
+     "label": "International Environmental Law Specific"
+    },
+    {
+     "slug": "conventions-full-names-and-details",
+     "label": "Conventions Full Names and Details"
+    }
+   ],
+   "related": [
+    {
+     "id": "1",
+     "why": "The principles in their domestic setting"
+    },
+    {
+     "id": "3",
+     "why": "How India implements these commitments"
+    },
+    {
+     "id": "4",
+     "why": "EIA, from Rio Principle 17"
+    }
+   ]
+  },
+  "3": {
+   "slug": "environment-law-framework-india",
+   "seo_title": "Environment Law in India: EP Act, Water, Air | UGC NET Law",
+   "description": "UGC NET Law notes on India's environmental law framework: constitutional provisions, EP Act 1986, Water Act 1974, Air Act 1981, other statutes and landmark cases.",
+   "lead": "Constitutional provisions, the three core pollution statutes, other key statutes, landmark environmental cases and the institutional framework.",
+   "mcq": [
+    {
+     "slug": "constitutional-and-legal-framework-india-part-1",
+     "label": "Constitutional and Legal Framework India (Part 1)"
+    },
+    {
+     "slug": "constitutional-and-legal-framework-india-part-2",
+     "label": "Constitutional and Legal Framework India (Part 2)"
+    },
+    {
+     "slug": "constitutional-and-legal-framework-specific",
+     "label": "Constitutional and Legal Framework Specific"
+    },
+    {
+     "slug": "environment-specific-legislation",
+     "label": "Environment Specific Legislation"
+    }
+   ],
+   "related": [
+    {
+     "id": "2",
+     "why": "The international law behind these statutes"
+    },
+    {
+     "id": "4",
+     "why": "EIA Notification 2006 under the EP Act"
+    },
+    {
+     "id": "5",
+     "why": "The Tribunal that hears disputes under these Acts"
+    }
+   ]
+  },
+  "4": {
+   "slug": "eia-and-hazardous-waste",
+   "seo_title": "EIA Notification 2006 and Hazardous Waste Rules | UGC NET Law",
+   "description": "UGC NET Law notes on EIA and hazardous waste: concept, EIA Notification 2006 steps and categories, judicial approach, Hazardous Waste Rules and related regimes.",
+   "lead": "How EIA works under the 2006 Notification, how courts have treated it, and the rules that govern hazardous waste and chemical safety.",
+   "mcq": [
+    {
+     "slug": "eia-and-hazardous-waste",
+     "label": "EIA and Hazardous Waste"
+    }
+   ],
+   "related": [
+    {
+     "id": "3",
+     "why": "The EP Act and the wider framework"
+    },
+    {
+     "id": "5",
+     "why": "Appeals against clearances go to the NGT"
+    },
+    {
+     "id": "1",
+     "why": "Pollution and the principles behind EIA"
+    }
+   ]
+  },
+  "5": {
+   "slug": "national-green-tribunal",
+   "seo_title": "National Green Tribunal Notes: ss.14-22, Composition | UGC NET Law",
+   "description": "UGC NET Law notes on the National Green Tribunal: why it exists, composition (ss.3-9), jurisdiction (ss.14-16), liability, powers, NGT versus High Courts.",
+   "lead": "Why the NGT was created, who sits on it, what it can hear, what powers it has, and how it differs from the High Courts and the old NEAA.",
+   "mcq": [
+    {
+     "slug": "national-green-tribunal",
+     "label": "National Green Tribunal"
+    }
+   ],
+   "related": [
+    {
+     "id": "3",
+     "why": "The seven scheduled Acts and their framework"
+    },
+    {
+     "id": "4",
+     "why": "EIA appeals under the NGT Act"
+    },
+    {
+     "id": "1",
+     "why": "Principles the Tribunal must apply"
+    }
+   ]
+  },
+  "6": {
+   "slug": "concept-and-development-of-human-rights",
+   "seo_title": "Human Rights: Concept, Generations, History | UGC NET Law",
+   "description": "UGC NET Law notes on human rights: definition, theories, Vasak's three generations, historical timeline, the UN Charter, UN machinery and India's tradition.",
+   "lead": "What human rights are, the theories behind them, the three generations, the timeline from Magna Carta to the UDHR, and the UN machinery.",
+   "mcq": [
+    {
+     "slug": "concept-and-development-of-human-rights",
+     "label": "Concept and Development of Human Rights"
+    },
+    {
+     "slug": "human-rights-theory-specific",
+     "label": "Human Rights Theory Specific"
+    }
+   ],
+   "related": [
+    {
+     "id": "7",
+     "why": "The universalism and relativism debate"
+    },
+    {
+     "id": "8",
+     "why": "The UDHR and the two Covenants"
+    },
+    {
+     "id": "10",
+     "why": "How India enforces human rights"
+    }
+   ]
+  },
+  "7": {
+   "slug": "universalism-and-cultural-relativism",
+   "seo_title": "Universalism vs Cultural Relativism Notes | UGC NET Law",
+   "description": "UGC NET Law notes on universalism and cultural relativism in human rights: the two positions, middle positions, related concepts and the Indian perspective.",
+   "lead": "The two positions on whether human rights are universal, the compromise views, and where India stands.",
+   "mcq": [
+    {
+     "slug": "universalism-and-cultural-relativism",
+     "label": "Universalism and Cultural Relativism"
+    }
+   ],
+   "related": [
+    {
+     "id": "6",
+     "why": "Concept and generations of human rights"
+    },
+    {
+     "id": "8",
+     "why": "The universal instruments"
+    },
+    {
+     "id": "9",
+     "why": "Group rights and special protections"
+    }
+   ]
+  },
+  "8": {
+   "slug": "international-bill-of-rights",
+   "seo_title": "International Bill of Rights: UDHR, ICCPR, ICESCR | UGC NET Law",
+   "description": "UGC NET Law notes on the International Bill of Rights: the UDHR 1948, ICCPR and ICESCR 1966, a comparison, the UN treaty system and use in Indian courts.",
+   "lead": "The UDHR, the two Covenants and how they differ, the nine core UN treaties, and how Indian courts use them.",
+   "mcq": [
+    {
+     "slug": "international-bill-of-rights",
+     "label": "International Bill of Rights"
+    }
+   ],
+   "related": [
+    {
+     "id": "6",
+     "why": "UN human rights machinery"
+    },
+    {
+     "id": "7",
+     "why": "Universality of these rights"
+    },
+    {
+     "id": "10",
+     "why": "The Paris Principles and the NHRC"
+    }
+   ]
+  },
+  "9": {
+   "slug": "group-rights",
+   "seo_title": "Group Rights Notes: Women, Children, Disability | UGC NET Law",
+   "description": "UGC NET Law notes on group rights: women, children, persons with disabilities, elderly persons, minorities, Scheduled Castes, Scheduled Tribes and weaker sections.",
+   "lead": "The constitutional scheme for protective discrimination, then the statutes and special provisions for each protected group.",
+   "mcq": [
+    {
+     "slug": "group-rights-part-1",
+     "label": "Group Rights (Part 1)"
+    },
+    {
+     "slug": "group-rights-part-2",
+     "label": "Group Rights (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "10",
+     "why": "The national commissions for these groups"
+    },
+    {
+     "id": "8",
+     "why": "International treaties on these groups"
+    },
+    {
+     "id": "6",
+     "why": "Concept and generations of human rights"
+    }
+   ]
+  },
+  "10": {
+   "slug": "nhrc-and-national-commissions",
+   "seo_title": "NHRC and National Commissions Notes | UGC NET Law",
+   "description": "UGC NET Law notes on the NHRC and national commissions: composition, appointment, removal, powers, SHRC, NCW, NCM, NCSC, NCST, NCBC and a comparison table.",
+   "lead": "Judicial enforcement, the Paris Principles, the NHRC in detail, State Human Rights Commissions, five national commissions compared, and reform ideas.",
+   "mcq": [
+    {
+     "slug": "protection-and-enforcement-of-hr-in-india-part-1",
+     "label": "Protection and Enforcement of Human Rights in India (Part 1)"
+    },
+    {
+     "slug": "protection-and-enforcement-of-hr-in-india-part-2",
+     "label": "Protection and Enforcement of Human Rights in India (Part 2)"
+    },
+    {
+     "slug": "nhrc-and-commissions-specific",
+     "label": "NHRC and Commissions Specific"
+    }
+   ],
+   "related": [
+    {
+     "id": "9",
+     "why": "The groups these commissions protect"
+    },
+    {
+     "id": "8",
+     "why": "The international standards behind them"
+    },
+    {
+     "id": "6",
+     "why": "Concept and history of human rights"
+    }
+   ]
+  }
+ }
+}
