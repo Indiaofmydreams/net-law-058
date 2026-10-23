@@ -1,0 +1,10 @@
+Paste at the top of CHANGES.txt:
+
+Study notes: Higher Education System, Paper 1 Unit 10 (23 Oct 2026)
+- New chapter in /notes/ugc-net-paper-1/higher-education-system/ (format "chapters"): 5 modules, 9 topics, 45 sub-topics,
+  Memory Capsule + Analysis Angle on topics 1-7, rapid-recall sheet.
+- New data: _notes-data/ugc-net-paper-1/higher-education-system/{content.md,chapter.json}.
+- Unit 10 page carries the "Detailed study notes" block, the sidebar "Detailed notes" box and an "On this page" link.
+- Rapid-recall rows come from 4-column tables (1.5 and 2.2), so build_notes.py must read 4-column tables
+  (in the rapid_from table branch: `len(cells) in (2, 3)` -> `len(cells) in (2, 3, 4)`).
+- Re-run: python3 _tools/build_notes.py  (regenerates notes/index.html, search-index.json, sitemap block and the chapter pages).

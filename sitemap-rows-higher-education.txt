@@ -1,0 +1,12 @@
+<!-- Paste these lines inside the notes block of sitemap.xml, before the notes:end comment. Only these Higher Education notes URLs are new. -->
+  <url><loc>https://netlawverse.in/notes/ugc-net-paper-1/higher-education-system/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netlawverse.in/notes/ugc-net-paper-1/higher-education-system/ancient-indian-education.html</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netlawverse.in/notes/ugc-net-paper-1/higher-education-system/post-independence-higher-education.html</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netlawverse.in/notes/ugc-net-paper-1/higher-education-system/oriental-conventional-non-conventional-learning.html</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netlawverse.in/notes/ugc-net-paper-1/higher-education-system/professional-technical-skill-based-education.html</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netlawverse.in/notes/ugc-net-paper-1/higher-education-system/value-and-environmental-education.html</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netlawverse.in/notes/ugc-net-paper-1/higher-education-system/policies-governance-administration.html</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netlawverse.in/notes/ugc-net-paper-1/higher-education-system/background-colonial-constitution-reservation.html</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netlawverse.in/notes/ugc-net-paper-1/higher-education-system/quick-revision-timeline-numbers.html</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netlawverse.in/notes/ugc-net-paper-1/higher-education-system/verification-notes.html</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netlawverse.in/notes/ugc-net-paper-1/higher-education-system/rapid-recall.html</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
