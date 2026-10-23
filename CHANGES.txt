@@ -1,3 +1,16 @@
+Study notes: three more Law (058) chapters (23 Oct 2026)
+- New chapters in /notes/ugc-net-law-058/ (same format and generator as the first four Law chapters):
+  Unit 3 Public International Law and IHL: 4 modules, 11 topics (0 to 10), 66 sub-topics.
+  Unit 6 Commercial Law: 4 modules, 12 topics (0 to 11), 72 sub-topics.
+  Unit 7 Family Law: 5 modules, 12 topics (0 to 11), 65 sub-topics.
+  Each has a chapter overview, one page per topic, a rapid-recall sheet, JSON-LD, breadcrumbs, related topics and MCQ links.
+- New data: _notes-data/ugc-net-law-058/{public-international-law-ihl,commercial-law,family-law}/{content.md,chapter.json}.
+- Unit 7: every topic ends with a Memory Capsule (MCQ traps) and an Analysis Angle (recent trend); Topic 11 is the revision toolkit.
+- build_notes.py: "topic" cross-references now also accept ranges such as "Topics 1-3" (hyphen or en dash).
+- Unit pages 3, 6 and 7 now carry the "Detailed study notes" block, the sidebar "Detailed notes" box and an "On this page" link.
+- notes/ hub, notes/search-index.json and the notes block of sitemap.xml regenerated.
+
+----
 Study notes: four Law (058) chapters (22 Oct 2026)
 - New chapters in /notes/ugc-net-law-058/ (format "chapters"), built from the .docx files by _tools/build_notes.py:
   Unit 2 Constitutional and Administrative Law: 7 modules, 25 topics, 110 sub-topics.

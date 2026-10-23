@@ -1,0 +1,406 @@
+{
+ "format": "chapters",
+ "paper": "ugc-net-law-058",
+ "paper_name": "UGC NET Law (058)",
+ "paper_code": "",
+ "unit": 3,
+ "slug": "public-international-law-ihl",
+ "name": "Public International Law and IHL",
+ "short_name": "Public International Law & IHL",
+ "unit_page": "/ugc-net-law-unit-3-public-international-law-ihl.html",
+ "mcq_base": "/mcq/ugc-net-law/public-international-law-ihl/",
+ "mcq_index": "/mcq/ugc-net-law/public-international-law-ihl/",
+ "mcq_total": "175+",
+ "updated": "2026-10-23",
+ "seo_title": "UGC NET Law Public International Law & IHL Notes (Unit 3)",
+ "description": "UGC NET Law Public International Law & IHL notes: 11 topics, 66 sub-topics on sources, the UN, disputes, the WTO and IHL. Free, with revision mode.",
+ "intro": "Public International Law and IHL is a scoring unit because the questions are factual and the same cases, treaties and Article numbers repeat. Topic 0 shows how the unit is tested. Topics 1 to 4 cover sources, recognition, nationality, refugees, extradition and asylum; Topics 5 to 7 cover the UN organs, dispute settlement and state responsibility, and the WTO; Topic 8 covers international humanitarian law. Topics 9 and 10 are revision: rapid tables of numbers, years and cases, then frequently confused pairs, mnemonics and a recent-developments radar.",
+ "how": [
+  [
+   "Round 1: Read",
+   "Start with Topic 0, then read Topics 1 to 8 in order. For each topic learn the definition, the key Articles and years, three to five leading cases, the India angle and the recent development."
+  ],
+  [
+   "Round 2: Revise",
+   "Switch on <i>Revision mode</i> on any topic page to keep each section's key terms, lists and tables. Then work through Topic 9 (numbers, years, case-to-principle) and Topic 10 (confusing pairs and mnemonics)."
+  ],
+  [
+   "Last week: Recall",
+   "Use the <a href=\"/notes/ugc-net-law-058/public-international-law-ihl/rapid-recall.html\">rapid-recall sheet</a> (numbers, years, case matches, WTO agreements), then the recent-developments radar in Topic 10, and practise MCQs."
+  ]
+ ],
+ "rapid_from": [
+  "9.1",
+  "9.2",
+  "9.3",
+  "7.3"
+ ],
+ "rapid_placeholder": "Nottebohm, 1949, Article 51",
+ "search_placeholder": "Find a concept: e.g. Nottebohm, non-refoulement, Article 38, Geneva, GATT",
+ "xref": "none",
+ "modules": [
+  {
+   "id": "m1",
+   "title": "Start Here, Sources and Recognition",
+   "blurb": "How the unit is tested, the sources of international law and how States and governments are recognised.",
+   "topics": [
+    "0",
+    "1",
+    "2"
+   ]
+  },
+  {
+   "id": "m2",
+   "title": "Individuals: Nationality, Refugees, Extradition and Asylum",
+   "blurb": "Nationality and statelessness, the refugee regime, and the rules on extradition and asylum.",
+   "topics": [
+    "3",
+    "4"
+   ]
+  },
+  {
+   "id": "m3",
+   "title": "Institutions and Disputes: UN, Dispute Settlement and WTO",
+   "blurb": "The UN organs, peaceful and coercive dispute settlement with state responsibility, and the WTO.",
+   "topics": [
+    "5",
+    "6",
+    "7"
+   ]
+  },
+  {
+   "id": "m4",
+   "title": "Humanitarian Law and Revision",
+   "blurb": "The Geneva Conventions and the law of armed conflict, then rapid tables and examiner's traps.",
+   "topics": [
+    "8",
+    "9",
+    "10"
+   ]
+  }
+ ],
+ "topics": {
+  "0": {
+   "slug": "how-this-unit-is-tested",
+   "seo_title": "UGC NET Law Unit 3: How Public International Law Is Tested",
+   "description": "Start here for UGC NET Law Unit 3 Public International Law and IHL: weightage, question formats, recent trends and how to study each topic.",
+   "lead": "Weightage, the question formats that dominate (case matching, Article numbers, current affairs), and a five-part method for every topic.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "Mixed Practice Set 1"
+    },
+    {
+     "slug": "mixed-practice-set-2",
+     "label": "Mixed Practice Set 2"
+    },
+    {
+     "slug": "mixed-practice-set-3",
+     "label": "Mixed Practice Set 3"
+    }
+   ],
+   "related": [
+    {
+     "id": "1",
+     "why": "Begin with the sources of international law"
+    },
+    {
+     "id": "9",
+     "why": "Rapid-revision tables"
+    },
+    {
+     "id": "10",
+     "why": "Examiner's traps and recent-trend radar"
+    }
+   ]
+  },
+  "1": {
+   "slug": "sources-of-international-law",
+   "seo_title": "Sources of International Law: Article 38 | UGC NET Law",
+   "description": "UGC NET Law notes on sources of international law: Article 38(1) ICJ Statute, treaties, custom, general principles, subsidiary means and municipal law.",
+   "lead": "The nature of international law, Article 38(1), treaties and custom in detail, general principles, subsidiary means and the link with municipal law.",
+   "mcq": [
+    {
+     "slug": "nature-and-definition-of-international-law",
+     "label": "Nature and Definition of International Law"
+    },
+    {
+     "slug": "sources-of-international-law",
+     "label": "Sources of International Law"
+    }
+   ],
+   "related": [
+    {
+     "id": "2",
+     "why": "Recognition and the doctrines of statehood"
+    },
+    {
+     "id": "5",
+     "why": "The ICJ, whose Statute lists the sources"
+    },
+    {
+     "id": "6",
+     "why": "How sources are applied in dispute settlement"
+    }
+   ]
+  },
+  "2": {
+   "slug": "recognition-of-states-and-governments",
+   "seo_title": "Recognition of States and Governments Notes | UGC NET Law",
+   "description": "UGC NET Law notes on recognition of States and governments: theories, de jure and de facto recognition, doctrines, contemporary issues and state succession.",
+   "lead": "The concept of recognition, the declaratory and constitutive theories, types and doctrines, recognition of governments, contemporary issues and state succession.",
+   "mcq": [
+    {
+     "slug": "nature-and-definition-of-international-law",
+     "label": "Nature and Definition of International Law"
+    },
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "Mixed Practice Set 1"
+    }
+   ],
+   "related": [
+    {
+     "id": "1",
+     "why": "Sources and the rules of statehood"
+    },
+    {
+     "id": "3",
+     "why": "Nationality, which depends on statehood"
+    },
+    {
+     "id": "5",
+     "why": "UN membership and recognition"
+    }
+   ]
+  },
+  "3": {
+   "slug": "nationality-and-refugees",
+   "seo_title": "Nationality and Refugees Notes: Nottebohm | UGC NET Law",
+   "description": "UGC NET Law notes on nationality and refugees: acquisition and loss, statelessness, diplomatic protection, the Refugee Convention and India's position.",
+   "lead": "Nationality and how it is acquired and lost, dual nationality and statelessness, diplomatic protection, and the refugee regime with India's perspective.",
+   "mcq": [
+    {
+     "slug": "nationality-refugees-and-idps",
+     "label": "Nationality Refugees and Idps"
+    }
+   ],
+   "related": [
+    {
+     "id": "4",
+     "why": "Asylum, the companion of refugee protection"
+    },
+    {
+     "id": "8",
+     "why": "Refugees in armed conflict"
+    },
+    {
+     "id": "2",
+     "why": "Statehood and recognition"
+    }
+   ]
+  },
+  "4": {
+   "slug": "extradition-and-asylum",
+   "seo_title": "Extradition and Asylum Notes: Extradition Act 1962 | UGC NET Law",
+   "description": "UGC NET Law notes on extradition and asylum: basis, principles of extradition, Indian law (Extradition Act 1962) and territorial and diplomatic asylum.",
+   "lead": "What extradition is, the principles that govern it, how Indian law handles it, and the law on asylum.",
+   "mcq": [
+    {
+     "slug": "extradition-and-asylum",
+     "label": "Extradition and Asylum"
+    }
+   ],
+   "related": [
+    {
+     "id": "3",
+     "why": "Refugees and the principle of non-refoulement"
+    },
+    {
+     "id": "8",
+     "why": "War crimes and the duty to prosecute or extradite"
+    },
+    {
+     "id": "1",
+     "why": "Treaties as the basis of extradition"
+    }
+   ]
+  },
+  "5": {
+   "slug": "united-nations-organs",
+   "seo_title": "UN Organs Notes: Security Council, ICJ | UGC NET Law",
+   "description": "UGC NET Law notes on the United Nations: Charter basics, General Assembly, Security Council, ECOSOC, Trusteeship Council, the ICJ, Secretariat and other bodies.",
+   "lead": "The UN Charter and each principal organ in turn, with Articles, composition and powers, plus the other UN bodies examiners ask about.",
+   "mcq": [
+    {
+     "slug": "united-nations-and-its-organs",
+     "label": "United Nations and Its Organs"
+    }
+   ],
+   "related": [
+    {
+     "id": "6",
+     "why": "Peaceful settlement under Chapter VI and the Council's role"
+    },
+    {
+     "id": "1",
+     "why": "The ICJ Statute and sources"
+    },
+    {
+     "id": "8",
+     "why": "The Security Council and humanitarian law"
+    }
+   ]
+  },
+  "6": {
+   "slug": "dispute-settlement-and-state-responsibility",
+   "seo_title": "Dispute Settlement and State Responsibility | UGC NET Law",
+   "description": "UGC NET Law notes on dispute settlement: diplomatic means, arbitration, judicial settlement, coercive means and state responsibility (ILC Articles 2001).",
+   "lead": "Negotiation to arbitration to the courts, political and coercive means short of war, and the ILC Articles on state responsibility.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-2",
+     "label": "Mixed Practice Set 2"
+    },
+    {
+     "slug": "united-nations-and-its-organs",
+     "label": "United Nations and Its Organs"
+    }
+   ],
+   "related": [
+    {
+     "id": "5",
+     "why": "The ICJ and the Security Council"
+    },
+    {
+     "id": "7",
+     "why": "The WTO dispute settlement system"
+    },
+    {
+     "id": "1",
+     "why": "Sources applied by courts and tribunals"
+    }
+   ]
+  },
+  "7": {
+   "slug": "world-trade-organization",
+   "seo_title": "WTO Notes: GATT, GATS, TRIPS, Dispute Settlement | UGC NET Law",
+   "description": "UGC NET Law notes on the WTO: history, structure, agreements, core principles and the dispute settlement understanding.",
+   "lead": "How the WTO came from the GATT, how it is organised, what its agreements and core principles are, and how its dispute settlement works.",
+   "mcq": [
+    {
+     "slug": "world-trade-organization-wto",
+     "label": "World Trade Organization Wto"
+    }
+   ],
+   "related": [
+    {
+     "id": "6",
+     "why": "Dispute settlement in general"
+    },
+    {
+     "id": "9",
+     "why": "Years and numbers for the WTO"
+    },
+    {
+     "id": "5",
+     "why": "Other international organisations"
+    }
+   ]
+  },
+  "8": {
+   "slug": "international-humanitarian-law",
+   "seo_title": "International Humanitarian Law: Geneva Conventions | UGC NET Law",
+   "description": "UGC NET Law notes on IHL: sources, principles, the four Geneva Conventions, Additional Protocols, arms control, the Red Cross, war crimes and the ICC.",
+   "lead": "Principles of IHL, the four Geneva Conventions and their Protocols, other treaties, the Red Cross movement and accountability through the ICC.",
+   "mcq": [
+    {
+     "slug": "ihl-conventions-and-protocols",
+     "label": "IHL Conventions and Protocols"
+    },
+    {
+     "slug": "implementation-of-ihl-challenges",
+     "label": "Implementation of IHL Challenges"
+    }
+   ],
+   "related": [
+    {
+     "id": "3",
+     "why": "Refugees and displaced persons in conflict"
+    },
+    {
+     "id": "4",
+     "why": "Extradition for war crimes"
+    },
+    {
+     "id": "9",
+     "why": "Years of the conventions"
+    }
+   ]
+  },
+  "9": {
+   "slug": "rapid-revision-tables",
+   "seo_title": "International Law Rapid-Revision Tables | UGC NET Law",
+   "description": "Rapid-revision tables for UGC NET Law Unit 3: numbers you must know, a year table of treaties and events, and a case-to-principle match list.",
+   "lead": "Three one-page tables: numbers, years, and cases matched to the principle they decided.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "Mixed Practice Set 1"
+    },
+    {
+     "slug": "mixed-practice-set-2",
+     "label": "Mixed Practice Set 2"
+    },
+    {
+     "slug": "mixed-practice-set-3",
+     "label": "Mixed Practice Set 3"
+    }
+   ],
+   "related": [
+    {
+     "id": "10",
+     "why": "Confusing pairs and mnemonics"
+    },
+    {
+     "id": "1",
+     "why": "The cases in context"
+    },
+    {
+     "id": "8",
+     "why": "IHL dates in context"
+    }
+   ]
+  },
+  "10": {
+   "slug": "examiners-traps-and-recent-trends",
+   "seo_title": "International Law Examiner's Traps and Trends | UGC NET Law",
+   "description": "UGC NET Law Unit 3: frequently confused pairs, mnemonics, a recent-developments radar and how to attempt MCQs from this unit.",
+   "lead": "The pairs examiners swap, mnemonics, the developments to check before the exam, and a method for MCQs.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-2",
+     "label": "Mixed Practice Set 2"
+    },
+    {
+     "slug": "mixed-practice-set-3",
+     "label": "Mixed Practice Set 3"
+    }
+   ],
+   "related": [
+    {
+     "id": "9",
+     "why": "Rapid-revision tables"
+    },
+    {
+     "id": "0",
+     "why": "How the unit is tested"
+    },
+    {
+     "id": "8",
+     "why": "IHL, where many traps sit"
+    }
+   ]
+  }
+ }
+}

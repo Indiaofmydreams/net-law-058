@@ -1,0 +1,475 @@
+{
+ "format": "chapters",
+ "paper": "ugc-net-law-058",
+ "paper_name": "UGC NET Law (058)",
+ "paper_code": "",
+ "unit": 6,
+ "slug": "commercial-law",
+ "name": "Commercial Law",
+ "short_name": "Commercial Law",
+ "unit_page": "/ugc-net-law-unit-6-commercial-law.html",
+ "mcq_base": "/mcq/ugc-net-law/commercial-law/",
+ "mcq_index": "/mcq/ugc-net-law/commercial-law/",
+ "mcq_total": "440+",
+ "updated": "2026-10-23",
+ "seo_title": "UGC NET Law Commercial Law Notes (Unit 6): Contract to CSR",
+ "description": "UGC NET Law Commercial Law notes: 12 topics, 72 sub-topics on contract, sale of goods, partnership, NI Act, company law and CSR. Free, with revision mode.",
+ "intro": "Commercial Law is a high-scoring unit built on statutes, section numbers and time limits as much as on cases. The notes follow the syllabus: the Indian Contract Act (formation, breach, quasi-contract, specific contracts), the Sale of Goods Act, Partnership and LLP, the Negotiable Instruments Act, Company Law (incorporation, shares, directors, meetings) and CSR. Topic 0 explains how the unit is tested and Topic 11 collects the priority order, a numbers and time-limits cheat sheet, a landmark-case master list and a revision plan.",
+ "how": [
+  [
+   "Round 1: Read",
+   "Start with Topic 0, then go through Topics 1 to 10. Company Law (Topics 8 and 9) usually carries the most questions, so give it the most time; learn definitions, numbers and thresholds."
+  ],
+  [
+   "Round 2: Revise",
+   "Switch on <i>Revision mode</i> on any topic page to keep each section's key terms, lists and tables. Use the Exam Pointers at the end of Topic 5 and the priority order in Topic 11."
+  ],
+  [
+   "Last week: Recall",
+   "Use the <a href=\"/notes/ugc-net-law-058/commercial-law/rapid-recall.html\">rapid-recall sheet</a> (numbers, time limits and the case master list), then the recent amendments in Topic 11 and practice MCQs."
+  ]
+ ],
+ "rapid_from": [
+  "11.2",
+  "11.3"
+ ],
+ "rapid_placeholder": "Carlill, s.138, 30 days",
+ "search_placeholder": "Find a concept: e.g. s.73, frustration, nemo dat, s.138, CSR",
+ "xref": "topic",
+ "modules": [
+  {
+   "id": "m1",
+   "title": "Start Here and the Law of Contract",
+   "blurb": "How the unit is tested, then formation, breach, frustration, void and voidable agreements, standard forms and quasi-contract.",
+   "topics": [
+    "0",
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "id": "m2",
+   "title": "Specific Contracts and Sale of Goods",
+   "blurb": "Bailment, pledge, indemnity, guarantee and agency, then the Sale of Goods Act 1930.",
+   "topics": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "id": "m3",
+   "title": "Partnership, LLP and Negotiable Instruments",
+   "blurb": "The Partnership Act 1932, the LLP Act 2008 and the Negotiable Instruments Act 1881 including cheque dishonour.",
+   "topics": [
+    "6",
+    "7"
+   ]
+  },
+  {
+   "id": "m4",
+   "title": "Company Law, CSR and Final Revision",
+   "blurb": "Incorporation, prospectus, shares and debentures, directors and meetings, CSR, and the exam strategy and master tables.",
+   "topics": [
+    "8",
+    "9",
+    "10",
+    "11"
+   ]
+  }
+ ],
+ "topics": {
+  "0": {
+   "slug": "how-the-exam-tests-this-unit",
+   "seo_title": "UGC NET Law Unit 6: How Commercial Law Is Tested",
+   "description": "Start here for UGC NET Law Unit 6 Commercial Law: exam pattern, typical MCQ formats, recent trends and a study method for every topic.",
+   "lead": "The exam pattern for the unit, the formats that recur (statement-based, match, assertion-reason) and the recent trends in section-number questions.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "Mixed Practice Set 1"
+    },
+    {
+     "slug": "mixed-practice-set-2",
+     "label": "Mixed Practice Set 2"
+    }
+   ],
+   "related": [
+    {
+     "id": "1",
+     "why": "Begin with the essentials of contract"
+    },
+    {
+     "id": "8",
+     "why": "Company Law, usually the largest share"
+    },
+    {
+     "id": "11",
+     "why": "Priority order and master tables"
+    }
+   ]
+  },
+  "1": {
+   "slug": "essential-elements-of-contract-and-e-contract",
+   "seo_title": "Essentials of a Valid Contract and E-Contract Notes | UGC NET Law",
+   "description": "UGC NET Law notes on the Indian Contract Act: offer, acceptance, capacity, free consent (ss.13-22), consideration, contingent contracts, formalities and e-contracts.",
+   "lead": "Section 2 definitions, section 10 essentials, offer and acceptance, capacity, free consent, consideration and object, contingent contracts and e-contracts.",
+   "mcq": [
+    {
+     "slug": "indian-contract-act-1872-formation",
+     "label": "Indian Contract Act, 1872: Formation"
+    },
+    {
+     "slug": "indian-contract-act-1872-consideration-and-privity",
+     "label": "Indian Contract Act, 1872: Consideration and Privity"
+    },
+    {
+     "slug": "indian-contract-act-1872-free-consent",
+     "label": "Indian Contract Act, 1872: Free Consent"
+    }
+   ],
+   "related": [
+    {
+     "id": "2",
+     "why": "What happens when a contract is void, discharged or breached"
+    },
+    {
+     "id": "3",
+     "why": "Standard form contracts and quasi-contract"
+    },
+    {
+     "id": "4",
+     "why": "Specific contracts built on these essentials"
+    }
+   ]
+  },
+  "2": {
+   "slug": "breach-frustration-void-and-voidable",
+   "seo_title": "Frustration (s.56), Breach and Discharge Notes | UGC NET Law",
+   "description": "UGC NET Law notes on void and voidable agreements, discharge of contract, frustration of contract (section 56) and breach of contract with damages (ss.73-74).",
+   "lead": "Void, voidable and illegal agreements, the modes of discharge, frustration under section 56 and breach with its remedies.",
+   "mcq": [
+    {
+     "slug": "indian-contract-act-1872-legality-of-object-void-agreements-frustration",
+     "label": "Indian Contract Act, 1872: Legality of Object Void Agreements Frustration"
+    },
+    {
+     "slug": "indian-contract-act-1872-performance-and-discharge",
+     "label": "Indian Contract Act, 1872: Performance and Discharge"
+    },
+    {
+     "slug": "indian-contract-act-1872-performance-and-discharge-set-2",
+     "label": "Indian Contract Act, 1872: Performance and Discharge (Set 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "1",
+     "why": "The essentials whose absence makes a contract void"
+    },
+    {
+     "id": "3",
+     "why": "Quasi-contract, obligations without agreement"
+    },
+    {
+     "id": "4",
+     "why": "Discharge of a surety and of other specific contracts"
+    }
+   ]
+  },
+  "3": {
+   "slug": "standard-form-contract-and-quasi-contract",
+   "seo_title": "Standard Form Contracts and Quasi-Contract (ss.68-72) | UGC NET Law",
+   "description": "UGC NET Law notes on standard form contracts (contracts of adhesion) and quasi-contract under sections 68 to 72 of the Indian Contract Act.",
+   "lead": "Contracts of adhesion and how courts control unfair terms, then the five quasi-contractual obligations in sections 68 to 72.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "Mixed Practice Set 1"
+    }
+   ],
+   "related": [
+    {
+     "id": "1",
+     "why": "Free consent and unconscionability"
+    },
+    {
+     "id": "2",
+     "why": "Breach and remedies"
+    },
+    {
+     "id": "5",
+     "why": "Sale of goods, where standard terms are common"
+    }
+   ]
+  },
+  "4": {
+   "slug": "specific-contracts",
+   "seo_title": "Bailment, Pledge, Guarantee, Agency Notes | UGC NET Law",
+   "description": "UGC NET Law notes on specific contracts: bailment (ss.148-171), pledge, indemnity (ss.124-125), guarantee (ss.126-147) and agency (ss.182-238).",
+   "lead": "Bailment, pledge, indemnity, guarantee and agency, with the sections, duties and rights examiners test.",
+   "mcq": [
+    {
+     "slug": "indian-contract-act-1872-indemnity-and-guarantee",
+     "label": "Indian Contract Act, 1872: Indemnity and Guarantee"
+    },
+    {
+     "slug": "indian-contract-act-1872-bailment-and-pledge",
+     "label": "Indian Contract Act, 1872: Bailment and Pledge"
+    },
+    {
+     "slug": "indian-contract-act-1872-agency",
+     "label": "Indian Contract Act, 1872: Agency"
+    },
+    {
+     "slug": "specific-contracts-guarantee",
+     "label": "Specific Contracts Guarantee"
+    },
+    {
+     "slug": "specific-contracts-bailment",
+     "label": "Specific Contracts Bailment"
+    },
+    {
+     "slug": "specific-contracts-agency",
+     "label": "Specific Contracts Agency"
+    }
+   ],
+   "related": [
+    {
+     "id": "1",
+     "why": "General contract principles these contracts rely on"
+    },
+    {
+     "id": "5",
+     "why": "Sale of goods, another specific contract"
+    },
+    {
+     "id": "6",
+     "why": "Agency in partnership"
+    }
+   ]
+  },
+  "5": {
+   "slug": "sale-of-goods-act-1930",
+   "seo_title": "Sale of Goods Act 1930 Notes: Conditions, Nemo Dat | UGC NET Law",
+   "description": "UGC NET Law notes on the Sale of Goods Act 1930: contract of sale, conditions and warranties, transfer of property, nemo dat, unpaid seller, remedies.",
+   "lead": "Definitions, the contract of sale, conditions and warranties, passing of property and risk, sale by non-owners, the unpaid seller, buyer's remedies and auctions.",
+   "mcq": [
+    {
+     "slug": "sale-of-goods-act-1930-basics-sale-goods-price",
+     "label": "Sale of Goods Act, 1930: Basics Sale Goods Price"
+    },
+    {
+     "slug": "sale-of-goods-act-1930-conditions-warranties-and-implied-terms",
+     "label": "Sale of Goods Act, 1930: Conditions Warranties and Implied Terms"
+    },
+    {
+     "slug": "sale-of-goods-act-1930-transfer-of-property-and-risk",
+     "label": "Sale of Goods Act, 1930: Transfer of Property and Risk"
+    },
+    {
+     "slug": "sale-of-goods-act-1930-unpaid-seller-and-remedies",
+     "label": "Sale of Goods Act, 1930: Unpaid Seller and Remedies"
+    }
+   ],
+   "related": [
+    {
+     "id": "4",
+     "why": "Bailment and pledge, related to possession of goods"
+    },
+    {
+     "id": "2",
+     "why": "Breach and damages"
+    },
+    {
+     "id": "7",
+     "why": "Negotiable instruments, payment in trade"
+    }
+   ]
+  },
+  "6": {
+   "slug": "partnership-and-llp",
+   "seo_title": "Partnership Act 1932 and LLP Act 2008 Notes | UGC NET Law",
+   "description": "UGC NET Law notes on the Indian Partnership Act 1932 (relations of partners, dissolution, registration) and the Limited Liability Partnership Act 2008.",
+   "lead": "The Partnership Act in order, from definition to registration, then the LLP Act and how an LLP differs from a partnership and a company.",
+   "mcq": [
+    {
+     "slug": "partnership-act-1932-indian-partnership-act-1932",
+     "label": "Partnership Act, 1932: Indian Partnership Act 1932"
+    },
+    {
+     "slug": "partnership-act-1932-limited-liability-partnership-act-2008",
+     "label": "Partnership Act, 1932: Limited Liability Partnership Act 2008"
+    }
+   ],
+   "related": [
+    {
+     "id": "4",
+     "why": "Agency, the basis of a partner's authority"
+    },
+    {
+     "id": "8",
+     "why": "Companies compared with firms and LLPs"
+    },
+    {
+     "id": "1",
+     "why": "Contract basics"
+    }
+   ]
+  },
+  "7": {
+   "slug": "negotiable-instruments-act-1881",
+   "seo_title": "Negotiable Instruments Act 1881: Section 138 | UGC NET Law",
+   "description": "UGC NET Law notes on the Negotiable Instruments Act 1881: kinds of instruments, negotiation, presentment and dishonour, crossing of cheques and sections 138-148.",
+   "lead": "Promissory notes, bills and cheques, endorsement and presumptions, dishonour, crossing, and the cheque-dishonour offence under section 138.",
+   "mcq": [
+    {
+     "slug": "partnership-act-1932-negotiable-instruments-act-1881",
+     "label": "Partnership Act, 1932: Negotiable Instruments Act 1881"
+    }
+   ],
+   "related": [
+    {
+     "id": "6",
+     "why": "Partnership and LLP, often tested together"
+    },
+    {
+     "id": "5",
+     "why": "Payment and the sale of goods"
+    },
+    {
+     "id": "11",
+     "why": "Numbers and time limits cheat sheet"
+    }
+   ]
+  },
+  "8": {
+   "slug": "company-law-incorporation-shares-debentures",
+   "seo_title": "Company Law Notes: Incorporation, Prospectus, Shares | UGC NET Law",
+   "description": "UGC NET Law notes on the Companies Act 2013: kinds of companies, corporate veil, promoters, incorporation, prospectus (ss.23-42), shares, debentures and charges.",
+   "lead": "Kinds of companies and corporate personality, promoters, incorporation, prospectus, shares, debentures and charges.",
+   "mcq": [
+    {
+     "slug": "company-law-companies-act-2013-incorporation-and-corporate-personality",
+     "label": "Company Law Companies Act, 2013: Incorporation and Corporate Personality"
+    },
+    {
+     "slug": "company-law-companies-act-2013-prospectus-and-allotment",
+     "label": "Company Law Companies Act, 2013: Prospectus and Allotment"
+    },
+    {
+     "slug": "company-law-companies-act-2013-shares-and-share-capital",
+     "label": "Company Law Companies Act, 2013: Shares and Share Capital"
+    },
+    {
+     "slug": "company-law-companies-act-2013-debentures-and-charges",
+     "label": "Company Law Companies Act, 2013: Debentures and Charges"
+    }
+   ],
+   "related": [
+    {
+     "id": "9",
+     "why": "Directors and meetings, the next half of company law"
+    },
+    {
+     "id": "6",
+     "why": "How companies differ from firms and LLPs"
+    },
+    {
+     "id": "10",
+     "why": "CSR under section 135"
+    }
+   ]
+  },
+  "9": {
+   "slug": "company-law-directors-and-meetings",
+   "seo_title": "Company Law Notes: Directors, Powers, Meetings | UGC NET Law",
+   "description": "UGC NET Law notes on the Board and directors, their powers, duties and liabilities, and the kinds and requirements of company meetings and resolutions.",
+   "lead": "The Board and the kinds of directors, powers, duties and liabilities, and the meetings every company must hold.",
+   "mcq": [
+    {
+     "slug": "company-law-companies-act-2013-directors",
+     "label": "Company Law Companies Act, 2013: Directors"
+    },
+    {
+     "slug": "company-law-companies-act-2013-meetings-and-resolutions",
+     "label": "Company Law Companies Act, 2013: Meetings and Resolutions"
+    }
+   ],
+   "related": [
+    {
+     "id": "8",
+     "why": "Incorporation, shares and debentures"
+    },
+    {
+     "id": "10",
+     "why": "The Board's duty to approve CSR"
+    },
+    {
+     "id": "11",
+     "why": "Time limits cheat sheet"
+    }
+   ]
+  },
+  "10": {
+   "slug": "corporate-social-responsibility",
+   "seo_title": "CSR Notes: Section 135, Schedule VII and CSR Rules | UGC NET Law",
+   "description": "UGC NET Law notes on CSR: concepts and theories, section 135, Schedule VII activities, what does not count as CSR, unspent CSR and recent trends.",
+   "lead": "The theory of CSR, section 135 and the CSR Rules, the twelve Schedule VII activities, exclusions and unspent CSR.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-4",
+     "label": "Mixed Practice Set 4"
+    }
+   ],
+   "related": [
+    {
+     "id": "9",
+     "why": "The Board and its committees"
+    },
+    {
+     "id": "8",
+     "why": "Companies Act 2013 framework"
+    },
+    {
+     "id": "11",
+     "why": "Recent amendments snapshot"
+    }
+   ]
+  },
+  "11": {
+   "slug": "exam-strategy-and-master-tables",
+   "seo_title": "Commercial Law Exam Strategy and Master Tables | UGC NET Law",
+   "description": "UGC NET Law Unit 6 master revision: priority order, numbers and time limits, landmark cases, recent amendments and a revision plan.",
+   "lead": "Priority order for the unit, numbers and time limits, a landmark-case master list, a snapshot of recent amendments and tactics for each question type.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "Mixed Practice Set 1"
+    },
+    {
+     "slug": "mixed-practice-set-2",
+     "label": "Mixed Practice Set 2"
+    },
+    {
+     "slug": "mixed-practice-set-5",
+     "label": "Mixed Practice Set 5"
+    }
+   ],
+   "related": [
+    {
+     "id": "0",
+     "why": "How the exam tests the unit"
+    },
+    {
+     "id": "8",
+     "why": "Company Law, first in the priority order"
+    },
+    {
+     "id": "1",
+     "why": "Contract Act, the base of the unit"
+    }
+   ]
+  }
+ }
+}

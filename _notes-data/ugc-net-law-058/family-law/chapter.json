@@ -1,0 +1,471 @@
+{
+ "format": "chapters",
+ "paper": "ugc-net-law-058",
+ "paper_name": "UGC NET Law (058)",
+ "paper_code": "",
+ "unit": 7,
+ "slug": "family-law",
+ "name": "Family Law",
+ "short_name": "Family Law",
+ "unit_page": "/ugc-net-law-unit-7-family-law.html",
+ "mcq_base": "/mcq/ugc-net-law/family-law/",
+ "mcq_index": "/mcq/ugc-net-law/family-law/",
+ "mcq_total": "440+",
+ "updated": "2026-10-23",
+ "seo_title": "UGC NET Law Family Law Notes (Unit 7): Hindu, Muslim, UCC",
+ "description": "UGC NET Law Family Law notes: 12 topics, 65 sub-topics on marriage, divorce, maintenance, succession, wakf and the UCC. Free, with revision mode.",
+ "intro": "Family Law mixes codified statutes (Hindu, Special Marriage, Maintenance, Succession) with uncodified personal law and a fast-moving constitutional layer: live-in relationships, foreign decrees and the new State Uniform Civil Codes. Topic 0 gives the exam pattern, recent trends and the top 25 one-liners to memorise first. Topics 1 to 10 follow the ten syllabus topics. Each ends with a Memory Capsule of MCQ traps and an Analysis Angle on the recent trend, and Topic 11 is a revision toolkit of cases, section cheat-sheet, numbers, chronology and confusions.",
+ "how": [
+  [
+   "Round 1: Read",
+   "Start with Topic 0 and its 25 one-liners, then read Topics 1 to 10 in order. Each topic has the concept, provisions and conditions in lists, and tables for cases and comparisons."
+  ],
+  [
+   "Round 2: Revise",
+   "Switch on <i>Revision mode</i> on any topic page to keep each section's key terms, lists and tables, plus the MCQ traps (Memory Capsule) and the recent trend (Analysis Angle). Then work through the Topic 11 toolkit."
+  ],
+  [
+   "Last week: Recall",
+   "Use the <a href=\"/notes/ugc-net-law-058/family-law/rapid-recall.html\">rapid-recall sheet</a> (master case table, section cheat-sheet, numbers and time limits), then the chronology in Topic 11 and practice MCQs."
+  ]
+ ],
+ "rapid_from": [
+  "11.1",
+  "11.2",
+  "11.3"
+ ],
+ "rapid_placeholder": "Shah Bano, s.13B, 6 months",
+ "search_placeholder": "Find a concept: e.g. Shah Bano, s.13B, mahr, Hindu Succession, UCC",
+ "xref": "topic",
+ "modules": [
+  {
+   "id": "m1",
+   "title": "Start Here and Sources of Family Law",
+   "blurb": "Exam pattern and the top 25 one-liners, then Hindu, Muslim, Christian and Parsi law and the constitutional framework.",
+   "topics": [
+    "0",
+    "1"
+   ]
+  },
+  {
+   "id": "m2",
+   "title": "Marriage, Divorce and Changing Family Forms",
+   "blurb": "Marriage under each personal law, matrimonial remedies, live-in relationships and foreign decrees.",
+   "topics": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "id": "m3",
+   "title": "Maintenance, Dower, Adoption and Guardianship",
+   "blurb": "Maintenance, mahr and stridhan, and adoption, guardianship and acknowledgement.",
+   "topics": [
+    "6",
+    "7"
+   ]
+  },
+  {
+   "id": "m4",
+   "title": "Succession, Will, Gift, Wakf and UCC",
+   "blurb": "Inheritance under each law, will, gift and wakf, and the Uniform Civil Code including the first State UCCs.",
+   "topics": [
+    "8",
+    "9",
+    "10"
+   ]
+  },
+  {
+   "id": "m5",
+   "title": "Revision Toolkit",
+   "blurb": "Master case table, section cheat-sheet, numbers, chronology and frequent confusions.",
+   "topics": [
+    "11"
+   ]
+  }
+ ],
+ "topics": {
+  "0": {
+   "slug": "exam-pattern-recent-trends-and-top-25-one-liners",
+   "seo_title": "UGC NET Law Unit 7: Exam Pattern and Top 25 Family Law One-Liners",
+   "description": "Start here for UGC NET Law Unit 7 Family Law: what is asked, where the marks sit, recent trends, the top 25 high-yield one-liners and how to revise.",
+   "lead": "What the paper asks, where the marks sit, the recent trends and 25 one-liners to memorise before anything else.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "Mixed Practice Set 1"
+    },
+    {
+     "slug": "mixed-practice-set-2",
+     "label": "Mixed Practice Set 2"
+    },
+    {
+     "slug": "mixed-practice-set-3",
+     "label": "Mixed Practice Set 3"
+    }
+   ],
+   "related": [
+    {
+     "id": "1",
+     "why": "Begin with the sources of family law"
+    },
+    {
+     "id": "11",
+     "why": "The revision toolkit"
+    },
+    {
+     "id": "10",
+     "why": "UCC, the most current-affairs-heavy topic"
+    }
+   ]
+  },
+  "1": {
+   "slug": "sources-and-schools-of-family-law",
+   "seo_title": "Sources and Schools of Family Law | UGC NET Law",
+   "description": "UGC NET Law notes on sources of family law: Hindu law and its schools, Muslim law, Christian, Parsi and Jewish law, and the constitutional framework.",
+   "lead": "Hindu law (Mitakshara and Dayabhaga), Muslim law and its sources, the smaller personal laws and the Article 13, 14, 15, 25 and 44 framework.",
+   "mcq": [
+    {
+     "slug": "sources-and-schools-part-1",
+     "label": "Sources and Schools (Part 1)"
+    },
+    {
+     "slug": "sources-and-schools-part-2",
+     "label": "Sources and Schools (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "2",
+     "why": "Marriage under each personal law"
+    },
+    {
+     "id": "10",
+     "why": "Article 44 and the Uniform Civil Code"
+    },
+    {
+     "id": "8",
+     "why": "Succession rules of each school"
+    }
+   ]
+  },
+  "2": {
+   "slug": "marriage-and-dissolution-of-marriage",
+   "seo_title": "Marriage Laws: HMA, Special Marriage Act, Nikah | UGC NET Law",
+   "description": "UGC NET Law notes on marriage: Hindu Marriage Act 1955, Special Marriage Act 1954, Muslim nikah and dissolution, Christian and Parsi marriage.",
+   "lead": "Hindu marriage under the HMA, the Special Marriage Act, nikah and the Muslim modes of dissolution, Christian and Parsi marriage and a waiting-period comparison.",
+   "mcq": [
+    {
+     "slug": "marriage-part-1",
+     "label": "Marriage (Part 1)"
+    },
+    {
+     "slug": "marriage-part-2",
+     "label": "Marriage (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "3",
+     "why": "Divorce grounds and matrimonial remedies"
+    },
+    {
+     "id": "6",
+     "why": "Maintenance and mahr after marriage"
+    },
+    {
+     "id": "1",
+     "why": "The personal laws behind each marriage form"
+    }
+   ]
+  },
+  "3": {
+   "slug": "matrimonial-remedies-divorce",
+   "seo_title": "Divorce Grounds: Section 13 and 13B HMA | UGC NET Law",
+   "description": "UGC NET Law notes on matrimonial remedies: theories of divorce, restitution, judicial separation, section 13 and 13B HMA, Article 142 and divorce under other laws.",
+   "lead": "Theories of divorce, section 9 to 13B of the HMA, bars and defences, Article 142 and irretrievable breakdown, ancillary relief and other personal laws.",
+   "mcq": [
+    {
+     "slug": "matrimonial-remedies-divorce-part-1",
+     "label": "Matrimonial Remedies Divorce (Part 1)"
+    },
+    {
+     "slug": "matrimonial-remedies-divorce-part-2",
+     "label": "Matrimonial Remedies Divorce (Part 2)"
+    },
+    {
+     "slug": "matrimonial-remedies-divorce-part-3",
+     "label": "Matrimonial Remedies Divorce (Part 3)"
+    }
+   ],
+   "related": [
+    {
+     "id": "2",
+     "why": "Marriage forms that divorce ends"
+    },
+    {
+     "id": "6",
+     "why": "Maintenance as ancillary relief"
+    },
+    {
+     "id": "5",
+     "why": "Foreign divorce decrees in India"
+    }
+   ]
+  },
+  "4": {
+   "slug": "live-in-relationships-and-changing-dimensions",
+   "seo_title": "Live-in Relationships Law in India: Cases and Tests | UGC NET Law",
+   "description": "UGC NET Law notes on live-in relationships: legal position, key judgments and tests, statutory live-in rules in State UCCs and other changing dimensions of marriage.",
+   "lead": "The legal position of live-in relationships, the judgments and tests, the State UCC rules and other changes in the institution of marriage.",
+   "mcq": [
+    {
+     "slug": "changing-dimensions-live-in-relationship-part-1",
+     "label": "Changing Dimensions Live in Relationship (Part 1)"
+    },
+    {
+     "slug": "changing-dimensions-live-in-relationship-part-2",
+     "label": "Changing Dimensions Live in Relationship (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "10",
+     "why": "State UCCs regulate live-in relationships"
+    },
+    {
+     "id": "6",
+     "why": "Maintenance claims of live-in partners"
+    },
+    {
+     "id": "3",
+     "why": "Divorce and the marriage institution"
+    }
+   ]
+  },
+  "5": {
+   "slug": "recognition-of-foreign-decrees",
+   "seo_title": "Foreign Divorce Decrees in India: Narasimha Rao Rule | UGC NET Law",
+   "description": "UGC NET Law notes on recognition of foreign decrees on marriage and divorce: section 13 CPC, Y. Narasimha Rao (1991), other leading cases and worked examples.",
+   "lead": "The statutory framework, the rule in Y. Narasimha Rao v Y. Venkata Lakshmi, other leading cases and examples that apply the rule.",
+   "mcq": [
+    {
+     "slug": "matrimonial-remedies-divorce-part-3",
+     "label": "Matrimonial Remedies Divorce (Part 3)"
+    },
+    {
+     "slug": "mixed-practice-set-2",
+     "label": "Mixed Practice Set 2"
+    }
+   ],
+   "related": [
+    {
+     "id": "3",
+     "why": "Divorce grounds that a foreign court must respect"
+    },
+    {
+     "id": "2",
+     "why": "Marriage forms and their validity"
+    },
+    {
+     "id": "11",
+     "why": "Master case-law table"
+    }
+   ]
+  },
+  "6": {
+   "slug": "maintenance-dower-and-stridhan",
+   "seo_title": "Maintenance, Mahr (Dower) and Stridhan Notes | UGC NET Law",
+   "description": "UGC NET Law notes on maintenance, dower and stridhan: HAMA 1956, section 125 CrPC and 144 BNSS, Muslim law and the 1986 and 2019 Acts, mahr and stridhan.",
+   "lead": "Maintenance under Hindu law, section 125 CrPC (144 BNSS), Muslim law and the 1986 and 2019 Acts, dower and stridhan.",
+   "mcq": [
+    {
+     "slug": "maintenance-dower-and-stridhan-part-1",
+     "label": "Maintenance Dower and Stridhan (Part 1)"
+    },
+    {
+     "slug": "maintenance-dower-and-stridhan-part-2",
+     "label": "Maintenance Dower and Stridhan (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "2",
+     "why": "Marriage, the source of maintenance duty"
+    },
+    {
+     "id": "3",
+     "why": "Divorce and ancillary reliefs"
+    },
+    {
+     "id": "8",
+     "why": "Succession to stridhan"
+    }
+   ]
+  },
+  "7": {
+   "slug": "adoption-guardianship-and-acknowledgement",
+   "seo_title": "Adoption, Guardianship and Acknowledgement Notes | UGC NET Law",
+   "description": "UGC NET Law notes on adoption (HAMA 1956, JJ Act 2015, Adoption Regulations 2022), guardianship (HMGA, Guardians and Wards Act), Muslim custody and acknowledgement.",
+   "lead": "Hindu adoption, adoption under the JJ Act, guardianship under Hindu and secular law, Muslim custody and acknowledgement of paternity.",
+   "mcq": [
+    {
+     "slug": "adoption-guardianship-and-acknowledgment-part-1",
+     "label": "Adoption Guardianship and Acknowledgment (Part 1)"
+    },
+    {
+     "slug": "adoption-guardianship-and-acknowledgment-part-2",
+     "label": "Adoption Guardianship and Acknowledgment (Part 2)"
+    },
+    {
+     "slug": "adoption-guardianship-and-acknowledgment-part-3",
+     "label": "Adoption Guardianship and Acknowledgment (Part 3)"
+    }
+   ],
+   "related": [
+    {
+     "id": "6",
+     "why": "Maintenance of children and parents"
+    },
+    {
+     "id": "8",
+     "why": "Succession rights of adopted and acknowledged children"
+    },
+    {
+     "id": "1",
+     "why": "Personal laws in context"
+    }
+   ]
+  },
+  "8": {
+   "slug": "succession-and-inheritance",
+   "seo_title": "Succession and Inheritance Law Notes | UGC NET Law",
+   "description": "UGC NET Law notes on succession: Hindu Succession Act 1956, Muslim law of inheritance, Christians and Parsis under the Indian Succession Act 1925, and exam points.",
+   "lead": "Intestate succession under Hindu, Muslim, Christian and Parsi law, with tables of heirs and shares and the historical points MCQs love.",
+   "mcq": [
+    {
+     "slug": "succession-and-inheritance-part-1",
+     "label": "Succession and Inheritance (Part 1)"
+    },
+    {
+     "slug": "succession-and-inheritance-part-2",
+     "label": "Succession and Inheritance (Part 2)"
+    },
+    {
+     "slug": "succession-and-inheritance-part-3",
+     "label": "Succession and Inheritance (Part 3)"
+    }
+   ],
+   "related": [
+    {
+     "id": "9",
+     "why": "Will, gift and wakf, the testamentary side"
+    },
+    {
+     "id": "6",
+     "why": "Stridhan and its succession"
+    },
+    {
+     "id": "7",
+     "why": "Adoption and inheritance rights"
+    }
+   ]
+  },
+  "9": {
+   "slug": "will-gift-and-wakf",
+   "seo_title": "Will, Gift and Wakf Notes | UGC NET Law Family Law",
+   "description": "UGC NET Law notes on will under the Indian Succession Act 1925, gift (hiba and Transfer of Property Act) and wakf including the Waqf Amendment Act 2025.",
+   "lead": "The law of wills, gifts and wakf, with the 2025 Waqf amendment and the Supreme Court's interim order.",
+   "mcq": [
+    {
+     "slug": "will-gift-and-wakf-part-1",
+     "label": "Will Gift and Wakf (Part 1)"
+    },
+    {
+     "slug": "will-gift-and-wakf-part-2",
+     "label": "Will Gift and Wakf (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "8",
+     "why": "Intestate succession, when there is no will"
+    },
+    {
+     "id": "1",
+     "why": "Muslim law sources"
+    },
+    {
+     "id": "11",
+     "why": "Numbers and time limits"
+    }
+   ]
+  },
+  "10": {
+   "slug": "uniform-civil-code",
+   "seo_title": "Uniform Civil Code: Article 44, Uttarakhand, Gujarat | UGC NET Law",
+   "description": "UGC NET Law notes on the Uniform Civil Code: constitutional background, landmark cases, Law Commission, Uttarakhand UCC 2024, Gujarat UCC 2026 and the arguments.",
+   "lead": "Article 44 and the landmark cases, the Law Commission's view, the first two State UCCs and the arguments on each side.",
+   "mcq": [
+    {
+     "slug": "uniform-civil-code-part-1",
+     "label": "Uniform Civil Code (Part 1)"
+    },
+    {
+     "slug": "uniform-civil-code-part-2",
+     "label": "Uniform Civil Code (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "1",
+     "why": "Personal laws a UCC would replace"
+    },
+    {
+     "id": "4",
+     "why": "UCC rules on live-in relationships"
+    },
+    {
+     "id": "11",
+     "why": "Chronology of Family Law reforms"
+    }
+   ]
+  },
+  "11": {
+   "slug": "revision-toolkit",
+   "seo_title": "Family Law Revision Toolkit: Cases and Numbers | UGC NET Law",
+   "description": "UGC NET Law Unit 7 revision toolkit: master case-law table, section cheat-sheet, numbers and time limits, chronology, frequent confusions and sources.",
+   "lead": "The last-week toolkit: one master case table, a section cheat-sheet, numbers, a chronology for arrange-in-order questions and frequent confusions.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "Mixed Practice Set 1"
+    },
+    {
+     "slug": "mixed-practice-set-2",
+     "label": "Mixed Practice Set 2"
+    },
+    {
+     "slug": "mixed-practice-set-3",
+     "label": "Mixed Practice Set 3"
+    }
+   ],
+   "related": [
+    {
+     "id": "0",
+     "why": "The top 25 one-liners"
+    },
+    {
+     "id": "3",
+     "why": "Divorce, the densest section of cases"
+    },
+    {
+     "id": "10",
+     "why": "UCC developments"
+    }
+   ]
+  }
+ }
+}

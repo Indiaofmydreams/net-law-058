@@ -258,7 +258,7 @@ def xref(h, ch):
                 t = ch["topics"].get(n.group(0))
                 return f'<a href="{t["url"]}">{n.group(0)}</a>' if t else n.group(0)
             return m.group(1) + " " + re.sub(r"\d+", one, m.group(2))
-        return re.sub(r"\b([Tt]opics?) (\d+(?:(?:,\s*|\s+and\s+|\s+or\s+|\s+to\s+)\d+)*)", run, h)
+        return re.sub(r"\b([Tt]opics?) (\d+(?:(?:,\s*|\s+and\s+|\s+or\s+|\s+to\s+|\s*[–-]\s*)\d+)*)", run, h)
 
     def r(m):
         t = ch["topics"].get(m.group(1))
