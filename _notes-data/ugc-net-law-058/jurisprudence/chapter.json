@@ -1,0 +1,429 @@
+{
+ "format": "chapters",
+ "paper": "ugc-net-law-058",
+ "paper_name": "UGC NET Law (058)",
+ "paper_code": "",
+ "unit": 1,
+ "slug": "jurisprudence",
+ "name": "Jurisprudence",
+ "short_name": "Jurisprudence",
+ "unit_page": "/ugc-net-law-unit-1-jurisprudence.html",
+ "mcq_base": "/mcq/ugc-net-law/jurisprudence/",
+ "mcq_index": "/mcq/ugc-net-law/jurisprudence/",
+ "mcq_total": "255+",
+ "updated": "2026-10-23",
+ "seo_title": "UGC NET Law Jurisprudence Notes (Unit 1): Schools, Hohfeld, Rawls",
+ "description": "UGC NET Law Jurisprudence notes: 12 topics, 79 sub-topics on schools of thought, rights, personality, liability and global justice. Free, with revision mode.",
+ "intro": "Jurisprudence is the most name-heavy unit of Law 058: who wrote which book, which school holds which view, and which case settled which principle. Topic 0 shows how the unit is tested. Topics 1 and 2 cover the nature and sources of law and every school of thought; Topics 3 to 7 cover law and morality, rights and duties, legal personality, property and liability; Topics 8 to 10 are the newer topics (law and poverty, global justice, modernism and post-modernism). Each topic ends with a Memory Capsule, and Topic 11 holds the thinker-work list, the case-law list and ten exam-day strategies.",
+ "how": [
+  [
+   "Round 1: Read",
+   "Start with Topic 0, then read Topics 1 to 10 in order. For each school build a two-column memory sheet: thinker and book, core idea, one-line criticism."
+  ],
+  [
+   "Round 2: Revise",
+   "Switch on <i>Revision mode</i> on any topic page to keep each section's key terms, lists and tables, plus the Memory Capsule at the end of the topic. Recite the debates: Hart-Austin, Hart-Fuller, Hart-Devlin, Hart-Dworkin."
+  ],
+  [
+   "Last week: Recall",
+   "Use the <a href=\"/notes/ugc-net-law-058/jurisprudence/rapid-recall.html\">rapid-recall sheet</a> (thinkers with their works and years, and the case-law list), then Topic 11's exam-day strategies and practice MCQs."
+  ]
+ ],
+ "rapid_from": [
+  "11.1",
+  "11.2"
+ ],
+ "rapid_placeholder": "Austin, 1832, Rawls",
+ "search_placeholder": "Find a concept: e.g. Austin, Hohfeld, Kelsen, Salomon, Rawls",
+ "xref": "topic",
+ "modules": [
+  {
+   "id": "m1",
+   "title": "Start Here, Nature and Sources of Law",
+   "blurb": "How the unit is tested, then what law is, Austin's command theory and the sources: legislation, precedent and custom.",
+   "topics": [
+    "0",
+    "1"
+   ]
+  },
+  {
+   "id": "m2",
+   "title": "Schools of Jurisprudence",
+   "blurb": "Natural law, analytical positivism, Dworkin, Kelsen, the historical, sociological and realist schools, Marxist thought, law and economics and Indian jurisprudence.",
+   "topics": [
+    "2"
+   ]
+  },
+  {
+   "id": "m3",
+   "title": "Law, Morality, Rights and Persons",
+   "blurb": "Law and morality with the great debates, Hohfeld and Salmond on rights and duties, and legal personality.",
+   "topics": [
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "id": "m4",
+   "title": "Property, Ownership, Possession and Liability",
+   "blurb": "Ownership and possession, and civil, criminal and vicarious liability with theories of punishment.",
+   "topics": [
+    "6",
+    "7"
+   ]
+  },
+  {
+   "id": "m5",
+   "title": "Contemporary Thought: Poverty, Global Justice, Post-Modernism",
+   "blurb": "Law and development, Rawls and global justice, and modern and post-modern legal thought.",
+   "topics": [
+    "8",
+    "9",
+    "10"
+   ]
+  },
+  {
+   "id": "m6",
+   "title": "Final Revision",
+   "blurb": "The thinker-work master list, case-law list and ten exam-day strategies.",
+   "topics": [
+    "11"
+   ]
+  }
+ ],
+ "topics": {
+  "0": {
+   "slug": "how-to-use-these-notes",
+   "seo_title": "UGC NET Law Unit 1: How Jurisprudence Is Tested",
+   "description": "Start here for UGC NET Law Unit 1 Jurisprudence: question formats, observed trends and a study method built on thinker, book, idea and criticism.",
+   "lead": "The question formats that recur (match the list, statements, assertion-reason), the trends to plan around and the study method for this unit.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "Mixed Practice Set 1"
+    },
+    {
+     "slug": "mixed-practice-set-2",
+     "label": "Mixed Practice Set 2"
+    }
+   ],
+   "related": [
+    {
+     "id": "1",
+     "why": "Begin with the nature and sources of law"
+    },
+    {
+     "id": "2",
+     "why": "Schools, the heart of the unit"
+    },
+    {
+     "id": "11",
+     "why": "Final revision section"
+    }
+   ]
+  },
+  "1": {
+   "slug": "nature-and-sources-of-law",
+   "seo_title": "Nature and Sources of Law: Austin, Precedent, Custom | UGC NET Law",
+   "description": "UGC NET Law notes on the nature and sources of law: meaning of jurisprudence, definitions, Austin's command theory, legislation, precedent, custom and other sources.",
+   "lead": "Meaning of jurisprudence, definitions of law, Austin's command theory, and the sources: legislation, precedent, custom, agreement and juristic writings.",
+   "mcq": [
+    {
+     "slug": "nature-and-sources-of-law-part-1",
+     "label": "Nature and Sources of Law (Part 1)"
+    },
+    {
+     "slug": "nature-and-sources-of-law-part-2",
+     "label": "Nature and Sources of Law (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "2",
+     "why": "Austin's school and the other schools of thought"
+    },
+    {
+     "id": "3",
+     "why": "Law and morality"
+    },
+    {
+     "id": "7",
+     "why": "Liability and sanction"
+    }
+   ]
+  },
+  "2": {
+   "slug": "schools-of-jurisprudence",
+   "seo_title": "Schools of Jurisprudence: Natural Law, Kelsen, Realism | UGC NET Law",
+   "description": "UGC NET Law notes on schools of jurisprudence: natural law, analytical positivism, Dworkin, Kelsen, historical, sociological, realist, Marxist, and Indian schools.",
+   "lead": "A one-page map of the schools, then each school in turn: natural law, positivism, Dworkin and the Hart-Dworkin debate, Kelsen, historical, sociological, realist, Marxist, law and economics and Indian thought.",
+   "mcq": [
+    {
+     "slug": "schools-of-jurisprudence-part-1",
+     "label": "Schools of Jurisprudence (Part 1)"
+    },
+    {
+     "slug": "schools-of-jurisprudence-part-2",
+     "label": "Schools of Jurisprudence (Part 2)"
+    },
+    {
+     "slug": "schools-of-jurisprudence-part-3",
+     "label": "Schools of Jurisprudence (Part 3)"
+    }
+   ],
+   "related": [
+    {
+     "id": "3",
+     "why": "Law and morality, where the schools clash"
+    },
+    {
+     "id": "1",
+     "why": "Sources of law as each school sees them"
+    },
+    {
+     "id": "10",
+     "why": "Post-modern critiques of these schools"
+    }
+   ]
+  },
+  "3": {
+   "slug": "law-and-morality",
+   "seo_title": "Law and Morality: Hart-Fuller, Hart-Devlin Debates | UGC NET Law",
+   "description": "UGC NET Law notes on law and morality: differences, views of the schools, Hart-Fuller and Hart-Devlin debates and Indian constitutional morality cases.",
+   "lead": "How law and morality differ, what each school says, the Hart-Fuller and Hart-Devlin debates and the Indian cases on constitutional morality.",
+   "mcq": [
+    {
+     "slug": "law-and-morality",
+     "label": "Law and Morality"
+    }
+   ],
+   "related": [
+    {
+     "id": "2",
+     "why": "The schools behind each view"
+    },
+    {
+     "id": "4",
+     "why": "Rights, where law and morality meet"
+    },
+    {
+     "id": "10",
+     "why": "Critical and post-modern approaches"
+    }
+   ]
+  },
+  "4": {
+   "slug": "concept-of-rights-and-duties",
+   "seo_title": "Rights and Duties: Hohfeld, Salmond, Kinds of Rights | UGC NET Law",
+   "description": "UGC NET Law notes on legal rights and duties: theories of rights, Salmond's elements, Hohfeld's fundamental conceptions, kinds of rights, duties and Indian cases.",
+   "lead": "What a legal right is, theories of rights, Salmond's elements, Hohfeld's eight conceptions, kinds of rights, duties and the Indian landmark cases.",
+   "mcq": [
+    {
+     "slug": "concept-of-rights-and-duties",
+     "label": "Concept of Rights and Duties"
+    }
+   ],
+   "related": [
+    {
+     "id": "5",
+     "why": "Who can hold rights: legal personality"
+    },
+    {
+     "id": "6",
+     "why": "Ownership and possession as rights"
+    },
+    {
+     "id": "7",
+     "why": "Liability when a duty is breached"
+    }
+   ]
+  },
+  "5": {
+   "slug": "legal-personality",
+   "seo_title": "Legal Personality: Corporate Veil, Idols, Rivers | UGC NET Law",
+   "description": "UGC NET Law notes on legal personality: natural and juristic persons, theories of corporate personality, lifting the veil, and idols, rivers and animals.",
+   "lead": "Natural and juristic persons, the theories of corporate personality, piercing the veil and the Indian cases on idols, religious books, rivers and animals.",
+   "mcq": [
+    {
+     "slug": "legal-personality",
+     "label": "Legal Personality"
+    }
+   ],
+   "related": [
+    {
+     "id": "4",
+     "why": "Rights and duties of persons"
+    },
+    {
+     "id": "7",
+     "why": "Corporate and criminal liability"
+    },
+    {
+     "id": "6",
+     "why": "Property held by legal persons"
+    }
+   ]
+  },
+  "6": {
+   "slug": "property-ownership-and-possession",
+   "seo_title": "Property, Ownership and Possession Notes | UGC NET Law Jurisprudence",
+   "description": "UGC NET Law notes on property, ownership and possession: kinds and theories of property, incidents of ownership, possession, and ownership versus possession.",
+   "lead": "Property and its theories, ownership and its incidents, possession and its kinds, and the table of ownership versus possession.",
+   "mcq": [
+    {
+     "slug": "concepts-of-property-ownership-and-possession",
+     "label": "Concepts of Property Ownership and Possession"
+    }
+   ],
+   "related": [
+    {
+     "id": "4",
+     "why": "Rights over things (rights in rem)"
+    },
+    {
+     "id": "7",
+     "why": "Liability for wrongs to property"
+    },
+    {
+     "id": "5",
+     "why": "Legal persons as owners"
+    }
+   ]
+  },
+  "7": {
+   "slug": "concept-of-liability",
+   "seo_title": "Legal Liability Notes: Kinds, Mens Rea, Punishment | UGC NET Law",
+   "description": "UGC NET Law notes on liability: wrongful act, civil, criminal, vicarious and strict liability, negligence, causation, defences and theories of punishment.",
+   "lead": "Meaning of liability, Salmond's analysis of a wrongful act, the kinds of liability, negligence, defences and theories of punishment.",
+   "mcq": [
+    {
+     "slug": "concept-of-liability",
+     "label": "Concept of Liability"
+    }
+   ],
+   "related": [
+    {
+     "id": "4",
+     "why": "Duties whose breach creates liability"
+    },
+    {
+     "id": "5",
+     "why": "Corporate liability"
+    },
+    {
+     "id": "3",
+     "why": "Morality and punishment"
+    }
+   ]
+  },
+  "8": {
+   "slug": "law-poverty-and-development",
+   "seo_title": "Law, Poverty and Development: Sen, Nussbaum | UGC NET Law",
+   "description": "UGC NET Law notes on law, poverty and development: poverty concepts, Sen, Nussbaum, the law and development movement and the right to development.",
+   "lead": "Concepts of poverty, Sen's capability approach and Nussbaum, the law and development movement, the right to development and India's constitutional response.",
+   "mcq": [
+    {
+     "slug": "law-poverty-and-development",
+     "label": "Law Poverty and Development"
+    }
+   ],
+   "related": [
+    {
+     "id": "9",
+     "why": "Global justice and distribution"
+    },
+    {
+     "id": "4",
+     "why": "Rights and entitlements"
+    },
+    {
+     "id": "10",
+     "why": "Critiques of development"
+    }
+   ]
+  },
+  "9": {
+   "slug": "global-justice",
+   "seo_title": "Global Justice Notes: Rawls, Pogge, Cosmopolitanism | UGC NET Law",
+   "description": "UGC NET Law notes on global justice: Rawls, cosmopolitan theories (Singer, Pogge, Beitz), statist and communitarian responses and applications.",
+   "lead": "Rawls and the original position, cosmopolitan theories, the statist and communitarian replies, and the applications: poverty, migration, climate.",
+   "mcq": [
+    {
+     "slug": "global-justice",
+     "label": "Global Justice"
+    }
+   ],
+   "related": [
+    {
+     "id": "8",
+     "why": "Poverty and development"
+    },
+    {
+     "id": "2",
+     "why": "Natural law and rights behind these theories"
+    },
+    {
+     "id": "10",
+     "why": "Post-modern and post-colonial critiques"
+    }
+   ]
+  },
+  "10": {
+   "slug": "modernism-and-post-modernism",
+   "seo_title": "Post-Modernism in Law: Foucault, Derrida, CLS | UGC NET Law",
+   "description": "UGC NET Law notes on post-modernism: Foucault, Derrida, Lyotard, a comparison, Critical Legal Studies, feminist jurisprudence, CRT and post-colonial views.",
+   "lead": "Modernism in legal thought, the post-modern thinkers, a comparison table, Critical Legal Studies, feminist jurisprudence and post-colonial approaches.",
+   "mcq": [
+    {
+     "slug": "modernism-and-post-modernism",
+     "label": "Modernism and Post Modernism"
+    }
+   ],
+   "related": [
+    {
+     "id": "2",
+     "why": "The schools that post-modernism challenges"
+    },
+    {
+     "id": "9",
+     "why": "Global justice and its critics"
+    },
+    {
+     "id": "8",
+     "why": "Law and development critiques"
+    }
+   ]
+  },
+  "11": {
+   "slug": "final-revision",
+   "seo_title": "Jurisprudence Final Revision: Thinkers and Cases | UGC NET Law",
+   "description": "UGC NET Law Unit 1 final revision: thinker and work master list with years, jurisprudence case-law list and ten exam-day strategies for MCQs.",
+   "lead": "The thinker-work master list, the case-law list by theme and ten exam-day strategies.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "Mixed Practice Set 1"
+    },
+    {
+     "slug": "mixed-practice-set-2",
+     "label": "Mixed Practice Set 2"
+    }
+   ],
+   "related": [
+    {
+     "id": "0",
+     "why": "How the unit is tested"
+    },
+    {
+     "id": "2",
+     "why": "Schools of jurisprudence"
+    },
+    {
+     "id": "5",
+     "why": "Legal personality cases"
+    }
+   ]
+  }
+ }
+}

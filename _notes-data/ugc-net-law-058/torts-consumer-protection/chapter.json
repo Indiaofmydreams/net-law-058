@@ -1,0 +1,434 @@
+{
+ "format": "chapters",
+ "paper": "ugc-net-law-058",
+ "paper_name": "UGC NET Law (058)",
+ "paper_code": "",
+ "unit": 5,
+ "slug": "torts-consumer-protection",
+ "name": "Law of Torts and Consumer Protection",
+ "short_name": "Torts & Consumer Protection",
+ "unit_page": "/ugc-net-law-unit-5-torts-consumer-protection.html",
+ "mcq_base": "/mcq/ugc-net-law/torts-consumer-protection/",
+ "mcq_index": "/mcq/ugc-net-law/torts-consumer-protection/",
+ "mcq_total": "290+",
+ "updated": "2026-10-23",
+ "seo_title": "UGC NET Law Torts and Consumer Protection Notes (Unit 5)",
+ "description": "UGC NET Law Torts & Consumer Protection notes: 12 topics, 114 sub-topics on torts, the CPA 2019, Motor Vehicles Act and Competition Act. Free, with revision mode.",
+ "intro": "Unit V combines English and Indian case law in torts with three statutes: the Consumer Protection Act, the Motor Vehicles Act and the Competition Act. Topic 0 explains the exam pattern and the repealed-1986-Act trap. Topics 1 to 3 cover the nature of tort, general principles and defences; Topic 4 covers negligence, nuisance, trespass and defamation; Topics 5 to 7 cover remoteness, strict and absolute liability and State liability; Topics 8 to 10 cover the three statutes, and Topic 11 is a rapid revision sheet of case anchors, numbers and concept traps.",
+ "how": [
+  [
+   "Round 1: Read",
+   "Start with Topic 0, then read Topics 1 to 10 in order. Learn each case with its principle in one line; Topic 4 is the longest, so take Negligence, Nuisance, Trespass and Defamation one at a time."
+  ],
+  [
+   "Round 2: Revise",
+   "Switch on <i>Revision mode</i> on any topic page to keep each section's key terms, lists and tables. For the statutes (Topics 8 to 10) learn the amounts, periods and the latest amendments."
+  ],
+  [
+   "Last week: Recall",
+   "Use the <a href=\"/notes/ugc-net-law-058/torts-consumer-protection/rapid-recall.html\">rapid-recall sheet</a> (numbers and periods, concept traps), then Topic 11 and practice MCQs."
+  ]
+ ],
+ "rapid_from": [
+  "11.2",
+  "11.3"
+ ],
+ "rapid_placeholder": "Rylands, 45 days, 2019",
+ "search_placeholder": "Find a concept: e.g. Donoghue, Rylands, volenti, CPA 2019, Section 134A",
+ "xref": "topic",
+ "modules": [
+  {
+   "id": "m1",
+   "title": "Start Here, Nature, Principles and Defences",
+   "blurb": "Exam pattern, what a tort is, the general conditions of liability and the general defences.",
+   "topics": [
+    "0",
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "id": "m2",
+   "title": "Specific Torts and Remoteness",
+   "blurb": "Negligence, nuisance, trespass and defamation, then how far a wrongdoer is liable for consequences.",
+   "topics": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "id": "m3",
+   "title": "Strict Liability and Liability of the State",
+   "blurb": "Rylands v Fletcher and absolute liability, and the State's tortious liability including constitutional torts.",
+   "topics": [
+    "6",
+    "7"
+   ]
+  },
+  {
+   "id": "m4",
+   "title": "Consumer, Motor Vehicles and Competition Statutes",
+   "blurb": "The Consumer Protection Act 2019, the Motor Vehicles Act 1988 and the Competition Act 2002.",
+   "topics": [
+    "8",
+    "9",
+    "10"
+   ]
+  },
+  {
+   "id": "m5",
+   "title": "Rapid Revision",
+   "blurb": "One-line case anchors, numbers and periods, concept traps and exam-hall strategy.",
+   "topics": [
+    "11"
+   ]
+  }
+ ],
+ "topics": {
+  "0": {
+   "slug": "exam-pattern-and-trends",
+   "seo_title": "UGC NET Law Unit 5: Torts and Consumer Protection Exam Pattern",
+   "description": "Start here for UGC NET Law Unit 5: what the examiner tests, the Consumer Protection Act 1986 versus 2019 trap, recent trend areas and a caution on currency.",
+   "lead": "The five question families, the trap that the 1986 Consumer Protection Act is repealed, the trend areas to prioritise and a caution on amended numbers.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "Mixed Practice Set 1"
+    },
+    {
+     "slug": "mixed-practice-set-2",
+     "label": "Mixed Practice Set 2"
+    }
+   ],
+   "related": [
+    {
+     "id": "1",
+     "why": "Begin with the nature of tort"
+    },
+    {
+     "id": "8",
+     "why": "The CPA 1986 versus 2019 trap"
+    },
+    {
+     "id": "11",
+     "why": "Rapid revision sheet"
+    }
+   ]
+  },
+  "1": {
+   "slug": "nature-and-definition-of-tort",
+   "seo_title": "Nature and Definition of Tort Notes: Maxims, Remedies | UGC NET Law",
+   "description": "UGC NET Law notes on the nature of tort: definitions, essential elements, foundational maxims, intention and malice, pigeon-hole theory, remedies and discharge.",
+   "lead": "Meaning and definitions, essential elements, the maxims (damnum sine injuria, injuria sine damno), mental element, theories of liability, remedies and discharge.",
+   "mcq": [
+    {
+     "slug": "nature-and-definition-of-tort",
+     "label": "Nature and Definition of Tort"
+    }
+   ],
+   "related": [
+    {
+     "id": "2",
+     "why": "General principles of liability"
+    },
+    {
+     "id": "3",
+     "why": "Defences in tort"
+    },
+    {
+     "id": "4",
+     "why": "Specific torts"
+    }
+   ]
+  },
+  "2": {
+   "slug": "general-principles-of-tortious-liability",
+   "seo_title": "General Principles of Tortious Liability | UGC NET Law",
+   "description": "UGC NET Law notes on general principles of tort: conditions, act and omission, legal damage, parties, vicarious liability and constitutional torts.",
+   "lead": "The basic conditions, act and omission, legal damage, who can sue and be sued, vicarious liability, strict liability overview and constitutional torts.",
+   "mcq": [
+    {
+     "slug": "general-principles-of-tortious-liability",
+     "label": "General Principles of Tortious Liability"
+    }
+   ],
+   "related": [
+    {
+     "id": "1",
+     "why": "Definition and elements of tort"
+    },
+    {
+     "id": "7",
+     "why": "State liability and constitutional torts"
+    },
+    {
+     "id": "6",
+     "why": "Strict and absolute liability"
+    }
+   ]
+  },
+  "3": {
+   "slug": "general-defences-in-tort",
+   "seo_title": "General Defences in Tort: Volenti, Necessity | UGC NET Law",
+   "description": "UGC NET Law notes on general defences in tort: volenti non fit injuria, necessity, private defence, act of God, inevitable accident, mistake, statutory authority.",
+   "lead": "Volenti, necessity, private defence, act of God, inevitable accident, mistake, statutory authority, contributory negligence and judicial acts.",
+   "mcq": [
+    {
+     "slug": "general-defences",
+     "label": "General Defences"
+    }
+   ],
+   "related": [
+    {
+     "id": "4",
+     "why": "Defences specific to negligence, nuisance and defamation"
+    },
+    {
+     "id": "6",
+     "why": "Exceptions to the rule in Rylands v Fletcher"
+    },
+    {
+     "id": "2",
+     "why": "Basic conditions of liability"
+    }
+   ]
+  },
+  "4": {
+   "slug": "negligence-nuisance-trespass-and-defamation",
+   "seo_title": "Negligence, Nuisance, Trespass, Defamation Notes | UGC NET Law",
+   "description": "UGC NET Law notes on specific torts: negligence (duty of care, medical negligence), nuisance, trespass to person, land and goods, and defamation with defences.",
+   "lead": "Negligence in ten parts, nuisance in six, trespass in three and defamation in seven, each with elements, defences, remedies and leading cases.",
+   "mcq": [
+    {
+     "slug": "negligence",
+     "label": "Negligence"
+    },
+    {
+     "slug": "nuisance",
+     "label": "Nuisance"
+    },
+    {
+     "slug": "trespass",
+     "label": "Trespass"
+    },
+    {
+     "slug": "defamation",
+     "label": "Defamation"
+    },
+    {
+     "slug": "miscellaneous-torts-part-1",
+     "label": "Miscellaneous Torts (Part 1)"
+    },
+    {
+     "slug": "miscellaneous-torts-part-2",
+     "label": "Miscellaneous Torts (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "5",
+     "why": "Remoteness and causation after breach"
+    },
+    {
+     "id": "3",
+     "why": "General defences"
+    },
+    {
+     "id": "6",
+     "why": "Strict liability in nuisance cases"
+    }
+   ]
+  },
+  "5": {
+   "slug": "remoteness-of-damages",
+   "seo_title": "Remoteness of Damages: Polemis, Wagon Mound | UGC NET Law",
+   "description": "UGC NET Law notes on remoteness of damage: Re Polemis directness test, Wagon Mound foreseeability, thin skull rule, novus actus interveniens and causation in fact.",
+   "lead": "The directness test, the foreseeability test, Wagon Mound (No. 2), the thin skull rule, intervening causes, causation in fact and the Indian position.",
+   "mcq": [
+    {
+     "slug": "remoteness-of-damages",
+     "label": "Remoteness of Damages"
+    }
+   ],
+   "related": [
+    {
+     "id": "4",
+     "why": "Negligence, where remoteness is mostly applied"
+    },
+    {
+     "id": "6",
+     "why": "Remoteness in strict liability"
+    },
+    {
+     "id": "3",
+     "why": "Contributory negligence"
+    }
+   ]
+  },
+  "6": {
+   "slug": "strict-and-absolute-liability",
+   "seo_title": "Strict and Absolute Liability: Rylands v Fletcher | UGC NET Law",
+   "description": "UGC NET Law notes on strict and absolute liability: Rylands v Fletcher, exceptions, English cases, M.C. Mehta (Oleum Gas), Bhopal and no-fault statutes.",
+   "lead": "The rule in Rylands v Fletcher, its ingredients and exceptions, developments in England, India's absolute liability and other no-fault statutes.",
+   "mcq": [
+    {
+     "slug": "strict-and-absolute-liability",
+     "label": "Strict and Absolute Liability"
+    }
+   ],
+   "related": [
+    {
+     "id": "3",
+     "why": "Defences available to the rule"
+    },
+    {
+     "id": "7",
+     "why": "State liability and compensation"
+    },
+    {
+     "id": "9",
+     "why": "No-fault liability under the Motor Vehicles Act"
+    }
+   ]
+  },
+  "7": {
+   "slug": "tortious-liability-of-the-state",
+   "seo_title": "State Liability in Tort: Kasturi Lal, Rudul Sah | UGC NET Law",
+   "description": "UGC NET Law notes on State liability in tort: sovereign and non-sovereign functions, Kasturi Lal, constitutional torts and public-law compensation under Article 21.",
+   "lead": "The English rule and Article 300, the pre-constitution cases, the Supreme Court cases after 1950, constitutional torts, procedure and law reform.",
+   "mcq": [
+    {
+     "slug": "tortious-liability-of-the-state",
+     "label": "Tortious Liability of the State"
+    }
+   ],
+   "related": [
+    {
+     "id": "2",
+     "why": "Vicarious liability and constitutional torts"
+    },
+    {
+     "id": "6",
+     "why": "Absolute liability and compensation"
+    },
+    {
+     "id": "8",
+     "why": "Public remedies for consumers"
+    }
+   ]
+  },
+  "8": {
+   "slug": "consumer-protection-act",
+   "seo_title": "Consumer Protection Act 2019 Notes: CCPA | UGC NET Law",
+   "description": "UGC NET Law notes on consumer protection: CPA 1986 definitions, rights, redressal machinery, the CPA 2019 changes (CCPA, product liability, mediation) and cases.",
+   "lead": "The 1986 Act's definitions, rights and redressal machinery, then the 2019 Act's key changes, recent regulations and leading cases.",
+   "mcq": [
+    {
+     "slug": "consumer-protection-act",
+     "label": "Consumer Protection Act"
+    }
+   ],
+   "related": [
+    {
+     "id": "0",
+     "why": "The 1986 versus 2019 trap"
+    },
+    {
+     "id": "9",
+     "why": "Motor accident claims, another statutory remedy"
+    },
+    {
+     "id": "10",
+     "why": "Competition law protects consumers too"
+    }
+   ]
+  },
+  "9": {
+   "slug": "motor-vehicles-act-1988",
+   "seo_title": "Motor Vehicles Act 1988 Notes: No-Fault, MACT | UGC NET Law",
+   "description": "UGC NET Law notes on the Motor Vehicles Act 1988: no-fault liability, third-party insurance, Claims Tribunals, compensation principles and the 2019 Amendment.",
+   "lead": "No-fault liability, compulsory third-party insurance, Motor Accident Claims Tribunals, how compensation is determined and the 2019 amendment.",
+   "mcq": [
+    {
+     "slug": "motor-vehicles-act-1988",
+     "label": "Motor Vehicles Act 1988"
+    }
+   ],
+   "related": [
+    {
+     "id": "4",
+     "why": "Negligence, the basis of fault claims"
+    },
+    {
+     "id": "6",
+     "why": "Other no-fault liability regimes"
+    },
+    {
+     "id": "8",
+     "why": "Consumer remedies"
+    }
+   ]
+  },
+  "10": {
+   "slug": "competition-act-2002",
+   "seo_title": "Competition Act 2002 Notes: Dominance, 2023 Amendment | UGC NET Law",
+   "description": "UGC NET Law notes on the Competition Act 2002: CCI, anti-competitive agreements (s.3), abuse of dominance (s.4), combinations, penalties and the 2023 Amendment.",
+   "lead": "The Act's background and institutions, anti-competitive agreements, abuse of dominant position, combinations, penalties and the 2023 amendment.",
+   "mcq": [
+    {
+     "slug": "competition-act-2002",
+     "label": "Competition Act 2002"
+    }
+   ],
+   "related": [
+    {
+     "id": "8",
+     "why": "Consumer protection"
+    },
+    {
+     "id": "9",
+     "why": "Statutory regimes compared"
+    },
+    {
+     "id": "11",
+     "why": "Numbers and periods"
+    }
+   ]
+  },
+  "11": {
+   "slug": "rapid-revision-sheet",
+   "seo_title": "Torts and Consumer Law Rapid Revision: Cases, Numbers | UGC NET Law",
+   "description": "UGC NET Law Unit 5 rapid revision: one-line case anchors, numbers and periods, concept traps examiners love and exam-hall strategy.",
+   "lead": "One-line case anchors, numbers and periods, the concept traps that decide marks and exam-hall strategy.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "Mixed Practice Set 1"
+    },
+    {
+     "slug": "mixed-practice-set-2",
+     "label": "Mixed Practice Set 2"
+    },
+    {
+     "slug": "miscellaneous-torts-part-1",
+     "label": "Miscellaneous Torts (Part 1)"
+    }
+   ],
+   "related": [
+    {
+     "id": "0",
+     "why": "How the unit is tested"
+    },
+    {
+     "id": "4",
+     "why": "Specific torts"
+    },
+    {
+     "id": "8",
+     "why": "Consumer statute"
+    }
+   ]
+  }
+ }
+}

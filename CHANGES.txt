@@ -1,3 +1,15 @@
+Study notes: Law (058) Units 1, 5 and 9 (23 Oct 2026)
+- New chapters in /notes/ugc-net-law-058/ (same format and generator as the other Law chapters):
+  Unit 1 Jurisprudence: 6 modules, 12 topics (0 to 11), 79 sub-topics.
+  Unit 5 Law of Torts and Consumer Protection: 5 modules, 12 topics (0 to 11), 114 sub-topics. Topic 4 holds Negligence, Nuisance, Trespass and Defamation as 26 sub-topics, each titled with its tort.
+  Unit 9 IPR and IT Law: 5 modules, 12 topics (0 to 11), 83 sub-topics.
+- New data: _notes-data/ugc-net-law-058/{jurisprudence,torts-consumer-protection,ipr-it-law}/{content.md,chapter.json}. Chapter slugs match the MCQ folders (/mcq/ugc-net-law/<slug>/).
+- Unit 1: each "Revision Box" became that topic's Memory Capsule. Source parts A, B, C of the final section became Topic 11 (11.1 to 11.3).
+- Drafting notes removed from the source text ("that I have flagged", "my estimate", the closing offer to add a cheat sheet).
+- Unit pages 1, 5 and 9 now carry the "Detailed study notes" block, the sidebar "Detailed notes" box and an "On this page" link.
+- notes/ hub, notes/search-index.json and the notes block of sitemap.xml regenerated.
+
+----
 Study notes: three more Law (058) chapters (23 Oct 2026)
 - New chapters in /notes/ugc-net-law-058/ (same format and generator as the first four Law chapters):
   Unit 3 Public International Law and IHL: 4 modules, 11 topics (0 to 10), 66 sub-topics.

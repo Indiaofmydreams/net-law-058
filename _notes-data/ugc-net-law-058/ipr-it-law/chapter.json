@@ -1,0 +1,471 @@
+{
+ "format": "chapters",
+ "paper": "ugc-net-law-058",
+ "paper_name": "UGC NET Law (058)",
+ "paper_code": "",
+ "unit": 9,
+ "slug": "ipr-it-law",
+ "name": "Intellectual Property Rights and IT Law",
+ "short_name": "IPR & IT Law",
+ "unit_page": "/ugc-net-law-unit-9-ipr-it-law.html",
+ "mcq_base": "/mcq/ugc-net-law/ipr-it-law/",
+ "mcq_index": "/mcq/ugc-net-law/ipr-it-law/",
+ "mcq_total": "360+",
+ "updated": "2026-10-23",
+ "seo_title": "UGC NET Law IPR and IT Law Notes (Unit 9): Copyright to Cyber",
+ "description": "UGC NET Law IPR & IT Law notes: 12 topics, 83 sub-topics on copyright, patents, trademarks, GI, biodiversity and the IT Act. Free, with revision mode.",
+ "intro": "Unit IX is statute-heavy and predictable: section numbers, time periods and landmark cases repeat every cycle. Topic 0 explains the exam pattern and the priority of each topic. Topics 1 to 3 cover the concept, theories and international conventions; Topics 4 to 6 cover copyright, patents and trademarks; Topics 7 and 8 cover geographical indications, biodiversity and traditional knowledge; Topics 9 and 10 cover the IT Act, cyber crimes and adjudication. Topic 11 collects master tables of numbers, institutions, matching pairs, a chronology, common traps and a revision plan.",
+ "how": [
+  [
+   "Round 1: Read",
+   "Start with Topic 0 and its priority table. Give the most time to Topics 4 to 6 and 9 to 10 (copyright, patents, trademarks, IT and cyber law), which carry the most questions."
+  ],
+  [
+   "Round 2: Revise",
+   "Switch on <i>Revision mode</i> on any topic page to keep each section's key terms, lists and tables. Learn the section numbers with their subjects, and the cases with their principles."
+  ],
+  [
+   "Last week: Recall",
+   "Use the <a href=\"/notes/ugc-net-law-058/ipr-it-law/rapid-recall.html\">rapid-recall sheet</a> (numbers, institutions, matching pairs), then the chronology and common traps in Topic 11, and practice MCQs."
+  ]
+ ],
+ "rapid_from": [
+  "11.1",
+  "11.2",
+  "11.3"
+ ],
+ "rapid_placeholder": "Section 3(d), 60 years, Mumbai",
+ "search_placeholder": "Find a concept: e.g. Section 3(d), Berne, TRIPS, Shreya Singhal, s.66A",
+ "xref": "topic",
+ "modules": [
+  {
+   "id": "m1",
+   "title": "Start Here, Concepts, Theories and Conventions",
+   "blurb": "Exam pattern, what intellectual property is, the theories behind it and the international conventions.",
+   "topics": [
+    "0",
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "id": "m2",
+   "title": "Copyright, Patents and Trademarks",
+   "blurb": "The three core statutes: subject matter, registration or ownership, infringement and remedies.",
+   "topics": [
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  {
+   "id": "m3",
+   "title": "Geographical Indications, Biodiversity and Traditional Knowledge",
+   "blurb": "The GI Act 1999, the Biological Diversity Act, plant variety protection and traditional knowledge.",
+   "topics": [
+    "7",
+    "8"
+   ]
+  },
+  {
+   "id": "m4",
+   "title": "Information Technology Law and Cyber Crimes",
+   "blurb": "Digital and electronic signatures, e-governance, intermediaries, and cyber crimes, penalties and adjudication under the IT Act.",
+   "topics": [
+    "9",
+    "10"
+   ]
+  },
+  {
+   "id": "m5",
+   "title": "Cross-Topic Revision",
+   "blurb": "Master tables of numbers, institutions, matching pairs, a chronology and common traps.",
+   "topics": [
+    "11"
+   ]
+  }
+ ],
+ "topics": {
+  "0": {
+   "slug": "exam-pattern-trends-and-study-method",
+   "seo_title": "UGC NET Law Unit 9: IPR and IT Law Exam Pattern and Trends",
+   "description": "Start here for UGC NET Law Unit 9 IPR and IT Law: question formats, recent trends, the three-layer study method and a priority table of topics.",
+   "lead": "How the questions are asked, the recent trends, a three-layer study method and a table that ranks the topics by priority.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "Mixed Practice Set 1"
+    },
+    {
+     "slug": "mixed-practice-set-2",
+     "label": "Mixed Practice Set 2"
+    },
+    {
+     "slug": "mixed-practice-set-3",
+     "label": "Mixed Practice Set 3"
+    }
+   ],
+   "related": [
+    {
+     "id": "4",
+     "why": "Copyright, very high priority"
+    },
+    {
+     "id": "5",
+     "why": "Patents, very high priority"
+    },
+    {
+     "id": "11",
+     "why": "Cross-topic revision aids"
+    }
+   ]
+  },
+  "1": {
+   "slug": "concept-and-meaning-of-intellectual-property",
+   "seo_title": "Concept of Intellectual Property | UGC NET Law",
+   "description": "UGC NET Law notes on the concept of intellectual property: meaning, categories and Indian statutes, features of IP rights, institutions and exhaustion of rights.",
+   "lead": "What intellectual property is, its categories and Indian statutes, the features of IP rights, the institutional framework and the exhaustion doctrine.",
+   "mcq": [
+    {
+     "slug": "concept-meaning-and-theories-of-intellectual-property",
+     "label": "Concept Meaning and Theories of Intellectual Property"
+    }
+   ],
+   "related": [
+    {
+     "id": "2",
+     "why": "Theories that justify IP"
+    },
+    {
+     "id": "3",
+     "why": "International conventions"
+    },
+    {
+     "id": "4",
+     "why": "Copyright, the first IP statute"
+    }
+   ]
+  },
+  "2": {
+   "slug": "theories-of-intellectual-property",
+   "seo_title": "Theories of IP: Locke, Hegel, Utilitarian | UGC NET Law",
+   "description": "UGC NET Law notes on theories of IP: Locke's labour theory, personality theory (Kant, Hegel), utilitarian and economic theories, social planning and the commons.",
+   "lead": "The labour theory, the personality theory, utilitarian and economic theories, social planning and the commons, and related concepts.",
+   "mcq": [
+    {
+     "slug": "concept-meaning-and-theories-of-intellectual-property",
+     "label": "Concept Meaning and Theories of Intellectual Property"
+    }
+   ],
+   "related": [
+    {
+     "id": "1",
+     "why": "Concept and categories of IP"
+    },
+    {
+     "id": "5",
+     "why": "Utilitarian justification of patents"
+    },
+    {
+     "id": "8",
+     "why": "Traditional knowledge and the commons"
+    }
+   ]
+  },
+  "3": {
+   "slug": "international-conventions-on-intellectual-property",
+   "seo_title": "IP Conventions: Paris, Berne, TRIPS, WIPO, PCT | UGC NET Law",
+   "description": "UGC NET Law notes on IP conventions: master table, Paris 1883, Berne 1886, UCC 1952, Rome 1961, TRIPS 1994, WIPO treaties, PCT, Madrid, CBD and UPOV.",
+   "lead": "A master table of years, subjects and India's position, then each convention in turn: Paris, Berne, UCC, Rome, TRIPS, WIPO treaties, PCT, Madrid and the biodiversity treaties.",
+   "mcq": [
+    {
+     "slug": "international-conventions-pertaining-to-intellectual-property-part-1",
+     "label": "International Conventions Pertaining to Intellectual Property (Part 1)"
+    },
+    {
+     "slug": "international-conventions-pertaining-to-intellectual-property-part-2",
+     "label": "International Conventions Pertaining to Intellectual Property (Part 2)"
+    },
+    {
+     "slug": "conventions-and-treaties-year-based-memory-questions-part-1",
+     "label": "Conventions and Treaties Year Based Memory Questions (Part 1)"
+    },
+    {
+     "slug": "conventions-and-treaties-year-based-memory-questions-part-2",
+     "label": "Conventions and Treaties Year Based Memory Questions (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "1",
+     "why": "IP concepts the conventions build on"
+    },
+    {
+     "id": "11",
+     "why": "Chronology of conventions"
+    },
+    {
+     "id": "8",
+     "why": "CBD, Nagoya and UPOV in context"
+    }
+   ]
+  },
+  "4": {
+   "slug": "copyright-and-neighbouring-rights",
+   "seo_title": "Copyright Act 1957 Notes: Section 14, 52, Infringement | UGC NET Law",
+   "description": "UGC NET Law notes on copyright: ownership (s.17), economic rights (s.14), term, licensing, infringement (s.51), fair dealing (s.52), remedies, 2012 Amendment.",
+   "lead": "What copyright protects, ownership, economic rights, term, assignment, infringement, fair dealing, remedies, neighbouring rights, the 2012 amendment and recent trends.",
+   "mcq": [
+    {
+     "slug": "copyright-and-neighbouring-rights-part-1",
+     "label": "Copyright and Neighbouring Rights (Part 1)"
+    },
+    {
+     "slug": "copyright-and-neighbouring-rights-part-2",
+     "label": "Copyright and Neighbouring Rights (Part 2)"
+    },
+    {
+     "slug": "specific-sections-and-provisions-memory-based",
+     "label": "Specific Sections and Provisions Memory Based"
+    }
+   ],
+   "related": [
+    {
+     "id": "3",
+     "why": "Berne and the other copyright conventions"
+    },
+    {
+     "id": "9",
+     "why": "Copyright and intermediaries online"
+    },
+    {
+     "id": "11",
+     "why": "Numbers and time periods"
+    }
+   ]
+  },
+  "5": {
+   "slug": "law-of-patents",
+   "seo_title": "Patents Act 1970 Notes: Section 3(d), Procedure | UGC NET Law",
+   "description": "UGC NET Law notes on patent law: patentability, Section 3 exclusions, application procedure, rights of the patentee, exceptions, revocation, infringement and trends.",
+   "lead": "Criteria of patentability, the exclusions in section 3, who can apply, the step-by-step procedure, patentee's rights, exceptions, revocation and infringement.",
+   "mcq": [
+    {
+     "slug": "law-of-patent",
+     "label": "Law of Patent"
+    },
+    {
+     "slug": "specific-sections-and-provisions-memory-based",
+     "label": "Specific Sections and Provisions Memory Based"
+    }
+   ],
+   "related": [
+    {
+     "id": "3",
+     "why": "TRIPS, PCT and the patent conventions"
+    },
+    {
+     "id": "6",
+     "why": "Trademarks, the other registered right"
+    },
+    {
+     "id": "8",
+     "why": "Patents and biodiversity"
+    }
+   ]
+  },
+  "6": {
+   "slug": "law-of-trademarks",
+   "seo_title": "Trade Marks Act 1999 Notes: Registration, Passing Off | UGC NET Law",
+   "description": "UGC NET Law notes on trademark law: kinds of marks, grounds of refusal, registration procedure, infringement (s.29), passing off, remedies and trends.",
+   "lead": "Kinds of trademarks, grounds for refusal, the registration procedure, infringement under section 29, passing off and remedies.",
+   "mcq": [
+    {
+     "slug": "law-of-trademark",
+     "label": "Law of Trademark"
+    },
+    {
+     "slug": "specific-sections-and-provisions-memory-based",
+     "label": "Specific Sections and Provisions Memory Based"
+    }
+   ],
+   "related": [
+    {
+     "id": "7",
+     "why": "GI versus trademark"
+    },
+    {
+     "id": "5",
+     "why": "Patents, the other registered right"
+    },
+    {
+     "id": "3",
+     "why": "Madrid system and Paris Convention"
+    }
+   ]
+  },
+  "7": {
+   "slug": "geographical-indications",
+   "seo_title": "Geographical Indications Act 1999 Notes | UGC NET Law",
+   "description": "UGC NET Law notes on geographical indications: definition, registration, rights, infringement, remedies, and GI versus trademark versus certification mark.",
+   "lead": "The GI Act's framework, essentials and registration, rights and remedies, and the comparison of GI, trademark and certification mark.",
+   "mcq": [
+    {
+     "slug": "missed-aspects-licensing-assignment-remedies-special-topics-part-1",
+     "label": "Missed Aspects Licensing Assignment Remedies Special Topics (Part 1)"
+    },
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "Mixed Practice Set 1"
+    }
+   ],
+   "related": [
+    {
+     "id": "6",
+     "why": "Trademarks, compared with GI"
+    },
+    {
+     "id": "8",
+     "why": "Traditional knowledge and place-based products"
+    },
+    {
+     "id": "3",
+     "why": "TRIPS provisions on GI"
+    }
+   ]
+  },
+  "8": {
+   "slug": "biodiversity-and-traditional-knowledge",
+   "seo_title": "Biodiversity, PPVFR Act and Traditional Knowledge | UGC NET Law",
+   "description": "UGC NET Law notes on biodiversity and traditional knowledge: BD Act 2002 and 2023 Amendment, PPVFR Act 2001, TKDL, biopiracy and benefit sharing.",
+   "lead": "The IPR and biodiversity link, the Biological Diversity Act and its three-tier structure, plant variety and farmers' rights and the protection of traditional knowledge.",
+   "mcq": [
+    {
+     "slug": "protection-of-plant-varieties-and-farmers-rights",
+     "label": "Protection of Plant Varieties and Farmers Rights"
+    },
+    {
+     "slug": "missed-aspects-licensing-assignment-remedies-special-topics-part-2",
+     "label": "Missed Aspects Licensing Assignment Remedies Special Topics (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "3",
+     "why": "CBD, Nagoya Protocol and UPOV"
+    },
+    {
+     "id": "5",
+     "why": "Patents and biopiracy"
+    },
+    {
+     "id": "7",
+     "why": "Geographical indications"
+    }
+   ]
+  },
+  "9": {
+   "slug": "information-technology-law-and-electronic-records",
+   "seo_title": "IT Act 2000 Notes: Digital Signature, E-Governance | UGC NET Law",
+   "description": "UGC NET Law notes on the IT Act 2000: digital signature (s.3), electronic signature (s.3A), certifying authorities, subscribers, e-records, intermediaries.",
+   "lead": "Background to the IT Act, digital and electronic signatures, certifying authorities, subscribers' duties, electronic records and e-governance, and intermediaries.",
+   "mcq": [
+    {
+     "slug": "information-technology-law-digital-signature-and-electronic-signature",
+     "label": "Information Technology Law Digital Signature and Electronic Signature"
+    },
+    {
+     "slug": "electronic-governance-and-electronic-records",
+     "label": "Electronic Governance and Electronic Records"
+    }
+   ],
+   "related": [
+    {
+     "id": "10",
+     "why": "Cyber crimes, penalties and adjudication"
+    },
+    {
+     "id": "4",
+     "why": "Copyright infringement online"
+    },
+    {
+     "id": "11",
+     "why": "Chronology of IT law"
+    }
+   ]
+  },
+  "10": {
+   "slug": "cyber-crimes-penalties-and-adjudication",
+   "seo_title": "Cyber Crimes: Sections 43, 66, 67, Shreya Singhal | UGC NET Law",
+   "description": "UGC NET Law notes on cyber crimes: classification, penalties (ss.43-47), adjudication, offences (ss.65-78), blocking, related criminal law and landmark cases.",
+   "lead": "Classification of cyber crime, civil penalties and compensation, the adjudication machinery, criminal offences under the IT Act, surveillance and landmark cases.",
+   "mcq": [
+    {
+     "slug": "cyber-crimes-penalties-and-adjudication-part-1",
+     "label": "Cyber Crimes Penalties and Adjudication (Part 1)"
+    },
+    {
+     "slug": "cyber-crimes-penalties-and-adjudication-part-2",
+     "label": "Cyber Crimes Penalties and Adjudication (Part 2)"
+    },
+    {
+     "slug": "case-laws-year-and-holding-memory-based",
+     "label": "Case Laws Year and Holding Memory Based"
+    }
+   ],
+   "related": [
+    {
+     "id": "9",
+     "why": "Digital signature and intermediaries"
+    },
+    {
+     "id": "11",
+     "why": "Matching pairs of cases"
+    },
+    {
+     "id": "4",
+     "why": "Copyright infringement in the digital world"
+    }
+   ]
+  },
+  "11": {
+   "slug": "cross-topic-revision-aids",
+   "seo_title": "IPR and IT Law Revision: Numbers, Cases, Chronology | UGC NET Law",
+   "description": "UGC NET Law Unit 9 revision: master table of numbers, institutions and places, case-principle matching, chronology, common traps and a revision plan.",
+   "lead": "Numbers asked again and again, institutions and places, matching pairs, a chronology for sequence questions, common traps and a practical plan.",
+   "mcq": [
+    {
+     "slug": "case-laws-year-and-holding-memory-based",
+     "label": "Case Laws Year and Holding Memory Based"
+    },
+    {
+     "slug": "indian-ip-legislation-key-dates-and-historical-facts",
+     "label": "Indian Ip Legislation Key Dates and Historical Facts"
+    },
+    {
+     "slug": "advanced-integrated-and-case-law-based-questions-part-1",
+     "label": "Advanced Integrated and Case Law Based Questions (Part 1)"
+    },
+    {
+     "slug": "mixed-practice-set-2",
+     "label": "Mixed Practice Set 2"
+    }
+   ],
+   "related": [
+    {
+     "id": "0",
+     "why": "Exam pattern and priority table"
+    },
+    {
+     "id": "4",
+     "why": "Copyright numbers and sections"
+    },
+    {
+     "id": "10",
+     "why": "Cyber law cases"
+    }
+   ]
+  }
+ }
+}
