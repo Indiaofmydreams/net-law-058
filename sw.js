@@ -16,7 +16,7 @@
  */
 'use strict';
 
-const VERSION = 'v15';
+const VERSION = 'v16';
 const PREFIX = 'nl058-';
 const PAGES = PREFIX + 'pages-' + VERSION;   // site files
 const FONTS = PREFIX + 'fonts-v1';           // Google Fonts (css + woff2)

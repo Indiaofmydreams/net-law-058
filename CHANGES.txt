@@ -1,3 +1,21 @@
+Study notes: Paper 1 Communication (Unit 4), Mathematical Reasoning (Unit 5), Data Interpretation (Unit 7) (24 Oct 2026)
+- New chapters in /notes/ugc-net-paper-1/ (format "chapters", same generator and layout as the other Paper 1 chapters):
+  Communication: 5 modules, 11 topics (0 to 10), 90 sub-topics. Each topic pairs the exam fact sheet with its "In simple words" explanation; Memory Capsules on topics 1 to 3, 5 to 9.
+  Mathematical Reasoning: 7 modules, 18 topics (0 to 17), 124 sub-topics (concept, formulas, tricks, worked examples and traps in every topic).
+  Data Interpretation: 6 modules, 12 topics (0 to 11), 83 sub-topics.
+  Each has a chapter overview, one page per topic, a rapid-recall sheet, JSON-LD, breadcrumbs, related topics and MCQ links.
+- New data: _notes-data/ugc-net-paper-1/{communication,mathematical-reasoning,data-interpretation}/{content.md,chapter.json} (chapter.json "xref": "topic").
+- Topic 0 is "Start here" (exam pattern) in all three. Cross-references "Section N" in the .docx were rewritten as links to topics. Author stamps and drafting remarks removed.
+- Communication: Part 1 (fact sheet) and Part 2 (explained simply) were merged topic by topic; the cue sheet and theorist tag-lines became tables so they feed the rapid-recall page.
+- build_notes.py: the 4-column table fix from CHANGES-snippet-higher-education.txt is now applied (len(cells) in (2, 3, 4)).
+- Unit pages 4, 5 and 7 now carry the "Detailed study notes" block, the sidebar "Detailed notes" box and an "On this page" link.
+- notes/ hub, notes/search-index.json and the notes block of sitemap.xml regenerated. Pages of other chapters changed only by the table scroll wrapper (.up-tw) already described below.
+- Notes now reachable everywhere (24 Oct 2026): the phone/tablet app Notes screen (m-app.js) was a "Soon" placeholder and index.html #notes had four dummy cards, so no notes were linked from home, app or menus.
+  * m-app.js: Notes screen lists every chapter (from new notes/chapters.json) with topics/sub-topics, linking to the notes pages, plus an "Open the notes library" button.
+  * index.html: #notes shows the real chapter cards between <!-- notes-home:begin/end -->, rewritten by build_notes.py on every run, plus a "Browse all study notes" button.
+  * nav-resources.js: every header-menu and footer "Notes" link now goes to /notes/ (about 2,000 pages, no per-page edits).
+  * build_notes.py also writes notes/chapters.json. sw.js VERSION v16 so installed apps pick up the new app script.
+
 Study notes: Law (058) Units 1, 5 and 9 (23 Oct 2026)
 - New chapters in /notes/ugc-net-law-058/ (same format and generator as the other Law chapters):
   Unit 1 Jurisprudence: 6 modules, 12 topics (0 to 11), 79 sub-topics.

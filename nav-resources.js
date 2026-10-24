@@ -1,5 +1,7 @@
 /* nav-resources.js: opens/closes the header "Resources" dropdown (click, hover on desktop, Esc, outside click). */
 (function(){"use strict";
+/* "Notes" links in the header menu and footer used to point at the home page placeholder; send them to the real notes hub. */
+Array.prototype.forEach.call(document.querySelectorAll("a[href$='#notes']"),function(a){if(/^\s*Notes\s*$/.test(a.textContent)&&!a.closest("#notes"))a.setAttribute("href","/notes/")});
 var dds=document.querySelectorAll(".nav-dd");if(!dds.length)return;
 dds.forEach(function(dd){
 var b=dd.querySelector(".nav-dd-btn");
