@@ -4,36 +4,241 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>NET Law-Verse | The Universe of Law</title>
-<meta name="description" content="Free UGC NET Law and CLAT PG preparation. Choose your exam.">
+<meta name="description" content="Free UGC NET Law and CLAT PG preparation. Notes, MCQs, previous-year questions and mock tests. No sign-up.">
 <link rel="icon" href="/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
 <style>
-  :root { --bg:#f3f5fb; --card:#ffffff; --text:#1b2140; --muted:#5b6385; --accent:#3d4fd1; }
-  @media (prefers-color-scheme: dark) {
-    :root { --bg:#12162b; --card:#1b2140; --text:#ffffff; --muted:#aab2d6; --accent:#7b8cff; }
+  :root {
+    --sun:#ffd23f; --sun-deep:#ffb703; --pink:#ff5d8f; --blue:#3a86ff; --mint:#2ec4b6;
+    --ink:#14183a; --paper:#ffffff; --soft:#fff7d6;
+    --sans:'Manrope',system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
   }
   * { box-sizing:border-box; }
-  body { margin:0; min-height:100vh; display:flex; flex-direction:column; align-items:center;
-         justify-content:center; padding:32px 20px; background:var(--bg); color:var(--text);
-         font-family:system-ui,-apple-system,"Segoe UI",sans-serif; }
-  h1 { font-size:2rem; margin:0 0 6px; font-weight:800; text-align:center; }
-  p.sub { color:var(--muted); margin:0 0 36px; text-align:center; }
-  .grid { display:grid; gap:16px; width:100%; max-width:760px;
-          grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); }
-  a.card { display:block; padding:28px 22px; border-radius:18px; background:var(--card);
-           color:var(--text); text-decoration:none; border:1px solid rgba(120,130,180,.25);
-           border-top:4px solid var(--accent); transition:transform .15s; }
-  a.card:hover { transform:translateY(-4px); }
-  a.card strong { display:block; font-size:1.25rem; margin-bottom:6px; }
-  a.card span { color:var(--muted); font-size:.92rem; }
+  html { scroll-behavior:smooth; }
+  body {
+    margin:0; min-height:100vh; color:var(--ink); font-family:var(--sans); font-weight:500;
+    background:linear-gradient(160deg,#ffe066 0%,#ffd23f 38%,#ffb36b 72%,#ff8fa8 100%);
+    background-attachment:fixed; overflow-x:hidden; position:relative;
+  }
+  a { color:inherit; }
+  :focus-visible { outline:3px solid var(--ink); outline-offset:3px; border-radius:8px; }
+
+  /* floating shapes */
+  .shapes { position:fixed; inset:0; pointer-events:none; z-index:0; overflow:hidden; }
+  .shape { position:absolute; border:3px solid var(--ink); animation:drift 9s ease-in-out infinite; }
+  .s1 { width:120px; height:120px; border-radius:50%; background:var(--blue); top:9%; left:-30px; }
+  .s2 { width:84px; height:84px; border-radius:22px; background:var(--pink); top:20%; right:5%; transform:rotate(14deg); animation-delay:-3s; }
+  .s3 { width:150px; height:150px; border-radius:50%; background:var(--mint); bottom:10%; right:-50px; animation-delay:-5s; }
+  .s4 { width:70px; height:70px; border-radius:50%; background:#fff; bottom:18%; left:6%; animation-delay:-2s; }
+  .s5 { width:0; height:0; border:none; border-left:34px solid transparent; border-right:34px solid transparent;
+        border-bottom:60px solid var(--blue); top:56%; left:46%; animation-delay:-6s; filter:drop-shadow(0 0 0 var(--ink)); }
+  @keyframes drift { 0%,100% { translate:0 0; } 50% { translate:0 -22px; } }
+
+  .wrap { position:relative; z-index:1; width:100%; max-width:1120px; margin:0 auto; padding:0 22px; }
+
+  /* top bar */
+  header { display:flex; align-items:center; justify-content:space-between; padding:22px 0; }
+  .brand { display:flex; align-items:center; gap:12px; text-decoration:none; }
+  .logo { width:46px; height:46px; border-radius:14px; background:var(--ink); color:var(--sun);
+          display:grid; place-items:center; font-weight:800; font-size:1.05rem; letter-spacing:.02em;
+          box-shadow:3px 3px 0 var(--pink); }
+  .brand b { font-size:1.2rem; font-weight:800; letter-spacing:-.01em; display:block; line-height:1.1; }
+  .brand small { font-size:.78rem; font-weight:700; opacity:.75; }
+  nav { display:flex; gap:8px; }
+  nav a { text-decoration:none; font-weight:700; padding:9px 16px; border-radius:999px;
+          border:2.5px solid var(--ink); background:rgba(255,255,255,.55); transition:background .15s, transform .15s; }
+  nav a:hover { background:#fff; transform:translateY(-2px); }
+
+  /* hero */
+  .hero { text-align:center; padding:34px 0 40px; }
+  .pill { display:inline-block; padding:8px 16px; border-radius:999px; background:var(--ink); color:#fff;
+          font-weight:700; font-size:.92rem; margin-bottom:22px; }
+  h1 { margin:0 auto 18px; font-weight:800; letter-spacing:-.035em; line-height:1.02;
+       font-size:clamp(2.5rem,7vw,5rem); max-width:15ch; }
+  h1 span { display:inline-block; background:var(--paper); border:3px solid var(--ink); border-radius:18px;
+            padding:0 .22em .06em; transform:rotate(-2deg); box-shadow:5px 5px 0 var(--ink); }
+  .lead { margin:0 auto; max-width:56ch; font-size:clamp(1.05rem,2.2vw,1.3rem); line-height:1.5; font-weight:700; }
+
+  /* exam cards */
+  .cards { display:grid; gap:24px; grid-template-columns:repeat(3,1fr); padding:14px 0 18px; }
+  .card { position:relative; display:flex; flex-direction:column; text-decoration:none; background:var(--paper);
+          border:3px solid var(--ink); border-radius:26px; padding:26px 24px 24px;
+          box-shadow:8px 8px 0 var(--ink); transition:transform .14s ease, box-shadow .14s ease; }
+  .card:hover { transform:translate(4px,4px); box-shadow:4px 4px 0 var(--ink); }
+  .card:active { transform:translate(8px,8px); box-shadow:0 0 0 var(--ink); }
+  .badge { width:64px; height:64px; border-radius:20px; border:3px solid var(--ink); display:grid; place-items:center;
+           font-weight:800; font-size:1.35rem; margin-bottom:18px; box-shadow:3px 3px 0 var(--ink); }
+  .c1 .badge { background:var(--blue); color:#fff; }
+  .c2 .badge { background:var(--pink); color:#fff; }
+  .c3 .badge { background:var(--mint); color:var(--ink); }
+  .card h2 { margin:0 0 4px; font-size:1.65rem; font-weight:800; letter-spacing:-.02em; }
+  .card .what { margin:0 0 14px; font-weight:700; opacity:.7; }
+  .card p.desc { margin:0 0 16px; line-height:1.5; }
+  .chips { display:flex; flex-wrap:wrap; gap:7px; margin:0 0 20px; padding:0; list-style:none; }
+  .chips li { font-size:.82rem; font-weight:700; padding:5px 11px; border-radius:999px; border:2px solid var(--ink); background:var(--soft); }
+  .c1 .chips li { background:#dce9ff; } .c2 .chips li { background:#ffe0ea; } .c3 .chips li { background:#d5f6f2; }
+  .foot { margin-top:auto; display:flex; align-items:center; justify-content:space-between; gap:12px; }
+  .count b { display:block; font-size:1.8rem; font-weight:800; letter-spacing:-.03em; line-height:1; }
+  .count small { font-weight:700; opacity:.65; font-size:.82rem; }
+  .go { padding:11px 18px; border-radius:14px; border:3px solid var(--ink); font-weight:800; background:var(--ink); color:#fff;
+        white-space:nowrap; }
+  .c3 .go { background:var(--sun); color:var(--ink); }
+  .sticker { position:absolute; top:-16px; right:18px; transform:rotate(6deg); background:var(--sun); border:3px solid var(--ink);
+             border-radius:12px; padding:5px 12px; font-weight:800; font-size:.88rem; box-shadow:3px 3px 0 var(--ink); }
+
+  /* info band */
+  .band { display:grid; gap:24px; grid-template-columns:1.15fr 1fr; padding:30px 0 20px; align-items:stretch; }
+  .panel { background:var(--ink); color:#fff; border-radius:26px; padding:28px 28px 26px; border:3px solid var(--ink);
+           box-shadow:8px 8px 0 var(--blue); }
+  .panel h3 { margin:0 0 4px; font-size:1.35rem; font-weight:800; }
+  .panel p { margin:0 0 18px; opacity:.8; font-weight:700; }
+  .clock { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; }
+  .clock div { background:#fff; color:var(--ink); border-radius:16px; text-align:center; padding:14px 4px 10px; }
+  .clock b { display:block; font-size:clamp(1.6rem,4vw,2.4rem); font-weight:800; letter-spacing:-.03em; line-height:1;
+             font-variant-numeric:tabular-nums; }
+  .clock small { font-weight:700; font-size:.78rem; opacity:.65; }
+  .perks { display:grid; gap:14px; grid-template-columns:1fr 1fr; }
+  .perk { background:var(--paper); border:3px solid var(--ink); border-radius:22px; padding:18px 18px 16px; box-shadow:5px 5px 0 var(--ink); }
+  .perk:nth-child(1) { background:#ffe0ea; } .perk:nth-child(2) { background:#d5f6f2; }
+  .perk:nth-child(3) { background:#dce9ff; } .perk:nth-child(4) { background:#fff; }
+  .perk b { display:block; font-size:1.05rem; font-weight:800; margin-bottom:4px; }
+  .perk span { font-size:.92rem; line-height:1.4; font-weight:700; opacity:.75; }
+
+  footer { padding:34px 0 40px; text-align:center; font-weight:700; }
+  footer a { margin:0 10px; }
+  footer p { margin:0 0 10px; }
+  footer .note { opacity:.7; font-size:.88rem; }
+
+  @media (max-width:900px) {
+    .cards { grid-template-columns:1fr; gap:34px; max-width:480px; margin:0 auto; }
+    .band { grid-template-columns:1fr; }
+    nav a:nth-child(n+3) { display:none; }
+  }
+  @media (max-width:480px) {
+    .perks { grid-template-columns:1fr; }
+    .brand small { display:none; }
+    header { padding:16px 0; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .shape { animation:none; } html { scroll-behavior:auto; }
+    .card, nav a { transition:none; }
+  }
 </style>
 </head>
 <body>
-  <h1>NET Law-Verse</h1>
-  <p class="sub">Choose your exam to begin</p>
-  <div class="grid">
-    <a class="card" href="net.html#paper1"><strong>Paper 1</strong><span>UGC NET General Paper</span></a>
-    <a class="card" href="net.html#law"><strong>Paper 2</strong><span>UGC NET Law (058)</span></a>
-    <a class="card" href="clat-pg/"><strong>CLAT PG</strong><span>LLM entrance preparation</span></a>
+  <div class="shapes" aria-hidden="true">
+    <i class="shape s1"></i><i class="shape s2"></i><i class="shape s3"></i><i class="shape s4"></i><i class="shape s5"></i>
   </div>
+
+  <div class="wrap">
+    <header>
+      <a class="brand" href="/" aria-label="NET Law-Verse home">
+        <span class="logo">NL</span>
+        <span><b>NET Law-Verse</b><small>The universe of law</small></span>
+      </a>
+      <nav aria-label="Main">
+        <a href="about.html">About</a>
+        <a href="faq.html">FAQ</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <span class="pill">100% free. No sign-up.</span>
+        <h1>Your law exams, <span>sorted.</span></h1>
+        <p class="lead">Notes, MCQs, previous-year questions and mock tests in one place. Pick your exam and start practising.</p>
+      </section>
+
+      <section class="cards" aria-label="Choose your exam">
+        <a class="card c1" href="net.html#paper1">
+          <div class="badge">P1</div>
+          <h2>Paper 1</h2>
+          <p class="what">UGC NET General Paper</p>
+          <p class="desc">The paper every NET candidate writes. Practise by topic and watch your speed improve.</p>
+          <ul class="chips">
+            <li>Teaching</li><li>Research</li><li>Comprehension</li><li>Reasoning</li><li>ICT</li><li>Environment</li><li>Higher Education</li>
+          </ul>
+          <div class="foot">
+            <div class="count"><b>5,705</b><small>MCQs</small></div>
+            <span class="go">Open Paper 1</span>
+          </div>
+        </a>
+
+        <a class="card c2" href="net.html#law">
+          <div class="badge">P2</div>
+          <h2>Paper 2</h2>
+          <p class="what">UGC NET Law (058)</p>
+          <p class="desc">Your subject paper, covered unit by unit with notes, MCQs and previous-year questions.</p>
+          <ul class="chips">
+            <li>10 law units</li><li>Notes</li><li>MCQs</li><li>PYQs</li><li>Mock tests</li>
+          </ul>
+          <div class="foot">
+            <div class="count"><b>3,580</b><small>MCQs</small></div>
+            <span class="go">Open Paper 2</span>
+          </div>
+        </a>
+
+        <a class="card c3" href="clat-pg/">
+          <span class="sticker">Coming soon</span>
+          <div class="badge">PG</div>
+          <h2>CLAT PG</h2>
+          <p class="what">LLM entrance preparation</p>
+          <p class="desc">We’re building a dedicated section for the CLAT LLM exam. Take a look at what’s on the way.</p>
+          <ul class="chips">
+            <li>LLM entrance</li><li>In the works</li>
+          </ul>
+          <div class="foot">
+            <div class="count"><b>Soon</b><small>Stay tuned</small></div>
+            <span class="go">Take a peek</span>
+          </div>
+        </a>
+      </section>
+
+      <section class="band" aria-label="Exam countdown and features">
+        <div class="panel">
+          <h3>UGC NET exam countdown</h3>
+          <p id="when">Counting down to 15 Dec 2026, 12:00 AM IST</p>
+          <div class="clock" role="timer" aria-live="off">
+            <div><b id="d">--</b><small>days</small></div>
+            <div><b id="h">--</b><small>hours</small></div>
+            <div><b id="m">--</b><small>minutes</small></div>
+            <div><b id="s">--</b><small>seconds</small></div>
+          </div>
+        </div>
+        <div class="perks">
+          <div class="perk"><b>Free, always</b><span>No login and no payment, just open and study.</span></div>
+          <div class="perk"><b>Daily quiz</b><span>10 fresh questions every day in 4 minutes.</span></div>
+          <div class="perk"><b>Install as an app</b><span>Add it to your phone and study anywhere.</span></div>
+          <div class="perk"><b>Over 9,000 MCQs</b><span>Practise by topic across both NET papers.</span></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="https://www.instagram.com/netlawverse/" rel="noopener">Instagram</a><a href="mailto:netlawverse@gmail.com">Contact</a></p>
+      <p class="note">NET Law-Verse is an independent study resource and is not affiliated with UGC, NTA or CLAT Consortium.</p>
+    </footer>
+  </div>
+
+<script>
+(function () {
+  var target = Date.UTC(2026, 11, 14, 18, 30, 0); // 15 Dec 2026, 12:00 AM IST
+  var els = { d:document.getElementById('d'), h:document.getElementById('h'),
+              m:document.getElementById('m'), s:document.getElementById('s') };
+  function pad(n) { return n < 10 ? '0' + n : '' + n; }
+  function tick() {
+    var diff = Math.max(0, target - Date.now());
+    var s = Math.floor(diff / 1000);
+    els.d.textContent = Math.floor(s / 86400);
+    els.h.textContent = pad(Math.floor(s % 86400 / 3600));
+    els.m.textContent = pad(Math.floor(s % 3600 / 60));
+    els.s.textContent = pad(s % 60);
+    if (diff === 0) document.getElementById('when').textContent = 'Exam day is here. Best of luck!';
+  }
+  tick(); setInterval(tick, 1000);
+})();
+</script>
 </body>
 </html>
