@@ -1,0 +1,474 @@
+{
+ "format": "chapters",
+ "xref": "topic",
+ "paper": "ugc-net-paper-1",
+ "paper_name": "UGC NET Paper 1",
+ "unit": 7,
+ "slug": "data-interpretation",
+ "name": "Data Interpretation",
+ "unit_page": "/ugc-net-paper-1-unit-7-data-interpretation.html",
+ "mcq_base": "/mcq/ugc-net-paper-1/data-interpretation/",
+ "mcq_index": "/mcq/ugc-net-paper-1/data-interpretation/",
+ "mcq_total": "360+",
+ "updated": "2026-10-23",
+ "seo_title": "UGC NET Paper 1 Data Interpretation Notes (Unit 7): Free",
+ "description": "Free UGC NET Paper 1 Data Interpretation notes: 12 topics, 83 sub-topics on data types, sources, graphs, formulas, solved sets, speed tricks and data and governance.",
+ "intro": "Unit 7 carries five questions (ten marks) and is the most predictable unit in Paper 1: the five questions usually come from one table or chart. The notes follow the five official syllabus blocks: sources and classification of data, quantitative and qualitative data, graphical representation, data interpretation and data and governance. Practise reading the title, axis and units first, learn the percentage and ratio formulas, and use approximation to save time.",
+ "how": [
+  [
+   "Round 1: Learn",
+   "Start at Topic 0, then follow the order: data and its types, sources, classification, quantitative and qualitative data, graphs, formulas, the five-step interpretation method and speed tricks, then data and governance."
+  ],
+  [
+   "Round 2: Solve",
+   "Work every solved illustration in Topic 7 on paper before reading the answer, then time yourself on sets from the MCQ pages."
+  ],
+  [
+   "Last week: Recall",
+   "Use the <a href=\"/notes/ugc-net-paper-1/data-interpretation/rapid-recall.html\">rapid-recall sheet</a> and Topic 10 (formula sheet, memory aids, pairs the examiner contrasts), then follow the seven-day plan in Topic 11."
+  ]
+ ],
+ "rapid_from": [
+  "10.1",
+  "10.3"
+ ],
+ "rapid_placeholder": "NOIR, histogram, percentage change",
+ "search_placeholder": "Find a concept: e.g. NOIR, histogram, pie chart, CAGR, open data",
+ "hide_stats": [
+  "memory points"
+ ],
+ "modules": [
+  {
+   "id": "m1",
+   "title": "Start Here: Exam Pattern",
+   "blurb": "Syllabus, expected question pattern and time strategy.",
+   "topics": [
+    "0"
+   ]
+  },
+  {
+   "id": "m2",
+   "title": "Understanding Data",
+   "blurb": "Characteristics and types of data, primary and secondary sources, classification and quantitative versus qualitative data.",
+   "topics": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  {
+   "id": "m3",
+   "title": "Presenting and Calculating Data",
+   "blurb": "Graphs and maps, then the measures and formulas you need for calculations.",
+   "topics": [
+    "5",
+    "6"
+   ]
+  },
+  {
+   "id": "m4",
+   "title": "Interpretation Practice",
+   "blurb": "The five-step method, question types, solved illustrations and speed tricks.",
+   "topics": [
+    "7",
+    "8"
+   ]
+  },
+  {
+   "id": "m5",
+   "title": "Data and Governance",
+   "blurb": "E-governance, open data, big data, Digital India, education data systems and privacy.",
+   "topics": [
+    "9"
+   ]
+  },
+  {
+   "id": "m6",
+   "title": "Revision and Exam Readiness",
+   "blurb": "Formula sheet, memory aids, contrasted pairs, study plan and exam-day checklist.",
+   "topics": [
+    "10",
+    "11"
+   ]
+  }
+ ],
+ "topics": {
+  "0": {
+   "slug": "exam-pattern-and-trends",
+   "seo_title": "UGC NET Data Interpretation: Exam Pattern and Trends",
+   "description": "UGC NET Paper 1 Unit 7 Data Interpretation: Paper 1 at a glance, official syllabus, expected trends, question pattern and time strategy.",
+   "lead": "Start here: what the five questions look like, how the syllabus is divided and how to spend your eight to ten minutes.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "Mixed practice set 1"
+    }
+   ],
+   "related": [
+    {
+     "id": "1",
+     "why": "First syllabus block: data and its types"
+    },
+    {
+     "id": "7",
+     "why": "The method for solving a data set"
+    },
+    {
+     "id": "11",
+     "why": "Study plan"
+    }
+   ]
+  },
+  "1": {
+   "slug": "data-meaning-and-types",
+   "seo_title": "Data: Meaning, Characteristics and Types | UGC NET",
+   "description": "UGC NET Paper 1 notes on data: characteristics of good data, types by form, source and time dimension, key terms and worked examples.",
+   "lead": "What good data looks like and how data is typed by form, source and time.",
+   "mcq": [
+    {
+     "slug": "primary-and-secondary-data",
+     "label": "Primary and secondary data"
+    },
+    {
+     "slug": "mixed-exam-pattern-questions-on-data-sources-and-surveys",
+     "label": "Mixed exam pattern questions on data sources and surveys"
+    }
+   ],
+   "related": [
+    {
+     "id": "2",
+     "why": "Next: where data comes from"
+    },
+    {
+     "id": "4",
+     "why": "Quantitative versus qualitative"
+    },
+    {
+     "id": "3",
+     "why": "Classification of data"
+    }
+   ]
+  },
+  "2": {
+   "slug": "sources-of-data",
+   "seo_title": "Sources of Data: Primary, Secondary, Census, Sample | UGC NET",
+   "description": "UGC NET Paper 1 notes on sources and acquisition of data: primary and secondary data, questionnaire versus schedule, census versus sample survey.",
+   "lead": "Primary and secondary data, collection methods and the pairs examiners contrast: questionnaire and schedule, census and sample.",
+   "mcq": [
+    {
+     "slug": "primary-and-secondary-data",
+     "label": "Primary and secondary data"
+    },
+    {
+     "slug": "methods-of-data-collection-part-1",
+     "label": "Methods of data collection (Part 1)"
+    },
+    {
+     "slug": "methods-of-data-collection-part-2",
+     "label": "Methods of data collection (Part 2)"
+    },
+    {
+     "slug": "mixed-exam-pattern-questions-on-data-sources-and-surveys",
+     "label": "Mixed exam pattern questions on data sources and surveys"
+    }
+   ],
+   "related": [
+    {
+     "id": "1",
+     "why": "Types of data"
+    },
+    {
+     "id": "3",
+     "why": "Once collected, data is classified"
+    },
+    {
+     "id": "9",
+     "why": "Official data sources in governance"
+    }
+   ]
+  },
+  "3": {
+   "slug": "classification-of-data",
+   "seo_title": "Classification of Data, Frequency Distribution, NOIR | UGC NET",
+   "description": "UGC NET Paper 1 classification of data: objectives, types, variable and attribute, frequency distribution terms, NOIR scales and tabulation.",
+   "lead": "Objectives and types of classification, frequency distribution terms, the four scales of measurement (NOIR) and parts of a table.",
+   "mcq": [
+    {
+     "slug": "classification-of-data-by-time-geography-and-category-part-1",
+     "label": "Classification of data by time geography and category (Part 1)"
+    },
+    {
+     "slug": "classification-of-data-by-time-geography-and-category-part-2",
+     "label": "Classification of data by time geography and category (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "4",
+     "why": "Quantitative and qualitative data"
+    },
+    {
+     "id": "5",
+     "why": "Classified data is then charted"
+    },
+    {
+     "id": "6",
+     "why": "Measures computed from frequency data"
+    }
+   ]
+  },
+  "4": {
+   "slug": "quantitative-and-qualitative-data",
+   "seo_title": "Quantitative vs Qualitative Data, Measurement Scales | UGC NET",
+   "description": "UGC NET Paper 1 quantitative and qualitative data: comparison, subtypes, conversion, mixed methods, strengths and limitations.",
+   "lead": "The comparison table, subtypes, converting between the two and mixed-methods research.",
+   "mcq": [
+    {
+     "slug": "quantitative-vs-qualitative-data-and-measurement-scales-part-1",
+     "label": "Quantitative vs qualitative data and measurement scales (Part 1)"
+    },
+    {
+     "slug": "quantitative-vs-qualitative-data-and-measurement-scales-part-2",
+     "label": "Quantitative vs qualitative data and measurement scales (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "3",
+     "why": "Scales of measurement"
+    },
+    {
+     "id": "5",
+     "why": "Which graph suits which data"
+    },
+    {
+     "id": "1",
+     "why": "Types of data"
+    }
+   ]
+  },
+  "5": {
+   "slug": "graphical-representation",
+   "seo_title": "Graphs: Bar Chart, Histogram, Pie Chart, Line Chart | UGC NET",
+   "description": "UGC NET Paper 1 graphical representation of data: table, bar chart, histogram, pie chart, line chart, other graphs and mapping of data.",
+   "lead": "Every chart type, when to use it and how to choose the right graph, plus mapping of data.",
+   "mcq": [
+    {
+     "slug": "graphical-representation-of-data-part-1",
+     "label": "Graphical representation of data (Part 1)"
+    },
+    {
+     "slug": "graphical-representation-of-data-part-2",
+     "label": "Graphical representation of data (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "6",
+     "why": "Formulas for reading charts"
+    },
+    {
+     "id": "7",
+     "why": "Solved illustrations of each chart type"
+    },
+    {
+     "id": "4",
+     "why": "Match graph to data type"
+    }
+   ]
+  },
+  "6": {
+   "slug": "core-measures-and-formulas",
+   "seo_title": "DI Formulas: Mean, Percentage, Growth Rate, Index | UGC NET",
+   "description": "UGC NET Paper 1 data interpretation formulas: central tendency, dispersion, percentage, ratio, growth rates, CAGR and index numbers.",
+   "lead": "Averages, percentage and percentage change, ratio, growth rates and index numbers with worked examples.",
+   "mcq": [
+    {
+     "slug": "basic-calculations-percentages-ratios-averages-and-growth",
+     "label": "Basic calculations percentages ratios averages and growth"
+    }
+   ],
+   "related": [
+    {
+     "id": "7",
+     "why": "Apply the formulas in solved sets"
+    },
+    {
+     "id": "8",
+     "why": "Shortcuts for the same calculations"
+    },
+    {
+     "id": "10",
+     "why": "One-page formula sheet"
+    }
+   ]
+  },
+  "7": {
+   "slug": "interpretation-method-and-illustrations",
+   "seo_title": "Data Interpretation Method, Question Types, Solved Sets | UGC NET",
+   "description": "UGC NET Paper 1 data interpretation: five-step method, question types, wording decoder and solved table, bar, pie and line chart illustrations.",
+   "lead": "The five-step method, a wording decoder and five solved illustrations: table, bar chart, pie chart, line graph and statement inference.",
+   "mcq": [
+    {
+     "slug": "data-interpretation-sets-basic",
+     "label": "Data interpretation sets basic"
+    },
+    {
+     "slug": "data-interpretation-sets-tables-pie-bar-line-and-histogram-part-1",
+     "label": "Data interpretation sets tables pie bar line and histogram (Part 1)"
+    },
+    {
+     "slug": "data-interpretation-sets-tables-pie-bar-line-and-histogram-part-2",
+     "label": "Data interpretation sets tables pie bar line and histogram (Part 2)"
+    },
+    {
+     "slug": "table-based-data-interpretation-sets-part-1",
+     "label": "Table based data interpretation sets (Part 1)"
+    },
+    {
+     "slug": "table-based-data-interpretation-sets-part-2",
+     "label": "Table based data interpretation sets (Part 2)"
+    },
+    {
+     "slug": "drawing-conclusions-from-data",
+     "label": "Drawing conclusions from data"
+    }
+   ],
+   "related": [
+    {
+     "id": "6",
+     "why": "Formulas used in the illustrations"
+    },
+    {
+     "id": "8",
+     "why": "Speed tricks to finish in time"
+    },
+    {
+     "id": "5",
+     "why": "Chart types in detail"
+    }
+   ]
+  },
+  "8": {
+   "slug": "speed-tricks-and-traps",
+   "seo_title": "DI Speed Tricks, Approximation and Common Traps | UGC NET",
+   "description": "UGC NET Paper 1 DI speed tricks: fraction-percentage table, approximation, comparing ratios, pie and table shortcuts and common traps.",
+   "lead": "Fraction-percentage equivalents, approximation, shortcuts and the traps in option sets.",
+   "mcq": [
+    {
+     "slug": "basic-calculations-percentages-ratios-averages-and-growth",
+     "label": "Basic calculations percentages ratios averages and growth"
+    },
+    {
+     "slug": "drawing-conclusions-from-data",
+     "label": "Drawing conclusions from data"
+    }
+   ],
+   "related": [
+    {
+     "id": "7",
+     "why": "Solved illustrations to practise on"
+    },
+    {
+     "id": "6",
+     "why": "Formulas behind the tricks"
+    },
+    {
+     "id": "11",
+     "why": "Practice routine for speed"
+    }
+   ]
+  },
+  "9": {
+   "slug": "data-and-governance",
+   "seo_title": "Data and Governance: E-Governance, Open Data, Privacy | UGC NET",
+   "description": "UGC NET Paper 1 data and governance: e-governance, open data, big data, Digital India, education data systems, data privacy and the digital divide.",
+   "lead": "E-governance, open data, big data, Digital India, education data systems, privacy and the digital divide.",
+   "mcq": [
+    {
+     "slug": "data-and-governance-part-1",
+     "label": "Data and governance (Part 1)"
+    },
+    {
+     "slug": "data-and-governance-part-2",
+     "label": "Data and governance (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "2",
+     "why": "Sources of official data"
+    },
+    {
+     "id": "10",
+     "why": "Acronyms in the memory aids"
+    },
+    {
+     "id": "1",
+     "why": "Data basics"
+    }
+   ]
+  },
+  "10": {
+   "slug": "quick-revision-sheet",
+   "seo_title": "Data Interpretation Quick Revision: Formulas, Memory Aids | UGC NET",
+   "description": "UGC NET Paper 1 Data Interpretation quick revision: one-page formula sheet, memory aids, contrasted pairs, concept MCQ hot spots and true-false drill.",
+   "lead": "Formula sheet, memory aids, pairs the examiner likes to contrast, hot spots and a true-false drill.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "Mixed practice set 1"
+    },
+    {
+     "slug": "mixed-practice-set-2",
+     "label": "Mixed practice set 2"
+    }
+   ],
+   "related": [
+    {
+     "id": "6",
+     "why": "Formulas in full"
+    },
+    {
+     "id": "11",
+     "why": "Study plan and checklist"
+    },
+    {
+     "id": "9",
+     "why": "Governance terms"
+    }
+   ]
+  },
+  "11": {
+   "slug": "study-plan-and-checklist",
+   "seo_title": "DI Study Plan and Exam-Day Checklist | UGC NET Paper 1",
+   "description": "UGC NET Paper 1 Data Interpretation seven-day study plan, how to practise, exam-day checklist and verification note.",
+   "lead": "A seven-day plan, how to practise and what to check on exam day.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "Mixed practice set 1"
+    },
+    {
+     "slug": "mixed-practice-set-2",
+     "label": "Mixed practice set 2"
+    }
+   ],
+   "related": [
+    {
+     "id": "10",
+     "why": "Quick revision sheet"
+    },
+    {
+     "id": "8",
+     "why": "Speed tricks"
+    },
+    {
+     "id": "0",
+     "why": "Exam pattern"
+    }
+   ]
+  }
+ }
+}

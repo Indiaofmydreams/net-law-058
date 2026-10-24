@@ -1,0 +1,654 @@
+{
+ "format": "chapters",
+ "xref": "topic",
+ "paper": "ugc-net-paper-1",
+ "paper_name": "UGC NET Paper 1",
+ "unit": 5,
+ "slug": "mathematical-reasoning",
+ "name": "Mathematical Reasoning",
+ "unit_page": "/ugc-net-paper-1-unit-5-mathematical-reasoning.html",
+ "mcq_base": "/mcq/ugc-net-paper-1/mathematical-reasoning/",
+ "mcq_index": "/mcq/ugc-net-paper-1/mathematical-reasoning/",
+ "mcq_total": "630+",
+ "updated": "2026-10-23",
+ "seo_title": "UGC NET Paper 1 Mathematical Reasoning Notes (Unit 5): Tricks",
+ "description": "Free UGC NET Paper 1 Mathematical Reasoning and Aptitude notes: 18 topics, 124 sub-topics with formulas, shortcuts, worked examples and traps, plus a revision mode.",
+ "intro": "Unit 5 carries about five questions (ten marks) and is the easiest unit to score in if you drill formulas and shortcuts. The notes follow the official syllabus: types of reasoning, number and letter series, coding and relationships, then the arithmetic topics. Every topic is built the same way: the concept in plain words, the formulas, tricks, worked examples and the traps examiners set. Do the quick topics (series, coding, relations) first in the exam, and practise the arithmetic topics with a timer.",
+ "how": [
+  [
+   "Round 1: Learn",
+   "Start at Topic 0 for the exam pattern and time strategy, then go in order. Read each concept, then solve the worked examples on paper before reading the solution."
+  ],
+  [
+   "Round 2: Revise",
+   "Switch on <i>Revision mode</i> on any topic page to keep only the formulas, tricks and tables. Re-do the traps list of every topic you got wrong in MCQs."
+  ],
+  [
+   "Last week: Recall",
+   "Use the <a href=\"/notes/ugc-net-paper-1/mathematical-reasoning/rapid-recall.html\">rapid-recall formula sheet</a> and Topic 17 (ten costly mistakes, seven-day plan, last-minute checklist), then practise MCQs topic by topic."
+  ]
+ ],
+ "rapid_from": [
+  "17.1"
+ ],
+ "rapid_placeholder": "HCF, compound interest, trains",
+ "search_placeholder": "Find a formula or trick: e.g. alligation, unit digit, compound interest, relative speed",
+ "hide_stats": [
+  "memory points"
+ ],
+ "modules": [
+  {
+   "id": "m1",
+   "title": "Start Here: Exam Overview",
+   "blurb": "Syllabus, how questions are framed and the time strategy for the unit.",
+   "topics": [
+    "0"
+   ]
+  },
+  {
+   "id": "m2",
+   "title": "Reasoning, Series, Codes and Relations",
+   "blurb": "Types of reasoning, number and letter series, coding-decoding and blood relations: the quick-scoring part of the unit.",
+   "topics": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "id": "m3",
+   "title": "Number System and Speed Maths",
+   "blurb": "Divisibility, HCF, LCM, remainders, fractions, squares and calculation shortcuts that every later topic uses.",
+   "topics": [
+    "6",
+    "7"
+   ]
+  },
+  {
+   "id": "m4",
+   "title": "Ratio, Percentage and Money",
+   "blurb": "Ratio and partnership, percentage, profit and loss, and interest and discounting.",
+   "topics": [
+    "8",
+    "9",
+    "10",
+    "11"
+   ]
+  },
+  {
+   "id": "m5",
+   "title": "Averages, Work and Motion",
+   "blurb": "Averages and ages, time and work, and time, speed and distance.",
+   "topics": [
+    "12",
+    "13",
+    "14"
+   ]
+  },
+  {
+   "id": "m6",
+   "title": "Geometry, Counting and Probability",
+   "blurb": "Mensuration, permutations and combinations and basic probability.",
+   "topics": [
+    "15"
+   ]
+  },
+  {
+   "id": "m7",
+   "title": "Exam Strategy and Revision",
+   "blurb": "Question patterns, the distractor map, the master formula sheet and a seven-day plan.",
+   "topics": [
+    "16",
+    "17"
+   ]
+  }
+ ],
+ "topics": {
+  "0": {
+   "slug": "exam-overview",
+   "seo_title": "UGC NET Mathematical Reasoning: Exam Overview and Strategy",
+   "description": "UGC NET Paper 1 Unit 5 Mathematical Reasoning: exam pattern, official syllabus, question types (memory, concept, analysis) and time strategy.",
+   "lead": "Start here: the syllabus, the three kinds of question and a time plan for the whole unit.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "Mixed practice set 1"
+    }
+   ],
+   "related": [
+    {
+     "id": "1",
+     "why": "The first syllabus block: types of reasoning"
+    },
+    {
+     "id": "16",
+     "why": "Question trends and the distractor map"
+    }
+   ]
+  },
+  "1": {
+   "slug": "types-of-reasoning",
+   "seo_title": "Types of Reasoning: Deductive, Inductive, Abductive | UGC NET",
+   "description": "UGC NET Paper 1 notes on types of reasoning: deductive, inductive, abductive and analogical reasoning, vocabulary, comparison table and tricks.",
+   "lead": "Deductive versus inductive, abductive and analogical reasoning, with a quick way to identify the type in an MCQ.",
+   "mcq": [
+    {
+     "slug": "deductive-reasoning-part-1",
+     "label": "Deductive reasoning (Part 1)"
+    },
+    {
+     "slug": "deductive-reasoning-part-2",
+     "label": "Deductive reasoning (Part 2)"
+    },
+    {
+     "slug": "inductive-reasoning-part-1",
+     "label": "Inductive reasoning (Part 1)"
+    },
+    {
+     "slug": "inductive-reasoning-part-2",
+     "label": "Inductive reasoning (Part 2)"
+    },
+    {
+     "slug": "abductive-reasoning-part-1",
+     "label": "Abductive reasoning (Part 1)"
+    },
+    {
+     "slug": "abductive-reasoning-part-2",
+     "label": "Abductive reasoning (Part 2)"
+    },
+    {
+     "slug": "analogical-reasoning-part-1",
+     "label": "Analogical reasoning (Part 1)"
+    },
+    {
+     "slug": "analogical-reasoning-part-2",
+     "label": "Analogical reasoning (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "2",
+     "why": "Next: number series"
+    },
+    {
+     "id": "5",
+     "why": "Relations apply deductive chains"
+    },
+    {
+     "id": "16",
+     "why": "How reasoning MCQs are framed"
+    }
+   ]
+  },
+  "2": {
+   "slug": "number-series",
+   "seo_title": "Number Series: Patterns, Formulas, Shortcuts | UGC NET",
+   "description": "UGC NET Paper 1 number series: four-step method, pattern catalogue, AP and GP formulas, sum formulas, shortcuts and worked examples.",
+   "lead": "A four-step method, the pattern catalogue and the sum formulas that series questions rely on.",
+   "mcq": [
+    {
+     "slug": "number-series-part-1",
+     "label": "Number series (Part 1)"
+    },
+    {
+     "slug": "number-series-part-2",
+     "label": "Number series (Part 2)"
+    },
+    {
+     "slug": "number-series-part-3",
+     "label": "Number series (Part 3)"
+    }
+   ],
+   "related": [
+    {
+     "id": "3",
+     "why": "Letter series uses the same pattern thinking"
+    },
+    {
+     "id": "6",
+     "why": "Number types and divisibility help spot patterns"
+    },
+    {
+     "id": "17",
+     "why": "Series sums in the formula sheet"
+    }
+   ]
+  },
+  "3": {
+   "slug": "letter-series",
+   "seo_title": "Letter Series and Alphabet Tricks: EJOTY, Opposites | UGC NET",
+   "description": "UGC NET Paper 1 letter series and alphabet tricks: positions, EJOTY, opposite letters, common patterns, arrangement questions and worked examples.",
+   "lead": "Alphabet positions, memory aids, mirror letters and the patterns behind letter-series questions.",
+   "mcq": [
+    {
+     "slug": "letter-series-part-1",
+     "label": "Letter series (Part 1)"
+    },
+    {
+     "slug": "letter-series-part-2",
+     "label": "Letter series (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "2",
+     "why": "Number series"
+    },
+    {
+     "id": "4",
+     "why": "Coding-decoding uses alphabet positions"
+    },
+    {
+     "id": "17",
+     "why": "Alphabet facts in the formula sheet"
+    }
+   ]
+  },
+  "4": {
+   "slug": "coding-decoding",
+   "seo_title": "Coding and Decoding: Types, Method, Tricks | UGC NET",
+   "description": "UGC NET Paper 1 coding and decoding: letter, number, substitution and mixed codes, a step-by-step method, worked examples and traps.",
+   "lead": "The types of code, a step-by-step method and shortcuts for solving codes quickly.",
+   "mcq": [
+    {
+     "slug": "coding-decoding-part-1",
+     "label": "Coding decoding (Part 1)"
+    },
+    {
+     "slug": "coding-decoding-part-2",
+     "label": "Coding decoding (Part 2)"
+    },
+    {
+     "slug": "coding-decoding-part-3",
+     "label": "Coding decoding (Part 3)"
+    }
+   ],
+   "related": [
+    {
+     "id": "3",
+     "why": "Alphabet positions come from letter series"
+    },
+    {
+     "id": "5",
+     "why": "Coded blood-relation questions combine both"
+    },
+    {
+     "id": "2",
+     "why": "Number patterns inside number codes"
+    }
+   ]
+  },
+  "5": {
+   "slug": "blood-relations",
+   "seo_title": "Blood Relations: Family-Tree Method and Tricks | UGC NET",
+   "description": "UGC NET Paper 1 blood relations: relation vocabulary, gender clues, the family-tree method, coded relationships, worked examples and traps.",
+   "lead": "Relation vocabulary, gender clues and a family-tree method that makes every relationship puzzle mechanical.",
+   "mcq": [
+    {
+     "slug": "blood-relations-part-1",
+     "label": "Blood relations (Part 1)"
+    },
+    {
+     "slug": "blood-relations-part-2",
+     "label": "Blood relations (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "4",
+     "why": "Coded relationship questions use coding rules"
+    },
+    {
+     "id": "1",
+     "why": "Deductive chains behind relations"
+    },
+    {
+     "id": "6",
+     "why": "Next: number system for the arithmetic block"
+    }
+   ]
+  },
+  "6": {
+   "slug": "number-system",
+   "seo_title": "Number System: Divisibility, HCF, LCM, Unit Digit | UGC NET",
+   "description": "UGC NET Paper 1 number system: types of numbers, divisibility rules, factors, HCF and LCM, unit-digit cyclicity, remainders and worked examples.",
+   "lead": "The foundation of arithmetic: divisibility rules, HCF and LCM, the unit-digit cycle and remainders.",
+   "mcq": [
+    {
+     "slug": "fractions-and-number-system",
+     "label": "Fractions and number system"
+    }
+   ],
+   "related": [
+    {
+     "id": "7",
+     "why": "Fractions and speed maths"
+    },
+    {
+     "id": "2",
+     "why": "Series patterns"
+    },
+    {
+     "id": "8",
+     "why": "Ratio problems use HCF and LCM"
+    }
+   ]
+  },
+  "7": {
+   "slug": "fractions-and-simplification",
+   "seo_title": "Fractions, Decimals and Simplification: VBODMAS | UGC NET",
+   "description": "UGC NET Paper 1 simplification: VBODMAS, fractions, fraction to percentage chart, squares, cubes, identities and calculation shortcuts.",
+   "lead": "Speed maths: order of operations, fraction-percentage equivalents, squares and cubes and shortcut identities.",
+   "mcq": [
+    {
+     "slug": "fractions-and-number-system",
+     "label": "Fractions and number system"
+    }
+   ],
+   "related": [
+    {
+     "id": "6",
+     "why": "Number system basics"
+    },
+    {
+     "id": "9",
+     "why": "Fraction-percentage chart feeds percentage"
+    },
+    {
+     "id": "17",
+     "why": "Formula sheet"
+    }
+   ]
+  },
+  "8": {
+   "slug": "ratio-proportion-partnership",
+   "seo_title": "Ratio, Proportion, Partnership and Alligation | UGC NET",
+   "description": "UGC NET Paper 1 ratio and proportion: combining ratios, variation, partnership, mixtures and alligation with tricks and worked examples.",
+   "lead": "Ratio, proportion, partnership and alligation, with the share formula and mixture shortcut.",
+   "mcq": [
+    {
+     "slug": "ratio-proportion-and-partnership-part-1",
+     "label": "Ratio proportion and partnership (Part 1)"
+    },
+    {
+     "slug": "ratio-proportion-and-partnership-part-2",
+     "label": "Ratio proportion and partnership (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "9",
+     "why": "Percentage is ratio per hundred"
+    },
+    {
+     "id": "10",
+     "why": "Profit sharing in partnership"
+    },
+    {
+     "id": "14",
+     "why": "Ratio of speeds and times"
+    }
+   ]
+  },
+  "9": {
+   "slug": "percentage",
+   "seo_title": "Percentage: Formulas, Successive Change, Tricks | UGC NET",
+   "description": "UGC NET Paper 1 percentage: core formulas, geometry-type changes, elections and pass marks, percentage point, two-set percentages and worked examples.",
+   "lead": "The workhorse topic: percentage change, successive change, elections and the percent versus percentage-point trap.",
+   "mcq": [
+    {
+     "slug": "percentage-part-1",
+     "label": "Percentage (Part 1)"
+    },
+    {
+     "slug": "percentage-part-2",
+     "label": "Percentage (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "10",
+     "why": "Profit and loss is percentage on cost price"
+    },
+    {
+     "id": "11",
+     "why": "Interest as percentage per year"
+    },
+    {
+     "id": "7",
+     "why": "Fraction to percentage chart"
+    }
+   ]
+  },
+  "10": {
+   "slug": "profit-loss-discount",
+   "seo_title": "Profit, Loss and Discount: Formulas and Tricks | UGC NET",
+   "description": "UGC NET Paper 1 profit, loss and discount: CP, SP, MP, successive discount, equal-price gain and loss, ratio table and worked examples.",
+   "lead": "Cost price, selling price, marked price and discount, with the CP-to-SP table for quick work.",
+   "mcq": [
+    {
+     "slug": "profit-and-loss-part-1",
+     "label": "Profit and loss (Part 1)"
+    },
+    {
+     "slug": "profit-and-loss-part-2",
+     "label": "Profit and loss (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "9",
+     "why": "Percentage foundations"
+    },
+    {
+     "id": "11",
+     "why": "Interest and discounting"
+    },
+    {
+     "id": "8",
+     "why": "Partnership profit shares"
+    }
+   ]
+  },
+  "11": {
+   "slug": "interest-and-discounting",
+   "seo_title": "Simple and Compound Interest, True Discount | UGC NET",
+   "description": "UGC NET Paper 1 interest and discounting: SI, CI, SI versus CI, instalments, true discount, banker's discount and worked examples.",
+   "lead": "Simple and compound interest, the CI minus SI shortcut, instalments and true versus banker's discount.",
+   "mcq": [
+    {
+     "slug": "interest-and-discounting-part-1",
+     "label": "Interest and discounting (Part 1)"
+    },
+    {
+     "slug": "interest-and-discounting-part-2",
+     "label": "Interest and discounting (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "9",
+     "why": "Percentage foundations"
+    },
+    {
+     "id": "10",
+     "why": "Profit and loss"
+    },
+    {
+     "id": "12",
+     "why": "Averages"
+    }
+   ]
+  },
+  "12": {
+   "slug": "average-and-ages",
+   "seo_title": "Average and Ages: Formulas, Tricks, Examples | UGC NET",
+   "description": "UGC NET Paper 1 average and ages: core formulas, properties, combined averages, age problems, worked examples and traps.",
+   "lead": "Average formulas, replacing and adding items, and the standard age-problem set-ups.",
+   "mcq": [
+    {
+     "slug": "averages",
+     "label": "Averages"
+    }
+   ],
+   "related": [
+    {
+     "id": "8",
+     "why": "Ratio and ages"
+    },
+    {
+     "id": "9",
+     "why": "Percentage change in averages"
+    },
+    {
+     "id": "13",
+     "why": "Time and work"
+    }
+   ]
+  },
+  "13": {
+   "slug": "time-and-work",
+   "seo_title": "Time and Work, Pipes and Cisterns: LCM Method | UGC NET",
+   "description": "UGC NET Paper 1 time and work: rate formulas, the LCM efficiency method, pipes and cisterns, worked examples and traps.",
+   "lead": "Rate of work, the LCM (efficiency) method and pipes and cisterns in one sequence.",
+   "mcq": [
+    {
+     "slug": "time-and-work",
+     "label": "Time and work"
+    }
+   ],
+   "related": [
+    {
+     "id": "14",
+     "why": "Speed problems use the same rate thinking"
+    },
+    {
+     "id": "8",
+     "why": "Work and wages in ratio"
+    },
+    {
+     "id": "6",
+     "why": "LCM from the number system"
+    }
+   ]
+  },
+  "14": {
+   "slug": "time-speed-distance",
+   "seo_title": "Time, Speed, Distance: Trains, Boats, Races | UGC NET",
+   "description": "UGC NET Paper 1 time, speed and distance: average speed, trains, boats and streams, races and circular tracks, worked examples and tricks.",
+   "lead": "Distance = speed x time, then trains, boats and streams and races.",
+   "mcq": [
+    {
+     "slug": "time-and-distance-part-1",
+     "label": "Time and distance (Part 1)"
+    },
+    {
+     "slug": "time-and-distance-part-2",
+     "label": "Time and distance (Part 2)"
+    }
+   ],
+   "related": [
+    {
+     "id": "13",
+     "why": "Rate thinking from time and work"
+    },
+    {
+     "id": "8",
+     "why": "Ratio of speeds"
+    },
+    {
+     "id": "17",
+     "why": "Speed formulas in the sheet"
+    }
+   ]
+  },
+  "15": {
+   "slug": "mensuration-pnc-probability",
+   "seo_title": "Mensuration, Permutation-Combination, Probability | UGC NET",
+   "description": "UGC NET Paper 1 mensuration, permutation and combination and basic probability: formulas, examples and traps.",
+   "lead": "Lower-priority but formula-based: areas and volumes, nPr and nCr and basic probability.",
+   "mcq": [
+    {
+     "slug": "permutations-combinations-and-probability",
+     "label": "Permutations combinations and probability"
+    }
+   ],
+   "related": [
+    {
+     "id": "14",
+     "why": "Previous high-priority topic"
+    },
+    {
+     "id": "16",
+     "why": "Where these topics rank in the exam"
+    },
+    {
+     "id": "17",
+     "why": "Formula sheet"
+    }
+   ]
+  },
+  "16": {
+   "slug": "exam-trends-and-question-patterns",
+   "seo_title": "UGC NET Mathematical Reasoning: Trends and Distractors",
+   "description": "UGC NET Paper 1 Mathematical Reasoning exam trends: topic priority, how MCQs are framed, option elimination and the distractor map.",
+   "lead": "Which topics to prioritise, how questions are framed and which wrong answers examiners expect you to pick.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "Mixed practice set 1"
+    },
+    {
+     "slug": "mixed-practice-set-2",
+     "label": "Mixed practice set 2"
+    },
+    {
+     "slug": "mixed-practice-set-3",
+     "label": "Mixed practice set 3"
+    }
+   ],
+   "related": [
+    {
+     "id": "0",
+     "why": "Exam overview and time strategy"
+    },
+    {
+     "id": "17",
+     "why": "Master formula sheet and revision plan"
+    }
+   ]
+  },
+  "17": {
+   "slug": "formula-sheet-and-revision-plan",
+   "seo_title": "Maths Formula Sheet and 7-Day Plan | UGC NET Paper 1",
+   "description": "UGC NET Paper 1 Mathematical Reasoning master formula sheet, ten costly mistakes, a seven-day revision plan and last-minute checklist.",
+   "lead": "One-page formula sheet, the ten mistakes that cost the most marks and a seven-day revision plan.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "Mixed practice set 1"
+    },
+    {
+     "slug": "mixed-practice-set-2",
+     "label": "Mixed practice set 2"
+    },
+    {
+     "slug": "mixed-practice-set-3",
+     "label": "Mixed practice set 3"
+    }
+   ],
+   "related": [
+    {
+     "id": "16",
+     "why": "Question patterns and distractors"
+    },
+    {
+     "id": "0",
+     "why": "Exam overview"
+    }
+   ]
+  }
+ }
+}

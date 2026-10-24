@@ -230,7 +230,7 @@ def rapid_from_subs(topics, nums, label_subs=()):
                                 hdr = [c.strip() for c in line.strip().strip("|").split("|")]
                             continue
                         cells = [c.strip() for c in line.strip().strip("|").split("|")]
-                        if len(cells) in (2, 3) and cells[0] and cells[1]:
+                        if len(cells) in (2, 3, 4) and cells[0] and cells[1]:
                             if n in label_subs and len(cells) == 3 and len(hdr) == 3:  # keep the column names, e.g. "IPC 34; BNS 3(5)"
                                 fact = "; ".join(f"{h} {c}" for h, c in zip(hdr[1:], cells[1:]) if c)
                             else:
@@ -848,6 +848,34 @@ def patch_sitemap(chapters):
     return len(rows)
 
 
+def write_chapters_json(chapters):
+    """notes/chapters.json: small list used by the phone/tablet app (app.html) for its Notes screen."""
+    out = [{"paper": c["paper"], "paper_name": c["paper_name"], "unit": c["unit"], "name": c["name"], "url": c["base"],
+            "rapid": c["base"] + "rapid-recall.html", "topics": c["n_topics"], "subs": c["n_subs"], "minutes": c["minutes"],
+            "first": c["flat"][0]["title"]} for c in chapters]
+    out.sort(key=lambda x: (x["paper"] != "ugc-net-paper-1", x["unit"]))
+    return json.dumps(out, ensure_ascii=False, separators=(",", ":"))
+
+
+def patch_home(chapters):
+    """Home page (index.html): the real chapter list between <!-- notes-home:begin --> and <!-- notes-home:end -->."""
+    ix = ROOT / "index.html"
+    txt = ix.read_text(encoding="utf-8")
+    if "<!-- notes-home:begin -->" not in txt:
+        return 0
+    cards = []
+    for c in sorted(chapters, key=lambda x: (x["paper"] != "ugc-net-paper-1", x["unit"])):
+        tag = "PAPER 1 · UNIT %d" % c["unit"] if c["paper"] == "ugc-net-paper-1" else "LAW 058 · UNIT %d" % c["unit"]
+        cards.append(f'      <article class="note"><span class="tag">{esc(tag)}</span><h3>{esc(c["name"])}</h3>'
+                     f'<p>{c["n_topics"]} topics, {c["n_subs"]} sub-topics, revision mode and a rapid-recall sheet.</p>'
+                     f'<a href="notes/{c["paper"]}/{c["slug"]}/">Open notes →</a></article>')
+    block = ('<!-- notes-home:begin -->\n    <div class="notes-grid">\n' + "\n".join(cards) +
+             '\n    </div>\n    <p style="text-align:center;margin-top:28px"><a class="btn primary" href="notes/">Browse all study notes</a></p>\n    <!-- notes-home:end -->')
+    txt = re.sub(r"<!-- notes-home:begin -->.*?<!-- notes-home:end -->", lambda m: block, txt, flags=re.S)
+    ix.write_text(txt, encoding="utf-8")
+    return len(cards)
+
+
 def write(path, text):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding="utf-8")
@@ -865,6 +893,8 @@ def main():
             n += 1
     write(OUT / "index.html", build_hub(chapters))
     write(OUT / "search-index.json", build_search(chapters))
+    write(OUT / "chapters.json", write_chapters_json(chapters))
+    patch_home(chapters)
     rows = patch_sitemap(chapters)
     print(f"built {len(chapters)} chapter(s), {n} topic pages, {rows} sitemap rows")
 

@@ -1,0 +1,454 @@
+{
+ "format": "chapters",
+ "xref": "topic",
+ "paper": "ugc-net-paper-1",
+ "paper_name": "UGC NET Paper 1",
+ "unit": 4,
+ "slug": "communication",
+ "name": "Communication",
+ "unit_page": "/ugc-net-paper-1-unit-4-communication.html",
+ "mcq_base": "/mcq/ugc-net-paper-1/communication/",
+ "mcq_index": "/mcq/ugc-net-paper-1/communication/",
+ "mcq_total": "420+",
+ "updated": "2026-10-23",
+ "seo_title": "UGC NET Paper 1 Communication Notes (Unit 4): Free, Topic-wise",
+ "description": "Free UGC NET Paper 1 Communication notes: 11 topics, 90 sub-topics on models, types, verbal and non-verbal, classroom, barriers and mass media, with revision mode.",
+ "intro": "Unit 4 usually carries about five questions (ten marks) and is theory-heavy rather than calculation-heavy, so it is one of the most scoring units. The notes follow the four official syllabus blocks: meaning and types, effective communication, barriers, and mass media. Each topic pairs a fact sheet (names, models, classifications) with a plain-language explanation and exam cues. Barriers, classroom communication and non-verbal communication are the most frequent question areas, so give them the most time.",
+ "how": [
+  [
+   "Round 1: Read",
+   "Start at Topic 0 to see how the unit is tested, then go topic by topic in order. In each topic read the fact-sheet sections first, then the <i>In simple words</i> sections, which explain the same ideas with everyday examples."
+  ],
+  [
+   "Round 2: Revise",
+   "Switch on <i>Revision mode</i> on any topic page to see the key terms, lists and tables without the explanations, plus the Memory Capsule. Learn every model as a pair: theorist and one-line tag (Berlo: SMCR, Hall: proxemics)."
+  ],
+  [
+   "Last week: Recall",
+   "Use the <a href=\"/notes/ugc-net-paper-1/communication/rapid-recall.html\">rapid-recall sheet</a> and Topic 10 (confusions to avoid, the keyword-to-answer cue sheet), then practise MCQs topic by topic."
+  ]
+ ],
+ "rapid_from": [
+  "10.2",
+  "10.6"
+ ],
+ "rapid_placeholder": "Berlo, proxemics, grapevine",
+ "search_placeholder": "Find a concept: e.g. Berlo, Johari Window, kinesics, Flanders, agenda setting",
+ "hide_stats": [],
+ "modules": [
+  {
+   "id": "m1",
+   "title": "Start Here: Exam Pattern",
+   "blurb": "How many questions to expect, which areas are asked most, and the question formats.",
+   "topics": [
+    "0"
+   ]
+  },
+  {
+   "id": "m2",
+   "title": "Foundations: Meaning, Process and Types",
+   "blurb": "What communication is, its elements and models, and its levels, modes, directions and networks.",
+   "topics": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "id": "m3",
+   "title": "Effective Communication",
+   "blurb": "Verbal, non-verbal, inter-cultural, group and classroom communication.",
+   "topics": [
+    "4",
+    "5",
+    "6",
+    "7"
+   ]
+  },
+  {
+   "id": "m4",
+   "title": "Barriers and Mass Media",
+   "blurb": "What blocks communication and how to overcome it, then media types, theories and Indian media institutions.",
+   "topics": [
+    "8",
+    "9"
+   ]
+  },
+  {
+   "id": "m5",
+   "title": "Revision and Exam Readiness",
+   "blurb": "Theorist tag-lines, common confusions and a keyword-to-answer cue sheet.",
+   "topics": [
+    "10"
+   ]
+  }
+ ],
+ "topics": {
+  "0": {
+   "slug": "exam-pattern-and-question-trends",
+   "seo_title": "UGC NET Communication: Exam Pattern and Question Trends",
+   "description": "UGC NET Paper 1 Unit 4 Communication: exam pattern, number of questions, high-frequency areas, question formats and common traps.",
+   "lead": "Start here. See how the unit is tested, which areas repeat most and which traps examiners set.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "Mixed practice set 1"
+    }
+   ],
+   "related": [
+    {
+     "id": "1",
+     "why": "Begin the syllabus with meaning and characteristics"
+    },
+    {
+     "id": "10",
+     "why": "Jump to the cue sheet if the exam is close"
+    }
+   ]
+  },
+  "1": {
+   "slug": "meaning-nature-and-characteristics",
+   "seo_title": "Communication: Meaning, Characteristics, Functions, 7 Cs | UGC NET",
+   "description": "UGC NET Paper 1 notes on communication: meaning and origin, characteristics, functions and the 7 Cs of effective communication, with simple examples.",
+   "lead": "The base of the unit: what communication is, how it behaves, what it is for and the 7 Cs of effective messages.",
+   "mcq": [
+    {
+     "slug": "meaning-elements-and-characteristics-of-communication",
+     "label": "Meaning elements and characteristics of communication"
+    }
+   ],
+   "related": [
+    {
+     "id": "2",
+     "why": "Next: the elements and models that describe the process"
+    },
+    {
+     "id": "8",
+     "why": "The 7 Cs are the remedy for most barriers"
+    },
+    {
+     "id": "3",
+     "why": "Types of communication build on these characteristics"
+    }
+   ]
+  },
+  "2": {
+   "slug": "elements-process-and-models",
+   "seo_title": "Communication Models: Berlo, Shannon-Weaver, Johari Window | UGC NET",
+   "description": "UGC NET Paper 1 notes on elements of communication and models: Aristotle, Lasswell, Shannon-Weaver, Berlo SMCR, Osgood-Schramm, Dance, Newcomb, Johari Window.",
+   "lead": "Elements of the process and every model and theorist the exam asks about, each with a one-line tag.",
+   "mcq": [
+    {
+     "slug": "models-of-communication-part-1",
+     "label": "Models of communication (Part 1)"
+    },
+    {
+     "slug": "models-of-communication-part-2",
+     "label": "Models of communication (Part 2)"
+    },
+    {
+     "slug": "meaning-elements-and-characteristics-of-communication",
+     "label": "Meaning elements and characteristics of communication"
+    }
+   ],
+   "related": [
+    {
+     "id": "1",
+     "why": "Characteristics and functions the models try to explain"
+    },
+    {
+     "id": "8",
+     "why": "Noise in the models is the seed of the barriers topic"
+    },
+    {
+     "id": "10",
+     "why": "Theorist tag-lines for quick recall"
+    }
+   ]
+  },
+  "3": {
+   "slug": "types-and-levels-of-communication",
+   "seo_title": "Types of Communication: Formal, Informal, Grapevine | UGC NET",
+   "description": "UGC NET Paper 1 notes on types and levels of communication: intrapersonal to mass, formal and informal, upward and downward, grapevine and Bavelas networks.",
+   "lead": "Levels, modes, formal and informal channels, the direction of flow in an organisation and communication networks.",
+   "mcq": [
+    {
+     "slug": "types-of-communication-by-number-of-participants",
+     "label": "Types of communication by number of participants"
+    },
+    {
+     "slug": "organisational-communication-flows-grapevine-and-networks",
+     "label": "Organisational communication flows grapevine and networks"
+    }
+   ],
+   "related": [
+    {
+     "id": "4",
+     "why": "Oral and written modes in detail"
+    },
+    {
+     "id": "6",
+     "why": "Group communication uses these networks"
+    },
+    {
+     "id": "8",
+     "why": "Organisational barriers arise from these flows"
+    }
+   ]
+  },
+  "4": {
+   "slug": "verbal-communication",
+   "seo_title": "Verbal Communication, Oral, Written, Listening | UGC NET",
+   "description": "UGC NET Paper 1 notes on verbal communication: oral and written forms, listening types and barriers, and tips for effective speaking and writing.",
+   "lead": "Oral and written communication, why listening is the hardest skill, and how to choose the right mode.",
+   "mcq": [
+    {
+     "slug": "verbal-communication",
+     "label": "Verbal communication"
+    },
+    {
+     "slug": "verbal-and-non-verbal-communication-basics",
+     "label": "Verbal and non verbal communication basics"
+    }
+   ],
+   "related": [
+    {
+     "id": "5",
+     "why": "Non-verbal cues accompany every spoken word"
+    },
+    {
+     "id": "8",
+     "why": "Semantic barriers live in verbal communication"
+    },
+    {
+     "id": "7",
+     "why": "Classroom speaking and questioning"
+    }
+   ]
+  },
+  "5": {
+   "slug": "non-verbal-communication",
+   "seo_title": "Non-Verbal Communication: Kinesics, Proxemics, Paralanguage | UGC NET",
+   "description": "UGC NET Paper 1 notes on non-verbal communication: kinesics, proxemics, haptics, chronemics, oculesics, paralanguage, Mehrabian and non-verbal cues in teaching.",
+   "lead": "The 'study of...' cue list, each form with an everyday example, and the functions non-verbal cues serve.",
+   "mcq": [
+    {
+     "slug": "non-verbal-communication",
+     "label": "Non verbal communication"
+    },
+    {
+     "slug": "verbal-and-non-verbal-communication-basics",
+     "label": "Verbal and non verbal communication basics"
+    }
+   ],
+   "related": [
+    {
+     "id": "4",
+     "why": "The verbal side of effective communication"
+    },
+    {
+     "id": "6",
+     "why": "Cultures read non-verbal cues differently"
+    },
+    {
+     "id": "7",
+     "why": "Non-verbal skills for the teacher"
+    }
+   ]
+  },
+  "6": {
+   "slug": "inter-cultural-and-group-communication",
+   "seo_title": "Inter-Cultural and Group Communication: Hall, Hofstede | UGC NET",
+   "description": "UGC NET Paper 1 notes on inter-cultural and group communication: high and low context, Hofstede, culture shock, Tuckman, brainstorming, panel and symposium.",
+   "lead": "Cultural dimensions, culture shock, group stages and phenomena, and the group discussion formats often asked in matching questions.",
+   "mcq": [
+    {
+     "slug": "inter-cultural-communication",
+     "label": "Inter cultural communication"
+    },
+    {
+     "slug": "group-communication",
+     "label": "Group communication"
+    }
+   ],
+   "related": [
+    {
+     "id": "5",
+     "why": "Proxemics and context are cultural"
+    },
+    {
+     "id": "3",
+     "why": "Networks and flows inside groups"
+    },
+    {
+     "id": "8",
+     "why": "Socio-cultural barriers"
+    }
+   ]
+  },
+  "7": {
+   "slug": "classroom-communication",
+   "seo_title": "Classroom Communication: Flanders FIAC, Dale's Cone | UGC NET",
+   "description": "UGC NET Paper 1 notes on classroom communication: types of flow, teacher's role, Flanders interaction analysis, Edgar Dale's Cone of Experience and feedback.",
+   "lead": "Teacher talk and student talk, Flanders' ten categories, Dale's Cone, feedback and wait time.",
+   "mcq": [
+    {
+     "slug": "classroom-communication",
+     "label": "Classroom communication"
+    }
+   ],
+   "related": [
+    {
+     "id": "4",
+     "why": "Questioning and speaking skills"
+    },
+    {
+     "id": "5",
+     "why": "Non-verbal skills in teaching"
+    },
+    {
+     "id": "8",
+     "why": "Classroom barriers and fixes"
+    }
+   ]
+  },
+  "8": {
+   "slug": "barriers-to-communication",
+   "seo_title": "Barriers to Communication: Types, Examples, Remedies | UGC NET",
+   "description": "UGC NET Paper 1 notes on barriers to communication: semantic, psychological, physical, personal, organisational, socio-cultural and technological barriers, with remedies.",
+   "lead": "The most-asked area of the unit: every barrier with examples, a scenario-to-barrier cue guide and ways to overcome them.",
+   "mcq": [
+    {
+     "slug": "barriers-to-communication-general",
+     "label": "Barriers to communication general"
+    },
+    {
+     "slug": "semantic-or-language-barriers",
+     "label": "Semantic or language barriers"
+    },
+    {
+     "slug": "psychological-or-emotional-barriers",
+     "label": "Psychological or emotional barriers"
+    },
+    {
+     "slug": "physical-or-environmental-barriers",
+     "label": "Physical or environmental barriers"
+    },
+    {
+     "slug": "personal-barriers",
+     "label": "Personal barriers"
+    },
+    {
+     "slug": "organizational-barriers",
+     "label": "Organizational barriers"
+    },
+    {
+     "slug": "socio-cultural-barriers",
+     "label": "Socio cultural barriers"
+    },
+    {
+     "slug": "technological-barriers",
+     "label": "Technological barriers"
+    },
+    {
+     "slug": "overcoming-barriers",
+     "label": "Overcoming barriers"
+    }
+   ],
+   "related": [
+    {
+     "id": "1",
+     "why": "The 7 Cs are the positive version of this list"
+    },
+    {
+     "id": "2",
+     "why": "Noise and decoding in the models"
+    },
+    {
+     "id": "7",
+     "why": "Barriers inside the classroom"
+    }
+   ]
+  },
+  "9": {
+   "slug": "mass-media-and-society",
+   "seo_title": "Mass Media and Society: Media Theories, Press, Indian Media | UGC NET",
+   "description": "UGC NET Paper 1 notes on mass media: types, functions, McLuhan, two-step flow, agenda setting, cultivation, Four Theories of the Press and Indian media institutions.",
+   "lead": "Media types and functions, every media theory with its theorist, the four theories of the press and Indian media facts.",
+   "mcq": [
+    {
+     "slug": "mass-communication-meaning-characteristics-and-functions",
+     "label": "Mass communication meaning characteristics and functions"
+    },
+    {
+     "slug": "types-of-mass-media",
+     "label": "Types of mass media"
+    },
+    {
+     "slug": "role-of-mass-media-in-society",
+     "label": "Role of mass media in society"
+    },
+    {
+     "slug": "media-theories-and-effects",
+     "label": "Media theories and effects"
+    },
+    {
+     "slug": "media-and-development",
+     "label": "Media and development"
+    },
+    {
+     "slug": "indian-context",
+     "label": "Indian context"
+    },
+    {
+     "slug": "issues-and-concerns",
+     "label": "Issues and concerns"
+    }
+   ],
+   "related": [
+    {
+     "id": "3",
+     "why": "Mass communication as a level of communication"
+    },
+    {
+     "id": "2",
+     "why": "Models of mass communication"
+    },
+    {
+     "id": "10",
+     "why": "Theorist tag-lines for the media theories"
+    }
+   ]
+  },
+  "10": {
+   "slug": "memory-tools-and-quick-revision",
+   "seo_title": "Communication Quick Revision: Theorists, Cue Sheet | UGC NET",
+   "description": "UGC NET Paper 1 Communication quick revision: theorist tag-lines, common confusions, analysis-question strategy and a keyword-to-answer cue sheet.",
+   "lead": "Last-week toolkit: theorist tag-lines, the confusions examiners exploit and a keyword-to-answer cue sheet.",
+   "mcq": [
+    {
+     "slug": "mixed-practice-set-1",
+     "label": "Mixed practice set 1"
+    },
+    {
+     "slug": "mixed-practice-set-2",
+     "label": "Mixed practice set 2"
+    }
+   ],
+   "related": [
+    {
+     "id": "2",
+     "why": "Models in full"
+    },
+    {
+     "id": "9",
+     "why": "Media theories in full"
+    },
+    {
+     "id": "8",
+     "why": "Barriers in full"
+    }
+   ]
+  }
+ }
+}
