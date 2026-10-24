@@ -479,3 +479,16 @@ svg{display:block;flex:none}
 .sr-hero+.sgrid>div:first-child>.h2:first-child{margin-top:22px}
 @media(min-width:900px){.sgrid{display:grid;grid-template-columns:1fr 1fr;gap:0 26px;align-items:start}}
 @media(min-width:768px){.hero-s{margin:0 0 22px;padding:26px 28px 28px;border-radius:28px}.hero-s h2{font-size:1.9rem}}
+
+/* Instagram follow card (home) */
+.igc{position:relative;overflow:hidden;display:flex;align-items:center;gap:14px;border-top:3px solid #c13584;background:radial-gradient(circle at 100% 0,rgba(193,53,132,.13),transparent 55%),var(--surface)}
+.igc .igb{display:grid;place-items:center;flex:none;width:46px;height:46px;border-radius:14px;color:#fff;background:linear-gradient(135deg,#d6249f,#c13584 45%,#833ab4);box-shadow:0 8px 16px -8px rgba(193,53,132,.7)}
+.igc .ti{flex:1;min-width:0}
+.igc h3{margin:0;font-size:1rem;font-weight:800;letter-spacing:-.01em}
+.igc p{margin:2px 0 10px;font-size:.78rem;line-height:1.45;color:var(--mut);font-weight:600}
+.igf{display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:0 16px;border-radius:99px;background:linear-gradient(135deg,#d6249f,#c13584 45%,#833ab4);color:#fff;font-size:.8125rem;font-weight:800;text-decoration:none;box-shadow:0 8px 18px -8px rgba(193,53,132,.7)}
+.igf:active{transform:scale(.97)}
+.igq{margin:0;flex:none;display:flex;flex-direction:column;align-items:center;gap:6px}
+.igq img{display:block;width:130px;height:auto;border-radius:14px;background:#fff;box-shadow:0 6px 18px rgba(131,58,180,.22),0 0 0 1px rgba(0,0,0,.05)}
+.igq figcaption{font-size:.6875rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--mut)}
+@media(max-width:380px){.igc{flex-wrap:wrap}}

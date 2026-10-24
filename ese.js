@@ -223,7 +223,7 @@
     var bl = function (p) { return Math.max(5, rnd(mins * p / 100 / 5) * 5); };
     out.push({ title: "Your daily study blueprint", find: "A " + m.hrs + "-hour day, shaped for the " + m.stage.name.toLowerCase() + " stage.",
       pts: ["Learn new material: about " + bl(split[0]) + " minutes (Syllabus and Notes).", "Practise MCQs: about " + bl(split[1]) + " minutes.", "Revise earlier topics: about " + bl(split[2]) + " minutes.", "Review mistakes: about " + bl(split[3]) + " minutes.", "Work in 25-minute rounds with the Pomodoro timer, and set your Daily goal in Practice questions to " + m.goal + " questions."],
-      acts: [{ t: "See the Pomodoro Technique", slide: "Pomodoro Technique" }, ["Open Practice questions", "#mcqs"]] });
+      acts: [{ t: "Open the Pomodoro timer and study tools", slide: "Study Toolkit" }, ["Open Practice questions", "#mcqs"]] });
 
     /* 7 */
     var rv = g("revise").v;

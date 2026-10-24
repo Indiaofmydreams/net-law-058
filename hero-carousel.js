@@ -52,7 +52,7 @@
       s.classList.toggle('is-next', d === 1);
       s.classList.toggle('is-far', d < -1 || d > 1);
       s.setAttribute('aria-hidden', d === 0 ? 'false' : 'true');
-      card.tabIndex = d === 0 ? 0 : -1;
+      if (card.tagName === 'A') card.tabIndex = d === 0 ? 0 : -1;   /* a card that only holds links (the Study Toolkit) is not itself a tab stop */
       dots[i].setAttribute('aria-current', d === 0 ? 'true' : 'false');
       opts[i].setAttribute('aria-current', d === 0 ? 'true' : 'false');
     });
@@ -105,7 +105,14 @@
   stage.addEventListener('click', function (e) {
     if (justDragged) { e.preventDefault(); return; }
     var s = e.target.closest('.cc-slide');
-    if (s && !s.classList.contains('is-active')) e.preventDefault();
+    if (s && !s.classList.contains('is-active')) { e.preventDefault(); return; }
+    /* Study Toolkit > Pomodoro: open the floating focus timer right here (the link to the About page is the fallback) */
+    if (e.target.closest('[data-pomo]') && window.NLNav && NLNav.pomodoro) {
+      e.preventDefault();
+      NLNav.pomodoro.show();
+      var pill = document.querySelector('.nl-po-pill');
+      if (pill && pill.getAttribute('aria-expanded') !== 'true') pill.click();
+    }
   });
 
   /* Swipe / drag (touch and pen) with snap to the nearest card. */

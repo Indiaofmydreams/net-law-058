@@ -155,3 +155,12 @@ FIX: topic MCQ links went to the 404 page (16 Oct 2026)
 ----
 Icons redrawn to match the supplied logo design (16 Oct 2026)
 - NL in Outfit SemiBold (drawn as paths), 24% corner radius, notched teal dot, #111d45 to #1f3373 gradient. Files: icons/icon.svg, favicon-32/48/96/144.png, icon-192/512.png, icon-maskable-192/512.png, apple-touch-icon.png, favicon.ico, icon-maskable-512.png, and the six og-*.png preview images.
+
+== Study Toolkit slide + Instagram follow (24 Oct 2026) ==
+* Home carousel: the four slides Mock Tests, PYQs, Notes and Pomodoro are now ONE slide, "Study Toolkit", with four square boxes
+  (Mock Tests -> #mock-tests, PYQs -> pyq.html, Notes -> #notes, Pomodoro -> opens the focus timer; about.html#a-pomodoro if JS is off).
+  Files: index.html (slide markup), hero-carousel.css (hub styles), hero-carousel.js (Pomodoro click, tab-stop guard), ese.js (link label).
+* Instagram (@netlawverse): instagram-qr.png (scans to instagram.com/netlawverse), follow.css, follow.js.
+  Home: "Follow on Instagram" pill beside Share (QR dialog on mouse screens, direct link on touch), "Stay connected" section, footer link.
+  App (m-app.js / m-app.css): "Follow us" card on Home (QR shown on tablets only), links in the menu and Profile.
+* sw.js: VERSION v17, new files added to the pre-cache list.

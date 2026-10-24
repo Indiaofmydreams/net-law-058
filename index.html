@@ -25,6 +25,7 @@
   <link rel="stylesheet" href="theme.css">
   <link rel="stylesheet" href="mock-tests.css">
   <link rel="stylesheet" href="hero-carousel.css">
+  <link rel="stylesheet" href="follow.css">
   <link rel="stylesheet" href="section-nav.css">
   <link rel="stylesheet" href="plan.css">
   <link rel="stylesheet" href="nav-resources.css">
@@ -217,78 +218,42 @@
               </div>
             </a>
           </li>
-          <li class="cc-slide cc-feat" data-label="Mock Tests" role="group" aria-roledescription="slide">
-            <a class="cc-card" href="#mock-tests" draggable="false">
-              <div class="cc-body">
-                <span class="cc-tag">TEST YOURSELF</span>
-                <h3 class="cc-title">Mock Tests</h3>
-                <p class="cc-line">Practise in an exam-style environment.</p>
-                <p class="cc-more">Running timer, question palette, mark for review, and a score review at the end. Walk in having already done it.</p>
-                <span class="btn primary cc-cta">Take a Mock →</span>
-                <p class="cc-foot">Exam-style practice. Not affiliated with NTA or UGC.</p>
+          <li class="cc-slide cc-hub-slide" data-label="Study Toolkit" role="group" aria-roledescription="slide">
+            <svg class="hub-sprite" width="0" height="0" aria-hidden="true" focusable="false"><defs>
+              <symbol id="hi-mock" viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17" rx="2.5"/><path d="M9 4V3h6v1M9 4h6v3H9z"/><path d="M8.6 13.4l2.3 2.3 4.5-4.9"/></symbol>
+              <symbol id="hi-pyq" viewBox="0 0 24 24"><path d="M3.5 12a8.5 8.5 0 1 0 2.6-6.1"/><path d="M3.5 4.2v4.3H7.8"/><path d="M12 7.6V12l3 1.9"/></symbol>
+              <symbol id="hi-notes" viewBox="0 0 24 24"><path d="M12 6.6C10.4 5 8 4.4 4 4.4v13.2c4 0 6.4.6 8 2.2 1.6-1.6 4-2.2 8-2.2V4.4c-4 0-6.4.6-8 2.2z"/><path d="M12 6.6v13.2"/></symbol>
+              <symbol id="hi-focus" viewBox="0 0 24 24"><circle cx="12" cy="13.4" r="7.6"/><path d="M12 9.4v4.2l2.6 1.6"/><path d="M9.6 2.6h4.8M12 2.6v3.2"/></symbol>
+            </defs></svg>
+            <div class="cc-card cc-hub">
+              <div class="hub-head">
+                <span class="cc-tag">MOCKS · PYQs · NOTES · FOCUS TIMER</span>
+                <h3 class="cc-title">Your study toolkit</h3>
+                <p class="cc-line">Four free tools to test, revise and stay focused. Tap any box.</p>
               </div>
-              <div class="cc-vis" aria-hidden="true">
-                <div class="cc-mock">
-                  <div class="cc-mock-h"><span>Mock Test · Exam style</span><span class="cc-timer">⏱ 02:59:48</span></div>
-                  <div class="cc-mock-b">
-                    <div class="cc-mock-q">
-                      <small>Question 12</small>
-                      <i class="cc-bar w90"></i><i class="cc-bar w60"></i>
-                      <div class="cc-opt"><b>A</b><i class="cc-bar w55"></i></div>
-                      <div class="cc-opt on"><b>B</b><i class="cc-bar w70"></i></div>
-                      <div class="cc-opt"><b>C</b><i class="cc-bar w45"></i></div>
-                      <div class="cc-opt"><b>D</b><i class="cc-bar w60"></i></div>
-                    </div>
-                    <div class="cc-pal">
-                      <small>Palette</small>
-                      <div class="cc-pal-g"><u class="a">1</u><u class="a">2</u><u class="m">3</u><u class="a">4</u><u class="a">5</u><u>6</u><u class="a">7</u><u class="m">8</u><u class="a">9</u><u>10</u><u class="a">11</u><u class="c">12</u><u>13</u><u>14</u><u>15</u></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <div class="hub-grid">
+            <a class="hub-tile ht-1" href="#mock-tests" draggable="false">
+              <svg class="ht-bg" aria-hidden="true" focusable="false"><use href="#hi-mock"/></svg>
+              <span class="ht-top"><span class="ht-ic" aria-hidden="true"><svg focusable="false"><use href="#hi-mock"/></svg></span><span class="ht-go" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+              <span class="ht-txt"><b>Mock Tests</b><small>Exam-style, timed</small></span>
             </a>
-          </li>
-          <li class="cc-slide" data-label="PYQs" role="group" aria-roledescription="slide">
-            <a class="cc-card" href="pyq.html" draggable="false">
-              <div class="cc-body">
-                <span class="cc-tag">PREVIOUS YEARS</span>
-                <h3 class="cc-title">PYQs</h3>
-                <p class="cc-line">See how the exam has actually asked it.</p>
-                <p class="cc-more">700 real questions from five papers, shuffled into a timed test with a unit-wise result.</p>
-                <span class="btn primary cc-cta">Take a PYQ test →</span>
-              </div>
-              <div class="cc-vis" aria-hidden="true">
-                <div class="cc-sheets"><div class="cc-sheet s3"></div><div class="cc-sheet s2"></div><div class="cc-sheet s1"><b>Year-wise</b><i class="cc-bar w80"></i><i class="cc-bar w60"></i><i class="cc-bar w70"></i><i class="cc-bar w40"></i></div></div>
-              </div>
+            <a class="hub-tile ht-2" href="pyq.html" draggable="false">
+              <svg class="ht-bg" aria-hidden="true" focusable="false"><use href="#hi-pyq"/></svg>
+              <span class="ht-top"><span class="ht-ic" aria-hidden="true"><svg focusable="false"><use href="#hi-pyq"/></svg></span><span class="ht-go" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+              <span class="ht-txt"><b>PYQs</b><small>700 real questions</small></span>
             </a>
-          </li>
-          <li class="cc-slide" data-label="Notes" role="group" aria-roledescription="slide">
-            <a class="cc-card" href="#notes" draggable="false">
-              <div class="cc-body">
-                <span class="cc-tag">FREE REVISION NOTES</span>
-                <h3 class="cc-title">Notes</h3>
-                <p class="cc-line">Free summary revision, built for confident recall.</p>
-                <p class="cc-more">Important concepts and memory-based events: cases, conventions, Acts and more. Short and structured.</p>
-                <span class="btn primary cc-cta">Explore Notes →</span>
-              </div>
-              <div class="cc-vis" aria-hidden="true">
-                <div class="cc-note"><div class="cc-note-t"><i class="cc-bar w60"></i></div><ul><li>Cases</li><li>Conventions</li><li>Acts</li></ul><i class="cc-bar w85"></i><i class="cc-bar w55"></i></div>
-              </div>
+            <a class="hub-tile ht-3" href="#notes" draggable="false">
+              <svg class="ht-bg" aria-hidden="true" focusable="false"><use href="#hi-notes"/></svg>
+              <span class="ht-top"><span class="ht-ic" aria-hidden="true"><svg focusable="false"><use href="#hi-notes"/></svg></span><span class="ht-go" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+              <span class="ht-txt"><b>Notes</b><small>Free revision notes</small></span>
             </a>
-          </li>
-          <li class="cc-slide" data-label="Pomodoro Technique" role="group" aria-roledescription="slide">
-            <a class="cc-card" href="#pomodoro" draggable="false">
-              <div class="cc-body">
-                <span class="cc-tag">STUDY SMARTER</span>
-                <h3 class="cc-title">The Pomodoro Technique</h3>
-                <p class="cc-line">25 minutes of focus. 5 minutes of rest. Repeat.</p>
-                <p class="cc-more">Work 25 minutes without distractions, rest 5, and take a longer break after four rounds.</p>
-                <span class="btn primary cc-cta">Start Focus Timer →</span>
-              </div>
-              <div class="cc-vis" aria-hidden="true">
-                <svg class="cc-clock" viewBox="0 0 160 160"><circle cx="80" cy="80" r="62" class="t"/><circle cx="80" cy="80" r="62" class="p" transform="rotate(-90 80 80)"/><text x="80" y="88" text-anchor="middle" class="n">25:00</text><text x="80" y="108" text-anchor="middle" class="s">FOCUS</text></svg>
-              </div>
+            <a class="hub-tile ht-4" href="about.html#a-pomodoro" draggable="false" data-pomo>
+              <svg class="ht-bg" aria-hidden="true" focusable="false"><use href="#hi-focus"/></svg>
+              <span class="ht-top"><span class="ht-ic" aria-hidden="true"><svg focusable="false"><use href="#hi-focus"/></svg></span><span class="ht-go" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+              <span class="ht-txt"><b>Pomodoro</b><small>25 / 5 focus timer</small></span>
             </a>
+              </div>
+            </div>
           </li>
         </ul>
       </div>
@@ -296,6 +261,7 @@
         <button type="button" class="cc-arrow" data-prev aria-label="Previous slide"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
         <div class="cc-dots" role="group" aria-label="Choose slide"></div>
         <button type="button" class="cc-arrow" data-next aria-label="Next slide"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+        <a class="nlf-pill" href="https://www.instagram.com/netlawverse/" target="_blank" rel="noopener noreferrer" data-nlf-open aria-label="Follow NET Law-Verse on Instagram (opens Instagram)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5.2"/><circle cx="12" cy="12" r="4.1"/><circle cx="17.3" cy="6.7" r=".6" fill="currentColor"/></svg><span>Follow on Instagram</span></a>
       </div>
       </div>
       <div class="cc-rail" role="group" aria-label="More to explore"></div>
@@ -395,12 +361,33 @@
     <a class="btn primary" href="pyq.html">Start a PYQ test</a>
   </div>
 </section>
+
+<section id="follow" class="section nlf-sec" aria-labelledby="nlf-h">
+  <div class="container">
+    <div class="nlf-card">
+      <div class="nlf-copy">
+        <span class="eyebrow">STAY CONNECTED</span>
+        <h2 id="nlf-h">Follow NET Law-Verse on Instagram</h2>
+        <p>Updates, study tips and new resources from <b>@netlawverse</b>, right in your feed. Free, like everything else here.</p>
+        <div class="nlf-actions">
+          <a class="nlf-follow" href="https://www.instagram.com/netlawverse/" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5.2"/><circle cx="12" cy="12" r="4.1"/><circle cx="17.3" cy="6.7" r=".6" fill="currentColor"/></svg><span>Follow @netlawverse</span></a>
+          <span class="nlf-hint nlf-hint-scan">Or scan the code with your phone camera.</span>
+          <span class="nlf-hint nlf-hint-tap">Opens in the Instagram app if you have it.</span>
+        </div>
+      </div>
+      <figure class="nlf-qr">
+        <img src="instagram-qr.png" width="640" height="735" alt="QR code for the NET Law-Verse Instagram profile, @netlawverse" loading="lazy" decoding="async">
+        <figcaption>Scan to follow</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
 </main>
 
 <footer>
   <div class="container footer-grid">
     <div><div class="brand footer-brand"><span class="brand-mark">NL</span><span class="brand-txt"><span class="brand-nm">NET Law<b>-Verse</b></span><small class="brand-tag">The Universe of Law</small></span></div><p class="foot-mission"><a href="mission.html">Mission Statement</a></p><p class="foot-mission"><a href="wisdom.html">Wisdom for the Journey</a></p><p>Free UGC NET Law (058) and Paper 1 preparation resources.</p><p><a href="mailto:netlawverse@gmail.com">netlawverse@gmail.com</a></p></div>
-    <div><strong>Resources</strong><a href="cutoff.html">Cut off (Law) Trend</a><a href="#mcqs">MCQs</a><a href="#notes">Notes</a><a href="#law">Syllabus</a><a href="pyq.html">PYQs</a><a href="#mock-tests">Mock tests</a><a href="ugc-net-paper-1.html">Paper-1</a><a href="faq.html">FAQ</a><a href="about.html">About</a><a href="mailto:netlawverse@gmail.com?subject=Report%20an%20error%20on%20netlawverse.in">Report an error</a><button type="button" class="nl-foot-link" data-nl-install hidden>Install App</button></div>
+    <div><strong>Resources</strong><a href="cutoff.html">Cut off (Law) Trend</a><a href="#mcqs">MCQs</a><a href="#notes">Notes</a><a href="#law">Syllabus</a><a href="pyq.html">PYQs</a><a href="#mock-tests">Mock tests</a><a href="ugc-net-paper-1.html">Paper-1</a><a href="faq.html">FAQ</a><a href="about.html">About</a><a href="https://www.instagram.com/netlawverse/" target="_blank" rel="noopener noreferrer">Instagram</a><a href="mailto:netlawverse@gmail.com?subject=Report%20an%20error%20on%20netlawverse.in">Report an error</a><button type="button" class="nl-foot-link" data-nl-install hidden>Install App</button></div>
     <div><strong>Study plans</strong><a href="ugc-net-law-preparation-plan.html">All preparation plans</a><a href="ugc-net-law-6-month-preparation-plan.html">6-month plan</a><a href="ugc-net-law-3-month-preparation-plan.html">3-month plan</a><a href="ugc-net-law-1-month-preparation-plan.html">1-month plan</a><a href="ugc-net-law-2-week-preparation-plan.html">2-week plan</a></div>
     <div><strong>Law 058 notes</strong><a href="ugc-net-law-unit-1-jurisprudence.html">Jurisprudence</a><a href="ugc-net-law-unit-2-constitutional-administrative-law.html">Constitutional &amp; Administrative Law</a><a href="ugc-net-law-unit-3-public-international-law-ihl.html">Public International Law &amp; IHL</a><a href="ugc-net-law-unit-4-law-of-crimes.html">Law of Crimes</a><a href="ugc-net-law-unit-5-torts-consumer-protection.html">Torts &amp; Consumer Protection</a><a href="ugc-net-law-unit-6-commercial-law.html">Commercial Law</a><a href="ugc-net-law-unit-7-family-law.html">Family Law</a><a href="ugc-net-law-unit-8-environment-human-rights.html">Environment &amp; Human Rights</a><a href="ugc-net-law-unit-9-ipr-it-law.html">IPR &amp; IT Law</a><a href="ugc-net-law-unit-10-comparative-public-law.html">Comparative Public Law</a></div>
     <div><strong>Paper 1 notes</strong><a href="ugc-net-paper-1-unit-1-teaching-aptitude.html">Teaching Aptitude</a><a href="ugc-net-paper-1-unit-2-research-aptitude.html">Research Aptitude</a><a href="ugc-net-paper-1-unit-3-comprehension.html">Comprehension</a><a href="ugc-net-paper-1-unit-4-communication.html">Communication</a><a href="ugc-net-paper-1-unit-5-mathematical-reasoning.html">Mathematical Reasoning</a><a href="ugc-net-paper-1-unit-6-logical-reasoning.html">Logical Reasoning</a><a href="ugc-net-paper-1-unit-7-data-interpretation.html">Data Interpretation</a><a href="ugc-net-paper-1-unit-8-ict.html">ICT</a><a href="ugc-net-paper-1-unit-9-people-development-environment.html">People, Development &amp; Environment</a><a href="ugc-net-paper-1-unit-10-higher-education-system.html">Higher Education System</a></div>
@@ -422,6 +409,7 @@
 <script src="nl-countdown.js"></script>
 <script src="hero-carousel.js"></script>
 <script src="carousel-counts.js"></script>
+<script src="follow.js" defer></script>
 <script src="daily-quiz.js"></script>
 <script src="ese.js"></script>
 <script src="nl-test.js"></script>

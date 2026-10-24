@@ -176,3 +176,58 @@ section.hero{padding:20px 0 32px}
 .cc-chips-sm{gap:6px;justify-content:flex-start}.cc-chips-sm span{padding:5px 10px;font-size:.71875rem}
 .cc-types span{background:var(--surface);border-color:var(--ac2);color:var(--ac-d)}
 .cc-types span:nth-child(odd){background:var(--surface);border-color:var(--ac2);color:var(--ac-d)}
+
+/* ===== Study Toolkit slide: Mock Tests, PYQs, Notes and Pomodoro as four square boxes ===== */
+.hub-sprite{position:absolute;width:0;height:0;overflow:hidden}
+.cc-hub{display:flex;flex-direction:column;gap:14px;padding:20px 28px 26px;grid-template-columns:none}
+.hub-head{display:flex;flex-direction:column;align-items:flex-start;min-width:0}
+.cc-hub .cc-title{margin:9px 0 4px}
+.cc-hub .cc-line{color:var(--text2);font-size:.9375rem}
+/* the grid is a size container, so every box can be a true square that fits whatever room is left */
+.hub-grid{--g:16px;--cols:4;--rows:1;flex:1 1 0;min-height:0;container-type:size;display:grid;grid-template-columns:repeat(var(--cols),minmax(0,1fr));gap:var(--g);align-content:center}
+.hub-tile{--s:140px;--tk:var(--ac);--tkd:var(--btn);--tkt:var(--tint);
+  position:relative;isolation:isolate;overflow:hidden;display:flex;flex-direction:column;justify-content:space-between;
+  width:var(--s);height:var(--s);justify-self:center;align-self:center;padding:calc(var(--s)*.09);
+  border-radius:calc(var(--s)*.13);border:1px solid color-mix(in srgb,var(--tk) 36%,var(--line));
+  background:linear-gradient(155deg,var(--tkt) 0%,var(--surface) 80%);color:var(--text);text-decoration:none;
+  box-shadow:0 6px 16px color-mix(in srgb,var(--deep) 8%,transparent);
+  transition:transform .3s cubic-bezier(.2,.7,.2,1),box-shadow .3s ease,border-color .3s ease;-webkit-tap-highlight-color:transparent}
+@supports (width:1cqw){
+  .hub-tile{--s:min(calc((100cqw - (var(--cols) - 1)*var(--g))/var(--cols)),calc((100cqh - (var(--rows) - 1)*var(--g))/var(--rows)))}
+}
+.hub-tile::after{content:"";position:absolute;left:0;right:0;bottom:0;height:4px;background:var(--tk)}
+.ht-1{--tk:var(--ac);--tkd:var(--btn);--tkt:var(--tint)}
+.ht-2{--tk:var(--c2);--tkd:var(--c2-deep);--tkt:var(--c2-tint)}
+.ht-3{--tk:var(--c3);--tkd:var(--c3-deep);--tkt:var(--c3-tint)}
+.ht-4{--tk:color-mix(in srgb,var(--ac) 50%,var(--c3));--tkd:color-mix(in srgb,var(--btn) 50%,var(--c3-deep));--tkt:color-mix(in srgb,var(--tint) 50%,var(--c3-tint))}
+.ht-top{display:flex;align-items:flex-start;justify-content:space-between;gap:6px}
+.ht-ic{display:grid;place-items:center;flex:none;width:clamp(34px,calc(var(--s)*.27),52px);aspect-ratio:1;border-radius:clamp(10px,calc(var(--s)*.075),15px);background:var(--tkd);color:#fff;box-shadow:0 5px 12px color-mix(in srgb,var(--tkd) 35%,transparent)}
+.ht-ic svg{width:56%;height:56%;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.ht-go{display:grid;place-items:center;flex:none;width:clamp(24px,calc(var(--s)*.16),32px);aspect-ratio:1;border-radius:50%;background:var(--surface);border:1px solid color-mix(in srgb,var(--tk) 40%,var(--line));color:var(--tkd);transition:background .25s,color .25s,transform .3s}
+.ht-go svg{width:55%;height:55%;fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.ht-txt{display:block;min-width:0;padding-bottom:4px}
+.ht-txt b{display:block;font-size:clamp(.8125rem,calc(var(--s)*.098),1.2rem);font-weight:800;line-height:1.15;letter-spacing:-.015em;color:var(--text)}
+.ht-txt small{display:block;margin-top:3px;font-size:clamp(.65rem,calc(var(--s)*.06),.8125rem);font-weight:700;line-height:1.25;color:var(--mut)}
+.ht-bg{position:absolute;z-index:-1;right:-10%;bottom:-6%;width:64%;height:64%;fill:none;stroke:var(--tk);stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;opacity:.16;transform:rotate(-10deg);transition:transform .45s cubic-bezier(.2,.7,.2,1),opacity .3s}
+.hub-tile:hover,.hub-tile:focus-visible{transform:translateY(-6px);border-color:var(--tk);box-shadow:0 16px 30px color-mix(in srgb,var(--tk) 30%,transparent)}
+.hub-tile:hover .ht-go,.hub-tile:focus-visible .ht-go{background:var(--tkd);border-color:var(--tkd);color:#fff;transform:translateX(2px)}
+.hub-tile:hover .ht-bg,.hub-tile:focus-visible .ht-bg{transform:rotate(0) scale(1.1);opacity:.24}
+.hub-tile:active{transform:scale(.97);transition-duration:.1s}
+.hub-tile:focus-visible{outline:3px solid var(--ac);outline-offset:3px}
+/* the whole card must not lift: the boxes do that themselves */
+.cc-slide.is-active .cc-card.cc-hub:hover,.cc-slide.is-active .cc-card.cc-hub:focus-visible{transform:none;box-shadow:0 10px 28px color-mix(in srgb,var(--deep) 10%,transparent)}
+
+/* Short laptop screens: drop the intro line so the boxes keep their size */
+@media(min-width:1000px) and (max-height:820px){.cc-hub .cc-line{display:none}.cc-hub{gap:10px}}
+/* Tablet widths: the rail is beside the card, so the boxes are compact (icon + name) */
+@media(min-width:768px) and (max-width:999px){
+  .cc-hub{padding:18px 18px 22px}.hub-grid{--g:10px}.ht-txt small{display:none}.ht-go{display:none}
+  .cc-hub .cc-line{font-size:.875rem}
+}
+/* Phones: 2 x 2 */
+@media(max-width:767px){
+  .cc-hub{padding:18px 16px 22px;gap:12px}
+  .hub-grid{--cols:2;--rows:2;--g:12px}
+  .cc-hub .cc-title{font-size:1.5rem}
+}
+@media(prefers-reduced-motion:reduce){.hub-tile,.ht-bg,.ht-go{transition:none!important}.hub-tile:hover,.hub-tile:focus-visible{transform:none}}

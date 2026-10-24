@@ -44,6 +44,7 @@ download:'<path d="M12 4v11M7 11l5 5 5-5M5 20h14"/>',compass:'<circle cx="12" cy
 quote:'<path d="M9.5 7C6.5 8 5 10.4 5 14v3h5v-5H7.5c.1-2 1-3.3 2.5-4zM19 7c-3 1-4.5 3.4-4.5 7v3h5v-5H17c.1-2 1-3.3 2.5-4z"/>',
 spark:'<path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/><path d="M19 16l.7 1.8L21.5 18.5l-1.8.7L19 21l-.7-1.8-1.8-.7 1.8-.7z"/>',
 share:'<path d="M12 15V4M8 8l4-4 4 4M6 12H5a1 1 0 00-1 1v7a1 1 0 001 1h14a1 1 0 001-1v-7a1 1 0 00-1-1h-1"/>',
+ig:'<rect x="3" y="3" width="18" height="18" rx="5.2"/><circle cx="12" cy="12" r="4.1"/><circle cx="17.3" cy="6.7" r=".6" fill="currentColor"/>',
 copy:'<rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V5a1 1 0 00-1-1H5a1 1 0 00-1 1v10a1 1 0 001 1h3"/>'
 };
 const I=new Proxy({},{get:(_,k)=>sv(P[k])});
@@ -134,6 +135,9 @@ function screen(o){
 const tbar=(title,{sub='',right='',left=I.back,la='back'}={})=>`<div class="tb"><button class="ib" data-a="${la}" aria-label="Back">${left}</button><h1>${esc(title)}${sub?`<small>${sub}</small>`:''}</h1>${right}</div>`;
 const loading=(msg='Loading questions…')=>screen({top:tbar('NET Law-Verse',{left:I.menu,la:'drawer'}),body:`<div class="empty" style="padding-top:90px"><div class="spin"></div><b>${msg}</b>First time only. After this your phone keeps them.</div>`,nav:'home'});
 const ico=(name,c)=>`<span class="ico" style="--c:${c}">${I[name]}</span>`;
+/* Instagram: phones open the profile (a screen cannot scan itself); tablets also show the QR code for a phone camera */
+const IG_URL='https://www.instagram.com/netlawverse/';
+const igCard=()=>`<h2 class="h2">Follow us</h2><div class="card igc"><span class="igb">${sv(P.ig,26)}</span><div class="ti"><h3>@netlawverse</h3><p>Updates, study tips and new resources on Instagram.</p><a class="igf" href="${IG_URL}" target="_blank" rel="noopener noreferrer">${sv(P.ig,18)}Follow on Instagram</a></div>${isTab?`<figure class="igq"><img src="instagram-qr.png" width="640" height="735" alt="QR code for the NET Law-Verse Instagram profile" loading="lazy"><figcaption>Scan to follow</figcaption></figure>`:''}</div>`;
 
 /* ---------- routing ---------- */
 const NEEDS_BANK=/^\/(subjects|practice|search|bookmarks|profile|syllabus|strategy)/;
@@ -170,7 +174,7 @@ A.enter=()=>{ls.set('nl-m-seen',1);go('/')};
 /* ---------- drawer ---------- */
 A.drawer=()=>{const dk=document.documentElement.dataset.mode==='dark',cs=document.documentElement.dataset.scheme,vis=window.NLPWA&&NLPWA.visible&&NLPWA.visible();
 openSheet(`<div class="brand"><span class="lg">${sv(P.scale,22)}</span><span style="display:flex;flex-direction:column;gap:3px;line-height:1">NET Law-Verse<small style="font-size:.55rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--mut,#6b7488)">The Universe of Law</small></span></div><div class="sh-b"><div class="dl">
-<a href="#/">${I.home}Home</a><a href="#/strategy">${I.compass}Exam strategy</a><a href="#/plan">${I.cal}Study Plan</a><a href="#/mocks">${I.test}Mock Tests</a><a href="#/subjects">${I.scale}Law 058</a><a href="#/subjects/1">${I.cap}Paper 1</a><a href="#/syllabus/0">${I.book}Syllabus</a><a href="#/notes">${I.file}Notes</a><a href="pyq.html">${I.target}PYQs</a><a href="#/bookmarks">${I.bm}Bookmarks</a><a href="#/profile">${I.user}My progress</a><div class="dsep"></div><a href="#/wisdom">${I.quote}Wisdom for the journey</a><a href="#/faq">${I.help}FAQ &amp; exam pattern</a><a href="#/mission">${I.flag}Mission statement</a><div class="dsep"></div><button data-a="shareapp">${I.share}Share NET Law-Verse</button>${vis?`<button data-a="install">${I.download}Install app</button>`:''}<button data-a="desktop">${I.desk}Use desktop site</button></div>
+<a href="#/">${I.home}Home</a><a href="#/strategy">${I.compass}Exam strategy</a><a href="#/plan">${I.cal}Study Plan</a><a href="#/mocks">${I.test}Mock Tests</a><a href="#/subjects">${I.scale}Law 058</a><a href="#/subjects/1">${I.cap}Paper 1</a><a href="#/syllabus/0">${I.book}Syllabus</a><a href="#/notes">${I.file}Notes</a><a href="pyq.html">${I.target}PYQs</a><a href="#/bookmarks">${I.bm}Bookmarks</a><a href="#/profile">${I.user}My progress</a><div class="dsep"></div><a href="#/wisdom">${I.quote}Wisdom for the journey</a><a href="#/faq">${I.help}FAQ &amp; exam pattern</a><a href="#/mission">${I.flag}Mission statement</a><div class="dsep"></div><button data-a="shareapp">${I.share}Share NET Law-Verse</button><a href="${IG_URL}" target="_blank" rel="noopener noreferrer">${I.ig}Follow on Instagram</a>${vis?`<button data-a="install">${I.download}Install app</button>`:''}<button data-a="desktop">${I.desk}Use desktop site</button></div>
 <div class="fld" style="margin-top:14px"><b>Appearance</b><div class="sw">${SCHEMES.map(s=>`<button class="swb ${cs===s[0]?'on':''}" style="--c:${s[2]}" data-a="scheme" data-s="${s[0]}"><i></i>${s[1]}</button>`).join('')}</div><button class="btn sec sm" style="margin-top:12px" data-a="mode">${dk?I.sun+' Light mode':I.moon+' Dark mode'}</button></div></div>`,'left')};
 A.scheme=t=>{setTheme(t.dataset.s);A.drawer()};
 A.mode=()=>{setTheme(null,document.documentElement.dataset.mode==='dark'?'light':'dark');A.drawer()};
@@ -210,7 +214,7 @@ R.home=()=>{
   body:`<section class="hero"><div class="w"><p class="hi">${greet()}</p><h2 class="ht">UGC NET Law (058) &amp; Paper 1</h2><p class="hs">Free MCQs, mock tests, notes and study plans.</p><div class="hx">${cdHTML()}<div class="hring">${ringSVG(pc)}<b>${Math.round(pc)}%<small>practised</small></b></div></div></div></section>
   <div class="w pad">${isTab?`<div class="home-g"><div>${left}</div><div>${right}</div></div>`:left+right}
   <h2 class="h2">Wisdom for today</h2>${wisCard()}
-  ${window.NLShare?`<h2 class="h2">Help a friend prepare</h2><div class="card cont">${ico('share','var(--c2-deep)')}<div class="ti"><h3>Invite a friend</h3><p>Share 9,000+ free MCQs, 17 mock tests, notes and study plans with someone preparing for UGC NET.</p></div><button class="btn sm" data-a="shareapp">Share</button></div>`:''}<h2 class="h2">Learn more</h2><div class="duo"><a class="mc" href="#/faq">${ico('help','var(--c2-deep)')}<b>FAQ &amp; exam pattern</b><small>Marking, syllabus, how to prepare</small></a><a class="mc" href="#/mission">${ico('flag','var(--c3-deep)')}<b>Our mission</b><small>Why NET Law-Verse exists</small></a></div></div>`});
+  ${window.NLShare?`<h2 class="h2">Help a friend prepare</h2><div class="card cont">${ico('share','var(--c2-deep)')}<div class="ti"><h3>Invite a friend</h3><p>Share 9,000+ free MCQs, 17 mock tests, notes and study plans with someone preparing for UGC NET.</p></div><button class="btn sm" data-a="shareapp">Share</button></div>`:''}${igCard()}<h2 class="h2">Learn more</h2><div class="duo"><a class="mc" href="#/faq">${ico('help','var(--c2-deep)')}<b>FAQ &amp; exam pattern</b><small>Marking, syllabus, how to prepare</small></a><a class="mc" href="#/mission">${ico('flag','var(--c3-deep)')}<b>Our mission</b><small>Why NET Law-Verse exists</small></a></div></div>`});
   if(!S.bank)loadBank().then(()=>{if((location.hash.slice(1)||'/')==='/')R.home()}).catch(()=>{});
   if(!window.NLM_WISDOM)setTimeout(()=>loadJS('m-wisdom.js').then(()=>{const el=$('#wis');if(el&&(location.hash.slice(1)||'/')==='/'){const t=document.createElement('div');t.innerHTML=wisCard();el.replaceWith(t.firstChild)}}).catch(()=>{}),350);
 };
@@ -446,6 +450,7 @@ R.profile=()=>{const all=S.bank.length,s=prog.stats(S.bank),res=MOCKS.map(m=>ls.
   <button class="row" data-a="goal">${I.target}<div class="ti"><h3>Daily goal</h3><p>Today ${dg.n}/${dg.goal} · ${dg.streak}-day streak</p></div>${I.chevR}</button>
   <button class="row" data-a="drawer">${I.gear}<div class="ti"><h3>Appearance</h3><p>Colour theme and dark mode</p></div>${I.chevR}</button>
   ${window.NLShare?`<button class="row" data-a="shareapp">${I.share}<div class="ti"><h3>Share NET Law-Verse</h3><p>Send it to a friend who is preparing</p></div>${I.chevR}</button>`:''}
+  <a class="row" href="${IG_URL}" target="_blank" rel="noopener noreferrer">${I.ig}<div class="ti"><h3>Follow on Instagram</h3><p>@netlawverse</p></div>${I.chevR}</a>
   <button class="row" data-a="resetall">${I.trash}<div class="ti"><h3>Reset practice progress</h3></div>${I.chevR}</button>
   ${window.NLPWA&&NLPWA.visible&&NLPWA.visible()?`<button class="row" data-a="install">${sv('<path d="M12 4v11M7 11l5 5 5-5M5 20h14"/>')}<div class="ti"><h3>Install app</h3><p>Add to your home screen, works offline</p></div>${I.chevR}</button>`:''}
   <button class="row" data-a="desktop">${I.desk}<div class="ti"><h3>Use desktop site</h3></div>${I.chevR}</button>
