@@ -92,6 +92,13 @@ footer p{margin:0 0 10px}footer a{margin:0 10px}.fine{opacity:.7;font-size:.88re
 .sw{width:26px;height:26px;border-radius:50%;border:3px solid var(--ink);cursor:pointer;padding:0}
 .sw[aria-pressed="true"]{outline:3px solid var(--ink);outline-offset:2px}
 @media(max-width:480px){.themes span{display:none}}
+
+.hub{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.hubc{display:flex;flex-direction:column;gap:6px;text-decoration:none;background:#fff;border:3px solid var(--ink);border-radius:22px;padding:20px;box-shadow:6px 6px 0 var(--ink);transition:transform .12s,box-shadow .12s}
+.hubc:hover{transform:translate(3px,3px);box-shadow:3px 3px 0 var(--ink)}
+.hubc b{font-size:1.15rem;font-weight:800}.hubc span{font-size:.92rem;line-height:1.45;font-weight:700;opacity:.75}
+.hubc i{font-style:normal;font-weight:800;margin-top:auto;padding-top:10px}
+@media(max-width:900px){.hub{grid-template-columns:repeat(2,1fr)}}@media(max-width:480px){.hub{grid-template-columns:1fr}}
 </style>
 <script>(function(){var ok=['violet','ocean','mint','sunset','sunny'],t='violet';try{var s=localStorage.getItem('clat-theme');if(ok.indexOf(s)>-1)t=s}catch(e){}document.documentElement.setAttribute('data-theme',t)})();</script>
 </head>
@@ -139,6 +146,17 @@ footer p{margin:0 0 10px}footer a{margin:0 10px}.fine{opacity:.7;font-size:.88re
 
   </div></div>
   <div class="ctrl"><button class="arrow" id="prev" aria-label="Previous slide">&#8592;</button><div class="dots" id="dots"></div><button class="arrow" id="next" aria-label="Next slide">&#8594;</button></div>
+</section>
+
+<section class="sec" id="explore">
+  <h3>Explore CLAT PG</h3>
+  <p>Free guides to the exam, the universities and the careers that follow.</p>
+  <div class="hub">
+    <a class="hubc" href="faq.html"><b>FAQ</b><span>Dates, eligibility, fees, pattern and counselling, answered.</span><i>Read the FAQ</i></a>
+    <a class="hubc" href="nlus.html"><b>Participating NLUs</b><span>The 26 member law universities that admit through CLAT PG.</span><i>See the list</i></a>
+    <a class="hubc" href="cutoffs.html"><b>Cut-offs</b><span>How closing ranks work and where to find reliable data.</span><i>Understand cut-offs</i></a>
+    <a class="hubc" href="psu-jobs.html"><b>PSU jobs</b><span>How CLAT PG scores lead to legal jobs at PSUs, with the PSU list.</span><i>Read the guide</i></a>
+  </div>
 </section>
 
 <section class="sec" id="subjects">
