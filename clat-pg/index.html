@@ -99,6 +99,13 @@ footer p{margin:0 0 10px}footer a{margin:0 10px}.fine{opacity:.7;font-size:.88re
 .hubc b{font-size:1.15rem;font-weight:800}.hubc span{font-size:.92rem;line-height:1.45;font-weight:700;opacity:.75}
 .hubc i{font-style:normal;font-weight:800;margin-top:auto;padding-top:10px}
 @media(max-width:900px){.hub{grid-template-columns:repeat(2,1fr)}}@media(max-width:480px){.hub{grid-template-columns:1fr}}
+.path{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.pc{position:relative;display:flex;flex-direction:column;text-decoration:none;background:#fff;border:3px solid var(--ink);border-radius:24px;padding:22px 20px;box-shadow:6px 6px 0 var(--ink);transition:transform .12s,box-shadow .12s}
+.pc:hover{transform:translate(3px,3px);box-shadow:3px 3px 0 var(--ink)}
+.pc em{font-style:normal;font-weight:800;font-size:3rem;line-height:1;letter-spacing:-.04em}.pc em small{font-size:.85rem;letter-spacing:.04em;margin-left:6px}
+.pc b{font-size:1.15rem;font-weight:800;margin:10px 0 6px}.pc span{font-size:.92rem;line-height:1.5;font-weight:700;opacity:.78}.pc i{font-style:normal;font-weight:800;margin-top:auto;padding-top:14px}
+.pc.fit{background:var(--sun)}.pc .tag{display:none;position:absolute;top:-14px;right:14px;background:var(--ink);color:#fff;border-radius:999px;padding:4px 12px;font-size:.78rem;font-weight:800}.pc.fit .tag{display:block}
+@media(max-width:900px){.path{grid-template-columns:repeat(2,1fr)}}@media(max-width:480px){.path{grid-template-columns:1fr}}
 </style>
 <script>(function(){var ok=['violet','ocean','mint','sunset','sunny'],t='violet';try{var s=localStorage.getItem('clat-theme');if(ok.indexOf(s)>-1)t=s}catch(e){}document.documentElement.setAttribute('data-theme',t)})();</script>
 </head>
@@ -146,6 +153,17 @@ footer p{margin:0 0 10px}footer a{margin:0 10px}.fine{opacity:.7;font-size:.88re
 
   </div></div>
   <div class="ctrl"><button class="arrow" id="prev" aria-label="Previous slide">&#8592;</button><div class="dots" id="dots"></div><button class="arrow" id="next" aria-label="Next slide">&#8594;</button></div>
+</section>
+
+<section class="sec" id="prep">
+  <h3>How much time do you have?</h3>
+  <p>Your plan should change with the days you have left. Pick the pathway that fits, and each one is built on what research says works. <span id="eta"></span></p>
+  <div class="path" id="paths">
+    <a class="pc" data-d="180" href="prep-6-months.html"><span class="tag">Closest fit</span><em>6<small>MONTHS</small></em><b>Build your foundation</b><span>Learn every subject properly, test as you go and let revision come round more than once.</span><i>View plan</i></a>
+    <a class="pc" data-d="90" href="prep-3-months.html"><span class="tag">Closest fit</span><em>3<small>MONTHS</small></em><b>Accelerate your preparation</b><span>Cover everything at pace, practise previous-year papers early and finish with mocks.</span><i>View plan</i></a>
+    <a class="pc" data-d="28" href="prep-4-weeks.html"><span class="tag">Closest fit</span><em>4<small>WEEKS</small></em><b>Consolidate and test</b><span>Stop widening your reading. Revise, test, find weak areas and close them.</span><i>View plan</i></a>
+    <a class="pc" data-d="14" href="prep-2-weeks.html"><span class="tag">Closest fit</span><em>2<small>WEEKS</small></em><b>Retrieve, practise and refine</b><span>Not the time to start over. Sharpen what you know and make every day count.</span><i>View plan</i></a>
+  </div>
 </section>
 
 <section class="sec" id="numbers">
@@ -222,6 +240,7 @@ tick();setInterval(tick,1000);
 <button class="sw" data-t="sunset" style="background:linear-gradient(135deg,#ff9eb5,#ffa86b)" aria-label="Sunset theme"></button>
 <button class="sw" data-t="sunny" style="background:linear-gradient(135deg,#ffd23f,#ff8fa8)" aria-label="Sunny theme"></button></div>
 <script>(function(){var b=document.querySelectorAll('.sw');function mark(){var c=document.documentElement.getAttribute('data-theme');for(var i=0;i<b.length;i++)b[i].setAttribute('aria-pressed',b[i].dataset.t===c)}
-for(var i=0;i<b.length;i++)b[i].onclick=function(){var t=this.dataset.t;document.documentElement.setAttribute('data-theme',t);try{localStorage.setItem('clat-theme',t)}catch(e){}mark()};mark()})();</script>
+for(var i=0;i<b.length;i++)b[i].onclick=function(){var t=this.dataset.t;document.documentElement.setAttribute('data-theme',t);try{localStorage.setItem('clat-theme',t)}catch(e){}mark()};mark()})();var t0=Date.UTC(2026,11,6,8,30,0);(function(){var d=Math.ceil((t0-Date.now())/864e5),e=document.getElementById('eta');if(d>0){e.textContent='The exam is on 6 December 2026, about '+(d>=14?Math.round(d/7)+' weeks':d+' days')+' away. The highlighted pathway is the closest fit, but choose the one that feels honest to you.';var P=[].slice.call(document.querySelectorAll('.pc')),b=null,m=1e9;P.forEach(function(p){var x=Math.abs(Math.log((d||1)/(+p.dataset.d)));if(x<m){m=x;b=p}});if(b)b.classList.add('fit')}})();
+</script>
 </body>
 </html>
