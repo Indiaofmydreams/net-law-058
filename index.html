@@ -126,6 +126,24 @@
     .card, nav a { transition:none; }
   }
 
+
+/* Landing in 2027: AIBE + Semester Law Notes */
+.soonhead{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 4px}
+.soonhead h2{margin:0;font-size:clamp(1.6rem,3.4vw,2.3rem);font-weight:800;letter-spacing:-.03em}
+.newpill{display:inline-block;padding:5px 14px;border-radius:999px;background:var(--ink);color:#fff;font-weight:800;font-size:.88rem}
+.soonsub{margin:0 0 30px;font-weight:700}
+.cards.two{grid-template-columns:repeat(2,1fr);padding-top:18px}
+.c4 .badge{background:#ef8f4e;color:var(--ink)}
+.c5 .badge{background:#8b5cf6;color:#fff}
+.c4 .chips li{background:#fbe3d0}
+.c5 .chips li{background:#e6dcff}
+.c4 .sticker{background:#fdecd9}
+.c5 .sticker{background:#e8e0ff}
+.c4 .go{background:#ef8f4e;color:var(--ink)}
+.c5 .go{background:#8b5cf6;color:#fff}
+.cards.two .card h2{font-size:1.65rem}
+@media (max-width:900px){.cards.two{grid-template-columns:1fr}}
+
 /* colour themes */
 :root{--b1:#e0d4ff;--b2:#bfa8ff;--b3:#94b8ff;--b4:#8de3ee;--sun:#f1e9ff;--soft:#f5f0ff}
 :root[data-theme="ocean"]{--b1:#c8f1ff;--b2:#8fd8ff;--b3:#7fb2ff;--b4:#9aa8ff;--sun:#e3f6ff;--soft:#eef9ff}
@@ -206,6 +224,37 @@
             <span class="go">Take a peek</span>
           </div>
         </a>
+      </section>
+
+      <section class="soon2027" aria-label="Landing in 2027">
+        <div class="soonhead"><h2>Landing in 2027</h2><span class="newpill">New</span></div>
+        <p class="soonsub">Two more sections are on their way. Peek at what is planned.</p>
+        <div class="cards two">
+          <a class="card c4" href="aibe-2027.html">
+            <span class="sticker">Next up</span>
+            <div class="badge">AI</div>
+            <h2>AIBE</h2>
+            <p class="what">All India Bar Examination</p>
+            <p class="desc">The bar exam that stands between your LL.B. and practice. Notes, MCQs and mock tests are being planned.</p>
+            <ul class="chips"><li>Notes</li><li>MCQs</li><li>Mock tests</li></ul>
+            <div class="foot">
+              <div class="count"><b>2027</b><small>Coming soon</small></div>
+              <span class="go">See what&rsquo;s coming</span>
+            </div>
+          </a>
+          <a class="card c5" href="semester-law-notes-2027.html">
+            <span class="sticker">Next up</span>
+            <div class="badge">SEM</div>
+            <h2>Semester Law Notes</h2>
+            <p class="what">LL.B. notes, semester by semester</p>
+            <p class="desc">Clear, exam-ready notes for every semester, with quick-revision sheets and practice questions.</p>
+            <ul class="chips"><li>By semester</li><li>Quick revision</li><li>Practice</li></ul>
+            <div class="foot">
+              <div class="count"><b>2027</b><small>Coming soon</small></div>
+              <span class="go">See what&rsquo;s coming</span>
+            </div>
+          </a>
+        </div>
       </section>
 
       <section class="band" aria-label="Exam countdown and features">

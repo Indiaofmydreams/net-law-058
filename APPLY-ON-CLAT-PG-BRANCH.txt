@@ -1,0 +1,12 @@
+APPLY ONLY ON THE CLAT-PG BRANCH. NEVER ON MAIN.
+
+COPY / OVERWRITE:
+  index.html                    (landing page, "Landing in 2027" section restored)
+  landmark-cases.html           (root: original UGC NET version, same as live)
+  clat-pg/landmark-cases.html   (CLAT PG landmark cases, moved here)
+  clat-pg/cases-data.js         (moved here)
+
+DELETE from the repo root:
+  cases-data.js
+  final-files.zip
+  theme-update.zip
