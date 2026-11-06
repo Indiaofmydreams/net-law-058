@@ -16,7 +16,7 @@
  */
 'use strict';
 
-const VERSION = 'v17';
+const VERSION = 'v18';
 const PREFIX = 'nl058-';
 const PAGES = PREFIX + 'pages-' + VERSION;   // site files
 const FONTS = PREFIX + 'fonts-v1';           // Google Fonts (css + woff2)
@@ -27,7 +27,7 @@ const FONT_HOSTS = ['fonts.googleapis.com', 'fonts.gstatic.com'];
 
 /* App shell: pages, styles, scripts, icons. Pre-cached at install (best effort; see below). */
 const CORE = [
-  './', 'index.html', 'app.html', 'offline.html',
+  './', 'index.html', 'net.html', 'app.html', 'offline.html',
     'manifest.json', 'pwa.js', 'pwa.css',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon.svg', 'icons/apple-touch-icon.png', 'icons/favicon-32.png', 'icons/favicon-48.png', 'icons/favicon-96.png', 'favicon.ico',
   'styles.css', 'syllabus-pro.css', 'qbank.css', 'disclaimer.css', 'theme.css', 'mock-tests.css',

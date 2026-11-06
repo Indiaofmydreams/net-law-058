@@ -178,7 +178,7 @@ openSheet(`<div class="brand"><span class="lg">${sv(P.scale,22)}</span><span sty
 <div class="fld" style="margin-top:14px"><b>Appearance</b><div class="sw">${SCHEMES.map(s=>`<button class="swb ${cs===s[0]?'on':''}" style="--c:${s[2]}" data-a="scheme" data-s="${s[0]}"><i></i>${s[1]}</button>`).join('')}</div><button class="btn sec sm" style="margin-top:12px" data-a="mode">${dk?I.sun+' Light mode':I.moon+' Dark mode'}</button></div></div>`,'left')};
 A.scheme=t=>{setTheme(t.dataset.s);A.drawer()};
 A.mode=()=>{setTheme(null,document.documentElement.dataset.mode==='dark'?'light':'dark');A.drawer()};
-A.desktop=()=>{location.href='index.html?desktop=1'};
+A.desktop=()=>{location.href='net.html?desktop=1'};
 A.install=()=>{closeSheet();if(window.NLPWA)NLPWA.install()};
 A.shareapp=()=>{closeSheet();if(window.NLShare)NLShare.open(NLShare.make.site())};
 addEventListener('nlpwa:change',()=>updateIns(S.lastO));
