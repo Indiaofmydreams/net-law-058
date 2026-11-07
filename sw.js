@@ -1,192 +1,64 @@
-/* NET Law-Verse service worker.
+/* NET Law-Verse service worker (v19): ONLINE ONLY.
  *
- * Goals: installable + works offline, WITHOUT ever getting in the way of site updates.
- *   - Every request goes to the NETWORK FIRST (identical to a site with no service worker).
- *     A copy is saved as a side effect; it is only used when the network fails or takes > 5 s.
- *   - No request is ever answered from cache while the network is healthy, so a new deploy
- *     (new questions, packs.json, mock tests, HTML, JS) is picked up on the very next load.
- *   - Only plain GET requests for this site (plus Google Fonts) are touched. Everything else
- *     (POST, ranges, other origins) passes straight through. Quiz progress lives in the page's
- *     localStorage, which a service worker never reads or writes.
+ * The site is installable as an app, but nothing is stored for offline use.
+ *   - Every request goes straight to the network, exactly as on a site with no service worker.
+ *   - The only thing kept on the phone is offline.html (plus its two style files), shown
+ *     when someone opens a page without internet.
+ *   - On activate, every cache from older versions (pages, fonts, question banks) is deleted,
+ *     so phones that already installed the app are cleaned up on their next visit.
  *
- * All URLs are resolved against the worker's own scope, so this works unchanged under
- * https://netlawverse.in/ and under a custom domain at "/".
- *
- * To force clients to drop old caches after a big change, bump VERSION below.
+ * Bump VERSION to force a clean-up again.
  */
 'use strict';
 
-const VERSION = 'v18';
+const VERSION = 'v19';
 const PREFIX = 'nl058-';
-const PAGES = PREFIX + 'pages-' + VERSION;   // site files
-const FONTS = PREFIX + 'fonts-v1';           // Google Fonts (css + woff2)
+const SHELL = PREFIX + 'offline-' + VERSION;
 const BASE = new URL('./', self.registration.scope).href;
 const abs = (p) => new URL(p, BASE).href;
-const NETWORK_TIMEOUT_MS = 5000;             // slow network + cached copy => use the copy
-const FONT_HOSTS = ['fonts.googleapis.com', 'fonts.gstatic.com'];
 
-/* App shell: pages, styles, scripts, icons. Pre-cached at install (best effort; see below). */
-const CORE = [
-  './', 'index.html', 'net.html', 'app.html', 'offline.html',
-    'manifest.json', 'pwa.js', 'pwa.css',
-  'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon.svg', 'icons/apple-touch-icon.png', 'icons/favicon-32.png', 'icons/favicon-48.png', 'icons/favicon-96.png', 'favicon.ico',
-  'styles.css', 'syllabus-pro.css', 'qbank.css', 'disclaimer.css', 'theme.css', 'mock-tests.css',
-  'hero-carousel.css', 'follow.css', 'follow.js', 'instagram-qr.png', 'section-nav.css', 'plan.css', 'nav-resources.css', 'about.css', 'faq.css',
-  'cutoff.css', 'pyq.css', 'm-app.css', 'm-themes.css', 'unit-page.css', 'watermark.css',
-  'script.js', 'syllabus-pro.js', 'bank-loader.js', 'nl-nav.js', 'nl-report.js', 'nl-share.js', 'nl-quiz.js',
-  'qbank.js', 'modules.js', 'theme.js', 'disclaimer.js', 'mock-home.js', 'accessibility.js',
-  'nl-countdown.js', 'hero-carousel.js', 'carousel-counts.js', 'daily-quiz.js', 'ese.js',
-  'nl-test.js', 'section-nav.js', 'plan.js', 'nav-resources.js', 'about.js', 'faq.js',
-  'cutoff.js', 'pyq.js', 'mock-test-engine.js', 'm-app.js', 'm-wisdom.js', 'm-extras.js',
-];
-/* If any of these cannot be fetched the install fails and is retried later. */
-const REQUIRED = ['index.html', 'app.html', 'offline.html'];
+/* The offline notice and the styles it uses. Nothing else is ever saved. */
+const OFFLINE_FILES = ['offline.html', 'styles.css', 'theme.css', 'icons/icon-192.png', 'icons/icon.svg'];
 
-/* Learning content (questions, packs, mock tests) is never stored: it is always fetched live, so it needs internet. */
-const LIVE_ONLY = /\/(questions\.(json|js)|packs\.json|pack-[^/]+\.json|exam-dates\.json|syllabus-data\.js|cutoff-data\.js|pyq-data\.json|mock-test-data-\d+\.js|mock-test-\d+\.html)$/;
-
-/* Content pages (notes, study plans, Paper 1 guide, cut-offs, FAQ, About): live only, offline.html when there is no internet. */
-const LIVE_PAGES = /\/(ugc-net-[^/]+|unit-[^/]+|mock-test-\d+|cutoff|faq|about|pyq)\.html$/;
-
-const stripSearch = (url) => { const u = new URL(url); u.search = ''; u.hash = ''; return u.href; };
-
-const cacheable = (res) =>
-  res && res.status === 200 && res.type === 'basic' &&
-  !/no-store/i.test(res.headers.get('Cache-Control') || '');
-
-/* ---------- install / activate ---------- */
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
-    const cache = await caches.open(PAGES);
-    const results = await Promise.allSettled(CORE.map(async (p) => {
-      const res = await fetch(new Request(abs(p), { cache: 'reload' }));   // bypass HTTP cache
-      if (!res.ok) throw new Error(p + ' -> ' + res.status);
-      await cache.put(abs(p), res);
+    const cache = await caches.open(SHELL);
+    await Promise.allSettled(OFFLINE_FILES.map(async (p) => {
+      const res = await fetch(new Request(abs(p), { cache: 'reload' }));
+      if (res.ok) await cache.put(abs(p), res);
     }));
-    const failed = CORE.filter((_, i) => results[i].status === 'rejected');
-    if (failed.some((p) => REQUIRED.includes(p))) throw new Error('Shell unavailable: ' + failed.join(', '));
-    await self.skipWaiting();   // safe: the worker never alters content, it only adds an offline fallback
+    await self.skipWaiting();
   })());
 });
 
 self.addEventListener('activate', (event) => {
   event.waitUntil((async () => {
-    const keep = [PAGES, FONTS];
-    for (const k of await caches.keys()) if (k.startsWith(PREFIX) && !keep.includes(k)) await caches.delete(k);
+    for (const k of await caches.keys()) if (k !== SHELL) await caches.delete(k);   // drop all old copies of the site
     await self.clients.claim();
   })());
 });
 
-/* ---------- fetch ---------- */
 self.addEventListener('fetch', (event) => {
   const req = event.request;
-  if (req.method !== 'GET' || req.headers.has('range')) return;
-  if (req.cache === 'only-if-cached' && req.mode !== 'same-origin') return;
+  if (req.method !== 'GET') return;
   const url = new URL(req.url);
+  if (url.origin !== self.location.origin || !url.href.startsWith(BASE)) return;   // other sites: browser default
 
-  if (url.origin === self.location.origin) {
-    if (!url.href.startsWith(BASE)) return;              // outside our scope
-    if (url.pathname.endsWith('/sw.js')) return;         // never cache the worker itself
-    if (req.mode === 'navigate' && LIVE_PAGES.test(url.pathname)) { event.respondWith(fetch(req).catch(async () => (await (await caches.open(PAGES)).match(abs('offline.html'))) || Response.error())); return; }
-    if (LIVE_ONLY.test(url.pathname)) return;            // content: network only, never saved
-    event.respondWith(req.mode === 'navigate' ? navigate(event) : asset(event));
-  } else if (FONT_HOSTS.includes(url.hostname)) {
-    event.respondWith(font(event));
+  /* Pages: network only. No internet => the offline notice. */
+  if (req.mode === 'navigate') {
+    event.respondWith(fetch(req).catch(async () =>
+      (await (await caches.open(SHELL)).match(abs('offline.html'))) || Response.error()));
+    return;
   }
-  /* anything else: browser default */
+
+  /* Only the offline notice's own styles/icons may come from the cache, and only when the network fails. */
+  if (OFFLINE_FILES.some((p) => url.href === abs(p))) {
+    event.respondWith(fetch(req).catch(async () =>
+      (await (await caches.open(SHELL)).match(req, { ignoreSearch: true })) || Response.error()));
+  }
+  /* everything else (pages' scripts, questions, mock tests, notes): browser default = needs internet */
 });
 
-/* Network first; cached copy only if the network fails, errors (5xx) or is slower than the timeout. */
-async function networkFirst(event, key, ignoreSearch) {
-  const cache = await caches.open(PAGES);
-  const cached = await cache.match(key, { ignoreSearch });
-
-  const net = fetch(event.request).then((res) => {
-    if (cacheable(res)) event.waitUntil(cache.put(key, res.clone()).catch(() => {}));
-    return res;
-  });
-  if (!cached) return net;                               // nothing to fall back on: plain network behaviour
-
-  event.waitUntil(net.catch(() => {}));                  // let a slow request finish and refresh the copy
-  const timer = new Promise((resolve) => setTimeout(resolve, NETWORK_TIMEOUT_MS, null));
-  try {
-    const res = await Promise.race([net, timer]);
-    return !res || res.status >= 500 ? cached : res;
-  } catch (_) {
-    return cached;
-  }
-}
-
-async function navigate(event) {
-  const key = stripSearch(event.request.url);            // ?desktop=1, ?source=pwa etc. share one entry
-  try {
-    return await networkFirst(event, key, true);
-  } catch (_) {
-    const cache = await caches.open(PAGES);
-    return (key === BASE && (await cache.match(abs('index.html')))) ||
-           (await cache.match(abs('offline.html'))) ||
-           Response.error();
-  }
-}
-
-function asset(event) {
-  return networkFirst(event, event.request.url, false);  // failure with no copy => normal network error
-}
-
-/* Fonts: stale-while-revalidate (they are immutable, so this is safe). */
-async function font(event) {
-  const cache = await caches.open(FONTS);
-  const cached = await cache.match(event.request);
-  const net = fetch(event.request).then((res) => {
-    if (res && (res.ok || res.type === 'opaque')) event.waitUntil(cache.put(event.request, res.clone()).catch(() => {}));
-    return res;
-  });
-  if (cached) { event.waitUntil(net.catch(() => {})); return cached; }
-  return net;
-}
-
-/* ---------- messages from the page ---------- */
-let warming = null;
 self.addEventListener('message', (event) => {
-  const d = event.data || {};
-  if (d.type === 'SKIP_WAITING') self.skipWaiting();
-  if (d.type === 'WARM') {
-    if (!warming) warming = warm().finally(() => { warming = null; });
-    event.waitUntil(warming);
-  }
+  if (event.data && event.data.type === 'SKIP_WAITING') self.skipWaiting();
 });
-
-/* Background download of the question bank and mock tests so quizzes work offline.
-   The file list is discovered from packs.json and by probing mock-test-1, 2, 3, ... so new
-   packs / mock tests need no change here. */
-async function warm() {
-  return; // bulk offline download disabled: content stays online-first
-  const cache = await caches.open(PAGES);
-  let ok = 0, failed = 0;
-  const grab = async (p) => {
-    try {
-      const res = await fetch(abs(p));
-      if (!cacheable(res)) return false;
-      await cache.put(abs(p), res); ok++; return true;
-    } catch (_) { failed++; return false; }
-  };
-  const files = ['questions.json', 'packs.json', 'exam-dates.json'];
-  try {
-    const res = await fetch(abs('packs.json'));
-    if (res.ok) {
-      const packs = await res.clone().json();
-      for (const k of packs) if (k && typeof k.file === 'string') files.push(k.file);
-      if (cacheable(res)) { await cache.put(abs('packs.json'), res); }
-    }
-  } catch (_) { /* packs.json optional */ }
-
-  for (let i = 0; i < files.length; i += 4) await Promise.all(files.slice(i, i + 4).map(grab));
-
-  for (let n = 1; n <= 80; n++) {                        // mock-test-N.html + mock-test-data-N.js
-    const page = await grab('mock-test-' + n + '.html');
-    if (!page) break;                                    // first missing number ends the series
-    await grab('mock-test-data-' + n + '.js');
-  }
-  const all = await self.clients.matchAll({ includeUncontrolled: true });
-  all.forEach((c) => c.postMessage({ type: 'WARM_DONE', ok, failed }));
-}
