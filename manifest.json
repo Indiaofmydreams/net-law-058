@@ -3,7 +3,7 @@
   "name": "NET Law-Verse: The Universe of Law",
   "short_name": "NetLawVerse",
   "description": "NET Law-Verse: The Universe of Law. Free UGC NET Law (058) and Paper 1 MCQs with explanations, mock tests, notes and study plans.",
-  "start_url": "./?source=pwa",
+  "start_url": "./net.html?source=pwa",
   "scope": "./",
   "display": "standalone",
   "display_override": ["standalone", "minimal-ui"],
@@ -20,8 +20,8 @@
     { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ],
   "shortcuts": [
-    { "name": "Mock Tests", "short_name": "Mock Tests", "url": "./index.html#mock-tests", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
-    { "name": "Practice MCQs", "short_name": "MCQs", "url": "./index.html#mcqs", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
-    { "name": "Study Plan", "short_name": "Study Plan", "url": "./index.html#plan", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] }
+    { "name": "Mock Tests", "short_name": "Mock Tests", "url": "./net.html#mock-tests", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Practice MCQs", "short_name": "MCQs", "url": "./net.html#mcqs", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Study Plan", "short_name": "Study Plan", "url": "./net.html#plan", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] }
   ]
 }
