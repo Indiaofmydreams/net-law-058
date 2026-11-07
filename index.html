@@ -144,7 +144,10 @@
 .c4 .go{background:#ef8f4e;color:var(--ink)}
 .c5 .go{background:#8b5cf6;color:#fff}
 .cards.two .card h2{font-size:1.65rem}
+.cards.two>.card{min-width:0}.cards.two .foot{flex-wrap:wrap;gap:12px}.cards.two .chips{flex-wrap:wrap}
 @media (max-width:900px){.cards.two{grid-template-columns:1fr}}
+/* tablets in portrait: two columns instead of the phone layout */
+@media (min-width:601px) and (max-width:900px){.cards,.cards.two{grid-template-columns:repeat(2,1fr);gap:26px;max-width:820px}.cards>.card:last-child:nth-child(odd){grid-column:1/-1}}
 
 /* colour themes */
 :root{--b1:#e0d4ff;--b2:#bfa8ff;--b3:#94b8ff;--b4:#8de3ee;--sun:#f1e9ff;--soft:#f5f0ff}
