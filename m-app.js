@@ -154,10 +154,10 @@ const R={};
 const JSP={};
 function loadJS(f){return JSP[f]||(JSP[f]=new Promise((ok,no)=>{const e=document.createElement('script');e.src=f;e.onload=ok;e.onerror=()=>{delete JSP[f];no()};document.head.appendChild(e)}))}
 function lazy(name,file){const stub=()=>{
-  screen({top:tbar(name==='strategy'?'Exam strategy':name==='faq'?'FAQ':name==='wisdom'?'Wisdom':'Our mission'),body:'<div class="empty" style="padding-top:90px"><div class="spin"></div><b>Opening…</b></div>',xnav:'x/'+name});
+  screen({top:tbar({strategy:'Exam strategy',faq:'FAQ',wisdom:'Wisdom',clat:'CLAT PG',aibe:'AIBE',sem:'Semester Law Notes'}[name]||'Our mission'),body:'<div class="empty" style="padding-top:90px"><div class="spin"></div><b>Opening…</b></div>',xnav:'x/'+name});
   loadJS(file).then(()=>{if(R[name]===stub)throw 0;if((location.hash.slice(1)||'/').split('/')[1]===name)route()}).catch(()=>screen({top:tbar('NET Law-Verse'),body:'<div class="empty"><b>Could not open this</b>Check your connection and try again.<br><br><button class="btn" data-a="reload">Retry</button></div>'}))};
   R[name]=stub}
-lazy('strategy','m-extras.js');lazy('faq','m-extras.js');lazy('wisdom','m-wisdom.js');lazy('mission','m-wisdom.js');
+lazy('strategy','m-extras.js');lazy('faq','m-extras.js');lazy('wisdom','m-wisdom.js');lazy('mission','m-wisdom.js');lazy('clat','m-clat.js');lazy('aibe','m-clat.js');lazy('sem','m-clat.js');
 addEventListener('hashchange',()=>{S.hist++;route()});
 
 /* ---------- actions (event delegation) ---------- */
@@ -222,7 +222,7 @@ R.home=()=>{
 /* ---------- all exams: the website's exam chooser, built for the app. Phones: big tiles in one column. Tablets: two columns + a sidebar entry. ---------- */
 function exStyle(){if(document.getElementById('nlx-css'))return;const s=document.createElement('style');s.id='nlx-css';s.textContent='.xp{margin:2px 2px 14px;font-size:.9375rem;line-height:1.5;color:var(--text2,var(--mut));font-weight:600}.xgrid{display:grid;grid-template-columns:1fr;gap:12px}.xgrid .card.cont{margin:0;text-decoration:none;color:inherit}.xgrid .cont p{white-space:normal;margin:3px 0 0;line-height:1.4}.xtag{flex:none;align-self:center;padding:5px 11px;border-radius:999px;border:1px solid var(--card);background:var(--soft);color:var(--ac-d);font-size:.6875rem;font-weight:800;white-space:nowrap}.xbig .bigt{min-height:156px}@media(min-width:768px){.xp{font-size:1.0625rem;margin-bottom:18px}.xgrid{grid-template-columns:1fr 1fr;gap:14px}.xbig{gap:16px}.xbig .bigt{min-height:220px}.xgrid .card.cont{padding:18px 20px}.xgrid>a:last-child:nth-child(odd){grid-column:1/-1}}@media(min-width:1100px){.xgrid{grid-template-columns:repeat(3,1fr)}.xgrid>a:last-child:nth-child(odd){grid-column:auto}}';document.head.appendChild(s)}
 R.exams=()=>{exStyle();
-  const more=[['clat-pg/','target','CLAT PG','LLM entrance: study guides, sample paper and 705 landmark cases','Coming soon','var(--c3-deep)'],['aibe-2027.html','brief','AIBE','All India Bar Examination: notes, MCQs and mock tests are being planned','2027','var(--c2-deep)'],['semester-law-notes-2027.html','file','Semester Law Notes','LL.B. notes, semester by semester, with quick-revision sheets and practice','2027','var(--c3-deep)']];
+  const more=[['#/clat','target','CLAT PG','LLM entrance: guides, syllabus tracker, sample paper and 705 landmark cases','New','var(--c3-deep)'],['#/aibe','brief','AIBE','All India Bar Examination: notes, MCQs and mock tests are being planned','2027','var(--c2-deep)'],['#/sem','file','Semester Law Notes','LL.B. notes, semester by semester, with quick-revision sheets and practice','2027','var(--c3-deep)']];
   screen({top:tbar('All exams',{sub:'Pick your exam'}),xnav:'x/exams',
   body:`<p class="xp">Free for everyone, with no sign-up. Pick the exam you are preparing for.</p>
   <div class="bigs xbig"><a class="bigt b" href="#/subjects/1"><span class="bgi">${sv(P.cap,112)}</span><span class="gi">${I.cap}</span><b>Paper 1</b><small>General Paper · 5,705 MCQs${I.chevR}</small></a><a class="bigt a" href="#/subjects"><span class="bgi">${sv(P.scale,112)}</span><span class="gi">${I.scale}</span><b>Paper 2</b><small>Law 058 · 3,580 MCQs${I.chevR}</small></a></div>
