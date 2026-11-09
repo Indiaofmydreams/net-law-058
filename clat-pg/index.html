@@ -412,5 +412,6 @@ tick();setInterval(tick,1000);
 for(var i=0;i<b.length;i++)b[i].onclick=function(){var t=this.dataset.t;document.documentElement.setAttribute('data-theme',t);try{localStorage.setItem('clat-theme',t)}catch(e){}mark()};mark()})();var t0=Date.UTC(2026,11,6,8,30,0);(function(){var d=Math.ceil((t0-Date.now())/864e5),e=document.getElementById('eta');if(d>0){e.textContent='The exam is on 6 December 2026, about '+(d>=14?Math.round(d/7)+' weeks':d+' days')+' away. The highlighted pathway is the closest fit, but choose the one that feels honest to you.';var P=[].slice.call(document.querySelectorAll('.pc')),b=null,m=1e9;P.forEach(function(p){var x=Math.abs(Math.log((d||1)/(+p.dataset.d)));if(x<m){m=x;b=p}});if(b)b.classList.add('fit')}})();
 </script>
 <script src="/nl-follow-float.js" defer></script>
+<script src="/nl-lead-float.js" defer></script>
 </body>
 </html>
