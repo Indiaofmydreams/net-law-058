@@ -148,6 +148,14 @@
 .cards.two .card h2{font-size:1.65rem}
 .cards.two>.card{min-width:0}.cards.two .foot{flex-wrap:wrap;gap:12px}.cards.two .chips{flex-wrap:wrap}
 @media (max-width:900px){.cards.two{grid-template-columns:1fr}}
+.c6 .badge{background:#3ac7b9;color:var(--ink)}
+.c6 .chips li{background:#d5f6f2}
+.c6 .sticker{background:#d5f6f2}
+.c6 .go{background:#3ac7b9;color:var(--ink)}
+.cards.three{grid-template-columns:repeat(3,1fr)}
+.cards.three .card h2{font-size:1.5rem}
+@media (max-width:900px){.cards.two.three{grid-template-columns:1fr}}
+@media (min-width:601px) and (max-width:900px){.cards.two.three{grid-template-columns:repeat(2,1fr)}.cards.two.three>.card:last-child:nth-child(odd){grid-column:1/-1}}
 /* tablets in portrait: two columns instead of the phone layout */
 @media (min-width:601px) and (max-width:900px){.cards,.cards.two{grid-template-columns:repeat(2,1fr);gap:26px;max-width:820px}.cards>.card:last-child:nth-child(odd){grid-column:1/-1}}
 
@@ -235,8 +243,20 @@
 
       <section class="soon2027" aria-label="Landing in 2027">
         <div class="soonhead"><h2>Landing in 2027</h2><span class="newpill">New</span></div>
-        <p class="soonsub">Two more sections are on their way. Peek at what is planned.</p>
-        <div class="cards two">
+        <p class="soonsub">Three more sections are on their way. Peek at what is planned.</p>
+        <div class="cards two three">
+          <a class="card c6" href="clat-ug-2027.html">
+            <span class="sticker">Coming soon</span>
+            <div class="badge">UG</div>
+            <h2>CLAT UG</h2>
+            <p class="what">Law entrance after Class 12</p>
+            <p class="desc">The gateway to the five-year LL.B. at the NLUs. Notes, passage practice and mock tests are being planned.</p>
+            <ul class="chips"><li>Notes</li><li>Practice</li><li>Mock tests</li></ul>
+            <div class="foot">
+              <div class="count"><b>2027</b><small>Coming soon</small></div>
+              <span class="go">See what&rsquo;s coming</span>
+            </div>
+          </a>
           <a class="card c4" href="aibe-2027.html">
             <span class="sticker">Next up</span>
             <div class="badge">AI</div>
