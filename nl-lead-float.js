@@ -12,12 +12,12 @@
   if (window.__nll) return; window.__nll = 1;
 
   var DEFAULTS = {
-    formId: '',                       // the long id in https://docs.google.com/forms/d/e/<formId>/viewform
+    formId: '1FAIpQLSd08rgfuPH3bHFPixKVbHAmH_yTt9nEvjnhst06rQP-Z9NS9g',                       // the long id in https://docs.google.com/forms/d/e/<formId>/viewform
     fields: {                         // Google Form question ids, e.g. 'entry.1234567890'
-      name:   '',
-      phone:  '',
-      email:  '',
-      source: ''                      // optional: a 4th short-answer question that records which page they signed up on
+      name:   'entry.928581150',
+      phone:  'entry.20635590',
+      email:  'entry.712394518',
+      source: 'entry.729727756'                      // optional: a 4th short-answer question that records which page they signed up on
     },
     contact: 'netlawverse@gmail.com', // shown in the privacy note (where people can ask for deletion)
     hideDays: 3,                      // "Not now" hides the box for this many days
