@@ -1,0 +1,461 @@
+{
+ "mock": 1,
+ "note": "Passages removed from the live paper to match the official 120-question pattern.",
+ "passages": [
+  {
+   "passage_id": "P21",
+   "subject_area": "Constitutional Law",
+   "title": "Freedom of Speech: Restrictions, Incitement and Courage of Courts",
+   "passage": "Article 19(1)(a) guarantees to all citizens the freedom of speech and expression, and Article 19(2) permits the State to impose by law only reasonable restrictions in the interests of the sovereignty and integrity of India, the security of the State, friendly relations with foreign States, public order, decency or morality, or in relation to contempt of court, defamation or incitement to an offence. In Shreya Singhal v. Union of India (2015), the Supreme Court struck down Section 66A of the Information Technology Act as vague and overbroad, drawing the distinction between mere discussion or advocacy, which is protected however unpopular, and incitement, which can be restricted; the Court upheld Section 69A, which allows blocking of online content, because it was accompanied by procedural safeguards, including reasons recorded in writing and a review mechanism. In Anuradha Bhasin v. Union of India (2020), the Court held that freedom of speech on the internet and the right to carry on trade through the internet enjoy constitutional protection, that an order suspending internet services must be published and is subject to judicial review on the proportionality test, and that indefinite shutdowns are impermissible. In Kaushal Kishor v. State of U.P. (2023), a Constitution Bench held that no restrictions beyond those enumerated in Article 19(2) can be imposed on the freedom of speech, and that fundamental rights under Articles 19 and 21 can, in certain circumstances, be enforced even against private persons. In Imran Pratapgarhi v. State of Gujarat (2025), the Court quashed an FIR registered over a poem posted on social media, observing that even if a large number of persons dislike the views expressed, the right of the speaker must be respected, that the effect of words must be judged by the standards of reasonable, strong-minded and courageous persons, not those of the weak and vacillating, and that the courts are duty bound to uphold the right.",
+   "questions": [
+    {
+     "question": "Which of the following is NOT a ground of restriction enumerated in Article 19(2) as set out in the passage?",
+     "options": {
+      "A": "Public order",
+      "B": "Public interest in general",
+      "C": "Decency or morality",
+      "D": "Incitement to an offence"
+     },
+     "correct_option": "B",
+     "explanation": "'Public interest' at large is not a listed ground; Kaushal Kishor confirms that no additional restrictions are permitted.",
+     "difficulty": "Moderate",
+     "q_no": 121
+    },
+    {
+     "question": "Why was Section 66A struck down in Shreya Singhal?",
+     "options": {
+      "A": "Because it was vague and overbroad and impermissibly restricted discussion and advocacy",
+      "B": "Because it applied only to journalists",
+      "C": "Because it was passed by the wrong House",
+      "D": "Because it lacked a review mechanism"
+     },
+     "correct_option": "A",
+     "explanation": "The passage states the vagueness and overbreadth ground and the distinction between advocacy and incitement.",
+     "difficulty": "Easy",
+     "q_no": 122
+    },
+    {
+     "question": "Section 69A was upheld in Shreya Singhal because",
+     "options": {
+      "A": "it had no relation to Article 19",
+      "B": "it permitted unlimited blocking",
+      "C": "it applied only to Government websites",
+      "D": "it had procedural safeguards such as written reasons and review"
+     },
+     "correct_option": "D",
+     "explanation": "The safeguards saved the provision.",
+     "difficulty": "Easy",
+     "q_no": 123
+    },
+    {
+     "question": "A district magistrate suspends internet services indefinitely and does not publish the order. On the basis of Anuradha Bhasin, the order is",
+     "options": {
+      "A": "valid, as internet access is not a right",
+      "B": "valid for up to one year",
+      "C": "open to challenge, as indefinite shutdowns are impermissible and orders must be published and tested on proportionality",
+      "D": "valid if the magistrate is satisfied"
+     },
+     "correct_option": "C",
+     "explanation": "The passage states the three requirements: publication, proportionality review and no indefinite suspension.",
+     "difficulty": "Moderate",
+     "q_no": 124
+    },
+    {
+     "question": "The significance of Kaushal Kishor, as presented in the passage, is that it",
+     "options": {
+      "A": "holds that restrictions on speech are limited to those in Article 19(2) and that certain fundamental rights can be enforced against private persons",
+      "B": "overrules Shreya Singhal",
+      "C": "abolishes the right to speech against private persons",
+      "D": "permits the State to add new grounds of restriction under Article 21"
+     },
+     "correct_option": "A",
+     "explanation": "This captures both limbs of the holding in the passage.",
+     "difficulty": "Tough",
+     "q_no": 125
+    },
+    {
+     "question": "The Court in Imran Pratapgarhi suggests that the effect of speech is to be judged by the standard of",
+     "options": {
+      "A": "the police officer registering the case",
+      "B": "the most sensitive member of the audience",
+      "C": "the majority of the public",
+      "D": "reasonable, strong-minded and courageous persons"
+     },
+     "correct_option": "D",
+     "explanation": "The passage states the standard.",
+     "difficulty": "Moderate",
+     "q_no": 126
+    }
+   ],
+   "question_range": [
+    121,
+    126
+   ],
+   "word_count": 314
+  },
+  {
+   "passage_id": "P09",
+   "subject_area": "Constitutional Law / Administrative Law",
+   "title": "'Bulldozer Justice' and Due Process",
+   "passage": "In recent years, several State authorities have demolished the homes and properties of persons accused of crimes, often without prior notice and on the allegation that the structures were unauthorised. In In Re: Directions in the matter of demolition of structures (November 2024), the Supreme Court condemned the practice. It held that the executive cannot act as a judge and determine the guilt of an accused, and then punish him by demolishing his home; such action violates the separation of powers and the right to shelter, which is part of the right to life under Article 21. Reiterating that punishing the family of the accused for the alleged acts of one member is unconstitutional, the Court laid down binding, pan-India directions under Article 142. No demolition may proceed without a show-cause notice served by registered post and affixed on the structure, giving at least fifteen days' time or the time required by the local municipal law, whichever is longer. The notice must specify the nature of the unauthorised construction, the particular violation and the grounds for demolition, and must provide an opportunity of a personal hearing. The final order must be reasoned and communicated, and the owner must be given fifteen days to challenge it or remove the structure voluntarily before any demolition. The process must be videographed and notified on a digital portal. Officials who violate the directions are liable for contempt and may be personally required to restore the property at their own cost and pay compensation. The Court clarified that the directions do not apply to unauthorised structures in public places such as roads, streets, footpaths, railway lines or water bodies, or to cases where a court has itself ordered demolition.",
+   "questions": [
+    {
+     "question": "The principal constitutional objection of the Court to demolition as punishment was that it",
+     "options": {
+      "A": "is permitted if the accused is convicted",
+      "B": "violates the separation of powers and the right to shelter under Article 21",
+      "C": "violates Article 19(1)(g) alone",
+      "D": "violates only municipal law"
+     },
+     "correct_option": "B",
+     "explanation": "The passage records both separation of powers and Article 21 as the basis.",
+     "difficulty": "Easy",
+     "q_no": 49
+    },
+    {
+     "question": "Which of the following is NOT among the procedural safeguards mentioned in the passage?",
+     "options": {
+      "A": "Prior sanction of the High Court for each demolition",
+      "B": "A reasoned final order with fifteen days to challenge or remove the structure",
+      "C": "A show-cause notice by registered post and affixed on the structure",
+      "D": "A personal hearing"
+     },
+     "correct_option": "A",
+     "explanation": "The High Court's prior sanction is not required; the other three safeguards are listed.",
+     "difficulty": "Moderate",
+     "q_no": 50
+    },
+    {
+     "question": "A municipality wishes to remove a hut built on a railway track. According to the passage, the directions",
+     "options": {
+      "A": "apply only if the occupant has a criminal record",
+      "B": "apply fully and the municipality must follow every step",
+      "C": "do not apply to unauthorised structures on railway lines",
+      "D": "apply only if the hut is more than ten years old"
+     },
+     "correct_option": "C",
+     "explanation": "Public places such as railway lines are specifically carved out.",
+     "difficulty": "Moderate",
+     "q_no": 51
+    },
+    {
+     "question": "The Court's reference to the family of an accused being punished suggests that",
+     "options": {
+      "A": "the family's liability depends on whether it owns the house",
+      "B": "collective punishment is acceptable in grave cases",
+      "C": "the Court has no view on the matter",
+      "D": "punishing relatives for the acts of an accused is unconstitutional"
+     },
+     "correct_option": "D",
+     "explanation": "The passage records that such punishment of the family is unconstitutional.",
+     "difficulty": "Easy",
+     "q_no": 52
+    },
+    {
+     "question": "An officer demolishes a house without notice, in breach of the directions. Which consequence is indicated in the passage?",
+     "options": {
+      "A": "Only the State Government can be held liable",
+      "B": "The owner may only seek a fresh notice",
+      "C": "The officer may be liable for contempt and be required to restore the property at personal cost and pay compensation",
+      "D": "The officer has immunity as he acted in good faith"
+     },
+     "correct_option": "C",
+     "explanation": "Personal liability, contempt and restoration at the officer's cost are specified.",
+     "difficulty": "Moderate",
+     "q_no": 53
+    },
+    {
+     "question": "Which of the following best captures the constitutional principle on which the decision rests?",
+     "options": {
+      "A": "Article 142 allows the Court to abolish municipal law",
+      "B": "Demolition is a civil remedy and needs no safeguards",
+      "C": "Adjudication of guilt and imposition of punishment belong to the judiciary, and State action affecting shelter must follow fair, reasoned procedure",
+      "D": "Administrative expediency prevails over procedure in cases of crime"
+     },
+     "correct_option": "C",
+     "explanation": "The decision is rooted in separation of powers and due process under Article 21.",
+     "difficulty": "Moderate",
+     "q_no": 54
+    }
+   ],
+   "question_range": [
+    49,
+    54
+   ],
+   "word_count": 284
+  },
+  {
+   "passage_id": "P08",
+   "subject_area": "Constitutional Law / Tax",
+   "title": "Mineral Rights, Royalty and Fiscal Federalism",
+   "passage": "Entry 54 of the Union List permits Parliament to regulate mines and mineral development to the extent that Parliament declares it expedient in the public interest, while Entry 50 of the State List empowers the States to tax mineral rights 'subject to any limitations imposed by Parliament by law relating to mineral development'. Entry 49 permits States to tax lands and buildings. In India Cement Ltd v. State of Tamil Nadu (1990), a seven-judge Bench held that royalty on minerals is a tax, and that a State cess on royalty was therefore beyond the competence of the State because it amounted to a tax on a tax which the State could not impose. A clerical error later suggested that royalty was not a tax, and the controversy was referred to a nine-judge Bench. In Mineral Area Development Authority v. Steel Authority of India (July 2024), the Bench by a majority of eight to one held that royalty is a contractual payment made to the lessor for the right to extract minerals and not a tax. It further held that Parliament's power under Entry 54 does not include the power to tax mineral rights, which falls to the States under Entry 50, though Parliament may impose limitations by legislation on mineral development, and that the Mines and Minerals (Development and Regulation) Act, 1957 does not by itself limit that power. The dissenting judge would have held that allowing States to tax minerals would disturb the national mineral policy. In August 2024, the Court allowed States to recover the past dues from 1 April 2005, to be paid in instalments over twelve years, without interest or penalty. Separately, in Mohit Minerals v. Union of India (2022), the Court held that recommendations of the GST Council are not binding on the Union and States, being only persuasive, since Article 246A confers concurrent power on both to legislate on GST, and cooperative federalism requires dialogue and not dominance.",
+   "questions": [
+    {
+     "question": "According to the passage, in the 2024 decision, royalty on minerals was held to be",
+     "options": {
+      "A": "an exempt category of income",
+      "B": "a cess imposed by Parliament",
+      "C": "a tax within the meaning of Entry 50",
+      "D": "a contractual payment made to the lessor and not a tax"
+     },
+     "correct_option": "D",
+     "explanation": "The majority held royalty to be a contractual payment for the right to extract minerals.",
+     "difficulty": "Easy",
+     "q_no": 43
+    },
+    {
+     "question": "Which of the following correctly describes the effect of the 2024 decision on the power of the States?",
+     "options": {
+      "A": "States may tax mineral rights under Entry 50, subject to limitations Parliament may impose by law relating to mineral development",
+      "B": "States may not levy any tax on minerals",
+      "C": "States may tax minerals only after Presidential consent",
+      "D": "Only Parliament may tax mineral rights under Entry 54"
+     },
+     "correct_option": "A",
+     "explanation": "The Court held that Entry 50 is the source of the States' power, which is subject to Parliament's limits.",
+     "difficulty": "Moderate",
+     "q_no": 44
+    },
+    {
+     "question": "Which of the following decisions is overruled by the 2024 judgment on the point of royalty being a tax?",
+     "options": {
+      "A": "Mohit Minerals v. Union of India",
+      "B": "India Cement Ltd v. State of Tamil Nadu",
+      "C": "Steel Authority of India v. State",
+      "D": "None of these"
+     },
+     "correct_option": "B",
+     "explanation": "India Cement had held royalty to be a tax; the nine-judge Bench held otherwise.",
+     "difficulty": "Moderate",
+     "q_no": 45
+    },
+    {
+     "question": "The arrangement allowed by the Court for the recovery of past dues from the States' tax was",
+     "options": {
+      "A": "Recovery only for the future",
+      "B": "No recovery at all",
+      "C": "Immediate full payment with interest",
+      "D": "Recovery from 1 April 2005 in instalments over twelve years without interest or penalty"
+     },
+     "correct_option": "D",
+     "explanation": "This is as described in the passage.",
+     "difficulty": "Easy",
+     "q_no": 46
+    },
+    {
+     "question": "The Court in Mohit Minerals held that GST Council recommendations are",
+     "options": {
+      "A": "persuasive only, in view of Article 246A and cooperative federalism",
+      "B": "binding on both the Union and the States",
+      "C": "binding only on the Union",
+      "D": "binding only on the States"
+     },
+     "correct_option": "A",
+     "explanation": "The passage states they are not binding but persuasive.",
+     "difficulty": "Moderate",
+     "q_no": 47
+    },
+    {
+     "question": "The dissenting judge's concern, as reflected in the passage, was that",
+     "options": {
+      "A": "the case should have been decided by a smaller Bench",
+      "B": "royalty should be treated as a tax",
+      "C": "India Cement was rightly overruled",
+      "D": "allowing States to tax minerals would undermine national mineral policy"
+     },
+     "correct_option": "D",
+     "explanation": "The passage records the concern about disturbance of national mineral policy.",
+     "difficulty": "Tough",
+     "q_no": 48
+    }
+   ],
+   "question_range": [
+    43,
+    48
+   ],
+   "word_count": 324
+  },
+  {
+   "passage_id": "P07",
+   "subject_area": "Constitutional Law",
+   "title": "The Tenth Schedule and the Speaker's Delay",
+   "passage": "The Tenth Schedule, inserted in 1985, provides for the disqualification of a member of Parliament or a State Legislature who voluntarily gives up the membership of his party or defies its whip on a vote. The Schedule recognises a merger only where not less than two-thirds of the legislature party agree to it. Under paragraph 6, the question of disqualification is to be decided by the Speaker or Chairman of the House. In Kihoto Hollohan v. Zachillhu (1992), a Constitution Bench upheld the Schedule but struck down paragraph 7, which barred the jurisdiction of courts, and held that the Speaker, in exercising this power, acts as a tribunal whose decisions are subject to limited judicial review, for example for mala fides, perversity or violation of constitutional mandates. Experience has shown that Speakers, belonging to the ruling party in most cases, have sometimes sat on disqualification petitions until the term of the House expires, rendering them infructuous. In Keisham Meghachandra Singh v. Hon'ble Speaker, Manipur Legislative Assembly (2020), the Supreme Court held that Speakers should ordinarily decide such petitions within three months and urged Parliament to consider vesting the power in an independent tribunal. In July 2025, hearing petitions concerning legislators in Telangana who had defected after being elected on the ticket of one party, the Court directed the Speaker to decide the petitions within three months, observing that the Speaker is not immune from judicial scrutiny and that allowing petitions to be delayed until the term of the Assembly lapses would defeat the constitutional policy against defection. The Court added that Parliament should reconsider whether the Speaker, who remains a member of a political party, is the appropriate authority for adjudicating such disputes.",
+   "questions": [
+    {
+     "question": "The ground on which paragraph 7 of the Tenth Schedule was struck down in Kihoto Hollohan was that it",
+     "options": {
+      "A": "made the Speaker's decision appealable to the President",
+      "B": "excluded the jurisdiction of courts",
+      "C": "permitted mergers without a two-thirds majority",
+      "D": "provided for disqualification without a hearing"
+     },
+     "correct_option": "B",
+     "explanation": "The passage states that paragraph 7 barred judicial jurisdiction and was struck down.",
+     "difficulty": "Easy",
+     "q_no": 37
+    },
+    {
+     "question": "In the passage, the Speaker deciding a disqualification petition is described as",
+     "options": {
+      "A": "an appellate authority over the High Court",
+      "B": "a purely legislative authority immune from review",
+      "C": "a tribunal whose decision is subject to limited judicial review",
+      "D": "an executive officer of the Government"
+     },
+     "correct_option": "C",
+     "explanation": "Kihoto Hollohan held that the Speaker acts as a tribunal whose decisions can be reviewed on limited grounds.",
+     "difficulty": "Easy",
+     "q_no": 38
+    },
+    {
+     "question": "Which of the following best explains why a delay by the Speaker is considered constitutionally problematic?",
+     "options": {
+      "A": "It increases the number of petitions",
+      "B": "It transfers jurisdiction to the High Court",
+      "C": "It permits mergers with less than two-thirds support",
+      "D": "It may render the petition infructuous when the House's term expires, thereby defeating the anti-defection policy"
+     },
+     "correct_option": "D",
+     "explanation": "The passage identifies infructuousness through delay as defeating the constitutional policy.",
+     "difficulty": "Moderate",
+     "q_no": 39
+    },
+    {
+     "question": "A group of 40% of a legislature party joins another party and claims that it constitutes a 'merger'. On the passage, the claim is",
+     "options": {
+      "A": "valid if the Speaker approves",
+      "B": "valid, since a merger requires a simple majority",
+      "C": "invalid only if the whip is defied",
+      "D": "invalid, since a merger requires the agreement of at least two-thirds of the legislature party"
+     },
+     "correct_option": "D",
+     "explanation": "The Schedule recognises a merger only with at least two-thirds of the legislature party.",
+     "difficulty": "Moderate",
+     "q_no": 40
+    },
+    {
+     "question": "What was the direction of the Supreme Court in the July 2025 Telangana matter?",
+     "options": {
+      "A": "The petitions were transferred to the Election Commission",
+      "B": "The Speaker was directed to decide the petitions within three months",
+      "C": "The matter was referred to a tribunal created by the Court",
+      "D": "The Speaker was directed to disqualify the legislators"
+     },
+     "correct_option": "B",
+     "explanation": "The Court directed a decision within three months and observed that the Speaker is not immune from scrutiny.",
+     "difficulty": "Easy",
+     "q_no": 41
+    },
+    {
+     "question": "Which proposition is the most consistent with the passage?",
+     "options": {
+      "A": "Courts may fix a reasonable time for the Speaker to decide, although the Schedule itself prescribes none, because inaction can defeat constitutional policy",
+      "B": "Parliament is bound to constitute an independent tribunal",
+      "C": "The Speaker's decision on disqualification is final under paragraph 7",
+      "D": "Judicial review of a Speaker's decision is barred in all cases"
+     },
+     "correct_option": "A",
+     "explanation": "The Court, while leaving the Speaker to decide, laid down a time frame by reason of the risk of defeat of the anti-defection policy; the Court only urged Parliament to reconsider the authority.",
+     "difficulty": "Tough",
+     "q_no": 42
+    }
+   ],
+   "question_range": [
+    37,
+    42
+   ],
+   "word_count": 283
+  },
+  {
+   "passage_id": "P24",
+   "subject_area": "Jurisprudence",
+   "title": "Kelsen's Pure Theory, Revolutions and Legal Realism",
+   "passage": "Hans Kelsen's Pure Theory of Law seeks a science of law purged of political, moral and sociological elements. For Kelsen, law is a hierarchy of norms in which the validity of every norm derives from a higher norm, until the chain terminates in the Grundnorm, a hypothetical, presupposed basic norm, which is not itself posited by any authority and whose validity is assumed as a juristic hypothesis. The Grundnorm does not state what is just, but only that one ought to behave as the framers of the first constitution have ordained. A legal system must also be, by and large, efficacious, for a norm that is not effective loses its validity. Kelsen's theory was invoked in State v. Dosso (1958), where the Supreme Court of Pakistan, after a military coup, held that a successful revolution is an internationally recognised method of changing a constitution and becomes a law-creating fact; the new regime's order was thereby validated. In Asma Jilani v. Government of the Punjab (1972), the same Court rejected Dosso, holding that the Grundnorm cannot be located in an efficacious usurpation, and that Kelsen's theory had been misapplied. Legal realists, in contrast, were sceptical of rules. Oliver Wendell Holmes defined law as a prediction of what the courts will do in fact, from the viewpoint of the 'bad man' who cares only for the material consequences of his conduct. Jerome Frank, in the strand of 'fact scepticism', stressed that the uncertainty of facts found by the trial court makes the prediction of judgment unreliable, while Karl Llewellyn emphasised the 'law-in-action' over the 'law-in-books'. Hart criticised the realists for 'rule scepticism', arguing that predicting what a judge will do ignores the internal point of view from which the rule is accepted as a standard, and that the predictive account cannot explain why courts regard themselves as bound by rules.",
+   "questions": [
+    {
+     "question": "The Grundnorm, according to Kelsen, is",
+     "options": {
+      "A": "a hypothetical, presupposed norm which is the final source of validity of the legal order",
+      "B": "a command of the sovereign",
+      "C": "a statute enacted by the first legislature",
+      "D": "a moral principle of natural law"
+     },
+     "correct_option": "A",
+     "explanation": "The passage describes it as hypothetical and presupposed, not posited.",
+     "difficulty": "Easy",
+     "q_no": 139
+    },
+    {
+     "question": "In Dosso, the Supreme Court of Pakistan treated a successful revolution as",
+     "options": {
+      "A": "a law-creating fact which validates the new regime's order",
+      "B": "an illegal act that cannot be validated",
+      "C": "irrelevant to the Grundnorm",
+      "D": "a matter for the legislature alone"
+     },
+     "correct_option": "A",
+     "explanation": "The passage records this holding.",
+     "difficulty": "Easy",
+     "q_no": 140
+    },
+    {
+     "question": "Which of the following best states the reason for the Court's rejection of Dosso in Asma Jilani?",
+     "options": {
+      "A": "The coup was not successful",
+      "B": "Kelsen's theory is wholly wrong",
+      "C": "The Grundnorm cannot be located in an efficacious usurpation, and Kelsen's theory was misapplied",
+      "D": "The coup was approved by the legislature"
+     },
+     "correct_option": "C",
+     "explanation": "The passage states the reasoning.",
+     "difficulty": "Moderate",
+     "q_no": 141
+    },
+    {
+     "question": "According to Holmes's 'bad man' theory, the law is",
+     "options": {
+      "A": "a prediction of what the courts will do in fact, as it concerns the material consequences of conduct",
+      "B": "a moral ideal",
+      "C": "a system of rights independent of courts",
+      "D": "a body of divine commands"
+     },
+     "correct_option": "A",
+     "explanation": "The passage sets out Holmes's predictive definition.",
+     "difficulty": "Easy",
+     "q_no": 142
+    },
+    {
+     "question": "Hart's criticism of the realists is that their account",
+     "options": {
+      "A": "is too concerned with rules",
+      "B": "gives too much weight to morality",
+      "C": "fails to account for the internal point of view from which officials accept rules as standards and treat themselves as bound",
+      "D": "accepts the command theory"
+     },
+     "correct_option": "C",
+     "explanation": "The passage states that the predictive account ignores the internal point of view.",
+     "difficulty": "Moderate",
+     "q_no": 143
+    },
+    {
+     "question": "Which of the following pairings is INCORRECT based on the passage?",
+     "options": {
+      "A": "Frank - fact scepticism",
+      "B": "Holmes - Grundnorm as the source of validity",
+      "C": "Kelsen - hierarchy of norms",
+      "D": "Llewellyn - law-in-action"
+     },
+     "correct_option": "B",
+     "explanation": "Holmes is associated with the predictive theory; the Grundnorm is Kelsen's concept.",
+     "difficulty": "Moderate",
+     "q_no": 144
+    }
+   ],
+   "question_range": [
+    139,
+    144
+   ],
+   "word_count": 308
+  }
+ ]
+}

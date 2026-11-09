@@ -1,0 +1,461 @@
+{
+ "mock": 2,
+ "note": "Passages removed from the live paper to match the official 120-question pattern.",
+ "passages": [
+  {
+   "passage_id": "P24",
+   "subject_area": "Constitutional Law",
+   "title": "Right to Property under Article 300A and Compulsory Acquisition",
+   "passage": "The Constitution (44th Amendment) Act, 1978 omitted the right to property from the list of fundamental rights, repealing Article 19(1)(f) and Article 31, and inserted Article 300A, which provides that no person shall be deprived of his property save by authority of law. The right to property thus ceased to be a fundamental right but remains a constitutional right. In Jilubhai Nanbhai Khachar v. State of Gujarat (1995), the Supreme Court held that Article 300A requires the deprivation to be by a valid law, and that the 'law' must be one which satisfies the standards of reasonableness. In K.T. Plantation Pvt. Ltd. v. State of Karnataka (2011), the Court held that a law depriving a person of property must serve a public purpose, though the adequacy of compensation is not justiciable and the absence of a provision for compensation does not by itself invalidate the law; in certain cases, however, it may be necessary under Article 300A. In Vidya Devi v. State of Himachal Pradesh (2020), the Court described the right to property as a human right and a constitutional right, and held that the State cannot take possession of private land without the authority of law, nor claim title by adverse possession against a citizen. In Kolkata Municipal Corporation v. Bimal Kumar Shaw (2024), a seven-judge Bench held that Article 300A contains certain procedural rights of the owner, which the State must observe before depriving him of property: the right to notice, the right to be heard, the right to a reasoned decision, the duty to acquire only for a public purpose, the right to fair compensation, the right to an efficient and expeditious process, and the right of conclusion, namely that the acquisition must be completed. The Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act, 2013 (LARR Act) replaced the Land Acquisition Act, 1894. Under Section 24(2), an acquisition initiated under the old Act lapses where, in the case of land acquisition proceedings, the award was made five years or more before the commencement of the 2013 Act, but physical possession was not taken or compensation was not paid. In Indore Development Authority v. Manohar Lal (2020), a Constitution Bench held that compensation is 'paid' where it is tendered, and that the deposit of compensation in the treasury is not by itself sufficient for the owner to be deprived; and that the lapse requires both failures, possession and payment, together.",
+   "questions": [
+    {
+     "question": "After the 44th Amendment, the right to property is",
+     "options": {
+      "A": "a Directive Principle",
+      "B": "a constitutional right under Article 300A, though not a fundamental right",
+      "C": "a fundamental right under Article 19(1)(f)",
+      "D": "abolished"
+     },
+     "correct_option": "B",
+     "explanation": "The passage so states.",
+     "difficulty": "Easy",
+     "q_no": 139
+    },
+    {
+     "question": "In K.T. Plantation, the Supreme Court held that",
+     "options": {
+      "A": "the right to property is a fundamental right",
+      "B": "compensation must always be adequate",
+      "C": "a law depriving property must serve a public purpose, though the adequacy of compensation is not justiciable",
+      "D": "property can be taken without any law"
+     },
+     "correct_option": "C",
+     "explanation": "The passage records this holding.",
+     "difficulty": "Moderate",
+     "q_no": 140
+    },
+    {
+     "question": "Which of the following is NOT one of the procedural rights recognised in Bimal Kumar Shaw?",
+     "options": {
+      "A": "Right to notice",
+      "B": "Right to be heard",
+      "C": "Right to a reasoned decision",
+      "D": "Right to select the acquiring authority"
+     },
+     "correct_option": "D",
+     "explanation": "The last is not among the seven rights.",
+     "difficulty": "Moderate",
+     "q_no": 141
+    },
+    {
+     "question": "Under Section 24(2) of the LARR Act, as interpreted in Indore Development Authority, an acquisition lapses where",
+     "options": {
+      "A": "compensation was deposited in the treasury",
+      "B": "the owner objected",
+      "C": "both physical possession was not taken and compensation was not paid, for the requisite period",
+      "D": "either possession was not taken or compensation was not paid"
+     },
+     "correct_option": "C",
+     "explanation": "The passage states that the lapse requires both failures.",
+     "difficulty": "Tough",
+     "q_no": 142
+    },
+    {
+     "question": "Compensation is 'paid' within Section 24(2) when",
+     "options": {
+      "A": "it is announced in the award",
+      "B": "it is deposited in the treasury",
+      "C": "it is entered in the Government's accounts",
+      "D": "it is tendered to the owner"
+     },
+     "correct_option": "D",
+     "explanation": "The Constitution Bench held that tender is sufficient for 'payment'; treasury deposit alone is not.",
+     "difficulty": "Moderate",
+     "q_no": 143
+    },
+    {
+     "question": "In Vidya Devi, the Court held that the State",
+     "options": {
+      "A": "cannot take possession of private land without the authority of law, nor claim title by adverse possession against a citizen",
+      "B": "may deprive land without notice",
+      "C": "may claim title to private land by adverse possession",
+      "D": "has absolute power over land"
+     },
+     "correct_option": "A",
+     "explanation": "The passage states this.",
+     "difficulty": "Moderate",
+     "q_no": 144
+    }
+   ],
+   "question_range": [
+    139,
+    144
+   ],
+   "word_count": 407
+  },
+  {
+   "passage_id": "P08",
+   "subject_area": "Constitutional Law / Election Law",
+   "title": "Political Funding, the Voter's Right to Know and Electoral Disqualification",
+   "passage": "The right to vote is a statutory right, but the right to information about candidates and political funding has been derived from Article 19(1)(a). In Union of India v. Association for Democratic Reforms (2002) and PUCL v. Union of India (2003), the Supreme Court held that voters have a fundamental right to know the criminal, financial and educational antecedents of candidates, since an informed choice is essential to democracy. In PUCL v. Union of India (2013), the Court directed the Election Commission to provide the option 'None of the Above' (NOTA) on voting machines, as an expression of the negative vote under Article 19(1)(a), though a NOTA majority does not, under the present law, result in a fresh election. In Lily Thomas v. Union of India (2013), the Court struck down Section 8(4) of the Representation of the People Act, 1951, which had allowed a convicted legislator to continue in office pending appeal, so that a legislator convicted of an offence carrying a sentence of two years or more is disqualified on the date of conviction. In Association for Democratic Reforms v. Union of India (February 2024), a Constitution Bench held unanimously that the Electoral Bond Scheme was unconstitutional. The Scheme allowed donors to purchase bonds from the State Bank of India and give them to political parties, without disclosing the donor's name to the public. The Court held that political contributions are linked with political choices and that voters have a right to information about funding to prevent 'quid pro quo' arrangements; that anonymity could not be justified by the donor's right to privacy, since a less restrictive means was available, which would serve the purpose of curbing black money; and that the related amendments to the Representation of the People Act, the Income-tax Act and the Companies Act, including the removal of the cap on corporate donations and of the requirement to disclose party-wise contributions, were unconstitutional. The Court directed the State Bank to disclose the details of purchases and redemptions to the Election Commission for publication.",
+   "questions": [
+    {
+     "question": "The voter's right to know the antecedents of candidates was derived by the Supreme Court from",
+     "options": {
+      "A": "Article 32",
+      "B": "Article 19(1)(a)",
+      "C": "Article 324",
+      "D": "Article 326 alone"
+     },
+     "correct_option": "B",
+     "explanation": "The passage states that the right derives from Article 19(1)(a).",
+     "difficulty": "Easy",
+     "q_no": 43
+    },
+    {
+     "question": "What is the effect of a NOTA majority under the law as described in the passage?",
+     "options": {
+      "A": "The election is countermanded",
+      "B": "A fresh election is held",
+      "C": "It does not result in a fresh election; it expresses a negative vote",
+      "D": "The candidate with the next highest votes is declared elected"
+     },
+     "correct_option": "C",
+     "explanation": "The passage states that NOTA does not lead to a fresh election.",
+     "difficulty": "Moderate",
+     "q_no": 44
+    },
+    {
+     "question": "After Lily Thomas, a legislator convicted of an offence and sentenced to two years or more is",
+     "options": {
+      "A": "entitled to continue in office pending appeal",
+      "B": "disqualified only after the appeal is dismissed",
+      "C": "disqualified only after six years",
+      "D": "disqualified from the date of conviction"
+     },
+     "correct_option": "D",
+     "explanation": "Section 8(4), which protected such legislators, was struck down.",
+     "difficulty": "Moderate",
+     "q_no": 45
+    },
+    {
+     "question": "Which of the following was NOT a ground relied upon by the Court in holding the Electoral Bond Scheme unconstitutional?",
+     "options": {
+      "A": "The voter's right to information about political funding",
+      "B": "Existence of a less restrictive means to curb black money",
+      "C": "The possibility of quid pro quo arrangements",
+      "D": "The Scheme violated Article 25"
+     },
+     "correct_option": "D",
+     "explanation": "Article 25 was not part of the reasoning.",
+     "difficulty": "Easy",
+     "q_no": 46
+    },
+    {
+     "question": "The Court's reasoning on donor anonymity can best be described as that",
+     "options": {
+      "A": "only corporate donors are protected",
+      "B": "donors have no privacy rights",
+      "C": "donor privacy is absolute",
+      "D": "privacy of the donor cannot justify anonymity because a less restrictive means to serve the purpose existed, and the voter's right to know outweighs it"
+     },
+     "correct_option": "D",
+     "explanation": "This is the proportionality-type reasoning stated in the passage.",
+     "difficulty": "Tough",
+     "q_no": 47
+    },
+    {
+     "question": "Consider the following. 1. The Court directed disclosure of the details of bond purchases and redemptions to the Election Commission. 2. The Court upheld the removal of the cap on corporate donations. 3. The decision was by a Constitution Bench. Which are correct?",
+     "options": {
+      "A": "1 and 2 only",
+      "B": "1 and 3 only",
+      "C": "2 and 3 only",
+      "D": "1, 2 and 3"
+     },
+     "correct_option": "B",
+     "explanation": "The Court struck down the removal of the cap; statements 1 and 3 are correct.",
+     "difficulty": "Tough",
+     "q_no": 48
+    }
+   ],
+   "question_range": [
+    43,
+    48
+   ],
+   "word_count": 339
+  },
+  {
+   "passage_id": "P07",
+   "subject_area": "Constitutional Law",
+   "title": "Federalism: Delhi's Services, Article 356 and Judicial Review",
+   "passage": "Article 239AA, inserted in 1991, gives the National Capital Territory of Delhi a Legislative Assembly and Council of Ministers, while providing that the Lieutenant Governor (LG) administers the territory. The Assembly may legislate on matters in the State and Concurrent Lists, except Entries 1 (public order), 2 (police) and 18 (land) of the State List. In NCT of Delhi v. Union of India (2018), a Constitution Bench held that the LG is bound by the aid and advice of the Council of Ministers in matters within the Assembly's legislative competence, and may refer a matter to the President only in exceptional cases of substantial difference, not as a routine. In NCT of Delhi v. Union of India (2023), another Constitution Bench held that the Delhi Government has legislative and executive control over 'services', that is, Entry 41 of the State List, except in respect of public order, police and land. The Court said that a democratically elected government must have control over the officers who implement its policies, and that the principle of collective responsibility depends on such control. Parliament then passed the Government of National Capital Territory of Delhi (Amendment) Act, 2023, which created the National Capital Civil Service Authority, chaired by the Chief Minister but with two senior officials, and empowered the LG to decide in the case of difference. The challenge to this Act was referred to a larger Bench, where the argument turns on whether Parliament may, under Article 239AA(7), legislate to alter a constitutional position declared by the Court, as distinct from removing its legal basis. Federalism has also been guarded through judicial review of the use of Article 356. In S.R. Bommai v. Union of India (1994), a nine-judge Bench held that a Presidential Proclamation is subject to judicial review, at least for malafides, irrelevant considerations or absence of material, that a majority must be tested on the floor of the House and not by the Governor's subjective view, that the Assembly should not be dissolved before Parliament approves the Proclamation, and that federalism and secularism are part of the basic structure.",
+   "questions": [
+    {
+     "question": "According to the 2023 Constitution Bench decision, the Delhi Government's control over 'services' does not extend to",
+     "options": {
+      "A": "every area of administration",
+      "B": "public order, police and land",
+      "C": "education and health officers",
+      "D": "Delhi's planning department"
+     },
+     "correct_option": "B",
+     "explanation": "The Bench excepted the three matters outside the Assembly's competence.",
+     "difficulty": "Easy",
+     "q_no": 37
+    },
+    {
+     "question": "In the 2018 decision, the Court held that the LG may refer a matter to the President",
+     "options": {
+      "A": "only in exceptional cases of substantial difference, not as a matter of routine",
+      "B": "only for matters of police",
+      "C": "on every difference of opinion",
+      "D": "never"
+     },
+     "correct_option": "A",
+     "explanation": "The passage so states.",
+     "difficulty": "Moderate",
+     "q_no": 38
+    },
+    {
+     "question": "Which of the following reasons for control over services by an elected government is given in the passage?",
+     "options": {
+      "A": "Collective responsibility depends on the government's control over those who implement its policies",
+      "B": "It is required by Article 356",
+      "C": "It would increase the Union's power",
+      "D": "It is required by Entry 18"
+     },
+     "correct_option": "A",
+     "explanation": "The Court linked democracy and collective responsibility with control over officers.",
+     "difficulty": "Moderate",
+     "q_no": 39
+    },
+    {
+     "question": "The question referred to the larger Bench regarding the 2023 Amendment Act is essentially whether Parliament",
+     "options": {
+      "A": "can alter, by legislation under Article 239AA(7), a constitutional position declared by the Court, as distinct from removing its legal basis",
+      "B": "must obtain the Assembly's consent",
+      "C": "can legislate at all for Delhi",
+      "D": "can abolish the Assembly by ordinary law"
+     },
+     "correct_option": "A",
+     "explanation": "This is the problem presented in the passage.",
+     "difficulty": "Tough",
+     "q_no": 40
+    },
+    {
+     "question": "Which of the following is NOT a holding in S.R. Bommai?",
+     "options": {
+      "A": "A Presidential Proclamation under Article 356 is subject to judicial review",
+      "B": "The Assembly may be dissolved at once, before the Proclamation is approved",
+      "C": "The majority of a Government is to be tested on the floor of the House",
+      "D": "Federalism and secularism form part of the basic structure"
+     },
+     "correct_option": "B",
+     "explanation": "Bommai held that the Assembly should not be dissolved before parliamentary approval.",
+     "difficulty": "Moderate",
+     "q_no": 41
+    },
+    {
+     "question": "Assertion (A): After Bommai, the Governor's subjective report alone is not sufficient to oust an elected State Government. Reason (R): The Court held that a Government's majority must be tested on the floor of the House. Which is correct?",
+     "options": {
+      "A": "Both A and R are true, and R explains A",
+      "B": "Both A and R are true, but R does not explain A",
+      "C": "A is true but R is false",
+      "D": "A is false but R is true"
+     },
+     "correct_option": "A",
+     "explanation": "The floor test requirement displaces the Governor's subjective view.",
+     "difficulty": "Tough",
+     "q_no": 42
+    }
+   ],
+   "question_range": [
+    37,
+    42
+   ],
+   "word_count": 348
+  },
+  {
+   "passage_id": "P06",
+   "subject_area": "Constitutional Law",
+   "title": "Amending Power and the Basic Structure: A Doctrinal Ladder",
+   "passage": "Article 368 confers on Parliament the power to amend the Constitution. In Shankari Prasad (1951) and Sajjan Singh (1965), the Supreme Court held that an amendment under Article 368 is not 'law' within Article 13(2), and that fundamental rights could therefore be amended. In I.C. Golaknath v. State of Punjab (1967), by a majority of six to five, the Court overruled these decisions, held that fundamental rights are 'transcendental' and cannot be abridged by amendment, and invoked prospective overruling to save past amendments. Parliament responded with the 24th Amendment (1971), which declared that Article 13 does not apply to constitutional amendments, and the 25th Amendment. In Kesavananda Bharati v. State of Kerala (1973), a thirteen-judge Bench, by a narrow majority of seven to six, upheld the 24th Amendment but held that the power to amend does not include the power to alter the 'basic structure or framework' of the Constitution; the judges differed in listing the features of the basic structure. In Indira Nehru Gandhi v. Raj Narain (1975), the Court applied the doctrine to strike down a clause of the 39th Amendment that exempted the election of the Prime Minister from judicial scrutiny, as violating free and fair elections, the rule of law and judicial review. After the 42nd Amendment, which sought to exclude judicial review of amendments and to give primacy to the Directive Principles, the Court in Minerva Mills v. Union of India (1980) struck down these provisions, holding that the limited nature of the amending power is itself a basic feature, and that the harmony between Parts III and IV is part of that structure. In I.R. Coelho v. State of Tamil Nadu (2007), a nine-judge Bench held that laws placed in the Ninth Schedule after 24 April 1973, the date of Kesavananda, are open to challenge on the ground that they violate fundamental rights which form part of the basic structure. In Supreme Court Advocates-on-Record Association v. Union of India (2015), the Court struck down the 99th Amendment and the National Judicial Appointments Commission Act, holding that judicial independence, and thereby the primacy of the judiciary in appointments, is part of the basic structure.",
+   "questions": [
+    {
+     "question": "The Court in Golaknath employed the doctrine of prospective overruling in order to",
+     "options": {
+      "A": "apply its decision retrospectively to all amendments",
+      "B": "save past amendments from invalidation while holding that fundamental rights cannot in future be abridged",
+      "C": "strike down the 24th Amendment",
+      "D": "overrule Kesavananda"
+     },
+     "correct_option": "B",
+     "explanation": "The passage states that the Court saved past amendments by prospective overruling.",
+     "difficulty": "Moderate",
+     "q_no": 31
+    },
+    {
+     "question": "Which of the following correctly states the effect of the 24th Amendment as upheld in Kesavananda?",
+     "options": {
+      "A": "Parliament may amend any part of the Constitution without limit",
+      "B": "Amendments are not 'law' under Article 13, but the power does not extend to altering the basic structure",
+      "C": "Fundamental rights are absolutely unamendable",
+      "D": "The Court lost the power of judicial review"
+     },
+     "correct_option": "B",
+     "explanation": "The 24th Amendment was upheld, subject to the basic structure limitation.",
+     "difficulty": "Moderate",
+     "q_no": 32
+    },
+    {
+     "question": "In Indira Nehru Gandhi v. Raj Narain, the clause of the 39th Amendment was struck down on the ground that it",
+     "options": {
+      "A": "was not passed by the requisite majority",
+      "B": "violated free and fair elections, the rule of law and judicial review as parts of the basic structure",
+      "C": "affected the federal structure",
+      "D": "violated Article 21 only"
+     },
+     "correct_option": "B",
+     "explanation": "The passage lists the three grounds.",
+     "difficulty": "Moderate",
+     "q_no": 33
+    },
+    {
+     "question": "The holding in Minerva Mills that 'the limited nature of the amending power is itself a basic feature' means that",
+     "options": {
+      "A": "Parliament cannot, by amending Article 368, enlarge its own amending power into an unlimited one",
+      "B": "Parliament cannot amend Article 368 at all",
+      "C": "fundamental rights prevail over Directive Principles in every case",
+      "D": "the Constitution is unamendable"
+     },
+     "correct_option": "A",
+     "explanation": "Parliament cannot use its limited power to remove the limits on that power.",
+     "difficulty": "Tough",
+     "q_no": 34
+    },
+    {
+     "question": "A law was placed in the Ninth Schedule on 1 January 1980. On the basis of I.R. Coelho, the law",
+     "options": {
+      "A": "can be challenged only before the President",
+      "B": "may be challenged for violation of fundamental rights forming part of the basic structure",
+      "C": "is void because the Schedule is unconstitutional",
+      "D": "is immune from all judicial review"
+     },
+     "correct_option": "B",
+     "explanation": "Laws placed after 24 April 1973 are open to challenge.",
+     "difficulty": "Moderate",
+     "q_no": 35
+    },
+    {
+     "question": "Which of the following pairings of case and principle is INCORRECT?",
+     "options": {
+      "A": "Golaknath - fundamental rights are not amendable (later overruled)",
+      "B": "Supreme Court Advocates-on-Record Association (2015) - judicial independence is part of the basic structure",
+      "C": "Minerva Mills - harmony of Parts III and IV is part of the basic structure",
+      "D": "I.R. Coelho - Ninth Schedule laws are wholly immune after Kesavananda"
+     },
+     "correct_option": "D",
+     "explanation": "Coelho held that Ninth Schedule laws after 24 April 1973 are subject to review.",
+     "difficulty": "Tough",
+     "q_no": 36
+    }
+   ],
+   "question_range": [
+    31,
+    36
+   ],
+   "word_count": 359
+  },
+  {
+   "passage_id": "P25",
+   "subject_area": "Jurisprudence / Constitutional Law",
+   "title": "Precedent, Ratio Decidendi and the Authority of the Supreme Court",
+   "passage": "Article 141 of the Constitution provides that the law declared by the Supreme Court shall be binding on all courts within the territory of India. The expression 'law declared' is taken to refer to the ratio decidendi of a decision, that is, the principle of law necessary for the decision on the material facts, and not to obiter dicta, which are observations made in passing; though the obiter dicta of the Supreme Court are entitled to great weight, they are not binding in the strict sense. Jurisprudence has differed on the nature of judicial decision. The declaratory theory, associated with Blackstone, holds that judges do not make law but discover and declare what the law already is. The opposing view, associated with Bentham and Austin, regards judge-made law as law made by the judges, and Austin called the common law 'judiciary law'. A decision is said to be per incuriam, and therefore not binding, where it is given in ignorance of a binding statute or of a binding authority of a superior court, as explained in Young v. Bristol Aeroplane Co. and applied in A.R. Antulay v. R.S. Nayak (1988). A decision rendered sub silentio, without the point having been argued or considered, has no precedential value on that point. The doctrine of stare decisis promotes certainty, but the Supreme Court is not bound by its own decisions and may overrule them, for example in Golaknath, where it applied prospective overruling to avoid disruption. In Central Board of Dawoodi Bohra Community v. State of Maharashtra (2005), the Court held that a Bench of coequal strength is bound by the decision of another Bench of the same strength, and that if it disagrees, it can only refer the matter to a larger Bench, which also applies to decisions of Constitution Benches, which a smaller Bench cannot doubt. Under the doctrine of merger, as explained in Kunhayammed v. State of Kerala (2000), when a superior court entertains an appeal and passes a decree, the decree of the lower court merges in that of the superior court. The Court's power under Article 142 to do complete justice is not a licence to override statutory or constitutional prohibitions, and a curative petition, evolved in Rupa Ashok Hurra v. Ashok Hurra (2002), permits a final judgment to be reconsidered in rare cases of a gross abuse of process or violation of natural justice, where a review has been dismissed.",
+   "questions": [
+    {
+     "question": "The 'law declared' within Article 141 refers to",
+     "options": {
+      "A": "the ratio decidendi of a decision",
+      "B": "obiter dicta alone",
+      "C": "every observation in a judgment",
+      "D": "only the final order"
+     },
+     "correct_option": "A",
+     "explanation": "The passage states that it refers to the ratio decidendi.",
+     "difficulty": "Easy",
+     "q_no": 145
+    },
+    {
+     "question": "A decision given in ignorance of a binding statutory provision is",
+     "options": {
+      "A": "a decision sub silentio only",
+      "B": "valid for lower courts only",
+      "C": "per incuriam, and not binding",
+      "D": "binding as a precedent"
+     },
+     "correct_option": "C",
+     "explanation": "The passage states this.",
+     "difficulty": "Moderate",
+     "q_no": 146
+    },
+    {
+     "question": "The declaratory theory of Blackstone holds that",
+     "options": {
+      "A": "the legislature is subordinate to judges",
+      "B": "judges discover and declare the existing law",
+      "C": "judges make new law",
+      "D": "precedent has no value"
+     },
+     "correct_option": "B",
+     "explanation": "The passage states this.",
+     "difficulty": "Easy",
+     "q_no": 147
+    },
+    {
+     "question": "A two-judge Bench disagrees with a decision of a Constitution Bench. In accordance with Dawoodi Bohra, it should",
+     "options": {
+      "A": "ignore the decision",
+      "B": "overrule the Constitution Bench",
+      "C": "refer the matter to a larger Bench, since a smaller Bench cannot doubt a Constitution Bench",
+      "D": "decide as it prefers"
+     },
+     "correct_option": "C",
+     "explanation": "The passage states that the smaller bench can only refer the matter to a larger Bench.",
+     "difficulty": "Moderate",
+     "q_no": 148
+    },
+    {
+     "question": "A curative petition is permitted",
+     "options": {
+      "A": "in rare cases of gross abuse of process or violation of natural justice, after the dismissal of a review",
+      "B": "only in criminal cases",
+      "C": "whenever a party loses",
+      "D": "as a second appeal"
+     },
+     "correct_option": "A",
+     "explanation": "The passage states the position.",
+     "difficulty": "Moderate",
+     "q_no": 149
+    },
+    {
+     "question": "Consider the following. 1. Obiter dicta of the Supreme Court are binding in the same manner as ratio. 2. A decision sub silentio has no precedential value on the point not argued. 3. The Supreme Court may overrule its own earlier decisions. Which are correct?",
+     "options": {
+      "A": "1 and 2 only",
+      "B": "2 and 3 only",
+      "C": "1 and 3 only",
+      "D": "1, 2 and 3"
+     },
+     "correct_option": "B",
+     "explanation": "Obiter dicta are weighty but not strictly binding; statements 2 and 3 are accurate.",
+     "difficulty": "Tough",
+     "q_no": 150
+    }
+   ],
+   "question_range": [
+    145,
+    150
+   ],
+   "word_count": 404
+  }
+ ]
+}

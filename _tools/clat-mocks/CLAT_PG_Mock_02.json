@@ -1,0 +1,2487 @@
+{
+  "mock_title": "CLAT PG (LL.M.) Full-Length Mock Test - 02",
+  "pattern": {
+    "total_questions": 150,
+    "question_type": "Passage-based MCQ (4 options, single correct); includes statement-based and assertion-reason items",
+    "passages": 25,
+    "questions_per_passage": 6,
+    "marks_per_question": 1,
+    "negative_marking": 0.25,
+    "total_marks": 150,
+    "suggested_duration_minutes": 150,
+    "note": "The official CLAT PG paper has 120 MCQs/120 marks/120 minutes. This mock is extended to 150 as requested; drop any five passages for exact parity."
+  },
+  "current_affairs_passages": {
+    "P03": "Harish Rana v. Union of India (11 Mar 2026) - passive euthanasia",
+    "P04": "Dr. Jaya Thakur v. Union of India (30 Jan 2026) - menstrual health",
+    "P05": "Union of India v. Rohith Nathan (11 Mar 2026; reaffirmed Nov 2026) - OBC creamy layer",
+    "other": "P13 (GST rate rationalisation, Sept 2025), P14 (Competition Amendment 2023), P17 (Shishu Pal v. Surjeet, 11 Jun 2026)"
+  },
+  "subjects_covered": [
+    "Administrative Law",
+    "Civil Procedure and Commercial Disputes",
+    "Company Law",
+    "Competition Law",
+    "Constitutional Law",
+    "Constitutional Law / Election Law",
+    "Consumer Protection Law",
+    "Criminal Law",
+    "Criminal Procedure",
+    "Environmental Law",
+    "Family Law / Succession",
+    "Intellectual Property Law",
+    "Jurisprudence",
+    "Jurisprudence / Constitutional Law",
+    "Law of Contract / Specific Relief",
+    "Law of Torts / Motor Accident Claims",
+    "Public International Law",
+    "Tax Law"
+  ],
+  "instructions": [
+    "Each question carries 1 mark; 0.25 marks deducted for each wrong answer.",
+    "Answer from the passage and the legal principles stated or implied; read every option.",
+    "Current-affairs passages were checked against news and law-report coverage up to early Nov 2026; confirm details against the judgments before citing."
+  ],
+  "passages": [
+    {
+      "passage_id": "P01",
+      "subject_area": "Jurisprudence",
+      "title": "Natural Law: From Aquinas to Radbruch and Finnis",
+      "passage": "The natural law tradition holds that there is some necessary connection between law and morality. Thomas Aquinas distinguished four kinds of law: eternal law, the divine reason governing the universe; natural law, the participation of rational creatures in the eternal law; divine law, revealed in scripture; and human law, which is derived from natural law either as a conclusion from its precepts or as a determination of matters it leaves open. Aquinas said that an unjust human law 'seems not to be law at all' but a perversion of law; he added, however, that such a law may nonetheless bind in conscience where disobedience would cause scandal or disturbance, a qualification showing that his thesis concerns the full or focal sense of law rather than its mere social existence. John Finnis, in Natural Law and Natural Rights (1980), revived the tradition without deriving morality from metaphysics. He identifies basic goods, self-evident to practical reason, such as life, knowledge, play, aesthetic experience, sociability, practical reasonableness and religion, and argues that law should be understood by its 'central case', the law of a community that effectively secures the common good with fairness. Law that fails this standard is not non-law, but a 'peripheral' case, defective as law and lacking the moral claim to obedience. Gustav Radbruch, after the Second World War, argued that where the conflict between positive law and justice reaches an intolerable degree, the statute, as 'flawed law', must yield to justice; ordinary injustice does not deprive a statute of validity, but extreme injustice does. H.L.A. Hart, a leading positivist, accepted a 'minimum content of natural law': given the human vulnerability to attack, approximate equality, limited altruism, limited resources and limited understanding and strength of will, any social order that is to survive must contain rules restraining violence, regulating property and requiring promises to be kept. Hart insisted, however, that these are contingent truisms about human nature and not a moral test of the validity of particular laws.",
+      "questions": [
+        {
+          "question": "Which of the following best captures Aquinas's position on an unjust human law, as presented in the passage?",
+          "options": {
+            "A": "It is law only if it is derived from divine law",
+            "B": "It is not law in the full sense, though it may still bind in conscience to avoid scandal or disturbance",
+            "C": "It is valid law but ought always to be disobeyed",
+            "D": "It is law in every sense and binds absolutely"
+          },
+          "correct_option": "B",
+          "explanation": "The passage records both the 'perversion of law' claim and the qualification that the law may bind in conscience to avoid scandal; the thesis concerns the focal sense of law.",
+          "difficulty": "Moderate",
+          "q_no": 1
+        },
+        {
+          "question": "According to Finnis, a legal system that persistently fails to secure the common good with fairness is",
+          "options": {
+            "A": "a peripheral case of law, defective as law and lacking the moral claim to obedience",
+            "B": "the central case of law",
+            "C": "valid and morally binding for that reason",
+            "D": "not a legal system at all, in the sociological sense"
+          },
+          "correct_option": "A",
+          "explanation": "Finnis's 'central case' method treats failing systems as peripheral, not non-existent.",
+          "difficulty": "Moderate",
+          "q_no": 2
+        },
+        {
+          "question": "Under the Radbruch formula as stated in the passage, which of the following statutes would most clearly lose the character of law?",
+          "options": {
+            "A": "A statute stripping a racial group of all legal personality and authorising its extermination",
+            "B": "A statute imposing a harsh but arguably justifiable tax",
+            "C": "A statute that retrospectively increases a minor fine",
+            "D": "A statute with an ambiguous drafting error"
+          },
+          "correct_option": "A",
+          "explanation": "Only extreme injustice, intolerable in degree, defeats validity; ordinary injustice does not.",
+          "difficulty": "Moderate",
+          "q_no": 3
+        },
+        {
+          "question": "Hart's 'minimum content of natural law' is best understood as",
+          "options": {
+            "A": "a rejection of the rule of recognition",
+            "B": "proof that law and morality are necessarily identical",
+            "C": "a moral test which every valid law must pass",
+            "D": "a set of contingent facts about human nature which explain why any viable legal order contains certain basic rules"
+          },
+          "correct_option": "D",
+          "explanation": "The passage says Hart regarded these as contingent truisms and not a moral test of validity.",
+          "difficulty": "Moderate",
+          "q_no": 4
+        },
+        {
+          "question": "Which of the following statements about Finnis is INCORRECT on the basis of the passage?",
+          "options": {
+            "A": "He revived natural law without deriving morality from metaphysics",
+            "B": "He treats basic goods as self-evident to practical reason",
+            "C": "He rejects the idea of a 'central case' of law",
+            "D": "He lists practical reasonableness among the basic goods"
+          },
+          "correct_option": "C",
+          "explanation": "Finnis's whole account of law relies on the central case; the other statements are accurate.",
+          "difficulty": "Tough",
+          "q_no": 5
+        },
+        {
+          "question": "Assertion (A): Hart's acceptance of a 'minimum content of natural law' does not make him a natural lawyer. Reason (R): Hart treats the minimum content as contingent facts about human nature, not as a criterion of legal validity. Which is correct?",
+          "options": {
+            "A": "Both A and R are true, and R is the correct explanation of A",
+            "B": "Both A and R are true, but R is not the correct explanation of A",
+            "C": "A is true but R is false",
+            "D": "A is false but R is true"
+          },
+          "correct_option": "A",
+          "explanation": "The natural-law thesis concerns a necessary moral test of validity. Hart denies that; his minimum content is only a set of contingent facts, which is precisely why he remains a positivist.",
+          "difficulty": "Tough",
+          "q_no": 6
+        }
+      ],
+      "question_range": [
+        1,
+        6
+      ],
+      "word_count": 328
+    },
+    {
+      "passage_id": "P02",
+      "subject_area": "Jurisprudence",
+      "title": "Hohfeld's Jural Relations and the Question of Legal Personality",
+      "passage": "Wesley Hohfeld argued that the word 'right' is used loosely for four different legal relations, and set out eight fundamental jural conceptions in two groups of correlatives and opposites. A claim-right corresponds to a duty in another: if A has a right that B pay him, B has a duty to pay. A privilege (or liberty) is the absence of a duty and has as its correlative a 'no-right' in others: A's privilege to enter his own land means that others have no right that he refrain from doing so. A power is the ability to alter legal relations, and its correlative is a liability: the promisee's power to accept an offer subjects the offeror to a liability. An immunity is freedom from the legal power of another to alter one's legal position, and its correlative is a disability. The opposites are, respectively, no-right, duty, disability and liability. Hohfeld's scheme is often applied to questions of legal personality, the capacity to bear rights and duties. A natural person is a legal person, but the law also recognises artificial or juristic persons such as corporations, idols and, in some systems, rivers. The fiction theory of Savigny treats such entities as creations of the law's imagination, whereas the realist theory of Gierke treats them as real groups with a will of their own. In Yogendra Nath Naskar v. CIT (1969), the Supreme Court held that a Hindu idol is a juristic person, with the shebait acting as manager, and in Shiromani Gurdwara Prabandhak Committee v. Som Nath Dass (2000), the same status was accorded to the Guru Granth Sahib. In 2017, the Uttarakhand High Court in Mohd. Salim v. State of Uttarakhand declared the Ganga and Yamuna to be living legal persons, in the manner of New Zealand's recognition of the Whanganui River, but the Supreme Court stayed that decision. In Animal Welfare Board of India v. A. Nagaraja (2014), the Court, without conferring personality, read the rights of animals into Article 21 as an expansion of the concept of life.",
+      "questions": [
+        {
+          "question": "In Hohfeld's scheme, the correlative of a 'power' is",
+          "options": {
+            "A": "a disability",
+            "B": "a no-right",
+            "C": "a duty",
+            "D": "a liability"
+          },
+          "correct_option": "D",
+          "explanation": "Power corresponds to liability; immunity corresponds to disability.",
+          "difficulty": "Easy",
+          "q_no": 7
+        },
+        {
+          "question": "Parliament cannot amend the basic structure of the Constitution. In Hohfeldian terms this is best described as",
+          "options": {
+            "A": "a privilege of Parliament",
+            "B": "a power of the Court to amend",
+            "C": "a disability of Parliament, correlating to an immunity of the basic structure from amendment",
+            "D": "a claim-right of the citizen against Parliament"
+          },
+          "correct_option": "C",
+          "explanation": "Absence of power in Parliament is a disability; its correlative is the immunity of the other party, here the protected basic features.",
+          "difficulty": "Tough",
+          "q_no": 8
+        },
+        {
+          "question": "The owner of land enters it freely, and no one else can complain. The Hohfeldian relation and its correlative are",
+          "options": {
+            "A": "immunity and disability",
+            "B": "claim-right and duty",
+            "C": "power and liability",
+            "D": "privilege and no-right"
+          },
+          "correct_option": "D",
+          "explanation": "Freedom from duty to stay out is a privilege; its correlative is the no-right of others.",
+          "difficulty": "Moderate",
+          "q_no": 9
+        },
+        {
+          "question": "Which of the following statements is correct on the basis of the passage?",
+          "options": {
+            "A": "The Supreme Court recognised a Hindu idol as a juristic person acting through the shebait, but stayed the declaration regarding the Ganga and Yamuna",
+            "B": "Animal Welfare Board v. Nagaraja conferred legal personality on animals",
+            "C": "The Supreme Court upheld the Uttarakhand High Court's declaration that the Ganga and Yamuna are legal persons",
+            "D": "Gierke's theory treats juristic persons as mere fictions"
+          },
+          "correct_option": "A",
+          "explanation": "Naskar upheld idol personality; the Mohd. Salim decision was stayed; Nagaraja did not confer personality; Gierke's theory is the realist view.",
+          "difficulty": "Moderate",
+          "q_no": 10
+        },
+        {
+          "question": "A promisee holds a power to accept an offer within a stipulated time. Before acceptance, the offeror's corresponding position is",
+          "options": {
+            "A": "a disability",
+            "B": "an immunity",
+            "C": "a liability",
+            "D": "a duty"
+          },
+          "correct_option": "C",
+          "explanation": "The passage states that the correlative of power is liability.",
+          "difficulty": "Moderate",
+          "q_no": 11
+        },
+        {
+          "question": "The best difference between the fiction theory and the realist theory of juristic personality is that the fiction theory",
+          "options": {
+            "A": "is accepted only by the Supreme Court",
+            "B": "treats the entity as real with its own will, whereas the realist theory denies this",
+            "C": "treats the entity's personality as a creation of law, whereas the realist theory treats the group as a real entity with a will of its own",
+            "D": "applies only to corporations, whereas the realist theory applies only to idols"
+          },
+          "correct_option": "C",
+          "explanation": "Savigny sees personality as a legal fiction; Gierke sees real group personality.",
+          "difficulty": "Moderate",
+          "q_no": 12
+        }
+      ],
+      "question_range": [
+        7,
+        12
+      ],
+      "word_count": 339
+    },
+    {
+      "passage_id": "P03",
+      "subject_area": "Constitutional Law",
+      "title": "The Right to Die with Dignity: Harish Rana v. Union of India (2026)",
+      "passage": "Article 21 guarantees that no person shall be deprived of life or personal liberty except according to procedure established by law. In Gian Kaur v. State of Punjab (1996), a Constitution Bench held that the right to life does not include the right to die, and upheld the penal provision against abetment of suicide, but observed that a dying person in a terminal state or a persistent vegetative state may be allowed to die a natural death, since the right to live with dignity includes the right to die with dignity at the end of life. In Aruna Shanbaug v. Union of India (2011), the Court permitted passive euthanasia, the withdrawal of life-sustaining treatment, under High Court supervision, while distinguishing it from active euthanasia, which involves a positive act to end life and remains unlawful. In Common Cause v. Union of India (2018), a Constitution Bench recognised the right to die with dignity as part of Article 21, upheld advance medical directives, or 'living wills', and laid down a procedure involving medical boards; the procedure was simplified by the Court in January 2023. In Harish Rana v. Union of India, decided on 11 March 2026 by a Bench of Justices J.B. Pardiwala and K.V. Viswanathan, the Supreme Court gave effect for the first time to this framework in an individual case. Harish Rana, who was injured in a fall in 2013, had remained in a persistent vegetative state for about thirteen years, and his parents sought permission for the withdrawal of treatment. The Delhi High Court had declined relief on the ground that he was not on mechanical life support and was able to sustain himself. The Supreme Court rejected that distinction, treating clinically assisted nutrition and hydration as a medical intervention, and permitted its withdrawal under medical supervision, on the basis of the opinions of medical boards and the best interests of the patient. The Court also waived the usual reconsideration period in the case, and observed that the matter did not create a new doctrine, but applied principles laid down in 2011, 2018 and 2023.",
+      "questions": [
+        {
+          "question": "Which of the following correctly states the holding in Gian Kaur as described in the passage?",
+          "options": {
+            "A": "Passive euthanasia is permitted in all cases",
+            "B": "The right to life does not include a right to die, though the dying process may be dignified in terminal or vegetative states",
+            "C": "Abetment of suicide is unconstitutional",
+            "D": "The right to life includes a right to die by choice"
+          },
+          "correct_option": "B",
+          "explanation": "The Court rejected a right to die but observed that dying with dignity in terminal states is part of the right to live with dignity.",
+          "difficulty": "Moderate",
+          "q_no": 13
+        },
+        {
+          "question": "The distinction between active and passive euthanasia, as drawn in Aruna Shanbaug, is that",
+          "options": {
+            "A": "active euthanasia is lawful if the family consents",
+            "B": "both are unlawful",
+            "C": "both are lawful",
+            "D": "passive euthanasia involves withdrawal of life-sustaining treatment and is permitted under safeguards, while active euthanasia involves a positive act to end life and remains unlawful"
+          },
+          "correct_option": "D",
+          "explanation": "The passage records the Court's distinction.",
+          "difficulty": "Easy",
+          "q_no": 14
+        },
+        {
+          "question": "The reasoning of the Delhi High Court rejected by the Supreme Court in Harish Rana was that",
+          "options": {
+            "A": "the patient could not be allowed to die because he was not on mechanical life support and could sustain himself",
+            "B": "medical boards had not been constituted",
+            "C": "passive euthanasia is not recognised in India",
+            "D": "parents have no standing"
+          },
+          "correct_option": "A",
+          "explanation": "The Supreme Court rejected the distinction based on absence of mechanical life support.",
+          "difficulty": "Moderate",
+          "q_no": 15
+        },
+        {
+          "question": "In the Supreme Court's reasoning in Harish Rana, clinically assisted nutrition and hydration was treated as",
+          "options": {
+            "A": "a medical intervention which may be withdrawn in accordance with the framework",
+            "B": "an unconstitutional practice",
+            "C": "a form of active euthanasia",
+            "D": "ordinary care which can never be withdrawn"
+          },
+          "correct_option": "A",
+          "explanation": "The Court treated it as a medical intervention, which brought withdrawal within passive euthanasia.",
+          "difficulty": "Moderate",
+          "q_no": 16
+        },
+        {
+          "question": "Which of the following statements is correct?",
+          "options": {
+            "A": "Harish Rana created an entirely new doctrine unconnected with earlier cases",
+            "B": "Harish Rana applied the framework of Common Cause (2018), as modified in 2023, and was the first individual case in which the Court itself gave effect to it",
+            "C": "Common Cause rejected living wills",
+            "D": "Aruna Shanbaug permitted active euthanasia"
+          },
+          "correct_option": "B",
+          "explanation": "The passage records the application of the earlier principles and the first-time effect in an individual case.",
+          "difficulty": "Tough",
+          "q_no": 17
+        },
+        {
+          "question": "Consider the following. 1. The Court in Common Cause recognised the right to die with dignity as part of Article 21. 2. The Court in Common Cause rejected advance medical directives. 3. The procedure of Common Cause was simplified in January 2023. Which are correct?",
+          "options": {
+            "A": "1 and 2 only",
+            "B": "1 and 3 only",
+            "C": "2 and 3 only",
+            "D": "1, 2 and 3"
+          },
+          "correct_option": "B",
+          "explanation": "Statements 1 and 3 appear in the passage; statement 2 is wrong because living wills were upheld.",
+          "difficulty": "Tough",
+          "q_no": 18
+        }
+      ],
+      "question_range": [
+        13,
+        18
+      ],
+      "word_count": 347
+    },
+    {
+      "passage_id": "P04",
+      "subject_area": "Constitutional Law",
+      "title": "Menstrual Health as a Fundamental Right: Dr. Jaya Thakur v. Union of India (2026)",
+      "passage": "Article 21A, inserted by the 86th Amendment in 2002, provides for free and compulsory education to children between six and fourteen years, and the Right of Children to Free and Compulsory Education Act, 2009 (RTE Act) gives effect to it. Article 14 has been interpreted to guarantee not only formal equality but substantive equality, which requires the State to take account of structural disadvantage. In K.S. Puttaswamy v. Union of India (2017), the Supreme Court held that dignity, bodily autonomy and privacy are facets of the right to life. In Dr. Jaya Thakur v. Union of India, decided on 30 January 2026 by a Bench of Justices J.B. Pardiwala and R. Mahadevan, the Supreme Court considered a petition under Article 32 seeking free sanitary napkins and facilities for girls in schools. The Court held that the right to life under Article 21 includes the right to menstrual health, since a life with dignity cannot be realised without privacy and bodily autonomy, and that inadequate access to menstrual hygiene management is a barrier to education which violates Article 21A and the RTE Act, as well as the principle of substantive equality under Article 14. The Court issued binding directions to all States and Union Territories to provide free biodegradable sanitary napkins to girl students, to ensure that every school has functional, hygienic, gender-segregated toilets with water, and facilities accessible to children with disabilities, and to designate officers to monitor compliance. It warned that private schools which fail to comply risk the withdrawal of recognition under the RTE Act. In September 2026, expressing dissatisfaction with compliance reports from several States, the Court directed District Education Officers to constitute teams of teachers to conduct surprise inspections of schools. The judgment is cited as an example of the Court's positive-obligation approach, under which the State must act to remove obstacles that prevent the realisation of rights.",
+      "questions": [
+        {
+          "question": "The Court in Dr. Jaya Thakur held menstrual health to be a facet of",
+          "options": {
+            "A": "Article 21 alone",
+            "B": "the Directive Principles only",
+            "C": "Article 21, and its denial to be a violation of Article 21A, the RTE Act and Article 14",
+            "D": "Article 19(1)(g)"
+          },
+          "correct_option": "C",
+          "explanation": "The passage records all these constitutional foundations.",
+          "difficulty": "Moderate",
+          "q_no": 19
+        },
+        {
+          "question": "The passage describes 'substantive equality' as the idea that",
+          "options": {
+            "A": "equality is a Directive Principle",
+            "B": "identical treatment is always required",
+            "C": "the State must take account of structural disadvantage while securing equality",
+            "D": "equality applies only to economic matters"
+          },
+          "correct_option": "C",
+          "explanation": "The passage states that Article 14 includes substantive equality, which requires the State to consider structural disadvantage.",
+          "difficulty": "Moderate",
+          "q_no": 20
+        },
+        {
+          "question": "Which of the following is NOT among the directions mentioned in the passage?",
+          "options": {
+            "A": "Mandatory medical examination of every girl student each month",
+            "B": "Free biodegradable sanitary napkins to girl students",
+            "C": "Disability-accessible facilities",
+            "D": "Functional, gender-segregated toilets with water in every school"
+          },
+          "correct_option": "A",
+          "explanation": "The last is not mentioned; the others are directions in the passage.",
+          "difficulty": "Easy",
+          "q_no": 21
+        },
+        {
+          "question": "A private unaided school refuses to install the facilities directed by the Court. The consequence indicated in the passage is",
+          "options": {
+            "A": "a fine of Rs 1 crore",
+            "B": "risk of withdrawal of recognition under the RTE Act",
+            "C": "imprisonment of the school's managers",
+            "D": "no consequence, since it is a private body"
+          },
+          "correct_option": "B",
+          "explanation": "The Court warned of de-recognition.",
+          "difficulty": "Moderate",
+          "q_no": 22
+        },
+        {
+          "question": "The 'positive-obligation approach' mentioned in the passage means that",
+          "options": {
+            "A": "the State merely refrains from interfering with rights",
+            "B": "only private parties have duties",
+            "C": "the State must take steps to remove obstacles which prevent realisation of rights",
+            "D": "courts may not issue directions"
+          },
+          "correct_option": "C",
+          "explanation": "The passage describes the approach as requiring the State to act to remove obstacles.",
+          "difficulty": "Moderate",
+          "q_no": 23
+        },
+        {
+          "question": "Assertion (A): The Court treated lack of menstrual hygiene facilities as a violation of Article 21A. Reason (R): Lack of such facilities causes absenteeism and drop-out, which acts as a barrier to free and compulsory education. Which is correct?",
+          "options": {
+            "A": "Both A and R are true, and R explains A",
+            "B": "Both A and R are true, but R does not explain A",
+            "C": "A is true but R is false",
+            "D": "A is false but R is true"
+          },
+          "correct_option": "A",
+          "explanation": "The Court linked the barrier to education with the violation of Article 21A and the RTE Act.",
+          "difficulty": "Tough",
+          "q_no": 24
+        }
+      ],
+      "question_range": [
+        19,
+        24
+      ],
+      "word_count": 312
+    },
+    {
+      "passage_id": "P05",
+      "subject_area": "Constitutional Law",
+      "title": "The 'Creamy Layer' and Parental Employment: Union of India v. Rohith Nathan (2026)",
+      "passage": "In Indra Sawhney v. Union of India (1992), the Supreme Court upheld reservation of 27 per cent for Other Backward Classes under Article 16(4) but held that the 'creamy layer', the socially advanced among them, must be excluded. The Government implemented this through the Office Memorandum of 8 September 1993, which sets out categories of persons whose children are not entitled to the OBC benefit. These include constitutional office-holders and those in specified service categories, such as the children of Group A or Class I officers, and, under a residual category, persons whose family income from sources other than salary and agriculture exceeds a specified amount, now Rs 8 lakh per annum, subject to periodic revision. Salary and agricultural income are, under the memorandum, excluded from this income test, since the status of the service held by the parents is the principal criterion for salaried persons. A 2004 letter from the Department of Personnel and Training (DoPT) stated that, where equivalence between posts in public sector undertakings or private employment and government posts had not been established, the salary income of such parents would be taken into account under the income test. In Union of India v. Rohith Nathan, decided on 11 March 2026 by Justices P.S. Narasimha and R. Mahadevan, the Supreme Court held that this practice, which was applied to candidates in the Civil Services Examination, was unsustainable in law. The Court held that the creamy layer is determined by social status and not by income alone, that an executive letter of clarification cannot add a substantive condition absent from the parent policy, and that treating the children of PSU or private employees differently from the children of government employees amounts to hostile discrimination under Articles 14 and 16. Pending the determination of equivalence, only the income test excluding salary would apply to such candidates. The Court directed the authorities to issue a fresh memorandum and to accommodate candidates wrongly denied the benefit, including through supernumerary posts. In November 2026, the Court reaffirmed its decision, refusing the Union's plea that it operate only prospectively, while clarifying that it does not reopen concluded selections, though it applies to the allocation of services under the Civil Services Examination, 2025.",
+      "questions": [
+        {
+          "question": "The principal ground on which the 2004 DoPT letter was held unsustainable was that",
+          "options": {
+            "A": "an executive clarification cannot add a substantive condition not found in the parent policy, and it created hostile discrimination",
+            "B": "it was issued by a junior officer",
+            "C": "it applied to government employees alone",
+            "D": "it was not published"
+          },
+          "correct_option": "A",
+          "explanation": "The Court held that the letter introduced a substantive condition and created discrimination under Articles 14 and 16.",
+          "difficulty": "Moderate",
+          "q_no": 25
+        },
+        {
+          "question": "Under the 1993 Office Memorandum as described, salary income of parents is",
+          "options": {
+            "A": "irrelevant to all candidates",
+            "B": "excluded from the income test, with service status being the primary criterion for salaried persons",
+            "C": "the only criterion",
+            "D": "always included in the income test"
+          },
+          "correct_option": "B",
+          "explanation": "The passage states that salary and agricultural income are excluded from the income test.",
+          "difficulty": "Moderate",
+          "q_no": 26
+        },
+        {
+          "question": "The Court held that, pending determination of equivalence, the position of PSU and private-sector parents is that",
+          "options": {
+            "A": "the Government may decide arbitrarily",
+            "B": "they are automatically in the creamy layer",
+            "C": "they are excluded from reservation altogether",
+            "D": "only the income test excluding salary applies"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states this directly.",
+          "difficulty": "Moderate",
+          "q_no": 27
+        },
+        {
+          "question": "The Court's refusal of prospective operation in November 2026 means that",
+          "options": {
+            "A": "the decision is wholly set aside",
+            "B": "the March 2026 decision applies to concluded selections as well",
+            "C": "the decision applies, though it does not reopen concluded selections, to the allocation of services under the Civil Services Examination, 2025",
+            "D": "the decision is confined to future examinations"
+          },
+          "correct_option": "C",
+          "explanation": "The passage describes the clarification.",
+          "difficulty": "Tough",
+          "q_no": 28
+        },
+        {
+          "question": "Consider the following statements. 1. Indra Sawhney upheld 27 per cent reservation for OBCs and required exclusion of the creamy layer. 2. The Court in Rohith Nathan held that creamy layer is determined solely by income. 3. The Court directed fresh memorandum and accommodation of wrongly denied candidates. Which are correct?",
+          "options": {
+            "A": "1 and 2 only",
+            "B": "1 and 3 only",
+            "C": "2 and 3 only",
+            "D": "1, 2 and 3"
+          },
+          "correct_option": "B",
+          "explanation": "Statement 2 is false: the Court held that status and not income alone is the test.",
+          "difficulty": "Tough",
+          "q_no": 29
+        },
+        {
+          "question": "The decision in Rohith Nathan is best described as an application of the principle that",
+          "options": {
+            "A": "the creamy layer principle is invalid",
+            "B": "equals must not be treated unequally, and executive instructions must conform to the policy they implement",
+            "C": "income is the only constitutional test of backwardness",
+            "D": "executive instructions may override a settled policy"
+          },
+          "correct_option": "B",
+          "explanation": "The decision draws on Articles 14 and 16 and the limits of executive clarification.",
+          "difficulty": "Tough",
+          "q_no": 30
+        }
+      ],
+      "question_range": [
+        25,
+        30
+      ],
+      "word_count": 369
+    },
+    {
+      "passage_id": "P06",
+      "subject_area": "Constitutional Law",
+      "title": "Amending Power and the Basic Structure: A Doctrinal Ladder",
+      "passage": "Article 368 confers on Parliament the power to amend the Constitution. In Shankari Prasad (1951) and Sajjan Singh (1965), the Supreme Court held that an amendment under Article 368 is not 'law' within Article 13(2), and that fundamental rights could therefore be amended. In I.C. Golaknath v. State of Punjab (1967), by a majority of six to five, the Court overruled these decisions, held that fundamental rights are 'transcendental' and cannot be abridged by amendment, and invoked prospective overruling to save past amendments. Parliament responded with the 24th Amendment (1971), which declared that Article 13 does not apply to constitutional amendments, and the 25th Amendment. In Kesavananda Bharati v. State of Kerala (1973), a thirteen-judge Bench, by a narrow majority of seven to six, upheld the 24th Amendment but held that the power to amend does not include the power to alter the 'basic structure or framework' of the Constitution; the judges differed in listing the features of the basic structure. In Indira Nehru Gandhi v. Raj Narain (1975), the Court applied the doctrine to strike down a clause of the 39th Amendment that exempted the election of the Prime Minister from judicial scrutiny, as violating free and fair elections, the rule of law and judicial review. After the 42nd Amendment, which sought to exclude judicial review of amendments and to give primacy to the Directive Principles, the Court in Minerva Mills v. Union of India (1980) struck down these provisions, holding that the limited nature of the amending power is itself a basic feature, and that the harmony between Parts III and IV is part of that structure. In I.R. Coelho v. State of Tamil Nadu (2007), a nine-judge Bench held that laws placed in the Ninth Schedule after 24 April 1973, the date of Kesavananda, are open to challenge on the ground that they violate fundamental rights which form part of the basic structure. In Supreme Court Advocates-on-Record Association v. Union of India (2015), the Court struck down the 99th Amendment and the National Judicial Appointments Commission Act, holding that judicial independence, and thereby the primacy of the judiciary in appointments, is part of the basic structure.",
+      "questions": [
+        {
+          "question": "The Court in Golaknath employed the doctrine of prospective overruling in order to",
+          "options": {
+            "A": "apply its decision retrospectively to all amendments",
+            "B": "save past amendments from invalidation while holding that fundamental rights cannot in future be abridged",
+            "C": "strike down the 24th Amendment",
+            "D": "overrule Kesavananda"
+          },
+          "correct_option": "B",
+          "explanation": "The passage states that the Court saved past amendments by prospective overruling.",
+          "difficulty": "Moderate",
+          "q_no": 31
+        },
+        {
+          "question": "Which of the following correctly states the effect of the 24th Amendment as upheld in Kesavananda?",
+          "options": {
+            "A": "Parliament may amend any part of the Constitution without limit",
+            "B": "Amendments are not 'law' under Article 13, but the power does not extend to altering the basic structure",
+            "C": "Fundamental rights are absolutely unamendable",
+            "D": "The Court lost the power of judicial review"
+          },
+          "correct_option": "B",
+          "explanation": "The 24th Amendment was upheld, subject to the basic structure limitation.",
+          "difficulty": "Moderate",
+          "q_no": 32
+        },
+        {
+          "question": "In Indira Nehru Gandhi v. Raj Narain, the clause of the 39th Amendment was struck down on the ground that it",
+          "options": {
+            "A": "was not passed by the requisite majority",
+            "B": "violated free and fair elections, the rule of law and judicial review as parts of the basic structure",
+            "C": "affected the federal structure",
+            "D": "violated Article 21 only"
+          },
+          "correct_option": "B",
+          "explanation": "The passage lists the three grounds.",
+          "difficulty": "Moderate",
+          "q_no": 33
+        },
+        {
+          "question": "The holding in Minerva Mills that 'the limited nature of the amending power is itself a basic feature' means that",
+          "options": {
+            "A": "Parliament cannot, by amending Article 368, enlarge its own amending power into an unlimited one",
+            "B": "Parliament cannot amend Article 368 at all",
+            "C": "fundamental rights prevail over Directive Principles in every case",
+            "D": "the Constitution is unamendable"
+          },
+          "correct_option": "A",
+          "explanation": "Parliament cannot use its limited power to remove the limits on that power.",
+          "difficulty": "Tough",
+          "q_no": 34
+        },
+        {
+          "question": "A law was placed in the Ninth Schedule on 1 January 1980. On the basis of I.R. Coelho, the law",
+          "options": {
+            "A": "can be challenged only before the President",
+            "B": "may be challenged for violation of fundamental rights forming part of the basic structure",
+            "C": "is void because the Schedule is unconstitutional",
+            "D": "is immune from all judicial review"
+          },
+          "correct_option": "B",
+          "explanation": "Laws placed after 24 April 1973 are open to challenge.",
+          "difficulty": "Moderate",
+          "q_no": 35
+        },
+        {
+          "question": "Which of the following pairings of case and principle is INCORRECT?",
+          "options": {
+            "A": "Golaknath - fundamental rights are not amendable (later overruled)",
+            "B": "Supreme Court Advocates-on-Record Association (2015) - judicial independence is part of the basic structure",
+            "C": "Minerva Mills - harmony of Parts III and IV is part of the basic structure",
+            "D": "I.R. Coelho - Ninth Schedule laws are wholly immune after Kesavananda"
+          },
+          "correct_option": "D",
+          "explanation": "Coelho held that Ninth Schedule laws after 24 April 1973 are subject to review.",
+          "difficulty": "Tough",
+          "q_no": 36
+        }
+      ],
+      "question_range": [
+        31,
+        36
+      ],
+      "word_count": 359
+    },
+    {
+      "passage_id": "P07",
+      "subject_area": "Constitutional Law",
+      "title": "Federalism: Delhi's Services, Article 356 and Judicial Review",
+      "passage": "Article 239AA, inserted in 1991, gives the National Capital Territory of Delhi a Legislative Assembly and Council of Ministers, while providing that the Lieutenant Governor (LG) administers the territory. The Assembly may legislate on matters in the State and Concurrent Lists, except Entries 1 (public order), 2 (police) and 18 (land) of the State List. In NCT of Delhi v. Union of India (2018), a Constitution Bench held that the LG is bound by the aid and advice of the Council of Ministers in matters within the Assembly's legislative competence, and may refer a matter to the President only in exceptional cases of substantial difference, not as a routine. In NCT of Delhi v. Union of India (2023), another Constitution Bench held that the Delhi Government has legislative and executive control over 'services', that is, Entry 41 of the State List, except in respect of public order, police and land. The Court said that a democratically elected government must have control over the officers who implement its policies, and that the principle of collective responsibility depends on such control. Parliament then passed the Government of National Capital Territory of Delhi (Amendment) Act, 2023, which created the National Capital Civil Service Authority, chaired by the Chief Minister but with two senior officials, and empowered the LG to decide in the case of difference. The challenge to this Act was referred to a larger Bench, where the argument turns on whether Parliament may, under Article 239AA(7), legislate to alter a constitutional position declared by the Court, as distinct from removing its legal basis. Federalism has also been guarded through judicial review of the use of Article 356. In S.R. Bommai v. Union of India (1994), a nine-judge Bench held that a Presidential Proclamation is subject to judicial review, at least for malafides, irrelevant considerations or absence of material, that a majority must be tested on the floor of the House and not by the Governor's subjective view, that the Assembly should not be dissolved before Parliament approves the Proclamation, and that federalism and secularism are part of the basic structure.",
+      "questions": [
+        {
+          "question": "According to the 2023 Constitution Bench decision, the Delhi Government's control over 'services' does not extend to",
+          "options": {
+            "A": "every area of administration",
+            "B": "public order, police and land",
+            "C": "education and health officers",
+            "D": "Delhi's planning department"
+          },
+          "correct_option": "B",
+          "explanation": "The Bench excepted the three matters outside the Assembly's competence.",
+          "difficulty": "Easy",
+          "q_no": 37
+        },
+        {
+          "question": "In the 2018 decision, the Court held that the LG may refer a matter to the President",
+          "options": {
+            "A": "only in exceptional cases of substantial difference, not as a matter of routine",
+            "B": "only for matters of police",
+            "C": "on every difference of opinion",
+            "D": "never"
+          },
+          "correct_option": "A",
+          "explanation": "The passage so states.",
+          "difficulty": "Moderate",
+          "q_no": 38
+        },
+        {
+          "question": "Which of the following reasons for control over services by an elected government is given in the passage?",
+          "options": {
+            "A": "Collective responsibility depends on the government's control over those who implement its policies",
+            "B": "It is required by Article 356",
+            "C": "It would increase the Union's power",
+            "D": "It is required by Entry 18"
+          },
+          "correct_option": "A",
+          "explanation": "The Court linked democracy and collective responsibility with control over officers.",
+          "difficulty": "Moderate",
+          "q_no": 39
+        },
+        {
+          "question": "The question referred to the larger Bench regarding the 2023 Amendment Act is essentially whether Parliament",
+          "options": {
+            "A": "can alter, by legislation under Article 239AA(7), a constitutional position declared by the Court, as distinct from removing its legal basis",
+            "B": "must obtain the Assembly's consent",
+            "C": "can legislate at all for Delhi",
+            "D": "can abolish the Assembly by ordinary law"
+          },
+          "correct_option": "A",
+          "explanation": "This is the problem presented in the passage.",
+          "difficulty": "Tough",
+          "q_no": 40
+        },
+        {
+          "question": "Which of the following is NOT a holding in S.R. Bommai?",
+          "options": {
+            "A": "A Presidential Proclamation under Article 356 is subject to judicial review",
+            "B": "The Assembly may be dissolved at once, before the Proclamation is approved",
+            "C": "The majority of a Government is to be tested on the floor of the House",
+            "D": "Federalism and secularism form part of the basic structure"
+          },
+          "correct_option": "B",
+          "explanation": "Bommai held that the Assembly should not be dissolved before parliamentary approval.",
+          "difficulty": "Moderate",
+          "q_no": 41
+        },
+        {
+          "question": "Assertion (A): After Bommai, the Governor's subjective report alone is not sufficient to oust an elected State Government. Reason (R): The Court held that a Government's majority must be tested on the floor of the House. Which is correct?",
+          "options": {
+            "A": "Both A and R are true, and R explains A",
+            "B": "Both A and R are true, but R does not explain A",
+            "C": "A is true but R is false",
+            "D": "A is false but R is true"
+          },
+          "correct_option": "A",
+          "explanation": "The floor test requirement displaces the Governor's subjective view.",
+          "difficulty": "Tough",
+          "q_no": 42
+        }
+      ],
+      "question_range": [
+        37,
+        42
+      ],
+      "word_count": 348
+    },
+    {
+      "passage_id": "P08",
+      "subject_area": "Constitutional Law / Election Law",
+      "title": "Political Funding, the Voter's Right to Know and Electoral Disqualification",
+      "passage": "The right to vote is a statutory right, but the right to information about candidates and political funding has been derived from Article 19(1)(a). In Union of India v. Association for Democratic Reforms (2002) and PUCL v. Union of India (2003), the Supreme Court held that voters have a fundamental right to know the criminal, financial and educational antecedents of candidates, since an informed choice is essential to democracy. In PUCL v. Union of India (2013), the Court directed the Election Commission to provide the option 'None of the Above' (NOTA) on voting machines, as an expression of the negative vote under Article 19(1)(a), though a NOTA majority does not, under the present law, result in a fresh election. In Lily Thomas v. Union of India (2013), the Court struck down Section 8(4) of the Representation of the People Act, 1951, which had allowed a convicted legislator to continue in office pending appeal, so that a legislator convicted of an offence carrying a sentence of two years or more is disqualified on the date of conviction. In Association for Democratic Reforms v. Union of India (February 2024), a Constitution Bench held unanimously that the Electoral Bond Scheme was unconstitutional. The Scheme allowed donors to purchase bonds from the State Bank of India and give them to political parties, without disclosing the donor's name to the public. The Court held that political contributions are linked with political choices and that voters have a right to information about funding to prevent 'quid pro quo' arrangements; that anonymity could not be justified by the donor's right to privacy, since a less restrictive means was available, which would serve the purpose of curbing black money; and that the related amendments to the Representation of the People Act, the Income-tax Act and the Companies Act, including the removal of the cap on corporate donations and of the requirement to disclose party-wise contributions, were unconstitutional. The Court directed the State Bank to disclose the details of purchases and redemptions to the Election Commission for publication.",
+      "questions": [
+        {
+          "question": "The voter's right to know the antecedents of candidates was derived by the Supreme Court from",
+          "options": {
+            "A": "Article 32",
+            "B": "Article 19(1)(a)",
+            "C": "Article 324",
+            "D": "Article 326 alone"
+          },
+          "correct_option": "B",
+          "explanation": "The passage states that the right derives from Article 19(1)(a).",
+          "difficulty": "Easy",
+          "q_no": 43
+        },
+        {
+          "question": "What is the effect of a NOTA majority under the law as described in the passage?",
+          "options": {
+            "A": "The election is countermanded",
+            "B": "A fresh election is held",
+            "C": "It does not result in a fresh election; it expresses a negative vote",
+            "D": "The candidate with the next highest votes is declared elected"
+          },
+          "correct_option": "C",
+          "explanation": "The passage states that NOTA does not lead to a fresh election.",
+          "difficulty": "Moderate",
+          "q_no": 44
+        },
+        {
+          "question": "After Lily Thomas, a legislator convicted of an offence and sentenced to two years or more is",
+          "options": {
+            "A": "entitled to continue in office pending appeal",
+            "B": "disqualified only after the appeal is dismissed",
+            "C": "disqualified only after six years",
+            "D": "disqualified from the date of conviction"
+          },
+          "correct_option": "D",
+          "explanation": "Section 8(4), which protected such legislators, was struck down.",
+          "difficulty": "Moderate",
+          "q_no": 45
+        },
+        {
+          "question": "Which of the following was NOT a ground relied upon by the Court in holding the Electoral Bond Scheme unconstitutional?",
+          "options": {
+            "A": "The voter's right to information about political funding",
+            "B": "Existence of a less restrictive means to curb black money",
+            "C": "The possibility of quid pro quo arrangements",
+            "D": "The Scheme violated Article 25"
+          },
+          "correct_option": "D",
+          "explanation": "Article 25 was not part of the reasoning.",
+          "difficulty": "Easy",
+          "q_no": 46
+        },
+        {
+          "question": "The Court's reasoning on donor anonymity can best be described as that",
+          "options": {
+            "A": "only corporate donors are protected",
+            "B": "donors have no privacy rights",
+            "C": "donor privacy is absolute",
+            "D": "privacy of the donor cannot justify anonymity because a less restrictive means to serve the purpose existed, and the voter's right to know outweighs it"
+          },
+          "correct_option": "D",
+          "explanation": "This is the proportionality-type reasoning stated in the passage.",
+          "difficulty": "Tough",
+          "q_no": 47
+        },
+        {
+          "question": "Consider the following. 1. The Court directed disclosure of the details of bond purchases and redemptions to the Election Commission. 2. The Court upheld the removal of the cap on corporate donations. 3. The decision was by a Constitution Bench. Which are correct?",
+          "options": {
+            "A": "1 and 2 only",
+            "B": "1 and 3 only",
+            "C": "2 and 3 only",
+            "D": "1, 2 and 3"
+          },
+          "correct_option": "B",
+          "explanation": "The Court struck down the removal of the cap; statements 1 and 3 are correct.",
+          "difficulty": "Tough",
+          "q_no": 48
+        }
+      ],
+      "question_range": [
+        43,
+        48
+      ],
+      "word_count": 339
+    },
+    {
+      "passage_id": "P09",
+      "subject_area": "Criminal Procedure",
+      "title": "Anticipatory Bail, Default Bail and the Limits of Custodial Investigation",
+      "passage": "Section 438 of the Code of Criminal Procedure, 1973, now Section 482 of the Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS), empowers the High Court and the Court of Session to grant anticipatory bail to a person who apprehends arrest for a non-bailable offence. In Gurbaksh Singh Sibbia v. State of Punjab (1980), a Constitution Bench held that the power is not to be hedged by rigid conditions, such as a time limit, and must be exercised in the light of the facts of each case, in aid of Article 21. In Sushila Aggarwal v. State (NCT of Delhi) (2020), another Constitution Bench held that anticipatory bail need not be limited in time and may continue until the end of the trial, unless the court, for reasons, limits it, and that it does not automatically end upon the summoning of the accused or the filing of the charge-sheet. Default bail is a different right. Under the proviso to Section 167(2) CrPC (now Section 187 BNSS), if the investigation is not completed within sixty or ninety days, depending upon the offence, the accused 'shall be released on bail', and the right is considered indefeasible. In Uday Mohanlal Acharya v. State of Maharashtra (2001), the Court held that the right must be exercised by the accused before the charge-sheet is filed, and cannot be claimed once the charge-sheet has been filed. In Ritu Chhabaria v. Union of India (2023), the Court held that the investigating agency cannot defeat default bail by filing an incomplete charge-sheet, or a 'preliminary' one, while the investigation is continuing, and that further investigation under Section 173(8) is not a licence to withhold the completed charge-sheet. In Arnesh Kumar v. State of Bihar (2014), the Court directed that, in offences punishable with imprisonment up to seven years, arrest should not be automatic, and that the police should issue a notice of appearance, giving reasons for arrest, a safeguard now embedded in the BNSS. In Satender Kumar Antil v. CBI (2022), the Court classified offences for the grant of bail, and urged the legislature to consider a separate Bail Act.",
+      "questions": [
+        {
+          "question": "The holding in Sushila Aggarwal on the duration of anticipatory bail is that it",
+          "options": {
+            "A": "ends on the summoning of the accused",
+            "B": "ends on the filing of the charge-sheet",
+            "C": "must be limited to a fixed number of days",
+            "D": "may continue until the end of the trial unless the court limits it for reasons"
+          },
+          "correct_option": "D",
+          "explanation": "The passage so states.",
+          "difficulty": "Moderate",
+          "q_no": 49
+        },
+        {
+          "question": "Default bail under Section 167(2) is described as indefeasible, which means that",
+          "options": {
+            "A": "it is lost if the accused does not apply within one day",
+            "B": "it can be claimed at any time, even after the charge-sheet",
+            "C": "the court has full discretion to deny it",
+            "D": "the right arises when the investigation is not completed within the statutory period and must be exercised before the charge-sheet is filed"
+          },
+          "correct_option": "D",
+          "explanation": "Uday Mohanlal Acharya requires the accused to apply before the charge-sheet is filed.",
+          "difficulty": "Tough",
+          "q_no": 50
+        },
+        {
+          "question": "The investigating agency files an unsigned, incomplete 'preliminary' charge-sheet on the 89th day in a case where the period is ninety days, to avoid default bail. According to Ritu Chhabaria, this",
+          "options": {
+            "A": "defeats the right to default bail",
+            "B": "gives the court no power to grant bail",
+            "C": "makes the arrest illegal ab initio",
+            "D": "cannot defeat the right to default bail"
+          },
+          "correct_option": "D",
+          "explanation": "An incomplete charge-sheet cannot be used to defeat default bail.",
+          "difficulty": "Tough",
+          "q_no": 51
+        },
+        {
+          "question": "In Arnesh Kumar, the Court's direction concerned offences punishable with imprisonment",
+          "options": {
+            "A": "up to ten years",
+            "B": "up to seven years",
+            "C": "for life",
+            "D": "up to three years"
+          },
+          "correct_option": "B",
+          "explanation": "The passage specifies seven years.",
+          "difficulty": "Easy",
+          "q_no": 52
+        },
+        {
+          "question": "Which of the following statements is correct?",
+          "options": {
+            "A": "Gurbaksh Singh Sibbia held that anticipatory bail must always be limited in time",
+            "B": "Satender Kumar Antil urged the legislature to consider a separate Bail Act",
+            "C": "Default bail is available only in cases of offences punishable by death",
+            "D": "Anticipatory bail is a form of default bail"
+          },
+          "correct_option": "B",
+          "explanation": "The passage records the Antil suggestion; the other statements are incorrect.",
+          "difficulty": "Moderate",
+          "q_no": 53
+        },
+        {
+          "question": "Consider the following. 1. Anticipatory bail is granted to a person who apprehends arrest. 2. Default bail arises from the failure to complete investigation within the statutory time. 3. Anticipatory bail and default bail are the same remedy. Which are correct?",
+          "options": {
+            "A": "1 and 2 only",
+            "B": "1 and 3 only",
+            "C": "2 and 3 only",
+            "D": "1, 2 and 3"
+          },
+          "correct_option": "A",
+          "explanation": "The passage treats them as distinct remedies.",
+          "difficulty": "Moderate",
+          "q_no": 54
+        }
+      ],
+      "question_range": [
+        49,
+        54
+      ],
+      "word_count": 350
+    },
+    {
+      "passage_id": "P10",
+      "subject_area": "Criminal Law",
+      "title": "Consent, Marital Exception and the Law of Sexual Offences",
+      "passage": "Section 63 of the Bharatiya Nyaya Sanhita, 2023 (BNS) defines rape, replacing Section 375 of the Indian Penal Code. A man commits rape if he has sexual intercourse with a woman in any of seven descriptions, including against her will, without her consent, with consent obtained by putting her in fear of death or hurt, with consent given under a misconception that he is her husband, or when she is under eighteen years of age, with or without her consent. The Explanation states that consent means an unequivocal voluntary agreement, communicated by words, gestures or any form of verbal or non-verbal communication, though the absence of physical resistance does not by itself imply consent. Exception 2 provides that sexual intercourse by a man with his own wife, the wife not being under eighteen years of age, is not rape. In Independent Thought v. Union of India (2017), the Supreme Court read down the exception, which at the time referred to a wife under fifteen, so that intercourse with a wife under eighteen is rape, in order to harmonise it with the Protection of Children from Sexual Offences Act, 2012 and the Prohibition of Child Marriage Act. The Court declined to decide on the exception for adult wives. A challenge to the marital exception for adult wives, brought on the ground of Articles 14, 15, 19 and 21, resulted in a split verdict in the Delhi High Court in 2022, and an appeal has been pending before the Supreme Court; the Union has argued that the question involves social and family considerations best left to Parliament and that other remedies exist, including for cruelty. Section 69 of the BNS separately penalises sexual intercourse by deceitful means, including a false promise to marry, with imprisonment up to ten years; the Supreme Court has held, in decisions such as Pramod Suryabhan Pawar v. State of Maharashtra (2019), that a breach of promise to marry is not a false promise unless the promise was made with no intention of keeping it at the outset and was the cause of the consent. The age of consent is eighteen years, as the law stands.",
+      "questions": [
+        {
+          "question": "Which of the following is NOT one of the descriptions of rape in the passage?",
+          "options": {
+            "A": "When she is under eighteen, with or without her consent",
+            "B": "Against her will",
+            "C": "With consent when she is a woman over twenty-one years of age",
+            "D": "With consent obtained by putting her in fear of death or hurt"
+          },
+          "correct_option": "C",
+          "explanation": "The passage lists the other three; consent of an adult woman, validly given, does not constitute rape.",
+          "difficulty": "Easy",
+          "q_no": 55
+        },
+        {
+          "question": "In Independent Thought, the Supreme Court",
+          "options": {
+            "A": "struck down Exception 2 entirely",
+            "B": "read down the exception so that intercourse with a wife under eighteen is rape, without deciding on adult wives",
+            "C": "held that marital rape is an offence",
+            "D": "upheld the exception as it stood"
+          },
+          "correct_option": "B",
+          "explanation": "The passage so states.",
+          "difficulty": "Moderate",
+          "q_no": 56
+        },
+        {
+          "question": "The status of the challenge to the marital exception for adult wives is that",
+          "options": {
+            "A": "it was decided and the exception struck down",
+            "B": "it was dismissed by Parliament",
+            "C": "a split verdict in the Delhi High Court led to a pending appeal in the Supreme Court",
+            "D": "it has been withdrawn"
+          },
+          "correct_option": "C",
+          "explanation": "The passage describes the split verdict and the pending appeal.",
+          "difficulty": "Moderate",
+          "q_no": 57
+        },
+        {
+          "question": "A man promises to marry a woman, sincerely intending to do so, has intercourse with her with her consent, and later changes his mind. According to Pramod Suryabhan Pawar as described, this is",
+          "options": {
+            "A": "an offence of cheating by default",
+            "B": "rape under Section 63",
+            "C": "not an offence under Section 69 because the promise was not false at the outset",
+            "D": "an offence under Section 69 because the promise was broken"
+          },
+          "correct_option": "C",
+          "explanation": "A breach of promise is not a false promise unless there was no intention at the outset.",
+          "difficulty": "Tough",
+          "q_no": 58
+        },
+        {
+          "question": "Under the Explanation to Section 63, the absence of physical resistance",
+          "options": {
+            "A": "does not by itself imply consent",
+            "B": "is the only test of consent",
+            "C": "implies that consent was withdrawn",
+            "D": "amounts to consent"
+          },
+          "correct_option": "A",
+          "explanation": "The passage states that the absence of resistance does not by itself imply consent.",
+          "difficulty": "Moderate",
+          "q_no": 59
+        },
+        {
+          "question": "Assertion (A): The presence of consent of a girl aged seventeen is irrelevant to the offence of rape. Reason (R): The BNS treats sexual intercourse with a woman under eighteen as rape, with or without her consent. Which is correct?",
+          "options": {
+            "A": "Both A and R are true, and R explains A",
+            "B": "Both A and R are true, but R does not explain A",
+            "C": "A is true but R is false",
+            "D": "A is false but R is true"
+          },
+          "correct_option": "A",
+          "explanation": "The age limit makes consent irrelevant.",
+          "difficulty": "Moderate",
+          "q_no": 60
+        }
+      ],
+      "question_range": [
+        55,
+        60
+      ],
+      "word_count": 358
+    },
+    {
+      "passage_id": "P11",
+      "subject_area": "Environmental Law",
+      "title": "Principles of Environmental Jurisprudence and the Meaning of 'Forest'",
+      "passage": "Indian environmental jurisprudence has been built largely by the Supreme Court through Article 21, which includes the right to a pollution-free environment (Subhash Kumar v. State of Bihar, 1991), read with Article 48A, which directs the State to protect the environment, and Article 51A(g), which makes protection of the environment a fundamental duty. In Vellore Citizens' Welfare Forum v. Union of India (1996), the Court held that the 'precautionary principle' and the 'polluter pays' principle are part of the law of the land, as essential features of sustainable development, and that the burden of proving that an activity is environmentally benign lies on the person proposing it. In Indian Council for Enviro-Legal Action v. Union of India (1996), the Court held that the polluter is liable not only to compensate the victims but also to bear the cost of restoring the environment, and relied on the absolute liability principle. In M.C. Mehta v. Kamal Nath (1997), the Court applied the 'public trust doctrine', holding that the State holds natural resources such as rivers, forests and the seashore as a trustee for the public, and cannot allocate them to private owners for commercial use in disregard of this trust. In T.N. Godavarman Thirumulpad v. Union of India (1996), the Court held that the word 'forest' in the Forest (Conservation) Act, 1980 must be understood according to its dictionary meaning, so as to include all areas recorded as forest in government records, whatever the nature of the ownership, as well as areas which answer the description of forest. In 2023, Parliament amended the Act, renaming it the Van (Sanrakshan Evam Samvardhan) Adhiniyam, and limited its application to land notified as forest under the Indian Forest Act, or recorded as forest in government records on or after 25 October 1980, while exempting certain categories, such as linear projects within a limited distance of borders and security-related infrastructure. Challenges were made on the ground that the amendment narrowed the Godavarman definition, and in February 2024 the Supreme Court directed, as an interim measure, that the dictionary meaning of forest should continue to apply and that the State authorities should compile records of forest-like areas. The National Green Tribunal Act, 2010 confers on the Tribunal jurisdiction over substantial questions relating to the environment and enables the award of relief and compensation.",
+      "questions": [
+        {
+          "question": "Under Vellore Citizens, the burden of proving that an activity is environmentally benign lies on",
+          "options": {
+            "A": "the Government in all cases",
+            "B": "the person challenging the activity",
+            "C": "the Tribunal",
+            "D": "the person proposing the activity"
+          },
+          "correct_option": "D",
+          "explanation": "The Court reversed the burden of proof in line with the precautionary principle.",
+          "difficulty": "Moderate",
+          "q_no": 61
+        },
+        {
+          "question": "The 'public trust doctrine' as applied in M.C. Mehta v. Kamal Nath means that",
+          "options": {
+            "A": "private persons may own rivers",
+            "B": "only the Union may regulate natural resources",
+            "C": "the State holds natural resources as trustee for the public and cannot allocate them for private commercial use in disregard of that trust",
+            "D": "the State owns natural resources absolutely"
+          },
+          "correct_option": "C",
+          "explanation": "This is the doctrine as stated in the passage.",
+          "difficulty": "Moderate",
+          "q_no": 62
+        },
+        {
+          "question": "The Godavarman decision interpreted 'forest' in the 1980 Act to mean",
+          "options": {
+            "A": "areas according to the dictionary meaning, including those recorded as forests in government records irrespective of ownership",
+            "B": "only areas of national parks",
+            "C": "only reserved forests",
+            "D": "only areas notified under the Indian Forest Act"
+          },
+          "correct_option": "A",
+          "explanation": "The passage states the dictionary meaning approach.",
+          "difficulty": "Easy",
+          "q_no": 63
+        },
+        {
+          "question": "The 2023 amendment restricted the Act to land",
+          "options": {
+            "A": "owned by the Government",
+            "B": "above a specific altitude",
+            "C": "notified as forest under the Indian Forest Act or recorded as forest in government records on or after 25 October 1980, subject to certain exemptions",
+            "D": "of any ecological value"
+          },
+          "correct_option": "C",
+          "explanation": "The passage describes the narrowed scope.",
+          "difficulty": "Tough",
+          "q_no": 64
+        },
+        {
+          "question": "The interim direction of the Supreme Court in February 2024 was that",
+          "options": {
+            "A": "the Godavarman case is overruled",
+            "B": "the dictionary meaning of forest should continue to apply and States should compile records of forest-like areas, pending hearing",
+            "C": "the Act applies only to notified forests",
+            "D": "the 2023 amendment is void"
+          },
+          "correct_option": "B",
+          "explanation": "The passage so states.",
+          "difficulty": "Tough",
+          "q_no": 65
+        },
+        {
+          "question": "A company proposes a mining project with uncertain ecological impact. On the principles in the passage, the company",
+          "options": {
+            "A": "need not prove anything until harm occurs",
+            "B": "can be held liable only for the cost of compensation to victims",
+            "C": "is exempt because the project is commercial",
+            "D": "bears the burden of showing that the project is environmentally benign, and, if it causes pollution, the cost of restoration"
+          },
+          "correct_option": "D",
+          "explanation": "Precautionary and polluter pays principles together impose the burden and restoration costs.",
+          "difficulty": "Moderate",
+          "q_no": 66
+        }
+      ],
+      "question_range": [
+        61,
+        66
+      ],
+      "word_count": 386
+    },
+    {
+      "passage_id": "P12",
+      "subject_area": "Company Law",
+      "title": "Corporate Personality, Minority Protection and the Tata-Mistry Dispute",
+      "passage": "In Salomon v. Salomon & Co. (1897), the House of Lords held that a company, once incorporated, is a legal person distinct from its members, even if one member owns almost all the shares. The corporate veil may, however, be lifted in exceptional cases, such as fraud, sham arrangements to avoid existing obligations (Gilford Motor Co. v. Horne; Jones v. Lipman), or in tax evasion and trading with the enemy. In Life Insurance Corporation of India v. Escorts Ltd. (1986), the Supreme Court said that the veil may be lifted where the statute itself so contemplates, or where fraud or improper conduct is sought to be prevented. In Vodafone International Holdings v. Union of India (2012), the Court held that, in the absence of a sham or colourable device, the corporate structure of a transaction must be respected for tax purposes. The rule in Foss v. Harbottle provides that the proper plaintiff for a wrong done to the company is the company itself, and that the courts will not interfere with internal management where the majority can ratify an irregularity, subject to exceptions for fraud on the minority, ultra vires acts and acts requiring a special majority. Sections 241 and 242 of the Companies Act, 2013 allow members to apply to the National Company Law Tribunal where the affairs of the company are being conducted in a manner prejudicial to the public interest or oppressive to any member, or where there is a material change in management prejudicial to interests of the company; the Tribunal must be of the opinion that winding up would unfairly prejudice the members but that the facts justify a winding-up order on 'just and equitable' grounds. In Tata Sons Ltd. v. Cyrus Investments Pvt. Ltd. (2021), the Supreme Court set aside the NCLAT's order reinstating Cyrus Mistry as Executive Chairman, holding that the removal of a director, even a chairman, was not oppressive, that the Articles of Association are a contract binding the members, and that the NCLAT had no power to reinstate where relief was not sought and no case of winding-up on just and equitable grounds was made out. Section 166 of the 2013 Act codifies directors' duties, requiring good faith and acting in the best interests of the company, its employees, shareholders, community and environment.",
+      "questions": [
+        {
+          "question": "The ratio of Salomon v. Salomon & Co. is that",
+          "options": {
+            "A": "a company is the agent of its members",
+            "B": "a company is a separate legal person distinct from its members even where one member holds almost all the shares",
+            "C": "a company can have no liability",
+            "D": "a one-man company is not valid"
+          },
+          "correct_option": "B",
+          "explanation": "The passage states the separate-personality principle.",
+          "difficulty": "Easy",
+          "q_no": 67
+        },
+        {
+          "question": "Which of the following is NOT identified in the passage as a ground for lifting the corporate veil?",
+          "options": {
+            "A": "Sham arrangements to avoid existing obligations",
+            "B": "Statutory provision itself",
+            "C": "Fraud",
+            "D": "Mere inconvenience of the creditors"
+          },
+          "correct_option": "D",
+          "explanation": "Mere inconvenience of creditors is not a ground.",
+          "difficulty": "Moderate",
+          "q_no": 68
+        },
+        {
+          "question": "The exceptions to the rule in Foss v. Harbottle include",
+          "options": {
+            "A": "fraud on the minority, ultra vires acts and acts requiring a special majority",
+            "B": "any act which the minority dislikes",
+            "C": "only ultra vires acts",
+            "D": "only acts of directors"
+          },
+          "correct_option": "A",
+          "explanation": "The passage lists these exceptions.",
+          "difficulty": "Moderate",
+          "q_no": 69
+        },
+        {
+          "question": "In Tata Sons v. Cyrus Investments, the Supreme Court held that",
+          "options": {
+            "A": "private companies cannot be subject to Section 241",
+            "B": "the removal of Mr. Mistry was oppressive and he must be reinstated",
+            "C": "the removal was not oppressive, the Articles of Association are a binding contract, and the NCLAT could not order reinstatement in the absence of a case for just and equitable winding-up",
+            "D": "directors cannot be removed"
+          },
+          "correct_option": "C",
+          "explanation": "The passage sets out the holding.",
+          "difficulty": "Tough",
+          "q_no": 70
+        },
+        {
+          "question": "Under Sections 241-242 as described, before the Tribunal makes an order the Tribunal must opine that",
+          "options": {
+            "A": "the majority is dishonest",
+            "B": "the company has no assets",
+            "C": "the company is insolvent",
+            "D": "winding up would unfairly prejudice the members, though facts justify winding up on just and equitable grounds"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states this requirement.",
+          "difficulty": "Tough",
+          "q_no": 71
+        },
+        {
+          "question": "A shareholder believes the directors committed a wrong against the company. Under the rule in Foss v. Harbottle, the proper plaintiff is",
+          "options": {
+            "A": "the auditor",
+            "B": "the shareholder in all cases",
+            "C": "the company, subject to exceptions such as fraud on the minority",
+            "D": "the Registrar"
+          },
+          "correct_option": "C",
+          "explanation": "The proper plaintiff rule favours the company, subject to exceptions.",
+          "difficulty": "Moderate",
+          "q_no": 72
+        }
+      ],
+      "question_range": [
+        67,
+        72
+      ],
+      "word_count": 383
+    },
+    {
+      "passage_id": "P13",
+      "subject_area": "Tax Law",
+      "title": "Goods and Services Tax: Constitutional Scheme, Council and Credit",
+      "passage": "The Constitution (101st Amendment) Act, 2016 introduced Article 246A, which empowers both Parliament and State Legislatures to make laws on goods and services tax, with Parliament having exclusive power for inter-State supply, Article 269A for inter-State levy and apportionment, and Article 279A, which establishes the GST Council, composed of the Union Finance Minister, the Union Minister of State in charge of revenue, and State Ministers in charge of finance. The Council's recommendations on rates, exemptions and thresholds are made by a three-fourths majority of the weighted votes of members present and voting, with the Centre holding one-third of the weight and States together two-thirds. In Union of India v. Mohit Minerals (2022), the Supreme Court held that the Council's recommendations are not binding on the Union and the States, but are the product of collaborative dialogue and have persuasive value, since Article 246A confers simultaneous power on both. In the 56th meeting of the Council, held in September 2025, it recommended rationalisation of the rate structure, to a two-slab system of five and eighteen per cent for most goods and services, with a special rate of forty per cent for a small number of 'sin' and luxury items; the new rates took effect on 22 September 2025, and the compensation cess was phased out for most items. Input tax credit (ITC) is central to the design of GST, which is a destination-based, multi-point tax with credit for tax paid on inputs. In Eicher Motors v. Union of India (1999), the Court held that credit once earned is a vested right, but in Jayam and Co. v. Assistant Commissioner (2016), it held that credit is a concession and not a vested right, available only in accordance with the conditions of the statute. In Safari Retreats Pvt. Ltd. v. Chief Commissioner of CGST (2024), the Court interpreted the expression 'plant or machinery' in Section 17(5)(d) of the CGST Act by the 'functionality test', so that a building may qualify as plant where it is used as a tool for rendering the taxable service, as distinct from the mere premises.",
+      "questions": [
+        {
+          "question": "Which of the following correctly describes the voting structure of the GST Council as per the passage?",
+          "options": {
+            "A": "Unanimity",
+            "B": "Three-fourths majority of weighted votes, with the Centre holding one-third and the States together two-thirds",
+            "C": "Two-thirds majority with equal weight",
+            "D": "Simple majority with the Centre having two-thirds weight"
+          },
+          "correct_option": "B",
+          "explanation": "The passage so states.",
+          "difficulty": "Moderate",
+          "q_no": 73
+        },
+        {
+          "question": "In Mohit Minerals, the Supreme Court held that the GST Council's recommendations are",
+          "options": {
+            "A": "binding only on the States",
+            "B": "binding on the Union and the States",
+            "C": "binding only on the Union",
+            "D": "persuasive, and not binding on the Union and the States"
+          },
+          "correct_option": "D",
+          "explanation": "This is the holding as stated in the passage.",
+          "difficulty": "Easy",
+          "q_no": 74
+        },
+        {
+          "question": "Which of the following is correct regarding the September 2025 rationalisation?",
+          "options": {
+            "A": "It created a two-slab structure of five and eighteen per cent for most items, with forty per cent for certain sin and luxury items",
+            "B": "It created a single rate for all goods and services",
+            "C": "It eliminated GST on all goods",
+            "D": "It increased all rates to twenty-eight per cent"
+          },
+          "correct_option": "A",
+          "explanation": "The passage describes the new slab structure and effective date.",
+          "difficulty": "Moderate",
+          "q_no": 75
+        },
+        {
+          "question": "The apparent difference between Eicher Motors and Jayam and Co. concerns whether input tax credit is",
+          "options": {
+            "A": "taxable",
+            "B": "a vested right or a statutory concession subject to conditions",
+            "C": "applicable only to services",
+            "D": "available only to exporters"
+          },
+          "correct_option": "B",
+          "explanation": "Eicher held credit to be a vested right; Jayam held it to be a concession.",
+          "difficulty": "Moderate",
+          "q_no": 76
+        },
+        {
+          "question": "Under the 'functionality test' in Safari Retreats, a building may be 'plant' where",
+          "options": {
+            "A": "it is owned by the Government",
+            "B": "it is used merely as premises",
+            "C": "it is above a certain height",
+            "D": "it is used as a tool for the rendition of the taxable service, rather than as mere premises"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states the test.",
+          "difficulty": "Tough",
+          "q_no": 77
+        },
+        {
+          "question": "The best reason why the Court held GST Council recommendations not binding is that",
+          "options": {
+            "A": "Article 246A confers simultaneous legislative power on both the Union and the States, and the system is one of collaborative federalism",
+            "B": "Article 279A is invalid",
+            "C": "the Council has no power over rates",
+            "D": "the Council is not a constitutional body"
+          },
+          "correct_option": "A",
+          "explanation": "The Court relied on the concurrent power and collaborative dialogue.",
+          "difficulty": "Tough",
+          "q_no": 78
+        }
+      ],
+      "question_range": [
+        73,
+        78
+      ],
+      "word_count": 347
+    },
+    {
+      "passage_id": "P14",
+      "subject_area": "Competition Law",
+      "title": "Anti-competitive Conduct, Dominance and the 2023 Amendments",
+      "passage": "The Competition Act, 2002 prohibits three categories of conduct that harm competition: anti-competitive agreements under Section 3, abuse of dominant position under Section 4, and combinations that cause or are likely to cause an appreciable adverse effect on competition under Sections 5 and 6. Under Section 3(3), horizontal agreements between competitors on prices, output, markets or bid rigging are presumed to have an appreciable adverse effect on competition (AAEC), and the burden is on the parties to rebut the presumption. Vertical agreements, such as tie-in arrangements, exclusive supply and resale price maintenance, are judged under Section 3(4) by a rule-of-reason analysis, which weighs the pro-competitive and anti-competitive effects. Dominance, under Section 4, is not itself an offence; abuse of dominance, including imposing unfair or discriminatory conditions, limiting production or denying market access, is. In Competition Commission of India v. Coordination Committee of Artists and Technicians (2017), the Supreme Court held that trade associations can be liable under Section 3. In Excel Crop Care v. Competition Commission of India (2017), the Court held that the penalty under Section 27 should be calculated on the 'relevant turnover', that is, the turnover from the products affected by the contravention, and not on total turnover, in line with the principle of proportionality. The Competition (Amendment) Act, 2023 changed this by enabling penalties to be based on the 'global turnover' of the enterprise, introduced a deal value threshold of Rs 2,000 crore for review of combinations for transactions where the target has substantial business operations in India, introduced settlements and commitments for vertical agreements and abuse of dominance cases, and provided a 'hub and spoke' cartel concept where an enterprise not engaged in identical activity facilitates a cartel. The Commission's order against Google in the Android case (2022), imposing a penalty of about Rs 1,337 crore for abuse of dominance in the mobile operating system market, was largely upheld by the National Company Law Appellate Tribunal, and an appeal is before the Supreme Court.",
+      "questions": [
+        {
+          "question": "Under Section 3(3), horizontal agreements on prices or bid rigging are",
+          "options": {
+            "A": "exempt from the Act",
+            "B": "judged under a rule of reason",
+            "C": "lawful unless the Commission proves harm",
+            "D": "presumed to have an appreciable adverse effect on competition, and the parties must rebut the presumption"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states the rebuttable presumption.",
+          "difficulty": "Moderate",
+          "q_no": 79
+        },
+        {
+          "question": "Which of the following is correct about dominance under Section 4?",
+          "options": {
+            "A": "Only government entities can be dominant",
+            "B": "Dominance is irrelevant to the Act",
+            "C": "Being dominant is an offence",
+            "D": "Dominance is not an offence, but abuse of dominance is"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states that dominance is not itself an offence.",
+          "difficulty": "Easy",
+          "q_no": 80
+        },
+        {
+          "question": "In Excel Crop Care, the Supreme Court held that penalty should be calculated on",
+          "options": {
+            "A": "relevant turnover, i.e. the turnover from the products affected",
+            "B": "total turnover",
+            "C": "assets of the enterprise",
+            "D": "profits of the enterprise"
+          },
+          "correct_option": "A",
+          "explanation": "The Court applied proportionality and relevant turnover; the 2023 Amendment now permits global turnover.",
+          "difficulty": "Moderate",
+          "q_no": 81
+        },
+        {
+          "question": "The 2023 Amendment, in relation to the penalty, changed the position by",
+          "options": {
+            "A": "fixing it at Rs 1 crore",
+            "B": "abolishing penalties",
+            "C": "enabling the penalty to be based on global turnover",
+            "D": "limiting it to relevant turnover"
+          },
+          "correct_option": "C",
+          "explanation": "The passage so states.",
+          "difficulty": "Moderate",
+          "q_no": 82
+        },
+        {
+          "question": "A company's acquisition involves a deal value of Rs 2,500 crore and the target has substantial business operations in India, though neither party meets the asset or turnover thresholds. Under the 2023 Amendment, as described,",
+          "options": {
+            "A": "the Supreme Court must approve",
+            "B": "the deal value threshold of Rs 2,000 crore may require review of the combination",
+            "C": "no review is needed",
+            "D": "the transaction is void"
+          },
+          "correct_option": "B",
+          "explanation": "The passage describes the deal value threshold.",
+          "difficulty": "Tough",
+          "q_no": 83
+        },
+        {
+          "question": "Which of the following is correct about the 'hub and spoke' concept?",
+          "options": {
+            "A": "It applies only to identical competitors",
+            "B": "It covers an enterprise not engaged in identical activity which facilitates a cartel",
+            "C": "It applies only to government contracts",
+            "D": "It has been abolished"
+          },
+          "correct_option": "B",
+          "explanation": "The passage states that the Amendment covers a facilitating enterprise.",
+          "difficulty": "Tough",
+          "q_no": 84
+        }
+      ],
+      "question_range": [
+        79,
+        84
+      ],
+      "word_count": 329
+    },
+    {
+      "passage_id": "P15",
+      "subject_area": "Consumer Protection Law",
+      "title": "Consumers, Product Liability and Dark Patterns",
+      "passage": "The Consumer Protection Act, 2019 (CPA) replaced the 1986 Act and widened the scope of consumer protection. A 'consumer' is a person who buys goods or hires or avails of services for consideration, but not one who obtains them for resale or for any commercial purpose, though the Act clarifies that 'commercial purpose' does not include use by a person exclusively for earning livelihood by means of self-employment. In Lucknow Development Authority v. M.K. Gupta (1994), the Supreme Court held that housing construction and development activity by a statutory body is a 'service', and in Indian Medical Association v. V.P. Shantha (1995) the Court held that medical services, other than free service rendered to all patients, are covered. In Laxmi Engineering Works v. P.S.G. Industrial Institute (1995), the Court explained that purchase of goods for use in a commercial activity is excluded, subject to the exception for self-employment. The Act creates the Central Consumer Protection Authority (CCPA), with power to regulate matters relating to violation of consumer rights, unfair trade practices and false or misleading advertisements, to order recall of goods, and to impose penalties on manufacturers and endorsers. Chapter VI introduces 'product liability', making the manufacturer, service provider and seller liable for harm caused by a defective product or deficient service, subject to the defences specified. The Act also deals with 'unfair contracts', defined to include contracts which cause significant change in the rights of consumers, such as excessive security deposits or unilateral termination. In Ireo Grace Realtech v. Abhishek Khanna (2021), the Supreme Court held that one-sided clauses in a builder-buyer agreement, such as those allowing the builder to delay possession but making the buyer liable to heavy interest for delay, amount to an unfair trade practice. The Guidelines for Prevention and Regulation of Dark Patterns, 2023, identify practices such as false urgency, basket sneaking, confirm shaming, forced action and subscription traps as deceptive designs used by online platforms, which are regarded as unfair trade practices.",
+      "questions": [
+        {
+          "question": "Which of the following is correctly stated about 'consumer' under the 2019 Act?",
+          "options": {
+            "A": "A person buying goods for commercial purpose is not a consumer, but use exclusively for earning livelihood through self-employment is not treated as commercial purpose",
+            "B": "A person who obtains free service is a consumer",
+            "C": "A person buying goods for resale is a consumer",
+            "D": "Any buyer of goods is a consumer in all cases"
+          },
+          "correct_option": "A",
+          "explanation": "The passage sets out the definition and exception.",
+          "difficulty": "Moderate",
+          "q_no": 85
+        },
+        {
+          "question": "The Supreme Court in M.K. Gupta held that housing construction by a statutory body is",
+          "options": {
+            "A": "a sale of goods",
+            "B": "a service within the Act",
+            "C": "exempt from the Act",
+            "D": "not a service"
+          },
+          "correct_option": "B",
+          "explanation": "The passage states this.",
+          "difficulty": "Easy",
+          "q_no": 86
+        },
+        {
+          "question": "Medical services are covered by the Act, according to the decision in V.P. Shantha, except",
+          "options": {
+            "A": "services in hospitals",
+            "B": "services rendered by private doctors",
+            "C": "emergency services",
+            "D": "free service rendered to all patients"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states the exception.",
+          "difficulty": "Moderate",
+          "q_no": 87
+        },
+        {
+          "question": "Which of the following is a power of the CCPA described in the passage?",
+          "options": {
+            "A": "To order the recall of goods and impose penalties on manufacturers and endorsers for false or misleading advertisements",
+            "B": "To decide private consumer disputes of any value",
+            "C": "To amend the Act",
+            "D": "To try criminal offences"
+          },
+          "correct_option": "A",
+          "explanation": "The passage states these powers.",
+          "difficulty": "Moderate",
+          "q_no": 88
+        },
+        {
+          "question": "An online platform shows a banner 'Only 1 left! 10 people viewing' falsely, to hasten the consumer's purchase. This is an example of",
+          "options": {
+            "A": "a permitted marketing strategy",
+            "B": "a dark pattern, namely false urgency, regarded as an unfair trade practice",
+            "C": "a defect in goods",
+            "D": "a product liability claim"
+          },
+          "correct_option": "B",
+          "explanation": "The passage lists false urgency as a dark pattern.",
+          "difficulty": "Tough",
+          "q_no": 89
+        },
+        {
+          "question": "In Ireo Grace Realtech, the Supreme Court held that a clause allowing the builder to delay possession while imposing heavy interest on the buyer for delay is",
+          "options": {
+            "A": "an unfair trade practice",
+            "B": "a matter only for civil courts",
+            "C": "exempt as it is a commercial contract",
+            "D": "valid, being a matter of contract"
+          },
+          "correct_option": "A",
+          "explanation": "The passage so states.",
+          "difficulty": "Moderate",
+          "q_no": 90
+        }
+      ],
+      "question_range": [
+        85,
+        90
+      ],
+      "word_count": 328
+    },
+    {
+      "passage_id": "P16",
+      "subject_area": "Law of Contract / Specific Relief",
+      "title": "Specific Performance after the 2018 Amendment",
+      "passage": "The Specific Relief Act, 1963 was amended in 2018 to alter the character of specific performance in India. Before the amendment, Section 10 provided that specific performance of a contract could be enforced in the discretion of the court, which was guided by Section 20; the remedy of damages was the primary relief, and specific performance an exception. After the amendment, Section 10 provides that specific performance of a contract shall be enforced by the court, subject to Sections 11(2), 14 and 16; the discretion has been removed, and the remedy has become the rule. Section 14 sets out the contracts not specifically enforceable, including those where compensation in money is an adequate relief, contracts which run into minute details or are dependent on the personal qualifications of the parties, contracts which are in their nature determinable, and contracts the performance of which involves the continuous duty which the court cannot supervise, subject to modifications introduced in 2018 for certain contracts for infrastructure projects. Section 16 bars relief to a person who has become incapable of performing, has violated an essential term, or who fails to aver and prove that he has performed or has always been 'ready and willing' to perform the essential terms of the contract, other than those which have been prevented or waived by the defendant. The amendment also introduced Section 20, which enables the party suffering from breach to obtain substituted performance by a third party or through his own agency at the cost of the defaulting party, after giving a written notice of thirty days; once this remedy is chosen, the party cannot claim specific performance. Section 20A bars the grant of an injunction by a court in suits involving a contract relating to an infrastructure project, where the grant would cause impediment or delay in the progress or completion of the project, and Section 20B provides for designated special courts. In Katta Sujatha Reddy v. Siddamsetty Infra Projects (2024), the Supreme Court held that the 2018 amendments are substantive in nature and apply prospectively to contracts entered into after 1 October 2018. Section 21 allows damages, with or without specific performance, and Section 38 provides for a perpetual injunction to prevent the breach of an obligation.",
+      "questions": [
+        {
+          "question": "After the 2018 Amendment, specific performance under Section 10 is",
+          "options": {
+            "A": "enforced by the court, subject to Sections 11(2), 14 and 16, and is now the rule",
+            "B": "a discretionary remedy as before",
+            "C": "available only for immovable property",
+            "D": "abolished"
+          },
+          "correct_option": "A",
+          "explanation": "The passage states that the discretion was removed.",
+          "difficulty": "Easy",
+          "q_no": 91
+        },
+        {
+          "question": "Which of the following contracts is NOT specifically enforceable under Section 14 as described?",
+          "options": {
+            "A": "Contracts which are in their nature determinable",
+            "B": "Contracts dependent on the personal qualifications of the parties",
+            "C": "Contracts where compensation in money is an adequate relief",
+            "D": "Contracts for the sale of land where the buyer is ready and willing"
+          },
+          "correct_option": "D",
+          "explanation": "The last is enforceable if the buyer is ready and willing.",
+          "difficulty": "Moderate",
+          "q_no": 92
+        },
+        {
+          "question": "Under Section 20 as introduced, the party who gets the contract performed by a third party",
+          "options": {
+            "A": "has no right to recover costs",
+            "B": "cannot claim specific performance once the substituted performance remedy is chosen",
+            "C": "may still claim specific performance",
+            "D": "must first file a suit"
+          },
+          "correct_option": "B",
+          "explanation": "The passage so states.",
+          "difficulty": "Moderate",
+          "q_no": 93
+        },
+        {
+          "question": "The purpose of Section 20A is to",
+          "options": {
+            "A": "abolish infrastructure contracts",
+            "B": "compel completion of infrastructure projects at all costs",
+            "C": "bar injunctions that would impede or delay infrastructure projects",
+            "D": "grant injunctions automatically"
+          },
+          "correct_option": "C",
+          "explanation": "The passage states the purpose.",
+          "difficulty": "Moderate",
+          "q_no": 94
+        },
+        {
+          "question": "A contract was entered into on 1 June 2017, and a suit was filed in 2020. On the Supreme Court's decision in Katta Sujatha Reddy, the amended Section 10",
+          "options": {
+            "A": "applies retrospectively to all contracts",
+            "B": "applies only to infrastructure contracts",
+            "C": "applies, as the suit was filed after 2018",
+            "D": "does not apply, since the amendments are substantive and apply prospectively to contracts entered into after 1 October 2018"
+          },
+          "correct_option": "D",
+          "explanation": "The date of the contract is determinative.",
+          "difficulty": "Tough",
+          "q_no": 95
+        },
+        {
+          "question": "Consider the following. 1. The 2018 amendment removed the court's discretion in Section 10. 2. Section 16 requires the plaintiff to prove readiness and willingness. 3. Substituted performance requires a notice of thirty days. Which are correct?",
+          "options": {
+            "A": "1 and 2 only",
+            "B": "1 and 3 only",
+            "C": "2 and 3 only",
+            "D": "1, 2 and 3"
+          },
+          "correct_option": "D",
+          "explanation": "All three statements are made in the passage.",
+          "difficulty": "Moderate",
+          "q_no": 96
+        }
+      ],
+      "question_range": [
+        91,
+        96
+      ],
+      "word_count": 373
+    },
+    {
+      "passage_id": "P17",
+      "subject_area": "Law of Torts / Motor Accident Claims",
+      "title": "Compensation for Death, Future Prospects and the Value of Homemaking",
+      "passage": "Compensation in motor accident claims is governed by the Motor Vehicles Act, 1988. Section 166 enables a claim for compensation to be made before the Motor Accidents Claims Tribunal, and the principle is of 'just compensation', and not a mere formula. Section 140 provides for no-fault liability, a fixed sum for death and for grievous hurt, without proof of negligence. In Sarla Verma v. Delhi Transport Corporation (2009), the Supreme Court standardised the calculation in death cases: the income of the deceased is established, a deduction is made for personal expenses of the deceased, one-third where there are two or three dependants, and so on, and a multiplier is selected from a table according to the age of the deceased. In National Insurance Co. Ltd. v. Pranay Sethi (2017), a Constitution Bench held that future prospects must be added to the income of the deceased, even where he was in permanent employment or self-employed with a fixed salary, at forty per cent where the deceased was below forty years, twenty-five per cent where between forty and fifty, and ten per cent where between fifty and sixty; it also fixed conventional sums for loss of estate, funeral expenses and loss of consortium, with a ten per cent increase every three years. In respect of homemakers, the Court in Arun Kumar Agrawal v. National Insurance Co. (2010) held that the services of a homemaker, though not performed for pay, are of economic value, and in Kirti v. Oriental Insurance Co. (2021) the Court held that the notional income assigned to a homemaker should reflect the value of the work done and should not be treated as a token, since to do so would ignore the contribution of women to the household and the economy. In Shishu Pal v. Surjeet, decided on 11 June 2026, a Bench of Justices Sanjay Karol and N. Kotiswar Singh, in a motor accident compensation case, stressed the economic and social contribution of homemakers, and treated it as an element to be reflected in compensation. The Court has repeatedly said that compensation should aim at restoring the dependants to the position they would have been in had the death not occurred, as far as money can do so.",
+      "questions": [
+        {
+          "question": "Section 140 of the Motor Vehicles Act provides for",
+          "options": {
+            "A": "compulsory insurance of all pedestrians",
+            "B": "no-fault liability, a fixed sum on death or grievous hurt without proof of negligence",
+            "C": "no compensation for self-employed persons",
+            "D": "compensation only after proving negligence"
+          },
+          "correct_option": "B",
+          "explanation": "The passage so states.",
+          "difficulty": "Easy",
+          "q_no": 97
+        },
+        {
+          "question": "Under Pranay Sethi, future prospects for a deceased aged forty-five years are added at",
+          "options": {
+            "A": "forty per cent",
+            "B": "fifteen per cent",
+            "C": "ten per cent",
+            "D": "twenty-five per cent"
+          },
+          "correct_option": "D",
+          "explanation": "Between forty and fifty years the addition is twenty-five per cent.",
+          "difficulty": "Moderate",
+          "q_no": 98
+        },
+        {
+          "question": "In Sarla Verma, a multiplier was chosen according to",
+          "options": {
+            "A": "the age of the deceased, from a table",
+            "B": "the type of vehicle",
+            "C": "the income of the deceased",
+            "D": "the number of dependants"
+          },
+          "correct_option": "A",
+          "explanation": "The passage states that the multiplier is chosen by age.",
+          "difficulty": "Moderate",
+          "q_no": 99
+        },
+        {
+          "question": "The Court's reasoning on the notional income of homemakers in Kirti was that it should",
+          "options": {
+            "A": "reflect the value of the work done and not be a mere token, as a token ignores the contribution of women to the household and economy",
+            "B": "be zero",
+            "C": "be fixed at a uniform figure for all",
+            "D": "be fixed at the minimum wage"
+          },
+          "correct_option": "A",
+          "explanation": "The passage so states.",
+          "difficulty": "Moderate",
+          "q_no": 100
+        },
+        {
+          "question": "A forty-year-old self-employed person with a fixed income dies in a road accident. According to Pranay Sethi, future prospects",
+          "options": {
+            "A": "are added, at the percentage applicable to the deceased's age bracket, even for the self-employed with a fixed income",
+            "B": "are not added because he was self-employed",
+            "C": "are to be decided by the insurance company",
+            "D": "are added at forty per cent because he was below forty-one years"
+          },
+          "correct_option": "A",
+          "explanation": "The Constitution Bench held that future prospects apply to the self-employed with a fixed salary as well. (A person aged exactly forty falls into the forty-to-fifty bracket, namely twenty-five per cent.)",
+          "difficulty": "Tough",
+          "q_no": 101
+        },
+        {
+          "question": "Which of the following describes the principle of 'just compensation' in the passage?",
+          "options": {
+            "A": "Maximum compensation in every case",
+            "B": "Compensation based on the negligence of the driver",
+            "C": "A fixed amount for every death",
+            "D": "The aim of placing the dependants, as far as money can, in the position they would have been in had the death not occurred"
+          },
+          "correct_option": "D",
+          "explanation": "This is stated at the end of the passage.",
+          "difficulty": "Moderate",
+          "q_no": 102
+        }
+      ],
+      "question_range": [
+        97,
+        102
+      ],
+      "word_count": 370
+    },
+    {
+      "passage_id": "P18",
+      "subject_area": "Administrative Law",
+      "title": "The Right to Information: Public Authority, Exemptions and Public Interest",
+      "passage": "The Right to Information Act, 2005 gives effect to the right to information under Article 19(1)(a). Every citizen has the right to information held by or under the control of a 'public authority', which is defined in Section 2(h) to include bodies established by the Constitution or by law, and bodies owned, controlled or substantially financed by the appropriate Government. In Thalappalam Service Cooperative Bank v. State of Kerala (2013), the Supreme Court held that cooperative societies are not public authorities merely because they are registered under a State Act, unless they are substantially financed or controlled by the Government, and that 'substantial' financing must be a major part of the funding, not a mere token amount. The Public Information Officer must dispose of a request within thirty days, or forty-eight hours where the information concerns the life or liberty of a person (Section 7(1)). Section 8(1) contains exemptions, including information affecting sovereignty and security, information forbidden to be published by a court, information whose disclosure would endanger life, information held in a fiduciary relationship, and personal information which has no relationship to any public activity or interest or which would cause an unwarranted invasion of privacy (Section 8(1)(j)). Section 8(2) provides that, notwithstanding the exemptions, access may be allowed if the public interest in disclosure outweighs the harm to the protected interest. In Girish Ramchandra Deshpande v. Central Information Commissioner (2013), the Court held that service records and assessment of an employee are personal information, exempt unless a larger public interest is shown. In Reserve Bank of India v. Jayantilal N. Mistry (2015), the Court held that the regulator cannot rely on a 'fiduciary' relationship with banks to refuse information on inspection reports, since the regulator does not hold the information for the benefit of banks. In Central Public Information Officer, Supreme Court of India v. Subhash Chandra Agarwal (2019), a Constitution Bench held that the office of the Chief Justice of India is a public authority, that the right to information and judicial independence are not antagonistic, and that the balance between privacy and transparency is to be struck by applying the proportionality test and by considering the public interest in each case. Section 24 exempts specified intelligence and security organisations, except for allegations of corruption and human rights violations.",
+      "questions": [
+        {
+          "question": "Under Thalappalam, a cooperative society is a public authority only if it is",
+          "options": {
+            "A": "a bank",
+            "B": "registered under a State Act",
+            "C": "established before 1950",
+            "D": "substantially financed or controlled by the Government"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states the test.",
+          "difficulty": "Moderate",
+          "q_no": 103
+        },
+        {
+          "question": "The time limit for disposal of a request concerning the life or liberty of a person is",
+          "options": {
+            "A": "thirty days",
+            "B": "ninety days",
+            "C": "forty-eight hours",
+            "D": "seven days"
+          },
+          "correct_option": "C",
+          "explanation": "The passage so states.",
+          "difficulty": "Easy",
+          "q_no": 104
+        },
+        {
+          "question": "In Jayantilal Mistry, the Supreme Court held that the RBI",
+          "options": {
+            "A": "was not a public authority",
+            "B": "was exempt under Section 24",
+            "C": "could withhold inspection reports on the ground of a fiduciary relationship with banks",
+            "D": "could not rely on a fiduciary relationship, as it does not hold the information for the benefit of banks"
+          },
+          "correct_option": "D",
+          "explanation": "The passage records the reasoning.",
+          "difficulty": "Moderate",
+          "q_no": 105
+        },
+        {
+          "question": "What did the Constitution Bench hold in the Subhash Chandra Agarwal case regarding the Office of the Chief Justice of India?",
+          "options": {
+            "A": "It is not a public authority",
+            "B": "It is a public authority, and transparency and judicial independence are not antagonistic",
+            "C": "It is exempt under Section 24",
+            "D": "Only judges may seek information from it"
+          },
+          "correct_option": "B",
+          "explanation": "The passage states the holding.",
+          "difficulty": "Moderate",
+          "q_no": 106
+        },
+        {
+          "question": "A citizen asks for the assessment record of a public servant. According to Girish Deshpande, the request would",
+          "options": {
+            "A": "be heard only by a court",
+            "B": "be allowed as a matter of right",
+            "C": "be allowed if the citizen pays a fee",
+            "D": "be refused as personal information, unless a larger public interest is established"
+          },
+          "correct_option": "D",
+          "explanation": "The Court held service records to be personal information exempt unless larger public interest.",
+          "difficulty": "Tough",
+          "q_no": 107
+        },
+        {
+          "question": "The role of Section 8(2) as described is that it",
+          "options": {
+            "A": "exempts the intelligence agencies",
+            "B": "fixes the time limit",
+            "C": "allows disclosure notwithstanding exemptions where the public interest outweighs the harm",
+            "D": "adds new exemptions"
+          },
+          "correct_option": "C",
+          "explanation": "The passage states the override.",
+          "difficulty": "Moderate",
+          "q_no": 108
+        }
+      ],
+      "question_range": [
+        103,
+        108
+      ],
+      "word_count": 382
+    },
+    {
+      "passage_id": "P19",
+      "subject_area": "Civil Procedure and Commercial Disputes",
+      "title": "Pleadings, Pre-institution Mediation and Summary Judgment",
+      "passage": "The Code of Civil Procedure, 1908 provides, in Section 11, that no court shall try a suit or issue in which the matter directly and substantially in issue has been directly and substantially in issue in a former suit between the same parties, or parties under whom they claim, where the former court was competent to try the later suit and decided it finally. Order VII Rule 11 permits the rejection of a plaint where it does not disclose a cause of action, is under-valued, is insufficiently stamped, or is barred by law. In Dahiben v. Arvindbhai Kalyanji Bhanusali (2020), the Supreme Court held that, in considering an application under Order VII Rule 11, the court must examine only the plaint and the documents filed with it, and not the defence of the defendant, and that the application cannot be used to decide disputed questions of fact. The Commercial Courts Act, 2015 introduced a special procedure for 'commercial disputes' of the specified value. Section 12A makes pre-institution mediation mandatory for suits that do not contemplate urgent interim relief; in Patil Automation Pvt. Ltd. v. Rakheja Engineers Pvt. Ltd. (2022), the Supreme Court held that the requirement is mandatory, and that a plaint instituted in non-compliance is liable to be rejected under Order VII Rule 11, but applied the ruling prospectively from 20 August 2022. In SCG Contracts (India) Pvt. Ltd. v. K.S. Chamankar Infrastructure Pvt. Ltd. (2019), the Court held that the period for filing a written statement in a commercial suit, thirty days, extendable by not more than ninety days, is strictly mandatory, and that the court has no power to extend it further. Order XIII-A, inserted by the Commercial Courts Act, enables the court to give summary judgment on a claim where it considers that the claimant has no real prospect of succeeding or that the defendant has no real prospect of successfully defending the claim, and there is no other compelling reason why the claim should not be disposed of before trial. The Mediation Act, 2023 gives statutory form to mediation, provides for community mediation, and makes a mediated settlement agreement enforceable in the same manner as a judgment or decree of a court.",
+      "questions": [
+        {
+          "question": "In an application under Order VII Rule 11, the court examines",
+          "options": {
+            "A": "only the plaint and documents filed with it",
+            "B": "evidence of both parties",
+            "C": "only the defendant's documents",
+            "D": "the plaint and the written statement"
+          },
+          "correct_option": "A",
+          "explanation": "Dahiben held that the defence is not to be considered.",
+          "difficulty": "Moderate",
+          "q_no": 109
+        },
+        {
+          "question": "According to Patil Automation, pre-institution mediation under Section 12A is",
+          "options": {
+            "A": "required only in tax disputes",
+            "B": "optional",
+            "C": "mandatory only for suits above Rs 10 crore",
+            "D": "mandatory, and non-compliance makes the plaint liable to rejection, though the ruling applies prospectively from 20 August 2022"
+          },
+          "correct_option": "D",
+          "explanation": "The passage so states.",
+          "difficulty": "Tough",
+          "q_no": 110
+        },
+        {
+          "question": "A suit for urgent interim relief is filed in a commercial court without pre-institution mediation. Under Section 12A as described, the suit",
+          "options": {
+            "A": "is barred by res judicata",
+            "B": "must be transferred to another court",
+            "C": "is not barred since Section 12A does not apply to suits which contemplate urgent interim relief",
+            "D": "must be rejected in all cases"
+          },
+          "correct_option": "C",
+          "explanation": "The passage says the section applies to suits that do not contemplate urgent interim relief.",
+          "difficulty": "Tough",
+          "q_no": 111
+        },
+        {
+          "question": "The maximum period for filing a written statement in a commercial suit under SCG Contracts is",
+          "options": {
+            "A": "one hundred and twenty days (thirty plus ninety), with no further extension",
+            "B": "ninety days",
+            "C": "one year",
+            "D": "thirty days only"
+          },
+          "correct_option": "A",
+          "explanation": "The passage states the thirty-plus-ninety rule as mandatory.",
+          "difficulty": "Moderate",
+          "q_no": 112
+        },
+        {
+          "question": "Summary judgment under Order XIII-A may be passed where",
+          "options": {
+            "A": "the defendant is absent",
+            "B": "the claim exceeds one crore",
+            "C": "the plaintiff files an application",
+            "D": "the court considers that the claimant or the defendant has no real prospect of success and there is no other compelling reason for a trial"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states the test.",
+          "difficulty": "Moderate",
+          "q_no": 113
+        },
+        {
+          "question": "Under the Mediation Act, 2023, a mediated settlement agreement is",
+          "options": {
+            "A": "enforceable only if registered with the Registrar",
+            "B": "enforceable in the same manner as a judgment or decree of a court",
+            "C": "enforceable only by arbitration",
+            "D": "a mere contract not enforceable"
+          },
+          "correct_option": "B",
+          "explanation": "The passage so states.",
+          "difficulty": "Easy",
+          "q_no": 114
+        }
+      ],
+      "question_range": [
+        109,
+        114
+      ],
+      "word_count": 367
+    },
+    {
+      "passage_id": "P20",
+      "subject_area": "Family Law / Succession",
+      "title": "Daughters' Coparcenary Rights and the Hindu Succession Act",
+      "passage": "Before 2005, the Mitakshara coparcenary consisted only of male members, and a daughter was not a coparcener. The Hindu Succession (Amendment) Act, 2005, which substituted Section 6 of the Hindu Succession Act, 1956, provides that on and from 9 September 2005, the daughter of a coparcener shall, by birth, become a coparcener in her own right in the same manner as the son, with the same rights and liabilities, and may dispose of her share by testamentary disposition. The question whether the daughter's right depended on the father being alive on that date led to conflicting views. In Prakash v. Phulavati (2016), the Court held that the amendment was prospective and required that both the daughter and the father be alive on 9 September 2005, while Danamma v. Amar (2018) took a contrary view. In Vineeta Sharma v. Rakesh Sharma (2020), a three-judge Bench settled the law, holding that the coparcenary right accrues by birth and is not dependent upon the father being alive on 9 September 2005, since the right is by birth, though the provision is not retroactive in the sense that it does not disturb partitions or dispositions effected before 20 December 2004, which must be proved by a registered partition deed or a decree of court and not by an oral partition, except in exceptional cases. Section 14 provides that any property possessed by a female Hindu is held as her absolute property, and in V. Tulasamma v. Sesha Reddy (1977) the Court held that a limited estate in lieu of maintenance matured into an absolute estate. In Arunachala Gounder v. Ponnusamy (2022), the Court held that the self-acquired property of a Hindu male dying intestate, even prior to 1956, would devolve on his daughter by inheritance and not by survivorship. Under Section 15, the property of a female dying intestate devolves first upon her sons and daughters and the husband, then upon the heirs of the husband, and so on; Section 15(2) provides that property inherited from her father or mother goes, in the absence of children, to the heirs of the father, and property inherited from her husband or father-in-law goes to the heirs of the husband. In Revanasiddappa v. Mallikarjun (2023), a Bench held that children of void and voidable marriages, who are legitimate under Section 16 of the Hindu Marriage Act, are entitled to the share in the parent's property, including the coparcenary property.",
+      "questions": [
+        {
+          "question": "According to Vineeta Sharma, the daughter's coparcenary right under the amended Section 6",
+          "options": {
+            "A": "applies only to daughters born after 2005",
+            "B": "accrues by birth and is not dependent on the father's being alive on 9 September 2005",
+            "C": "applies only to self-acquired property",
+            "D": "requires the father to be alive on 9 September 2005"
+          },
+          "correct_option": "B",
+          "explanation": "The passage so states.",
+          "difficulty": "Moderate",
+          "q_no": 115
+        },
+        {
+          "question": "Under Vineeta Sharma, a partition effected before 20 December 2004 must be proved by",
+          "options": {
+            "A": "a registered partition deed or a decree of court, except in exceptional cases",
+            "B": "any oral statement",
+            "C": "evidence of neighbours",
+            "D": "a notarised affidavit"
+          },
+          "correct_option": "A",
+          "explanation": "The passage states the requirement.",
+          "difficulty": "Moderate",
+          "q_no": 116
+        },
+        {
+          "question": "Which of the following is the correct statement regarding Prakash v. Phulavati?",
+          "options": {
+            "A": "It was approved in Vineeta Sharma",
+            "B": "It conferred rights on sons only",
+            "C": "Its requirement that the father be alive on 9 September 2005 was not accepted in Vineeta Sharma",
+            "D": "It abolished the coparcenary"
+          },
+          "correct_option": "C",
+          "explanation": "Vineeta Sharma settled the conflict contrary to Prakash.",
+          "difficulty": "Tough",
+          "q_no": 117
+        },
+        {
+          "question": "A Hindu woman dies intestate leaving no children, husband or her husband's heirs. She had inherited the property from her father. Under Section 15(2), the property goes to",
+          "options": {
+            "A": "the Government",
+            "B": "her husband's heirs",
+            "C": "her mother's heirs",
+            "D": "the heirs of her father"
+          },
+          "correct_option": "D",
+          "explanation": "Under Section 15(2), property inherited from the father goes back to the heirs of the father in the absence of children.",
+          "difficulty": "Tough",
+          "q_no": 118
+        },
+        {
+          "question": "Arunachala Gounder held that the self-acquired property of a Hindu male dying intestate, even before 1956, devolves on his daughter",
+          "options": {
+            "A": "by escheat",
+            "B": "by survivorship",
+            "C": "by will",
+            "D": "by inheritance"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states 'by inheritance and not by survivorship'.",
+          "difficulty": "Moderate",
+          "q_no": 119
+        },
+        {
+          "question": "Children of void and voidable marriages under Revanasiddappa are entitled to",
+          "options": {
+            "A": "a share only in the mother's property",
+            "B": "the share in the parent's property, including coparcenary property",
+            "C": "no share in the property of their parents",
+            "D": "only maintenance"
+          },
+          "correct_option": "B",
+          "explanation": "The passage states the holding.",
+          "difficulty": "Moderate",
+          "q_no": 120
+        }
+      ],
+      "question_range": [
+        115,
+        120
+      ],
+      "word_count": 402
+    },
+    {
+      "passage_id": "P21",
+      "subject_area": "Public International Law",
+      "title": "Sources of International Law, Jus Cogens and Obligations Erga Omnes",
+      "passage": "Article 38(1) of the Statute of the International Court of Justice lists the sources the Court applies: international conventions establishing rules expressly recognised by the contesting States; international custom, as evidence of a general practice accepted as law; the general principles of law recognised by civilised nations; and, as subsidiary means for the determination of rules of law, judicial decisions and the teachings of the most highly qualified publicists. Customary international law requires two elements: settled state practice, which must be extensive and virtually uniform, and opinio juris, the belief that the practice is required by law. In the North Sea Continental Shelf Cases (1969), the Court held that a treaty provision may generate a customary rule, but only where it is of a fundamentally norm-creating character and has been accepted in practice, and that the passage of a short period of time is not a bar. In the Asylum Case (Colombia v. Peru) (1950), the Court held that a party relying on a regional or local custom must prove that it is constant and uniform. A State that persistently objects to an emerging custom while it is being formed is not bound by it, the 'persistent objector' rule. In Nicaragua v. United States (1986), the Court held that customary rules continue to exist alongside treaty rules with identical content and retain an independent existence. Peremptory norms, or jus cogens, are defined in Article 53 of the Vienna Convention on the Law of Treaties as norms accepted and recognised by the international community as a whole from which no derogation is permitted, and which can be modified only by a subsequent norm of the same character; a treaty in conflict with such a norm is void. In Barcelona Traction (1970), the Court distinguished obligations owed to the international community as a whole, or erga omnes, such as the prohibition of aggression and genocide, in whose protection all States have a legal interest. In the proceedings brought by South Africa against Israel under the Genocide Convention, the Court in January 2024 held that it had prima facie jurisdiction, that the rights claimed were plausible, and indicated provisional measures; the case rests on the idea that obligations under the Convention are owed erga omnes partes. Under Article 59 of the Statute, a decision of the Court has no binding force except between the parties and in respect of that particular case.",
+      "questions": [
+        {
+          "question": "The two elements of customary international law are",
+          "options": {
+            "A": "precedent and equity",
+            "B": "treaty and consent",
+            "C": "state practice and opinio juris",
+            "D": "legislation and custom"
+          },
+          "correct_option": "C",
+          "explanation": "The passage so states.",
+          "difficulty": "Easy",
+          "q_no": 121
+        },
+        {
+          "question": "A State consistently objects to an emerging rule of custom during its formation. Under the 'persistent objector' rule it",
+          "options": {
+            "A": "may be expelled from the UN",
+            "B": "is bound as all States are",
+            "C": "must ratify the treaty",
+            "D": "is not bound by the rule, in respect of that State"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states the rule.",
+          "difficulty": "Moderate",
+          "q_no": 122
+        },
+        {
+          "question": "According to Nicaragua v. United States, where a treaty and a customary rule have identical content,",
+          "options": {
+            "A": "the customary rule is absorbed by the treaty",
+            "B": "the Court cannot apply either",
+            "C": "the treaty is void",
+            "D": "the customary rule retains an independent existence"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states this.",
+          "difficulty": "Moderate",
+          "q_no": 123
+        },
+        {
+          "question": "Which of the following is the correct statement concerning jus cogens?",
+          "options": {
+            "A": "A peremptory norm can be modified by any treaty",
+            "B": "A treaty in conflict with a peremptory norm is void, and the norm may be modified only by a norm of the same character",
+            "C": "Peremptory norms bind only parties to the Statute",
+            "D": "A treaty in conflict with a peremptory norm is voidable"
+          },
+          "correct_option": "B",
+          "explanation": "Article 53 as set out in the passage.",
+          "difficulty": "Moderate",
+          "q_no": 124
+        },
+        {
+          "question": "The distinction between obligations erga omnes and ordinary obligations lies in the fact that erga omnes obligations",
+          "options": {
+            "A": "are not binding",
+            "B": "are owed only to the victim State",
+            "C": "apply only in war",
+            "D": "are owed to the international community as a whole, so all States have a legal interest in their protection"
+          },
+          "correct_option": "D",
+          "explanation": "The passage describes Barcelona Traction.",
+          "difficulty": "Moderate",
+          "q_no": 125
+        },
+        {
+          "question": "Consider the following. 1. A judicial decision of the ICJ binds only the parties in respect of the particular case. 2. Judicial decisions are a primary source under Article 38(1). 3. Opinio juris is a necessary element of custom. Which are correct?",
+          "options": {
+            "A": "1 and 2 only",
+            "B": "1 and 3 only",
+            "C": "2 and 3 only",
+            "D": "1, 2 and 3"
+          },
+          "correct_option": "B",
+          "explanation": "Judicial decisions are subsidiary means under Article 38(1)(d), so statement 2 is wrong.",
+          "difficulty": "Tough",
+          "q_no": 126
+        }
+      ],
+      "question_range": [
+        121,
+        126
+      ],
+      "word_count": 399
+    },
+    {
+      "passage_id": "P22",
+      "subject_area": "Public International Law",
+      "title": "The International Criminal Court: Jurisdiction, Immunities and Cooperation",
+      "passage": "The Rome Statute of the International Criminal Court (ICC), adopted in 1998 and in force since 2002, establishes a permanent court with jurisdiction over genocide, crimes against humanity, war crimes and the crime of aggression, the last being activated after the Kampala amendments of 2010 on conditions narrower than those for other crimes. The Court is complementary to national criminal jurisdictions: under Article 17, a case is inadmissible where it is being investigated or prosecuted by a State with jurisdiction, unless the State is unwilling or unable genuinely to do so. Under Article 12, the Court may exercise jurisdiction where the crime was committed on the territory of a State Party or by a national of a State Party, or where a non-party State has accepted the jurisdiction by declaration; under Article 13(b), the Security Council, acting under Chapter VII, may refer a situation to the Prosecutor, in which case the Court's jurisdiction extends to non-parties. Under Article 16, the Security Council may defer an investigation or prosecution for a renewable period of twelve months. Article 27 provides that the Statute applies equally to all persons without distinction based on official capacity, and that immunities attaching to the official capacity of a person, whether under national or international law, do not bar the Court's jurisdiction. Article 98, however, provides that the Court may not proceed with a request for surrender which would require a State to act inconsistently with its obligations under international law with respect to the immunities of a third State, unless that State's cooperation for waiver is obtained. In the Jordan Referral decision (2019), concerning the failure of Jordan to arrest Sudan's President Omar al-Bashir, the Appeals Chamber held that there is no rule of customary international law recognising head-of-state immunity before an international court, and that States Parties are bound to cooperate. The Court has issued arrest warrants against sitting leaders, including those against the Russian President in March 2023, and against the Israeli Prime Minister and a former Defence Minister in November 2024, which provoked debate on the effect of immunities, and in March 2025, a former Philippine President was surrendered to the Court. India, the United States and China are not parties to the Rome Statute.",
+      "questions": [
+        {
+          "question": "The principle of complementarity under Article 17 means that a case is inadmissible where",
+          "options": {
+            "A": "a State with jurisdiction is genuinely investigating or prosecuting, unless it is unwilling or unable to do so",
+            "B": "the crime is not serious",
+            "C": "the ICC has already tried it",
+            "D": "the accused is a head of State"
+          },
+          "correct_option": "A",
+          "explanation": "The passage states the principle.",
+          "difficulty": "Moderate",
+          "q_no": 127
+        },
+        {
+          "question": "Which of the following is a route through which the ICC may exercise jurisdiction over a national of a non-party State?",
+          "options": {
+            "A": "Request by any State",
+            "B": "Referral by the General Assembly",
+            "C": "Referral by the Security Council under Article 13(b)",
+            "D": "Declaration of the accused"
+          },
+          "correct_option": "C",
+          "explanation": "The passage states that a Security Council referral extends jurisdiction to non-parties.",
+          "difficulty": "Moderate",
+          "q_no": 128
+        },
+        {
+          "question": "Under Article 16, the Security Council may",
+          "options": {
+            "A": "nominate the Prosecutor",
+            "B": "veto an arrest warrant permanently",
+            "C": "terminate the ICC",
+            "D": "defer an investigation or prosecution for a renewable period of twelve months"
+          },
+          "correct_option": "D",
+          "explanation": "The passage so states.",
+          "difficulty": "Moderate",
+          "q_no": 129
+        },
+        {
+          "question": "The apparent tension between Articles 27 and 98 is that",
+          "options": {
+            "A": "Article 27 removes immunity before the ICC, while Article 98 limits the Court's request for surrender where it would require a State to violate its obligations concerning third-State immunities",
+            "B": "both articles refer to aggression only",
+            "C": "Article 98 abolishes Article 27",
+            "D": "there is no tension"
+          },
+          "correct_option": "A",
+          "explanation": "The passage states both provisions.",
+          "difficulty": "Tough",
+          "q_no": 130
+        },
+        {
+          "question": "In the Jordan Referral decision, the Appeals Chamber held that",
+          "options": {
+            "A": "head-of-state immunity bars the ICC",
+            "B": "only the Security Council may arrest heads of State",
+            "C": "Jordan was not bound by the Statute",
+            "D": "there is no customary rule recognising head-of-state immunity before an international court, and States Parties must cooperate"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states the holding.",
+          "difficulty": "Moderate",
+          "q_no": 131
+        },
+        {
+          "question": "Which of the following is correct?",
+          "options": {
+            "A": "The crime of aggression is on the same footing as other crimes",
+            "B": "India is not a party to the Rome Statute, though it may be affected where a situation is referred by the Security Council",
+            "C": "The ICC has no jurisdiction over war crimes",
+            "D": "India is a party to the Rome Statute"
+          },
+          "correct_option": "B",
+          "explanation": "The passage states India is not a party; Security Council referral extends jurisdiction to non-parties.",
+          "difficulty": "Tough",
+          "q_no": 132
+        }
+      ],
+      "question_range": [
+        127,
+        132
+      ],
+      "word_count": 372
+    },
+    {
+      "passage_id": "P23",
+      "subject_area": "Intellectual Property Law",
+      "title": "Trade Marks, Well-known Marks and Pharmaceutical Patents",
+      "passage": "The Trade Marks Act, 1999 provides for the registration of marks capable of being represented graphically and distinguishing the goods or services of one person from those of others. Section 9 lists absolute grounds for refusal, such as marks devoid of distinctive character, and Section 11 relative grounds, including similarity to an earlier mark and the likelihood of confusion. Under Section 11(6), the Registrar must take into account factors in determining whether a mark is well known, including its knowledge in the relevant section of the public and its duration and extent of use. Section 29(4) protects a mark with a reputation against use of an identical or similar mark in relation to dissimilar goods where the use takes unfair advantage of, or is detrimental to, the mark's distinctive character or repute, a form of dilution. Where the mark is unregistered, the proprietor may bring an action for passing off, the elements of which are goodwill, misrepresentation and damage. In Amritdhara Pharmacy v. Satya Deo Gupta (1963), the Supreme Court said that the test of deceptive similarity is to be applied from the perspective of a person of average intelligence and imperfect recollection, and that the marks are to be compared as a whole. In Cadila Health Care v. Cadila Pharmaceuticals (2001), the Court held that stricter standards apply in cases of medicinal products, since the consequences of confusion between drugs may be harmful. In Toyota Jidosha Kabushiki Kaisha v. Prius Auto Industries (2018), the Court held that a mark's trans-border reputation may be protected even where it is not used in India, but that the claimant must show that the reputation had spilled over to India at the relevant time. The Patents Act, 1970 requires novelty, an inventive step and industrial applicability; Section 3(d) excludes the mere discovery of a new form of a known substance unless it results in enhanced efficacy, a provision explained in Novartis AG v. Union of India (2013), where the Supreme Court denied a patent to the beta crystalline form of imatinib mesylate. Section 84 permits the grant of a compulsory licence where the reasonable requirements of the public have not been satisfied, the invention is not available at a reasonably affordable price, or it is not worked in India; in Natco Pharma v. Bayer Corporation (2012), the first compulsory licence was granted for a cancer drug.",
+      "questions": [
+        {
+          "question": "The test of deceptive similarity in Amritdhara is applied from the viewpoint of",
+          "options": {
+            "A": "the proprietor of the mark",
+            "B": "a judge",
+            "C": "a person of average intelligence and imperfect recollection, comparing the marks as a whole",
+            "D": "an expert in trade marks"
+          },
+          "correct_option": "C",
+          "explanation": "The passage states the test.",
+          "difficulty": "Easy",
+          "q_no": 133
+        },
+        {
+          "question": "Which of the following is NOT an element of passing off, as stated in the passage?",
+          "options": {
+            "A": "Misrepresentation",
+            "B": "Goodwill",
+            "C": "Damage",
+            "D": "Registration of the mark"
+          },
+          "correct_option": "D",
+          "explanation": "The passage lists the three elements; registration is not required for passing off.",
+          "difficulty": "Moderate",
+          "q_no": 134
+        },
+        {
+          "question": "In Cadila Health Care, a stricter standard was applied to medicinal products because",
+          "options": {
+            "A": "pharmaceutical companies are powerful",
+            "B": "drugs are costly",
+            "C": "confusion between drugs can have harmful consequences",
+            "D": "the Act so provides for medicines alone"
+          },
+          "correct_option": "C",
+          "explanation": "The passage states the reason.",
+          "difficulty": "Moderate",
+          "q_no": 135
+        },
+        {
+          "question": "In Toyota v. Prius, the claimant's trans-border reputation would be protected where",
+          "options": {
+            "A": "the reputation had spilled over to India at the relevant time",
+            "B": "the mark is registered abroad",
+            "C": "the mark is not used in India at all",
+            "D": "the mark is famous anywhere in the world"
+          },
+          "correct_option": "A",
+          "explanation": "The passage states that the claimant must show spill-over.",
+          "difficulty": "Tough",
+          "q_no": 136
+        },
+        {
+          "question": "Section 3(d) of the Patents Act, as applied in Novartis, excludes",
+          "options": {
+            "A": "all chemical inventions",
+            "B": "the mere discovery of a new form of a known substance unless it results in enhanced efficacy",
+            "C": "inventions made abroad",
+            "D": "all pharmaceutical inventions"
+          },
+          "correct_option": "B",
+          "explanation": "The passage states the rule and the outcome.",
+          "difficulty": "Moderate",
+          "q_no": 137
+        },
+        {
+          "question": "Which of the following is NOT a ground for a compulsory licence under Section 84 as stated in the passage?",
+          "options": {
+            "A": "The invention is not available at a reasonably affordable price",
+            "B": "The patentee refuses to sell to a competitor",
+            "C": "The reasonable requirements of the public are not satisfied",
+            "D": "The invention is not worked in India"
+          },
+          "correct_option": "B",
+          "explanation": "The passage lists the first three grounds only.",
+          "difficulty": "Moderate",
+          "q_no": 138
+        }
+      ],
+      "question_range": [
+        133,
+        138
+      ],
+      "word_count": 393
+    },
+    {
+      "passage_id": "P24",
+      "subject_area": "Constitutional Law",
+      "title": "Right to Property under Article 300A and Compulsory Acquisition",
+      "passage": "The Constitution (44th Amendment) Act, 1978 omitted the right to property from the list of fundamental rights, repealing Article 19(1)(f) and Article 31, and inserted Article 300A, which provides that no person shall be deprived of his property save by authority of law. The right to property thus ceased to be a fundamental right but remains a constitutional right. In Jilubhai Nanbhai Khachar v. State of Gujarat (1995), the Supreme Court held that Article 300A requires the deprivation to be by a valid law, and that the 'law' must be one which satisfies the standards of reasonableness. In K.T. Plantation Pvt. Ltd. v. State of Karnataka (2011), the Court held that a law depriving a person of property must serve a public purpose, though the adequacy of compensation is not justiciable and the absence of a provision for compensation does not by itself invalidate the law; in certain cases, however, it may be necessary under Article 300A. In Vidya Devi v. State of Himachal Pradesh (2020), the Court described the right to property as a human right and a constitutional right, and held that the State cannot take possession of private land without the authority of law, nor claim title by adverse possession against a citizen. In Kolkata Municipal Corporation v. Bimal Kumar Shaw (2024), a seven-judge Bench held that Article 300A contains certain procedural rights of the owner, which the State must observe before depriving him of property: the right to notice, the right to be heard, the right to a reasoned decision, the duty to acquire only for a public purpose, the right to fair compensation, the right to an efficient and expeditious process, and the right of conclusion, namely that the acquisition must be completed. The Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act, 2013 (LARR Act) replaced the Land Acquisition Act, 1894. Under Section 24(2), an acquisition initiated under the old Act lapses where, in the case of land acquisition proceedings, the award was made five years or more before the commencement of the 2013 Act, but physical possession was not taken or compensation was not paid. In Indore Development Authority v. Manohar Lal (2020), a Constitution Bench held that compensation is 'paid' where it is tendered, and that the deposit of compensation in the treasury is not by itself sufficient for the owner to be deprived; and that the lapse requires both failures, possession and payment, together.",
+      "questions": [
+        {
+          "question": "After the 44th Amendment, the right to property is",
+          "options": {
+            "A": "a Directive Principle",
+            "B": "a constitutional right under Article 300A, though not a fundamental right",
+            "C": "a fundamental right under Article 19(1)(f)",
+            "D": "abolished"
+          },
+          "correct_option": "B",
+          "explanation": "The passage so states.",
+          "difficulty": "Easy",
+          "q_no": 139
+        },
+        {
+          "question": "In K.T. Plantation, the Supreme Court held that",
+          "options": {
+            "A": "the right to property is a fundamental right",
+            "B": "compensation must always be adequate",
+            "C": "a law depriving property must serve a public purpose, though the adequacy of compensation is not justiciable",
+            "D": "property can be taken without any law"
+          },
+          "correct_option": "C",
+          "explanation": "The passage records this holding.",
+          "difficulty": "Moderate",
+          "q_no": 140
+        },
+        {
+          "question": "Which of the following is NOT one of the procedural rights recognised in Bimal Kumar Shaw?",
+          "options": {
+            "A": "Right to notice",
+            "B": "Right to be heard",
+            "C": "Right to a reasoned decision",
+            "D": "Right to select the acquiring authority"
+          },
+          "correct_option": "D",
+          "explanation": "The last is not among the seven rights.",
+          "difficulty": "Moderate",
+          "q_no": 141
+        },
+        {
+          "question": "Under Section 24(2) of the LARR Act, as interpreted in Indore Development Authority, an acquisition lapses where",
+          "options": {
+            "A": "compensation was deposited in the treasury",
+            "B": "the owner objected",
+            "C": "both physical possession was not taken and compensation was not paid, for the requisite period",
+            "D": "either possession was not taken or compensation was not paid"
+          },
+          "correct_option": "C",
+          "explanation": "The passage states that the lapse requires both failures.",
+          "difficulty": "Tough",
+          "q_no": 142
+        },
+        {
+          "question": "Compensation is 'paid' within Section 24(2) when",
+          "options": {
+            "A": "it is announced in the award",
+            "B": "it is deposited in the treasury",
+            "C": "it is entered in the Government's accounts",
+            "D": "it is tendered to the owner"
+          },
+          "correct_option": "D",
+          "explanation": "The Constitution Bench held that tender is sufficient for 'payment'; treasury deposit alone is not.",
+          "difficulty": "Moderate",
+          "q_no": 143
+        },
+        {
+          "question": "In Vidya Devi, the Court held that the State",
+          "options": {
+            "A": "cannot take possession of private land without the authority of law, nor claim title by adverse possession against a citizen",
+            "B": "may deprive land without notice",
+            "C": "may claim title to private land by adverse possession",
+            "D": "has absolute power over land"
+          },
+          "correct_option": "A",
+          "explanation": "The passage states this.",
+          "difficulty": "Moderate",
+          "q_no": 144
+        }
+      ],
+      "question_range": [
+        139,
+        144
+      ],
+      "word_count": 407
+    },
+    {
+      "passage_id": "P25",
+      "subject_area": "Jurisprudence / Constitutional Law",
+      "title": "Precedent, Ratio Decidendi and the Authority of the Supreme Court",
+      "passage": "Article 141 of the Constitution provides that the law declared by the Supreme Court shall be binding on all courts within the territory of India. The expression 'law declared' is taken to refer to the ratio decidendi of a decision, that is, the principle of law necessary for the decision on the material facts, and not to obiter dicta, which are observations made in passing; though the obiter dicta of the Supreme Court are entitled to great weight, they are not binding in the strict sense. Jurisprudence has differed on the nature of judicial decision. The declaratory theory, associated with Blackstone, holds that judges do not make law but discover and declare what the law already is. The opposing view, associated with Bentham and Austin, regards judge-made law as law made by the judges, and Austin called the common law 'judiciary law'. A decision is said to be per incuriam, and therefore not binding, where it is given in ignorance of a binding statute or of a binding authority of a superior court, as explained in Young v. Bristol Aeroplane Co. and applied in A.R. Antulay v. R.S. Nayak (1988). A decision rendered sub silentio, without the point having been argued or considered, has no precedential value on that point. The doctrine of stare decisis promotes certainty, but the Supreme Court is not bound by its own decisions and may overrule them, for example in Golaknath, where it applied prospective overruling to avoid disruption. In Central Board of Dawoodi Bohra Community v. State of Maharashtra (2005), the Court held that a Bench of coequal strength is bound by the decision of another Bench of the same strength, and that if it disagrees, it can only refer the matter to a larger Bench, which also applies to decisions of Constitution Benches, which a smaller Bench cannot doubt. Under the doctrine of merger, as explained in Kunhayammed v. State of Kerala (2000), when a superior court entertains an appeal and passes a decree, the decree of the lower court merges in that of the superior court. The Court's power under Article 142 to do complete justice is not a licence to override statutory or constitutional prohibitions, and a curative petition, evolved in Rupa Ashok Hurra v. Ashok Hurra (2002), permits a final judgment to be reconsidered in rare cases of a gross abuse of process or violation of natural justice, where a review has been dismissed.",
+      "questions": [
+        {
+          "question": "The 'law declared' within Article 141 refers to",
+          "options": {
+            "A": "the ratio decidendi of a decision",
+            "B": "obiter dicta alone",
+            "C": "every observation in a judgment",
+            "D": "only the final order"
+          },
+          "correct_option": "A",
+          "explanation": "The passage states that it refers to the ratio decidendi.",
+          "difficulty": "Easy",
+          "q_no": 145
+        },
+        {
+          "question": "A decision given in ignorance of a binding statutory provision is",
+          "options": {
+            "A": "a decision sub silentio only",
+            "B": "valid for lower courts only",
+            "C": "per incuriam, and not binding",
+            "D": "binding as a precedent"
+          },
+          "correct_option": "C",
+          "explanation": "The passage states this.",
+          "difficulty": "Moderate",
+          "q_no": 146
+        },
+        {
+          "question": "The declaratory theory of Blackstone holds that",
+          "options": {
+            "A": "the legislature is subordinate to judges",
+            "B": "judges discover and declare the existing law",
+            "C": "judges make new law",
+            "D": "precedent has no value"
+          },
+          "correct_option": "B",
+          "explanation": "The passage states this.",
+          "difficulty": "Easy",
+          "q_no": 147
+        },
+        {
+          "question": "A two-judge Bench disagrees with a decision of a Constitution Bench. In accordance with Dawoodi Bohra, it should",
+          "options": {
+            "A": "ignore the decision",
+            "B": "overrule the Constitution Bench",
+            "C": "refer the matter to a larger Bench, since a smaller Bench cannot doubt a Constitution Bench",
+            "D": "decide as it prefers"
+          },
+          "correct_option": "C",
+          "explanation": "The passage states that the smaller bench can only refer the matter to a larger Bench.",
+          "difficulty": "Moderate",
+          "q_no": 148
+        },
+        {
+          "question": "A curative petition is permitted",
+          "options": {
+            "A": "in rare cases of gross abuse of process or violation of natural justice, after the dismissal of a review",
+            "B": "only in criminal cases",
+            "C": "whenever a party loses",
+            "D": "as a second appeal"
+          },
+          "correct_option": "A",
+          "explanation": "The passage states the position.",
+          "difficulty": "Moderate",
+          "q_no": 149
+        },
+        {
+          "question": "Consider the following. 1. Obiter dicta of the Supreme Court are binding in the same manner as ratio. 2. A decision sub silentio has no precedential value on the point not argued. 3. The Supreme Court may overrule its own earlier decisions. Which are correct?",
+          "options": {
+            "A": "1 and 2 only",
+            "B": "2 and 3 only",
+            "C": "1 and 3 only",
+            "D": "1, 2 and 3"
+          },
+          "correct_option": "B",
+          "explanation": "Obiter dicta are weighty but not strictly binding; statements 2 and 3 are accurate.",
+          "difficulty": "Tough",
+          "q_no": 150
+        }
+      ],
+      "question_range": [
+        145,
+        150
+      ],
+      "word_count": 404
+    }
+  ],
+  "answer_key": {
+    "1": "B",
+    "2": "A",
+    "3": "A",
+    "4": "D",
+    "5": "C",
+    "6": "A",
+    "7": "D",
+    "8": "C",
+    "9": "D",
+    "10": "A",
+    "11": "C",
+    "12": "C",
+    "13": "B",
+    "14": "D",
+    "15": "A",
+    "16": "A",
+    "17": "B",
+    "18": "B",
+    "19": "C",
+    "20": "C",
+    "21": "A",
+    "22": "B",
+    "23": "C",
+    "24": "A",
+    "25": "A",
+    "26": "B",
+    "27": "D",
+    "28": "C",
+    "29": "B",
+    "30": "B",
+    "31": "B",
+    "32": "B",
+    "33": "B",
+    "34": "A",
+    "35": "B",
+    "36": "D",
+    "37": "B",
+    "38": "A",
+    "39": "A",
+    "40": "A",
+    "41": "B",
+    "42": "A",
+    "43": "B",
+    "44": "C",
+    "45": "D",
+    "46": "D",
+    "47": "D",
+    "48": "B",
+    "49": "D",
+    "50": "D",
+    "51": "D",
+    "52": "B",
+    "53": "B",
+    "54": "A",
+    "55": "C",
+    "56": "B",
+    "57": "C",
+    "58": "C",
+    "59": "A",
+    "60": "A",
+    "61": "D",
+    "62": "C",
+    "63": "A",
+    "64": "C",
+    "65": "B",
+    "66": "D",
+    "67": "B",
+    "68": "D",
+    "69": "A",
+    "70": "C",
+    "71": "D",
+    "72": "C",
+    "73": "B",
+    "74": "D",
+    "75": "A",
+    "76": "B",
+    "77": "D",
+    "78": "A",
+    "79": "D",
+    "80": "D",
+    "81": "A",
+    "82": "C",
+    "83": "B",
+    "84": "B",
+    "85": "A",
+    "86": "B",
+    "87": "D",
+    "88": "A",
+    "89": "B",
+    "90": "A",
+    "91": "A",
+    "92": "D",
+    "93": "B",
+    "94": "C",
+    "95": "D",
+    "96": "D",
+    "97": "B",
+    "98": "D",
+    "99": "A",
+    "100": "A",
+    "101": "A",
+    "102": "D",
+    "103": "D",
+    "104": "C",
+    "105": "D",
+    "106": "B",
+    "107": "D",
+    "108": "C",
+    "109": "A",
+    "110": "D",
+    "111": "C",
+    "112": "A",
+    "113": "D",
+    "114": "B",
+    "115": "B",
+    "116": "A",
+    "117": "C",
+    "118": "D",
+    "119": "D",
+    "120": "B",
+    "121": "C",
+    "122": "D",
+    "123": "D",
+    "124": "B",
+    "125": "D",
+    "126": "B",
+    "127": "A",
+    "128": "C",
+    "129": "D",
+    "130": "A",
+    "131": "D",
+    "132": "B",
+    "133": "C",
+    "134": "D",
+    "135": "C",
+    "136": "A",
+    "137": "B",
+    "138": "B",
+    "139": "B",
+    "140": "C",
+    "141": "D",
+    "142": "C",
+    "143": "D",
+    "144": "A",
+    "145": "A",
+    "146": "C",
+    "147": "B",
+    "148": "C",
+    "149": "A",
+    "150": "B"
+  },
+  "stats": {
+    "answer_distribution": {
+      "B": 41,
+      "A": 38,
+      "D": 41,
+      "C": 30
+    },
+    "difficulty_distribution": {
+      "Moderate": 88,
+      "Tough": 40,
+      "Easy": 22
+    }
+  }
+}

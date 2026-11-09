@@ -1,0 +1,2506 @@
+{
+  "mock_title": "CLAT PG (LL.M.) Full-Length Mock Test - 02 (Constitutional Amendments Special)",
+  "pattern": {
+    "total_questions": 150,
+    "question_type": "Passage-based MCQ (4 options, single correct)",
+    "passages": 25,
+    "questions_per_passage": 6,
+    "marks_per_question": 1,
+    "negative_marking": 0.25,
+    "total_marks": 150,
+    "suggested_duration_minutes": 150,
+    "note": "The official CLAT PG paper has 120 MCQs/120 marks/120 minutes, built on passage-based questions. This mock is extended to 150 questions, as in Mock 01; scale to 120 by dropping any 5 passages if you want exact parity. Fourteen of the 25 passages (84 questions) are Constitutional Law, centred on the most repeatable constitutional amendments and the cases that interpret them."
+  },
+  "subjects_covered": [
+    "Administrative Law",
+    "Constitutional Law",
+    "Constitutional Law / Tax",
+    "Criminal Law",
+    "Family Law",
+    "Insolvency and Company Law",
+    "Intellectual Property Law",
+    "Jurisprudence",
+    "Law of Contract",
+    "Law of Evidence",
+    "Law of Torts / Constitutional Law",
+    "Property Law",
+    "Public International Law"
+  ],
+  "amendments_covered": [
+    "1st",
+    "4th",
+    "17th",
+    "24th",
+    "25th",
+    "39th",
+    "42nd",
+    "44th",
+    "52nd",
+    "61st",
+    "73rd",
+    "74th",
+    "77th",
+    "81st",
+    "82nd",
+    "84th",
+    "85th",
+    "86th",
+    "87th",
+    "93rd",
+    "97th",
+    "99th",
+    "101st",
+    "102nd",
+    "103rd",
+    "104th",
+    "105th",
+    "106th"
+  ],
+  "instructions": [
+    "Each question carries 1 mark; 0.25 marks deducted for each wrong answer.",
+    "Answer from the passage and the legal principles stated or implied; read every option.",
+    "Passages summarise the law and leading cases as understood at the time of preparation; where a passage flags a matter as pending or evolving (for example the 2023 Election Commissioners Act), verify its current status before citing it in exam answers."
+  ],
+  "passages": [
+    {
+      "passage_id": "P01",
+      "subject_area": "Constitutional Law",
+      "title": "Article 368, Golak Nath and the Basic Structure Doctrine",
+      "passage": "Article 368 deals with the power of Parliament to amend the Constitution. In Shankari Prasad (1951) and Sajjan Singh (1965), the Supreme Court held that the word 'law' in Article 13(2) did not include constitutional amendments, so that Fundamental Rights could be amended. In I.C. Golak Nath v. State of Punjab (1967), an eleven-judge Bench reversed this by a majority of 6:5, holding that an amendment is 'law' under Article 13(2) and that Parliament could not abridge Fundamental Rights. Parliament responded with the Constitution (Twenty-fourth Amendment) Act, 1971, which added clause (4) to Article 13 to exclude constitutional amendments from its scope, and amended Article 368 to confer the 'power' to amend expressly and to make presidential assent to an amendment Bill obligatory. In Kesavananda Bharati v. State of Kerala (1973), a thirteen-judge Bench, by a majority of 7:6, overruled Golak Nath and upheld the 24th Amendment, but held that the amending power does not extend to altering the 'basic structure' of the Constitution. In Indira Nehru Gandhi v. Raj Narain (1975), the Court struck down clause (4) of Article 329A, inserted by the 39th Amendment, which sought to validate the Prime Minister's election set aside by the Allahabad High Court, since it exercised judicial power through legislation and offended free and fair elections and the rule of law. The Constitution (Forty-second Amendment) Act, 1976 then inserted clauses (4) and (5) in Article 368, providing that no amendment could be questioned in any court and that the amending power had no limits. In Minerva Mills v. Union of India (1980), the Court struck down both clauses, reasoning that a limited amending power is itself a basic feature and that Parliament cannot, by exercising a limited power, enlarge it into an absolute one.",
+      "questions": [
+        {
+          "question": "The decision which held that an amendment under Article 368 is 'law' within Article 13(2), so that Parliament could not abridge Fundamental Rights, is",
+          "options": {
+            "A": "Sajjan Singh v. State of Rajasthan",
+            "B": "Shankari Prasad v. Union of India",
+            "C": "I.C. Golak Nath v. State of Punjab",
+            "D": "Kesavananda Bharati v. State of Kerala"
+          },
+          "correct_option": "C",
+          "explanation": "The passage attributes this holding to Golak Nath (1967, 6:5). Shankari Prasad and Sajjan Singh held the opposite, and Kesavananda overruled Golak Nath.",
+          "difficulty": "Easy",
+          "q_no": 1
+        },
+        {
+          "question": "The Twenty-fourth Amendment, 1971 did which of the following?",
+          "options": {
+            "A": "Added Article 13(4) and made assent to amendment Bills obligatory",
+            "B": "Inserted clauses (4) and (5) in Article 368 to bar judicial review of amendments",
+            "C": "Validated the Prime Minister's election by inserting Article 329A(4)",
+            "D": "Declared that the basic structure of the Constitution cannot be amended"
+          },
+          "correct_option": "A",
+          "explanation": "The 24th Amendment added Article 13(4) and amended Article 368 for the power to amend and compulsory assent. Clauses 368(4)-(5) came with the 42nd Amendment; Article 329A(4) with the 39th; the basic structure doctrine is judicial, from Kesavananda.",
+          "difficulty": "Easy",
+          "q_no": 2
+        },
+        {
+          "question": "Which of the following gives the correct chronological order of events described in the passage?",
+          "options": {
+            "A": "Golak Nath, 24th Amendment, Kesavananda, Raj Narain, 42nd Amendment, Minerva Mills",
+            "B": "Golak Nath, Kesavananda, 24th Amendment, 42nd Amendment, Raj Narain, Minerva Mills",
+            "C": "Kesavananda, Golak Nath, 24th Amendment, Raj Narain, Minerva Mills, 42nd Amendment",
+            "D": "24th Amendment, Golak Nath, Kesavananda, 42nd Amendment, Raj Narain, Minerva Mills"
+          },
+          "correct_option": "A",
+          "explanation": "Golak Nath (1967), 24th Amendment (1971), Kesavananda (1973), Raj Narain (1975), 42nd Amendment (1976), Minerva Mills (1980).",
+          "difficulty": "Moderate",
+          "q_no": 3
+        },
+        {
+          "question": "In Minerva Mills, clauses (4) and (5) of Article 368 were struck down because",
+          "options": {
+            "A": "Parliament has no power whatever to amend Article 368, which is itself part of the basic structure",
+            "B": "the clauses were not passed by two-thirds of the members present and voting in each House",
+            "C": "the clauses had not been ratified by the legislatures of half of the States as the proviso requires",
+            "D": "a limited amending power is itself basic, so Parliament cannot make it absolute"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states the Court's reasoning: a limited amending power is a basic feature and cannot be enlarged into an absolute one. The other reasons are not given.",
+          "difficulty": "Moderate",
+          "q_no": 4
+        },
+        {
+          "question": "Parliament passes a constitutional amendment declaring that the election of a named Member of Parliament, set aside by a High Court for corrupt practice, 'shall be valid and shall not be called in question in any court'. On the principles in the passage, the amendment is most likely to be",
+          "options": {
+            "A": "upheld, because Article 368 permits amendments to be placed beyond judicial review altogether",
+            "B": "upheld, because it was passed by the requisite special majority under Article 368(2)",
+            "C": "treated as a non-justiciable political question that courts cannot decide",
+            "D": "struck down, as it usurps judicial power and offends free and fair elections"
+          },
+          "correct_option": "D",
+          "explanation": "This mirrors Article 329A(4), struck down in Raj Narain for the reasons stated in the passage. A special majority cannot save an amendment that violates the basic structure.",
+          "difficulty": "Moderate",
+          "q_no": 5
+        },
+        {
+          "question": "Which of the following is NOT consistent with the holding in Kesavananda Bharati as described in the passage?",
+          "options": {
+            "A": "Parliament cannot amend any Fundamental Right in any manner whatsoever",
+            "B": "An amendment that alters the basic structure is open to invalidation by courts",
+            "C": "Golak Nath no longer represents the law on the amending power",
+            "D": "The Twenty-fourth Amendment was constitutionally valid"
+          },
+          "correct_option": "A",
+          "explanation": "Kesavananda overruled Golak Nath's total bar on amending Fundamental Rights; rights may be amended so long as the basic structure is not altered.",
+          "difficulty": "Tough",
+          "q_no": 6
+        }
+      ],
+      "question_range": [
+        1,
+        6
+      ],
+      "word_count": 292
+    },
+    {
+      "passage_id": "P02",
+      "subject_area": "Constitutional Law",
+      "title": "Emergency Provisions: The 44th Amendment, ADM Jabalpur and S.R. Bommai",
+      "passage": "The Constitution provides for national emergency (Article 352), failure of constitutional machinery in a State (Article 356) and financial emergency (Article 360). Article 352 originally permitted a proclamation on the ground of 'internal disturbance', the ground invoked in 1975. The Constitution (Forty-fourth Amendment) Act, 1978 substituted 'armed rebellion' and provided that the President may proclaim an emergency only on the written decision of the Union Cabinet. A proclamation must be approved by each House by a special majority within one month and, once approved, ceases to operate after six months from the date of the second approving resolution unless re-approved. A resolution disapproving the proclamation may be passed by a simple majority of the Lok Sabha, which must meet within fourteen days if one-tenth of its members give notice. Article 358 automatically suspends the freedoms under Article 19 when an emergency is declared on the ground of war or external aggression, but not on the ground of armed rebellion. Under Article 359, the President may by order suspend the right to move courts for enforcing Fundamental Rights, but, after the 44th Amendment, not the rights under Articles 20 and 21. In ADM Jabalpur v. Shivakant Shukla (1976), a majority held that during the Emergency no person could move a court to challenge detention under Article 21; Justice H.R. Khanna dissented. That decision was overruled in K.S. Puttaswamy v. Union of India (2017). In S.R. Bommai v. Union of India (1994), a nine-judge Bench held that a proclamation under Article 356 is subject to judicial review, that the Assembly should not be dissolved before Parliament approves the proclamation, that a floor test is the proper method of testing a Chief Minister's majority, and that secularism is a basic feature of the Constitution.",
+      "questions": [
+        {
+          "question": "The expression substituted for 'internal disturbance' in Article 352 by the 44th Amendment is",
+          "options": {
+            "A": "external aggression",
+            "B": "breakdown of public order",
+            "C": "armed rebellion",
+            "D": "failure of constitutional machinery"
+          },
+          "correct_option": "C",
+          "explanation": "The passage states that the 44th Amendment substituted 'armed rebellion' for 'internal disturbance'.",
+          "difficulty": "Easy",
+          "q_no": 7
+        },
+        {
+          "question": "Which Fundamental Rights cannot be suspended by a Presidential order under Article 359 after the 44th Amendment?",
+          "options": {
+            "A": "The rights under Articles 19 and 21",
+            "B": "The rights under Articles 25 and 26",
+            "C": "The rights under Articles 20 and 21",
+            "D": "The rights under Articles 14 and 15"
+          },
+          "correct_option": "C",
+          "explanation": "After the 44th Amendment, the enforcement of Articles 20 and 21 cannot be suspended under Article 359. Article 19 can be suspended.",
+          "difficulty": "Easy",
+          "q_no": 8
+        },
+        {
+          "question": "An emergency is proclaimed on the ground of external aggression. Which consequence follows automatically under the passage, without any further Presidential order?",
+          "options": {
+            "A": "The rights under Articles 20 and 21 stand suspended",
+            "B": "The Lok Sabha stands dissolved",
+            "C": "The right to move the Supreme Court under Article 32 is abolished",
+            "D": "The freedoms under Article 19 stand suspended"
+          },
+          "correct_option": "D",
+          "explanation": "Article 358 automatically suspends Article 19 on a war or external aggression emergency. Articles 20 and 21 can never be suspended, and the other consequences are not provided.",
+          "difficulty": "Moderate",
+          "q_no": 9
+        },
+        {
+          "question": "An emergency is proclaimed on the ground of armed rebellion, and the President by order suspends the enforcement of Articles 19, 20 and 21. On the passage, the order is",
+          "options": {
+            "A": "effective only as to Article 19, since Articles 20 and 21 cannot be suspended",
+            "B": "wholly valid, since Article 359 permits suspension of every Fundamental Right",
+            "C": "wholly invalid, since Article 19 stands automatically suspended under Article 358 and needs no order",
+            "D": "wholly invalid, since an emergency cannot be proclaimed on the ground of armed rebellion"
+          },
+          "correct_option": "A",
+          "explanation": "Article 358 does not operate for armed rebellion, so an Article 359 order is needed for Article 19; but Articles 20 and 21 are protected from suspension. Armed rebellion is a valid ground after the 44th Amendment.",
+          "difficulty": "Moderate",
+          "q_no": 10
+        },
+        {
+          "question": "Which of the following is NOT a proposition laid down in S.R. Bommai as described in the passage?",
+          "options": {
+            "A": "The Governor's report is conclusive and cannot be examined by any court",
+            "B": "A proclamation under Article 356 is subject to judicial review by the courts",
+            "C": "A floor test is the proper way to test a Chief Minister's majority in the House",
+            "D": "Secularism is a basic feature of the Constitution of India"
+          },
+          "correct_option": "A",
+          "explanation": "Bommai made proclamations judicially reviewable; it did not treat the Governor's report as conclusive.",
+          "difficulty": "Moderate",
+          "q_no": 11
+        },
+        {
+          "question": "A proclamation of national emergency is approved by the second House on 25 January. Under the passage, unless re-approved, it ceases to operate on",
+          "options": {
+            "A": "25 February of the same year",
+            "B": "25 April of the same year",
+            "C": "25 July of the same year",
+            "D": "25 January of the following year"
+          },
+          "correct_option": "C",
+          "explanation": "A proclamation ceases six months after the date of the second approving resolution: 25 July.",
+          "difficulty": "Tough",
+          "q_no": 12
+        }
+      ],
+      "question_range": [
+        7,
+        12
+      ],
+      "word_count": 291
+    },
+    {
+      "passage_id": "P03",
+      "subject_area": "Constitutional Law",
+      "title": "Right to Property: From Article 31 to Article 300A, and the Ninth Schedule",
+      "passage": "The framers guaranteed the right to property in Articles 19(1)(f) and 31. When courts insisted on compensation, Parliament amended the Constitution repeatedly. In State of West Bengal v. Bela Banerjee (1954), the Supreme Court held that compensation under Article 31(2) must be a just equivalent of what the owner was deprived of. The Constitution (First Amendment) Act, 1951 had already inserted Article 31A, saving laws for the acquisition of estates, and Article 31B, which validates laws placed in the Ninth Schedule notwithstanding any judicial decision. The Constitution (Fourth Amendment) Act, 1955 provided that the adequacy of compensation could not be questioned in court, and the Seventeenth Amendment (1964) enlarged the definition of 'estate' and added many land reform laws to the Ninth Schedule. The Twenty-fifth Amendment (1971) replaced 'compensation' in Article 31(2) with 'amount' and inserted Article 31C. The Forty-fourth Amendment (1978) deleted Article 19(1)(f) and Article 31 and inserted Article 300A, which provides that no person shall be deprived of property save by authority of law. Property thus ceased to be a Fundamental Right and became a constitutional right. In Waman Rao v. Union of India (1981), the Court held that Articles 31A and 31B remain valid for laws placed in the Ninth Schedule before 24 April 1973, the date of Kesavananda Bharati. In I.R. Coelho v. State of Tamil Nadu (2007), a nine-judge Bench held that a law placed in the Ninth Schedule after that date is open to challenge if it violates Fundamental Rights forming part of the basic structure. In Vidya Devi v. State of Himachal Pradesh (2020), the Court held that, although no longer fundamental, the right to property remains a human right and a constitutional right under Article 300A, and the State cannot take property by executive action without the authority of law.",
+      "questions": [
+        {
+          "question": "Article 31B and the Ninth Schedule were inserted by the",
+          "options": {
+            "A": "First Amendment, 1951",
+            "B": "Fourth Amendment, 1955",
+            "C": "Forty-fourth Amendment, 1978",
+            "D": "Twenty-fifth Amendment, 1971"
+          },
+          "correct_option": "A",
+          "explanation": "The passage states that the First Amendment inserted Articles 31A and 31B (with the Ninth Schedule).",
+          "difficulty": "Easy",
+          "q_no": 13
+        },
+        {
+          "question": "After the Forty-fourth Amendment, the right to property is",
+          "options": {
+            "A": "no longer protected by any provision of the Constitution",
+            "B": "a constitutional right under Article 300A, but not a Fundamental Right",
+            "C": "a Directive Principle of State Policy",
+            "D": "a Fundamental Right under Article 19(1)(f)"
+          },
+          "correct_option": "B",
+          "explanation": "The 44th Amendment deleted Articles 19(1)(f) and 31 and inserted Article 300A, making it a constitutional right.",
+          "difficulty": "Easy",
+          "q_no": 14
+        },
+        {
+          "question": "Which amendment sought to overcome the view in Bela Banerjee by providing that the adequacy of compensation could not be questioned in court?",
+          "options": {
+            "A": "The Fourth Amendment, 1955",
+            "B": "The First Amendment, 1951",
+            "C": "The Twenty-fifth Amendment, 1971",
+            "D": "The Seventeenth Amendment, 1964"
+          },
+          "correct_option": "A",
+          "explanation": "Bela Banerjee required a just equivalent; the Fourth Amendment made adequacy non-justiciable.",
+          "difficulty": "Moderate",
+          "q_no": 15
+        },
+        {
+          "question": "A land reform law is placed in the Ninth Schedule in 2005 and is challenged as violating Articles 14 and 21. Under the passage, the Court",
+          "options": {
+            "A": "must uphold it, since Article 31B validates laws in the Ninth Schedule notwithstanding any judicial decision",
+            "B": "may not examine it, since property is no longer a Fundamental Right",
+            "C": "may examine whether the violation damages or destroys the basic structure, and strike the law down if it does",
+            "D": "may examine it only if the law was placed in the Ninth Schedule before 24 April 1973"
+          },
+          "correct_option": "C",
+          "explanation": "I.R. Coelho held that Ninth Schedule laws placed after 24 April 1973 are open to challenge on basic structure grounds.",
+          "difficulty": "Moderate",
+          "q_no": 16
+        },
+        {
+          "question": "A State takes possession of a farmer's land by an executive order, without any statute authorising acquisition, on the footing that property is no longer a Fundamental Right. On the passage, the action is",
+          "options": {
+            "A": "unconstitutional, since Article 300A requires authority of law",
+            "B": "valid on payment of an 'amount' under Article 31(2)",
+            "C": "valid, since Vidya Devi permits executive deprivation in the public interest",
+            "D": "valid, since the right to property is no longer enforceable in any court"
+          },
+          "correct_option": "A",
+          "explanation": "Vidya Devi held that the State cannot take property by executive action without the authority of law. Article 31 was deleted by the 44th Amendment.",
+          "difficulty": "Moderate",
+          "q_no": 17
+        },
+        {
+          "question": "A law placed in the Ninth Schedule on 1 January 1970 is challenged in 2010 as violating Article 14. On Waman Rao and Coelho as described, the law",
+          "options": {
+            "A": "is open to challenge, since every Ninth Schedule law is reviewable on the basic structure test",
+            "B": "remains protected, since it was placed in the Ninth Schedule before 24 April 1973",
+            "C": "is protected only if compensation was paid to the owners",
+            "D": "is void, since the Ninth Schedule itself is unconstitutional"
+          },
+          "correct_option": "B",
+          "explanation": "Waman Rao preserved the protection of Articles 31A and 31B for laws placed before 24 April 1973; Coelho's review applies to laws placed after that date.",
+          "difficulty": "Tough",
+          "q_no": 18
+        }
+      ],
+      "question_range": [
+        13,
+        18
+      ],
+      "word_count": 299
+    },
+    {
+      "passage_id": "P04",
+      "subject_area": "Constitutional Law",
+      "title": "The 73rd and 74th Amendments: Panchayats and Municipalities",
+      "passage": "The Constitution (Seventy-third Amendment) Act, 1992 inserted Part IX (Articles 243 to 243O) and the Eleventh Schedule, listing twenty-nine subjects, and came into force on 24 April 1993. The Seventy-fourth Amendment, in force from 1 June 1993, inserted Part IXA (Articles 243P to 243ZG) and the Twelfth Schedule, listing eighteen subjects. Article 243A recognises the Gram Sabha, and Article 243B requires a three-tier Panchayat system, though States with a population not exceeding twenty lakh need not constitute Panchayats at the intermediate level. Seats are filled by direct election; seats are reserved for Scheduled Castes and Scheduled Tribes in proportion to their population, and not less than one-third of the total seats, including seats reserved for women of those categories, are reserved for women. Offices of chairpersons are reserved on a similar pattern. Under Article 243E, every Panchayat continues for five years, and if it is dissolved earlier, an election must be completed within six months, the new body serving only for the remainder of the unexpired term. A State Finance Commission is constituted every five years under Article 243I, and Article 243K vests the superintendence of Panchayat elections in a State Election Commission. Article 243M excludes Fifth and Sixth Schedule areas from Part IX, subject to Parliament extending it, which it did through the PESA Act, 1996. In Vikas Kishanrao Gawali v. State of Maharashtra (2021), the Supreme Court held that reservation for Other Backward Classes in local bodies requires a 'triple test': a dedicated Commission must conduct an empirical inquiry into backwardness; the proportion of reservation for each local body must be specified in the light of the Commission's recommendations; and the total reservation for SC, ST and OBC must not exceed fifty per cent.",
+      "questions": [
+        {
+          "question": "The functions of Municipalities are listed in the",
+          "options": {
+            "A": "Tenth Schedule",
+            "B": "Ninth Schedule",
+            "C": "Twelfth Schedule",
+            "D": "Eleventh Schedule"
+          },
+          "correct_option": "C",
+          "explanation": "The 74th Amendment inserted Part IXA and the Twelfth Schedule (18 subjects). The Eleventh Schedule concerns Panchayats.",
+          "difficulty": "Easy",
+          "q_no": 19
+        },
+        {
+          "question": "Superintendence of the conduct of Panchayat elections vests in the",
+          "options": {
+            "A": "Gram Sabha",
+            "B": "Election Commission of India",
+            "C": "State Finance Commission",
+            "D": "State Election Commission"
+          },
+          "correct_option": "D",
+          "explanation": "Article 243K vests superintendence of Panchayat elections in a State Election Commission.",
+          "difficulty": "Easy",
+          "q_no": 20
+        },
+        {
+          "question": "A Panchayat constituted for five years is dissolved by the State after two years. Under Article 243E as described,",
+          "options": {
+            "A": "an election must be held within one year, and the new body serves a full five-year term",
+            "B": "the State may govern through an administrator until the original five-year term ends",
+            "C": "an election must be held within three months, and the new body serves for two years",
+            "D": "an election must be completed within six months, and the new body serves only the remaining three years"
+          },
+          "correct_option": "D",
+          "explanation": "A new body elected after premature dissolution serves only the unexpired remainder of the term (three years here), and the election must be completed within six months.",
+          "difficulty": "Moderate",
+          "q_no": 21
+        },
+        {
+          "question": "A State has a population of eighteen lakh. Under Article 243B as described, the State",
+          "options": {
+            "A": "need not constitute the intermediate tier, but must have the other tiers",
+            "B": "need not constitute any Panchayats at the village level either",
+            "C": "must constitute all three tiers regardless of its population",
+            "D": "may constitute an intermediate tier only with Presidential approval"
+          },
+          "correct_option": "A",
+          "explanation": "States with population not exceeding twenty lakh may dispense with the intermediate tier only.",
+          "difficulty": "Moderate",
+          "q_no": 22
+        },
+        {
+          "question": "A Panchayat has 60 seats filled by direct election. The minimum number of seats that must be reserved for women, including women belonging to SC and ST, is",
+          "options": {
+            "A": "12",
+            "B": "15",
+            "C": "20",
+            "D": "30"
+          },
+          "correct_option": "C",
+          "explanation": "Not less than one-third of total seats (60/3 = 20), including SC/ST women's seats, must be reserved for women.",
+          "difficulty": "Moderate",
+          "q_no": 23
+        },
+        {
+          "question": "Which of the following is NOT an element of the 'triple test' for OBC reservation in local bodies as described?",
+          "options": {
+            "A": "Keeping total reservation for SC, ST and OBC within fifty per cent",
+            "B": "Prior approval of Parliament for the reservation in each local body",
+            "C": "An empirical inquiry into backwardness by a dedicated Commission",
+            "D": "Specifying the proportion of reservation for each local body in the light of the Commission's recommendations"
+          },
+          "correct_option": "B",
+          "explanation": "The three elements are the dedicated Commission's empirical inquiry, local-body-wise proportions, and the fifty per cent cap. Parliamentary approval is not part of the test.",
+          "difficulty": "Tough",
+          "q_no": 24
+        }
+      ],
+      "question_range": [
+        19,
+        24
+      ],
+      "word_count": 286
+    },
+    {
+      "passage_id": "P05",
+      "subject_area": "Constitutional Law / Tax",
+      "title": "The 101st Amendment: GST, Article 246A and the GST Council",
+      "passage": "The Constitution (One Hundred and First Amendment) Act, 2016 introduced the Goods and Services Tax (GST). Article 246A gives Parliament and State Legislatures concurrent power to make laws on GST, but Parliament has exclusive power over GST on supplies in the course of inter-State trade or commerce. Under Article 269A, GST on inter-State supplies is levied and collected by the Government of India and apportioned between the Union and the States. Article 366(12A) defines GST as any tax on the supply of goods or services or both, except taxes on the supply of alcoholic liquor for human consumption. Crude petroleum, high speed diesel, motor spirit, natural gas and aviation turbine fuel fall within the definition but were kept out of the levy until the Council recommends a date. Article 279A creates the GST Council, chaired by the Union Finance Minister, with Union and State Ministers as members. A quorum is one-half of the members. Every decision requires a majority of not less than three-fourths of the weighted votes of members present and voting, the Union's vote carrying a weightage of one-third and the votes of all States taken together two-thirds. The Council makes recommendations on matters such as tax rates, exemptions and model laws. In Mohit Minerals Pvt. Ltd. v. Union of India (2022), the Supreme Court held that the Council's recommendations are not binding on the Union or the States. Because Article 246A confers simultaneous powers on Parliament and State Legislatures, and Article 279A speaks only of 'recommendations', the Court treated them as the product of a collaborative dialogue, having persuasive value and reflecting cooperative federalism.",
+      "questions": [
+        {
+          "question": "Which of the following is excluded from the definition of GST in Article 366(12A)?",
+          "options": {
+            "A": "Tax on the supply of alcoholic liquor for human consumption",
+            "B": "Tax on the supply of services of every kind",
+            "C": "Tax on the supply of crude petroleum and other petroleum products",
+            "D": "Tax on the supply of natural gas and aviation turbine fuel"
+          },
+          "correct_option": "A",
+          "explanation": "Only alcoholic liquor for human consumption is excluded from the definition. Petroleum products fall within it but the levy was deferred until the Council recommends a date.",
+          "difficulty": "Moderate",
+          "q_no": 25
+        },
+        {
+          "question": "The GST Council is established by",
+          "options": {
+            "A": "Article 366(12A)",
+            "B": "Article 246A",
+            "C": "Article 269A",
+            "D": "Article 279A"
+          },
+          "correct_option": "D",
+          "explanation": "Article 279A creates the Council; Article 246A gives legislative power; Article 269A deals with inter-State levy; Article 366(12A) defines GST.",
+          "difficulty": "Easy",
+          "q_no": 26
+        },
+        {
+          "question": "Which statement about voting in the GST Council, as described, is correct?",
+          "options": {
+            "A": "The Union can pass a decision on its own with its one-third weightage",
+            "B": "Decisions require only a simple majority of the weighted votes",
+            "C": "The Union can block any decision on its own, and the States together cannot pass a decision without the Union's support",
+            "D": "The States together can pass any decision without the Union, since they hold two-thirds of the weighted votes"
+          },
+          "correct_option": "C",
+          "explanation": "A decision needs three-fourths. The Union's one-third exceeds the one-fourth needed to block, while the States' two-thirds is below three-fourths.",
+          "difficulty": "Moderate",
+          "q_no": 27
+        },
+        {
+          "question": "A State Legislature enacts a GST law that departs from a Council recommendation on the tax rate. Under Mohit Minerals as described, the State law is",
+          "options": {
+            "A": "valid only if the Council later ratifies it by a three-fourths majority of weighted votes",
+            "B": "invalid, since Article 279A makes the Council's recommendations binding on all States",
+            "C": "valid only if the Union Government consents to the departure from the Council's rate",
+            "D": "not invalid merely for departing, since recommendations are persuasive, not binding"
+          },
+          "correct_option": "D",
+          "explanation": "Mohit Minerals held that the recommendations are not binding on the Union or the States.",
+          "difficulty": "Moderate",
+          "q_no": 28
+        },
+        {
+          "question": "A dealer in Chhattisgarh supplies goods to a buyer in Maharashtra. The power to make a law imposing GST on this inter-State supply belongs to",
+          "options": {
+            "A": "Parliament exclusively, the tax being levied and collected by the Union",
+            "B": "the Chhattisgarh Legislature exclusively, being the State of origin",
+            "C": "the Maharashtra Legislature exclusively, being the State of destination",
+            "D": "Parliament and both State Legislatures concurrently, in equal measure"
+          },
+          "correct_option": "A",
+          "explanation": "Articles 246A and 269A give Parliament exclusive power over inter-State supplies, levied and collected by the Union.",
+          "difficulty": "Moderate",
+          "q_no": 29
+        },
+        {
+          "question": "Which of the following is NOT a reason given in Mohit Minerals for treating Council recommendations as non-binding?",
+          "options": {
+            "A": "Article 279A speaks only of 'recommendations'",
+            "B": "The recommendations reflect a collaborative dialogue and cooperative federalism",
+            "C": "Article 246A confers simultaneous legislative powers on Parliament and State Legislatures",
+            "D": "Article 279A requires State Legislatures to adopt the recommendations without modification"
+          },
+          "correct_option": "D",
+          "explanation": "The reasoning rests on simultaneous powers under Article 246A, the wording of Article 279A, and cooperative federalism. A duty to adopt recommendations verbatim is contrary to the holding.",
+          "difficulty": "Tough",
+          "q_no": 30
+        }
+      ],
+      "question_range": [
+        25,
+        30
+      ],
+      "word_count": 267
+    },
+    {
+      "passage_id": "P06",
+      "subject_area": "Constitutional Law",
+      "title": "Reservation Amendments: 77th, 81st, 82nd, 85th, 102nd, 103rd and 105th",
+      "passage": "Article 16(4) permits reservation in appointments for backward classes not adequately represented in State services. In Indra Sawhney v. Union of India (1992), a nine-judge Bench upheld twenty-seven per cent reservation for Other Backward Classes, excluded the 'creamy layer', fixed fifty per cent as the general ceiling save in extraordinary situations, and held that Article 16(4) does not permit reservation in promotions. Parliament responded through a series of amendments. The Seventy-seventh Amendment (1995) inserted Article 16(4A), enabling reservation in promotion for Scheduled Castes and Scheduled Tribes inadequately represented in services. The Eighty-first Amendment (2000) inserted Article 16(4B), under which unfilled reserved vacancies carried forward are treated as a separate class and are not counted with the vacancies of the year for the fifty per cent ceiling. The Eighty-second Amendment added a proviso to Article 335 permitting relaxation in qualifying marks in promotion, and the Eighty-fifth Amendment gave consequential seniority. In M. Nagaraj v. Union of India (2006), these amendments were upheld, but the State must collect quantifiable data on backwardness and inadequacy of representation and must preserve administrative efficiency. The Constitution (One Hundred and Third Amendment) Act, 2019 inserted Articles 15(6) and 16(6), allowing up to ten per cent reservation for economically weaker sections other than classes covered by Articles 15(4), 15(5) and 16(4). In Janhit Abhiyan v. Union of India (2022), a Constitution Bench upheld it by 3:2, holding that economic criteria do not violate the basic structure and that the fifty per cent ceiling applies to reservations for SC, ST and OBC and not to this new category. The One Hundred and Second Amendment created the National Commission for Backward Classes (Article 338B) and inserted Article 342A; in Jayashree Patil (2021), a majority read it as taking away the States' power to identify socially and educationally backward classes, and the One Hundred and Fifth Amendment (2021) restored the power of States to prepare their own lists.",
+      "questions": [
+        {
+          "question": "Reservation in promotion for Scheduled Castes and Scheduled Tribes was enabled by the insertion of",
+          "options": {
+            "A": "Article 16(4B) by the Seventy-seventh Amendment",
+            "B": "Article 16(4A) by the Seventy-seventh Amendment",
+            "C": "Article 342A by the One Hundred and Second Amendment",
+            "D": "Article 15(6) by the Eighty-first Amendment"
+          },
+          "correct_option": "B",
+          "explanation": "The 77th Amendment inserted Article 16(4A); 16(4B) (carry forward) came with the 81st.",
+          "difficulty": "Easy",
+          "q_no": 31
+        },
+        {
+          "question": "The Supreme Court decided the challenge to the EWS reservation in Janhit Abhiyan by",
+          "options": {
+            "A": "striking down the Amendment unanimously",
+            "B": "upholding the Amendment unanimously",
+            "C": "upholding the Amendment by a 3:2 majority",
+            "D": "striking down the Amendment by a 3:2 majority"
+          },
+          "correct_option": "C",
+          "explanation": "The passage records that the Constitution Bench upheld the 103rd Amendment by 3:2.",
+          "difficulty": "Easy",
+          "q_no": 32
+        },
+        {
+          "question": "A State wishes to provide reservation in promotion for SC and ST employees. Following Nagaraj as described, it must",
+          "options": {
+            "A": "obtain the prior approval of the President in each individual case",
+            "B": "collect quantifiable data on backwardness and inadequate representation, and preserve efficiency",
+            "C": "obtain the concurrence of the National Commission for Backward Classes beforehand",
+            "D": "wait for Parliament to fix the percentage of reservation by law"
+          },
+          "correct_option": "B",
+          "explanation": "Nagaraj upheld the amendments subject to quantifiable data and efficiency under Article 335.",
+          "difficulty": "Moderate",
+          "q_no": 33
+        },
+        {
+          "question": "In a recruitment year, 100 posts are available, of which 50 are reserved. Ten reserved posts from the previous year remain unfilled and are carried forward. Under Article 16(4B), those ten posts",
+          "options": {
+            "A": "be filled from the general category, the reservation being exhausted",
+            "B": "lapse and cannot be filled in any later recruitment year",
+            "C": "be added to the 100 vacancies, with the ceiling applied to the combined total",
+            "D": "form a separate class, outside the fifty per cent ceiling applied to the year's 100 vacancies"
+          },
+          "correct_option": "D",
+          "explanation": "Article 16(4B) treats carried-forward vacancies as a separate class outside the ceiling for the year.",
+          "difficulty": "Moderate",
+          "q_no": 34
+        },
+        {
+          "question": "Rohit belongs to an Other Backward Class, and his family income is below the limit for economically weaker sections. Under Articles 15(6) and 16(6) as described, Rohit",
+          "options": {
+            "A": "can claim the EWS reservation only if he falls within the creamy layer",
+            "B": "cannot claim it, since classes covered by Articles 15(4), 15(5) and 16(4) are excluded",
+            "C": "can claim the EWS reservation, since his family income is below the limit",
+            "D": "can claim the EWS reservation in addition to his existing OBC reservation"
+          },
+          "correct_option": "B",
+          "explanation": "The EWS reservation is for economically weaker sections other than classes already covered by Articles 15(4), 15(5) and 16(4).",
+          "difficulty": "Moderate",
+          "q_no": 35
+        },
+        {
+          "question": "After the One Hundred and Fifth Amendment, a State Government wishing to identify socially and educationally backward classes for its own reservation",
+          "options": {
+            "A": "may prepare its own list for State purposes",
+            "B": "must obtain the approval of the National Commission for Backward Classes",
+            "C": "must rely solely on the list prepared by the President",
+            "D": "must wait for Parliament to enact a law identifying such classes"
+          },
+          "correct_option": "A",
+          "explanation": "The 105th Amendment restored the States' power to prepare their own lists, reversing the effect of Jayashree Patil.",
+          "difficulty": "Tough",
+          "q_no": 36
+        }
+      ],
+      "question_range": [
+        31,
+        36
+      ],
+      "word_count": 318
+    },
+    {
+      "passage_id": "P07",
+      "subject_area": "Constitutional Law",
+      "title": "Political Reservation: the 104th and 106th Amendments and Delimitation",
+      "passage": "Articles 330 and 332 reserve seats for Scheduled Castes and Scheduled Tribes in the House of the People and State Legislative Assemblies. Article 334 limited this reservation to ten years from the commencement of the Constitution, and successive amendments extended it. The Constitution (One Hundred and Fourth Amendment) Act, 2019 extended it until 25 January 2030, but ended the nomination of Anglo-Indian members under Articles 331 and 333. The Constitution (One Hundred and Sixth Amendment) Act, 2023, known as the Nari Shakti Vandan Adhiniyam, inserted Articles 330A and 332A, reserving one-third of the seats in the House of the People and State Legislative Assemblies for women, and extended the same to the Legislative Assembly of the National Capital Territory of Delhi by amending Article 239AA. One-third of the seats reserved for Scheduled Castes, and of those reserved for Scheduled Tribes, are to be reserved for women of those communities; this forms part of, and is not an addition to, the one-third reservation for women. The reservation does not extend to the Rajya Sabha or the State Legislative Councils. Under the new Article 334A, it will come into effect only after delimitation is undertaken on the basis of the first census taken after the commencement of the Act, and it will cease on the expiry of fifteen years from commencement. Seats reserved for women are to be rotated after each delimitation. Delimitation itself has been constrained. The provisos to Articles 82 and 170, as amended by the Eighty-fourth Amendment (2001), freeze the readjustment of seats among States until the first census after 2026, while the Eighty-seventh Amendment (2003) provided that delimitation within States would use the 2001 Census instead of the 1991 Census. Reservation for women in local bodies, by contrast, has existed since the 73rd and 74th Amendments, under which not less than one-third of seats are reserved.",
+      "questions": [
+        {
+          "question": "The one-third reservation for women under the 106th Amendment does NOT extend to",
+          "options": {
+            "A": "the Rajya Sabha and State Legislative Councils",
+            "B": "the House of the People",
+            "C": "State Legislative Assemblies",
+            "D": "the Legislative Assembly of the National Capital Territory of Delhi"
+          },
+          "correct_option": "A",
+          "explanation": "The passage states that the reservation does not extend to the Rajya Sabha or the State Legislative Councils.",
+          "difficulty": "Easy",
+          "q_no": 37
+        },
+        {
+          "question": "The 104th Amendment, 2019",
+          "options": {
+            "A": "abolished the reservation of seats for Scheduled Tribes in State Legislative Assemblies altogether",
+            "B": "introduced one-third reservation for women in the House of the People and Assemblies",
+            "C": "ended Anglo-Indian nomination under Articles 331 and 333 and extended SC/ST reservation to 2030",
+            "D": "froze the readjustment of seats among States until the first census after 2026"
+          },
+          "correct_option": "C",
+          "explanation": "The 104th Amendment ended Anglo-Indian nomination and extended SC/ST reservation to 25 January 2030. The women's reservation is the 106th and the freeze the 84th.",
+          "difficulty": "Easy",
+          "q_no": 38
+        },
+        {
+          "question": "Under Article 334A, the reservation for women in the House of the People will take effect",
+          "options": {
+            "A": "immediately on the commencement of the 106th Amendment itself",
+            "B": "after delimitation based on the first census taken after commencement of the Amendment",
+            "C": "from the next general election after commencement, without any delimitation",
+            "D": "after delimitation based on the 2001 Census figures"
+          },
+          "correct_option": "B",
+          "explanation": "Article 334A makes the reservation operative only after delimitation following the first census taken after commencement.",
+          "difficulty": "Moderate",
+          "q_no": 39
+        },
+        {
+          "question": "Suppose the House of the People has 540 elected seats, of which 90 are reserved for Scheduled Castes and 45 for Scheduled Tribes. Under the 106th Amendment, the number of seats reserved for women, and the number of those drawn from SC and ST seats, are respectively",
+          "options": {
+            "A": "135 and 45",
+            "B": "180 and 45",
+            "C": "180 and 135",
+            "D": "225 and 45"
+          },
+          "correct_option": "B",
+          "explanation": "One-third of 540 is 180. Women's seats within SC (one-third of 90 = 30) and ST (one-third of 45 = 15) seats total 45, and form part of the 180.",
+          "difficulty": "Tough",
+          "q_no": 40
+        },
+        {
+          "question": "The reservation for women under Article 334A will cease",
+          "options": {
+            "A": "on 25 January 2030",
+            "B": "on the expiry of ten years from the commencement of the Amendment",
+            "C": "when the reservation for SC and ST ceases",
+            "D": "on the expiry of fifteen years from the commencement of the Amendment"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states that it ceases on expiry of fifteen years from commencement.",
+          "difficulty": "Moderate",
+          "q_no": 41
+        },
+        {
+          "question": "Which Amendment froze the readjustment of seats among States in the House of the People until the first census after 2026?",
+          "options": {
+            "A": "The One Hundred and Sixth Amendment",
+            "B": "The Eighty-seventh Amendment",
+            "C": "The Eighty-fourth Amendment",
+            "D": "The One Hundred and Fourth Amendment"
+          },
+          "correct_option": "C",
+          "explanation": "The 84th Amendment amended the provisos to Articles 82 and 170 to freeze the readjustment. The 87th changed the base census for delimitation within States.",
+          "difficulty": "Moderate",
+          "q_no": 42
+        }
+      ],
+      "question_range": [
+        37,
+        42
+      ],
+      "word_count": 308
+    },
+    {
+      "passage_id": "P08",
+      "subject_area": "Constitutional Law",
+      "title": "The 86th and 93rd Amendments: Education and Reservation in Institutions",
+      "passage": "The Constitution (Eighty-sixth Amendment) Act, 2002 inserted Article 21A, providing that the State shall provide free and compulsory education to all children aged six to fourteen years in such manner as the State may by law determine. It substituted Article 45 so that the State endeavours to provide early childhood care and education to children below six, and added Article 51A(k), making it a fundamental duty of a parent or guardian to provide opportunities for education to a child between six and fourteen. Article 21A took effect on 1 April 2010 when the Right of Children to Free and Compulsory Education Act, 2009 (RTE Act) came into force. The Act requires private unaided schools to reserve twenty-five per cent of entry-level seats for children from weaker and disadvantaged sections. The Court had earlier, in Unni Krishnan v. State of A.P. (1993), held that the right to education up to fourteen flows from Article 21 read with Articles 41 and 45, and that beyond that age it is limited by the State's economic capacity. The Constitution (Ninety-third Amendment) Act, 2005 inserted Article 15(5), enabling special provisions for socially and educationally backward classes, Scheduled Castes and Scheduled Tribes in admission to educational institutions, including private unaided institutions, other than minority institutions under Article 30(1). In Ashoka Kumar Thakur v. Union of India (2008), the Court upheld Article 15(5) and the reservation of twenty-seven per cent of seats for OBCs in Central educational institutions, provided the creamy layer was excluded. In Society for Unaided Private Schools of Rajasthan v. Union of India (2012), the Court upheld the twenty-five per cent requirement for non-minority private unaided schools, and in Pramati Educational and Cultural Trust v. Union of India (2014), it held that the RTE Act cannot apply to minority institutions, whether aided or unaided.",
+      "questions": [
+        {
+          "question": "Article 21A guarantees free and compulsory education to children aged",
+          "options": {
+            "A": "five to fourteen years",
+            "B": "six to fourteen years",
+            "C": "six to sixteen years",
+            "D": "three to eighteen years"
+          },
+          "correct_option": "B",
+          "explanation": "Article 21A covers children aged six to fourteen.",
+          "difficulty": "Easy",
+          "q_no": 43
+        },
+        {
+          "question": "Article 15(5), enabling special provisions in admission to educational institutions, was inserted by the",
+          "options": {
+            "A": "Seventy-seventh Amendment",
+            "B": "One Hundred and Third Amendment",
+            "C": "Eighty-sixth Amendment",
+            "D": "Ninety-third Amendment"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states that the 93rd Amendment (2005) inserted Article 15(5).",
+          "difficulty": "Easy",
+          "q_no": 44
+        },
+        {
+          "question": "Under Article 51A(k), the duty to provide opportunities for education to a child between six and fourteen is cast on",
+          "options": {
+            "A": "the Gram Sabha",
+            "B": "the parent or guardian",
+            "C": "the school in which the child is enrolled",
+            "D": "the State alone"
+          },
+          "correct_option": "B",
+          "explanation": "Article 51A(k), inserted by the 86th Amendment, makes it a duty of the parent or guardian.",
+          "difficulty": "Moderate",
+          "q_no": 45
+        },
+        {
+          "question": "A linguistic-minority school, unaided by the State, is asked to reserve twenty-five per cent of its entry-level seats under the RTE Act. Following Pramati as described, this requirement",
+          "options": {
+            "A": "applies only for the admission of children belonging to the minority",
+            "B": "applies only if the school begins to receive State aid",
+            "C": "applies, since all unaided schools are covered by the RTE Act",
+            "D": "cannot be applied to it, since the RTE Act does not apply to minority institutions"
+          },
+          "correct_option": "D",
+          "explanation": "Pramati held that the RTE Act cannot apply to minority institutions, aided or unaided.",
+          "difficulty": "Moderate",
+          "q_no": 46
+        },
+        {
+          "question": "A non-minority private unaided school has 80 seats in its entry-level class. Under the RTE requirement as upheld, the number of seats it must reserve for children from weaker and disadvantaged sections is",
+          "options": {
+            "A": "8",
+            "B": "16",
+            "C": "20",
+            "D": "40"
+          },
+          "correct_option": "C",
+          "explanation": "Twenty-five per cent of 80 is 20.",
+          "difficulty": "Moderate",
+          "q_no": 47
+        },
+        {
+          "question": "A State law reserves seats for OBC candidates in a private unaided engineering college run by a religious minority. Under Article 15(5) as described, this reservation is",
+          "options": {
+            "A": "valid, since Article 15(5) extends to all private unaided institutions without exception",
+            "B": "valid, but only if the creamy layer is excluded from the benefit",
+            "C": "outside Article 15(5), which excludes minority institutions under Article 30(1)",
+            "D": "valid, but only if the reservation does not exceed twenty-five per cent of seats"
+          },
+          "correct_option": "C",
+          "explanation": "Article 15(5) covers private unaided institutions but expressly excludes minority institutions under Article 30(1).",
+          "difficulty": "Tough",
+          "q_no": 48
+        }
+      ],
+      "question_range": [
+        43,
+        48
+      ],
+      "word_count": 300
+    },
+    {
+      "passage_id": "P09",
+      "subject_area": "Constitutional Law",
+      "title": "The 42nd Amendment and the Seventh Schedule: Legislative Relations under Articles 246 to 254",
+      "passage": "Article 246 distributes legislative power among the Union List (List I), the State List (List II) and the Concurrent List (List III) of the Seventh Schedule. Parliament has exclusive power on List I, the State Legislatures on List II, and both on List III, though a Union law prevails over a State law on a Concurrent subject unless the State law, reserved for the President, receives his assent, in which case it prevails in that State, subject to Parliament's power to legislate again on the same matter (Article 254). Residuary power vests in Parliament (Article 248). The Constitution (Forty-second Amendment) Act, 1976 transferred five subjects from the State List to the Concurrent List: education, forests, protection of wild animals and birds, weights and measures, and administration of justice, including the constitution and organisation of all courts except the Supreme Court and High Courts. It also added population control and family planning to the Concurrent List. Parliament may legislate on a State List subject in four situations: under Article 249, if the Rajya Sabha declares by a resolution supported by two-thirds of the members present and voting that it is necessary in the national interest; during a Proclamation of Emergency under Article 250; with the consent of two or more States under Article 252; and to implement a treaty or international agreement under Article 253. A law made under Article 249 operates for the period of the resolution, which may be up to one year at a time, and ceases six months after the resolution lapses. Courts apply the doctrine of pith and substance: where the true nature of a law falls within the competence of the enacting legislature, it is not invalid merely because it incidentally encroaches on a subject in another List.",
+      "questions": [
+        {
+          "question": "Which of the following was NOT transferred from the State List to the Concurrent List by the 42nd Amendment?",
+          "options": {
+            "A": "Weights and measures",
+            "B": "Police",
+            "C": "Education",
+            "D": "Forests"
+          },
+          "correct_option": "B",
+          "explanation": "The passage lists education, forests, wild animals and birds, weights and measures, and administration of justice. Police remains a State subject.",
+          "difficulty": "Easy",
+          "q_no": 49
+        },
+        {
+          "question": "For Parliament to legislate on a State List subject in the national interest under Article 249, the resolution must be passed by",
+          "options": {
+            "A": "the Lok Sabha, by two-thirds of the members present and voting",
+            "B": "the Rajya Sabha, by two-thirds of the members present and voting",
+            "C": "the Lok Sabha, by a simple majority",
+            "D": "both Houses, by a simple majority"
+          },
+          "correct_option": "B",
+          "explanation": "Article 249 requires a Rajya Sabha resolution supported by two-thirds of members present and voting.",
+          "difficulty": "Easy",
+          "q_no": 50
+        },
+        {
+          "question": "The Rajya Sabha passes an Article 249 resolution to remain in force for one year from 1 January. Laws made under it will cease to have effect",
+          "options": {
+            "A": "at the end of one year, on 31 December of the same year",
+            "B": "six months after the resolution lapses, that is, on 1 July of the following year",
+            "C": "on 1 July of the same year",
+            "D": "on the day the Rajya Sabha next meets after the resolution lapses"
+          },
+          "correct_option": "B",
+          "explanation": "The resolution lapses after one year; the laws cease six months later.",
+          "difficulty": "Tough",
+          "q_no": 51
+        },
+        {
+          "question": "Parliament and a State Legislature enact conflicting laws on a Concurrent List subject. The State law had been reserved for and received the President's assent. In that State,",
+          "options": {
+            "A": "the State law prevails, though Parliament may later legislate again on the same matter",
+            "B": "the State law prevails permanently, and Parliament cannot legislate again on the matter",
+            "C": "both laws are void to the extent of the conflict",
+            "D": "the Union law prevails, notwithstanding the President's assent to the State law"
+          },
+          "correct_option": "A",
+          "explanation": "Under Article 254 as described, assented State law prevails in the State, subject to Parliament's power to legislate again on the same matter.",
+          "difficulty": "Moderate",
+          "q_no": 52
+        },
+        {
+          "question": "Parliament enacts a law on a State List subject solely to give effect to an international agreement. Under Article 253, the law is",
+          "options": {
+            "A": "valid only if two or more States consent to it",
+            "B": "valid only while a Proclamation of Emergency is in force",
+            "C": "valid only if the Rajya Sabha passes an Article 249 resolution",
+            "D": "valid, without a Rajya Sabha resolution or the consent of the States"
+          },
+          "correct_option": "D",
+          "explanation": "Article 253 is an independent source of power to implement treaties and agreements.",
+          "difficulty": "Moderate",
+          "q_no": 53
+        },
+        {
+          "question": "A State enacts a law whose true nature falls within an entry of the State List but which incidentally touches a matter in the Union List. Under the doctrine of pith and substance, the law is",
+          "options": {
+            "A": "valid, since in its true nature it falls within the State's competence",
+            "B": "invalid unless Parliament consents to the encroachment",
+            "C": "valid only if reserved for and assented to by the President",
+            "D": "invalid, since it encroaches on the Union List"
+          },
+          "correct_option": "A",
+          "explanation": "Incidental encroachment does not invalidate a law whose pith and substance is within the enacting legislature's competence.",
+          "difficulty": "Moderate",
+          "q_no": 54
+        }
+      ],
+      "question_range": [
+        49,
+        54
+      ],
+      "word_count": 293
+    },
+    {
+      "passage_id": "P10",
+      "subject_area": "Constitutional Law",
+      "title": "The 99th Amendment, the Collegium and Tribunals",
+      "passage": "The appointment of judges has produced a sequence of decisions known as the Judges Cases. In S.P. Gupta v. Union of India (1981), the Court held that 'consultation' with the Chief Justice of India in Article 124(2) did not mean concurrence, giving the executive primacy. In Supreme Court Advocates-on-Record Association v. Union of India (1993) (the Second Judges Case), a nine-judge Bench overruled this, holding that the CJI's opinion has primacy, formed through a collegium. In the Third Judges Case (Special Reference No. 1 of 1998, under Article 143), the Court held that the collegium for the Supreme Court consists of the CJI and four senior-most judges. The Constitution (Ninety-ninth Amendment) Act, 2014 inserted Articles 124A, 124B and 124C and set up the National Judicial Appointments Commission (NJAC) of six members: the CJI as chairperson, two senior-most Supreme Court judges, the Union Law Minister, and two eminent persons nominated by a committee of the Prime Minister, the CJI and the Leader of the Opposition in the Lok Sabha. In Supreme Court Advocates-on-Record Association v. Union of India (2015) (the Fourth Judges Case), a Constitution Bench by 4:1 struck down the Amendment and the NJAC Act as violating the basic structure, namely the independence of the judiciary and the separation of powers, and revived the collegium. Justice Chelameswar dissented. Separately, the Forty-second Amendment inserted Articles 323A and 323B for administrative and other tribunals. In L. Chandra Kumar v. Union of India (1997), the Court struck down the provisions excluding the jurisdiction of the High Courts under Articles 226 and 227 and of the Supreme Court under Article 32, holding that judicial review is part of the basic structure; decisions of tribunals are subject to scrutiny before a Division Bench of the concerned High Court.",
+      "questions": [
+        {
+          "question": "The decision which first held that the opinion of the Chief Justice of India has primacy in judicial appointments, formed through a collegium, is",
+          "options": {
+            "A": "the Second Judges Case (1993)",
+            "B": "S.P. Gupta v. Union of India (1981)",
+            "C": "the Third Judges Case (1998)",
+            "D": "the Fourth Judges Case (2015)"
+          },
+          "correct_option": "A",
+          "explanation": "S.P. Gupta gave executive primacy; the Second Judges Case overruled it and gave primacy to the CJI.",
+          "difficulty": "Easy",
+          "q_no": 55
+        },
+        {
+          "question": "The Ninety-ninth Amendment inserted which Articles to create the NJAC?",
+          "options": {
+            "A": "Articles 323A and 323B relating to tribunals",
+            "B": "Articles 143 and 144 relating to advisory jurisdiction",
+            "C": "Articles 217 and 222 relating to High Court judges",
+            "D": "Articles 124A, 124B and 124C"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states that the 99th Amendment inserted Articles 124A, 124B and 124C.",
+          "difficulty": "Easy",
+          "q_no": 56
+        },
+        {
+          "question": "Which of the following has NO role in nominating the two eminent persons to the NJAC?",
+          "options": {
+            "A": "The Leader of the Opposition in the Lok Sabha",
+            "B": "The Union Law Minister",
+            "C": "The Prime Minister",
+            "D": "The Chief Justice of India"
+          },
+          "correct_option": "B",
+          "explanation": "The nominating committee is the Prime Minister, the CJI and the Leader of the Opposition. The Law Minister is an NJAC member but not on that committee.",
+          "difficulty": "Moderate",
+          "q_no": 57
+        },
+        {
+          "question": "In the Fourth Judges Case (2015), the Court",
+          "options": {
+            "A": "upheld the 99th Amendment and the NJAC Act by 4:1, with one judge dissenting",
+            "B": "struck down the 99th Amendment and the NJAC Act unanimously, with no dissent",
+            "C": "struck down both by 4:1 as violating judicial independence and separation of powers",
+            "D": "struck down the NJAC Act but upheld the 99th Amendment as valid"
+          },
+          "correct_option": "C",
+          "explanation": "A Constitution Bench struck down both by 4:1, with Justice Chelameswar dissenting, and revived the collegium.",
+          "difficulty": "Moderate",
+          "q_no": 58
+        },
+        {
+          "question": "A litigant is aggrieved by an order of the Central Administrative Tribunal. Following L. Chandra Kumar as described, the proper first course is to approach",
+          "options": {
+            "A": "the Supreme Court directly under Article 32",
+            "B": "the President of India",
+            "C": "a Division Bench of the concerned High Court",
+            "D": "a parliamentary committee"
+          },
+          "correct_option": "C",
+          "explanation": "Tribunal decisions are subject to scrutiny before a Division Bench of the concerned High Court.",
+          "difficulty": "Moderate",
+          "q_no": 59
+        },
+        {
+          "question": "As per the Third Judges Case, the collegium for appointments to the Supreme Court consists of",
+          "options": {
+            "A": "the CJI and two senior-most judges",
+            "B": "the CJI and four senior-most judges",
+            "C": "the CJI and all other judges of the Court",
+            "D": "the CJI alone"
+          },
+          "correct_option": "B",
+          "explanation": "The passage states that the collegium for the Supreme Court consists of the CJI and four senior-most judges.",
+          "difficulty": "Tough",
+          "q_no": 60
+        }
+      ],
+      "question_range": [
+        55,
+        60
+      ],
+      "word_count": 293
+    },
+    {
+      "passage_id": "P11",
+      "subject_area": "Constitutional Law",
+      "title": "Article 368(2): Ratification, the 52nd Amendment and the 97th Amendment",
+      "passage": "Article 368(2) provides that a Bill to amend the Constitution may be introduced only in either House of Parliament and must be passed in each House by a majority of the total membership and by not less than two-thirds of the members present and voting; the President must then give assent. A proviso adds that where the amendment seeks to change certain federal provisions, it must also be ratified by the legislatures of not less than one-half of the States. These provisions include the election of the President (Articles 54 and 55), the extent of the executive power of the Union and the States, the Supreme Court and the High Courts, the distribution of legislative powers between the Union and the States, any of the Lists in the Seventh Schedule, the representation of States in Parliament, and Article 368 itself. In Kihoto Hollohan v. Zachillhu (1992), the Court held, by a majority of 3:2, that paragraph 7 of the Tenth Schedule, inserted by the Fifty-second Amendment and barring the jurisdiction of courts over disqualification decisions, affected the jurisdiction of the Supreme Court and High Courts and therefore needed ratification, which had not been obtained. Paragraph 7 was held invalid, but being severable, the rest of the Tenth Schedule survived. The Constitution (Ninety-seventh Amendment) Act, 2011 added 'co-operative societies' to Article 19(1)(c), inserted Article 43B, and added a new Part IXB (Articles 243ZH to 243ZT) on co-operative societies. Since 'co-operative societies' is a subject in the State List, the amendment needed ratification, which was not obtained. In Union of India v. Rajendra N. Shah (2021), the Supreme Court, by a majority of 2:1, struck down Part IXB insofar as it applied to co-operative societies in the States, but upheld it for multi-State co-operative societies, which fall within Parliament's domain.",
+      "questions": [
+        {
+          "question": "An amendment affecting the Lists in the Seventh Schedule requires ratification by",
+          "options": {
+            "A": "the legislatures of at least half of the States",
+            "B": "the Rajya Sabha acting alone by a special majority",
+            "C": "the legislatures of all the States without exception",
+            "D": "the legislatures of two-thirds of the States"
+          },
+          "correct_option": "A",
+          "explanation": "The proviso to Article 368(2) requires ratification by not less than one-half of the State legislatures.",
+          "difficulty": "Easy",
+          "q_no": 61
+        },
+        {
+          "question": "Which of the following amendments would require ratification by State legislatures under the proviso to Article 368(2)?",
+          "options": {
+            "A": "One adding a new Fundamental Duty to Article 51A",
+            "B": "One altering a Directive Principle in Part IV",
+            "C": "One altering the Lists in the Seventh Schedule",
+            "D": "One lowering the voting age under Article 326"
+          },
+          "correct_option": "C",
+          "explanation": "The proviso covers changes to the Seventh Schedule Lists; the other subjects are not listed in it.",
+          "difficulty": "Easy",
+          "q_no": 62
+        },
+        {
+          "question": "In Kihoto Hollohan, paragraph 7 of the Tenth Schedule was held invalid because",
+          "options": {
+            "A": "it ousted court jurisdiction without ratification by the States",
+            "B": "it violated the Fundamental Right to equality under Article 14 of the Constitution",
+            "C": "it was passed by less than two-thirds of the members present and voting",
+            "D": "it imposed an unreasonable restriction on the freedoms under Article 19(1)"
+          },
+          "correct_option": "A",
+          "explanation": "The passage gives the reason: it ousted court jurisdiction, requiring ratification, which was not obtained.",
+          "difficulty": "Moderate",
+          "q_no": 63
+        },
+        {
+          "question": "A challenge is made to the election of the board of a multi-State co-operative society under Part IXB. After Rajendra N. Shah, Part IXB",
+          "options": {
+            "A": "continues to apply to multi-State co-operative societies",
+            "B": "applies only to co-operative societies in the States",
+            "C": "applies only if the States ratify it",
+            "D": "no longer applies to any co-operative society"
+          },
+          "correct_option": "A",
+          "explanation": "The Court struck down Part IXB for State societies but upheld it for multi-State co-operative societies.",
+          "difficulty": "Moderate",
+          "q_no": 64
+        },
+        {
+          "question": "Which statement correctly describes the procedure under Article 368(2) as described?",
+          "options": {
+            "A": "A Bill may also be introduced in a State Legislature and then sent on to Parliament",
+            "B": "A Bill needs only a simple majority in each House if the President is willing to assent",
+            "C": "If the Rajya Sabha disagrees, the Bill may be passed at a joint sitting of both Houses",
+            "D": "Introduction in either House, then a majority of the total membership and two-thirds of those present and voting"
+          },
+          "correct_option": "D",
+          "explanation": "Article 368(2) requires introduction in Parliament and the special majority in each House, followed by assent. No joint sitting is provided.",
+          "difficulty": "Moderate",
+          "q_no": 65
+        },
+        {
+          "question": "The Court's treatment of paragraph 7 in Kihoto Hollohan illustrates that",
+          "options": {
+            "A": "the whole of the Fifty-second Amendment fell for want of ratification",
+            "B": "ratification is required for every amendment affecting Fundamental Rights",
+            "C": "a defect in one severable provision need not invalidate the whole amendment",
+            "D": "the Tenth Schedule as a whole was held unconstitutional by the Court"
+          },
+          "correct_option": "C",
+          "explanation": "Paragraph 7 was severed and struck down; the rest of the Tenth Schedule survived.",
+          "difficulty": "Tough",
+          "q_no": 66
+        }
+      ],
+      "question_range": [
+        61,
+        66
+      ],
+      "word_count": 298
+    },
+    {
+      "passage_id": "P12",
+      "subject_area": "Constitutional Law",
+      "title": "Directive Principles, Article 31C and the Preamble: 25th and 42nd Amendments",
+      "passage": "Part IV of the Constitution contains the Directive Principles, which are not enforceable by courts. In State of Madras v. Champakam Dorairajan (1951), the Court held that Fundamental Rights prevail over Directive Principles, which must conform to and run as subsidiary to them. The Twenty-fifth Amendment (1971) inserted Article 31C, protecting laws giving effect to the policy in Article 39(b) and (c) from challenge for violation of Articles 14, 19 and 31, and providing that no law containing a declaration that it gives effect to such policy could be questioned in any court on the ground that it does not do so. In Kesavananda Bharati (1973), the second part of that protection was struck down, so that courts may examine whether a law actually gives effect to the policy of Article 39(b) or (c). The Forty-second Amendment (1976) extended Article 31C to laws giving effect to any Directive Principle in Part IV. In Minerva Mills (1980), the Court struck down this extension, holding that harmony and balance between Parts III and IV is part of the basic structure. The 42nd Amendment also inserted Articles 39A (equal justice and free legal aid), 43A (workers' participation in management) and 48A (protection of the environment), and added Part IVA with Article 51A on Fundamental Duties. It inserted the words 'socialist', 'secular' and 'integrity' in the Preamble. Article 39(b) provides that the ownership and control of the material resources of the community should be so distributed as best to subserve the common good. In Property Owners Association v. State of Maharashtra (2024), a nine-judge Bench held that not every privately owned resource is a 'material resource of the community'; some may qualify depending on factors such as the nature of the resource, its impact on community well-being, scarcity and the consequences of its concentration in private hands.",
+      "questions": [
+        {
+          "question": "Article 39A, providing for equal justice and free legal aid, was inserted by the",
+          "options": {
+            "A": "Eighty-sixth Amendment",
+            "B": "Forty-second Amendment",
+            "C": "Forty-fourth Amendment",
+            "D": "Twenty-fifth Amendment"
+          },
+          "correct_option": "B",
+          "explanation": "The passage lists Article 39A among the Articles inserted by the 42nd Amendment.",
+          "difficulty": "Easy",
+          "q_no": 67
+        },
+        {
+          "question": "Which of the following words was NOT inserted into the Preamble by the 42nd Amendment?",
+          "options": {
+            "A": "Secular",
+            "B": "Integrity",
+            "C": "Democratic",
+            "D": "Socialist"
+          },
+          "correct_option": "C",
+          "explanation": "The 42nd Amendment inserted 'socialist', 'secular' and 'integrity'. 'Democratic' formed part of the original Preamble.",
+          "difficulty": "Easy",
+          "q_no": 68
+        },
+        {
+          "question": "A State law gives effect to Article 48A, and in doing so violates Article 14. The law claims immunity under Article 31C. After Minerva Mills, the claim",
+          "options": {
+            "A": "succeeds, since the 42nd Amendment extended Article 31C to all Directive Principles",
+            "B": "succeeds only if the law contains a declaration that it gives effect to Article 48A",
+            "C": "succeeds, since Article 48A was itself inserted by the 42nd Amendment",
+            "D": "fails, since Article 31C protects only laws giving effect to Article 39(b) and (c)"
+          },
+          "correct_option": "D",
+          "explanation": "Minerva Mills struck down the extension of Article 31C beyond Article 39(b) and (c).",
+          "difficulty": "Moderate",
+          "q_no": 69
+        },
+        {
+          "question": "A statute declares that it gives effect to Article 39(c), but in substance it concentrates wealth and violates Article 14. A court",
+          "options": {
+            "A": "may test whether it truly gives effect to Article 39(b) or (c), and deny protection if not",
+            "B": "must uphold the law, since the declaration of its purpose is conclusive on courts",
+            "C": "cannot examine the matter at all, since Article 31C bars all judicial review",
+            "D": "must uphold the law if it was passed by a two-thirds majority in Parliament"
+          },
+          "correct_option": "A",
+          "explanation": "After Kesavananda, courts may examine whether a law actually gives effect to the policy; the declaration is not conclusive.",
+          "difficulty": "Tough",
+          "q_no": 70
+        },
+        {
+          "question": "The principle laid down in Champakam Dorairajan is that",
+          "options": {
+            "A": "Fundamental Rights prevail over Directive Principles",
+            "B": "Directive Principles prevail over Fundamental Rights",
+            "C": "Directive Principles are enforceable by courts",
+            "D": "Fundamental Rights and Directive Principles are equal in rank"
+          },
+          "correct_option": "A",
+          "explanation": "The Court held that Directive Principles must conform to and run as subsidiary to Fundamental Rights.",
+          "difficulty": "Moderate",
+          "q_no": 71
+        },
+        {
+          "question": "The 2024 decision in Property Owners Association v. State of Maharashtra held that",
+          "options": {
+            "A": "no privately owned resource can ever fall within the scope of Article 39(b)",
+            "B": "not every privately owned resource qualifies, though some may",
+            "C": "Article 39(b) applies only to resources owned by the Government or its agencies",
+            "D": "all privately owned resources can be redistributed under Article 39(b)"
+          },
+          "correct_option": "B",
+          "explanation": "The Bench rejected both extremes and held that qualification depends on factors such as nature, impact, scarcity and concentration.",
+          "difficulty": "Moderate",
+          "q_no": 72
+        }
+      ],
+      "question_range": [
+        67,
+        72
+      ],
+      "word_count": 303
+    },
+    {
+      "passage_id": "P13",
+      "subject_area": "Constitutional Law",
+      "title": "Elections and the Constitution: the 61st Amendment, Article 324 and Disqualification",
+      "passage": "The Constitution (Sixty-first Amendment) Act, 1988 reduced the voting age under Article 326 from twenty-one to eighteen years. Article 324 vests the superintendence, direction and control of elections in the Election Commission. The Chief Election Commissioner (CEC) can be removed only in the manner and on the grounds applicable to a Supreme Court judge, while other Election Commissioners can be removed only on the CEC's recommendation (Article 324(5)). Article 329(b) provides that no election to Parliament or a State Legislature shall be called in question except by an election petition. In Mohinder Singh Gill v. Chief Election Commissioner (1978), the Court treated Article 324 as a reservoir of power to act where no law exists. In Anoop Baranwal v. Union of India (2023), a Constitution Bench held that until Parliament makes a law, the CEC and Election Commissioners shall be appointed by the President on the advice of a committee of the Prime Minister, the Leader of the Opposition and the Chief Justice of India. Parliament later enacted the Chief Election Commissioner and Other Election Commissioners (Appointment, Conditions of Service and Term of Office) Act, 2023, replacing the Chief Justice with a Union Cabinet Minister nominated by the Prime Minister; the Act has been challenged, and its current status should be verified before it is cited. Under Section 8(3) of the Representation of the People Act, 1951, a person convicted and sentenced to imprisonment of two years or more is disqualified from the date of conviction and for six years after release. In Lily Thomas v. Union of India (2013), the Court struck down Section 8(4), which allowed sitting legislators to continue pending appeal. Disqualification is not incurred if the appellate court stays the conviction itself, not merely the sentence (Lok Prahari, 2018). In Association for Democratic Reforms v. Union of India (2024), the Court struck down the Electoral Bonds Scheme as violating the voter's right to information under Article 19(1)(a).",
+      "questions": [
+        {
+          "question": "The 61st Amendment, 1988 reduced the voting age under Article 326 to",
+          "options": {
+            "A": "nineteen years",
+            "B": "eighteen years",
+            "C": "twenty years",
+            "D": "twenty-one years"
+          },
+          "correct_option": "B",
+          "explanation": "The passage states that the voting age was reduced from twenty-one to eighteen.",
+          "difficulty": "Easy",
+          "q_no": 73
+        },
+        {
+          "question": "A challenge to the validity of an election to the Lok Sabha must, under Article 329(b), be made by",
+          "options": {
+            "A": "a civil suit in a District Court",
+            "B": "an election petition",
+            "C": "a writ petition directly under Article 32",
+            "D": "a representation to the Election Commission"
+          },
+          "correct_option": "B",
+          "explanation": "Article 329(b) permits an election to be questioned only by an election petition.",
+          "difficulty": "Easy",
+          "q_no": 74
+        },
+        {
+          "question": "Under Article 324(5), an Election Commissioner other than the CEC can be removed",
+          "options": {
+            "A": "only in the manner and on the grounds applicable to a Supreme Court judge",
+            "B": "by the Prime Minister on the advice of the Leader of the Opposition",
+            "C": "at the pleasure of the President",
+            "D": "only on the recommendation of the CEC"
+          },
+          "correct_option": "D",
+          "explanation": "Only the CEC enjoys Supreme Court judge-like protection; other Commissioners are removable on the CEC's recommendation.",
+          "difficulty": "Moderate",
+          "q_no": 75
+        },
+        {
+          "question": "A sitting Member of Parliament is convicted and sentenced to three years' imprisonment. His appeal is pending, and the appellate court stays only the sentence, not the conviction. On the passage, he",
+          "options": {
+            "A": "stands disqualified from the date of conviction",
+            "B": "remains qualified until the appeal is decided",
+            "C": "is disqualified only on a decision of the Speaker",
+            "D": "is disqualified only after completing the sentence"
+          },
+          "correct_option": "A",
+          "explanation": "Section 8(3) operates from conviction; Lily Thomas removed the pending-appeal protection, and only a stay of the conviction itself avoids disqualification.",
+          "difficulty": "Moderate",
+          "q_no": 76
+        },
+        {
+          "question": "The Electoral Bonds Scheme was struck down in 2024 as violating",
+          "options": {
+            "A": "the right of adult suffrage under Article 326",
+            "B": "the powers of the Election Commission under Article 324",
+            "C": "the voter's right to information under Article 19(1)(a)",
+            "D": "the donors' right to privacy under Article 21"
+          },
+          "correct_option": "C",
+          "explanation": "The passage states that the Court found a violation of the voter's right to information under Article 19(1)(a).",
+          "difficulty": "Moderate",
+          "q_no": 77
+        },
+        {
+          "question": "How does the 2023 Act differ from the arrangement laid down in Anoop Baranwal?",
+          "options": {
+            "A": "It substitutes a Union Cabinet Minister for the Chief Justice on the selection committee",
+            "B": "It makes the CEC removable at the pleasure of the President of India",
+            "C": "It vests the power of appointment in Parliament acting by resolution",
+            "D": "It removes the Leader of the Opposition from the selection committee altogether"
+          },
+          "correct_option": "A",
+          "explanation": "The passage states that the Chief Justice was replaced with a Cabinet Minister nominated by the Prime Minister.",
+          "difficulty": "Tough",
+          "q_no": 78
+        }
+      ],
+      "question_range": [
+        73,
+        78
+      ],
+      "word_count": 321
+    },
+    {
+      "passage_id": "P14",
+      "subject_area": "Constitutional Law",
+      "title": "Money Bills and Ordinances: Articles 109, 110 and 123",
+      "passage": "A Money Bill, defined in Article 110, deals only with matters such as taxes, borrowing and the Consolidated Fund of India. It can be introduced only in the Lok Sabha on the recommendation of the President. After it is passed, it is transmitted to the Rajya Sabha, which must return it within fourteen days with recommendations; the Lok Sabha may accept or reject them, and if the Rajya Sabha does not return the Bill within fourteen days it is deemed to have been passed by both Houses. The Speaker's certificate that a Bill is a Money Bill is made final by Article 110(3), and the provisions for a joint sitting in Article 108 do not apply to Money Bills or Constitution Amendment Bills. In K.S. Puttaswamy v. Union of India (the Aadhaar case, 2018), the majority upheld the Aadhaar Act as a Money Bill, while Justice D.Y. Chandrachud dissented, holding that the route was a fraud on the Constitution because it bypassed the Rajya Sabha. Article 123 empowers the President, at any time except when both Houses are in session, to promulgate an Ordinance when satisfied that immediate action is necessary. An Ordinance has the same force as an Act of Parliament, must be laid before both Houses, and ceases to operate at the expiration of six weeks from the reassembly of Parliament, or earlier if both Houses pass resolutions disapproving it. An Ordinance cannot amend the Constitution. In D.C. Wadhwa v. State of Bihar (1987), the Court held that the repeated re-promulgation of Ordinances without placing them before the Legislature is a fraud on the Constitution, a view affirmed by a seven-judge Bench in Krishna Kumar Singh v. State of Bihar (2017), which also held that rights and liabilities that arose during the life of a lapsed Ordinance do not automatically vanish. Article 213 confers a similar power on Governors.",
+      "questions": [
+        {
+          "question": "The Rajya Sabha must return a Money Bill to the Lok Sabha within",
+          "options": {
+            "A": "14 days",
+            "B": "30 days",
+            "C": "6 weeks",
+            "D": "6 months"
+          },
+          "correct_option": "A",
+          "explanation": "The passage states that the Rajya Sabha must return a Money Bill within fourteen days, failing which it is deemed passed.",
+          "difficulty": "Easy",
+          "q_no": 79
+        },
+        {
+          "question": "The joint sitting under Article 108 cannot be used for",
+          "options": {
+            "A": "any Bill rejected by the Rajya Sabha",
+            "B": "Bills introduced in the Rajya Sabha",
+            "C": "Money Bills and Constitution Amendment Bills",
+            "D": "Ordinary Bills passed by the Lok Sabha"
+          },
+          "correct_option": "C",
+          "explanation": "The passage states that Article 108 does not apply to Money Bills or Constitution Amendment Bills.",
+          "difficulty": "Easy",
+          "q_no": 80
+        },
+        {
+          "question": "In the Aadhaar case, Justice Chandrachud's dissent held that",
+          "options": {
+            "A": "Money Bills may validly be introduced in the Rajya Sabha as well",
+            "B": "the Aadhaar Act violated only the freedom under Article 19",
+            "C": "the Speaker's certificate under Article 110(3) is conclusive and unreviewable by courts",
+            "D": "the Money Bill route bypassed the Rajya Sabha and was a fraud on the Constitution"
+          },
+          "correct_option": "D",
+          "explanation": "The passage records his view that the Money Bill route bypassed the Rajya Sabha and was a fraud on the Constitution.",
+          "difficulty": "Moderate",
+          "q_no": 81
+        },
+        {
+          "question": "An Ordinance is promulgated while Parliament is in recess, and Parliament reassembles on 1 March. Assuming no disapproving resolutions, the Ordinance ceases to operate on",
+          "options": {
+            "A": "31 March",
+            "B": "1 April",
+            "C": "12 April",
+            "D": "1 May"
+          },
+          "correct_option": "C",
+          "explanation": "It ceases six weeks (42 days) after reassembly: 1 March plus 42 days is 12 April.",
+          "difficulty": "Tough",
+          "q_no": 82
+        },
+        {
+          "question": "A State Government has the Governor promulgate the same Ordinance four times in succession without placing it before the Legislature. Under D.C. Wadhwa, this practice is",
+          "options": {
+            "A": "valid for six months only",
+            "B": "valid if the Council of Ministers approves each re-promulgation",
+            "C": "a fraud on the Constitution and invalid",
+            "D": "valid, so long as the Governor is satisfied each time"
+          },
+          "correct_option": "C",
+          "explanation": "Wadhwa held that repeated re-promulgation without placing the Ordinance before the Legislature is a fraud on the Constitution.",
+          "difficulty": "Moderate",
+          "q_no": 83
+        },
+        {
+          "question": "Only one House of Parliament is in session. On Article 123 as described, the President",
+          "options": {
+            "A": "may promulgate an Ordinance, as the bar applies only when both Houses sit",
+            "B": "may not promulgate an Ordinance, since one House is in session",
+            "C": "may promulgate an Ordinance only on a request made by the Speaker",
+            "D": "may promulgate an Ordinance only after first summoning the other House"
+          },
+          "correct_option": "A",
+          "explanation": "Article 123 bars an Ordinance only when both Houses are in session.",
+          "difficulty": "Tough",
+          "q_no": 84
+        }
+      ],
+      "question_range": [
+        79,
+        84
+      ],
+      "word_count": 311
+    },
+    {
+      "passage_id": "P15",
+      "subject_area": "Jurisprudence",
+      "title": "Hohfeld's Jural Relations and Legal Personality",
+      "passage": "Wesley Hohfeld analysed legal relations into eight fundamental conceptions arranged as jural correlatives and jural opposites. The correlatives are: right and duty; privilege (liberty) and no-right; power and liability; immunity and disability. The jural opposites are: right and no-right; privilege and duty; power and disability; immunity and liability. A 'right' in the strict sense is a claim that another person owes a duty; a privilege is freedom from any duty to the contrary, so that others have no claim against the holder; a power is the ability to change legal relations, as an offeree changes the position of an offeror by accepting; and an immunity is freedom from having one's legal relations changed by another's act. Salmond defined a legal right as an interest recognised and protected by a rule of law. Legal personality extends beyond natural persons. In Salomon v. Salomon & Co. (1897), the House of Lords held that a duly incorporated company is a separate legal person distinct from its members, though courts may lift the veil where the company is a sham or is used for fraud. In Yogendra Nath Naskar v. CIT (1969), the Supreme Court held that a Hindu idol is a juristic person capable of holding property, and in Shiromani Gurdwara Parbandhak Committee v. Som Nath Dass (2000), the Guru Granth Sahib was held to be a juristic person. In Mohd. Salim v. State of Uttarakhand (2017), the Uttarakhand High Court declared the Ganga and Yamuna to be legal persons, though the Supreme Court stayed that order. In Animal Welfare Board of India v. A. Nagaraja (2014), the Supreme Court held that the right to life under Article 21 includes the right of animals to dignity and humane treatment.",
+      "questions": [
+        {
+          "question": "In Hohfeld's scheme, the jural correlative of a right is",
+          "options": {
+            "A": "a liability",
+            "B": "a no-right",
+            "C": "a privilege",
+            "D": "a duty"
+          },
+          "correct_option": "D",
+          "explanation": "Right and duty are correlatives. No-right is the jural opposite of a right.",
+          "difficulty": "Easy",
+          "q_no": 85
+        },
+        {
+          "question": "In Yogendra Nath Naskar v. CIT, the Supreme Court held that a Hindu idol is",
+          "options": {
+            "A": "a mere chattel incapable of owning property",
+            "B": "a trust but not a juristic person",
+            "C": "a natural person with full capacity to contract",
+            "D": "a juristic person capable of holding property"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states that the idol was held to be a juristic person capable of holding property.",
+          "difficulty": "Easy",
+          "q_no": 86
+        },
+        {
+          "question": "An offeree who accepts an offer alters the legal position of the offeror. In Hohfeldian terms, the offeree exercises a ____ and the offeror is under a ____.",
+          "options": {
+            "A": "power; liability",
+            "B": "right; duty",
+            "C": "immunity; disability",
+            "D": "privilege; no-right"
+          },
+          "correct_option": "A",
+          "explanation": "Power is the ability to change legal relations; its correlative is liability.",
+          "difficulty": "Moderate",
+          "q_no": 87
+        },
+        {
+          "question": "A judge enjoys immunity from civil suit for judicial acts. In Hohfeld's scheme, the correlative position of an aggrieved litigant is",
+          "options": {
+            "A": "a disability",
+            "B": "a duty",
+            "C": "a liability",
+            "D": "a no-right"
+          },
+          "correct_option": "A",
+          "explanation": "Immunity and disability are correlatives; liability is the opposite of immunity.",
+          "difficulty": "Moderate",
+          "q_no": 88
+        },
+        {
+          "question": "A may walk across a public footpath, and no one has a claim that he refrain from doing so. A's position is a",
+          "options": {
+            "A": "right, and others have a duty",
+            "B": "privilege, and others have a no-right",
+            "C": "power, and others have a liability",
+            "D": "immunity, and others have a disability"
+          },
+          "correct_option": "B",
+          "explanation": "A privilege is freedom from any duty to the contrary, and its correlative is no-right.",
+          "difficulty": "Moderate",
+          "q_no": 89
+        },
+        {
+          "question": "X is the sole shareholder of a company that defaults on a loan. The creditor sues X personally, with no allegation of fraud or sham. Under Salomon as described, the claim",
+          "options": {
+            "A": "succeeds, since the veil can be lifted in any case of default on a debt",
+            "B": "fails only if X was not a director of the company at the time",
+            "C": "succeeds, since a sole shareholder is in law identical to the company",
+            "D": "fails, since the company is a separate person and X is not personally liable"
+          },
+          "correct_option": "D",
+          "explanation": "The veil may be lifted only for sham or fraud; mere default does not engage the shareholder.",
+          "difficulty": "Tough",
+          "q_no": 90
+        }
+      ],
+      "question_range": [
+        85,
+        90
+      ],
+      "word_count": 286
+    },
+    {
+      "passage_id": "P16",
+      "subject_area": "Criminal Law",
+      "title": "General Principles of Criminal Liability under the Bharatiya Nyaya Sanhita",
+      "passage": "Criminal liability generally requires a prohibited act (actus reus) and a guilty mind (mens rea), expressed in the maxim actus non facit reum nisi mens sit rea. The Bharatiya Nyaya Sanhita, 2023 (BNS), in force from 1 July 2024, replaced the Indian Penal Code, 1860. Section 3(5) BNS (IPC section 34) provides that when a criminal act is done by several persons in furtherance of the common intention of all, each is liable as if he alone had done it; it requires a prior meeting of minds, though that may occur on the spot, and it can apply to even two persons. Section 190 BNS (IPC section 149) provides that if an offence is committed by any member of an unlawful assembly in prosecution of its common object, or such as the members knew to be likely to be committed in prosecution of that object, every member is guilty of it. An unlawful assembly under section 189 requires five or more persons. Abetment under section 45 BNS includes instigation, conspiracy and intentional aid. Under section 61 BNS, an agreement to commit an offence is itself a criminal conspiracy; but for an agreement to do an illegal act that is not an offence, or a legal act by illegal means, some act besides the agreement is required. Section 103(1) BNS punishes murder with death or imprisonment for life and fine, and section 103(2) provides that when a group of five or more persons acting in concert commits murder on the ground of race, caste or community, sex, place of birth, language, personal belief or any other similar ground, each member of the group shall be punished with death or imprisonment for life and fine.",
+      "questions": [
+        {
+          "question": "The maxim actus non facit reum nisi mens sit rea emphasises that criminal liability generally requires",
+          "options": {
+            "A": "a prohibited act alone, irrespective of intention",
+            "B": "strict liability for every offence",
+            "C": "a guilty mind together with a prohibited act",
+            "D": "a guilty mind alone, irrespective of any act"
+          },
+          "correct_option": "C",
+          "explanation": "The maxim states that an act does not make a person guilty unless the mind is also guilty.",
+          "difficulty": "Easy",
+          "q_no": 91
+        },
+        {
+          "question": "The minimum number of persons required for an unlawful assembly under section 189 BNS is",
+          "options": {
+            "A": "ten",
+            "B": "two",
+            "C": "three",
+            "D": "five"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states that an unlawful assembly requires five or more persons.",
+          "difficulty": "Easy",
+          "q_no": 92
+        },
+        {
+          "question": "Five persons form an assembly with the common object of beating X. In prosecution of that object, one of them stabs and kills X, a result the others knew to be likely. Under section 190 BNS, the other four are",
+          "options": {
+            "A": "guilty only of attempt to cause hurt to X",
+            "B": "guilty only if there was a prior meeting of minds under section 3(5) of the BNS",
+            "C": "not guilty, since only the stabber committed the act itself",
+            "D": "guilty of the offence, as members of the assembly who knew it was likely"
+          },
+          "correct_option": "D",
+          "explanation": "Section 190 fastens liability on every member for offences committed in prosecution of the common object, or such as the members knew to be likely.",
+          "difficulty": "Moderate",
+          "q_no": 93
+        },
+        {
+          "question": "A principal difference between common intention (section 3(5)) and common object (section 190) is that",
+          "options": {
+            "A": "common intention requires five or more persons, whereas common object can be shared by two",
+            "B": "common object needs an assembly of five or more, common intention can be shared by two",
+            "C": "common object requires a prior meeting of minds, whereas common intention does not",
+            "D": "common intention creates no liability at all, while common object does"
+          },
+          "correct_option": "B",
+          "explanation": "Section 190 depends on an unlawful assembly of five or more; section 3(5) can apply to two persons and requires a prior meeting of minds.",
+          "difficulty": "Moderate",
+          "q_no": 94
+        },
+        {
+          "question": "Four persons acting in concert kill a man on the ground of his caste. On the passage, the offence is",
+          "options": {
+            "A": "murder under section 103(2), punishable with death or imprisonment for life",
+            "B": "murder under section 103(1), as the group provision needs five or more persons",
+            "C": "culpable homicide not amounting to murder, the group being small",
+            "D": "no offence at all, since the group is smaller than five persons"
+          },
+          "correct_option": "B",
+          "explanation": "Section 103(2) needs a group of five or more; with four, ordinary murder under section 103(1) applies.",
+          "difficulty": "Tough",
+          "q_no": 95
+        },
+        {
+          "question": "A and B agree to commit theft but take no further step. Under section 61 BNS as described, they are",
+          "options": {
+            "A": "not guilty, since no act beyond the agreement was done",
+            "B": "guilty of criminal conspiracy, the agreement itself being enough",
+            "C": "guilty only of attempt to commit theft",
+            "D": "guilty only of abetment by instigation of the other"
+          },
+          "correct_option": "B",
+          "explanation": "An agreement to commit an offence is complete conspiracy without an overt act; the overt act requirement applies to other agreements.",
+          "difficulty": "Moderate",
+          "q_no": 96
+        }
+      ],
+      "question_range": [
+        91,
+        96
+      ],
+      "word_count": 283
+    },
+    {
+      "passage_id": "P17",
+      "subject_area": "Law of Contract",
+      "title": "Formation of Contract, Consideration, Minors and Frustration",
+      "passage": "Under the Indian Contract Act, 1872, a proposal becomes a promise when accepted. The display of goods with prices in a shop is an invitation to treat, not an offer, and a quotation of price is not an offer (Harvey v. Facey). A general offer to the world can be accepted by performance, as in Carlill v. Carbolic Smoke Ball Co. (1893). Acceptance by post is complete as against the proposer when the letter is put into the course of transmission, and a proposal may be revoked at any time before the communication of its acceptance is complete as against the proposer (sections 4 and 5). Under section 2(d), consideration is what the promisor desires the promisee or any other person to do or abstain from, and it may be past, present or future. Consideration may move from a third party, but only a party can enforce the contract; a stranger to the contract cannot sue (privity), subject to exceptions such as a trust or a family arrangement. Section 25(2) makes a promise to compensate a person who has already voluntarily done something for the promisor enforceable without fresh consideration. A minor's agreement is void ab initio (Mohori Bibee v. Dharmodas Ghose, 1903) and cannot be ratified on attaining majority. Under section 56, a contract to do an act that after the contract becomes impossible or unlawful becomes void; in Satyabrata Ghose v. Mugneeram Bangur (1954), the Court held that 'impossible' extends to the destruction of the foundation of the contract. In Alopi Parshad v. Union of India (1960), a mere rise in cost or unforeseen difficulty was held not to frustrate a contract.",
+      "questions": [
+        {
+          "question": "The display of goods with prices in a shop window is",
+          "options": {
+            "A": "an offer",
+            "B": "an acceptance",
+            "C": "an invitation to treat",
+            "D": "a concluded contract"
+          },
+          "correct_option": "C",
+          "explanation": "The passage states that display of goods with prices is an invitation to treat.",
+          "difficulty": "Easy",
+          "q_no": 97
+        },
+        {
+          "question": "Under Mohori Bibee v. Dharmodas Ghose, an agreement with a minor is",
+          "options": {
+            "A": "valid but unenforceable against the minor",
+            "B": "valid if ratified on attaining majority",
+            "C": "void ab initio",
+            "D": "voidable at the option of the minor"
+          },
+          "correct_option": "C",
+          "explanation": "The passage states that a minor's agreement is void ab initio and cannot be ratified.",
+          "difficulty": "Easy",
+          "q_no": 98
+        },
+        {
+          "question": "A offers to sell a plot to B by letter. B posts a letter of acceptance on Monday. A's telegram revoking the offer, sent after B posted the letter, reaches B on Tuesday. Under sections 4 and 5, the contract is",
+          "options": {
+            "A": "not concluded, since A revoked before the acceptance reached him",
+            "B": "concluded, since acceptance was complete against A when posted",
+            "C": "concluded only when A actually reads the letter of acceptance",
+            "D": "voidable at A's option, the offer having been revoked in time"
+          },
+          "correct_option": "B",
+          "explanation": "Acceptance is complete as against the proposer when posted; revocation must precede that moment.",
+          "difficulty": "Moderate",
+          "q_no": 99
+        },
+        {
+          "question": "A contracts with B that B will pay Rs 1,00,000 to C, a friend of A. B fails to pay. C sues B on the contract. On the passage, C's suit",
+          "options": {
+            "A": "succeeds, since consideration may move from a third party",
+            "B": "succeeds, since C is the intended beneficiary of the promise",
+            "C": "fails only if B had no knowledge of C's interest",
+            "D": "fails, since a stranger to the contract cannot sue absent a trust"
+          },
+          "correct_option": "D",
+          "explanation": "Under privity, only a party can enforce the contract; consideration moving from a third party does not make the third party a party.",
+          "difficulty": "Moderate",
+          "q_no": 100
+        },
+        {
+          "question": "S agrees to supply 1,000 tonnes of cement to B. A war raises transport costs by forty per cent, but delivery remains possible. Following Alopi Parshad as described, the contract",
+          "options": {
+            "A": "becomes voidable at S's option",
+            "B": "stands discharged on grounds of commercial impracticability",
+            "C": "becomes void under section 56",
+            "D": "is not frustrated, and S must perform"
+          },
+          "correct_option": "D",
+          "explanation": "A mere rise in cost or unforeseen difficulty does not frustrate a contract.",
+          "difficulty": "Moderate",
+          "q_no": 101
+        },
+        {
+          "question": "A voluntarily and without request saves B's house from a fire. A month later B promises to pay A Rs 10,000 for the help. On section 25(2) as described, the promise is",
+          "options": {
+            "A": "enforceable only if B had asked for the help beforehand",
+            "B": "enforceable, as it compensates one who voluntarily did something for the promisor",
+            "C": "unenforceable, since past consideration is no consideration in India",
+            "D": "enforceable only if the promise is made in a registered document"
+          },
+          "correct_option": "B",
+          "explanation": "Section 25(2) makes such a promise enforceable without fresh consideration.",
+          "difficulty": "Tough",
+          "q_no": 102
+        }
+      ],
+      "question_range": [
+        97,
+        102
+      ],
+      "word_count": 274
+    },
+    {
+      "passage_id": "P18",
+      "subject_area": "Law of Torts / Constitutional Law",
+      "title": "Vicarious Liability and State Liability in Tort",
+      "passage": "Vicarious liability makes an employer liable for torts committed by an employee in the course of employment. An act is within the course of employment if it is authorised, or is an unauthorised mode of doing an authorised act (Limpus v. London General Omnibus Co.). Article 300(1) provides that the Government of India or a State may sue or be sued, and that its liability shall be the same as it would have been had the Constitution not been enacted. This refers to the position of the East India Company, whose liability was examined in P. & O. Steam Navigation Co. v. Secretary of State for India (1861), which distinguished acts done in exercise of sovereign powers from other acts. In State of Rajasthan v. Vidyawati (1962), the State was held vicariously liable for the negligent driving of a government jeep by its driver, since the driving was not an exercise of sovereign power. In Kasturilal Ralia Ram Jain v. State of U.P. (1965), the State was held not liable for the loss of gold seized by the police, because the seizure was an exercise of sovereign power delegated by statute. In N. Nagendra Rao & Co. v. State of A.P. (1994), the Court confined sovereign immunity to acts strictly referable to inalienable sovereign functions and found the State liable for negligent care of seized goods. Independently, constitutional courts award compensation as a public law remedy for violation of Fundamental Rights, as in Rudul Sah (1983) and Nilabati Behera v. State of Orissa (1993), a custodial death case, where sovereign immunity was held to be no defence; such compensation does not bar a civil suit in tort.",
+      "questions": [
+        {
+          "question": "The provision which allows the Union and the States to sue and be sued is",
+          "options": {
+            "A": "Article 32",
+            "B": "Article 299",
+            "C": "Article 226",
+            "D": "Article 300(1)"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states that Article 300(1) provides that the Government of India or a State may sue or be sued.",
+          "difficulty": "Easy",
+          "q_no": 103
+        },
+        {
+          "question": "In State of Rajasthan v. Vidyawati, the State was held",
+          "options": {
+            "A": "vicariously liable for its driver's negligent driving of a government jeep",
+            "B": "immune, since the jeep was Government property and not a private vehicle",
+            "C": "liable only if the driver was a permanent employee of the State",
+            "D": "immune, since the driver was performing a sovereign function at the time"
+          },
+          "correct_option": "A",
+          "explanation": "The passage states that driving was not an exercise of sovereign power, so the State was liable.",
+          "difficulty": "Easy",
+          "q_no": 104
+        },
+        {
+          "question": "A patient is injured by the negligence of a surgeon in a Government hospital. On the passage, the State is",
+          "options": {
+            "A": "immune, since the hospital is run by the State itself",
+            "B": "liable only if Parliament has enacted a law imposing such liability",
+            "C": "immune, since the surgeon acts under a statute governing hospitals",
+            "D": "vicariously liable, as medical treatment is not a sovereign function"
+          },
+          "correct_option": "D",
+          "explanation": "Following Vidyawati and Nagendra Rao, liability is excluded only for acts strictly referable to inalienable sovereign functions.",
+          "difficulty": "Moderate",
+          "q_no": 105
+        },
+        {
+          "question": "In a writ petition arising from a custodial death, the High Court awards compensation, and the State pleads sovereign immunity. Under Nilabati Behera as described, the plea",
+          "options": {
+            "A": "succeeds, since a High Court cannot award damages in writ jurisdiction",
+            "B": "succeeds, since custody is an exercise of sovereign power under Kasturilal",
+            "C": "fails, but the compensation then bars any later civil suit in tort",
+            "D": "fails, since sovereign immunity is no defence to public law compensation"
+          },
+          "correct_option": "D",
+          "explanation": "Nilabati Behera held that immunity is no defence, and the passage states that such compensation does not bar a civil suit.",
+          "difficulty": "Moderate",
+          "q_no": 106
+        },
+        {
+          "question": "A bus conductor, trying to eject a passenger who refuses to pay the fare, pushes him off a moving bus and injures him. The employer is",
+          "options": {
+            "A": "liable, since the act was an unauthorised mode of doing an authorised act",
+            "B": "liable only if the employer was present",
+            "C": "not liable, since the conductor was not authorised to push passengers",
+            "D": "liable only if the employer ordered the act"
+          },
+          "correct_option": "A",
+          "explanation": "Under the Limpus test, an unauthorised mode of doing an authorised act is within the course of employment.",
+          "difficulty": "Moderate",
+          "q_no": 107
+        },
+        {
+          "question": "The distinction between sovereign and non-sovereign functions under Article 300(1) traces its origin to",
+          "options": {
+            "A": "Kasturilal Ralia Ram Jain v. State of Uttar Pradesh (1965)",
+            "B": "State of Rajasthan v. Vidyawati (1962)",
+            "C": "P. & O. Steam Navigation Co. v. Secretary of State (1861)",
+            "D": "Nilabati Behera v. State of Orissa (1993)"
+          },
+          "correct_option": "C",
+          "explanation": "The passage states that the East India Company's liability was examined in P. & O. Steam Navigation, which drew the distinction.",
+          "difficulty": "Tough",
+          "q_no": 108
+        }
+      ],
+      "question_range": [
+        103,
+        108
+      ],
+      "word_count": 277
+    },
+    {
+      "passage_id": "P19",
+      "subject_area": "Law of Evidence",
+      "title": "Electronic Evidence: Section 65B, Section 63 BSA and Arjun Panditrao Khotkar",
+      "passage": "Electronic records are admissible in evidence, but their admissibility depends on compliance with statutory conditions. Under section 65B of the Indian Evidence Act, 1872, an electronic record produced by a computer is admissible as a document only if the prescribed conditions are met and a certificate accompanies it. The Bharatiya Sakshya Adhiniyam, 2023 (BSA), in force from 1 July 2024, replaced the Evidence Act, and section 63 BSA re-enacts the rule, with a certificate in the Schedule in two parts: Part A signed by the party or the person in charge of the device, and Part B by an expert; the certificate must also state the hash value of the record. In Anvar P.V. v. P.K. Basheer (2014), the Supreme Court held that electronic records produced as secondary evidence are inadmissible unless accompanied by the section 65B certificate. In Shafhi Mohammad v. State of H.P. (2018), the Court relaxed this where the party does not hold the device. A three-judge Bench in Arjun Panditrao Khotkar v. Kailash Kushanrao Gorantyal (2020) overruled Shafhi Mohammad, holding that the certificate is a condition precedent for secondary electronic evidence. The certificate is not needed when the original device is itself produced in court and proved by its owner, since that is primary evidence. Where the device or the certificate is held by a third party who refuses to give it, the party may apply to the court to direct its production, since the law does not require the impossible. The BSA also provides that electronic or digital records have the same legal effect, validity and enforceability as paper records.",
+      "questions": [
+        {
+          "question": "The Bharatiya Sakshya Adhiniyam, 2023 replaced the Indian Evidence Act, 1872 with effect from",
+          "options": {
+            "A": "1 January 2024",
+            "B": "15 August 2023",
+            "C": "1 April 2024",
+            "D": "1 July 2024"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states that the BSA has been in force from 1 July 2024.",
+          "difficulty": "Easy",
+          "q_no": 109
+        },
+        {
+          "question": "The Supreme Court held that a section 65B certificate is necessary for secondary electronic evidence in",
+          "options": {
+            "A": "Vishaka v. State of Rajasthan",
+            "B": "Mohinder Singh Gill v. Chief Election Commissioner",
+            "C": "Shafhi Mohammad v. State of H.P.",
+            "D": "Anvar P.V. v. P.K. Basheer"
+          },
+          "correct_option": "D",
+          "explanation": "Anvar P.V. (2014) held that such records are inadmissible without the certificate. Shafhi Mohammad relaxed the rule.",
+          "difficulty": "Easy",
+          "q_no": 110
+        },
+        {
+          "question": "Which decision was overruled by Arjun Panditrao Khotkar?",
+          "options": {
+            "A": "S.R. Bommai v. Union of India",
+            "B": "Anvar P.V. v. P.K. Basheer",
+            "C": "Shafhi Mohammad v. State of H.P.",
+            "D": "K.S. Puttaswamy v. Union of India"
+          },
+          "correct_option": "C",
+          "explanation": "The three-judge Bench overruled Shafhi Mohammad and reaffirmed the certificate requirement.",
+          "difficulty": "Moderate",
+          "q_no": 111
+        },
+        {
+          "question": "A witness brings her own mobile phone to court, produces it, and proves it as the original device holding the recording. On the passage, a section 65B certificate is",
+          "options": {
+            "A": "required, since all electronic evidence needs a certificate in every case",
+            "B": "not required, as production of the original device is primary evidence",
+            "C": "required, but only Part B signed by an expert",
+            "D": "required, but only if the opposing party objects to the recording"
+          },
+          "correct_option": "B",
+          "explanation": "The passage states that no certificate is needed when the original device is produced and proved by its owner.",
+          "difficulty": "Moderate",
+          "q_no": 112
+        },
+        {
+          "question": "Under the Schedule to the BSA, Part B of the certificate is signed by",
+          "options": {
+            "A": "an expert",
+            "B": "the presiding Judge",
+            "C": "the Registrar of the High Court",
+            "D": "a Magistrate"
+          },
+          "correct_option": "A",
+          "explanation": "Part A is signed by the party or person in charge of the device; Part B by an expert.",
+          "difficulty": "Moderate",
+          "q_no": 113
+        },
+        {
+          "question": "A litigant relies on call records held by a telecom company that refuses to issue a certificate. As described under Arjun Panditrao, the litigant",
+          "options": {
+            "A": "can never rely on the call records without the certificate",
+            "B": "may rely on the records as secondary evidence without any certificate at all",
+            "C": "may apply to the court to direct production, since the law does not require the impossible",
+            "D": "must first obtain the telecom company's consent before approaching the court"
+          },
+          "correct_option": "C",
+          "explanation": "The passage states that where a third party holds the certificate and refuses, the court can be asked to direct production.",
+          "difficulty": "Tough",
+          "q_no": 114
+        }
+      ],
+      "question_range": [
+        109,
+        114
+      ],
+      "word_count": 265
+    },
+    {
+      "passage_id": "P20",
+      "subject_area": "Property Law",
+      "title": "Leases, Mortgages and Easements",
+      "passage": "Under section 105 of the Transfer of Property Act, 1882, a lease is a transfer of a right to enjoy immovable property for a certain time, express or implied, or in perpetuity, in consideration of a price paid or promised. Under section 107, a lease of immovable property from year to year, for any term exceeding one year, or reserving a yearly rent, can be made only by a registered instrument. A lease is distinguished from a licence, which under section 52 of the Indian Easements Act, 1882 merely gives a right to do something on another's property without creating an interest in it; the test is whether exclusive possession was granted (Associated Hotels of India v. R.N. Kapoor, 1959). Under section 106, a lease of immovable property for agricultural or manufacturing purposes is terminable on six months' notice, and a lease for any other purpose on fifteen days' notice, the lease being treated as year to year or month to month respectively. A mortgage under section 58 is the transfer of an interest in specific immovable property to secure the payment of money, and takes six forms: simple, by conditional sale, usufructuary, English, by deposit of title deeds (equitable) and anomalous. An equitable mortgage can be created in specified towns by delivery of title deeds with intent to create security and needs no registered instrument. Section 60 gives the mortgagor the right to redeem on payment, and a stipulation that postpones or defeats that right is a 'clog on redemption' and void, in keeping with the maxim 'once a mortgage, always a mortgage'. An easement under the Indian Easements Act is a right of the owner of the dominant heritage, for its beneficial enjoyment, to do or prevent something on the servient heritage; it can be acquired by peaceable and open enjoyment as of right, without interruption, for twenty years, and thirty years against the Government.",
+      "questions": [
+        {
+          "question": "A lease of immovable property for a term exceeding one year can be made only by",
+          "options": {
+            "A": "an oral agreement",
+            "B": "an unregistered written agreement",
+            "C": "mere delivery of possession",
+            "D": "a registered instrument"
+          },
+          "correct_option": "D",
+          "explanation": "Section 107 requires a registered instrument for such a lease.",
+          "difficulty": "Easy",
+          "q_no": 115
+        },
+        {
+          "question": "A mortgage created by the deposit of title deeds is called",
+          "options": {
+            "A": "an anomalous mortgage",
+            "B": "a usufructuary mortgage",
+            "C": "an English mortgage",
+            "D": "an equitable mortgage"
+          },
+          "correct_option": "D",
+          "explanation": "The passage identifies the mortgage by deposit of title deeds as the equitable mortgage.",
+          "difficulty": "Easy",
+          "q_no": 116
+        },
+        {
+          "question": "An owner grants B exclusive possession of a room for a monthly payment for eleven months. In deciding whether this is a lease or a licence, the decisive test is",
+          "options": {
+            "A": "the length of the period",
+            "B": "whether exclusive possession was granted",
+            "C": "the label the parties give the document",
+            "D": "whether the payment is made monthly"
+          },
+          "correct_option": "B",
+          "explanation": "Following Associated Hotels, the test is whether exclusive possession was granted.",
+          "difficulty": "Moderate",
+          "q_no": 117
+        },
+        {
+          "question": "A mortgage deed provides that the mortgagor may not redeem the property until fifty years have passed, although the loan is repayable in five. This stipulation is",
+          "options": {
+            "A": "valid, since the parties are free to agree on any term",
+            "B": "valid if the deed is registered",
+            "C": "void as a clog on the right of redemption",
+            "D": "valid only in a usufructuary mortgage"
+          },
+          "correct_option": "C",
+          "explanation": "A stipulation postponing the right to redeem is a clog on redemption and void.",
+          "difficulty": "Moderate",
+          "q_no": 118
+        },
+        {
+          "question": "For seventeen years, B has openly and peaceably used a footpath across A's private land as of right, without interruption. B's claim to an easement by prescription",
+          "options": {
+            "A": "has not matured, since thirty years are required against a private owner",
+            "B": "has not matured, since twenty years of enjoyment are required",
+            "C": "has matured, since ten years are enough",
+            "D": "has matured, since a footpath needs no minimum period"
+          },
+          "correct_option": "B",
+          "explanation": "Twenty years are needed against a private owner; thirty only against the Government.",
+          "difficulty": "Moderate",
+          "q_no": 119
+        },
+        {
+          "question": "A manufacturer holds a factory shed on lease with no stated term. The notice required for the lessor to terminate the lease is",
+          "options": {
+            "A": "fifteen days",
+            "B": "one month",
+            "C": "six months",
+            "D": "three months"
+          },
+          "correct_option": "C",
+          "explanation": "A lease for manufacturing purposes is treated as year to year and terminable on six months' notice; fifteen days applies to other purposes.",
+          "difficulty": "Tough",
+          "q_no": 120
+        }
+      ],
+      "question_range": [
+        115,
+        120
+      ],
+      "word_count": 317
+    },
+    {
+      "passage_id": "P21",
+      "subject_area": "Family Law",
+      "title": "Coparcenary, Intestate Succession and Gifts under Hindu and Muslim Law",
+      "passage": "The Hindu Succession (Amendment) Act, 2005 substituted section 6 of the Hindu Succession Act, 1956, so that in a joint Hindu family governed by the Mitakshara law, the daughter of a coparcener becomes by birth a coparcener in her own right, with the same rights and liabilities as a son. In Prakash v. Phulavati (2016), the Court required that the father should have been alive on 9 September 2005, the date of commencement. A three-judge Bench in Vineeta Sharma v. Rakesh Sharma (2020) overruled that view, holding that the right is by birth and does not depend on whether the father was alive on that date. The Court also held that an oral partition is not accepted unless supported by public documents, and that a partition after 20 December 2004 must be by a registered deed or a decree of court. Section 15 deals with the property of a Hindu female dying intestate: it goes first to sons, daughters (including children of predeceased children) and the husband; then to the heirs of the husband; then to the mother and father; then to the heirs of the father; and lastly to the heirs of the mother. But under section 15(2), property she inherited from her father or mother goes, in the absence of children, to the heirs of her father, and property inherited from her husband or father-in-law goes, in the absence of children, to the heirs of her husband. Under Muslim law, a person may by will dispose of only one-third of the estate without the consent of the heirs, and a gift (hiba) requires a declaration by the donor, acceptance by the donee and delivery of possession.",
+      "questions": [
+        {
+          "question": "Under section 6 of the Hindu Succession Act as substituted in 2005, the daughter of a coparcener",
+          "options": {
+            "A": "becomes a coparcener by birth, with the same rights as a son",
+            "B": "becomes a coparcener only on the death of her father",
+            "C": "has the right to maintenance but not to a coparcenary share",
+            "D": "becomes a coparcener only on her marriage"
+          },
+          "correct_option": "A",
+          "explanation": "The passage states that the daughter becomes a coparcener by birth in her own right.",
+          "difficulty": "Easy",
+          "q_no": 121
+        },
+        {
+          "question": "Under Muslim law, a person can by will dispose of, without the consent of the heirs, at most",
+          "options": {
+            "A": "one-half of the estate",
+            "B": "one-third of the estate",
+            "C": "two-thirds of the estate",
+            "D": "the entire estate"
+          },
+          "correct_option": "B",
+          "explanation": "The passage states that the limit is one-third of the estate without the heirs' consent.",
+          "difficulty": "Easy",
+          "q_no": 122
+        },
+        {
+          "question": "A Hindu coparcener died in 2001. His daughter claims coparcenary rights in 2015. Under Vineeta Sharma as described, she",
+          "options": {
+            "A": "is a coparcener by birth, even though her father died before 9 September 2005",
+            "B": "is a coparcener only if she was unmarried in 2001",
+            "C": "is entitled only to maintenance",
+            "D": "is not a coparcener, since her father was not alive on 9 September 2005"
+          },
+          "correct_option": "A",
+          "explanation": "Vineeta Sharma overruled the requirement that the father be alive on 9 September 2005.",
+          "difficulty": "Moderate",
+          "q_no": 123
+        },
+        {
+          "question": "A Hindu woman dies intestate, leaving neither husband nor children. The property she had inherited from her father goes to",
+          "options": {
+            "A": "the heirs of her husband",
+            "B": "the heirs of her mother",
+            "C": "the heirs of her father",
+            "D": "the State"
+          },
+          "correct_option": "C",
+          "explanation": "Under section 15(2), property inherited from her father goes, in the absence of children, to the heirs of her father.",
+          "difficulty": "Moderate",
+          "q_no": 124
+        },
+        {
+          "question": "In 2012, brothers claim that the ancestral property was partitioned orally in 1998 and rely on this to defeat their sister's claim to a coparcenary share. There is no public document supporting the alleged partition. Under Vineeta Sharma as described, the plea of oral partition is",
+          "options": {
+            "A": "accepted if two witnesses testify to it",
+            "B": "accepted, since partition before 20 December 2004 needs no proof",
+            "C": "accepted, since an oral partition made before 2005 is always valid",
+            "D": "not accepted without support of public documents, so her claim is not defeated"
+          },
+          "correct_option": "D",
+          "explanation": "An oral partition is not accepted unless supported by public documents.",
+          "difficulty": "Tough",
+          "q_no": 125
+        },
+        {
+          "question": "A Muslim donor declares a gift of a house to his nephew, who accepts it, but the donor continues in possession and never delivers it. The gift is",
+          "options": {
+            "A": "valid if the gift deed is registered",
+            "B": "invalid for want of delivery of possession",
+            "C": "valid, since declaration and acceptance suffice",
+            "D": "valid if two witnesses attest it"
+          },
+          "correct_option": "B",
+          "explanation": "A hiba requires declaration, acceptance and delivery of possession.",
+          "difficulty": "Moderate",
+          "q_no": 126
+        }
+      ],
+      "question_range": [
+        121,
+        126
+      ],
+      "word_count": 278
+    },
+    {
+      "passage_id": "P22",
+      "subject_area": "Insolvency and Company Law",
+      "title": "Company Law: Ultra Vires, Indoor Management, Foss v. Harbottle and Oppression",
+      "passage": "A company incorporated under the Companies Act, 2013 acts through its Memorandum and Articles, which are public documents; a person dealing with the company is deemed to have constructive notice of them. An act beyond the objects clause of the Memorandum is ultra vires and void (Ashbury Railway Carriage Co. v. Riche). The doctrine of indoor management in Royal British Bank v. Turquand protects an outsider dealing in good faith, who may assume that internal procedures have been complied with. The doctrine does not protect a person who has actual or constructive knowledge of the irregularity, a person put on inquiry by suspicious circumstances, or a transaction founded on forgery. Under Foss v. Harbottle, the court will not interfere in the internal management of a company at the instance of a minority, since the majority rules; exceptions include acts that are ultra vires or illegal, fraud on the minority by those in control, and infringement of members' personal rights. Sections 241 and 242 allow members to apply to the National Company Law Tribunal for relief against oppression and mismanagement. Under section 244, in a company having share capital, the application may be made by not less than one hundred members or one-tenth of the total number of members, whichever is less, or by members holding at least one-tenth of the issued share capital, subject to payment of calls; the Tribunal may waive these requirements. Section 149 requires that at least one-third of the total number of directors of a listed public company be independent directors, any fraction being rounded off as one. Fraud under section 447 is punishable with imprisonment which shall not be less than six months but may extend to ten years, and fine.",
+      "questions": [
+        {
+          "question": "The doctrine of indoor management protects",
+          "options": {
+            "A": "directors from personal liability for company debts",
+            "B": "the company from claims by outsiders",
+            "C": "minority shareholders from oppression",
+            "D": "outsiders who deal in good faith with a company"
+          },
+          "correct_option": "D",
+          "explanation": "The doctrine allows an outsider dealing in good faith to assume that internal procedures were complied with.",
+          "difficulty": "Easy",
+          "q_no": 127
+        },
+        {
+          "question": "An act of a company which is beyond the objects clause of its Memorandum is",
+          "options": {
+            "A": "valid, since the directors authorised it",
+            "B": "ultra vires and void",
+            "C": "voidable at the option of the company",
+            "D": "valid if ratified by an ordinary resolution"
+          },
+          "correct_option": "B",
+          "explanation": "The passage states that such an act is ultra vires and void.",
+          "difficulty": "Easy",
+          "q_no": 128
+        },
+        {
+          "question": "A company secretary forges the signatures of two directors on a share certificate and sells the shares to P, who acts in good faith. Under the passage, the company",
+          "options": {
+            "A": "is bound, since P had no notice of the forgery and acted in good faith",
+            "B": "is not bound, since indoor management does not protect forgery",
+            "C": "is bound, since the secretary has ostensible authority to sell shares",
+            "D": "is bound, since the Articles are public documents available to P"
+          },
+          "correct_option": "B",
+          "explanation": "Indoor management does not extend to forgery.",
+          "difficulty": "Moderate",
+          "q_no": 129
+        },
+        {
+          "question": "Directors who control the majority sell a valuable asset of the company to themselves at a throwaway price. A minority shareholder may",
+          "options": {
+            "A": "not sue, since the rule of majority control is absolute and admits no exception",
+            "B": "only seek the winding up of the company, and nothing else",
+            "C": "sue, as fraud on the minority by those in control is an exception to Foss v. Harbottle",
+            "D": "only complain to the Registrar of Companies, who alone can act in the matter"
+          },
+          "correct_option": "C",
+          "explanation": "Fraud on the minority by those in control is a recognised exception to Foss v. Harbottle.",
+          "difficulty": "Moderate",
+          "q_no": 130
+        },
+        {
+          "question": "A company with share capital has 600 members. Ignoring the issued-capital route and any waiver by the Tribunal, the minimum number of members who can apply under section 244 for relief against oppression is",
+          "options": {
+            "A": "6",
+            "B": "60",
+            "C": "100",
+            "D": "300"
+          },
+          "correct_option": "B",
+          "explanation": "The requirement is one hundred members or one-tenth of the members, whichever is less. One-tenth of 600 is 60, which is less than 100.",
+          "difficulty": "Tough",
+          "q_no": 131
+        },
+        {
+          "question": "A listed public company has a board of ten directors. The minimum number of independent directors required under section 149 is",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+          },
+          "correct_option": "C",
+          "explanation": "One-third of ten is 3.33, and the fraction is rounded off as one, giving four.",
+          "difficulty": "Tough",
+          "q_no": 132
+        }
+      ],
+      "question_range": [
+        127,
+        132
+      ],
+      "word_count": 286
+    },
+    {
+      "passage_id": "P23",
+      "subject_area": "Public International Law",
+      "title": "Sources of International Law, the Law of the Sea and India's Constitutional Engagement",
+      "passage": "Article 38 of the Statute of the International Court of Justice lists the sources of international law: treaties, international custom as evidence of a general practice accepted as law, and general principles of law recognised by civilised nations, with judicial decisions and the teachings of publicists as subsidiary means. Custom requires both consistent State practice and opinio juris, the belief that the practice is legally obligatory (North Sea Continental Shelf Cases, 1969). Peremptory norms (jus cogens) permit no derogation. In the Lotus case (1927), the Permanent Court held that restrictions on the independence of States cannot be presumed. In the Nottebohm case (1955), the ICJ held that a State may exercise diplomatic protection of a person only where there is a genuine link of nationality. Under UNCLOS, 1982, a coastal State's sovereignty extends to a territorial sea of up to twelve nautical miles, subject to the right of innocent passage; the contiguous zone extends to twenty-four nautical miles; and in the Exclusive Economic Zone, extending to two hundred nautical miles, the coastal State has sovereign rights over natural resources, though other States enjoy freedom of navigation. In the Enrica Lexie arbitration (2020), an Annex VII tribunal held that the Italian marines enjoyed immunity for acts committed while on duty, so that India could not exercise jurisdiction, but that India was entitled to compensation. In Kulbhushan Jadhav (India v. Pakistan) (2019), the ICJ held Pakistan in breach of Article 36 of the Vienna Convention on Consular Relations and directed effective review and reconsideration of his conviction and sentence, without ordering release. Article 51(c) of the Indian Constitution directs the State to foster respect for international law and treaty obligations, and in Vishaka v. State of Rajasthan (1997), the Supreme Court used international conventions to fill a legislative vacuum, reading them into Articles 14, 15, 19 and 21 where consistent with them.",
+      "questions": [
+        {
+          "question": "Under UNCLOS as described, a coastal State's territorial sea extends up to",
+          "options": {
+            "A": "6 nautical miles",
+            "B": "12 nautical miles",
+            "C": "24 nautical miles",
+            "D": "200 nautical miles"
+          },
+          "correct_option": "B",
+          "explanation": "The passage states that the territorial sea extends up to twelve nautical miles.",
+          "difficulty": "Easy",
+          "q_no": 133
+        },
+        {
+          "question": "The provision of the Indian Constitution which directs the State to foster respect for international law and treaty obligations is",
+          "options": {
+            "A": "Article 51(c)",
+            "B": "Article 246",
+            "C": "Article 21",
+            "D": "Article 253"
+          },
+          "correct_option": "A",
+          "explanation": "The passage states that Article 51(c) contains this direction.",
+          "difficulty": "Easy",
+          "q_no": 134
+        },
+        {
+          "question": "A group of States consistently follows a practice of dipping flags to a particular type of vessel, but only out of courtesy and not from any sense of legal obligation. The practice",
+          "options": {
+            "A": "becomes binding as a treaty between those States",
+            "B": "becomes custom, since the practice is consistent",
+            "C": "becomes a peremptory norm binding on all States",
+            "D": "does not become custom, since opinio juris is lacking"
+          },
+          "correct_option": "D",
+          "explanation": "Custom requires both consistent State practice and opinio juris.",
+          "difficulty": "Moderate",
+          "q_no": 135
+        },
+        {
+          "question": "State Z grants citizenship to a businessman against a fee, though he has never lived there. He is harmed in State Y, and Z espouses his claim. Under Nottebohm as described, Y may",
+          "options": {
+            "A": "object only if Y is a party to the UNCLOS regime",
+            "B": "object that there is no genuine link of nationality with Z",
+            "C": "object only if the businessman is otherwise a stateless person",
+            "D": "not object, since the grant of nationality is for Z alone to decide"
+          },
+          "correct_option": "B",
+          "explanation": "Nottebohm requires a genuine link for the exercise of diplomatic protection.",
+          "difficulty": "Moderate",
+          "q_no": 136
+        },
+        {
+          "question": "A foreign trawler is found fishing without a licence 150 nautical miles off India's coast. On UNCLOS as described, India",
+          "options": {
+            "A": "has sovereign rights over the living resources of its EEZ and may regulate the fishing",
+            "B": "has no rights, since this area forms part of the high seas",
+            "C": "has full territorial sovereignty over that area as over its land territory",
+            "D": "may act only if the trawler claims a right of innocent passage through the area"
+          },
+          "correct_option": "A",
+          "explanation": "150 nautical miles lies within the 200-nautical-mile EEZ, where the coastal State has sovereign rights over natural resources.",
+          "difficulty": "Moderate",
+          "q_no": 137
+        },
+        {
+          "question": "In Kulbhushan Jadhav (India v. Pakistan), the ICJ",
+          "options": {
+            "A": "found no breach of the Vienna Convention on Consular Relations",
+            "B": "ordered his release and repatriation to India without delay",
+            "C": "found a breach of Article 36 and ordered review, not release",
+            "D": "held his conviction void ab initio and set it aside altogether"
+          },
+          "correct_option": "C",
+          "explanation": "The passage states the breach finding and the direction for review and reconsideration, without release.",
+          "difficulty": "Tough",
+          "q_no": 138
+        }
+      ],
+      "question_range": [
+        133,
+        138
+      ],
+      "word_count": 310
+    },
+    {
+      "passage_id": "P24",
+      "subject_area": "Administrative Law",
+      "title": "Delegated Legislation and Natural Justice",
+      "passage": "Delegated legislation consists of rules, regulations and bye-laws made by an executive authority under power conferred by a statute. In Re Delhi Laws Act (1951), the Supreme Court held that the legislature cannot delegate its essential legislative functions, though it may delegate ancillary power. In Hamdard Dawakhana v. Union of India (1960), a provision conferring unguided power on the Central Government to specify diseases was struck down for lack of legislative policy. In Indian Express Newspapers v. Union of India (1985), the Court held that delegated legislation may be challenged on the grounds available against plenary legislation, and also on the ground that it conflicts with the parent Act or the Constitution or is manifestly arbitrary. Whether a requirement to lay rules before the legislature is mandatory or directory depends on the statute, and courts have generally treated it as directory where laying is only for information. Natural justice has two limbs: nemo judex in causa sua, the rule against bias, and audi alteram partem, the right to a fair hearing. In Ridge v. Baldwin (1964), the House of Lords insisted on a hearing before the dismissal of a police chief. In A.K. Kraipak v. Union of India (1969), the Supreme Court held that the distinction between administrative and quasi-judicial functions is blurred, and that the presence on a selection board of a member who was himself a candidate vitiated the selection. In Maneka Gandhi v. Union of India (1978), the Court held that natural justice is implicit in Article 14, and that where an authority acts urgently, a post-decisional hearing may satisfy the requirement. In S.N. Mukherjee v. Union of India (1990), the Court held that administrative authorities exercising quasi-judicial power must record reasons.",
+      "questions": [
+        {
+          "question": "In Re Delhi Laws Act, the Supreme Court held that the legislature",
+          "options": {
+            "A": "may delegate only to the judiciary, and to no other authority",
+            "B": "cannot delegate essential functions, but may delegate ancillary power",
+            "C": "may delegate any legislative function without limit to the executive",
+            "D": "may delegate only with the prior assent of the President"
+          },
+          "correct_option": "B",
+          "explanation": "The passage states that essential legislative functions cannot be delegated.",
+          "difficulty": "Easy",
+          "q_no": 139
+        },
+        {
+          "question": "The maxim audi alteram partem refers to",
+          "options": {
+            "A": "the right to a fair hearing",
+            "B": "the duty to give reasons",
+            "C": "the doctrine of legitimate expectation",
+            "D": "the rule against bias"
+          },
+          "correct_option": "A",
+          "explanation": "Audi alteram partem is the right to be heard; nemo judex is the rule against bias.",
+          "difficulty": "Easy",
+          "q_no": 140
+        },
+        {
+          "question": "In a selection process, a member of the selection board is himself a candidate and sits on the board when his own name is considered. On Kraipak as described, the selection is",
+          "options": {
+            "A": "valid, since the member is a public officer",
+            "B": "valid, since the function is purely administrative",
+            "C": "vitiated by bias",
+            "D": "valid unless the member voted for himself"
+          },
+          "correct_option": "C",
+          "explanation": "Kraipak held that such presence vitiated the selection and that the administrative/quasi-judicial distinction is blurred.",
+          "difficulty": "Moderate",
+          "q_no": 141
+        },
+        {
+          "question": "A rule made under an Act conflicts with a provision of the parent Act. Under Indian Express Newspapers as described, the rule is",
+          "options": {
+            "A": "valid if laid before the legislature",
+            "B": "valid unless it is shown to be unreasonable",
+            "C": "valid, since the delegate has wide rule-making power",
+            "D": "liable to be struck down as conflicting with the parent Act"
+          },
+          "correct_option": "D",
+          "explanation": "Delegated legislation may be challenged for conflict with the parent Act or the Constitution.",
+          "difficulty": "Moderate",
+          "q_no": 142
+        },
+        {
+          "question": "A statute requires rules to be laid before Parliament for information only, with no power to modify them. Rules are notified but not laid. Courts have generally treated the requirement as",
+          "options": {
+            "A": "directory, so that non-laying does not by itself invalidate them",
+            "B": "satisfied only on the assent of the President to the rules",
+            "C": "fatal only if Parliament later disapproves the rules by resolution",
+            "D": "mandatory, so that the rules are void for non-laying"
+          },
+          "correct_option": "A",
+          "explanation": "The passage states that courts have generally treated laying as directory where it is only for information.",
+          "difficulty": "Moderate",
+          "q_no": 143
+        },
+        {
+          "question": "A passport is impounded urgently in the public interest, and a hearing is offered only after the impounding. On Maneka Gandhi as described, this procedure",
+          "options": {
+            "A": "needs no hearing at all, since a passport is a mere privilege",
+            "B": "may satisfy natural justice, since urgency allows a post-decisional hearing",
+            "C": "is valid only during a Proclamation of Emergency",
+            "D": "is invalid, since a prior hearing is always required"
+          },
+          "correct_option": "B",
+          "explanation": "The passage states that in urgent cases a post-decisional hearing may satisfy the requirement.",
+          "difficulty": "Tough",
+          "q_no": 144
+        }
+      ],
+      "question_range": [
+        139,
+        144
+      ],
+      "word_count": 285
+    },
+    {
+      "passage_id": "P25",
+      "subject_area": "Intellectual Property Law",
+      "title": "Copyright and Trade Marks: Originality, Moral Rights and Registrability",
+      "passage": "Under the Copyright Act, 1957, copyright subsists in original literary, dramatic, musical and artistic works, and generally lasts for the life of the author plus sixty years. Copyright protects expression, not ideas (R.G. Anand v. Deluxe Films, 1978). In Eastern Book Company v. D.B. Modak (2008), the Supreme Court rejected the 'sweat of the brow' standard in favour of a 'modicum of creativity', holding that headnotes and copy-edited judgments showing sufficient creativity were protected, but not the judgments themselves. Section 57 confers on the author special rights, independent of the ownership of copyright, to claim authorship and to restrain distortion, mutilation or modification prejudicial to honour or reputation; in Amar Nath Sehgal v. Union of India (2005), the destruction of a mural was held to violate these moral rights. Section 52 lists acts that are not infringement, including fair dealing for private use, research, criticism, review and the reporting of current events. Under the Trade Marks Act, 1999, a mark is registered for ten years, renewable. Section 9 lists absolute grounds for refusal: marks devoid of distinctive character, descriptive of the goods, or customary in trade, unless the mark has acquired distinctiveness through use. Section 11 lists relative grounds, such as likelihood of confusion with an earlier mark. Passing off protects unregistered marks against misrepresentation causing damage. In Cadila Health Care Ltd. v. Cadila Pharmaceuticals Ltd. (2001), the Court held that, where medicinal products are concerned, a stricter standard applies in assessing deceptive similarity, because confusion may endanger health.",
+      "questions": [
+        {
+          "question": "Under the Copyright Act, 1957, copyright in a literary work generally lasts for",
+          "options": {
+            "A": "the life of the author plus 25 years",
+            "B": "the life of the author plus 50 years",
+            "C": "the life of the author plus 60 years",
+            "D": "100 years from publication"
+          },
+          "correct_option": "C",
+          "explanation": "The passage states that copyright generally lasts for the life of the author plus sixty years.",
+          "difficulty": "Easy",
+          "q_no": 145
+        },
+        {
+          "question": "Following R.G. Anand v. Deluxe Films, copyright protects",
+          "options": {
+            "A": "the idea, but not its expression",
+            "B": "both the idea and its expression equally",
+            "C": "the expression of an idea, not the idea itself",
+            "D": "neither ideas nor their expression"
+          },
+          "correct_option": "C",
+          "explanation": "Copyright protects expression, not ideas.",
+          "difficulty": "Easy",
+          "q_no": 146
+        },
+        {
+          "question": "A compiles an alphabetical list of names from a public telephone directory, with no selection or creative arrangement. Under the 'modicum of creativity' test of Eastern Book Company, A's compilation",
+          "options": {
+            "A": "enjoys copyright because of the effort invested in compiling it",
+            "B": "enjoys copyright for a period of ten years only",
+            "C": "enjoys copyright by virtue of the moral rights in section 57",
+            "D": "is unlikely to enjoy copyright, as mere labour is not enough"
+          },
+          "correct_option": "D",
+          "explanation": "Eastern Book rejected the sweat of the brow standard in favour of a modicum of creativity.",
+          "difficulty": "Moderate",
+          "q_no": 147
+        },
+        {
+          "question": "A sculptor sells a statue and assigns the copyright in it. The buyer later mutilates the statue, to the prejudice of the sculptor's reputation. Under section 57, the sculptor",
+          "options": {
+            "A": "has no remedy, since he has assigned the copyright to the buyer",
+            "B": "has a remedy only while he still owns the statue",
+            "C": "has a remedy only under the Trade Marks Act",
+            "D": "may still restrain it, as moral rights exist independently of copyright"
+          },
+          "correct_option": "D",
+          "explanation": "Section 57 rights exist independently of ownership of copyright.",
+          "difficulty": "Moderate",
+          "q_no": 148
+        },
+        {
+          "question": "A applies to register the word 'SWEET' for confectionery, with no evidence of acquired distinctiveness. The Registrar is likely to refuse registration under",
+          "options": {
+            "A": "section 52, as an act that is not infringement of copyright",
+            "B": "section 9, being descriptive and devoid of distinctive character",
+            "C": "section 57, as a violation of the author's moral rights",
+            "D": "section 11, for likelihood of confusion with an earlier mark"
+          },
+          "correct_option": "B",
+          "explanation": "Section 9 bars marks that are descriptive or devoid of distinctive character unless distinctiveness is acquired.",
+          "difficulty": "Moderate",
+          "q_no": 149
+        },
+        {
+          "question": "Two cough syrups are sold under similar brand names. In assessing deceptive similarity, following Cadila Health Care, the Court would apply",
+          "options": {
+            "A": "a stricter standard, since confusion between medicines may endanger health",
+            "B": "the same standard as applies to confectionery",
+            "C": "a lower standard, since pharmacists are careful",
+            "D": "no standard at all, since a registered mark cannot be challenged"
+          },
+          "correct_option": "A",
+          "explanation": "The Court held that a stricter standard applies to medicinal products.",
+          "difficulty": "Tough",
+          "q_no": 150
+        }
+      ],
+      "question_range": [
+        145,
+        150
+      ],
+      "word_count": 249
+    }
+  ],
+  "answer_key": {
+    "1": "C",
+    "2": "A",
+    "3": "A",
+    "4": "D",
+    "5": "D",
+    "6": "A",
+    "7": "C",
+    "8": "C",
+    "9": "D",
+    "10": "A",
+    "11": "A",
+    "12": "C",
+    "13": "A",
+    "14": "B",
+    "15": "A",
+    "16": "C",
+    "17": "A",
+    "18": "B",
+    "19": "C",
+    "20": "D",
+    "21": "D",
+    "22": "A",
+    "23": "C",
+    "24": "B",
+    "25": "A",
+    "26": "D",
+    "27": "C",
+    "28": "D",
+    "29": "A",
+    "30": "D",
+    "31": "B",
+    "32": "C",
+    "33": "B",
+    "34": "D",
+    "35": "B",
+    "36": "A",
+    "37": "A",
+    "38": "C",
+    "39": "B",
+    "40": "B",
+    "41": "D",
+    "42": "C",
+    "43": "B",
+    "44": "D",
+    "45": "B",
+    "46": "D",
+    "47": "C",
+    "48": "C",
+    "49": "B",
+    "50": "B",
+    "51": "B",
+    "52": "A",
+    "53": "D",
+    "54": "A",
+    "55": "A",
+    "56": "D",
+    "57": "B",
+    "58": "C",
+    "59": "C",
+    "60": "B",
+    "61": "A",
+    "62": "C",
+    "63": "A",
+    "64": "A",
+    "65": "D",
+    "66": "C",
+    "67": "B",
+    "68": "C",
+    "69": "D",
+    "70": "A",
+    "71": "A",
+    "72": "B",
+    "73": "B",
+    "74": "B",
+    "75": "D",
+    "76": "A",
+    "77": "C",
+    "78": "A",
+    "79": "A",
+    "80": "C",
+    "81": "D",
+    "82": "C",
+    "83": "C",
+    "84": "A",
+    "85": "D",
+    "86": "D",
+    "87": "A",
+    "88": "A",
+    "89": "B",
+    "90": "D",
+    "91": "C",
+    "92": "D",
+    "93": "D",
+    "94": "B",
+    "95": "B",
+    "96": "B",
+    "97": "C",
+    "98": "C",
+    "99": "B",
+    "100": "D",
+    "101": "D",
+    "102": "B",
+    "103": "D",
+    "104": "A",
+    "105": "D",
+    "106": "D",
+    "107": "A",
+    "108": "C",
+    "109": "D",
+    "110": "D",
+    "111": "C",
+    "112": "B",
+    "113": "A",
+    "114": "C",
+    "115": "D",
+    "116": "D",
+    "117": "B",
+    "118": "C",
+    "119": "B",
+    "120": "C",
+    "121": "A",
+    "122": "B",
+    "123": "A",
+    "124": "C",
+    "125": "D",
+    "126": "B",
+    "127": "D",
+    "128": "B",
+    "129": "B",
+    "130": "C",
+    "131": "B",
+    "132": "C",
+    "133": "B",
+    "134": "A",
+    "135": "D",
+    "136": "B",
+    "137": "A",
+    "138": "C",
+    "139": "B",
+    "140": "A",
+    "141": "C",
+    "142": "D",
+    "143": "A",
+    "144": "B",
+    "145": "C",
+    "146": "C",
+    "147": "D",
+    "148": "D",
+    "149": "B",
+    "150": "A"
+  },
+  "stats": {
+    "answer_distribution": {
+      "C": 37,
+      "A": 37,
+      "D": 38,
+      "B": 38
+    },
+    "difficulty_distribution": {
+      "Easy": 49,
+      "Moderate": 74,
+      "Tough": 27
+    }
+  }
+}

@@ -1,0 +1,2524 @@
+{
+  "mock_title": "CLAT PG (LL.M.) Full-Length Mock Test - 03 (Environment, Sustainable Development, Women's Rights, BNS / BNSS / BSA)",
+  "pattern": {
+    "total_questions": 150,
+    "question_type": "Passage-based MCQ (4 options, single correct); includes statement-based and assertion-reason items",
+    "passages": 25,
+    "questions_per_passage": 6,
+    "marks_per_question": 1,
+    "negative_marking": 0.25,
+    "total_marks": 150,
+    "suggested_duration_minutes": 150,
+    "note": "The official CLAT PG paper has 120 MCQs/120 marks/120 minutes. This mock is extended to 150; drop any five passages for exact parity."
+  },
+  "theme_coverage": {
+    "environment_and_sustainable_development": [
+      "P03",
+      "P04",
+      "P05",
+      "P06",
+      "P07",
+      "P08",
+      "P09",
+      "P21",
+      "P22",
+      "P24",
+      "P25"
+    ],
+    "women_work_reproductive_and_political_rights": [
+      "P02",
+      "P10",
+      "P11",
+      "P12",
+      "P13",
+      "P14",
+      "P15",
+      "P20"
+    ],
+    "bns_bnss_bsa": [
+      "P14",
+      "P15",
+      "P16",
+      "P17",
+      "P18",
+      "P19"
+    ]
+  },
+  "current_affairs_passages": {
+    "P04": "Vanashakti v. Union of India - ex post facto environmental clearance (May 2025; recall Nov 2025; 2026 review judgment)",
+    "P06": "ITLOS advisory opinion (May 2024); BBNJ Agreement in force 17 Jan 2026; plastics treaty talks (Aug 2025)",
+    "P08": "Wild Life (Protection) Amendment Act 2022; Biological Diversity (Amendment) Act 2023",
+    "P09": "CAQM Act 2021; closure of M.C. Mehta air pollution proceedings (2026)",
+    "P11": "K. Umadevi v. State of T.N. (23 May 2025); Hamsaanandini Nanduri v. Union of India (17 Mar 2026); Code on Social Security in force 21 Nov 2025",
+    "P13": "Nari Shakti Vandan Adhiniyam notified in force 16 Apr 2026; April 2026 fast-track package",
+    "P14": "Satender Kumar Antil v. CBI (2026) on Section 35 BNSS",
+    "P17": "Satender Kumar Antil v. CBI (2026); Section 479 BNSS (2024 direction)"
+  },
+  "subjects_covered": [
+    "Company Law",
+    "Constitutional Law",
+    "Constitutional Law / Environmental Law",
+    "Constitutional Law / Family Law",
+    "Constitutional Law / Labour Law",
+    "Criminal Law",
+    "Criminal Procedure",
+    "Criminal Procedure / Law of Evidence",
+    "Environmental Law",
+    "Environmental Law / Constitutional Law",
+    "Environmental Law / International Law",
+    "Family Law / Criminal Law",
+    "Intellectual Property Law",
+    "Jurisprudence",
+    "Labour Law / Constitutional Law",
+    "Law of Contract",
+    "Law of Torts",
+    "Public International Law / Environmental Law"
+  ],
+  "instructions": [
+    "Each question carries 1 mark; 0.25 marks deducted for each wrong answer.",
+    "Answer from the passage and the legal principles stated or implied; read every option.",
+    "Current-affairs and section-number details were checked against news and law-report coverage up to early Nov 2026; verify against bare acts and judgments before citing in exam answers."
+  ],
+  "passages": [
+    {
+      "passage_id": "P01",
+      "subject_area": "Jurisprudence",
+      "title": "Rawls, Utilitarianism and Justice Between Generations",
+      "passage": "Utilitarianism, associated with Jeremy Bentham and J.S. Mill, holds that a law or action is right in so far as it promotes the greatest happiness of the greatest number; Bentham's 'felicific calculus' sought to measure pleasure and pain by their intensity, duration and certainty. Critics object that the principle can justify sacrificing a minority for the benefit of the majority. John Rawls, in A Theory of Justice (1971), answered with 'justice as fairness'. The principles of justice, he argued, are those which free and rational persons would choose in an 'original position' behind a 'veil of ignorance', where no one knows his class, talents or even the generation to which he belongs. Two principles emerge. The first guarantees equal basic liberties for all and has lexical priority over the second. The second permits social and economic inequalities only if they are attached to positions open to all under fair equality of opportunity and work to the greatest benefit of the least advantaged, which is the 'difference principle'. Because the parties do not know their generation, Rawls added a 'just savings principle': each generation must put aside a fair amount of capital and resources for those that follow. Robert Nozick, in Anarchy, State and Utopia, rejected such patterned theories and defended an entitlement theory, under which a distribution is just if holdings were justly acquired and justly transferred, which supports only a minimal State. Amartya Sen's capability approach, in The Idea of Justice, shifts attention from the holding of primary goods, on which Rawls relied, to what persons are actually able to do and to be. The Brundtland Commission's report, Our Common Future (1987), defined sustainable development as development that meets the needs of the present without compromising the ability of future generations to meet their own needs, a formulation widely described as a principle of intergenerational equity, which Indian courts have invoked in environmental cases.",
+      "questions": [
+        {
+          "question": "The 'veil of ignorance' in Rawls's theory is designed to ensure that the parties who choose the principles of justice",
+          "options": {
+            "A": "decide by applying the greatest-happiness calculation of the majority",
+            "B": "know their own talents and bargain for the greatest personal advantage",
+            "C": "are bound by the commands of a sovereign who fixes the outcome",
+            "D": "do not know their own class, talents or generation, and therefore choose impartially"
+          },
+          "correct_option": "D",
+          "explanation": "The veil removes knowledge of particular advantages, so that the principles chosen are impartial.",
+          "difficulty": "Easy",
+          "q_no": 1
+        },
+        {
+          "question": "According to the passage, an inequality is permissible in Rawls's scheme only if it",
+          "options": {
+            "A": "arises from just acquisition and transfer, whatever its effect on the poor",
+            "B": "is approved by a majority of citizens in a vote",
+            "C": "attaches to positions open to all under fair equality of opportunity and works to the greatest benefit of the least advantaged",
+            "D": "increases total happiness even where the least advantaged are made worse off"
+          },
+          "correct_option": "C",
+          "explanation": "This is the second principle together with the difference principle.",
+          "difficulty": "Moderate",
+          "q_no": 2
+        },
+        {
+          "question": "Which of the following best links Rawls's 'just savings principle' with the Brundtland definition of sustainable development?",
+          "options": {
+            "A": "Both allow the present generation to consume freely so long as current welfare is maximised",
+            "B": "Both require the present generation to take account of the claims of future generations in the use of resources and capital",
+            "C": "Both treat the interests of future generations as irrelevant until those generations exist",
+            "D": "Both are derived from Nozick's entitlement theory"
+          },
+          "correct_option": "B",
+          "explanation": "Each imposes a duty of fairness across generations, which is the core of intergenerational equity.",
+          "difficulty": "Moderate",
+          "q_no": 3
+        },
+        {
+          "question": "A mining project promises large revenue to the present generation but will permanently exhaust an aquifer on which a tribal community and later generations depend. Which objection is most consistent with Rawls's theory?",
+          "options": {
+            "A": "Its effect on happiness cannot be measured by a felicific calculus",
+            "B": "It worsens the position of the least advantaged and breaches the duty to save for later generations",
+            "C": "It interferes with entitlements acquired by the mining company through just transfer",
+            "D": "It has not been approved by a majority of present voters"
+          },
+          "correct_option": "B",
+          "explanation": "The difference principle and the just savings principle together condemn the project; the other options reflect other theories or irrelevant tests.",
+          "difficulty": "Tough",
+          "q_no": 4
+        },
+        {
+          "question": "Consider the following statements. 1. Bentham's felicific calculus measures pleasure and pain by intensity, duration and certainty. 2. In Rawls's theory, the principle of equal basic liberties has lexical priority over the second principle. 3. Nozick defends the difference principle as a requirement of justice. Which of the statements are correct?",
+          "options": {
+            "A": "1 and 2 only",
+            "B": "1 and 3 only",
+            "C": "2 and 3 only",
+            "D": "1, 2 and 3"
+          },
+          "correct_option": "A",
+          "explanation": "Statements 1 and 2 appear in the passage; Nozick rejects patterned principles such as the difference principle.",
+          "difficulty": "Tough",
+          "q_no": 5
+        },
+        {
+          "question": "Assertion (A): Sen's capability approach differs from Rawls's emphasis on the distribution of primary goods. Reason (R): Sen directs attention to what persons are actually able to do and to be. Which is correct?",
+          "options": {
+            "A": "Both A and R are true, and R is the correct explanation of A",
+            "B": "Both A and R are true, but R is not the correct explanation of A",
+            "C": "A is true but R is false",
+            "D": "A is false but R is true"
+          },
+          "correct_option": "A",
+          "explanation": "R states precisely how Sen departs from Rawls, and so explains A.",
+          "difficulty": "Moderate",
+          "q_no": 6
+        }
+      ],
+      "question_range": [
+        1,
+        6
+      ],
+      "word_count": 315
+    },
+    {
+      "passage_id": "P02",
+      "subject_area": "Jurisprudence",
+      "title": "Feminist Jurisprudence and the Idea of Substantive Equality",
+      "passage": "Feminist jurisprudence examines how law constructs and entrenches gender hierarchy. Liberal feminism seeks formal equality: women should be treated as men are, and sex-based classifications should be removed. Difference or 'cultural' feminism, associated with Carol Gilligan's In a Different Voice, contends that women often reason from an ethic of care and relationship rather than abstract rights, and that law should accommodate that difference. Catharine MacKinnon's dominance approach regards gender as a hierarchy of power and asks not whether women are treated the same as or differently from men, but whether law perpetuates the subordination of women. Kimberle Crenshaw coined the term 'intersectionality' to describe how discrimination on grounds such as race, caste and sex combines, so that the experience of a person subject to several grounds cannot be understood by examining each ground separately. Indian constitutional law reflects these debates. Article 15(1) prohibits discrimination on grounds only of sex, but Article 15(3) permits special provisions for women and children. In Anuj Garg v. Hotel Association of India (2007), the Supreme Court struck down a law prohibiting the employment of women in establishments serving liquor, holding that protective laws founded on stereotypes of women's vulnerability restrict their autonomy, and that protection must not become a pretext for exclusion. In Githa Hariharan v. Reserve Bank of India (1999), the Court read the word 'after' in Section 6(a) of the Hindu Minority and Guardianship Act as 'in the absence of', so that a mother may act as natural guardian even while the father is alive. In Joseph Shine v. Union of India (2018), the Court struck down Section 497 of the Indian Penal Code, which treated the wife as the property of her husband, for violating Articles 14, 15 and 21. The Bharatiya Nyaya Sanhita, 2023 contains no offence corresponding to Section 497. The Court has repeatedly said that substantive equality requires attention to the real conditions of women's lives.",
+      "questions": [
+        {
+          "question": "Liberal feminism, as described in the passage, is chiefly concerned to secure",
+          "options": {
+            "A": "separate legal systems for women",
+            "B": "formal equality, so that women are treated as men are and sex-based classifications are removed",
+            "C": "an ethic of care which the law should adopt in place of rights",
+            "D": "recognition that gender is a hierarchy of power"
+          },
+          "correct_option": "B",
+          "explanation": "The passage identifies formal equality as the liberal feminist goal.",
+          "difficulty": "Easy",
+          "q_no": 7
+        },
+        {
+          "question": "MacKinnon's dominance approach asks whether",
+          "options": {
+            "A": "women reason differently from men",
+            "B": "discrimination was intended by the legislature",
+            "C": "the law perpetuates the subordination of women",
+            "D": "women are treated identically with men in every respect"
+          },
+          "correct_option": "C",
+          "explanation": "The test is dominance and subordination, not sameness or difference.",
+          "difficulty": "Moderate",
+          "q_no": 8
+        },
+        {
+          "question": "A Dalit woman worker is denied promotion. The employer shows that Dalit men and upper-caste women in the same unit have been promoted, and argues that there is no discrimination on either ground. The concept that best explains why a single-ground analysis may fail to capture her claim is",
+          "options": {
+            "A": "the ethic of care",
+            "B": "intersectionality",
+            "C": "formal equality",
+            "D": "protective discrimination under Article 15(3)"
+          },
+          "correct_option": "B",
+          "explanation": "Intersectionality addresses the combined effect of caste and sex, which separate comparisons miss.",
+          "difficulty": "Tough",
+          "q_no": 9
+        },
+        {
+          "question": "The Court struck down the restriction on women's employment in Anuj Garg because",
+          "options": {
+            "A": "Article 15(3) forbids any special provision for women",
+            "B": "Parliament alone had competence to regulate such employment",
+            "C": "protective laws founded on stereotypes restrict women's autonomy and cannot be justified as protection",
+            "D": "the liquor trade is an absolute fundamental right"
+          },
+          "correct_option": "C",
+          "explanation": "The passage records the reasoning that paternalistic, stereotype-based protection restricts autonomy.",
+          "difficulty": "Moderate",
+          "q_no": 10
+        },
+        {
+          "question": "Consider the following statements. 1. In Joseph Shine v. Union of India, the Supreme Court struck down Section 497 of the Indian Penal Code. 2. The Bharatiya Nyaya Sanhita, 2023 retains an offence corresponding to Section 497. 3. In Githa Hariharan, the Court read 'after' in Section 6(a) of the Hindu Minority and Guardianship Act as 'in the absence of'. Which of the statements are correct?",
+          "options": {
+            "A": "1 and 2 only",
+            "B": "1 and 3 only",
+            "C": "2 and 3 only",
+            "D": "1, 2 and 3"
+          },
+          "correct_option": "B",
+          "explanation": "Statements 1 and 3 are stated in the passage; the BNS has no corresponding offence.",
+          "difficulty": "Tough",
+          "q_no": 11
+        },
+        {
+          "question": "Which proposition is most consistent with the passage regarding Article 15(3)?",
+          "options": {
+            "A": "Article 15(3) applies only to children",
+            "B": "Article 15(3) overrides Article 15(1) in every case",
+            "C": "Article 15(3) authorises the complete exclusion of women from any occupation",
+            "D": "Special provisions for women are permitted, but those founded on stereotypes of vulnerability may fail scrutiny"
+          },
+          "correct_option": "D",
+          "explanation": "Anuj Garg shows that Article 15(3) does not validate stereotype-driven exclusion.",
+          "difficulty": "Moderate",
+          "q_no": 12
+        }
+      ],
+      "question_range": [
+        7,
+        12
+      ],
+      "word_count": 317
+    },
+    {
+      "passage_id": "P03",
+      "subject_area": "Environmental Law",
+      "title": "Sustainable Development: Balance, Burden and Non-Regression",
+      "passage": "The Brundtland Commission defined sustainable development as development that meets present needs without compromising the ability of future generations to meet theirs. The non-binding Rio Declaration of 1992 elaborates the idea: Principle 3 requires that the right to development be fulfilled so as to meet equitably the developmental and environmental needs of present and future generations, Principle 4 makes environmental protection an integral part of development, Principle 15 states the precautionary approach, and Principle 16 says that the polluter should, in principle, bear the cost of pollution. Indian courts, drawing on Articles 21, 48A and 51A(g), have made these ideas part of domestic law. In Vellore Citizens' Welfare Forum (1996), the precautionary and polluter pays principles were accepted as essential features of sustainable development. In A.P. Pollution Control Board v. M.V. Nayudu (1999), the Court held that, where the effects of an activity are uncertain, the burden of showing that it is environmentally benign lies on its proponent, and stressed the need for expert environmental authorities. In Narmada Bachao Andolan v. Union of India (2000), the majority declined to halt the Sardar Sarovar project, holding that development and environment must be balanced and that a project may proceed where adequate environmental and rehabilitation safeguards are in place. In Intellectuals Forum, Tirupathi v. State of A.P. (2006), the Court invoked intergenerational equity and the public trust to protect water bodies. In Hanuman Laxman Aroskar v. Union of India (2019), the Court set aside an environmental clearance for an airport in Goa for want of a cumulative impact assessment and recognised the principle of non-regression: standards of environmental protection, once attained, should not be diluted without compelling justification. In Harbinder Singh Sekhon v. State of Punjab (February 2026), the Court held that a dilution of preventive environmental safeguards, without proportionate and scientifically substantiated justification, is arbitrary and infringes the right to a clean environment under Article 21.",
+      "questions": [
+        {
+          "question": "The 'principle of non-regression' recognised in Aroskar means that",
+          "options": {
+            "A": "standards of environmental protection once attained should not be diluted without compelling justification",
+            "B": "a project once cleared can never be reviewed",
+            "C": "developing States may not reduce their emissions",
+            "D": "polluters are exempt from liability after a clearance"
+          },
+          "correct_option": "A",
+          "explanation": "The passage states the principle in these terms.",
+          "difficulty": "Moderate",
+          "q_no": 13
+        },
+        {
+          "question": "A State amends its rules to halve the mandatory buffer zone around industrial units, without any scientific study, to attract investment. In the light of the passage, the amendment is",
+          "options": {
+            "A": "invalid only if Parliament has passed a contrary law",
+            "B": "valid, since the right to development always prevails",
+            "C": "valid, since the Rio Declaration is binding on the State",
+            "D": "open to challenge as arbitrary, since dilution of preventive safeguards needs proportionate, reasoned and scientific justification"
+          },
+          "correct_option": "D",
+          "explanation": "Harbinder Singh Sekhon (2026) condemns unjustified dilution as arbitrary and contrary to Article 21.",
+          "difficulty": "Tough",
+          "q_no": 14
+        },
+        {
+          "question": "The approach of the majority in Narmada Bachao Andolan, as described in the passage, was that",
+          "options": {
+            "A": "development always prevails over environmental concerns",
+            "B": "courts must decide the technical merits of dam design",
+            "C": "development and environment must be balanced, and a project may proceed where adequate safeguards are in place",
+            "D": "environmental concerns always prevail over development"
+          },
+          "correct_option": "C",
+          "explanation": "The majority accepted the project with safeguards, on a balancing approach.",
+          "difficulty": "Moderate",
+          "q_no": 15
+        },
+        {
+          "question": "In Nayudu, where the effects of an activity on the environment are uncertain, the burden of proof is on",
+          "options": {
+            "A": "the court",
+            "B": "the citizen who objects to it",
+            "C": "the person proposing the activity",
+            "D": "the pollution control board in every case"
+          },
+          "correct_option": "C",
+          "explanation": "The precautionary principle shifts the burden to the proponent.",
+          "difficulty": "Easy",
+          "q_no": 16
+        },
+        {
+          "question": "Assertion (A): The principle of intergenerational equity restricts the freedom of the present generation in the use of natural resources. Reason (R): The Brundtland formulation requires present needs to be met without compromising the ability of future generations to meet theirs. Which is correct?",
+          "options": {
+            "A": "Both A and R are true, and R is the correct explanation of A",
+            "B": "Both A and R are true, but R is not the correct explanation of A",
+            "C": "A is true but R is false",
+            "D": "A is false but R is true"
+          },
+          "correct_option": "A",
+          "explanation": "R states the content of the principle that justifies the restriction in A.",
+          "difficulty": "Moderate",
+          "q_no": 17
+        },
+        {
+          "question": "Consider the following statements. 1. Principle 16 of the Rio Declaration states that the polluter should, in principle, bear the cost of pollution. 2. Principle 15 of the Rio Declaration states the precautionary approach. 3. The Rio Declaration is a binding treaty which Indian courts must enforce as such. Which of the statements are correct?",
+          "options": {
+            "A": "1 and 2 only",
+            "B": "1 and 3 only",
+            "C": "2 and 3 only",
+            "D": "1, 2 and 3"
+          },
+          "correct_option": "A",
+          "explanation": "Statements 1 and 2 are accurate; the Declaration is non-binding and its principles operate in India through domestic law and judicial recognition.",
+          "difficulty": "Tough",
+          "q_no": 18
+        }
+      ],
+      "question_range": [
+        13,
+        18
+      ],
+      "word_count": 315
+    },
+    {
+      "passage_id": "P04",
+      "subject_area": "Environmental Law",
+      "title": "Environmental Clearance and the Fate of Ex Post Facto Approvals",
+      "passage": "The Environment (Protection) Act, 1986 authorises the Central Government under Section 3 to take all measures necessary to protect and improve the environment. The EIA Notification, 2006, issued under that power, requires prior environmental clearance (EC) for listed projects. Category A projects are appraised at the Centre by an Expert Appraisal Committee, and Category B projects at the State level by the State Environment Impact Assessment Authority. The process has four stages: screening, scoping, public consultation and appraisal. A project may not be commenced, other than for limited preliminary work, before the EC is granted. In Common Cause v. Union of India (2017) and Alembic Pharmaceuticals v. Rohit Prajapati (2020), the Supreme Court described ex post facto clearance, that is, clearance granted after a project has begun or operated without prior EC, as alien to environmental jurisprudence. A 2017 notification created a one-time window for violators to apply for ex post facto EC, and a 2021 Office Memorandum provided a continuing mechanism. In Vanashakti v. Union of India (16 May 2025), a two-judge Bench struck down both and barred such clearances in future. On 18 November 2025, a three-judge Bench, by a majority of two to one, recalled that judgment, reasoning that Common Cause had not laid down an absolute bar and that the demolition of completed projects would waste valuable public resources; Justice Bhuyan dissented, holding that the concept is contrary to the precautionary principle. In 2026, in the review proceedings, the Court held that the prior EC regime under the 2006 Notification is mandatory and does not admit post facto clearance without formal amendment. It invalidated the continuing 2021 Office Memorandum but upheld the Centre's power under Section 3 of the 1986 Act to frame tailored amnesty schemes for violators.",
+      "questions": [
+        {
+          "question": "Under the EIA Notification, 2006, as described in the passage, Category A projects are appraised by",
+          "options": {
+            "A": "the State Environment Impact Assessment Authority",
+            "B": "an Expert Appraisal Committee at the Centre",
+            "C": "the Gram Sabha",
+            "D": "the National Green Tribunal"
+          },
+          "correct_option": "B",
+          "explanation": "The passage assigns Category A to the Centre and Category B to the State authority.",
+          "difficulty": "Easy",
+          "q_no": 19
+        },
+        {
+          "question": "An 'ex post facto' environmental clearance is one granted",
+          "options": {
+            "A": "only for Category B projects",
+            "B": "after a public hearing has been held",
+            "C": "after the project has begun or operated without prior clearance",
+            "D": "before the project report is prepared"
+          },
+          "correct_option": "C",
+          "explanation": "The passage defines the term in these words.",
+          "difficulty": "Easy",
+          "q_no": 20
+        },
+        {
+          "question": "In the November 2025 recall of the Vanashakti judgment, the majority reasoned that",
+          "options": {
+            "A": "the Supreme Court has no power to review its own judgments",
+            "B": "the 2006 Notification itself permits post facto clearance in every case",
+            "C": "the precautionary principle does not apply to clearances",
+            "D": "Common Cause had not laid down an absolute bar, and demolition of completed projects would waste public resources"
+          },
+          "correct_option": "D",
+          "explanation": "The passage records these two reasons.",
+          "difficulty": "Moderate",
+          "q_no": 21
+        },
+        {
+          "question": "Which executive measure is most consistent with the Court's 2026 holding on ex post facto clearance?",
+          "options": {
+            "A": "An order treating prior EC as optional for Category B projects",
+            "B": "A tailored, one-time amnesty scheme for violators framed under Section 3 of the 1986 Act",
+            "C": "A permanent Office Memorandum allowing any violator to seek regularisation at any time",
+            "D": "A rule permitting commencement of construction before EC for Category A projects"
+          },
+          "correct_option": "B",
+          "explanation": "The Court invalidated the continuing Office Memorandum but upheld the power to frame tailored amnesty schemes.",
+          "difficulty": "Tough",
+          "q_no": 22
+        },
+        {
+          "question": "Consider the following statements. 1. Prior environmental clearance is mandatory under the 2006 Notification, according to the Court's 2026 holding. 2. The May 2025 Vanashakti judgment was recalled by a majority of two to one. 3. Justice Bhuyan agreed with the majority in the November 2025 recall. Which of the statements are correct?",
+          "options": {
+            "A": "1 and 2 only",
+            "B": "1 and 3 only",
+            "C": "2 and 3 only",
+            "D": "1, 2 and 3"
+          },
+          "correct_option": "A",
+          "explanation": "Statements 1 and 2 are correct; Justice Bhuyan dissented.",
+          "difficulty": "Moderate",
+          "q_no": 23
+        },
+        {
+          "question": "Assertion (A): Justice Bhuyan regarded ex post facto clearance as contrary to the precautionary principle. Reason (R): Prior assessment of impact is the essence of the precautionary approach, whereas post facto assessment examines harm after it has occurred. Which is correct?",
+          "options": {
+            "A": "Both A and R are true, and R is the correct explanation of A",
+            "B": "Both A and R are true, but R is not the correct explanation of A",
+            "C": "A is true but R is false",
+            "D": "A is false but R is true"
+          },
+          "correct_option": "A",
+          "explanation": "R gives the reasoning which supports A.",
+          "difficulty": "Tough",
+          "q_no": 24
+        }
+      ],
+      "question_range": [
+        19,
+        24
+      ],
+      "word_count": 292
+    },
+    {
+      "passage_id": "P05",
+      "subject_area": "Environmental Law / International Law",
+      "title": "Climate Law: The Paris Agreement and India's Domestic Architecture",
+      "passage": "Article 2(1)(a) of the Paris Agreement (2015) aims to hold the increase in global average temperature well below 2 degrees Celsius above pre-industrial levels and to pursue efforts to limit it to 1.5 degrees. Under Article 4, each Party must prepare, communicate and maintain successive nationally determined contributions (NDCs) reflecting progression over time. The Agreement is to be implemented to reflect equity and the principle of common but differentiated responsibilities and respective capabilities (CBDR-RC), in the light of different national circumstances, which means that all States share responsibility but the obligations differ according to historical contribution and capacity. Article 6 allows voluntary cooperative approaches, including the use of internationally transferred mitigation outcomes, and establishes a mechanism for trading emission reductions. At the Glasgow summit in 2021, India announced the goal of net-zero emissions by 2070. India's updated NDC (2022) commits to reducing the emissions intensity of its GDP by 45 per cent by 2030 from the 2005 level, and to achieving about 50 per cent cumulative electric power installed capacity from non-fossil sources by 2030, subject to technology transfer and low-cost climate finance. India has no single comprehensive climate statute; its response rests on sectoral laws such as the Environment (Protection) Act, 1986 and the Energy Conservation Act, 2001. The Energy Conservation (Amendment) Act, 2022 empowers the Centre to specify a carbon credit trading scheme and to require designated consumers to use a minimum share of non-fossil energy. The Green Credit Programme (2023), notified under the 1986 Act, is a voluntary, market-based mechanism that rewards environmentally positive actions such as afforestation and water conservation. In M.K. Ranjitsinh v. Union of India (2024), the Supreme Court read Articles 14 and 21 to include a right to be free from the adverse effects of climate change, giving a constitutional dimension to climate protection in the absence of a general statute.",
+      "questions": [
+        {
+          "question": "The temperature goal in Article 2(1)(a) of the Paris Agreement is to hold the increase well below",
+          "options": {
+            "A": "2.5 degrees Celsius, with 2 degrees as a stretch target",
+            "B": "1 degree Celsius above the 2005 level",
+            "C": "3 degrees Celsius, with no further effort",
+            "D": "2 degrees Celsius, while pursuing efforts to limit it to 1.5 degrees"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states the goal in these terms.",
+          "difficulty": "Easy",
+          "q_no": 25
+        },
+        {
+          "question": "The principle of CBDR-RC means that",
+          "options": {
+            "A": "developing States are exempt from submitting NDCs",
+            "B": "all States share responsibility for climate change, but their obligations differ according to historical contribution and capacity",
+            "C": "all States must reduce emissions by an identical percentage",
+            "D": "only developed States have obligations under the Agreement"
+          },
+          "correct_option": "B",
+          "explanation": "The passage explains the principle in these terms.",
+          "difficulty": "Moderate",
+          "q_no": 26
+        },
+        {
+          "question": "Which statement correctly describes India's domestic climate architecture on the basis of the passage?",
+          "options": {
+            "A": "India has enacted a Climate Change Act that creates a mandatory national carbon tax",
+            "B": "India's NDC is a statute enforceable in the High Courts",
+            "C": "India has no single comprehensive climate statute and relies on sectoral laws such as the 1986 Act and the Energy Conservation Act, as amended",
+            "D": "India's climate response is codified wholly in the Energy Conservation Act, 2001"
+          },
+          "correct_option": "C",
+          "explanation": "The passage states that there is no single comprehensive climate statute.",
+          "difficulty": "Moderate",
+          "q_no": 27
+        },
+        {
+          "question": "The use of internationally transferred mitigation outcomes is provided for in",
+          "options": {
+            "A": "Article 2(1)(a) of the Paris Agreement",
+            "B": "Section 3 of the Environment (Protection) Act, 1986",
+            "C": "the Green Credit Programme of 2023",
+            "D": "Article 6 of the Paris Agreement"
+          },
+          "correct_option": "D",
+          "explanation": "Article 6 provides for voluntary cooperative approaches, including transferred mitigation outcomes.",
+          "difficulty": "Moderate",
+          "q_no": 28
+        },
+        {
+          "question": "The Green Credit Programme, 2023 is best described as",
+          "options": {
+            "A": "a compulsory tax on all industrial emissions",
+            "B": "a replacement for the carbon credit trading scheme under the Energy Conservation Act",
+            "C": "a voluntary, market-based mechanism rewarding environmentally positive actions such as afforestation and water conservation",
+            "D": "a treaty obligation under Article 6 of the Paris Agreement"
+          },
+          "correct_option": "C",
+          "explanation": "The passage describes it as voluntary and market-based.",
+          "difficulty": "Moderate",
+          "q_no": 29
+        },
+        {
+          "question": "Assertion (A): The decision in M.K. Ranjitsinh gives climate protection a constitutional footing in India even though there is no comprehensive climate statute. Reason (R): The Court read Articles 14 and 21 to include a right to be free from the adverse effects of climate change. Which is correct?",
+          "options": {
+            "A": "Both A and R are true, and R is the correct explanation of A",
+            "B": "Both A and R are true, but R is not the correct explanation of A",
+            "C": "A is true but R is false",
+            "D": "A is false but R is true"
+          },
+          "correct_option": "A",
+          "explanation": "R states the basis for the constitutional recognition asserted in A.",
+          "difficulty": "Tough",
+          "q_no": 30
+        }
+      ],
+      "question_range": [
+        25,
+        30
+      ],
+      "word_count": 308
+    },
+    {
+      "passage_id": "P06",
+      "subject_area": "Public International Law / Environmental Law",
+      "title": "Transboundary Harm, Climate Obligations and the Oceans",
+      "passage": "The principle that a State must not allow its territory to be used to harm others has deep roots. In the Trail Smelter arbitration (United States v. Canada, 1941), the tribunal held that, under the principles of international law, no State has the right to use or permit the use of its territory so as to cause injury by fumes in or to the territory of another, where the case is of serious consequence and the injury is established by clear and convincing evidence. Principle 21 of the Stockholm Declaration (1972) and Principle 2 of the Rio Declaration (1992) affirm the sovereign right of States to exploit their resources under their own environmental and developmental policies, together with the responsibility to ensure that activities within their jurisdiction do not damage the environment of other States or of areas beyond national jurisdiction. In Pulp Mills on the River Uruguay (Argentina v. Uruguay, 2010), the International Court of Justice held that, where a proposed industrial activity may have a significant adverse impact in a transboundary context, an environmental impact assessment is a requirement under general international law, the content of which is left to each State's domestic law. In Costa Rica v. Nicaragua (compensation, 2018), the Court held that compensation is due for damage to the environment itself, including the loss of goods and services which the damaged environment would have provided. In May 2024, the International Tribunal for the Law of the Sea, in an advisory opinion, held that anthropogenic greenhouse gas emissions constitute pollution of the marine environment under UNCLOS, and that States must take all necessary measures to prevent, reduce and control it, the standard of due diligence being stringent in view of the risk. The Agreement on Biodiversity Beyond National Jurisdiction (the High Seas Treaty), adopted in 2023, entered into force on 17 January 2026, 120 days after the sixtieth ratification. It provides for benefit-sharing from marine genetic resources, area-based management tools including marine protected areas, environmental impact assessments and capacity building. States that are not Parties may attend its Conference of the Parties only as observers. By contrast, negotiations in Geneva in August 2025 on a global treaty on plastic pollution ended without agreement.",
+      "questions": [
+        {
+          "question": "The Trail Smelter arbitration is regarded as the foundation of the rule that",
+          "options": {
+            "A": "a State has unlimited sovereignty over its natural resources",
+            "B": "only treaties can create environmental obligations",
+            "C": "pollution is a matter of exclusive domestic jurisdiction",
+            "D": "a State may not allow its territory to be used so as to cause serious injury to the territory of another State"
+          },
+          "correct_option": "D",
+          "explanation": "The passage records the tribunal's statement of the no-harm principle.",
+          "difficulty": "Easy",
+          "q_no": 31
+        },
+        {
+          "question": "According to Pulp Mills, an environmental impact assessment is required where",
+          "options": {
+            "A": "a proposed activity risks a significant adverse transboundary impact, its content being determined by domestic law",
+            "B": "a State proposes any industrial activity whatsoever",
+            "C": "the neighbouring State consents to the activity",
+            "D": "a treaty expressly requires it, and not otherwise"
+          },
+          "correct_option": "A",
+          "explanation": "The Court treated EIA as a requirement of general international law in such cases.",
+          "difficulty": "Moderate",
+          "q_no": 32
+        },
+        {
+          "question": "In Costa Rica v. Nicaragua (2018), the International Court of Justice held that",
+          "options": {
+            "A": "compensation is available only for damage to private property",
+            "B": "environmental damage can never be compensated in money",
+            "C": "only the State in whose territory the harm occurs may claim restitution",
+            "D": "compensation is due for damage to the environment itself, including loss of the goods and services the environment would have provided"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states this holding.",
+          "difficulty": "Moderate",
+          "q_no": 33
+        },
+        {
+          "question": "In its 2024 advisory opinion, the International Tribunal for the Law of the Sea held that greenhouse gas emissions",
+          "options": {
+            "A": "constitute marine pollution under UNCLOS, which States must take all necessary measures to prevent, reduce and control",
+            "B": "may be regulated only by the International Court of Justice",
+            "C": "fall outside UNCLOS because they originate on land",
+            "D": "are regulated only by the Paris Agreement and not by UNCLOS"
+          },
+          "correct_option": "A",
+          "explanation": "The passage records this holding.",
+          "difficulty": "Moderate",
+          "q_no": 34
+        },
+        {
+          "question": "State X has not ratified the High Seas Treaty. On the basis of the passage, State X",
+          "options": {
+            "A": "may vote at the Conference of the Parties",
+            "B": "is bound because the treaty has entered into force",
+            "C": "must submit its marine activities to the International Court of Justice for review",
+            "D": "is not bound by the Agreement as a treaty, and may attend its Conference of the Parties only as an observer"
+          },
+          "correct_option": "D",
+          "explanation": "A treaty binds only its Parties; non-Parties are observers at the Conference of the Parties.",
+          "difficulty": "Moderate",
+          "q_no": 35
+        },
+        {
+          "question": "Consider the following statements. 1. Principle 2 of the Rio Declaration couples a State's sovereign right to exploit its resources with a responsibility not to damage the environment of other States. 2. In Costa Rica v. Nicaragua, the International Court of Justice held that compensation cannot be awarded for damage to the environment as such. 3. Negotiations in Geneva in August 2025 on a plastics treaty ended without agreement. Which of the statements are correct?",
+          "options": {
+            "A": "1 and 2 only",
+            "B": "1 and 3 only",
+            "C": "2 and 3 only",
+            "D": "1, 2 and 3"
+          },
+          "correct_option": "B",
+          "explanation": "Statements 1 and 3 are stated in the passage; statement 2 contradicts the 2018 holding.",
+          "difficulty": "Tough",
+          "q_no": 36
+        }
+      ],
+      "question_range": [
+        31,
+        36
+      ],
+      "word_count": 367
+    },
+    {
+      "passage_id": "P07",
+      "subject_area": "Environmental Law",
+      "title": "Pollution Control Statutes and the National Green Tribunal",
+      "passage": "The Water (Prevention and Control of Pollution) Act, 1974 and the Air (Prevention and Control of Pollution) Act, 1981 create the Central and State Pollution Control Boards, which grant consent to establish and operate industries and may issue closure directions. Parliament has since decriminalised many offences. The Jan Vishwas (Amendment of Provisions) Act, 2023 replaced imprisonment for contravention of the Environment (Protection) Act, 1986 with a monetary penalty of not less than Rs 10,000, extendable to Rs 15 lakh, imposed by an adjudicating officer, and the Water (Prevention and Control of Pollution) Amendment Act, 2024 adopted a similar approach. Critics fear that deterrence has been weakened, while the Government regards the change as a way of reducing the burden of litigation. The National Green Tribunal Act, 2010 established the Tribunal for the effective and expeditious disposal of cases relating to environmental protection. Under Section 14, the Tribunal hears civil cases involving a substantial question relating to the environment which arise out of the enactments listed in Schedule I: the Water Act, the Water Cess Act, the Forest (Conservation) Act, the Air Act, the Environment (Protection) Act, the Public Liability Insurance Act and the Biological Diversity Act. The Wild Life (Protection) Act, 1972 and the Indian Forest Act, 1927 are not in the Schedule. An application under Section 14 must be made within six months of the cause of action, extendable by up to sixty days, whereas an application for compensation under Section 15 may be made within five years. Under Section 20, the Tribunal must apply the principles of sustainable development, the precautionary principle and the polluter pays principle. It is not bound by the Code of Civil Procedure or the law of evidence, but is guided by principles of natural justice, and an appeal against its orders lies to the Supreme Court within ninety days (Section 22). In Municipal Corporation of Greater Mumbai v. Ankita Sinha (2021), the Supreme Court held that the Tribunal may take cognisance of environmental issues suo motu, since its role is wider than that of a body deciding only disputes between parties.",
+      "questions": [
+        {
+          "question": "An appeal against an order of the National Green Tribunal lies to the Supreme Court within",
+          "options": {
+            "A": "one year",
+            "B": "thirty days",
+            "C": "ninety days",
+            "D": "sixty days"
+          },
+          "correct_option": "C",
+          "explanation": "Section 22 provides for an appeal within ninety days.",
+          "difficulty": "Easy",
+          "q_no": 37
+        },
+        {
+          "question": "Which of the following enactments is NOT listed in Schedule I to the National Green Tribunal Act, as described in the passage?",
+          "options": {
+            "A": "The Indian Forest Act, 1927",
+            "B": "The Public Liability Insurance Act, 1991",
+            "C": "The Air (Prevention and Control of Pollution) Act, 1981",
+            "D": "The Biological Diversity Act, 2002"
+          },
+          "correct_option": "A",
+          "explanation": "The passage states that the Wild Life (Protection) Act and the Indian Forest Act are outside the Schedule.",
+          "difficulty": "Moderate",
+          "q_no": 38
+        },
+        {
+          "question": "The effect of the Jan Vishwas Act, 2023 on the Environment (Protection) Act, 1986, as described in the passage, was to",
+          "options": {
+            "A": "abolish the Pollution Control Boards",
+            "B": "transfer all environmental offences to the Supreme Court",
+            "C": "increase the term of imprisonment for contravention",
+            "D": "replace imprisonment for contravention with a monetary penalty of Rs 10,000 to Rs 15 lakh imposed by an adjudicating officer"
+          },
+          "correct_option": "D",
+          "explanation": "The passage records this change.",
+          "difficulty": "Moderate",
+          "q_no": 39
+        },
+        {
+          "question": "In Ankita Sinha, the Supreme Court held that the National Green Tribunal",
+          "options": {
+            "A": "may take cognisance of environmental issues suo motu",
+            "B": "has no power to act except on the application of a party",
+            "C": "is bound strictly by the Code of Civil Procedure",
+            "D": "may decide only criminal matters"
+          },
+          "correct_option": "A",
+          "explanation": "The passage states this holding.",
+          "difficulty": "Easy",
+          "q_no": 40
+        },
+        {
+          "question": "Residents discover on 1 January 2022 that a factory has contaminated their groundwater. On 1 December 2024 they apply to the Tribunal for compensation under Section 15. On the passage, the application is",
+          "options": {
+            "A": "barred, since it was not made within six months and sixty days",
+            "B": "within the time allowed, since compensation applications may be made within five years",
+            "C": "maintainable only before a civil court",
+            "D": "barred, since appeals lie only within ninety days"
+          },
+          "correct_option": "B",
+          "explanation": "Section 15 allows five years; the six-month period applies to Section 14 applications.",
+          "difficulty": "Tough",
+          "q_no": 41
+        },
+        {
+          "question": "Consider the following statements. 1. The National Green Tribunal is bound strictly by the Code of Civil Procedure and the law of evidence. 2. The Tribunal must apply the principles of sustainable development, precaution and polluter pays. 3. The Supreme Court has recognised the Tribunal's power to act suo motu. Which of the statements are correct?",
+          "options": {
+            "A": "1 and 2 only",
+            "B": "1 and 3 only",
+            "C": "2 and 3 only",
+            "D": "1, 2 and 3"
+          },
+          "correct_option": "C",
+          "explanation": "Statements 2 and 3 are correct; the Tribunal is guided by natural justice and is not strictly bound by the Code or evidence law.",
+          "difficulty": "Moderate",
+          "q_no": 42
+        }
+      ],
+      "question_range": [
+        37,
+        42
+      ],
+      "word_count": 348
+    },
+    {
+      "passage_id": "P08",
+      "subject_area": "Environmental Law",
+      "title": "Wildlife, Biodiversity and Eco-sensitive Zones",
+      "passage": "The Wild Life (Protection) Amendment Act, 2022 reduced the number of Schedules from six to four: Schedules I and II for specially protected animals, Schedule III for protected plants, and a new Schedule IV for specimens listed in the Appendices to the CITES Convention. The Schedule for vermin was omitted. The Act empowers the Central Government to regulate or prohibit the import, trade, possession and proliferation of invasive alien species, and it permits the owner of a captive elephant to transfer or transport it for religious or other purposes. The Biological Diversity Act, 2002 gives effect to the Convention on Biological Diversity through a three-tier structure: the National Biodiversity Authority, State Biodiversity Boards and local Biodiversity Management Committees, which prepare People's Biodiversity Registers. Foreign nationals and entities need approval for access to biological resources, and a person seeking an intellectual property right for an invention based on biological resources obtained from India needs the prior approval of the Authority. Benefit-sharing is a central feature. The Biological Diversity (Amendment) Act, 2023 decriminalised several offences by replacing imprisonment with monetary penalties, exempted AYUSH practitioners and the use of codified traditional knowledge from benefit-sharing, and allowed faster approvals for research; critics argue that it weakens community control. Judicial intervention has also been prominent. In Common Cause v. Union of India (2020), the Supreme Court permitted the introduction of African cheetahs into India on an experimental basis under the supervision of an expert committee. In T.N. Godavarman Thirumulpad (June 2022), the Court directed a minimum one-kilometre eco-sensitive zone around every protected area. In April 2023 it modified that direction, holding that it need not apply where an eco-sensitive zone had already been prescribed or proposed, while retaining the prohibition on mining within national parks and sanctuaries. These developments reflect a continuing tension between conservation and development.",
+      "questions": [
+        {
+          "question": "The three-tier structure under the Biological Diversity Act, 2002 consists of",
+          "options": {
+            "A": "the National Green Tribunal, High Courts and Gram Sabhas",
+            "B": "the Ministry of Environment, State Forest Departments and Municipal Corporations",
+            "C": "the National Biodiversity Authority, State Biodiversity Boards and Biodiversity Management Committees",
+            "D": "the Central Pollution Control Board, State Boards and District Magistrates"
+          },
+          "correct_option": "C",
+          "explanation": "The passage states the three tiers.",
+          "difficulty": "Easy",
+          "q_no": 43
+        },
+        {
+          "question": "The Wild Life (Protection) Amendment Act, 2022 changed the Schedules by",
+          "options": {
+            "A": "abolishing the protection of plants",
+            "B": "increasing them from four to six",
+            "C": "creating a separate Schedule for vermin",
+            "D": "reducing them from six to four and adding a Schedule for CITES-listed specimens"
+          },
+          "correct_option": "D",
+          "explanation": "The passage describes the reduction and the new Schedule IV.",
+          "difficulty": "Moderate",
+          "q_no": 44
+        },
+        {
+          "question": "The Supreme Court's April 2023 modification of its eco-sensitive zone direction held that",
+          "options": {
+            "A": "the eco-sensitive zone requirement was withdrawn altogether, including the ban on mining",
+            "B": "mining is permitted within national parks if a licence is obtained",
+            "C": "the one-kilometre requirement need not apply where a zone had already been prescribed or proposed, while mining within national parks and sanctuaries stays prohibited",
+            "D": "the zone must be ten kilometres in every case"
+          },
+          "correct_option": "C",
+          "explanation": "The passage records the modification and the retained mining prohibition.",
+          "difficulty": "Moderate",
+          "q_no": 45
+        },
+        {
+          "question": "The Biological Diversity (Amendment) Act, 2023, as described in the passage,",
+          "options": {
+            "A": "required benefit-sharing from AYUSH practitioners in every case",
+            "B": "replaced imprisonment for several offences with monetary penalties and exempted AYUSH practitioners and codified traditional knowledge from benefit-sharing",
+            "C": "made every offence under the Act non-bailable",
+            "D": "abolished the National Biodiversity Authority"
+          },
+          "correct_option": "B",
+          "explanation": "The passage records these changes and the criticism that follows.",
+          "difficulty": "Moderate",
+          "q_no": 46
+        },
+        {
+          "question": "A pharmaceutical company in India wishes to apply for a patent on a drug developed from a plant collected from a forest in India. Under the passage, the company",
+          "options": {
+            "A": "needs no approval because it is an Indian entity",
+            "B": "must first obtain the permission of the Central Pollution Control Board",
+            "C": "must apply to the National Green Tribunal for a licence",
+            "D": "needs the prior approval of the National Biodiversity Authority before applying for the intellectual property right"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states the requirement of prior approval for such intellectual property applications.",
+          "difficulty": "Tough",
+          "q_no": 47
+        },
+        {
+          "question": "Assertion (A): After the April 2023 modification, mining inside national parks and sanctuaries remains prohibited. Reason (R): The modification relaxed only the blanket one-kilometre requirement and expressly retained the prohibition on mining within national parks and sanctuaries. Which is correct?",
+          "options": {
+            "A": "Both A and R are true, and R is the correct explanation of A",
+            "B": "Both A and R are true, but R is not the correct explanation of A",
+            "C": "A is true but R is false",
+            "D": "A is false but R is true"
+          },
+          "correct_option": "A",
+          "explanation": "R states what the modification preserved and so explains A.",
+          "difficulty": "Tough",
+          "q_no": 48
+        }
+      ],
+      "question_range": [
+        43,
+        48
+      ],
+      "word_count": 302
+    },
+    {
+      "passage_id": "P09",
+      "subject_area": "Environmental Law / Constitutional Law",
+      "title": "The Right to Clean Air and the Regulation of the National Capital Region",
+      "passage": "Article 21 has been read to include the right to a pollution-free environment and the right to clean air, supported by Articles 48A and 51A(g). The Air (Prevention and Control of Pollution) Act, 1981 and the Environment (Protection) Act, 1986 form the statutory base, but the severity of air pollution in the National Capital Region led Parliament to enact the Commission for Air Quality Management in National Capital Region and Adjoining Areas Act, 2021. The Act established a statutory Commission with powers to coordinate action, to issue directions to State Governments and industries and to restrict activities affecting air quality; it replaced the Environment Pollution (Prevention and Control) Authority (EPCA) which had been appointed by the Supreme Court. Where a direction of the Commission conflicts with that of a State Government or State Board, the Commission's direction prevails. Contravention is punishable with imprisonment up to five years, or a fine up to Rs 1 crore, or both. The Commission administers the Graded Response Action Plan (GRAP), under which progressively stricter measures are triggered by the Air Quality Index: Stage I when air quality is 'Poor' (AQI 201 to 300), Stage II when 'Very Poor' (301 to 400), Stage III when 'Severe' (401 to 450) and Stage IV when 'Severe+' (above 450). In M.C. Mehta v. Union of India (the Taj Trapezium case, 1997), the Court restricted polluting industries around the Taj Mahal, relying on the precautionary principle. In Arjun Gopal v. Union of India, the Court first suspended licences for the sale of firecrackers in Delhi-NCR (2017) and later (2018) permitted only 'green' crackers meeting prescribed emission standards, with restricted hours of use, holding that citizens' right to health outweighed commercial interest. In 2026 the Supreme Court closed the long-running M.C. Mehta proceedings, in which the doctrine of absolute liability and the right to clean air had been developed over four decades; the petitioner said that the fight for clean air must continue.",
+      "questions": [
+        {
+          "question": "The Commission for Air Quality Management Act, 2021",
+          "options": {
+            "A": "established a statutory Commission for the National Capital Region and adjoining areas, replacing the court-appointed EPCA",
+            "B": "abolished the Air Act, 1981",
+            "C": "created a Commission whose directions are subordinate to those of State Governments",
+            "D": "gave the Central Pollution Control Board power to try criminal cases"
+          },
+          "correct_option": "A",
+          "explanation": "The passage describes the Commission as replacing EPCA and prevailing over conflicting State directions.",
+          "difficulty": "Easy",
+          "q_no": 49
+        },
+        {
+          "question": "Contravention of a direction of the Commission is punishable with",
+          "options": {
+            "A": "imprisonment for life",
+            "B": "imprisonment up to five years, or fine up to Rs 1 crore, or both",
+            "C": "imprisonment up to six months only",
+            "D": "a fine up to Rs 10,000 only"
+          },
+          "correct_option": "B",
+          "explanation": "The passage states the penalty.",
+          "difficulty": "Moderate",
+          "q_no": 50
+        },
+        {
+          "question": "On a day when the Air Quality Index in Delhi is 430, the applicable stage of GRAP under the passage is",
+          "options": {
+            "A": "Stage II",
+            "B": "Stage IV",
+            "C": "Stage III",
+            "D": "Stage I"
+          },
+          "correct_option": "C",
+          "explanation": "An AQI of 401 to 450 falls in the 'Severe' category, which triggers Stage III.",
+          "difficulty": "Moderate",
+          "q_no": 51
+        },
+        {
+          "question": "A State Government issues a direction on stubble burning which conflicts with a direction of the Commission. Under the passage,",
+          "options": {
+            "A": "the matter must be decided by the Supreme Court before either can operate",
+            "B": "the State Government's direction prevails because agriculture is a State subject",
+            "C": "the Commission's direction prevails",
+            "D": "both are void and must be re-issued by the Central Government"
+          },
+          "correct_option": "C",
+          "explanation": "The passage states that the Commission's direction prevails in a conflict.",
+          "difficulty": "Moderate",
+          "q_no": 52
+        },
+        {
+          "question": "The reasoning of the Supreme Court in Arjun Gopal, as described, was that",
+          "options": {
+            "A": "the right to health of citizens outweighed the commercial interest in firecrackers, so that only green crackers were allowed, with restricted hours",
+            "B": "an absolute and permanent ban was constitutionally required",
+            "C": "firecrackers are a fundamental right under Article 19(1)(g) and cannot be regulated",
+            "D": "pollution must be regulated only by the Pollution Control Boards"
+          },
+          "correct_option": "A",
+          "explanation": "The passage records the weighing of health against commerce and the limited permission.",
+          "difficulty": "Tough",
+          "q_no": 53
+        },
+        {
+          "question": "Consider the following statements. 1. Contravention of a Commission direction is punishable with imprisonment up to five years, a fine up to Rs 1 crore, or both. 2. EPCA continues to function with priority over the Commission. 3. The Taj Trapezium case relied on the precautionary principle. Which of the statements are correct?",
+          "options": {
+            "A": "1 and 2 only",
+            "B": "1 and 3 only",
+            "C": "2 and 3 only",
+            "D": "1, 2 and 3"
+          },
+          "correct_option": "B",
+          "explanation": "Statements 1 and 3 are correct; EPCA was replaced by the Commission.",
+          "difficulty": "Tough",
+          "q_no": 54
+        }
+      ],
+      "question_range": [
+        49,
+        54
+      ],
+      "word_count": 323
+    },
+    {
+      "passage_id": "P10",
+      "subject_area": "Constitutional Law / Labour Law",
+      "title": "Workplace Sexual Harassment: From Vishaka to the POSH Act",
+      "passage": "In Vishaka v. State of Rajasthan (1997), in the absence of legislation, the Supreme Court laid down guidelines to prevent sexual harassment at the workplace, relying on Articles 14, 15, 19(1)(g) and 21 and on the Convention on the Elimination of All Forms of Discrimination against Women (CEDAW), which India ratified in 1993; the guidelines were declared to be the law under Article 141 until legislation was enacted. In Apparel Export Promotion Council v. A.K. Chopra (1999), the Court held that sexual harassment violates the rights to equality and life, and that physical contact is not essential to establish it. Parliament later enacted the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 (POSH Act). The Act defines sexual harassment to include unwelcome physical contact and advances, a demand or request for sexual favours, sexually coloured remarks and showing pornography, and protects any woman, of any age, whether employed or not. 'Workplace' is defined widely and includes a dwelling place or house. Every employer with ten or more employees must constitute an Internal Committee (IC) at each office or branch, presided over by a senior woman employee, with at least half of its members women and one external member from an NGO or association committed to the cause of women. Where an establishment has fewer than ten employees, or where the complaint is against the employer, the complaint goes to the Local Committee at the district level. A complaint must be made within three months of the incident, extendable by a further three months for reasons recorded. The Committee may, at the request of the aggrieved woman, take steps for conciliation before the inquiry begins, but monetary settlement cannot be the basis of conciliation. The inquiry is to be completed within ninety days. An employer who fails to constitute the Committee is liable to a fine up to Rs 50,000, doubled for repetition, and may face cancellation of licence. In Aureliano Fernandes v. State of Goa (2023), the Supreme Court found widespread non-compliance and issued time-bound directions for the constitution of Committees in all bodies.",
+      "questions": [
+        {
+          "question": "The Vishaka guidelines were issued by the Supreme Court on the basis of",
+          "options": {
+            "A": "Article 32 alone, without reference to any right",
+            "B": "Articles 14, 15, 19(1)(g) and 21 read with CEDAW, as the law declared until legislation was enacted",
+            "C": "an international court's direction to India",
+            "D": "a statute passed by Parliament in 1993"
+          },
+          "correct_option": "B",
+          "explanation": "The passage records the constitutional provisions, CEDAW and the declaration under Article 141.",
+          "difficulty": "Easy",
+          "q_no": 55
+        },
+        {
+          "question": "An Internal Committee must be constituted by an employer who has",
+          "options": {
+            "A": "more than fifty employees",
+            "B": "at least one woman employee",
+            "C": "ten or more employees at an office or branch",
+            "D": "any number of employees, but only on a complaint"
+          },
+          "correct_option": "C",
+          "explanation": "The passage states the threshold of ten employees.",
+          "difficulty": "Easy",
+          "q_no": 56
+        },
+        {
+          "question": "A complaint of sexual harassment under the POSH Act must ordinarily be made within",
+          "options": {
+            "A": "one year of the incident, without extension",
+            "B": "thirty days, without extension",
+            "C": "six months, extendable by one year",
+            "D": "three months of the incident, extendable by a further three months for reasons recorded"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states the limitation and extension.",
+          "difficulty": "Moderate",
+          "q_no": 57
+        },
+        {
+          "question": "On conciliation under the POSH Act, the passage indicates that",
+          "options": {
+            "A": "it can be initiated by the employer against the wishes of the woman",
+            "B": "it may be attempted at the request of the aggrieved woman before inquiry, but monetary settlement cannot be its basis",
+            "C": "it must be attempted in every case before a complaint is accepted",
+            "D": "it may be based on payment of money by the respondent"
+          },
+          "correct_option": "B",
+          "explanation": "The passage states both the timing and the bar on monetary settlement.",
+          "difficulty": "Moderate",
+          "q_no": 58
+        },
+        {
+          "question": "A domestic worker alleges that her employer sexually harassed her in his home, where there are no other employees. Her complaint should go to",
+          "options": {
+            "A": "the Pollution Control Board",
+            "B": "the Local Committee at the district level",
+            "C": "the Supreme Court under Article 32 alone",
+            "D": "the Internal Committee of the employer's household"
+          },
+          "correct_option": "B",
+          "explanation": "A dwelling place is a workplace, and a complaint against the employer or from a small establishment goes to the Local Committee.",
+          "difficulty": "Tough",
+          "q_no": 59
+        },
+        {
+          "question": "The consequence for an employer who fails to constitute the Internal Committee is",
+          "options": {
+            "A": "imprisonment for one year in every case",
+            "B": "a fine of Rs 10 crore",
+            "C": "no penalty, since the Act is only directory",
+            "D": "a fine up to Rs 50,000, doubled for repetition, with possible cancellation of licence"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states the penalty.",
+          "difficulty": "Moderate",
+          "q_no": 60
+        }
+      ],
+      "question_range": [
+        55,
+        60
+      ],
+      "word_count": 348
+    },
+    {
+      "passage_id": "P11",
+      "subject_area": "Labour Law / Constitutional Law",
+      "title": "Women at Work: Maternity Protection and Equal Pay",
+      "passage": "Article 15(3) permits special provisions for women, Article 39(d) directs the State to secure equal pay for equal work for men and women, and Article 42 requires just and humane conditions of work and maternity relief. In Air India v. Nargesh Meerza (1981), the Supreme Court struck down a regulation terminating an air hostess on her first pregnancy as arbitrary and contrary to the notions of a civilised society. In Municipal Corporation of Delhi v. Female Workers (Muster Roll) (2000), the Court held that maternity benefit extends to casual and daily-wage women workers. The Maternity Benefit Act, 1961, as amended in 2017, gave 26 weeks of paid leave for the first two children and 12 weeks where the woman already had two surviving children; adoptive and commissioning mothers received 12 weeks; and establishments with fifty or more employees had to provide a crèche. The Code on Social Security, 2020, which came into force on 21 November 2025 and consolidated these provisions, carries the scheme forward. In K. Umadevi v. Government of Tamil Nadu (May 2025), the Supreme Court held that maternity benefits are part of reproductive rights and that maternity leave is integral to them, so that a State rule could not defeat the statutory entitlement of a government teacher who had two children from an earlier marriage and sought leave for her first child from her second marriage; the Court held that there is no cap on the number of children for claiming the benefit, though its duration is shorter where the woman has two or more surviving children. In Hamsaanandini Nanduri v. Union of India (17 March 2026), the Court struck down Section 60(4) of the Code, which limited the benefit for adoptive mothers to cases where the child was below three months, holding that the classification violated Articles 14 and 21, and it urged the Union to recognise paternity leave as a social security benefit. On wages, the Code on Wages, 2019 prohibits discrimination on the ground of gender in wages for the same work or work of a similar nature, and subsumes the Equal Remuneration Act, 1976.",
+      "questions": [
+        {
+          "question": "Under the Maternity Benefit Act, 1961, as amended in 2017 and described in the passage, a woman with fewer than two surviving children is entitled to paid maternity leave of",
+          "options": {
+            "A": "12 weeks",
+            "B": "26 weeks",
+            "C": "six months and one day",
+            "D": "16 weeks"
+          },
+          "correct_option": "B",
+          "explanation": "The passage gives 26 weeks for the first two children.",
+          "difficulty": "Easy",
+          "q_no": 61
+        },
+        {
+          "question": "In the Female Workers (Muster Roll) case, the Supreme Court held that maternity benefit",
+          "options": {
+            "A": "applies only to women employed in factories",
+            "B": "is a concession which the employer may withdraw",
+            "C": "is limited to permanent employees",
+            "D": "extends to casual and daily-wage women workers"
+          },
+          "correct_option": "D",
+          "explanation": "The passage records this extension.",
+          "difficulty": "Moderate",
+          "q_no": 62
+        },
+        {
+          "question": "The regulation struck down in Nargesh Meerza was one that",
+          "options": {
+            "A": "permitted equal pay for all cabin crew",
+            "B": "required air hostesses to retire at sixty",
+            "C": "fixed a minimum height for air hostesses",
+            "D": "terminated an air hostess on her first pregnancy"
+          },
+          "correct_option": "D",
+          "explanation": "The Court found the termination rule arbitrary.",
+          "difficulty": "Moderate",
+          "q_no": 63
+        },
+        {
+          "question": "A State Government employee already has two surviving children from an earlier marriage. She bears a child in her second marriage and seeks maternity leave, which the State refuses on the ground that it would be her third child. In the light of the passage,",
+          "options": {
+            "A": "she is entitled to maternity benefit, although its duration is shorter as she has two surviving children",
+            "B": "she is entitled only to adoption leave",
+            "C": "she is entitled to 26 weeks as for a first child",
+            "D": "she has no claim because the State rule prevails over the statute"
+          },
+          "correct_option": "A",
+          "explanation": "Umadevi holds that there is no cap on children for claiming the benefit, with shorter duration where two or more children survive.",
+          "difficulty": "Tough",
+          "q_no": 64
+        },
+        {
+          "question": "A woman adopts a child aged eight months and is refused maternity benefit under Section 60(4) of the Code on Social Security, 2020, which limits it to children below three months. Following the 2026 decision, the refusal is",
+          "options": {
+            "A": "unsustainable, since the age limit was struck down as violating Articles 14 and 21",
+            "B": "valid only if the employer has fewer than fifty employees",
+            "C": "valid, since adoption does not create reproductive rights",
+            "D": "valid, since the Code is a later Act"
+          },
+          "correct_option": "A",
+          "explanation": "Hamsaanandini Nanduri struck down the three-month limit.",
+          "difficulty": "Moderate",
+          "q_no": 65
+        },
+        {
+          "question": "Assertion (A): The Code on Wages, 2019 gives statutory form to the constitutional goal of equal pay for equal work. Reason (R): Article 39(d) directs the State to secure equal pay for equal work for men and women, and the Code prohibits wage discrimination on the ground of gender. Which is correct?",
+          "options": {
+            "A": "Both A and R are true, and R is the correct explanation of A",
+            "B": "Both A and R are true, but R is not the correct explanation of A",
+            "C": "A is true but R is false",
+            "D": "A is false but R is true"
+          },
+          "correct_option": "A",
+          "explanation": "R states the constitutional directive and the statutory prohibition which together support A.",
+          "difficulty": "Moderate",
+          "q_no": 66
+        }
+      ],
+      "question_range": [
+        61,
+        66
+      ],
+      "word_count": 351
+    },
+    {
+      "passage_id": "P12",
+      "subject_area": "Constitutional Law / Family Law",
+      "title": "Reproductive Autonomy and the Medical Termination of Pregnancy",
+      "passage": "Reproductive autonomy has been recognised as part of personal liberty under Article 21. In Suchita Srivastava v. Chandigarh Administration (2009), the Supreme Court held that a woman's right to make reproductive choices is a dimension of personal liberty, and that her consent is paramount even where she has an intellectual disability. In K.S. Puttaswamy v. Union of India (2017), the Court recognised decisional autonomy, including choices on reproduction, as part of privacy. The Medical Termination of Pregnancy Act, 1971, as amended in 2021, permits termination up to twenty weeks on the opinion of one registered medical practitioner, and between twenty and twenty-four weeks, on the opinion of two practitioners, for specified categories of women: survivors of rape or sexual assault, minors, women whose marital status has changed during the pregnancy, women with physical disabilities or mental illness, and women in humanitarian or disaster settings. There is no upper limit where a Medical Board diagnoses substantial foetal abnormalities. The amended Act speaks of 'woman' and 'partner' in place of 'married woman' and 'husband', so as to include unmarried women who face contraceptive failure. In X v. Principal Secretary, Health and Family Welfare Department, Government of NCT of Delhi (2022), the Court held that unmarried women between twenty and twenty-four weeks are entitled to the same access as married women, since the distinction was artificial and unconstitutional, and that, for the purposes of the Rules, marital rape counts as sexual assault. The Pre-Conception and Pre-Natal Diagnostic Techniques (Prohibition of Sex Selection) Act, 1994 bans sex determination in order to address the declining sex ratio; in Voluntary Health Association of Punjab v. Union of India (2013), the Court directed its strict implementation. The Surrogacy (Regulation) Act, 2021 permits only altruistic surrogacy and prohibits commercial surrogacy. In K. Umadevi (2025), the Court observed that reproductive rights include the rights to health, privacy, dignity and equality.",
+      "questions": [
+        {
+          "question": "In Suchita Srivastava, the Supreme Court held that reproductive choice is",
+          "options": {
+            "A": "a right available only to married women",
+            "B": "subject to the consent of the husband in all cases",
+            "C": "a Directive Principle only",
+            "D": "a dimension of personal liberty under Article 21, in which the woman's consent is paramount"
+          },
+          "correct_option": "D",
+          "explanation": "The passage records this holding.",
+          "difficulty": "Easy",
+          "q_no": 67
+        },
+        {
+          "question": "Termination between twenty and twenty-four weeks, on the opinion of two practitioners, is available under the 2021 Act to",
+          "options": {
+            "A": "married women only",
+            "B": "specified categories such as survivors of sexual assault and minors",
+            "C": "women whose pregnancy has been confirmed by a Medical Board only",
+            "D": "any woman, for any reason"
+          },
+          "correct_option": "B",
+          "explanation": "The passage lists the specified categories.",
+          "difficulty": "Moderate",
+          "q_no": 68
+        },
+        {
+          "question": "In X v. Principal Secretary (2022), the Supreme Court held that",
+          "options": {
+            "A": "termination after twenty weeks requires the husband's consent",
+            "B": "only married women may seek termination after twenty weeks",
+            "C": "unmarried women between twenty and twenty-four weeks are entitled to the same access as married women",
+            "D": "unmarried women must first obtain a court order"
+          },
+          "correct_option": "C",
+          "explanation": "The distinction between married and unmarried women was held artificial and unconstitutional.",
+          "difficulty": "Moderate",
+          "q_no": 69
+        },
+        {
+          "question": "A woman in the twenty-seventh week of pregnancy is found by a Medical Board to be carrying a foetus with substantial abnormalities. On the passage,",
+          "options": {
+            "A": "termination requires the husband's consent",
+            "B": "termination is barred in every case after twenty-four weeks",
+            "C": "termination may be permitted, since there is no upper limit where a Medical Board diagnoses substantial foetal abnormalities",
+            "D": "termination requires the opinion of one practitioner only"
+          },
+          "correct_option": "C",
+          "explanation": "The 2021 Act removes the time limit for substantial foetal abnormalities diagnosed by a Medical Board.",
+          "difficulty": "Tough",
+          "q_no": 70
+        },
+        {
+          "question": "Consider the following statements. 1. The amended Act uses the words 'woman' and 'partner' in place of 'married woman' and 'husband'. 2. Termination up to twenty weeks always requires the opinion of two practitioners. 3. In X v. Principal Secretary, the Court held that, for the purposes of the Rules, marital rape counts as sexual assault. Which of the statements are correct?",
+          "options": {
+            "A": "1 and 2 only",
+            "B": "1 and 3 only",
+            "C": "2 and 3 only",
+            "D": "1, 2 and 3"
+          },
+          "correct_option": "B",
+          "explanation": "Statements 1 and 3 are correct; up to twenty weeks one practitioner's opinion suffices.",
+          "difficulty": "Tough",
+          "q_no": 71
+        },
+        {
+          "question": "Assertion (A): Access to termination of pregnancy under the amended Act is not confined to married women. Reason (R): The amended Act substitutes 'woman' and 'partner' for 'married woman' and 'husband'. Which is correct?",
+          "options": {
+            "A": "Both A and R are true, and R is the correct explanation of A",
+            "B": "Both A and R are true, but R is not the correct explanation of A",
+            "C": "A is true but R is false",
+            "D": "A is false but R is true"
+          },
+          "correct_option": "A",
+          "explanation": "The change of wording is the textual basis for the inclusion of unmarried women.",
+          "difficulty": "Moderate",
+          "q_no": 72
+        }
+      ],
+      "question_range": [
+        67,
+        72
+      ],
+      "word_count": 311
+    },
+    {
+      "passage_id": "P13",
+      "subject_area": "Constitutional Law",
+      "title": "Women's Political Representation: Panchayats to Parliament",
+      "passage": "The 73rd and 74th Amendments (1992) require that one-third of the seats in Panchayats and Municipalities, and of the offices of chairpersons, be reserved for women, including women of the Scheduled Castes and Scheduled Tribes (Articles 243D and 243T). No corresponding reservation existed for Parliament or State Legislatures until the Constitution (106th Amendment) Act, 2023, the Nari Shakti Vandan Adhiniyam, which inserted Articles 330A and 332A to reserve one-third of the seats in the House of the People and the State Legislative Assemblies for women, including one-third of the seats reserved for Scheduled Castes and Scheduled Tribes, and extended the same to the Legislative Assembly of Delhi. The reservation does not extend to the Rajya Sabha or State Legislative Councils. Under Article 334A, the reservation is to take effect only after a delimitation exercise undertaken following the first census taken after the commencement of the Act, is to continue for fifteen years, and the reserved seats are to be rotated after each delimitation. The Act was brought into force by a notification effective 16 April 2026, but because delimitation must follow the next census, due in 2027, the reservation did not apply to the 2024 general election and, after the failure of a fast-track package, is widely expected not to apply in 2029. In April 2026 the Union introduced three Bills, including the Constitution (131st Amendment) Bill, to base delimitation on the 2011 census so that the reservation could operate by 2029; the package did not secure Parliament's approval. A Bill to amend the Constitution must, under Article 368(2), be passed by a majority of the total membership of each House and by a majority of not less than two-thirds of the members present and voting. Supporters regard the reservation as essential to substantive equality, while critics have objected to the delay and to the absence of a sub-quota for Other Backward Class women.",
+      "questions": [
+        {
+          "question": "Article 243D, inserted by the 73rd Amendment, requires reservation for women of",
+          "options": {
+            "A": "one-fourth of the seats in Municipalities only",
+            "B": "one-third of the seats in Panchayats, including seats reserved for Scheduled Castes and Scheduled Tribes",
+            "C": "one-third of the seats in the Rajya Sabha",
+            "D": "one-half of the seats in the Lok Sabha"
+          },
+          "correct_option": "B",
+          "explanation": "The passage states the Panchayat reservation.",
+          "difficulty": "Easy",
+          "q_no": 73
+        },
+        {
+          "question": "The reservation under the Nari Shakti Vandan Adhiniyam does NOT extend to",
+          "options": {
+            "A": "State Legislative Assemblies",
+            "B": "the Legislative Assembly of Delhi",
+            "C": "the Rajya Sabha and State Legislative Councils",
+            "D": "the House of the People"
+          },
+          "correct_option": "C",
+          "explanation": "The passage states the exclusion of the Rajya Sabha and Legislative Councils.",
+          "difficulty": "Moderate",
+          "q_no": 74
+        },
+        {
+          "question": "The notification bringing the Act into force with effect from 16 April 2026",
+          "options": {
+            "A": "repealed Article 334A",
+            "B": "brought the Act into force, but reserved seats become operative only after delimitation following the next census",
+            "C": "extended the reservation to the Rajya Sabha",
+            "D": "reserved one-third of the seats in the Lok Sabha with immediate effect"
+          },
+          "correct_option": "B",
+          "explanation": "Article 334A makes operation depend on delimitation after the first census after commencement.",
+          "difficulty": "Moderate",
+          "q_no": 75
+        },
+        {
+          "question": "Within the seats reserved for Scheduled Castes and Scheduled Tribes, the 2023 Act provides that",
+          "options": {
+            "A": "all seats shall be reserved for women",
+            "B": "one-half shall be reserved for women",
+            "C": "no seats shall be reserved for women",
+            "D": "one-third shall be reserved for women belonging to those categories"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states the one-third rule within SC and ST seats.",
+          "difficulty": "Moderate",
+          "q_no": 76
+        },
+        {
+          "question": "For the Constitution (131st Amendment) Bill to be passed, Article 368(2) requires",
+          "options": {
+            "A": "a majority of the total membership of each House and a two-thirds majority of members present and voting",
+            "B": "approval of the President alone",
+            "C": "a unanimous vote of both Houses",
+            "D": "a simple majority of members present and voting"
+          },
+          "correct_option": "A",
+          "explanation": "The passage states the special majority under Article 368(2).",
+          "difficulty": "Tough",
+          "q_no": 77
+        },
+        {
+          "question": "Assertion (A): The 2023 Act gave women no reserved seats at the 2024 general election. Reason (R): Article 334A makes the reservation operative only after delimitation following the first census taken after the Act's commencement. Which is correct?",
+          "options": {
+            "A": "Both A and R are true, and R is the correct explanation of A",
+            "B": "Both A and R are true, but R is not the correct explanation of A",
+            "C": "A is true but R is false",
+            "D": "A is false but R is true"
+          },
+          "correct_option": "A",
+          "explanation": "R states the condition which postponed operation of the reservation.",
+          "difficulty": "Tough",
+          "q_no": 78
+        }
+      ],
+      "question_range": [
+        73,
+        78
+      ],
+      "word_count": 314
+    },
+    {
+      "passage_id": "P14",
+      "subject_area": "Family Law / Criminal Law",
+      "title": "Domestic Violence, Cruelty and Dowry Death",
+      "passage": "The Protection of Women from Domestic Violence Act, 2005 (PWDVA) gives civil remedies to women in a domestic relationship, which includes marriage and relationships in the nature of marriage. A Magistrate may grant protection orders, residence orders, monetary relief, custody orders and compensation. A woman has a right to reside in the 'shared household' whether or not she has any title in it. In S.R. Batra v. Taruna Batra (2006), the Supreme Court held that a house owned exclusively by the husband's mother was not a shared household; in Satish Chander Ahuja v. Sneha Ahuja (2020), a three-judge Bench overruled that view, holding that a shared household is not confined to premises owned or rented by the husband and includes the household in which the woman has lived in a domestic relationship. In Hiral P. Harsora v. Kusum Narottamdas Harsora (2016), the Court struck down the words 'adult male' in the definition of respondent, so that a complaint may be made against female relatives as well. The Bharatiya Nyaya Sanhita, 2023 deals with criminal liability. Section 85 punishes cruelty by a husband or his relatives with imprisonment up to three years and fine. Section 86 defines cruelty as wilful conduct likely to drive a woman to suicide or cause grave injury to her life, limb or health, and harassment of her with a view to coercing her or her relatives to meet an unlawful demand for property. Section 80 deals with dowry death: where a woman dies otherwise than in normal circumstances within seven years of marriage, and it is shown that soon before her death she was subjected to cruelty or harassment by her husband or his relatives in connection with a demand for dowry, they are deemed to have caused the death, punishable with imprisonment of not less than seven years which may extend to life; the law of evidence raises a presumption in such cases. In Dara Lakshmi Narayana v. State of Telangana (2024), the Supreme Court cautioned against the misuse of the cruelty provision through general and omnibus allegations against relatives. In Satender Kumar Antil v. CBI (2026), the Court reiterated that, for offences punishable up to seven years, a notice under Section 35(3) of the Bharatiya Nagarik Suraksha Sanhita, 2023 is the rule and arrest the exception.",
+      "questions": [
+        {
+          "question": "Section 85 of the Bharatiya Nyaya Sanhita, 2023 punishes cruelty by a husband or his relatives with",
+          "options": {
+            "A": "a fine only",
+            "B": "imprisonment up to three years and fine",
+            "C": "imprisonment for life",
+            "D": "imprisonment up to ten years and fine"
+          },
+          "correct_option": "B",
+          "explanation": "The passage states the punishment.",
+          "difficulty": "Easy",
+          "q_no": 79
+        },
+        {
+          "question": "In Satish Chander Ahuja v. Sneha Ahuja, the Supreme Court held that a 'shared household'",
+          "options": {
+            "A": "means only a house in which the wife holds legal title",
+            "B": "excludes any house owned by the husband's parents",
+            "C": "is not confined to premises owned or rented by the husband and includes the household in which the woman has lived in a domestic relationship",
+            "D": "means only a house owned by the husband"
+          },
+          "correct_option": "C",
+          "explanation": "The three-judge Bench overruled the narrower view in S.R. Batra.",
+          "difficulty": "Moderate",
+          "q_no": 80
+        },
+        {
+          "question": "The effect of the decision in Hiral Harsora was that",
+          "options": {
+            "A": "complaints may be made only against the husband",
+            "B": "the Act was held unconstitutional",
+            "C": "a complaint under the PWDVA may be made against female relatives as well, since the words 'adult male' were struck down",
+            "D": "residence orders may no longer be granted"
+          },
+          "correct_option": "C",
+          "explanation": "The passage records the striking down of the words 'adult male'.",
+          "difficulty": "Moderate",
+          "q_no": 81
+        },
+        {
+          "question": "A married woman is found hanging at her husband's house nine years after her marriage, and evidence shows that she was harassed for dowry until shortly before her death. On the passage, the offence of dowry death under Section 80 is",
+          "options": {
+            "A": "attracted only if the husband confesses",
+            "B": "not attracted, since the death did not occur within seven years of marriage",
+            "C": "attracted, since harassment for dowry is shown",
+            "D": "attracted, since the woman died at her husband's house"
+          },
+          "correct_option": "B",
+          "explanation": "Section 80 requires death within seven years of marriage; other provisions may still apply.",
+          "difficulty": "Tough",
+          "q_no": 82
+        },
+        {
+          "question": "The caution administered by the Supreme Court in Dara Lakshmi Narayana concerned",
+          "options": {
+            "A": "the abolition of the cruelty provision",
+            "B": "the need to arrest the accused at once in every case",
+            "C": "the exclusion of relatives from all liability",
+            "D": "the misuse of the cruelty provision through general and omnibus allegations against relatives"
+          },
+          "correct_option": "D",
+          "explanation": "The passage records this caution.",
+          "difficulty": "Moderate",
+          "q_no": 83
+        },
+        {
+          "question": "Which of the following conduct falls within 'cruelty' as defined in Section 86, as described in the passage?",
+          "options": {
+            "A": "The husband's absence from home for work",
+            "B": "Harassment of a woman to coerce her or her relatives into meeting an unlawful demand for property",
+            "C": "A single ordinary domestic quarrel without harassment or danger",
+            "D": "A difference of religious opinion between spouses"
+          },
+          "correct_option": "B",
+          "explanation": "The definition includes harassment to coerce an unlawful demand for property.",
+          "difficulty": "Moderate",
+          "q_no": 84
+        }
+      ],
+      "question_range": [
+        79,
+        84
+      ],
+      "word_count": 382
+    },
+    {
+      "passage_id": "P15",
+      "subject_area": "Criminal Law",
+      "title": "Offences Against Women under the Bharatiya Nyaya Sanhita",
+      "passage": "The Bharatiya Nyaya Sanhita, 2023 groups offences against women in a dedicated chapter. Section 63 defines rape, and Section 64 prescribes rigorous imprisonment of not less than ten years, which may extend to life. Section 70 deals with gang rape, punishable with rigorous imprisonment of not less than twenty years which may extend to life, while gang rape of a woman under eighteen is punishable with imprisonment for life, meaning the remainder of natural life, or with death. Section 72 prohibits disclosure of the identity of a victim of certain offences, and Section 73 prohibits printing or publishing court proceedings relating to such an offence without the court's permission; each is punishable with imprisonment up to two years and fine. Section 74 penalises assault or criminal force to a woman with intent to outrage her modesty with imprisonment of not less than one year, which may extend to five years, and fine. Section 75 deals with sexual harassment: unwelcome physical contact and advances, a demand or request for sexual favours, or showing pornography against her will is punishable with imprisonment up to three years, fine, or both, while making sexually coloured remarks is punishable with imprisonment up to one year, fine, or both. Section 76 punishes assault or use of criminal force with intent to disrobe a woman with imprisonment of not less than three years, extendable to seven, and fine. Section 77 makes voyeurism an offence, punishable on first conviction with imprisonment of one to three years and on a subsequent conviction with three to seven years. Section 78 punishes stalking with imprisonment up to three years on first conviction and up to five years on a subsequent conviction, with fine. Section 79 punishes the use of a word, gesture or act intended to insult the modesty of a woman with imprisonment up to three years and fine. Section 124 deals with acid attacks: voluntarily causing grievous hurt by acid is punishable with imprisonment of not less than ten years which may extend to life, with a fine that must be just and reasonable to meet the victim's medical expenses, while throwing or attempting to throw acid is punishable with five to seven years and fine.",
+      "questions": [
+        {
+          "question": "Voluntarily causing grievous hurt by the use of acid is punishable under Section 124 with imprisonment of",
+          "options": {
+            "A": "not less than ten years, which may extend to life, and fine",
+            "B": "up to five years only",
+            "C": "not less than five years, extending to seven years",
+            "D": "not less than one year, extending to three years"
+          },
+          "correct_option": "A",
+          "explanation": "The passage states the punishment for grievous hurt by acid; five to seven years is for throwing or attempting to throw acid.",
+          "difficulty": "Easy",
+          "q_no": 85
+        },
+        {
+          "question": "A man who has already been convicted of stalking is convicted of stalking a second time. The maximum imprisonment under Section 78 is",
+          "options": {
+            "A": "five years",
+            "B": "ten years",
+            "C": "three years",
+            "D": "seven years"
+          },
+          "correct_option": "A",
+          "explanation": "The passage gives up to five years on a subsequent conviction.",
+          "difficulty": "Moderate",
+          "q_no": 86
+        },
+        {
+          "question": "A colleague repeatedly makes sexually coloured remarks to a woman but does not touch her, demand favours or show her pornography. The maximum imprisonment under Section 75 for such conduct is",
+          "options": {
+            "A": "three years",
+            "B": "seven years",
+            "C": "one year",
+            "D": "five years"
+          },
+          "correct_option": "C",
+          "explanation": "Sexually coloured remarks attract imprisonment up to one year; the other forms attract up to three years.",
+          "difficulty": "Moderate",
+          "q_no": 87
+        },
+        {
+          "question": "On a first conviction for voyeurism under Section 77, the punishment is imprisonment for",
+          "options": {
+            "A": "not less than ten years",
+            "B": "one to three years, with fine",
+            "C": "up to one year only",
+            "D": "three to seven years, with fine"
+          },
+          "correct_option": "B",
+          "explanation": "The passage gives one to three years for a first conviction and three to seven for a subsequent one.",
+          "difficulty": "Moderate",
+          "q_no": 88
+        },
+        {
+          "question": "A newspaper prints the name of a victim of rape in its report without any court permission. On the passage, the editor-in-charge is liable under",
+          "options": {
+            "A": "Section 124, with imprisonment up to life",
+            "B": "Section 64, with imprisonment of not less than ten years",
+            "C": "Section 72, with imprisonment up to two years and fine",
+            "D": "Section 78, with imprisonment up to three years"
+          },
+          "correct_option": "C",
+          "explanation": "Section 72 penalises disclosure of the victim's identity.",
+          "difficulty": "Moderate",
+          "q_no": 89
+        },
+        {
+          "question": "Consider the following statements. 1. Section 74 prescribes imprisonment of not less than one year for assault or criminal force with intent to outrage a woman's modesty. 2. Section 76 prescribes imprisonment of not less than three years, extendable to seven, for assault or criminal force with intent to disrobe a woman. 3. Section 79 prescribes imprisonment for life for a word or gesture intended to insult the modesty of a woman. Which of the statements are correct?",
+          "options": {
+            "A": "1 and 2 only",
+            "B": "1 and 3 only",
+            "C": "2 and 3 only",
+            "D": "1, 2 and 3"
+          },
+          "correct_option": "A",
+          "explanation": "Statements 1 and 2 are correct; Section 79 carries imprisonment up to three years.",
+          "difficulty": "Tough",
+          "q_no": 90
+        }
+      ],
+      "question_range": [
+        85,
+        90
+      ],
+      "word_count": 367
+    },
+    {
+      "passage_id": "P16",
+      "subject_area": "Criminal Law",
+      "title": "Homicide, Negligence and Abetment of Suicide under the BNS",
+      "passage": "Section 100 of the Bharatiya Nyaya Sanhita, 2023 defines culpable homicide, and Section 101 defines murder, which is culpable homicide if the act is done with the intention of causing death, or with the intention of causing bodily injury which the offender knows is likely to cause death, or with the intention of causing bodily injury sufficient in the ordinary course of nature to cause death, or with knowledge that the act is so imminently dangerous that it must in all probability cause death. Exceptions reduce murder to culpable homicide not amounting to murder, as in the case of grave and sudden provocation, exceeding in good faith the right of private defence, or a sudden fight in the heat of passion. In Virsa Singh v. State of Punjab (1958), the Supreme Court held that, for the third limb, the prosecution must establish that a bodily injury was present, what its nature was, that it was intentionally inflicted, and that it was sufficient in the ordinary course of nature to cause death; the intention required is to inflict that particular injury, and not merely to strike. Section 103(1) punishes murder with death or imprisonment for life and fine, and Section 103(2) provides the same punishment where a group of five or more persons acting in concert commits murder on the ground of race, caste, community, sex, place of birth, language or personal belief. Section 104 provides that a person undergoing a sentence of imprisonment for life who commits murder shall be punished with death or with imprisonment for life, which means the remainder of his natural life. Section 105 punishes culpable homicide not amounting to murder with imprisonment for life, or for five to ten years, and fine, where the act was done with the intention of causing death or injury likely to cause death, and with imprisonment up to ten years, and fine, where it was done only with knowledge. Section 106(1) punishes death caused by a rash or negligent act not amounting to culpable homicide with imprisonment up to five years and fine, reduced to two years where the act is that of a registered medical practitioner during a medical procedure. Section 106(2) provides for imprisonment up to ten years and fine where death is caused by rash and negligent driving and the driver escapes without reporting it to a police officer or Magistrate soon after; the provision attracted protests from transporters. Section 108 punishes abetment of suicide with imprisonment up to ten years and fine.",
+      "questions": [
+        {
+          "question": "A person undergoing a sentence of imprisonment for life commits murder. Under Section 104, he is punishable with",
+          "options": {
+            "A": "imprisonment for not less than five years",
+            "B": "imprisonment for ten years only",
+            "C": "death or imprisonment for life, which means the remainder of his natural life",
+            "D": "a fine only"
+          },
+          "correct_option": "C",
+          "explanation": "The passage states Section 104.",
+          "difficulty": "Easy",
+          "q_no": 91
+        },
+        {
+          "question": "A registered medical practitioner causes the death of a patient by a rash act during a medical procedure, not amounting to culpable homicide. The maximum imprisonment under Section 106(1) is",
+          "options": {
+            "A": "ten years",
+            "B": "five years",
+            "C": "seven years",
+            "D": "two years"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states that the term is reduced to two years for such practitioners.",
+          "difficulty": "Moderate",
+          "q_no": 92
+        },
+        {
+          "question": "A driver causes death by rash and negligent driving and flees without reporting the accident to the police or a Magistrate. The maximum imprisonment under Section 106(2) is",
+          "options": {
+            "A": "ten years, with fine",
+            "B": "life imprisonment",
+            "C": "two years, with fine",
+            "D": "five years, with fine"
+          },
+          "correct_option": "A",
+          "explanation": "The passage states ten years and fine.",
+          "difficulty": "Moderate",
+          "q_no": 93
+        },
+        {
+          "question": "Which of the following need NOT be proved to establish murder under the third limb of Section 101, according to Virsa Singh?",
+          "options": {
+            "A": "That the injury was sufficient in the ordinary course of nature to cause death",
+            "B": "That the injury was intentionally inflicted",
+            "C": "That a bodily injury was present",
+            "D": "An intention to cause the death of the victim"
+          },
+          "correct_option": "D",
+          "explanation": "For the third limb the intention required is to inflict the particular injury, not to cause death.",
+          "difficulty": "Tough",
+          "q_no": 94
+        },
+        {
+          "question": "A strikes B a single blow on the head with an iron rod, intending to inflict that blow. The injury is sufficient in the ordinary course of nature to cause death, and B dies. A says he did not intend to kill. On the passage, A is most likely guilty of",
+          "options": {
+            "A": "simple hurt only",
+            "B": "death by negligence under Section 106(1)",
+            "C": "culpable homicide not amounting to murder on the ground of absence of intention to kill",
+            "D": "murder under the third limb of Section 101"
+          },
+          "correct_option": "D",
+          "explanation": "Virsa Singh requires intention to inflict the injury, not intention to kill.",
+          "difficulty": "Tough",
+          "q_no": 95
+        },
+        {
+          "question": "Consider the following statements. 1. Section 106(1) provides imprisonment up to five years for all persons, including medical practitioners, without distinction. 2. Section 103(2) applies where a group of five or more persons acting in concert commits murder on certain prohibited grounds. 3. Section 108 punishes abetment of suicide with imprisonment up to ten years and fine. Which of the statements are correct?",
+          "options": {
+            "A": "1 and 2 only",
+            "B": "1 and 3 only",
+            "C": "2 and 3 only",
+            "D": "1, 2 and 3"
+          },
+          "correct_option": "C",
+          "explanation": "Statements 2 and 3 are correct; medical practitioners are subject to a lower maximum of two years.",
+          "difficulty": "Tough",
+          "q_no": 96
+        }
+      ],
+      "question_range": [
+        91,
+        96
+      ],
+      "word_count": 417
+    },
+    {
+      "passage_id": "P17",
+      "subject_area": "Criminal Procedure",
+      "title": "Arrest, Investigation and Trial Timelines under the BNSS",
+      "passage": "Section 35 of the Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) governs arrest without warrant. For an offence punishable with imprisonment up to seven years, the police may arrest only if satisfied that arrest is necessary, for example to prevent further offence, to ensure proper investigation, to prevent tampering with evidence or the inducement of witnesses, or to secure the accused's presence in court, and must record reasons; otherwise a notice of appearance under Section 35(3) must be issued, and if the person complies he is not to be arrested unless reasons are recorded. In Satender Kumar Antil v. Central Bureau of Investigation (2026), the Supreme Court held that, for such offences, notice is the rule and arrest the exception, and that where the person fails to comply, arrest under Section 35(6) is not automatic and must rest on fresh material not available when the notice was issued. For offences punishable with three years or more but less than seven, Section 173(3) allows the officer, with the prior permission of an officer not below the rank of Deputy Superintendent of Police, to hold a preliminary enquiry within fourteen days to determine whether a prima facie case exists. Section 176(3) requires a forensic expert to visit the scene and collect evidence in offences punishable with imprisonment of seven years or more. The police must inform the informant or victim of the progress of the investigation within ninety days (Section 193). Section 479 provides that an undertrial who has been detained for one-third of the maximum sentence, if a first-time offender, or for one-half in other cases, shall be released on bail; it does not apply to offences punishable with death or life imprisonment, and in 2024 the Supreme Court directed that it applies to all undertrials irrespective of when their cases were registered. Under Section 392, a judgment is to be pronounced within forty-five days of the conclusion of arguments, and Section 230 requires the supply of the police report and documents to the accused within fourteen days of the accused's appearance.",
+      "questions": [
+        {
+          "question": "For an offence punishable with imprisonment up to seven years, the BNSS requires that the police ordinarily",
+          "options": {
+            "A": "obtain a warrant from the High Court before arrest",
+            "B": "arrest the accused at once and issue notice afterwards",
+            "C": "register the case only after a preliminary enquiry of ninety days",
+            "D": "issue a notice of appearance under Section 35(3), arrest being the exception"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states that notice is the rule.",
+          "difficulty": "Easy",
+          "q_no": 97
+        },
+        {
+          "question": "According to Satender Kumar Antil (2026), where an accused has failed to comply with a notice under Section 35(3), arrest under Section 35(6)",
+          "options": {
+            "A": "may be made only with the permission of the Supreme Court",
+            "B": "is barred in every case",
+            "C": "is automatic and requires no reasons",
+            "D": "is not automatic and must rest on fresh material not available when the notice was issued"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states this holding.",
+          "difficulty": "Moderate",
+          "q_no": 98
+        },
+        {
+          "question": "A preliminary enquiry under Section 173(3) BNSS may be held",
+          "options": {
+            "A": "only in offences punishable with death",
+            "B": "only by a Magistrate",
+            "C": "in offences punishable with three years or more but less than seven, within fourteen days, with the prior permission of an officer not below Deputy Superintendent of Police",
+            "D": "in every offence, without permission, within ninety days"
+          },
+          "correct_option": "C",
+          "explanation": "The passage states the conditions.",
+          "difficulty": "Moderate",
+          "q_no": 99
+        },
+        {
+          "question": "Under Section 193 of the BNSS, the police must inform the informant or victim of the progress of investigation within",
+          "options": {
+            "A": "ninety days",
+            "B": "one year",
+            "C": "fourteen days",
+            "D": "forty-five days"
+          },
+          "correct_option": "A",
+          "explanation": "The passage states ninety days.",
+          "difficulty": "Moderate",
+          "q_no": 100
+        },
+        {
+          "question": "A first-time offender, accused of an offence punishable with a maximum of six years, has been in custody as an undertrial for two and a half years. On the passage, he is",
+          "options": {
+            "A": "not entitled, as he must first serve one-half of the maximum sentence",
+            "B": "entitled only if the trial court consents in writing",
+            "C": "entitled to be released on bail, since he has been detained for more than one-third of the maximum sentence",
+            "D": "not entitled, because Section 479 applies only to offences punishable with life imprisonment"
+          },
+          "correct_option": "C",
+          "explanation": "One-third of six years is two years; he has been detained longer.",
+          "difficulty": "Tough",
+          "q_no": 101
+        },
+        {
+          "question": "Consider the following statements. 1. Section 173(3) allows a preliminary enquiry within fourteen days in specified offences, with the prior permission of an officer not below the rank of Deputy Superintendent of Police. 2. Section 479 applies to offences punishable with life imprisonment. 3. A judgment is to be pronounced within forty-five days of the conclusion of arguments. Which of the statements are correct?",
+          "options": {
+            "A": "1 and 2 only",
+            "B": "1 and 3 only",
+            "C": "2 and 3 only",
+            "D": "1, 2 and 3"
+          },
+          "correct_option": "B",
+          "explanation": "Statements 1 and 3 are correct; Section 479 does not apply to offences punishable with death or life imprisonment.",
+          "difficulty": "Tough",
+          "q_no": 102
+        }
+      ],
+      "question_range": [
+        97,
+        102
+      ],
+      "word_count": 340
+    },
+    {
+      "passage_id": "P18",
+      "subject_area": "Criminal Procedure / Law of Evidence",
+      "title": "Digital Evidence, Search and Seizure under the BNSS and the BSA",
+      "passage": "The Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) and the Bharatiya Sakshya Adhiniyam, 2023 (BSA) bring electronic processes into criminal justice. Under Section 105 of the BNSS, the process of search and seizure, including the preparation of the list of seized items, must be recorded through audio-video electronic means, preferably by mobile phone, and the recording forwarded forthwith to the District Magistrate, Sub-Divisional Magistrate or Judicial Magistrate of the first class. Section 94 empowers a court or police officer to summon the production of any document or other thing, and 'document' includes electronic and digital records. Section 107 provides that a court may order the attachment or forfeiture of property which is the proceeds of crime, on an application by a police officer approved by a Superintendent of Police. Section 349 allows a Magistrate to order any person, whether or not arrested, to give specimen signatures, handwriting, finger impressions or voice samples. Section 530 permits trials and other proceedings to be held in electronic mode. Under the BSA, 'document' includes electronic or digital records, and an electronic record is not inadmissible only because it is electronic. Section 63 sets out the conditions of admissibility of an electronic record and requires a certificate in the prescribed Schedule, in two parts: Part A signed by the person in charge of the device or by the party, and Part B signed by an expert, together with the hash value of the record. In Anvar P.V. v. P.K. Basheer (2014), the Supreme Court held that secondary electronic evidence requires such a certificate. In Arjun Panditrao Khotkar v. Kailash Kushanrao Gorantyal (2020), a three-judge Bench held that the certificate is a condition precedent to admissibility where the original is not produced, overruling Shafhi Mohammad, but that it may be produced at any stage before the trial concludes, and that the court may direct its production in appropriate cases.",
+      "questions": [
+        {
+          "question": "Under Section 105 of the BNSS, the process of search and seizure must be",
+          "options": {
+            "A": "recorded only in writing by the investigating officer",
+            "B": "witnessed only by the informant",
+            "C": "recorded through audio-video electronic means, preferably by mobile phone, and forwarded forthwith to a Magistrate",
+            "D": "carried out only with a warrant of the High Court"
+          },
+          "correct_option": "C",
+          "explanation": "The passage states the recording requirement.",
+          "difficulty": "Easy",
+          "q_no": 103
+        },
+        {
+          "question": "The certificate under Section 63 of the BSA is to be given in",
+          "options": {
+            "A": "a single part signed by the investigating officer",
+            "B": "two parts, both signed by the Magistrate",
+            "C": "a single part signed by the accused",
+            "D": "two parts, Part A signed by the person in charge of the device or the party, and Part B signed by an expert"
+          },
+          "correct_option": "D",
+          "explanation": "The passage describes the two-part certificate.",
+          "difficulty": "Moderate",
+          "q_no": 104
+        },
+        {
+          "question": "Arjun Panditrao Khotkar held that the certificate for electronic evidence",
+          "options": {
+            "A": "is required only for documents stored in paper form",
+            "B": "is never required for electronic evidence",
+            "C": "is a condition precedent where the original is not produced, but may be produced at any stage before the trial concludes",
+            "D": "must be produced before the charge-sheet is filed"
+          },
+          "correct_option": "C",
+          "explanation": "The passage records this holding and the overruling of Shafhi Mohammad.",
+          "difficulty": "Moderate",
+          "q_no": 105
+        },
+        {
+          "question": "Under Section 107 of the BNSS, attachment or forfeiture of property which is the proceeds of crime may be ordered by",
+          "options": {
+            "A": "the Superintendent of Police, without a court order",
+            "B": "a court, on the application of a police officer approved by a Superintendent of Police",
+            "C": "the investigating officer alone, without any approval",
+            "D": "the accused with the consent of the victim"
+          },
+          "correct_option": "B",
+          "explanation": "The passage states the procedure.",
+          "difficulty": "Moderate",
+          "q_no": 106
+        },
+        {
+          "question": "The police produce at trial a copy of CCTV footage stored on a pen drive, without the Section 63 certificate. Before the trial concludes, the prosecution offers a certificate. In the light of Arjun Panditrao, the court",
+          "options": {
+            "A": "must treat the footage as primary evidence without any certificate in every case",
+            "B": "may permit the certificate to be produced, as it may be produced at any stage before the trial concludes",
+            "C": "must reject the footage, as electronic evidence is inadmissible",
+            "D": "must reject the footage, since the certificate had to be filed with the charge-sheet"
+          },
+          "correct_option": "B",
+          "explanation": "The Court allowed production at any stage before the conclusion of the trial.",
+          "difficulty": "Tough",
+          "q_no": 107
+        },
+        {
+          "question": "Under Section 349 of the BNSS, a Magistrate may order a person to give voice samples",
+          "options": {
+            "A": "only if the person has been arrested",
+            "B": "only with the consent of the High Court",
+            "C": "whether or not that person has been arrested",
+            "D": "only after the person has been convicted"
+          },
+          "correct_option": "C",
+          "explanation": "The passage states that the power extends to persons not arrested.",
+          "difficulty": "Moderate",
+          "q_no": 108
+        }
+      ],
+      "question_range": [
+        103,
+        108
+      ],
+      "word_count": 312
+    },
+    {
+      "passage_id": "P19",
+      "subject_area": "Criminal Law",
+      "title": "Common Intention, Common Object, Conspiracy and Abetment under the BNS",
+      "passage": "The Bharatiya Nyaya Sanhita, 2023 contains several provisions on liability for acts done by more than one person. Section 3(5) provides that, when a criminal act is done by several persons in furtherance of the common intention of all, each is liable as if the act were done by him alone. The provision does not create a substantive offence but states a rule of joint liability; it requires a prior meeting of minds, which may develop on the spot, and, according to Barendra Kumar Ghosh v. King Emperor (1925), a person who merely stands and waits at a place in furtherance of the plan may also be liable. Section 190 deals with common object: where an offence is committed by any member of an unlawful assembly, that is, an assembly of five or more persons with a common unlawful object, in prosecution of that object, or of a kind which the members knew was likely to be committed, every member is guilty of the offence. Active participation is not required; it suffices that the accused was a member of the assembly. Section 61 defines criminal conspiracy as an agreement between two or more persons to do or cause to be done an illegal act, or a legal act by illegal means; an agreement to commit an offence is punishable without more, but an agreement to do any other illegal act requires some act besides the agreement. In Kehar Singh v. State (Delhi Administration) (1988), the Supreme Court observed that direct proof of conspiracy is rarely available and that the agreement may be inferred from circumstances. Abetment under Section 45 may be by instigation, by conspiracy with an act or illegal omission in pursuance of it, or by intentional aid. Under Section 54, an abettor who is present when the offence is committed is deemed to have committed it.",
+      "questions": [
+        {
+          "question": "Under Section 3(5) of the BNS, where a criminal act is done by several persons in furtherance of the common intention of all,",
+          "options": {
+            "A": "only the person who actually commits the act is liable",
+            "B": "each is liable for the act as if it were done by him alone",
+            "C": "all are liable only for abetment",
+            "D": "liability arises only if five or more persons are involved"
+          },
+          "correct_option": "B",
+          "explanation": "The passage states the rule of joint liability.",
+          "difficulty": "Easy",
+          "q_no": 109
+        },
+        {
+          "question": "The principal difference between Section 190 (common object) and Section 3(5) (common intention) is that Section 190 requires",
+          "options": {
+            "A": "membership of an unlawful assembly of five or more persons, and not active participation in the act",
+            "B": "a prior meeting of minds among exactly two persons",
+            "C": "an agreement to commit an offence, and not any assembly",
+            "D": "proof that every accused personally struck the victim"
+          },
+          "correct_option": "A",
+          "explanation": "The passage states that membership of the assembly suffices under Section 190.",
+          "difficulty": "Moderate",
+          "q_no": 110
+        },
+        {
+          "question": "According to Barendra Kumar Ghosh, a person who stands guard outside a house while his companions commit an offence within, in furtherance of their plan, is",
+          "options": {
+            "A": "liable, as one who merely stands and waits in furtherance of the plan may also be liable",
+            "B": "liable only for abetment",
+            "C": "not liable, since he did not take part in the act",
+            "D": "liable only if he carries a weapon"
+          },
+          "correct_option": "A",
+          "explanation": "The passage records the principle of the case.",
+          "difficulty": "Moderate",
+          "q_no": 111
+        },
+        {
+          "question": "Under Section 61, a criminal conspiracy to do an illegal act which is not an offence is complete only when",
+          "options": {
+            "A": "a Magistrate has recorded the agreement",
+            "B": "some act besides the agreement is done by one or more of the parties",
+            "C": "five or more persons have joined it",
+            "D": "the parties merely meet and agree"
+          },
+          "correct_option": "B",
+          "explanation": "The passage states that an overt act is required for such conspiracies.",
+          "difficulty": "Moderate",
+          "q_no": 112
+        },
+        {
+          "question": "Six persons assemble with the common object of beating X. One of them, unknown to the others, brings a gun and shoots X dead. On the passage, the liability of the other five for murder depends on",
+          "options": {
+            "A": "whether they were present when the gun was bought",
+            "B": "whether the assembly was lawful",
+            "C": "whether they knew that murder was likely to be committed in prosecution of the common object",
+            "D": "whether any of them fired at X"
+          },
+          "correct_option": "C",
+          "explanation": "Section 190 extends liability to offences the members knew were likely to be committed.",
+          "difficulty": "Tough",
+          "q_no": 113
+        },
+        {
+          "question": "Consider the following statements. 1. Section 3(5) does not create a substantive offence but states a rule of joint liability. 2. A person can be held liable under Section 190 only if he actively participated in the offence. 3. An abettor who is present when the offence is committed is deemed to have committed it. Which of the statements are correct?",
+          "options": {
+            "A": "1 and 2 only",
+            "B": "1 and 3 only",
+            "C": "2 and 3 only",
+            "D": "1, 2 and 3"
+          },
+          "correct_option": "B",
+          "explanation": "Statements 1 and 3 are correct; Section 190 does not require active participation.",
+          "difficulty": "Tough",
+          "q_no": 114
+        }
+      ],
+      "question_range": [
+        109,
+        114
+      ],
+      "word_count": 308
+    },
+    {
+      "passage_id": "P20",
+      "subject_area": "Company Law",
+      "title": "Corporate Social Responsibility, ESG and the Stakeholder Company",
+      "passage": "Section 135 of the Companies Act, 2013 and the CSR Rules require companies with a net worth of Rs 500 crore or more, turnover of Rs 1,000 crore or more, or net profit of Rs 5 crore or more in the immediately preceding financial year to constitute a Corporate Social Responsibility (CSR) Committee and to spend at least two per cent of the average net profits of the preceding three financial years on activities listed in Schedule VII, which include eradicating hunger and poverty, promoting education, promoting gender equality and empowering women, ensuring environmental sustainability and protecting national heritage. Where the unspent amount relates to an ongoing project, it must be transferred to an Unspent CSR Account within thirty days of the end of the financial year and spent within three years; otherwise it must be transferred to a fund specified in Schedule VII within six months. Following the 2019 amendment, a company in default is liable to a penalty of twice the unspent amount or Rs 1 crore, whichever is less, and each officer in default to one-tenth of the unspent amount or Rs 2 lakh, whichever is less. Section 166(2) requires a director to act in good faith to promote the objects of the company for the benefit of its members as a whole and in the best interests of the company, its employees, the shareholders, the community and for the protection of the environment. Section 149(1) requires prescribed classes of companies, including listed companies and public companies with paid-up share capital of Rs 100 crore or more or turnover of Rs 300 crore or more, to have at least one woman director. The Securities and Exchange Board of India requires the top one thousand listed companies by market capitalisation to file a Business Responsibility and Sustainability Report (BRSR) disclosing their environmental, social and governance performance, with assurance of core indicators phased in beginning with the top 150. These provisions reflect a shift from a shareholder-centred view of the company towards a stakeholder-sensitive one.",
+      "questions": [
+        {
+          "question": "A company to which Section 135 applies must spend on CSR at least",
+          "options": {
+            "A": "two per cent of the turnover of the preceding year",
+            "B": "five per cent of the net profit of the current year",
+            "C": "two per cent of the average net profits of the preceding three financial years",
+            "D": "ten per cent of the net worth"
+          },
+          "correct_option": "C",
+          "explanation": "The passage states the two per cent of three-year average net profit rule.",
+          "difficulty": "Easy",
+          "q_no": 115
+        },
+        {
+          "question": "Section 135 applies to a company which has, in the immediately preceding financial year,",
+          "options": {
+            "A": "paid-up capital of Rs 100 crore or more only",
+            "B": "a net worth, turnover and net profit, each of Rs 500 crore or more",
+            "C": "a net worth of Rs 500 crore or more, or turnover of Rs 1,000 crore or more, or net profit of Rs 5 crore or more",
+            "D": "any three woman directors"
+          },
+          "correct_option": "C",
+          "explanation": "Any one of the three thresholds suffices.",
+          "difficulty": "Moderate",
+          "q_no": 116
+        },
+        {
+          "question": "A company has unspent CSR funds relating to an ongoing project. It must",
+          "options": {
+            "A": "return the amount to shareholders as dividend",
+            "B": "transfer the amount to an Unspent CSR Account within thirty days of the end of the financial year and spend it within three years",
+            "C": "retain it in the general account without any time limit",
+            "D": "transfer the amount to the Registrar immediately"
+          },
+          "correct_option": "B",
+          "explanation": "The passage states the rule for ongoing projects.",
+          "difficulty": "Moderate",
+          "q_no": 117
+        },
+        {
+          "question": "On default in transferring unspent CSR funds, the company is liable to a penalty of",
+          "options": {
+            "A": "imprisonment of its directors for one year",
+            "B": "the unspent amount or Rs 10 crore, whichever is more",
+            "C": "one-tenth of the unspent amount",
+            "D": "twice the unspent amount or Rs 1 crore, whichever is less"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states the penalty for the company.",
+          "difficulty": "Moderate",
+          "q_no": 118
+        },
+        {
+          "question": "Section 166(2) is best understood as requiring directors to",
+          "options": {
+            "A": "act on the instructions of the majority shareholder in every case",
+            "B": "consider the interests of creditors alone",
+            "C": "act only for the maximisation of dividends for shareholders",
+            "D": "act in good faith in the best interests of the company, its employees, shareholders, community and the environment"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states the stakeholder-sensitive duty.",
+          "difficulty": "Tough",
+          "q_no": 119
+        },
+        {
+          "question": "A listed company with paid-up share capital of Rs 120 crore has an all-male board. On the passage, the company",
+          "options": {
+            "A": "is in breach only if it fails to file the BRSR",
+            "B": "is compliant, since the requirement applies only to companies with turnover above Rs 1,000 crore",
+            "C": "is in breach of Section 149(1), which requires at least one woman director",
+            "D": "is compliant, since the requirement applies only to private companies"
+          },
+          "correct_option": "C",
+          "explanation": "A listed company falls within the prescribed classes required to have a woman director.",
+          "difficulty": "Tough",
+          "q_no": 120
+        }
+      ],
+      "question_range": [
+        115,
+        120
+      ],
+      "word_count": 336
+    },
+    {
+      "passage_id": "P21",
+      "subject_area": "Constitutional Law",
+      "title": "Natural Resources, Federalism and the Constitutional Framework for the Environment",
+      "passage": "Environmental governance in India rests on a constitutional framework shaped by the 42nd Amendment (1976), which inserted Article 48A, directing the State to protect and improve the environment and to safeguard forests and wildlife, and Article 51A(g), making the protection of the environment a fundamental duty. That Amendment also moved forests and the protection of wild animals and birds to the Concurrent List (Entries 17A and 17B). Public health and sanitation, agriculture, water and land are State subjects, industries and mines are in the Union List subject to the limits of the relevant entries, and Entry 56 of the Union List allows Parliament to regulate inter-State rivers where it declares it expedient. Article 253 empowers Parliament to legislate for the whole or any part of India to implement an international treaty, agreement or decision, and the Environment (Protection) Act, 1986 was enacted under it to give effect to the decisions of the 1972 Stockholm Conference. Article 39(b) directs the State to secure that the ownership and control of the material resources of the community are so distributed as best to subserve the common good. In Property Owners Association v. State of Maharashtra (November 2024), a nine-judge Bench held, by majority, that not every privately owned resource is a 'material resource of the community' under Article 39(b), though some may be, depending on factors such as the nature of the resource, its impact on the well-being of the community, its scarcity and the consequences of its being held in private hands. In Re: Natural Resources Allocation (Special Reference No. 1 of 2012), the Court held that auction is not a constitutional requirement for every alienation of natural resources, the method depending on the nature of the resource and the object of the policy, but that any method must be fair, transparent and consistent with the public trust. In Manohar Lal Sharma v. Principal Secretary (2014), the Court held the allocation of coal blocks arbitrary and illegal and cancelled it, with a few exceptions.",
+      "questions": [
+        {
+          "question": "Parliament is empowered by Article 253 to",
+          "options": {
+            "A": "legislate for the whole or any part of India to implement an international treaty, agreement or decision",
+            "B": "override the Constitution in order to implement a treaty",
+            "C": "legislate only on matters in the Concurrent List",
+            "D": "legislate on any State subject at any time"
+          },
+          "correct_option": "A",
+          "explanation": "The passage states the scope of Article 253.",
+          "difficulty": "Easy",
+          "q_no": 121
+        },
+        {
+          "question": "The 42nd Amendment moved which of the following subjects to the Concurrent List?",
+          "options": {
+            "A": "Public health and sanitation",
+            "B": "Forests and the protection of wild animals and birds",
+            "C": "Mines and minerals",
+            "D": "Water and irrigation"
+          },
+          "correct_option": "B",
+          "explanation": "The passage identifies Entries 17A and 17B.",
+          "difficulty": "Moderate",
+          "q_no": 122
+        },
+        {
+          "question": "In Property Owners Association (2024), the nine-judge Bench held that",
+          "options": {
+            "A": "all privately owned resources are material resources of the community",
+            "B": "no privately owned resource can ever be a material resource of the community",
+            "C": "Article 39(b) is unenforceable by the State",
+            "D": "not every privately owned resource is a material resource of the community, though some may be, depending on specified factors"
+          },
+          "correct_option": "D",
+          "explanation": "The passage records the holding and the factors.",
+          "difficulty": "Moderate",
+          "q_no": 123
+        },
+        {
+          "question": "According to the Special Reference of 2012, as described, the alienation of natural resources",
+          "options": {
+            "A": "may be by any method, however arbitrary",
+            "B": "must always be by auction",
+            "C": "is a matter wholly outside judicial review",
+            "D": "need not always be by auction, but the method chosen must be fair, transparent and consistent with the public trust"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states that auction is not constitutionally mandatory for every resource.",
+          "difficulty": "Moderate",
+          "q_no": 124
+        },
+        {
+          "question": "A State enacts a law acquiring every privately owned mine within its territory, on the single premise that all private property is a material resource of the community under Article 39(b). In the light of the 2024 decision, the law is",
+          "options": {
+            "A": "invalid only because the State has not obtained the approval of the President",
+            "B": "unassailable, since Article 39(b) applies to all property",
+            "C": "valid because mines are in the Union List",
+            "D": "open to challenge, since the premise is untenable and each resource must be tested against factors such as nature, scarcity and impact on the community"
+          },
+          "correct_option": "D",
+          "explanation": "The 2024 decision rejects the premise that all private resources fall within Article 39(b).",
+          "difficulty": "Tough",
+          "q_no": 125
+        },
+        {
+          "question": "Assertion (A): Parliament was competent to enact the Environment (Protection) Act, 1986 although the environment is not separately listed as a legislative subject. Reason (R): Article 253 empowers Parliament to legislate to implement international decisions, and the Act gave effect to decisions of the 1972 Stockholm Conference. Which is correct?",
+          "options": {
+            "A": "Both A and R are true, and R is the correct explanation of A",
+            "B": "Both A and R are true, but R is not the correct explanation of A",
+            "C": "A is true but R is false",
+            "D": "A is false but R is true"
+          },
+          "correct_option": "A",
+          "explanation": "R supplies the source of legislative power for the 1986 Act.",
+          "difficulty": "Tough",
+          "q_no": 126
+        }
+      ],
+      "question_range": [
+        121,
+        126
+      ],
+      "word_count": 332
+    },
+    {
+      "passage_id": "P22",
+      "subject_area": "Law of Torts",
+      "title": "Nuisance, Public Duty and Noise Pollution",
+      "passage": "Private nuisance is an unlawful interference with a person's use or enjoyment of land. Where the interference causes material damage to property, the locality in which the defendant acts is irrelevant, but where it causes only personal discomfort, the character of the locality is taken into account, as in St Helen's Smelting Co. v. Tipping (1865). A claimant of abnormal sensitivity cannot complain of an act which would not affect an ordinary person (Robinson v. Kilvert). A public nuisance, defined by Section 270 of the Bharatiya Nyaya Sanhita, 2023, is an act which causes common injury, danger or annoyance to the public or to people in general; a private individual may sue in tort only if he suffers special damage, and Section 91 of the Code of Civil Procedure allows a suit by the Advocate-General, or by two or more persons with the leave of the court. A Magistrate may also, under what was Section 133 of the Code of Criminal Procedure, make a conditional order for the removal of a public nuisance. In Municipal Council, Ratlam v. Vardhichand (1980), Krishna Iyer J. held that a municipality cannot plead lack of funds to avoid its statutory duty to provide drains and sanitation, and that the section is a tool to enforce public duty. In Ushaben v. Bhagyalaxmi Chitra Mandir (1978), the Gujarat High Court held that the screening of a film allegedly hurting the plaintiffs' religious feelings did not give rise to an actionable wrong. In Church of God (Full Gospel) in India v. K.K.R. Majestic Colony Welfare Association (2000), the Supreme Court held that no religion prescribes the use of loudspeakers and that noise pollution violates Article 21; in In Re: Noise Pollution (2005), it held that the right to speech does not include a right to impose noise on captive listeners and that every person has a right to sleep. The Noise Pollution (Regulation and Control) Rules, 2000 prescribe ambient noise standards for different zones, prohibit the use of loudspeakers between 10 p.m. and 6 a.m. except in emergencies, and allow a State to permit their use until midnight on not more than fifteen days in a year on festive and cultural occasions.",
+      "questions": [
+        {
+          "question": "Under Section 91 of the Code of Civil Procedure, as described, a suit in respect of a public nuisance may be brought by",
+          "options": {
+            "A": "any single person without leave of the court",
+            "B": "the municipality alone",
+            "C": "the Magistrate on his own motion only",
+            "D": "the Advocate-General, or by two or more persons with the leave of the court"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states the persons who may sue under Section 91.",
+          "difficulty": "Easy",
+          "q_no": 127
+        },
+        {
+          "question": "According to St Helen's Smelting Co. v. Tipping, the locality of the defendant's activity",
+          "options": {
+            "A": "is never relevant",
+            "B": "is irrelevant where there is material damage to property, but is relevant where only personal discomfort is caused",
+            "C": "is relevant only where the plaintiff is abnormally sensitive",
+            "D": "is always decisive"
+          },
+          "correct_option": "B",
+          "explanation": "The passage states the distinction.",
+          "difficulty": "Moderate",
+          "q_no": 128
+        },
+        {
+          "question": "In Municipal Council, Ratlam v. Vardhichand, the Supreme Court held that",
+          "options": {
+            "A": "a municipality cannot plead lack of funds to avoid its statutory duty to provide drains and sanitation",
+            "B": "a municipality is exempt from duties for want of funds",
+            "C": "a Magistrate has no power to order removal of a public nuisance",
+            "D": "nuisance can be remedied only by a civil suit"
+          },
+          "correct_option": "A",
+          "explanation": "The passage records the holding.",
+          "difficulty": "Moderate",
+          "q_no": 129
+        },
+        {
+          "question": "In Church of God (Full Gospel), the Supreme Court held that",
+          "options": {
+            "A": "loudspeakers may be used at any hour with a licence",
+            "B": "noise is a matter of private nuisance only",
+            "C": "religious freedom permits unlimited use of loudspeakers",
+            "D": "no religion prescribes the use of loudspeakers, and noise pollution violates Article 21"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states both limbs.",
+          "difficulty": "Moderate",
+          "q_no": 130
+        },
+        {
+          "question": "A State permits the use of loudspeakers until midnight on ten days in a year on festive occasions. Under the Noise Pollution Rules as described, this permission is",
+          "options": {
+            "A": "invalid, since loudspeakers are prohibited absolutely between 10 p.m. and 6 a.m.",
+            "B": "invalid, since only the Central Government may permit use at night",
+            "C": "within the State's power, since up to fifteen days in a year may be permitted until midnight",
+            "D": "valid only if the Supreme Court sanctions each occasion"
+          },
+          "correct_option": "C",
+          "explanation": "The Rules allow relaxation until midnight for not more than fifteen days in a year.",
+          "difficulty": "Tough",
+          "q_no": 131
+        },
+        {
+          "question": "The decision in Ushaben v. Bhagyalaxmi Chitra Mandir stands for the proposition that",
+          "options": {
+            "A": "hurt to religious feelings by the screening of a film does not give rise to an actionable wrong in tort",
+            "B": "the Magistrate must stop all films with religious themes",
+            "C": "a film may be restrained wherever any person objects",
+            "D": "any film hurting religious feelings is a nuisance"
+          },
+          "correct_option": "A",
+          "explanation": "The passage records the holding.",
+          "difficulty": "Tough",
+          "q_no": 132
+        }
+      ],
+      "question_range": [
+        127,
+        132
+      ],
+      "word_count": 365
+    },
+    {
+      "passage_id": "P23",
+      "subject_area": "Law of Contract",
+      "title": "Frustration, Force Majeure and Commercial Hardship",
+      "passage": "Section 56 of the Indian Contract Act, 1872 provides that an agreement to do an act impossible in itself is void, and that a contract to do an act which, after the contract is made, becomes impossible or, by reason of some event which the promisor could not prevent, unlawful, becomes void when the act becomes impossible or unlawful. In Satyabrata Ghose v. Mugneeram Bangur & Co. (1954), the Supreme Court held that 'impossible' in Section 56 is not confined to physical or literal impossibility; it covers the case where an untoward event or change of circumstances totally upsets the very foundation upon which the parties rested their bargain, so that the object of the contract is frustrated. The Court also held that, where the contract itself makes provision for the happening of such an event, the matter is governed by the contract and Section 56 does not apply. In Alopi Parshad & Sons v. Union of India (1960), the Court held that a contract is not frustrated merely because performance has become more onerous or costly, since the parties must be taken to have foreseen the risks of trade. In Energy Watchdog v. Central Electricity Regulatory Commission (2017), power generators who had bid on the basis of imported coal sought relief when a foreign government's regulation raised the price of the coal; the Supreme Court held that the increase in cost did not amount to force majeure, which is to be construed strictly according to the terms of the contract, nor to frustration under Section 56, since the agreements were not rendered impossible. Section 65 provides that, when an agreement is discovered to be void or a contract becomes void, any person who has received an advantage under it must restore it or make compensation to the person from whom he received it. Section 73 awards compensation for loss naturally arising from breach, and the Specific Relief Act, 1963 provides remedies where compensation is inadequate.",
+      "questions": [
+        {
+          "question": "Under Section 56 of the Indian Contract Act, a contract which becomes impossible to perform after it is made",
+          "options": {
+            "A": "becomes void when the act becomes impossible or unlawful",
+            "B": "is illegal and punishable",
+            "C": "remains valid and enforceable",
+            "D": "becomes voidable at the option of the promisee only"
+          },
+          "correct_option": "A",
+          "explanation": "The passage states the rule.",
+          "difficulty": "Easy",
+          "q_no": 133
+        },
+        {
+          "question": "According to Alopi Parshad, a contract is NOT frustrated merely because",
+          "options": {
+            "A": "the subject-matter has been destroyed",
+            "B": "the foundation of the contract has been totally upset",
+            "C": "performance has become more onerous or costly",
+            "D": "performance has become unlawful by a change in the law"
+          },
+          "correct_option": "C",
+          "explanation": "Mere hardship or increase in cost does not frustrate a contract.",
+          "difficulty": "Moderate",
+          "q_no": 134
+        },
+        {
+          "question": "Where a contract contains an express provision for an event such as force majeure, Satyabrata Ghose holds that",
+          "options": {
+            "A": "the clause is void as against public policy",
+            "B": "Section 56 overrides the contract",
+            "C": "the matter is governed by the contract, and Section 56 does not apply",
+            "D": "the court must disregard the clause"
+          },
+          "correct_option": "C",
+          "explanation": "The passage states this holding.",
+          "difficulty": "Moderate",
+          "q_no": 135
+        },
+        {
+          "question": "Under Section 65, a person who has received an advantage under an agreement discovered to be void, or a contract which becomes void, must",
+          "options": {
+            "A": "pay a penalty to the State",
+            "B": "retain it as damages",
+            "C": "surrender it to the Registrar",
+            "D": "restore it or make compensation to the person from whom he received it"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states the obligation of restoration.",
+          "difficulty": "Moderate",
+          "q_no": 136
+        },
+        {
+          "question": "A supplier agrees to supply goods at a fixed price using imported raw material. A foreign government's regulation sharply increases the import price, and the supplier claims that the contract is frustrated. On the basis of Energy Watchdog and Alopi Parshad, the claim is",
+          "options": {
+            "A": "certain to succeed, since the contract has become impossible",
+            "B": "valid only if the supplier is a public sector body",
+            "C": "certain to succeed, since the cause was a foreign regulation",
+            "D": "unlikely to succeed, since an increase in cost alone does not amount to frustration or force majeure"
+          },
+          "correct_option": "D",
+          "explanation": "Increased cost does not make the contract impossible within Section 56.",
+          "difficulty": "Tough",
+          "q_no": 137
+        },
+        {
+          "question": "Assertion (A): Section 56 may apply even where performance remains physically possible. Reason (R): Satyabrata Ghose held that 'impossible' in Section 56 is not confined to physical impossibility, and covers the frustration of the foundation of the contract. Which is correct?",
+          "options": {
+            "A": "Both A and R are true, and R is the correct explanation of A",
+            "B": "Both A and R are true, but R is not the correct explanation of A",
+            "C": "A is true but R is false",
+            "D": "A is false but R is true"
+          },
+          "correct_option": "A",
+          "explanation": "R states the holding which supports A.",
+          "difficulty": "Tough",
+          "q_no": 138
+        }
+      ],
+      "question_range": [
+        133,
+        138
+      ],
+      "word_count": 326
+    },
+    {
+      "passage_id": "P24",
+      "subject_area": "Intellectual Property Law",
+      "title": "Traditional Knowledge, Biological Resources and Farmers' Rights",
+      "passage": "Indian law protects traditional knowledge and biological resources through several instruments. Section 3(p) of the Patents Act, 1970 excludes from patentability an invention which in effect is traditional knowledge or which is an aggregation or duplication of known properties of traditionally known components, and Section 25 permits opposition to a patent on the ground that the invention was anticipated by knowledge, oral or otherwise, available within any local or indigenous community in India or elsewhere. The Traditional Knowledge Digital Library (TKDL), set up in 2001, documents formulations from Ayurveda, Unani, Siddha and Yoga in languages and formats accessible to patent examiners worldwide, so as to prevent wrongful patents. Its precursors were successful challenges to the United States patent on the wound-healing use of turmeric, revoked in 1997 on a petition by the Council of Scientific and Industrial Research, and to the European patent on a neem-based fungicide, revoked in 2000 and upheld on appeal in 2005. The Geographical Indications of Goods (Registration and Protection) Act, 1999 protects goods whose quality or reputation is attributable to their geographical origin, for ten years, renewable; Darjeeling tea was the first Indian product registered. The Protection of Plant Varieties and Farmers' Rights Act, 2001 gives breeders exclusive rights in registered varieties, while Section 39(1)(iv) entitles a farmer to save, use, sow, resow, exchange, share or sell his farm produce, including seed of a protected variety, except that he may not sell branded seed. Section 6 of the Biological Diversity Act, 2002 requires the prior approval of the National Biodiversity Authority before an application for an intellectual property right is made on an invention based on research or information on a biological resource obtained from India. Together these provisions seek to balance incentives to innovate against the claims of communities who conserved the resources and developed the knowledge.",
+      "questions": [
+        {
+          "question": "The principal purpose of the Traditional Knowledge Digital Library is to",
+          "options": {
+            "A": "grant patents to traditional healers",
+            "B": "regulate the export of medicinal plants",
+            "C": "document traditional formulations in a form accessible to patent examiners, so as to prevent wrongful patents",
+            "D": "register geographical indications for agricultural produce"
+          },
+          "correct_option": "C",
+          "explanation": "The passage states its purpose.",
+          "difficulty": "Easy",
+          "q_no": 139
+        },
+        {
+          "question": "Section 3(p) of the Patents Act, as described, excludes from patentability",
+          "options": {
+            "A": "an invention which in effect is traditional knowledge, or an aggregation or duplication of known properties of traditionally known components",
+            "B": "every invention based on a plant",
+            "C": "every pharmaceutical invention",
+            "D": "any invention made by an Indian national"
+          },
+          "correct_option": "A",
+          "explanation": "The passage states the exclusion.",
+          "difficulty": "Moderate",
+          "q_no": 140
+        },
+        {
+          "question": "Under Section 39(1)(iv) of the PPVFR Act, a farmer may",
+          "options": {
+            "A": "use seed of a protected variety only with the breeder's licence in every case",
+            "B": "claim exclusive breeder's rights in registered varieties",
+            "C": "sell branded seed of a protected variety freely",
+            "D": "save, use, sow, resow, exchange, share or sell his farm produce including seed of a protected variety, but not sell branded seed"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states the right and the exception for branded seed.",
+          "difficulty": "Moderate",
+          "q_no": 141
+        },
+        {
+          "question": "Under Section 6 of the Biological Diversity Act, 2002, a person who wishes to apply for an intellectual property right on an invention based on a biological resource obtained from India must",
+          "options": {
+            "A": "obtain a no-objection certificate from the Patent Office alone",
+            "B": "obtain the prior approval of the National Biodiversity Authority",
+            "C": "pay a licence fee to the State Government",
+            "D": "file the application first and seek approval afterwards"
+          },
+          "correct_option": "B",
+          "explanation": "The passage states the requirement of prior approval.",
+          "difficulty": "Moderate",
+          "q_no": 142
+        },
+        {
+          "question": "A company applies for a patent on a herbal formulation identical to a classical Ayurvedic formulation documented in the TKDL. On the passage, the application",
+          "options": {
+            "A": "must be granted, since it is a new use in the market",
+            "B": "is liable to be opposed as anticipated by traditional knowledge and as excluded under Section 3(p)",
+            "C": "can be refused only on payment of a fee to the TKDL",
+            "D": "can be refused only by the Biodiversity Authority"
+          },
+          "correct_option": "B",
+          "explanation": "Section 25 and Section 3(p) together apply to such formulations.",
+          "difficulty": "Tough",
+          "q_no": 143
+        },
+        {
+          "question": "Consider the following statements. 1. Darjeeling tea was the first Indian product registered under the Geographical Indications Act, 1999. 2. Under the PPVFR Act, a farmer may sell branded seed of a protected variety without restriction. 3. The United States patent on the wound-healing use of turmeric was revoked in 1997 on a petition by the Council of Scientific and Industrial Research. Which of the statements are correct?",
+          "options": {
+            "A": "1 and 2 only",
+            "B": "1 and 3 only",
+            "C": "2 and 3 only",
+            "D": "1, 2 and 3"
+          },
+          "correct_option": "B",
+          "explanation": "Statements 1 and 3 are stated in the passage; branded seed may not be sold by a farmer.",
+          "difficulty": "Tough",
+          "q_no": 144
+        }
+      ],
+      "question_range": [
+        139,
+        144
+      ],
+      "word_count": 303
+    },
+    {
+      "passage_id": "P25",
+      "subject_area": "Constitutional Law / Environmental Law",
+      "title": "Forest Rights, Gram Sabhas and Sustainable Livelihoods",
+      "passage": "The Scheduled Tribes and Other Traditional Forest Dwellers (Recognition of Forest Rights) Act, 2006 (FRA) seeks to undo what it calls the historical injustice done to forest-dwelling communities. It recognises individual rights to hold and live in forest land under occupation, up to a ceiling of four hectares, and community rights, including the right to protect, regenerate, conserve or manage any community forest resource (Section 3(1)(i)). The Gram Sabha is the authority to initiate the process of determining rights (Section 6), assisted by a Forest Rights Committee, with appeals to the Sub-Divisional and District Level Committees. At least one-third of the members of the Committee must be women, and titles are to be registered jointly in the names of both spouses or, for a household headed by a single person, in the name of that person. Section 4(5) provides that no member of a forest-dwelling community shall be evicted or removed from forest land until the recognition and verification procedure is complete. Section 5 empowers the holders of rights and Gram Sabhas to protect wildlife, forests and biodiversity. In Samatha v. State of Andhra Pradesh (1997), the Supreme Court held that, in Scheduled Areas, the lease of tribal land to non-tribals for mining is void and that the State cannot grant mining leases to private persons, such activity being reserved to tribals, their cooperatives or State agencies. In Orissa Mining Corporation v. Ministry of Environment and Forests (the Niyamgiri case, 2013), the Court directed that Gram Sabhas decide whether the religious and cultural rights of the Dongria Kondh would be affected by bauxite mining, and the Gram Sabhas rejected the project. In 2022, the Forest (Conservation) Rules allowed the settlement of rights under the FRA to be completed after the in-principle approval of a forest diversion proposal, a change criticised as weakening community consent. The right to livelihood under Article 21, the Fifth Schedule and the Panchayats (Extension to Scheduled Areas) Act, 1996 reinforce the position of Gram Sabhas.",
+      "questions": [
+        {
+          "question": "Under the FRA, the authority to initiate the process of determining forest rights is",
+          "options": {
+            "A": "the Gram Sabha",
+            "B": "the Divisional Forest Officer",
+            "C": "the National Green Tribunal",
+            "D": "the District Collector alone"
+          },
+          "correct_option": "A",
+          "explanation": "Section 6 gives this role to the Gram Sabha.",
+          "difficulty": "Easy",
+          "q_no": 145
+        },
+        {
+          "question": "In the Niyamgiri case, the Supreme Court directed that",
+          "options": {
+            "A": "the Central Government alone decide on the mining project",
+            "B": "Gram Sabhas decide whether the religious and cultural rights of the Dongria Kondh would be affected by the mining",
+            "C": "the High Court appoint a committee of experts to decide all questions",
+            "D": "the mining project be approved without further inquiry"
+          },
+          "correct_option": "B",
+          "explanation": "The passage records this direction.",
+          "difficulty": "Moderate",
+          "q_no": 146
+        },
+        {
+          "question": "As regards the registration of titles under the FRA, the passage states that titles are to be",
+          "options": {
+            "A": "registered in the name of the Forest Department",
+            "B": "registered in the name of the male head of the household only",
+            "C": "registered only in the name of the Gram Sabha",
+            "D": "registered jointly in the names of both spouses, or in the name of the single head of a household"
+          },
+          "correct_option": "D",
+          "explanation": "The passage describes joint titles, which also protect women's claims.",
+          "difficulty": "Moderate",
+          "q_no": 147
+        },
+        {
+          "question": "Section 4(5) of the FRA provides that no forest dweller shall be evicted from forest land",
+          "options": {
+            "A": "unless the occupation exceeds four hectares",
+            "B": "without the order of the Supreme Court in every case",
+            "C": "unless the Forest Department so decides",
+            "D": "until the recognition and verification procedure is complete"
+          },
+          "correct_option": "D",
+          "explanation": "The passage states the protection.",
+          "difficulty": "Moderate",
+          "q_no": 148
+        },
+        {
+          "question": "A State grants a mining lease over tribal land in a Scheduled Area to a private company. On the basis of Samatha, the lease is",
+          "options": {
+            "A": "void, since in Scheduled Areas such mining is reserved to tribals, their cooperatives or State agencies",
+            "B": "valid if the Gram Sabha is informed afterwards",
+            "C": "valid, since the State owns all minerals",
+            "D": "valid if the company pays compensation"
+          },
+          "correct_option": "A",
+          "explanation": "Samatha held such leases to private persons void.",
+          "difficulty": "Tough",
+          "q_no": 149
+        },
+        {
+          "question": "Assertion (A): The FRA treats forest-dwelling communities not only as holders of rights but also as custodians of forests and biodiversity. Reason (R): Section 5 empowers the holders of forest rights and Gram Sabhas to protect wildlife, forests and biodiversity. Which is correct?",
+          "options": {
+            "A": "Both A and R are true, and R is the correct explanation of A",
+            "B": "Both A and R are true, but R is not the correct explanation of A",
+            "C": "A is true but R is false",
+            "D": "A is false but R is true"
+          },
+          "correct_option": "A",
+          "explanation": "Section 5 gives statutory expression to the custodial role asserted in A.",
+          "difficulty": "Moderate",
+          "q_no": 150
+        }
+      ],
+      "question_range": [
+        145,
+        150
+      ],
+      "word_count": 329
+    }
+  ],
+  "answer_key": {
+    "1": "D",
+    "2": "C",
+    "3": "B",
+    "4": "B",
+    "5": "A",
+    "6": "A",
+    "7": "B",
+    "8": "C",
+    "9": "B",
+    "10": "C",
+    "11": "B",
+    "12": "D",
+    "13": "A",
+    "14": "D",
+    "15": "C",
+    "16": "C",
+    "17": "A",
+    "18": "A",
+    "19": "B",
+    "20": "C",
+    "21": "D",
+    "22": "B",
+    "23": "A",
+    "24": "A",
+    "25": "D",
+    "26": "B",
+    "27": "C",
+    "28": "D",
+    "29": "C",
+    "30": "A",
+    "31": "D",
+    "32": "A",
+    "33": "D",
+    "34": "A",
+    "35": "D",
+    "36": "B",
+    "37": "C",
+    "38": "A",
+    "39": "D",
+    "40": "A",
+    "41": "B",
+    "42": "C",
+    "43": "C",
+    "44": "D",
+    "45": "C",
+    "46": "B",
+    "47": "D",
+    "48": "A",
+    "49": "A",
+    "50": "B",
+    "51": "C",
+    "52": "C",
+    "53": "A",
+    "54": "B",
+    "55": "B",
+    "56": "C",
+    "57": "D",
+    "58": "B",
+    "59": "B",
+    "60": "D",
+    "61": "B",
+    "62": "D",
+    "63": "D",
+    "64": "A",
+    "65": "A",
+    "66": "A",
+    "67": "D",
+    "68": "B",
+    "69": "C",
+    "70": "C",
+    "71": "B",
+    "72": "A",
+    "73": "B",
+    "74": "C",
+    "75": "B",
+    "76": "D",
+    "77": "A",
+    "78": "A",
+    "79": "B",
+    "80": "C",
+    "81": "C",
+    "82": "B",
+    "83": "D",
+    "84": "B",
+    "85": "A",
+    "86": "A",
+    "87": "C",
+    "88": "B",
+    "89": "C",
+    "90": "A",
+    "91": "C",
+    "92": "D",
+    "93": "A",
+    "94": "D",
+    "95": "D",
+    "96": "C",
+    "97": "D",
+    "98": "D",
+    "99": "C",
+    "100": "A",
+    "101": "C",
+    "102": "B",
+    "103": "C",
+    "104": "D",
+    "105": "C",
+    "106": "B",
+    "107": "B",
+    "108": "C",
+    "109": "B",
+    "110": "A",
+    "111": "A",
+    "112": "B",
+    "113": "C",
+    "114": "B",
+    "115": "C",
+    "116": "C",
+    "117": "B",
+    "118": "D",
+    "119": "D",
+    "120": "C",
+    "121": "A",
+    "122": "B",
+    "123": "D",
+    "124": "D",
+    "125": "D",
+    "126": "A",
+    "127": "D",
+    "128": "B",
+    "129": "A",
+    "130": "D",
+    "131": "C",
+    "132": "A",
+    "133": "A",
+    "134": "C",
+    "135": "C",
+    "136": "D",
+    "137": "D",
+    "138": "A",
+    "139": "C",
+    "140": "A",
+    "141": "D",
+    "142": "B",
+    "143": "B",
+    "144": "B",
+    "145": "A",
+    "146": "B",
+    "147": "D",
+    "148": "D",
+    "149": "A",
+    "150": "A"
+  },
+  "stats": {
+    "answer_distribution": {
+      "D": 37,
+      "C": 37,
+      "B": 38,
+      "A": 38
+    },
+    "difficulty_distribution": {
+      "Easy": 28,
+      "Moderate": 80,
+      "Tough": 42
+    }
+  }
+}

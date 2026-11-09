@@ -1,0 +1,461 @@
+{
+ "mock": 5,
+ "note": "Passages removed from the live paper to match the official 120-question pattern.",
+ "passages": [
+  {
+   "passage_id": "P14",
+   "subject_area": "Constitutional Law",
+   "title": "Money Bills and Ordinances: Articles 109, 110 and 123",
+   "passage": "A Money Bill, defined in Article 110, deals only with matters such as taxes, borrowing and the Consolidated Fund of India. It can be introduced only in the Lok Sabha on the recommendation of the President. After it is passed, it is transmitted to the Rajya Sabha, which must return it within fourteen days with recommendations; the Lok Sabha may accept or reject them, and if the Rajya Sabha does not return the Bill within fourteen days it is deemed to have been passed by both Houses. The Speaker's certificate that a Bill is a Money Bill is made final by Article 110(3), and the provisions for a joint sitting in Article 108 do not apply to Money Bills or Constitution Amendment Bills. In K.S. Puttaswamy v. Union of India (the Aadhaar case, 2018), the majority upheld the Aadhaar Act as a Money Bill, while Justice D.Y. Chandrachud dissented, holding that the route was a fraud on the Constitution because it bypassed the Rajya Sabha. Article 123 empowers the President, at any time except when both Houses are in session, to promulgate an Ordinance when satisfied that immediate action is necessary. An Ordinance has the same force as an Act of Parliament, must be laid before both Houses, and ceases to operate at the expiration of six weeks from the reassembly of Parliament, or earlier if both Houses pass resolutions disapproving it. An Ordinance cannot amend the Constitution. In D.C. Wadhwa v. State of Bihar (1987), the Court held that the repeated re-promulgation of Ordinances without placing them before the Legislature is a fraud on the Constitution, a view affirmed by a seven-judge Bench in Krishna Kumar Singh v. State of Bihar (2017), which also held that rights and liabilities that arose during the life of a lapsed Ordinance do not automatically vanish. Article 213 confers a similar power on Governors.",
+   "questions": [
+    {
+     "question": "The Rajya Sabha must return a Money Bill to the Lok Sabha within",
+     "options": {
+      "A": "14 days",
+      "B": "30 days",
+      "C": "6 weeks",
+      "D": "6 months"
+     },
+     "correct_option": "A",
+     "explanation": "The passage states that the Rajya Sabha must return a Money Bill within fourteen days, failing which it is deemed passed.",
+     "difficulty": "Easy",
+     "q_no": 79
+    },
+    {
+     "question": "The joint sitting under Article 108 cannot be used for",
+     "options": {
+      "A": "any Bill rejected by the Rajya Sabha",
+      "B": "Bills introduced in the Rajya Sabha",
+      "C": "Money Bills and Constitution Amendment Bills",
+      "D": "Ordinary Bills passed by the Lok Sabha"
+     },
+     "correct_option": "C",
+     "explanation": "The passage states that Article 108 does not apply to Money Bills or Constitution Amendment Bills.",
+     "difficulty": "Easy",
+     "q_no": 80
+    },
+    {
+     "question": "In the Aadhaar case, Justice Chandrachud's dissent held that",
+     "options": {
+      "A": "Money Bills may validly be introduced in the Rajya Sabha as well",
+      "B": "the Aadhaar Act violated only the freedom under Article 19",
+      "C": "the Speaker's certificate under Article 110(3) is conclusive and unreviewable by courts",
+      "D": "the Money Bill route bypassed the Rajya Sabha and was a fraud on the Constitution"
+     },
+     "correct_option": "D",
+     "explanation": "The passage records his view that the Money Bill route bypassed the Rajya Sabha and was a fraud on the Constitution.",
+     "difficulty": "Moderate",
+     "q_no": 81
+    },
+    {
+     "question": "An Ordinance is promulgated while Parliament is in recess, and Parliament reassembles on 1 March. Assuming no disapproving resolutions, the Ordinance ceases to operate on",
+     "options": {
+      "A": "31 March",
+      "B": "1 April",
+      "C": "12 April",
+      "D": "1 May"
+     },
+     "correct_option": "C",
+     "explanation": "It ceases six weeks (42 days) after reassembly: 1 March plus 42 days is 12 April.",
+     "difficulty": "Tough",
+     "q_no": 82
+    },
+    {
+     "question": "A State Government has the Governor promulgate the same Ordinance four times in succession without placing it before the Legislature. Under D.C. Wadhwa, this practice is",
+     "options": {
+      "A": "valid for six months only",
+      "B": "valid if the Council of Ministers approves each re-promulgation",
+      "C": "a fraud on the Constitution and invalid",
+      "D": "valid, so long as the Governor is satisfied each time"
+     },
+     "correct_option": "C",
+     "explanation": "Wadhwa held that repeated re-promulgation without placing the Ordinance before the Legislature is a fraud on the Constitution.",
+     "difficulty": "Moderate",
+     "q_no": 83
+    },
+    {
+     "question": "Only one House of Parliament is in session. On Article 123 as described, the President",
+     "options": {
+      "A": "may promulgate an Ordinance, as the bar applies only when both Houses sit",
+      "B": "may not promulgate an Ordinance, since one House is in session",
+      "C": "may promulgate an Ordinance only on a request made by the Speaker",
+      "D": "may promulgate an Ordinance only after first summoning the other House"
+     },
+     "correct_option": "A",
+     "explanation": "Article 123 bars an Ordinance only when both Houses are in session.",
+     "difficulty": "Tough",
+     "q_no": 84
+    }
+   ],
+   "question_range": [
+    79,
+    84
+   ],
+   "word_count": 311
+  },
+  {
+   "passage_id": "P13",
+   "subject_area": "Constitutional Law",
+   "title": "Elections and the Constitution: the 61st Amendment, Article 324 and Disqualification",
+   "passage": "The Constitution (Sixty-first Amendment) Act, 1988 reduced the voting age under Article 326 from twenty-one to eighteen years. Article 324 vests the superintendence, direction and control of elections in the Election Commission. The Chief Election Commissioner (CEC) can be removed only in the manner and on the grounds applicable to a Supreme Court judge, while other Election Commissioners can be removed only on the CEC's recommendation (Article 324(5)). Article 329(b) provides that no election to Parliament or a State Legislature shall be called in question except by an election petition. In Mohinder Singh Gill v. Chief Election Commissioner (1978), the Court treated Article 324 as a reservoir of power to act where no law exists. In Anoop Baranwal v. Union of India (2023), a Constitution Bench held that until Parliament makes a law, the CEC and Election Commissioners shall be appointed by the President on the advice of a committee of the Prime Minister, the Leader of the Opposition and the Chief Justice of India. Parliament later enacted the Chief Election Commissioner and Other Election Commissioners (Appointment, Conditions of Service and Term of Office) Act, 2023, replacing the Chief Justice with a Union Cabinet Minister nominated by the Prime Minister; the Act has been challenged, and its current status should be verified before it is cited. Under Section 8(3) of the Representation of the People Act, 1951, a person convicted and sentenced to imprisonment of two years or more is disqualified from the date of conviction and for six years after release. In Lily Thomas v. Union of India (2013), the Court struck down Section 8(4), which allowed sitting legislators to continue pending appeal. Disqualification is not incurred if the appellate court stays the conviction itself, not merely the sentence (Lok Prahari, 2018). In Association for Democratic Reforms v. Union of India (2024), the Court struck down the Electoral Bonds Scheme as violating the voter's right to information under Article 19(1)(a).",
+   "questions": [
+    {
+     "question": "The 61st Amendment, 1988 reduced the voting age under Article 326 to",
+     "options": {
+      "A": "nineteen years",
+      "B": "eighteen years",
+      "C": "twenty years",
+      "D": "twenty-one years"
+     },
+     "correct_option": "B",
+     "explanation": "The passage states that the voting age was reduced from twenty-one to eighteen.",
+     "difficulty": "Easy",
+     "q_no": 73
+    },
+    {
+     "question": "A challenge to the validity of an election to the Lok Sabha must, under Article 329(b), be made by",
+     "options": {
+      "A": "a civil suit in a District Court",
+      "B": "an election petition",
+      "C": "a writ petition directly under Article 32",
+      "D": "a representation to the Election Commission"
+     },
+     "correct_option": "B",
+     "explanation": "Article 329(b) permits an election to be questioned only by an election petition.",
+     "difficulty": "Easy",
+     "q_no": 74
+    },
+    {
+     "question": "Under Article 324(5), an Election Commissioner other than the CEC can be removed",
+     "options": {
+      "A": "only in the manner and on the grounds applicable to a Supreme Court judge",
+      "B": "by the Prime Minister on the advice of the Leader of the Opposition",
+      "C": "at the pleasure of the President",
+      "D": "only on the recommendation of the CEC"
+     },
+     "correct_option": "D",
+     "explanation": "Only the CEC enjoys Supreme Court judge-like protection; other Commissioners are removable on the CEC's recommendation.",
+     "difficulty": "Moderate",
+     "q_no": 75
+    },
+    {
+     "question": "A sitting Member of Parliament is convicted and sentenced to three years' imprisonment. His appeal is pending, and the appellate court stays only the sentence, not the conviction. On the passage, he",
+     "options": {
+      "A": "stands disqualified from the date of conviction",
+      "B": "remains qualified until the appeal is decided",
+      "C": "is disqualified only on a decision of the Speaker",
+      "D": "is disqualified only after completing the sentence"
+     },
+     "correct_option": "A",
+     "explanation": "Section 8(3) operates from conviction; Lily Thomas removed the pending-appeal protection, and only a stay of the conviction itself avoids disqualification.",
+     "difficulty": "Moderate",
+     "q_no": 76
+    },
+    {
+     "question": "The Electoral Bonds Scheme was struck down in 2024 as violating",
+     "options": {
+      "A": "the right of adult suffrage under Article 326",
+      "B": "the powers of the Election Commission under Article 324",
+      "C": "the voter's right to information under Article 19(1)(a)",
+      "D": "the donors' right to privacy under Article 21"
+     },
+     "correct_option": "C",
+     "explanation": "The passage states that the Court found a violation of the voter's right to information under Article 19(1)(a).",
+     "difficulty": "Moderate",
+     "q_no": 77
+    },
+    {
+     "question": "How does the 2023 Act differ from the arrangement laid down in Anoop Baranwal?",
+     "options": {
+      "A": "It substitutes a Union Cabinet Minister for the Chief Justice on the selection committee",
+      "B": "It makes the CEC removable at the pleasure of the President of India",
+      "C": "It vests the power of appointment in Parliament acting by resolution",
+      "D": "It removes the Leader of the Opposition from the selection committee altogether"
+     },
+     "correct_option": "A",
+     "explanation": "The passage states that the Chief Justice was replaced with a Cabinet Minister nominated by the Prime Minister.",
+     "difficulty": "Tough",
+     "q_no": 78
+    }
+   ],
+   "question_range": [
+    73,
+    78
+   ],
+   "word_count": 321
+  },
+  {
+   "passage_id": "P12",
+   "subject_area": "Constitutional Law",
+   "title": "Directive Principles, Article 31C and the Preamble: 25th and 42nd Amendments",
+   "passage": "Part IV of the Constitution contains the Directive Principles, which are not enforceable by courts. In State of Madras v. Champakam Dorairajan (1951), the Court held that Fundamental Rights prevail over Directive Principles, which must conform to and run as subsidiary to them. The Twenty-fifth Amendment (1971) inserted Article 31C, protecting laws giving effect to the policy in Article 39(b) and (c) from challenge for violation of Articles 14, 19 and 31, and providing that no law containing a declaration that it gives effect to such policy could be questioned in any court on the ground that it does not do so. In Kesavananda Bharati (1973), the second part of that protection was struck down, so that courts may examine whether a law actually gives effect to the policy of Article 39(b) or (c). The Forty-second Amendment (1976) extended Article 31C to laws giving effect to any Directive Principle in Part IV. In Minerva Mills (1980), the Court struck down this extension, holding that harmony and balance between Parts III and IV is part of the basic structure. The 42nd Amendment also inserted Articles 39A (equal justice and free legal aid), 43A (workers' participation in management) and 48A (protection of the environment), and added Part IVA with Article 51A on Fundamental Duties. It inserted the words 'socialist', 'secular' and 'integrity' in the Preamble. Article 39(b) provides that the ownership and control of the material resources of the community should be so distributed as best to subserve the common good. In Property Owners Association v. State of Maharashtra (2024), a nine-judge Bench held that not every privately owned resource is a 'material resource of the community'; some may qualify depending on factors such as the nature of the resource, its impact on community well-being, scarcity and the consequences of its concentration in private hands.",
+   "questions": [
+    {
+     "question": "Article 39A, providing for equal justice and free legal aid, was inserted by the",
+     "options": {
+      "A": "Eighty-sixth Amendment",
+      "B": "Forty-second Amendment",
+      "C": "Forty-fourth Amendment",
+      "D": "Twenty-fifth Amendment"
+     },
+     "correct_option": "B",
+     "explanation": "The passage lists Article 39A among the Articles inserted by the 42nd Amendment.",
+     "difficulty": "Easy",
+     "q_no": 67
+    },
+    {
+     "question": "Which of the following words was NOT inserted into the Preamble by the 42nd Amendment?",
+     "options": {
+      "A": "Secular",
+      "B": "Integrity",
+      "C": "Democratic",
+      "D": "Socialist"
+     },
+     "correct_option": "C",
+     "explanation": "The 42nd Amendment inserted 'socialist', 'secular' and 'integrity'. 'Democratic' formed part of the original Preamble.",
+     "difficulty": "Easy",
+     "q_no": 68
+    },
+    {
+     "question": "A State law gives effect to Article 48A, and in doing so violates Article 14. The law claims immunity under Article 31C. After Minerva Mills, the claim",
+     "options": {
+      "A": "succeeds, since the 42nd Amendment extended Article 31C to all Directive Principles",
+      "B": "succeeds only if the law contains a declaration that it gives effect to Article 48A",
+      "C": "succeeds, since Article 48A was itself inserted by the 42nd Amendment",
+      "D": "fails, since Article 31C protects only laws giving effect to Article 39(b) and (c)"
+     },
+     "correct_option": "D",
+     "explanation": "Minerva Mills struck down the extension of Article 31C beyond Article 39(b) and (c).",
+     "difficulty": "Moderate",
+     "q_no": 69
+    },
+    {
+     "question": "A statute declares that it gives effect to Article 39(c), but in substance it concentrates wealth and violates Article 14. A court",
+     "options": {
+      "A": "may test whether it truly gives effect to Article 39(b) or (c), and deny protection if not",
+      "B": "must uphold the law, since the declaration of its purpose is conclusive on courts",
+      "C": "cannot examine the matter at all, since Article 31C bars all judicial review",
+      "D": "must uphold the law if it was passed by a two-thirds majority in Parliament"
+     },
+     "correct_option": "A",
+     "explanation": "After Kesavananda, courts may examine whether a law actually gives effect to the policy; the declaration is not conclusive.",
+     "difficulty": "Tough",
+     "q_no": 70
+    },
+    {
+     "question": "The principle laid down in Champakam Dorairajan is that",
+     "options": {
+      "A": "Fundamental Rights prevail over Directive Principles",
+      "B": "Directive Principles prevail over Fundamental Rights",
+      "C": "Directive Principles are enforceable by courts",
+      "D": "Fundamental Rights and Directive Principles are equal in rank"
+     },
+     "correct_option": "A",
+     "explanation": "The Court held that Directive Principles must conform to and run as subsidiary to Fundamental Rights.",
+     "difficulty": "Moderate",
+     "q_no": 71
+    },
+    {
+     "question": "The 2024 decision in Property Owners Association v. State of Maharashtra held that",
+     "options": {
+      "A": "no privately owned resource can ever fall within the scope of Article 39(b)",
+      "B": "not every privately owned resource qualifies, though some may",
+      "C": "Article 39(b) applies only to resources owned by the Government or its agencies",
+      "D": "all privately owned resources can be redistributed under Article 39(b)"
+     },
+     "correct_option": "B",
+     "explanation": "The Bench rejected both extremes and held that qualification depends on factors such as nature, impact, scarcity and concentration.",
+     "difficulty": "Moderate",
+     "q_no": 72
+    }
+   ],
+   "question_range": [
+    67,
+    72
+   ],
+   "word_count": 303
+  },
+  {
+   "passage_id": "P11",
+   "subject_area": "Constitutional Law",
+   "title": "Article 368(2): Ratification, the 52nd Amendment and the 97th Amendment",
+   "passage": "Article 368(2) provides that a Bill to amend the Constitution may be introduced only in either House of Parliament and must be passed in each House by a majority of the total membership and by not less than two-thirds of the members present and voting; the President must then give assent. A proviso adds that where the amendment seeks to change certain federal provisions, it must also be ratified by the legislatures of not less than one-half of the States. These provisions include the election of the President (Articles 54 and 55), the extent of the executive power of the Union and the States, the Supreme Court and the High Courts, the distribution of legislative powers between the Union and the States, any of the Lists in the Seventh Schedule, the representation of States in Parliament, and Article 368 itself. In Kihoto Hollohan v. Zachillhu (1992), the Court held, by a majority of 3:2, that paragraph 7 of the Tenth Schedule, inserted by the Fifty-second Amendment and barring the jurisdiction of courts over disqualification decisions, affected the jurisdiction of the Supreme Court and High Courts and therefore needed ratification, which had not been obtained. Paragraph 7 was held invalid, but being severable, the rest of the Tenth Schedule survived. The Constitution (Ninety-seventh Amendment) Act, 2011 added 'co-operative societies' to Article 19(1)(c), inserted Article 43B, and added a new Part IXB (Articles 243ZH to 243ZT) on co-operative societies. Since 'co-operative societies' is a subject in the State List, the amendment needed ratification, which was not obtained. In Union of India v. Rajendra N. Shah (2021), the Supreme Court, by a majority of 2:1, struck down Part IXB insofar as it applied to co-operative societies in the States, but upheld it for multi-State co-operative societies, which fall within Parliament's domain.",
+   "questions": [
+    {
+     "question": "An amendment affecting the Lists in the Seventh Schedule requires ratification by",
+     "options": {
+      "A": "the legislatures of at least half of the States",
+      "B": "the Rajya Sabha acting alone by a special majority",
+      "C": "the legislatures of all the States without exception",
+      "D": "the legislatures of two-thirds of the States"
+     },
+     "correct_option": "A",
+     "explanation": "The proviso to Article 368(2) requires ratification by not less than one-half of the State legislatures.",
+     "difficulty": "Easy",
+     "q_no": 61
+    },
+    {
+     "question": "Which of the following amendments would require ratification by State legislatures under the proviso to Article 368(2)?",
+     "options": {
+      "A": "One adding a new Fundamental Duty to Article 51A",
+      "B": "One altering a Directive Principle in Part IV",
+      "C": "One altering the Lists in the Seventh Schedule",
+      "D": "One lowering the voting age under Article 326"
+     },
+     "correct_option": "C",
+     "explanation": "The proviso covers changes to the Seventh Schedule Lists; the other subjects are not listed in it.",
+     "difficulty": "Easy",
+     "q_no": 62
+    },
+    {
+     "question": "In Kihoto Hollohan, paragraph 7 of the Tenth Schedule was held invalid because",
+     "options": {
+      "A": "it ousted court jurisdiction without ratification by the States",
+      "B": "it violated the Fundamental Right to equality under Article 14 of the Constitution",
+      "C": "it was passed by less than two-thirds of the members present and voting",
+      "D": "it imposed an unreasonable restriction on the freedoms under Article 19(1)"
+     },
+     "correct_option": "A",
+     "explanation": "The passage gives the reason: it ousted court jurisdiction, requiring ratification, which was not obtained.",
+     "difficulty": "Moderate",
+     "q_no": 63
+    },
+    {
+     "question": "A challenge is made to the election of the board of a multi-State co-operative society under Part IXB. After Rajendra N. Shah, Part IXB",
+     "options": {
+      "A": "continues to apply to multi-State co-operative societies",
+      "B": "applies only to co-operative societies in the States",
+      "C": "applies only if the States ratify it",
+      "D": "no longer applies to any co-operative society"
+     },
+     "correct_option": "A",
+     "explanation": "The Court struck down Part IXB for State societies but upheld it for multi-State co-operative societies.",
+     "difficulty": "Moderate",
+     "q_no": 64
+    },
+    {
+     "question": "Which statement correctly describes the procedure under Article 368(2) as described?",
+     "options": {
+      "A": "A Bill may also be introduced in a State Legislature and then sent on to Parliament",
+      "B": "A Bill needs only a simple majority in each House if the President is willing to assent",
+      "C": "If the Rajya Sabha disagrees, the Bill may be passed at a joint sitting of both Houses",
+      "D": "Introduction in either House, then a majority of the total membership and two-thirds of those present and voting"
+     },
+     "correct_option": "D",
+     "explanation": "Article 368(2) requires introduction in Parliament and the special majority in each House, followed by assent. No joint sitting is provided.",
+     "difficulty": "Moderate",
+     "q_no": 65
+    },
+    {
+     "question": "The Court's treatment of paragraph 7 in Kihoto Hollohan illustrates that",
+     "options": {
+      "A": "the whole of the Fifty-second Amendment fell for want of ratification",
+      "B": "ratification is required for every amendment affecting Fundamental Rights",
+      "C": "a defect in one severable provision need not invalidate the whole amendment",
+      "D": "the Tenth Schedule as a whole was held unconstitutional by the Court"
+     },
+     "correct_option": "C",
+     "explanation": "Paragraph 7 was severed and struck down; the rest of the Tenth Schedule survived.",
+     "difficulty": "Tough",
+     "q_no": 66
+    }
+   ],
+   "question_range": [
+    61,
+    66
+   ],
+   "word_count": 298
+  },
+  {
+   "passage_id": "P10",
+   "subject_area": "Constitutional Law",
+   "title": "The 99th Amendment, the Collegium and Tribunals",
+   "passage": "The appointment of judges has produced a sequence of decisions known as the Judges Cases. In S.P. Gupta v. Union of India (1981), the Court held that 'consultation' with the Chief Justice of India in Article 124(2) did not mean concurrence, giving the executive primacy. In Supreme Court Advocates-on-Record Association v. Union of India (1993) (the Second Judges Case), a nine-judge Bench overruled this, holding that the CJI's opinion has primacy, formed through a collegium. In the Third Judges Case (Special Reference No. 1 of 1998, under Article 143), the Court held that the collegium for the Supreme Court consists of the CJI and four senior-most judges. The Constitution (Ninety-ninth Amendment) Act, 2014 inserted Articles 124A, 124B and 124C and set up the National Judicial Appointments Commission (NJAC) of six members: the CJI as chairperson, two senior-most Supreme Court judges, the Union Law Minister, and two eminent persons nominated by a committee of the Prime Minister, the CJI and the Leader of the Opposition in the Lok Sabha. In Supreme Court Advocates-on-Record Association v. Union of India (2015) (the Fourth Judges Case), a Constitution Bench by 4:1 struck down the Amendment and the NJAC Act as violating the basic structure, namely the independence of the judiciary and the separation of powers, and revived the collegium. Justice Chelameswar dissented. Separately, the Forty-second Amendment inserted Articles 323A and 323B for administrative and other tribunals. In L. Chandra Kumar v. Union of India (1997), the Court struck down the provisions excluding the jurisdiction of the High Courts under Articles 226 and 227 and of the Supreme Court under Article 32, holding that judicial review is part of the basic structure; decisions of tribunals are subject to scrutiny before a Division Bench of the concerned High Court.",
+   "questions": [
+    {
+     "question": "The decision which first held that the opinion of the Chief Justice of India has primacy in judicial appointments, formed through a collegium, is",
+     "options": {
+      "A": "the Second Judges Case (1993)",
+      "B": "S.P. Gupta v. Union of India (1981)",
+      "C": "the Third Judges Case (1998)",
+      "D": "the Fourth Judges Case (2015)"
+     },
+     "correct_option": "A",
+     "explanation": "S.P. Gupta gave executive primacy; the Second Judges Case overruled it and gave primacy to the CJI.",
+     "difficulty": "Easy",
+     "q_no": 55
+    },
+    {
+     "question": "The Ninety-ninth Amendment inserted which Articles to create the NJAC?",
+     "options": {
+      "A": "Articles 323A and 323B relating to tribunals",
+      "B": "Articles 143 and 144 relating to advisory jurisdiction",
+      "C": "Articles 217 and 222 relating to High Court judges",
+      "D": "Articles 124A, 124B and 124C"
+     },
+     "correct_option": "D",
+     "explanation": "The passage states that the 99th Amendment inserted Articles 124A, 124B and 124C.",
+     "difficulty": "Easy",
+     "q_no": 56
+    },
+    {
+     "question": "Which of the following has NO role in nominating the two eminent persons to the NJAC?",
+     "options": {
+      "A": "The Leader of the Opposition in the Lok Sabha",
+      "B": "The Union Law Minister",
+      "C": "The Prime Minister",
+      "D": "The Chief Justice of India"
+     },
+     "correct_option": "B",
+     "explanation": "The nominating committee is the Prime Minister, the CJI and the Leader of the Opposition. The Law Minister is an NJAC member but not on that committee.",
+     "difficulty": "Moderate",
+     "q_no": 57
+    },
+    {
+     "question": "In the Fourth Judges Case (2015), the Court",
+     "options": {
+      "A": "upheld the 99th Amendment and the NJAC Act by 4:1, with one judge dissenting",
+      "B": "struck down the 99th Amendment and the NJAC Act unanimously, with no dissent",
+      "C": "struck down both by 4:1 as violating judicial independence and separation of powers",
+      "D": "struck down the NJAC Act but upheld the 99th Amendment as valid"
+     },
+     "correct_option": "C",
+     "explanation": "A Constitution Bench struck down both by 4:1, with Justice Chelameswar dissenting, and revived the collegium.",
+     "difficulty": "Moderate",
+     "q_no": 58
+    },
+    {
+     "question": "A litigant is aggrieved by an order of the Central Administrative Tribunal. Following L. Chandra Kumar as described, the proper first course is to approach",
+     "options": {
+      "A": "the Supreme Court directly under Article 32",
+      "B": "the President of India",
+      "C": "a Division Bench of the concerned High Court",
+      "D": "a parliamentary committee"
+     },
+     "correct_option": "C",
+     "explanation": "Tribunal decisions are subject to scrutiny before a Division Bench of the concerned High Court.",
+     "difficulty": "Moderate",
+     "q_no": 59
+    },
+    {
+     "question": "As per the Third Judges Case, the collegium for appointments to the Supreme Court consists of",
+     "options": {
+      "A": "the CJI and two senior-most judges",
+      "B": "the CJI and four senior-most judges",
+      "C": "the CJI and all other judges of the Court",
+      "D": "the CJI alone"
+     },
+     "correct_option": "B",
+     "explanation": "The passage states that the collegium for the Supreme Court consists of the CJI and four senior-most judges.",
+     "difficulty": "Tough",
+     "q_no": 60
+    }
+   ],
+   "question_range": [
+    55,
+    60
+   ],
+   "word_count": 293
+  }
+ ]
+}
