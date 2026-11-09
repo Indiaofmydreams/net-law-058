@@ -255,7 +255,7 @@ function hub() {
       tile('#/clat/syllabus', 'book', 'Syllabus', '14 subjects in priority order, with a tracker', 'var(--c3-deep)') +
       tile('#/clat/read/traps', 'target', '12 traps', 'What the paper really tests', 'var(--c2-deep)') +
       tile('#/clat/sample', 'test', 'Sample paper', '20 questions, every trap explained', 'var(--c3-deep)') +
-      tile('clat-pg/mock-tests.html', 'test', 'Mock tests', '5 full papers, 120 min, time meter', 'var(--c2-deep)') +
+      tile('clat-pg/mock-tests.html', 'test', 'Mock tests', '6 full papers, 120 min, time meter', 'var(--c2-deep)') +
       tile('#/clat/cases', 'scale', 'Case vault', '705 landmark cases, searchable', 'var(--c2-deep)') +
       tile('#/clat/read/nlus', 'inst', 'NLUs', 'The 26 participating universities', 'var(--c3-deep)') +
       tile('#/clat/read/cutoffs', 'bars', 'Cut-offs', 'How closing ranks work', 'var(--c2-deep)') +
@@ -277,7 +277,7 @@ function prep() {
       '<a class="row" href="#/clat/read/traps">' + ico('target', 'var(--c2-deep)') + '<div class="ti"><h3>What CLAT PG really tests</h3><p>12 traps hidden in the paper and how to spot them</p></div>' + I.chevR + '</a>' +
       '<a class="row" href="#/clat/syllabus">' + ico('book', 'var(--c3-deep)') + '<div class="ti"><h3>Syllabus tracker</h3><p>' + sylDone() + ' of 14 subjects covered</p></div>' + I.chevR + '</a>' +
       '<a class="row" href="#/clat/sample">' + ico('test', 'var(--c2-deep)') + '<div class="ti"><h3>Sample paper</h3><p>20 passage-based questions</p></div>' + I.chevR + '</a>' +
-      '<a class="row" href="clat-pg/mock-tests.html">' + ico('test', 'var(--c3-deep)') + '<div class="ti"><h3>Mock tests</h3><p>5 full papers, 120 minutes each</p></div>' + I.chevR + '</a>' +
+      '<a class="row" href="clat-pg/mock-tests.html">' + ico('test', 'var(--c3-deep)') + '<div class="ti"><h3>Mock tests</h3><p>6 full papers, 120 minutes each</p></div>' + I.chevR + '</a>' +
       '<a class="row" href="#/clat/cases">' + ico('scale', 'var(--c3-deep)') + '<div class="ti"><h3>Case Law Vault</h3><p>705 landmark cases</p></div>' + I.chevR + '</a></div>'
   }, 'prep');
 }

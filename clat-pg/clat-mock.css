@@ -40,8 +40,8 @@ h1.cm-h1 span{display:inline-block;background:#fff;border:3px solid var(--ink);b
 .cm-btn.dng{background:#ffe3e6;color:#9b1c2c;border-color:var(--ink)}
 .cm-btn.sm{min-height:40px;padding:7px 14px;font-size:.85rem;box-shadow:3px 3px 0 var(--ink)}
 .cm-row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
-footer.cm-foot{padding:34px 0 46px;text-align:center;font-weight:700;position:relative;z-index:1}
-footer.cm-foot p{margin:0 0 10px}footer.cm-foot a{margin:0 10px}.fine{opacity:.72;font-size:.88rem}
+.cm-foot{padding:34px 0 46px;text-align:center;font-weight:700;position:relative;z-index:1}
+.cm-foot p{margin:0 0 10px}.cm-foot a{margin:0 10px}.fine{opacity:.72;font-size:.88rem}
 /* theme switcher (same as the other CLAT PG pages) */
 .themes{position:fixed;right:14px;bottom:14px;z-index:20;display:flex;gap:8px;align-items:center;background:#fff;border:3px solid var(--ink);border-radius:999px;padding:7px 12px;box-shadow:4px 4px 0 var(--ink);font-weight:800;font-size:.85rem}
 .sw{width:26px;height:26px;border-radius:50%;border:3px solid var(--ink);cursor:pointer;padding:0}
@@ -78,7 +78,7 @@ footer.cm-foot p{margin:0 0 10px}footer.cm-foot a{margin:0 10px}.fine{opacity:.7
 .cm-tile{background:#fff;border:3px solid var(--ink);border-radius:18px;text-align:center;padding:16px 6px 12px;box-shadow:4px 4px 0 var(--ink)}
 .cm-tile b{display:block;font-size:clamp(1.6rem,3.6vw,2.4rem);font-weight:800;letter-spacing:-.03em;line-height:1;font-variant-numeric:tabular-nums}
 .cm-tile small{display:block;margin-top:6px;font-weight:700;font-size:.8rem;opacity:.72;line-height:1.3}
-.cm-note{margin:16px 0 0;background:rgba(255,255,255,.7);border:3px solid var(--ink);border-radius:16px;padding:12px 16px;font-weight:700;line-height:1.55;font-size:.95rem}
+.cm-note{margin:26px 0 0;background:rgba(255,255,255,.7);border:3px solid var(--ink);border-radius:16px;padding:12px 16px;font-weight:700;line-height:1.55;font-size:.95rem}
 .cm-cta{margin:34px 0 8px;background:var(--ink);color:#fff;border-radius:26px;padding:28px;box-shadow:8px 8px 0 var(--blue);display:flex;flex-wrap:wrap;gap:18px;align-items:center;justify-content:space-between}
 .cm-cta h3{margin:0 0 4px;font-size:1.4rem;font-weight:800}.cm-cta p{margin:0;opacity:.82;font-weight:700}
 .cm-cta .btn{box-shadow:4px 4px 0 var(--pink)}
