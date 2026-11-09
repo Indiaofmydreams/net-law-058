@@ -3,7 +3,7 @@
      it opens into a short call to action, the reasons to share contact details, and the form.
    - Phone / touch: tap the tab and the form opens as a bottom sheet. There is no hover on a phone.
    - Submitting posts straight to your Google Form (see GOOGLE-FORM-SETUP.txt). Responses land in the form's Sheet.
-   - "Not now" hides it for 3 days. After a successful sign-up it never shows again on that browser.
+   - "Not now" hides it for the current visit only; it returns on the next launch. After a successful sign-up it never shows again on that browser.
    - Not loaded on mock-exam pages, so it never distracts mid-paper.
 
    CONFIG: set formId and the three entry ids below (or define window.NL_LEAD_CONFIG before this script loads).
@@ -40,8 +40,7 @@
 
   try {
     if (localStorage.getItem(KEY_DONE)) return;
-    var t = +localStorage.getItem(KEY_CLOSED);
-    if (t && Date.now() - t < HIDE) return;
+    if (sessionStorage.getItem(KEY_CLOSED)) return;   // closed during this visit only; it comes back on the next launch
   } catch (e) {}
 
   var fine = false;
@@ -177,7 +176,7 @@
   }
   function hide(days) {
     el.classList.remove('on', 'open');
-    try { localStorage.setItem(days === 'done' ? KEY_DONE : KEY_CLOSED, '' + Date.now()); } catch (e) {}
+    try { (days === 'done' ? localStorage : sessionStorage).setItem(days === 'done' ? KEY_DONE : KEY_CLOSED, '' + Date.now()); } catch (e) {}
     setTimeout(function () { el.remove(); }, 450);
   }
 

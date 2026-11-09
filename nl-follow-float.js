@@ -2,11 +2,11 @@
    - Desktop (mouse): a compact QR tile sits bottom-left. Only when the pointer (or keyboard focus) is on it does it
      open into a short call to action. Clicking it opens the profile.
    - Phone / narrow screen: a QR cannot be scanned from the same screen, so a small "Follow" pill links straight to the profile.
-   - The close button hides it for 3 days. Not loaded on mock-exam pages, so it never distracts mid-paper. */
+   - The close button hides it for the current visit only; it returns on the next launch. Not loaded on mock-exam pages, so it never distracts mid-paper. */
 (function () {
   if (window.__nlq) return; window.__nlq = 1;
   var URL = 'https://www.instagram.com/netlawverse/', QR = '/instagram-qr.png', KEY = 'nlq-closed', HIDE = 3 * 864e5;
-  try { var t = +localStorage.getItem(KEY); if (t && Date.now() - t < HIDE) return; } catch (e) {}
+  try { if (sessionStorage.getItem(KEY)) return; } catch (e) {}   /* closed during this visit only; returns on the next launch */
 
   var css =
     '.nlq{position:fixed;left:14px;bottom:14px;z-index:19;font-family:"Manrope",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:#14183a;opacity:0;transform:translateY(14px);transition:opacity .4s,transform .4s;pointer-events:none}' +
@@ -54,7 +54,7 @@
     document.body.appendChild(el);
     el.querySelector('.nlq-x').onclick = function (e) {
       e.preventDefault(); el.classList.remove('on');
-      try { localStorage.setItem(KEY, '' + Date.now()); } catch (er) {}
+      try { sessionStorage.setItem(KEY, '' + Date.now()); } catch (er) {}
       setTimeout(function () { el.remove(); }, 450);
     };
     setTimeout(function () { el.classList.add('on'); }, 2500);
