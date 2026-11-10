@@ -47,7 +47,11 @@ share:'<path d="M12 15V4M8 8l4-4 4 4M6 12H5a1 1 0 00-1 1v7a1 1 0 001 1h14a1 1 0 
 ig:'<rect x="3" y="3" width="18" height="18" rx="5.2"/><circle cx="12" cy="12" r="4.1"/><circle cx="17.3" cy="6.7" r=".6" fill="currentColor"/>',
 copy:'<rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V5a1 1 0 00-1-1H5a1 1 0 00-1 1v10a1 1 0 001 1h3"/>'
 };
+P.mail='<rect x="3" y="5" width="18" height="14" rx="3"/><path d="M4 7.5l8 6 8-6"/>';
 const I=new Proxy({},{get:(_,k)=>sv(P[k])});
+/* NL logo: the same mark the website header uses (rounded square, "NL", accent dot). s = size in px */
+const LOGO=(s=30)=>`<span class="nlm" style="--s:${s}px" aria-hidden="true">NL</span>`;
+const WORD=()=>`<span class="wd">NET Law<b>-Verse</b></span>`;
 const IBM=on=>sv(P.bm,22,on?'currentColor':'none');
 
 /* ---------- units ---------- */
@@ -113,8 +117,8 @@ shade.onclick=closeSheet;
 const go=p=>{location.hash='#'+p};
 const back=()=>{if(S.hist>0)history.back();else go('/')};
 const NAV=[['/','home','Home','home'],['/subjects','sub','Practice','pencil'],['/mocks','mock','Mock Test','test'],['/notes','notes','Notes','file'],['/profile','prof','Profile','user']];
-const NAV2=[['/exams','All exams','grid'],['/strategy','Strategy','compass'],['/wisdom','Wisdom','quote'],['/faq','FAQ','help'],['/mission','Mission','flag']];
-const navHTML=on=>`<div class="rb"><i>${sv(P.scale,24)}</i><span>NET Law-Verse</span></div>`+NAV.map(n=>`<a href="#${n[0]}" class="${on===n[1]?'on':''}"><span class="ni">${sv(P[n[3]])}</span>${n[2]}</a>`).join('')+(isTab?`<span class="nsec"></span>`+NAV2.map(n=>`<a href="#${n[0]}" class="${on==='x'+n[0]?'on':''}"><span class="ni">${sv(P[n[2]])}</span>${n[1]}</a>`).join(''):'');
+const NAV2=[['/exams','All exams','grid'],['/clat','CLAT PG','target'],['/strategy','Strategy','compass'],['/wisdom','Wisdom','quote'],['/faq','FAQ','help'],['/mission','Mission','flag']];
+const navHTML=on=>`<a class="rb" href="#/" aria-label="NET Law-Verse home"><i>${LOGO(34)}</i><span class="wm">${WORD()}</span></a>`+NAV.map(n=>`<a href="#${n[0]}" class="${on===n[1]?'on':''}"><span class="ni">${sv(P[n[3]])}</span>${n[2]}</a>`).join('')+(isTab?`<span class="nsec"></span>`+NAV2.map(n=>`<a href="#${n[0]}" class="${on==='x'+n[0]?'on':''}"><span class="ni">${sv(P[n[2]])}</span>${n[1]}</a>`).join(''):'');
 /* install strip (every screen except a running timed test): see pwa.js, NLPWA.visible() */
 function updateIns(o){const v=!!(window.NLPWA&&NLPWA.visible&&NLPWA.visible())&&!(o&&o.exam);
   if(!v){ins.hidden=true;return}
@@ -132,12 +136,20 @@ function screen(o){
   updateIns(o);
   if(!o.keep)view.scrollTop=0;
 }
-const tbar=(title,{sub='',right='',left=I.back,la='back'}={})=>`<div class="tb"><button class="ib" data-a="${la}" aria-label="Back">${left}</button><h1>${esc(title)}${sub?`<small>${sub}</small>`:''}</h1>${right}</div>`;
+const tbar=(title,{sub='',right='',left=I.back,la='back'}={})=>`<div class="tb"><button class="ib" data-a="${la}" aria-label="Back">${left}</button><h1>${esc(title)}${sub?`<small>${sub}</small>`:''}</h1>${right||(la==='back'?`<a class="ib" href="#/" aria-label="Home">${I.home}</a>`:'')}</div>`;
 const loading=(msg='Loading questions…')=>screen({top:tbar('NET Law-Verse',{left:I.menu,la:'drawer'}),body:`<div class="empty" style="padding-top:90px"><div class="spin"></div><b>${msg}</b>First time only. After this your phone keeps them.</div>`,nav:'home'});
 const ico=(name,c)=>`<span class="ico" style="--c:${c}">${I[name]}</span>`;
 /* Instagram: phones open the profile (a screen cannot scan itself); tablets also show the QR code for a phone camera */
 const IG_URL='https://www.instagram.com/netlawverse/';
-const igCard=()=>`<h2 class="h2">Follow us</h2><div class="card igc"><span class="igb">${sv(P.ig,26)}</span><div class="ti"><h3>@netlawverse</h3><p>Updates, study tips and new resources on Instagram.</p><a class="igf" href="${IG_URL}" target="_blank" rel="noopener noreferrer">${sv(P.ig,18)}Follow on Instagram</a></div>${isTab?`<figure class="igq"><img src="instagram-qr.png" width="640" height="735" alt="QR code for the NET Law-Verse Instagram profile" loading="lazy"><figcaption>Scan to follow</figcaption></figure>`:''}</div>`;
+const igBox=()=>`<div class="card igc"><span class="igb">${sv(P.ig,26)}</span><div class="ti"><h3>@netlawverse</h3><p>Updates, study tips and new resources on Instagram.</p><a class="igf" href="${IG_URL}" target="_blank" rel="noopener noreferrer">${sv(P.ig,18)}Follow on Instagram</a></div>${isTab?`<figure class="igq"><img src="instagram-qr.png" width="640" height="735" alt="QR code for the NET Law-Verse Instagram profile" loading="lazy"><figcaption>Scan to follow</figcaption></figure>`:''}</div>`;
+
+/* ---------- Get study updates: posts to the same Google Form as the website's floating box (nl-lead-float.js) and
+   uses the same "nll-done" flag, so someone who signed up on either one is not asked again. Keep the ids in sync. ---------- */
+const LEAD={formId:'1FAIpQLSd08rgfuPH3bHFPixKVbHAmH_yTt9nEvjnhst06rQP-Z9NS9g',name:'entry.928581150',phone:'entry.20635590',email:'entry.712394518',source:'entry.729727756',contact:'netlawverse@gmail.com'};
+const leadDone=()=>{try{return!!localStorage.getItem('nll-done')}catch{return false}};
+const updInner=()=>leadDone()?`${ico('check','var(--c3-deep)')}<div class="ti"><h3>You are on the list</h3><p>We will send exam alerts and news of new sections.</p></div>`:`${ico('mail','var(--c2-deep)')}<div class="ti"><h3>Get study updates</h3><p>Exam date alerts, new mock tests and notes. Free, takes 20 seconds.</p></div><button class="btn sm" data-a="updates">Sign up</button>`;
+const updCard=()=>`<div class="card cont upc">${updInner()}</div>`;
+const stay=()=>`<h2 class="h2">Stay connected</h2><div class="stayg">${updCard()}${igBox()}</div>`;
 
 /* ---------- routing ---------- */
 const NEEDS_BANK=/^\/(subjects|practice|search|bookmarks|profile|syllabus|strategy)/;
@@ -154,10 +166,10 @@ const R={};
 const JSP={};
 function loadJS(f){return JSP[f]||(JSP[f]=new Promise((ok,no)=>{const e=document.createElement('script');e.src=f;e.onload=ok;e.onerror=()=>{delete JSP[f];no()};document.head.appendChild(e)}))}
 function lazy(name,file){const stub=()=>{
-  screen({top:tbar({strategy:'Exam strategy',faq:'FAQ',wisdom:'Wisdom',clat:'CLAT PG',aibe:'AIBE',sem:'Semester Law Notes'}[name]||'Our mission'),body:'<div class="empty" style="padding-top:90px"><div class="spin"></div><b>Opening…</b></div>',xnav:'x/'+name});
+  screen({top:tbar({strategy:'Exam strategy',faq:'FAQ',wisdom:'Wisdom',clat:'CLAT PG',ug:'CLAT UG',aibe:'AIBE',sem:'Semester Law Notes'}[name]||'Our mission'),body:'<div class="empty" style="padding-top:90px"><div class="spin"></div><b>Opening…</b></div>',xnav:'x/'+name});
   loadJS(file).then(()=>{if(R[name]===stub)throw 0;if((location.hash.slice(1)||'/').split('/')[1]===name)route()}).catch(()=>screen({top:tbar('NET Law-Verse'),body:'<div class="empty"><b>Could not open this</b>Check your connection and try again.<br><br><button class="btn" data-a="reload">Retry</button></div>'}))};
   R[name]=stub}
-lazy('strategy','m-extras.js');lazy('faq','m-extras.js');lazy('wisdom','m-wisdom.js');lazy('mission','m-wisdom.js');lazy('clat','m-clat.js');lazy('aibe','m-clat.js');lazy('sem','m-clat.js');
+lazy('strategy','m-extras.js');lazy('faq','m-extras.js');lazy('wisdom','m-wisdom.js');lazy('mission','m-wisdom.js');lazy('clat','m-clat.js');lazy('ug','m-clat.js');lazy('aibe','m-clat.js');lazy('sem','m-clat.js');
 addEventListener('hashchange',()=>{S.hist++;route()});
 
 /* ---------- actions (event delegation) ---------- */
@@ -165,16 +177,38 @@ const A={};
 document.addEventListener('click',e=>{const t=e.target.closest('[data-a]');if(!t)return;const f=A[t.dataset.a];if(f){e.preventDefault();f(t,e)}});
 A.back=back;A.close=closeSheet;A.reload=()=>location.reload();
 A.toast=t=>toast(t.dataset.m);
+A.updates=()=>{if(leadDone()){toast('You are already on the list');return}
+  openSheet(`<div class="sh-h"><h2>Get study updates</h2><button class="ib" data-a="close" aria-label="Close">${I.close}</button></div><div class="sh-b"><p class="muted" style="margin:0 0 12px;line-height:1.5;font-weight:600">Be first to know about exam dates, new mock tests, notes and new sections. Free, and never sold or shared.</p>
+<form id="updf" class="updf" novalidate autocomplete="on"><label>Your name<input type="text" name="n" autocomplete="name" placeholder="e.g. Aarav Sharma" maxlength="80"></label><label>Phone number<input type="tel" name="p" autocomplete="tel" inputmode="tel" placeholder="10-digit mobile number" maxlength="18"></label><label>Email id<input type="email" name="e" autocomplete="email" inputmode="email" placeholder="you@example.com" maxlength="120"></label><label class="hp" aria-hidden="true">Leave empty<input type="text" name="w" tabindex="-1" autocomplete="off"></label>
+<label class="ck"><input type="checkbox" name="ok"><span>I agree to NET Law-Verse using these details to send me study updates.</span></label><p class="uerr" role="alert" aria-live="polite"></p><button class="btn" type="submit">Send me updates</button></form>
+<p class="muted" style="margin:12px 0 0;font-size:.75rem;line-height:1.45">To delete your details any time, email <a href="mailto:${LEAD.contact}" style="font-weight:800;text-decoration:underline">${LEAD.contact}</a>.</p></div>`,'full')};
+const cleanPhone=v=>{let d=String(v).replace(/[\s\-().]/g,'');if(/^\+?91/.test(d)&&d.replace(/\D/g,'').length===12)d=d.replace(/^\+?91/,'');else if(/^0\d{10}$/.test(d))d=d.slice(1);return d};
+document.addEventListener('submit',e=>{const f=e.target;if(!f||f.id!=='updf')return;e.preventDefault();
+  const er=f.querySelector('.uerr'),b=f.querySelector('button[type=submit]');
+  if(f.w.value){try{localStorage.setItem('nll-done',''+Date.now())}catch{}closeSheet();return}
+  const n=f.n.value.trim(),ph=cleanPhone(f.p.value),em=f.e.value.trim();let bad=null,m='';
+  [f.n,f.p,f.e].forEach(x=>x.removeAttribute('aria-invalid'));
+  if(n.length<2){bad=f.n;m='Please enter your name.'}else if(!/^[6-9]\d{9}$/.test(ph)){bad=f.p;m='Please enter a valid 10-digit Indian mobile number.'}else if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(em)){bad=f.e;m='Please enter a valid email id.'}else if(!f.ok.checked){bad=f.ok;m='Please tick the box so we know you are happy to hear from us.'}
+  if(bad){er.textContent=m;if(bad.type!=='checkbox')bad.setAttribute('aria-invalid','true');bad.focus();return}
+  er.textContent='';b.disabled=true;b.textContent='Sending…';
+  const body=new URLSearchParams();body.append(LEAD.name,n);body.append(LEAD.phone,ph);body.append(LEAD.email,em);body.append(LEAD.source,'app'+(location.hash||'#/'));
+  fetch('https://docs.google.com/forms/d/e/'+LEAD.formId+'/formResponse',{method:'POST',mode:'no-cors',body}).then(()=>{
+    try{localStorage.setItem('nll-done',''+Date.now())}catch{}
+    const bd=sheet.querySelector('.sh-b');if(bd)bd.innerHTML=`<div class="empty" style="padding:28px 6px"><b>You are on the list, ${esc(n.split(/\s+/)[0])}!</b>Watch your phone and inbox for the next update.<br><br><button class="btn" data-a="close">Done</button></div>`;
+    document.querySelectorAll('.upc').forEach(c=>c.innerHTML=updInner());
+  }).catch(()=>{b.disabled=false;b.textContent='Send me updates';er.textContent='Could not send. Please check your internet connection and try again.'})});
+A.home=()=>go('/');A.enterclat=()=>{ls.set('nl-m-seen',1);go('/clat')};
+
 
 /* ---------- landing ---------- */
-R.landing=()=>{screen({land:1,flush:true,body:`<div class="land"><div class="lg">${sv(P.scale,48)}</div><h1>NET Law-Verse</h1><p class="tag">100% free. No sign-up.</p><p class="big">9,000+ free MCQs</p><p class="d">Practise everything, pay nothing. 3,580 Law 058 and 5,705 Paper 1 questions, organised topic-wise, each with a clear explanation.</p><ul class="ticks"><li>No need to sign in</li><li>Your progress is saved in this browser</li></ul>
-<button class="btn lt" data-a="enter">Start practising ${I.chevR}</button><a href="#/exams" style="margin-top:16px;color:rgba(255,255,255,.88);font-weight:700;font-size:.9375rem;text-decoration:underline">Browse all exams</a></div>`})};
+R.landing=()=>{screen({land:1,flush:true,body:`<div class="land"><div class="lg">${LOGO(88)}</div><h1>${WORD()}</h1><p class="tag">UGC NET Paper 1 &amp; 2 · CLAT PG · 100% free</p><p class="big">9,000+ free MCQs</p><p class="d">Practise everything, pay nothing. 3,580 Law 058 and 5,705 Paper 1 questions, organised topic-wise, each with a clear explanation.</p><ul class="ticks"><li>No need to sign in</li><li>Your progress is saved in this browser</li></ul>
+<button class="btn lt" data-a="enter">UGC NET: start practising ${I.chevR}</button><button class="btn lt" data-a="enterclat" style="margin-top:10px">CLAT PG: start preparing ${I.chevR}</button><a href="#/exams" style="margin-top:16px;color:rgba(255,255,255,.88);font-weight:700;font-size:.9375rem;text-decoration:underline">Browse all exams</a></div>`})};
 A.enter=()=>{ls.set('nl-m-seen',1);go('/')};
 
 /* ---------- drawer ---------- */
 A.drawer=()=>{const dk=document.documentElement.dataset.mode==='dark',cs=document.documentElement.dataset.scheme,vis=window.NLPWA&&NLPWA.visible&&NLPWA.visible();
-openSheet(`<div class="brand"><span class="lg">${sv(P.scale,22)}</span><span style="display:flex;flex-direction:column;gap:3px;line-height:1">NET Law-Verse<small style="font-size:.55rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--mut,#6b7488)">The Universe of Law</small></span></div><div class="sh-b"><div class="dl">
-<a href="#/">${I.home}Home</a><a href="#/exams">${I.grid}All exams</a><a href="#/strategy">${I.compass}Exam strategy</a><a href="#/plan">${I.cal}Study Plan</a><a href="#/mocks">${I.test}Mock Tests</a><a href="#/subjects">${I.scale}Law 058</a><a href="#/subjects/1">${I.cap}Paper 1</a><a href="#/syllabus/0">${I.book}Syllabus</a><a href="#/notes">${I.file}Notes</a><a href="pyq.html">${I.target}PYQs</a><a href="#/bookmarks">${I.bm}Bookmarks</a><a href="#/profile">${I.user}My progress</a><div class="dsep"></div><a href="#/wisdom">${I.quote}Wisdom for the journey</a><a href="#/faq">${I.help}FAQ &amp; exam pattern</a><a href="#/mission">${I.flag}Mission statement</a><div class="dsep"></div><button data-a="shareapp">${I.share}Share NET Law-Verse</button><a href="${IG_URL}" target="_blank" rel="noopener noreferrer">${I.ig}Follow on Instagram</a>${vis?`<button data-a="install">${I.download}Install app</button>`:''}<button data-a="desktop">${I.desk}Use desktop site</button></div>
+openSheet(`<a class="brand" href="#/" aria-label="NET Law-Verse home">${LOGO(38)}<span style="display:flex;flex-direction:column;gap:3px;line-height:1">${WORD()}<small style="font-size:.55rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--mut,#6b7488)">The Universe of Law</small></span></a><div class="sh-b"><div class="dl">
+<a href="#/">${I.home}Home</a><a href="#/exams">${I.grid}All exams</a><a href="#/clat">${I.target}CLAT PG (LL.M. entrance)</a><a href="#/strategy">${I.compass}Exam strategy</a><a href="#/plan">${I.cal}Study Plan</a><a href="#/mocks">${I.test}Mock Tests</a><a href="#/subjects">${I.scale}UGC NET Paper 2: Law 058</a><a href="#/subjects/1">${I.cap}UGC NET Paper 1</a><a href="#/syllabus/0">${I.book}Syllabus</a><a href="#/notes">${I.file}Notes</a><a href="pyq.html">${I.target}PYQs</a><a href="#/bookmarks">${I.bm}Bookmarks</a><a href="#/profile">${I.user}My progress</a><div class="dsep"></div><a href="#/wisdom">${I.quote}Wisdom for the journey</a><a href="#/faq">${I.help}FAQ &amp; exam pattern</a><a href="#/mission">${I.flag}Mission statement</a><div class="dsep"></div><button data-a="shareapp">${I.share}Share NET Law-Verse</button><button data-a="updates">${I.mail}Get study updates</button><a href="${IG_URL}" target="_blank" rel="noopener noreferrer">${I.ig}Follow on Instagram</a>${vis?`<button data-a="install">${I.download}Install app</button>`:''}<button data-a="desktop">${I.desk}Use desktop site</button></div>
 <div class="fld" style="margin-top:14px"><b>Appearance</b><div class="sw">${SCHEMES.map(s=>`<button class="swb ${cs===s[0]?'on':''}" style="--c:${s[2]}" data-a="scheme" data-s="${s[0]}"><i></i>${s[1]}</button>`).join('')}</div><button class="btn sec sm" style="margin-top:12px" data-a="mode">${dk?I.sun+' Light mode':I.moon+' Dark mode'}</button></div></div>`,'left')};
 A.scheme=t=>{setTheme(t.dataset.s);A.drawer()};
 A.mode=()=>{setTheme(null,document.documentElement.dataset.mode==='dark'?'light':'dark');A.drawer()};
@@ -186,10 +220,14 @@ addEventListener('nlpwa:change',()=>updateIns(S.lastO));
 /* ---------- home ---------- */
 const greet=()=>{const h=new Date().getHours();return h<12?'Good morning':h<17?'Good afternoon':'Good evening'};
 let EXAM=null;fetch('exam-dates.json').then(r=>r.json()).then(d=>{EXAM=d;const el=$('#cd');if(el)el.outerHTML=cdHTML()}).catch(()=>{});
-function cdHTML(){if(!EXAM||!EXAM.date)return'<div class="cdn" id="cd"></div>';const m=/^(\d{4})-(\d{1,2})-(\d{1,2})$/.exec(EXAM.date);if(!m)return'<div class="cdn" id="cd"></div>';
-const [h,mi]=(EXAM.time||'00:00').split(':').map(Number),t=Date.UTC(+m[1],+m[2]-1,+m[3],h||0,mi||0)-19800000,d=Math.ceil((t-Date.now())/864e5);
-const ds=new Date(t+19800000).toLocaleDateString('en-IN',{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'}),nm=esc((EXAM.name||'UGC NET').replace(/ EXAM$/i,' exam'));
-return`<div class="cdn" id="cd">${d>0?`<b>${d}</b><span>day${d>1?'s':''} to go<small>${nm} · ${ds}</small></span>`:`<b class="now">Exam time</b><span><small>${nm} · ${ds}</small></span>`}</div>`}
+const CLAT_T=Date.UTC(2026,11,6,8,30,0); /* 6 Dec 2026: same date as m-clat.js and the website */
+function cdHTML(){const ex=[[CLAT_T,'CLAT PG']];
+  const m=EXAM&&EXAM.date&&/^(\d{4})-(\d{1,2})-(\d{1,2})$/.exec(EXAM.date);
+  if(m){const [h,mi]=(EXAM.time||'00:00').split(':').map(Number);ex.push([Date.UTC(+m[1],+m[2]-1,+m[3],h||0,mi||0)-19800000,'UGC NET']);}
+  ex.sort((x,y)=>x[0]-y[0]);
+  const up=ex.filter(e=>Math.ceil((e[0]-Date.now())/864e5)>0),show=up.length?up:ex.slice(-1);
+  return`<div class="cdn2" id="cd">${show.map(([t,nm])=>{const d=Math.ceil((t-Date.now())/864e5),ds=new Date(t+19800000).toLocaleDateString('en-IN',{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'});
+    return d>0?`<div class="cdn"><b>${d}</b><span>day${d>1?'s':''} to go<small>${nm} · ${ds}</small></span></div>`:`<div class="cdn"><b class="now">Exam time</b><span><small>${nm} · ${ds}</small></span></div>`}).join('')}</div>`}
 const ringSVG=(pc,r=34)=>{const C=2*Math.PI*r;return`<svg viewBox="0 0 80 80"><circle class="bg" cx="40" cy="40" r="${r}"/><circle class="fg" cx="40" cy="40" r="${r}" stroke-dasharray="${C}" stroke-dashoffset="${C*(1-Math.min(100,Math.max(0,pc))/100)}"/></svg>`};
 /* wisdom of the day: data lives in m-wisdom.js and is fetched quietly after the home screen has drawn */
 const dohaList=()=>{const W=window.NLM_WISDOM,o=[];if(W)W.authors.forEach(a=>a.d.forEach(d=>o.push({a:a.n,t:d[0],m:d[1]})));return o};
@@ -206,15 +244,18 @@ R.home=()=>{
   const dg=prog.daily(),pc=all?att/all*100:0,cnt=set=>S.bank?fnum(SETS[set].reduce((a,_,i)=>a+list(set,i).length,0))+' questions':'10 units';
   const T=[['/mocks','test','Mock Tests','var(--c3-deep)'],['/plan','cal','Study Plan','var(--c2-deep)'],['/syllabus/0','book','Syllabus','var(--c3-deep)'],['/notes','file','Notes','var(--c2-deep)']];
   const es=ls.get('nl-m-ese',null);
-  const strat=`<a class="strat" href="#/strategy"><span class="sg">${I.compass}</span><div class="ti"><h3>${es?`Readiness ${es.r} out of 100`:'Your NET strategy'}</h3><p>${es?`Focus next: ${esc(es.f||'keep practising daily')}`:'A personal plan built from your accuracy, mocks and days left.'}</p></div><span class="go">${es?'Open':'Build'}${I.chevR}</span></a>`;
+  const strat=`<a class="strat" href="#/strategy"><span class="sg">${I.compass}</span><div class="ti"><h3>${es?`Readiness ${es.r} out of 100`:'Your UGC NET strategy'}</h3><p>${es?`Focus next: ${esc(es.f||'keep practising daily')}`:'A personal plan built from your accuracy, mocks and days left.'}</p></div><span class="go">${es?'Open':'Build'}${I.chevR}</span></a>`;
   const prg=`<div class="card"><div class="prog-n"><b>${fnum(att)} <span>/ ${all?fnum(all):'…'}</span></b><em>${pc.toFixed(1)}%</em></div><div class="bar"><i style="width:${pc}%"></i></div><div class="mini"><span style="--c:var(--ok)">${fnum(ok)} correct</span><span style="--c:var(--bad)">${fnum(bad)} incorrect</span><span style="--c:var(--c2)">Today ${dg.n}/${dg.goal}</span><span style="--c:var(--c3)">${dg.streak}-day streak</span></div></div>`;
-  const left=`${cont}<div class="bigs"><a class="bigt a" href="#/subjects"><span class="bgi">${sv(P.scale,112)}</span><span class="gi">${I.scale}</span><b>Law 058</b><small>${cnt('L')}${I.chevR}</small></a><a class="bigt b" href="#/subjects/1"><span class="bgi">${sv(P.cap,112)}</span><span class="gi">${I.cap}</span><b>Paper 1</b><small>${cnt('P')}${I.chevR}</small></a></div><div class="card cont" style="margin-top:12px">${ico('grid','var(--c3-deep)')}<div class="ti"><h3>All exams</h3><p>Paper 1, Paper 2, CLAT PG, AIBE and more</p></div><a class="btn sm" href="#/exams">Browse</a></div><h2 class="h2">Quick access</h2><div class="tiles">${T.map(t=>`<a class="tile" href="#${t[0]}"><span class="ico" style="--c:${t[3]}">${I[t[1]]}</span>${t[2]}</a>`).join('')}</div>`;
-  const right=`<h2 class="h2">Make a plan</h2>${strat}<h2 class="h2">Your progress</h2>${prg}`;
-  screen({top:`<div class="tb"><button class="ib" data-a="drawer" aria-label="Menu">${I.menu}</button><h1><span class="lg">${sv(P.scale,19)}</span>NET Law-Verse</h1><a class="ib" href="#/search" aria-label="Search questions">${I.search}</a></div>`,nav:'home',flush:true,
-  body:`<section class="hero"><div class="w"><p class="hi">${greet()}</p><h2 class="ht">UGC NET Law (058) &amp; Paper 1</h2><p class="hs">Free MCQs, mock tests, notes and study plans.</p><div class="hx">${cdHTML()}<div class="hring">${ringSVG(pc)}<b>${Math.round(pc)}%<small>practised</small></b></div></div></div></section>
-  <div class="w pad">${isTab?`<div class="home-g"><div>${left}</div><div>${right}</div></div>`:left+right}
-  <h2 class="h2">Wisdom for today</h2>${wisCard()}
-  ${window.NLShare?`<h2 class="h2">Help a friend prepare</h2><div class="card cont">${ico('share','var(--c2-deep)')}<div class="ti"><h3>Invite a friend</h3><p>Share 9,000+ free MCQs, 17 mock tests, notes and study plans with someone preparing for UGC NET.</p></div><button class="btn sm" data-a="shareapp">Share</button></div>`:''}${igCard()}<h2 class="h2">Learn more</h2><div class="duo"><a class="mc" href="#/faq">${ico('help','var(--c2-deep)')}<b>FAQ &amp; exam pattern</b><small>Marking, syllabus, how to prepare</small></a><a class="mc" href="#/mission">${ico('flag','var(--c3-deep)')}<b>Our mission</b><small>Why NET Law-Verse exists</small></a></div></div>`});
+  const TC=[['clat-pg/mock-tests.html','test','Mock Tests','var(--c3-deep)'],['/clat/sample','file','Sample Paper','var(--c2-deep)'],['/clat/cases','scale','Case Vault','var(--c3-deep)'],['/clat/syllabus','book','Syllabus','var(--c2-deep)']];
+  const hr=h=>h.startsWith('/')?'#'+h:h;
+  const left=`${cont}<h2 class="h2">UGC NET quick access</h2><div class="tiles">${T.map(t=>`<a class="tile" href="#${t[0]}"><span class="ico" style="--c:${t[3]}">${I[t[1]]}</span>${t[2]}</a>`).join('')}</div><h2 class="h2">CLAT PG quick access</h2><div class="tiles">${TC.map(t=>`<a class="tile" href="${hr(t[0])}"><span class="ico" style="--c:${t[3]}">${I[t[1]]}</span>${t[2]}</a>`).join('')}</div><div class="card cont" style="margin-top:14px">${ico('grid','var(--c3-deep)')}<div class="ti"><h3>More exams</h3><p>CLAT UG, AIBE and Semester Law Notes, landing in 2027</p></div><a class="btn sm" href="#/exams">See</a></div>`;
+  const ex3=`<div class="bigs ex3"><a class="bigt b" href="#/subjects/1"><span class="bgi">${sv(P.cap,112)}</span><span class="gi">${I.cap}</span><span class="xt"><b>UGC NET Paper 1</b><small>General Paper · ${cnt('P')}${I.chevR}</small></span></a><a class="bigt a" href="#/subjects"><span class="bgi">${sv(P.scale,112)}</span><span class="gi">${I.scale}</span><span class="xt"><b>UGC NET Paper 2</b><small>Law 058 · ${cnt('L')}${I.chevR}</small></span></a><a class="bigt c" href="#/clat"><span class="bgi">${sv(P.target,112)}</span><span class="gi">${I.target}</span><span class="xt"><b>CLAT PG</b><small>LL.M. entrance · 6 mocks, 705 cases${I.chevR}</small></span></a></div>`;
+  const right=`<h2 class="h2">Make a plan</h2>${strat}<h2 class="h2">UGC NET progress</h2>${prg}`;
+  screen({top:`<div class="tb"><button class="ib" data-a="drawer" aria-label="Menu">${I.menu}</button><h1 class="bh">${LOGO(30)}<span>${WORD()}</span></h1><a class="ib" href="#/search" aria-label="Search questions">${I.search}</a></div>`,nav:'home',flush:true,
+  body:`<section class="hero"><div class="w"><p class="hi">${greet()}</p><h2 class="ht">Your law exams, sorted</h2><p class="hs">UGC NET Paper 1 &amp; 2 and CLAT PG. Free MCQs, mock tests, notes and study plans.</p><div class="hx">${cdHTML()}<div class="hring">${ringSVG(pc)}<b>${Math.round(pc)}%<small>practised</small></b></div></div></div></section>
+  <div class="w pad">${ex3}${isTab?`<div class="home-g"><div>${left}</div><div>${right}</div></div>`:left+right}
+  ${stay()}<h2 class="h2">Wisdom for today</h2>${wisCard()}
+  ${window.NLShare?`<h2 class="h2">Help a friend prepare</h2><div class="card cont">${ico('share','var(--c2-deep)')}<div class="ti"><h3>Invite a friend</h3><p>Share 9,000+ free MCQs, 17 mock tests, notes and study plans with someone preparing for UGC NET.</p></div><button class="btn sm" data-a="shareapp">Share</button></div>`:''}<h2 class="h2">Learn more</h2><div class="duo"><a class="mc" href="#/faq">${ico('help','var(--c2-deep)')}<b>FAQ &amp; exam pattern</b><small>Marking, syllabus, how to prepare</small></a><a class="mc" href="#/mission">${ico('flag','var(--c3-deep)')}<b>Our mission</b><small>Why NET Law-Verse exists</small></a></div></div>`});
   if(!S.bank)loadBank().then(()=>{if((location.hash.slice(1)||'/')==='/')R.home()}).catch(()=>{});
   if(!window.NLM_WISDOM)setTimeout(()=>loadJS('m-wisdom.js').then(()=>{const el=$('#wis');if(el&&(location.hash.slice(1)||'/')==='/'){const t=document.createElement('div');t.innerHTML=wisCard();el.replaceWith(t.firstChild)}}).catch(()=>{}),350);
 };
@@ -222,11 +263,11 @@ R.home=()=>{
 /* ---------- all exams: the website's exam chooser, built for the app. Phones: big tiles in one column. Tablets: two columns + a sidebar entry. ---------- */
 function exStyle(){if(document.getElementById('nlx-css'))return;const s=document.createElement('style');s.id='nlx-css';s.textContent='.xp{margin:2px 2px 14px;font-size:.9375rem;line-height:1.5;color:var(--text2,var(--mut));font-weight:600}.xgrid{display:grid;grid-template-columns:1fr;gap:12px}.xgrid .card.cont{margin:0;text-decoration:none;color:inherit}.xgrid .cont p{white-space:normal;margin:3px 0 0;line-height:1.4}.xtag{flex:none;align-self:center;padding:5px 11px;border-radius:999px;border:1px solid var(--card);background:var(--soft);color:var(--ac-d);font-size:.6875rem;font-weight:800;white-space:nowrap}.xbig .bigt{min-height:156px}@media(min-width:768px){.xp{font-size:1.0625rem;margin-bottom:18px}.xgrid{grid-template-columns:1fr 1fr;gap:14px}.xbig{gap:16px}.xbig .bigt{min-height:220px}.xgrid .card.cont{padding:18px 20px}.xgrid>a:last-child:nth-child(odd){grid-column:1/-1}}@media(min-width:1100px){.xgrid{grid-template-columns:repeat(3,1fr)}.xgrid>a:last-child:nth-child(odd){grid-column:auto}}';document.head.appendChild(s)}
 R.exams=()=>{exStyle();
-  const more=[['#/clat','target','CLAT PG','LLM entrance: guides, syllabus tracker, sample paper and 705 landmark cases','New','var(--c3-deep)'],['#/aibe','brief','AIBE','All India Bar Examination: notes, MCQs and mock tests are being planned','2027','var(--c2-deep)'],['#/sem','file','Semester Law Notes','LL.B. notes, semester by semester, with quick-revision sheets and practice','2027','var(--c3-deep)']];
+  const more=[['#/ug','cap','CLAT UG','Law entrance after Class 12: the gateway to the five-year LL.B.','2027','var(--c3-deep)'],['#/aibe','brief','AIBE','All India Bar Examination: notes, MCQs and mock tests are being planned','2027','var(--c2-deep)'],['#/sem','file','Semester Law Notes','LL.B. notes, semester by semester, with quick-revision sheets and practice','2027','var(--c3-deep)']];
   screen({top:tbar('All exams',{sub:'Pick your exam'}),xnav:'x/exams',
   body:`<p class="xp">Free for everyone, with no sign-up. Pick the exam you are preparing for.</p>
-  <div class="bigs xbig"><a class="bigt b" href="#/subjects/1"><span class="bgi">${sv(P.cap,112)}</span><span class="gi">${I.cap}</span><b>Paper 1</b><small>General Paper · 5,705 MCQs${I.chevR}</small></a><a class="bigt a" href="#/subjects"><span class="bgi">${sv(P.scale,112)}</span><span class="gi">${I.scale}</span><b>Paper 2</b><small>Law 058 · 3,580 MCQs${I.chevR}</small></a></div>
-  <h2 class="h2">More exams</h2><div class="xgrid">${more.map(m=>`<a class="card cont" href="${m[0]}">${ico(m[1],m[5])}<div class="ti"><h3>${m[2]}</h3><p>${m[3]}</p></div><span class="xtag">${m[4]}</span></a>`).join('')}</div>`})};
+  <div class="bigs ex3"><a class="bigt b" href="#/subjects/1"><span class="bgi">${sv(P.cap,112)}</span><span class="gi">${I.cap}</span><span class="xt"><b>UGC NET Paper 1</b><small>General Paper · 5,705 MCQs${I.chevR}</small></span></a><a class="bigt a" href="#/subjects"><span class="bgi">${sv(P.scale,112)}</span><span class="gi">${I.scale}</span><span class="xt"><b>UGC NET Paper 2</b><small>Law 058 · 3,580 MCQs${I.chevR}</small></span></a><a class="bigt c" href="#/clat"><span class="bgi">${sv(P.target,112)}</span><span class="gi">${I.target}</span><span class="xt"><b>CLAT PG</b><small>LL.M. entrance · 6 mocks${I.chevR}</small></span></a></div>
+  <h2 class="h2">Landing in 2027</h2><div class="xgrid">${more.map(m=>`<a class="card cont" href="${m[0]}">${ico(m[1],m[5])}<div class="ti"><h3>${m[2]}</h3><p>${m[3]}</p></div><span class="xtag">${m[4]}</span></a>`).join('')}</div>${stay()}`})};
 
 /* ---------- subjects ---------- */
 R.subjects=([p])=>{const set=p==='1'?'P':'L',U=SETS[set];
@@ -271,7 +312,7 @@ function pracTop(){const pr=PR(),n=pr.items.length,x=pr.items[pr.pos],card=ST.vi
   const sub=card?`${pr.pos+1}/${n}`:`${pr.pos+1}–${Math.min(n,pr.pos+pageN)} of ${n}`;
   return`<div class="tb"><button class="ib" data-a="back" aria-label="Back">${I.back}</button><h1>${esc(pr.title)}<small>${sub}${pr.filter!=='all'?' · '+(pr.filter==='u'?'unattempted':'mistakes'):''}</small></h1>
   ${card&&x?`<button class="ib${BM[qid(x)]?' on':''}" data-a="bmq" data-i="${pr.pos}" aria-label="Bookmark">${IBM(BM[qid(x)])}</button>`:''}
-  <button class="ib" data-a="view" aria-label="Switch view">${card?I.list:I.grid}</button><button class="ib" data-a="pmenu" aria-label="Options">${I.more}</button></div>`}
+  ${isTab?`<button class="ib" data-a="view" aria-label="Switch view">${card?I.list:I.grid}</button>`:''}<a class="ib" href="#/" aria-label="Home">${I.home}</a><button class="ib" data-a="pmenu" aria-label="Options">${I.more}</button></div>`}
 function pracFoot(){const pr=PR(),n=pr.items.length,card=ST.view==='card',step=card?1:pageN;
   const lbl=card?`${pr.pos+1}/${n}<small>Palette</small>`:`${Math.floor(pr.pos/pageN)+1}/${Math.ceil(n/pageN)}<small>Page</small>`;
   return`<button class="fb" data-a="prev" ${pr.pos<=0?'disabled':''}>${I.back}${card?'Previous':'Prev 20'}</button><button class="fc" data-a="pal" aria-label="Question palette">${lbl}</button><button class="fb pri" data-a="next" ${pr.pos+step>=n?'disabled':''}>${card?'Next':'Next 20'}${sv(P.chevR)}</button>`}
@@ -479,7 +520,7 @@ document.addEventListener('keydown',e=>{if(e.metaKey||e.ctrlKey||e.altKey||(e.ta
 (TQ.addEventListener?TQ.addEventListener.bind(TQ,'change'):TQ.addListener.bind(TQ))(e=>{isTab=e.matches;if(!(E&&E.A&&/^#\/mock\//.test(location.hash)))route()});
 
 /* small API for the lazily loaded features (m-wisdom.js, m-extras.js) */
-window.NLM={$,esc,sv,P,I,ico,screen,tbar,R,A,go,back,ls,prog,S,list,keyList,unitOf,LAW,P1,SETS,COL,ustats,loadBank,fnum,istDay,dayNo,PLANS,MOCKS,mockStatus,RK,toast,openSheet,closeSheet,route,pgs,exam:()=>EXAM,isTab:()=>isTab,dohas:dohaList,devFont,ringSVG};
+window.NLM={LOGO,WORD,stay,updCard,$,esc,sv,P,I,ico,screen,tbar,R,A,go,back,ls,prog,S,list,keyList,unitOf,LAW,P1,SETS,COL,ustats,loadBank,fnum,istDay,dayNo,PLANS,MOCKS,mockStatus,RK,toast,openSheet,closeSheet,route,pgs,exam:()=>EXAM,isTab:()=>isTab,dohas:dohaList,devFont,ringSVG};
 
 /* ---------- start ---------- */
 setTheme();

@@ -1,3 +1,12 @@
+Phone + tablet app: CLAT PG as a main exam, NL logo, easier Home, study updates (10 Nov 2026)
+- m-app.js / m-clat.js / m-app.css / app.html: UGC NET Paper 1, UGC NET Paper 2 and CLAT PG are now three equal tiles on Home and All exams (stacked on phones, three columns on tablets). CLAT PG quick-access row (mock tests, sample paper, case vault, syllabus) added under the NET one. Hero shows both countdowns (CLAT PG 6 Dec, UGC NET 15 Dec). First-run welcome has a button for each exam. CLAT PG is in the drawer and the tablet sidebar. CLAT UG now opens inside the app (#/ug) like AIBE and Semester Notes.
+- NL logo: the website's brand mark (NL square with accent dot) replaces the scales icon in the top bar, drawer, welcome screen, tablet sidebar and CLAT sidebar.
+- Home navigation: every inner screen has a Home button in its top bar (practice screens too; phones swap the view-toggle for it, it is still in Options). CLAT bottom tabs are now Home | CLAT PG | Prepare | Practice | Cases (the old "More" tab content is on the CLAT hub tiles; #/clat/more still works). Logo in the tablet sidebar goes Home. CLAT hub top-left is Home.
+- Get study updates: in-app sign-up (name, phone, email, consent, honeypot) posting to the same Google Form as nl-lead-float.js and sharing its "nll-done" flag. Shown with the Instagram card in a "Stay connected" section on Home, All exams and the CLAT hub, and in the drawer. Instagram card moved up from the bottom of Home.
+- nl-appbar.js (new): slim Back / Home / CLAT bar on touch devices for web pages the app links to (clat-pg/mock-tests.html, clat-pg/mock-test-1..6.html, pyq.html). They had no way back to the app. Desktop unchanged.
+- Fixes: app.html had two canonical tags (now one) and a NET-only title; manifest description and a CLAT PG shortcut added; sw.js VERSION v20.
+- Known, not changed: mock-test-6..9.html in the root point to mock-test-data-6..9.js, which are not in the repo (pages are noindex and not linked); the zip's mcq/ folder only holds index.html, so unit MCQ pages could not be link-checked.
+
 Study notes: Paper 1 Communication (Unit 4), Mathematical Reasoning (Unit 5), Data Interpretation (Unit 7) (24 Oct 2026)
 - New chapters in /notes/ugc-net-paper-1/ (format "chapters", same generator and layout as the other Paper 1 chapters):
   Communication: 5 modules, 11 topics (0 to 10), 90 sub-topics. Each topic pairs the exam fact sheet with its "In simple words" explanation; Memory Capsules on topics 1 to 3, 5 to 9.

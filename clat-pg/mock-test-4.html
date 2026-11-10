@@ -43,5 +43,6 @@
 <button class="sw" data-t="sunny" style="background:linear-gradient(135deg,#ffd23f,#ff8fa8)" aria-label="Sunny theme"></button></div>
 <script>(function(){var b=document.querySelectorAll('.sw');function mark(){var c=document.documentElement.getAttribute('data-theme');for(var i=0;i<b.length;i++)b[i].setAttribute('aria-pressed',b[i].dataset.t===c)}
 for(var i=0;i<b.length;i++)b[i].onclick=function(){var t=this.dataset.t;document.documentElement.setAttribute('data-theme',t);try{localStorage.setItem('clat-theme',t)}catch(e){}mark()};mark()})();</script>
-<script src="../nl-report.js"></script><script src="../nl-share.js"></script><script src="clat-mock-meta.js"></script><script src="clat-mock-data-4.js"></script><script src="clat-mock-engine.js"></script></body>
+<script src="../nl-report.js"></script><script src="../nl-share.js"></script><script src="clat-mock-meta.js"></script><script src="clat-mock-data-4.js"></script><script src="clat-mock-engine.js"></script><script src="/nl-appbar.js" defer></script>
+</body>
 </html>
