@@ -224,3 +224,7 @@ i.cm-hd.inl{position:static;display:inline-block;vertical-align:-1px;margin-righ
 @media print{.themes,.shapes,.cm-btn,.cm-fl{display:none}body{background:#fff}}
 
 .cm-exam .themes{display:none}
+
+/* shown inside the phone/tablet app (?embed=1): the app supplies its own header, footer and theme */
+html.emb .cm-head,html.emb .cm-foot,html.emb .themes,html.emb .shapes,html.emb .skip,html.emb .cm-sec{display:none!important}
+html.emb .wrap{padding-top:10px}

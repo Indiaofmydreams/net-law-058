@@ -1,3 +1,14 @@
+/* nl-disclaimer-loader: makes sure the disclaimer popup (disclaimer.js) appears on every page, including the few that do not include it directly. */
+(function () {
+  if (window.__nlDiscL) return; window.__nlDiscL = 1;
+  try { if (top !== self) return; } catch (e) { return; }
+  function go() {
+    if (window.__nlDisc || document.querySelector('script[src*="disclaimer.js"]')) return;
+    var l = document.createElement('link'); l.rel = 'stylesheet'; l.href = '/disclaimer.css'; document.head.appendChild(l);
+    var s = document.createElement('script'); s.src = '/disclaimer.js'; document.body.appendChild(s);
+  }
+  if (document.body) go(); else document.addEventListener('DOMContentLoaded', go);
+})();
 /* NET Law-Verse PWA helper: service-worker registration + "Install App" UI.
  * Loaded (deferred) by every page. Adds nothing visible unless installing is actually possible.
  *

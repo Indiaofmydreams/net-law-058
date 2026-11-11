@@ -543,3 +543,7 @@ a.brand{color:inherit}
 .uerr{margin:0;color:var(--bad);font-weight:800;font-size:.8125rem;line-height:1.4}.uerr:empty{display:none}
 .tb h1.bh{justify-content:flex-start}
 .ex3{margin-bottom:14px}
+
+/* CLAT PG mock runner: the website's CLAT engine shown inside the app */
+#view.cmv{position:relative;overflow:hidden}
+#view.cmv .cmf{position:absolute;inset:0;width:100%;height:100%;border:0;background:var(--page)}

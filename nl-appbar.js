@@ -3,6 +3,7 @@
    Without it, someone who taps "Mock tests" in the app lands on a plain web page with no way back to the app home. */
 (function () {
   try {
+    if (window.top !== window.self) return; /* inside the app's mock runner: the app has its own bar */
     var touch = matchMedia('(pointer:coarse)').matches && Math.min(screen.width, screen.height) < 1100;
     var installed = matchMedia('(display-mode: standalone)').matches || navigator.standalone;
     if (!touch && !installed) return;

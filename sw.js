@@ -1,4 +1,4 @@
-/* NET Law-Verse service worker (v20): ONLINE ONLY.
+/* NET Law-Verse service worker (v21): ONLINE ONLY.
  *
  * The site is installable as an app, but nothing is stored for offline use.
  *   - Every request goes straight to the network, exactly as on a site with no service worker.
@@ -11,7 +11,7 @@
  */
 'use strict';
 
-const VERSION = 'v20';
+const VERSION = 'v21';
 const PREFIX = 'nl058-';
 const SHELL = PREFIX + 'offline-' + VERSION;
 const BASE = new URL('./', self.registration.scope).href;

@@ -246,7 +246,7 @@ R.home=()=>{
   const es=ls.get('nl-m-ese',null);
   const strat=`<a class="strat" href="#/strategy"><span class="sg">${I.compass}</span><div class="ti"><h3>${es?`Readiness ${es.r} out of 100`:'Your UGC NET strategy'}</h3><p>${es?`Focus next: ${esc(es.f||'keep practising daily')}`:'A personal plan built from your accuracy, mocks and days left.'}</p></div><span class="go">${es?'Open':'Build'}${I.chevR}</span></a>`;
   const prg=`<div class="card"><div class="prog-n"><b>${fnum(att)} <span>/ ${all?fnum(all):'…'}</span></b><em>${pc.toFixed(1)}%</em></div><div class="bar"><i style="width:${pc}%"></i></div><div class="mini"><span style="--c:var(--ok)">${fnum(ok)} correct</span><span style="--c:var(--bad)">${fnum(bad)} incorrect</span><span style="--c:var(--c2)">Today ${dg.n}/${dg.goal}</span><span style="--c:var(--c3)">${dg.streak}-day streak</span></div></div>`;
-  const TC=[['clat-pg/mock-tests.html','test','Mock Tests','var(--c3-deep)'],['/clat/sample','file','Sample Paper','var(--c2-deep)'],['/clat/cases','scale','Case Vault','var(--c3-deep)'],['/clat/syllabus','book','Syllabus','var(--c2-deep)']];
+  const TC=[['/clat/mocks','test','Mock Tests','var(--c3-deep)'],['/clat/sample','file','Sample Paper','var(--c2-deep)'],['/clat/cases','scale','Case Vault','var(--c3-deep)'],['/clat/syllabus','book','Syllabus','var(--c2-deep)']];
   const hr=h=>h.startsWith('/')?'#'+h:h;
   const left=`${cont}<h2 class="h2">UGC NET quick access</h2><div class="tiles">${T.map(t=>`<a class="tile" href="#${t[0]}"><span class="ico" style="--c:${t[3]}">${I[t[1]]}</span>${t[2]}</a>`).join('')}</div><h2 class="h2">CLAT PG quick access</h2><div class="tiles">${TC.map(t=>`<a class="tile" href="${hr(t[0])}"><span class="ico" style="--c:${t[3]}">${I[t[1]]}</span>${t[2]}</a>`).join('')}</div><div class="card cont" style="margin-top:14px">${ico('grid','var(--c3-deep)')}<div class="ti"><h3>More exams</h3><p>CLAT UG, AIBE and Semester Law Notes, landing in 2027</p></div><a class="btn sm" href="#/exams">See</a></div>`;
   const ex3=`<div class="bigs ex3"><a class="bigt b" href="#/subjects/1"><span class="bgi">${sv(P.cap,112)}</span><span class="gi">${I.cap}</span><span class="xt"><b>UGC NET Paper 1</b><small>General Paper · ${cnt('P')}${I.chevR}</small></span></a><a class="bigt a" href="#/subjects"><span class="bgi">${sv(P.scale,112)}</span><span class="gi">${I.scale}</span><span class="xt"><b>UGC NET Paper 2</b><small>Law 058 · ${cnt('L')}${I.chevR}</small></span></a><a class="bigt c" href="#/clat"><span class="bgi">${sv(P.target,112)}</span><span class="gi">${I.target}</span><span class="xt"><b>CLAT PG</b><small>LL.M. entrance · 6 mocks, 705 cases${I.chevR}</small></span></a></div>`;
@@ -391,10 +391,20 @@ function loadMock(n){if(MC[n])return Promise.resolve(MC[n]);return new Promise((
 function mockStatus(n){const a=ls.get(AK(n)),r=ls.get(RK(n));
   if(a&&a.end)return a.end<=Date.now()?['Time up','go']:[`In progress · ${Object.keys(a.ans||{}).length} done`,'go'];
   if(r)return[`\u2713 ${r.marks} marks`,'ok'];return['Not started','']}
+/* CLAT PG mocks: same list design as the NET mocks. The papers themselves run in the website's CLAT engine (clat-pg/mock-test-N.html,
+   shown inside the app), so saved progress uses that engine's own keys and the website and app always agree. */
+let CM=null;
+const clatMeta=()=>CM?Promise.resolve(CM):new Promise((ok,no)=>{if(window.CLATMOCKS){CM=window.CLATMOCKS;return ok(CM)}const sc=document.createElement('script');sc.src='clat-pg/clat-mock-meta.js';sc.onload=()=>{CM=window.CLATMOCKS;CM&&CM.length?ok(CM):no()};sc.onerror=no;document.head.appendChild(sc)});
+const clatStat=(n,q)=>{const a=ls.get('clatpg-mock-'+n+'-attempt'),r=ls.get('clatpg-mock-'+n+'-result');
+  if(a&&a.end)return a.end<=Date.now()?['Time up','go']:[`In progress · ${Object.keys(a.ans||{}).length}/${q}`,'go'];
+  if(r)return[`\u2713 ${r.marks}/${q}`,'ok'];return['Not started','']};
+const clatRow=m=>{const[st,c]=clatStat(m.n,m.q);return`<a class="row" href="#/clat/mock/${m.n}">${ico('test','var(--c3-deep)')}<div class="ti"><h3>${esc(m.title)}</h3><p>${esc(m.theme)} · ${m.q} questions · ${m.minutes/60} hours</p></div><span class="st ${c}">${st}</span></a>`};
+A.jmp=t=>{const e=document.getElementById(t.dataset.t);if(e)e.scrollIntoView({behavior:'smooth',block:'start'})};
 R.mocks=()=>{
   const row=m=>{const[s,c]=mockStatus(m.n);return`<a class="row" href="#/mock/${m.n}">${ico('test',m.p===2?'var(--c3-deep)':'var(--c2-deep)')}<div class="ti"><h3>${esc(m.t)}</h3><p>${m.q} questions · ${m.m>=60&&m.m%60===0?m.m/60+(m.m===60?' hour':' hours'):m.m+' minutes'}${m.h?` · <b style="color:var(--bad-text)">${m.h}</b>`:''}</p></div><span class="st ${c}">${s}</span></a>`};
   screen({top:`<div class="tb"><button class="ib" data-a="drawer">${I.menu}</button><h1>Mock Tests</h1></div>`,nav:'mock',
-  body:`<h2 class="h2">Paper 2 · Law 058</h2><div class="rows two">${MOCKS.filter(m=>m.p===2).map(row).join('')}</div><h2 class="h2">Paper 1 · General aptitude</h2><div class="rows two">${MOCKS.filter(m=>m.p===1).map(row).join('')}</div><p class="muted" style="font-size:.75rem;text-align:center;margin:14px 6px 0">Free exam-style practice. 2 marks per question, no negative marking. Not affiliated with NTA or UGC.</p>`})};
+  body:`<div class="chips" style="margin-bottom:2px"><button class="chip" data-a="jmp" data-t="mk2">Paper 2 · Law</button><button class="chip" data-a="jmp" data-t="mk1">Paper 1</button><button class="chip" data-a="jmp" data-t="mkc">CLAT PG</button></div><h2 class="h2" id="mk2">UGC NET Paper 2 · Law 058</h2><div class="rows two">${MOCKS.filter(m=>m.p===2).map(row).join('')}</div><h2 class="h2" id="mk1">UGC NET Paper 1 · General aptitude</h2><div class="rows two">${MOCKS.filter(m=>m.p===1).map(row).join('')}</div><h2 class="h2" id="mkc">CLAT PG · LL.M. entrance</h2><div class="rows two" id="clatmk"><div class="empty" style="padding:18px 0"><div class="spin"></div></div></div><p class="muted" style="font-size:.75rem;text-align:center;margin:14px 6px 0">Free exam-style practice. UGC NET: 2 marks per question, no negative marking. CLAT PG: 1 mark per question, 0.25 deducted for each wrong answer. Not affiliated with NTA, UGC or the Consortium of NLUs.</p>`});
+  clatMeta().then(D=>{const el=document.getElementById('clatmk');if(el)el.innerHTML=D.map(clatRow).join('')}).catch(()=>{const el=document.getElementById('clatmk');if(el)el.innerHTML='<a class="row" href="#/clat/mocks">'+ico('test','var(--c3-deep)')+'<div class="ti"><h3>CLAT PG mock tests</h3><p>Open the CLAT PG mock tests</p></div>'+I.chevR+'</a>'})};
 let E=null;
 R.mock=([ns])=>{const n=+ns,meta=mockMeta(n);if(!meta)return go('/mocks');
   screen({top:tbar(meta.t),body:'<div class="empty" style="padding-top:80px"><div class="spin"></div><b>Loading test…</b></div>'});
@@ -520,7 +530,7 @@ document.addEventListener('keydown',e=>{if(e.metaKey||e.ctrlKey||e.altKey||(e.ta
 (TQ.addEventListener?TQ.addEventListener.bind(TQ,'change'):TQ.addListener.bind(TQ))(e=>{isTab=e.matches;if(!(E&&E.A&&/^#\/mock\//.test(location.hash)))route()});
 
 /* small API for the lazily loaded features (m-wisdom.js, m-extras.js) */
-window.NLM={LOGO,WORD,stay,updCard,$,esc,sv,P,I,ico,screen,tbar,R,A,go,back,ls,prog,S,list,keyList,unitOf,LAW,P1,SETS,COL,ustats,loadBank,fnum,istDay,dayNo,PLANS,MOCKS,mockStatus,RK,toast,openSheet,closeSheet,route,pgs,exam:()=>EXAM,isTab:()=>isTab,dohas:dohaList,devFont,ringSVG};
+window.NLM={clatMeta,clatStat,clatRow,LOGO,WORD,stay,updCard,$,esc,sv,P,I,ico,screen,tbar,R,A,go,back,ls,prog,S,list,keyList,unitOf,LAW,P1,SETS,COL,ustats,loadBank,fnum,istDay,dayNo,PLANS,MOCKS,mockStatus,RK,toast,openSheet,closeSheet,route,pgs,exam:()=>EXAM,isTab:()=>isTab,dohas:dohaList,devFont,ringSVG};
 
 /* ---------- start ---------- */
 setTheme();

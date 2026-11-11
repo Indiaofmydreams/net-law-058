@@ -1,8 +1,11 @@
 (()=>{
+if(window.__nlDisc)return;window.__nlDisc=1;
+try{if(top!==self)return}catch(e){return}  /* not inside the app's embedded CLAT mock runner */
+if(/bot|crawl|spider|slurp|lighthouse|inspectiontool|google-read-aloud|mediapartners/i.test(navigator.userAgent))return;  /* search crawlers read the page, not the popup */
 const EMAIL='netlawverse@gmail.com',KEY='netlaw058-terms-v1';
 const T=[
-["Study aid, not advice","Notes, MCQs and PYQs are for education only.","Everything here is for general academic use. It is not legal advice, official exam guidance, or a substitute for textbooks, bare Acts, judgments or official notifications."],
-["No official affiliation","Independent. Not linked to UGC, NTA or any authority.","NET Law-Verse is not affiliated with, authorised by or endorsed by the UGC, the NTA or any government body. Names such as UGC NET, statutes and cases are used only to identify the subject matter."],
+["Study aid, not advice","Notes, MCQs, mock tests and PYQs are for education only.","Everything here is for general academic use. It is not legal advice, official exam guidance, or a substitute for textbooks, bare Acts, judgments or official notifications."],
+["No official affiliation","Independent. Not linked to UGC, NTA, the Consortium of NLUs or any authority.","NET Law-Verse is not affiliated with, authorised by or endorsed by the UGC, the NTA, the Consortium of National Law Universities or any government body. Names such as UGC NET, CLAT PG, statutes and cases are used only to identify the subject matter."],
 ["Verify before you rely","Laws and syllabi change. Check official sources.","We take reasonable care, but give no warranty that content is complete, current or error-free. Always confirm the syllabus, provisions, amendments and judgments from official sources. Importance ratings and question patterns are indicative estimates."],
 ["No result guarantee","Resources do not promise a score or qualification.","Success depends on your own preparation and performance. We are not responsible for exam outcomes or decisions you make based on this site."],
 ["Limitation of liability","Limited liability, to the extent Indian law allows.","We are not liable for loss or disadvantage arising from errors or outdated content, reliance without verification, downtime, or technical issues. Nothing here excludes liability that cannot lawfully be excluded, such as fraud or wilful misconduct, or waives any right that cannot lawfully be waived."],
@@ -11,17 +14,21 @@ const T=[
 ["External links","We do not control linked websites.","Links to official portals and other sites are for convenience, not endorsement. We are not responsible for their content or privacy practices."],
 ["Changes and governing law","Content may change. Indian law applies.","We may update, suspend or remove any part of the site at any time. These terms are governed by the laws of India, and disputes are subject to the jurisdiction of competent courts."]];
 const back=document.createElement('div');back.className='tm-back';back.setAttribute('role','dialog');back.setAttribute('aria-modal','true');back.setAttribute('aria-labelledby','tm-t');
-back.innerHTML=`<div class="tm"><div class="tm-top"><div class="tm-ttl"><span class="tm-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"/><path d="M9 12l2 2 4-4"/></svg></span><div><h2 id="tm-t">Before you continue</h2><p>Disclaimer and terms of use · Updated 1 October 2026</p></div></div><button class="tm-agree" id="tm-ok">✓ I agree</button><button class="tm-x" id="tm-x" aria-label="Close">✕</button></div>
+back.innerHTML=`<div class="tm"><div class="tm-top"><div class="tm-ttl"><span class="tm-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"/><path d="M9 12l2 2 4-4"/></svg></span><div><h2 id="tm-t">Before you continue</h2><p>Disclaimer and terms of use · Updated 10 November 2026</p></div></div><button class="tm-agree" id="tm-ok">✓ I agree</button><button class="tm-x" id="tm-x" aria-label="Close">✕</button></div>
 <div class="tm-body"><p class="tm-lead">NET Law-Verse is a free, independent study resource. The short version: use it to learn, and verify anything important. Tap a point for details.</p>${T.map(([a,b,c])=>`<div class="tm-i"><button class="tm-h" aria-expanded="false"><span><b>${a}</b><small>${b}</small></span><i></i></button><div class="tm-d"><div><p>${c}</p></div></div></div>`).join('')}</div>
 <div class="tm-foot">Questions or corrections: <a href="mailto:${EMAIL}" style="color:var(--ac);font-weight:700">${EMAIL}</a></div></div>`;
 document.body.appendChild(back);
 const box=back.querySelector('.tm'),ok=back.querySelector('#tm-ok');
 back.querySelectorAll('.tm-h').forEach(h=>h.onclick=()=>{const i=h.closest('.tm-i'),o=i.classList.toggle('open');h.setAttribute('aria-expanded',o)});
-let agreed=false;try{agreed=localStorage.getItem(KEY)==='1'}catch{}
+/* Shown every time the site or app is opened: once per visit (a new tab or a fresh launch of the installed app asks again),
+   and again if a tab has been left open for over 6 hours. Closing it counts as seeing it, so it never repeats on every page. */
+const SK='nl-disc-seen',GAP=6*36e5;
+let agreed=false;try{agreed=Date.now()-(+sessionStorage.getItem(SK)||0)<GAP}catch{try{agreed=Date.now()-(+localStorage.getItem(SK)||0)<18e5}catch{}}
+const seen=()=>{agreed=true;const t=''+Date.now();try{sessionStorage.setItem(SK,t)}catch{try{localStorage.setItem(SK,t)}catch{}}};
 const open=again=>{box.classList.toggle('again',again);back.classList.add('show');document.body.style.overflow='hidden';ok.focus()},
 close=()=>{back.classList.remove('show');document.body.style.overflow=''};
-ok.onclick=()=>{try{localStorage.setItem(KEY,'1')}catch{}agreed=true;close()};
-back.querySelector('#tm-x').onclick=close;
+ok.onclick=()=>{try{localStorage.setItem(KEY,'1')}catch{}seen();close()};
+back.querySelector('#tm-x').onclick=()=>{seen();close()};
 back.onclick=e=>{if(e.target===back&&agreed)close()};
 addEventListener('keydown',e=>{if(e.key==='Escape'&&agreed&&back.classList.contains('show'))close()});
 document.querySelectorAll('[data-terms]').forEach(a=>a.onclick=e=>{e.preventDefault();open(true)});

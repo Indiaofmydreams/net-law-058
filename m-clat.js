@@ -17,7 +17,7 @@ var EXAM_T = Date.UTC(2026, 11, 6, 8, 30, 0);              /* 6 December 2026, s
 var SYL_KEY = 'clat-syl-v1', SMP_KEY = 'nl-clat-sample-v1', BM_KEY = 'nl-clat-case-bm';
 var timers = [];
 function clearTimers() { while (timers.length) clearInterval(timers.pop()); }
-addEventListener('hashchange', function () { if (!/^#\/(clat|aibe|sem)/.test(location.hash)) clearTimers(); });
+addEventListener('hashchange', function () { if (!/^#\/(clat|ug|aibe|sem)/.test(location.hash)) clearTimers(); });
 
 /* ---------- styles (scoped with the cx- prefix) ---------- */
 (function () {
@@ -89,11 +89,11 @@ function here(prefix) { return (location.hash || '#/').indexOf(prefix) === 0; }
 function txt(el) { return el ? el.textContent.replace(/\s+/g, ' ').trim() : ''; }
 
 /* bottom tabs for the CLAT PG area (they replace the NET Law-Verse tabs while you are inside CLAT PG) */
-var TABS = [['home', 'Home', '/clat', 'home'], ['prep', 'Prepare', '/clat/prep', 'book'], ['prac', 'Practice', '/clat/sample', 'test'], ['cases', 'Cases', '/clat/cases', 'scale'], ['more', 'More', '/clat/more', 'grid']];
+var TABS = [['app', 'Home', '/', 'home'], ['home', 'CLAT PG', '/clat', 'target'], ['prep', 'Prepare', '/clat/prep', 'book'], ['prac', 'Practice', '/clat/mocks', 'test'], ['cases', 'Cases', '/clat/cases', 'scale']];
 function tabsHTML(on) {
-  return '<div class="rb"><i>' + sv(P.target, 24) + '</i><span>CLAT PG</span></div>' +
+  return '<a class="rb" href="#/clat" aria-label="CLAT PG home"><i>' + N.LOGO(34) + '</i><span class="wm">CLAT PG</span></a>' +
     TABS.map(function (t) { return '<a href="#' + t[2] + '" class="' + (on === t[0] ? 'on' : '') + '"><span class="ni">' + sv(P[t[3]]) + '</span>' + t[1] + '</a>'; }).join('') +
-    (N.isTab() ? '<span class="nsec"></span><a href="#/exams"><span class="ni">' + sv(P.grid) + '</span>All exams</a><a href="#/"><span class="ni">' + sv(P.scale) + '</span>NET Law</a>' : '');
+    (N.isTab() ? '<span class="nsec"></span><a href="#/exams"><span class="ni">' + sv(P.grid) + '</span>All exams</a><a href="#/subjects"><span class="ni">' + sv(P.scale) + '</span>UGC NET</a>' : '');
 }
 function cscreen(o, tab, opt) {
   clearTimers();
@@ -101,7 +101,7 @@ function cscreen(o, tab, opt) {
   if (opt && opt.nonav) { NAVEL.hidden = true; return; }
   NAVEL.hidden = false; NAVEL.innerHTML = tabsHTML(tab);
 }
-function cbar(title, sub, la) { return tbar(title, { sub: sub || '', la: la || 'back' }); }
+function cbar(title, sub, la) { return tbar(title, { sub: sub || '', la: la || 'back', right: '<a class="ib" href="#/" aria-label="Home">' + I.home + '</a>' }); }
 
 /* the website's pages, fetched once per visit */
 var DOCS = {};
@@ -245,7 +245,7 @@ function hub() {
   var d = daysLeft(), done = sylDone(), sm = sampleSaved(), answered = Object.keys(sm.a || {}).length;
   var heroDays = d > 0 ? '<div class="cx-days"><b>' + d + '</b><span>days to the exam<br>6 December 2026</span></div>' : '<div class="cx-days"><span>The CLAT PG 2027 exam date (6 December 2026) has passed.<br>Check the FAQ for results and counselling.</span></div>';
   cscreen({
-    top: '<div class="tb"><button class="ib" data-a="cexams" aria-label="All exams">' + I.back + '</button><h1>CLAT PG<small>LL.M. entrance, free</small></h1><a class="ib" href="#/clat/cases" aria-label="Search cases">' + I.search + '</a></div>',
+    top: '<div class="tb"><a class="ib" href="#/" aria-label="Home">' + I.home + '</a><h1>CLAT PG<small>LL.M. entrance, free</small></h1><a class="ib" href="#/clat/cases" aria-label="Search cases">' + I.search + '</a></div>',
     body: '<div class="cx-hero"><small class="k">CLAT PG 2027</small><h2>Crack the LL.M. entrance, one clear step at a time.</h2><p>Free guides, a 20-question sample paper and 705 landmark cases. No sign-up.</p>' + heroDays +
       '<div class="cx-facts"><div><b>120</b><small>questions</small></div><div><b>120</b><small>minutes</small></div><div><b>&minus;0.25</b><small>per wrong</small></div><div><b>26</b><small>NLUs</small></div></div></div>' +
       '<h2 class="h2">Your progress</h2><div class="cx-prog"><a href="#/clat/syllabus"><b>' + done + '<span style="font-size:.9rem;color:var(--mut)"> / 14</span></b><small>subjects covered</small><div class="cx-meter"><i style="width:' + Math.round(done / 14 * 100) + '%"></i></div></a>' +
@@ -255,18 +255,39 @@ function hub() {
       tile('#/clat/syllabus', 'book', 'Syllabus', '14 subjects in priority order, with a tracker', 'var(--c3-deep)') +
       tile('#/clat/read/traps', 'target', '12 traps', 'What the paper really tests', 'var(--c2-deep)') +
       tile('#/clat/sample', 'test', 'Sample paper', '20 questions, every trap explained', 'var(--c3-deep)') +
-      tile('clat-pg/mock-tests.html', 'test', 'Mock tests', '6 full papers, 120 min, time meter', 'var(--c2-deep)') +
+      tile('#/clat/mocks', 'test', 'Mock tests', '6 full papers, 120 min, time meter', 'var(--c2-deep)') +
       tile('#/clat/cases', 'scale', 'Case vault', '705 landmark cases, searchable', 'var(--c2-deep)') +
       tile('#/clat/read/nlus', 'inst', 'NLUs', 'The 26 participating universities', 'var(--c3-deep)') +
       tile('#/clat/read/cutoffs', 'bars', 'Cut-offs', 'How closing ranks work', 'var(--c2-deep)') +
       tile('#/clat/read/psu-jobs', 'brief', 'PSU jobs', 'Legal careers through CLAT PG', 'var(--c3-deep)') +
       tile('#/clat/read/faq', 'help', 'FAQ', 'Dates, fees, eligibility, counselling', 'var(--c2-deep)') + '</div>' +
-      '<div class="cx-note" style="margin-top:18px">Independent study resource, not affiliated with the Consortium of NLUs or any PSU. Always verify dates and rules on consortiumofnlus.ac.in.</div>'
+      N.stay() + '<div class="cx-note" style="margin-top:18px">Independent study resource, not affiliated with the Consortium of NLUs or any PSU. Always verify dates and rules on consortiumofnlus.ac.in.</div>'
   }, 'home');
 }
 function tile(h, ic, t, s, c) { return '<a class="cx-t" href="' + h + '">' + ico(ic, c) + '<b>' + t + '</b><small>' + s + '</small></a>'; }
 A.cexams = function () { go('/exams'); };
 A.chub = function () { go('/clat'); };
+A.cmocks = function () { go('/clat/mocks'); };
+/* ---------- full-length mock tests: list + runner. The runner is the website's own CLAT mock engine shown inside the app
+   (clat-pg/mock-test-N.html?embed=1), so timer, negative marking, resume and results behave exactly as on the website. ---------- */
+function mocks() {
+  var bar = cbar('Practice', 'Sample paper and full mocks', 'chub');
+  cscreen({ top: bar, body: spinner() }, 'prac');
+  N.clatMeta().then(function (D) {
+    if (!here('#/clat/mocks')) return;
+    var smp = sampleSaved(), sn = Object.keys(smp.a || {}).length;
+    cscreen({ top: bar, body:
+      '<a class="card cont" href="#/clat/sample">' + ico('file', 'var(--c2-deep)') + '<div class="ti"><h3>Sample paper</h3><p>20 questions with every trap explained' + (sn ? ' · ' + sn + '/20 done' : '') + '</p></div>' + I.chevR + '</a>' +
+      '<h2 class="h2">Full-length mock tests</h2><div class="rows two">' + D.map(N.clatRow).join('') + '</div>' +
+      '<p class="muted" style="font-size:.75rem;text-align:center;margin:14px 6px 0">120 passage-based questions in 120 minutes. 1 mark for each correct answer, 0.25 deducted for each wrong answer. Your answers and results stay on this device. Always verify the pattern on consortiumofnlus.ac.in. Not affiliated with the Consortium of NLUs.</p>' }, 'prac');
+  }).catch(function () { if (here('#/clat/mocks')) cscreen({ top: bar, body: failBody() }, 'prac'); });
+}
+function mockRun(n) {
+  n = +n; if (!(n >= 1 && n <= 6)) return go('/clat/mocks');
+  cscreen({ top: tbar('CLAT PG Mock Test ' + n, { sub: '120 questions · 120 minutes', la: 'cmocks', right: '<a class="ib" href="#/" aria-label="Home">' + I.home + '</a>' }),
+    flush: true, exam: true, cls: 'cmv',
+    body: '<iframe class="cmf" title="CLAT PG Mock Test ' + n + '" src="clat-pg/mock-test-' + n + '.html?embed=1" allow="clipboard-write; web-share"></iframe>' }, 'prac', { nonav: true });
+}
 
 /* ---------- Prepare tab ---------- */
 function prep() {
@@ -277,7 +298,7 @@ function prep() {
       '<a class="row" href="#/clat/read/traps">' + ico('target', 'var(--c2-deep)') + '<div class="ti"><h3>What CLAT PG really tests</h3><p>12 traps hidden in the paper and how to spot them</p></div>' + I.chevR + '</a>' +
       '<a class="row" href="#/clat/syllabus">' + ico('book', 'var(--c3-deep)') + '<div class="ti"><h3>Syllabus tracker</h3><p>' + sylDone() + ' of 14 subjects covered</p></div>' + I.chevR + '</a>' +
       '<a class="row" href="#/clat/sample">' + ico('test', 'var(--c2-deep)') + '<div class="ti"><h3>Sample paper</h3><p>20 passage-based questions</p></div>' + I.chevR + '</a>' +
-      '<a class="row" href="clat-pg/mock-tests.html">' + ico('test', 'var(--c3-deep)') + '<div class="ti"><h3>Mock tests</h3><p>6 full papers, 120 minutes each</p></div>' + I.chevR + '</a>' +
+      '<a class="row" href="#/clat/mocks">' + ico('test', 'var(--c3-deep)') + '<div class="ti"><h3>Mock tests</h3><p>6 full papers, 120 minutes each</p></div>' + I.chevR + '</a>' +
       '<a class="row" href="#/clat/cases">' + ico('scale', 'var(--c3-deep)') + '<div class="ti"><h3>Case Law Vault</h3><p>705 landmark cases</p></div>' + I.chevR + '</a></div>'
   }, 'prep');
 }
@@ -502,7 +523,7 @@ function result(d) {
 }
 
 /* ---------- AIBE and Semester Law Notes ("coming 2027" sections) ---------- */
-var SOON = { aibe: ['aibe-2027.html', 'AIBE', 'brief', 'All India Bar Examination'], sem: ['semester-law-notes-2027.html', 'Semester Law Notes', 'file', 'LL.B. notes, semester by semester'] };
+var SOON = { ug: ['clat-ug-2027.html', 'CLAT UG', 'cap', 'Law entrance after Class 12'], aibe: ['aibe-2027.html', 'AIBE', 'brief', 'All India Bar Examination'], sem: ['semester-law-notes-2027.html', 'Semester Law Notes', 'file', 'LL.B. notes, semester by semester'] };
 function soon(key) {
   var c = SOON[key], route = '#/' + key;
   cscreen({ top: tbar(c[1], { sub: c[3], la: 'cexams' }), body: spinner() }, null, { nonav: true });
@@ -538,10 +559,13 @@ R.clat = function (p) {
     case 'read': return reader(p[1]);
     case 'syllabus': return syllabus();
     case 'sample': return sample(p.slice(1));
+    case 'mocks': return mocks();
+    case 'mock': return mockRun(p[1]);
     case 'cases': return cases();
     default: return hub();
   }
 };
+R.ug = function () { soon('ug'); };
 R.aibe = function () { soon('aibe'); };
 R.sem = function () { soon('sem'); };
 })();

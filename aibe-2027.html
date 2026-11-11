@@ -76,7 +76,7 @@ footer p{margin:0 0 10px}footer a{margin:0 10px}.fine{opacity:.7;font-size:.88re
 @media(max-width:480px){.brand small{display:none}.clock{gap:8px}.quirk{padding:20px 18px}.wait{padding:22px 20px}.big b{-webkit-text-stroke:3px var(--ink);text-shadow:5px 5px 0 var(--ink)}}
 @media(prefers-reduced-motion:reduce){.shape{animation:none}html{scroll-behavior:auto}.btn{transition:none}}
 </style>
-</head>
+<link rel="stylesheet" href="/disclaimer.css"></head>
 <body>
 <div class="shapes" aria-hidden="true"><i class="shape s1"></i><i class="shape s2"></i><i class="shape s3"></i><i class="shape s4"></i></div>
 <div class="wrap">
@@ -129,5 +129,5 @@ d.textContent=Math.floor(s/86400);h.textContent=p(Math.floor(s%86400/3600));m.te
 if(s===0)cap.textContent='2027 is here. Hang tight, the final touches are going on.'}
 tick();setInterval(tick,1000)})();
 </script>
-</body>
+<script src="/disclaimer.js" defer></script></body>
 </html>
