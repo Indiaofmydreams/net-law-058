@@ -22,7 +22,7 @@
   if (window.__nlvm) return; window.__nlvm = 1;
 
   var DEFAULTS = {
-    provider: 'counterapi',                           // 'counterapi' or 'abacus' (free, no sign-up)
+    provider: 'abacus',                               // 'abacus' (free, no sign-up). 'counterapi' was retired on 7 Aug 2026 and now maps to abacus
     namespace: 'netlawverse-in',                      // your private bucket name; keep it unusual
     totalKey: 'visits',
     hosts: ['netlawverse.in', 'www.netlawverse.in'],  // only these hosts add to the count
@@ -77,7 +77,9 @@
       get: function (k) { return 'https://abacus.jasoncameron.dev/get/' + enc(C.namespace) + '/' + enc(k); }
     }
   };
-  var P = PROVIDERS[C.provider] || PROVIDERS.counterapi;
+  /* CounterAPI v1 (the old default) was shut down on 7 Aug 2026 and v2 needs a secret key, which cannot live in a public page.
+     Anyone still configured for it is quietly moved to Abacus, which needs no key. */
+  var P = C.provider === 'counterapi' ? PROVIDERS.abacus : (PROVIDERS[C.provider] || PROVIDERS.abacus);
 
   function pickNumber(j) {
     if (!j) return NaN;
