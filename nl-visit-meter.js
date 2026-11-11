@@ -40,8 +40,25 @@
   var user = window.NL_VISIT_CONFIG || {}, C = {};
   for (var k in DEFAULTS) C[k] = user[k] !== undefined ? user[k] : DEFAULTS[k];
 
+  /* Diagnostics: open any page with ?nlvm=1 added to the address to see a small status badge explaining what the meter is doing. */
+  var DBG = /[?&]nlvm=1(&|#|$)/.test(location.search), dbgEl = null;
+  function dbg(msg) {
+    if (!DBG || !document.body) return;
+    if (!dbgEl) {
+      dbgEl = document.createElement('div');
+      dbgEl.style.cssText = 'position:fixed;left:8px;bottom:8px;z-index:99999;max-width:min(92vw,420px);padding:8px 12px;border-radius:10px;' +
+        'background:#1A1B3F;color:#fff;font:600 12px/1.4 system-ui,Arial,sans-serif;box-shadow:0 8px 24px rgba(0,0,0,.35);white-space:pre-line';
+      document.body.appendChild(dbgEl);
+    }
+    dbgEl.textContent = 'Visit meter\n' + msg;
+  }
+  function fail(why) { try { console.warn('[nlvm] meter not shown: ' + why); } catch (e) {} dbg('NOT SHOWN: ' + why); }
+
   var ua = navigator.userAgent || '';
-  if (navigator.webdriver || /bot|crawl|spider|slurp|headless|lighthouse|preview|facebookexternalhit/i.test(ua)) return;
+  if (navigator.webdriver || /bot|crawl|spider|slurp|headless|lighthouse|preview|facebookexternalhit/i.test(ua)) {
+    if (DBG) document.addEventListener('DOMContentLoaded', function () { dbg('NOT SHOWN: this browser looks automated or a bot'); });
+    return;
+  }
 
   var isLive = C.hosts.indexOf(location.hostname) > -1;
   var reduce = !!(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches);
@@ -336,12 +353,16 @@
   }
 
   function start() {
+    dbg('script loaded\nhost: ' + location.hostname + (isLive ? ' (counts visits)' : ' (NOT a counting host: reads only)') + '\ncontacting counter service...');
     fetchAll(shouldHit).then(function (r) {
       if (shouldHit) {
         myNo = r[0] + (+C.baseline || 0); S.milestone = isMilestone(myNo);
         try { localStorage.setItem(ME, String(myNo)); } catch (e) {}
       }
       update(r[0], r[1]);
+      if (r[0] + (+C.baseline || 0) < C.minToShow) dbg('counter OK (total ' + r[0] + ') but hidden because minToShow is ' + C.minToShow);
+      else if (!card || !card.parentNode) dbg('counter OK (total ' + r[0] + ') but there is no place to show the card on this page\n(no <footer>, and no <div id="nl-visit-meter">' + (SPA ? ' on this app screen' : '') + ')');
+      else dbg('OK: total ' + r[0] + (isNaN(r[1]) ? '' : ', today ' + r[1]) + (shouldHit ? '\nthis visit was counted' : '\nreturning visit, not counted again') + '\nscroll to the bottom to see the card');
       if (C.showWeek && !isNaN(r[1])) fetchWeek().then(function (w) { S.week = w; if (S.built) paintBars(); }).catch(function () {});
       var n = 0, timer = setInterval(function () {
         if (++n > C.maxRefreshes) { clearInterval(timer); return; }
@@ -349,7 +370,7 @@
         dayKey = dayKeyFor(0);
         fetchAll(false).then(function (x) { update(x[0], x[1]); }).catch(function () {});
       }, Math.max(15, C.refreshSeconds) * 1000);
-    }).catch(function () { /* counter unreachable: stay invisible */ });
+    }).catch(function (e) { fail('could not reach the counter service (' + (e && e.message ? e.message : 'blocked or offline') + '). An ad blocker, privacy extension, network filter or the service itself may be blocking it.'); });
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start);

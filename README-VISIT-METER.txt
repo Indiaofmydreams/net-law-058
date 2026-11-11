@@ -33,6 +33,35 @@ OPTION B: by hand (GitHub website, no tools needed)
      (only add <div id="nl-visit-meter"></div> before the final backtick, change nothing else) and Commit.
 
 
+CAN'T SEE THE METER? (new in this version: it can now tell you why)
+  1. Replace nl-visit-meter.js on your site with the one in this pack (it is the only file that changed).
+  2. Open the page with ?nlvm=1 added. A small dark badge appears at the bottom-left and says what is happening:
+       Desktop:  https://netlawverse.in/net.html?nlvm=1
+       Phone:    https://netlawverse.in/app.html?nlvm=1#/exams
+     (On a phone, the home address redirects to the app and drops the ?nlvm=1, so use the app address above.)
+     Visitors never see this badge. They only see it if the address contains ?nlvm=1.
+  3. What the badge can say, and what to do:
+       "NOT SHOWN: could not reach the counter service"
+            The browser could not talk to the free counter. Try a private window with extensions off. Ad blockers and
+            privacy shields (uBlock, Brave Shields, some school or office networks) often block counter services.
+            If it works with extensions off, visitors with blockers will not see the meter; that is normal.
+            To try the second free service, add before the script tag:
+              <script>window.NL_VISIT_CONFIG = { provider: 'abacus' };</script>
+       "no place to show the card on this page"
+            The page has no <footer> and no <div id="nl-visit-meter">. On the phone app, open the home or All exams
+            screen and check the m-app.js "stay" line has <div id="nl-visit-meter"></div> at its end (step 3 above).
+       "hidden because minToShow is ..."
+            You set a minimum total; it appears once the total reaches it.
+       "this browser looks automated or a bot"
+            Some testing tools and previews are skipped on purpose. Try a normal browser.
+       "OK: total ..."
+            The meter is working. Scroll to the very bottom: below the footer note on the home page, below the
+            copyright line on net.html, and in "Stay connected" on the phone app. The card fades in once it is on screen.
+  4. Not even the badge appears? The script is not loading. Open https://netlawverse.in/nl-visit-meter.js in a browser:
+     you should see code. A "404" means the file is not in the site's root folder or is not published yet.
+     Also open the page's source and search for "nl-visit-meter" to confirm the script line is there.
+  5. Changes can take 1 to 3 minutes to publish, and your browser may keep the old page. Hard refresh (Ctrl+Shift+R).
+
 AFTER UPLOADING
   - Wait 1 to 3 minutes for GitHub Pages / Cloudflare to publish, then hard refresh (Ctrl+Shift+R, or reopen the app).
   - Open https://api.counterapi.dev/v1/netlawverse-in/visits once in your browser. A small block with a "count"
