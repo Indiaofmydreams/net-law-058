@@ -1,6 +1,6 @@
 /* nl-welcome-promo.js: a big "Welcome" box that appears the moment the disclaimer is closed.
    - Shows the highlights of NET Law-Verse and invites the visitor to follow on Instagram and to sign up for study updates.
-   - Stays for 10 seconds with a visible countdown ring, and can be closed at any time (button, backdrop click or Esc).
+   - Stays for 25 seconds with a visible countdown ring, and can be closed at any time (button, backdrop click or Esc).
    - "Get study updates" closes this box and opens the existing study-updates form (nl-lead-float.js). Nothing is duplicated.
    - Shown once per visit (sessionStorage), same rhythm as the disclaimer. A new visit / fresh launch shows it again.
    - Does not touch disclaimer.js, disclaimer.css, nl-follow-float.js or nl-lead-float.js. It only watches the disclaimer
@@ -10,7 +10,7 @@
   try { if (top !== self) return; } catch (e) { return; }
   if (/bot|crawl|spider|slurp|lighthouse|inspectiontool|google-read-aloud|mediapartners/i.test(navigator.userAgent)) return;
 
-  var URL = 'https://www.instagram.com/netlawverse/', QR = '/instagram-qr.png', KEY = 'nlw-seen', SECS = 10;
+  var URL = 'https://www.instagram.com/netlawverse/', QR = '/instagram-qr.png', KEY = 'nlw-seen', SECS = 25;
   try { if (sessionStorage.getItem(KEY)) return; } catch (e) {}
 
   var css =
@@ -53,15 +53,17 @@
     '.nlw-follow{display:inline-flex;align-items:center;justify-content:center;gap:8px;width:100%;text-decoration:none;font-weight:800;font-size:.95rem;color:#fff;background:linear-gradient(135deg,#ff2f7e,#a22bd6 60%,#7a35e8);border:3px solid #14183a;border-radius:14px;padding:10px 14px;box-shadow:3px 3px 0 #14183a;transition:transform .15s,box-shadow .15s}' +
     '.nlw-follow:hover{transform:translate(-1px,-1px);box-shadow:4px 4px 0 #14183a}' +
     '.nlw-follow svg{width:18px;height:18px}' +
-    '.nlw-up{display:flex;align-items:center;justify-content:center;gap:9px;width:100%;font:inherit;font-weight:800;font-size:.95rem;color:#fff;background:#14183a;border:3px solid #14183a;border-radius:14px;padding:11px 14px;cursor:pointer;box-shadow:3px 3px 0 #2ec4b6;transition:transform .15s,box-shadow .15s}' +
-    '.nlw-up:hover{transform:translate(-1px,-1px);box-shadow:5px 5px 0 #2ec4b6}' +
-    '.nlw-up svg{width:18px;height:18px}' +
-    '.nlw-up small{display:block;font-size:.7rem;font-weight:700;opacity:.75}' +
+    '.nlw-up{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;font:inherit;font-weight:800;font-size:1.08rem;color:#14183a;background:#ffd23f;border:3px solid #14183a;border-radius:16px;padding:14px 14px;cursor:pointer;box-shadow:5px 5px 0 #ff5d8f;transition:transform .15s,box-shadow .15s,background .15s;animation:nlwpulse 2.2s ease-in-out infinite}' +
+    '.nlw-up:hover{background:#ffe066;transform:translate(-1px,-1px);box-shadow:7px 7px 0 #ff5d8f;animation:none}' +
+    '.nlw-up:active{transform:translate(3px,3px);box-shadow:2px 2px 0 #ff5d8f}' +
+    '@keyframes nlwpulse{0%,100%{transform:none}50%{transform:translateY(-3px)}}' +
+    '.nlw-up svg{width:22px;height:22px}' +
+    '.nlw-up small{display:block;font-size:.74rem;font-weight:700;opacity:.8}' +
     '.nlw-up[hidden]{display:none}' +
     '.nlw-note{margin:0;text-align:center;font-size:.72rem;font-weight:700;opacity:.65}' +
     '@media (hover:none),(max-width:700px){.nlw-qr{display:none}}' +
     '@media (max-width:700px){.nlw-body{grid-template-columns:1fr;gap:16px;padding:18px 16px}.nlw-tm span{display:none}.nlw-brand small{display:none}.nlw{border-radius:22px;box-shadow:5px 5px 0 #ff5d8f}}' +
-    '@media (prefers-reduced-motion:reduce){.nlw-back,.nlw{transition:none}}' +
+    '@media (prefers-reduced-motion:reduce){.nlw-back,.nlw{transition:none}.nlw-up{animation:none}}' +
     '@media print{.nlw-back{display:none}}';
 
   var st = document.createElement('style'); st.textContent = css; document.head.appendChild(st);
