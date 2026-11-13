@@ -119,7 +119,7 @@ var DROPC = { 'dx-back': 1, 'dx-kick': 1, 'dx-q': 1, cta: 1, crumbs: 1, 'sx-back
 var KEEPC = { note: 1, tbl: 1, stat: 1, aff: 1, tile: 1, tiles: 1, good: 1, 'q-why': 1, 'dx-c': 1, 'dx-t': 1, 'dx-call': 1, 'dx-sub': 1, 'dx-case': 1, 'dx-traps': 1, 'dx-plan': 1, 'dx-grid': 1, 'dx-note': 1 };
 var PAGEMAP = {
   '': '#/clat', 'index.html': '#/clat', 'nlus.html': '#/clat/read/nlus', 'cutoffs.html': '#/clat/read/cutoffs', 'psu-jobs.html': '#/clat/read/psu-jobs', 'faq.html': '#/clat/read/faq',
-  'what-clat-pg-really-tests.html': '#/clat/read/traps', 'clat-pg-syllabus.html': '#/clat/syllabus', 'sample-paper-20-questions.html': '#/clat/sample', 'landmark-cases.html': '#/clat/cases',
+  'what-clat-pg-really-tests.html': '#/clat/read/traps', 'clat-pg-syllabus.html': '#/clat/syllabus', 'sample-paper-20-questions.html': '#/clat/sample', 'practice.html': '#/clat/practice', 'landmark-cases.html': '#/clat/cases',
   'prep-6-months.html': '#/clat/read/prep-6-months', 'prep-3-months.html': '#/clat/read/prep-3-months', 'prep-4-weeks.html': '#/clat/read/prep-4-weeks', 'prep-2-weeks.html': '#/clat/read/prep-2-weeks'
 };
 function linkFor(href) {
@@ -248,10 +248,11 @@ function hub() {
     top: '<div class="tb"><a class="ib" href="#/" aria-label="Home">' + I.home + '</a><h1>CLAT PG<small>LL.M. entrance, free</small></h1><a class="ib" href="#/clat/cases" aria-label="Search cases">' + I.search + '</a></div>',
     body: '<div class="cx-hero"><small class="k">CLAT PG 2027</small><h2>Crack the LL.M. entrance, one clear step at a time.</h2><p>Free guides, a 20-question sample paper and 705 landmark cases. No sign-up.</p>' + heroDays +
       '<div class="cx-facts"><div><b>120</b><small>questions</small></div><div><b>120</b><small>minutes</small></div><div><b>&minus;0.25</b><small>per wrong</small></div><div><b>26</b><small>NLUs</small></div></div></div>' +
-      '<h2 class="h2">Your progress</h2><div class="cx-prog"><a href="#/clat/syllabus"><b>' + done + '<span style="font-size:.9rem;color:var(--mut)"> / 14</span></b><small>subjects covered</small><div class="cx-meter"><i style="width:' + Math.round(done / 14 * 100) + '%"></i></div></a>' +
+      pracCard() + '<h2 class="h2" style="margin-top:18px">Your progress</h2><div class="cx-prog"><a href="#/clat/syllabus"><b>' + done + '<span style="font-size:.9rem;color:var(--mut)"> / 14</span></b><small>subjects covered</small><div class="cx-meter"><i style="width:' + Math.round(done / 14 * 100) + '%"></i></div></a>' +
       '<a href="#/clat/sample"><b>' + (answered ? answered + '<span style="font-size:.9rem;color:var(--mut)"> / 20</span>' : '&ndash;') + '</b><small>' + (answered ? 'sample questions done' : 'Try the sample paper') + '</small><div class="cx-meter"><i style="width:' + Math.round(answered / 20 * 100) + '%"></i></div></a></div>' +
       '<h2 class="h2">Pick your pathway</h2>' + pathCards() +
       '<h2 class="h2">Explore</h2><div class="cx-tiles">' +
+      tile('#/clat/practice', 'target', 'Practice Arena', '150 questions with traps explained', 'var(--c3-deep)') +
       tile('#/clat/syllabus', 'book', 'Syllabus', '14 subjects in priority order, with a tracker', 'var(--c3-deep)') +
       tile('#/clat/read/traps', 'target', '12 traps', 'What the paper really tests', 'var(--c2-deep)') +
       tile('#/clat/sample', 'test', 'Sample paper', '20 questions, every trap explained', 'var(--c3-deep)') +
@@ -271,13 +272,13 @@ A.cmocks = function () { go('/clat/mocks'); };
 /* ---------- full-length mock tests: list + runner. The runner is the website's own CLAT mock engine shown inside the app
    (clat-pg/mock-test-N.html?embed=1), so timer, negative marking, resume and results behave exactly as on the website. ---------- */
 function mocks() {
-  var bar = cbar('Practice', 'Sample paper and full mocks', 'chub');
+  var bar = cbar('Practice', 'Practice Arena, sample paper and mocks', 'chub');
   cscreen({ top: bar, body: spinner() }, 'prac');
   N.clatMeta().then(function (D) {
     if (!here('#/clat/mocks')) return;
     var smp = sampleSaved(), sn = Object.keys(smp.a || {}).length;
     cscreen({ top: bar, body:
-      '<a class="card cont" href="#/clat/sample">' + ico('file', 'var(--c2-deep)') + '<div class="ti"><h3>Sample paper</h3><p>20 questions with every trap explained' + (sn ? ' · ' + sn + '/20 done' : '') + '</p></div>' + I.chevR + '</a>' +
+      pracCard() + '<a class="card cont" href="#/clat/sample">' + ico('file', 'var(--c2-deep)') + '<div class="ti"><h3>Sample paper</h3><p>20 questions with every trap explained' + (sn ? ' · ' + sn + '/20 done' : '') + '</p></div>' + I.chevR + '</a>' +
       '<h2 class="h2">Full-length mock tests</h2><div class="rows two">' + D.map(N.clatRow).join('') + '</div>' +
       '<p class="muted" style="font-size:.75rem;text-align:center;margin:14px 6px 0">120 passage-based questions in 120 minutes. 1 mark for each correct answer, 0.25 deducted for each wrong answer. Your answers and results stay on this device. Always verify the pattern on consortiumofnlus.ac.in. Not affiliated with the Consortium of NLUs.</p>' }, 'prac');
   }).catch(function () { if (here('#/clat/mocks')) cscreen({ top: bar, body: failBody() }, 'prac'); });
@@ -289,6 +290,22 @@ function mockRun(n) {
     body: '<iframe class="cmf" title="CLAT PG Mock Test ' + n + '" src="clat-pg/mock-test-' + n + '.html?embed=1" allow="clipboard-write; web-share"></iframe>' }, 'prac', { nonav: true });
 }
 
+/* ---------- Practice Arena: the website's practice page shown inside the app (clat-pg/practice.html?embed=1) ---------- */
+function pracSaved() {
+  var r = { done: 0, bad: 0, bm: 0 };
+  try { var d = JSON.parse(localStorage.getItem('clatpg-practice-v1') || '{}'); Object.keys(d.sets || {}).forEach(function (k) { var t = d.sets[k]; Object.keys(t.q || {}).forEach(function (n) { var q = t.q[n]; if (q && q.r) { r.done++; if (q.s && !q.c) r.bad++; } }); r.bm += Object.keys(t.bm || {}).length; }); } catch (e) {}
+  return r;
+}
+function pracCard() {
+  var p = pracSaved(), sub = p.done ? p.done + ' of 150 done' + (p.bad ? ' · ' + p.bad + ' to review' : '') : '150 questions · trap and language trick explained';
+  return '<a class="card cont" href="#/clat/practice" style="margin-top:14px">' + ico('target', 'var(--c2-deep)') + '<div class="ti"><h3>Practice Arena <span style="font-size:.6rem;font-weight:800;padding:2px 7px;border-radius:99px;background:var(--ac);color:#fff;vertical-align:middle">NEW</span></h3><p>' + sub + '</p></div>' + I.chevR + '</a>';
+}
+function practice() {
+  cscreen({ top: tbar('Practice Arena', { sub: '150 trap-explained questions', la: 'chub', right: '<a class="ib" href="#/" aria-label="Home">' + I.home + '</a>' }),
+    flush: true, exam: true, cls: 'cmv',
+    body: '<iframe class="cmf" title="CLAT PG Practice Arena" src="clat-pg/practice.html?embed=1" allow="clipboard-write; web-share"></iframe>' }, 'prac', { nonav: true });
+}
+
 /* ---------- Prepare tab ---------- */
 function prep() {
   cscreen({
@@ -297,6 +314,7 @@ function prep() {
       '<h2 class="h2">Know the paper</h2><div class="rows">' +
       '<a class="row" href="#/clat/read/traps">' + ico('target', 'var(--c2-deep)') + '<div class="ti"><h3>What CLAT PG really tests</h3><p>12 traps hidden in the paper and how to spot them</p></div>' + I.chevR + '</a>' +
       '<a class="row" href="#/clat/syllabus">' + ico('book', 'var(--c3-deep)') + '<div class="ti"><h3>Syllabus tracker</h3><p>' + sylDone() + ' of 14 subjects covered</p></div>' + I.chevR + '</a>' +
+      '<a class="row" href="#/clat/practice">' + ico('target', 'var(--c3-deep)') + '<div class="ti"><h3>Practice Arena</h3><p>150 questions, bookmarks, mistakes notebook</p></div>' + I.chevR + '</a>' +
       '<a class="row" href="#/clat/sample">' + ico('test', 'var(--c2-deep)') + '<div class="ti"><h3>Sample paper</h3><p>20 passage-based questions</p></div>' + I.chevR + '</a>' +
       '<a class="row" href="#/clat/mocks">' + ico('test', 'var(--c3-deep)') + '<div class="ti"><h3>Mock tests</h3><p>6 full papers, 120 minutes each</p></div>' + I.chevR + '</a>' +
       '<a class="row" href="#/clat/cases">' + ico('scale', 'var(--c3-deep)') + '<div class="ti"><h3>Case Law Vault</h3><p>705 landmark cases</p></div>' + I.chevR + '</a></div>'
@@ -560,6 +578,7 @@ R.clat = function (p) {
     case 'syllabus': return syllabus();
     case 'sample': return sample(p.slice(1));
     case 'mocks': return mocks();
+    case 'practice': return practice();
     case 'mock': return mockRun(p[1]);
     case 'cases': return cases();
     default: return hub();

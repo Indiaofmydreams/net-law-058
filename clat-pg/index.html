@@ -48,7 +48,7 @@ h1 span{display:inline-block;background:#fff;border:3px solid var(--ink);border-
 .view{overflow:hidden;border:3px solid var(--ink);border-radius:30px;box-shadow:8px 8px 0 var(--ink);background:var(--ink)}
 .track{display:flex;transition:transform .5s ease}
 .slide{flex:0 0 100%;display:grid;grid-template-columns:1.1fr 1fr;gap:28px;align-items:center;padding:42px 44px;min-height:360px}
-.sl-a{background:var(--blue);color:#fff}.sl-b{background:var(--pink)}.sl-c{background:var(--mint)}.sl-d{background:var(--sun)}.sl-e{background:var(--ink);color:#fff}
+.sl-a{background:var(--blue);color:#fff}.sl-b{background:var(--pink)}.sl-c{background:var(--mint)}.sl-d{background:var(--sun)}.sl-e{background:var(--ink);color:#fff}.sl-f{background:#7b5cff;color:#fff}
 .slide h2{margin:0 0 12px;font-size:clamp(1.7rem,3.6vw,2.7rem);font-weight:800;letter-spacing:-.03em;line-height:1.08}
 .slide p{margin:0 0 20px;font-size:1.08rem;line-height:1.55;font-weight:700;max-width:46ch}
 .btn{display:inline-block;padding:12px 20px;border-radius:14px;border:3px solid var(--ink);background:#fff;color:var(--ink);font-weight:800;text-decoration:none;box-shadow:4px 4px 0 var(--ink);transition:transform .12s,box-shadow .12s}
@@ -145,6 +145,7 @@ footer p{margin:0 0 10px}footer a{margin:0 10px}.fine{opacity:.7;font-size:.88re
 @media(max-width:600px){.tz{padding:24px 20px;border-radius:24px}}
 @media(max-width:480px){#numbers .tiles.t3{grid-template-columns:repeat(2,1fr)}}
 
+.tz6{background:#3b2a9c;box-shadow:9px 9px 0 #ffd23f}.tz6:hover{box-shadow:5px 5px 0 #ffd23f}.tz6 .tz-kick{background:#ffd23f;color:#14183a}.tz6 .tz-h em{color:#ffd23f}.tz6 .tz-btn{box-shadow:4px 4px 0 #ffd23f}
 .tz4{background:#7a1f4f;box-shadow:9px 9px 0 #ff9eb5}
 .tz4:hover{box-shadow:5px 5px 0 #ff9eb5}
 .tz4 .tz-kick{background:#ff9eb5;color:#14183a}
@@ -190,7 +191,7 @@ footer p{margin:0 0 10px}footer a{margin:0 10px}.fine{opacity:.7;font-size:.88re
 <div class="wrap">
 <header>
   <a class="brand" href="/" aria-label="NET Law-Verse home"><span class="logo">NL</span><span><b>NET Law-Verse</b><small>The universe of law</small></span></a>
-  <nav aria-label="Main"><a href="/">All exams</a><a href="mock-tests.html">Mock tests</a><a href="faq.html">FAQ</a><a href="/net.html#law">UGC NET Law</a></nav>
+  <nav aria-label="Main"><a href="/">All exams</a><a href="practice.html">Practice</a><a href="mock-tests.html">Mock tests</a><a href="faq.html">FAQ</a><a href="/net.html#law">UGC NET Law</a></nav>
 </header>
 <main>
 <section class="intro">
@@ -202,33 +203,49 @@ footer p{margin:0 0 10px}footer a{margin:0 10px}.fine{opacity:.7;font-size:.88re
 <section class="car" aria-roledescription="carousel" aria-label="CLAT PG highlights">
   <div class="view"><div class="track" id="track">
 
-    <article class="slide sl-a" aria-roledescription="slide" aria-label="1 of 5">
+    <article class="slide sl-a" aria-roledescription="slide" aria-label="1 of 6">
       <div><h2>Your countdown has started.</h2><p>CLAT PG 2027 is on Sunday, 6 December 2026. Every focused day from now counts.</p><a class="btn" href="#subjects">See what to study</a></div>
       <div><div class="tiles" role="timer"><div class="tile"><b id="d">--</b><small>days</small></div><div class="tile"><b id="h">--</b><small>hours</small></div><div class="tile"><b id="m">--</b><small>minutes</small></div><div class="tile"><b id="s">--</b><small>seconds</small></div></div><p class="note" id="when">Exam at 2:00 PM IST</p></div>
     </article>
 
-    <article class="slide sl-b" aria-roledescription="slide" aria-label="2 of 5">
+    <article class="slide sl-f" aria-roledescription="slide" aria-label="2 of 6">
+      <div><h2>150 trap-explained questions. Free.</h2><p>Practice like the paper: passages, six questions each, negative marking. Every answer shows the trap, the language trick and why each wrong option fails.</p><a class="btn" href="practice.html">Open the Practice Arena</a></div>
+      <div><div class="tiles t3"><div class="tile"><b>150</b><small>questions</small></div><div class="tile"><b>25</b><small>passages</small></div><div class="tile"><b>16</b><small>subjects</small></div></div><p class="note">Bookmarks, a mistakes notebook and progress tracking built in.</p></div>
+    </article>
+
+    <article class="slide sl-b" aria-roledescription="slide" aria-label="3 of 6">
       <div><h2>One paper. Clear rules.</h2><p>No sections to juggle. You get one paper, one sitting and a fixed number of questions, so you can plan your pace.</p><a class="btn" href="#subjects">Plan your pace</a></div>
       <div><div class="tiles t3"><div class="tile"><b>120</b><small>questions</small></div><div class="tile"><b>120</b><small>minutes</small></div><div class="tile"><b>120</b><small>marks</small></div></div><p class="note">Multiple choice, pen and paper, 2:00 to 4:00 PM.</p></div>
     </article>
 
-    <article class="slide sl-c" aria-roledescription="slide" aria-label="3 of 5">
+    <article class="slide sl-c" aria-roledescription="slide" aria-label="4 of 6">
       <div><h2>Understanding beats memorising.</h2><p>Questions are built around passages. If you grasp a principle and can apply it, you can answer, whatever the case or statute.</p><a class="btn" href="what-clat-pg-really-tests.html">See what CLAT PG really tests</a></div>
       <div class="stack"><div class="card"><b>Read the passage</b><span>A short extract of law or a legal situation.</span></div><div class="card b2"><b>Apply the principle</b><span>Pick the answer the law supports.</span></div></div>
     </article>
 
-    <article class="slide sl-d" aria-roledescription="slide" aria-label="4 of 5">
+    <article class="slide sl-d" aria-roledescription="slide" aria-label="5 of 6">
       <div><h2>You may already be ahead.</h2><p>Many core subjects overlap with UGC NET Law. Our free notes and MCQs on them are open right now, so you can begin before the CLAT PG section is complete.</p><a class="btn" href="/net.html#law">Open the law notes</a></div>
       <ul class="chips"><li>Constitutional law</li><li>Jurisprudence</li><li>Contract</li><li>Torts</li><li>Criminal law</li><li>IPR</li><li>Family law</li><li>International law</li></ul>
     </article>
 
-    <article class="slide sl-e" aria-roledescription="slide" aria-label="5 of 5">
+    <article class="slide sl-e" aria-roledescription="slide" aria-label="6 of 6">
       <div><h2>Built free, built for you.</h2><p>This section is growing. Follow along and you will know the moment each part goes live.</p><a class="btn" href="https://www.instagram.com/netlawverse/" rel="noopener">Follow on Instagram</a></div>
-      <div class="stack"><div class="card"><span class="ok">Available now</span><br><span>Free CLAT PG mock tests, the Case Law Vault, a syllabus tracker and UGC NET Law notes on shared subjects</span></div><div class="card b2"><span class="soon">On the way</span><br><span>CLAT PG notes, topic-wise practice questions and previous-year papers</span></div></div>
+      <div class="stack"><div class="card"><span class="ok">Available now</span><br><span>150 practice questions with trap explanations, free CLAT PG mock tests, the Case Law Vault, a syllabus tracker and UGC NET Law notes on shared subjects</span></div><div class="card b2"><span class="soon">On the way</span><br><span>CLAT PG notes, more practice sets and previous-year papers</span></div></div>
     </article>
 
   </div></div>
   <div class="ctrl"><button class="arrow" id="prev" aria-label="Previous slide">&#8592;</button><div class="dots" id="dots"></div><button class="arrow" id="next" aria-label="Next slide">&#8594;</button></div>
+</section>
+
+
+<section class="sec tz-gap" id="practice">
+  <a class="tz tz6" href="practice.html">
+    <span class="tz-kick">NEW &middot; Practice Arena &middot; free</span>
+    <h2 class="tz-h">150 CLAT PG questions that <em>teach you the trap, not just the answer.</em></h2>
+    <span class="tz-p">Original passage-based questions from moderate to extreme on the themes the paper keeps returning to. Tap an option, show the answer, and see how the question was built, the language trick, and why every wrong option fails.</span>
+    <ul class="tz-chips" aria-hidden="true"><li>150 questions</li><li>25 passages</li><li>Trap + language trick explained</li><li>Bookmarks</li><li>Mistakes notebook</li><li>Progress tracker</li></ul>
+    <i class="tz-btn">Start practising &#8594;</i>
+  </a>
 </section>
 
 <section class="sec" id="inside">
@@ -236,7 +253,7 @@ footer p{margin:0 0 10px}footer a{margin:0 10px}.fine{opacity:.7;font-size:.88re
   <p>No sign-up, no paywall. Practise like the real paper, revise the cases that keep coming up, and follow a plan that fits the days you have.</p>
   <div class="in-stats">
     <div class="tile"><b>705</b><small>landmark cases in the Case Law Vault</small></div>
-    <div class="tile"><b>6</b><small>full-length mock papers</small></div>
+    <div class="tile"><b>150</b><small>trap-explained practice questions</small></div>
     <div class="tile"><b>14</b><small>subjects covered</small></div>
     <div class="tile"><b>4</b><small>study plans, 6 months to 2 weeks</small></div>
   </div>
@@ -266,6 +283,7 @@ footer p{margin:0 0 10px}footer a{margin:0 10px}.fine{opacity:.7;font-size:.88re
   </div>
 
   <div class="more4">
+    <a href="practice.html"><em>150 questions</em><b>Practice Arena</b><span>Trap-explained practice with bookmarks, a mistakes notebook and progress tracking.</span></a>
     <a href="mock-tests.html"><em>6 mocks</em><b>Full-length mock tests</b><span>120 questions, 120 minutes, a green-to-red time meter and a personalised assessment.</span></a>
     <a href="sample-paper-20-questions.html"><em>20 questions</em><b>Sample paper</b><span>Moderate to toughest, with every trap explained after each answer.</span></a>
     <a href="clat-pg-syllabus.html"><em>14 subjects</em><b>Syllabus tracker</b><span>Three priority tiers and an expert plan, so you know what to read first.</span></a>
@@ -352,6 +370,7 @@ footer p{margin:0 0 10px}footer a{margin:0 10px}.fine{opacity:.7;font-size:.88re
   <h3>Explore CLAT PG</h3>
   <p>Free guides to the exam, the universities and the careers that follow.</p>
   <div class="hub">
+    <a class="hubc" href="practice.html"><b>Practice Arena</b><span>150 trap-explained questions, bookmarks and a mistakes notebook.</span><i>Start practising</i></a>
     <a class="hubc" href="mock-tests.html"><b>Mock tests</b><span>6 full papers: 120 questions, 120 minutes, with a time meter and assessment.</span><i>Take a mock</i></a>
     <a class="hubc" href="landmark-cases.html"><b>Case Law Vault</b><span>705 landmark cases with facts, issue, held and principle.</span><i>Open the vault</i></a>
     <a class="hubc" href="faq.html"><b>FAQ</b><span>Dates, eligibility, fees, pattern and counselling, answered.</span><i>Read the FAQ</i></a>
@@ -369,7 +388,7 @@ footer p{margin:0 0 10px}footer a{margin:0 10px}.fine{opacity:.7;font-size:.88re
 
 <section class="cta">
   <div><h3>Start today, not tomorrow.</h3><p>Take a mock, revise the landmark cases and follow a plan that fits your days. All free.</p></div>
-  <div><a class="btn" href="mock-tests.html">Take a mock</a><a class="btn" href="landmark-cases.html">Case Law Vault</a><a class="btn" href="/net.html#law">Law notes</a></div>
+  <div><a class="btn" href="practice.html">Practice questions</a><a class="btn" href="mock-tests.html">Take a mock</a><a class="btn" href="landmark-cases.html">Case Law Vault</a><a class="btn" href="/net.html#law">Law notes</a></div>
 </section>
 </main>
 <footer>
