@@ -32,12 +32,12 @@ function flatten(id, raw, meta) {
   raw.passages.forEach(function (p, pi) {
     var pp = { i: pi, id: p.passage_id, subject: p.subject_area, title: p.title, text: p.passage, wc: p.word_count, qs: [] };
     p.questions.forEach(function (q, k) {
-      var o = { no: q.q_no, pi: pi, k: k, subject: p.subject_area, q: q.question, opts: q.options, ans: q.correct_option, exp: q.explanation, why: q.why_other_options_are_wrong, trap: q.clat_trap, lang: q.language_trick, diff: q.difficulty };
+      var o = { no: q.q_no, pi: pi, k: k, subject: p.subject_area, sg: String(p.subject_area).replace(/\s*\([^)]*\)\s*/g, ' ').replace(/\s+/g, ' ').trim(), q: q.question, opts: q.options, ans: q.correct_option, exp: q.explanation, why: q.why_other_options_are_wrong, trap: q.clat_trap, lang: q.language_trick, diff: q.difficulty };
       qs.push(o); byNo[o.no] = o; pp.qs.push(o);
     });
     pas.push(pp);
   });
-  var subs = {}; qs.forEach(function (q) { subs[q.subject] = (subs[q.subject] || 0) + 1; });
+  var subs = {}; qs.forEach(function (q) { subs[q.sg] = (subs[q.sg] || 0) + 1; });
   var mix = {}; qs.forEach(function (q) { mix[q.diff] = (mix[q.diff] || 0) + 1; });
   return { id: id, title: raw.set_title || meta.title, meta: meta, pat: raw.pattern || {}, passages: pas, qs: qs, byNo: byNo, subjects: Object.keys(subs).sort(), mix: mix };
 }
@@ -98,7 +98,7 @@ function pick(id, o) {
     if (o.scope === 'bad' && s !== 'bad') return false;
     if (o.scope === 'seen' && s !== 'seen') return false;
     if (o.scope === 'bm' && !SS(id).bm[q.no]) return false;
-    if (o.subject && q.subject !== o.subject) return false;
+    if (o.subject && q.sg !== o.subject) return false;
     if (o.diff && q.diff !== o.diff) return false;
     return true;
   });
@@ -122,7 +122,7 @@ function lastQ() {
 function home() {
   var A = allStats(), lq = lastQ(), total = Object.keys(DATA).reduce(function (a, id) { return a + DATA[id].qs.length; }, 0);
   var h = '<section class="pr-hero"><div><span class="pill">FREE · NO SIGN-UP · NEW</span><h1>CLAT PG <span>Practice Arena</span></h1></div>' +
-    '<p class="lead">' + total + ' original passage-based questions across two sets, moderate to extreme. Tap an option, show the answer, and see the trap the question was built on, the language trick, and why every wrong option fails.</p></section>';
+    '<p class="lead">' + total + ' original passage-based questions across three sets, moderate to extreme. Tap an option, show the answer, and see the trap the question was built on, the language trick, and why every wrong option fails.</p></section>';
   h += '<div class="pr-stats"><div class="pr-stat"><b>' + (A.ok + A.bad) + '<span style="font-size:.55em;opacity:.6">/' + total + '</span></b><small>attempted</small></div>' +
     '<div class="pr-stat"><b>' + (A.acc == null ? '–' : A.acc + '%') + '</b><small>accuracy</small></div>' +
     '<div class="pr-stat"><b>' + fmtp(A.marks) + '</b><small>marks (−0.25 per wrong)</small></div>' +
@@ -363,7 +363,7 @@ function reviewCard(id, q) {
 function review(kind) {
   var all = [], A = allStats();
   Object.keys(DATA).forEach(function (id) { DATA[id].qs.forEach(function (q) { var s = status(id, q.no), inc = kind === 'mistakes' ? s === 'bad' : !!SS(id).bm[q.no]; if (inc) all.push({ id: id, q: q, t: (QS(id, q.no) || {}).t || SS(id).bm[q.no] || 0 }); }); });
-  var subs = {}; all.forEach(function (x) { subs[x.q.subject] = 1; });
+  var subs = {}; all.forEach(function (x) { subs[x.q.sg] = 1; });
   var title = kind === 'mistakes' ? 'My mistakes' : 'Bookmarks';
   var h = '<section class="pr-hero"><div><h1>' + title + '</h1></div><p class="lead">' + (kind === 'mistakes' ? 'Every question you answered wrongly, with the passage, your answer, the right answer, the trap and the language trick. Re-read, then retry.' : 'Questions you starred, with their full explanations and your notes.') + '</p></section>' + tabs(kind);
   h += '<div class="pr-tools"><label class="pr-lab grow">Search<input class="pr-in" id="rf-t" type="search" placeholder="Search question text or subject" value="' + esc(RF.txt) + '"></label>' +
@@ -373,7 +373,7 @@ function review(kind) {
   h += '<div class="pr-row" style="margin-bottom:12px"><button class="pr-btn pri sm" data-act="rpractice">Practise these</button><button class="pr-btn sm" data-act="rexp">Expand all</button><button class="pr-btn sm" data-act="rcol">Collapse all</button><button class="pr-btn sm" data-act="rprint">Print / save as PDF</button></div><div id="rlist"></div>';
   ROOT.innerHTML = h;
   function draw() {
-    var f = all.filter(function (x) { return (!RF.set || x.id === RF.set) && (!RF.sub || x.q.subject === RF.sub) && (!RF.diff || x.q.diff === RF.diff) && (!RF.txt || (x.q.q + ' ' + x.q.subject + ' ' + DATA[x.id].passages[x.q.pi].title).toLowerCase().indexOf(RF.txt.toLowerCase()) > -1); });
+    var f = all.filter(function (x) { return (!RF.set || x.id === RF.set) && (!RF.sub || x.q.sg === RF.sub) && (!RF.diff || x.q.diff === RF.diff) && (!RF.txt || (x.q.q + ' ' + x.q.subject + ' ' + DATA[x.id].passages[x.q.pi].title).toLowerCase().indexOf(RF.txt.toLowerCase()) > -1); });
     f.sort(function (a, b) { return RF.sort === 'recent' ? b.t - a.t : (a.id === b.id ? a.q.no - b.q.no : a.id < b.id ? -1 : 1); });
     var out = !all.length ? '<div class="pr-empty"><b>' + (kind === 'mistakes' ? 'No mistakes yet' : 'Nothing bookmarked yet') + '</b>' + (kind === 'mistakes' ? 'Wrong answers collect here automatically once you check an answer. Good or bad, that is how you learn the traps.' : 'Tap the star while practising to save a question here.') + '<br><br><a class="pr-btn pri" href="#home">Start practising</a></div>'
       : !f.length ? '<div class="pr-empty"><b>No matches</b>Try clearing the filters.</div>'
@@ -421,7 +421,7 @@ function progress() {
   var A = allStats(), h = '<section class="pr-hero"><div><h1>Your <span>progress</span></h1></div><p class="lead">See which subjects and difficulty levels cost you marks, and where to spend your next hour.</p></section>' + tabs('progress');
   var bySub = {}, byDiff = {};
   Object.keys(DATA).forEach(function (id) { DATA[id].qs.forEach(function (q) {
-    var s = status(id, q.no); var a = bySub[q.subject] = bySub[q.subject] || { ok: 0, bad: 0 }, b = byDiff[q.diff] = byDiff[q.diff] || { ok: 0, bad: 0 };
+    var s = status(id, q.no); var a = bySub[q.sg] = bySub[q.sg] || { ok: 0, bad: 0 }, b = byDiff[q.diff] = byDiff[q.diff] || { ok: 0, bad: 0 };
     if (s === 'ok') { a.ok++; b.ok++; } else if (s === 'bad') { a.bad++; b.bad++; }
   }); });
   var subRows = Object.keys(bySub).sort().map(function (k) { var v = bySub[k], t = v.ok + v.bad; return { n: k, a: t ? Math.round(v.ok / t * 100) : null, k: v.ok + '/' + t, t: t }; });

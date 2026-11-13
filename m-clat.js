@@ -252,7 +252,7 @@ function hub() {
       '<a href="#/clat/sample"><b>' + (answered ? answered + '<span style="font-size:.9rem;color:var(--mut)"> / 20</span>' : '&ndash;') + '</b><small>' + (answered ? 'sample questions done' : 'Try the sample paper') + '</small><div class="cx-meter"><i style="width:' + Math.round(answered / 20 * 100) + '%"></i></div></a></div>' +
       '<h2 class="h2">Pick your pathway</h2>' + pathCards() +
       '<h2 class="h2">Explore</h2><div class="cx-tiles">' +
-      tile('#/clat/practice', 'target', 'Practice Arena', '300 questions with traps explained', 'var(--c3-deep)') +
+      tile('#/clat/practice', 'target', 'Practice Arena', '450 questions with traps explained', 'var(--c3-deep)') +
       tile('#/clat/syllabus', 'book', 'Syllabus', '14 subjects in priority order, with a tracker', 'var(--c3-deep)') +
       tile('#/clat/read/traps', 'target', '12 traps', 'What the paper really tests', 'var(--c2-deep)') +
       tile('#/clat/sample', 'test', 'Sample paper', '20 questions, every trap explained', 'var(--c3-deep)') +
@@ -297,11 +297,11 @@ function pracSaved() {
   return r;
 }
 function pracCard() {
-  var p = pracSaved(), sub = p.done ? p.done + ' of 300 done' + (p.bad ? ' · ' + p.bad + ' to review' : '') : '300 questions · trap and language trick explained';
+  var p = pracSaved(), sub = p.done ? p.done + ' of 450 done' + (p.bad ? ' · ' + p.bad + ' to review' : '') : '450 questions · trap and language trick explained';
   return '<a class="card cont" href="#/clat/practice" style="margin-top:14px">' + ico('target', 'var(--c2-deep)') + '<div class="ti"><h3>Practice Arena <span style="font-size:.6rem;font-weight:800;padding:2px 7px;border-radius:99px;background:var(--ac);color:#fff;vertical-align:middle">NEW</span></h3><p>' + sub + '</p></div>' + I.chevR + '</a>';
 }
 function practice() {
-  cscreen({ top: tbar('Practice Arena', { sub: '300 trap-explained questions', la: 'chub', right: '<a class="ib" href="#/" aria-label="Home">' + I.home + '</a>' }),
+  cscreen({ top: tbar('Practice Arena', { sub: '450 trap-explained questions', la: 'chub', right: '<a class="ib" href="#/" aria-label="Home">' + I.home + '</a>' }),
     flush: true, exam: true, cls: 'cmv',
     body: '<iframe class="cmf" title="CLAT PG Practice Arena" src="clat-pg/practice.html?embed=1" allow="clipboard-write; web-share"></iframe>' }, 'prac', { nonav: true });
 }
@@ -314,7 +314,7 @@ function prep() {
       '<h2 class="h2">Know the paper</h2><div class="rows">' +
       '<a class="row" href="#/clat/read/traps">' + ico('target', 'var(--c2-deep)') + '<div class="ti"><h3>What CLAT PG really tests</h3><p>12 traps hidden in the paper and how to spot them</p></div>' + I.chevR + '</a>' +
       '<a class="row" href="#/clat/syllabus">' + ico('book', 'var(--c3-deep)') + '<div class="ti"><h3>Syllabus tracker</h3><p>' + sylDone() + ' of 14 subjects covered</p></div>' + I.chevR + '</a>' +
-      '<a class="row" href="#/clat/practice">' + ico('target', 'var(--c3-deep)') + '<div class="ti"><h3>Practice Arena</h3><p>300 questions, bookmarks, mistakes notebook</p></div>' + I.chevR + '</a>' +
+      '<a class="row" href="#/clat/practice">' + ico('target', 'var(--c3-deep)') + '<div class="ti"><h3>Practice Arena</h3><p>450 questions, bookmarks, mistakes notebook</p></div>' + I.chevR + '</a>' +
       '<a class="row" href="#/clat/sample">' + ico('test', 'var(--c2-deep)') + '<div class="ti"><h3>Sample paper</h3><p>20 passage-based questions</p></div>' + I.chevR + '</a>' +
       '<a class="row" href="#/clat/mocks">' + ico('test', 'var(--c3-deep)') + '<div class="ti"><h3>Mock tests</h3><p>6 full papers, 120 minutes each</p></div>' + I.chevR + '</a>' +
       '<a class="row" href="#/clat/cases">' + ico('scale', 'var(--c3-deep)') + '<div class="ti"><h3>Case Law Vault</h3><p>705 landmark cases</p></div>' + I.chevR + '</a></div>'
