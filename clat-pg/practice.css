@@ -268,3 +268,4 @@ html.emb .pr-top{top:0}
 @media(max-width:760px){.pr-opt .tx{flex:1 1 calc(100% - 46px)}.pr-opt .mk{margin-top:2px}.pr-rv .roptions li{flex-wrap:wrap}.pr-rv .roptions li>span:nth-child(2){flex:1 1 calc(100% - 40px)}.pr-rv .roptions li .mk{margin-left:36px}}
 @media(max-width:760px){.pr-top .l{flex-wrap:nowrap}}
 @media(max-width:760px){.pr-top .pos{white-space:nowrap}}
+.pr-sets{display:grid;gap:26px}

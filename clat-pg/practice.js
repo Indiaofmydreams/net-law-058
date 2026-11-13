@@ -122,7 +122,7 @@ function lastQ() {
 function home() {
   var A = allStats(), lq = lastQ(), total = Object.keys(DATA).reduce(function (a, id) { return a + DATA[id].qs.length; }, 0);
   var h = '<section class="pr-hero"><div><span class="pill">FREE · NO SIGN-UP · NEW</span><h1>CLAT PG <span>Practice Arena</span></h1></div>' +
-    '<p class="lead">' + total + ' original passage-based questions, moderate to extreme. Tap an option, show the answer, and see the trap the question was built on, the language trick, and why every wrong option fails.</p></section>';
+    '<p class="lead">' + total + ' original passage-based questions across two sets, moderate to extreme. Tap an option, show the answer, and see the trap the question was built on, the language trick, and why every wrong option fails.</p></section>';
   h += '<div class="pr-stats"><div class="pr-stat"><b>' + (A.ok + A.bad) + '<span style="font-size:.55em;opacity:.6">/' + total + '</span></b><small>attempted</small></div>' +
     '<div class="pr-stat"><b>' + (A.acc == null ? '–' : A.acc + '%') + '</b><small>accuracy</small></div>' +
     '<div class="pr-stat"><b>' + fmtp(A.marks) + '</b><small>marks (−0.25 per wrong)</small></div>' +
@@ -133,8 +133,9 @@ function home() {
     h += '<div class="pr-cont"><div><b>Pick up where you left off</b><span>Question ' + q.no + ' · ' + esc(q.subject) + '</span></div><a class="pr-btn" href="#q/' + lq.id + '/' + lq.no + '">Continue →</a></div>';
   }
   h += tabs('home');
+  h += '<h2 class="pr-h2">Practice sets</h2><div class="pr-sets">';
   SETS.forEach(function (m) { h += setCard(DATA[m.id]); });
-  SETS.forEach(function (m) { h += passageGrid(DATA[m.id]); });
+  h += '</div>';
   h += '<h2 class="pr-h2">How this set works</h2><div class="pr-grid2"><div class="pr-card"><b>The pattern</b><p class="pr-sub" style="margin:8px 0 0">Passages of about 250 to 400 words with six questions each, one mark per correct answer and 0.25 deducted for each wrong one, exactly as in CLAT PG. The paper has 120 questions in 120 minutes; this set is longer so you get more practice per topic.</p></div>' +
     '<div class="pr-card"><b>Fully annotated</b><p class="pr-sub" style="margin:8px 0 0">Every answer shows why it is right, why each wrong option fails, the CLAT trap that makes the question hard and any language trick (a word like <i>only</i>, <i>unless</i>, <i>not</i>, or a date that shifts the answer).</p></div>' +
     '<div class="pr-card"><b>Built for revision</b><p class="pr-sub" style="margin:8px 0 0">Bookmark anything, add your own note, and open <b>My mistakes</b> to re-read the passage, your answer and the full explanation. Progress is saved in this browser. Use Backup on the Progress tab to move it to another device.</p></div></div>';
@@ -144,47 +145,47 @@ function setCard(D) {
   var s = stats(D.id), m = D.meta, done = s.ok + s.bad + s.seen;
   var mixH = DIFFS.map(function (d) { return D.mix[d] ? '<span class="pr-chip d-' + d + '">' + D.mix[d] + ' ' + d + '</span>' : ''; }).join('');
   var subOpts = '<option value="">All subjects</option>' + D.subjects.map(function (x) { return '<option>' + esc(x) + '</option>'; }).join('');
-  var hasProg = done > 0;
-  return '<h2 class="pr-h2">Practice sets</h2><article class="pr-card pr-set" data-set="' + D.id + '"><h3>' + esc(m.title) + ' <span class="pr-chip ink" style="vertical-align:middle">' + esc(m.tag || '') + '</span></h3><p class="b">' + esc(m.blurb || '') + '</p>' +
+  var hasProg = done > 0, hard = D.mix.Extreme ? 'Extreme' : 'Tough';
+  return '<article class="pr-card pr-set" data-set="' + D.id + '"><h3>' + esc(m.title) + ' <span class="pr-chip ink" style="vertical-align:middle">' + esc(m.tag || '') + '</span></h3><p class="b">' + esc(m.blurb || '') + '</p>' +
     '<div class="pr-meta"><span class="pr-chip">' + D.qs.length + ' questions</span><span class="pr-chip">' + D.passages.length + ' passages</span><span class="pr-chip">' + D.subjects.length + ' subjects</span>' + mixH + '</div>' +
     '<div class="pr-prog"><div class="pr-bar" role="progressbar" aria-valuemin="0" aria-valuemax="' + D.qs.length + '" aria-valuenow="' + done + '"><i style="width:' + Math.round(done / D.qs.length * 100) + '%"></i></div><small>' + done + ' of ' + D.qs.length + ' done · ' + s.ok + ' right · ' + s.bad + ' wrong' + (s.seen ? ' · ' + s.seen + ' revealed without trying' : '') + '</small></div>' +
     '<div class="pr-row" style="margin-bottom:18px"><button class="pr-btn pri" data-act="startall">' + (hasProg ? 'Continue the set' : 'Start the set') + ' →</button><button class="pr-btn" data-act="startnew"' + (s.n - done ? '' : ' disabled') + '>Only unattempted (' + (s.n - done) + ')</button></div>' +
     '<div class="pr-quick"><button class="pr-qk" data-act="startbad"' + (s.bad ? '' : ' disabled') + '><span class="n">' + s.bad + '</span><b>Retry my mistakes</b><small>Questions you got wrong</small></button>' +
     '<button class="pr-qk" data-act="startbm"' + (s.bm ? '' : ' disabled') + '><span class="n">' + s.bm + '</span><b>Bookmarked</b><small>Practise your starred questions</small></button>' +
     '<button class="pr-qk" data-act="startseen"' + (s.seen ? '' : ' disabled') + '><span class="n">' + s.seen + '</span><b>Revealed, not tried</b><small>Answers you peeked at</small></button>' +
-    '<button class="pr-qk" data-act="startext"><span class="n">' + (D.mix.Extreme || 0) + '</span><b>Extreme only</b><small>The hardest questions</small></button></div>' +
+    '<button class="pr-qk" data-act="starthard" data-diff="' + hard + '"><span class="n">' + (D.mix[hard] || 0) + '</span><b>' + hard + ' only</b><small>The hardest questions in this set</small></button></div>' +
     '<details class="pr-build"><summary>Build your own session</summary><div class="in"><div class="pr-fgrid">' +
-    '<label class="pr-lab">Show<select class="pr-sel" id="f-scope"><option value="">All questions</option><option value="new">Unattempted</option><option value="bad">My mistakes</option><option value="seen">Revealed, not tried</option><option value="bm">Bookmarked</option></select></label>' +
-    '<label class="pr-lab">Subject<select class="pr-sel" id="f-sub">' + subOpts + '</select></label>' +
-    '<label class="pr-lab">Difficulty<select class="pr-sel" id="f-diff"><option value="">All levels</option>' + DIFFS.map(function (d) { return '<option>' + d + '</option>'; }).join('') + '</select></label>' +
-    '<label class="pr-lab">Order<select class="pr-sel" id="f-ord"><option value="">Paper order</option><option value="s">Shuffle passages</option></select></label></div>' +
-    '<div class="pr-row"><button class="pr-btn pri" data-act="startcustom">Start session</button><span class="pr-fine" id="f-count" style="margin:0"></span></div></div></details></article>';
+    '<label class="pr-lab">Show<select class="pr-sel f-scope"><option value="">All questions</option><option value="new">Unattempted</option><option value="bad">My mistakes</option><option value="seen">Revealed, not tried</option><option value="bm">Bookmarked</option></select></label>' +
+    '<label class="pr-lab">Subject<select class="pr-sel f-sub">' + subOpts + '</select></label>' +
+    '<label class="pr-lab">Difficulty<select class="pr-sel f-diff"><option value="">All levels</option>' + DIFFS.map(function (d) { return '<option>' + d + '</option>'; }).join('') + '</select></label>' +
+    '<label class="pr-lab">Order<select class="pr-sel f-ord"><option value="">Paper order</option><option value="s">Shuffle passages</option></select></label></div>' +
+    '<div class="pr-row"><button class="pr-btn pri" data-act="startcustom">Start session</button><span class="pr-fine f-count" style="margin:0"></span></div></div></details>' + passageGrid(D) + '</article>';
 }
 function passageGrid(D) {
-  var h = '<h2 class="pr-h2">Browse by passage</h2><p class="pr-sub">Pick a passage and work through its six questions, just as in the paper.</p><div class="pr-pg">';
+  var h = '<details class="pr-build" style="margin-top:12px"><summary>Browse by passage (' + D.passages.length + ')</summary><div class="in"><p class="pr-sub" style="margin:0">Pick a passage and work through its six questions, just as in the paper.</p><div class="pr-pg">';
   D.passages.forEach(function (p) {
     h += '<button class="pr-pc" data-act="startpass" data-set="' + D.id + '" data-p="' + p.i + '"><span class="pr-chip" style="align-self:flex-start">' + esc(p.id) + ' · Q' + p.qs[0].no + '–' + p.qs[p.qs.length - 1].no + '</span><span class="t">' + esc(p.title) + '</span><span class="s">' + esc(p.subject) + '</span><span class="pr-dots" aria-hidden="true">' + p.qs.map(function (q) { var s = status(D.id, q.no); return '<i class="' + (s === 'new' ? '' : s) + '"></i>'; }).join('') + '</span></button>';
   });
-  return h + '</div>';
+  return h + '</div></div></details>';
 }
 function bindHome() {
-  var sel = ['#f-scope', '#f-sub', '#f-diff', '#f-ord'];
-  function upd() {
-    var id = SETS[0].id, c = pick(id, cfg()).length, el = $('#f-count'); if (el) el.textContent = c + ' question' + (c === 1 ? '' : 's') + ' match';
-  }
-  function cfg() { return { scope: $('#f-scope').value, subject: $('#f-sub').value, diff: $('#f-diff').value, shuffle: $('#f-ord').value === 's' }; }
-  sel.forEach(function (s) { var e = $(s); if (e) e.onchange = upd; }); if ($('#f-scope')) upd();
+  function cfg(card) { return { scope: $('.f-scope', card).value, subject: $('.f-sub', card).value, diff: $('.f-diff', card).value, shuffle: $('.f-ord', card).value === 's' }; }
+  $$('.pr-set').forEach(function (card) {
+    var id = card.dataset.set;
+    function upd() { var c = pick(id, cfg(card)).length; $('.f-count', card).textContent = c + ' question' + (c === 1 ? '' : 's') + ' match'; }
+    ['.f-scope', '.f-sub', '.f-diff', '.f-ord'].forEach(function (q) { $(q, card).onchange = upd; }); upd();
+  });
   ROOT.oninput = null;
   ROOT.onclick = function (e) {
-    var b = e.target.closest('[data-act]'); if (!b) return; var a = b.dataset.act, card = b.closest('[data-set]'), id = (card && card.dataset.set) || b.dataset.set || (SETS[0] && SETS[0].id);
+    var b = e.target.closest('[data-act]'); if (!b) return; var a = b.dataset.act, card = b.closest('[data-set]'), id = card && card.dataset.set;
     if (!DATA[id]) return;
     if (a === 'startall') { var all = DATA[id].qs.map(function (q) { return q.no; }); var next = all.filter(function (n) { return status(id, n) === 'new'; })[0]; var lastNo = SS(id).last && SS(id).last.no; start(id, all, 'Full set', lastNo || next || all[0]); }
     else if (a === 'startnew') start(id, pick(id, { scope: 'new' }), 'Unattempted');
     else if (a === 'startbad') start(id, pick(id, { scope: 'bad' }), 'My mistakes');
     else if (a === 'startbm') start(id, pick(id, { scope: 'bm' }), 'Bookmarked');
     else if (a === 'startseen') start(id, pick(id, { scope: 'seen' }), 'Revealed, not tried');
-    else if (a === 'startext') start(id, pick(id, { diff: 'Extreme' }), 'Extreme only');
-    else if (a === 'startcustom') start(id, pick(id, cfg()), 'Custom session');
+    else if (a === 'starthard') start(id, pick(id, { diff: b.dataset.diff }), b.dataset.diff + ' only');
+    else if (a === 'startcustom') start(id, pick(id, cfg(card)), 'Custom session');
     else if (a === 'startpass') { var p = DATA[id].passages[+b.dataset.p]; start(id, p.qs.map(function (q) { return q.no; }), p.id + ' · ' + p.title); }
   };
   scrollTop();
@@ -338,10 +339,10 @@ function openPal() {
 function closePal() { var p = document.querySelector('.pr-pal'); if (p) { p.remove(); if (lastFocus && lastFocus.focus) try { lastFocus.focus(); } catch (e) {} } }
 
 /* ---------- REVIEW (mistakes / bookmarks) ---------- */
-var RF = { sub: '', diff: '', txt: '', sort: 'paper' };
+var RF = { sub: '', diff: '', txt: '', sort: 'paper', set: '' };
 function reviewCard(id, q) {
   var D = DATA[id], st = QS(id, q.no) || {}, S0 = SS(id), P = D.passages[q.pi], bm = !!S0.bm[q.no], note = S0.note[q.no], s = status(id, q.no);
-  var chips = '<span class="pr-qno">Q' + q.no + '</span><span class="pr-chip d-' + esc(q.diff) + '">' + esc(q.diff) + '</span><span class="pr-chip">' + esc(q.subject) + '</span>' +
+  var chips = (SETS.length > 1 ? '<span class="pr-chip ink">' + esc(D.meta.title.replace('Practice ', '')) + '</span>' : '') + '<span class="pr-qno">Q' + q.no + '</span><span class="pr-chip d-' + esc(q.diff) + '">' + esc(q.diff) + '</span><span class="pr-chip">' + esc(q.subject) + '</span>' +
     (s === 'bad' ? '<span class="pr-chip bad">You chose ' + esc(st.s) + ' · answer ' + q.ans + '</span>' : s === 'ok' ? '<span class="pr-chip ok">Right</span>' : s === 'seen' ? '<span class="pr-chip seen">Revealed</span>' : '<span class="pr-chip">Not attempted</span>') +
     (bm ? '<span class="pr-chip" style="background:var(--sun)">★ Bookmarked</span>' : '') + ((st.w || 0) > 1 ? '<span class="pr-chip">Wrong ' + st.w + '×</span>' : '');
   var opts = L.split('').map(function (k) {
@@ -366,13 +367,13 @@ function review(kind) {
   var title = kind === 'mistakes' ? 'My mistakes' : 'Bookmarks';
   var h = '<section class="pr-hero"><div><h1>' + title + '</h1></div><p class="lead">' + (kind === 'mistakes' ? 'Every question you answered wrongly, with the passage, your answer, the right answer, the trap and the language trick. Re-read, then retry.' : 'Questions you starred, with their full explanations and your notes.') + '</p></section>' + tabs(kind);
   h += '<div class="pr-tools"><label class="pr-lab grow">Search<input class="pr-in" id="rf-t" type="search" placeholder="Search question text or subject" value="' + esc(RF.txt) + '"></label>' +
-    '<label class="pr-lab">Subject<select class="pr-sel" id="rf-s"><option value="">All subjects</option>' + Object.keys(subs).sort().map(function (x) { return '<option' + (RF.sub === x ? ' selected' : '') + '>' + esc(x) + '</option>'; }).join('') + '</select></label>' +
+    (SETS.length > 1 ? '<label class="pr-lab">Set<select class="pr-sel" id="rf-set"><option value="">All sets</option>' + SETS.map(function (m) { return '<option value="' + m.id + '"' + (RF.set === m.id ? ' selected' : '') + '>' + esc(m.title) + '</option>'; }).join('') + '</select></label>' : '') + '<label class="pr-lab">Subject<select class="pr-sel" id="rf-s"><option value="">All subjects</option>' + Object.keys(subs).sort().map(function (x) { return '<option' + (RF.sub === x ? ' selected' : '') + '>' + esc(x) + '</option>'; }).join('') + '</select></label>' +
     '<label class="pr-lab">Difficulty<select class="pr-sel" id="rf-d"><option value="">All levels</option>' + DIFFS.map(function (d) { return '<option' + (RF.diff === d ? ' selected' : '') + '>' + d + '</option>'; }).join('') + '</select></label>' +
     '<label class="pr-lab">Order<select class="pr-sel" id="rf-o"><option value="paper">Paper order</option><option value="recent"' + (RF.sort === 'recent' ? ' selected' : '') + '>Most recent first</option></select></label></div>';
   h += '<div class="pr-row" style="margin-bottom:12px"><button class="pr-btn pri sm" data-act="rpractice">Practise these</button><button class="pr-btn sm" data-act="rexp">Expand all</button><button class="pr-btn sm" data-act="rcol">Collapse all</button><button class="pr-btn sm" data-act="rprint">Print / save as PDF</button></div><div id="rlist"></div>';
   ROOT.innerHTML = h;
   function draw() {
-    var f = all.filter(function (x) { return (!RF.sub || x.q.subject === RF.sub) && (!RF.diff || x.q.diff === RF.diff) && (!RF.txt || (x.q.q + ' ' + x.q.subject + ' ' + DATA[x.id].passages[x.q.pi].title).toLowerCase().indexOf(RF.txt.toLowerCase()) > -1); });
+    var f = all.filter(function (x) { return (!RF.set || x.id === RF.set) && (!RF.sub || x.q.subject === RF.sub) && (!RF.diff || x.q.diff === RF.diff) && (!RF.txt || (x.q.q + ' ' + x.q.subject + ' ' + DATA[x.id].passages[x.q.pi].title).toLowerCase().indexOf(RF.txt.toLowerCase()) > -1); });
     f.sort(function (a, b) { return RF.sort === 'recent' ? b.t - a.t : (a.id === b.id ? a.q.no - b.q.no : a.id < b.id ? -1 : 1); });
     var out = !all.length ? '<div class="pr-empty"><b>' + (kind === 'mistakes' ? 'No mistakes yet' : 'Nothing bookmarked yet') + '</b>' + (kind === 'mistakes' ? 'Wrong answers collect here automatically once you check an answer. Good or bad, that is how you learn the traps.' : 'Tap the star while practising to save a question here.') + '<br><br><a class="pr-btn pri" href="#home">Start practising</a></div>'
       : !f.length ? '<div class="pr-empty"><b>No matches</b>Try clearing the filters.</div>'
@@ -382,6 +383,7 @@ function review(kind) {
   draw();
   function ev(id, fn) { var e = $(id); if (e) e.addEventListener('input', fn); }
   ev('#rf-t', function (e) { RF.txt = e.target.value; draw(); });
+  ev('#rf-set', function (e) { RF.set = e.target.value; draw(); });
   ev('#rf-s', function (e) { RF.sub = e.target.value; draw(); });
   ev('#rf-d', function (e) { RF.diff = e.target.value; draw(); });
   ev('#rf-o', function (e) { RF.sort = e.target.value; draw(); });
@@ -395,6 +397,7 @@ function review(kind) {
       else if (a.dataset.act === 'rpractice') {
         var f = draw.cur || []; if (!f.length) return toast('Nothing to practise here yet.');
         var id = f[0].id; var nos = f.filter(function (x) { return x.id === id; }).map(function (x) { return x.q.no; });
+        if (nos.length < f.length) toast('Practising ' + DATA[id].meta.title + ' first. Use the Set filter to practise the other set.');
         if (kind === 'mistakes') nos.forEach(function (n) { var S0 = SS(id), st = S0.q[n] || {}; S0.q[n] = { s: null, r: 0, c: 0, n: st.n || 0, w: st.w || 0, t: Date.now() }; }); save();
         start(id, nos, kind === 'mistakes' ? 'Retry mistakes' : 'Bookmarked');
       }
@@ -426,7 +429,8 @@ function progress() {
   h += '<div class="pr-stats" style="margin-bottom:16px"><div class="pr-stat"><b>' + A.att + '</b><small>questions attempted</small></div><div class="pr-stat"><b>' + (A.acc == null ? '–' : A.acc + '%') + '</b><small>accuracy</small></div><div class="pr-stat"><b>' + fmtp(A.marks) + '</b><small>net marks</small></div><div class="pr-stat"><b>' + S.days.length + '</b><small>days practised</small></div><div class="pr-stat"><b>' + streak() + '</b><small>day streak</small></div></div>';
   if (weak.length) h += '<div class="pr-focus">Focus next: ' + weak.map(function (w) { return '<b>' + esc(w.n) + '</b> (' + w.a + '%)'; }).join(', ') + '. Open <a href="#mistakes">My mistakes</a> and filter by subject.</div>';
   else if (!A.att) h += '<div class="pr-focus">Attempt a few questions and your weak subjects will show up here.</div>';
-  h += '<div class="pr-grid2"><div class="pr-card"><h3 style="margin:0 0 12px">By subject</h3>' + bars(subRows) + '</div><div class="pr-card"><h3 style="margin:0 0 12px">By difficulty</h3>' + bars(DIFFS.map(function (d) { var v = byDiff[d] || { ok: 0, bad: 0 }, t = v.ok + v.bad; return { n: d, a: t ? Math.round(v.ok / t * 100) : null, k: v.ok + '/' + t }; })) +
+  var setRows = SETS.map(function (m) { var st = stats(m.id); return { n: m.title, a: st.acc, k: st.ok + '/' + st.att }; });
+  h += '<div class="pr-grid2"><div class="pr-card"><h3 style="margin:0 0 12px">By set</h3>' + bars(setRows) + '<h3 style="margin:22px 0 12px">By subject</h3>' + bars(subRows) + '</div><div class="pr-card"><h3 style="margin:0 0 12px">By difficulty</h3>' + bars(DIFFS.map(function (d) { var v = byDiff[d] || { ok: 0, bad: 0 }, t = v.ok + v.bad; return { n: d, a: t ? Math.round(v.ok / t * 100) : null, k: v.ok + '/' + t }; })) +
     '<p class="pr-fine">Accuracy counts only questions where you picked an option before checking. Answers revealed without trying are not scored.</p>' +
     '<h3 style="margin:22px 0 8px">Settings</h3><label class="pr-row" style="gap:10px;font-weight:700"><input type="checkbox" id="auto" ' + (S.prefs.auto ? 'checked' : '') + ' style="width:20px;height:20px"> Show the answer as soon as I pick an option</label>' +
     '<h3 style="margin:22px 0 8px">Your data</h3><div class="pr-data"><button class="pr-btn sm" data-act="exp">Backup (download)</button><label class="pr-btn sm" style="cursor:pointer">Restore<input type="file" id="imp" accept="application/json,.json" hidden></label><button class="pr-btn sm dng" data-act="reset">Reset all progress</button></div>' +

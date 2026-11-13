@@ -2,7 +2,7 @@ CLAT PG PRACTICE ARENA
 ======================
 Page:      clat-pg/practice.html   (also opens inside the phone app at #/clat/practice, as an embedded page)
 Code:      clat-pg/practice.js, clat-pg/practice.css   (no build step, no framework)
-Data:      clat-pg/practice/index.json  (list of sets)  +  clat-pg/practice/set-01.json  (the 150 questions)
+Data:      clat-pg/practice/index.json  (list of sets)  +  set-01.json, set-02.json  (150 questions each)
 
 ADD ANOTHER SET LATER
 1. Save the new JSON (same structure as set-01.json) as clat-pg/practice/set-02.json.
@@ -10,7 +10,6 @@ ADD ANOTHER SET LATER
    {"id":"set-02","file":"set-02.json","title":"Practice Set 02","tag":"Advanced","blurb":"..."}
    The hub, mistakes notebook, bookmarks and progress pages pick it up automatically.
    (Question numbers q_no must be unique inside a set; progress is stored per set id.)
-   Note: the hub's "Build your own session" panel currently builds sessions for the first set in index.json.
 
 JSON FIELDS USED
  passages[].passage_id / subject_area / title / passage / word_count
