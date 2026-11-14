@@ -122,7 +122,7 @@ function lastQ() {
 function home() {
   var A = allStats(), lq = lastQ(), total = Object.keys(DATA).reduce(function (a, id) { return a + DATA[id].qs.length; }, 0);
   var h = '<section class="pr-hero"><div><span class="pill">FREE · NO SIGN-UP · NEW</span><h1>CLAT PG <span>Practice Arena</span></h1></div>' +
-    '<p class="lead">' + total + ' original passage-based questions across three sets, moderate to extreme. Tap an option, show the answer, and see the trap the question was built on, the language trick, and why every wrong option fails.</p></section>';
+    '<p class="lead">' + total + ' original passage-based questions across four sets, moderate to extreme. Tap an option, show the answer, and see the trap the question was built on, the language trick, and why every wrong option fails.</p></section>';
   h += '<div class="pr-stats"><div class="pr-stat"><b>' + (A.ok + A.bad) + '<span style="font-size:.55em;opacity:.6">/' + total + '</span></b><small>attempted</small></div>' +
     '<div class="pr-stat"><b>' + (A.acc == null ? '–' : A.acc + '%') + '</b><small>accuracy</small></div>' +
     '<div class="pr-stat"><b>' + fmtp(A.marks) + '</b><small>marks (−0.25 per wrong)</small></div>' +
