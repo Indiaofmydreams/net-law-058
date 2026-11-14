@@ -122,7 +122,7 @@ function lastQ() {
 function home() {
   var A = allStats(), lq = lastQ(), total = Object.keys(DATA).reduce(function (a, id) { return a + DATA[id].qs.length; }, 0);
   var h = '<section class="pr-hero"><div><span class="pill">FREE · NO SIGN-UP · NEW</span><h1>CLAT PG <span>Practice Arena</span></h1></div>' +
-    '<p class="lead">' + total + ' original passage-based questions across four sets, moderate to extreme. Tap an option, show the answer, and see the trap the question was built on, the language trick, and why every wrong option fails.</p></section>';
+    '<p class="lead">' + total + ' original passage-based questions across five sets, moderate to extreme. Tap an option, show the answer, and see the trap the question was built on, the language trick, and why every wrong option fails.</p></section>';
   h += '<div class="pr-stats"><div class="pr-stat"><b>' + (A.ok + A.bad) + '<span style="font-size:.55em;opacity:.6">/' + total + '</span></b><small>attempted</small></div>' +
     '<div class="pr-stat"><b>' + (A.acc == null ? '–' : A.acc + '%') + '</b><small>accuracy</small></div>' +
     '<div class="pr-stat"><b>' + fmtp(A.marks) + '</b><small>marks (−0.25 per wrong)</small></div>' +
@@ -133,7 +133,9 @@ function home() {
     h += '<div class="pr-cont"><div><b>Pick up where you left off</b><span>Question ' + q.no + ' · ' + esc(q.subject) + '</span></div><a class="pr-btn" href="#q/' + lq.id + '/' + lq.no + '">Continue →</a></div>';
   }
   h += tabs('home');
-  h += '<h2 class="pr-h2">Practice sets</h2><div class="pr-sets">';
+  h += '<h2 class="pr-h2">Practice sets</h2>';
+  if (SETS.length > 2) h += '<div class="pr-row" style="margin:-2px 0 16px" role="group" aria-label="Jump to a set"><span class="pr-fine" style="margin:0">Jump to:</span>' + SETS.map(function (m) { return '<button type="button" class="pr-btn sm" data-act="jump" data-set="' + m.id + '">' + esc(m.title.replace('Practice ', '')) + '</button>'; }).join('') + '</div>';
+  h += '<div class="pr-sets">';
   SETS.forEach(function (m) { h += setCard(DATA[m.id]); });
   h += '</div>';
   h += '<h2 class="pr-h2">How this set works</h2><div class="pr-grid2"><div class="pr-card"><b>The pattern</b><p class="pr-sub" style="margin:8px 0 0">Passages of about 250 to 400 words with six questions each, one mark per correct answer and 0.25 deducted for each wrong one, exactly as in CLAT PG. The paper has 120 questions in 120 minutes; this set is longer so you get more practice per topic.</p></div>' +
@@ -179,6 +181,7 @@ function bindHome() {
   ROOT.onclick = function (e) {
     var b = e.target.closest('[data-act]'); if (!b) return; var a = b.dataset.act, card = b.closest('[data-set]'), id = card && card.dataset.set;
     if (!DATA[id]) return;
+    if (a === 'jump') { var t = $('.pr-set[data-set="' + id + '"]'); if (t) { t.scrollIntoView({ behavior: 'smooth', block: 'start' }); var f = $('[data-act=startall]', t); if (f) setTimeout(function () { f.focus({ preventScroll: true }); }, 400); } return; }
     if (a === 'startall') { var all = DATA[id].qs.map(function (q) { return q.no; }); var next = all.filter(function (n) { return status(id, n) === 'new'; })[0]; var lastNo = SS(id).last && SS(id).last.no; start(id, all, 'Full set', lastNo || next || all[0]); }
     else if (a === 'startnew') start(id, pick(id, { scope: 'new' }), 'Unattempted');
     else if (a === 'startbad') start(id, pick(id, { scope: 'bad' }), 'My mistakes');

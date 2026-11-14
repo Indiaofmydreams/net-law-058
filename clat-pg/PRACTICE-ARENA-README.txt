@@ -2,7 +2,7 @@ CLAT PG PRACTICE ARENA
 ======================
 Page:      clat-pg/practice.html   (also opens inside the phone app at #/clat/practice, as an embedded page)
 Code:      clat-pg/practice.js, clat-pg/practice.css   (no build step, no framework)
-Data:      clat-pg/practice/index.json  (list of sets)  +  set-01.json to set-04.json  (150 questions each)
+Data:      clat-pg/practice/index.json  (list of sets)  +  set-01.json to set-05.json  (150 questions each)
 
 ADD ANOTHER SET LATER
 1. Save the new JSON (same structure as set-01.json) as clat-pg/practice/set-02.json.
