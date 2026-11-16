@@ -2,7 +2,9 @@
 (function () {
 "use strict";
 var ROOT = document.getElementById('pr-root'); if (!ROOT) return;
-var KEY = 'clatpg-practice-v1', QKEY = 'clatpg-practice-queue', L = 'ABCD', NEG = 0.25;
+var CFG = Object.assign({ dir: 'practice/', key: 'clatpg-practice-v1', qkey: 'clatpg-practice-queue', exam: 'CLAT PG', arena: 'Practice Arena', slug: 'clat', neg: 0.25, mocks: false,
+  pill: 'FREE · NO SIGN-UP · NEW', trapLabel: 'The CLAT trap: how this question is tricky', langLabel: 'Language trick', heroLead: null, how: null, notes: true }, window.PRACTICE_CFG || {});
+var KEY = CFG.key, QKEY = CFG.qkey, L = 'ABCD', NEG = CFG.neg;
 var DIFFS = ['Moderate', 'Tough', 'Extreme'];
 var mem = null, SETS = [], DATA = {}, QUEUE = null, toastT, lastFocus = null;
 
@@ -27,31 +29,48 @@ var IC = {
 };
 
 /* ---------- data ---------- */
+function normQ(q, i, p) {
+  var opts = q.options || {};
+  if (Array.isArray(opts)) { var o2 = {}; opts.forEach(function (t, k) { o2[L[k]] = t; }); opts = o2; }
+  var ans = q.correct_option != null ? q.correct_option : q.answer;
+  if (typeof ans === 'number') ans = L[ans];
+  ans = String(ans || '').trim().toUpperCase().charAt(0);
+  var subj = q.subject_area || q.subject || (p && p.subject_area) || 'General';
+  return { no: q.q_no != null ? q.q_no : i + 1, subject: subj, sg: String(subj).replace(/\s*\([^)]*\)\s*/g, ' ').replace(/\s+/g, ' ').trim(), q: q.question, opts: opts, ans: ans,
+    exp: q.explanation || '', why: q.why_other_options_are_wrong || '', trap: q.clat_trap || q.ailet_trap || q.trap || '', lang: q.language_trick || q.lang || '', diff: q.difficulty || 'Moderate' };
+}
 function flatten(id, raw, meta) {
-  var qs = [], byNo = {}, pas = [];
-  raw.passages.forEach(function (p, pi) {
-    var pp = { i: pi, id: p.passage_id, subject: p.subject_area, title: p.title, text: p.passage, wc: p.word_count, qs: [] };
-    p.questions.forEach(function (q, k) {
-      var o = { no: q.q_no, pi: pi, k: k, subject: p.subject_area, sg: String(p.subject_area).replace(/\s*\([^)]*\)\s*/g, ' ').replace(/\s+/g, ' ').trim(), q: q.question, opts: q.options, ans: q.correct_option, exp: q.explanation, why: q.why_other_options_are_wrong, trap: q.clat_trap, lang: q.language_trick, diff: q.difficulty };
+  var qs = [], byNo = {}, pas = [], src = raw.passages, flat = false, n = 0;
+  if (!src && Array.isArray(raw.questions)) {
+    flat = true; var size = raw.block_size || 10; src = [];
+    for (var a = 0; a < raw.questions.length; a += size) {
+      var chunk = raw.questions.slice(a, a + size);
+      src.push({ passage_id: 'B' + (src.length + 1 < 10 ? '0' : '') + (src.length + 1), subject_area: 'Mixed', title: 'Questions ' + (a + 1) + ' to ' + (a + chunk.length), passage: '', questions: chunk, __start: a });
+    }
+  }
+  (src || []).forEach(function (p, pi) {
+    var pp = { i: pi, id: p.passage_id, subject: p.subject_area, title: p.title, text: p.passage || '', wc: p.word_count, qs: [], flat: flat };
+    (p.questions || []).forEach(function (q0, k) {
+      var o = normQ(q0, n++, p); o.pi = pi; o.k = k;
       qs.push(o); byNo[o.no] = o; pp.qs.push(o);
     });
     pas.push(pp);
   });
   var subs = {}; qs.forEach(function (q) { subs[q.sg] = (subs[q.sg] || 0) + 1; });
   var mix = {}; qs.forEach(function (q) { mix[q.diff] = (mix[q.diff] || 0) + 1; });
-  return { id: id, title: raw.set_title || meta.title, meta: meta, pat: raw.pattern || {}, passages: pas, qs: qs, byNo: byNo, subjects: Object.keys(subs).sort(), mix: mix };
+  return { id: id, title: raw.set_title || meta.title, meta: meta, isMock: meta.type === 'mock' && !!CFG.mocks, flat: flat, pat: raw.pattern || {}, passages: pas, qs: qs, byNo: byNo, subjects: Object.keys(subs).sort(), mix: mix };
 }
 function boot() {
-  fetch('practice/index.json', { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (ix) {
+  fetch(CFG.dir + 'index.json', { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (ix) {
     SETS = ix.sets || [];
-    return Promise.all(SETS.map(function (m) { return fetch('practice/' + m.file).then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (raw) { DATA[m.id] = flatten(m.id, raw, m); }); }));
+    return Promise.all(SETS.map(function (m) { return fetch(CFG.dir + m.file).then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (raw) { DATA[m.id] = flatten(m.id, raw, m); }); }));
   }).then(function () {
     try { QUEUE = JSON.parse(sessionStorage.getItem(QKEY)); } catch (e) { QUEUE = null; }
     document.addEventListener('keydown', onKey);
     addEventListener('hashchange', route);
     route();
   }).catch(function () {
-    ROOT.innerHTML = '<div class="pr-empty"><b>Could not load the practice questions.</b>Check your connection and <a href="">reload the page</a>. If this keeps happening, write to netlawverse@gmail.com.</div>';
+    ROOT.innerHTML = '<div class="pr-empty"><b>Could not load the questions.</b>Check your connection and <a href="">reload the page</a>. If this keeps happening, write to netlawverse@gmail.com.</div>';
   });
 }
 
@@ -74,6 +93,8 @@ function route() {
   var p = parse(), v = p[0] || 'home';
   closePal();
   if (v === 'q' && DATA[p[1]] && DATA[p[1]].byNo[+p[2]]) { qview(p[1], +p[2]); return; }
+  if (v === 'mocks' && CFG.mocks) { mocksHome(); return; }
+  if (v === 'result' && DATA[p[1]]) { result(p[1]); return; }
   if (v === 'mistakes' || v === 'bookmarks') { review(v); return; }
   if (v === 'progress') { progress(); return; }
   home();
@@ -114,33 +135,43 @@ function pick(id, o) {
 function tabs(cur) {
   var A = allStats();
   function t(h, k, label, n) { return '<li><a class="pr-tab" href="#' + h + '"' + (cur === k ? ' aria-current="page"' : '') + '>' + label + (n ? '<em>' + n + '</em>' : '') + '</a></li>'; }
-  return '<ul class="pr-tabs" aria-label="Practice sections">' + t('home', 'home', 'Practice') + t('mistakes', 'mistakes', 'My mistakes', A.bad) + t('bookmarks', 'bookmarks', 'Bookmarks', A.bm) + t('progress', 'progress', 'Progress') + '</ul>';
+  return '<ul class="pr-tabs" aria-label="Practice sections">' + t('home', 'home', 'Practice') + (CFG.mocks ? t('mocks', 'mocks', 'Mock tests') : '') + t('mistakes', 'mistakes', 'My mistakes', A.bad) + t('bookmarks', 'bookmarks', 'Bookmarks', A.bm) + t('progress', 'progress', 'Progress') + '</ul>';
 }
 function lastQ() {
   var best = null; Object.keys(S.sets).forEach(function (id) { var s = S.sets[id]; if (s.last && DATA[id] && DATA[id].byNo[s.last.no] && (!best || (s.last.t || 0) > best.t)) best = { id: id, no: s.last.no, t: s.last.t || 0 }; }); return best;
 }
-function home() {
-  var A = allStats(), lq = lastQ(), total = Object.keys(DATA).reduce(function (a, id) { return a + DATA[id].qs.length; }, 0);
-  var h = '<section class="pr-hero"><div><span class="pill">FREE · NO SIGN-UP · NEW</span><h1>CLAT PG <span>Practice Arena</span></h1></div>' +
-    '<p class="lead">' + total + ' original passage-based questions across six sets, moderate to extreme. Tap an option, show the answer, and see the trap the question was built on, the language trick, and why every wrong option fails.</p></section>';
-  h += '<div class="pr-stats"><div class="pr-stat"><b>' + (A.ok + A.bad) + '<span style="font-size:.55em;opacity:.6">/' + total + '</span></b><small>attempted</small></div>' +
+var NUMW = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
+function psets() { return SETS.filter(function (m) { return DATA[m.id] && !DATA[m.id].isMock; }); }
+function msets() { return SETS.filter(function (m) { return DATA[m.id] && DATA[m.id].isMock; }); }
+function statsBlock(A, total) {
+  return '<div class="pr-stats"><div class="pr-stat"><b>' + (A.ok + A.bad) + '<span style="font-size:.55em;opacity:.6">/' + total + '</span></b><small>attempted</small></div>' +
     '<div class="pr-stat"><b>' + (A.acc == null ? '–' : A.acc + '%') + '</b><small>accuracy</small></div>' +
-    '<div class="pr-stat"><b>' + fmtp(A.marks) + '</b><small>marks (−0.25 per wrong)</small></div>' +
+    '<div class="pr-stat"><b>' + fmtp(A.marks) + '</b><small>marks (−' + NEG + ' per wrong)</small></div>' +
     '<div class="pr-stat"><b>' + A.bad + '</b><small>mistakes to review</small></div>' +
     '<div class="pr-stat"><b>' + A.bm + '</b><small>bookmarked</small></div></div>';
-  if (lq) {
-    var q = DATA[lq.id].byNo[lq.no];
-    h += '<div class="pr-cont"><div><b>Pick up where you left off</b><span>Question ' + q.no + ' · ' + esc(q.subject) + '</span></div><a class="pr-btn" href="#q/' + lq.id + '/' + lq.no + '">Continue →</a></div>';
+}
+function contBar(lq) {
+  if (!lq) return '';
+  var q = DATA[lq.id].byNo[lq.no];
+  return '<div class="pr-cont"><div><b>Pick up where you left off</b><span>' + esc(DATA[lq.id].meta.title) + ' · Question ' + q.no + ' · ' + esc(q.subject) + '</span></div><a class="pr-btn" href="#q/' + lq.id + '/' + lq.no + '">Continue →</a></div>';
+}
+function home() {
+  var A = allStats(), lq = lastQ(), total = Object.keys(DATA).reduce(function (a, id) { return a + DATA[id].qs.length; }, 0), ps = psets();
+  var ptotal = ps.reduce(function (a, m) { return a + DATA[m.id].qs.length; }, 0);
+  var lead = CFG.heroLead || (ptotal + ' original passage-based questions across ' + (NUMW[ps.length] || ps.length) + ' sets, moderate to extreme. Tap an option, show the answer, and see the trap the question was built on, the language trick, and why every wrong option fails.');
+  var h = '<section class="pr-hero"><div><span class="pill">' + esc(CFG.pill) + '</span><h1>' + esc(CFG.exam) + ' <span>' + esc(CFG.arena) + '</span></h1></div><p class="lead">' + esc(lead) + '</p></section>';
+  h += statsBlock(A, total) + contBar(lq) + tabs('home') + '<h2 class="pr-h2">Practice sets</h2>';
+  if (!ps.length) {
+    h += '<div class="pr-empty"><b>The first practice set is on its way</b>Practice sets will appear here as soon as they are published. Everything you answer, bookmark or get wrong is saved in this browser and shows up under My mistakes and Bookmarks.' + (CFG.mocks ? '<br><br><a class="pr-btn" href="#mocks">See mock tests</a>' : '') + '</div>';
+  } else {
+    if (ps.length > 2) h += '<div class="pr-row" style="margin:-2px 0 16px" role="group" aria-label="Jump to a set"><span class="pr-fine" style="margin:0">Jump to:</span>' + ps.map(function (m) { return '<button type="button" class="pr-btn sm" data-act="jump" data-set="' + m.id + '">' + esc(m.title.replace('Practice ', '')) + '</button>'; }).join('') + '</div>';
+    h += '<div class="pr-sets">' + ps.map(function (m) { return setCard(DATA[m.id]); }).join('') + '</div>';
   }
-  h += tabs('home');
-  h += '<h2 class="pr-h2">Practice sets</h2>';
-  if (SETS.length > 2) h += '<div class="pr-row" style="margin:-2px 0 16px" role="group" aria-label="Jump to a set"><span class="pr-fine" style="margin:0">Jump to:</span>' + SETS.map(function (m) { return '<button type="button" class="pr-btn sm" data-act="jump" data-set="' + m.id + '">' + esc(m.title.replace('Practice ', '')) + '</button>'; }).join('') + '</div>';
-  h += '<div class="pr-sets">';
-  SETS.forEach(function (m) { h += setCard(DATA[m.id]); });
-  h += '</div>';
-  h += '<h2 class="pr-h2">How this set works</h2><div class="pr-grid2"><div class="pr-card"><b>The pattern</b><p class="pr-sub" style="margin:8px 0 0">Passages of about 250 to 400 words with six questions each, one mark per correct answer and 0.25 deducted for each wrong one, exactly as in CLAT PG. The paper has 120 questions in 120 minutes; this set is longer so you get more practice per topic.</p></div>' +
-    '<div class="pr-card"><b>Fully annotated</b><p class="pr-sub" style="margin:8px 0 0">Every answer shows why it is right, why each wrong option fails, the CLAT trap that makes the question hard and any language trick (a word like <i>only</i>, <i>unless</i>, <i>not</i>, or a date that shifts the answer).</p></div>' +
-    '<div class="pr-card"><b>Built for revision</b><p class="pr-sub" style="margin:8px 0 0">Bookmark anything, add your own note, and open <b>My mistakes</b> to re-read the passage, your answer and the full explanation. Progress is saved in this browser. Use Backup on the Progress tab to move it to another device.</p></div></div>';
+  var how = CFG.how || [
+    ['The pattern', 'Passages of about 250 to 400 words with six questions each, one mark per correct answer and 0.25 deducted for each wrong one, exactly as in CLAT PG. The paper has 120 questions in 120 minutes; these sets are longer so you get more practice per topic.'],
+    ['Fully annotated', 'Every answer shows why it is right, why each wrong option fails, the CLAT trap that makes the question hard and any language trick (a word like <i>only</i>, <i>unless</i>, <i>not</i>, or a date that shifts the answer).'],
+    ['Built for revision', 'Bookmark anything, add your own note, and open <b>My mistakes</b> to re-read the passage, your answer and the full explanation. Progress is saved in this browser. Use Backup on the Progress tab to move it to another device.']];
+  h += '<h2 class="pr-h2">How this works</h2><div class="pr-grid2">' + how.map(function (x) { return '<div class="pr-card"><b>' + x[0] + '</b><p class="pr-sub" style="margin:8px 0 0">' + x[1] + '</p></div>'; }).join('') + '</div>';
   ROOT.innerHTML = h; bindHome();
 }
 function setCard(D) {
@@ -149,7 +180,7 @@ function setCard(D) {
   var subOpts = '<option value="">All subjects</option>' + D.subjects.map(function (x) { return '<option>' + esc(x) + '</option>'; }).join('');
   var hasProg = done > 0, hard = D.mix.Extreme ? 'Extreme' : 'Tough';
   return '<article class="pr-card pr-set" data-set="' + D.id + '"><h3>' + esc(m.title) + ' <span class="pr-chip ink" style="vertical-align:middle">' + esc(m.tag || '') + '</span></h3><p class="b">' + esc(m.blurb || '') + '</p>' +
-    '<div class="pr-meta"><span class="pr-chip">' + D.qs.length + ' questions</span><span class="pr-chip">' + D.passages.length + ' passages</span><span class="pr-chip">' + D.subjects.length + ' subjects</span>' + mixH + '</div>' +
+    '<div class="pr-meta"><span class="pr-chip">' + D.qs.length + ' questions</span>' + (D.flat ? '' : '<span class="pr-chip">' + D.passages.length + ' passages</span>') + '<span class="pr-chip">' + D.subjects.length + ' subjects</span>' + mixH + '</div>' +
     '<div class="pr-prog"><div class="pr-bar" role="progressbar" aria-valuemin="0" aria-valuemax="' + D.qs.length + '" aria-valuenow="' + done + '"><i style="width:' + Math.round(done / D.qs.length * 100) + '%"></i></div><small>' + done + ' of ' + D.qs.length + ' done · ' + s.ok + ' right · ' + s.bad + ' wrong' + (s.seen ? ' · ' + s.seen + ' revealed without trying' : '') + '</small></div>' +
     '<div class="pr-row" style="margin-bottom:18px"><button class="pr-btn pri" data-act="startall">' + (hasProg ? 'Continue the set' : 'Start the set') + ' →</button><button class="pr-btn" data-act="startnew"' + (s.n - done ? '' : ' disabled') + '>Only unattempted (' + (s.n - done) + ')</button></div>' +
     '<div class="pr-quick"><button class="pr-qk" data-act="startbad"' + (s.bad ? '' : ' disabled') + '><span class="n">' + s.bad + '</span><b>Retry my mistakes</b><small>Questions you got wrong</small></button>' +
@@ -163,10 +194,11 @@ function setCard(D) {
     '<label class="pr-lab">Order<select class="pr-sel f-ord"><option value="">Paper order</option><option value="s">Shuffle passages</option></select></label></div>' +
     '<div class="pr-row"><button class="pr-btn pri" data-act="startcustom">Start session</button><span class="pr-fine f-count" style="margin:0"></span></div></div></details>' + passageGrid(D) + '</article>';
 }
+function subjList(p) { var u = []; p.qs.forEach(function (q) { if (u.indexOf(q.sg) < 0) u.push(q.sg); }); return u.slice(0, 3).join(' · ') + (u.length > 3 ? ' +' + (u.length - 3) : ''); }
 function passageGrid(D) {
-  var h = '<details class="pr-build" style="margin-top:12px"><summary>Browse by passage (' + D.passages.length + ')</summary><div class="in"><p class="pr-sub" style="margin:0">Pick a passage and work through its six questions, just as in the paper.</p><div class="pr-pg">';
+  var h = '<details class="pr-build" style="margin-top:12px"><summary>Browse by ' + (D.flat ? 'block of questions' : 'passage') + ' (' + D.passages.length + ')</summary><div class="in"><p class="pr-sub" style="margin:0">' + (D.flat ? 'Work through the set ten questions at a time.' : 'Pick a passage and work through its six questions, just as in the paper.') + '</p><div class="pr-pg">';
   D.passages.forEach(function (p) {
-    h += '<button class="pr-pc" data-act="startpass" data-set="' + D.id + '" data-p="' + p.i + '"><span class="pr-chip" style="align-self:flex-start">' + esc(p.id) + ' · Q' + p.qs[0].no + '–' + p.qs[p.qs.length - 1].no + '</span><span class="t">' + esc(p.title) + '</span><span class="s">' + esc(p.subject) + '</span><span class="pr-dots" aria-hidden="true">' + p.qs.map(function (q) { var s = status(D.id, q.no); return '<i class="' + (s === 'new' ? '' : s) + '"></i>'; }).join('') + '</span></button>';
+    h += '<button class="pr-pc" data-act="startpass" data-set="' + D.id + '" data-p="' + p.i + '"><span class="pr-chip" style="align-self:flex-start">' + esc(p.id) + ' · Q' + p.qs[0].no + '–' + p.qs[p.qs.length - 1].no + '</span><span class="t">' + esc(p.title) + '</span><span class="s">' + esc(p.flat ? subjList(p) : p.subject) + '</span><span class="pr-dots" aria-hidden="true">' + p.qs.map(function (q) { var s = status(D.id, q.no); return '<i class="' + (s === 'new' ? '' : s) + '"></i>'; }).join('') + '</span></button>';
   });
   return h + '</div></div></details>';
 }
@@ -194,35 +226,129 @@ function bindHome() {
   scrollTop();
 }
 
+
+/* ---------- MOCK TESTS (untimed: no clock anywhere) ---------- */
+function tOn(id) { var D = DATA[id], t = D && SS(id).test; return !!(D && D.isMock && t && t.on); }
+function mockCard(D) {
+  var S0 = SS(D.id), T = S0.test || {}, att = S0.attempts || [], last = att[att.length - 1], n = D.qs.length;
+  var answered = D.qs.filter(function (q) { var x = S0.q[q.no]; return x && x.s && !x.r; }).length;
+  var mixH = DIFFS.map(function (d) { return D.mix[d] ? '<span class="pr-chip d-' + d + '">' + D.mix[d] + ' ' + d + '</span>' : ''; }).join('');
+  var state = T.on ? 'progress' : last ? 'done' : 'new', line, btns;
+  if (state === 'new') { line = 'Not started'; btns = '<button class="pr-btn pri" data-act="starttest" data-set="' + D.id + '">Start mock test →</button>'; }
+  else if (state === 'progress') { line = answered + ' of ' + n + ' answered. Your answers are saved; come back any time.'; btns = '<button class="pr-btn pri" data-act="resumetest" data-set="' + D.id + '">Resume test →</button><button class="pr-btn" data-act="retake" data-set="' + D.id + '">Start over</button>'; }
+  else { line = 'Last score ' + fmtp(last.marks) + ' / ' + n + ' · ' + last.c + ' right, ' + last.w + ' wrong, ' + last.s + ' skipped' + (att.length > 1 ? ' · attempt ' + att.length : ''); btns = '<a class="pr-btn pri" href="#result/' + D.id + '">View result</a><button class="pr-btn" data-act="reviewmock" data-set="' + D.id + '">Review answers</button><button class="pr-btn" data-act="retake" data-set="' + D.id + '">Retake</button>'; }
+  return '<article class="pr-card pr-set" data-set="' + D.id + '"><h3>' + esc(D.meta.title) + (D.meta.tag ? ' <span class="pr-chip ink" style="vertical-align:middle">' + esc(D.meta.tag) + '</span>' : '') + '</h3><p class="b">' + esc(D.meta.blurb || '') + '</p>' +
+    '<div class="pr-meta"><span class="pr-chip">' + n + ' questions</span><span class="pr-chip">' + n + ' marks</span><span class="pr-chip">−' + NEG + ' per wrong answer</span><span class="pr-chip ok">No timer</span><span class="pr-chip">' + D.subjects.length + ' subjects</span>' + mixH + '</div>' +
+    '<p class="pr-fine" style="margin:0 0 14px;opacity:.85">' + esc(line) + '</p><div class="pr-row" style="margin-bottom:6px">' + btns + '</div></article>';
+}
+function mocksHome() {
+  var ms = msets();
+  var h = '<section class="pr-hero"><div><span class="pill">NO TIMER · AT YOUR OWN PACE</span><h1>' + esc(CFG.exam) + ' <span>Mock tests</span></h1></div><p class="lead">Full-length papers in the real marking scheme: one mark for each right answer, ' + NEG + ' off for each wrong one. There is no clock. Mark questions for review, submit when you are ready, and every mistake lands in your revision notebook.</p></section>';
+  h += statsBlock(allStats(), Object.keys(DATA).reduce(function (a, id) { return a + DATA[id].qs.length; }, 0)) + tabs('mocks') + '<h2 class="pr-h2">Full-length papers</h2>';
+  if (!ms.length) h += '<div class="pr-empty"><b>Mock tests are being prepared</b>The first full-length paper will appear here. Once you take one you will get a score, a subject-wise breakdown, and all your mistakes saved for revision.<br><br><a class="pr-btn" href="#home">Practise meanwhile</a></div>';
+  else h += '<div class="pr-sets">' + ms.map(function (m) { return mockCard(DATA[m.id]); }).join('') + '</div>';
+  h += '<h2 class="pr-h2">How mock tests work here</h2><div class="pr-grid2"><div class="pr-card"><b>Exam-style, minus the clock</b><p class="pr-sub" style="margin:8px 0 0">Answer, change your mind, clear a response or mark a question for review. Nothing is revealed until you submit. Close the tab and your answers are still there.</p></div><div class="pr-card"><b>A proper debrief</b><p class="pr-sub" style="margin:8px 0 0">You get your net marks, accuracy, a subject-wise and difficulty-wise breakdown and a list of where marks leaked, then the full explanation for every question.</p></div><div class="pr-card"><b>Revision is automatic</b><p class="pr-sub" style="margin:8px 0 0">Wrong and skipped questions go to <b>My mistakes</b> and <b>Revealed, not tried</b> by themselves. Retake a paper later and your score history is kept.</p></div></div>';
+  ROOT.innerHTML = h; ROOT.oninput = null;
+  ROOT.onclick = function (e) {
+    var b = e.target.closest('[data-act]'); if (!b) return; var a = b.dataset.act, id = b.dataset.set;
+    if (a === 'starttest') startTest(id, true); else if (a === 'resumetest') startTest(id, false);
+    else if (a === 'retake') { if (confirm('Start this paper over? Your current answers are cleared, and its mistakes leave My mistakes until you submit again. Your score history stays.')) startTest(id, true); }
+    else if (a === 'reviewmock') { var nos = DATA[id].qs.map(function (q) { return q.no; }); start(id, nos, 'Review: ' + DATA[id].meta.title); }
+  };
+  scrollTop();
+}
+function startTest(id, fresh) {
+  var D = DATA[id], S0 = SS(id), resume = !fresh && S0.test && S0.test.on;
+  if (!resume) { D.qs.forEach(function (q) { delete S0.q[q.no]; }); S0.test = { on: true, started: Date.now(), mark: {} }; }
+  var nos = D.qs.map(function (q) { return q.no; }); setQueue(id, nos, 'Mock test'); save();
+  go('#q/' + id + '/' + (resume && S0.last && D.byNo[S0.last.no] ? S0.last.no : nos[0]));
+}
+function tcounts(id) {
+  var D = DATA[id], S0 = SS(id), mk = (S0.test && S0.test.mark) || {}, a = 0, m = 0;
+  D.qs.forEach(function (q) { var x = S0.q[q.no]; if (x && x.s) a++; if (mk[q.no]) m++; });
+  return { a: a, m: m, u: D.qs.length - a, n: D.qs.length };
+}
+function tstatus(id, no) { var S0 = SS(id), x = S0.q[no], an = !!(x && x.s), mk = !!(S0.test && S0.test.mark && S0.test.mark[no]); return an && mk ? 'amr' : mk ? 'mr' : an ? 'an' : 'new'; }
+function confirmSubmit() {
+  var id = CUR.id, c = tcounts(id);
+  var h = '<div class="pr-pal pr-dlgw" role="dialog" aria-modal="true" aria-label="Submit test"><div class="pr-dlg"><h3>Submit this test?</h3><p>You have answered <b>' + c.a + '</b> of ' + c.n + ' questions' + (c.u ? ', <b>' + c.u + '</b> unanswered' : '') + (c.m ? ' and <b>' + c.m + '</b> marked for review' : '') + '. Unanswered questions score nothing and cost nothing. You cannot change answers after submitting.</p><div class="pr-row"><button class="pr-btn" data-d="no">Keep working</button><button class="pr-btn pri" data-d="yes">Yes, submit</button></div></div></div>';
+  var r = $('#palroot'); r.innerHTML = h; var d = r.firstChild; lastFocus = document.activeElement;
+  d.onclick = function (e) { var b = e.target.closest('[data-d]'); if (e.target === d || (b && b.dataset.d === 'no')) return closePal(); if (b && b.dataset.d === 'yes') { var i = grade(id); closePal(); go('#result/' + id + '/' + i); } };
+  var f = d.querySelector('[data-d=no]'); if (f) f.focus();
+}
+function grade(id) {
+  var D = DATA[id], S0 = SS(id), c = 0, w = 0, sk = 0, by = {}, dby = {};
+  D.qs.forEach(function (q) {
+    var st = S0.q[q.no] || {}, sel = st.s || null, ok = sel === q.ans;
+    var b = by[q.sg] = by[q.sg] || { c: 0, w: 0, s: 0, n: 0 }, d = dby[q.diff] = dby[q.diff] || { c: 0, w: 0, s: 0, n: 0 }; b.n++; d.n++;
+    if (!sel) { sk++; b.s++; d.s++; } else if (ok) { c++; b.c++; d.c++; } else { w++; b.w++; d.w++; }
+    S0.q[q.no] = { s: sel, r: 1, c: sel && ok ? 1 : 0, n: (st.n || 0) + (sel ? 1 : 0), w: (st.w || 0) + (sel && !ok ? 1 : 0), t: Date.now() };
+  });
+  var rec = { t: Date.now(), c: c, w: w, s: sk, n: D.qs.length, marks: Math.round((c - w * NEG) * 100) / 100, by: by, dby: dby, marked: Object.keys((S0.test && S0.test.mark) || {}).length };
+  S0.attempts = S0.attempts || []; S0.attempts.push(rec); S0.test = { on: false, done: true, finished: rec.t }; markDay(); save(); return S0.attempts.length - 1;
+}
+function result(id) {
+  var D = DATA[id], S0 = SS(id), att = S0.attempts || [], p = parse(), ix = p[2] != null && att[+p[2]] ? +p[2] : att.length - 1, r = att[ix];
+  if (!r) { go('#mocks'); return; }
+  var n = r.n, attempted = r.c + r.w, acc = attempted ? Math.round(r.c / attempted * 100) : null, lost = Math.round(r.w * NEG * 100) / 100;
+  var rows = Object.keys(r.by).map(function (k) { var b = r.by[k], t = b.c + b.w; return { k: k, b: b, acc: t ? Math.round(b.c / t * 100) : null }; }).sort(function (a, b) { return (a.acc == null ? 101 : a.acc) - (b.acc == null ? 101 : b.acc); });
+  var h = '<section class="pr-hero"><div><span class="pill">RESULT · ATTEMPT ' + (ix + 1) + ' OF ' + att.length + '</span><h1>' + esc(D.meta.title) + ' <span>result</span></h1></div><p class="lead">Submitted ' + new Date(r.t).toLocaleDateString(undefined, { day: 'numeric', month: 'short', year: 'numeric' }) + '. No clock was running, so this score is purely about accuracy and judgement.</p></section>';
+  h += '<div class="pr-stats"><div class="pr-stat" style="background:var(--ink);color:#fff"><b>' + fmtp(r.marks) + '<span style="font-size:.5em;opacity:.7"> / ' + n + '</span></b><small style="color:#fff;opacity:.85">net marks</small></div><div class="pr-stat"><b>' + r.c + '</b><small>correct</small></div><div class="pr-stat"><b>' + r.w + '</b><small>wrong (−' + lost + ')</small></div><div class="pr-stat"><b>' + r.s + '</b><small>skipped</small></div><div class="pr-stat"><b>' + (acc == null ? '–' : acc + '%') + '</b><small>accuracy on attempted</small></div></div>';
+  var ins = [];
+  if (r.w && r.w * NEG >= 1) ins.push('Negative marking cost you <b>' + fmtp(lost) + ' marks</b> from ' + r.w + ' wrong answers. Next time, leave a question blank when you cannot eliminate at least two options.');
+  var weak = rows.filter(function (x) { return x.b.c + x.b.w >= 3 && x.acc != null && x.acc < 60; }).slice(0, 3);
+  if (weak.length) ins.push('Weakest areas: ' + weak.map(function (x) { return '<b>' + esc(x.k) + '</b> (' + x.acc + '%)'; }).join(', ') + '. Filter <a href="#mistakes">My mistakes</a> by subject and re-read those explanations.');
+  var strong = rows.filter(function (x) { return x.b.c + x.b.w >= 3 && x.acc != null && x.acc >= 80; }).slice(-2);
+  if (strong.length) ins.push('Solid on ' + strong.map(function (x) { return '<b>' + esc(x.k) + '</b> (' + x.acc + '%)'; }).join(' and ') + '. Keep these warm with quick revision rather than new reading.');
+  if (r.s > n * 0.25) ins.push('You skipped <b>' + r.s + '</b> questions. If most were skipped from caution, practise eliminating options; if from lack of knowledge, the Revealed, not tried list is your reading list.');
+  if (att.length > 1 && ix > 0) { var d = Math.round((r.marks - att[ix - 1].marks) * 100) / 100; ins.push('Compared with your previous attempt, net marks ' + (d >= 0 ? 'rose' : 'fell') + ' by <b>' + Math.abs(d) + '</b>.'); }
+  if (!ins.length) ins.push('A clean sheet to learn from. Open Review answers and read the explanation for every question, including those you got right.');
+  h += '<div class="pr-focus"><b>What to do next</b><ul style="margin:8px 0 0;padding-left:20px;display:grid;gap:6px">' + ins.map(function (x) { return '<li>' + x + '</li>'; }).join('') + '</ul></div>';
+  h += '<div class="pr-row" style="margin:6px 0 18px"><button class="pr-btn pri" data-act="rv">Review all answers</button><button class="pr-btn" data-act="rvbad"' + ((r.w || r.s) ? '' : ' disabled') + '>Practise my ' + (r.w + r.s) + ' misses</button><a class="pr-btn" href="#mistakes">Open My mistakes</a><button class="pr-btn" data-act="rt">Retake</button><a class="pr-btn" href="#mocks">All mock tests</a></div>';
+  h += '<div class="pr-grid2"><div class="pr-card"><h3 style="margin:0 0 12px">By subject</h3><div class="pr-bars">' + rows.map(function (x) { var t = x.b.n; return '<div class="pr-brow"><span class="nm">' + esc(x.k) + '</span><div class="pr-bar pr-stack" role="img" aria-label="' + esc(x.k) + ': ' + x.b.c + ' right, ' + x.b.w + ' wrong, ' + x.b.s + ' skipped"><i class="g" style="width:' + x.b.c / t * 100 + '%"></i><i class="r" style="width:' + x.b.w / t * 100 + '%"></i></div><span class="v">' + x.b.c + '/' + t + '</span></div>'; }).join('') + '</div><p class="pr-fine"><span class="pr-dot g"></span>right <span class="pr-dot r"></span>wrong, remainder skipped</p></div>';
+  h += '<div class="pr-card"><h3 style="margin:0 0 12px">By difficulty</h3><div class="pr-bars">' + DIFFS.filter(function (d) { return r.dby[d]; }).map(function (d) { var b = r.dby[d], t = b.n; return '<div class="pr-brow"><span class="nm">' + d + '</span><div class="pr-bar pr-stack"><i class="g" style="width:' + b.c / t * 100 + '%"></i><i class="r" style="width:' + b.w / t * 100 + '%"></i></div><span class="v">' + b.c + '/' + t + '</span></div>'; }).join('') + '</div>' +
+    (att.length > 1 ? '<h3 style="margin:22px 0 10px">Attempt history</h3><div class="pr-bars">' + att.map(function (a, i) { return '<div class="pr-brow"><span class="nm"><a href="#result/' + id + '/' + i + '">Attempt ' + (i + 1) + '</a> · ' + new Date(a.t).toLocaleDateString(undefined, { day: 'numeric', month: 'short' }) + '</span><div class="pr-bar"><i style="width:' + Math.max(0, a.marks) / a.n * 100 + '%"></i></div><span class="v">' + fmtp(a.marks) + '</span></div>'; }).join('') + '</div>' : '') + '</div></div>';
+  ROOT.innerHTML = h; ROOT.oninput = null;
+  ROOT.onclick = function (e) {
+    var b = e.target.closest('[data-act]'); if (!b) return; var a = b.dataset.act, all = D.qs.map(function (q) { return q.no; });
+    if (a === 'rv') start(id, all, 'Review: ' + D.meta.title);
+    else if (a === 'rvbad') { var nos = D.qs.filter(function (q) { var s = status(id, q.no); return s === 'bad' || s === 'seen'; }).map(function (q) { return q.no; }); start(id, nos, 'Your misses'); }
+    else if (a === 'rt') { if (confirm('Retake this paper? Your current answers are cleared and its mistakes leave My mistakes until you submit again. Your score history stays.')) startTest(id, true); }
+  };
+  scrollTop();
+}
+
 /* ---------- QUESTION VIEW ---------- */
 var CUR = null;
 function qview(id, no) {
-  var D = DATA[id], q = D.byNo[no], P = D.passages[q.pi], Q = activeQueue(id, no), idx = Q.nos.indexOf(no);
+  var D = DATA[id], q = D.byNo[no], P = D.passages[q.pi], Q = activeQueue(id, no), idx = Q.nos.indexOf(no), T = tOn(id), solo = !P.text;
   CUR = { id: id, no: no, Q: Q, idx: idx };
   SS(id).last = { no: no, t: Date.now() }; save();
   document.documentElement.style.setProperty('--pr-fs', S.prefs.fs || 1);
   var pct = Math.round((idx + 1) / Q.nos.length * 100);
-  var h = '<div class="pr-top" role="toolbar" aria-label="Question tools"><div class="l"><a class="pr-ib" href="#home" aria-label="Back to practice home" title="Practice home">' + IC.home + '</a>' +
-    '<div class="pos">Question ' + (idx + 1) + ' of ' + Q.nos.length + '<small>' + esc(Q.label || D.meta.title) + ' · Q' + q.no + ' of ' + D.qs.length + '</small></div></div>' +
+  var h = '<div class="pr-top" role="toolbar" aria-label="Question tools"><div class="l"><a class="pr-ib" href="' + (T ? '#mocks' : '#home') + '" aria-label="' + (T ? 'Back to mock tests (your answers are saved)' : 'Back to practice home') + '" title="' + (T ? 'Back to mock tests. Your answers are saved.' : 'Practice home') + '">' + IC.home + '</a>' +
+    '<div class="pos">Question ' + (idx + 1) + ' of ' + Q.nos.length + '<small>' + esc(T ? D.meta.title : (Q.label || D.meta.title)) + ' · Q' + q.no + ' of ' + D.qs.length + '</small></div></div>' +
     '<div class="r"><button class="pr-ib" data-act="fs-" aria-label="Smaller text">A−</button><button class="pr-ib" data-act="fs+" aria-label="Larger text">A+</button>' +
     '<button class="pr-ib" id="bmb" data-act="bm" aria-pressed="false" aria-label="Bookmark this question" title="Bookmark (B)">' + IC.star + '</button>' +
-    '<button class="pr-btn sm" data-act="pal">' + IC.grid.replace('<svg', '<svg width="18" height="18"') + ' Questions</button></div></div>' +
-    '<div class="pr-qprog" aria-hidden="true"><i style="width:' + pct + '%"></i></div>' +
-    '<div class="pr-split"><details class="pr-pass" data-wm id="pass"' + '' + ' open><summary><span class="t"><small>' + esc(P.id) + ' · ' + esc(P.subject) + '</small>' + esc(P.title) + '</span></summary><div class="pr-ptext">' + esc(P.text) + '<span class="wc">About ' + (P.wc || '') + ' words · questions ' + P.qs[0].no + ' to ' + P.qs[P.qs.length - 1].no + '</span></div></details>' +
+    '<button class="pr-btn sm" data-act="pal" aria-label="Question palette">' + IC.grid.replace('<svg', '<svg width="18" height="18"') + ' <span class="lbl">Questions</span></button>' + (T ? '<button class="pr-btn sm pri" data-act="submit">Submit</button>' : '') + '</div></div>' +
+    '<div class="pr-qprog" aria-hidden="true"><i style="width:' + pct + '%"></i></div>' + (T ? '<p class="pr-tcount" id="tcount"></p>' : '') +
+    '<div class="pr-split' + (solo ? ' solo' : '') + '">' + (solo ? '' : '<details class="pr-pass" data-wm id="pass" open><summary><span class="t"><small>' + esc(P.id) + ' · ' + esc(P.subject) + '</small>' + esc(P.title) + '</span></summary><div class="pr-ptext">' + esc(P.text) + '<span class="wc">' + (P.wc ? 'About ' + P.wc + ' words · ' : '') + 'questions ' + P.qs[0].no + ' to ' + P.qs[P.qs.length - 1].no + '</span></div></details>') +
     '<div id="qpane"></div></div><div id="palroot"></div>';
   ROOT.innerHTML = h;
-  /* on phones the passage is open for the first question of a passage, collapsed for later ones */
-  if (matchMedia('(max-width:999px)').matches && q.k > 0 && status(id, no) !== 'new') $('#pass').open = false;
+  if (!solo && matchMedia('(max-width:999px)').matches && q.k > 0 && status(id, no) !== 'new' && !T) $('#pass').open = false;
   renderQ(); ROOT.onclick = onQClick; ROOT.oninput = onQInput; scrollTop();
   say('Question ' + (idx + 1) + ' of ' + Q.nos.length);
 }
+function updT() { var c = CUR, el = $('#tcount'); if (!el || !c) return; var k = tcounts(c.id); el.innerHTML = '<b>' + k.a + '</b> answered · <b>' + k.u + '</b> not answered · <b>' + k.m + '</b> marked for review. No timer.'; }
 function renderQ() {
-  var c = CUR, D = DATA[c.id], q = D.byNo[c.no], st = QS(c.id, c.no) || {}, rev = !!st.r, sel = st.s || null, S0 = SS(c.id);
+  var c = CUR, D = DATA[c.id], q = D.byNo[c.no], T = tOn(c.id), st = QS(c.id, c.no) || {}, rev = !T && !!st.r, sel = st.s || null, S0 = SS(c.id);
   var bm = !!S0.bm[c.no], b = $('#bmb'); if (b) { b.classList.toggle('on', bm); b.setAttribute('aria-pressed', bm); }
-  var h = '<section class="pr-q" data-wm aria-label="Question ' + q.no + '"><div class="pr-qhead"><span class="pr-qno">Q' + q.no + '</span><span class="pr-chip d-' + esc(q.diff) + '">' + esc(q.diff) + '</span><span class="pr-chip">' + esc(q.subject) + '</span>' +
-    (rev ? '' : '') + '</div><p class="pr-qtext" id="qt">' + esc(q.q) + '</p>';
+  var marked = !!(T && S0.test && S0.test.mark && S0.test.mark[c.no]);
+  var h = '<section class="pr-q" data-wm aria-label="Question ' + q.no + '"><div class="pr-qhead"><span class="pr-qno">Q' + q.no + '</span>' + (T ? '' : '<span class="pr-chip d-' + esc(q.diff) + '">' + esc(q.diff) + '</span>') + '<span class="pr-chip">' + esc(q.subject) + '</span>' + (marked ? '<span class="pr-chip" style="background:#d9c7ff">Marked for review</span>' : '') +
+    '</div><p class="pr-qtext" id="qt">' + esc(q.q) + '</p>';
   h += '<div class="pr-opts" role="radiogroup" aria-labelledby="qt">';
   L.split('').forEach(function (k) {
+    if (q.opts[k] == null) return;
     var cls = 'pr-opt', mk = '';
     if (rev) {
       if (k === q.ans) { cls += ' right'; mk = '<span class="mk">' + (sel === k ? 'YOUR ANSWER ✓' : 'CORRECT') + '</span>'; }
@@ -232,31 +358,36 @@ function renderQ() {
     h += '<button type="button" role="radio" class="' + cls + '" data-act="opt" data-k="' + k + '" aria-checked="' + (sel === k) + '"' + (rev ? ' disabled' : '') + '><span class="l">' + k + '</span><span class="tx">' + esc(q.opts[k]) + '</span>' + mk + '</button>';
   });
   h += '</div>';
-  if (!rev) {
+  if (T) {
+    h += '<div class="pr-act"><button class="pr-btn" data-act="tmark" aria-pressed="' + marked + '">' + (marked ? '✓ Marked for review' : 'Mark for review') + '</button>' + (sel ? '<button class="pr-btn" data-act="clear">Clear response</button>' : '') + '<span class="grow"></span></div>' +
+      '<p class="pr-hint"><kbd>A</kbd>–<kbd>D</kbd> choose (press again to clear) · <kbd>M</kbd> mark · <kbd>←</kbd> <kbd>→</kbd> move · <kbd>B</kbd> bookmark</p>';
+  } else if (!rev) {
     h += '<div class="pr-act"><button class="pr-btn pri" data-act="show">' + (sel ? 'Check answer' : 'Show answer') + '</button>' + (sel ? '<button class="pr-btn" data-act="clear">Clear</button>' : '') + '<span class="grow"></span></div>' +
       '<p class="pr-hint"><kbd>A</kbd>–<kbd>D</kbd> choose · <kbd>Enter</kbd> show answer · <kbd>←</kbd> <kbd>→</kbd> move · <kbd>B</kbd> bookmark</p>';
   } else {
-    var ok = st.s && st.c, cls = !st.s ? 'seen' : (ok ? 'ok' : 'bad');
-    h += '<div class="pr-verdict ' + cls + '" role="status"><div><span class="big">' + (!st.s ? 'Answer revealed' : ok ? 'Correct' : 'Not quite') + '</span><small>' +
+    var ok = st.s && st.c, cls2 = !st.s ? 'seen' : (ok ? 'ok' : 'bad');
+    h += '<div class="pr-verdict ' + cls2 + '" role="status"><div><span class="big">' + (!st.s ? 'Answer revealed' : ok ? 'Correct' : 'Not quite') + '</span><small>' +
       (!st.s ? 'You did not pick an option, so this is not scored. The correct answer is ' + q.ans + '.' : ok ? 'Option ' + q.ans + ' is right.' : 'You chose ' + st.s + '. The correct answer is ' + q.ans + '.') + '</small></div>' +
-      '<span class="sc">' + (!st.s ? '0' : ok ? '+1' : '−0.25') + '</span></div>';
+      '<span class="sc">' + (!st.s ? '0' : ok ? '+1' : '−' + NEG) + '</span></div>';
     h += '<div class="pr-act"><button class="pr-btn" data-act="retry">Try again</button><button class="pr-btn" data-act="report">Report an issue</button></div>';
   }
   h += '<span class="pr-stamp" aria-hidden="true">NETLAWVERSE.IN</span></section>';
   if (rev) {
     h += '<section class="pr-exp pr-expw" data-wm id="exp" aria-label="Explanation">' +
-      '<div class="pr-ex e1"><h4><i>✓</i>Why option ' + q.ans + ' is correct</h4><p>' + esc(q.exp) + '</p></div>' +
-      '<div class="pr-ex e2"><h4><i>✗</i>Why the other options fail</h4>' + whyList(q.why, q.ans) + '</div>' +
-      '<div class="pr-ex e3"><h4><i>⚠</i>The CLAT trap: how this question is tricky</h4><p>' + esc(q.trap) + '</p></div>' +
-      '<div class="pr-ex e4"><h4><i>Aa</i>Language trick</h4><p>' + esc(q.lang) + '</p></div>' +
+      (q.exp ? '<div class="pr-ex e1"><h4><i>✓</i>Why option ' + q.ans + ' is correct</h4><p>' + esc(q.exp) + '</p></div>' : '') +
+      (q.why ? '<div class="pr-ex e2"><h4><i>✗</i>Why the other options fail</h4>' + whyList(q.why, q.ans) + '</div>' : '') +
+      (q.trap ? '<div class="pr-ex e3"><h4><i>⚠</i>' + esc(CFG.trapLabel) + '</h4><p>' + esc(q.trap) + '</p></div>' : '') +
+      (q.lang ? '<div class="pr-ex e4"><h4><i>Aa</i>' + esc(CFG.langLabel) + '</h4><p>' + esc(q.lang) + '</p></div>' : '') +
       '<span class="pr-stamp" aria-hidden="true">NETLAWVERSE.IN</span></section>';
   }
-  var nt = S0.note[c.no] || '';
-  h += '<div class="pr-note"><label for="note">Your note for this question</label><textarea id="note" maxlength="1200" placeholder="Write the rule in your own words, or why you slipped…">' + esc(nt) + '</textarea></div>';
-  var Q = c.Q, i = c.idx, prev = Q.nos[i - 1], next = Q.nos[i + 1], endOfPass = next && D.byNo[next].pi !== q.pi;
-  h += '<div class="pr-nav"><button class="pr-btn" data-act="prev"' + (prev ? '' : ' disabled') + '>← Previous</button><span class="mid">' + (next ? (endOfPass ? 'Next: a new passage' : '') : 'Last question in this session') + '</span>' +
-    (next ? '<button class="pr-btn pri" data-act="next">Next →</button>' : '<a class="pr-btn pri" href="#home">Finish session</a>') + '</div>';
-  $('#qpane').innerHTML = h;
+  if (!T && CFG.notes) {
+    var nt = S0.note[c.no] || '';
+    h += '<div class="pr-note"><label for="note">Your note for this question</label><textarea id="note" maxlength="1200" placeholder="Write the rule in your own words, or why you slipped…">' + esc(nt) + '</textarea></div>';
+  }
+  var Q = c.Q, i = c.idx, prev = Q.nos[i - 1], next = Q.nos[i + 1], endOfPass = next && !D.flat && D.byNo[next].pi !== q.pi;
+  h += '<div class="pr-nav"><button class="pr-btn" data-act="prev"' + (prev ? '' : ' disabled') + '>← Previous</button><span class="mid">' + (next ? (endOfPass ? 'Next: a new passage' : '') : (T ? 'Last question. Review your palette, then submit.' : 'Last question in this session')) + '</span>' +
+    (next ? '<button class="pr-btn pri" data-act="next">Next →</button>' : (T ? '<button class="pr-btn pri" data-act="submit">Submit test</button>' : '<a class="pr-btn pri" href="#home">Finish session</a>')) + '</div>';
+  $('#qpane').innerHTML = h; updT();
 }
 function whyList(txt, ans) {
   var parts = String(txt || '').split(/\s+(?=Options?\s+[A-D]\b)/).filter(Boolean);
@@ -268,12 +399,17 @@ function whyList(txt, ans) {
   }).join('') + '</ul>';
 }
 function pickOpt(k) {
-  var c = CUR, st = QS(c.id, c.no); if (st && st.r) return;
-  var S0 = SS(c.id); S0.q[c.no] = Object.assign({}, st || {}, { s: k }); save();
-  if (S.prefs.auto) { reveal(); return; }
+  var c = CUR, st = QS(c.id, c.no), T = tOn(c.id); if (!T && st && st.r) return;
+  var S0 = SS(c.id);
+  if (T && st && st.s === k) S0.q[c.no] = Object.assign({}, st, { s: null });
+  else S0.q[c.no] = Object.assign({}, st || {}, { s: k });
+  save();
+  if (!T && S.prefs.auto) { reveal(); return; }
   renderQ(); var o = $('[data-k="' + k + '"]'); if (o) o.focus();
 }
+function toggleMark() { var c = CUR, S0 = SS(c.id); S0.test = S0.test || {}; S0.test.mark = S0.test.mark || {}; if (S0.test.mark[c.no]) delete S0.test.mark[c.no]; else S0.test.mark[c.no] = 1; save(); renderQ(); }
 function reveal() {
+  if (tOn(CUR.id)) return;
   var c = CUR, D = DATA[c.id], q = D.byNo[c.no], S0 = SS(c.id), st = S0.q[c.no] || {};
   if (st.r) return;
   var sel = st.s || null, ok = sel === q.ans;
@@ -301,39 +437,42 @@ function onQClick(e) {
   else if (a === 'next') move(1);
   else if (a === 'prev') move(-1);
   else if (a === 'bm') toggleBm();
+  else if (a === 'tmark') toggleMark();
+  else if (a === 'submit') confirmSubmit();
   else if (a === 'fs+' || a === 'fs-') { var v = Math.max(.85, Math.min(1.45, (S.prefs.fs || 1) + (a === 'fs+' ? .1 : -.1))); S.prefs.fs = Math.round(v * 100) / 100; save(); document.documentElement.style.setProperty('--pr-fs', S.prefs.fs); }
   else if (a === 'pal') openPal();
-  else if (a === 'report') { var D = DATA[CUR.id], q = D.byNo[CUR.no]; if (window.NLReport) NLReport.open({ q: q.q, o: [q.opts.A, q.opts.B, q.opts.C, q.opts.D], a: L.indexOf(q.ans), e: q.exp }, 'CLAT PG Practice ' + D.title + ' - Q' + q.no); else location.href = 'mailto:netlawverse@gmail.com?subject=' + encodeURIComponent('Practice Q' + q.no); }
+  else if (a === 'report') { var D = DATA[CUR.id], q = D.byNo[CUR.no]; if (window.NLReport) NLReport.open({ q: q.q, o: [q.opts.A, q.opts.B, q.opts.C, q.opts.D], a: L.indexOf(q.ans), e: q.exp }, CFG.exam + ' Practice ' + D.meta.title + ' - Q' + q.no); else location.href = 'mailto:netlawverse@gmail.com?subject=' + encodeURIComponent(CFG.exam + ' ' + D.meta.title + ' Q' + q.no); }
 }
 function onKey(e) {
   if (!CUR || !/^#\/?q\//.test(location.hash)) return;
   var t = e.target; if (t && /^(TEXTAREA|INPUT|SELECT)$/.test(t.tagName)) return; if (e.ctrlKey || e.metaKey || e.altKey) return;
   var pal = $('.pr-pal:not([hidden])'); if (pal) { if (e.key === 'Escape') closePal(); return; }
-  var k = e.key, st = QS(CUR.id, CUR.no), rev = st && st.r;
+  var T = tOn(CUR.id), k = e.key, st = QS(CUR.id, CUR.no), rev = !T && st && st.r;
   if (/^[a-dA-D]$/.test(k) && !rev) { pickOpt(k.toUpperCase()); e.preventDefault(); }
   else if (/^[1-4]$/.test(k) && !rev) { pickOpt(L[+k - 1]); }
-  else if (k === 'Enter') { if (t && t.tagName === 'A') return; e.preventDefault(); if (!rev) reveal(); else move(1); }
+  else if (k === 'Enter') { if (t && (t.tagName === 'A' || t.tagName === 'BUTTON')) return; e.preventDefault(); if (T) move(1); else if (!rev) reveal(); else move(1); }
   else if (k === 'ArrowRight' || k === 'n') move(1);
   else if (k === 'ArrowLeft' || k === 'p') move(-1);
   else if (k === 'b' || k === 'B') toggleBm();
+  else if ((k === 'm' || k === 'M') && T) toggleMark();
   else if (k === 'r' && rev) retry();
 }
-
-/* palette */
 function openPal() {
-  var c = CUR, D = DATA[c.id], inQ = {}; c.Q.nos.forEach(function (n) { inQ[n] = 1; });
+  var c = CUR, D = DATA[c.id], T = tOn(c.id), inQ = {}; c.Q.nos.forEach(function (n) { inQ[n] = 1; });
   var h = '<div class="pr-pal" role="dialog" aria-modal="true" aria-label="All questions"><div class="sheet"><div class="hd"><h3>All questions</h3><button class="pr-btn sm" data-pal="x">Close</button></div>' +
-    '<div class="pr-leg"><span><i class="ok"></i>Right</span><span><i class="bad"></i>Wrong</span><span><i class="seen"></i>Revealed</span><span><i></i>Not done</span><span>★ Bookmarked</span></div>';
+    (T ? '<div class="pr-leg"><span><i class="an"></i>Answered</span><span><i class="mr"></i>Marked</span><span><i></i>Not answered</span><span>★ Bookmarked</span></div>' : '<div class="pr-leg"><span><i class="ok"></i>Right</span><span><i class="bad"></i>Wrong</span><span><i class="seen"></i>Revealed</span><span><i></i>Not done</span><span>★ Bookmarked</span></div>');
   D.passages.forEach(function (p) {
     h += '<div class="pr-pg-t">' + esc(p.id) + ' <small>· ' + esc(p.title) + '</small></div><div class="pr-cells">';
-    p.qs.forEach(function (q) { var s = status(c.id, q.no); h += '<button class="pr-cell ' + (s === 'new' ? '' : s) + (q.no === c.no ? ' cur' : '') + (inQ[q.no] ? '' : ' out') + '" data-pal="' + q.no + '" aria-label="Question ' + q.no + (s === 'new' ? ', not done' : ', ' + s) + '">' + q.no + (SS(c.id).bm[q.no] ? '<span class="st">★</span>' : '') + '</button>'; });
+    p.qs.forEach(function (q) { var s = T ? tstatus(c.id, q.no) : status(c.id, q.no); h += '<button class="pr-cell ' + (s === 'new' ? '' : s) + (q.no === c.no ? ' cur' : '') + (inQ[q.no] ? '' : ' out') + '" data-pal="' + q.no + '" aria-label="Question ' + q.no + (s === 'new' ? ', not done' : ', ' + s) + '">' + q.no + (SS(c.id).bm[q.no] ? '<span class="st">★</span>' : '') + '</button>'; });
     h += '</div>';
   });
-  h += '<p class="pr-fine">Faded numbers are outside your current session. Tapping one opens it as a single-question session within the full set.</p></div></div>';
+  h += T ? '<p class="pr-fine">Tap a number to jump to that question. Your answers are saved as you go.</p><div class="pr-row" style="margin-top:12px"><button class="pr-btn pri" data-pal="sub">Submit test</button></div></div></div>' : '<p class="pr-fine">Faded numbers are outside your current session. Tapping one opens it as a single-question session within the full set.</p></div></div>';
   var r = $('#palroot'); r.innerHTML = h; var pal = r.firstChild; lastFocus = document.activeElement;
   pal.onclick = function (e) {
     if (e.target === pal) return closePal(); var b = e.target.closest('[data-pal]'); if (!b) return;
-    if (b.dataset.pal === 'x') return closePal(); var n = +b.dataset.pal;
+    if (b.dataset.pal === 'x') return closePal();
+    if (b.dataset.pal === 'sub') { closePal(); return confirmSubmit(); }
+    var n = +b.dataset.pal;
     if (c.Q.nos.indexOf(n) < 0) { var all = D.qs.map(function (q) { return q.no; }); setQueue(c.id, all, 'Full set'); }
     closePal(); go('#q/' + c.id + '/' + n);
   };
@@ -353,12 +492,12 @@ function reviewCard(id, q) {
     return '<li class="' + cl + '"><span class="l">' + k + '</span><span>' + esc(q.opts[k]) + '</span>' + (mk ? '<span class="mk">' + mk + '</span>' : '') + '</li>';
   }).join('');
   return '<details class="pr-rv" data-no="' + q.no + '" data-set="' + id + '"><summary><div class="chips">' + chips + '</div><div class="stem">' + esc(q.q) + '</div></summary><div class="body" data-wm>' +
-    '<details class="pp"><summary>Read the passage: ' + esc(P.title) + '</summary><div class="pt">' + esc(P.text) + '</div></details>' +
+    (P.text ? '<details class="pp"><summary>Read the passage: ' + esc(P.title) + '</summary><div class="pt">' + esc(P.text) + '</div></details>' : '') +
     '<p class="pr-qtext" style="margin:0">' + esc(q.q) + '</p><ul class="roptions">' + opts + '</ul>' +
-    '<div class="pr-ex e1"><h4><i>✓</i>Why option ' + q.ans + ' is correct</h4><p>' + esc(q.exp) + '</p></div>' +
-    '<div class="pr-ex e2"><h4><i>✗</i>Why the other options fail</h4>' + whyList(q.why, q.ans) + '</div>' +
-    '<div class="pr-ex e3"><h4><i>⚠</i>The CLAT trap</h4><p>' + esc(q.trap) + '</p></div>' +
-    '<div class="pr-ex e4"><h4><i>Aa</i>Language trick</h4><p>' + esc(q.lang) + '</p></div>' +
+    (q.exp ? '<div class="pr-ex e1"><h4><i>✓</i>Why option ' + q.ans + ' is correct</h4><p>' + esc(q.exp) + '</p></div>' : '') +
+    (q.why ? '<div class="pr-ex e2"><h4><i>✗</i>Why the other options fail</h4>' + whyList(q.why, q.ans) + '</div>' : '') +
+    (q.trap ? '<div class="pr-ex e3"><h4><i>⚠</i>' + esc(CFG.trapLabel.replace(': how this question is tricky', '')) + '</h4><p>' + esc(q.trap) + '</p></div>' : '') +
+    (q.lang ? '<div class="pr-ex e4"><h4><i>Aa</i>' + esc(CFG.langLabel) + '</h4><p>' + esc(q.lang) + '</p></div>' : '') +
     (note ? '<div class="note"><b>Your note:</b> ' + esc(note) + '</div>' : '') +
     '<div class="acts"><button class="pr-btn sm pri" data-ract="one">Practise this question</button><button class="pr-btn sm" data-ract="bm">' + (bm ? 'Remove bookmark' : 'Bookmark') + '</button>' + (s === 'bad' || s === 'seen' ? '<button class="pr-btn sm" data-ract="reset">Reset &amp; retry later</button>' : '') + '</div>' +
     '<span class="pr-stamp" aria-hidden="true">NETLAWVERSE.IN</span></div></details>';
@@ -432,8 +571,15 @@ function progress() {
   h += '<div class="pr-stats" style="margin-bottom:16px"><div class="pr-stat"><b>' + A.att + '</b><small>questions attempted</small></div><div class="pr-stat"><b>' + (A.acc == null ? '–' : A.acc + '%') + '</b><small>accuracy</small></div><div class="pr-stat"><b>' + fmtp(A.marks) + '</b><small>net marks</small></div><div class="pr-stat"><b>' + S.days.length + '</b><small>days practised</small></div><div class="pr-stat"><b>' + streak() + '</b><small>day streak</small></div></div>';
   if (weak.length) h += '<div class="pr-focus">Focus next: ' + weak.map(function (w) { return '<b>' + esc(w.n) + '</b> (' + w.a + '%)'; }).join(', ') + '. Open <a href="#mistakes">My mistakes</a> and filter by subject.</div>';
   else if (!A.att) h += '<div class="pr-focus">Attempt a few questions and your weak subjects will show up here.</div>';
+  var mockH = '';
+  if (CFG.mocks) {
+    var mr = [];
+    msets().forEach(function (m) { (SS(m.id).attempts || []).forEach(function (a, i) { mr.push({ n: DATA[m.id].meta.title + ' · attempt ' + (i + 1), a: Math.max(0, Math.round(a.marks / a.n * 100)), k: fmtp(a.marks) + '/' + a.n, t: a.t }); }); });
+    mr.sort(function (a, b) { return b.t - a.t; });
+    mockH = '<div class="pr-card" style="margin-bottom:18px"><h3 style="margin:0 0 12px">Mock test scores</h3>' + (mr.length ? bars(mr.slice(0, 12)) + '<p class="pr-fine">Bars show net marks as a share of the paper. Open a result from the Mock tests tab to see the full breakdown.</p>' : '<p class="pr-sub" style="margin:0">No mock test submitted yet. Your net marks for each attempt will be listed here.</p>') + '</div>';
+  }
   var setRows = SETS.map(function (m) { var st = stats(m.id); return { n: m.title, a: st.acc, k: st.ok + '/' + st.att }; });
-  h += '<div class="pr-grid2"><div class="pr-card"><h3 style="margin:0 0 12px">By set</h3>' + bars(setRows) + '<h3 style="margin:22px 0 12px">By subject</h3>' + bars(subRows) + '</div><div class="pr-card"><h3 style="margin:0 0 12px">By difficulty</h3>' + bars(DIFFS.map(function (d) { var v = byDiff[d] || { ok: 0, bad: 0 }, t = v.ok + v.bad; return { n: d, a: t ? Math.round(v.ok / t * 100) : null, k: v.ok + '/' + t }; })) +
+  h += mockH + '<div class="pr-grid2"><div class="pr-card"><h3 style="margin:0 0 12px">By set</h3>' + bars(setRows) + '<h3 style="margin:22px 0 12px">By subject</h3>' + bars(subRows) + '</div><div class="pr-card"><h3 style="margin:0 0 12px">By difficulty</h3>' + bars(DIFFS.map(function (d) { var v = byDiff[d] || { ok: 0, bad: 0 }, t = v.ok + v.bad; return { n: d, a: t ? Math.round(v.ok / t * 100) : null, k: v.ok + '/' + t }; })) +
     '<p class="pr-fine">Accuracy counts only questions where you picked an option before checking. Answers revealed without trying are not scored.</p>' +
     '<h3 style="margin:22px 0 8px">Settings</h3><label class="pr-row" style="gap:10px;font-weight:700"><input type="checkbox" id="auto" ' + (S.prefs.auto ? 'checked' : '') + ' style="width:20px;height:20px"> Show the answer as soon as I pick an option</label>' +
     '<h3 style="margin:22px 0 8px">Your data</h3><div class="pr-data"><button class="pr-btn sm" data-act="exp">Backup (download)</button><label class="pr-btn sm" style="cursor:pointer">Restore<input type="file" id="imp" accept="application/json,.json" hidden></label><button class="pr-btn sm dng" data-act="reset">Reset all progress</button></div>' +
@@ -448,7 +594,7 @@ function progress() {
   };
   ROOT.onclick = function (e) {
     var b = e.target.closest('[data-act]'); if (!b) return;
-    if (b.dataset.act === 'exp') { var blob = new Blob([JSON.stringify(S)], { type: 'application/json' }), a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'netlawverse-clat-practice-backup.json'; document.body.appendChild(a); a.click(); setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 500); }
+    if (b.dataset.act === 'exp') { var blob = new Blob([JSON.stringify(S)], { type: 'application/json' }), a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'netlawverse-' + CFG.slug + '-practice-backup.json'; document.body.appendChild(a); a.click(); setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 500); }
     else if (b.dataset.act === 'reset') { if (confirm('Erase all practice progress, bookmarks and notes in this browser? This cannot be undone.')) { S = { sets: {}, prefs: S.prefs, days: [] }; save(); try { sessionStorage.removeItem(QKEY); } catch (x) {} QUEUE = null; toast('Progress cleared'); progress(); } }
   };
   scrollTop();

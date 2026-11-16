@@ -1,0 +1,20 @@
+{
+ "_comment": "Example of what practice/index.json looks like once you have content. Copy the entries you need into index.json.",
+ "sets": [
+  {
+   "id": "ap-01",
+   "file": "set-01.json",
+   "title": "AILET Practice Set 01",
+   "tag": "Core subjects",
+   "blurb": "One or two sentences shown on the set card."
+  },
+  {
+   "id": "am-01",
+   "file": "mock-01.json",
+   "type": "mock",
+   "title": "AILET Mock Test 01",
+   "tag": "Full-length",
+   "blurb": "100 questions, 100 marks, 0.25 negative marking. No timer."
+  }
+ ]
+}

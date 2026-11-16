@@ -584,6 +584,16 @@ R.clat = function (p) {
     default: return hub();
   }
 };
+
+/* ---------- AILET: the website's AILET section shown inside the app (ailet/*.html?embed=1). Pages keep navigating inside the frame. ---------- */
+var AILET_PAGES = { what: 'what-is-ailet.html', syllabus: 'syllabus.html', practice: 'practice.html', mocks: 'practice.html#mocks', revision: 'practice.html#mistakes', faq: 'faq.html' };
+function ailet(which) {
+  var f = AILET_PAGES[which] || 'index.html', i = f.indexOf('#'), file = i < 0 ? f : f.slice(0, i), hash = i < 0 ? '' : f.slice(i);
+  cscreen({ top: tbar('AILET', { sub: 'NLU Delhi LL.M. · no timer', la: 'cexams', right: '<a class="ib" href="#/" aria-label="Home">' + I.home + '</a>' }),
+    flush: true, exam: true, cls: 'cmv',
+    body: '<iframe class="cmf" title="AILET LL.M. preparation" src="ailet/' + file + '?embed=1' + hash + '" allow="clipboard-write; web-share"></iframe>' }, 'prac', { nonav: true });
+}
+R.ailet = function (p) { ailet((p || [])[0]); };
 R.ug = function () { soon('ug'); };
 R.aibe = function () { soon('aibe'); };
 R.sem = function () { soon('sem'); };
