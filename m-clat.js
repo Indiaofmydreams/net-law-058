@@ -594,7 +594,17 @@ function ailet(which) {
     body: '<iframe class="cmf" title="AILET LL.M. preparation" src="ailet/' + file + '?embed=1' + hash + '" allow="clipboard-write; web-share"></iframe>' }, 'prac', { nonav: true });
 }
 R.ailet = function (p) { ailet((p || [])[0]); };
+
+/* ---------- AIBE: the website's AIBE section shown inside the app (aibe/*.html?embed=1). ---------- */
+var AIBE_PAGES = { what: 'what-is-aibe.html', syllabus: 'syllabus.html', practice: 'practice.html', mocks: 'practice.html#mocks', revision: 'practice.html#mistakes', faq: 'faq.html' };
+function aibe(which) {
+  var f = AIBE_PAGES[which] || 'index.html', i = f.indexOf('#'), file = i < 0 ? f : f.slice(0, i), hash = i < 0 ? '' : f.slice(i);
+  cscreen({ top: tbar('AIBE', { sub: 'All India Bar Examination · no timer', la: 'cexams', right: '<a class="ib" href="#/" aria-label="Home">' + I.home + '</a>' }),
+    flush: true, exam: true, cls: 'cmv',
+    body: '<iframe class="cmf" title="AIBE preparation" src="aibe/' + file + '?embed=1' + hash + '" allow="clipboard-write; web-share"></iframe>' }, 'prac', { nonav: true });
+}
+R.aibe = function (p) { aibe((p || [])[0]); };
 R.ug = function () { soon('ug'); };
-R.aibe = function () { soon('aibe'); };
+
 R.sem = function () { soon('sem'); };
 })();

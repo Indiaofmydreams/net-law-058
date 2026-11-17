@@ -93,8 +93,6 @@
 .c7 .chips li{background:#ffe0ea}
 .c7 .sticker{background:#ffe0ea}
 .c7 .go{background:#ff9eb5;color:var(--ink)}
-.cards>.card.wide{grid-column:1/-1}
-.cards>.card.wide .desc{max-width:80ch}
 
   .sticker { position:absolute; top:-16px; right:18px; transform:rotate(6deg); background:var(--sun); border:3px solid var(--ink);
              border-radius:12px; padding:5px 12px; font-weight:800; font-size:.88rem; box-shadow:3px 3px 0 var(--ink); }
@@ -138,7 +136,7 @@
   }
 
 
-/* Landing in 2027: AIBE + Semester Law Notes */
+/* Landing in 2027: CLAT UG + Semester Law Notes */
 .soonhead{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 4px}
 .soonhead h2{margin:0;font-size:clamp(1.6rem,3.4vw,2.3rem);font-weight:800;letter-spacing:-.03em}
 .newpill{display:inline-block;padding:5px 14px;border-radius:999px;background:var(--ink);color:#fff;font-weight:800;font-size:.88rem}
@@ -247,7 +245,11 @@
           </div>
         </a>
 
-        <a class="card c7 wide" href="ailet/">
+
+      </section>
+
+      <section class="cards two" aria-label="More exams, live now">
+        <a class="card c7" href="ailet/">
           <span class="sticker">New</span>
           <div class="badge">AL</div>
           <h2>AILET</h2>
@@ -261,12 +263,27 @@
             <span class="go">Open AILET</span>
           </div>
         </a>
+        <a class="card c4" href="aibe/">
+          <span class="sticker">New</span>
+          <div class="badge">AI</div>
+          <h2>AIBE</h2>
+          <p class="what">All India Bar Examination</p>
+          <p class="desc">Free AIBE preparation: what the exam is, pattern, marking and pass marks, the 19-subject syllabus with a progress tracker, practice questions, untimed full-length mock tests and a revision notebook. No timer, no sign-up.</p>
+          <ul class="chips">
+            <li>Exam guide</li><li>Syllabus tracker</li><li>Practice Arena</li><li>Mock tests, no timer</li><li>Revision notebook</li>
+          </ul>
+          <div class="foot">
+            <div class="count"><b>19</b><small>subjects in the paper</small></div>
+            <span class="go">Open AIBE</span>
+          </div>
+        </a>
       </section>
+
 
       <section class="soon2027" aria-label="Landing in 2027">
         <div class="soonhead"><h2>Landing in 2027</h2><span class="newpill">New</span></div>
-        <p class="soonsub">Three more sections are on their way. Peek at what is planned.</p>
-        <div class="cards two three">
+        <p class="soonsub">Two more sections are on their way. Peek at what is planned.</p>
+        <div class="cards two">
           <a class="card c6" href="clat-ug-2027.html">
             <span class="sticker">Coming soon</span>
             <div class="badge">UG</div>
@@ -279,18 +296,7 @@
               <span class="go">See what&rsquo;s coming</span>
             </div>
           </a>
-          <a class="card c4" href="aibe-2027.html">
-            <span class="sticker">Next up</span>
-            <div class="badge">AI</div>
-            <h2>AIBE</h2>
-            <p class="what">All India Bar Examination</p>
-            <p class="desc">The bar exam that stands between your LL.B. and practice. Notes, MCQs and mock tests are being planned.</p>
-            <ul class="chips"><li>Notes</li><li>MCQs</li><li>Mock tests</li></ul>
-            <div class="foot">
-              <div class="count"><b>2027</b><small>Coming soon</small></div>
-              <span class="go">See what&rsquo;s coming</span>
-            </div>
-          </a>
+
           <a class="card c5" href="semester-law-notes-2027.html">
             <span class="sticker">Next up</span>
             <div class="badge">SEM</div>

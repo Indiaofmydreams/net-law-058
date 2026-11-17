@@ -3,7 +3,7 @@
 "use strict";
 var ROOT = document.getElementById('pr-root'); if (!ROOT) return;
 var CFG = Object.assign({ dir: 'practice/', key: 'clatpg-practice-v1', qkey: 'clatpg-practice-queue', exam: 'CLAT PG', arena: 'Practice Arena', slug: 'clat', neg: 0.25, mocks: false,
-  pill: 'FREE · NO SIGN-UP · NEW', trapLabel: 'The CLAT trap: how this question is tricky', langLabel: 'Language trick', heroLead: null, how: null, notes: true }, window.PRACTICE_CFG || {});
+  pill: 'FREE · NO SIGN-UP · NEW', pass: null, passNote: '', trapLabel: 'The CLAT trap: how this question is tricky', langLabel: 'Language trick', heroLead: null, how: null, notes: true }, window.PRACTICE_CFG || {});
 var KEY = CFG.key, QKEY = CFG.qkey, L = 'ABCD', NEG = CFG.neg;
 var DIFFS = ['Moderate', 'Tough', 'Extreme'];
 var mem = null, SETS = [], DATA = {}, QUEUE = null, toastT, lastFocus = null;
@@ -37,7 +37,7 @@ function normQ(q, i, p) {
   ans = String(ans || '').trim().toUpperCase().charAt(0);
   var subj = q.subject_area || q.subject || (p && p.subject_area) || 'General';
   return { no: q.q_no != null ? q.q_no : i + 1, subject: subj, sg: String(subj).replace(/\s*\([^)]*\)\s*/g, ' ').replace(/\s+/g, ' ').trim(), q: q.question, opts: opts, ans: ans,
-    exp: q.explanation || '', why: q.why_other_options_are_wrong || '', trap: q.clat_trap || q.ailet_trap || q.trap || '', lang: q.language_trick || q.lang || '', diff: q.difficulty || 'Moderate' };
+    exp: q.explanation || '', why: q.why_other_options_are_wrong || '', trap: q.clat_trap || q.ailet_trap || q.aibe_trap || q.trap || '', lang: q.language_trick || q.lang || '', diff: q.difficulty || 'Moderate' };
 }
 function flatten(id, raw, meta) {
   var qs = [], byNo = {}, pas = [], src = raw.passages, flat = false, n = 0;
@@ -140,13 +140,14 @@ function tabs(cur) {
 function lastQ() {
   var best = null; Object.keys(S.sets).forEach(function (id) { var s = S.sets[id]; if (s.last && DATA[id] && DATA[id].byNo[s.last.no] && (!best || (s.last.t || 0) > best.t)) best = { id: id, no: s.last.no, t: s.last.t || 0 }; }); return best;
 }
+function negShort() { return NEG ? 'marks (−' + NEG + ' per wrong)' : 'marks (no negative marking)'; }
 var NUMW = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
 function psets() { return SETS.filter(function (m) { return DATA[m.id] && !DATA[m.id].isMock; }); }
 function msets() { return SETS.filter(function (m) { return DATA[m.id] && DATA[m.id].isMock; }); }
 function statsBlock(A, total) {
   return '<div class="pr-stats"><div class="pr-stat"><b>' + (A.ok + A.bad) + '<span style="font-size:.55em;opacity:.6">/' + total + '</span></b><small>attempted</small></div>' +
     '<div class="pr-stat"><b>' + (A.acc == null ? '–' : A.acc + '%') + '</b><small>accuracy</small></div>' +
-    '<div class="pr-stat"><b>' + fmtp(A.marks) + '</b><small>marks (−' + NEG + ' per wrong)</small></div>' +
+    '<div class="pr-stat"><b>' + fmtp(A.marks) + '</b><small>' + negShort() + '</small></div>' +
     '<div class="pr-stat"><b>' + A.bad + '</b><small>mistakes to review</small></div>' +
     '<div class="pr-stat"><b>' + A.bm + '</b><small>bookmarked</small></div></div>';
 }
@@ -238,12 +239,12 @@ function mockCard(D) {
   else if (state === 'progress') { line = answered + ' of ' + n + ' answered. Your answers are saved; come back any time.'; btns = '<button class="pr-btn pri" data-act="resumetest" data-set="' + D.id + '">Resume test →</button><button class="pr-btn" data-act="retake" data-set="' + D.id + '">Start over</button>'; }
   else { line = 'Last score ' + fmtp(last.marks) + ' / ' + n + ' · ' + last.c + ' right, ' + last.w + ' wrong, ' + last.s + ' skipped' + (att.length > 1 ? ' · attempt ' + att.length : ''); btns = '<a class="pr-btn pri" href="#result/' + D.id + '">View result</a><button class="pr-btn" data-act="reviewmock" data-set="' + D.id + '">Review answers</button><button class="pr-btn" data-act="retake" data-set="' + D.id + '">Retake</button>'; }
   return '<article class="pr-card pr-set" data-set="' + D.id + '"><h3>' + esc(D.meta.title) + (D.meta.tag ? ' <span class="pr-chip ink" style="vertical-align:middle">' + esc(D.meta.tag) + '</span>' : '') + '</h3><p class="b">' + esc(D.meta.blurb || '') + '</p>' +
-    '<div class="pr-meta"><span class="pr-chip">' + n + ' questions</span><span class="pr-chip">' + n + ' marks</span><span class="pr-chip">−' + NEG + ' per wrong answer</span><span class="pr-chip ok">No timer</span><span class="pr-chip">' + D.subjects.length + ' subjects</span>' + mixH + '</div>' +
+    '<div class="pr-meta"><span class="pr-chip">' + n + ' questions</span><span class="pr-chip">' + n + ' marks</span><span class="pr-chip">' + (NEG ? '−' + NEG + ' per wrong answer' : 'No negative marking') + '</span><span class="pr-chip ok">No timer</span><span class="pr-chip">' + D.subjects.length + ' subjects</span>' + mixH + '</div>' +
     '<p class="pr-fine" style="margin:0 0 14px;opacity:.85">' + esc(line) + '</p><div class="pr-row" style="margin-bottom:6px">' + btns + '</div></article>';
 }
 function mocksHome() {
   var ms = msets();
-  var h = '<section class="pr-hero"><div><span class="pill">NO TIMER · AT YOUR OWN PACE</span><h1>' + esc(CFG.exam) + ' <span>Mock tests</span></h1></div><p class="lead">Full-length papers in the real marking scheme: one mark for each right answer, ' + NEG + ' off for each wrong one. There is no clock. Mark questions for review, submit when you are ready, and every mistake lands in your revision notebook.</p></section>';
+  var h = '<section class="pr-hero"><div><span class="pill">NO TIMER · AT YOUR OWN PACE</span><h1>' + esc(CFG.exam) + ' <span>Mock tests</span></h1></div><p class="lead">Full-length papers in the real marking scheme: one mark for each right answer' + (NEG ? ', ' + NEG + ' off for each wrong one' : ' and no negative marking') + '. There is no clock. Mark questions for review, submit when you are ready, and every mistake lands in your revision notebook.</p></section>';
   h += statsBlock(allStats(), Object.keys(DATA).reduce(function (a, id) { return a + DATA[id].qs.length; }, 0)) + tabs('mocks') + '<h2 class="pr-h2">Full-length papers</h2>';
   if (!ms.length) h += '<div class="pr-empty"><b>Mock tests are being prepared</b>The first full-length paper will appear here. Once you take one you will get a score, a subject-wise breakdown, and all your mistakes saved for revision.<br><br><a class="pr-btn" href="#home">Practise meanwhile</a></div>';
   else h += '<div class="pr-sets">' + ms.map(function (m) { return mockCard(DATA[m.id]); }).join('') + '</div>';
@@ -293,16 +294,21 @@ function result(id) {
   var n = r.n, attempted = r.c + r.w, acc = attempted ? Math.round(r.c / attempted * 100) : null, lost = Math.round(r.w * NEG * 100) / 100;
   var rows = Object.keys(r.by).map(function (k) { var b = r.by[k], t = b.c + b.w; return { k: k, b: b, acc: t ? Math.round(b.c / t * 100) : null }; }).sort(function (a, b) { return (a.acc == null ? 101 : a.acc) - (b.acc == null ? 101 : b.acc); });
   var h = '<section class="pr-hero"><div><span class="pill">RESULT · ATTEMPT ' + (ix + 1) + ' OF ' + att.length + '</span><h1>' + esc(D.meta.title) + ' <span>result</span></h1></div><p class="lead">Submitted ' + new Date(r.t).toLocaleDateString(undefined, { day: 'numeric', month: 'short', year: 'numeric' }) + '. No clock was running, so this score is purely about accuracy and judgement.</p></section>';
-  h += '<div class="pr-stats"><div class="pr-stat" style="background:var(--ink);color:#fff"><b>' + fmtp(r.marks) + '<span style="font-size:.5em;opacity:.7"> / ' + n + '</span></b><small style="color:#fff;opacity:.85">net marks</small></div><div class="pr-stat"><b>' + r.c + '</b><small>correct</small></div><div class="pr-stat"><b>' + r.w + '</b><small>wrong (−' + lost + ')</small></div><div class="pr-stat"><b>' + r.s + '</b><small>skipped</small></div><div class="pr-stat"><b>' + (acc == null ? '–' : acc + '%') + '</b><small>accuracy on attempted</small></div></div>';
+  h += '<div class="pr-stats"><div class="pr-stat" style="background:var(--ink);color:#fff"><b>' + fmtp(r.marks) + '<span style="font-size:.5em;opacity:.7"> / ' + n + '</span></b><small style="color:#fff;opacity:.85">net marks</small></div><div class="pr-stat"><b>' + r.c + '</b><small>correct</small></div><div class="pr-stat"><b>' + r.w + '</b><small>' + (NEG ? 'wrong (−' + lost + ')' : 'wrong') + '</small></div><div class="pr-stat"><b>' + r.s + '</b><small>skipped</small></div><div class="pr-stat"><b>' + (acc == null ? '–' : acc + '%') + '</b><small>accuracy on attempted</small></div></div>';
   var ins = [];
   if (r.w && r.w * NEG >= 1) ins.push('Negative marking cost you <b>' + fmtp(lost) + ' marks</b> from ' + r.w + ' wrong answers. Next time, leave a question blank when you cannot eliminate at least two options.');
   var weak = rows.filter(function (x) { return x.b.c + x.b.w >= 3 && x.acc != null && x.acc < 60; }).slice(0, 3);
   if (weak.length) ins.push('Weakest areas: ' + weak.map(function (x) { return '<b>' + esc(x.k) + '</b> (' + x.acc + '%)'; }).join(', ') + '. Filter <a href="#mistakes">My mistakes</a> by subject and re-read those explanations.');
   var strong = rows.filter(function (x) { return x.b.c + x.b.w >= 3 && x.acc != null && x.acc >= 80; }).slice(-2);
   if (strong.length) ins.push('Solid on ' + strong.map(function (x) { return '<b>' + esc(x.k) + '</b> (' + x.acc + '%)'; }).join(' and ') + '. Keep these warm with quick revision rather than new reading.');
-  if (r.s > n * 0.25) ins.push('You skipped <b>' + r.s + '</b> questions. If most were skipped from caution, practise eliminating options; if from lack of knowledge, the Revealed, not tried list is your reading list.');
+  if (!NEG && r.s) ins.push('You left <b>' + r.s + '</b> unanswered. There is no negative marking here, so an educated guess never costs a mark: answer every question, then read the explanations for the ones you guessed.');
+  else if (r.s > n * 0.25) ins.push('You skipped <b>' + r.s + '</b> questions. If most were skipped from caution, practise eliminating options; if from lack of knowledge, the Revealed, not tried list is your reading list.');
   if (att.length > 1 && ix > 0) { var d = Math.round((r.marks - att[ix - 1].marks) * 100) / 100; ins.push('Compared with your previous attempt, net marks ' + (d >= 0 ? 'rose' : 'fell') + ' by <b>' + Math.abs(d) + '</b>.'); }
   if (!ins.length) ins.push('A clean sheet to learn from. Open Review answers and read the explanation for every question, including those you got right.');
+  if (CFG.pass && CFG.pass.length) {
+    var pct = Math.round(r.marks / n * 1000) / 10;
+    h += '<div class="pr-focus" style="background:#e9fbf3"><b>Pass-mark check:</b> you scored <b>' + pct + '%</b>. ' + CFG.pass.map(function (x) { return esc(x.label) + ' needs ' + x.pct + '%: ' + (pct >= x.pct ? '<b>cleared ✓</b>' : '<b>' + Math.round((x.pct - pct) * n / 100 * 10) / 10 + ' marks short</b>'); }).join(' · ') + '.' + (CFG.passNote ? ' ' + esc(CFG.passNote) : '') + '</div>';
+  }
   h += '<div class="pr-focus"><b>What to do next</b><ul style="margin:8px 0 0;padding-left:20px;display:grid;gap:6px">' + ins.map(function (x) { return '<li>' + x + '</li>'; }).join('') + '</ul></div>';
   h += '<div class="pr-row" style="margin:6px 0 18px"><button class="pr-btn pri" data-act="rv">Review all answers</button><button class="pr-btn" data-act="rvbad"' + ((r.w || r.s) ? '' : ' disabled') + '>Practise my ' + (r.w + r.s) + ' misses</button><a class="pr-btn" href="#mistakes">Open My mistakes</a><button class="pr-btn" data-act="rt">Retake</button><a class="pr-btn" href="#mocks">All mock tests</a></div>';
   h += '<div class="pr-grid2"><div class="pr-card"><h3 style="margin:0 0 12px">By subject</h3><div class="pr-bars">' + rows.map(function (x) { var t = x.b.n; return '<div class="pr-brow"><span class="nm">' + esc(x.k) + '</span><div class="pr-bar pr-stack" role="img" aria-label="' + esc(x.k) + ': ' + x.b.c + ' right, ' + x.b.w + ' wrong, ' + x.b.s + ' skipped"><i class="g" style="width:' + x.b.c / t * 100 + '%"></i><i class="r" style="width:' + x.b.w / t * 100 + '%"></i></div><span class="v">' + x.b.c + '/' + t + '</span></div>'; }).join('') + '</div><p class="pr-fine"><span class="pr-dot g"></span>right <span class="pr-dot r"></span>wrong, remainder skipped</p></div>';
@@ -368,7 +374,7 @@ function renderQ() {
     var ok = st.s && st.c, cls2 = !st.s ? 'seen' : (ok ? 'ok' : 'bad');
     h += '<div class="pr-verdict ' + cls2 + '" role="status"><div><span class="big">' + (!st.s ? 'Answer revealed' : ok ? 'Correct' : 'Not quite') + '</span><small>' +
       (!st.s ? 'You did not pick an option, so this is not scored. The correct answer is ' + q.ans + '.' : ok ? 'Option ' + q.ans + ' is right.' : 'You chose ' + st.s + '. The correct answer is ' + q.ans + '.') + '</small></div>' +
-      '<span class="sc">' + (!st.s ? '0' : ok ? '+1' : '−' + NEG) + '</span></div>';
+      '<span class="sc">' + (!st.s ? '0' : ok ? '+1' : (NEG ? '−' + NEG : '0')) + '</span></div>';
     h += '<div class="pr-act"><button class="pr-btn" data-act="retry">Try again</button><button class="pr-btn" data-act="report">Report an issue</button></div>';
   }
   h += '<span class="pr-stamp" aria-hidden="true">NETLAWVERSE.IN</span></section>';
