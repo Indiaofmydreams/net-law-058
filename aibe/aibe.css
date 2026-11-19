@@ -88,3 +88,12 @@ html.emb .wrap{padding-left:12px;padding-right:12px}
 .al-grid.f3{grid-template-columns:repeat(3,1fr)}
 @media(max-width:1000px){.al-grid.f3{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:640px){.al-grid.f3{grid-template-columns:1fr}}
+
+/* AIBE Notes entry points (notes live in aibe/notes/ and style themselves with notes.css) */
+.al-tab .nw{margin-left:6px;font-size:.62rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;background:var(--pink);color:#fff;border-radius:999px;padding:2px 7px;vertical-align:.1em}
+.al-tab[aria-current] .nw{background:var(--sun);color:var(--ink)}
+.al-notes-ban{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin:22px 0 0;padding:16px 20px;background:var(--ink);color:#fff;text-decoration:none;border:3px solid var(--ink);border-radius:22px;box-shadow:6px 6px 0 var(--pink);transition:transform .12s,box-shadow .12s}
+.al-notes-ban:hover{transform:translate(3px,3px);box-shadow:3px 3px 0 var(--pink)}
+.al-notes-ban .nb-ic{width:48px;height:48px;border-radius:14px;background:var(--sun);color:var(--ink);display:grid;place-items:center;font-weight:800;font-size:1.2rem;border:3px solid #fff;flex:none}
+.al-notes-ban .nb-t{flex:1 1 280px;display:grid;gap:3px}.al-notes-ban .nb-t b{font-size:1.15rem;font-weight:800}.al-notes-ban .nb-t span{font-weight:600;opacity:.88;line-height:1.5}
+.al-notes-ban .nb-go{font-weight:800;background:#fff;color:var(--ink);padding:9px 16px;border-radius:12px}
