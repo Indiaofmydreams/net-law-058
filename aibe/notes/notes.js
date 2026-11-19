@@ -459,8 +459,32 @@
     }, function () { idx = []; render(); });
   }
 
+  /* ---------- chapter navigation bar ---------- */
+  function navInit() {
+    var nav = document.querySelector('.nn-nav'); if (!nav) return;
+    var sw = nav.querySelector('.nn-sw'), sub = B.dataset.nnSubject;
+    $$('.nn-swp a[data-slug]', nav).forEach(function (a) {
+      if (ST.read && ST.read[sub + '/' + a.dataset.slug]) a.classList.add('done');
+    });
+    document.addEventListener('click', function (e) { if (sw.open && !sw.contains(e.target)) sw.open = false; });
+    sw.addEventListener('toggle', function () {
+      if (!sw.open) return;
+      var cur = sw.querySelector('[aria-current]');
+      if (cur && cur.scrollIntoView) { var box = sw.querySelector('.nn-swp'); box.scrollTop = Math.max(0, cur.offsetTop - 60); }
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && sw.open) { sw.open = false; return; }
+      if (e.ctrlKey || e.metaKey || e.altKey) return;
+      var tg = e.target, tn = tg && tg.tagName;
+      if (tn === 'INPUT' || tn === 'TEXTAREA' || tn === 'SELECT' || (tg && tg.isContentEditable)) return;
+      var a = e.key === '[' ? nav.querySelector('a.prev') : e.key === ']' ? nav.querySelector('a.next') : null;
+      if (a && PAGE === 'chapter') location.href = a.href;
+    });
+  }
+
   /* ---------- boot ---------- */
   try {
+    if (PAGE !== 'hub' && PAGE !== 'subject' && PAGE !== 'mine') navInit();
     if (PAGE === 'chapter') { highlighterInit(); chapterPage(); }
     else if (PAGE === 'hub') hubPage();
     else if (PAGE === 'subject') subjectPage();

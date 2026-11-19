@@ -328,6 +328,33 @@ def build_subject(no, name, slug, marks, D, seo, fmt, sitemap, index_rows):
     short = SHORT.get(no, name)
     n_ch = len(secs)
     base = '/aibe/notes/%s/' % slug
+    has_rev = [('highlights.html', 'Highlights', 'highlights', True), ('rapid-revision.html', 'Rapid revision', 'rapid', bool(D['rr'])),
+               ('latest-developments.html', 'Latest developments', 'dev', bool(D['dev'])), ('quick-mcqs.html', 'Quick MCQs', 'mcq', bool(D['mcq']))]
+
+    def navbar(cur, idx=None):
+        """Sticky chapter navigation: all chapters, prev/next, chapter switcher, revision links."""
+        h = '<nav class="nn-nav" aria-label="Chapter navigation"><a class="nn-nb all" href="./" title="All chapters"><span aria-hidden="true">&#9776;</span><i>All chapters</i></a>'
+        if idx is not None:
+            pv = secs[idx - 1] if idx else None
+            nx = secs[idx + 1] if idx + 1 < n_ch else None
+            h += ('<a class="nn-nb prev" rel="prev" href="%s" title="Previous: %s"><span aria-hidden="true">&larr;</span><i>Prev</i></a>' % (pv['_url'], A(pv['_seo']))) if pv else '<span class="nn-nb prev off"><span aria-hidden="true">&larr;</span><i>Prev</i></span>'
+            lab = '<b>Chapter %d</b> of %d <span class="t">%s</span>' % (idx + 1, n_ch, E(secs[idx]['_seo']))
+        else:
+            lab = '<b>%s</b> <span class="t">Jump to a chapter</span>' % E(cur)
+        h += '<details class="nn-sw"><summary>%s</summary><div class="nn-swp"><p class="nn-swh">Chapters</p><ol>' % lab
+        for k, c in enumerate(secs):
+            h += '<li><a href="%s" data-slug="%s"%s><span class="n">%d</span><span class="tt">%s</span><span class="tk" aria-hidden="true"></span></a></li>' % (
+                c['_url'], c['_slug'], ' aria-current="page"' if idx == k else '', k + 1, E(c['_seo']))
+        h += '</ol><p class="nn-swh">Revision</p><div class="nn-swr">'
+        for u, lbl, key, ok in has_rev:
+            if ok:
+                h += '<a href="%s"%s>%s</a>' % (u, ' aria-current="page"' if cur == lbl else '', lbl)
+        h += '<a href="../my-notes.html">My highlights</a></div></div></details>'
+        if idx is not None:
+            nx = secs[idx + 1] if idx + 1 < n_ch else None
+            h += ('<a class="nn-nb next" rel="next" href="%s" title="Next: %s"><i>Next</i><span aria-hidden="true">&rarr;</span></a>' % (nx['_url'], A(nx['_seo']))) if nx else '<a class="nn-nb next" href="highlights.html" title="Revise the highlights"><i>Highlights</i><span aria-hidden="true">&rarr;</span></a>'
+        return h + '</nav>'
+
     crumbs_ld = [('NET Law-Verse', SITE + '/'), ('AIBE', SITE + '/aibe/'), ('Notes', SITE + '/aibe/notes/')]
 
     # ---------- chapter pages
@@ -404,6 +431,7 @@ def build_subject(no, name, slug, marks, D, seo, fmt, sitemap, index_rows):
         pg += top(1, [('AIBE', '../../'), ('Notes', '../'), (short, './'), ('Chapter %d' % s['_n'], None)])
         pg += f'''<main id="main" tabindex="-1" class="al-main nn-main">
 {brandbar('%s · Chapter %d of %d' % (name, s['_n'], n_ch), upd, ver)}
+{navbar('chapter', i)}
 <header class="nn-chead">
 <div class="nn-no" aria-hidden="true">{s['_n']}</div>
 <div class="nn-ct"><p class="nn-kick">{E(name)} · Chapter {s['_n']} of {n_ch}</p>
@@ -463,6 +491,7 @@ def build_subject(no, name, slug, marks, D, seo, fmt, sitemap, index_rows):
     pg += top(1, [('AIBE', '../../'), ('Notes', '../'), (short, './'), ('Highlights', None)])
     pg += f'''<main id="main" tabindex="-1" class="al-main nn-main">
 {brandbar('%s · Highlights' % name, upd, ver)}
+{navbar('Highlights')}
 <header class="nn-phead"><p class="nn-kick">{E(name)}</p><h1>Highlights, <span>chapter by chapter</span></h1>
 <p class="lead">The part of every chapter you should still remember the night before the exam: provisions, cases in a line, memory aids and traps. Want your own? Highlight any text in a chapter and it collects in <a href="../my-notes.html">My highlights</a>.</p>
 <div class="nn-filter" role="group" aria-label="Show"><button class="nn-fb on" data-f="all">All</button><button class="nn-fb" data-f="prov">Provisions</button><button class="nn-fb" data-f="case">Cases</button><button class="nn-fb" data-f="memo">Memory aids</button><button class="nn-fb" data-f="trap">Traps</button><button class="btn sm" data-act="print" type="button">Print / PDF</button></div>
@@ -502,6 +531,7 @@ def build_subject(no, name, slug, marks, D, seo, fmt, sitemap, index_rows):
         pg += top(1, [('AIBE', '../../'), ('Notes', '../'), (short, './'), ('Latest developments', None)])
         pg += f'''<main id="main" tabindex="-1" class="al-main nn-main">
 {brandbar('%s · Latest developments' % name, upd, ver)}
+{navbar('Latest developments')}
 <header class="nn-phead"><p class="nn-kick">{E(name)}</p><h1>Latest <span>developments</span></h1>
 <p class="lead">Recent judgments, amendments and institutional changes that are favourite current-affairs questions. Notes cover developments up to {E(upd)}; anything tagged <span class="nn-vf">Verify</span> should be checked against the official source.</p></header>
 <div class="nn-wide nn-devs" data-wm>{''.join(cards)}</div>
@@ -533,6 +563,7 @@ def build_subject(no, name, slug, marks, D, seo, fmt, sitemap, index_rows):
         pg += top(1, [('AIBE', '../../'), ('Notes', '../'), (short, './'), ('Rapid revision', None)])
         pg += f'''<main id="main" tabindex="-1" class="al-main nn-main">
 {brandbar('%s · Rapid revision' % name, upd, ver)}
+{navbar('Rapid revision')}
 <header class="nn-phead"><p class="nn-kick">{E(name)}</p><h1>Rapid <span>revision</span></h1>
 <p class="lead">The last-day sheet. AIBE is open book, so knowing <i>where</i> an Article sits is as valuable as memorising it: use the cheat sheet to tab your Bare Act.</p>
 <div class="nn-filter"><button class="btn sm" data-act="print" type="button">Print / PDF</button></div>
@@ -573,6 +604,7 @@ def build_subject(no, name, slug, marks, D, seo, fmt, sitemap, index_rows):
         pg += top(1, [('AIBE', '../../'), ('Notes', '../'), (short, './'), ('Quick MCQs', None)])
         pg += f'''<main id="main" tabindex="-1" class="al-main nn-main">
 {brandbar('%s · Quick MCQs' % name, upd, ver)}
+{navbar('Quick MCQs')}
 <header class="nn-phead"><p class="nn-kick">{E(name)}</p><h1>Quick <span>MCQs</span></h1>
 <p class="lead">{len(qs)} recall questions to close each study session. Tap an option to see the answer and the reason. There is no timer and no negative marking.</p>
 <div class="nn-score" aria-live="polite"><b id="nn-sc">0</b><span>/ {len(qs)} correct</span><i><u id="nn-sp"></u></i><button class="btn sm" type="button" id="nn-reset">Start over</button></div></header>
