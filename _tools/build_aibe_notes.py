@@ -57,8 +57,8 @@ SUBJECTS = [
     (18, 'Land Acquisition', 'land-acquisition', 2),
     (19, 'Intellectual Property Laws', 'intellectual-property-laws', 2),
 ]
-SHORT = {1: 'Constitutional Law', 2: 'IPC / BNS', 3: 'CrPC / BNSS', 4: 'CPC and Limitation', 5: 'Evidence / BSA',
-         10: 'Professional Ethics', 15: 'Torts, MV Act, Consumer', 17: 'Contract and Property', 19: 'IP Laws'}
+SHORT = {14: 'Labour Law', 1: 'Constitutional Law', 2: 'IPC / BNS', 3: 'CrPC / BNSS', 4: 'CPC and Limitation', 5: 'Evidence / BSA',
+         10: 'Professional Ethics', 15: 'Torts, MV Act, CPA', 17: 'Contract and Property', 19: 'IP Laws'}
 
 PRI = {  # priority text in the data -> (label, css class)
     'VERY HIGH': ('Very high yield', 'p1'), 'HIGH': ('High yield', 'p2'), 'MEDIUM-HIGH': ('Medium-high yield', 'p3'),
@@ -87,6 +87,29 @@ PART_FIXES = [
     (r' - see Part 8\.', ' - see the Consumer Protection notes.'),
     (r'the 10-part plan divides it into ten blocks of 10 questions each\. Part 4 = 8 questions from IPC/BNS \+ 2 from Company Law\.',
      'IPC / BNS carries about 8 questions and Company Law about 2.'),
+    (r'Civil/Criminal procedure \(Parts 2 and 3\)', 'Civil/Criminal procedure (CrPC/BNSS, CPC)'),
+    (r'Contract and NI Act \(Part 7\)', 'Contract and NI Act'),
+    (r'Administrative Law \(Part 8\)', 'Administrative Law'),
+    (r'Company Law \(Part 4\)', 'Company Law'),
+    (r'Family Law \(Part 6\)', 'Family Law'),
+    (r'Tort/Consumer/MV Act \(Part 8\)', 'Tort/Consumer/MV Act'),
+    (r'Intellectual Property \(Part 8\)', 'Intellectual Property'),
+    (r'Constitution \(Part 1\)', 'Constitutional Law'),
+    (r'Arbitration and ADR \(Part 6\)', 'Arbitration and ADR'),
+    (r'Overlaps: Part 1 \(', 'Overlaps: Constitutional Law ('),
+    (r', Part 2 \(prosecution procedure\)', ', CrPC/BNSS (prosecution procedure)'),
+    (r', Part 7 \(NI Act, Contract\)', ', Contract and NI Act'),
+    (r', Part 6 \(Arbitration/ADR - stamp duty\)', ', ADR (stamp duty)'),
+    (r', Part 8 \(Tort/Consumer; IP\)', ', Torts and Consumer Protection, IP'),
+    (r', Part 9 \(PIL, Admin Law - delegated legislation, natural justice\)', ', PIL and Administrative Law (delegated legislation, natural justice)'),
+    (r'cross-ref Part 1\)', 'cross-ref Constitutional Law)'),
+    (r'cross-ref Part 1\.', 'cross-ref Constitutional Law.'),
+    (r'Cross-reference to Part 2\b', 'Cross-reference to CrPC/BNSS'),
+    (r'\[Cross-ref Part 1\.\]', '[Cross-ref: Constitutional Law.]'),
+    (r'\(cross-ref Part 6 ADR\)', '(cross-ref ADR)'),
+    (r'\(cross-ref Part 2 BNSS', '(cross-ref BNSS'),
+    (r'Cross-over with Part 6\.', 'Cross-over with ADR.'),
+    (r'see Part 8 IP module', 'see the Intellectual Property notes'),
 ]
 
 E = lambda s: html.escape(str(s), quote=False)

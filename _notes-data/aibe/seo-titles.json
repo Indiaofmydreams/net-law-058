@@ -150,5 +150,60 @@
   "3": "RFCTLARR Act 2013: Scheme and Process",
   "4": "RFCTLARR Compensation and R&R Provisions",
   "5": "Section 24 RFCTLARR: Lapse and Indore Development"
+ },
+ "torts-mv-act-consumer-protection": {
+  "1": "Tort: Nature, Essentials and Tort vs Contract",
+  "2": "General Defences in Tort",
+  "3": "Negligence in Tort: Duty, Breach, Res Ipsa",
+  "4": "Strict and Absolute Liability (Rylands, MC Mehta)",
+  "5": "Vicarious and State Liability, Constitutional Torts",
+  "6": "Nuisance and Trespass",
+  "7": "Defamation, Malicious Prosecution and Deceit",
+  "8": "Tort Remedies, Damages and Joint Tortfeasors",
+  "9": "MV Act: Definitions, Licensing, Registration",
+  "10": "MV Act: Third-Party Insurance (Ch XI)",
+  "11": "MV Act: No-Fault, Hit-and-Run, Interim Relief",
+  "12": "MV Act: Claims Tribunal and Compensation",
+  "13": "MV Act: Offences and Penalties (2019)",
+  "14": "Consumer Protection Act 2019: Scheme and Rights",
+  "15": "CCPA, Misleading Advertisements and Penalties",
+  "16": "Consumer Commissions: Jurisdiction and Appeals",
+  "17": "Product Liability and Unfair Contracts (CPA)"
+ },
+ "administrative-law": {
+  "1": "Rule of Law and Separation of Powers",
+  "2": "Delegated Legislation",
+  "3": "Judicial Review, Discretion and Proportionality",
+  "4": "Principles of Natural Justice",
+  "5": "Administrative Tribunals and Quasi-Judicial Bodies",
+  "6": "Writs and Remedies Against Administrative Action",
+  "7": "Lokpal, Lokayukta, CVC and RTI Act",
+  "8": "Recent Developments in Administrative Law"
+ },
+ "intellectual-property-laws": {
+  "1": "IP Framework, Treaties and Institutions",
+  "2": "Copyright Act 1957 (2012 Amendment)",
+  "3": "Patents Act 1970",
+  "4": "Trade Marks Act 1999 and Passing Off",
+  "5": "Designs Act, GI Act and Other IP Statutes",
+  "6": "Recent IP Developments and AI"
+ },
+ "labour-industrial-law": {
+  "1": "Labour Law Architecture and the Four Labour Codes",
+  "2": "IR Code: Industry, Worker, Dispute, Unions",
+  "3": "IR Code: Standing Orders, Strikes and Lock-outs",
+  "4": "IR Code: Lay-off, Retrenchment and Closure",
+  "5": "Code on Wages 2019: Wages, Bonus, Equal Pay",
+  "6": "Social Security Code: EPF, ESI, Gratuity, Maternity",
+  "7": "OSH Code, Contract Labour and Women at Work",
+  "8": "Judicial Principles in Labour Law"
+ },
+ "taxation": {
+  "1": "Constitutional Framework of Taxation",
+  "2": "Income-tax: Residence, Heads of Income, Rates",
+  "3": "Income-tax Procedure: TDS, Assessment, Appeals",
+  "4": "GST I: Supply, Registration, ITC, Returns",
+  "5": "GST II: Refunds, Demand, Appeals, Offences",
+  "6": "Customs, Stamp Duty and Other Taxes"
  }
 }

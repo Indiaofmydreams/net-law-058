@@ -1,0 +1,2765 @@
+{
+ "meta": {
+  "part": 10,
+  "title": "Labour and Industrial Law; Law related to Taxation (Professional Ethics excluded)",
+  "exam": "All India Bar Examination (AIBE) - XXI",
+  "syllabus_reference": "BCI syllabus dated 02.03.2026 - Sr. No. 14 Labour & Industrial Law (4 questions) and Sr. No. 16 Law related to Taxation (4 questions) = 8 marks. Sr. No. 10 (Professional Ethics) is deliberately excluded from this file at the requester's instruction and will be prepared separately.",
+  "prepared_as_of": "2026-11-18",
+  "version": "1.0",
+  "language": "English",
+  "citation_convention": "Labour law: the four Labour Codes (in force 21 Nov 2025) are cited first, with the repealed Act in brackets where useful, because AIBE papers and older case law still use the old Acts. Tax law: the Income-tax Act 1961 numbering is used for Tax Years up to 2025-26 and the Income-tax Act 2025 applies from 1 April 2026 (Tax Year 2026-27 onwards); GST uses the CGST Act 2017.",
+  "disclaimer": "Prepared as a study aid. Developments after 18 Nov 2026 are not covered. Items tagged [VERIFY] rest on press or secondary reports, or on section and sub-section numbers in the new Codes and the Income-tax Act 2025 that I could not confirm against the bare text. Numbers (thresholds, rates, time-limits) change often; confirm against the latest official text before relying on them. Not legal advice."
+ },
+ "how_to_use": [
+  "The 8 marks split evenly: about 4 questions from Labour and Industrial Law and about 4 from Taxation. Prepare both blocks.",
+  "Labour block: first learn the architecture (4 Codes replacing 29 Acts), then the IR Code (highest yield), then Wages, Social Security and OSH. Keep the old Act names in mind because many questions are still framed on them.",
+  "Tax block: learn constitutional basics (Arts 265, 246, 246A, 279A), then the five or six Income-tax ideas that recur (residence, heads of income, exemptions, TDS, assessment, appeals), then GST (supply, registration, ITC, returns, appeals).",
+  "Study the 'key_numbers' table in rapid revision: AIBE loves thresholds and time-limits.",
+  "AIBE is open-book: use the old-to-new concordance to find the right Code quickly.",
+  "Overlaps: Part 1 (Arts 14, 19(1)(c), 21, 23, 24, 43, 246A, 265, 279A, 300A), Part 2 (prosecution procedure), Part 7 (NI Act, Contract), Part 6 (Arbitration/ADR - stamp duty), Part 8 (Tort/Consumer; IP), Part 9 (PIL, Admin Law - delegated legislation, natural justice)."
+ ],
+ "exam_intelligence": {
+  "paper_format_note": "AIBE is a 100-question multiple-choice, open-book test; qualifying marks 45% (General/OBC) and 40% (SC/ST/PwD). Confirm format and languages in the AIBE-XXI notification [VERIFY].",
+  "syllabus_weight": "Labour & Industrial Law: 4 questions; Law related to Taxation: 4 questions. Together 8% of the paper.",
+  "indicative_distribution": [
+   {
+    "cluster": "Industrial Relations (industry, workman/worker, dispute machinery, strikes/lock-outs, lay-off/retrenchment/closure, standing orders, trade unions)",
+    "expected_questions": "2",
+    "comment": "ID Act 1947/IR Code 2020. Highest yield; Bangalore Water Supply and the 2026 Jai Bir Singh decision; retrenchment conditions; 300-worker thresholds."
+   },
+   {
+    "cluster": "Wages, bonus, social security (EPF, ESI, gratuity, maternity, compensation, gig workers)",
+    "expected_questions": "1",
+    "comment": "Definition of wages (50% rule), floor wage, bonus 8.33%-20%, gratuity 5 years, maternity 26 weeks, ESI/EPF thresholds."
+   },
+   {
+    "cluster": "OSH, factories, contract labour, child labour, women at work, constitutional labour principles",
+    "expected_questions": "1",
+    "comment": "OSH Code thresholds, contract labour 50, Art 23-24 cases, Uma Devi."
+   },
+   {
+    "cluster": "Constitutional and general principles of taxation; Income-tax basics",
+    "expected_questions": "2",
+    "comment": "Art 265, Seventh Schedule, residence, heads of income, TDS, advance tax, appeals; 1961 Act versus 2025 Act."
+   },
+   {
+    "cluster": "GST and indirect taxes (Customs, stamp duty)",
+    "expected_questions": "2",
+    "comment": "s.7 supply, s.9 levy, s.16 ITC, s.22 registration thresholds, rates after GST 2.0, appeals and GSTAT."
+   }
+  ],
+  "distribution_note": "Indicative estimate from the syllabus weight and typical AIBE patterns; the BCI publishes no topic-wise split.",
+  "question_patterns": [
+   "Direct recall of statute and section: 'The Industrial Relations Code replaces which Acts?'",
+   "Thresholds: 300 workers (standing orders / prior permission), 20 workers (EPF), 10 (ESI/gratuity/maternity), 50 (contract labour / crèche), 100 (works committee), 20 (grievance committee)",
+   "Percentages and periods: bonus 8.33%-20%, retrenchment compensation 15 days per year, strike notice 60 days, gratuity 5 years, maternity 26 weeks, advance tax instalments",
+   "Definitions: industry (triple test), worker/workman, wages, retrenchment, lay-off, supply, taxable person",
+   "Case-to-principle matching: Bangalore Water Supply, Uma Devi, Randhir Singh, Vodafone, McDowell, Safari Retreats",
+   "What replaced what: Income-tax Act 1961 -> 2025; ID Act 1947 -> IR Code; GST rate slabs 2025",
+   "Constitutional tax questions: who can levy which tax; Art 265; Art 246A; Art 276"
+  ],
+  "high_yield_topics": [
+   "Four Labour Codes: dates, number of Acts subsumed (29), rules (8-9 May 2026)",
+   "Industry definition and the 2026 nine-judge decision",
+   "Worker/workman definitions; supervisory wage ceiling Rs 18,000 (IR Code)",
+   "Strike and lock-out rules (60 days / 14 days notice) now applicable to all industrial establishments",
+   "Retrenchment: notice, compensation, re-skilling fund (15 days' wages)",
+   "Standing orders and prior-permission threshold: 300 workers",
+   "Wages Code: definition of wages (50% rule), floor wage, overtime double, deductions cap 50%",
+   "Gratuity, maternity benefit, EPF/ESI thresholds, gig and platform workers",
+   "OSH Code: factory definition, contract labour, women night shift, 8-hour day",
+   "Income Tax: residential status, heads of income, new regime slabs, TDS, assessment, appeals (30/60/120 days)",
+   "GST: supply, composition, ITC (s.16, s.17(5)), registration thresholds, GST 2.0 slabs, appeals, GSTAT",
+   "Tax and Constitution: Arts 265, 246A, 279A, 276; tax v. fee"
+  ],
+  "time_strategy": [
+   "These are mostly recall items. Spend about 60 seconds each; use the open book only to verify a threshold.",
+   "If a question uses an old Act name (e.g., Minimum Wages Act, ID Act), answer under the old law unless it asks about the new Code; if it says 'under the Code' use the Code.",
+   "For tax numbers, think about which law and which year the question is set in."
+  ],
+  "common_traps": [
+   "Both the Codes (21 Nov 2025) and Income-tax Act 2025 (1 April 2026) are in force, but proceedings for earlier periods continue under the old statutes.",
+   "Thresholds moved: standing orders and prior-permission to 300 workers (from 100); factory definition 20 with power / 40 without power (from 10/20); contract-labour applicability 50 (from 20).",
+   "IR Code strike notice rule now covers all industrial establishments, not only public utility services.",
+   "Gratuity: 5 years continuous service, but not required in case of death or disablement; fixed-term employees qualify after 1 year.",
+   "Wage ceilings: bonus eligibility Rs 21,000; ESI wage limit Rs 21,000; EPF wage ceiling Rs 15,000.",
+   "A tax is a compulsory exaction without quid pro quo; a fee requires a service (Shirur Mutt).",
+   "Under GST, alcohol for human consumption is outside GST; petroleum products are outside until notified.",
+   "Income-tax 'Previous year / Assessment year' is replaced by a single 'Tax Year' only from Tax Year 2026-27.",
+   "Appeal limits: CIT(A) 30 days, ITAT 60 days, High Court (s.260A) 120 days; GST first appeal 3 months (+1)."
+  ]
+ },
+ "sections": [
+  {
+   "block": "Labour and Industrial Law",
+   "id": "10.L1",
+   "order": 1,
+   "title": "Architecture of Labour Law: Constitutional Basis, History and the Four Labour Codes",
+   "priority": "HIGH",
+   "expected_questions": "1",
+   "articles": "Arts 14, 16, 19(1)(c), 21, 23, 24, 39, 41, 42, 43, 43A; Entries 22-24 List III; the four Labour Codes",
+   "overview": "Why labour law looks the way it does, what the four Codes replaced, when they came into force and what remains outside them.",
+   "must_know": [
+    "Constitutional basis: Fundamental Rights - Art 14 (equality; equal pay for equal work), Art 16 (public employment), Art 19(1)(c) (form unions, associations, cooperative societies; no fundamental right to strike), Art 21 (livelihood, dignity, health of workers), Art 23 (forced labour, begar), Art 24 (no child below 14 in hazardous work). DPSP - Art 38, 39(a),(d),(e),(f), 41 (right to work), 42 (just and humane conditions, maternity relief), 43 (living wage), 43A (workers' participation in management - 42nd Amendment), 43B (cooperatives). Seventh Schedule: Entry 22 (trade unions; industrial and labour disputes), Entry 23 (social security and social insurance; employment and unemployment), Entry 24 (welfare of labour incl. conditions of work, provident funds, employers' liability, workmen's compensation, invalidity and old-age pensions and maternity benefits) - all in the Concurrent List. Entry 55 List I (regulation of labour and safety in mines and oilfields); Entry 61 List I (industrial disputes concerning Union employees).",
+    "'Appropriate Government' under the Codes: Central Government for establishments such as railways, mines, oilfields, major ports, banking and insurance companies, central public-sector undertakings, air transport; State Governments for the rest.",
+    "Historical landmarks: Trade Disputes Act 1929; Trade Unions Act 1926; Industrial Disputes Act 1947 (framework for conciliation, adjudication and strikes); Industrial Employment (Standing Orders) Act 1946; Second National Commission on Labour (2002) recommended consolidation into broad groups - leading to the four Codes.",
+    "The four Labour Codes: (1) Code on Wages, 2019; (2) Industrial Relations Code, 2020; (3) Code on Social Security, 2020; (4) Occupational Safety, Health and Working Conditions Code, 2020. Passed in 2019-2020; Presidential assent 2019 (Wages) and 28 September 2020 (the other three). Brought into force by four notifications dated 21 November 2025, repealing 29 Central labour laws. Central Rules under all four Codes were notified on 8-9 May 2026; State rules are being notified in phases (several States have notified; some pending) [VERIFY State-wise status].",
+    "Counting the repeals (29 Acts): Wages Code subsumes 4 (Payment of Wages 1936; Minimum Wages 1948; Payment of Bonus 1965; Equal Remuneration 1976). IR Code subsumes 3 (Trade Unions 1926; Industrial Employment (Standing Orders) 1946; Industrial Disputes 1947). Social Security Code subsumes 9 (EPF & MP 1952; ESI 1948; Employees' Compensation 1923; Maternity Benefit 1961; Payment of Gratuity 1972; Employment Exchanges (CNV) 1959; Cine Workers Welfare Fund 1981; BOCW Welfare Cess 1996; Unorganised Workers' Social Security 2008). OSH Code subsumes 13 (Factories 1948; Mines 1952; Dock Workers (SHW) 1986; BOCW (RECS) 1996; Plantations Labour 1951; Contract Labour (R&A) 1970; Inter-State Migrant Workmen 1979; Working Journalists Acts 1955 and 1958; Motor Transport Workers 1961; Sales Promotion Employees 1976; Beedi & Cigar Workers 1966; Cine-Workers and Cinema Theatre Workers 1981).",
+    "Common features of the Codes: universal coverage (organised and unorganised sectors, with different thresholds); single registration and licence, online returns; Inspector-cum-Facilitator (a role of advice and inspection); web-based randomised inspections; fixed-term employment; written appointment letters; gender-neutral provisions; compounding of offences; decriminalisation of first offences in places; time-bound payment of wages; mandatory registration of gig and platform workers; national floor wage.",
+    "Laws that remain outside the Codes (examples): Child and Adolescent Labour (Prohibition and Regulation) Act 1986; Bonded Labour System (Abolition) Act 1976; Apprentices Act 1961; Employees' Pension Scheme 1995 (under the EPF scheme); Sexual Harassment of Women at Workplace (POSH) Act 2013; Rights of Persons with Disabilities Act 2016 (employment provisions); State Shops and Establishments Acts; Labour Welfare Fund Acts of States; Employees' Compensation is within the Social Security Code.",
+    "How AIBE may frame questions: (a) on the Codes (definitions, thresholds, repeals); (b) on old-Act case law that is still treated as good law (Bangalore Water Supply, Uma Devi); (c) on constitutional rights of workers. Because the Codes became operative only a year before the exam, expect questions that test 'which Act has been repealed' and 'what is the new threshold'.",
+    "Industrial jurisprudence principles: social justice and welfare orientation (Crown Aluminium Works v. Workmen, 1958); workers' right to collective bargaining; employer's right to manage; industrial peace through conciliation; 'hire and fire' limited by reasonableness and natural justice; reinstatement as ordinary relief for illegal termination."
+   ],
+   "key_provisions": [
+    {
+     "ref": "Codes in force",
+     "content": "21 November 2025 (four notifications); Central Rules 8-9 May 2026."
+    },
+    {
+     "ref": "Entries 22-24, List III",
+     "content": "Concurrent Legislative power over labour, social security and welfare."
+    },
+    {
+     "ref": "Art 43",
+     "content": "Living wage and decent standard of life for workers."
+    }
+   ],
+   "landmark_cases": [
+    {
+     "case": "Crown Aluminium Works v. Workmen",
+     "year": "1958",
+     "held": "Social justice; the concept of living wage and fair wage; industrial adjudication guided by equity."
+    },
+    {
+     "case": "People's Union for Democratic Rights v. Union of India (Asiad Workers)",
+     "year": "1982",
+     "held": "Non-payment of minimum wages is forced labour (Art 23); workers can seek writ remedy; Art 21 includes humane conditions."
+    },
+    {
+     "case": "Bandhua Mukti Morcha v. Union of India",
+     "year": "1984",
+     "held": "Bonded labour; PIL; State's duty to identify and rehabilitate."
+    },
+    {
+     "case": "Randhir Singh v. Union of India",
+     "year": "1982",
+     "held": "Equal pay for equal work is derived from Arts 14, 16 and 39(d)."
+    },
+    {
+     "case": "T.K. Rangarajan v. Government of Tamil Nadu",
+     "year": "2003",
+     "held": "No fundamental right to strike."
+    }
+   ],
+   "mnemonics": [
+    "29 Acts = 4 (Wages) + 3 (IR) + 9 (Social Security) + 13 (OSH).",
+    "Entries 22-24 of List III = 'unions-disputes (22), social security (23), welfare of labour (24)'."
+   ],
+   "exam_traps": [
+    "The Codes are in force from 21 Nov 2025, but the Central Rules came only on 8-9 May 2026.",
+    "Child labour and bonded labour statutes were not merged into the Codes.",
+    "Labour is a Concurrent subject: both Parliament and State Legislatures can legislate."
+   ],
+   "probable_questions": [
+    "How many Central labour laws were subsumed into the four Labour Codes? (29)",
+    "The Codes came into effect on which date? (21 November 2025)",
+    "Which Seventh Schedule entry deals with trade unions and industrial disputes? (Entry 22, List III)"
+   ]
+  },
+  {
+   "block": "Labour and Industrial Law",
+   "id": "10.L2",
+   "order": 2,
+   "title": "Industrial Relations Code, 2020 (I): 'Industry', 'Worker', 'Industrial Dispute', Employer, Bi-partite Forums and Trade Unions",
+   "priority": "VERY HIGH",
+   "expected_questions": "1 to 2",
+   "articles": "IR Code ss.2-26 (replacing ID Act 1947 ss.2, Trade Unions Act 1926)",
+   "overview": "The definitions around which the whole of industrial law revolves. The nine-judge decision of 20 Aug 2026 on 'industry' is a high-probability current-affairs question.",
+   "must_know": [
+    "The IR Code, 2020 consolidates and amends the law on trade unions, conditions of employment in industrial establishments or undertakings, and investigation and settlement of industrial disputes. It replaces the Trade Unions Act 1926, the Industrial Employment (Standing Orders) Act 1946 and the Industrial Disputes Act 1947.",
+    "'Industry' (IR Code s.2(p); ID Act s.2(j)): any systematic activity carried on by cooperation between an employer and worker (whether or not capital invested or profit motive) for production, supply or distribution of goods or services with a view to satisfy human wants or wishes (not spiritual or religious); includes any activity of the Dock Labour Board and activities relating to promotion of sales or business. Excluded: institutions owned or managed by organisations wholly or substantially engaged in charitable, social or philanthropic service; any activity of the appropriate Government relatable to sovereign functions (including defence research, atomic energy and space); domestic service; and any other activity notified. Compare s.2(j) ID Act - which was wide and the courts decided its limits.",
+    "Bangalore Water Supply and Sewerage Board v. A. Rajappa (1978, seven judges): 'triple test' - (i) systematic activity; (ii) organised by cooperation between employer and employee; (iii) for the production and/or distribution of goods and services calculated to satisfy human wants and wishes. Dominant nature test for composite institutions; hospitals, educational institutions, clubs, research institutes, charities with commercial activity may be industries; only strictly sovereign functions (those which only a sovereign can perform: legislation, administration of justice, maintenance of law and order, defence) and some charitable/ spiritual activities are excluded. It overruled the narrower view in Safdarjung Hospital v. Kuldip Singh Sethi (1970) and University of Delhi v. Ram Nath (1963). Earlier: Hospital Mazdoor Sabha (1960) (hospitals are industries); Corporation of City of Nagpur v. Employees (1960).",
+    "State of U.P. v. Jai Bir Singh (20 Aug 2026; 2026 INSC 897; nine judges led by CJI Surya Kant): the Court held by 6:3 that the reference was valid and, by 5:4, that the 1978 triple test needed refinement without overruling Bangalore Water Supply as a whole; the original 1978 test continues to govern all pending disputes under the repealed Industrial Disputes Act; the refined test will operate prospectively; and the Court said the 1978 expansive interpretation will not automatically govern s.2(p) of the IR Code, which has its own definition. Justice Nagarathna (reference not maintainable; definition should remain broad) and Justice Bagchi (reference valid; affirmed Bangalore Water Supply) wrote separate opinions; the outcome has been described as 4-4-1 on the merits [VERIFY the exact holdings from the judgment].",
+    "'Worker' (IR Code s.2(zr); ID Act 'workman' s.2(s)): any person (including apprentice - see exclusions; working journalists and sales promotion employees are included) employed in any industry to do any manual, unskilled, skilled, technical, operational, clerical or supervisory work for hire or reward, whether the terms are express or implied; includes a person dismissed, discharged or retrenched in connection with or as a consequence of an industrial dispute or whose dismissal, discharge or retrenchment has led to it; excludes members of the Armed Forces, police service or prison staff, persons mainly in managerial or administrative capacity, and persons in supervisory capacity drawing wages exceeding Rs 18,000 per month (or as notified) or exercising mainly managerial functions. The 'dominant nature of duties' test decides category (Burmah Shell Oil Storage v. Burmah Shell Management Staff Association, 1970; S.K. Maini v. Carona Sahu Co., 1994; Arkal Govind Raj Rao v. Ciba Geigy, 1985).",
+    "Employer-employee relationship: control and supervision test; integration test; economic reality; 'real employer' behind contractor (Hussainbhai v. Alath Factory Thozhilali Union, 1978; Balwant Rai Saluja v. Air India, 2014 - in contract labour, a contractor's workers become employees of principal employer only if the contract is a sham). 'Employer' under the Code includes the contractor, the legal representative of a deceased employer and, in a factory, the occupier. 'Industrial establishment' means an establishment where an industry is carried on.",
+    "'Industrial dispute' (IR Code s.2(q); ID Act s.2(k)): any dispute or difference between employers and employers, employers and workers or workers and workers connected with employment, non-employment, terms of employment or conditions of labour of any person; includes a dispute about discharge, dismissal, retrenchment or termination of an individual worker (individual dispute deemed an industrial dispute). A dispute must be espoused by a union or a substantial number of workers to be an 'industrial dispute' in the case of non-individual disputes (Workmen of Dimakuchi Tea Estate v. Dimakuchi Tea Estate, 1958). Dispute between an employee and an employer who is not within the definition of industry is not covered.",
+    "Bi-partite forums: Works Committee (IR Code s.3) in industrial establishments with 100 or more workers - equal number of employer and worker representatives, to promote measures for good relations; Grievance Redressal Committee (s.4) in every industrial establishment with 20 or more workers - up to ten members, equal representation of employer and workers, women proportionally; grievance must be raised within one year of cause; decision within 30 days; an aggrieved worker may seek conciliation within 30 days of the committee's decision [VERIFY section numbers].",
+    "Trade unions (Chapter III; replaces Trade Unions Act 1926): any combination of workers or employers for regulating relations or imposing restrictive conditions on conduct of trade or business, including federation. Registration: at least 7 members, and (in the case of an establishment) not less than 10% of workers or 100 workers, whichever is less - subject to a minimum of 7; Registrar of Trade Unions (State/Central); certificate of registration; union is a body corporate; immunity from criminal conspiracy (for agreement to do an act in furtherance of trade dispute) and civil suit for acts done in furtherance of a trade dispute; objects and funds (general and political fund - political activity only through a separate political fund and contributing members' consent); not more than one-third of office-bearers or five (whichever is less) may be outsiders; cancellation of registration by Registrar subject to appeal to Industrial Tribunal; unions may amalgamate.",
+    "Recognition of negotiating union (s.14): the union having 51% or more of the workers on the muster roll is the sole negotiating union; if no union has 51%, a negotiating council is constituted from unions with at least 20% membership, seats proportionate; the negotiating union/council negotiates with the employer on matters like wages and conditions and may be consulted on standing orders. A 'sole negotiating union' recognised by the employer from verification of membership by the employer or the appropriate Government.",
+    "Right to unionise: Art 19(1)(c) protects the right to form unions but not the right to recognition or to strike (All India Bank Employees' Association v. National Industrial Tribunal, 1962; Kameshwar Prasad v. State of Bihar, 1962; B.R. Singh v. Union of India, 1989). Union leaders enjoy limited protection; Rangarajan (2003) - no right to strike even for government employees.",
+    "Other basic terms: 'wages' for the Code (Section 2) - same as Code on Wages; 'appropriate Government'; 'average pay'; 'conciliation proceeding'; 'lay-off'; 'lock-out'; 'retrenchment'; 'strike'; 'trade union'; 'unfair labour practice' (appearing in the Code with a list in the Schedule [VERIFY]); 'fixed term employment' (see L4); 'standing orders'."
+   ],
+   "key_provisions": [
+    {
+     "ref": "IR Code s.2(p)",
+     "content": "Definition of 'industry'; excludes sovereign functions, charitable services, domestic service."
+    },
+    {
+     "ref": "IR Code s.2(zr)",
+     "content": "Definition of 'worker' - supervisory wage limit Rs 18,000."
+    },
+    {
+     "ref": "IR Code s.2(q)",
+     "content": "Industrial dispute incl. individual disputes."
+    },
+    {
+     "ref": "IR Code s.3-4",
+     "content": "Works Committee (100+ workers); Grievance Redressal Committee (20+ workers)."
+    },
+    {
+     "ref": "IR Code s.14",
+     "content": "Recognition: sole negotiating union (51%) or negotiating council (20% unions)."
+    }
+   ],
+   "landmark_cases": [
+    {
+     "case": "Bangalore Water Supply & Sewerage Board v. A. Rajappa",
+     "year": "1978",
+     "held": "Triple test for industry; wide reading; sovereign functions alone excluded."
+    },
+    {
+     "case": "State of U.P. v. Jai Bir Singh",
+     "year": "2026",
+     "held": "Nine-judge Bench (20 Aug 2026): reference valid; BWSSB refined, not overruled; original test governs pending ID Act cases; IR Code s.2(p) not automatically governed."
+    },
+    {
+     "case": "Hospital Mazdoor Sabha v. State of Madras",
+     "year": "1960",
+     "held": "Hospitals can be industries."
+    },
+    {
+     "case": "Workmen of Dimakuchi Tea Estate v. Management",
+     "year": "1958",
+     "held": "Collective dispute must be espoused by union or substantial body of workmen."
+    },
+    {
+     "case": "Burmah Shell Oil Storage v. Burmah Shell Management Staff Association",
+     "year": "1970",
+     "held": "Dominant nature of duties determines whether a person is a workman."
+    },
+    {
+     "case": "Hussainbhai v. Alath Factory Thozhilali Union",
+     "year": "1978",
+     "held": "Control test; real employer behind the contractor."
+    },
+    {
+     "case": "All India Bank Employees' Association v. National Industrial Tribunal",
+     "year": "1962",
+     "held": "Art 19(1)(c) protects forming unions, not the right to strike or to recognition."
+    },
+    {
+     "case": "Balwant Rai Saluja v. Air India",
+     "year": "2014",
+     "held": "Contract labour not automatically employees of principal employer."
+    }
+   ],
+   "mnemonics": [
+    "Triple test: 'S-O-P' - Systematic, Organised cooperation, Production/distribution to satisfy wants.",
+    "Works Committee 100, GRC 20, Standing Orders 300."
+   ],
+   "exam_traps": [
+    "The wage limit of Rs 18,000 applies to supervisory employees to decide whether they are 'workers'.",
+    "Trade union registration needs at least 7 members (and 10%/100 workers whichever is lesser).",
+    "Sole negotiating union = 51%; negotiating council requires unions with 20% each.",
+    "Art 19(1)(c) does not include the right to strike (Rangarajan)."
+   ],
+   "probable_questions": [
+    "The 'triple test' for industry was laid down in which case? (Bangalore Water Supply)",
+    "Which Act defines 'industry' in s.2(j)? (Industrial Disputes Act 1947)",
+    "What percentage of workers must a union have to be the sole negotiating union? (51%)",
+    "How many judges decided State of U.P. v. Jai Bir Singh? (Nine)"
+   ]
+  },
+  {
+   "block": "Labour and Industrial Law",
+   "id": "10.L3",
+   "order": 3,
+   "title": "Industrial Relations Code, 2020 (II): Standing Orders, Dispute Resolution Machinery, Strikes and Lock-outs",
+   "priority": "VERY HIGH",
+   "expected_questions": "1 to 2",
+   "articles": "IR Code Chapters IV-VIII (ID Act ss.10-24; Standing Orders Act 1946)",
+   "overview": "How disputes are raised and resolved (conciliation, tribunals, arbitration), the 2020 changes (direct access to Tribunal, two-member Tribunal) and the strike/lock-out notice rules which now cover every industrial establishment.",
+   "must_know": [
+    "Standing Orders (IR Code Chapter IV; replaces Industrial Employment (Standing Orders) Act 1946): apply to every industrial establishment with 300 or more workers (earlier 100); the employer must submit draft standing orders; model standing orders are prescribed by the Central Government (Model Standing Orders for manufacturing sector, and Model Standing Orders notified in 2026 [VERIFY]); certification by the Certifying Officer; deemed certification if no objection is raised within a prescribed time (about 60 days) [VERIFY]; appeal to the appellate authority; modifications only by agreement or by certification; matters provided in standing orders include classification of workers, manner of intimating working hours, holidays, pay-days, shift working, attendance, leave, conditions of discharge, termination, disciplinary action for misconduct, grievance redressal. Standing orders have statutory force (Western India Match Co. v. Workmen, 1973; U.P. State Road Transport Corp. v. Mohan Lal Gupta, 2000). Where standing orders do not exist, model standing orders apply.",
+    "Notice of change (Chapter V; ID Act s.9A): an employer who proposes to effect any change in conditions of service specified in the Schedule must give a 21-day notice to the workers affected; exceptions where change is under a settlement or award.",
+    "Dispute resolution machinery: Conciliation Officers appointed by the appropriate Government; the Industrial Tribunal (replacing Labour Courts and Tribunals of the ID Act) with two Members - one Judicial Member and one Administrative Member - and the National Industrial Tribunal for questions of national importance or interest to establishments in more than one State; Voluntary arbitration (Chapter VI; ID Act s.10A) by agreement of the parties to refer the dispute to arbitrator(s) before it is referred to Tribunal.",
+    "Raising a dispute (IR Code 2020): notice to the other party and to the conciliation officer; conciliation to be completed within a prescribed period (60 days); settlement in the course of conciliation is binding on the parties; if conciliation fails, the conciliation officer submits a failure report and parties may approach the Tribunal; under the Code, the party may approach the Tribunal directly after conciliation failure (no discretion of Government to make a 'reference' as under ID Act s.10) [VERIFY]. Individual disputes (discharge, dismissal, retrenchment, termination): a worker may apply to the conciliation officer and, if not settled within 45 days, to the Tribunal within two years from the date of discharge, dismissal, retrenchment or termination [VERIFY]. Tribunal awards: binding on the parties; enforcement as a decree; Tribunal's power to grant interim relief; powers of a civil court.",
+    "Section 11A ID Act (Tribunal's power to give appropriate relief in case of discharge or dismissal): where the Tribunal finds the punishment disproportionate, it may substitute a lesser punishment; Workmen of Firestone Tyre v. Management (1973); Delhi Transport Corporation v. D.T.C. Mazdoor Congress (1991) - 'hire and fire' rule; the employer must prove misconduct by fair domestic enquiry; if enquiry defective, employer may lead evidence before the Tribunal (Shankar Chakravarti v. Britannia Biscuit, 1979). Reinstatement with back wages is the general rule for illegal termination (Deepali Gundu Surwase v. Kranti Junior Adhyapak Mahavidyalaya, 2013); compensation in lieu is permitted in appropriate cases; the 'long delay/no back wages' approach in Allahabad Jal Sansthan v. Daya Shankar Rai (2005).",
+    "Strike and lock-out (IR Code Chapter VIII; ID Act ss.22-24): 'strike' - cessation of work by a body of persons employed in any industry acting in combination, or a concerted refusal or refusal under a common understanding to continue to work or accept employment; the Code expressly includes 'concerted casual leave on a given day by fifty per cent or more of the workers' as a strike. 'Lock-out' - temporary closing of a place of employment or suspension of work or refusal by an employer to continue to employ persons. Under the Code no person employed in an industrial establishment (not only a public utility service as under the ID Act) shall go on strike in breach of contract: (a) without giving notice of strike to the employer within sixty days before striking; (b) within fourteen days of giving such notice; (c) before the expiry of the date of strike specified in the notice; (d) during the pendency of conciliation proceedings before a conciliation officer and seven days after the conclusion; (e) during the pendency of proceedings before a Tribunal or National Tribunal and sixty days after the conclusion; (f) during the pendency of arbitration proceedings and sixty days after the conclusion; (g) during any period in which a settlement or award is in operation in respect of any of the matters covered. The same restrictions apply to lock-outs by employers (s.62) [VERIFY section number].",
+    "Legal and illegal strikes: illegal if in contravention of s.62; strike justified where employer's conduct is provocative; wages for strike period are denied unless strike is legal and justified (Crompton Greaves v. Workmen, 1978; Bank of India v. T.S. Kelawala, 1990). Lock-out must be bona fide. Participation in an illegal strike and incitement to strike are penalised. T.K. Rangarajan: government employees and others have no fundamental/statutory right to strike. Right to strike is a statutory right at best (Syndicate Bank v. K. Ramanujam, 1973; Ex-Capt. Harish Uppal v. Union of India, 2002 - lawyers strikes illegal).",
+    "Public utility services: ID Act s.2(n) list (e.g., railways, postal, telecom, power, water, sanitation, hospitals) and the Code's extension of notice to all; Essential Services Maintenance Acts (ESMA) of Central and State governments; Essential Services provisions; wage during strike. Compensation for lock-out/ strike in public utility.",
+    "Settlements and awards: settlement arrived at in conciliation binds all parties and workers; bipartite settlement (outside conciliation) binds signatories only; arbitration award; Tribunal award - enforceable by the Government; persons bound by award; commencement and period of operation (usually one year) ID Act s.19.",
+    "Powers of the appropriate Government: refer disputes (pre-Code); prohibit continuance of strike; give directions; prescribe thresholds by notification; exemption from provisions in public interest; appoint conciliation officers; set up Tribunals; Tribunals under the Code have the power of civil courts, can compound offences, and may grant relief to the worker for wrongful termination."
+   ],
+   "key_provisions": [
+    {
+     "ref": "IR Code s.62 (ID Act ss.22-23)",
+     "content": "Notice of strike/lock-out: 60 days; not within 14 days of notice; and bars during conciliation/tribunal/arbitration - now for ALL industrial establishments."
+    },
+    {
+     "ref": "IR Code Chapter IV (Standing Orders)",
+     "content": "Applies to industrial establishments with 300 or more workers."
+    },
+    {
+     "ref": "ID Act s.10A",
+     "content": "Voluntary reference of disputes to arbitration."
+    },
+    {
+     "ref": "ID Act s.11A",
+     "content": "Tribunal can modify punishment imposed by management."
+    }
+   ],
+   "landmark_cases": [
+    {
+     "case": "Workmen of Firestone Tyre & Rubber Co. v. Management",
+     "year": "1973",
+     "held": "Tribunal's power to examine misconduct and punishment; domestic enquiry principles."
+    },
+    {
+     "case": "Shankar Chakravarti v. Britannia Biscuit Co.",
+     "year": "1979",
+     "held": "If enquiry is vitiated, employer may adduce evidence before Tribunal; must plead and apply."
+    },
+    {
+     "case": "Delhi Transport Corp. v. D.T.C. Mazdoor Congress",
+     "year": "1991",
+     "held": "Struck down regulation 9(b) of DTC Regulations (termination without reasons) as arbitrary."
+    },
+    {
+     "case": "Deepali Gundu Surwase v. Kranti Junior Adhyapak Mahavidyalaya",
+     "year": "2013",
+     "held": "Full back wages and reinstatement is the normal rule after illegal termination."
+    },
+    {
+     "case": "Bank of India v. T.S. Kelawala",
+     "year": "1990",
+     "held": "Wages for strike period; legality and justification of strike."
+    },
+    {
+     "case": "T.K. Rangarajan v. Government of Tamil Nadu",
+     "year": "2003",
+     "held": "No fundamental right to strike."
+    },
+    {
+     "case": "Ex-Capt. Harish Uppal v. Union of India",
+     "year": "2002",
+     "held": "Strike by lawyers is illegal; reaffirmed that right to strike is not absolute."
+    },
+    {
+     "case": "Western India Match Co. v. Workmen",
+     "year": "1973",
+     "held": "Standing orders have statutory force."
+    }
+   ],
+   "mnemonics": [
+    "Strike notice: '60 days before; not within 14 days; none during conciliation (+7), tribunal (+60), arbitration (+60), or while award/settlement operates'."
+   ],
+   "exam_traps": [
+    "Notice for strikes now applies to all industrial establishments, not only public utility services.",
+    "Concerted casual leave by 50% or more workers is treated as a strike.",
+    "A settlement in conciliation binds all workers; a bipartite settlement binds only signatories.",
+    "Standing orders threshold 300 (not 100)."
+   ],
+   "probable_questions": [
+    "How many days' notice must be given before a strike? (60)",
+    "Standing orders apply to establishments with how many workers? (300 or more)",
+    "Which section of the ID Act empowers the Tribunal to interfere with punishment? (s.11A)",
+    "What is 'concerted casual leave'? (Treated as strike if by 50%+ workers)"
+   ]
+  },
+  {
+   "block": "Labour and Industrial Law",
+   "id": "10.L4",
+   "order": 4,
+   "title": "Industrial Relations Code, 2020 (III): Lay-off, Retrenchment, Closure, Fixed-term Employment, Re-skilling Fund, Unfair Labour Practices and Penalties",
+   "priority": "VERY HIGH",
+   "expected_questions": "1 to 2",
+   "articles": "IR Code Chapters IX-XII (ID Act ss.2(kkk), 2(oo), 25A-25S, 25T-25U)",
+   "overview": "The most numerically testable block: notice, compensation, thresholds, deemed permission and the new Worker Re-skilling Fund.",
+   "must_know": [
+    "Lay-off (ID Act s.2(kkk); IR Code Chapter IX): the failure, refusal or inability of an employer on account of shortage of coal, power or raw materials, accumulation of stocks, breakdown of machinery, natural calamity or any other connected reason to give employment to a worker whose name is on the muster roll and who has not been retrenched. Lay-off compensation: 50% of the total of basic wages and dearness allowance for all days of lay-off (other than weekly holidays) (ID Act s.25C; IR Code Chapter IX); not payable if the worker refuses alternative employment, does not present himself daily, or the lay-off is due to a strike or slowing down in another part of the establishment; not for more than 45 days in a year (then the employer may retrench) [VERIFY]. Lay-off provisions apply to establishments with 50 or more workers (but not seasonal).",
+    "Retrenchment (ID Act s.2(oo); IR Code): termination by the employer of the service of a worker for any reason whatsoever, otherwise than as a punishment inflicted by way of disciplinary action, except (a) voluntary retirement; (b) retirement on reaching the age of superannuation; (c) non-renewal of a contract of employment on its expiry (or termination under a stipulation in the contract); (d) termination due to continued ill-health (and, under the Code, non-renewal of fixed-term contract on expiry). The Constitution Bench in Punjab Land Development and Reclamation Corporation v. Presiding Officer, Labour Court (1990) read 'retrenchment' broadly to cover all terminations other than the stated exceptions (overruling the narrow view in Hariprasad Shivshankar Shukla v. A.D. Divelkar, 1957); State Bank of India v. N. Sundara Money (1976); Delhi Cloth & General Mills v. Shambhu Nath Mukherjee (1977).",
+    "Conditions precedent to retrenchment (IR Code s.70; ID Act s.25F): (a) one month's written notice indicating the reasons, or wages in lieu of notice; (b) compensation equivalent to fifteen days' average pay for every completed year of continuous service or any part thereof in excess of six months; (c) notice to the appropriate Government. Applies to workers who have completed one year of continuous service (240 days in the preceding 12 months - ID Act s.25B; Code uses 'one year of continuous service'). Non-compliance renders the retrenchment void ab initio and the worker is entitled to reinstatement (Santosh Gupta v. State Bank of Patiala, 1980; Mohan Lal v. Management of Bharat Electronics Ltd., 1981; Anoop Sharma v. Executive Engineer, 2010). Procedure for retrenchment (ID Act s.25G - last come first go): follow the rule of seniority within the category unless recorded reasons; re-employment of retrenched workers (s.25H): employer must give workers retrenched in the preceding year an opportunity to offer themselves for re-employment, with preference.",
+    "Worker Re-skilling Fund (IR Code s.83 [VERIFY]): employer shall credit 15 days' wages last drawn by the retrenched worker to the Worker Re-skilling Fund, from which the amount is paid to the worker's account within 45 days of retrenchment; in addition to retrenchment compensation.",
+    "Transfer of undertaking (ID Act s.25FF; Code): a worker is entitled to notice and compensation as if retrenched, unless the service is not interrupted, the terms are not less favourable and the new employer is legally liable for compensation.",
+    "Closure (ID Act s.2(cc); ss.25FFA, 25FFF): permanent closing down of a place of employment or part. Under ss.25FFA, an employer intending to close an undertaking employing 50 or more workers must give 60 days' notice to the appropriate Government; workers are entitled to notice and compensation as if retrenched (15 days' average pay for each year), but where the closure is due to unavoidable circumstances beyond the employer's control, compensation is capped at three months' average pay. Under Chapter X (special provisions - applicable to industrial establishments of 300 or more workers; earlier 100): prior permission of the appropriate Government is required for lay-off, retrenchment and closure (ID Act ss.25K-25S); application at least 90 days before closure; deemed permission if no response in 60 days; Government may grant permission, refuse or refer; effect of refusal; the Government can reduce or increase the 300-worker threshold by notification (IR Code s.77 [VERIFY]). The Code also provides that provisions of Chapter X apply to factory, mine or plantation - not to all industries.",
+    "Case law on prior permission: Excel Wear v. Union of India (1978) (s.25-O struck down as violating Art 19(1)(g)) - later Chapter VB (ss.25K-25S) upheld in Workmen of Meenakshi Mills v. Meenakshi Mills Ltd. (1992) (upheld ss.25N as reasonable restriction); Meenakshi Mills confirms that Chapter V-B is valid.",
+    "Fixed-term employment (IR Code s.2(o); ID Act and Standing Orders (Central) Rules amended 2018): a worker engaged on the basis of a written contract for a fixed period; the fixed-term worker has the same working hours, wages, allowances and other benefits as a permanent worker; entitled to gratuity pro rata even if service is less than five years (one year of service under SS Code); no notice or retrenchment compensation is payable on non-renewal at the end of the term; the employer may not use fixed-term contract to avoid regularisation of core work [VERIFY]. The Code adds flexibility; the judiciary examines abuse (e.g., Umadevi - see L8).",
+    "Unfair labour practices (ID Act ss.25T-25U and Fifth Schedule; IR Code retains a list of unfair labour practices by employers and trade unions [VERIFY]): to interfere with, restrain or coerce workers in exercising rights; to dominate or support a union (company union); discriminatory discharge; failure to implement awards; victimisation; employing badlis as casuals for years; to threaten strikes without notice; to coerce workers to join or not join a union; to incite or force go-slow; sit-down strikes; to indulge in acts of force or violence. Penalty: imprisonment up to 6 months or fine up to Rs 1,000 under the ID Act s.25U; under the Code, higher fines.",
+    "Offences and penalties: fines linked to contravention (strike/lock-out notice breaches, closure without notice, non-compliance with settlements); the Code decriminalises some offences with fines (Rs 10,000 to Rs 2 lakh in some cases, with imprisonment up to one month for aggravated cases [VERIFY]); compounding by the authority; offences by companies - officer in charge; courts of Metropolitan/ Judicial Magistrate; sections on cognizance only on complaint by or with the authority.",
+    "Termination of probationers, temporary workers and casuals: temporary or ad hoc employees can be retrenched but only following s.25F; sham fixed-term/casual appointments are scrutinised for unfair practice; regularisation is not automatic (Uma Devi, 2006)."
+   ],
+   "key_provisions": [
+    {
+     "ref": "IR Code s.70 (ID Act s.25F)",
+     "content": "Retrenchment: one month notice (or wages), compensation 15 days' average pay per year, notice to Government."
+    },
+    {
+     "ref": "IR Code s.77 (Chapter X)",
+     "content": "Prior permission for lay-off/retrenchment/closure in establishments with 300+ workers; deemed permission in 60 days."
+    },
+    {
+     "ref": "ID Act s.25C",
+     "content": "Lay-off compensation - 50% of basic wages and DA."
+    },
+    {
+     "ref": "IR Code s.83 [VERIFY]",
+     "content": "Worker Re-skilling Fund - 15 days' wages."
+    }
+   ],
+   "landmark_cases": [
+    {
+     "case": "Punjab Land Development & Reclamation Corporation v. Presiding Officer, Labour Court",
+     "year": "1990",
+     "held": "Constitution Bench - 'retrenchment' means every termination except those expressly excluded."
+    },
+    {
+     "case": "State Bank of India v. N. Sundara Money",
+     "year": "1976",
+     "held": "Retrenchment includes termination for any reason other than punishment; automatic termination covered."
+    },
+    {
+     "case": "Santosh Gupta v. State Bank of Patiala",
+     "year": "1980",
+     "held": "Termination in breach of s.25F is void; reinstatement follows."
+    },
+    {
+     "case": "Workmen of Meenakshi Mills Ltd. v. Meenakshi Mills Ltd.",
+     "year": "1992",
+     "held": "Validity of Chapter VB (ss.25K-25S) - reasonable restriction on employers' right."
+    },
+    {
+     "case": "Excel Wear v. Union of India",
+     "year": "1978",
+     "held": "Section 25-O (prior permission for closure) struck down at the time."
+    },
+    {
+     "case": "Delhi Cloth & General Mills Co. v. Shambhu Nath Mukherjee",
+     "year": "1977",
+     "held": "Retrenchment - broad meaning."
+    },
+    {
+     "case": "Mohan Lal v. Management of Bharat Electronics Ltd.",
+     "year": "1981",
+     "held": "Non-compliance with s.25F makes retrenchment void ab initio."
+    }
+   ],
+   "mnemonics": [
+    "Retrenchment 'N-C-G': Notice (1 month) - Compensation (15 days per year) - Government notified.",
+    "Prior permission 300 workers; closure notice 60 days (50+ workers)."
+   ],
+   "exam_traps": [
+    "Compensation for lay-off is 50% of basic + DA; for retrenchment 15 days' average pay per year.",
+    "The one-month notice for retrenchment can be replaced by wages in lieu.",
+    "Closure compensation is limited to 3 months' average pay when due to unavoidable circumstances.",
+    "Prior permission requirement now begins at 300 workers (earlier 100)."
+   ],
+   "probable_questions": [
+    "What compensation is a retrenched worker entitled to? (15 days' average pay per completed year)",
+    "How much lay-off compensation? (50% of basic wages and DA)",
+    "A fixed-term employee is eligible for gratuity after? (One year under the SS Code)",
+    "Notice period for closure of an undertaking employing 50+ workers? (60 days)"
+   ]
+  },
+  {
+   "block": "Labour and Industrial Law",
+   "id": "10.L5",
+   "order": 5,
+   "title": "Code on Wages, 2019: Wages, Minimum and Floor Wage, Payment, Bonus, Equal Remuneration",
+   "priority": "VERY HIGH",
+   "expected_questions": "1",
+   "articles": "Code on Wages 2019 (subsumes Payment of Wages Act 1936; Minimum Wages Act 1948; Payment of Bonus Act 1965; Equal Remuneration Act 1976)",
+   "overview": "One law now covers payment of wages, minimum wages, bonus and equal pay for all employees. The 50% rule in 'wages', the floor wage and time-limits for payment are classic testing points.",
+   "must_know": [
+    "Coverage: applies to all employees in all establishments (organised and unorganised); the earlier wage ceiling for the Payment of Wages Act (Rs 24,000 per month) has been removed - all employees are covered for timely payment of wages, deductions and minimum wages; bonus provisions apply to employees drawing wages up to Rs 21,000 per month.",
+    "'Wages' (s.2(y)): all remuneration whether by way of salary, allowances or otherwise, expressed in terms of money or capable of being so expressed, including basic pay, dearness allowance and retaining allowance. Excluded: bonus payable under any law; value of house accommodation, supply of light, water, medical attendance; employer's contribution to pension or provident fund and social security contribution; conveyance allowance; special expenses entitlement; house rent allowance; remuneration payable under award or settlement; overtime allowance; commission; gratuity; retrenchment compensation or other terminal benefits; travelling concession. If the excluded components together exceed 50% of total remuneration, the excess is added back to wages ('the 50% rule') - so basic pay and DA must form at least 50% of total remuneration. This definition governs PF, gratuity and bonus calculations under the Codes.",
+    "Equal remuneration (Chapter II, s.3): no employer shall discriminate on the ground of gender in matters of wages or recruitment, conditions of service and employment; includes transgender persons; employer shall not reduce the wages of any employee to comply. Randhir Singh v. Union of India (1982); State of Punjab v. Jagjit Singh (2016) - equal pay for equal work for temporary employees performing the same duties; Mackinnon Mackenzie & Co. v. Audrey D'Costa (1987) - Equal Remuneration Act principle; Air India v. Nargesh Meerza (1981).",
+    "Minimum wage: employers shall pay not less than the minimum wage prescribed - the Code applies minimum wages to all employees (not only scheduled employment). The Central Government fixes a 'floor wage' (s.9) having regard to living standards; the appropriate Government cannot fix a minimum wage below the floor wage; different minimum rates for different regions/skills; time-work, piece-work; review at intervals not exceeding five years; Advisory Boards; minimum wage includes basic wage and DA. Payment to non-employees via contractors - principal employer ultimately liable. Cases: Bijay Cotton Mills v. State of Ajmer (1955) - statutory minimum wage is a reasonable restriction under Art 19(1)(g); Unichoyi v. State of Kerala (1962) - inability to pay is no defence; Workmen v. Reptakos Brett & Co. (1992) - components of minimum wage; Sanjit Roy v. State of Rajasthan (1983) - minimum wages must be paid even in famine-relief works; PUDR (Asiad) (1982).",
+    "Hours of work and overtime: the appropriate Government fixes normal working day; overtime shall be paid at not less than twice the normal rate of wages (s.14); weekly rest day.",
+    "Payment of wages (Chapter III): wage period - daily, weekly, fortnightly or monthly (not exceeding one month); time-limit for payment (s.17): daily wage - at the end of the shift; weekly - on the last working day of the week; fortnightly - before the end of the second day after the end of the fortnight; monthly - before the expiry of the seventh day of the succeeding month; on removal, dismissal, retrenchment, resignation or superannuation - within two working days (s.17(2)); payment in coin/currency notes, cheque or credit to bank account or electronically ; responsibility for payment on the employer or a person designated; contractor/principal employer liability.",
+    "Deductions (s.18): only authorised deductions - fines, absence from duty, damage to goods, house accommodation, amenities, recovery of advances, income-tax, court orders, cooperative society subscriptions, insurance premiums etc.; total deductions shall not exceed 50% of wages in any wage period (s.18(2)); fines limited and with show-cause; no deduction for damage unless caused by neglect/default.",
+    "Bonus (Chapter V): every employee drawing wages not exceeding Rs 21,000 per month and who has worked for at least 30 days in an accounting year is entitled to bonus; minimum bonus is 8.33% of wages earned or Rs 100, whichever is higher; maximum 20% of wages; calculation ceiling of Rs 7,000 or the minimum wage, whichever is higher; allocable surplus (60% of available surplus for companies; 67% for others); set-on and set-off; payment within eight months from close of accounting year; disqualification for fraud, riotous or violent behaviour, theft, misappropriation or sabotage; establishments newly set up exempt for the first five accounting years unless profits; Mumbai Kamgar Sabha v. Abdulbhai Faizullabhai (1976) - bonus is not deferred wage but a share in profits; the Full Bench Formula governs the determination of allocable surplus in bonus disputes.",
+    "Claims and adjudication: employee may apply to the Authority (appointed by the appropriate Government) for unpaid wages/bonus within three years from the date on which the claim arose [VERIFY section number]; penalty up to ten times the amount in some cases; interest; appeals to Appellate Authority within 30 days; recovery as arrears of land revenue. 'Inspector-cum-Facilitator' appointed to supply information and advice and to inspect; web-based random inspection.",
+    "Penalties and compounding: offence of paying less than the minimum wage - fine up to Rs 50,000 for first offence; repeat within five years - imprisonment up to three months and/or fine up to Rs 1 lakh [VERIFY]; Code offences compoundable by the authority with the specified amounts; no imprisonment for first-time minor offence."
+   ],
+   "key_provisions": [
+    {
+     "ref": "Wages Code s.2(y)",
+     "content": "Definition of 'wages' - 50% rule."
+    },
+    {
+     "ref": "Wages Code s.3",
+     "content": "Prohibition of discrimination on the ground of gender."
+    },
+    {
+     "ref": "Wages Code s.9",
+     "content": "Floor wage set by the Central Government."
+    },
+    {
+     "ref": "Wages Code s.14",
+     "content": "Overtime at not less than twice the normal rate."
+    },
+    {
+     "ref": "Wages Code s.17",
+     "content": "Time-limit for payment: monthly - before 7th day; on termination - within 2 working days."
+    },
+    {
+     "ref": "Wages Code s.18",
+     "content": "Deductions; total not to exceed 50% of wages."
+    },
+    {
+     "ref": "Wages Code Chapter V",
+     "content": "Bonus: 8.33% minimum - 20% maximum; wage ceiling Rs 21,000."
+    }
+   ],
+   "landmark_cases": [
+    {
+     "case": "Bijay Cotton Mills Ltd. v. State of Ajmer",
+     "year": "1955",
+     "held": "Minimum wage law is a reasonable restriction in public interest."
+    },
+    {
+     "case": "Unichoyi v. State of Kerala",
+     "year": "1962",
+     "held": "Employer must pay the statutory minimum even if the industry is unable to pay."
+    },
+    {
+     "case": "PUDR v. Union of India (Asiad Workers)",
+     "year": "1982",
+     "held": "Wages below minimum amount to forced labour."
+    },
+    {
+     "case": "Randhir Singh v. Union of India",
+     "year": "1982",
+     "held": "Equal pay for equal work - Art 14, 16, 39(d)."
+    },
+    {
+     "case": "State of Punjab v. Jagjit Singh",
+     "year": "2016",
+     "held": "Temporary employees doing the same work as regular employees entitled to equal pay."
+    },
+    {
+     "case": "Mumbai Kamgar Sabha v. Abdulbhai Faizullabhai",
+     "year": "1976",
+     "held": "Bonus is linked to profits and is not an enforceable claim to deferred wage in the absence of statute."
+    },
+    {
+     "case": "Sanjit Roy v. State of Rajasthan",
+     "year": "1983",
+     "held": "Famine relief work - minimum wages must be paid; exemption unconstitutional."
+    }
+   ],
+   "mnemonics": [
+    "Wages: 50% rule - excluded items beyond 50% are added back.",
+    "Bonus: 8.33% - 20%; ceiling Rs 21,000; 30 working days."
+   ],
+   "exam_traps": [
+    "House rent allowance, bonus, gratuity, overtime and employer's PF contribution are excluded from 'wages' - but the 50% rule may add some back.",
+    "Total deductions are capped at 50% of wages.",
+    "On termination or resignation, wages must be paid within two working days.",
+    "Minimum wage applies to all employees under the Code, not only scheduled employment."
+   ],
+   "probable_questions": [
+    "Under the Code on Wages, overtime is payable at what rate? (Twice the normal rate)",
+    "What is the minimum bonus percentage? (8.33%)",
+    "Which Act dealt with 'equal remuneration' earlier? (Equal Remuneration Act 1976)",
+    "Maximum deductions from wages? (50%)"
+   ]
+  },
+  {
+   "block": "Labour and Industrial Law",
+   "id": "10.L6",
+   "order": 6,
+   "title": "Code on Social Security, 2020: EPF, ESI, Gratuity, Maternity Benefit, Employees' Compensation, Gig and Platform Workers",
+   "priority": "HIGH",
+   "expected_questions": "1",
+   "articles": "Code on Social Security 2020 (subsumes 9 Acts)",
+   "overview": "Thresholds, eligibility and benefits under the nine-Act merger. Gig and platform worker provisions are new and topical.",
+   "must_know": [
+    "The Code subsumes: Employees' Compensation Act 1923; ESI Act 1948; EPF and Miscellaneous Provisions Act 1952; Employment Exchanges (Compulsory Notification of Vacancies) Act 1959; Maternity Benefit Act 1961; Payment of Gratuity Act 1972; Cine Workers Welfare Fund Act 1981; Building and Other Construction Workers' Welfare Cess Act 1996; Unorganised Workers' Social Security Act 2008. Administered by the EPFO, ESIC, National Social Security Board for unorganised, gig and platform workers, and the Social Security Fund.",
+    "Employees' Provident Fund (Chapter III): applies to establishments with 20 or more employees (Central Government may lower the threshold or extend to others); mandatory contributions by employer and employee at 12% of wages (rate can be lower for certain establishments); statutory wage ceiling for compulsory coverage Rs 15,000 per month; three schemes - EPF Scheme 1952, Employees' Pension Scheme 1995 (EPS) and Employees' Deposit Linked Insurance Scheme 1976 (EDLI); Universal Account Number; interest on deposits declared annually; EPFO; damages for delayed payment; recovery as arrears of land revenue. 'Basic wage' for PF - Bridge and Roof Co. v. Union of India (1963); Manipal Academy of Higher Education v. Provident Fund Commissioner (2008); Vivekananda Vidya Mandir v. Regional Provident Fund Commissioner (2019) - special allowances that are universally paid are part of basic wage; Surya Roshni Ltd. v. EPF (2019).",
+    "Employees' State Insurance (Chapter IV): applies to establishments with 10 or more employees (and the Code allows extension to hazardous employment even with fewer, and to establishments with less than 10 on a voluntary basis); employees drawing wages up to Rs 21,000 per month (Rs 25,000 for persons with disabilities); contributions - employer 3.25% and employee 0.75% of wages; benefits - sickness, maternity, disablement (temporary and permanent), dependants' benefit, medical benefit, funeral expenses, unemployment allowance (Atal Bimit Vyakti Kalyan Yojana); ESI Corporation. Under the Code, disputes concerning employer liability are heard by the Social Security Appellate Tribunal instead of ESI Courts [VERIFY].",
+    "Gratuity (Chapter V; formerly Payment of Gratuity Act 1972): payable on termination of employment after continuous service of five years or more - on superannuation, retirement or resignation, or death or disablement due to accident or disease (no minimum period needed in case of death or disablement). Applies to establishments with 10 or more employees (and to factories, mines, oilfields, plantations, ports, railways, shops and establishments). Fixed-term employees qualify on a pro-rata basis after one year of continuous service (Code). Formula: 15 days' wages (last drawn) for each completed year of service = (last drawn monthly wages x 15 / 26) x number of years (seasonal establishments: 7 days per season); employer's liability ceiling Rs 20 lakh (as notified). Gratuity must be paid within 30 days of becoming payable; simple interest on delay; nomination; exemption from attachment. Forfeiture: wholly or partly if services are terminated for wilful omission or negligence causing damage or loss to employer's property (to the extent of loss), or for riotous or disorderly conduct or an act of violence, or for an offence involving moral turpitude committed in the course of employment. Cases: Union Bank of India v. C.G. Ajay Babu (2018) - gratuity cannot be forfeited merely on departmental misconduct; offence involving moral turpitude must be established; Jeewanlal (1929) Ltd. v. Appellate Authority (1984) - gratuity payable irrespective of whether employer is making profits; the Controlling Authority decides disputes; appeal to Appellate Authority within 60 days.",
+    "Maternity benefit (Chapter VI; formerly Maternity Benefit Act 1961 as amended in 2017): applies to every establishment employing 10 or more persons; woman must have worked at least 80 days in the 12 months preceding the expected delivery; benefit is paid at the average daily wage for the period of actual absence; duration: 26 weeks (not more than 8 weeks before the expected delivery) for the first two children; 12 weeks (6 weeks pre-delivery) for a third or subsequent child; 12 weeks for an adopting mother (child below three months) and a commissioning mother (from date child handed over); miscarriage or medical termination: 6 weeks; tubectomy: 2 weeks; illness arising out of pregnancy: 1 month; nursing breaks (two breaks of 15 minutes); work from home option after the benefit period if the nature of work permits; crèche mandatory for establishments with 50 or more employees (visits allowed four times a day); medical bonus of Rs 3,500 if no pre/post-natal care provided by employer [VERIFY amount]; protection from dismissal during maternity. Cases: Municipal Corporation of Delhi v. Female Workers (Muster Roll) (2000) - daily wagers are entitled; Neera Mathur v. LIC (1992) - questions on pregnancy history in application invalid; Deepika Singh v. Central Administrative Tribunal (2022) - maternity leave (and child care leave) for women with step-children; Dr Kavita Yadav v. Secretary, Ministry of Health (Delhi HC, 2023) - maternity benefits to contractual employees.",
+    "Employees' Compensation (Chapter VII; formerly Employees' Compensation Act 1923, earlier Workmen's Compensation Act): employer is liable to pay compensation when an employee suffers personal injury by accident arising out of and in the course of employment or contracts an occupational disease listed in Schedule III; compensation for death (50% of monthly wages x relevant factor, subject to a minimum), permanent total disablement (60% x relevant factor, minimum), partial disablement and temporary disablement; liability not arising if the disablement does not exceed three days (except death/serious), employee under influence of drugs/alcohol, wilful disobedience of safety order, wilful removal of a safety device; interest at 12% (or as notified) if compensation not paid within one month; penalty up to 50% for default without sufficient cause; claim to be made within two years of accident; Commissioner for Employees' Compensation adjudicates; appeal to High Court only on substantial question of law. Notional extension of employment: Saurashtra Salt Manufacturing Co. v. Bai Valu Raja (1958); Mackinnon Mackenzie & Co. v. Ibrahim Mahomed Issak (1969); Employees' State Insurance Corp. v. Francis De Costa (1996); Pratap Narain Singh Deo v. Srinivas Sabata (1976) - 'accident' includes injury arising from an event that is unexpected.",
+    "Gig workers and platform workers (Chapter IX): 'gig worker' - person who performs work or participates in a work arrangement outside the traditional employer-employee relationship; 'platform worker' - a gig worker whose work is based on online platform; 'aggregator' - digital intermediary or marketplace for buyers and sellers (e.g., ride-hailing, food delivery). Aggregators must contribute 1% to 2% of their annual turnover (capped at 5% of the amount paid or payable to gig and platform workers) to the Social Security Fund; benefits via schemes - life and disability insurance, health and maternity benefits, old-age protection; registration on the e-Shram portal with Aadhaar-linked UAN; eligibility based on a minimum number of days of engagement (e.g., 90 days with one aggregator or 120 days across aggregators in the draft rules) [VERIFY Central Rules 2026]. State laws: Rajasthan Platform Based Gig Workers (Registration and Welfare) Act 2023; Karnataka Platform-based Gig Workers (Social Security and Welfare) Act 2025 [VERIFY]. The Code does not decide whether gig workers are 'employees' for other labour laws.",
+    "Unorganised workers and welfare: National Social Security Board; Welfare schemes (Pradhan Mantri Shram Yogi Maandhan; Ayushman Bharat; e-Shram); BOCW Welfare Boards - cess on cost of construction (1%-2%) funds the welfare of building and construction workers; Cine Workers Welfare Fund; Employment Exchanges (National Career Service portal) and mandatory notification of vacancies (now through National Career Service for establishments with 20+ employees [VERIFY]).",
+    "Common features: the Code makes provision for social security for fixed-term workers, inter-state migrant workers (portability), and extends EPF/ESI to more sectors; 'wages' as in the Code on Wages; 'employee' defined broadly (includes contract and unorganised workers); Facilitator inspections; penalties for non-compliance (fines and imprisonment for diverting contributions); the Code allows aggrieved persons to appeal to the Appellate Tribunal."
+   ],
+   "key_provisions": [
+    {
+     "ref": "SS Code - Gratuity (Chapter V)",
+     "content": "5 years' service (1 year for fixed-term employees); 15 days' wages per year; cap Rs 20 lakh."
+    },
+    {
+     "ref": "SS Code - Maternity (Chapter VI)",
+     "content": "26 weeks for first two children; 12 weeks for third or adopting/commissioning mother."
+    },
+    {
+     "ref": "SS Code - Gig workers (Chapter IX)",
+     "content": "Aggregator contribution 1%-2% of turnover capped at 5% of payouts."
+    },
+    {
+     "ref": "EPF threshold",
+     "content": "20 employees; ESI threshold 10; wage ceilings Rs 15,000 (EPF) / Rs 21,000 (ESI)."
+    }
+   ],
+   "landmark_cases": [
+    {
+     "case": "Municipal Corporation of Delhi v. Female Workers (Muster Roll)",
+     "year": "2000",
+     "held": "Maternity benefit applies to casual/daily-wage women workers."
+    },
+    {
+     "case": "Deepika Singh v. Central Administrative Tribunal",
+     "year": "2022",
+     "held": "Maternity leave for a woman with a step-child; purposive reading of maternity law."
+    },
+    {
+     "case": "Vivekananda Vidya Mandir v. Regional PF Commissioner",
+     "year": "2019",
+     "held": "Special allowances paid universally are part of basic wage for PF."
+    },
+    {
+     "case": "Union Bank of India v. C.G. Ajay Babu",
+     "year": "2018",
+     "held": "Gratuity forfeiture needs conviction/offence involving moral turpitude."
+    },
+    {
+     "case": "Jeewanlal (1929) Ltd. v. Appellate Authority",
+     "year": "1984",
+     "held": "Gratuity is a statutory right of the employee, not dependent on the employer's profit."
+    },
+    {
+     "case": "Saurashtra Salt Manufacturing Co. v. Bai Valu Raja",
+     "year": "1958",
+     "held": "Notional extension of the employment: accident 'in the course of employment' includes the journey."
+    },
+    {
+     "case": "Neera Mathur v. LIC",
+     "year": "1992",
+     "held": "Pregnancy-related questions in service applications are invalid; privacy and dignity of women."
+    }
+   ],
+   "mnemonics": [
+    "EPF 20 / ESI 10 / Gratuity 10 / Maternity 10 / Crèche 50.",
+    "Maternity: 26 weeks (1st & 2nd child); 12 weeks (3rd+, adoption, commissioning)."
+   ],
+   "exam_traps": [
+    "Gratuity requires 5 years' continuous service, but this is not needed in case of death or disablement.",
+    "Maternity 26 weeks applies only to the first two children.",
+    "EPF threshold is 20 employees; ESI 10 employees.",
+    "The 'Employees' Compensation Act' is now merged into the Code - but claims on pre-Code accidents may still use old provisions."
+   ],
+   "probable_questions": [
+    "Maternity benefit for the first child is how many weeks? (26)",
+    "Gratuity is payable after how many years of continuous service? (5)",
+    "Which Code now regulates gig and platform workers? (Code on Social Security 2020)",
+    "ESI contribution rates? (Employer 3.25%, employee 0.75%)"
+   ]
+  },
+  {
+   "block": "Labour and Industrial Law",
+   "id": "10.L7",
+   "order": 7,
+   "title": "Occupational Safety, Health and Working Conditions Code, 2020; Contract Labour; Inter-State Migrants; Child and Bonded Labour; Women at Work",
+   "priority": "MEDIUM-HIGH",
+   "expected_questions": "1",
+   "articles": "OSH Code 2020 (13 Acts); Child and Adolescent Labour Act 1986; Bonded Labour System (Abolition) Act 1976; POSH Act 2013; Arts 23, 24",
+   "overview": "Safety, health, working hours, contract labour and the constitutional rights cases (child labour, bonded labour, Vishaka, Bhopal, absolute liability).",
+   "must_know": [
+    "OSH Code subsumes 13 Acts: Factories Act 1948; Mines Act 1952; Dock Workers (Safety, Health and Welfare) Act 1986; Building and Other Construction Workers (RECS) Act 1996; Plantations Labour Act 1951; Contract Labour (Regulation and Abolition) Act 1970; Inter-State Migrant Workmen (RECS) Act 1979; Working Journalists and other Newspaper Employees (Conditions of Service) and Miscellaneous Provisions Act 1955; Working Journalists (Fixation of Rates of Wages) Act 1958; Motor Transport Workers Act 1961; Sales Promotion Employees (Conditions of Service) Act 1976; Beedi and Cigar Workers (Conditions of Employment) Act 1966; Cine-Workers and Cinema Theatre Workers (Regulation of Employment) Act 1981.",
+    "Applicability: establishments with 10 or more workers (mines and docks irrespective of numbers); 'factory' means premises where 20 or more workers are employed (with power) or 40 or more (without power) (earlier 10 and 20 respectively; State Governments may raise the limit further); a single registration of an establishment; 'occupier' - the person with ultimate control over the affairs of the establishment (in a company, one of the directors); 'Inspector-cum-Facilitator'; 'Chief Inspector'; National and State Occupational Safety and Health Advisory Boards.",
+    "Employer duties: provide a workplace free from hazards; appointment letters for all workers; free annual health check-up for workers above a certain age (45 years) [VERIFY]; Safety Committee in factories with 500 or more workers [VERIFY]; Welfare Officer in factories with 500 or more workers; canteen for 100 or more workers; crèche for 50 or more workers; first-aid; occupational disease notification; compensation for accidents is under the Social Security Code; notify accidents. Hazardous processes: duties for hazardous factories (Bhopal lessons - Chapter on hazardous industries; Environment Protection Act 1986; Public Liability Insurance Act 1991; National Green Tribunal Act 2010).",
+    "Working hours and leave: 8 hours a day and 48 hours a week (more flexible hours if prescribed); spread-over of 12 hours; overtime wages at not less than twice the rate (Wages Code), overtime ceiling per quarter [125 hours - VERIFY]; weekly day of rest; annual leave with wages: one day for every 20 days worked (earlier 240 days eligibility is relaxed to 180 days of work in the preceding calendar year); women may work night shifts (7 pm - 6 am) with consent and prescribed safety measures (transport, security, CCTV, restrooms); women in mines and hazardous work allowed with safeguards.",
+    "Contract labour (Chapter XI): the Code applies to establishments and contractors employing 50 or more contract workers (earlier 20); the contractor must hold a licence (a single, all-India licence valid for five years, with relaxations); contract labour is prohibited in core activities of an establishment except where (i) the normal functioning is such that the work is ordinarily done through contractors; (ii) the activities do not require full-time workers for the major part of the working hours in a day; or (iii) there is a sudden increase in volume of work; the principal employer is liable to pay wages and benefits if the contractor defaults; workers must be paid wages and have facilities (canteen, rest rooms, drinking water). Steel Authority of India Ltd. v. National Union Water Front Workers (2001, Constitution Bench): on abolition of contract labour, absorption of contract workers in the principal employer is not automatic; Air India Statutory Corporation v. United Labour Union (1996) overruled in part; Balwant Rai Saluja v. Air India (2014): 'control' test - contract labour is the principal employer's employee only if the contract is a sham; Gujarat Electricity Board v. Hind Mazdoor Sabha (1995).",
+    "Inter-State migrant workers: includes a worker who migrates on his own and not only through a contractor; employer must pay an annual 'journey allowance' for to-and-fro travel to the native place; portability of benefits (ration, PDS); registration on the national portal; ISMW displacement allowance (as under old Act) is dropped in favour of journey allowance.",
+    "Women at work: Maternity (Social Security Code); equal pay (Wages Code s.3); Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act 2013 - Internal Committee (10+ employees), Local Committee (district); complaint within 3 months (extendable); inquiry 90 days; Vishaka v. State of Rajasthan (1997); Medha Kotwal Lele v. Union of India (2013) - compliance; Apparel Export Promotion Council v. A.K. Chopra (1999); Aureliano Fernandes v. State of Goa (2023) - proper constitution of Internal Committee; Air India v. Nargesh Meerza (1981) - unequal service conditions for air hostesses (retirement on pregnancy) held arbitrary; Anuj Garg v. Hotel Association of India (2008) - ban on women employees in bars struck as stereotyping; Charu Khurana v. Union of India (2015) - no gender bias in make-up artists' union membership.",
+    "Child labour: Art 24 (no child below 14 in factory/mine/hazardous employment); Child and Adolescent Labour (Prohibition and Regulation) Act 1986 as amended in 2016 - complete prohibition of employment of children below 14 in all occupations (with an exception for family enterprises and audio-visual entertainment outside school hours); prohibition of adolescents (14-18) in hazardous occupations/processes; penalties; Right to Education Act 2009 (Art 21A) - cross-ref Part 1. Cases: M.C. Mehta v. State of Tamil Nadu (1996) - Sivakasi: directions on child labour (Rs 20,000 compensation per child; child labour rehabilitation-cum-welfare fund); Bachpan Bachao Andolan v. Union of India (2011) - circus children, trafficking; People's Union for Democratic Rights v. Union of India (1982).",
+    "Bonded labour: Art 23; Bonded Labour System (Abolition) Act 1976 abolishes the system and extinguishes debts; District Magistrate as implementing authority; vigilance committees; rehabilitation; offences punishable with up to 3 years' imprisonment and fine up to Rs 2,000; Bandhua Mukti Morcha v. Union of India (1984); Neerja Chaudhary v. State of M.P. (1984) - rehabilitation is part of liberation; Central Sector Scheme for Rehabilitation of Bonded Labourers (2021).",
+    "Penalties and compounding in the OSH Code: higher fines for fatal accidents, with compensation to victims; first offence of certain kinds can be compounded; offences by companies attract liability of the officers in charge; a court of Metropolitan Magistrate or Judicial Magistrate of the First Class tries offences; cognizance only on a complaint by or with the authority of Inspector-cum-Facilitator.",
+    "Absolute liability and workplace disasters: M.C. Mehta v. Union of India (Oleum Gas Leak, 1987) - absolute liability for hazardous industry (departure from Rylands v. Fletcher); Union Carbide Corp. v. Union of India (1989) - Bhopal settlement; Union of India v. Union Carbide (1991) - review; Consumer Education and Research Centre v. Union of India (1995) - right to health of workers is a part of Art 21 (asbestos); Occupational diseases and ESI; Charan Lal Sahu v. Union of India (1990) - Bhopal Gas Leak (Processing of Claims) Act 1985 upheld."
+   ],
+   "key_provisions": [
+    {
+     "ref": "OSH Code - factory",
+     "content": "20 or more workers with power; 40 or more without power."
+    },
+    {
+     "ref": "OSH Code - contract labour",
+     "content": "Applies to establishments with 50 or more contract workers; core-activity prohibition with exceptions."
+    },
+    {
+     "ref": "OSH Code - working time",
+     "content": "8 hours a day; 48 hours a week; overtime double; women night work with consent."
+    },
+    {
+     "ref": "Art 24",
+     "content": "No child below 14 in hazardous employment."
+    }
+   ],
+   "landmark_cases": [
+    {
+     "case": "M.C. Mehta v. Union of India (Oleum Gas Leak)",
+     "year": "1987",
+     "held": "Absolute liability of hazardous industries."
+    },
+    {
+     "case": "Vishaka v. State of Rajasthan",
+     "year": "1997",
+     "held": "Guidelines against workplace sexual harassment; now POSH Act 2013."
+    },
+    {
+     "case": "Steel Authority of India v. National Union Water Front Workers",
+     "year": "2001",
+     "held": "No automatic absorption of contract labour on abolition."
+    },
+    {
+     "case": "Balwant Rai Saluja v. Air India",
+     "year": "2014",
+     "held": "Test of control to decide the real employer in contract labour."
+    },
+    {
+     "case": "M.C. Mehta v. State of Tamil Nadu",
+     "year": "1996",
+     "held": "Child labour guidelines - Sivakasi; compensation fund."
+    },
+    {
+     "case": "Bandhua Mukti Morcha v. Union of India",
+     "year": "1984",
+     "held": "Bonded labour; PIL; Art 21 and 23."
+    },
+    {
+     "case": "Consumer Education & Research Centre v. Union of India",
+     "year": "1995",
+     "held": "Right to health and medical aid for workers is part of Art 21."
+    },
+    {
+     "case": "Air India v. Nargesh Meerza",
+     "year": "1981",
+     "held": "Service conditions requiring termination on first pregnancy are arbitrary."
+    },
+    {
+     "case": "Anuj Garg v. Hotel Association of India",
+     "year": "2008",
+     "held": "Gender stereotyping; ban on women employees in bars unconstitutional."
+    }
+   ],
+   "mnemonics": [
+    "Factory: 20/40. Contract labour: 50. Crèche: 50. Canteen: 100. Welfare officer: 500.",
+    "OSH Code merges 13 Acts: Factories-Mines-Docks-BOCW-Plantations-CLRA-ISMW-Journalists (2)-Motor-Sales-Beedi-Cine."
+   ],
+   "exam_traps": [
+    "Child Labour Act 1986 (amended 2016) and Bonded Labour Act 1976 are NOT subsumed in the Codes.",
+    "Contract labour threshold is 50 (earlier 20).",
+    "Absolute liability (Oleum Gas) is stricter than strict liability (Rylands v. Fletcher).",
+    "Women night work is permitted only with consent and safety measures."
+   ],
+   "probable_questions": [
+    "The OSH Code applies to a 'factory' with how many workers (with power)? (20)",
+    "In which case was absolute liability evolved? (M.C. Mehta - Oleum Gas Leak)",
+    "Which Act abolishes the bonded labour system? (Bonded Labour System (Abolition) Act 1976)",
+    "Vishaka guidelines relate to? (Sexual harassment at workplace)"
+   ]
+  },
+  {
+   "block": "Labour and Industrial Law",
+   "id": "10.L8",
+   "order": 8,
+   "title": "Judicial Principles in Labour Law: Regularisation, Termination, Contract Workers, Domestic Enquiry, Strikes and Constitutional Rights of Workers",
+   "priority": "HIGH",
+   "expected_questions": "1",
+   "articles": "Arts 14, 16, 19, 21, 311; ID Act s.11A; Code principles",
+   "overview": "Principles you will need to apply to a fact scenario.",
+   "must_know": [
+    "Regularisation: Secretary, State of Karnataka v. Umadevi (3) (2006, Constitution Bench): courts cannot order regularisation of employees appointed irregularly or without following the constitutional scheme of public employment (Arts 14, 16); 'illegal' v. 'irregular' appointments; one-time measure for those who had served 10 years or more against sanctioned posts. Later: Jaggo v. Union of India (Dec 2024) and Shripal v. Nagar Nigam, Ghaziabad (Jan 2025): the Supreme Court criticised the misuse of Umadevi to deny regularisation to long-serving workers on perennial work and directed regularisation; the principle that 'temporary' labels cannot disguise permanent needs [VERIFY].",
+    "Equal pay for equal work: Randhir Singh (1982); State of Punjab v. Jagjit Singh (2016) - temporary employees doing the same work as regular employees get minimum of regular pay scale; contrary caution in State of Haryana v. Charanjit Singh (2006).",
+    "Disciplinary proceedings and domestic enquiry: principles of natural justice - notice, opportunity, impartial inquiry officer; no bias; findings supported by evidence; 'some evidence' and not strict rules of evidence (State of Haryana v. Rattan Singh, 1977); punishment proportional (Ranjit Thakur v. Union of India, 1987; Union of India v. G. Ganayutham, 1997 - proportionality as part of Wednesbury); Tribunal's power under s.11A ID Act; supply of enquiry report before punishment (Managing Director, ECIL v. B. Karunakar, 1993); suspension and subsistence allowance (State of Maharashtra v. Chandrabhan, 1983); termination simpliciter of probationers (Dipti Prakash Banerjee v. Satyendra Nath Bose National Centre, 1999 - stigma test).",
+    "Standing Orders and misconduct: acts of misconduct defined in standing orders; 'misconduct' wider than enumerated list (Glaxo Laboratories v. Presiding Officer, 1984 - standing orders must be certified; employer cannot punish for acts not covered).",
+    "Hire and fire: Delhi Transport Corporation v. DTC Mazdoor Congress (1991) - arbitrary termination clauses unconstitutional for State instrumentalities; Central Inland Water Transport Corp. v. Brojo Nath Ganguly (1986) - unconscionable contract of service void under s.23 Contract Act and Art 14.",
+    "Reinstatement with back wages: Deepali Gundu Surwase (2013); J.K. Synthetics v. K.P. Agrawal (2007) (reinstatement not automatic); Gauri Shankar v. State of Rajasthan (2015) - compensation in lieu; Allahabad Jal Sansthan (2005).",
+    "Strike: T.K. Rangarajan (2003) - no fundamental right; all strikes subject to statutory rules; illegal strike; wages not payable unless justified; Harish Uppal (2002); dismissals for participation in illegal strike - limited to violence.",
+    "Constitutional rights of workers: Art 19(1)(c) - protects formation of unions, not recognition; Art 21 - livelihood (Olga Tellis; Delhi Transport Corp.); Art 23 - forced labour (PUDR); Art 14 - equal pay; Art 16 - public employment; Art 43A workers' participation in management; Art 300A and wages - PF/gratuity as property.",
+    "Employer-employee relationship tests - control and supervision, integration, economic reality, multiple factors; 'contract of service' v. 'contract for services' (Dharangadhara Chemical Works v. State of Saurashtra, 1957; Silver Jubilee Tailoring House v. Chief Inspector of Shops, 1974); platform workers - emerging law: Karnataka and Rajasthan Acts; international: Uber (UK Supreme Court 2021) as a comparative marker.",
+    "Compounding and prosecution: offences under labour law are triable by Magistrates; limitation for cognizance is as prescribed under the Code; a complaint by Inspector; 'sanction'."
+   ],
+   "key_provisions": [
+    {
+     "ref": "Art 16",
+     "content": "Equality in public employment - basis of Umadevi."
+    },
+    {
+     "ref": "ID Act s.11A",
+     "content": "Tribunal's power to substitute punishment."
+    },
+    {
+     "ref": "Art 43A",
+     "content": "Participation of workers in management."
+    }
+   ],
+   "landmark_cases": [
+    {
+     "case": "Secretary, State of Karnataka v. Umadevi (3)",
+     "year": "2006",
+     "held": "No regularisation of irregular/illegal appointments; one-time measure."
+    },
+    {
+     "case": "Jaggo v. Union of India",
+     "year": "2024",
+     "held": "Umadevi cannot be used to exploit long-serving workers - regularisation directed [VERIFY]."
+    },
+    {
+     "case": "State of Haryana v. Rattan Singh",
+     "year": "1977",
+     "held": "Domestic enquiry - strict rules of evidence not applicable; 'some evidence' suffices."
+    },
+    {
+     "case": "Central Inland Water Transport Corp. v. Brojo Nath Ganguly",
+     "year": "1986",
+     "held": "Unconscionable terms in standard-form contracts of service are void."
+    },
+    {
+     "case": "Managing Director, ECIL v. B. Karunakar",
+     "year": "1993",
+     "held": "Copy of enquiry report must be furnished before punishment."
+    },
+    {
+     "case": "Deepali Gundu Surwase v. Kranti Junior Adhyapak Mahavidyalaya",
+     "year": "2013",
+     "held": "Full back wages is the normal rule."
+    }
+   ],
+   "mnemonics": [
+    "'Umadevi: no back-door regularisation; but long-serving perennial workers - Jaggo and Shripal'."
+   ],
+   "exam_traps": [
+    "Umadevi (2006) is a Constitution Bench - binding; later two-judge benches only distinguish it.",
+    "Domestic enquiry follows natural justice, not the Evidence Act.",
+    "Back wages are not automatic in every case."
+   ],
+   "probable_questions": [
+    "Which case denied regularisation of irregular appointments? (Umadevi)",
+    "Which Article provides for workers' participation in management? (Art 43A)"
+   ]
+  },
+  {
+   "block": "Taxation",
+   "id": "10.T1",
+   "order": 9,
+   "title": "Constitutional Framework of Taxation and General Principles of Tax Law",
+   "priority": "VERY HIGH",
+   "expected_questions": "1 to 2",
+   "articles": "Arts 265, 246, 246A, 268-270, 276, 279A, 285-289, 366(12A); Seventh Schedule",
+   "overview": "Who can tax what; limits on taxing power; tax v. fee; interpretation of taxing statutes; tax avoidance v. evasion.",
+   "must_know": [
+    "Art 265: no tax shall be levied or collected except by authority of law - the foundation; requires a valid statute (not executive order) and a valid collection (2026 Supreme Court cases reaffirm that tax cannot be retained or collected without authority of law). Art 246 with the Seventh Schedule distributes taxing powers; Art 246A (101st Amendment, 2016) - special provision for GST: Parliament and State Legislatures have simultaneous power; Parliament has exclusive power over inter-State supply (Art 269A). Art 279A: GST Council.",
+    "Union List (List I) tax entries: Entry 82 - taxes on income other than agricultural income; Entry 83 - duties of customs including export duties; Entry 84 - duties of excise on tobacco and other goods manufactured or produced (post-GST confined to petroleum crude, high-speed diesel, motor spirit, natural gas, aviation turbine fuel and tobacco products); Entry 85 - corporation tax; Entry 86 - taxes on the capital value of assets (excluding agricultural land); Entry 88 - taxes other than stamp duties on... (estate duty omitted/not levied); Entry 89 - terminal taxes on goods or passengers carried by railway, sea or air; Entry 91 - rates of stamp duty in respect of bills of exchange, cheques, promissory notes, bills of lading, letters of credit, policies of insurance, transfer of shares, debentures, proxies and receipts; Entry 97 - residuary (taxes not in lists).",
+    "State List (List II) tax entries: Entry 45 - land revenue; Entry 46 - taxes on agricultural income; Entry 47 - duties in respect of succession to agricultural land; Entry 48 - estate duty on agricultural land; Entry 49 - taxes on lands and buildings; Entry 50 - taxes on mineral rights subject to limitations imposed by Parliament by law relating to mineral development; Entry 51 - duties of excise on alcoholic liquors for human consumption and opium, Indian hemp and other narcotic drugs (but not medicinal and toilet preparations); Entry 52 - taxes on the entry of goods into a local area for consumption, use or sale (octroi - subsumed by GST); Entry 54 - taxes on the sale or purchase of goods other than newspapers (now limited to petroleum products and alcohol for human consumption after GST); Entry 55 - taxes on advertisements other than in newspapers; Entry 56 - taxes on goods and passengers carried by road or inland waterways; Entry 57 - taxes on vehicles; Entry 58 - taxes on animals and boats; Entry 59 - tolls; Entry 60 - taxes on professions, trades, callings and employments; Entry 61 - capitation taxes; Entry 62 - taxes on entertainment, amusements, betting and gambling (local); Entry 63 - rates of stamp duty on documents other than those in List I.",
+    "Art 276: tax on professions, trades, callings and employments - maximum Rs 2,500 per person per year (by the 60th Amendment 1988). Art 268 - stamp duties and excise on medicinal and toilet preparations levied by Union but collected and appropriated by States; Art 269 - taxes on consignment/ sale of goods in inter-State trade (Union levied, assigned to States); Art 269A - GST on inter-State supply levied and collected by the Government of India and apportioned between Union and States by the GST Council recommendations; Art 270 - taxes levied by the Union and distributed between the Union and States (income tax other than agricultural, and GST (CGST)); Art 271 - Parliament may levy a surcharge for Union purposes only; Art 275 and 282 grants; Art 280 Finance Commission (16th FC - Chairman Arvind Panagariya - award period 2026-31); Art 285 - exemption of Union property from State taxation; Art 289 - State property exempt from Union taxation (except trade or business of the State); Art 286 - restrictions on State taxes on sale or purchase of goods outside the State and in the course of import/export; Art 287-288 (electricity; water).",
+    "101st Amendment (2016) and GST: introduced Art 246A, 269A, 279A, Entry 54 amended; the 'goods and services tax' defined in Art 366(12A) (tax on supply of goods or services or both except alcoholic liquor for human consumption); GST on petroleum crude, HSD, motor spirit, natural gas and ATF applies from the date notified by Council on recommendation (not yet). GST Council: Union Finance Minister (Chairperson), Union Minister of State in charge of Revenue, State Ministers in charge of Finance; quorum one-half of members; decisions by three-fourths of weighted votes (Centre one-third, States two-thirds); recommendations are persuasive, not binding (Union of India v. Mohit Minerals Pvt. Ltd., 2022). [Cross-ref Part 1.]",
+    "Tax, fee and cess: tax - compulsory exaction for public purposes without any specific quid pro quo; fee - payment for specific services rendered with a broad correlation (Commissioner, Hindu Religious Endowments v. Sri Lakshmindra Thirtha Swamiar of Sri Shirur Mutt, 1954); fee must be related to the cost of service in a broad sense (Kewal Krishan Puri v. State of Punjab, 1979); a cess is a tax levied for a specific purpose; surcharges are additional taxes. Retrospective taxation is permissible but subject to Arts 14, 19, 20(1); Vodafone International Holdings B.V. v. Union of India (2012) - indirect transfer of shares of a foreign company not taxable in India under the law then in force; the Finance Act 2012 retrospective amendment (Explanation to s.9(1)(i)) was later withdrawn by the Taxation Laws (Amendment) Act 2021 (no demands for pre-2012 indirect transfers).",
+    "Interpretation: charging provisions are strictly construed - 'there is no equity about a tax' (Cape Brandy Syndicate v. IRC, 1921); ambiguity in charging provision is resolved in favour of the assessee, but in exemption notifications, ambiguity is resolved in favour of the Revenue (Commissioner of Customs v. Dilip Kumar & Co., 2018, Constitution Bench); machinery provisions are construed liberally; contemporanea expositio; 'look at' not 'look through' (Vodafone); substance over form in avoidance cases: CIT v. McDowell & Co. (1985) (colourable devices not allowed) but Union of India v. Azadi Bachao Andolan (2003) (tax planning is legitimate within the framework of law); GAAR (Chapter X-A, ss.95-102) effective 1 April 2017; Judicial anti-avoidance rule.",
+    "Tax evasion (illegal), tax avoidance (legal but defeating the purpose) and tax planning (within law). Tax and Article 14: classification for taxation allowed with wide latitude (R.K. Garg v. Union of India, 1981; East India Tobacco v. State of A.P., 1962); Art 19(1)(g): tax cannot be confiscatory; Art 20(1): no retrospective penalty; Art 300A: property and tax.",
+    "Delegated taxation: essential legislative function (levy) cannot be delegated; rate-fixing may be delegated within guidelines (Hamdard Dawakhana v. Union of India, 1960; Gwalior Rayon Mfg. v. Assistant Commissioner of Sales Tax, 1974); delegated legislation is effective only on publication per statute (Viraj Impex v. Union of India, 2026 [VERIFY]); tax statutes and 'law' - Art 265.",
+    "Tax tribunals: ITAT (constituted under s.252 of the Income-tax Act 1961); CESTAT; GST Appellate Tribunal (GSTAT, s.109 CGST Act); Authority for Advance Ruling; Settlement Commission replaced by Interim Board for Settlement (2021); Dispute Resolution Committee; Tribunals Reforms Act 2021 and the L. Chandra Kumar principle - tribunals subject to High Court's writ jurisdiction (cross-ref Part 1)."
+   ],
+   "key_provisions": [
+    {
+     "ref": "Art 265",
+     "content": "No tax except by authority of law."
+    },
+    {
+     "ref": "Art 246A",
+     "content": "Concurrent power on GST (inter-State supply: Parliament only)."
+    },
+    {
+     "ref": "Art 276",
+     "content": "Professional tax cap: Rs 2,500 per annum."
+    },
+    {
+     "ref": "Entry 82, List I",
+     "content": "Taxes on income other than agricultural income (Union)."
+    },
+    {
+     "ref": "Entry 46, List II",
+     "content": "Taxes on agricultural income (State)."
+    },
+    {
+     "ref": "Art 289",
+     "content": "States' property exempt from Union taxation except for trade."
+    }
+   ],
+   "landmark_cases": [
+    {
+     "case": "Commissioner, Hindu Religious Endowments v. Sri Lakshmindra Thirtha Swamiar (Shirur Mutt)",
+     "year": "1954",
+     "held": "Distinction between tax, fee and special assessment."
+    },
+    {
+     "case": "CIT v. McDowell & Co. Ltd.",
+     "year": "1985",
+     "held": "Colourable devices to avoid tax are not permissible; tax planning vs avoidance."
+    },
+    {
+     "case": "Union of India v. Azadi Bachao Andolan",
+     "year": "2003",
+     "held": "Treaty shopping/legitimate tax planning is valid; McDowell narrowed."
+    },
+    {
+     "case": "Vodafone International Holdings B.V. v. Union of India",
+     "year": "2012",
+     "held": "'Look at' the transaction; indirect transfer outside India not taxable; retrospective amendment followed and later repealed."
+    },
+    {
+     "case": "Commissioner of Customs v. Dilip Kumar & Co.",
+     "year": "2018",
+     "held": "Constitution Bench: exemption provisions strictly interpreted; ambiguity benefits the Revenue."
+    },
+    {
+     "case": "R.K. Garg v. Union of India",
+     "year": "1981",
+     "held": "Economic and fiscal legislation gets wide latitude under Art 14."
+    },
+    {
+     "case": "Union of India v. Mohit Minerals Pvt. Ltd.",
+     "year": "2022",
+     "held": "GST Council recommendations are not binding."
+    },
+    {
+     "case": "Mineral Area Development Authority v. SAIL",
+     "year": "2024",
+     "held": "Nine judges (8:1): States can tax mineral rights; royalty is not a tax."
+    }
+   ],
+   "mnemonics": [
+    "Union: income (82), customs (83), corporation tax (85). State: agri income (46), land/buildings (49), profession (60).",
+    "Professional tax cap: Rs 2,500."
+   ],
+   "exam_traps": [
+    "Agricultural income tax is a State subject (Entry 46, List II); income tax on all other income is Union (Entry 82, List I).",
+    "Alcohol for human consumption is outside GST; the State levies excise on it (Entry 51 List II) and VAT (Entry 54).",
+    "GST Council recommendations are not binding on Parliament or State Legislatures.",
+    "Surcharge can be levied only by the Union for its own purposes (Art 271)."
+   ],
+   "probable_questions": [
+    "Under which Article is the GST Council established? (Art 279A)",
+    "Which entry of List I covers income tax? (Entry 82)",
+    "Who can levy agricultural income tax? (States)",
+    "Maximum professional tax per year under Art 276? (Rs 2,500)"
+   ]
+  },
+  {
+   "block": "Taxation",
+   "id": "10.T2",
+   "order": 10,
+   "title": "Income-tax: Basic Concepts, Residential Status, Heads of Income, Exemptions, Deductions and Rates",
+   "priority": "VERY HIGH",
+   "expected_questions": "1 to 2",
+   "articles": "Income-tax Act 1961 ss.2-80; Income-tax Act 2025 (from 1 April 2026)",
+   "overview": "Concepts a legal aspirant is expected to know: 'person', 'income', previous year, residence, five heads, important exemptions, deductions, capital gains rates and slabs.",
+   "must_know": [
+    "Income-tax Act 2025: replaces the Income-tax Act 1961 from 1 April 2026; 'Tax Year' replaces the dual concept of 'previous year' and 'assessment year' (the first Tax Year is 2026-27); fewer sections and chapters than the 1961 Act (the 2025 Act has 536 sections, 23 chapters and 16 schedules [VERIFY]); new regime slabs now in s.202 [VERIFY]; the substance of tax law is largely retained. Income earned in Financial Year 2025-26 is assessed in AY 2026-27 under the 1961 Act; Tax Year 2026-27 (FY 2026-27) is the first under the 2025 Act. Proceedings for earlier years continue under the 1961 Act by savings. Examination papers in 2026-27 may use either; understand both.",
+    "Charge (s.4 of 1961 Act): income-tax is charged on the total income of the previous year of every person at the rates fixed by the annual Finance Act. 'Person' (s.2(31)): an individual, a Hindu undivided family, a company, a firm, an association of persons or body of individuals, a local authority, and every artificial juridical person. 'Assessee' (s.2(7)): person by whom any tax or other sum is payable. 'Income' (s.2(24)): an inclusive definition covering profits and gains, dividend, voluntary contributions, perquisites, capital gains, winnings from lotteries etc. 'Previous year' (s.3): the financial year immediately preceding the assessment year (1 April - 31 March); 'assessment year' (s.2(9)): the 12 months commencing 1 April following the previous year. Agricultural income (s.2(1A)): rent or revenue from land used for agriculture; income from operations on agricultural produce; farm building - exempt from income-tax under s.10(1) (but taken into account for rate purposes under 'partial integration').",
+    "Residential status (s.6): an individual is resident if (a) he is in India for 182 days or more in the previous year; or (b) he is in India for 60 days or more in the previous year and 365 days or more in the four preceding years. Exceptions: for an Indian citizen or person of Indian origin leaving India for employment abroad or as crew, the 60-day limit is replaced by 182 days; for a citizen or PIO who visits India with total income (other than foreign sources) exceeding Rs 15 lakh, the limit is 120 days (and 365 days in the four preceding years). Deemed resident (s.6(1A)): an Indian citizen having total income (other than foreign source) exceeding Rs 15 lakh who is not liable to tax in any other country. Resident but not ordinarily resident (RNOR): non-resident in 9 of the 10 preceding years or has been in India for 729 days or less in the 7 preceding years. A Hindu undivided family or firm is resident unless control and management are wholly outside India. A company is resident if it is an Indian company or its place of effective management (POEM) in that year is in India (s.6(3)). Tax incidence: resident and ordinarily resident - global income; RNOR - income received/accruing in India and income from a business controlled in or profession set up in India; non-resident - income received or accruing/deemed to accrue in India.",
+    "Scope of total income (s.5) and deemed accrual (s.9): income deemed to accrue or arise in India includes income through a business connection in India, property, asset or source of income in India, transfer of a capital asset situated in India (including indirect transfers - Explanation 5), salary for services rendered in India, interest/royalty/fees for technical services payable by residents; 'significant economic presence' rules (Explanation 2A to s.9(1)(i)) for digital businesses.",
+    "Heads of income (s.14): (1) Salaries (ss.15-17) - standard deduction Rs 75,000 under new regime (Rs 50,000 under old); perquisites; leave encashment; gratuity exemption. (2) Income from house property (ss.22-27) - annual value; standard deduction 30% of net annual value; interest on housing loan (s.24(b)) up to Rs 2 lakh for self-occupied property (old regime). (3) Profits and gains of business or profession (ss.28-44) - allowable deductions (s.30-37), depreciation (s.32), presumptive taxation (ss.44AD, 44ADA, 44AE), disallowances (s.40, 40A), tax audit (s.44AB) for turnover over Rs 1 crore (Rs 10 crore if cash transactions under 5%). (4) Capital gains (ss.45-55A): gains on transfer of capital asset; short-term if held 24 months or less (12 months or less for listed securities and equity-oriented funds); long-term otherwise; exemptions in ss.54, 54B, 54EC, 54F; cost of acquisition; indexation withdrawn for transfers after 23 July 2024. (5) Income from other sources (ss.56-59): dividend, interest, gifts exceeding Rs 50,000 from non-relatives (s.56(2)(x)), winnings from lotteries and games, family pension.",
+    "Capital gains rates (FY 2025-26, applicable from 23 July 2024): short-term capital gains on listed equity shares and equity-oriented mutual funds where STT is paid - 20% (s.111A); long-term capital gains on listed equity - 12.5% on gains exceeding Rs 1.25 lakh (s.112A); long-term capital gains on other assets - 12.5% without indexation (s.112); STCG on other assets - at slab rates. Securities Transaction Tax (STT) levied under Chapter VII of the Finance (No.2) Act 2004.",
+    "Exempt incomes (s.10): agricultural income; allowances for HRA and LTA (subject to rules); gratuity (limits); amount received on maturity of life insurance (subject to s.10(10D) conditions); scholarships; share of profit from a firm; dividend from Indian companies is taxable (post-2020); income of a local authority; political party income (s.13A) subject to conditions; charitable and religious trusts (ss.11-13) - registration under s.12AB; Section 10(1) agricultural; PPF interest.",
+    "Deductions from gross total income (Chapter VI-A; available in the old regime and some in new): s.80C (up to Rs 1.5 lakh - life insurance, PPF, ELSS, tuition fees, repayment of home loan principal, NSC); 80CCD(1B) (additional Rs 50,000 NPS); 80D (health insurance premium up to Rs 25,000, Rs 50,000 for senior citizens); 80E (interest on education loan - no limit); 80G (donations); 80GG (rent); 80TTA/80TTB (savings account interest up to Rs 10,000; Rs 50,000 for seniors); 80U (disability); 80CCD(2) (employer NPS contribution - allowed in new regime too). Under the default new regime (s.115BAC), most Chapter VI-A deductions and exemptions are not allowed except 80CCD(2) and a few.",
+    "Set-off and carry forward (ss.70-80): intra-head and inter-head set-off; house property loss set-off limited to Rs 2 lakh per year against other heads; carry forward of business loss for 8 years, capital loss for 8 years, speculative loss for 4 years; unabsorbed depreciation indefinitely. Clubbing (ss.60-64): income of spouse (remuneration from concern in which the other spouse has substantial interest), minor child's income (s.64(1A)), transfer of asset to spouse without adequate consideration - clubbed with the transferor's income.",
+    "Individual slabs - FY 2025-26 (AY 2026-27): New regime (default; s.115BAC): up to Rs 4 lakh - nil; Rs 4-8 lakh - 5%; Rs 8-12 lakh - 10%; Rs 12-16 lakh - 15%; Rs 16-20 lakh - 20%; Rs 20-24 lakh - 25%; above Rs 24 lakh - 30%. Rebate under s.87A (new regime): full rebate for total income up to Rs 12 lakh (maximum Rs 60,000), effectively no tax up to Rs 12.75 lakh of salary income with the standard deduction. Old regime (opt-in): up to Rs 2.5 lakh - nil (Rs 3 lakh for senior citizens, Rs 5 lakh for super seniors); Rs 2.5-5 lakh - 5%; Rs 5-10 lakh - 20%; above Rs 10 lakh - 30%; rebate up to Rs 12,500 for income up to Rs 5 lakh. Health and education cess: 4% on tax plus surcharge. Surcharge for incomes above Rs 50 lakh; capped at 25% in the new regime. Slabs for Tax Year 2026-27 under the 2025 Act continue as above unless changed by the Finance Act 2026 [VERIFY].",
+    "Corporate tax: domestic company - 22% (plus surcharge 10% and cess 4% = 25.17%) under s.115BAA if it forgoes exemptions/incentives; 25% for companies with turnover not exceeding Rs 400 crore (earlier regime); 30% otherwise; new manufacturing companies s.115BAB (15%) expired for those commencing production after 31 March 2024; foreign companies 35% plus surcharge; Minimum Alternate Tax (MAT) 15% of book profit under s.115JB (not applicable to s.115BAA companies); partnership firms and LLPs 30%; cooperative societies 22%/25%/30%. Alternate Minimum Tax (AMT) for non-corporate assessees (s.115JC) 18.5%.",
+    "Important concepts: 'agricultural income' is exempt; 'casual income' (lotteries, crossword puzzles) is taxed at 30% flat (s.115BB); 'unexplained cash credits' (s.68) taxed at 60% plus surcharge/cess (s.115BBE); 'gifts' (s.56(2)(x)) - exempt from relatives; 'dividend' taxable at slab rates; 'perquisites' as per Rules 3; 'salary' includes basic, DA, bonus, commission, advance; 'income from undisclosed sources'; 'income by deeming' - s.69 etc. Landmark: Navinchandra Mafatlal v. CIT (1954) - 'capital gains' covers transfer of shares; Sumati Dayal v. CIT (1995) - real income and human probabilities; K.P. Varghese v. ITO (1981) - burden under s.52 is on the Revenue; CIT v. Durga Prasad More (1971) - benami/ real nature of transactions."
+   ],
+   "key_provisions": [
+    {
+     "ref": "s.4 (1961 Act)",
+     "content": "Charge of income-tax on total income of the previous year."
+    },
+    {
+     "ref": "s.6",
+     "content": "Residential status: 182 days or 60 days + 365 days in preceding four years."
+    },
+    {
+     "ref": "s.14",
+     "content": "Five heads of income: Salaries; House property; PGBP; Capital gains; Other sources."
+    },
+    {
+     "ref": "s.115BAC",
+     "content": "Default new tax regime; basic exemption Rs 4 lakh; s.87A rebate up to Rs 12 lakh income."
+    },
+    {
+     "ref": "s.80C",
+     "content": "Deduction up to Rs 1.5 lakh (old regime)."
+    }
+   ],
+   "landmark_cases": [
+    {
+     "case": "Navinchandra Mafatlal v. CIT",
+     "year": "1954",
+     "held": "Capital gains - transfer of shares during winding-up; broad concept of 'capital asset' and 'transfer'."
+    },
+    {
+     "case": "Sumati Dayal v. CIT",
+     "year": "1995",
+     "held": "Real income and surrounding circumstances; human probabilities; 'unexplained credits'."
+    },
+    {
+     "case": "K.P. Varghese v. ITO",
+     "year": "1981",
+     "held": "s.52 - burden on Revenue to prove understatement; section read down."
+    },
+    {
+     "case": "CIT v. McDowell & Co.",
+     "year": "1985",
+     "held": "Tax avoidance through colourable devices not allowed."
+    },
+    {
+     "case": "Union of India v. Azadi Bachao Andolan",
+     "year": "2003",
+     "held": "Treaty shopping; tax planning allowed."
+    },
+    {
+     "case": "Vodafone International Holdings v. Union of India",
+     "year": "2012",
+     "held": "Indirect transfer not taxable; look at the transaction."
+    }
+   ],
+   "mnemonics": [
+    "Five heads: 'S-H-B-C-O' - Salaries, House property, Business/Profession, Capital gains, Other sources.",
+    "Residence: 182 days OR (60 + 365 days in last 4 years)."
+   ],
+   "exam_traps": [
+    "Agricultural income is exempt but included for rate purposes in some cases.",
+    "Tax Year replaces 'previous year/assessment year' only from FY 2026-27 under the 2025 Act.",
+    "Residence of a company turns on incorporation in India or POEM.",
+    "New regime is the default; the old regime must be opted for."
+   ],
+   "probable_questions": [
+    "Which section defines residential status? (s.6, 1961 Act)",
+    "How many heads of income are there? (Five)",
+    "Under the new regime, income up to what amount attracts nil tax after rebate for FY 2025-26? (Rs 12 lakh)",
+    "The Income-tax Act 2025 comes into force on? (1 April 2026)"
+   ]
+  },
+  {
+   "block": "Taxation",
+   "id": "10.T3",
+   "order": 11,
+   "title": "Income-tax Procedure: TDS, Advance Tax, Returns, Assessment, Search, Appeals, Penalties and Prosecution",
+   "priority": "HIGH",
+   "expected_questions": "1",
+   "articles": "Income-tax Act 1961 ss.139-158BI, 190-234, 240-280D; Income-tax Act 2025",
+   "overview": "Collection (TDS, advance tax), returns, scrutiny and reassessment, appellate hierarchy and criminal provisions.",
+   "must_know": [
+    "PAN (s.139A) is compulsory for specified transactions; linking with Aadhaar (s.139AA) upheld in Binoy Viswam v. Union of India (2017) subject to the limitation that it cannot apply to persons without Aadhaar. TAN for tax deductors.",
+    "Tax deduction at source (TDS) (Chapter XVII-B): principle of 'pay as you earn'; s.192 - salary (at average rate); s.193 - interest on securities; s.194 - dividends (10%); s.194A - interest other than on securities (10%, threshold Rs 50,000 for banks and Rs 1 lakh for senior citizens from FY 2025-26 [VERIFY]); s.194C - payments to contractors (1% individual/HUF; 2% others); s.194I - rent (2% for machinery and 10% for land/building); s.194J - professional or technical fees (10%; 2% for technical services); s.194Q - purchase of goods exceeding Rs 50 lakh (0.1%); s.195 - payments to non-residents; s.206AA - higher TDS rate of 20% if PAN is not furnished; s.206C - TCS (tax collected at source) on specified goods and transactions. Deductor must deposit TDS by the 7th of the next month, issue TDS certificates (Form 16/16A), and file quarterly returns; failure leads to disallowance (s.40(a)(ia)), interest (s.201(1A)) and penalty; prosecution for failure to deposit TDS (s.276B). Under the 2025 Act, the TDS provisions are consolidated in s.393 [VERIFY].",
+    "Advance tax (ss.207-211): payable if estimated tax liability for the year is Rs 10,000 or more; due in instalments: 15% by 15 June; 45% by 15 September; 75% by 15 December; 100% by 15 March; presumptive taxpayers under s.44AD/44ADA pay in a single instalment by 15 March; interest under ss.234B (default in advance tax) and 234C (deferment of instalments) at 1% per month; s.234A interest for delay in filing return.",
+    "Returns: s.139(1) - due date for individuals not requiring audit: 31 July; companies and persons requiring audit: 31 October; transfer pricing cases: 30 November; belated return s.139(4) up to 31 December of the assessment year (with fees under s.234F); revised return s.139(5); updated return s.139(8A) - within 24 months from the end of the assessment year (extended to 48 months by the Finance Act 2025 [VERIFY]) on payment of additional tax of 25% or 50%; return not required for those below taxable limit except specified conditions. Under the 2025 Act the due dates are by reference to the 'tax year'.",
+    "Assessments: processing of return - s.143(1) (intimation; adjustments), done by Centralised Processing Centre; scrutiny assessment - notice under s.143(2) must be served within three months from the end of the financial year in which the return is filed; assessment order under s.143(3); best judgment assessment - s.144 (non-compliance); faceless assessment scheme - s.144B; reassessment - ss.147-151: s.148A mandatory inquiry and show-cause; notice under s.148 within three years from the end of the assessment year, extendable up to 10 years where the income escaping assessment is Rs 50 lakh or more represented in assets or expenditure (s.149); sanction by specified authority; Union of India v. Ashish Agarwal (2022) and Union of India v. Rajeev Bansal (2024) - treatment of reassessment notices issued after 1 April 2021 under the old regime and TOLA relaxation; the Finance Act 2026 reportedly restored a Joint Assessing Officer/ section 147A route with retrospective effect, and the Supreme Court in Sept 2026 stayed a Punjab and Haryana High Court decision striking it down [VERIFY]. Limitation for completing assessment: s.153 (9 months from the end of the assessment year in which the income was first assessable - for scrutiny assessments) [VERIFY].",
+    "Search, seizure and survey: s.132 - search and seizure authorised by Principal Director/ Director General/ Chief Commissioner on 'reason to believe' based on information; panchnama; seizure; presumption under s.132(4A) that books/documents found belong to the person; s.133A - survey (no seizure; limited power to impound); s.131 - powers of civil court (summons, examination on oath). Courts have held search must follow strict procedure; Pooran Mal v. Director of Inspection (1974) - illegal search does not invalidate seized material; ITO v. Seth Brothers (1969) - 'reason to believe'.",
+    "Appeals: first appeal to the Commissioner of Income-tax (Appeals) (now National Faceless Appeal Centre) under s.246A within 30 days of service of the demand/order (s.249); second appeal to the Income Tax Appellate Tribunal under s.253 within 60 days of receipt of the CIT(A)'s order (s.253(3)) - ITAT is the final fact-finding authority; appeal to the High Court under s.260A only on a substantial question of law within 120 days; appeal to the Supreme Court under s.261 (certificate of fitness) or by Special Leave Petition under Art 136. Dispute Resolution Panel (s.144C) for eligible assessees (foreign companies, transfer pricing cases). Revision: s.263 - Principal Commissioner can revise an order that is erroneous and prejudicial to the interest of the Revenue (within two years from end of financial year in which order was passed); s.264 - revision in favour of the assessee (within one year). Rectification of mistake apparent from the record - s.154 (within four years from the end of the financial year). Vivad se Vishwas Scheme 2024; Interim Board for Settlement; Board for Advance Rulings.",
+    "Penalties: s.270A - under-reporting of income: 50% of tax payable on under-reported income; misreporting: 200%; s.271AAB (search cases); s.271B (failure to get books audited); s.271F (failure to file return); s.272A and s.272B (default in complying with notices / PAN); s.271C (failure to deduct TDS); penalty orders appealable to CIT(A). Prosecution (Chapter XXII): s.276B - failure to pay TDS to Government: rigorous imprisonment of 3 months to 7 years plus fine; s.276C(1) - wilful attempt to evade tax: if the tax evaded exceeds Rs 25 lakh - 6 months to 7 years; otherwise 3 months to 2 years; s.276CC - wilful failure to furnish return: same thresholds; s.277 - false statement in verification; s.278 - abetment; s.278E - presumption of culpable mental state (accused must prove absence); s.279 - sanction by Principal Commissioner/Commissioner for prosecution; s.279(2) - compounding of offences. Offences are triable by Magistrates (Chapter XXII).",
+    "Black Money (Undisclosed Foreign Income and Assets) and Imposition of Tax Act 2015: undisclosed foreign income taxed at 30% plus penalty at 90% (total about 120%); prosecution for wilful failure to disclose foreign assets: imprisonment 6 months to 7 years; Benami Transactions (Prohibition) Act 1988 as amended in 2016: benami transactions prohibited; confiscation; Union of India v. Ganpati Dealcom Pvt. Ltd. (2022) - section 3(2) (criminal provisions) unconstitutional (manifestly arbitrary) and the 2016 amendment operating prospectively; 'tax evasion' under Prevention of Money Laundering Act as a scheduled offence.",
+    "Transition to the 2025 Act: tax year; sections renumbered; 'tax year' for all new proceedings after 1 April 2026; ITR forms and rules (Income-tax Rules 2026 [VERIFY]); the Act retains scheme of heads, residence, TDS, assessment; old pending cases decided under the 1961 Act. For AIBE, remember: 1961 Act section numbers for case law; use the 'tax year' language for the 2025 Act."
+   ],
+   "key_provisions": [
+    {
+     "ref": "s.139(1)",
+     "content": "Due dates: 31 July (non-audit), 31 October (audit), 30 November (transfer pricing)."
+    },
+    {
+     "ref": "ss.207-211",
+     "content": "Advance tax: 15%, 45%, 75%, 100% (15 Jun / 15 Sep / 15 Dec / 15 Mar)."
+    },
+    {
+     "ref": "s.143(2)",
+     "content": "Scrutiny notice within 3 months from the end of the financial year of filing the return."
+    },
+    {
+     "ref": "ss.246A, 253, 260A",
+     "content": "Appeals: CIT(A) 30 days; ITAT 60 days; High Court 120 days (substantial question of law)."
+    },
+    {
+     "ref": "s.270A",
+     "content": "Penalty: 50% (under-reporting) / 200% (misreporting)."
+    },
+    {
+     "ref": "s.276C",
+     "content": "Wilful tax evasion: 6 months-7 years if tax evaded exceeds Rs 25 lakh."
+    }
+   ],
+   "landmark_cases": [
+    {
+     "case": "Binoy Viswam v. Union of India",
+     "year": "2017",
+     "held": "s.139AA (Aadhaar-PAN linking) upheld; privacy argument rejected on facts; not applicable to those who have no Aadhaar."
+    },
+    {
+     "case": "Union of India v. Ashish Agarwal",
+     "year": "2022",
+     "held": "Treated reassessment notices under the old regime as notices under s.148A; relief for assessees."
+    },
+    {
+     "case": "Union of India v. Rajeev Bansal",
+     "year": "2024",
+     "held": "Applied TOLA to reassessment; timelines for notices issued during Covid."
+    },
+    {
+     "case": "Pooran Mal v. Director of Inspection",
+     "year": "1974",
+     "held": "Evidence from a search is admissible even if the search is irregular."
+    },
+    {
+     "case": "Union of India v. Ganpati Dealcom Pvt. Ltd.",
+     "year": "2022",
+     "held": "Benami Act s.3(2) and s.5 (2016 amendment) unconstitutional / prospective only."
+    },
+    {
+     "case": "ITO v. Lakhmani Mewal Das",
+     "year": "1976",
+     "held": "'Reason to believe' for reassessment must have a rational connection with the belief."
+    }
+   ],
+   "mnemonics": [
+    "Appeal timeline: 30 (CIT(A)) - 60 (ITAT) - 120 (HC).",
+    "Advance tax: 15-45-75-100."
+   ],
+   "exam_traps": [
+    "s.143(2) notice is time-barred after 3 months from the end of the FY in which the return was filed.",
+    "ITAT is the last fact-finding authority; HC under s.260A hears only substantial questions of law.",
+    "Prosecution for TDS default (s.276B) has a minimum of three months' imprisonment."
+   ],
+   "probable_questions": [
+    "Within how many days must an appeal be filed before the ITAT? (60)",
+    "Which section deals with wilful attempt to evade tax? (s.276C)",
+    "Due date for filing a return by a non-audit individual? (31 July)",
+    "Penalty for under-reporting of income? (50% of tax payable)"
+   ]
+  },
+  {
+   "block": "Taxation",
+   "id": "10.T4",
+   "order": 12,
+   "title": "GST (I): CGST/IGST Framework, Supply, Levy, Registration, Composition, Input Tax Credit, Returns and Rates",
+   "priority": "VERY HIGH",
+   "expected_questions": "1 to 2",
+   "articles": "CGST Act 2017 ss.7-21, 22-30, 31-52; IGST Act 2017",
+   "overview": "The legal architecture of GST, the concept of 'supply', registration thresholds, composition scheme, ITC conditions and blocked credits, returns, and GST 2.0 rates.",
+   "must_know": [
+    "GST laws: Central GST Act 2017, Integrated GST Act 2017, Union Territory GST Act 2017, GST (Compensation to States) Act 2017 (compensation cess withdrawn after GST 2.0), and State GST Acts. Effective 1 July 2017. Dual GST: CGST + SGST on intra-State supply; IGST on inter-State supply and imports (IGST on import under Customs Tariff Act s.3(7)). Destination-based consumption tax; tax levied on 'supply'.",
+    "Levy (CGST s.9): GST on all intra-State supplies of goods or services or both (except alcoholic liquor for human consumption) at rates notified by the Government on recommendation of the Council, on the transaction value (s.15); not exceeding 20% (CGST) per the Act. Reverse charge: s.9(3) (notified goods/services) and s.9(4) (supplies by unregistered to registered persons, restricted to notified classes); e-commerce operator liable under s.9(5) for notified services.",
+    "Supply (CGST s.7): includes all forms of supply of goods or services such as sale, transfer, barter, exchange, licence, rental, lease or disposal made or agreed to be made for a consideration by a person in the course or furtherance of business; import of services for a consideration whether or not in the course of business; and activities specified in Schedule I made without consideration (permanent transfer or disposal of business assets with ITC; supply between related persons or distinct persons in the course of business; supply by principal to agent and vice versa; import of services from a related person outside India). Schedule II classifies activities as supply of goods or services (e.g., transfer of title in goods - goods; lease/ licence - services; works contract - services; renting of immovable property - services; temporary transfer of IPR - services). Schedule III - activities neither a supply of goods nor services (services by an employee to employer in the course of employment; court fees; functions of MPs, MLAs, panchayat members; funeral services; sale of land and (subject to para 5(b) of Schedule II) completed buildings; actionable claims other than lottery, betting and gambling). Composite supply (two or more supplies naturally bundled; tax by principal supply) and mixed supply (tax by the supply attracting the highest rate) - s.8.",
+    "Time, value and place of supply: time of supply of goods (s.12) - earlier of date of invoice or last date on which invoice should be issued, or date of payment; services (s.13); value of supply (s.15) - transaction value (price actually paid or payable where parties are not related and price is the sole consideration), plus taxes, incidental expenses, interest; place of supply determines whether supply is intra-State or inter-State (IGST Act ss.10-13); zero-rated supplies - exports and supplies to SEZ (IGST s.16) - refund of ITC or IGST paid.",
+    "Taxable person and registration (s.22): every supplier is liable to be registered if aggregate turnover in a financial year exceeds Rs 40 lakh (goods), Rs 20 lakh (services); for special category States Rs 20 lakh (goods) and Rs 10 lakh (services) [thresholds unchanged by GST 2.0 - VERIFY]. Compulsory registration regardless of turnover (s.24): inter-State suppliers of goods, casual taxable persons, persons liable under reverse charge, non-resident taxable persons, e-commerce operators and persons supplying through them, input service distributors, persons deducting TDS/collecting TCS, online information and database access suppliers. Registration within 30 days of becoming liable; PAN-based; GSTIN of 15 digits; cancellation (s.29).",
+    "Composition levy (s.10): option for registered persons with aggregate turnover up to Rs 1.5 crore (Rs 75 lakh for special category States) in preceding year to pay tax at a lower rate (1% for manufacturers and traders; 5% for restaurants; 6% for specified service providers up to Rs 50 lakh under s.10(2A)); cannot make inter-State supply, cannot collect tax from customers, cannot claim ITC, not available to e-commerce operators and supplier of notified goods (ice cream, pan masala, tobacco) [verify rates].",
+    "Input Tax Credit (ss.16-21): ITC is allowed for tax paid on inward supplies used or intended to be used in the course or furtherance of business; conditions (s.16(2)): (a) possession of a tax invoice or debit note or other prescribed documents; (b) receipt of goods or services; (c) tax actually paid to the Government by the supplier (either in cash or through ITC); (d) filing of returns under s.39; and (aa) the details are communicated in GSTR-2B (inserted 2022). Time limit (s.16(4)): invoice-based credit may be availed up to 30 November following the end of the financial year or the date of filing the annual return, whichever is earlier (extended for certain years under amnesty and Finance Act 2024 [VERIFY]). Blocked credits (s.17(5)): motor vehicles for transport of persons having seating capacity of not more than thirteen (with exceptions); vessels and aircraft (with exceptions); food and beverages, outdoor catering, beauty treatment, health services, cosmetic and plastic surgery, membership of club/health and fitness centre, rent-a-cab, life insurance and health insurance (except where obligatory/ taxable outward); travel benefits to employees on vacation; works contract services for construction of immovable property (other than plant and machinery) except where input is for further works contract/ construction; goods or services used for personal consumption; goods lost, stolen, destroyed, written off or disposed of by gift or free samples; tax paid under ss.74, 129, 130. Apportionment of credit for exempt supplies (s.17(1), (2) and Rules 42-43). Matching under s.41 (provisional credit - omitted; GSTR-2B invoice-matching now).",
+    "Safari Retreats Pvt. Ltd. v. Chief Commissioner of CGST (3 Oct 2024): 'plant or machinery' in s.17(5)(d) must be tested by the functionality test (whether the building is itself the plant used for making outward supply, e.g., hotels, malls); the Court held that a mall's building rented out can be a 'plant' on facts only if it is essential to the activity; the Finance Act 2025 retrospectively replaced 'plant or machinery' with 'plant and machinery' in s.17(5)(d) with effect from 1 July 2017 to neutralise the decision; a review petition was dismissed (2025) and later High Court/ Supreme Court decisions continue to apply the functionality test for 'plant' [VERIFY].",
+    "Returns (ss.37-48): GSTR-1 (outward supplies; due 11th of next month or quarterly for QRMP), GSTR-3B (summary return and payment; 20th of next month), GSTR-9 (annual return; 31 December of next year), GSTR-9C reconciliation statement for large taxpayers; GSTR-2A/2B auto-generated statements; TDS (s.51 - 2% by notified government departments on payments exceeding Rs 2.5 lakh); TCS (s.52 - e-commerce operators 0.5% of net value of taxable supplies); electronic ledgers (cash, credit, liability); e-invoicing mandatory for taxpayers with aggregate turnover above Rs 5 crore; e-way bill for consignments exceeding Rs 50,000 in value (Rule 138).",
+    "Rates (GST 2.0 - Council's 56th meeting 3 Sept 2025; effective 22 September 2025): the four-slab structure (5%, 12%, 18%, 28%) was replaced by two principal slabs - 5% (merit) and 18% (standard) - and a special 40% rate for sin and luxury goods (tobacco and pan masala, aerated drinks, high-end cars, etc.); special low rates for precious metals and stones (0.25%, 1.5%, 3%) continue; many items moved from 12%/28% to 5%/18%; essentials and certain health/education items exempt or at nil; individual life and health insurance premium exempted; compensation cess was phased out as loans were repaid and the tobacco/pan masala items moved to 40% [VERIFY].",
+    "Alcohol for human consumption outside GST (State excise and VAT); petroleum crude, HSD, motor spirit, natural gas, ATF outside GST until notified; electricity outside; transitional - 'GST on tobacco' plus central excise on tobacco products. Remedies for GST compliance: GST Practitioners; GSTN as common portal.",
+    "Key case law: Union of India v. Mohit Minerals (2022) - Council recommendations not binding; Union of India v. VKC Footsteps India (2021) - refund of accumulated ITC due to inverted duty structure available only on input goods, not input services (Rule 89(5)) - upheld; Safari Retreats (2024); Mohit; also decisions on retrospective amendments and Rule 86B (restriction on ITC use) [VERIFY 2026 rulings: Bhandari Scrap Traders (ITC where supplier did not pay tax), Tata Steel (limitation under s.74)]."
+   ],
+   "key_provisions": [
+    {
+     "ref": "CGST s.7",
+     "content": "Scope of 'supply' - Schedules I, II, III."
+    },
+    {
+     "ref": "CGST s.9",
+     "content": "Levy and collection; reverse charge."
+    },
+    {
+     "ref": "CGST s.16",
+     "content": "Eligibility and conditions for ITC; 30 November time limit."
+    },
+    {
+     "ref": "CGST s.17(5)",
+     "content": "Blocked credits."
+    },
+    {
+     "ref": "CGST s.22",
+     "content": "Registration: Rs 40 lakh (goods) / Rs 20 lakh (services); special category Rs 20/10 lakh."
+    },
+    {
+     "ref": "CGST s.10",
+     "content": "Composition scheme up to Rs 1.5 crore turnover."
+    }
+   ],
+   "landmark_cases": [
+    {
+     "case": "Union of India v. Mohit Minerals Pvt. Ltd.",
+     "year": "2022",
+     "held": "GST Council recommendations not binding; cooperative federalism."
+    },
+    {
+     "case": "Safari Retreats Pvt. Ltd. v. Chief Commissioner of CGST",
+     "year": "2024",
+     "held": "Functionality test for 'plant' in s.17(5)(d); ITC on construction of building used for renting not automatically blocked."
+    },
+    {
+     "case": "Union of India v. VKC Footsteps India Pvt. Ltd.",
+     "year": "2021",
+     "held": "Inverted duty refund is for input goods only (not input services); Rule 89(5) valid."
+    },
+    {
+     "case": "Union of India v. Filco Trade Centre",
+     "year": "2022",
+     "held": "Right to rectify GST returns / carry forward credit recognised in the context of technical glitches [VERIFY]."
+    }
+   ],
+   "mnemonics": [
+    "GST: 'CGST + SGST (intra-State); IGST (inter-State); UTGST (UT).'",
+    "Rates after 22 Sept 2025: 5% / 18% / 40% (plus special rates).",
+    "Registration threshold: Rs 40 lakh goods; Rs 20 lakh services."
+   ],
+   "exam_traps": [
+    "Composition scheme cannot be used for inter-State supplies or by e-commerce operators.",
+    "Schedule III items (e.g., sale of land) are neither goods nor services - no GST.",
+    "Alcohol for human consumption is outside GST.",
+    "ITC time limit: 30 November following the end of the FY or date of annual return, whichever earlier."
+   ],
+   "probable_questions": [
+    "Under which section is 'supply' defined? (CGST s.7)",
+    "Registration threshold for goods suppliers (normal States)? (Rs 40 lakh)",
+    "After 22 September 2025, which GST slabs exist? (5%, 18%, and 40% special)",
+    "ITC is blocked on motor vehicles with seating capacity of not more than? (13 persons)"
+   ]
+  },
+  {
+   "block": "Taxation",
+   "id": "10.T5",
+   "order": 13,
+   "title": "GST (II): Assessment, Demand and Recovery, Refunds, Appeals (GSTAT), Offences and Penalties",
+   "priority": "HIGH",
+   "expected_questions": "1",
+   "articles": "CGST Act ss.54, 59-64, 65-70, 73-74A, 107-118, 122-138",
+   "overview": "Procedures after registration and return filing: refunds, assessment, audit, demand under s.73/74/74A, the appeal hierarchy ending with GSTAT, and offences with monetary thresholds.",
+   "must_know": [
+    "Refund (s.54): application within two years from the 'relevant date' (date of export, date of filing return, etc.); refund of tax paid on zero-rated supplies, inverted duty structure, excess payment, unutilised ITC; unjust enrichment bar (refund of incidence passed on to consumers is credited to Consumer Welfare Fund); interest on delayed refund.",
+    "Assessment (Chapter XII): self-assessment (s.59); provisional assessment (s.60); scrutiny of returns (s.61); assessment of non-filers (s.62) - best judgment; assessment of unregistered persons (s.63); summary assessment in special cases (s.64) - to protect Revenue. Audit (s.65 - by tax authorities; s.66 - special audit by chartered accountant/cost accountant). Inspection, search and seizure (s.67) - by authorised officer on reasons to believe (Commissioner's authorisation); inspection of goods in movement (s.68; e-way bill); power to arrest (s.69) - Commissioner may authorise arrest where reason to believe that a person has committed an offence specified in s.132(1)(a),(b),(c) or (d) which is punishable under s.132(1)(i) or (ii) (i.e., offences above Rs 5 crore or fake invoice) - such offences are cognizable and non-bailable; offence cognizable and non-bailable where tax evaded exceeds Rs 5 crore. Arrest must follow the Cr.P.C. (now BNSS) procedure (s.69(3)); anticipatory bail is available (Radhika Agarwal v. Union of India, 2025 - the Supreme Court upheld the validity of ss.69 and 132 but held that arrest powers must be exercised on 'reasons to believe' that are recorded and that safeguards of the Cr.P.C. apply).",
+    "Demand and recovery: s.73 (non-fraud cases - tax not paid, short paid, erroneous refund or wrongly availed/utilised ITC) - notice within two years and nine months from the due date for annual return; order within three years of that date; payment of tax and interest within 30 days avoids penalty; s.74 (fraud, wilful misstatement or suppression of facts) - notice within four years and six months; order within five years; penalty equal to tax; s.74A (inserted by the Finance Act 2024; effective from FY 2024-25) - unified provision for all cases with a uniform time-limit (notice within 42 months and order within 12 months of notice for the 'non-fraud' type; 54 months for fraud type [VERIFY]). s.75 general provisions (opportunity of hearing; adjournment up to three times; no demand beyond show-cause notice); s.76 tax collected but not deposited; s.77-78 (payment of tax; recovery within 3 months of order); s.79 (modes of recovery - attachment and sale, etc.); s.80 (instalments). Interest (s.50) 18% on delayed payment; 24% on undue/excess ITC claim; late fee (s.47).",
+    "Penalty (ss.122-129): s.122 - for specified offences (supply without invoice, fake invoice, ITC fraud): penalty of Rs 10,000 or tax evaded whichever is higher; s.125 - general penalty up to Rs 25,000; s.129 - detention, seizure and release of goods in transit (200% of tax for taxable goods; 2% of value or Rs 25,000 for exempt goods); s.130 - confiscation of goods or conveyance; s.126 - no penalty for minor breaches (Rs 5,000 limit); s.127 - general penalty provisions.",
+    "Offences and prosecution (s.132): tax evasion of more than Rs 5 crore - imprisonment up to five years plus fine; Rs 2 crore to Rs 5 crore - up to three years; Rs 1 crore to Rs 2 crore - up to one year; fake invoice or ITC fraud (issue of invoices without supply) - up to five years if tax involved exceeds Rs 5 crore; the offence is non-bailable where tax amount exceeds Rs 5 crore; cognizable when exceeding Rs 5 crore; s.132(5) - cognizable and non-bailable; s.132(4); prior sanction by Commissioner; compounding under s.138 (not for offences relating to fake invoices); s.134 - cognizance only with Commissioner's sanction.",
+    "Appeals: first appeal to the Appellate Authority (Joint/Additional Commissioner (Appeals)) under s.107 within three months from the date of communication of the order (the Appellate Authority may condone delay up to one month); pre-deposit - full of the admitted tax plus 10% of the disputed tax (maximum Rs 25 crore for CGST and Rs 25 crore for SGST); second appeal to the GST Appellate Tribunal (GSTAT) under s.112 within three months (extendable by 3 months) - pre-deposit additional 10% of the disputed tax (max Rs 20 crore each for CGST and SGST) in addition to the amount paid under s.107; appeal to the High Court under s.117 on a substantial question of law within 180 days; appeal to the Supreme Court under s.118. Revisional authority (s.108) and the Advance Ruling Authority (ss.95-98; Appellate Authority for Advance Ruling).",
+    "GSTAT: constituted under s.109 CGST Act as amended by the Finance Act 2023; National Bench (Principal Bench) at New Delhi; State Benches at several cities; operationalised in 2025 - the Government notified the Tribunal in September 2025, appointments of President and Members were made, and the portal for filing appeals went live; the Council extended the period to file legacy appeals in respect of orders passed before the Tribunal began functioning; a relaxed limitation window extends to 31 December 2026 for such cases [VERIFY]. GSTAT hears appeals from orders of the Appellate Authority and Revisional Authority; cases involving only issue of place of supply go directly to the National Bench; the Tribunal is subject to the principle in L. Chandra Kumar.",
+    "Advance ruling (ss.95-106): binding on the applicant and the concerned officer; for a question of classification, admissibility of ITC, liability to register etc.; Authority for Advance Ruling (AAR) and Appellate Authority (AAAR). Anti-profiteering (s.171): benefit of reduced tax must be passed on; National Anti-Profiteering Authority wound up in 2022; now Competition Commission of India handles cases. Transitional provisions; migration. Tax recovery by banks etc.",
+    "Other taxes quick view: Central Excise Act 1944 - now only on tobacco products and petroleum (as residual); Customs Act 1962 (see T6); Compensation Cess phased out; State VAT on petroleum and alcohol; Professional tax; Stamp duty (State laws and Indian Stamp Act 1899); Securities Transaction Tax; Equalisation levy (the 6% on online advertisements was abolished from 1 April 2025 [VERIFY]); Gifts and Wealth tax (abolished). Digital Services Tax in international discussions."
+   ],
+   "key_provisions": [
+    {
+     "ref": "CGST s.54",
+     "content": "Refund: within two years from the relevant date."
+    },
+    {
+     "ref": "CGST s.73 / 74 / 74A",
+     "content": "Demand and recovery - non-fraud/ fraud; unified s.74A from FY 2024-25."
+    },
+    {
+     "ref": "CGST s.107 / 112",
+     "content": "Appeal to First Appellate Authority (3 months; 10% pre-deposit) / GSTAT (3 months; further 10%)."
+    },
+    {
+     "ref": "CGST s.132",
+     "content": "Offences and punishment: > Rs 5 crore - up to 5 years; non-bailable."
+    },
+    {
+     "ref": "CGST s.69",
+     "content": "Power to arrest: only for specified offences."
+    }
+   ],
+   "landmark_cases": [
+    {
+     "case": "Radhika Agarwal v. Union of India",
+     "year": "2025",
+     "held": "Upheld validity of ss.69, 132 and others but subjected arrest powers to Cr.P.C. safeguards, 'reasons to believe'; anticipatory bail available [VERIFY]."
+    },
+    {
+     "case": "Union of India v. Mohit Minerals",
+     "year": "2022",
+     "held": "Council recommendations persuasive."
+    }
+   ],
+   "mnemonics": [
+    "GST appeals: s.107 (3 months, 10% pre-deposit) -> s.112 GSTAT (3 months, +10%) -> s.117 High Court (180 days) -> s.118 Supreme Court.",
+    "s.132: >Rs 5 crore = up to 5 years + non-bailable."
+   ],
+   "exam_traps": [
+    "GST arrest power is restricted to offences above Rs 5 crore (and fake invoice cases).",
+    "GSTAT is the second appeal; the first is before the Appellate Authority.",
+    "Pre-deposit under s.107 is 10% of the disputed tax (max Rs 25 crore each); under s.112 an additional 10% (max Rs 20 crore each)."
+   ],
+   "probable_questions": [
+    "Time limit for first appeal under GST? (3 months from communication)",
+    "Which section deals with GST offences and punishment? (s.132)",
+    "GST refund must be claimed within? (2 years)"
+   ]
+  },
+  {
+   "block": "Taxation",
+   "id": "10.T6",
+   "order": 14,
+   "title": "Customs, Stamp Duty and Other Taxes",
+   "priority": "MEDIUM",
+   "expected_questions": "0 to 1",
+   "articles": "Customs Act 1962; Customs Tariff Act 1975; Indian Stamp Act 1899; STT; Black Money Act 2015",
+   "overview": "A short, scoring block: customs levy and valuation, appeals, stamp duty and the 2023 Constitution Bench on unstamped agreements.",
+   "must_know": [
+    "Customs Act 1962: levy of duty on import into and export from India (s.12); duties - basic customs duty (BCD) under the Customs Tariff Act 1975, IGST on imports under s.3(7) of the Customs Tariff Act, Social Welfare Surcharge (10% of BCD), Agriculture Infrastructure and Development Cess (AIDC), anti-dumping duty, safeguard duty, countervailing duty; classification by the Harmonised System of Nomenclature (HSN); valuation (s.14) - transaction value as per the Customs Valuation (Determination of Value of Imported Goods) Rules 2007; bill of entry (s.46) and shipping bill (s.50); Customs Act empowers search, seizure and arrest (ss.100, 104), confiscation (s.111 - improperly imported goods; s.113 - export), penalties (ss.112, 114); demand (s.28 - within 2 years; 5 years in cases of fraud/ collusion), refund (s.27 - within one year); drawback (s.74-75); baggage rules.",
+    "Customs appeals: Commissioner (Appeals) under s.128 within 60 days; Customs, Excise and Service Tax Appellate Tribunal (CESTAT) under s.129A (within 3 months); High Court under s.130 (substantial question of law); Supreme Court. Customs Authority for Advance Rulings; Settlement Commission replaced by Interim Board.",
+    "Cases: Commissioner of Customs v. Dilip Kumar & Co. (2018 - exemption notifications interpreted strictly).",
+    "Stamp duty: duty on instruments (documents) - Indian Stamp Act 1899 (Central law applicable to bills of exchange, cheques, etc. under Entry 91 List I) and State Stamp Acts (Entry 63 List II); instrument not duly stamped is inadmissible in evidence (s.35) until duty and penalty are paid; registration (Registration Act 1908) is separate. N.N. Global Mercantile Pvt. Ltd. v. Indo Unique Flame Ltd. (2023, five judges) held that an unstamped arbitration agreement is void; the seven-judge Bench in In Re: Interplay between Arbitration Agreements under the Arbitration and Conciliation Act 1996 and the Indian Stamp Act 1899 (13 Dec 2023) overruled it: an unstamped or inadequately stamped instrument is inadmissible but not void; it is a curable defect and the Arbitral Tribunal decides on stamping (cross-ref Part 6 ADR).",
+    "Securities Transaction Tax (STT) under Chapter VII of the Finance (No.2) Act 2004; Commodities Transaction Tax; Banking Cash Transaction Tax (withdrawn). Professional tax by States (cap Rs 2,500 - Art 276); Property tax by municipalities (Entry 49 List II); Entertainment tax - subsumed in GST except local bodies; Motor vehicle tax (Entry 57 List II); Toll (Entry 59); Wealth tax and Estate duty abolished; gifts are taxed as income under s.56(2)(x); Equalisation Levy withdrawn; Digital taxation; Carbon tax debate.",
+    "Black Money Act 2015: 30% tax plus 90% penalty on undisclosed foreign income/assets; Benami Transactions (Prohibition) Act: Ganpati Dealcom (2022); Prevention of Money Laundering Act 2002: tax crimes as scheduled offences; Fugitive Economic Offenders Act 2018 (cross-ref Part 2 BNSS ss.84-86 proclaimed persons); Smuggling and COFEPOSA - detention; Customs offences: s.135 (evasion of duty or prohibitions) - imprisonment up to 7 years; Customs offences are cognizable (for fiscal offences above specified amount) and bailable depending on value.",
+    "Tax and constitutional limitations: Art 265; Art 14 (reasonable classification); Art 19(1)(g) (tax cannot be confiscatory); Art 20(1); Art 300A; Art 301-304 (compensatory taxes do not violate freedom of trade - Automobile Transport (Rajasthan) v. State of Rajasthan, 1962); Entry 54 List II; Art 286; Art 366(29A) (deemed sale - works contract); Union of India v. Bombay Tyre International (1983) (valuation)."
+   ],
+   "key_provisions": [
+    {
+     "ref": "Customs Act s.12",
+     "content": "Levy of customs duty on imports and exports."
+    },
+    {
+     "ref": "Customs Act s.14",
+     "content": "Valuation of goods - transaction value."
+    },
+    {
+     "ref": "Customs Act s.128 / 129A",
+     "content": "Appeals to Commissioner (Appeals) and CESTAT."
+    },
+    {
+     "ref": "Indian Stamp Act s.35",
+     "content": "Instruments not duly stamped inadmissible in evidence."
+    }
+   ],
+   "landmark_cases": [
+    {
+     "case": "In Re: Interplay between Arbitration Agreements and the Indian Stamp Act, 1899",
+     "year": "2023",
+     "held": "Seven-judge Bench: unstamped agreement inadmissible but not void; curable; overruled N.N. Global."
+    },
+    {
+     "case": "Commissioner of Customs v. Dilip Kumar & Co.",
+     "year": "2018",
+     "held": "Exemption notifications strictly interpreted."
+    },
+    {
+     "case": "Union of India v. Ganpati Dealcom",
+     "year": "2022",
+     "held": "Benami Act s.3(2) unconstitutional; prospective operation."
+    },
+    {
+     "case": "Automobile Transport (Rajasthan) Ltd. v. State of Rajasthan",
+     "year": "1962",
+     "held": "Compensatory taxes do not violate Art 301."
+    }
+   ],
+   "mnemonics": [
+    "Customs appeals: 60 days (Commissioner Appeals) - CESTAT - HC - SC."
+   ],
+   "exam_traps": [
+    "Stamp duty on bills of exchange etc. is a Union subject (Entry 91 List I); stamp duty on other documents is a State subject (Entry 63 List II).",
+    "Unstamped agreement is inadmissible, not void (2023, seven judges)."
+   ],
+   "probable_questions": [
+    "Which Act governs customs duty? (Customs Act 1962)",
+    "Is an unstamped arbitration agreement void? (No - inadmissible but curable)"
+   ]
+  }
+ ],
+ "latest_developments": [
+  {
+   "topic": "Four Labour Codes in force; Central Rules notified",
+   "date": "21 Nov 2025 (Codes); 8-9 May 2026 (Central Rules)",
+   "summary": "The Ministry of Labour and Employment brought the Code on Wages 2019, the Industrial Relations Code 2020, the Code on Social Security 2020 and the OSH Code 2020 into force on 21 November 2025, repealing 29 Central Acts. Central Rules under all four Codes were published in May 2026, after which compliance obligations began to bite; States are notifying their own rules in phases. Model Standing Orders were issued for the new regime. Trade unions have opposed the Codes and the legal validity of aspects (e.g., 300-worker thresholds) is contested in public debate [VERIFY pending challenges].",
+   "why_it_matters": "High-probability 'which Act has been repealed / which threshold now applies' questions.",
+   "likely_question": "How many Central labour laws were merged into four Codes? (29)"
+  },
+  {
+   "topic": "State of U.P. v. Jai Bir Singh - meaning of 'industry'",
+   "date": "20 Aug 2026 (nine-judge Bench; 2026 INSC 897)",
+   "summary": "By 6:3 the Court held the reference maintainable and by 5:4 refined the Bangalore Water Supply 'triple test' without a clear overruling; the 1978 test continues to govern pending disputes under the repealed Industrial Disputes Act and the refined test is prospective; the decision does not automatically fix the meaning of 'industry' in s.2(p) of the IR Code. Commentators note no clear majority on the reformulation (about four judges backed the new test) [VERIFY].",
+   "why_it_matters": "A current-affairs favourite: bench strength, year, the test, the effect on hospitals/educational institutions.",
+   "likely_question": "Which 1978 case's 'triple test' was reconsidered in 2026? (Bangalore Water Supply)"
+  },
+  {
+   "topic": "Income-tax Act 2025 comes into force",
+   "date": "1 April 2026",
+   "summary": "The new Act replaces the 1961 Act, introducing the 'Tax Year' and a leaner structure. The substance of the heads of income, residence, TDS, assessment and appeals is retained. The new tax regime remains default; basic exemption Rs 4 lakh and s.87A rebate for income up to Rs 12 lakh (FY 2025-26). Returns for FY 2025-26 (AY 2026-27) are filed under the 1961 Act; Tax Year 2026-27 is the first under the 2025 Act [VERIFY Finance Act 2026 changes].",
+   "why_it_matters": "Statute replacement questions are common in AIBE.",
+   "likely_question": "The Income-tax Act 2025 is effective from? (1 April 2026)"
+  },
+  {
+   "topic": "GST 2.0 - rate rationalisation, cess withdrawal and GSTAT",
+   "date": "56th GST Council 3 Sept 2025; effective 22 Sept 2025; GSTAT operational 2025-26",
+   "summary": "Two principal slabs (5% and 18%) plus a 40% demerit rate; compensation cess phased out; individual life and health insurance premium exempted; trade-facilitation measures (registration, refunds); the GST Appellate Tribunal began functioning with a window for pending appeals up to 31 Dec 2026 [VERIFY].",
+   "why_it_matters": "Rates and forum questions.",
+   "likely_question": "How many principal GST slabs exist after Sept 2025? (Two - 5% and 18%, plus 40% special)"
+  },
+  {
+   "topic": "Supreme Court on GST arrests and ITC",
+   "date": "2024-2026",
+   "summary": "Radhika Agarwal (2025) - arrest powers under GST upheld with safeguards; Safari Retreats (2024) functionality test and the retrospective 2025 amendment; 2026 rulings on ITC where supplier defaults and extended limitation under s.74 [VERIFY].",
+   "why_it_matters": "Case-law MCQs under GST.",
+   "likely_question": "Which test determines 'plant' in s.17(5)(d)? (Functionality test)"
+  },
+  {
+   "topic": "Reassessment under the Income-tax Act and Finance Act 2026",
+   "date": "2022-2026",
+   "summary": "Ashish Agarwal (2022) and Rajeev Bansal (2024) fixed the transition for notices issued after 1 April 2021; in 2026 the Finance Act's retrospective s.147A route was challenged and a High Court decision striking it down was stayed by the Supreme Court in Sept 2026 [VERIFY].",
+   "why_it_matters": "Reassessment time limits (3 years / 10 years with Rs 50 lakh).",
+   "likely_question": "Up to how many years can notice under s.148 be issued if escaped income is Rs 50 lakh or more? (10)"
+  },
+  {
+   "topic": "Gig and platform workers",
+   "date": "2023-2026",
+   "summary": "The Code on Social Security introduces aggregator contributions (1%-2% of turnover, capped at 5% of payouts); Rajasthan (2023) and Karnataka (2025) enacted State laws; Central Rules (2026) operationalise e-Shram registration and eligibility days [VERIFY].",
+   "why_it_matters": "New protective regime; 'which Code' questions.",
+   "likely_question": "Aggregators contribute what percentage of turnover? (1%-2%)"
+  },
+  {
+   "topic": "Regularisation of long-serving temporary workers",
+   "date": "Dec 2024 - 2025",
+   "summary": "In Jaggo v. Union of India (Dec 2024) and Shripal v. Nagar Nigam, Ghaziabad (Jan 2025) the Supreme Court criticised the use of Umadevi to keep workers on temporary terms for decades and ordered regularisation [VERIFY].",
+   "why_it_matters": "Umadevi vs Jaggo is a likely paired question.",
+   "likely_question": "Which Constitution Bench decision restricts regularisation? (Umadevi)"
+  },
+  {
+   "topic": "Stamp duty on arbitration agreements",
+   "date": "13 Dec 2023 (seven judges)",
+   "summary": "Unstamped instruments are inadmissible but not void; the defect is curable. This resolves the N.N. Global dilemma.",
+   "why_it_matters": "Cross-over with Part 6.",
+   "likely_question": "Is an unstamped arbitration agreement void? (No)"
+  },
+  {
+   "topic": "Mineral Area Development Authority v. SAIL (9 judges)",
+   "date": "25 July 2024",
+   "summary": "State legislatures may tax mineral rights/lands bearing minerals; royalty is not a tax. Relevant for Centre-State taxation.",
+   "why_it_matters": "Entry 50 List II, Entry 54 List I.",
+   "likely_question": "Is royalty a tax? (No)"
+  },
+  {
+   "topic": "Tax procedure technology and faceless regimes",
+   "date": "2020-2026",
+   "summary": "Faceless assessment (s.144B), faceless appeals, e-assessment; GST e-invoicing for turnover above Rs 5 crore; both being reframed under the 2025 Act.",
+   "why_it_matters": "Procedure questions.",
+   "likely_question": "Which section provides for faceless assessment? (s.144B)"
+  }
+ ],
+ "old_to_new_concordance": {
+  "labour_acts_to_codes": [
+   {
+    "old": "Payment of Wages Act 1936",
+    "new": "Code on Wages 2019",
+    "topic": "Payment of wages",
+    "note": ""
+   },
+   {
+    "old": "Minimum Wages Act 1948",
+    "new": "Code on Wages 2019",
+    "topic": "Minimum wages",
+    "note": "Now covers all employees; floor wage"
+   },
+   {
+    "old": "Payment of Bonus Act 1965",
+    "new": "Code on Wages 2019 (Chapter V)",
+    "topic": "Bonus",
+    "note": ""
+   },
+   {
+    "old": "Equal Remuneration Act 1976",
+    "new": "Code on Wages 2019 (s.3)",
+    "topic": "Equal pay / non-discrimination",
+    "note": "Gender-neutral"
+   },
+   {
+    "old": "Trade Unions Act 1926",
+    "new": "Industrial Relations Code 2020 (Chapter III)",
+    "topic": "Trade unions",
+    "note": ""
+   },
+   {
+    "old": "Industrial Employment (Standing Orders) Act 1946",
+    "new": "Industrial Relations Code 2020 (Chapter IV)",
+    "topic": "Standing orders",
+    "note": "Threshold 300 workers"
+   },
+   {
+    "old": "Industrial Disputes Act 1947",
+    "new": "Industrial Relations Code 2020",
+    "topic": "Disputes, strikes, lay-off, retrenchment, closure",
+    "note": ""
+   },
+   {
+    "old": "Employees' Provident Funds and Miscellaneous Provisions Act 1952",
+    "new": "Code on Social Security 2020",
+    "topic": "Provident fund",
+    "note": ""
+   },
+   {
+    "old": "Employees' State Insurance Act 1948",
+    "new": "Code on Social Security 2020",
+    "topic": "ESI",
+    "note": ""
+   },
+   {
+    "old": "Employees' Compensation Act 1923",
+    "new": "Code on Social Security 2020",
+    "topic": "Compensation for accidents",
+    "note": ""
+   },
+   {
+    "old": "Maternity Benefit Act 1961",
+    "new": "Code on Social Security 2020",
+    "topic": "Maternity",
+    "note": ""
+   },
+   {
+    "old": "Payment of Gratuity Act 1972",
+    "new": "Code on Social Security 2020",
+    "topic": "Gratuity",
+    "note": ""
+   },
+   {
+    "old": "Employment Exchanges (Compulsory Notification of Vacancies) Act 1959",
+    "new": "Code on Social Security 2020",
+    "topic": "Employment exchanges",
+    "note": ""
+   },
+   {
+    "old": "Cine Workers Welfare Fund Act 1981",
+    "new": "Code on Social Security 2020",
+    "topic": "Welfare fund",
+    "note": ""
+   },
+   {
+    "old": "Building and Other Construction Workers' Welfare Cess Act 1996",
+    "new": "Code on Social Security 2020",
+    "topic": "Cess",
+    "note": ""
+   },
+   {
+    "old": "Unorganised Workers' Social Security Act 2008",
+    "new": "Code on Social Security 2020",
+    "topic": "Unorganised workers",
+    "note": ""
+   },
+   {
+    "old": "Factories Act 1948",
+    "new": "OSH Code 2020",
+    "topic": "Factories",
+    "note": ""
+   },
+   {
+    "old": "Mines Act 1952",
+    "new": "OSH Code 2020",
+    "topic": "Mines",
+    "note": ""
+   },
+   {
+    "old": "Dock Workers (Safety, Health and Welfare) Act 1986",
+    "new": "OSH Code 2020",
+    "topic": "Dock workers",
+    "note": ""
+   },
+   {
+    "old": "Building and Other Construction Workers (RECS) Act 1996",
+    "new": "OSH Code 2020",
+    "topic": "Construction workers",
+    "note": ""
+   },
+   {
+    "old": "Plantations Labour Act 1951",
+    "new": "OSH Code 2020",
+    "topic": "Plantations",
+    "note": ""
+   },
+   {
+    "old": "Contract Labour (Regulation and Abolition) Act 1970",
+    "new": "OSH Code 2020",
+    "topic": "Contract labour",
+    "note": "Threshold 50"
+   },
+   {
+    "old": "Inter-State Migrant Workmen (RECS) Act 1979",
+    "new": "OSH Code 2020",
+    "topic": "Migrant workers",
+    "note": ""
+   },
+   {
+    "old": "Working Journalists Acts 1955 and 1958",
+    "new": "OSH Code 2020",
+    "topic": "Journalists",
+    "note": ""
+   },
+   {
+    "old": "Motor Transport Workers Act 1961",
+    "new": "OSH Code 2020",
+    "topic": "Motor transport",
+    "note": ""
+   },
+   {
+    "old": "Sales Promotion Employees (Conditions of Service) Act 1976",
+    "new": "OSH Code 2020",
+    "topic": "Sales promotion employees",
+    "note": ""
+   },
+   {
+    "old": "Beedi and Cigar Workers (Conditions of Employment) Act 1966",
+    "new": "OSH Code 2020",
+    "topic": "Beedi/cigar workers",
+    "note": ""
+   },
+   {
+    "old": "Cine-Workers and Cinema Theatre Workers (Regulation of Employment) Act 1981",
+    "new": "OSH Code 2020",
+    "topic": "Cine workers",
+    "note": ""
+   }
+  ],
+  "concept_changes": [
+   {
+    "old": "ID Act s.2(j) 'industry'",
+    "new": "IR Code s.2(p)",
+    "topic": "Definition of industry",
+    "note": "Code excludes sovereign functions, charitable services, domestic service; 2026 Jai Bir Singh applies to ID Act disputes"
+   },
+   {
+    "old": "ID Act s.2(s) 'workman'",
+    "new": "IR Code s.2(zr) 'worker'",
+    "topic": "Definition",
+    "note": "Supervisory limit Rs 18,000"
+   },
+   {
+    "old": "ID Act ss.22-23 (public utility strike notice)",
+    "new": "IR Code s.62",
+    "topic": "Strike/lock-out notice",
+    "note": "Now for all industrial establishments"
+   },
+   {
+    "old": "ID Act s.25F retrenchment conditions",
+    "new": "IR Code s.70",
+    "topic": "Retrenchment",
+    "note": "Notice/ wages in lieu; 15 days' compensation; Re-skilling Fund"
+   },
+   {
+    "old": "ID Act Chapter VB (100 workers)",
+    "new": "IR Code Chapter X (300 workers)",
+    "topic": "Prior permission",
+    "note": "Threshold raised"
+   },
+   {
+    "old": "Standing Orders Act (100 workers)",
+    "new": "IR Code Chapter IV (300 workers)",
+    "topic": "Standing orders",
+    "note": ""
+   },
+   {
+    "old": "Industrial Disputes Act 'reference by Government'",
+    "new": "Direct approach to Tribunal after conciliation failure",
+    "topic": "Adjudication",
+    "note": "Two-member Tribunal"
+   },
+   {
+    "old": "Factories Act: 10 workers with power / 20 without",
+    "new": "OSH Code: 20 with power / 40 without",
+    "topic": "Factory definition",
+    "note": "States may raise"
+   },
+   {
+    "old": "Contract Labour Act: 20 workers",
+    "new": "OSH Code: 50 workers",
+    "topic": "Contract labour",
+    "note": ""
+   },
+   {
+    "old": "Payment of Wages Act: ceiling Rs 24,000",
+    "new": "Wages Code: no ceiling",
+    "topic": "Wage payment",
+    "note": ""
+   },
+   {
+    "old": "Maternity Benefit Act 12 weeks (pre-2017)",
+    "new": "26 weeks (first two children)",
+    "topic": "Maternity",
+    "note": "2017 amendment carried into the Code"
+   }
+  ],
+  "tax_statutes": [
+   {
+    "old": "Income-tax Act 1961 (previous year / assessment year)",
+    "new": "Income-tax Act 2025 (Tax Year)",
+    "topic": "Direct tax statute",
+    "note": "In force 1 April 2026"
+   },
+   {
+    "old": "Central Excise, Service Tax, VAT, CST, Entry Tax, Octroi etc.",
+    "new": "GST (CGST/SGST/IGST) 2017",
+    "topic": "Indirect tax subsumed",
+    "note": "101st Amendment"
+   },
+   {
+    "old": "GST Compensation Cess (2017 Act)",
+    "new": "Withdrawn after GST 2.0 (2025-26)",
+    "topic": "Cess",
+    "note": ""
+   },
+   {
+    "old": "CGST ss.73-74",
+    "new": "CGST s.74A (FY 2024-25 onwards)",
+    "topic": "Demand and recovery",
+    "note": "Finance Act 2024"
+   },
+   {
+    "old": "Settlement Commission (Income-tax)",
+    "new": "Interim Board for Settlement",
+    "topic": "Settlement",
+    "note": "From Feb 2021"
+   },
+   {
+    "old": "Authority for Advance Rulings",
+    "new": "Board for Advance Rulings",
+    "topic": "Advance rulings",
+    "note": "From 2022 (direct tax)"
+   },
+   {
+    "old": "Identification of Prisoners Act 1920",
+    "new": "Criminal Procedure (Identification) Act 2022",
+    "topic": "Cross-reference to Part 2",
+    "note": ""
+   }
+  ]
+ },
+ "key_numbers": [
+  {
+   "item": "Standing orders (IR Code)",
+   "value": "300 or more workers"
+  },
+  {
+   "item": "Prior government permission for lay-off/retrenchment/closure",
+   "value": "300 or more workers (IR Code Chapter X); deemed permission after 60 days"
+  },
+  {
+   "item": "Works Committee / Grievance Redressal Committee",
+   "value": "100 workers / 20 workers"
+  },
+  {
+   "item": "Strike or lock-out notice",
+   "value": "60 days before; not within 14 days of notice"
+  },
+  {
+   "item": "Retrenchment compensation",
+   "value": "15 days' average pay per completed year; 1 month notice"
+  },
+  {
+   "item": "Re-skilling Fund",
+   "value": "15 days' last drawn wages per retrenched worker"
+  },
+  {
+   "item": "Lay-off compensation",
+   "value": "50% of basic + DA"
+  },
+  {
+   "item": "Closure notice",
+   "value": "60 days (50+ workers)"
+  },
+  {
+   "item": "Supervisory worker wage ceiling (IR Code)",
+   "value": "Rs 18,000 per month"
+  },
+  {
+   "item": "Minimum bonus / maximum bonus",
+   "value": "8.33% / 20%; ceiling Rs 21,000 for eligibility"
+  },
+  {
+   "item": "Deductions from wages",
+   "value": "Not more than 50%"
+  },
+  {
+   "item": "Overtime",
+   "value": "Twice the normal rate"
+  },
+  {
+   "item": "Wages on termination",
+   "value": "Within 2 working days"
+  },
+  {
+   "item": "EPF / ESI / Gratuity / Maternity thresholds",
+   "value": "20 / 10 / 10 / 10 employees"
+  },
+  {
+   "item": "EPF wage ceiling; ESI wage ceiling",
+   "value": "Rs 15,000; Rs 21,000"
+  },
+  {
+   "item": "ESI contribution",
+   "value": "Employer 3.25%; employee 0.75%"
+  },
+  {
+   "item": "Gratuity",
+   "value": "5 years (1 year for fixed-term); 15 days' wages per year; cap Rs 20 lakh"
+  },
+  {
+   "item": "Maternity",
+   "value": "26 weeks (first two children); 12 weeks otherwise; crèche for 50+ employees"
+  },
+  {
+   "item": "Gig workers aggregator contribution",
+   "value": "1%-2% of turnover capped at 5% of payouts"
+  },
+  {
+   "item": "Factory (OSH Code)",
+   "value": "20 workers with power; 40 without"
+  },
+  {
+   "item": "Contract labour applicability",
+   "value": "50 or more contract workers"
+  },
+  {
+   "item": "Working hours (OSH Code)",
+   "value": "8 hours a day; 48 hours a week"
+  },
+  {
+   "item": "Income-tax new regime (FY 2025-26)",
+   "value": "Nil up to Rs 4 lakh; 5%/10%/15%/20%/25% up to Rs 24 lakh; 30% above; rebate up to Rs 12 lakh income"
+  },
+  {
+   "item": "Residence (individual)",
+   "value": "182 days; or 60 days + 365 days in preceding 4 years"
+  },
+  {
+   "item": "Advance tax instalments",
+   "value": "15% (15 Jun), 45% (15 Sep), 75% (15 Dec), 100% (15 Mar)"
+  },
+  {
+   "item": "Income-tax appeals",
+   "value": "CIT(A) 30 days; ITAT 60 days; High Court 120 days"
+  },
+  {
+   "item": "Reassessment limits",
+   "value": "3 years; up to 10 years if escaped income Rs 50 lakh or more"
+  },
+  {
+   "item": "Capital gains (listed equity)",
+   "value": "STCG 20%; LTCG 12.5% above Rs 1.25 lakh"
+  },
+  {
+   "item": "GST registration",
+   "value": "Rs 40 lakh goods; Rs 20 lakh services; special category Rs 20/10 lakh"
+  },
+  {
+   "item": "GST composition",
+   "value": "Turnover up to Rs 1.5 crore (goods); 1% / 5% / 6%"
+  },
+  {
+   "item": "GST slabs from 22 Sep 2025",
+   "value": "5%, 18%, 40% (special)"
+  },
+  {
+   "item": "GST appeals",
+   "value": "s.107: 3 months (+1), 10% pre-deposit; GSTAT s.112: 3 months (+3), further 10%; HC 180 days"
+  },
+  {
+   "item": "GST offence thresholds",
+   "value": "More than Rs 5 crore - non-bailable, up to 5 years"
+  },
+  {
+   "item": "Art 276 professional tax cap",
+   "value": "Rs 2,500 a year"
+  }
+ ],
+ "related_topics": [
+  {
+   "topic": "Constitution (Part 1)",
+   "link": "Arts 14, 16, 19(1)(c), 21, 23, 24, 39, 41-43A, 246A, 265, 276, 279A, 289, 300A; Entries 22-24 List III; L. Chandra Kumar and tribunals."
+  },
+  {
+   "topic": "Civil/Criminal procedure (Parts 2 and 3)",
+   "link": "Prosecution under labour/tax statutes: BNSS cognizance, summons, bail; limitation."
+  },
+  {
+   "topic": "Arbitration and ADR (Part 6)",
+   "link": "Stamp duty on arbitration agreements; tax and labour disputes via conciliation/arbitration (IR Code voluntary arbitration)."
+  },
+  {
+   "topic": "Contract and NI Act (Part 7)",
+   "link": "Employment contract (s.27 restraint; s.23 unconscionable terms); stamp duty; TDS on cheques; s.138 NI Act."
+  },
+  {
+   "topic": "Administrative Law (Part 8)",
+   "link": "Delegated legislation (Rules under Codes and tax statutes); natural justice in domestic enquiries; legitimate expectation."
+  },
+  {
+   "topic": "Company Law (Part 4)",
+   "link": "Corporate tax; employees' liability under Codes; directors as 'occupier' under OSH Code."
+  },
+  {
+   "topic": "Family Law (Part 6)",
+   "link": "Maintenance and HUF taxation; gifts and clubbing; maternity benefit."
+  },
+  {
+   "topic": "Tort/Consumer/MV Act (Part 8)",
+   "link": "Absolute liability (M.C. Mehta) and employees' compensation; GST on services; insurance."
+  },
+  {
+   "topic": "Intellectual Property (Part 8)",
+   "link": "GST on licensing of IPR (Schedule II); royalty taxation (s.9(1)(vi))."
+  },
+  {
+   "topic": "Professional Ethics (separate file)",
+   "link": "Not included here per the requester's instruction; advocates' fees and tax compliance fall under Bar Council rules."
+  }
+ ],
+ "rapid_revision": {
+  "one_liner_cases": [
+   "Bangalore Water Supply (1978) - triple test for 'industry'; Jai Bir Singh (2026) - nine judges refine.",
+   "Hospital Mazdoor Sabha (1960) - hospitals can be industries.",
+   "Burmah Shell (1970) - dominant nature of duties decides 'workman'.",
+   "Punjab Land Development (1990) - broad meaning of 'retrenchment'.",
+   "Santosh Gupta (1980) - s.25F non-compliance voids retrenchment.",
+   "Meenakshi Mills (1992) - Chapter VB valid.",
+   "Rangarajan (2003) - no fundamental right to strike.",
+   "All India Bank Employees (1962) - Art 19(1)(c) does not guarantee strike or recognition.",
+   "Umadevi (2006) - no back-door regularisation; Jaggo (2024) - long-serving workers.",
+   "Randhir Singh (1982); Jagjit Singh (2016) - equal pay for equal work.",
+   "PUDR (Asiad, 1982) - below minimum wage = forced labour.",
+   "Vishaka (1997) - POSH guidelines.",
+   "Oleum Gas (1987) - absolute liability.",
+   "Steel Authority v. National Union Water Front Workers (2001) - no automatic absorption.",
+   "Mohit Minerals (2022) - GST Council recommendations not binding.",
+   "McDowell (1985) vs Azadi Bachao (2003) - avoidance vs planning.",
+   "Vodafone (2012) - indirect transfer not taxable; retrospective law later withdrawn.",
+   "Dilip Kumar (2018) - exemption notifications strictly construed.",
+   "Safari Retreats (2024) - functionality test for 'plant'.",
+   "Ashish Agarwal (2022); Rajeev Bansal (2024) - reassessment transition.",
+   "Binoy Viswam (2017) - PAN-Aadhaar linking.",
+   "Ganpati Dealcom (2022) - Benami Act s.3(2) unconstitutional."
+  ],
+  "mnemonics": [
+   "29 = 4 + 3 + 9 + 13 (Wages, IR, Social Security, OSH).",
+   "Thresholds: 300 (SO & prior permission), 100 (WC), 20 (GRC, EPF), 10 (ESI, gratuity), 50 (contract labour; crèche).",
+   "Tax five heads: S-H-B-C-O. Residence: 182 / 60+365.",
+   "GST: 'CGST+SGST / IGST'; slabs 5-18-40."
+  ]
+ },
+ "mcq_bank": [
+  {
+   "id": 1,
+   "question": "The four Labour Codes were brought into force on:",
+   "options": {
+    "A": "1 April 2025",
+    "B": "21 November 2025",
+    "C": "1 January 2026",
+    "D": "1 May 2026"
+   },
+   "answer": "B",
+   "explanation": "Notified with effect from 21 November 2025; Central Rules came on 8-9 May 2026."
+  },
+  {
+   "id": 2,
+   "question": "How many Central labour laws were subsumed into the four Labour Codes?",
+   "options": {
+    "A": "13",
+    "B": "22",
+    "C": "29",
+    "D": "44"
+   },
+   "answer": "C",
+   "explanation": "4 + 3 + 9 + 13 = 29."
+  },
+  {
+   "id": 3,
+   "question": "The Industrial Relations Code 2020 replaces which of the following?",
+   "options": {
+    "A": "Factories Act",
+    "B": "Industrial Disputes Act 1947",
+    "C": "Minimum Wages Act",
+    "D": "Payment of Gratuity Act"
+   },
+   "answer": "B",
+   "explanation": "It subsumes the Trade Unions Act, Standing Orders Act and Industrial Disputes Act."
+  },
+  {
+   "id": 4,
+   "question": "Which Code replaced the Payment of Bonus Act, 1965?",
+   "options": {
+    "A": "IR Code",
+    "B": "Code on Wages 2019",
+    "C": "Code on Social Security 2020",
+    "D": "OSH Code"
+   },
+   "answer": "B",
+   "explanation": "Wages Code subsumes four Acts including the Bonus Act."
+  },
+  {
+   "id": 5,
+   "question": "The 'triple test' for 'industry' was laid down in:",
+   "options": {
+    "A": "Hospital Mazdoor Sabha",
+    "B": "Bangalore Water Supply v. A. Rajappa",
+    "C": "Safdarjung Hospital v. Kuldip Singh Sethi",
+    "D": "Burmah Shell"
+   },
+   "answer": "B",
+   "explanation": "Bangalore Water Supply (1978, seven judges)."
+  },
+  {
+   "id": 6,
+   "question": "In State of U.P. v. Jai Bir Singh (2026), the Supreme Court dealt with the meaning of:",
+   "options": {
+    "A": "Worker",
+    "B": "Industry",
+    "C": "Wages",
+    "D": "Retrenchment"
+   },
+   "answer": "B",
+   "explanation": "A nine-judge Bench decided on 20 Aug 2026."
+  },
+  {
+   "id": 7,
+   "question": "Under the IR Code, supervisory employees are 'workers' only if their wages do not exceed:",
+   "options": {
+    "A": "Rs 10,000",
+    "B": "Rs 15,000",
+    "C": "Rs 18,000",
+    "D": "Rs 24,000"
+   },
+   "answer": "C",
+   "explanation": "Rs 18,000 per month (or as notified)."
+  },
+  {
+   "id": 8,
+   "question": "A Grievance Redressal Committee is mandatory in an industrial establishment with at least:",
+   "options": {
+    "A": "10 workers",
+    "B": "20 workers",
+    "C": "50 workers",
+    "D": "100 workers"
+   },
+   "answer": "B",
+   "explanation": "20 or more workers; Works Committee for 100+."
+  },
+  {
+   "id": 9,
+   "question": "The sole negotiating union must have the support of at least what percentage of workers?",
+   "options": {
+    "A": "26%",
+    "B": "33%",
+    "C": "51%",
+    "D": "75%"
+   },
+   "answer": "C",
+   "explanation": "51% of the workers on the muster roll."
+  },
+  {
+   "id": 10,
+   "question": "Standing orders under the IR Code apply to establishments with at least:",
+   "options": {
+    "A": "50 workers",
+    "B": "100 workers",
+    "C": "200 workers",
+    "D": "300 workers"
+   },
+   "answer": "D",
+   "explanation": "300 or more (earlier 100)."
+  },
+  {
+   "id": 11,
+   "question": "The strike notice period under the IR Code is:",
+   "options": {
+    "A": "7 days",
+    "B": "14 days",
+    "C": "30 days",
+    "D": "60 days"
+   },
+   "answer": "D",
+   "explanation": "Notice of 60 days before striking; the strike may not take place within 14 days of notice."
+  },
+  {
+   "id": 12,
+   "question": "Under the IR Code, concerted casual leave by what proportion of workers is deemed a strike?",
+   "options": {
+    "A": "25% or more",
+    "B": "33% or more",
+    "C": "50% or more",
+    "D": "75% or more"
+   },
+   "answer": "C",
+   "explanation": "50% or more of workers on a given day."
+  },
+  {
+   "id": 13,
+   "question": "Which test is used to decide whether a person is a 'workman'?",
+   "options": {
+    "A": "Dominant nature of duties",
+    "B": "Salary alone",
+    "C": "Designation",
+    "D": "Length of service"
+   },
+   "answer": "A",
+   "explanation": "Burmah Shell (1970) and later cases."
+  },
+  {
+   "id": 14,
+   "question": "Retrenchment compensation is:",
+   "options": {
+    "A": "7 days' pay per year",
+    "B": "15 days' average pay per completed year of service",
+    "C": "30 days' pay per year",
+    "D": "One month's pay in total"
+   },
+   "answer": "B",
+   "explanation": "Section 25F ID Act / s.70 IR Code."
+  },
+  {
+   "id": 15,
+   "question": "Lay-off compensation is:",
+   "options": {
+    "A": "25% of basic + DA",
+    "B": "50% of basic + DA",
+    "C": "75% of basic + DA",
+    "D": "100% of wages"
+   },
+   "answer": "B",
+   "explanation": "50% of basic wages and dearness allowance."
+  },
+  {
+   "id": 16,
+   "question": "Prior government permission for lay-off, retrenchment and closure is required in establishments with at least:",
+   "options": {
+    "A": "50",
+    "B": "100",
+    "C": "200",
+    "D": "300"
+   },
+   "answer": "D",
+   "explanation": "300 workers (IR Code Chapter X)."
+  },
+  {
+   "id": 17,
+   "question": "The Worker Re-skilling Fund receives how many days' wages for each retrenched worker?",
+   "options": {
+    "A": "7",
+    "B": "15",
+    "C": "30",
+    "D": "45"
+   },
+   "answer": "B",
+   "explanation": "15 days' last drawn wages."
+  },
+  {
+   "id": 18,
+   "question": "Which Constitution Bench held that regularisation of irregular appointments cannot be ordered ordinarily?",
+   "options": {
+    "A": "Randhir Singh",
+    "B": "Secretary, State of Karnataka v. Umadevi",
+    "C": "Jagjit Singh",
+    "D": "Punjab Land Development"
+   },
+   "answer": "B",
+   "explanation": "Umadevi (2006)."
+  },
+  {
+   "id": 19,
+   "question": "The 'right to strike' is:",
+   "options": {
+    "A": "A fundamental right under Art 19(1)(c)",
+    "B": "A fundamental right under Art 21",
+    "C": "Not a fundamental right",
+    "D": "A DPSP"
+   },
+   "answer": "C",
+   "explanation": "T.K. Rangarajan (2003)."
+  },
+  {
+   "id": 20,
+   "question": "Under the Code on Wages, deductions from wages cannot exceed:",
+   "options": {
+    "A": "25%",
+    "B": "33%",
+    "C": "50%",
+    "D": "75%"
+   },
+   "answer": "C",
+   "explanation": "50% of wages."
+  },
+  {
+   "id": 21,
+   "question": "Overtime under the Code on Wages is payable at not less than:",
+   "options": {
+    "A": "1.5 times",
+    "B": "Twice the normal rate",
+    "C": "Thrice",
+    "D": "Normal rate"
+   },
+   "answer": "B",
+   "explanation": "Twice the normal rate of wages."
+  },
+  {
+   "id": 22,
+   "question": "The minimum bonus under the Code on Wages is:",
+   "options": {
+    "A": "5%",
+    "B": "8.33%",
+    "C": "10%",
+    "D": "20%"
+   },
+   "answer": "B",
+   "explanation": "8.33% (maximum 20%)."
+  },
+  {
+   "id": 23,
+   "question": "Under the Code on Wages, on removal or resignation, wages must be paid within:",
+   "options": {
+    "A": "24 hours",
+    "B": "2 working days",
+    "C": "7 days",
+    "D": "15 days"
+   },
+   "answer": "B",
+   "explanation": "Within two working days."
+  },
+  {
+   "id": 24,
+   "question": "The 'floor wage' is fixed by:",
+   "options": {
+    "A": "State Governments",
+    "B": "The Central Government",
+    "C": "Panchayats",
+    "D": "Courts"
+   },
+   "answer": "B",
+   "explanation": "Code on Wages s.9 - Central Government; States cannot go below it."
+  },
+  {
+   "id": 25,
+   "question": "Gratuity is payable on completion of how many years of continuous service (normal employees)?",
+   "options": {
+    "A": "1",
+    "B": "3",
+    "C": "5",
+    "D": "10"
+   },
+   "answer": "C",
+   "explanation": "5 years; not required for death or disablement; fixed-term employees after 1 year."
+  },
+  {
+   "id": 26,
+   "question": "Maternity benefit for a woman with fewer than two surviving children is:",
+   "options": {
+    "A": "12 weeks",
+    "B": "16 weeks",
+    "C": "26 weeks",
+    "D": "30 weeks"
+   },
+   "answer": "C",
+   "explanation": "26 weeks."
+  },
+  {
+   "id": 27,
+   "question": "A crèche is mandatory in establishments with at least:",
+   "options": {
+    "A": "10 employees",
+    "B": "20 employees",
+    "C": "50 employees",
+    "D": "100 employees"
+   },
+   "answer": "C",
+   "explanation": "50 or more employees."
+  },
+  {
+   "id": 28,
+   "question": "The EPF Scheme applies to establishments with at least:",
+   "options": {
+    "A": "10 employees",
+    "B": "20 employees",
+    "C": "50 employees",
+    "D": "100 employees"
+   },
+   "answer": "B",
+   "explanation": "20 or more employees (statutory)."
+  },
+  {
+   "id": 29,
+   "question": "The ESI Scheme applies to establishments with at least:",
+   "options": {
+    "A": "10 employees",
+    "B": "20 employees",
+    "C": "50 employees",
+    "D": "100 employees"
+   },
+   "answer": "A",
+   "explanation": "10 or more employees; wage limit Rs 21,000."
+  },
+  {
+   "id": 30,
+   "question": "Aggregators must contribute what percentage of annual turnover for gig workers (capped at 5% of payouts)?",
+   "options": {
+    "A": "0.5%-1%",
+    "B": "1%-2%",
+    "C": "3%-4%",
+    "D": "5%-6%"
+   },
+   "answer": "B",
+   "explanation": "1% to 2% under the Social Security Code."
+  },
+  {
+   "id": 31,
+   "question": "A 'factory' under the OSH Code means premises with at least:",
+   "options": {
+    "A": "10 workers (with power)",
+    "B": "20 workers (with power)",
+    "C": "40 workers (with power)",
+    "D": "50 workers (with power)"
+   },
+   "answer": "B",
+   "explanation": "20 workers with power or 40 without power."
+  },
+  {
+   "id": 32,
+   "question": "The OSH Code applies to contract labour where the number of contract workers is at least:",
+   "options": {
+    "A": "10",
+    "B": "20",
+    "C": "50",
+    "D": "100"
+   },
+   "answer": "C",
+   "explanation": "50 or more."
+  },
+  {
+   "id": 33,
+   "question": "Which case evolved the principle of absolute liability?",
+   "options": {
+    "A": "Rylands v. Fletcher",
+    "B": "M.C. Mehta v. Union of India (Oleum Gas Leak)",
+    "C": "Bhopal Gas settlement",
+    "D": "Vishaka"
+   },
+   "answer": "B",
+   "explanation": "M.C. Mehta (1987)."
+  },
+  {
+   "id": 34,
+   "question": "Vishaka v. State of Rajasthan related to:",
+   "options": {
+    "A": "Child labour",
+    "B": "Sexual harassment at the workplace",
+    "C": "Bonded labour",
+    "D": "Minimum wages"
+   },
+   "answer": "B",
+   "explanation": "Guidelines against sexual harassment, now POSH Act 2013."
+  },
+  {
+   "id": 35,
+   "question": "Which Article prohibits employment of children below 14 in factories and hazardous work?",
+   "options": {
+    "A": "Art 21A",
+    "B": "Art 23",
+    "C": "Art 24",
+    "D": "Art 45"
+   },
+   "answer": "C",
+   "explanation": "Art 24."
+  },
+  {
+   "id": 36,
+   "question": "Which entry of the Concurrent List deals with welfare of labour and provident funds?",
+   "options": {
+    "A": "Entry 22",
+    "B": "Entry 23",
+    "C": "Entry 24",
+    "D": "Entry 25"
+   },
+   "answer": "C",
+   "explanation": "Entry 24 List III (22: unions and disputes; 23: social security)."
+  },
+  {
+   "id": 37,
+   "question": "Which Article directs workers' participation in management?",
+   "options": {
+    "A": "Art 41",
+    "B": "Art 42",
+    "C": "Art 43",
+    "D": "Art 43A"
+   },
+   "answer": "D",
+   "explanation": "Art 43A (42nd Amendment)."
+  },
+  {
+   "id": 38,
+   "question": "Under which Article can no tax be levied or collected except by authority of law?",
+   "options": {
+    "A": "Art 246",
+    "B": "Art 265",
+    "C": "Art 276",
+    "D": "Art 300A"
+   },
+   "answer": "B",
+   "explanation": "Art 265."
+  },
+  {
+   "id": 39,
+   "question": "Which Article establishes the GST Council?",
+   "options": {
+    "A": "Art 246A",
+    "B": "Art 269A",
+    "C": "Art 279A",
+    "D": "Art 280"
+   },
+   "answer": "C",
+   "explanation": "Art 279A."
+  },
+  {
+   "id": 40,
+   "question": "Taxes on income other than agricultural income fall in:",
+   "options": {
+    "A": "Entry 82, List I",
+    "B": "Entry 46, List II",
+    "C": "Entry 54, List II",
+    "D": "Entry 60, List II"
+   },
+   "answer": "A",
+   "explanation": "Union subject; agricultural income tax is a State subject (Entry 46)."
+  },
+  {
+   "id": 41,
+   "question": "The maximum professional tax under Art 276 is:",
+   "options": {
+    "A": "Rs 1,000",
+    "B": "Rs 2,500",
+    "C": "Rs 5,000",
+    "D": "No limit"
+   },
+   "answer": "B",
+   "explanation": "Rs 2,500 per person per year."
+  },
+  {
+   "id": 42,
+   "question": "GST Council recommendations are:",
+   "options": {
+    "A": "Binding on Parliament and States",
+    "B": "Persuasive, not binding",
+    "C": "Binding only on the Centre",
+    "D": "Binding only on the States"
+   },
+   "answer": "B",
+   "explanation": "Union of India v. Mohit Minerals (2022)."
+  },
+  {
+   "id": 43,
+   "question": "The Income-tax Act 2025 came into force on:",
+   "options": {
+    "A": "1 April 2025",
+    "B": "1 July 2025",
+    "C": "1 April 2026",
+    "D": "1 January 2027"
+   },
+   "answer": "C",
+   "explanation": "1 April 2026."
+  },
+  {
+   "id": 44,
+   "question": "Under the Income-tax Act 1961, how many heads of income are there?",
+   "options": {
+    "A": "3",
+    "B": "4",
+    "C": "5",
+    "D": "6"
+   },
+   "answer": "C",
+   "explanation": "Salaries; House property; PGBP; Capital gains; Other sources."
+  },
+  {
+   "id": 45,
+   "question": "An individual is resident if he stays in India for at least:",
+   "options": {
+    "A": "90 days",
+    "B": "120 days",
+    "C": "182 days",
+    "D": "240 days"
+   },
+   "answer": "C",
+   "explanation": "182 days in the previous year (or 60 days + 365 days in preceding four years)."
+  },
+  {
+   "id": 46,
+   "question": "Agricultural income is:",
+   "options": {
+    "A": "Taxable at normal rates",
+    "B": "Exempt under s.10(1)",
+    "C": "Taxed by the Centre only",
+    "D": "Taxed at 30%"
+   },
+   "answer": "B",
+   "explanation": "Exempt from Union income-tax."
+  },
+  {
+   "id": 47,
+   "question": "Advance tax is payable if the estimated liability is at least:",
+   "options": {
+    "A": "Rs 1,000",
+    "B": "Rs 5,000",
+    "C": "Rs 10,000",
+    "D": "Rs 50,000"
+   },
+   "answer": "C",
+   "explanation": "Rs 10,000."
+  },
+  {
+   "id": 48,
+   "question": "An appeal to the ITAT must be filed within:",
+   "options": {
+    "A": "30 days",
+    "B": "60 days",
+    "C": "90 days",
+    "D": "120 days"
+   },
+   "answer": "B",
+   "explanation": "60 days of receipt of the CIT(A) order."
+  },
+  {
+   "id": 49,
+   "question": "An appeal to the High Court under s.260A of the Income-tax Act lies on:",
+   "options": {
+    "A": "A question of fact",
+    "B": "A substantial question of law",
+    "C": "Any question",
+    "D": "Only on penalty"
+   },
+   "answer": "B",
+   "explanation": "Substantial question of law within 120 days."
+  },
+  {
+   "id": 50,
+   "question": "The CIT(A) appeal must be filed within:",
+   "options": {
+    "A": "15 days",
+    "B": "30 days",
+    "C": "60 days",
+    "D": "90 days"
+   },
+   "answer": "B",
+   "explanation": "30 days of service of the order/ demand."
+  },
+  {
+   "id": 51,
+   "question": "Notice under s.148 (reassessment) can go up to ten years only if escaped income is at least:",
+   "options": {
+    "A": "Rs 10 lakh",
+    "B": "Rs 25 lakh",
+    "C": "Rs 50 lakh",
+    "D": "Rs 1 crore"
+   },
+   "answer": "C",
+   "explanation": "Rs 50 lakh or more (s.149)."
+  },
+  {
+   "id": 52,
+   "question": "The scrutiny notice under s.143(2) must be served within:",
+   "options": {
+    "A": "1 month",
+    "B": "3 months from the end of the FY in which the return was filed",
+    "C": "6 months",
+    "D": "12 months"
+   },
+   "answer": "B",
+   "explanation": "3 months from the end of the financial year of filing."
+  },
+  {
+   "id": 53,
+   "question": "Wilful tax evasion under s.276C: if tax evaded exceeds Rs 25 lakh, imprisonment is:",
+   "options": {
+    "A": "Up to 1 year",
+    "B": "3 months to 2 years",
+    "C": "6 months to 7 years",
+    "D": "Up to 10 years"
+   },
+   "answer": "C",
+   "explanation": "6 months to 7 years."
+  },
+  {
+   "id": 54,
+   "question": "In which case was the 'look at' approach to tax avoidance applied to indirect transfer of shares?",
+   "options": {
+    "A": "McDowell",
+    "B": "Azadi Bachao Andolan",
+    "C": "Vodafone International Holdings v. Union of India",
+    "D": "Binoy Viswam"
+   },
+   "answer": "C",
+   "explanation": "Vodafone (2012)."
+  },
+  {
+   "id": 55,
+   "question": "Which case upheld linking of PAN with Aadhaar subject to a limitation?",
+   "options": {
+    "A": "Puttaswamy",
+    "B": "Binoy Viswam v. Union of India",
+    "C": "Shreya Singhal",
+    "D": "Mohit Minerals"
+   },
+   "answer": "B",
+   "explanation": "Binoy Viswam (2017)."
+  },
+  {
+   "id": 56,
+   "question": "GST was effective from:",
+   "options": {
+    "A": "1 April 2016",
+    "B": "1 July 2017",
+    "C": "1 April 2018",
+    "D": "1 July 2019"
+   },
+   "answer": "B",
+   "explanation": "1 July 2017."
+  },
+  {
+   "id": 57,
+   "question": "'Supply' under GST is defined in:",
+   "options": {
+    "A": "s.5 CGST",
+    "B": "s.7 CGST",
+    "C": "s.9 CGST",
+    "D": "s.16 CGST"
+   },
+   "answer": "B",
+   "explanation": "CGST s.7."
+  },
+  {
+   "id": 58,
+   "question": "GST registration threshold for suppliers of goods (normal States) is:",
+   "options": {
+    "A": "Rs 10 lakh",
+    "B": "Rs 20 lakh",
+    "C": "Rs 40 lakh",
+    "D": "Rs 75 lakh"
+   },
+   "answer": "C",
+   "explanation": "Rs 40 lakh (goods); Rs 20 lakh (services)."
+  },
+  {
+   "id": 59,
+   "question": "Which of the following is outside GST?",
+   "options": {
+    "A": "Cement",
+    "B": "Alcohol for human consumption",
+    "C": "Cars",
+    "D": "Textiles"
+   },
+   "answer": "B",
+   "explanation": "Alcohol for human consumption is outside GST."
+  },
+  {
+   "id": 60,
+   "question": "ITC on motor vehicles is blocked if seating capacity is not more than:",
+   "options": {
+    "A": "5",
+    "B": "9",
+    "C": "13",
+    "D": "20"
+   },
+   "answer": "C",
+   "explanation": "Vehicles for transporting persons with seating capacity of not more than 13 (with exceptions) - s.17(5)."
+  },
+  {
+   "id": 61,
+   "question": "GST slabs after 22 September 2025 are:",
+   "options": {
+    "A": "5%, 12%, 18%, 28%",
+    "B": "5% and 18% (plus 40% special rate)",
+    "C": "Only 18%",
+    "D": "0%, 10%, 20%"
+   },
+   "answer": "B",
+   "explanation": "Two principal slabs and a 40% rate for sin/luxury goods."
+  },
+  {
+   "id": 62,
+   "question": "The first appeal under GST (s.107) must be filed within:",
+   "options": {
+    "A": "30 days",
+    "B": "60 days",
+    "C": "3 months",
+    "D": "6 months"
+   },
+   "answer": "C",
+   "explanation": "3 months from communication (plus one month condonation)."
+  },
+  {
+   "id": 63,
+   "question": "GST offences are non-bailable where tax evaded exceeds:",
+   "options": {
+    "A": "Rs 1 crore",
+    "B": "Rs 2 crore",
+    "C": "Rs 5 crore",
+    "D": "Rs 10 crore"
+   },
+   "answer": "C",
+   "explanation": "Rs 5 crore."
+  },
+  {
+   "id": 64,
+   "question": "A refund under GST s.54 must be claimed within:",
+   "options": {
+    "A": "6 months",
+    "B": "1 year",
+    "C": "2 years",
+    "D": "3 years"
+   },
+   "answer": "C",
+   "explanation": "2 years from the relevant date."
+  },
+  {
+   "id": 65,
+   "question": "The test applied in Safari Retreats (2024) to interpret 'plant' in s.17(5)(d) is the:",
+   "options": {
+    "A": "Functionality test",
+    "B": "Dominant intention test",
+    "C": "Control test",
+    "D": "Substance test"
+   },
+   "answer": "A",
+   "explanation": "Safari Retreats - functionality test."
+  },
+  {
+   "id": 66,
+   "question": "An unstamped arbitration agreement is, according to the 2023 seven-judge Bench:",
+   "options": {
+    "A": "Void",
+    "B": "Inadmissible but not void; defect curable",
+    "C": "Valid in all respects",
+    "D": "Criminal offence"
+   },
+   "answer": "B",
+   "explanation": "In Re: Interplay between Arbitration Act and Stamp Act (13 Dec 2023)."
+  },
+  {
+   "id": 67,
+   "question": "Stamp duty on bills of exchange and cheques is a:",
+   "options": {
+    "A": "State subject",
+    "B": "Union subject (Entry 91, List I)",
+    "C": "Concurrent subject",
+    "D": "Local subject"
+   },
+   "answer": "B",
+   "explanation": "Entry 91 List I; other documents - Entry 63 List II."
+  },
+  {
+   "id": 68,
+   "question": "Which of the following is a ground for refusing a refund under GST?",
+   "options": {
+    "A": "Unjust enrichment",
+    "B": "Export of goods",
+    "C": "Excess payment",
+    "D": "Inverted duty"
+   },
+   "answer": "A",
+   "explanation": "Refund incidence passed to consumers is credited to the Consumer Welfare Fund."
+  }
+ ],
+ "version_log": [
+  "1.0 - Part 10 (Labour & Industrial Law; Taxation; Professional Ethics excluded), 18 Nov 2026"
+ ]
+}

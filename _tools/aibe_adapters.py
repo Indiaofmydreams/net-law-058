@@ -399,4 +399,158 @@ def part7(d):
             18: dict(meta=dict(m, title='Land Acquisition'), exam=exam_l, sections=land_secs, dev=dev_l, rr=rr_l, mcq=mc_l)}
 
 
-ADAPTERS = {'part4': part4, 'part5': part5, 'part6': part6, 'part7': part7}
+# ------------------------------------------------------------------ Part 8: Torts/MV/Consumer (15) + Administrative (9) + IP (19)
+ADMIN_RX = re.compile(r'delegated|legitimate expectation|prohibition vs|certiorari|Sec 80 CPC|\bRTI\b|Lokpal|Art 311|Art 299|Art 300|natural justice|Government contracts|suit against Government|writ', re.I)
+IP_RX = re.compile(r'copyright|patent|trade ?mark|\bTM\b|\bdesign\b|\bGI\b|PPVFR|passing off|broadcast|performer|compulsory licen|pre-grant|post-grant|personality rights|generative AI', re.I)
+
+
+def _bucket8(text):
+    if IP_RX.search(text):
+        return 19
+    if ADMIN_RX.search(text):
+        return 9
+    return 15
+
+
+def part8(d):
+    m = meta_of(d['meta'])
+    ec = d['exam_context']
+    fm = ec['format']
+    fmt_note = '%s questions, %s; %s; negative marking: %s; open book: %s' % (
+        fm.get('total_questions'), _s(fm.get('type')), _s(fm.get('duration')), _s(fm.get('negative_marking')).lower(), _s(fm.get('open_book')))
+    split = {r['area']: r for r in ec['part_8_weightage']['split_estimate']}
+    secs = {15: [], 9: [], 19: []}
+    extra_tables = []
+    for mod in d['modules']:
+        no = {1: 15, 2: 15, 3: 15, 4: 9, 5: 19}[mod['module_id']]
+        for s in mod['sections']:
+            provs = [_s(x) for x in s.get('key_provisions', [])]
+            title = _s(s['title'])
+            if mod['module_id'] == 2 and 'Motor Vehicles' not in title:
+                title = 'Motor Vehicles Act: ' + title
+            if mod['module_id'] == 3 and 'Consumer Protection Act' not in title and 'Consumer Disputes' not in title and 'Central Consumer' not in title:
+                title = 'Consumer Protection Act: ' + title
+            secs[no].append({'order': len(secs[no]) + 1, 'title': title, 'priority': pri(s.get('priority')),
+                             'expected_questions': eq(s.get('expected_questions') or mod.get('estimated_questions'), '1'),
+                             'articles': '; '.join(provs), 'overview': _s(s.get('summary')), 'must_know': [_s(x) for x in s.get('key_points', [])],
+                             'key_provisions': [], 'landmark_cases': cases(s.get('landmark_cases')), 'mnemonics': [_s(x) for x in s.get('memory_aids', [])],
+                             'exam_traps': [_s(x) for x in s.get('common_traps', [])], 'probable_questions': [_s(x) for x in s.get('likely_questions', [])]})
+            for t in s.get('comparison_tables', []):
+                extra_tables.append((no, t))
+    cs = d['cheat_sheet']
+    rows_n = {15: [], 9: [], 19: []}
+    rows_f = {15: [], 9: [], 19: []}
+    pairs = {15: [], 9: [], 19: []}
+    for r in cs['numbers_and_periods']:
+        rows_n[_bucket8(' '.join(r))].append(r)
+    for r in cs['section_finder']:
+        rows_f[_bucket8(' '.join(r))].append(r)
+    for x in cs['distinctions']:
+        pairs[_bucket8(x['pair'])].append((x['pair'], x['points']))
+    mcq_by = {15: [], 9: [], 19: []}
+    for q in d['practice_mcqs']:
+        mcq_by[{'Administrative Law': 9, 'Intellectual Property': 19}.get(q.get('topic'), 15)].append(q)
+    dev_by = {15: [], 9: [], 19: []}
+    for x in d['latest_developments']:
+        txt = x.get('topic', '')
+        no = 19 if re.search(r'copyright|AI', txt) else 9 if re.search(r'Bulldozer|Tribunal|RTI', txt) else 15
+        dev_by[no].append(dev_item(x.get('date'), x.get('detail'), x.get('exam_use'), topic=x.get('topic')))
+    lens = ec.get('examiner_lens', [])
+    howto = d.get('how_to_use_these_notes', [])
+    dist = {
+        15: [{'cluster': k, 'expected_questions': eq(split[k]['approx_questions']), 'comment': 'Priority: %s.' % split[k]['priority']} for k in split if k.startswith(('Law of Torts', 'Motor', 'Consumer'))],
+        9: [{'cluster': k, 'expected_questions': eq(split[k]['approx_questions']), 'comment': 'Priority: %s.' % split[k]['priority']} for k in split if k.startswith('Administrative')],
+        19: [{'cluster': k, 'expected_questions': eq(split[k]['approx_questions']), 'comment': 'Priority: %s.' % split[k]['priority']} for k in split if k.startswith('Intellectual')]}
+    names = {15: 'Torts, Motor Vehicles Act and Consumer Protection', 9: 'Administrative Law', 19: 'Intellectual Property Laws'}
+    out = {}
+    for no in (15, 9, 19):
+        bl = [b_table('numbers', 'Numbers and periods', '#', ['Item', 'Rule'], rows_n[no], filt=True),
+              b_table('finder', 'Section finder', '§', ['Topic', 'Where to look'], rows_f[no], filt=True),
+              b_pairs('distinctions', 'Pairs the examiner likes', '≠', pairs[no])]
+        for i, (tno, t) in enumerate(extra_tables):
+            if tno == no:
+                bl.append(b_table('cmp-%d' % i, _s(t.get('topic')) or 'Comparison', '⇄', t.get('columns', []), t.get('rows', []), filt=False))
+        bl.append(b_list('checklist', 'Final revision checklist', '✓', d.get('final_revision_checklist', [])))
+        if no == 15:
+            bl.append(b_list('plan', 'Seven-day study plan', '☰', ['Day %s: %s' % (x.get('day'), x.get('focus')) for x in ec.get('study_plan_7_days', [])]))
+        cards = [{'title': 'What the examiner tests', 'items': lens}, {'title': 'How to use these notes', 'items': howto}]
+        out[no] = dict(meta=dict(m, title=names[no]),
+                       exam={'paper_format_note': fmt_note, 'indicative_distribution': dist[no],
+                             'distribution_note': _s(ec['part_8_weightage'].get('note')) if no == 15 else '', 'cards': cards if no == 15 else cards[:1]},
+                       sections=secs[no], dev=dev_by[no], rr=blocks(*bl), mcq=mcqs(mcq_by[no]))
+    return out
+
+
+# ------------------------------------------------------------------ Part 10: Labour (14) + Taxation (16)  (sections already canonical, tagged by "block")
+TAX_RX = re.compile(r'\btax|income[- ]tax|\bGST|\bITC\b|customs|stamp|TDS|assessment|\bITAT|CIT\(A\)|Art 265|Art 276|Art 279A|246A|Vodafone|McDowell|Azadi|Mohit|Safari|Dilip|Ganpati|Binoy|Ashish|Rajeev|residen|heads of income|slab|capital gains|reassessment|faceless|MADA|Mineral Area|royalty|Entry 82|Entry 46|\bCGST|\bIGST', re.I)
+
+
+def part10(d):
+    m = meta_of(d['meta'])
+    ei = d['exam_intelligence']
+    secs = {14: [], 16: []}
+    for s in d['sections']:
+        no = 16 if s.get('block') == 'Taxation' else 14
+        x = dict(s)
+        x.pop('block', None)
+        x.pop('id', None)
+        x['order'] = len(secs[no]) + 1
+        x['priority'] = pri(x.get('priority'))
+        secs[no].append(x)
+
+    LAB_RX = re.compile(r'labour|worker|strike|lock-out|gratuity|bonus|wages?\b|retrench|IR Code|Labour Codes?|industry|maternity|\bEPF|\bESI|standing orders|Codes\b', re.I)
+
+    def split(lst, key=lambda x: _s(x)):
+        # an item that mentions both labour and tax words is kept in both subjects
+        a, b = [], []
+        for x in lst:
+            t, l = bool(TAX_RX.search(key(x))), bool(LAB_RX.search(key(x)))
+            if t:
+                b.append(x)
+            if l or not t:
+                a.append(x)
+        return {14: a, 16: b}
+
+    dist_l = ei['indicative_distribution'][:3]
+    dist_t = ei['indicative_distribution'][3:]
+    pats = split(ei.get('question_patterns', []))
+    hy = split(ei.get('high_yield_topics', []))
+    tr = split(ei.get('common_traps', []))
+    ts = ei.get('time_strategy', [])
+    howto = d.get('how_to_use', [])
+    kn = split(d.get('key_numbers', []), key=lambda r: r['item'] + ' ' + r['value'])
+    ol = split(d['rapid_revision'].get('one_liner_cases', []))
+    mn = split(d['rapid_revision'].get('mnemonics', []))
+    con = d.get('old_to_new_concordance', {})
+    mc = {14: [q for q in d['mcq_bank'] if q['id'] <= 37], 16: [q for q in d['mcq_bank'] if q['id'] > 37]}
+    devs = split(d['latest_developments'], key=lambda x: x.get('topic', ''))
+    rel = [(x['topic'], x['link']) for x in d.get('related_topics', [])]
+    out = {}
+    for no, title in ((14, 'Labour and Industrial Law'), (16, 'Taxation')):
+        cards = [{'title': 'Question patterns', 'items': pats[no]}, {'title': 'High-yield topics', 'items': hy[no]},
+                 {'title': 'Time strategy', 'items': ts if no == 14 else ts[-1:]}, {'title': 'How to use these notes', 'items': howto if no == 14 else howto[:0]}]
+        cards = [c for c in cards if c['items']]
+        trap = tr[no]
+        if trap:
+            cards.append({'title': 'Common traps', 'items': trap})
+        bl = []
+        if no == 14:
+            bl.append(b_table('concordance', 'Old Acts to the four Codes', '⇄', ['Old law', 'Now in', 'Topic', 'Note'],
+                              [[x['old'], x['new'], x['topic'], x.get('note', '')] for x in con.get('labour_acts_to_codes', [])], filt=True))
+            bl.append(b_table('changes', 'What changed under the Codes', '⇄', ['Old position', 'New position', 'Topic', 'Note'],
+                              [[x['old'], x['new'], x['topic'], x.get('note', '')] for x in con.get('concept_changes', [])], filt=True))
+        else:
+            bl.append(b_table('concordance', 'Old tax laws to the new', '⇄', ['Old law', 'Now', 'Topic', 'Note'],
+                              [[x['old'], x['new'], x['topic'], x.get('note', '')] for x in con.get('tax_statutes', [])], filt=True))
+        bl.append(b_table('numbers', 'Key numbers', '#', ['Item', 'Rule'], [[r['item'], r['value']] for r in kn[no]], filt=True))
+        bl.append(b_list('oneliners', 'One-line case revision', '⚡', ol[no]))
+        bl.append(b_list('mnemonics', 'Mnemonics', '✦', mn[no]))
+        bl.append(b_pairs('related', 'Links to other subjects', '↔', rel))
+        out[no] = dict(meta=dict(m, title=title),
+                       exam={'paper_format_note': _s(ei.get('paper_format_note')), 'indicative_distribution': dist_l if no == 14 else dist_t,
+                             'distribution_note': _s(ei.get('distribution_note')), 'cards': cards},
+                       sections=secs[no], dev=devs[no], rr=blocks(*bl), mcq=mcqs(mc[no]))
+    return out
+
+
+ADAPTERS = {'part4': part4, 'part5': part5, 'part6': part6, 'part7': part7, 'part8': part8, 'part10': part10}
