@@ -1,10 +1,8 @@
-{
- "files": [
-  {
-   "file": "part-01-constitutional-law.json",
-   "subjects": [
-    1
-   ]
-  }
- ]
-}
+{"files":[
+ {"file":"part-01-constitutional-law.json","subjects":[1]},
+ {"file":"part-02-crpc-bnss.json","subjects":[3]},
+ {"file":"part-04-ipc-bns-company-law.json","subjects":[2,11],"adapter":"part4"},
+ {"file":"part-05-evidence-environment.json","subjects":[5,12],"adapter":"part5"},
+ {"file":"part-06-family-cyber.json","subjects":[7,13],"adapter":"part6"},
+ {"file":"part-07-contract-property-ni-land.json","subjects":[17,18],"adapter":"part7"}
+]}

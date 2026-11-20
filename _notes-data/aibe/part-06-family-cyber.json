@@ -1,0 +1,2467 @@
+{
+  "meta": {
+    "title": "AIBE Part 6 - Family Law (8) + Cyber Law (2)",
+    "version": "1.0",
+    "prepared_on": "2026-11-17",
+    "audience": "AIBE aspirants (open-book, 100 MCQs, 3 hr 30 min)",
+    "how_to_use": "Read exam_intelligence and numbers_cheat_sheet first. Then study topics in priority order (Very High -> High -> Medium). End each topic with traps and likely_question_angles, then attempt the MCQs and the rapid_fire list. Use personal_law_comparison for quick cross-law revision.",
+    "accuracy_note": "Section numbers of old statutes (HMA, HAMA, HSA, DMMA, IT Act, Dowry Act, DV Act) are well settled. BNS/BNSS equivalents are given as 'BNS S.x (IPC y)'; confirm each against your bare Act because the exam is open book. Anything tagged 'verify' rests on news reports or my recall and should be checked against the judgment or notification before you rely on it. The 'expected_weight' figures are my estimates from historical patterns, not BCI data."
+  },
+  "exam_intelligence": {
+    "latest_exam": "AIBE XXI was held on 7 June 2026 (offline OMR); BCI reported no change in syllabus or pattern. Check the BCI notice for the date of the next AIBE.",
+    "pattern": {
+      "questions": 100,
+      "marks_each": 1,
+      "negative_marking": "None - attempt every question",
+      "duration": "3 hours 30 minutes",
+      "pass_mark": "45% (General/OBC), 40% (SC/ST/PwD) as reported for recent cycles"
+    },
+    "part6_weightage": {
+      "family_law": 8,
+      "cyber_law": 2,
+      "total": 10
+    },
+    "examiner_view": [
+      "Family Law is a high-volume, low-difficulty zone: most questions are one-line recall of a section number, a time period, a landmark case or 'which is correct' on a personal-law rule. Numbers (ages, years, months, fractions) are the favourite.",
+      "Expect the 8 Family Law questions to spread roughly as: Hindu law (marriage, divorce, maintenance, adoption, guardianship, succession, joint family) 3-4; Muslim law 2-3; Christian/Parsi/Special Marriage Act 1; statutes such as Domestic Violence Act, Dowry Prohibition Act, Child Marriage Act, maintenance under BNSS 1-2. This split is an estimate.",
+      "The 2 Cyber Law questions almost always come from the IT Act: offences and punishments (S.65-67B, 66C/66D/66F), S.66A strike-down (Shreya Singhal), S.69A, S.79 intermediary safe harbour, definitions, digital signature, adjudication. Add one current-affairs hook: DPDP Act 2023 / Rules 2025, IT Rules 2021 and the 2026 synthetic-content amendment.",
+      "Recent-development questions are plausible in both subjects: Shayara Bano and the 2019 Act, Abdul Samad (2024), Shilpa Sailesh (2023), X v Y (2025, S.25 HMA in void marriages), Supriyo (2023), state UCCs (Uttarakhand, Gujarat, Assam), Waqf Amendment Act 2025 interim order, Puttaswamy, DPDP Rules 2025.",
+      "Because BNS/BNSS replaced IPC/CrPC from 1 July 2024, a stem may quote either numbering (e.g. S.498A IPC or S.85 BNS; S.125 CrPC or S.144 BNSS). Learn both."
+    ],
+    "priority_order_family": [
+      "1. Hindu Marriage Act - validity, void/voidable, divorce grounds, mutual consent, maintenance (S.24-25)",
+      "2. Muslim law - mahr, talaq forms, Shayara Bano, DMMA 1939, 1986 Act, Shah Bano/Danial Latifi/Abdul Samad, gifts, wills, waqf",
+      "3. Hindu Succession Act (S.6, S.8, S.14, S.15) and joint family/coparcenary",
+      "4. Adoption (HAMA) and guardianship (HMGA/GWA); welfare of child",
+      "5. Maintenance across laws (S.125 CrPC / S.144 BNSS, HAMA, DV Act, Senior Citizens Act)",
+      "6. Domestic Violence Act, Dowry Prohibition Act, Child Marriage Act",
+      "7. Special Marriage Act, Christian and Parsi law, UCC and constitutional angles"
+    ],
+    "priority_order_cyber": [
+      "1. IT Act offences and penalties (S.43, 65, 66-66F, 67-67B, 69, 69A, 72, 72A)",
+      "2. S.79 and intermediary liability; Shreya Singhal; IT Rules 2021 and the 2026 amendment",
+      "3. Privacy and data protection: Puttaswamy, SPDI Rules 2011, DPDP Act 2023 and Rules 2025",
+      "4. Digital signature, electronic records, authorities and adjudication",
+      "5. Emerging: deepfakes, online gaming ban, digital arrest scams, CERT-In"
+    ],
+    "no_negative_marking_tip": "Never leave a question blank. In Family Law, eliminate options that mix personal laws (e.g. Hindu-law rules in a Muslim-law question).",
+    "open_book_tip": "Tab the bare Acts: HMA S.5, 11-13B, 24-25; HAMA S.6-12, 18-23; HSA S.6, 8, 14-15; DMMA S.2; SMA S.4-5, 27-28; DV Act S.2, 12, 17-23; IT Act S.43, 65-67B, 69A, 79 and the First Schedule."
+  },
+  "numbers_cheat_sheet": {
+    "marriage_age": "Hindu/SMA/PCMA: groom 21, bride 18. Muslim: puberty (15 presumed) under classical law, but PCMA 2006 prohibits child marriage (conflict in courts).",
+    "hma_divorce_periods": "Desertion 2 years; not heard of 7 years; no divorce petition within 1 year of marriage (S.14); mutual consent: 1 year separation before petition, 6-month wait (waivable), maximum 18 months; wife's puberty repudiation: married before 15, repudiate before 18.",
+    "sapinda": "3 generations on mother's side, 5 on father's side (S.3(f) HMA).",
+    "hama_adoption": "Adoptee under 15 unless custom; 21-year gap for opposite sex; adopter must not have Hindu son/son's son/son's son's son (for son) or daughter/son's daughter (for daughter).",
+    "hmga": "Minor = under 18; custody of child under 5 ordinarily with mother; guardian's lease beyond 5 years needs court permission.",
+    "muslim": "Iddat: 3 menstrual courses/3 months (divorce), 4 months 10 days (widow), till delivery if pregnant. Will: 1/3 without heirs' consent. Hanafi minimum mahr: 10 dirhams. Pre-emption: 3 demands.",
+    "dmma_1939_s2": "Whereabouts unknown 4 years; no maintenance 2 years; husband's imprisonment 7 years; failure of marital obligations 3 years; insanity 2 years; puberty option: married before 15, repudiate before 18 (not consummated).",
+    "dowry": "S.3 Dowry Act: min 5 years + fine min Rs 15,000 or value of dowry; S.4 demand: 6 months-2 years; dowry death: 7 years to life; S.498A/BNS 85: up to 3 years + fine; dowry to be handed to woman within 3 months (S.6).",
+    "dv_act": "Disposal in 60 days; breach of protection order: up to 1 year or fine up to Rs 20,000 or both; appeal to Sessions Court in 30 days.",
+    "pcma_2006": "Annulment petition within 2 years of attaining majority; adult male marrying child: up to 2 years RI or fine up to Rs 1 lakh; offences cognizable and non-bailable.",
+    "sma_1954": "30-day public notice; 30 days for objections; marry within 3 months of notice; mutual consent divorce after 1 year separation.",
+    "it_act": "IT Act in force 17 Oct 2000; 2008 amendment in force 27 Oct 2009; S.66A struck down 24 Mar 2015; S.67: 3 years + Rs 5 lakh (first), 5 years + Rs 10 lakh (repeat); S.67A/67B: 5 years + Rs 10 lakh (first), 7 years + Rs 10 lakh (repeat); S.66F: life; S.69/69A: up to 7 years + fine; S.70: up to 10 years; S.72: 2 years/Rs 1 lakh; S.72A: 3 years/Rs 5 lakh.",
+    "dpdp": "Act assented 11 Aug 2023; Rules notified 13 Nov 2025; child = under 18; maximum penalty Rs 250 crore; Board plus appeal to TDSAT; full obligations phased to about 12 May 2027."
+  },
+  "personal_law_comparison": [
+    {
+      "point": "Governing law of marriage",
+      "hindu": "Hindu Marriage Act 1955 (Hindus, Buddhists, Jains, Sikhs)",
+      "muslim": "Uncodified Muslim law + Shariat Application Act 1937",
+      "christian": "Indian Christian Marriage Act 1872",
+      "parsi": "Parsi Marriage and Divorce Act 1936",
+      "sma": "Special Marriage Act 1954 (any religion; inter-faith)"
+    },
+    {
+      "point": "Nature of marriage",
+      "hindu": "Sacrament (but statutory); saptapadi where rites include it",
+      "muslim": "Civil contract (nikah) with mahr",
+      "christian": "Solemnised by licensed minister or registrar",
+      "parsi": "Ashirvad ceremony by Parsi priest, two Parsi witnesses",
+      "sma": "Civil marriage before Marriage Officer, three witnesses"
+    },
+    {
+      "point": "Polygamy",
+      "hindu": "Prohibited; bigamy void and punishable",
+      "muslim": "Up to four wives permitted (personal law); under challenge",
+      "christian": "Prohibited",
+      "parsi": "Prohibited",
+      "sma": "Prohibited"
+    },
+    {
+      "point": "Divorce",
+      "hindu": "Judicial: S.13 and 13B",
+      "muslim": "Talaq (ahsan, hasan), khula, mubarat, DMMA 1939; instant triple talaq void",
+      "christian": "Divorce Act 1869 S.10",
+      "parsi": "PMDA S.32",
+      "sma": "S.27 and 28"
+    },
+    {
+      "point": "Mutual consent divorce",
+      "hindu": "13B: 1 year separation; 6-18 months",
+      "muslim": "Mubarat, khula (no statutory wait)",
+      "christian": "S.10A: 2 years separation",
+      "parsi": "S.32B: after 1 year of marriage",
+      "sma": "S.28: 1 year separation"
+    },
+    {
+      "point": "Maintenance of wife",
+      "hindu": "S.24-25 HMA; S.18 HAMA; S.144 BNSS",
+      "muslim": "Iddat period + fair provision (1986 Act); S.144 BNSS also applies (Abdul Samad 2024)",
+      "christian": "S.36-37 Divorce Act; S.144 BNSS",
+      "parsi": "S.39 PMDA; S.144 BNSS",
+      "sma": "S.36-37 SMA; S.144 BNSS"
+    },
+    {
+      "point": "Intestate succession",
+      "hindu": "Hindu Succession Act 1956 (amended 2005)",
+      "muslim": "Sharers, residuaries, distant kindred; no representation",
+      "christian": "Indian Succession Act 1925 S.31-49 (widow 1/3, descendants 2/3)",
+      "parsi": "ISA 1925 S.50-56 (widow and each child equal shares)",
+      "sma": "ISA 1925 (HSA if both parties Hindu etc., S.21A)"
+    }
+  ],
+  "sections": [
+    {
+      "id": "6A",
+      "title": "Family Law",
+      "expected_questions": 8,
+      "background": {
+        "summary": "Family Law in India is personal-law based. Hindus (including Buddhists, Jains, Sikhs) are governed by codified statutes of 1955-56 (HMA, HSA, HMGA, HAMA); Muslims by uncodified Shariat plus the Shariat Application Act 1937, DMMA 1939, the 1986 Act and the 2019 Act; Christians by the Indian Christian Marriage Act 1872, Divorce Act 1869 and Indian Succession Act 1925; Parsis by the 1936 Act; inter-faith couples by the Special Marriage Act 1954. Secular overlays include S.144 BNSS (maintenance), DV Act 2005, Dowry Prohibition Act 1961, PCMA 2006, JJ Act 2015 and the Family Courts Act 1984. The 2023-2026 trend is towards gender-just reading (Shayara Bano, Abdul Samad, X v Y, Vineeta Sharma), personal-law reform (state UCCs, Waqf amendment) and procedural reform (Shilpa Sailesh, Rajnesh v Neha).",
+        "approach": "For each personal law, learn (1) the governing Act, (2) marriage conditions, (3) divorce modes and periods, (4) maintenance, (5) guardianship/adoption, (6) succession. Then compare across laws using the personal_law_comparison table."
+      },
+      "topics": [
+        {
+          "id": "6A-1",
+          "title": "Hindu Marriage Act 1955 - Validity of Marriage, Void and Voidable Marriages, Children",
+          "priority": "Very High",
+          "expected_weight": "1-2 questions",
+          "summary": "Know the five conditions of S.5, which breach makes a marriage void (S.11), voidable (S.12) or only punishable, the role of ceremonies and registration, and S.16 legitimacy of children.",
+          "key_points": [
+            "Applicability (S.2): Hindus by religion in any form (including Virashaiva, Lingayat, Brahmo, Prarthana, Arya Samaj), Buddhists, Jains, Sikhs, and any domiciled person who is not Muslim, Christian, Parsi or Jew. Does not apply to Scheduled Tribes unless the Centre notifies.",
+            "S.5 conditions: (i) monogamy - neither party has a spouse living; (ii) sound mind, capable of valid consent, not suffering from mental disorder unfit for marriage and procreation, no recurrent insanity; (iii) groom 21, bride 18; (iv) not within degrees of prohibited relationship unless custom permits; (v) not sapindas unless custom permits.",
+            "Sapinda (S.3(f)): extends to the third generation (inclusive) up the mother's line and the fifth (inclusive) up the father's line. Custom must be ancient, certain, reasonable and not opposed to public policy (S.3(a)).",
+            "VOID (S.11): breach of S.5(i), (iv) or (v). Either party may seek a decree of nullity; the marriage is void ab initio even without a decree.",
+            "VOIDABLE (S.12): (a) non-consummation due to impotence of the respondent; (b) breach of S.5(ii) (unsound mind etc.); (c) consent obtained by force or fraud (as to nature of ceremony or material fact); (d) respondent pregnant by another person at the time of marriage, petitioner being ignorant. Time limits (S.12(2)): fraud/force petition within one year of discovery/cessation of force and no marital intercourse afterwards; ground (d) within one year of marriage.",
+            "Breach of S.5(iii) (age): marriage is neither void nor voidable under HMA; it is punishable (S.18: simple imprisonment up to 15 days or fine up to Rs 1,000). Separately, the Prohibition of Child Marriage Act 2006 makes a child marriage voidable at the option of the party who was a child.",
+            "Bigamy: S.17 HMA read with BNS S.82 (IPC 494/495). Second marriage is void and punishable (up to 7 years; 10 years if the earlier marriage is concealed). Essential ceremonies of the second marriage must be proved (Bhaurao Shankar Lokhande v State of Maharashtra, 1965).",
+            "Ceremonies (S.7): marriage is solemnised per customary rites of either party; where saptapadi is part of the rite, the marriage is complete and binding on the seventh step (Priya Bala Ghosh v Suresh Chandra Ghosh, 1971). A registration certificate cannot substitute valid ceremonies (Dolly Rani v Manish Kumar Chanchal, 2024).",
+            "Registration (S.8): for proof only; failure does not invalidate the marriage. Seema v Ashwani Kumar (2006): registration of marriages of all religions was made compulsory by SC directions.",
+            "S.16 children: children of void marriages (S.11) and annulled voidable marriages (S.12) are legitimate. They have rights only in the property of their parents (S.16(3)), not of other relatives. Revanasiddappa v Mallikarjun (2011; larger-bench reference decided 2023): such children share in the parents' self-acquired property and in the parent's share of coparcenary property on partition.",
+            "Jurisdiction (S.19): court where marriage was solemnised, respondent resides, parties last resided together, or (since 2003) where the wife petitioner resides. Transfer under S.21A-21B; day-to-day trial under S.21B.",
+            "Joseph Shine v Union of India (2018): S.497 IPC (adultery) struck down; adultery stays a civil wrong and a divorce ground. BNS 2023 does not retain the offence."
+          ],
+          "provisions": [
+            {
+              "ref": "S.5, 7, 8 HMA",
+              "note": "Conditions, ceremonies, registration."
+            },
+            {
+              "ref": "S.11, 12 HMA",
+              "note": "Void and voidable marriages."
+            },
+            {
+              "ref": "S.16 HMA",
+              "note": "Legitimacy of children of void/voidable marriages."
+            },
+            {
+              "ref": "S.17 HMA; BNS S.82",
+              "note": "Bigamy."
+            },
+            {
+              "ref": "S.18 HMA",
+              "note": "Punishment for contravention of S.5(iii), (iv), (v)."
+            }
+          ],
+          "case_laws": [
+            {
+              "name": "Bhaurao Shankar Lokhande v State of Maharashtra",
+              "year": "1965",
+              "holding": "Second marriage must be performed with the essential ceremonies for bigamy; invocation of saptapadi where it is part of the rites."
+            },
+            {
+              "name": "Priya Bala Ghosh v Suresh Chandra Ghosh",
+              "year": "1971",
+              "holding": "Saptapadi is essential only where the customary rites include it."
+            },
+            {
+              "name": "Dolly Rani v Manish Kumar Chanchal",
+              "year": "2024",
+              "holding": "A Hindu marriage needs valid ceremonies; a certificate of registration does not validate a marriage without them; marriage is a sacrament, not a commercial event."
+            },
+            {
+              "name": "Sarla Mudgal v Union of India",
+              "year": "1995",
+              "holding": "A Hindu husband who converts to Islam to marry again is still guilty of bigamy; the first marriage subsists until dissolved under HMA."
+            },
+            {
+              "name": "Lily Thomas v Union of India",
+              "year": "2000",
+              "holding": "Reaffirmed Sarla Mudgal; conversion does not end a subsisting Hindu marriage."
+            },
+            {
+              "name": "Revanasiddappa v Mallikarjun",
+              "year": "2011 / 2023",
+              "holding": "Children of void or voidable marriages can claim a share in their parents' property."
+            },
+            {
+              "name": "Joseph Shine v Union of India",
+              "year": "2018",
+              "holding": "Adultery (S.497 IPC) struck down as violating Arts 14, 15, 21."
+            }
+          ],
+          "traps": [
+            "Age breach does not make an HMA marriage void; PCMA makes it voidable at the child's option.",
+            "S.11 void marriages: only breaches of S.5(i), (iv), (v). S.5(ii) breach is voidable.",
+            "Registration is evidentiary, not a validity condition.",
+            "Children of void marriages are legitimate but inherit only from their parents."
+          ],
+          "memory_aids": [
+            "V-O-I-D = (i) bigamy, (iv) prohibited degrees, (v) sapinda: 1-4-5 void.",
+            "Voidable = Impotence, Insanity (S.5(ii)), Intimidation/fraud, Illicit pregnancy."
+          ],
+          "likely_question_angles": [
+            "Which condition breach makes a marriage void under S.11?",
+            "Is a marriage in breach of the age condition void?",
+            "Rights of children of void marriages (S.16).",
+            "Effect of conversion and second marriage (Sarla Mudgal).",
+            "Is registration compulsory for validity?"
+          ]
+        },
+        {
+          "id": "6A-2",
+          "title": "Hindu Marriage Act - Matrimonial Reliefs, Divorce Grounds, Mutual Consent and Irretrievable Breakdown",
+          "priority": "Very High",
+          "expected_weight": "2 questions",
+          "summary": "Restitution, judicial separation and divorce, each with grounds, special grounds for wives, the S.13B procedure and the Supreme Court's use of Art 142 for irretrievable breakdown.",
+          "key_points": [
+            "S.9 restitution of conjugal rights: where a spouse has withdrawn from the society of the other without reasonable excuse, the court may decree restitution; the burden of proving reasonable excuse lies on the withdrawing spouse. Constitutional validity upheld in Saroj Rani v Sudarshan Kumar Chadha (1984), overruling T. Sareetha (AP HC, 1983). A fresh challenge (Ojaswa Pathak, 2019) is pending - verify.",
+            "S.10 judicial separation: on any ground in S.13(1) (and wife's grounds in S.13(2)); decree can be rescinded on application.",
+            "S.13(1) divorce grounds (either spouse): (i) voluntary sexual intercourse with another person (adultery - a single act suffices); (ia) cruelty; (ib) desertion for a continuous period of at least 2 years immediately before the petition; (ii) conversion to another religion; (iii) incurable unsound mind or mental disorder such that the petitioner cannot reasonably be expected to live with respondent; (v) venereal disease in communicable form; (vi) renunciation of the world by entering a religious order; (vii) not heard of as alive for 7 years. Leprosy (clause (iv)) was omitted by the Personal Laws (Amendment) Act 2019.",
+            "S.13(1A): either party may seek divorce if there has been no resumption of cohabitation for 1 year after a judicial separation decree, or no restitution for 1 year after a restitution decree.",
+            "S.13(2) grounds only for the wife: (i) husband had another wife before the Act and she is alive; (ii) husband guilty of rape, sodomy or bestiality; (iii) no cohabitation for 1 year after a maintenance decree/order under S.18 HAMA or S.125 CrPC (S.144 BNSS); (iv) option of puberty: married before 15 and repudiated before 18.",
+            "S.14 bar: no divorce petition within 1 year of marriage unless exceptional hardship to petitioner or exceptional depravity of respondent (court may allow).",
+            "Cruelty: physical or mental conduct of such a kind that cohabitation is harmful or injurious. N.G. Dastane v S. Dastane (1975): standard of proof is preponderance of probabilities. Samar Ghosh v Jaya Ghosh (2007): non-exhaustive illustrations of mental cruelty (persistent unjustifiable conduct, unilateral refusal of intercourse, long separation, false allegations, humiliation). Shobha Rani v Madhukar Reddi (1988): intention is not necessary. K. Srinivas Rao v D.A. Deepa (2013): false criminal complaints (e.g. S.498A) can amount to mental cruelty.",
+            "Desertion: factum of separation + animus deserendi + absence of consent or justifying cause + statutory period (Bipinchandra Shah v Prabhavati, 1957; Lachman Utamchand Kirpalani v Meena, 1964). Constructive desertion: the spouse who forces the other to leave is the deserter.",
+            "S.13B mutual consent: petition jointly by both; living separately for 1 year or more; unable to live together; mutually agreed to dissolve. The court may grant the decree after 6 months and not later than 18 months from presentation, if the petition is not withdrawn. Consent must continue until the decree (Sureshta Devi v Om Prakash, 1991; Hitesh Bhatnagar v Deepa Bhatnagar, 2011).",
+            "Amardeep Singh v Harveen Kaur (2017): the 6-month period in S.13B(2) is directory and may be waived where the marriage has broken down irretrievably and no chance of reconciliation exists.",
+            "Shilpa Sailesh v Varun Sreenivasan (Constitution Bench, 1 May 2023): the Supreme Court may use Art 142 to dissolve a marriage on the ground of irretrievable breakdown, waiving the 6-month period and the need for separate proceedings; it is a discretionary power, not a right, and is exercised with attention to the duration of marriage, litigation, attempts at settlement and equities. Irretrievable breakdown is still not a statutory ground (Naveen Kohli v Neelu Kohli, 2006 urged Parliament; Law Commission 71st and 217th Reports).",
+            "S.15: remarriage after divorce is allowed once the time for appeal has expired (S.28) or the appeal has been dismissed. S.23: decree conditions (no collusion, no condonation, no taking advantage of own wrong; duty to attempt reconciliation).",
+            "S.24 interim maintenance and litigation expenses; S.25 permanent alimony (lump sum or periodic, either spouse may claim); S.26 custody, maintenance and education of children (welfare paramount); S.27 disposal of joint property. Kiran Jyot Maini v Anish Pramod Patel (2024): alimony is for support, not to punish or equalise wealth - verify.",
+            "Rajnesh v Neha (2021): guidelines on maintenance - disclosure affidavit of assets and liabilities in all proceedings, maintenance from the date of application, overlapping proceedings, criteria for quantum (status, needs, income, liabilities)."
+          ],
+          "provisions": [
+            {
+              "ref": "S.9, 10, 13, 13B, 14, 15 HMA",
+              "note": "Restitution, separation, divorce, mutual consent, bars."
+            },
+            {
+              "ref": "S.24-27 HMA",
+              "note": "Interim maintenance, permanent alimony, children, property."
+            },
+            {
+              "ref": "Art 142",
+              "note": "Complete justice power used to dissolve marriages (Shilpa Sailesh)."
+            }
+          ],
+          "case_laws": [
+            {
+              "name": "Saroj Rani v Sudarshan Kumar Chadha",
+              "year": "1984",
+              "holding": "S.9 is constitutional; restitution decree is not a violation of privacy or Art 21; T. Sareetha overruled."
+            },
+            {
+              "name": "N.G. Dastane v S. Dastane",
+              "year": "1975",
+              "holding": "Civil standard of proof (preponderance) applies to matrimonial offences."
+            },
+            {
+              "name": "Samar Ghosh v Jaya Ghosh",
+              "year": "2007",
+              "holding": "Illustrative guidelines on mental cruelty; breakdown considerations."
+            },
+            {
+              "name": "Naveen Kohli v Neelu Kohli",
+              "year": "2006",
+              "holding": "Recommended irretrievable breakdown as a statutory ground."
+            },
+            {
+              "name": "Amardeep Singh v Harveen Kaur",
+              "year": "2017",
+              "holding": "6-month cooling period under S.13B(2) is directory."
+            },
+            {
+              "name": "Shilpa Sailesh v Varun Sreenivasan",
+              "year": "2023",
+              "holding": "Art 142 can dissolve marriage on irretrievable breakdown; cooling period may be waived; factors and safeguards laid down."
+            },
+            {
+              "name": "Sureshta Devi v Om Prakash",
+              "year": "1991",
+              "holding": "Mutual consent must subsist at the time of the decree; either party may withdraw before decree."
+            },
+            {
+              "name": "Rajnesh v Neha",
+              "year": "2021",
+              "holding": "Uniform guidelines on maintenance, affidavit of disclosure, interim maintenance from date of application."
+            },
+            {
+              "name": "K. Srinivas Rao v D.A. Deepa",
+              "year": "2013",
+              "holding": "Baseless criminal complaints amount to mental cruelty."
+            }
+          ],
+          "traps": [
+            "Leprosy is no longer a ground (omitted 2019); the question may still list it as an option.",
+            "Desertion period: 2 years; judicial separation/restitution non-compliance: 1 year; not heard of: 7 years.",
+            "6-month cooling period is directory, not mandatory (Amardeep Singh); Art 142 is available only to the Supreme Court.",
+            "Irretrievable breakdown is NOT a statutory ground under HMA.",
+            "Adultery under S.13(1)(i) needs one voluntary act, not a 'living in adultery' course of conduct."
+          ],
+          "memory_aids": [
+            "Divorce grounds: A-C-D-C-I-V-R-N = Adultery, Cruelty, Desertion, Conversion, Insanity, Venereal, Renunciation, Not heard (7 yrs).",
+            "Wife-only: B-R-M-P = Bigamy (pre-1955), Rape/sodomy/bestiality, Maintenance non-resumption, Puberty option."
+          ],
+          "likely_question_angles": [
+            "Waiting period in mutual consent divorce.",
+            "Which case treated the 6-month period as directory?",
+            "Which case allowed divorce on irretrievable breakdown through Art 142?",
+            "Which ground is available only to the wife?",
+            "Standard of proof for cruelty; illustrations of mental cruelty (Samar Ghosh)."
+          ]
+        },
+        {
+          "id": "6A-3",
+          "title": "Maintenance Across Laws - HAMA, S.144 BNSS (S.125 CrPC), Muslim Women Acts, Senior Citizens Act",
+          "priority": "Very High",
+          "expected_weight": "1-2 questions",
+          "summary": "Maintenance is a statutory, welfare-oriented right with several parallel routes. Learn who can claim under each, the disqualifications, and the landmark cases (Shah Bano, Danial Latifi, Abdul Samad, Rajnesh v Neha).",
+          "key_points": [
+            "S.144 BNSS (S.125 CrPC; secular): a Magistrate of the first class may order monthly allowance to (a) wife (including a divorced wife who has not remarried), (b) legitimate or illegitimate minor child, (c) adult child unable to maintain self due to physical or mental abnormality or injury, (d) father or mother, where the person with sufficient means neglects or refuses. There is no upper monetary cap (the Rs 500 cap was removed in 2001). Interim maintenance and costs are allowed; allowance runs from the order or, if so ordered, the date of application.",
+            "Disqualification of wife (S.144(4) BNSS; S.125(4) CrPC): living in adultery, refusing without sufficient reason to live with husband, or living separately by mutual consent. The wife's own income does not bar the claim unless sufficient (Chaturbhuj v Sita Bai, 2008).",
+            "S.144 BNSS is personal-law neutral: Mohd Ahmed Khan v Shah Bano Begum (1985) held that a divorced Muslim wife can claim under it; Parliament responded with the Muslim Women (Protection of Rights on Divorce) Act 1986; Danial Latifi v Union of India (2001) upheld the 1986 Act but read 'reasonable and fair provision' to include future maintenance beyond the iddat; Shabana Bano v Imran Khan (2010) held S.125 CrPC available after iddat; Mohd Abdul Samad v State of Telangana (10 July 2024) held that a divorced Muslim woman can claim under S.125 CrPC (S.144 BNSS) irrespective of the 1986 Act.",
+            "HAMA 1956: S.18 - Hindu wife is entitled to maintenance during her lifetime and to live separately without losing it where the husband is guilty of desertion, cruelty, has another wife living, keeps a concubine in the same house or habitually resides with one elsewhere, has converted, or other justifying cause. No claim if she is unchaste or ceases to be a Hindu. S.19: widowed daughter-in-law may claim from the father-in-law if she cannot maintain herself and has no means (obligation is not enforceable if the father-in-law has no ancestral property out of which to maintain). S.20: a Hindu must maintain his legitimate or illegitimate children (until minor) and aged or infirm parents, and unmarried daughters unable to maintain themselves. S.21 dependants; S.22 dependants of deceased; S.23 amount discretionary.",
+            "HMA S.24 (interim) and S.25 (permanent alimony) are matrimonial reliefs available to either spouse, even in a void marriage (X v Y, 2025 INSC 197: 'illegitimate wife' and 'faithful mistress' labels are misogynistic; relief under S.25 is discretionary and case specific; interim maintenance is possible when the matrimonial court prima facie finds a marriage void or voidable).",
+            "Void marriage and S.125: older view that a woman in a void (bigamous) marriage cannot claim S.125 (Yamunabai Anantrao Adhav, 1988) has been liberalised (Chanmuniya v Virendra Kumar Singh Kushwaha, 2010 - wife includes a woman in a long-standing live-in relationship; Badshah v Urmila Badshah Godse, 2013).",
+            "Rajnesh v Neha (2021): maintenance affidavit of disclosure; same-claim overlap across forums to be disclosed and adjusted; payment enforceable like a decree.",
+            "Domestic Violence Act S.20 (monetary relief), S.19 (residence) and S.17 (right to reside in shared household) run alongside and in addition to other remedies (S.26).",
+            "Maintenance and Welfare of Parents and Senior Citizens Act 2007: parents (including adoptive and step-parents) and senior citizens (60+) may claim from children or relatives who will inherit; claim before the Maintenance Tribunal (Sub-Divisional Officer), appeal to the Appellate Tribunal (District Magistrate); Tribunal should decide within 90 days; S.9(2) caps the monthly allowance at Rs 10,000 (a 2019 amendment Bill to remove the cap lapsed - verify); S.23: a transfer of property by a senior citizen made on condition of care can be declared void if the transferee fails to maintain (Sudesh Chhikara v Ramti Devi, 2022; Urmila Dixit v Sunil Sharan Dixit, 2025); S.24 abandonment is punishable with up to 3 months and/or fine up to Rs 5,000.",
+            "Muslim women's rights on divorce (1986 Act): S.3 mahr, reasonable and fair provision and maintenance during iddat, children's maintenance for 2 years; S.4 maintenance from relatives or State Waqf Board where she cannot maintain herself; S.5 option to be governed by S.125-128 CrPC."
+          ],
+          "provisions": [
+            {
+              "ref": "S.144-147 BNSS (S.125-128 CrPC)",
+              "note": "Maintenance of wives, children and parents; enforcement."
+            },
+            {
+              "ref": "S.18-23 HAMA",
+              "note": "Wife, widowed daughter-in-law, children, parents, dependants."
+            },
+            {
+              "ref": "S.24-25 HMA",
+              "note": "Interim and permanent alimony."
+            },
+            {
+              "ref": "S.3, 4, 5 Muslim Women (Protection of Rights on Divorce) Act 1986",
+              "note": "Iddat maintenance; relatives/Waqf Board; option for S.125."
+            }
+          ],
+          "case_laws": [
+            {
+              "name": "Mohd Ahmed Khan v Shah Bano Begum",
+              "year": "1985",
+              "holding": "S.125 CrPC applies to Muslim wives; mahr is not a substitute for maintenance."
+            },
+            {
+              "name": "Danial Latifi v Union of India",
+              "year": "2001",
+              "holding": "1986 Act valid; 'reasonable and fair provision' covers the woman's entire future."
+            },
+            {
+              "name": "Mohd Abdul Samad v State of Telangana",
+              "year": "2024",
+              "holding": "A divorced Muslim woman can invoke S.125 CrPC (S.144 BNSS) irrespective of the 1986 Act; secular remedy."
+            },
+            {
+              "name": "Rajnesh v Neha",
+              "year": "2021",
+              "holding": "Guidelines on affidavit of disclosure, interim maintenance, quantum."
+            },
+            {
+              "name": "X v Y (2025 INSC 197)",
+              "year": "2025",
+              "holding": "S.25 HMA maintenance available to a spouse in a void marriage; discretionary."
+            },
+            {
+              "name": "Chanmuniya v Virendra Kumar Singh Kushwaha",
+              "year": "2010",
+              "holding": "'Wife' in S.125 given a broad meaning; live-in couples can be treated as married for maintenance; larger bench reference."
+            },
+            {
+              "name": "Chaturbhuj v Sita Bai",
+              "year": "2008",
+              "holding": "Wife with insufficient independent income can claim S.125."
+            }
+          ],
+          "traps": [
+            "S.125 (S.144 BNSS) has no upper monetary cap.",
+            "A divorced wife who has remarried loses S.125 rights; one who has not remarried retains them.",
+            "A wife living in adultery or living separately by mutual consent cannot claim.",
+            "Shah Bano (1985) was legislatively overridden by the 1986 Act, but Danial Latifi read it down and Abdul Samad (2024) confirmed S.125 for all.",
+            "HAMA S.19 (daughter-in-law) is against the father-in-law, not the husband's relatives generally."
+          ],
+          "memory_aids": [
+            "Shah Bano - Statute response (1986) - Danial saves it - Samad (2024) settles it."
+          ],
+          "likely_question_angles": [
+            "Who can claim maintenance under S.125 CrPC / S.144 BNSS?",
+            "Which case upheld the 1986 Act?",
+            "Can a divorced Muslim woman claim under S.125 after iddat? (Yes)",
+            "Disqualifications of a wife.",
+            "Maintenance of parents under the 2007 Act - forum and cap."
+          ]
+        },
+        {
+          "id": "6A-4",
+          "title": "Hindu Adoptions and Maintenance Act 1956 - Adoption; Adoption under JJ Act 2015",
+          "priority": "High",
+          "expected_weight": "1 question",
+          "summary": "The Act is the most 'section-number' heavy part of Hindu law. Learn who can adopt, who can give, who can be adopted, the other conditions, effects and the secular JJ Act route.",
+          "key_points": [
+            "S.6: valid adoption needs (i) the adopter's capacity and right to adopt, (ii) the giver's capacity to give, (iii) the adoptee's capacity to be adopted, and (iv) compliance with other conditions.",
+            "S.7 male: any Hindu male of sound mind who is not a minor may adopt; if married, with the consent of his wife (or all wives), unless she has entirely and finally renounced the world, ceased to be Hindu or been declared of unsound mind. S.8 female: a Hindu female of sound mind and not a minor, if unmarried, or if married, whose marriage has been dissolved, whose husband is dead, has finally renounced the world, ceased to be Hindu or been declared of unsound mind. A married woman cannot adopt in her own right during the subsistence of marriage.",
+            "S.9 who may give: father or mother or guardian. The father cannot give without the mother's consent unless she has renounced the world, ceased to be Hindu or is of unsound mind. A guardian can give only with court permission where both parents are dead, have renounced the world, abandoned the child, are of unsound mind or the parentage is unknown. The mother can give if the father is dead or disqualified.",
+            "S.10 who may be adopted: a Hindu, not already adopted, not married (unless custom), and not completed the age of 15 (unless custom allows).",
+            "S.11 other conditions: for adoption of a son the adopter must not have a Hindu son, son's son or son's son's son (legitimate or adopted) living; for a daughter, no Hindu daughter or son's daughter living; where the adopter is a male and the adoptee a female (or vice versa), the adopter must be at least 21 years older; the same child cannot be adopted by two persons simultaneously; the child must be actually given and taken (datta homam is not essential).",
+            "S.12 effects: from the date of adoption the child is deemed the child of the adoptive parents for all purposes and ties with the family of birth are severed; the child cannot marry any person he or she could not marry in the natural family; property vested in the child before adoption continues; the child cannot divest any person of an estate vested before adoption.",
+            "S.13 adopters' right to dispose of property is unaffected; S.14 where a male Hindu with more than one wife adopts, the seniormost in marriage is the adoptive mother; S.15 a valid adoption cannot be cancelled by anyone; S.16 presumption of validity of a registered adoption deed; S.17 payments for adoption are prohibited (punishable).",
+            "Adoption under the JJ (Care and Protection of Children) Act 2015: secular; Central Adoption Resource Authority (CARA) regulates; Adoption Regulations 2022; the 2021 amendment empowers the District Magistrate to issue adoption orders (instead of courts). Shabnam Hashmi v Union of India (2014): any person may adopt under the JJ Act irrespective of religion; this is an enabling law and does not displace personal laws.",
+            "Proof: Sawan Ram v Kalawati (1967) - proof of giving and taking; recitals in a registered deed carry a presumption but are rebuttable. Lakshmi Kant Pandey v Union of India (1984) - guidelines on inter-country adoption."
+          ],
+          "provisions": [
+            {
+              "ref": "S.6-12 HAMA",
+              "note": "Conditions, capacity, effects of adoption."
+            },
+            {
+              "ref": "S.56-73 JJ Act 2015",
+              "note": "Secular adoption; CARA."
+            }
+          ],
+          "case_laws": [
+            {
+              "name": "Shabnam Hashmi v Union of India",
+              "year": "2014",
+              "holding": "The JJ Act adoption right is available irrespective of religion; right to adopt is a facet of Art 21 interpretation, not a fundamental right."
+            },
+            {
+              "name": "Lakshmi Kant Pandey v Union of India",
+              "year": "1984",
+              "holding": "Safeguards for inter-country adoption; best interests of the child."
+            },
+            {
+              "name": "Sawan Ram v Kalawati",
+              "year": "1967",
+              "holding": "Adoption requires actual giving and taking; evidence."
+            }
+          ],
+          "traps": [
+            "A Hindu mother alone cannot give in adoption when the father is alive and a Hindu of sound mind.",
+            "Datta homam is not essential for validity.",
+            "Adoptee age limit is 15 unless custom; adopter 21-year gap applies only to opposite-sex adoption.",
+            "A valid adoption cannot be cancelled (S.15)."
+          ],
+          "memory_aids": [
+            "S.7 male + wife's consent; S.8 female unmarried or ex-married; S.9 giver; S.10 adoptee; S.11 other conditions; S.12 effects."
+          ],
+          "likely_question_angles": [
+            "Who may be adopted (age, marital status)?",
+            "Age gap when a male adopts a girl.",
+            "Effect of adoption on property in natural family.",
+            "Consent of wife for adoption by male.",
+            "Whether JJ Act adoption is available to Muslims."
+          ]
+        },
+        {
+          "id": "6A-5",
+          "title": "Guardianship and Custody - Hindu Minority and Guardianship Act 1956; Guardians and Wards Act 1890",
+          "priority": "High",
+          "expected_weight": "1 question",
+          "summary": "Natural guardians, limits on a guardian's powers over immovable property, and the supremacy of the welfare principle in custody disputes.",
+          "key_points": [
+            "S.4 HMGA: minor = person who has not completed 18 years. The Act supplements (does not replace) the Guardians and Wards Act 1890.",
+            "S.6 natural guardians: for a boy or unmarried girl - the father, and after him the mother; but custody of a minor who has not completed 5 years shall ordinarily be with the mother. For an illegitimate boy or unmarried girl - the mother, and after her the father. For a married girl - the husband. No guardian can be appointed for the minor's undivided interest in joint family property managed by an adult member (S.12).",
+            "Gita Hariharan v Reserve Bank of India (1999): 'after' in S.6(a) means 'in the absence of', i.e. the father's absence or disinterest, not after his death; the mother can act as natural guardian even during the father's lifetime if the father is indifferent or incapable. Jijabai Vithalrao Gajre v Pathankhan (1970) took a similar view. ABC v State (NCT of Delhi) (2015): an unwed mother can be the sole guardian and need not name the father.",
+            "S.7: adoptive father, and after him adoptive mother, is natural guardian of an adopted son. S.9: testamentary guardian appointed by will (father, or mother where the father is dead/unfit).",
+            "S.8 powers of natural guardian: may do all acts necessary or reasonable and proper for the benefit of the minor or the minor's estate, but cannot bind the minor by a personal covenant. Without the previous permission of the court, the guardian cannot (a) mortgage, charge, sell, gift, exchange or transfer immovable property of the minor, or (b) lease it for over 5 years or beyond 1 year after the minor attains majority. A transfer in breach is voidable at the instance of the minor or any person claiming under him (S.8(3)). Court permission only for necessity or evident advantage (S.8(4)).",
+            "S.11: a de facto guardian (a person who is not a lawful guardian) cannot deal with the minor's property. S.13: welfare of the minor is the paramount consideration; no right under the Act or any law supersedes it.",
+            "Guardians and Wards Act 1890: S.7 (appointment/declaration), S.8 (who may apply), S.17 (court considers the minor's welfare, age, sex, religion, character, preference of an intelligent minor), S.19 (no appointment if the father is fit and alive), S.25 (return of ward who leaves or is removed from the guardian's custody), S.26 (removal of ward from jurisdiction), S.4(1) (minor under 18).",
+            "Custody principles: Gaurav Nagpal v Sumedha Nagpal (2009), Nil Ratan Kundu v Abhijit Kundu (2008) - welfare, not parental rights, decides; Roxann Sharma v Arun Sharma (2015) - child under 5 with mother; Vikram Vir Vohra v Shalini Bhalla (2010) - shared parenting; Yashita Sahu v State of Rajasthan (2020) - visitation and custody; Tejaswini Gaud v Shekhar Jagdish Prasad Tewari (2019) - habeas corpus for child custody is a summary remedy and welfare decides; Prateek Gupta v Shilpi Gupta (2017) and V. Ravi Chandran v Union of India (2010) - foreign custody orders are not binding and the child's welfare is examined by the Indian court.",
+            "Family Courts Act 1984: family courts decide guardianship and custody matters (S.7); proceedings are confidential and conciliatory (S.9, 10); no right to legal representation as of right (S.13); appeal lies to the High Court within 30 days (S.19)."
+          ],
+          "provisions": [
+            {
+              "ref": "S.6-13 HMGA",
+              "note": "Natural guardians, powers, welfare principle."
+            },
+            {
+              "ref": "S.7, 17, 25 GWA 1890",
+              "note": "Appointment, welfare, return of ward."
+            }
+          ],
+          "case_laws": [
+            {
+              "name": "Gita Hariharan v Reserve Bank of India",
+              "year": "1999",
+              "holding": "Mother is natural guardian even in the father's lifetime if he is absent/indifferent; 'after' read as 'in absence of'."
+            },
+            {
+              "name": "ABC v State (NCT of Delhi)",
+              "year": "2015",
+              "holding": "Unwed mother can be the guardian of her child without disclosing or notifying the father."
+            },
+            {
+              "name": "Roxann Sharma v Arun Sharma",
+              "year": "2015",
+              "holding": "Mother has a preferential claim to custody of child below 5."
+            },
+            {
+              "name": "Nil Ratan Kundu v Abhijit Kundu",
+              "year": "2008",
+              "holding": "Welfare of the child is paramount; strict legal rights give way."
+            }
+          ],
+          "traps": [
+            "Welfare principle prevails over the statutory order of natural guardians.",
+            "A natural guardian's sale of minor's immovable property without court permission is voidable (not void).",
+            "Custody under 5 is 'ordinarily' with the mother, not an absolute rule.",
+            "Married girl: husband is the natural guardian."
+          ],
+          "memory_aids": [
+            "Father, then mother - but mother for under-5 custody; welfare is king (S.13)."
+          ],
+          "likely_question_angles": [
+            "Who is the natural guardian of an illegitimate child?",
+            "Effect of unauthorised sale by natural guardian.",
+            "Case on mother as natural guardian (Gita Hariharan).",
+            "Paramount consideration in custody."
+          ]
+        },
+        {
+          "id": "6A-6",
+          "title": "Hindu Succession Act 1956 (as amended 2005) and the Joint Family",
+          "priority": "Very High",
+          "expected_weight": "1-2 questions",
+          "summary": "Intestate succession of Hindu males and females, daughters' coparcenary rights (S.6), woman's absolute ownership (S.14), and the character of property inherited under S.8.",
+          "key_points": [
+            "Hindu Succession (Amendment) Act 2005 (in force 9 September 2005): S.6 makes a daughter a coparcener by birth in the same manner as a son, with the same rights and liabilities; S.23 (restriction on daughter's right to a dwelling house) and S.24 (widow's remarriage disqualification) omitted; S.4(2) (agricultural land exemption) omitted.",
+            "Vineeta Sharma v Rakesh Sharma (2020, three judges): the daughter's coparcenary right is by birth; it is not necessary that the father was alive on 9 September 2005; Prakash v Phulavati (2016) overruled to that extent; Danamma @ Suman Surpur v Amar (2018) partly overruled. A partition claimed by oral evidence is not accepted unless supported by public documents or a court decree (partition is a registered deed or a decree; S.6(5) Explanation). Daughters have equal rights in Mitakshara coparcenary property and can claim partition.",
+            "Arunachala Gounder v Ponnusamy (2022): self-acquired property of a Hindu male dying intestate (including before 1956) devolves by inheritance; a daughter inherits it, and on her death without issue it goes to her father's heirs (S.15(2)(b)).",
+            "S.8 (intestate male): property devolves first on Class I heirs, then Class II, then agnates, then cognates. Class I (16 heirs after 2005): son, daughter, widow, mother, son and daughter of a predeceased son, son and daughter of a predeceased daughter, widow of a predeceased son, widow of a predeceased son of a predeceased son and the four added in 2005 (children of predeceased daughter of predeceased daughter and children of predeceased son of predeceased daughter, etc.). Father is not Class I - he is the first entry in Class II (so mother inherits, father does not, unless no Class I heir exists).",
+            "S.10 distribution among Class I: the widow(s) together take one share, each son one, each daughter one, each branch of a predeceased son/daughter one share jointly, mother one share. S.9: Class I heirs take simultaneously and exclude all others.",
+            "S.14 woman's property: any property possessed by a female Hindu, acquired before or after the Act, is held by her as full owner and not as a limited owner. S.14(2) exception: property acquired by gift, will, instrument, decree or award where the instrument expressly prescribes a restricted estate. V. Tulasamma v Sesha Reddy (1977): property given to a widow in lieu of maintenance becomes absolute under S.14(1).",
+            "S.15 (intestate female): first sons, daughters (and children of predeceased children) and the husband; then heirs of the husband; then mother and father; then heirs of the father; then heirs of the mother. S.15(2): property inherited from her father or mother, in absence of children, goes to the father's heirs; property inherited from her husband or father-in-law, in absence of children, goes to the husband's heirs.",
+            "Disqualifications: S.25 murderer; S.26 descendants of a convert (the convert himself is not disqualified); S.27 other disqualifications; disease, defect and unchastity are not grounds (S.28). S.30 allows testamentary disposition of coparcenary interest.",
+            "Joint family and coparcenary: HUF = all lineal descendants of a common ancestor, wives and unmarried daughters; coparcenary = the narrower body of the propositus and three generations of male lineal descendants (now daughters included by birth). Mitakshara - rights by birth and survivorship (modified); Dayabhaga - rights by death, no right by birth. Karta: the manager; alienation of coparcenary property only for legal necessity, benefit of the estate or indispensable duties (Hanooman Prasad Pandey v Babooee Munraj Koonwari, 1856 PC); gifts only of a small portion for pious purposes (Kamla Devi v Bachulal Gupta, 1957). A woman can be karta (Sujata Sharma v Manu Gupta, Delhi HC, 2015).",
+            "Darubai v Kamalabai (2026 INSC 613, reported 3 June 2026; Karol and Masih JJ): property inherited under S.8 does not acquire coparcenary character; the heirs take as tenants in common with defined shares; karta-ship does not arise from mere descent from a paternal ancestor; one heir cannot sell the shares of the others as karta. It follows Yudhishter v Ashok Kumar (1987) and Uttam v Saubhag Singh (2016). The Court also (2026) reportedly held that the 2005 amendment does not limit daughters' pre-existing inheritance rights - verify.",
+            "S.6(4) after 2005: no pious obligation of a son or grandson to pay a father's or grandfather's debts, but debts contracted before 2005 are protected. S.6(3): on a coparcener's death after 2005 the interest devolves by testamentary or intestate succession, not survivorship."
+          ],
+          "provisions": [
+            {
+              "ref": "S.6, 8, 9, 10, 14, 15, 25, 26 HSA",
+              "note": "Coparcenary, intestate succession, woman's property, disqualifications."
+            }
+          ],
+          "case_laws": [
+            {
+              "name": "Vineeta Sharma v Rakesh Sharma",
+              "year": "2020",
+              "holding": "Daughter is coparcener by birth; father's survival on 9 Sept 2005 not required; oral partition not accepted without proof."
+            },
+            {
+              "name": "Prakash v Phulavati",
+              "year": "2016",
+              "holding": "Earlier held the amendment was prospective and needed father alive in 2005 - overruled on this point."
+            },
+            {
+              "name": "V. Tulasamma v Sesha Reddy",
+              "year": "1977",
+              "holding": "S.14(1) enlarges a widow's maintenance-estate into absolute ownership."
+            },
+            {
+              "name": "Arunachala Gounder v Ponnusamy",
+              "year": "2022",
+              "holding": "Daughter inherits the self-acquired property of her father who died intestate before 1956; Mitakshara principles and S.15 reasoning."
+            },
+            {
+              "name": "Yudhishter v Ashok Kumar",
+              "year": "1987",
+              "holding": "Property inherited by son from father under S.8 is his separate property, not HUF property."
+            },
+            {
+              "name": "Darubai v Kamalabai",
+              "year": "2026",
+              "holding": "S.8-inherited property is not coparcenary; co-heirs hold shares; no karta power to alienate others' shares."
+            }
+          ],
+          "traps": [
+            "Father is NOT a Class I heir; mother is.",
+            "Daughters' right is by birth; the father need not be alive in 2005 (Vineeta Sharma overrules Prakash).",
+            "S.14(1) gives absolute ownership; S.14(2) restricts only if the instrument prescribes a restricted estate.",
+            "The convert is not disqualified; the convert's descendants are (S.26).",
+            "A Hindu female's inherited property goes back to the source family (S.15(2)) when she has no issue."
+          ],
+          "memory_aids": [
+            "Class I: 'Son-Daughter-Widow-Mother' plus the predeceased branches; Father = Class II no.1.",
+            "V-S-R: Vineeta Sharma = Rights by birth."
+          ],
+          "likely_question_angles": [
+            "Which of the following is a Class I heir?",
+            "Whether a daughter's coparcenary right requires the father to be alive in 2005.",
+            "Devolution of a Hindu female's property (S.15).",
+            "Nature of property inherited under S.8 (separate vs coparcenary).",
+            "Effect of S.14."
+          ]
+        },
+        {
+          "id": "6A-7",
+          "title": "Muslim Law I - Sources, Marriage (Nikah), Mahr, Maintenance",
+          "priority": "Very High",
+          "expected_weight": "1-2 questions",
+          "summary": "Sources and schools; validity of nikah; mahr as an obligation of the husband; and the wife's rights during marriage.",
+          "key_points": [
+            "Sources: Quran, Sunnah/Hadith, Ijma (consensus), Qiyas (analogical deduction); secondary: Urf (custom), Istihsan, Istislah. Sunni schools: Hanafi (most Indian Muslims), Maliki, Shafi'i, Hanbali; Shias: Ithna Ashari (Twelvers), Ismaili, Zaidi.",
+            "Muslim Personal Law (Shariat) Application Act 1937: S.2 applies Muslim law (in cases where parties are Muslims) to intestate succession, special property of females, marriage, dissolution of marriage (talaq, ila, zihar, lian, khula, mubarat), maintenance, dower, guardianship, gifts, trusts and waqfs; customary law is excluded in these matters. It does not cover wills and adoption unless the person makes a declaration under S.3 (as originally framed).",
+            "Nikah is a civil contract: proposal (ijab) and acceptance (qubul) at the same meeting, free consent, competence (puberty, sound mind), witnesses (Sunni: two male or one male and two females; Shia: none required). No religious ceremony or writing is essential.",
+            "Classification of marriages: valid (sahih), irregular (fasid), void (batil). Irregular: absence of witnesses, marriage during iddat of another, with a woman of a non-Kitabiya religion (for male), fifth wife, unlawful conjunction. An irregular marriage can be regularised by removing the impediment; if consummated it carries limited effects (proper dower or specified dower whichever is less, legitimate children, iddat). Void: marriage within prohibited degrees (consanguinity, affinity, fosterage) - no legal consequences. Muta (temporary) marriage is recognised only by Shias (Ithna Ashari).",
+            "Capacity and age: puberty (presumed at 15 years) under classical law; guardianship in marriage (wilayat) of a minor by father or paternal relatives; the minor's option of puberty (khyar-ul-bulugh). The Prohibition of Child Marriage Act 2006 applies to all communities in principle; Society for Enlightenment and Voluntary Action v Union of India (Oct 2024) issued guidelines for enforcing the PCMA - the Court did not resolve the personal-law conflict (verify).",
+            "Mahr (dower): an obligation imposed by law on the husband as a mark of respect to the wife (Abdul Kadir v Salima, 1886); not a consideration for marriage; marriage is valid even if mahr is not fixed (proper/customary dower payable). Types: specified, proper (mahr-i-misl), prompt (muajjal), deferred (muwajjal). Hanafi minimum: 10 dirhams (Maliki 3); no maximum. Wife may refuse cohabitation until prompt dower is paid. On dissolution, unpaid dower is a debt.",
+            "Widow's right of retention (lien): if the widow is in lawful possession of the husband's property, she may retain it until her dower is paid; the lien is not a right of ownership and cannot be transferred (Hamira Bibi v Zubaida Bibi, 1916).",
+            "Maintenance (nafaqah): husband must maintain his wife during marriage (even if she is wealthy) unless she is disobedient (nashiza); also minor children and indigent parents; wife not entitled if she refuses to cohabit without lawful reason. Statutory remedies: S.144 BNSS (S.125 CrPC), Muslim Women (Protection of Rights on Divorce) Act 1986.",
+            "Guardianship and custody: father is natural guardian of the person and property; mother has the right of hizanat (physical custody) - Hanafi: boy till 7, girl until puberty; Shia: boy till 2, girl till 7; custody can be lost on remarriage to a stranger or on bad character; welfare of the child prevails in practice."
+          ],
+          "provisions": [
+            {
+              "ref": "S.2, 3 Shariat Application Act 1937",
+              "note": "Application of Muslim personal law; declaration."
+            },
+            {
+              "ref": "Prohibition of Child Marriage Act 2006",
+              "note": "Applies in principle to all communities."
+            }
+          ],
+          "case_laws": [
+            {
+              "name": "Abdul Kadir v Salima",
+              "year": "1886",
+              "holding": "Dower is an obligation on the husband, not consideration for marriage."
+            },
+            {
+              "name": "Hamira Bibi v Zubaida Bibi",
+              "year": "1916",
+              "holding": "Widow's right of retention is not a right of ownership; cannot be transferred."
+            },
+            {
+              "name": "Shamim Ara v State of U.P.",
+              "year": "2002",
+              "holding": "Talaq must be pronounced for a reason and communicated; proof required; an averment in a written statement is not talaq."
+            }
+          ],
+          "traps": [
+            "Mahr is not consideration; it is an obligation.",
+            "Hanafi minimum is 10 dirhams, Maliki is 3.",
+            "Shia law does not need witnesses for nikah; Sunni law does.",
+            "Muta marriage is recognised only by Ithna Ashari Shias.",
+            "Widow's lien is not ownership."
+          ],
+          "memory_aids": [
+            "10-Hanafi, 3-Maliki dirhams.",
+            "Irregular = curable; Void = incurable."
+          ],
+          "likely_question_angles": [
+            "Nature of nikah and mahr.",
+            "Number of witnesses needed.",
+            "What is an irregular marriage and its effects?",
+            "Widow's right of retention.",
+            "Custody (hizanat) ages."
+          ]
+        },
+        {
+          "id": "6A-8",
+          "title": "Muslim Law II - Divorce: Talaq, Khula, Mubarat, DMMA 1939, 2019 Act",
+          "priority": "Very High",
+          "expected_weight": "2 questions",
+          "summary": "Forms of divorce, the Supreme Court's decision on instant triple talaq (Shayara Bano), the 2019 Act, judicial divorce under DMMA 1939, and the pending talaq-e-hasan challenge.",
+          "key_points": [
+            "Talaq by husband: talaq-ul-sunnat - (a) ahsan: a single pronouncement in a tuhr (period of purity), followed by abstention from intercourse during the iddat; revocable until iddat ends; (b) hasan: three successive pronouncements in three successive tuhrs, the divorce becoming irrevocable on the third. Talaq-ul-biddat (triple talaq/instant talaq): three pronouncements in one tuhr or a single irrevocable pronouncement.",
+            "Shayara Bano v Union of India (22 Aug 2017, 3:2): instant triple talaq (talaq-e-biddat) is void and unconstitutional (Kurian Joseph, Nariman and Lalit JJ held it arbitrary/not part of essential Islamic practice or violative of Art 14; Khehar CJ and Nazeer J dissented). Earlier cases: Rukia Khatoon v Abdul Khalique Laskar (1981) - talaq must be for a reason and preceded by reconciliation attempts; Shamim Ara v State of U.P. (2002) - same, and talaq must be proved.",
+            "Muslim Women (Protection of Rights on Marriage) Act 2019: S.3 instant triple talaq (spoken, written, electronic) is void and illegal; S.4 punishment up to 3 years' imprisonment and fine; offence is cognizable only on information by the married woman or her blood/marriage relatives; the Magistrate may grant bail only after hearing the woman; compoundable at the woman's instance with the Magistrate's permission; she is entitled to subsistence allowance and custody of minor children.",
+            "Talaq-e-hasan: the husband pronounces talaq once a month over three months. Challenged before the Supreme Court (Benazeer Heena v Union of India and connected pleas); in 2026 the Court referred a related dispute to mediation (Justice Kurian Joseph) and on 16 October 2026 a bench of the CJI and Justice Bagchi sought the Centre's response on a plea for uniform procedural safeguards for all forms of talaq and clubbed it with the pending petition (verify the current status).",
+            "Delegated talaq (talaq-i-tafweez): the husband delegates the power to the wife (or a third party) to divorce herself on specified conditions. Ila (vow of abstinence for 4 months), zihar (comparing wife to a prohibited relative; wife may seek judicial decree if the husband does not atone) and lian (false accusation of adultery; divorce by court decree) are other forms; DMMA S.2(ix) covers them.",
+            "Khula: divorce at the instance of the wife with the husband's consent in return for consideration (often release of mahr); mubarat: mutual desire of both; both are irrevocable divorces (talaq-i-bain) with iddat after. The wife's right to khula without husband's consent is recognised by Kerala High Court (K.C. Moyin v Nafeesa, 1972; Full Bench 2021) - verify.",
+            "Dissolution of Muslim Marriages Act 1939 S.2 grounds (decree for wife): (i) whereabouts of husband unknown for 4 years; (ii) failure to maintain for 2 years; (iii) husband's imprisonment for 7 years or more (after sentence final); (iv) failure to perform marital obligations for 3 years without reasonable cause; (v) impotency at marriage and continuing; (vi) insanity for 2 years or virulent venereal disease (leprosy omitted 2019); (vii) option of puberty - married before 15, repudiated before 18, not consummated; (viii) cruelty (habitual assault, associating with women of ill repute, forcing immoral life, disposing of her property, obstructing religious practice, unequal treatment of co-wives); (ix) any other ground valid under Muslim law (includes lian, ila, zihar, talaq-i-tafweez).",
+            "DMMA S.4: apostasy by a Muslim wife does not itself dissolve marriage; S.5: wife's dower rights are not affected. Conversion of a non-Muslim wife (other than Kitabiya) to Islam and reversion: see S.4 proviso.",
+            "Iddat: divorced woman - 3 menstrual courses (or 3 lunar months if not subject to menstruation); widow - 4 months 10 days; pregnant - until delivery. Remarriage prohibited during iddat; a marriage during iddat is irregular (fasid). Halala: a fixed-term marital practice to remarry a thrice-divorced wife; the Uttarakhand UCC 2024 bans it - verify.",
+            "Polygamy: up to four wives under personal law (Quranic condition: equal treatment); the Supreme Court has repeatedly urged a UCC (Jorden Diengdeh v S.S. Chopra, 1985; Sarla Mudgal, 1995). State UCCs (Uttarakhand, Gujarat, Assam) prohibit polygamy for their residents (non-tribal) - see 6A-13."
+          ],
+          "provisions": [
+            {
+              "ref": "S.2, 4, 5 DMMA 1939",
+              "note": "Grounds, apostasy, dower rights."
+            },
+            {
+              "ref": "S.3, 4, 7 Muslim Women (Protection of Rights on Marriage) Act 2019",
+              "note": "Triple talaq void, punishment, cognizability and bail."
+            }
+          ],
+          "case_laws": [
+            {
+              "name": "Shayara Bano v Union of India",
+              "year": "2017",
+              "holding": "Instant triple talaq is unconstitutional/void (3:2)."
+            },
+            {
+              "name": "Rukia Khatoon v Abdul Khalique Laskar",
+              "year": "1981",
+              "holding": "Talaq must be for reasonable cause and preceded by attempts at reconciliation."
+            },
+            {
+              "name": "Shamim Ara v State of U.P.",
+              "year": "2002",
+              "holding": "Talaq must be communicated and proved; a plea in written statement is not talaq."
+            },
+            {
+              "name": "Jorden Diengdeh v S.S. Chopra",
+              "year": "1985",
+              "holding": "Urged a UCC; commented on personal law inconsistencies."
+            },
+            {
+              "name": "Sarla Mudgal v Union of India",
+              "year": "1995",
+              "holding": "Conversion to Islam to marry a second wife does not dissolve the first Hindu marriage; urged UCC."
+            }
+          ],
+          "traps": [
+            "Talaq-ul-biddat is void since 2017; talaq-e-hasan and ahsan are still lawful (hasan under challenge).",
+            "The 2019 Act punishes the husband (3 years) but does not make talaq-e-hasan an offence.",
+            "Iddat for a widow is 4 months 10 days, not 3 months.",
+            "DMMA gives the wife a right to apply; the husband has no DMMA remedy.",
+            "Apostasy does not automatically dissolve the marriage (DMMA S.4)."
+          ],
+          "memory_aids": [
+            "DMMA S.2 numbers: 4-2-7-3-2 (missing, maintenance, jail, obligations, insanity).",
+            "Shayara = 3:2, 2017; Act = 2019; max 3 years."
+          ],
+          "likely_question_angles": [
+            "Which case declared instant triple talaq unconstitutional?",
+            "Punishment under the 2019 Act.",
+            "DMMA grounds and their periods.",
+            "Difference between khula and mubarat.",
+            "Iddat periods."
+          ]
+        },
+        {
+          "id": "6A-9",
+          "title": "Muslim Law III - Gifts (Hiba), Wills (Wasiyat), Waqf, Pre-emption, Inheritance",
+          "priority": "High",
+          "expected_weight": "2 questions",
+          "summary": "Property law of Muslims: hiba needs delivery of possession; wills are limited to one-third; waqf is a pious endowment now governed by the Waqf Act 1995 as amended in 2025; pre-emption has three demands; inheritance has no representation.",
+          "key_points": [
+            "Hiba (gift): requisites - (i) declaration by donor, (ii) acceptance by donee (express or implied), (iii) delivery of possession (actual or constructive). Writing and registration are not required for a Muslim gift (S.129 TPA preserves the rule); a registered deed without delivery is not enough. Gift of future property is void; gift of undivided share (musha) in a divisible property is irregular under Hanafi law but valid in indivisible property. Gift by a donor to his minor child may be completed by declaration if the donor is the guardian (Hafeeza Bibi v Shaikh Mohammad Farooq, 2011 - possession/declaration). Gift is revocable by the donor (except in cases such as gift to a relative within prohibited degrees, gift by husband to wife, gift for consideration). Hiba-bil-iwaz (gift for consideration) is a sale in effect; hiba-ba-shart-ul-iwaz is a gift with a condition of return; sadaqah is a gift for pious purposes.",
+            "Marz-ul-maut (death-illness): a gift made while apprehending death from the illness that actually causes death is governed by the rules of wills - limited to one-third of the net estate, and a gift to an heir needs the consent of the other heirs; delivery required.",
+            "Wills (wasiyat): Sunni - a bequest is valid only up to one-third of the net estate (after funeral expenses and debts) without the consent of heirs; a bequest to an heir needs the consent of the other heirs (given after the testator's death); a will may be oral; consent of heirs not needed for bequest to a stranger up to 1/3. Shia - bequest to an heir up to 1/3 is valid without the consent of other heirs; a bequest in excess of 1/3 needs ratification. The bequest to a person not in existence is void unless the person is born within six months. A bequest in favour of a murderer-legatee is invalid (Sunni).",
+            "Waqf: permanent dedication of property by a person professing Islam for a purpose recognised as religious, pious or charitable (S.3(r) Waqf Act 1995). Modes: declaration (oral or written), usage (waqf by user - prospectively removed by the 2025 amendment), endowment by will (within 1/3), mortgage/ immemorial usage. Waqf-alal-aulad (family waqf) is valid under the Mussalman Wakf Validating Act 1913, provided the ultimate benefit is for the poor. The mutawalli is a manager, not an owner (can be removed for breach). Waqf Board and Tribunal supervise. Property once waqf is inalienable.",
+            "Waqf (Amendment) Act 2025 (renames the 1995 Act as the Unified Waqf Management, Empowerment, Efficiency and Development Act): in an interim order of 15 September 2025 (2025 INSC 1116, CJI Gavai and Masih J), the Supreme Court did not stay the Act as a whole but stayed: the requirement that a waqf donor must have practised Islam for 5 years (until rules prescribe a determination process); the proviso to S.3C(2) (property under inquiry not treated as waqf) and S.3C(3)-(4) (officer to correct revenue records), pending a Waqf Tribunal decision. It capped non-Muslim members at 4 of 22 in the Central Waqf Council and 3 of 11 in a State Waqf Board. It did not stay the removal of 'waqf by user' (prospective), S.3D (protected monuments), S.3E (Scheduled Tribes land), mandatory deed and registration, and the application of the Limitation Act. Final decision: pending in the sources reviewed - verify.",
+            "Pre-emption (shufa): the right of a co-owner or neighbour to purchase property sold to a stranger by substituting himself for the buyer. Classes: shafi-i-sharik (co-sharer), shafi-i-khalit (participator in appendages/immunities such as a right of way), shafi-i-jar (adjoining neighbour). Three demands: talab-i-mowasibat (immediate demand), talab-i-ishhad (demand with witnesses), talab-i-khusumat (filing suit). Pre-emption is a weak right, defeated by any legitimate means (Bishan Singh v Khazan Singh, 1958); Bhau Ram v Baij Nath Singh (1962) upheld pre-emption on ground of vicinage as a reasonable restriction (then Art 19(1)(f)). Hindu and Christian law do not recognise pre-emption by custom except where custom exists.",
+            "Inheritance (Sunni/Hanafi): three classes - Sharers (Quranic heirs; 12: husband, wife, daughter, son's daughter, father, mother, true grandfather, true grandmother, full sister, consanguine sister, uterine brother, uterine sister), Residuaries (agnatic, e.g. son, father, brother), Distant kindred (dhawul arham). There is no representation (a grandchild is excluded if a son of the deceased is alive) and no distinction of birth rights. Wife: 1/8 with children, 1/4 without; husband: 1/4 with children, 1/2 without; mother: 1/6 with children or two or more siblings, otherwise 1/3; father: 1/6 with son; daughter alone 1/2, two or more 2/3 jointly; a daughter with a son becomes residuary and takes half of the son's share. Doctrines: awl (proportionate reduction when shares exceed unity) and radd (return of surplus to sharers). Shias do not follow the Asaba (residuary) system; they distribute among three classes of heirs by nearness of relationship. A murderer is disqualified (Sunni); apostasy and conversion no longer disqualify (Caste Disabilities Removal Act 1850).",
+            "Women's property: Muslim women own and dispose of property absolutely and independently of the husband; a wife's mahr is a debt."
+          ],
+          "provisions": [
+            {
+              "ref": "S.129 TPA",
+              "note": "Saves Muslim gift rules."
+            },
+            {
+              "ref": "S.3(r) Waqf Act 1995 (amended 2025)",
+              "note": "Definition of waqf."
+            },
+            {
+              "ref": "Mussalman Wakf Validating Act 1913",
+              "note": "Validity of family waqf."
+            }
+          ],
+          "case_laws": [
+            {
+              "name": "Hafeeza Bibi v Shaikh Mohammad Farooq",
+              "year": "2011",
+              "holding": "Gift under Muslim law requires declaration, acceptance and delivery of possession; registration not necessary."
+            },
+            {
+              "name": "Bishan Singh v Khazan Singh",
+              "year": "1958",
+              "holding": "Pre-emption is a weak right; the pre-emptor must show the right at all stages."
+            },
+            {
+              "name": "Bhau Ram v Baij Nath Singh",
+              "year": "1962",
+              "holding": "Pre-emption on ground of vicinage is a reasonable restriction."
+            },
+            {
+              "name": "Waqf (Amendment) Act 2025 interim order",
+              "year": "2025",
+              "holding": "Selective stay: 5-year practising-Muslim clause and part of S.3C stayed; non-Muslim members capped; Act not stayed as a whole."
+            }
+          ],
+          "traps": [
+            "A Muslim gift needs possession; a registered deed alone does not validate it.",
+            "Will: 1/3 limit; bequest to heirs needs consent of the other heirs (Sunni).",
+            "Pre-emption has three demands - immediate, with witnesses, and suit.",
+            "No representation in Muslim inheritance.",
+            "Waqf is not a trust; mutawalli is manager, not owner."
+          ],
+          "memory_aids": [
+            "Hiba = DAD (Declaration, Acceptance, Delivery).",
+            "Pre-emption: Immediate - Witness - Suit."
+          ],
+          "likely_question_angles": [
+            "Essentials of a valid Muslim gift.",
+            "Maximum bequest without heirs' consent.",
+            "Number of demands in pre-emption.",
+            "Waqf Act amendment - what did the SC stay?",
+            "Share of the widow when children exist."
+          ]
+        },
+        {
+          "id": "6A-10",
+          "title": "Christian and Parsi Law - Marriage, Divorce, Succession",
+          "priority": "Medium",
+          "expected_weight": "1 question",
+          "summary": "Indian Christian Marriage Act 1872, Indian Divorce Act 1869, Indian Succession Act 1925 (Christians and Parsis) and the Parsi Marriage and Divorce Act 1936.",
+          "key_points": [
+            "Indian Christian Marriage Act 1872: applies where at least one party is a Christian; marriage is solemnised by a minister of the church, a clergyman, a Marriage Registrar or a licensed person; marriage age: groom 21 and bride 18; notice and publication requirements; marriage registered. A marriage solemnised in breach is void in certain cases.",
+            "Indian Divorce Act 1869 (applies where the petitioner or respondent professes Christianity): S.10 divorce grounds (adultery, cruelty, desertion for 2 years, unsound mind, venereal disease, conversion/failure to comply with restitution decree, wife's grounds including rape, sodomy, bestiality). The 2001 Amendment (Indian Divorce (Amendment) Act 2001) equalised grounds for husband and wife (earlier, the wife needed adultery plus another ground - struck down in Ammini E.J. v Union of India, Kerala HC 1995); it inserted S.10A: divorce by mutual consent after separation for 2 years or more (compare 1 year under HMA and SMA). Leprosy was omitted from the 1869 Act by the 2019 Act - verify.",
+            "Alimony under the Divorce Act: S.36 interim alimony and S.37 permanent alimony (up to 1/5th of husband's average income); custody S.41.",
+            "Christian intestate succession (ISA 1925, Part V, Chapter II): widow takes 1/3 of the estate and lineal descendants take the remaining 2/3 (S.33(a)); if there are no lineal descendants but there are kindred, widow takes 1/2 and kindred 1/2 (S.33(b)); if there are no descendants or kindred, the widow takes the entire estate (S.33(c)); children take equally; no preference of sons over daughters. Mary Roy v State of Kerala (1986): Travancore Christian Succession Act 1916 was superseded by the ISA 1925; daughters now share equally with sons.",
+            "Wills (ISA 1925, Part VI): S.59 competent testator (sound mind, not minor); S.63 execution - signed by testator (or by another in his presence and by his direction) with a mark if illiterate, and attested by two or more witnesses, each of whom has seen the testator sign; wills of a Christian or any non-Hindu are governed by ISA irrespective of religion. S.118 (bequest to religious or charitable uses within a certain time before death) was struck down in John Vallamattom v Union of India (2003) as violating Art 14 and 25.",
+            "Parsi Marriage and Divorce Act 1936: S.3 conditions - monogamy, no prohibited relationship, age 21 for male and 18 for female, solemnised by a priest (Dastur) in the presence of two Parsi witnesses (Ashirvad ceremony); S.4 bigamy void and punishable (S.5); a Parsi who ceases to be a Parsi by conversion may be sued for divorce (S.32(j)).",
+            "Parsi divorce (S.32): (a) non-consummation within 1 year due to wilful refusal; (b) unsound mind at the time of marriage and continuing; (c) wife pregnant by another at marriage; (d) adultery, fornication, bigamy, rape or unnatural offence by respondent; (dd) cruelty; (e) hurt/venereal disease; (f) husband guilty of rape; (g) imprisonment of 7 years or more; (h) desertion for 2 years; (i) failure to comply with a decree for separate maintenance for 1 year; (j) conversion; S.32B mutual consent after 1 year of marriage. Matrimonial courts consist of a judge with Parsi delegates.",
+            "Parsi intestate succession (ISA 1925 S.50-56): widow and children take equal shares (a widow takes a share equal to each child); parents take a half share of a child's share; no distinction between sons and daughters; rules differ if the intestate is a Parsi woman (husband or widower takes a child-equal share).",
+            "Jews and others: Indian Succession Act governs; Jewish law is uncodified and applied as custom."
+          ],
+          "provisions": [
+            {
+              "ref": "S.10, 10A Indian Divorce Act 1869",
+              "note": "Grounds; mutual consent after 2 years."
+            },
+            {
+              "ref": "S.33 ISA 1925",
+              "note": "Christian intestate succession: widow 1/3."
+            },
+            {
+              "ref": "S.3, 32 Parsi Marriage and Divorce Act 1936",
+              "note": "Conditions; divorce."
+            }
+          ],
+          "case_laws": [
+            {
+              "name": "Mary Roy v State of Kerala",
+              "year": "1986",
+              "holding": "ISA 1925 applies to Syrian Christians of Travancore; equal share to daughters."
+            },
+            {
+              "name": "John Vallamattom v Union of India",
+              "year": "2003",
+              "holding": "S.118 ISA struck down as discriminatory against Christians."
+            },
+            {
+              "name": "Ammini E.J. v Union of India (Kerala HC)",
+              "year": "1995",
+              "holding": "Discriminatory divorce grounds for Christian wives struck down."
+            }
+          ],
+          "traps": [
+            "Christian widow gets 1/3 (not 1/4) where there are descendants.",
+            "Christian mutual consent requires 2 years' separation (not 1).",
+            "Parsi marriage needs a Parsi priest and two Parsi witnesses."
+          ],
+          "memory_aids": [
+            "Christian widow: 1/3 - 1/2 - all (descendants - kindred - none)."
+          ],
+          "likely_question_angles": [
+            "Share of a widow under ISA.",
+            "Mutual consent divorce period for Christians.",
+            "Mary Roy v State of Kerala.",
+            "Essentials of a Parsi marriage."
+          ]
+        },
+        {
+          "id": "6A-11",
+          "title": "Special Marriage Act 1954",
+          "priority": "High",
+          "expected_weight": "1 question",
+          "summary": "Secular civil marriage for any two persons (including inter-faith couples) with a notice procedure, plus registration of existing marriages and divorce provisions.",
+          "key_points": [
+            "S.4 conditions: (a) neither party has a spouse living; (b) neither is incapable of giving valid consent due to unsoundness of mind, nor suffering from mental disorder making them unfit for marriage and procreation, nor subject to recurrent insanity; (c) groom 21 and bride 18; (d) parties not within prohibited degrees (unless custom permits one party's religion);",
+            "Procedure: notice to the Marriage Officer of the district where one party has resided for at least 30 days (S.5); the notice is published for 30 days (S.6-7); objections within 30 days (S.7); inquiry (S.8); marriage solemnised within 3 months of the notice (S.14 - fresh notice if lapsed); solemnisation in the presence of three witnesses and the Marriage Officer (S.11-13); certificate is conclusive evidence (S.13). The Allahabad High Court in Safiya Sultana v State of U.P. (2021) held that publication of notice is optional at the request of the parties; the Supreme Court has recognised the right to marry a person of one's choice as part of Art 21 (Lata Singh v State of U.P., 2006; Shafin Jahan v Asokan K.M., 2018).",
+            "S.15-18: registration of marriages solemnised in other forms - conditions: a ceremony was performed; neither party has a spouse; neither is of unsound mind; both completed age; not within prohibited degrees; parties have resided in the district for 30 days; registration makes the marriage a marriage under the Act.",
+            "S.19: marriage solemnised under the Act of a member of an undivided family professing Hindu, Buddhist, Sikh or Jain religion is deemed to effect his severance from the family. S.21: succession to property of persons married under the Act and their issue is governed by the Indian Succession Act 1925; S.21A: where both are Hindu, Buddhist, Sikh or Jain, the Hindu Succession Act applies instead.",
+            "Matrimonial reliefs: S.22 restitution; S.23 judicial separation; S.24 void marriages (breach of S.4(a), (b), (c), (d)... void conditions); S.25 voidable marriages (non-consummation due to wilful refusal; respondent pregnant by another; consent by force or fraud; mental disorder); S.27 divorce grounds (adultery, desertion for 2 years, imprisonment for 7 years, cruelty, unsound mind, venereal disease; wife's grounds - rape, sodomy, bestiality, non-compliance with a maintenance decree); S.28 mutual consent after 1 year of separation, with the 6-18 month process as under HMA (Amardeep Singh principles apply); S.36 interim alimony and S.37 permanent alimony.",
+            "Supriyo @ Supriya Chakraborty v Union of India (17 October 2023, Constitution Bench): no fundamental right to marry; the Court declined to read down or strike down provisions of the SMA to include same-sex marriage; it left the question to Parliament; the Union assured a committee on rights of queer couples; review petitions were dismissed in January 2025 (verify). The Court recognised that queer couples have the right to cohabit and non-discrimination; CARA regulation barring single/queer adoptions stays.",
+            "Interfaith couples: the SMA does not require conversion; several states' anti-conversion laws require declarations for conversions, not for SMA marriages; Shakti Vahini v Union of India (2018) and Lata Singh protect adult choice and direct protective measures against honour crimes."
+          ],
+          "provisions": [
+            {
+              "ref": "S.4, 5-13, 15, 19, 21, 21A, 27, 28 SMA",
+              "note": "Conditions, procedure, registration, effects, divorce."
+            }
+          ],
+          "case_laws": [
+            {
+              "name": "Supriyo @ Supriya Chakraborty v Union of India",
+              "year": "2023",
+              "holding": "No fundamental right to marry; SMA not read down to include same-sex marriage; matter for Parliament."
+            },
+            {
+              "name": "Lata Singh v State of U.P.",
+              "year": "2006",
+              "holding": "Adults may marry a person of their choice; inter-caste marriage protected."
+            },
+            {
+              "name": "Shafin Jahan v Asokan K.M. (Hadiya case)",
+              "year": "2018",
+              "holding": "Right to marry a person of choice is part of Art 21."
+            },
+            {
+              "name": "Shakti Vahini v Union of India",
+              "year": "2018",
+              "holding": "Directions against honour killings and khap panchayat interference."
+            }
+          ],
+          "traps": [
+            "30-day notice and 30-day objection; marry within 3 months of notice.",
+            "SMA marriage severs a Hindu from his undivided family (S.19).",
+            "Succession under SMA marriage is under ISA unless both are Hindus/Buddhists/Sikhs/Jains (S.21A).",
+            "Supriyo (2023) did not legalise same-sex marriage."
+          ],
+          "memory_aids": [
+            "30-30-3: notice 30, objection 30, marry within 3 months."
+          ],
+          "likely_question_angles": [
+            "Notice period under SMA.",
+            "Effect of SMA marriage on a Hindu joint family member.",
+            "Which law governs succession after an SMA marriage?",
+            "Supriyo holding.",
+            "Mutual consent period under SMA."
+          ]
+        },
+        {
+          "id": "6A-12",
+          "title": "Domestic Violence Act 2005, Dowry Prohibition Act 1961, Cruelty and Dowry Death (BNS), Child Marriage Act 2006",
+          "priority": "High",
+          "expected_weight": "1-2 questions",
+          "summary": "Protective statutes for women in the family: definitions, reliefs, penalties and the leading cases.",
+          "key_points": [
+            "Protection of Women from Domestic Violence Act 2005 (in force 26 October 2006): civil remedy with a criminal enforcement component. 'Aggrieved person' (S.2(a)) is a woman who is or has been in a domestic relationship with the respondent (marriage, relationship in the nature of marriage, adoption, joint family) and alleges domestic violence. Respondent (S.2(q)): any adult male; the words 'adult male' were struck down in Hiral P. Harsora v Kusum Narottamdas Harsora (2016) - women can be respondents. Domestic violence (S.3) includes physical, sexual, verbal, emotional and economic abuse and harassment for dowry. Shared household (S.2(s)): where the woman lives or has lived in a domestic relationship, whether or not she has title - Satish Chander Ahuja v Sneha Ahuja (2020) overruled S.R. Batra v Taruna Batra (2007) on narrow reading.",
+            "Reliefs: protection orders (S.18), residence orders (S.19), monetary relief (S.20), custody orders (S.21), compensation (S.22), interim and ex parte orders (S.23). Application to the Magistrate (S.12); the court shall fix first hearing within 3 days and endeavour to dispose within 60 days (S.12(5)); Protection Officer (S.8-9), service providers (S.10), counselling and in-camera proceedings; breach of a protection order is an offence (S.31) - imprisonment up to 1 year or fine up to Rs 20,000 or both; appeal to Sessions Court in 30 days (S.29). Remedies under the Act are in addition to other laws (S.26). D. Velusamy v D. Patchaiammal (2010) and Indra Sarma v V.K.V. Sarma (2013): 'relationship in the nature of marriage' needs holding out as spouses, legal age to marry, being qualified to marry, voluntary cohabitation for a significant period; a casual or 'keep' relationship is outside the Act.",
+            "Dowry Prohibition Act 1961: 'dowry' means property given or agreed to be given directly or indirectly at, before or after marriage in connection with the marriage (S.2); gifts given without demand are outside the definition, subject to list-keeping rules. S.3: giving, taking or abetting dowry - at least 5 years' imprisonment and fine of not less than Rs 15,000 or the value of the dowry, whichever is more; S.4: demanding dowry - 6 months to 2 years and fine up to Rs 10,000; S.4A banned advertisements; S.6 dowry to be transferred to the woman within 3 months, held in trust; S.8: offences are cognizable, non-bailable and non-compoundable; S.8A burden of proof on the person who takes or demands dowry; S.8B Dowry Prohibition Officers.",
+            "Cruelty by husband or relatives: S.85 BNS (S.498A IPC) - up to 3 years and fine; S.86 BNS defines cruelty (wilful conduct likely to drive the woman to suicide or cause grave injury, or harassment to coerce her or her relatives to meet unlawful demands for property or valuable security). Dowry death: S.80 BNS (S.304B IPC) - death of a woman within 7 years of marriage by burns or bodily injury or otherwise than under normal circumstances, with cruelty or harassment soon before death in connection with dowry; punishment 7 years to life; presumption under S.118 BSA (S.113B IEA). Abetment of suicide: S.108 BNS (S.306 IPC); S.117 BSA presumption within 7 years of marriage. S.82 BNS - bigamy.",
+            "Arnesh Kumar v State of Bihar (2014): police must not arrest automatically for offences punishable up to 7 years; apply S.41 CrPC (S.35 BNSS) and record reasons. Preeti Gupta v State of Jharkhand (2010) and Dara Lakshmi Narayana v State of Telangana (2024): warn against misuse by exaggerated or omnibus allegations; Rajesh Sharma v State of U.P. (2017) (Family Welfare Committees) was modified by Social Action Forum for Manav Adhikar v Union of India (2018). Rupali Devi v State of U.P. (2019): the court at the wife's refuge place has territorial jurisdiction over mental cruelty offences. Satvir Singh v State of Punjab (2001) and Kans Raj v State of Punjab (2000): 'soon before death' means a proximate and live link, no fixed period.",
+            "Prohibition of Child Marriage Act 2006: child = male under 21, female under 18. Child marriage is voidable at the option of the child party, by petition to the district court within 2 years after attaining majority (S.3); void in certain cases (S.12: child taken away from guardian by enticement or force, sold for marriage, or trafficked for immoral purposes). S.4: maintenance and residence to the female contracting party until remarriage; S.5-6: custody, maintenance and legitimacy of children. Punishments: S.9 adult male above 18 marrying a child, S.10 solemnising, S.11 promoting or permitting - rigorous imprisonment up to 2 years and fine up to Rs 1 lakh (no imprisonment for a woman for S.9-10). S.13 injunction power; S.15 offences cognizable and non-bailable; Child Marriage Prohibition Officers (S.16). Independent Thought v Union of India (2017): sexual intercourse with a wife aged 15-18 is rape (Exception 2 read down); BNS S.63 exception 2 now sets the age at 18. Marital rape of an adult wife is still excepted (challenge pending in the Supreme Court - verify).",
+            "Other: Surrogacy (Regulation) Act 2021 (altruistic surrogacy only, intending married couple, five years of marriage and infertility certificate; woman 25-50 and man 26-55 years) and the Assisted Reproductive Technology (Regulation) Act 2021 - peripheral; the Supreme Court in 2025 relaxed the age limits for couples who had begun the process before the Act (verify)."
+          ],
+          "provisions": [
+            {
+              "ref": "S.2(a), 3, 12, 17-23, 31 DV Act",
+              "note": "Aggrieved person, abuse, application, residence, reliefs, penalty."
+            },
+            {
+              "ref": "S.3, 4, 6, 8A Dowry Prohibition Act",
+              "note": "Penalties, trust, burden of proof."
+            },
+            {
+              "ref": "S.80, 85, 86, 108 BNS",
+              "note": "Dowry death; cruelty; abetment of suicide."
+            },
+            {
+              "ref": "S.3, 9-11, 15 PCMA 2006",
+              "note": "Voidable; punishments; offences cognizable and non-bailable."
+            }
+          ],
+          "case_laws": [
+            {
+              "name": "Hiral P. Harsora v Kusum Narottamdas Harsora",
+              "year": "2016",
+              "holding": "'Adult male' in S.2(q) DV Act struck down; women can be respondents."
+            },
+            {
+              "name": "Satish Chander Ahuja v Sneha Ahuja",
+              "year": "2020",
+              "holding": "Shared household is not limited to property owned by the husband; overrules S.R. Batra."
+            },
+            {
+              "name": "D. Velusamy v D. Patchaiammal",
+              "year": "2010",
+              "holding": "Conditions for a relationship in the nature of marriage."
+            },
+            {
+              "name": "Arnesh Kumar v State of Bihar",
+              "year": "2014",
+              "holding": "No routine arrest in S.498A cases; magistrate must verify."
+            },
+            {
+              "name": "Independent Thought v Union of India",
+              "year": "2017",
+              "holding": "Exception 2 to S.375 IPC read down: sex with wife under 18 is rape."
+            },
+            {
+              "name": "Satvir Singh v State of Punjab",
+              "year": "2001",
+              "holding": "'Soon before' dowry death means proximate link, no fixed time."
+            }
+          ],
+          "traps": [
+            "DV Act reliefs are civil, but breach of a protection order is a criminal offence.",
+            "DV Act: respondents can be women (relatives) after Harsora.",
+            "Dowry Act S.3 minimum is 5 years (not 6 months).",
+            "Dowry death: 7 years minimum, may extend to life.",
+            "PCMA: marriage is voidable (not void) at the option of the child party, except S.12 cases."
+          ],
+          "memory_aids": [
+            "DV reliefs 18-22: Protection - Residence - Money - Custody - Compensation.",
+            "304B = 7 to life; 498A = up to 3 years."
+          ],
+          "likely_question_angles": [
+            "Who is an aggrieved person under the DV Act?",
+            "Time limit for disposal of DV application.",
+            "Punishment for dowry death.",
+            "Voidability of child marriage and limitation.",
+            "Meaning of 'shared household'."
+          ]
+        },
+        {
+          "id": "6A-13",
+          "title": "Uniform Civil Code and Constitutional Dimensions of Personal Law",
+          "priority": "Medium",
+          "expected_weight": "Occasional 1 question, hot topic",
+          "summary": "Art 44, judicial calls for a UCC, and the state UCC laws (Uttarakhand, Gujarat, Assam) are active current-affairs hooks.",
+          "key_points": [
+            "Art 44 (DPSP): the State shall endeavour to secure a UCC for citizens throughout India. Art 25-26 protect religious freedom; personal laws and Part III: State of Bombay v Narasu Appa Mali (1952) held personal laws are not 'laws in force' under Art 13; contrary views in later cases. Shayara Bano (2017) tested triple talaq under Part III; Sabarimala (2018) and Joseph Shine (2018) show a pro-equality trend.",
+            "Judicial calls for UCC: Shah Bano (1985), Sarla Mudgal (1995), John Vallamattom (2003), Jorden Diengdeh (1985). Law Commission 21st Report (2018): UCC neither necessary nor desirable at this stage; the 22nd Law Commission invited views in 2023.",
+            "Uttarakhand Uniform Civil Code Act 2024: passed February 2024 and operationalised 27 January 2025 - first state UCC. Covers marriage age 21/18, mandatory registration of marriages and live-in relationships, ban on polygamy and halala, equal intestate succession (Class I heirs), and rights of children of live-in relationships; excludes Scheduled Tribes. (Verify current rules and amendments.)",
+            "Gujarat UCC 2026: tabled in the Assembly in March 2026 and passed in early April 2026; the President's assent was reported - verify the commencement date. Follows the Uttarakhand framework with stricter penalties for non-registration (reported).",
+            "Assam UCC Bill 2026: passed by the Assembly in the last week of May 2026 (reported as the third state); assent and commencement - verify. Largely similar framework; tribal and constitutional carve-outs.",
+            "Common features of state UCCs (as reported): marriage age 21/18; ban on polygamy; mandatory registration of marriage; live-in registration; equal intestate share for sons and daughters; Scheduled Tribes excluded; wills unaffected. Constitutional questions raised: legislative competence (marriage and succession are in the Concurrent List, Entry 5, so states can legislate subject to Art 254 and Presidential assent) and religious freedom (Art 25).",
+            "Goa: Portuguese Civil Code of 1867 is the long-standing example of a common civil code.",
+            "Triple talaq, Shayara Bano and the 2019 Act, as well as the Waqf Amendment Act 2025, are the key central statutory/judicial developments touching Muslim personal law."
+          ],
+          "provisions": [
+            {
+              "ref": "Art 44, 25, 26, 14, 15, 21",
+              "note": "UCC and fundamental rights."
+            },
+            {
+              "ref": "Entry 5, List III",
+              "note": "Marriage, divorce, succession - Concurrent List; state UCCs need Art 254 assent."
+            }
+          ],
+          "case_laws": [
+            {
+              "name": "Shayara Bano v Union of India",
+              "year": "2017",
+              "holding": "Triple talaq struck down."
+            },
+            {
+              "name": "State of Bombay v Narasu Appa Mali",
+              "year": "1952",
+              "holding": "Personal laws are not 'laws in force' for Art 13."
+            }
+          ],
+          "traps": [
+            "Art 44 is a Directive Principle, not enforceable.",
+            "Marriage and succession are in the Concurrent List, so states may enact UCCs with Presidential assent where they conflict with central law.",
+            "Uttarakhand was first (in force 27 Jan 2025); Goa has an older common code."
+          ],
+          "memory_aids": [
+            "UCC states: Uttarakhand (2025), Gujarat (2026), Assam (2026) - reported."
+          ],
+          "likely_question_angles": [
+            "Article on UCC.",
+            "First state to implement UCC (Uttarakhand).",
+            "Which case urged a UCC?"
+          ]
+        },
+        {
+          "id": "6A-14",
+          "title": "Family Courts Act 1984, Live-in Relationships and Miscellaneous Family Statutes",
+          "priority": "Medium",
+          "expected_weight": "Occasional",
+          "summary": "Procedural machinery and shorter statutes that frequently supply single MCQs.",
+          "key_points": [
+            "Family Courts Act 1984: establishes Family Courts in cities with population over 10 lakh; S.7 jurisdiction over matrimonial relief, property of spouses, legitimacy, guardianship, maintenance (including S.125 CrPC); S.9 duty to assist in reconciliation; S.10 procedure follows CPC but flexible; S.11 in camera; S.13 no right to legal practitioner without leave of the court; S.19 appeal to High Court within 30 days; no revision.",
+            "Live-in relationships: not a statutory status; relief via DV Act (S.2(f)), maintenance (S.125 CrPC), and legitimacy of children (S.16 HMA by analogy). Cases: Lata Singh (2006), Indra Sarma (2013), Velusamy (2010), S. Khushboo v Kanniammal (2010) (live-in is not an offence), Badri Prasad v Dy Director of Consolidation (1978), Tulsa v Durghatiya (2008) (long cohabitation raises presumption of marriage). Uttarakhand UCC requires registration of live-in relationships.",
+            "Hindu women's property rights: Stridhan (property given before or after marriage: gifts from parents, husband, relatives) is absolute property of the wife (Pratibha Rani v Suraj Kumar, 1985).",
+            "Maintenance of Parents and Senior Citizens Act 2007 and Dowry Prohibition Rules 1985 (list of presents at marriage) are noted in earlier topics.",
+            "Foreign decrees: S.13 CPC; Y. Narasimha Rao v Y. Venkata Lakshmi (1991): a foreign divorce decree is recognised only if the court had jurisdiction under the Act the parties were married under, was on merits, and was in accordance with the matrimonial law of the parties.",
+            "Transfer of matrimonial petitions: S.24 CPC and Art 142; Anindita Das v Srijit Das (2006) - the Supreme Court transfers petitions under S.25 CPC."
+          ],
+          "provisions": [
+            {
+              "ref": "S.7, 9, 13, 19 Family Courts Act 1984",
+              "note": "Jurisdiction, reconciliation, no lawyer as of right, appeal."
+            }
+          ],
+          "case_laws": [
+            {
+              "name": "Y. Narasimha Rao v Y. Venkata Lakshmi",
+              "year": "1991",
+              "holding": "Conditions for recognising a foreign matrimonial decree."
+            },
+            {
+              "name": "S. Khushboo v Kanniammal",
+              "year": "2010",
+              "holding": "Live-in relationship between adults is not an offence."
+            },
+            {
+              "name": "Pratibha Rani v Suraj Kumar",
+              "year": "1985",
+              "holding": "Stridhan is the wife's absolute property."
+            }
+          ],
+          "traps": [
+            "Family Court appeals lie to the High Court within 30 days.",
+            "A foreign divorce is not recognised if obtained by a court without jurisdiction under the parties' marital law."
+          ],
+          "memory_aids": [
+            "FCA: Conciliation first (S.9); lawyers only by leave (S.13)."
+          ],
+          "likely_question_angles": [
+            "Time limit to appeal from a Family Court.",
+            "Stridhan ownership.",
+            "Recognition of foreign decrees."
+          ]
+        }
+      ],
+      "recent_developments": [
+        {
+          "date": "Nov 2025 - Oct 2026",
+          "item": "Talaq-e-hasan litigation: the Supreme Court sent one dispute to mediation (Justice Kurian Joseph) and on 16 October 2026 asked the Centre to respond to a plea for uniform safeguards for all forms of talaq, clubbing it with the main petition (CJI Surya Kant and Bagchi J).",
+          "why_it_matters": "Current-affairs MCQ on talaq-e-hasan versus talaq-e-biddat; also 2019 Act."
+        },
+        {
+          "date": "June 2026",
+          "item": "Darubai v Kamalabai (2026 INSC 613): property inherited under S.8 HSA is not coparcenary; no karta power over co-heirs' shares.",
+          "why_it_matters": "Likely HSA/joint family MCQ."
+        },
+        {
+          "date": "April-May 2026",
+          "item": "Gujarat passed its UCC (April 2026; assent reported) and Assam passed its UCC Bill (last week of May 2026), after Uttarakhand (in force 27 January 2025).",
+          "why_it_matters": "UCC and live-in registration questions."
+        },
+        {
+          "date": "15 Sept 2025",
+          "item": "Supreme Court's interim order on the Waqf (Amendment) Act 2025: selective stay (5-year practising-Muslim clause; part of S.3C); cap on non-Muslim board members; Act not stayed as a whole.",
+          "why_it_matters": "Waqf current-affairs MCQ."
+        },
+        {
+          "date": "Feb 2025",
+          "item": "X v Y (2025 INSC 197): spouse in a void marriage can claim permanent alimony under S.25 HMA; 'illegitimate wife'/'faithful mistress' language is misogynistic.",
+          "why_it_matters": "Maintenance and void marriage MCQ."
+        },
+        {
+          "date": "10 July 2024",
+          "item": "Mohd Abdul Samad v State of Telangana: divorced Muslim women can claim maintenance under S.125 CrPC (S.144 BNSS).",
+          "why_it_matters": "Frequent Muslim maintenance MCQ."
+        },
+        {
+          "date": "2024",
+          "item": "Dolly Rani v Manish Kumar Chanchal: a Hindu marriage requires valid ceremonies; registration certificate is not enough.",
+          "why_it_matters": "HMA S.7 and S.8 MCQ."
+        },
+        {
+          "date": "1 May 2023",
+          "item": "Shilpa Sailesh v Varun Sreenivasan (Constitution Bench): Art 142 divorce on irretrievable breakdown; cooling period waivable.",
+          "why_it_matters": "Most-tested divorce case."
+        },
+        {
+          "date": "17 Oct 2023 / Jan 2025",
+          "item": "Supriyo v Union of India: no fundamental right to marry; same-sex marriage not recognised under SMA; review dismissed (reported Jan 2025).",
+          "why_it_matters": "SMA and equality MCQ."
+        },
+        {
+          "date": "1 July 2024",
+          "item": "BNS/BNSS/BSA in force: S.85-86 BNS (498A), S.80 BNS (dowry death), S.82 BNS (bigamy), S.144 BNSS (maintenance); adultery not retained in BNS.",
+          "why_it_matters": "Dual numbering in MCQ stems."
+        }
+      ],
+      "rapid_fire_one_liners": [
+        "HMA S.5: groom 21, bride 18; void = S.5(i), (iv), (v); voidable under S.12.",
+        "Divorce: desertion 2 years; not heard of 7 years; leprosy omitted 2019.",
+        "Wife-only grounds: S.13(2) - pre-1955 bigamy, rape/sodomy/bestiality, maintenance non-resumption (1 year), puberty option (before 15; repudiate before 18).",
+        "S.13B: 1 year separation; 6-18 months; cooling period directory (Amardeep Singh 2017); Art 142 (Shilpa Sailesh 2023).",
+        "S.9 RCR upheld: Saroj Rani 1984 (T. Sareetha overruled).",
+        "S.14 HMA: no petition within 1 year of marriage unless exceptional hardship.",
+        "Saptapadi: where part of rites, complete on the seventh step. Registration is not validity.",
+        "S.16 HMA: children of void/voidable marriages legitimate; inherit only from parents.",
+        "S.25 HMA: permanent alimony available even in void marriage (X v Y 2025).",
+        "HAMA S.7 male adoption with wife's consent; S.8 female unmarried/ex-married; adoptee under 15 unless custom; age gap 21 years for opposite sex.",
+        "Shabnam Hashmi 2014: JJ Act adoption for all religions.",
+        "HMGA: natural guardian - father, then mother; child under 5 with mother; welfare paramount.",
+        "Gita Hariharan 1999: mother can be natural guardian in father's lifetime if he is absent/indifferent.",
+        "HSA S.6 2005: daughter coparcener by birth (Vineeta Sharma 2020).",
+        "Class I: mother yes; father is Class II no.1.",
+        "S.14 HSA: female's property is absolute.",
+        "S.15 HSA: female intestate - children and husband, then husband's heirs, then parents; inherited-from-parents property goes back to father's heirs.",
+        "S.8-inherited property is separate property (Yudhishter, Darubai 2026).",
+        "Mahr is an obligation, not consideration; Hanafi minimum 10 dirhams.",
+        "Muslim will: 1/3 limit; heirs' consent for bequests to heirs.",
+        "Hiba: declaration, acceptance, delivery of possession.",
+        "Instant triple talaq void: Shayara Bano (2017, 3:2); 2019 Act punishes up to 3 years.",
+        "DMMA S.2: 4-2-7-3-2 and puberty option 15/18.",
+        "Shah Bano 1985 -> 1986 Act -> Danial Latifi 2001 -> Abdul Samad 2024.",
+        "Iddat: widow 4 months 10 days; divorced 3 courses/3 months.",
+        "Christian widow takes 1/3 (S.33 ISA); Mary Roy 1986.",
+        "SMA: 30-day notice, 30-day objection, 3 months to marry.",
+        "DV Act: 60-day disposal; Harsora 2016; Ahuja 2020.",
+        "Dowry Act S.3: min 5 years + Rs 15,000/value; dowry death 7 years to life.",
+        "PCMA: voidable at option of child; annulment within 2 years of majority; offences cognizable and non-bailable.",
+        "S.144 BNSS: no cap; divorced wife who has not remarried; disqualified if in adultery/refuses without reason/separate by consent.",
+        "Supriyo 2023: no fundamental right to marry.",
+        "Uttarakhand UCC in force 27 January 2025; Gujarat and Assam UCCs passed 2026."
+      ],
+      "mcqs": [
+        {
+          "q": "Under S.5(iii) of the Hindu Marriage Act, the minimum ages of the bridegroom and the bride are:",
+          "options": [
+            "18 and 15",
+            "21 and 18",
+            "21 and 21",
+            "18 and 18"
+          ],
+          "answer_index": 1,
+          "explain": "Groom 21, bride 18 (S.5(iii) HMA)."
+        },
+        {
+          "q": "A marriage in contravention of S.5(i) (bigamy) of the HMA is:",
+          "options": [
+            "Void",
+            "Voidable",
+            "Valid but punishable only",
+            "Valid"
+          ],
+          "answer_index": 0,
+          "explain": "S.11: breach of S.5(i), (iv) or (v) renders the marriage void."
+        },
+        {
+          "q": "Which of the following makes a Hindu marriage voidable under S.12 HMA?",
+          "options": [
+            "Existing living spouse",
+            "Marriage within prohibited degrees",
+            "Sapinda relationship",
+            "Respondent pregnant by another person at the time of marriage, petitioner ignorant"
+          ],
+          "answer_index": 3,
+          "explain": "S.12(1)(d). The other options are void under S.11."
+        },
+        {
+          "q": "Under the HMA alone, contravention of the age condition in S.5(iii) makes the marriage:",
+          "options": [
+            "Void",
+            "Voidable",
+            "Neither void nor voidable but punishable",
+            "Automatically dissolved"
+          ],
+          "answer_index": 2,
+          "explain": "S.18 punishes it; (the PCMA 2006 separately makes child marriage voidable at the child's option)."
+        },
+        {
+          "q": "Desertion as a ground of divorce under S.13(1)(ib) HMA requires a continuous period of at least:",
+          "options": [
+            "6 months",
+            "2 years",
+            "1 year",
+            "3 years"
+          ],
+          "answer_index": 1,
+          "explain": "Two years immediately preceding the petition."
+        },
+        {
+          "q": "Which divorce ground is available only to a wife under S.13(2) HMA?",
+          "options": [
+            "Husband guilty of rape, sodomy or bestiality",
+            "Cruelty",
+            "Adultery",
+            "Conversion"
+          ],
+          "answer_index": 0,
+          "explain": "S.13(2)(ii) is a wife-only ground."
+        },
+        {
+          "q": "Under S.13B(2) HMA the court may grant a mutual consent divorce after a minimum waiting period of:",
+          "options": [
+            "3 months",
+            "18 months",
+            "12 months",
+            "6 months"
+          ],
+          "answer_index": 3,
+          "explain": "6 months and not later than 18 months from the petition; Amardeep Singh held the 6 months directory."
+        },
+        {
+          "q": "In Amardeep Singh v Harveen Kaur (2017) the Supreme Court held that the 6-month period in S.13B(2):",
+          "options": [
+            "Is mandatory",
+            "Is unconstitutional",
+            "Is directory and can be waived in appropriate cases",
+            "Applies only to Christians"
+          ],
+          "answer_index": 2,
+          "explain": "Directory; waivable if no chance of reconciliation."
+        },
+        {
+          "q": "In Shilpa Sailesh v Varun Sreenivasan (2023), the Constitution Bench held that:",
+          "options": [
+            "Irretrievable breakdown is a statutory ground",
+            "The Supreme Court can use Art 142 to dissolve a marriage on irretrievable breakdown",
+            "Divorce needs a minimum of 5 years' separation",
+            "S.13B is unconstitutional"
+          ],
+          "answer_index": 1,
+          "explain": "Art 142 power, discretionary, with guidelines; not a statutory ground."
+        },
+        {
+          "q": "The constitutional validity of restitution of conjugal rights (S.9 HMA) was upheld in:",
+          "options": [
+            "Saroj Rani v Sudarshan Kumar Chadha",
+            "T. Sareetha v Venkata Subbaiah",
+            "Harvinder Kaur v Harmander Singh",
+            "Joseph Shine v Union of India"
+          ],
+          "answer_index": 0,
+          "explain": "Saroj Rani (1984) upheld S.9 and overruled T. Sareetha."
+        },
+        {
+          "q": "Which case laid down illustrative instances of mental cruelty?",
+          "options": [
+            "Sureshta Devi v Om Prakash",
+            "Dastane v Dastane",
+            "Naveen Kohli v Neelu Kohli",
+            "Samar Ghosh v Jaya Ghosh"
+          ],
+          "answer_index": 3,
+          "explain": "Samar Ghosh (2007)."
+        },
+        {
+          "q": "In X v Y (2025 INSC 197) the Supreme Court held that a spouse in a void marriage:",
+          "options": [
+            "Cannot claim any maintenance",
+            "Can claim only under S.125 CrPC",
+            "Can seek permanent alimony or maintenance under S.25 HMA, which is discretionary",
+            "Can claim only mahr"
+          ],
+          "answer_index": 2,
+          "explain": "Section 25 relief is available to either spouse, depending on facts and conduct."
+        },
+        {
+          "q": "Under S.7 HAMA, a married Hindu male who wishes to adopt needs:",
+          "options": [
+            "Court's permission",
+            "Consent of his wife (unless disqualified)",
+            "Consent of his father",
+            "Consent of the Collector"
+          ],
+          "answer_index": 1,
+          "explain": "S.7 proviso."
+        },
+        {
+          "q": "Where a male Hindu adopts a daughter, the adopter must be at least how many years older than the adoptee?",
+          "options": [
+            "21",
+            "18",
+            "15",
+            "25"
+          ],
+          "answer_index": 0,
+          "explain": "S.11(iii) HAMA: 21 years where the adopter and adoptee are of opposite sex."
+        },
+        {
+          "q": "Shabnam Hashmi v Union of India (2014) held that:",
+          "options": [
+            "Muslims cannot adopt",
+            "Only Hindus can adopt",
+            "Adoption is a fundamental right",
+            "Any person can adopt under the JJ Act irrespective of religion"
+          ],
+          "answer_index": 3,
+          "explain": "The JJ Act is an enabling secular law."
+        },
+        {
+          "q": "As per Gita Hariharan v RBI (1999), 'after' in S.6(a) HMGA means:",
+          "options": [
+            "After the father's death",
+            "After the father's divorce",
+            "In the absence of the father",
+            "After the minor attains 18"
+          ],
+          "answer_index": 2,
+          "explain": "The mother can act as natural guardian when the father is absent or indifferent."
+        },
+        {
+          "q": "A natural guardian's sale of a minor's immovable property without the court's permission is:",
+          "options": [
+            "Void",
+            "Voidable at the instance of the minor",
+            "Valid",
+            "Illegal and criminal"
+          ],
+          "answer_index": 1,
+          "explain": "S.8(3) HMGA."
+        },
+        {
+          "q": "In Vineeta Sharma v Rakesh Sharma (2020), the Supreme Court held that:",
+          "options": [
+            "Daughters are coparceners by birth irrespective of whether the father was alive in 2005",
+            "The father must be alive on 9 Sept 2005 for the daughter's coparcenary right",
+            "Daughters have no right in ancestral property",
+            "Only unmarried daughters are coparceners"
+          ],
+          "answer_index": 0,
+          "explain": "Overruling Prakash v Phulavati on this point."
+        },
+        {
+          "q": "Which of the following is a Class I heir of a Hindu male under the HSA?",
+          "options": [
+            "Father",
+            "Brother",
+            "Sister",
+            "Mother"
+          ],
+          "answer_index": 3,
+          "explain": "Mother is a Class I heir; father is the first entry in Class II."
+        },
+        {
+          "q": "Under S.14(1) HSA, property possessed by a Hindu female is held by her as:",
+          "options": [
+            "A limited owner",
+            "A life tenant",
+            "A full owner",
+            "A trustee"
+          ],
+          "answer_index": 2,
+          "explain": "Absolute ownership; S.14(2) is a narrow exception."
+        },
+        {
+          "q": "Under Darubai v Kamalabai (2026 INSC 613), property inherited under S.8 HSA:",
+          "options": [
+            "Becomes coparcenary property of the heir's sons",
+            "Does not take coparcenary character; the heirs hold shares as tenants in common",
+            "Is always HUF property",
+            "Is held in trust by the eldest male"
+          ],
+          "answer_index": 1,
+          "explain": "Following Yudhishter v Ashok Kumar."
+        },
+        {
+          "q": "Under Muslim law, mahr (dower) is:",
+          "options": [
+            "An obligation imposed on the husband as a mark of respect for the wife",
+            "Consideration for marriage",
+            "A gift to the wife's father",
+            "Payable only on divorce"
+          ],
+          "answer_index": 0,
+          "explain": "Abdul Kadir v Salima (1886)."
+        },
+        {
+          "q": "In Shayara Bano v Union of India (2017) the Supreme Court:",
+          "options": [
+            "Upheld triple talaq",
+            "Upheld talaq-e-hasan",
+            "Banned all forms of talaq",
+            "Declared instant triple talaq (talaq-e-biddat) void and unconstitutional by 3:2"
+          ],
+          "answer_index": 3,
+          "explain": "3:2 majority; talaq-e-hasan is a separate, pending challenge."
+        },
+        {
+          "q": "Under the Muslim Women (Protection of Rights on Marriage) Act 2019, pronouncing instant triple talaq is punishable with imprisonment up to:",
+          "options": [
+            "1 year",
+            "2 years",
+            "3 years",
+            "7 years"
+          ],
+          "answer_index": 2,
+          "explain": "Three years and fine."
+        },
+        {
+          "q": "Under S.2 DMMA 1939, a wife can seek dissolution if the husband has failed to provide maintenance for:",
+          "options": [
+            "1 year",
+            "2 years",
+            "3 years",
+            "4 years"
+          ],
+          "answer_index": 1,
+          "explain": "Two years."
+        },
+        {
+          "q": "Danial Latifi v Union of India (2001) held that the Muslim Women (Protection of Rights on Divorce) Act 1986:",
+          "options": [
+            "Is valid, and 'reasonable and fair provision' includes the future of the divorced woman",
+            "Is unconstitutional",
+            "Applies only to widows",
+            "Overrules S.125 for all Muslims"
+          ],
+          "answer_index": 0,
+          "explain": "The Act was upheld but read down in line with Art 14 and 21."
+        },
+        {
+          "q": "In Mohd Abdul Samad v State of Telangana (2024) the Supreme Court held that a divorced Muslim woman:",
+          "options": [
+            "Can claim only under the 1986 Act",
+            "Can claim only mahr",
+            "Has no right to maintenance",
+            "Can claim maintenance under S.125 CrPC (S.144 BNSS)"
+          ],
+          "answer_index": 3,
+          "explain": "S.125 is secular; the 1986 Act does not override it."
+        },
+        {
+          "q": "Without the consent of heirs, a Sunni Muslim can bequeath by will not more than:",
+          "options": [
+            "1/2 of the estate",
+            "1/4 of the estate",
+            "1/3 of the net estate",
+            "The entire estate"
+          ],
+          "answer_index": 2,
+          "explain": "One-third of the net estate."
+        },
+        {
+          "q": "The essentials of a valid Muslim gift (hiba) are:",
+          "options": [
+            "Writing and registration",
+            "Declaration, acceptance and delivery of possession",
+            "Consideration and witnesses",
+            "Court's approval"
+          ],
+          "answer_index": 1,
+          "explain": "Registration is not required (S.129 TPA)."
+        },
+        {
+          "q": "How many demands must a pre-emptor make under Muslim law?",
+          "options": [
+            "Three",
+            "Two",
+            "One",
+            "Four"
+          ],
+          "answer_index": 0,
+          "explain": "Talab-i-mowasibat, talab-i-ishhad and talab-i-khusumat."
+        },
+        {
+          "q": "In its interim order of 15 September 2025 on the Waqf (Amendment) Act 2025, the Supreme Court:",
+          "options": [
+            "Struck down the entire Act",
+            "Upheld the Act entirely",
+            "Referred the Act to Parliament",
+            "Stayed selected provisions, including the 5-year practising-Muslim requirement, while not staying the Act as a whole"
+          ],
+          "answer_index": 3,
+          "explain": "Selective stay; non-Muslim members capped at 4 of 22 and 3 of 11."
+        },
+        {
+          "q": "Under the Indian Succession Act 1925, where a Christian dies intestate leaving a widow and lineal descendants, the widow takes:",
+          "options": [
+            "1/2",
+            "1/4",
+            "1/3",
+            "The entire estate"
+          ],
+          "answer_index": 2,
+          "explain": "S.33(a) - widow 1/3, descendants 2/3."
+        },
+        {
+          "q": "Mary Roy v State of Kerala (1986) is associated with:",
+          "options": [
+            "Triple talaq",
+            "Equal inheritance rights of Syrian Christian women under the ISA 1925",
+            "Adoption",
+            "Maintenance of wives"
+          ],
+          "answer_index": 1,
+          "explain": "Travancore Christian Succession Act 1916 held superseded."
+        },
+        {
+          "q": "Under the Special Marriage Act, the notice of intended marriage is published for:",
+          "options": [
+            "30 days",
+            "15 days",
+            "7 days",
+            "60 days"
+          ],
+          "answer_index": 0,
+          "explain": "30 days; objections within that period; marry within 3 months."
+        },
+        {
+          "q": "The marriage of a Hindu member of an undivided family under the Special Marriage Act has the effect of:",
+          "options": [
+            "No change in family status",
+            "Automatic conversion",
+            "Voidness",
+            "Severance from the undivided family"
+          ],
+          "answer_index": 3,
+          "explain": "S.19 SMA."
+        },
+        {
+          "q": "Hiral P. Harsora v Kusum Narottamdas Harsora (2016) struck down the words 'adult male' in the DV Act so that:",
+          "options": [
+            "Only men can be respondents",
+            "Only relatives can be respondents",
+            "Women can also be respondents",
+            "The Act applies only to Hindus"
+          ],
+          "answer_index": 2,
+          "explain": "S.2(q) DV Act."
+        },
+        {
+          "q": "Under the Dowry Prohibition Act, the minimum punishment for giving or taking dowry is:",
+          "options": [
+            "6 months",
+            "5 years and fine of Rs 15,000 or the value of dowry, whichever is more",
+            "1 year",
+            "10 years"
+          ],
+          "answer_index": 1,
+          "explain": "S.3 Dowry Prohibition Act as amended in 1986."
+        },
+        {
+          "q": "Punishment for dowry death (S.80 BNS / S.304B IPC) is:",
+          "options": [
+            "Not less than 7 years, may extend to life imprisonment",
+            "Up to 3 years",
+            "Death only",
+            "Up to 10 years"
+          ],
+          "answer_index": 0,
+          "explain": "Minimum seven years."
+        },
+        {
+          "q": "Under the Prohibition of Child Marriage Act 2006, a petition to annul a child marriage must be filed within:",
+          "options": [
+            "1 year of marriage",
+            "No limit",
+            "5 years of attaining majority",
+            "2 years of attaining majority"
+          ],
+          "answer_index": 3,
+          "explain": "S.3(3) - before the petitioner completes two years after attaining majority."
+        },
+        {
+          "q": "Supriyo v Union of India (2023) held that:",
+          "options": [
+            "Same-sex marriage is valid under the SMA",
+            "The SMA is unconstitutional",
+            "There is no fundamental right to marry and the SMA was not read down to include same-sex marriage",
+            "Live-in relationships are illegal"
+          ],
+          "answer_index": 2,
+          "explain": "Constitution Bench, 17 October 2023; matter left to Parliament."
+        },
+        {
+          "q": "Under S.125 CrPC (S.144 BNSS), a divorced wife is entitled to maintenance until she:",
+          "options": [
+            "Is 60",
+            "Remarries",
+            "Earns any income",
+            "Is 5 years after divorce"
+          ],
+          "answer_index": 1,
+          "explain": "A divorced wife who has not remarried is a 'wife' for maintenance."
+        },
+        {
+          "q": "Which state was the first to implement a Uniform Civil Code (in force 27 January 2025)?",
+          "options": [
+            "Uttarakhand",
+            "Gujarat",
+            "Goa",
+            "Assam"
+          ],
+          "answer_index": 0,
+          "explain": "Uttarakhand UCC Act 2024 operationalised 27 January 2025; Goa has the older Portuguese Civil Code."
+        },
+        {
+          "q": "Under S.16 HMA, children of a void marriage are:",
+          "options": [
+            "Illegitimate",
+            "Disqualified from inheriting",
+            "Entitled to coparcenary rights against all relatives",
+            "Legitimate, with rights in the property of their parents only"
+          ],
+          "answer_index": 3,
+          "explain": "S.16(3) HMA."
+        }
+      ]
+    },
+    {
+      "id": "6B",
+      "title": "Cyber Law",
+      "expected_questions": 2,
+      "background": {
+        "summary": "Cyber Law for AIBE is essentially the Information Technology Act 2000 (as amended in 2008) plus its Rules, supplemented by constitutional privacy law (Puttaswamy), the DPDP Act 2023 and Rules 2025, and the cyber-relevant provisions of the BNS, BNSS and BSA. With only 2 questions, the dependable marks are S.66A/Shreya Singhal, the offence-and-punishment table (S.65-67B, 66C-66F), S.79 safe harbour, the First Schedule exclusions, definitions and digital signatures; the current-affairs mark is the DPDP Act/Rules or the IT Rules amendments.",
+        "approach": "Memorise the offence table in 6B-2 first (it covers most past questions), then S.79 and Shreya Singhal, then the DPDP penalty/child/Board facts, then definitions and authorities."
+      },
+      "topics": [
+        {
+          "id": "6B-1",
+          "title": "Information Technology Act 2000 - Scope, Definitions, Electronic Records, Digital and Electronic Signatures, E-Governance",
+          "priority": "High",
+          "expected_weight": "About 1 question",
+          "summary": "The IT Act gives legal recognition to electronic transactions (based on the UNCITRAL Model Law on Electronic Commerce, 1996), creates the digital signature regime and the cyber-offence framework. Amended substantially in 2008 (in force 27 October 2009).",
+          "key_points": [
+            "Enacted 2000 (in force 17 October 2000). Objects: legal recognition for e-commerce and e-records, facilitate e-governance, amend the IPC, Evidence Act, Bankers' Books Evidence Act and RBI Act. Extends to the whole of India and, under S.1(2) read with S.75, applies to an offence or contravention committed outside India by any person if the act involves a computer, computer system or network located in India.",
+            "Exclusions (S.1(4), First Schedule): (1) negotiable instrument (other than a cheque), (2) power of attorney, (3) trust, (4) will or testamentary disposition, (5) contract for sale or conveyance of immovable property or any interest in it. An electronic cheque is not excluded.",
+            "Key definitions (S.2): 'computer', 'computer network', 'computer resource', 'data', 'communication device' (S.2(1)(ha)), 'cyber security' (S.2(1)(nb)), 'electronic record' (S.2(1)(t)), 'electronic signature' (S.2(1)(ta)), 'digital signature' (S.2(1)(p)), 'originator', 'addressee', 'subscriber' and 'intermediary' (S.2(1)(w): any person who on behalf of another receives, stores or transmits an electronic record or provides a service relating to it - telecom, network, internet and web-hosting service providers, search engines, online payment, auction and marketplace sites and cyber cafes).",
+            "Digital signature (S.3): authentication of an electronic record by a subscriber using an asymmetric crypto system and hash function (public/private key pair). Electronic signature (S.3A, 2008): any technology specified in the Second Schedule (e.g. Aadhaar e-KYC e-sign). Digital Signature Certificate: issued by a Certifying Authority (S.35).",
+            "Chapter III e-governance: S.4 legal recognition of electronic records; S.5 of electronic signatures; S.6 use in government and its agencies; S.6A delivery of services by service providers (Common Service Centres); S.7 retention of electronic records; S.7A audit; S.8 publication in the Gazette in electronic form; S.10A (2008): contracts formed through electronic means are not unenforceable merely because electronic form was used.",
+            "Chapter IV attribution, acknowledgement and dispatch: S.11 attribution (an electronic record is that of the originator if sent by him, by an authorised person or by an automated system); S.12 acknowledgement of receipt; S.13 time and place of dispatch (when it enters a computer resource outside the originator's control) and receipt (when it enters the designated computer resource); place is the place of business of the originator/addressee.",
+            "Chapters V-VI secure electronic records and signatures (S.14-16) and Regulation of Certifying Authorities (S.17-34): Controller of Certifying Authorities (CCA) appointed under S.17; licence for Certifying Authorities (S.21); the CCA's functions (S.18) include licensing and supervising CAs and laying down standards; S.35 DSC issue; S.36 representations; S.37 suspension; S.38 revocation; S.39 notice of suspension/revocation; Chapters on penalties and adjudication follow.",
+            "Evidence link: S.65B IEA (now S.63 BSA with a certificate in the Schedule and hash value); Anvar P.V. (2014), Arjun Panditrao (2020), Pune Bar Association (2026) - see Part 5."
+          ],
+          "provisions": [
+            {
+              "ref": "S.1(4), First Schedule IT Act",
+              "note": "Documents to which the Act does not apply."
+            },
+            {
+              "ref": "S.2(1)(t), (ta), (p), (w) IT Act",
+              "note": "Electronic record, electronic signature, digital signature, intermediary."
+            },
+            {
+              "ref": "S.3, 3A, 4, 5, 10A, 17 IT Act",
+              "note": "Digital signature, e-signature, recognition, contract formation, Controller."
+            }
+          ],
+          "case_laws": [
+            {
+              "name": "State of Maharashtra v Dr. Praful B. Desai",
+              "year": "2003",
+              "holding": "Evidence by video-conferencing is 'presence' and valid in criminal trials."
+            },
+            {
+              "name": "Syed Asifuddin v State of Andhra Pradesh (AP HC)",
+              "year": "2005",
+              "holding": "Mobile phone is a 'computer' and the ESN/programming is a computer source code (S.65)."
+            }
+          ],
+          "traps": [
+            "Negotiable instruments other than a cheque are excluded; a cheque is not.",
+            "Wills, trusts, powers of attorney and immovable property conveyances are excluded.",
+            "The IT Act applies extraterritorially where a computer in India is involved (S.75).",
+            "S.10A (2008) is about contract formation, not digital signature."
+          ],
+          "memory_aids": [
+            "Five exclusions: N-P-T-W-I = Negotiable instrument, Power of attorney, Trust, Will, Immovable property contract."
+          ],
+          "likely_question_angles": [
+            "Which documents are outside the IT Act?",
+            "Model law behind the IT Act.",
+            "Definition of an intermediary.",
+            "Who is the Controller of Certifying Authorities? Section 17.",
+            "Extra-territorial reach (S.75)."
+          ]
+        },
+        {
+          "id": "6B-2",
+          "title": "IT Act Offences and Penalties (S.43-78)",
+          "priority": "Very High",
+          "expected_weight": "1-2 questions",
+          "summary": "The highest-yield Cyber Law content: the civil penalty in S.43, the criminal offences in S.65-74, their punishments, cognizability and compounding.",
+          "key_points": [
+            "S.43 (civil liability, compensation, no monetary cap after 2008): unauthorised access, downloading/copying, introducing a virus or contaminant, damage, disruption, denial of access, assisting unauthorised access, charging services to another's account, destroying or altering information, stealing/concealing source code (S.43(a)-(j)). S.43A: a body corporate that is negligent in implementing reasonable security practices for sensitive personal data, causing wrongful loss or gain, must compensate; implemented through the 2011 SPDI Rules; S.43A is to be omitted when S.44(2) DPDP Act commences (phased, expected May 2027 - verify).",
+            "S.65: tampering with computer source documents - up to 3 years or fine up to Rs 2 lakh or both.",
+            "S.66: computer-related offences (dishonest or fraudulent doing of S.43 acts, i.e. hacking) - up to 3 years or fine up to Rs 5 lakh or both.",
+            "S.66A (2008): sending offensive, false or annoying messages - up to 3 years and fine; struck down by Shreya Singhal v Union of India (24 March 2015) as vague, over-broad and violative of Art 19(1)(a), not saved by Art 19(2).",
+            "S.66B: dishonestly receiving a stolen computer resource - up to 3 years or fine up to Rs 1 lakh or both. S.66C: identity theft (fraudulent use of electronic signature, password or unique identification feature) - up to 3 years and fine up to Rs 1 lakh. S.66D: cheating by personation using a computer resource - up to 3 years and fine up to Rs 1 lakh.",
+            "S.66E: violation of privacy - capturing, publishing or transmitting the image of a private area of a person without consent - up to 3 years or fine up to Rs 2 lakh or both. S.66F: cyber terrorism (threatening unity, integrity, security or sovereignty or striking terror by denial of access, unauthorised access or introduction of contaminant, causing death/injury, damage or affecting critical information infrastructure) - imprisonment which may extend to life imprisonment.",
+            "S.67: publishing or transmitting obscene material in electronic form - first conviction up to 3 years and fine up to Rs 5 lakh; second or subsequent up to 5 years and fine up to Rs 10 lakh. S.67A: sexually explicit act or conduct - up to 5 years and fine up to Rs 10 lakh (first); up to 7 years and fine up to Rs 10 lakh (subsequent). S.67B: child pornography (publishing, transmitting, creating, browsing, enticing children, recording abuse) - up to 5 years and fine up to Rs 10 lakh (first); up to 7 years and fine up to Rs 10 lakh (subsequent). S.67C: intermediaries must preserve and retain information as prescribed (contravention up to 3 years and fine).",
+            "S.68: Controller's directions to certifying authorities (non-compliance up to 2 years or fine up to Rs 1 lakh). S.69: power to intercept, monitor or decrypt any information in the interest of sovereignty, security, public order or investigation of an offence - non-compliance up to 7 years and fine; Information Technology (Procedure and Safeguards for Interception, Monitoring and Decryption of Information) Rules 2009. S.69A: power to direct blocking of public access - non-compliance up to 7 years and fine; Blocking Rules 2009; S.69A and the Rules were upheld in Shreya Singhal. S.69B: monitoring and collecting traffic data for cyber security - non-compliance up to 3 years and fine.",
+            "S.70: protected system - unauthorised access punishable up to 10 years and fine; S.70A: National Critical Information Infrastructure Protection Centre (NCIIPC); S.70B: Indian Computer Emergency Response Team (CERT-In) as the national agency for incident response.",
+            "S.71: misrepresentation to the Controller; S.72: breach of confidentiality and privacy by a person who obtained information under the Act's powers - up to 2 years or fine up to Rs 1 lakh or both; S.72A (2008): disclosure of information in breach of lawful contract - up to 3 years or fine up to Rs 5 lakh or both; S.73: publishing a false Digital Signature Certificate - up to 2 years or fine up to Rs 1 lakh; S.74: publication for fraudulent purpose - up to 2 years or fine up to Rs 1 lakh.",
+            "S.75: extra-territorial application; S.76: confiscation; S.77: compensation and penalties do not bar other punishments; S.77A: compounding of offences (by a court of competent jurisdiction) - not available for offences with imprisonment of more than 3 years, offences against a woman or child, or where the accused has a previous conviction or enhanced punishment; S.77B: offences punishable with imprisonment of 3 years and above are cognizable; offences punishable with imprisonment of 3 years are bailable; S.78: investigation by a police officer not below the rank of Inspector; S.80: any police officer not below the rank of Inspector (or other officer authorised by the Government) may enter, search and arrest without warrant in a public place.",
+            "S.84A (modes or methods for encryption), S.84B (abetment - same punishment as the offence) and S.84C (attempt - up to half of the longest term). S.85: offences by companies (persons in charge liable). S.81: overriding effect; the proviso says nothing restricts exercise of rights under the Copyright Act 1957 or Patents Act 1970.",
+            "Special law prevails: Sharat Babu Digumarti v Government of NCT of Delhi (2016) - where S.67 IT Act specifically covers an offence of obscene electronic material, the general S.292 IPC (S.294 BNS) is not attracted and the intermediary protected by S.79 is not prosecutable under IPC; State of Tamil Nadu v Suhas Katti (2004) - first conviction for obscene messages online (S.67 plus IPC S.469, 509). Even after Shreya Singhal, S.66A continued to be invoked; the Supreme Court in PUCL v Union of India (2021 order) directed states to stop prosecutions under it."
+          ],
+          "provisions": [
+            {
+              "ref": "S.43, 43A, 65, 66, 66B-66F, 67, 67A, 67B, 72, 72A IT Act",
+              "note": "Core penalties and offences."
+            },
+            {
+              "ref": "S.69, 69A, 69B IT Act",
+              "note": "Interception, blocking, traffic data."
+            },
+            {
+              "ref": "S.77A, 77B, 78, 80 IT Act",
+              "note": "Compounding, cognizability, investigation, search."
+            }
+          ],
+          "case_laws": [
+            {
+              "name": "Shreya Singhal v Union of India",
+              "year": "2015",
+              "holding": "S.66A struck down (vague, over-broad, chilling effect); S.69A upheld; S.79(3)(b) read down; discussion, advocacy and incitement distinguished."
+            },
+            {
+              "name": "State of Tamil Nadu v Suhas Katti",
+              "year": "2004",
+              "holding": "First conviction in India for cyber obscenity and harassment (S.67)."
+            },
+            {
+              "name": "Sharat Babu Digumarti v Government of NCT of Delhi",
+              "year": "2016",
+              "holding": "IT Act (special law) prevails over IPC S.292 for electronic obscenity."
+            },
+            {
+              "name": "Syed Asifuddin v State of Andhra Pradesh",
+              "year": "2005",
+              "holding": "Tampering with mobile phone ESN is tampering with computer source code under S.65."
+            }
+          ],
+          "traps": [
+            "S.66A has been struck down; it is not good law but may appear in options.",
+            "S.66E punishes capture/transmission of images of a private area; S.66C is identity theft; S.66D is cheating by personation.",
+            "S.67A/67B repeat-offender term is 7 years; S.67 repeat-offender term is 5 years.",
+            "Offences with 3 years' punishment are cognizable and bailable; offences punishable with imprisonment of 3 years and above are cognizable.",
+            "S.66F is the only offence with life imprisonment."
+          ],
+          "memory_aids": [
+            "66: B-C-D-E-F = Stolen resource, identity theft, personation, privacy, terrorism.",
+            "67: 3/5 - 67A/B: 5/7; fines Rs 5 lakh (67) vs Rs 10 lakh (67A/B)."
+          ],
+          "likely_question_angles": [
+            "Section on identity theft / cyber terrorism / child pornography.",
+            "Punishment under S.67 for a first conviction.",
+            "Which section was struck down in Shreya Singhal?",
+            "Compounding limits (S.77A).",
+            "Rank of investigating officer (Inspector) under S.78."
+          ]
+        },
+        {
+          "id": "6B-3",
+          "title": "Intermediary Liability, Safe Harbour (S.79), IT Rules 2021 and the 2026 Synthetic Content Amendment",
+          "priority": "Very High",
+          "expected_weight": "1 question",
+          "summary": "S.79 protects intermediaries conditionally; Shreya Singhal read down 'actual knowledge'; the 2021 Rules impose due diligence and grievance duties, and the February 2026 amendment adds labelling and fast takedown for AI-generated (synthetic) content.",
+          "key_points": [
+            "S.79(1)-(2): an intermediary is not liable for third-party information, data or communication link hosted or made available by it if (a) its function is limited to providing access to a communication system, or (b) it does not initiate the transmission, select the receiver or select or modify the information, and (c) it observes due diligence and other guidelines prescribed by the Central Government.",
+            "S.79(3): safe harbour is lost if (a) the intermediary has conspired, abetted, aided or induced the commission of the unlawful act, or (b) upon receiving actual knowledge, or on being notified by the appropriate Government or its agency, that information is being used to commit an unlawful act, it fails to expeditiously remove or disable access without vitiating the evidence. Shreya Singhal (2015) read down S.79(3)(b): 'actual knowledge' means knowledge through a court order or a notification by the appropriate Government (and the unlawful act must relate to Art 19(2)); intermediaries need not judge the legality of each request.",
+            "Case law on intermediaries: Avnish Bajaj v State (NCT of Delhi) (2008, Delhi HC) - Bazee.com CEO prosecution for obscene listing led to the 2008 amendments and the reformed S.79; Digumarti (2016) - special law; MySpace Inc v Super Cassettes Industries (Delhi HC DB, 2016) and Christian Louboutin SAS v Nakul Bajaj (Delhi HC, 2018) - an intermediary playing an active role (curating, promoting) can lose the safe harbour; Google India v Visakha Industries (2019) - intermediary liability in defamation context.",
+            "Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules 2021: due diligence by intermediaries (user agreements; remove unlawful content on court order or government notice within 36 hours (now shortened - see below); retain data 180 days; assist agencies within 72 hours); Significant Social Media Intermediaries (SSMIs: 5 million or more registered users) must appoint a Chief Compliance Officer, a Nodal Contact Person and a Resident Grievance Officer (all residents in India), publish monthly compliance reports, and messaging services must enable identification of the first originator of a message for serious offences (Rule 4(2); under challenge in WhatsApp v Union of India, Delhi HC). Grievance mechanism: acknowledge within 24 hours and resolve within 15 days (now 7 days); Part III covers digital news and OTT content - three-tier self-regulation. Online gaming intermediaries were added by IT Amendment Rules 2023 (self-regulatory bodies).",
+            "IT Amendment Rules 2026 on 'synthetically generated information' (SGI) (notified 10 February 2026, in force 20 February 2026): SGI is audio, visual or audio-visual content created or altered by a computer resource so that it appears authentic (deepfakes, voice cloning, AI-altered images; plain AI text is excluded). Lawful SGI must be clearly and prominently labelled; where feasible, intermediaries embed permanent metadata or unique identifiers; labels cannot be removed; the draft's 10% watermark was dropped. Timelines: unlawful content after a court order or government notice - 3 hours (earlier 36); content about an individual - 36 hours (earlier 72); high-risk content such as non-consensual intimate imagery, impersonation or morphed images - 2 hours (earlier 24); general grievances - 7 days (earlier 15). Failure of due diligence can cost safe harbour (reported; verify the final text).",
+            "Blocking: S.69A and the Blocking Rules 2009 (written reasons, committee review, hearing to the originator/intermediary where identifiable); emergency blocking; Sahyog portal for notices - X Corp v Union of India (Karnataka HC, September 2025) rejected X's challenge to the Sahyog portal; appeal reported - verify.",
+            "Ministry of Electronics and IT (MeitY) is the nodal ministry; the proposed Digital India Act to replace the IT Act has not been enacted (verify). Telecommunications Act 2023 replaces the Indian Telegraph Act 1885 (interception, suspension of services, SIM-fraud offences) - being brought into force in phases (verify).",
+            "Internet shutdowns: Anuradha Bhasin v Union of India (2020) - freedom of speech and trade over the internet is protected by Art 19(1)(a) and 19(1)(g); indefinite shutdown impermissible; orders must be published, proportionate and reviewable; the Temporary Suspension of Telecom Services Rules 2017 provide a Review Committee. Faheema Shirin v State of Kerala (Kerala HC, 2019): access to the internet is part of Art 21."
+          ],
+          "provisions": [
+            {
+              "ref": "S.79 IT Act",
+              "note": "Safe harbour and its loss."
+            },
+            {
+              "ref": "IT (Intermediary Guidelines and Digital Media Ethics Code) Rules 2021; Amendment Rules 2026",
+              "note": "Due diligence, SSMI duties, SGI labelling, takedown timelines."
+            },
+            {
+              "ref": "S.69A IT Act; Blocking Rules 2009",
+              "note": "Blocking of public access."
+            }
+          ],
+          "case_laws": [
+            {
+              "name": "Shreya Singhal v Union of India",
+              "year": "2015",
+              "holding": "S.79(3)(b) read down - actual knowledge means a court order or government notification."
+            },
+            {
+              "name": "MySpace Inc v Super Cassettes Industries",
+              "year": "2016",
+              "holding": "Intermediary with actual knowledge of specific infringing content must take it down; S.79 and Copyright Act harmonised."
+            },
+            {
+              "name": "Christian Louboutin SAS v Nakul Bajaj",
+              "year": "2018",
+              "holding": "Active role (not mere conduit) can forfeit safe harbour."
+            },
+            {
+              "name": "Anuradha Bhasin v Union of India",
+              "year": "2020",
+              "holding": "Internet access and use for speech and trade protected; indefinite shutdown impermissible."
+            }
+          ],
+          "traps": [
+            "S.79 safe harbour is conditional, not absolute.",
+            "After Shreya Singhal, 'actual knowledge' = court order or government notification, not a private complaint.",
+            "SSMI threshold is 5 million registered users.",
+            "Under the 2026 amendment, takedown on a court order or government notice is 3 hours.",
+            "Plain AI-generated text is outside the SGI definition."
+          ],
+          "memory_aids": [
+            "79: Mere conduit + Due diligence = Safe; Aid or Ignore a notice = Sunk.",
+            "SSMI: 50 lakh users; 3 officers (CCO, Nodal, Grievance)."
+          ],
+          "likely_question_angles": [
+            "Which section gives safe harbour?",
+            "Meaning of actual knowledge in S.79(3)(b).",
+            "Threshold for SSMI.",
+            "Takedown timelines under the 2026 amendment.",
+            "Case on internet shutdowns."
+          ]
+        },
+        {
+          "id": "6B-4",
+          "title": "Privacy and Data Protection - Puttaswamy, SPDI Rules 2011, DPDP Act 2023 and DPDP Rules 2025",
+          "priority": "Very High",
+          "expected_weight": "1 question (current-affairs favourite)",
+          "summary": "Privacy is a fundamental right (Puttaswamy, 2017). India's first comprehensive data protection law is the Digital Personal Data Protection Act 2023, operationalised through the DPDP Rules 2025 in phases to about May 2027.",
+          "key_points": [
+            "K.S. Puttaswamy v Union of India (24 August 2017, 9 judges): right to privacy is a fundamental right under Art 21 and Part III; M.P. Sharma (1954) and Kharak Singh (1962) overruled to the extent inconsistent. Any restriction must satisfy a three-fold test: legality (a law), legitimate aim and proportionality (rational nexus, necessity, minimal impairment). Informational privacy and the right to be left alone recognised. Puttaswamy II (26 September 2018): Aadhaar Act upheld by 4:1 but S.57 (private use) and S.33(2) struck down; Aadhaar cannot be made mandatory for bank accounts and mobile connections. Earlier: PUCL v Union of India (1997) - telephone tapping guidelines; Kharak Singh and R. Rajagopal v State of T.N. (1994) - privacy and press.",
+            "Right to be forgotten and personality rights: Justice K.S. Puttaswamy recognised the idea; High Courts (Delhi, Karnataka, Orissa, Kerala) have ordered removal or anonymisation in specific cases (Zulfiqar Ahman Khan v Quintillion Business Media, Delhi HC 2019; Subhranshu Rout v State of Odisha, Orissa HC 2020); in 2025 the Delhi and Bombay High Courts granted personality-rights injunctions against AI-generated misuse of celebrities' voice and likeness (verify).",
+            "Pre-DPDP regime: S.43A IT Act and the IT (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules 2011 (SPDI Rules): sensitive personal data includes passwords, financial information, health, sexual orientation, medical records and biometrics; body corporate must have a privacy policy, obtain written consent, allow review and correction, appoint a grievance officer, and implement ISO 27001 or equivalent security. S.72A penalises disclosure in breach of a lawful contract.",
+            "Digital Personal Data Protection Act 2023 (assent 11 August 2023): applies to processing of digital personal data within India (and of non-digital data that is digitised) and to processing outside India in connection with offering goods or services to Data Principals in India (S.3). It does not apply to personal data processed for personal or domestic purposes, or to data made publicly available by the Data Principal or under a legal obligation. Definitions: Data Principal (the individual; includes parent or guardian of a child and lawful guardian of a person with disability), Data Fiduciary (determines purpose and means), Data Processor, Consent Manager, Significant Data Fiduciary (SDF), Child (below 18).",
+            "Grounds for processing: consent or certain 'legitimate uses' (S.4). Consent (S.6) must be free, specific, informed, unconditional and unambiguous with a clear affirmative action, limited to the specified purpose, and as easy to withdraw as to give; a notice (S.5) in plain language, in English or any Eighth Schedule language, must precede the request. Legitimate uses (S.7): voluntary provision of data, State subsidies/benefits/licences, legal obligation, judicial orders, medical emergency, epidemics, disasters, employment purposes. S.6(9) Consent Managers (registered with the Board).",
+            "Obligations of Data Fiduciaries (S.8): accuracy, reasonable security safeguards, breach intimation to the Board and affected Data Principals, erasure when purpose is served or consent withdrawn, publication of contact details of a Data Protection Officer or person answering questions, grievance redressal. Children (S.9): verifiable consent of a parent or lawful guardian; no processing likely to cause detrimental effect; no tracking, behavioural monitoring or targeted advertising directed at children. Significant Data Fiduciary (S.10): notified by the Government (volume, sensitivity, risk to rights, security of State); duties - Data Protection Officer in India, independent data auditor, periodic Data Protection Impact Assessment.",
+            "Rights of Data Principals (S.11-14): access to a summary of personal data and processing; correction, completion, updating and erasure; grievance redressal; nomination of another person in case of death or incapacity. Duties (S.15): comply with laws, no impersonation, no false or frivolous complaints. No right to compensation is conferred by the Act.",
+            "Cross-border transfer (S.16): permitted except to countries or territories restricted by notification of the Central Government (a negative-list model); sectoral laws with stricter localisation prevail. Exemptions (S.17): State instrumentalities for sovereignty, security and public order (by notification); research, archiving and statistics; startups (notified classes); legal rights enforcement; courts; prevention of offences; contracts with foreign persons (processing by Indian outsourcing companies).",
+            "Data Protection Board of India (S.18-26): an independent adjudicatory body (a body corporate; chairperson and members appointed by the Central Government, with a head office in the National Capital Region as per the Rules; four members at inception); powers of civil court; inquiry on complaints, references, breach, orders to remedy, penalties; voluntary undertakings (S.31); mediation (S.30); appeals to the Telecom Disputes Settlement and Appellate Tribunal (TDSAT) (S.29); civil courts' jurisdiction barred (S.39).",
+            "Penalties (Schedule, S.33): failure to take reasonable security safeguards to prevent a breach - up to Rs 250 crore; failure to give breach notice to the Board and Data Principals - up to Rs 200 crore; breach of obligations regarding children - up to Rs 200 crore; breach of SDF obligations - up to Rs 150 crore; breach of Data Principal's duties - up to Rs 10,000; breach of voluntary undertaking - up to the applicable amount; residuary - up to Rs 50 crore.",
+            "DPDP Rules 2025: notified 13 November 2025 with phased commencement - (i) 13 November 2025: Board constitution and administrative provisions (Rules 1-2, 17-21; Act S.1(2), 2, 18-26, 35, 38-43, 44(1) and (3)); (ii) after one year (about 12-13 November 2026): consent manager registration (S.6(9), S.27(1)(d); Rule 4); (iii) after 18 months (about 12 May 2027): all remaining provisions - notice and consent, fiduciary obligations, children's data, rights of Data Principals, cross-border rules and the Board's remaining powers (as reported; verify against the notification). Note that S.44(3) (amendment of S.8(1)(j) of the RTI Act, exempting personal information) is in the first tranche per the commencement list, whereas S.44(2) (omission of S.43A IT Act) falls in the last - verify. Rules also deal with breach reporting (immediately and a detailed report within 72 hours), verifiable parental consent, data retention periods for large platforms and SDF audits (verify details).",
+            "Interplay with other laws: S.38 DPDP - the Act is in addition to other laws; in conflict, the DPDP provision prevails to the extent of the inconsistency; sector laws on localisation (RBI payment data rules) continue. Aadhaar Act 2016 (S.8, 29, 33) and Right to Information Act (S.8(1)(j)) interplay noted."
+          ],
+          "provisions": [
+            {
+              "ref": "Art 21; Part III",
+              "note": "Right to privacy."
+            },
+            {
+              "ref": "S.3-17, 18-29, 33, 39 DPDP Act 2023",
+              "note": "Applicability, consent, duties, rights, Board, appeal, penalties, bar of civil courts."
+            },
+            {
+              "ref": "S.43A, 72A IT Act; SPDI Rules 2011",
+              "note": "Earlier compensation and confidentiality regime."
+            }
+          ],
+          "case_laws": [
+            {
+              "name": "K.S. Puttaswamy v Union of India (Privacy)",
+              "year": "2017",
+              "holding": "Privacy is a fundamental right; three-fold test of legality, legitimate aim and proportionality."
+            },
+            {
+              "name": "K.S. Puttaswamy v Union of India (Aadhaar)",
+              "year": "2018",
+              "holding": "Aadhaar upheld with limits; S.57 struck down; proportionality."
+            },
+            {
+              "name": "PUCL v Union of India",
+              "year": "1997",
+              "holding": "Guidelines to curb arbitrary telephone tapping."
+            },
+            {
+              "name": "R. Rajagopal v State of Tamil Nadu",
+              "year": "1994",
+              "holding": "Right to privacy implicit in Art 21; limits on publication of private life of citizens."
+            }
+          ],
+          "traps": [
+            "Maximum DPDP penalty is Rs 250 crore (security safeguards), not Rs 500 crore.",
+            "The child age under DPDP is below 18; behavioural tracking and targeted ads for children are banned.",
+            "The Data Protection Board is an adjudicatory body; appeals lie to TDSAT.",
+            "DPDP provides no right to compensation to individuals; S.43A compensation remains until its omission.",
+            "Only consent or legitimate use is a ground; there is no 'legitimate interest' ground as in the GDPR."
+          ],
+          "memory_aids": [
+            "DPDP rights: A-C-G-N = Access, Correction/erasure, Grievance, Nominate."
+          ],
+          "likely_question_angles": [
+            "Maximum penalty under DPDP Act.",
+            "Age of child under DPDP.",
+            "Forum for appeal (TDSAT).",
+            "Three-fold test in Puttaswamy.",
+            "When were the DPDP Rules notified? (13 Nov 2025)."
+          ]
+        },
+        {
+          "id": "6B-5",
+          "title": "Authorities, Adjudication, Jurisdiction and Cyber Investigation Procedure",
+          "priority": "Medium",
+          "expected_weight": "Occasional",
+          "summary": "Who regulates and who decides: Controller of Certifying Authorities, Adjudicating Officer, TDSAT, CERT-In, NCIIPC, police and BNSS procedure for electronic evidence.",
+          "key_points": [
+            "Adjudication (S.46): the Adjudicating Officer (an officer not below the rank of Director in the Central Government or equivalent in a State; in practice the Secretary of the IT department of the State) decides civil contraventions of Chapter IX (S.43-45) where the claim for injury or damage does not exceed Rs 5 crore; claims above that go to the competent civil court. S.47: factors for quantum (unfair advantage, loss, repeat). S.45: residuary penalty - compensation up to Rs 25,000 or penalty up to Rs 25,000.",
+            "Appeals: the Cyber Appellate Tribunal (S.48) was merged into the Telecom Disputes Settlement and Appellate Tribunal (TDSAT) under the Finance Act 2017 and Tribunal reforms; appeal to the High Court within 60 days on a question of fact or law (S.62). S.61: civil court has no jurisdiction over matters within the Adjudicating Officer's or Tribunal's powers.",
+            "Controller of Certifying Authorities (S.17-18): licensing and supervising CAs; Root Certifying Authority of India (RCAI); CAs issue DSCs. CERT-In (S.70B): national agency for cyber security incidents; CERT-In Directions of 28 April 2022 require reporting of specified incidents within 6 hours, maintaining logs for 180 days within India and synchronising system clocks with NIC/NPL servers; VPN providers, data centres and cloud providers retain subscriber information for 5 years. NCIIPC (S.70A): protection of critical information infrastructure; S.70 protected systems.",
+            "Investigation: S.78 Inspector-rank police; S.80 search and arrest without warrant in public place by Inspector rank or authorised officer; BNSS 2023 provisions: S.94 (summons to produce documents/things including electronic communication devices), S.105 (audio-video recording of search and seizure), S.173 (e-FIR and Zero FIR), S.530 (trials, inquiries and proceedings by electronic means); evidence by Section 63 BSA certificate (hash value) - see Part 5. National Cyber Crime Reporting Portal (cybercrime.gov.in), helpline 1930 and the Indian Cyber Crime Coordination Centre (I4C) under the Ministry of Home Affairs.",
+            "Jurisdiction on the internet: IT Act S.75 (extra-territorial); Casio India v Ashita Tele Systems (Delhi HC, 2003) and Banyan Tree Holding v A. Murali Krishna Reddy (Delhi HC, 2010) - mere accessibility of a website is not enough; 'purposeful availment' and targeting are required for jurisdiction; domain names: Satyam Infoway Ltd v Sifynet Solutions (SC, 2004) - domain names are business identifiers; passing-off applies; Yahoo! Inc v Akash Arora (Delhi HC, 1999).",
+            "Cyber-crime and companies: S.85 (offences by companies); Aneeta Hada v Godfather Travels (2012): directors can be prosecuted only if the company is arraigned.",
+            "Mutual legal assistance and cross-border data: India is not a party to the Budapest Convention; it has participated in negotiations on the UN Convention against Cybercrime (adopted by the UN General Assembly in December 2024; opened for signature in 2025) - verify India's position."
+          ],
+          "provisions": [
+            {
+              "ref": "S.46, 47, 48, 61, 62 IT Act",
+              "note": "Adjudication, appeal, bar of civil courts."
+            },
+            {
+              "ref": "S.70A, 70B IT Act",
+              "note": "NCIIPC and CERT-In."
+            },
+            {
+              "ref": "S.94, 105, 173, 530 BNSS",
+              "note": "Electronic summons, recording, e-FIR, electronic trials."
+            }
+          ],
+          "case_laws": [
+            {
+              "name": "Banyan Tree Holding v A. Murali Krishna Reddy",
+              "year": "2010",
+              "holding": "Targeting test for jurisdiction over websites."
+            },
+            {
+              "name": "Satyam Infoway v Sifynet Solutions",
+              "year": "2004",
+              "holding": "Domain names get passing-off protection."
+            }
+          ],
+          "traps": [
+            "Adjudicating Officer limit: claims up to Rs 5 crore.",
+            "Appeal from TDSAT lies to the High Court within 60 days.",
+            "CERT-In 2022 directions: 6-hour incident reporting."
+          ],
+          "memory_aids": [
+            "46 = Adjudicate up to 5 crore; 62 = HC in 60 days."
+          ],
+          "likely_question_angles": [
+            "Forum for appeals from the Adjudicating Officer.",
+            "Monetary limit of the Adjudicating Officer.",
+            "Reporting time under CERT-In Directions."
+          ]
+        },
+        {
+          "id": "6B-6",
+          "title": "Cyber Crimes under BNS and Emerging Issues - Deepfakes, Online Gaming, Digital Arrest, Cyber Fraud",
+          "priority": "Medium",
+          "expected_weight": "Possible current-affairs question",
+          "summary": "Many cyber-crimes are prosecuted under both the IT Act and the BNS. Current trends: AI deepfakes, the online gaming ban, digital arrest scams and personality-rights litigation.",
+          "key_points": [
+            "BNS equivalents (verify numbering): S.318 cheating (IPC 420), S.319 cheating by personation, S.336 forgery (includes electronic record), S.303 theft, S.356 defamation, S.351 criminal intimidation, S.75 sexual harassment (IPC 354A), S.77 voyeurism (IPC 354C - includes capture or dissemination of private images), S.78 stalking (IPC 354D - includes monitoring electronic communication), S.79 insulting the modesty of a woman, S.294 obscene material (IPC 292), S.196 promoting enmity through electronic communication, S.152 acts endangering sovereignty, unity and integrity (replaces sedition; electronic communication included), S.111 organised crime (includes cyber-crime) and S.113 terrorist act. 'Document' in BNS includes electronic and digital records. Where both the IT Act and IPC/BNS apply to the same act, Digumarti holds that a special law (IT Act) prevails for the subject it covers.",
+            "Deepfakes and AI: the 2026 IT Rules amendment on synthetically generated information (labelling, metadata and 2-3 hour takedowns); S.66C/66D (impersonation), S.66E, S.67/67A (sexual content), BNS defamation and cheating; personality-rights injunctions by the Delhi and Bombay High Courts in 2025 (verify).",
+            "Online gaming: the Promotion and Regulation of Online Gaming Act 2025 (assent 22 August 2025) prohibits online money games and their advertising and facilitation, establishes an authority for e-sports and social gaming promotion, and prescribes imprisonment and fines (reported up to 3 years and Rs 1 crore for offering; lower for advertising). Challenges are before the Supreme Court (verify). Earlier IT Amendment Rules 2023 created self-regulatory bodies for online gaming; GST rate hikes on online gaming (2023-2025) are a separate issue.",
+            "Digital arrest scams: fraudsters impersonate law-enforcement officers (CBI, police, customs) and extract money by 'virtual arrest'; the Supreme Court took suo motu cognisance in 2025 and directed coordination and a central probe (verify); the Government has issued advisories. Prosecuted under S.318/319 BNS, S.66C/66D IT Act and extortion provisions. 'Digital arrest' is not a recognised legal procedure.",
+            "Cyber fraud and banking: RBI's customer-liability circular (zero liability for third-party breach reported within 3 working days); UPI frauds; SIM-swap; phishing; vishing; sextortion. The Telecommunications Act 2023 introduces penalties for SIM-fraud and identity-based offences (verify provisions in force).",
+            "Cyber stalking, revenge porn and NCII: S.66E, S.67, S.67A, BNS S.77-78; StopNCII; the Delhi High Court's orders for takedown within defined time (Mrs X v Union of India, 2023).",
+            "E-commerce and consumer: Consumer Protection (E-Commerce) Rules 2020 and the 2023 Guidelines on Dark Patterns (CCPA) - see Part 8.",
+            "Critical infrastructure and national security: S.66F, S.70, S.70A; the National Cyber Security Policy 2013; the Digital India Act is proposed but not enacted (verify)."
+          ],
+          "provisions": [
+            {
+              "ref": "S.318, 319, 336, 75-79, 294, 196, 152, 111 BNS",
+              "note": "BNS provisions often used with the IT Act."
+            },
+            {
+              "ref": "Promotion and Regulation of Online Gaming Act 2025",
+              "note": "Ban on online money games."
+            }
+          ],
+          "case_laws": [
+            {
+              "name": "Sharat Babu Digumarti v Government of NCT of Delhi",
+              "year": "2016",
+              "holding": "Special law prevails over general IPC offences."
+            },
+            {
+              "name": "Shreya Singhal v Union of India",
+              "year": "2015",
+              "holding": "S.66A struck down; free speech online."
+            }
+          ],
+          "traps": [
+            "'Digital arrest' has no legal basis; it is a fraud.",
+            "Plain AI text is outside the SGI definition under the 2026 Rules.",
+            "BNS S.152 replaced sedition but is not a mere renumbering; it is a new formulation."
+          ],
+          "memory_aids": [
+            "Online fraud = 318/319 BNS + 66C/66D IT Act."
+          ],
+          "likely_question_angles": [
+            "Which law bans online money games (2025)?",
+            "BNS provision on stalking and voyeurism.",
+            "Legal status of 'digital arrest'."
+          ]
+        }
+      ],
+      "recent_developments": [
+        {
+          "date": "10 Feb 2026 (in force 20 Feb 2026)",
+          "item": "IT Amendment Rules 2026 on synthetically generated information: mandatory labelling and provenance metadata, takedown in 3 hours on court order/government notice and 2 hours for high-risk content; draft 10% watermark dropped.",
+          "why_it_matters": "Deepfake/AI current-affairs MCQ."
+        },
+        {
+          "date": "13 Nov 2025",
+          "item": "DPDP Rules 2025 notified; Data Protection Board provisions in force; consent manager rules from about Nov 2026; full obligations from about May 2027.",
+          "why_it_matters": "Most likely current-affairs hook for Cyber Law."
+        },
+        {
+          "date": "22 Aug 2025",
+          "item": "Promotion and Regulation of Online Gaming Act 2025 enacted, banning online money games (challenges pending - verify).",
+          "why_it_matters": "Statute-name and purpose MCQ."
+        },
+        {
+          "date": "Sept 2025",
+          "item": "Karnataka High Court rejected X Corp's challenge to the Sahyog portal for blocking notices (appeal reported - verify).",
+          "why_it_matters": "S.79(3)(b) and S.69A interplay."
+        },
+        {
+          "date": "22 May 2026",
+          "item": "Pune Bar Association v Union of India: S.63(4) BSA upheld; hash value and expert certificate; Part B can be signed by any person skilled in computer science/cyber forensics.",
+          "why_it_matters": "Cross-subject electronic evidence question (see Part 5)."
+        },
+        {
+          "date": "2025",
+          "item": "Supreme Court suo motu cognisance of 'digital arrest' scams and directions for coordinated investigation (verify details).",
+          "why_it_matters": "Cyber-fraud MCQ."
+        },
+        {
+          "date": "2023-2024",
+          "item": "Jan Vishwas (Amendment of Provisions) Act 2023 and the Telecommunications Act 2023 changed penalties and interception frameworks.",
+          "why_it_matters": "Statute-change questions."
+        }
+      ],
+      "rapid_fire_one_liners": [
+        "IT Act 2000 in force 17 Oct 2000; 2008 amendment in force 27 Oct 2009; based on UNCITRAL Model Law (1996).",
+        "First Schedule exclusions: negotiable instrument (not cheque), power of attorney, trust, will, immovable property contract.",
+        "S.65 tampering with source documents: 3 years/Rs 2 lakh. S.66 hacking: 3 years/Rs 5 lakh.",
+        "S.66A struck down in Shreya Singhal (24 March 2015).",
+        "S.66B stolen resource; S.66C identity theft; S.66D cheating by personation; S.66E privacy violation; S.66F cyber terrorism (life).",
+        "S.67 obscenity: 3 yrs/Rs 5 lakh then 5 yrs/Rs 10 lakh. S.67A and 67B: 5 yrs/Rs 10 lakh then 7 yrs/Rs 10 lakh.",
+        "S.69 interception; S.69A blocking (upheld); S.69B traffic data.",
+        "S.70 protected system (10 years); S.70A NCIIPC; S.70B CERT-In.",
+        "S.72 breach of confidentiality 2 yrs; S.72A breach of contract 3 yrs/Rs 5 lakh.",
+        "S.77A compounding; S.77B offences of 3 years bailable; Inspector investigates (S.78).",
+        "S.79 safe harbour; actual knowledge = court order/government notification (Shreya Singhal).",
+        "S.46 Adjudicating Officer up to Rs 5 crore; appeal to TDSAT (earlier CAT); then High Court (S.62).",
+        "S.43A compensation for failure to protect sensitive personal data; SPDI Rules 2011.",
+        "Digital signature S.3 (asymmetric crypto + hash); e-signature S.3A; S.10A e-contracts valid.",
+        "Puttaswamy (2017): privacy is a fundamental right under Art 21; three-fold test.",
+        "DPDP Act 2023: assent 11 Aug 2023; Rules 13 Nov 2025; child under 18; max penalty Rs 250 crore; Board + TDSAT.",
+        "DPDP Data Principal rights: access, correction/erasure, grievance, nominate.",
+        "IT Rules 2021: SSMI = 5 million users; CCO + Nodal Contact + Grievance Officer.",
+        "2026 Amendment: SGI labelling; 3-hour takedown; effective 20 Feb 2026.",
+        "Anuradha Bhasin (2020): internet shutdowns reviewable; internet speech/trade protected.",
+        "Digumarti (2016): special law (IT Act) prevails over IPC for electronic obscenity.",
+        "CERT-In 2022 Directions: report incidents in 6 hours; logs 180 days."
+      ],
+      "mcqs": [
+        {
+          "q": "The Information Technology Act 2000 is based on the Model Law on Electronic Commerce adopted by:",
+          "options": [
+            "WTO",
+            "UNCITRAL",
+            "WIPO",
+            "OECD"
+          ],
+          "answer_index": 1,
+          "explain": "UNCITRAL Model Law on Electronic Commerce, 1996 (General Assembly Resolution 51/162)."
+        },
+        {
+          "q": "Which of the following is NOT excluded from the IT Act by the First Schedule?",
+          "options": [
+            "A cheque",
+            "A power of attorney",
+            "A will",
+            "A trust"
+          ],
+          "answer_index": 0,
+          "explain": "Negotiable instruments other than a cheque are excluded; a cheque is not."
+        },
+        {
+          "q": "Which section of the IT Act was struck down in Shreya Singhal v Union of India (2015)?",
+          "options": [
+            "S.66",
+            "S.79",
+            "S.69A",
+            "S.66A"
+          ],
+          "answer_index": 3,
+          "explain": "S.66A violated Art 19(1)(a) and was not saved by Art 19(2)."
+        },
+        {
+          "q": "Identity theft is punishable under which section of the IT Act?",
+          "options": [
+            "S.66B",
+            "S.66D",
+            "S.66C",
+            "S.66E"
+          ],
+          "answer_index": 2,
+          "explain": "S.66C: up to 3 years and fine up to Rs 1 lakh. S.66D is cheating by personation."
+        },
+        {
+          "q": "Cyber terrorism under S.66F is punishable with:",
+          "options": [
+            "Up to 3 years",
+            "Imprisonment which may extend to life",
+            "Up to 10 years",
+            "Up to 7 years"
+          ],
+          "answer_index": 1,
+          "explain": "S.66F provides imprisonment which may extend to imprisonment for life."
+        },
+        {
+          "q": "Punishment for child pornography under S.67B (first conviction) is imprisonment up to:",
+          "options": [
+            "5 years and fine up to Rs 10 lakh",
+            "3 years and fine up to Rs 5 lakh",
+            "7 years and fine up to Rs 10 lakh",
+            "10 years"
+          ],
+          "answer_index": 0,
+          "explain": "7 years on subsequent conviction."
+        },
+        {
+          "q": "S.66E of the IT Act punishes:",
+          "options": [
+            "Identity theft",
+            "Data theft",
+            "Cyber terrorism",
+            "Violation of privacy by capturing, publishing or transmitting an image of a private area"
+          ],
+          "answer_index": 3,
+          "explain": "Up to 3 years or fine up to Rs 2 lakh or both."
+        },
+        {
+          "q": "The power to direct blocking of public access to information is contained in:",
+          "options": [
+            "S.66A",
+            "S.69",
+            "S.69A",
+            "S.69B"
+          ],
+          "answer_index": 2,
+          "explain": "S.69A and the 2009 Blocking Rules; upheld in Shreya Singhal."
+        },
+        {
+          "q": "Under S.79, an intermediary loses safe harbour if it:",
+          "options": [
+            "Follows due diligence",
+            "Fails to remove unlawful content on receiving actual knowledge (court order or government notification)",
+            "Hosts any user content",
+            "Is a body corporate"
+          ],
+          "answer_index": 1,
+          "explain": "Shreya Singhal read down S.79(3)(b)."
+        },
+        {
+          "q": "Under the IT Rules 2021, a Significant Social Media Intermediary is one with at least:",
+          "options": [
+            "5 million registered users",
+            "1 million registered users",
+            "10 million registered users",
+            "50 million registered users"
+          ],
+          "answer_index": 0,
+          "explain": "5 million registered users in India."
+        },
+        {
+          "q": "The Adjudicating Officer under S.46 IT Act can decide claims not exceeding:",
+          "options": [
+            "Rs 1 crore",
+            "Rs 50 lakh",
+            "Rs 10 crore",
+            "Rs 5 crore"
+          ],
+          "answer_index": 3,
+          "explain": "Claims above Rs 5 crore lie before the competent civil court."
+        },
+        {
+          "q": "Appeals from the Adjudicating Officer under the IT Act now lie to:",
+          "options": [
+            "Cyber Appellate Tribunal only",
+            "District Court",
+            "TDSAT (which absorbed the Cyber Appellate Tribunal)",
+            "Supreme Court directly"
+          ],
+          "answer_index": 2,
+          "explain": "Finance Act 2017 merged the CAT with TDSAT; then High Court within 60 days (S.62)."
+        },
+        {
+          "q": "Offences under the IT Act punishable with imprisonment of three years are:",
+          "options": [
+            "Non-cognizable and bailable",
+            "Cognizable and bailable",
+            "Cognizable and non-bailable",
+            "Non-cognizable and non-bailable"
+          ],
+          "answer_index": 1,
+          "explain": "S.77B: three years and above are cognizable; offences punishable with three years are bailable."
+        },
+        {
+          "q": "An investigation of an offence under the IT Act can be carried out by a police officer not below the rank of:",
+          "options": [
+            "Inspector",
+            "Sub-Inspector",
+            "Deputy Superintendent",
+            "Superintendent"
+          ],
+          "answer_index": 0,
+          "explain": "S.78 IT Act."
+        },
+        {
+          "q": "Puttaswamy v Union of India (2017) held that the right to privacy is:",
+          "options": [
+            "Only a statutory right",
+            "Not guaranteed",
+            "Only a common-law right",
+            "A fundamental right under Art 21 and Part III"
+          ],
+          "answer_index": 3,
+          "explain": "Nine-judge bench; test of legality, legitimate aim and proportionality."
+        },
+        {
+          "q": "Under the DPDP Act 2023, a 'child' is a person below the age of:",
+          "options": [
+            "13",
+            "16",
+            "18",
+            "21"
+          ],
+          "answer_index": 2,
+          "explain": "18 years; verifiable parental consent and no tracking or targeted advertising."
+        },
+        {
+          "q": "The maximum monetary penalty under the DPDP Act 2023 (Schedule) is:",
+          "options": [
+            "Rs 50 crore",
+            "Rs 250 crore",
+            "Rs 100 crore",
+            "Rs 500 crore"
+          ],
+          "answer_index": 1,
+          "explain": "For failure to take reasonable security safeguards."
+        },
+        {
+          "q": "Appeal against an order of the Data Protection Board of India lies to:",
+          "options": [
+            "TDSAT",
+            "High Court",
+            "Supreme Court",
+            "National Company Law Appellate Tribunal"
+          ],
+          "answer_index": 0,
+          "explain": "S.29 DPDP Act."
+        },
+        {
+          "q": "The DPDP Rules 2025 were notified on:",
+          "options": [
+            "11 August 2023",
+            "1 July 2024",
+            "20 February 2026",
+            "13 November 2025"
+          ],
+          "answer_index": 3,
+          "explain": "Phased commencement over about 18 months."
+        },
+        {
+          "q": "In Sharat Babu Digumarti v Government of NCT of Delhi (2016), the Supreme Court held that:",
+          "options": [
+            "IPC prevails over the IT Act",
+            "Intermediaries have no protection",
+            "Where the IT Act covers the offence (S.67), the general IPC provision (S.292) is not attracted",
+            "S.67 is unconstitutional"
+          ],
+          "answer_index": 2,
+          "explain": "Special law prevails over general law."
+        },
+        {
+          "q": "In Anuradha Bhasin v Union of India (2020) the Supreme Court held that:",
+          "options": [
+            "Internet shutdowns are always valid",
+            "Freedom of speech and trade over the internet is protected and indefinite shutdowns are impermissible",
+            "The internet is not covered by Art 19",
+            "Only the Centre can suspend the internet"
+          ],
+          "answer_index": 1,
+          "explain": "Orders must be proportionate, published and reviewable."
+        },
+        {
+          "q": "Under the 2026 amendment to the IT Rules, unlawful content must be taken down within how many hours of a court order or government notice?",
+          "options": [
+            "3 hours",
+            "2 hours",
+            "24 hours",
+            "36 hours"
+          ],
+          "answer_index": 0,
+          "explain": "Earlier 36 hours; 2 hours for high-risk content such as NCII."
+        },
+        {
+          "q": "In the First Schedule, which of the following is excluded from the IT Act?",
+          "options": [
+            "Electronic cheque",
+            "A digital invoice",
+            "An email contract for goods",
+            "A contract for sale or conveyance of immovable property"
+          ],
+          "answer_index": 3,
+          "explain": "Immovable property contracts are excluded."
+        },
+        {
+          "q": "Which section makes e-contracts enforceable despite being formed electronically?",
+          "options": [
+            "S.4",
+            "S.11",
+            "S.10A",
+            "S.13"
+          ],
+          "answer_index": 2,
+          "explain": "S.10A inserted in 2008."
+        },
+        {
+          "q": "The national agency for cyber security incident response under S.70B is:",
+          "options": [
+            "NCIIPC",
+            "CERT-In",
+            "CCA",
+            "I4C"
+          ],
+          "answer_index": 1,
+          "explain": "NCIIPC (S.70A) protects critical information infrastructure."
+        }
+      ]
+    }
+  ],
+  "revision_plan": {
+    "one_week_plan": [
+      "Day 1: Hindu Marriage Act - validity, void/voidable, divorce grounds, S.13B, S.24-25; learn the numbers cheat sheet.",
+      "Day 2: Maintenance across laws + Hindu adoption + guardianship; 15 MCQs.",
+      "Day 3: Hindu Succession Act and joint family; then Muslim law I (marriage, mahr).",
+      "Day 4: Muslim law II-III (divorce, 2019 Act, DMMA, gifts, wills, waqf, pre-emption, inheritance).",
+      "Day 5: Christian, Parsi, SMA, DV Act, Dowry Act, PCMA, UCC.",
+      "Day 6: Cyber Law - IT Act offences table, S.79, Shreya Singhal, DPDP Act/Rules, IT Rules 2021 and 2026.",
+      "Day 7: Rapid-fire lists, all MCQs, personal_law_comparison; tab the bare Acts."
+    ],
+    "last_48_hours": "Revise numbers_cheat_sheet, rapid_fire_one_liners, personal_law_comparison and the traps of each topic. Do not start new material.",
+    "exam_day": "Family Law items are the fastest marks - answer them first. For Cyber Law, trust the offence table and Shreya Singhal; open the bare Act only to confirm a section number."
+  },
+  "sources_and_verification": [
+    "Hindu Marriage Act 1955, HAMA 1956, HMGA 1956, Hindu Succession Act 1956 (as amended 2005), DMMA 1939, Special Marriage Act 1954, DV Act 2005, Dowry Prohibition Act 1961, PCMA 2006, IT Act 2000 (as amended 2008) - bare Acts; confirm numbering against the official text.",
+    "X v Y (2025 INSC 197) - Verdictum report on S.25 HMA and void marriages (bench: Oka, Amanullah, Masih JJ).",
+    "Darubai v Kamalabai (2026 INSC 613) - Verdictum report (June 2026).",
+    "Waqf (Amendment) Act 2025 interim order of 15 Sept 2025 (2025 INSC 1116) - as summarised in Casemine commentary.",
+    "Talaq-e-hasan plea (16 Oct 2026) - All India Radio/newsonair report.",
+    "State UCCs (Uttarakhand, Gujarat, Assam) - ThePrint comparison, Vision IAS, LiveLaw and Drishti reports (2026); verify assent and commencement dates.",
+    "DPDP Act 2023 and Rules 2025 phased commencement - AZB & Partners note (14 Nov 2025) and other law-firm summaries; verify against the Gazette notification.",
+    "IT Amendment Rules 2026 on synthetically generated information - Freshfields note (notified 10 Feb 2026, effective 20 Feb 2026); verify the final text.",
+    "Items tagged 'verify' in the file rest on news reports or recall and must be checked before publishing."
+  ]
+}

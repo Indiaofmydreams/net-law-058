@@ -58,7 +58,7 @@ SUBJECTS = [
     (19, 'Intellectual Property Laws', 'intellectual-property-laws', 2),
 ]
 SHORT = {1: 'Constitutional Law', 2: 'IPC / BNS', 3: 'CrPC / BNSS', 4: 'CPC and Limitation', 5: 'Evidence / BSA',
-         10: 'Professional Ethics', 15: 'Torts, MV Act, Consumer', 17: 'Contract, Property, NI Act', 19: 'IP Laws'}
+         10: 'Professional Ethics', 15: 'Torts, MV Act, Consumer', 17: 'Contract and Property', 19: 'IP Laws'}
 
 PRI = {  # priority text in the data -> (label, css class)
     'VERY HIGH': ('Very high yield', 'p1'), 'HIGH': ('High yield', 'p2'), 'MEDIUM-HIGH': ('Medium-high yield', 'p3'),
@@ -74,6 +74,19 @@ PART_FIXES = [
     (r'Cross-refer CrPC/BNSS \(Part 2\)\.', 'Cross-refer CrPC/BNSS.'),
     (r'\(cross-ref Part 2\)', '(cross-ref CrPC/BNSS)'),
     (r'Cross-reference to Part 10 \(Labour Law\)\.', 'Cross-reference to Labour Law.'),
+    (r'\[Cross-ref Part 6 Family Law\.\]', '[Cross-ref: Family Law.]'),
+    (r'\[Cross-ref Part 5 Evidence\.\]', '[Cross-ref: Evidence / BSA.]'),
+    (r'\[Cross-ref Part 7 \(NI Act\), Part 9 \(ADR\)\.\]', '[Cross-ref: Negotiable Instruments Act, ADR.]'),
+    (r' \(cross-ref Part 10\)', ''),
+    (r' \(cross-ref Part 4\)', ' (cross-ref IPC / BNS)'),
+    (r'Cross-over with Part 1:', 'Cross-over with Constitutional Law:'),
+    (r'across Part 7:', 'across this subject:'),
+    (r'within Part 7\.', 'within this subject.'),
+    (r' - see Part 5\.', ' - see the Evidence / BSA notes.'),
+    (r'\(see Part 5\)', '(see the Evidence / BSA notes)'),
+    (r' - see Part 8\.', ' - see the Consumer Protection notes.'),
+    (r'the 10-part plan divides it into ten blocks of 10 questions each\. Part 4 = 8 questions from IPC/BNS \+ 2 from Company Law\.',
+     'IPC / BNS carries about 8 questions and Company Law about 2.'),
 ]
 
 E = lambda s: html.escape(str(s), quote=False)
@@ -121,17 +134,19 @@ LEAD_JUNK = ('Overruled', 'Upheld', 'Applied', 'See', 'Held', 'Struck', 'Followi
 
 
 def make_formatter(case_names):
-    known = set()
+    known, known_short = set(), set()
     for c in case_names:
         base = re.sub(r'\s*\(.*?\)', '', c).strip()
         for v in (base, c):
             if len(v) > 8:
                 known.add(E(v))
-        short = base.split(' v. ')[0].strip()
+        short = re.split(r' v\.? ', base)[0].strip()
         if len(short) >= 11 and ' ' in short and short.split(' ')[0] not in ('State', 'Union', 'In', 'Special', 'Commissioner', 'Supreme', 'Govt'):
-            known.add(E(short))
+            known_short.add(E(short))
     known_alt = '|'.join(re.escape(k) for k in sorted(known, key=len, reverse=True)) or r'(?!x)x'
-    rx = re.compile(r'(?P<vf>\[VERIFY[^\]]*\])|(?P<art>%s)|(?P<case>%s|%s)' % (ART, known_alt, GENERIC_CASE))
+    # a short name ("Subramanian Swamy") is italicised alone only when no "v. ..." follows, so full names stay whole
+    short_alt = '|'.join(re.escape(k) for k in sorted(known_short, key=len, reverse=True)) or r'(?!x)x'
+    rx = re.compile(r'(?P<vf>\[VERIFY[^\]]*\])|(?P<art>%s)|(?P<case>%s|%s|(?:%s)(?! v\.? ))' % (ART, known_alt, GENERIC_CASE, short_alt))
 
     def sub(m):
         if m.group('vf'):
@@ -144,7 +159,7 @@ def make_formatter(case_names):
         c = m.group('case')
         words = c.split(' ')
         lead = ''
-        while words and words[0] in LEAD_JUNK and ' v. ' in ' '.join(words):
+        while words and words[0] in LEAD_JUNK and re.search(r' v\.? ', ' '.join(words)):
             lead += words.pop(0) + ' '
         return lead + '<i class="nn-case">%s</i>' % ' '.join(words)
 
@@ -171,6 +186,13 @@ def load_data():
     for entry in reg['files']:
         d = json.loads((DATA / entry['file']).read_text(encoding='utf-8'))
         nos = entry['subjects']
+        if entry.get('adapter'):  # differently shaped batch: convert, nothing is shortened
+            sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+            from aibe_adapters import ADAPTERS
+            for no, dd in ADAPTERS[entry['adapter']](d).items():
+                if dd['sections']:
+                    live[no] = dd
+            continue
         for k, no in enumerate(nos):
             def mine(items, key='subject_no'):
                 out = []
@@ -309,6 +331,34 @@ PUBLISHER = {'@type': 'Organization', 'name': 'NET Law-Verse', 'url': SITE + '/'
 
 
 # ---------------------------------------------------------------- builders
+def rapid_blocks(blocks, fmt):
+    """Generic rapid-revision renderer: list / table / pairs / groups / qa blocks."""
+    out = []
+    for b in blocks:
+        h = '<section class="nn-sec" id="%s"><h2><span class="nn-ic" aria-hidden="true">%s</span>%s</h2>' % (b['id'], E(b.get('icon', '§')), E(b['title']))
+        if b.get('intro'):
+            h += '<p class="mut">%s</p>' % fmt(b['intro'])
+        k = b['kind']
+        if k == 'list':
+            h += '<ul class="nn-oneline">%s</ul>' % ''.join('<li>%s</li>' % fmt(x) for x in b['items'])
+        elif k == 'table':
+            tid = 'nn-t-' + b['id']
+            if b.get('filter'):
+                h += '<label class="nn-search"><span class="sr-only">Filter</span><input type="search" data-ftbl="%s" placeholder="Filter this table" autocomplete="off"></label>' % tid
+            h += '<div class="al-tblw"><table class="al-tbl nn-tbl" id="%s"><thead><tr>%s</tr></thead><tbody>%s</tbody></table></div>' % (
+                tid, ''.join('<th scope="col">%s</th>' % E(c) for c in b['cols']),
+                ''.join('<tr>%s</tr>' % ''.join('<td>%s</td>' % fmt(c) for c in r) for r in b['rows']))
+        elif k == 'pairs':
+            h += '<dl class="nn-pairs">%s</dl>' % ''.join('<div><dt>%s</dt><dd>%s</dd></div>' % (fmt(a), fmt(c)) for a, c in b['pairs'])
+        elif k == 'groups':
+            h += ''.join('<h3 class="nn-gh">%s</h3><ul class="nn-oneline">%s</ul>' % (fmt(a), ''.join('<li>%s</li>' % fmt(x) for x in items)) for a, items in b['groups'])
+        elif k == 'qa':
+            h += ''.join('<article class="nn-scn"><p><b>Scenario:</b> %s</p><p class="nn-ans-s"><b>Answer:</b> %s</p>%s</article>' % (
+                fmt(x['scenario']), fmt(x['answer']), ('<p class="mut"><b>Rule:</b> %s</p>' % fmt(x['rule'])) if x.get('rule') else '') for x in b['items'])
+        out.append(h + '</section>')
+    return '\n'.join(out)
+
+
 def build_subject(no, name, slug, marks, D, seo, fmt, sitemap, index_rows):
     meta, exam, secs = D['meta'], D['exam'], D['sections']
     upd = fmt_date(meta['prepared_as_of'])
@@ -325,6 +375,8 @@ def build_subject(no, name, slug, marks, D, seo, fmt, sitemap, index_rows):
         s['_url'] = s['_slug'] + '.html'
     sdir = OUT / slug
     sdir.mkdir(parents=True, exist_ok=True)
+    for old in sdir.glob('*.html'):  # never leave pages from an earlier build (renamed chapters) behind
+        old.unlink()
     short = SHORT.get(no, name)
     n_ch = len(secs)
     base = '/aibe/notes/%s/' % slug
@@ -436,7 +488,7 @@ def build_subject(no, name, slug, marks, D, seo, fmt, sitemap, index_rows):
 <div class="nn-no" aria-hidden="true">{s['_n']}</div>
 <div class="nn-ct"><p class="nn-kick">{E(name)} · Chapter {s['_n']} of {n_ch}</p>
 <h1>{E(s['title'])}</h1>
-<div class="nn-meta"><span class="nn-pri {pri_cls}">{pri_lbl}</span><span class="nn-chip">{nice_range(s['expected_questions'])} Qs expected</span><span class="nn-chip">{s['_min']} min read</span><span class="nn-chip art">{E(arts)}</span></div></div>
+<div class="nn-meta"><span class="nn-pri {pri_cls}">{pri_lbl}</span>{('<span class="nn-chip">%s Qs expected</span>' % nice_range(s['expected_questions'])) if s.get('expected_questions') else ''}<span class="nn-chip">{s['_min']} min read</span>{('<span class="nn-chip art">%s</span>' % E(arts)) if arts else ''}</div></div>
 <div class="nn-tools" role="group" aria-label="Reading tools">
 <button class="btn sm" type="button" data-act="fs-" aria-label="Smaller text">A−</button><button class="btn sm" type="button" data-act="fs+" aria-label="Larger text">A+</button>
 <button class="btn sm" type="button" data-act="print">Print / PDF</button><button class="btn sm" type="button" data-act="share">Share</button>
@@ -553,6 +605,16 @@ def build_subject(no, name, slug, marks, D, seo, fmt, sitemap, index_rows):
                       for a in [z.strip() for z in re.split(r';\s*', rr.get('borrowed_features_quick', '')) if z.strip()])
         t = 'AIBE %s Rapid Revision | NET Law-Verse' % short
         d = trim('One-page AIBE %s revision: numbers to remember, an article cheat sheet, case law in one line each and borrowed features. Free.' % name, 158)
+        generic = bool(rr.get('blocks'))
+        if generic:
+            d = trim('Last-day AIBE %s revision sheets: %s. Free.' % (name, ', '.join(b_['title'].lower() for b_ in rr['blocks'][:4])), 158)
+            rr_lead = 'The last-day sheets. AIBE is open book, so knowing <i>where</i> a provision sits is as valuable as memorising it: use these tables to tab your Bare Act.'
+            rr_jump = ''.join('<a href="#%s">%s</a>' % (b_['id'], E(b_['title'])) for b_ in rr['blocks'])
+            rr_body = rapid_blocks(rr['blocks'], fmt)
+        else:
+            rr_lead = 'The last-day sheet. AIBE is open book, so knowing <i>where</i> an Article sits is as valuable as memorising it: use the cheat sheet to tab your Bare Act.'
+            rr_jump = '<a href="#numbers">Numbers</a><a href="#articles">Article sheet</a><a href="#cases">Cases</a><a href="#borrowed">Borrowed features</a>'
+            rr_body = None
         ld = [{'@context': 'https://schema.org', '@graph': [
             {'@type': 'Article', 'headline': 'AIBE %s rapid revision' % name, 'description': d, 'url': SITE + base + 'rapid-revision.html',
              'inLanguage': 'en-IN', 'datePublished': meta['prepared_as_of'], 'dateModified': meta['prepared_as_of'], 'author': PUBLISHER,
@@ -561,20 +623,23 @@ def build_subject(no, name, slug, marks, D, seo, fmt, sitemap, index_rows):
         pg = head(t, d, base + 'rapid-revision.html', 1, ld, modified=meta['prepared_as_of'])
         pg += body_open('rapid', subject=slug, subject_name=name, chapter='rapid-revision', chapter_title='Rapid revision', url=base + 'rapid-revision.html')
         pg += top(1, [('AIBE', '../../'), ('Notes', '../'), (short, './'), ('Rapid revision', None)])
-        pg += f'''<main id="main" tabindex="-1" class="al-main nn-main">
-{brandbar('%s · Rapid revision' % name, upd, ver)}
-{navbar('Rapid revision')}
-<header class="nn-phead"><p class="nn-kick">{E(name)}</p><h1>Rapid <span>revision</span></h1>
-<p class="lead">The last-day sheet. AIBE is open book, so knowing <i>where</i> an Article sits is as valuable as memorising it: use the cheat sheet to tab your Bare Act.</p>
-<div class="nn-filter"><button class="btn sm" data-act="print" type="button">Print / PDF</button></div>
-<nav class="nn-jump" aria-label="Jump to"><span>Jump to</span><a href="#numbers">Numbers</a><a href="#articles">Article sheet</a><a href="#cases">Cases</a><a href="#borrowed">Borrowed features</a></nav></header>
-<div class="nn-wide" data-wm>
-<section class="nn-sec" id="numbers"><h2><span class="nn-ic" aria-hidden="true">#</span>Numbers to remember</h2><ul class="nn-nums">{nums}</ul></section>
+        p1_html = '' if generic else f'''<section class="nn-sec" id="numbers"><h2><span class="nn-ic" aria-hidden="true">#</span>Numbers to remember</h2><ul class="nn-nums">{nums}</ul></section>
 <section class="nn-sec" id="articles"><h2><span class="nn-ic" aria-hidden="true">§</span>Article cheat sheet</h2>
 <label class="nn-search"><span class="sr-only">Filter articles</span><input type="search" id="nn-artq" placeholder="Filter: type an article number or a topic" autocomplete="off"></label>
 <div class="al-tblw"><table class="al-tbl nn-tbl" id="nn-art"><thead><tr><th scope="col">Article</th><th scope="col">Subject</th></tr></thead><tbody>{cheat}</tbody></table></div></section>
 <section class="nn-sec" id="cases"><h2><span class="nn-ic" aria-hidden="true">⚖</span>Case law in one line</h2><ul class="nn-oneline">{one}</ul></section>
 <section class="nn-sec" id="borrowed"><h2><span class="nn-ic" aria-hidden="true">⇄</span>Borrowed features</h2><ul class="nn-oneline">{bor}</ul></section>
+'''
+        pg += f'''<main id="main" tabindex="-1" class="al-main nn-main">
+{brandbar('%s · Rapid revision' % name, upd, ver)}
+{navbar('Rapid revision')}
+<header class="nn-phead"><p class="nn-kick">{E(name)}</p><h1>Rapid <span>revision</span></h1>
+<p class="lead">{rr_lead}</p>
+<div class="nn-filter"><button class="btn sm" data-act="print" type="button">Print / PDF</button></div>
+<nav class="nn-jump" aria-label="Jump to"><span>Jump to</span>{rr_jump}</nav></header>
+<div class="nn-wide" data-wm>
+{rr_body if generic else ''}
+{p1_html}
 </div>
 {about_card(upd)}
 </main>
@@ -623,7 +688,7 @@ def build_subject(no, name, slug, marks, D, seo, fmt, sitemap, index_rows):
     for s in secs:
         pri_lbl, pri_cls = PRI.get(s['priority'], (s['priority'].title(), 'p4'))
         chap_cards.append(f'''<a class="nn-ch" href="{s['_url']}" data-p="{pri_cls}" data-slug="{s['_slug']}"><span class="nn-no sm">{s['_n']}</span>
-<span class="b"><b>{E(s['title'])}</b><span class="m"><span class="nn-pri {pri_cls}">{pri_lbl}</span><span>{nice_range(s['expected_questions'])} Qs</span><span>{s['_min']} min</span></span>
+<span class="b"><b>{E(s['title'])}</b><span class="m"><span class="nn-pri {pri_cls}">{pri_lbl}</span>{('<span>%s Qs</span>' % nice_range(s['expected_questions'])) if s.get('expected_questions') else ''}<span>{s['_min']} min</span></span>
 <span class="a">{fmt(s.get('articles', ''))}</span></span><span class="st" aria-hidden="true"></span></a>''')
     dist = ''
     for c in exam.get('indicative_distribution', []):
@@ -634,16 +699,21 @@ def build_subject(no, name, slug, marks, D, seo, fmt, sitemap, index_rows):
     lst = lambda key: ''.join('<li>%s</li>' % fmt(x) for x in exam.get(key, []))
     exam_html = ''
     if exam:
-        exam_html = f'''<section class="nn-sec" id="marks"><h2><span class="nn-ic" aria-hidden="true">%</span>Where the marks come from</h2>
-<p class="lead sm">{E(name)} carries about <b>{marks} of 100</b> questions. {fmt(exam.get('paper_format_note', ''))}</p>
-<ul class="nn-dist">{dist}</ul><p class="al-fine">{fmt(exam.get('distribution_note', ''))} (Scale: 0 to 10 questions.)</p>
-<div class="nn-two"><div class="al-card"><h3>Question patterns</h3><ul class="al-list">{lst('question_patterns')}</ul></div>
+        cards_html = ''.join('<div class="al-card"><h3>%s</h3><ul class="al-list">%s</ul></div>' % (
+            E(c['title']), ''.join('<li>%s</li>' % fmt(x) for x in c['items'] if x)) for c in exam.get('cards', []) if c.get('items')) if exam.get('cards') else (
+            f'''<div class="al-card"><h3>Question patterns</h3><ul class="al-list">{lst('question_patterns')}</ul></div>
 <div class="al-card"><h3>High-yield topics</h3><ul class="al-list">{lst('high_yield_topics')}</ul></div>
 <div class="al-card"><h3>Time strategy</h3><ul class="al-list">{lst('time_strategy')}</ul></div>
-<div class="al-card trap"><h3>Common traps</h3><ul class="al-list">{lst('common_traps')}</ul></div></div></section>'''
+<div class="al-card trap"><h3>Common traps</h3><ul class="al-list">{lst('common_traps')}</ul></div>''')
+        dist_html = (f'<ul class="nn-dist">{dist}</ul><p class="al-fine">{fmt(exam.get("distribution_note", ""))} (Scale: 0 to 10 questions.)</p>' if dist
+                     else (f'<p class="al-fine">{fmt(exam.get("distribution_note", ""))}</p>' if exam.get('distribution_note') else ''))
+        exam_html = f'''<section class="nn-sec" id="marks"><h2><span class="nn-ic" aria-hidden="true">%</span>Where the marks come from</h2>
+<p class="lead sm">{E(name)} carries about <b>{marks} of 100</b> questions. {fmt(exam.get('paper_format_note', ''))}</p>
+{dist_html}
+<div class="nn-two">{cards_html}</div></section>'''
     kit = [('highlights.html', 'Highlights', 'Provisions, cases, memory aids and traps, chapter by chapter.', 'c1', '★')]
     if 'rapid' in kinds:
-        kit.append(('rapid-revision.html', 'Rapid revision', 'Numbers, article cheat sheet and one-line cases.', 'c2', '⚡'))
+        kit.append(('rapid-revision.html', 'Rapid revision', ('Numbers, section finders, tables and last-day checklists.' if (D['rr'] or {}).get('blocks') else 'Numbers, article cheat sheet and one-line cases.'), 'c2', '⚡'))
     if 'dev' in kinds:
         kit.append(('latest-developments.html', 'Latest developments', 'Recent judgments and amendments, with the likely question.', 'c3', 'N'))
     if 'mcq' in kinds:
@@ -652,7 +722,7 @@ def build_subject(no, name, slug, marks, D, seo, fmt, sitemap, index_rows):
     kit_html = ''.join(f'<a class="al-feat {c}" href="{h}"><span class="ic">{ic}</span><b>{E(n)}</b><span class="d">{E(dd)}</span><span class="go">Open →</span></a>'
                        for h, n, dd, c, ic in kit)
     t = 'AIBE %s Notes: Chapter-wise | NET Law-Verse' % short
-    d = trim('Free AIBE %s notes in %d chapters: key provisions, landmark cases, exam traps, highlights, latest developments and MCQs. About %d of 100 AIBE questions.' % (name, n_ch, marks), 158)
+    d = trim('Free AIBE %s notes: %d chapters with key provisions, landmark cases, traps, highlights and MCQs. About %d of 100 questions.' % (name, n_ch, marks), 158)
     ld = [{'@context': 'https://schema.org', '@graph': [
         {'@type': 'CollectionPage', 'name': 'AIBE %s notes' % name, 'description': d, 'url': SITE + base, 'inLanguage': 'en-IN',
          'dateModified': meta['prepared_as_of'], 'isAccessibleForFree': True, 'publisher': PUBLISHER, 'image': OG,
@@ -708,7 +778,7 @@ def build_hub(live_info, sitemap):
         ('How current are the notes?', 'Each page shows the date it was last updated. Facts that rest on press or secondary reports are tagged Verify so you can check them against the official source.'),
     ]
     t = 'Free AIBE Notes: All 19 Subjects, Chapter-wise | NET Law-Verse'
-    d = 'Free AIBE notes organised under the 19 Bar Council of India subjects: chapter-wise provisions, landmark cases, traps, highlights, latest developments and MCQs. No sign-up.'
+    d = 'Free AIBE notes under the 19 Bar Council of India subjects: provisions, landmark cases, traps, highlights, latest developments and MCQs.'
     ld = [{'@context': 'https://schema.org', '@graph': [
         {'@type': 'CollectionPage', 'name': 'AIBE notes', 'description': d, 'url': SITE + '/aibe/notes/', 'inLanguage': 'en-IN',
          'isAccessibleForFree': True, 'publisher': PUBLISHER, 'image': OG,
@@ -788,14 +858,11 @@ def update_sitemap(entries):
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     live, seo = load_data()
-    allcases = []
-    for D in live.values():
-        for s in D['sections']:
-            allcases += [c['case'] for c in s.get('landmark_cases', [])]
-    fmt = make_formatter(allcases)
     sitemap, rows, info = [], [], {}
     for no, name, slug, marks in SUBJECTS:
         if no in live:
+            # case-name italics come from this subject's own cases, so one subject's data never alters another's pages
+            fmt = make_formatter([c['case'] for s in live[no]['sections'] for c in s.get('landmark_cases', [])])
             info[no] = build_subject(no, name, slug, marks, live[no], seo, fmt, sitemap, rows)
     build_hub(info, sitemap)
     build_mine()

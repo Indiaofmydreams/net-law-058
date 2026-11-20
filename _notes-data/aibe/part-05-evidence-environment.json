@@ -1,0 +1,919 @@
+{
+  "meta": {
+    "title": "AIBE Part 5 - Evidence Act / Bharatiya Sakshya Adhiniyam (8) + Environmental Law (2)",
+    "version": "1.0",
+    "prepared_on": "2026-11-17",
+    "audience": "AIBE aspirants (open-book, 100 MCQs, 3 hr 30 min)",
+    "how_to_use": "Read the exam_intelligence block first, then study topics in priority order (Very High -> High -> Medium). Finish each topic with its traps and likely_question_angles, then attempt the MCQs and the rapid_fire list. Tab your bare Act at every provision cited here.",
+    "accuracy_note": "BSA section numbers are given where they are well settled; where a number is omitted, the old Evidence Act (IEA) number is given. Because the exam is open book, always confirm the exact BSA section number against your bare Act before marking. Recent developments are dated; verify anything marked 'verify' against the BCI notification and the official judgment text."
+  },
+  "exam_intelligence": {
+    "latest_exam": "AIBE XXI was held on 7 June 2026 (offline, OMR). BCI reported no change in syllabus or pattern for AIBE XXI compared with the previous year.",
+    "pattern": {
+      "questions": 100,
+      "marks_each": 1,
+      "negative_marking": "None - attempt every question",
+      "duration": "3 hours 30 minutes",
+      "mode": "Offline, open book (BCI permits specified reference material - read the current notification for what is allowed)",
+      "pass_mark": "45% for General/OBC, 40% for SC/ST/PwD (as reported for recent cycles)",
+      "time_per_question": "About 2 minutes - Evidence questions are mostly one-step recall, so bank time here for harder subjects"
+    },
+    "part5_weightage": {
+      "evidence_and_bsa": 8,
+      "environmental_law": 2,
+      "total": 10
+    },
+    "examiner_view": [
+      "The paper tests recognition of the rule, the section and the leading case - not long reasoning. Most questions are single-line.",
+      "Since 1 July 2024 the Bharatiya Sakshya Adhiniyam, 2023 (BSA) has replaced the Indian Evidence Act, 1872 (IEA). Expect the question stem to use EITHER IEA or BSA numbering, so learn both. Treat the BSA as the primary text from here on.",
+      "Roughly half of the 8 Evidence questions come from four zones: (1) confessions and admissions, (2) burden of proof and presumptions, (3) documentary/electronic evidence, (4) witnesses and examination. Dying declaration and S.27-type discovery are perennial favourites.",
+      "Electronic evidence (S.63 BSA) is the single hottest zone: it is new, it has fresh case law (Pune Bar Association, May 2026) and it is easy to frame as an MCQ.",
+      "The 2 Environmental Law questions almost always come from: constitutional provisions (Art 21, 48A, 51A(g)), principles (polluter pays, precautionary, absolute liability, public trust, sustainable development), NGT Act, EPA 1986, Water/Air Acts, and a landmark case-to-principle match."
+    ],
+    "priority_order_evidence": [
+      "1. Electronic evidence - S.61-63 BSA, Schedule certificate, hash value, Anvar/Arjun Panditrao/Pune Bar",
+      "2. Confessions and discovery - S.22-24 BSA (IEA 24-30), S.27 IEA / S.23(2) BSA",
+      "3. Burden of proof and presumptions - S.104-120 BSA (IEA 101-114A)",
+      "4. Dying declaration and other statements of persons who cannot be called - S.26 BSA (IEA 32)",
+      "5. Documentary evidence - primary/secondary, proof of execution, oral v documentary",
+      "6. Witnesses, privileges and examination - competence, hostile witness, leading questions, S.132 BSA",
+      "7. Admissions, relevancy (res gestae, conspiracy), expert opinion, judgments, judicial notice, estoppel"
+    ],
+    "no_negative_marking_tip": "Never leave a question blank. Eliminate two options and guess.",
+    "open_book_tip": "Use the book only for exact section numbers and wording. Do not look up concepts - there is no time. Tag the bare Act with index tabs for: S.2, S.22-24, S.26, S.39, S.57-63, S.104-120, S.132 and the Schedule to the BSA."
+  },
+  "sections": [
+    {
+      "id": "5A",
+      "title": "Evidence Act, 1872 and Bharatiya Sakshya Adhiniyam, 2023",
+      "expected_questions": 8,
+      "background": {
+        "summary": "The BSA received Presidential assent on 25 December 2023 and came into force on 1 July 2024, repealing the Indian Evidence Act, 1872. It has 170 sections in 12 chapters (the IEA had 167 sections in 11 chapters) and adds a Schedule containing the electronic-record certificate. The architecture (relevancy -> proof -> production -> examination) is unchanged. Most changes concern electronic and digital records, definitions, some wording (coercion, gender-neutral and BNS/BNSS cross-references) and renumbering.",
+        "transition_rule": "Proceedings pending before 1 July 2024 continue under the IEA (savings clause - S.170 BSA). BSA governs proceedings commenced after that date. Do not confuse this with BNS, where offences committed before 1 July 2024 are governed by the IPC.",
+        "scope_s1": "The Act applies to judicial proceedings in or before any Court. It does NOT apply to affidavits presented to a Court or officer, or to proceedings before an arbitrator. (Classic MCQ: affidavits are not evidence under the Act.)"
+      },
+      "topics": [
+        {
+          "id": "5A-1",
+          "title": "Electronic and Digital Evidence (S.2(1)(d)-(e), S.39(2), S.57, S.61-63 BSA; Schedule)",
+          "priority": "Very High",
+          "expected_weight": "1-2 questions",
+          "summary": "The BSA expressly treats electronic or digital records as documents and electronic statements as oral evidence. Secondary electronic evidence is admissible only through S.63, which is the successor to S.65B IEA, but with a tougher certificate (two signatories and a hash value).",
+          "key_points": [
+            "S.2(1)(d) 'document' includes electronic or digital records (emails, server logs, documents on computers/laptops/smartphones, messages, websites, locational evidence, voice-mail messages stored on digital devices).",
+            "S.2(1)(e) 'evidence': oral evidence includes statements made by witnesses through electronic means; documentary evidence includes electronic or digital records produced for the inspection of the Court.",
+            "S.57 (primary evidence) has extra Explanations for electronic records: where a record is created or stored in multiple files, or simultaneously in more than one storage space (e.g. a video), each is primary evidence; a record produced from proper custody is primary evidence unless disputed.",
+            "S.61: an electronic or digital record cannot be denied admissibility merely because it is electronic; it has the same legal effect, validity and enforceability as any other document.",
+            "S.62: the contents of electronic records may be proved in accordance with S.63 (special provision).",
+            "S.63(1): information in an electronic record (printed on paper, or stored/recorded/copied in optical or magnetic media or semiconductor memory, produced by a computer or communication device) is deemed a document and admissible without production of the original if the S.63 conditions are met.",
+            "S.63(2) conditions (same four as old S.65B(2)): (a) device used regularly to store/process information in the course of regular activities under lawful control; (b) information of that kind regularly fed in the ordinary course; (c) device operating properly throughout the material part of the period (or any failure did not affect the record); (d) the reproduced information derives from information fed in the ordinary course.",
+            "S.63(3): where several computers/communication devices (standalone, networked, or through intermediaries) performed the function, they are treated as a single device.",
+            "S.63(4): a certificate in the form prescribed by the Schedule must accompany the electronic record when tendered. Part A is signed by the person in charge of the device / in management of the relevant activities; Part B is signed by an expert. The certificate must identify the record, describe how it was produced, give device particulars, address the S.63(2) conditions and disclose the HASH VALUE of the record (e.g. SHA-256).",
+            "S.39(2): the opinion of the Examiner of Electronic Evidence under S.79A of the IT Act, 2000 is a relevant fact. (But see Pune Bar Association below on who can sign Part B.)",
+            "Trials and examinations can be conducted by electronic means (see BNSS S.530)."
+          ],
+          "provisions": [
+            {"ref": "S.63 BSA", "note": "Successor of S.65B IEA. Applies to civil and criminal proceedings."},
+            {"ref": "S.65A IEA", "note": "Old rule: contents of electronic records may be proved only per S.65B. Now S.62 BSA."},
+            {"ref": "S.22A IEA", "note": "Oral admissions as to contents of electronic records irrelevant unless genuineness of the record is in question - retained in substance in the BSA."},
+            {"ref": "S.81A, 85A, 85B, 85C, 88A, 90A IEA", "note": "Presumptions: Gazette in electronic form; electronic agreements; secure electronic records and signatures; Electronic Signature Certificates; electronic messages (no presumption as to the sender); electronic records five years old. Continued in the BSA presumptions chapter."}
+          ],
+          "case_laws": [
+            {"name": "State (NCT of Delhi) v. Navjot Sandhu (Parliament attack case)", "year": "2005", "holding": "Liberal view: even without a S.65B certificate, secondary evidence of electronic records (call records) could be given under S.63/65 IEA. Overruled on this point by Anvar."},
+            {"name": "Anvar P.V. v. P.K. Basheer", "year": "2014", "holding": "Three-judge bench: S.65B is a special provision; a certificate under S.65B(4) is mandatory for secondary electronic evidence; oral evidence cannot substitute the certificate; Navjot Sandhu overruled."},
+            {"name": "Shafhi Mohammad v. State of H.P.", "year": "2018", "holding": "Certificate not needed where the party does not have the device (procedural relaxation). Later declared wrongly decided."},
+            {"name": "Arjun Panditrao Khotkar v. Kailash Kushanrao Gorantyal", "year": "2020", "holding": "Three-judge bench: Anvar affirmed, Shafhi overruled. Certificate is a mandatory condition for secondary electronic evidence; may be produced at any stage before the trial closes, and the Court can direct its production; no certificate is needed when the original device is itself produced and proved (primary evidence)."},
+            {"name": "Pune Bar Association v. Union of India (W.P.(C) 599 of 2026), decided 22 May 2026", "year": "2026", "holding": "Supreme Court upheld the constitutional validity of S.63(4) BSA and its Schedule - the hash-value disclosure and expert certification have a rational nexus with authenticity and integrity of electronic evidence. The Court held that Part B can be signed by any person with special skill in computer science and cyber forensics and is not confined to an Examiner of Electronic Evidence notified under S.79A IT Act; it did not treat the contrary Madras High Court view as binding precedent, though the question was kept open for fuller examination in a proper case."},
+            {"name": "R.M. Malkani v. State of Maharashtra", "year": "1973", "holding": "Tape-recorded conversation is admissible if relevant, the voice is identified and accuracy is established; evidence obtained illegally is not excluded merely on that ground."},
+            {"name": "Ziyauddin Burhanuddin Bukhari v. Brijmohan Mehra", "year": "1976", "holding": "Conditions for admissibility of tape records: voice identification, accuracy, absence of tampering, relevance."},
+            {"name": "Tomaso Bruno v. State of U.P.", "year": "2015", "holding": "CCTV footage is relevant electronic evidence; failure to produce available CCTV can invite adverse inference."}
+          ],
+          "traps": [
+            "S.63 certificate is needed for printouts, CDs, pen drives, screenshots, WhatsApp exports - but NOT when the original device is produced and proved.",
+            "Oral evidence cannot replace the S.63(4) certificate (Anvar, Arjun Panditrao).",
+            "New BSA requirement: hash value + TWO signatories (person in charge AND expert). Old S.65B(4) needed only one person in a responsible position.",
+            "Navjot Sandhu = overruled (by Anvar). Shafhi Mohammad = overruled (by Arjun Panditrao). Do not pick these as 'good law'.",
+            "Electronic evidence is not 'hearsay' by nature; admissibility and weight are different questions.",
+            "S.63 applies to civil as well as criminal proceedings."
+          ],
+          "memory_aids": [
+            "A-A-P-P: Anvar (2014) -> Arjun (2020) -> Pune Bar (2026) - the certificate story.",
+            "S.63 = old 65B; S.62 = old 65A; S.61 = admissibility not denied.",
+            "Hash = digital fingerprint; Part A = operator, Part B = expert."
+          ],
+          "likely_question_angles": [
+            "Which BSA section replaced S.65B IEA?",
+            "What new particular must the S.63(4) certificate carry? (hash value)",
+            "Who signs Part B of the certificate? (expert - per Pune Bar Association, any person with special skill in computer science/cyber forensics)",
+            "Is a certificate required when the original device is produced?",
+            "Which case overruled Navjot Sandhu / Shafhi Mohammad?"
+          ]
+        },
+        {
+          "id": "5A-2",
+          "title": "Confessions and Discovery (S.22-24 BSA; IEA S.24-30)",
+          "priority": "Very High",
+          "expected_weight": "1-2 questions",
+          "summary": "The law excludes involuntary confessions, confessions to police and confessions in police custody, but allows the portion of an accused's information that leads to discovery of a fact. Confession of a co-accused is only a corroborative aid.",
+          "key_points": [
+            "'Confession' is not defined in the Act. Pakala Narayana Swami: it must admit the offence or substantially all facts that constitute the offence; an incriminating admission is not by itself a confession. A confession must be accepted or rejected as a whole (Palvinder Kaur).",
+            "S.22 BSA (IEA 24): a confession caused by inducement, threat, COERCION or promise (new word) is irrelevant in a criminal proceeding if it appears to the Court that it was made by a person in authority and gave the accused reasonable grounds to think he would gain an advantage or avoid an evil of a temporal nature in reference to the proceedings.",
+            "S.23(1) BSA (IEA 25): no confession made to a police officer shall be proved against a person accused of an offence.",
+            "S.23(2) BSA (IEA 26): no confession made in police custody is provable against the accused unless made in the immediate presence of a Magistrate. PROVISO (IEA 27): so much of the information received from an accused in custody, whether it amounts to a confession or not, as relates distinctly to the fact discovered, may be proved.",
+            "Discovery rule: Pulukuri Kottaya - what is admissible is the information that distinctly relates to the fact discovered (the place and the accused's knowledge), not the whole statement. Custody includes constructive custody (Udai Bhan).",
+            "S.24 BSA (IEA 30): confession of a co-accused, jointly tried for the same offence, proved and affecting the maker and the others, may be taken into consideration against the others. It is NOT substantive evidence - it can only lend assurance to other evidence (Kashmira Singh; Haricharan Kurmi; Bhuboni Sahu). Explanation (new): trial in the absence of an absconding accused / one who fails to comply with a proclamation is deemed a joint trial.",
+            "Judicial confession is recorded by a Magistrate under BNSS S.183 (CrPC S.164) after due caution; voluntariness is the test.",
+            "Extra-judicial confession is a weak form of evidence; reliability depends on the person to whom it is made and circumstances (Sahadevan v. State of T.N., 2012).",
+            "Retracted confession: can found a conviction if voluntary and true, but as a rule of prudence needs general corroboration (Pyare Lal Bhargava).",
+            "Statements to NDPS officers under S.67 NDPS are inadmissible as confessions because those officers are 'police officers' for S.25 IEA (Tofan Singh v. State of T.N., 2020). By contrast, statements under S.50 PMLA are admissible and not hit by S.25 (Vijay Madanlal Choudhary, 2022) and statements to Customs officers under S.108 Customs Act are admissible (Illias)."
+          ],
+          "case_laws": [
+            {"name": "Pakala Narayana Swami v. Emperor", "year": "1939", "holding": "Definition of confession; admission of incriminating fact is not confession."},
+            {"name": "Palvinder Kaur v. State of Punjab", "year": "1952", "holding": "Confession must be taken as a whole; exculpatory part cannot be rejected selectively."},
+            {"name": "Pulukuri Kottaya v. Emperor", "year": "1947", "holding": "Scope of discovery under S.27; only the information distinctly related to the discovered fact is provable."},
+            {"name": "State of U.P. v. Deoman Upadhyaya", "year": "1960", "holding": "S.27 is a proviso to S.26; applies even if accused was not formally under arrest if in police custody; constitutional validity upheld."},
+            {"name": "State of Bombay v. Kathi Kalu Oghad", "year": "1961", "holding": "Giving specimen handwriting/fingerprints is not testimonial compulsion under Art 20(3); S.27 information given by accused is not barred by Art 20(3)."},
+            {"name": "Aghnoo Nagesia v. State of Bihar", "year": "1966", "holding": "A confessional FIR lodged by the accused is hit by S.25 IEA and cannot be proved against him."},
+            {"name": "Kashmira Singh v. State of M.P.", "year": "1952", "holding": "Co-accused confession cannot be the basis of conviction; only lends assurance."},
+            {"name": "Haricharan Kurmi v. State of Bihar", "year": "1964", "holding": "Co-accused confession is not evidence in the strict sense of S.3; it is a factor to be considered after other evidence is examined."},
+            {"name": "Selvi v. State of Karnataka", "year": "2010", "holding": "Involuntary narco-analysis, polygraph and BEAP tests violate Art 20(3) and Art 21; but facts discovered pursuant to voluntary tests may be admissible under S.27."},
+            {"name": "Tofan Singh v. State of Tamil Nadu", "year": "2020", "holding": "NDPS officers are police officers; S.67 NDPS statements are inadmissible as confessions."}
+          ],
+          "traps": [
+            "S.27 / S.23(2) proviso is not limited to confessions - 'whether it amounts to a confession or not'.",
+            "The information is admissible only if it leads to discovery of a fact; the portion before/after that is excluded.",
+            "Confession by co-accused requires JOINT trial and same offence; it is not substantive evidence.",
+            "A statement made to a Magistrate in custody is admissible only if it is a confession recorded in his immediate presence.",
+            "S.22 requires the inducement to come from a person in authority; 'coercion' is the new word in the BSA.",
+            "Confession to a police officer remains inadmissible even if the accused is not in custody when making it."
+          ],
+          "memory_aids": [
+            "22 = Pressure out, 23 = Police out (but discovery in), 24 = Partner's confession (co-accused).",
+            "Pulukuri = Place; Kathi Kalu = Kopy (handwriting/fingerprint, not testimony); Deoman = Detained."
+          ],
+          "likely_question_angles": [
+            "Which section makes confession to police officer inadmissible? (S.23(1) BSA / S.25 IEA)",
+            "What portion of information given by accused in custody is admissible? (relates distinctly to fact discovered)",
+            "Evidentiary value of co-accused confession.",
+            "Which new word did the BSA add to the inducement section? (coercion)",
+            "Statements to NDPS officers - admissible as confession? (No - Tofan Singh)"
+          ]
+        },
+        {
+          "id": "5A-3",
+          "title": "Burden of Proof, Presumptions and Estoppel (S.104-123 BSA; IEA S.101-117)",
+          "priority": "Very High",
+          "expected_weight": "1-2 questions",
+          "summary": "The most formula-driven chapter. Know who bears the burden, what 'may presume / shall presume / conclusive proof' mean, and the four statutory presumptions (legitimacy, abetment of suicide, dowry death, absence of consent in rape) that the examiners repeatedly test.",
+          "key_points": [
+            "S.104 (IEA 101): whoever desires the Court to give judgment on a legal right or liability dependent on facts that he asserts must prove that those facts exist.",
+            "S.105 (IEA 102): the burden of proof in a suit lies on the person who would fail if no evidence at all were given on either side.",
+            "S.106 (IEA 103): the burden of proving any particular fact lies on the person who wishes the Court to believe in its existence, unless the law provides otherwise.",
+            "S.107 (IEA 104): burden of proving a fact necessary to make evidence admissible lies on the person who wants to give that evidence.",
+            "S.108 (IEA 105): burden of proving that the case falls within a General Exception (or any special exception/proviso) lies on the accused; the Court shall presume absence of such circumstances. The accused need only meet the standard of preponderance of probabilities, not beyond reasonable doubt (Dahyabhai Chhaganbhai Thakker, 1964).",
+            "S.109 (IEA 106): when a fact is especially within the knowledge of a person, the burden of proving it is on him. It does not relieve the prosecution of its initial burden (Shambhu Nath Mehra, 1956); applied to homicides inside a house (Trimukh Maroti Kirkan, 2006) and to the 'last seen together' theory.",
+            "S.110 (IEA 107): person alive within 30 years - burden on the one who says he is dead.",
+            "S.111 (IEA 108): person not heard of for seven years by those who would naturally have heard - burden shifts to the one who affirms he is alive. There is no presumption about the date of death.",
+            "S.112-S.114 (IEA 109-111): burden in partnership/landlord-tenant/principal-agent relationships; ownership; transactions where one party is in a position of active confidence.",
+            "S.116 (IEA 112): birth during the continuance of a valid marriage, or within 280 days after its dissolution, the mother remaining unmarried, is CONCLUSIVE PROOF of legitimacy - rebuttable only by proof that the parties had no access at the relevant time.",
+            "S.117 (IEA 113A): where a married woman commits suicide within seven years of marriage and her husband or his relative subjected her to cruelty, the Court MAY presume abetment (read with BNS S.108 / cruelty S.85-86).",
+            "S.118 (IEA 113B): in a dowry death prosecution, if it is shown that soon before her death the woman was subjected to cruelty or harassment for or in connection with dowry, the Court SHALL presume the accused caused the dowry death (BNS S.80 / IPC 304B).",
+            "S.119 (IEA 114): the Court MAY presume the existence of any fact it thinks likely to have happened. Key illustrations: (a) a person in possession of stolen goods soon after the theft is presumed to be the thief or to have received them knowing them stolen unless he accounts for possession; (b) an accomplice is unworthy of credit unless corroborated; (e) judicial and official acts are presumed regularly performed; (g) evidence which could be produced but is withheld would be unfavourable to the withholder (adverse inference).",
+            "S.120 (IEA 114A): in rape prosecutions where sexual intercourse is proved and the victim states in evidence that she did not consent, the Court SHALL presume absence of consent.",
+            "Definitions: 'may presume' = Court may or may not treat the fact as proved unless disproved; 'shall presume' = Court must treat as proved unless disproved; 'conclusive proof' = Court must treat as proved and no evidence to disprove is allowed.",
+            "Estoppel (IEA 115-117; BSA Chapter on estoppel): S.115 - estoppel by representation (intentional causing of belief; neither the representor nor his representative can later deny); S.116 - tenant cannot deny landlord's title during the tenancy; licensee cannot deny licensor's authority; S.117 - acceptor of a bill cannot deny drawer's authority; bailee/licensee cannot deny bailor's title. Estoppel is a rule of evidence, not a cause of action, and does not operate against a statute."
+          ],
+          "case_laws": [
+            {"name": "Woolmington v. DPP", "year": "1935", "holding": "Golden thread: the prosecution must prove guilt beyond reasonable doubt; the accused's burden is only to raise a reasonable doubt."},
+            {"name": "Shambhu Nath Mehra v. State of Ajmer", "year": "1956", "holding": "S.106 does not shift the burden of the prosecution; it applies only to facts specially within the accused's knowledge."},
+            {"name": "Sharad Birdhichand Sarda v. State of Maharashtra", "year": "1984", "holding": "Five golden principles for conviction on circumstantial evidence (panchsheel); S.106 cannot fill gaps in the prosecution case; also on dying declaration."},
+            {"name": "Trimukh Maroti Kirkan v. State of Maharashtra", "year": "2006", "holding": "In offences in the privacy of a home, the accused who is the only other person present must offer an explanation (S.106)."},
+            {"name": "Dahyabhai Chhaganbhai Thakker v. State of Gujarat", "year": "1964", "holding": "Burden on the accused under S.105 is by preponderance of probability."},
+            {"name": "Kans Raj v. State of Punjab", "year": "2000", "holding": "Interpretation of 'soon before her death' in S.304B/113B - a proximate and live link is needed."},
+            {"name": "Satbir Singh v. State of Haryana", "year": "2021", "holding": "Three-judge bench: the presumption under S.113B and S.113A; 'soon before' is flexible and not a fixed period."},
+            {"name": "Dukhtar Jahan v. Mohd. Farooq", "year": "1987", "holding": "S.112 presumption is conclusive; rebuttal only by proof of non-access."},
+            {"name": "Goutam Kundu v. State of West Bengal", "year": "1993", "holding": "Blood test cannot be ordered as a routine; strong prima facie case of non-access is needed."},
+            {"name": "Nandlal Wasudeo Badwaik v. Lata Nandlal Badwaik", "year": "2014", "holding": "A reliable DNA test result prevails over the conclusive presumption of legitimacy (S.112) when the husband succeeds in proving non-access/paternity facts."},
+            {"name": "Aparna Ajinkya Firodia v. Ajinkya Arun Firodia", "year": "2023", "holding": "DNA tests of a child cannot be ordered casually; Court must weigh the child's best interests and privacy."},
+            {"name": "Motilal Padampat Sugar Mills v. State of U.P.", "year": "1979", "holding": "Promissory estoppel is an equitable doctrine distinct from S.115 estoppel; it is enforceable against the Government."}
+          ],
+          "traps": [
+            "S.113A = 'may presume'; S.113B = 'shall presume'; S.114A = 'shall presume'. Examiners swap these words.",
+            "Presumption of legitimacy is conclusive, but access/non-access is the only rebuttal.",
+            "S.106 (special knowledge) never relieves the prosecution of proving the foundation facts.",
+            "Seven-year presumption of death does not tell the date of death.",
+            "Burden under general exceptions is on the accused but the standard is only a balance of probabilities.",
+            "Accomplice: S.133 IEA says conviction on accomplice testimony is not illegal, S.114(b) says the Court may presume he is unworthy of credit - so corroboration is a rule of prudence (Bhiva Doulu Patil)."
+          ],
+          "memory_aids": [
+            "'Soon before' = proximity, not a stopwatch.",
+            "7-7-7: seven years (suicide presumption), seven years (not heard of), seven years (marriage period for dowry death)."
+          ],
+          "likely_question_angles": [
+            "Burden of proving a general exception rests on?",
+            "Which provision raises a 'shall presume' in dowry death?",
+            "How long after dissolution is a child still presumed legitimate? (280 days)",
+            "Special-knowledge rule - section and effect.",
+            "Difference between 'may presume', 'shall presume', 'conclusive proof'."
+          ]
+        },
+        {
+          "id": "5A-4",
+          "title": "Dying Declaration and Statements of Persons who cannot be called as witnesses (S.26-27 BSA; IEA S.32-33)",
+          "priority": "Very High",
+          "expected_weight": "1 question",
+          "summary": "A dying declaration is a relevant exception to the hearsay rule resting on the maxim nemo moriturus praesumitur mentiri. It can be the sole basis of conviction if it is voluntary, truthful and inspires confidence.",
+          "key_points": [
+            "S.26(1)(a) BSA (IEA 32(1)): statement made by a person as to the cause of his death or as to any of the circumstances of the transaction which resulted in his death is relevant in proceedings in which the cause of his death comes into question - whether or not he was expecting death at the time of making it.",
+            "Other categories (S.26(1)(b)-(h)): statements made in the course of business, against pecuniary or proprietary interest, giving opinion as to public right or custom, relating to the existence of relationship by blood/marriage, in a will or deed relating to family affairs, in a document relating to a transaction, and made by several persons expressing feelings.",
+            "Magistrate's presence and doctor's certificate are not mandatory (Laxman v. State of Maharashtra, 2002 - Constitution Bench); if there is doubt about the declarant's fitness, medical evidence assumes importance.",
+            "Conviction can rest solely on a DD if it is trustworthy; corroboration is a rule of prudence, not of law (Khushal Rao, 1958; Kundula Bala Subrahmanyam, 1993; Paniben, 1992).",
+            "Multiple dying declarations: if consistent, the Court can rely on any; if inconsistent, the Court examines which one is voluntary, truthful and corroborated (Irfan @ Naka v. State of U.P., 2023 and the line before it).",
+            "A DD need not be in question-answer form; it may be oral, gestures (nod) or written. A DD of an accused is also covered.",
+            "S.27 BSA (IEA 33): evidence given by a witness in a previous judicial proceeding is relevant in a later stage to prove the truth of the facts it states when the witness is dead, cannot be found, is incapable of giving evidence, kept out of the way by the adverse party, or his attendance cannot be procured without unreasonable delay/expense - provided the proceeding was between the same parties, the adverse party had a right and opportunity to cross-examine, and the questions in issue were substantially the same."
+          ],
+          "case_laws": [
+            {"name": "Pakala Narayana Swami v. Emperor", "year": "1939", "holding": "'Circumstances of the transaction' covers statements beyond the mere act of injury, e.g. statements of motive and prior events."},
+            {"name": "Khushal Rao v. State of Bombay", "year": "1958", "holding": "A DD is not weaker than any other evidence; it can be the sole basis of conviction."},
+            {"name": "Laxman v. State of Maharashtra", "year": "2002", "holding": "A medical certificate of fitness is not a sine qua non; what matters is the Court's satisfaction that the declarant was in a fit state of mind."},
+            {"name": "Paniben v. State of Gujarat", "year": "1992", "holding": "Summarised principles for evaluating dying declarations."},
+            {"name": "Sharad Birdhichand Sarda v. State of Maharashtra", "year": "1984", "holding": "DD may include statements about the circumstances leading to death, including suicidal statements."},
+            {"name": "Irfan @ Naka v. State of U.P.", "year": "2023", "holding": "Handling of multiple dying declarations; reliance on the one that inspires confidence."}
+          ],
+          "traps": [
+            "Indian law does not require the declarant to be under expectation of death (unlike English law).",
+            "A DD recorded by a police officer or doctor is not invalid merely because no Magistrate recorded it.",
+            "An unsigned or incomplete DD is not automatically invalid; evidence on the declarant's fitness matters.",
+            "Corroboration is not mandatory but is a rule of prudence where the DD is suspicious."
+          ],
+          "memory_aids": ["Nemo moriturus praesumitur mentiri = no one dies telling a lie.", "Laxman = Lack of mandatory doctor's certificate."],
+          "likely_question_angles": [
+            "Is the Magistrate's presence mandatory for a DD? (No)",
+            "Can a DD be the sole basis of conviction?",
+            "Does the BSA/IEA require the declarant to expect death?",
+            "Which case: certification by doctor not essential (Laxman)?"
+          ]
+        },
+        {
+          "id": "5A-5",
+          "title": "Documentary Evidence - Primary, Secondary, Proof of Execution and Oral v Documentary (S.56-60, S.64-103 BSA; IEA S.61-100)",
+          "priority": "High",
+          "expected_weight": "1-2 questions",
+          "summary": "Contents of a document must be proved by primary evidence; secondary evidence is allowed only in the cases listed in S.60 BSA (S.65 IEA) after a foundation is laid. Know the exclusion of oral by documentary evidence and its provisos.",
+          "key_points": [
+            "S.56 BSA (IEA 61): contents of documents may be proved by primary or secondary evidence.",
+            "S.57 BSA (IEA 62) primary evidence: the document itself produced for the inspection of the Court. Counterparts executed by one party - primary against that party; documents made by one uniform process (printing, lithography, photography) - each is primary evidence of the rest, but copies of a common original are not primary evidence of the original.",
+            "S.58 BSA (IEA 63) secondary evidence: certified copies; copies made from the original by mechanical processes which ensure accuracy and copies compared with such copies; copies compared with the original; counterparts against non-executing parties; oral accounts of contents given by a person who has himself seen the document.",
+            "S.60 BSA (IEA 65): secondary evidence is admissible when (a) the original is in the possession of the adverse party/a person out of reach/not subject to process who fails to produce it after notice; (b) the existence, condition or contents are admitted in writing by the person against whom it is proved; (c) original destroyed or lost; (d) the original is not easily movable; (e) the original is a public document; (f) the original is a document of which a certified copy is permitted by law; (g) the original consists of numerous accounts that cannot conveniently be examined in Court. For (a), (c), (d) any secondary evidence is admissible; for (b) only the written admission; for (e) and (f) only a certified copy; for (g) the evidence of a skilled person. For electronic records, the S.63 route applies.",
+            "Notice to produce (IEA S.66): not required where the document is itself a notice, the adverse party has the original or obtained it by fraud, etc.",
+            "Proof of execution (IEA S.67 - signature and handwriting): where a document is alleged to be signed or written by a person, the signature/handwriting must be proved to be his. IEA S.68: if a document is required by law to be attested (will, mortgage, gift), it cannot be used as evidence until at least one attesting witness has been called to prove its execution, if alive, subject to the Court's process and capable of giving evidence. Exception (proviso): documents (other than a will) registered under the Registration Act need not be proved by an attesting witness unless execution is specifically denied.",
+            "Proof of Will: propounder must remove suspicious circumstances; at least one attesting witness is mandatory (S.63 Indian Succession Act + S.68 IEA) - H. Venkatachala Iyengar v. B.N. Thimmajamma (1959); Janki Narayan Bhoir (2003); Meena Pradhan v. Kamla Pradhan (2023).",
+            "Public documents (IEA S.74) and private documents (S.75); public documents are proved by certified copies (S.76-77); presumption as to genuineness of certified copies (S.79); of records of evidence (S.80); Gazettes and newspapers (S.81); documents thirty years old produced from proper custody (S.90) - Court may presume signature and execution genuine.",
+            "Exclusion of oral by documentary evidence (IEA S.91-92): when the terms of a contract, grant or disposition of property have been reduced to writing, no evidence can be given in proof of those terms except the document itself (S.91), and no oral agreement contradicting, varying, adding to or subtracting from its terms is admissible between the parties (S.92).",
+            "Provisos to IEA S.92: (1) fraud, intimidation, illegality, want of due execution, want of capacity, absence/failure of consideration, mistake of fact or law may be proved; (2) a separate oral agreement on a matter on which the document is silent and which is not inconsistent with its terms; (3) a separate oral agreement constituting a condition precedent to the attaching of any obligation; (4) a subsequent oral agreement to rescind or modify (except where the contract is required by law to be in writing or registered); (5) usage or custom annexing incidents to contracts; (6) facts showing how the language relates to existing facts.",
+            "Ambiguity: patent ambiguity cannot be cured by extrinsic evidence (IEA S.93); latent ambiguity can (IEA S.95-97)."
+          ],
+          "case_laws": [
+            {"name": "H. Siddiqui v. A. Ramalingam", "year": "2011", "holding": "Secondary evidence cannot be given without laying the foundation under S.65; non-production of the original must be satisfactorily explained."},
+            {"name": "Roman Catholic Mission v. State of Madras", "year": "1966", "holding": "Where the original is not produced, secondary evidence can be given only on satisfying the conditions of S.65."},
+            {"name": "Roop Kumar v. Mohan Thedani", "year": "2003", "holding": "Interpretation of S.91-92: when a document is the sole repository of the terms of a contract, oral evidence is excluded."},
+            {"name": "H. Venkatachala Iyengar v. B.N. Thimmajamma", "year": "1959", "holding": "Principles on proof of Wills and removal of suspicious circumstances."},
+            {"name": "Janki Narayan Bhoir v. Narayan Namdeo Kadam", "year": "2003", "holding": "Calling an attesting witness is a mandatory requirement to prove a Will; mere proof of testator's signature is insufficient."},
+            {"name": "Meena Pradhan v. Kamla Pradhan", "year": "2023", "holding": "Reiterated rules on proof of Will and burden on the propounder to dispel suspicious circumstances."},
+            {"name": "R.V.E. Venkatachala Gounder v. Arulmigu Viswesaraswami", "year": "2003", "holding": "Objection to the MODE of proof (e.g. unstamped/secondary copy) must be taken when the document is tendered, not later; objection to admissibility on law can be taken later."}
+          ],
+          "traps": [
+            "Primary evidence: photocopies of a common original are NOT primary.",
+            "Section 91 excludes oral evidence about the terms; S.92 excludes oral agreements contradicting them. Proviso (1) - fraud etc. - is the favourite exception.",
+            "Secondary evidence needs a foundation (notice, non-availability) and cannot be admitted as of right.",
+            "Registered documents need no attesting witness, but a will always needs one.",
+            "Unattested document does not require attesting witness proof.",
+            "Patent ambiguity cannot be explained; latent ambiguity can."
+          ],
+          "memory_aids": [
+            "S.65: Always Bring Close Duplicates Probably Fully (a-b-c-d-e-f-g cases).",
+            "Provisos to S.92: F-Mistake-Silence-Condition-Subsequent-Usage-Language."
+          ],
+          "likely_question_angles": [
+            "When is secondary evidence admissible?",
+            "Which is primary evidence?",
+            "Must a will be proved through an attesting witness?",
+            "Which proviso to S.92 permits oral evidence of fraud?",
+            "Presumption of documents 30 years old - which section/what presumption?"
+          ]
+        },
+        {
+          "id": "5A-6",
+          "title": "Witnesses: Competence, Privileges, Accomplice, Number of Witnesses (S.124-139 BSA approx.; IEA S.118-134)",
+          "priority": "High",
+          "expected_weight": "1-2 questions",
+          "summary": "Competence is the rule; privilege is the exception. Learn who is competent, who cannot be compelled, advocate-client privilege (S.132 BSA) and the rule that no particular number of witnesses is needed.",
+          "key_points": [
+            "Competence (IEA S.118): all persons are competent to testify unless the Court considers that they are prevented from understanding the questions or giving rational answers by tender years, extreme old age, disease (body or mind) or any similar cause. A child has no fixed minimum age; the Court tests competence by preliminary questions (voir dire) - Dattu Ramrao Sakhare (1997); Rameshwar v. State of Rajasthan (1952). A dumb witness may give evidence by signs or writing in open court (IEA S.119).",
+            "Spouses (IEA S.120): in civil proceedings, parties and their spouses are competent; in criminal proceedings against any person, the spouse is a competent witness.",
+            "Judges and Magistrates (IEA S.121): not compelled to answer questions about their own conduct in court, except on special order of a superior Court.",
+            "Marital communications (IEA S.122): no person who is or has been married shall be compelled to disclose communications made during marriage, except in suits between married persons or proceedings where one is prosecuted for a crime against the other.",
+            "Affairs of State (IEA S.123): unpublished official records relating to affairs of State cannot be given in evidence without the permission of the head of department - the Court decides on privilege claims (State of U.P. v. Raj Narain, 1975; S.P. Gupta, 1981).",
+            "Professional communications (IEA S.126 / S.132 BSA): no advocate shall be permitted, without the client's express consent, to disclose communications made in the course and for the purpose of employment, or contents of documents with which he became acquainted, or advice given. Applies to interpreters, clerks and servants of the advocate. Exceptions: communications in furtherance of an illegal purpose; facts observed by the advocate during employment showing a crime or fraud since its commencement. Privilege survives the end of employment. In-house counsel are not within the privilege as 'advocates' (Supreme Court, October 2025 suo motu case on summoning of advocates - verify the holding on summons procedure).",
+            "Confidential communications with legal advisers (IEA S.129): no one can be compelled to disclose confidential communications with his legal adviser unless he offers himself as a witness.",
+            "Witness not excused on ground that the answer will incriminate him (IEA S.132), but such answer cannot be used against him in criminal proceedings (other than for giving false evidence) - an aspect harmonised with Art 20(3).",
+            "Accomplice (IEA S.133): an accomplice is a competent witness and a conviction is not illegal merely because it proceeds on his uncorroborated testimony; the rule of prudence in S.114 illustration (b) requires corroboration in material particulars as to the identity of the accused (Bhiva Doulu Patil, 1963; Sarwan Singh, 1957).",
+            "Number of witnesses (IEA S.134): no particular number is required for the proof of any fact. Vadivelu Thevar: witnesses are classified as wholly reliable, wholly unreliable, or neither - the Court needs corroboration only for the third class. The sole testimony of a sexual-offence victim may be sufficient (State of Punjab v. Gurmit Singh, 1996)."
+          ],
+          "case_laws": [
+            {"name": "Vadivelu Thevar v. State of Madras", "year": "1957", "holding": "Classification of witnesses; quality over quantity; a single reliable witness may suffice."},
+            {"name": "Rameshwar v. State of Rajasthan", "year": "1952", "holding": "Corroboration of a sexual-offence victim is a rule of prudence, not of law."},
+            {"name": "State of Punjab v. Gurmit Singh", "year": "1996", "holding": "Courts should treat rape victims with sensitivity; sole testimony can convict."},
+            {"name": "Dattu Ramrao Sakhare v. State of Maharashtra", "year": "1997", "holding": "A child witness is competent if he understands the questions; evidence needs careful scrutiny and corroboration as a rule of prudence."},
+            {"name": "M.C. Verghese v. T.J. Ponnan", "year": "1969", "holding": "Spousal communication privilege under S.122 applies to communications made during marriage; third parties can testify."},
+            {"name": "State of U.P. v. Raj Narain", "year": "1975", "holding": "Claim of privilege under S.123 is not conclusive; Court can examine."},
+            {"name": "Bhiva Doulu Patil v. State of Maharashtra", "year": "1963", "holding": "Reconciles S.133 with S.114(b): accomplice evidence needs corroboration as a rule of practice."}
+          ],
+          "traps": [
+            "Child witnesses are competent; there is no minimum age.",
+            "S.133: conviction on uncorroborated accomplice testimony is legally valid but prudence requires corroboration.",
+            "Marital privilege does not apply in suits between spouses or when a spouse is prosecuted for crime against the other.",
+            "A witness cannot refuse to answer on the ground of self-incrimination under this Act - but the answer is protected.",
+            "Advocate-client privilege is the client's privilege - only he can waive it."
+          ],
+          "memory_aids": ["WIT: Witness Is Competent unless prevented (118)."],
+          "likely_question_angles": [
+            "Who is a competent witness?",
+            "Advocate-client privilege - section and exceptions (S.132 BSA).",
+            "Conviction on testimony of accomplice - legal position.",
+            "Is a minimum number of witnesses required?"
+          ]
+        },
+        {
+          "id": "5A-7",
+          "title": "Examination of Witnesses: Leading Questions, Hostile Witness, Cross-examination, Judge's Powers (S.140-169 BSA approx.; IEA S.135-167)",
+          "priority": "High",
+          "expected_weight": "1 question",
+          "summary": "Know the order of examination, when leading questions are permitted, what a hostile witness is, how credit is impeached, and the Judge's power to question (S.168 BSA).",
+          "key_points": [
+            "Order: examination-in-chief -> cross-examination -> re-examination. Cross-examination need not be confined to the facts stated in chief. Re-examination is confined to matters arising out of cross-examination and new matters need the Court's permission (and the adverse party then gets to cross).",
+            "Leading questions: a question suggesting the answer. Not allowed in examination-in-chief or re-examination if objected to by the adverse party, except on introductory or undisputed matters or with the Court's permission; allowed in cross-examination (IEA S.141-143).",
+            "Hostile witness (IEA S.154): the Court may permit the party calling a witness to put questions that the adverse party might put in cross-examination. The evidence of a hostile witness is not completely effaced - the reliable portion can be accepted after careful scrutiny (Bhagwan Singh, 1976; Khujji @ Surendra Tiwari, 1991; Rabindra Kumar Dey, 1976; Sat Paul v. Delhi Administration, 1976).",
+            "Previous statements in writing: cross-examination as to writing without showing it is allowed, but if it is to contradict, the writing must be shown (IEA S.145).",
+            "Cross-examination on credit; questions which Court must decide to allow; no question without reasonable grounds (IEA S.148-149); indecent or scandalous questions (S.151); questions intended to insult or annoy (S.152). Proviso to S.146: in a rape trial, no question may be asked about the victim's general immoral character.",
+            "Impeaching credit (IEA S.155): evidence of those who believe the witness unworthy of credit; proof that the witness has been bribed; proof of former inconsistent statements.",
+            "Corroboration by former statements (IEA S.157): former statements made at or about the time of the fact or before an authority legally competent to investigate.",
+            "Refreshing memory (IEA S.159): documents written contemporaneously or soon after - witness may refer; Court may permit use of copies; if the document is used the adverse party can inspect and cross-examine on it.",
+            "Judge's power to put questions (IEA S.165 / S.168 BSA): in order to discover or obtain proper proof of relevant facts, the Judge may ask any question in any form at any time and order production of any document; the Judge is an active umpire (Ram Chander v. State of Haryana, 1981; Zahira Habibulla Sheikh v. State of Gujarat - Best Bakery, 2006).",
+            "Improper admission/rejection of evidence (IEA S.167 / S.169 BSA): no ground for new trial or reversal unless, after setting aside the improperly admitted evidence, the independent evidence is insufficient to justify the decision.",
+            "Rule in Browne v. Dunn: if a party intends to impeach a witness's account, the contradiction should be put to the witness in cross-examination."
+          ],
+          "case_laws": [
+            {"name": "Sat Paul v. Delhi Administration", "year": "1976", "holding": "Hostile witness: there is no need to declare a witness 'hostile' - the Court may permit cross-examination by the calling party."},
+            {"name": "Bhagwan Singh v. State of Haryana", "year": "1976", "holding": "The evidence of a witness who is declared hostile is not wholly rejected."},
+            {"name": "Khujji @ Surendra Tiwari v. State of M.P.", "year": "1991", "holding": "Hostile witness's testimony can be relied on to the extent it is corroborated or trustworthy."},
+            {"name": "Zahira Habibulla H. Sheikh v. State of Gujarat", "year": "2006", "holding": "Court cannot be a mere spectator; duty to ensure a fair trial and to examine witnesses under S.165."},
+            {"name": "Ram Chander v. State of Haryana", "year": "1981", "holding": "Judge's role under S.165 - to elicit truth, not to merely record."},
+            {"name": "State of Rajasthan v. Ani @ Hanif", "year": "1997", "holding": "Sole eye-witness testimony and the importance of minor discrepancies being disregarded."}
+          ],
+          "traps": [
+            "Leading questions are permitted in cross, restricted in chief and re-exam.",
+            "A hostile witness's entire testimony is not automatically discarded.",
+            "A Judge cannot be accused of partiality merely for putting questions under S.165/168.",
+            "Failure to cross-examine on a material point may amount to acceptance of that part of the testimony."
+          ],
+          "memory_aids": ["C-C-R: Chief - Cross - Re-exam; Leading allowed only in the middle one."],
+          "likely_question_angles": [
+            "Leading questions - in which examination are they prohibited?",
+            "Hostile witness - evidentiary value.",
+            "Re-examination scope.",
+            "Section giving Judge power to question witnesses."
+          ]
+        },
+        {
+          "id": "5A-8",
+          "title": "Admissions (S.15-21 BSA approx.; IEA S.17-31)",
+          "priority": "High",
+          "expected_weight": "About 1 question",
+          "summary": "Admission is a statement, oral, documentary or electronic, that suggests any inference as to a fact in issue or a relevant fact, made by a person in the capacities stated in the Act. It is not conclusive proof but may operate as estoppel.",
+          "key_points": [
+            "Statement may be oral, documentary or contained in electronic form (BSA expressly includes electronic form).",
+            "Who can make admissions that bind a party: party to the proceeding; agent expressly or impliedly authorised; party suing in a representative character (only while holding that character); persons with a proprietary or pecuniary interest in the subject matter (while holding that interest); persons from whom the parties derive interest (assignor); persons whose position must be proved against the party; persons expressly referred to by the party.",
+            "Admissions are relevant and may be proved against the maker or his representative, but cannot be proved by or on behalf of the maker except in specified cases (e.g. a statement relevant as a dying declaration, in the course of business, or showing state of mind).",
+            "Admission v. confession: a confession is an admission in a criminal case that suggests the inference that the maker committed the crime; all confessions are admissions but not vice versa. Admissions are not subject to the stringent exclusions of confessions (S.22-23).",
+            "Admissions are not conclusive proof but may operate as estoppel (IEA S.31). They are the best evidence against the maker but can be explained or shown to be wrong (Narayan Bhagwantrao Gosavi Balajiwale v. Gopal Vinayak Gosavi, 1960).",
+            "Oral admissions as to the contents of documents are not relevant unless secondary evidence is permissible or the genuineness of the document is in question (IEA S.22). The same rule extends to electronic records (S.22A).",
+            "Admissions in civil cases are not relevant if made upon an express condition that evidence shall not be given or in circumstances from which the Court can infer an agreement that it shall not be given (IEA S.23).",
+            "Written admissions by a party need not be put to him to prove them; the party is entitled to rely on the whole statement and not just the unfavourable part (rule of completeness)."
+          ],
+          "case_laws": [
+            {"name": "Bharat Singh v. Bhagirathi", "year": "1966", "holding": "Admissions in pleadings and in other documents are substantive evidence; but the maker is entitled to prove the circumstances."},
+            {"name": "Nagubai Ammal v. B. Shama Rao", "year": "1956", "holding": "Admission in an earlier document, if not explained, is relevant evidence against the maker."},
+            {"name": "Basant Singh v. Janki Singh", "year": "1967", "holding": "Admissions in pleadings are binding; admissions of a co-defendant are not binding on others."}
+          ],
+          "traps": [
+            "An admission is not conclusive proof - it can be rebutted or explained.",
+            "Representative character: admissions bind only while the character subsists.",
+            "Admission by agent binds principal only if made during the continuance of the agency and within authority."
+          ],
+          "memory_aids": ["All confessions are admissions; not all admissions are confessions."],
+          "likely_question_angles": [
+            "Admission is conclusive proof? (No - evidentiary value, estoppel possible)",
+            "Difference between admission and confession.",
+            "Who can make an admission that binds a party?"
+          ]
+        },
+        {
+          "id": "5A-9",
+          "title": "Relevancy of Facts: Res Gestae, Motive, Conspiracy, Similar Facts, Identification (S.3-14 BSA approx.; IEA S.5-16, 9)",
+          "priority": "Medium",
+          "expected_weight": "1 question",
+          "summary": "Chapter II is the logical heart of the Act: facts in issue and relevant facts, and the exact categories in which a fact becomes relevant.",
+          "key_points": [
+            "S.3 BSA (IEA 5): evidence may be given of facts in issue and of relevant facts, and of no others.",
+            "S.4 BSA (IEA 6) - res gestae: facts so connected with a fact in issue as to form part of the same transaction are relevant, whether at the same time and place or at different times and places. Test: spontaneity and contemporaneity (Gentela Vijayavardhan Rao v. State of A.P., 1996; Sukhar v. State of U.P., 1999; Ratten v. R).",
+            "S.5 (IEA 7): facts that are the occasion, cause or effect of relevant facts.",
+            "S.6 BSA (IEA 8): motive, preparation and previous or subsequent conduct. Subsequent conduct is relevant only if it is influenced by the fact in issue (absconding is relevant but not conclusive).",
+            "S.7 (IEA 9): facts necessary to explain or introduce a fact in issue or relevant fact - includes identity of things or persons, e.g. Test Identification Parade (not substantive evidence, only corroborative - Matru v. State of U.P., 1971).",
+            "S.8 BSA (IEA 10) conspiracy: once there is reasonable ground to believe that two or more persons conspired, anything said, done or written by any one of them in reference to the common intention is relevant against each of them, for proving the conspiracy and also for showing that any such person was a party to it (Mirza Akbar v. King Emperor, 1940; Kehar Singh v. State, 1988; State v. Nalini, 1999).",
+            "Facts when relevant to show that a thing was done by the same person or in a given manner (IEA S.11), fact showing right or custom (S.13), state of mind or body or bodily feeling (S.14), course of business (S.16), facts tending to enable the Court to determine the amount of damages (S.12).",
+            "Similar facts / 'system' evidence is relevant to show that an act was intentional or done with knowledge, not accidental (IEA S.14 illustrations).",
+            "Evidence of an act of a third person as 'opinion' is irrelevant unless covered by the expert/opinion provisions."
+          ],
+          "case_laws": [
+            {"name": "Gentela Vijayavardhan Rao v. State of A.P.", "year": "1996", "holding": "Res gestae requires spontaneity and immediate connection with the transaction."},
+            {"name": "Kehar Singh v. State (Delhi Administration)", "year": "1988", "holding": "Conspiracy is rarely proved by direct evidence; Section 10 applies once prima facie conspiracy is shown."},
+            {"name": "State (NCT of Delhi) v. Navjot Sandhu", "year": "2005", "holding": "Conspiracy principles under S.10 applied to the Parliament attack."},
+            {"name": "Matru v. State of U.P.", "year": "1971", "holding": "TIP is not substantive evidence; it only corroborates court identification."}
+          ],
+          "traps": [
+            "S.10 (conspiracy) applies only after reasonable ground to believe in the conspiracy is established.",
+            "TIP is corroborative; substantive evidence is the identification in court.",
+            "Res gestae must be contemporaneous - an afterthought narrative is excluded."
+          ],
+          "memory_aids": ["Res gestae = same transaction; Section 10 = 'Co-conspirator's words bind co-conspirators'."],
+          "likely_question_angles": [
+            "Which section embodies res gestae?",
+            "Section on conspiracy - what does it make relevant?",
+            "Value of test identification parade."
+          ]
+        },
+        {
+          "id": "5A-10",
+          "title": "Opinion of Experts, Character, Judgments, Judicial Notice and Facts Admitted (S.34-55 BSA approx.; IEA S.40-58)",
+          "priority": "Medium",
+          "expected_weight": "1-2 questions",
+          "summary": "Expert opinion is relevant but never binding; judgments are relevant only in special cases; judicially noticeable and admitted facts need no proof.",
+          "key_points": [
+            "S.39 BSA (IEA 45) expert opinion: relevant when the Court has to form an opinion on foreign law, science or art or (new) 'any other field', identity of handwriting or finger impressions. S.39(2): the Examiner of Electronic Evidence's opinion is relevant.",
+            "Expert evidence is weak, advisory, requires reasons, and is a corroborative rule of prudence; the Judge must form his own opinion (Murari Lal v. State of M.P., 1980 - handwriting; State of H.P. v. Jai Lal, 1999; Ramesh Chandra Agrawal v. Regency Hospital, 2009).",
+            "Reports of Government scientific experts can be received without calling the expert (BNSS S.329 / CrPC S.293).",
+            "Opinion on handwriting (S.47 IEA): of a person acquainted with it; comparison by Court (S.73) - the Court may itself compare, but should be cautious and prefer expert help.",
+            "Character evidence: in civil cases irrelevant unless the character is itself a fact in issue (S.52 IEA); in criminal cases good character is relevant (S.53); bad character irrelevant unless in reply or in itself a fact in issue (S.54); previous conviction is relevant as evidence of bad character only where bad character is relevant. Previous sexual experience is irrelevant in sexual-offence consent issues (S.53A IEA).",
+            "Judgments (IEA S.40-44): S.40 - previous judgment relevant to bar a second suit or trial (res judicata / autrefois acquit); S.41 - final judgment of a competent court in probate, matrimonial, admiralty or insolvency jurisdiction is conclusive proof of what it declares (judgment in rem); S.42 - other judgments in rem relevant; S.43 - judgments not within S.40-42 are irrelevant unless the existence of the judgment is a fact in issue or relevant; S.44 - any party may show that a judgment was delivered by a court not competent or was obtained by fraud or collusion.",
+            "Findings in criminal cases are not binding in civil cases (Karam Chand Ganga Prasad v. Union of India, 1970).",
+            "Judicial notice (IEA S.56-57; S.52 BSA): facts of which the Court takes judicial notice need not be proved - all laws in force in India, Parliament and Legislature proceedings, accession and sign manual of the President and Governors, seals of courts, the course of nature, divisions of time, the territories and political situation, the rule of the road at sea and on land. The Court may refer to appropriate books or documents for assistance.",
+            "Facts admitted need not be proved (S.53 BSA / IEA 58) - but the Court may in its discretion require proof of facts admitted otherwise than by such admission.",
+            "Oral evidence may prove all facts except contents of documents (IEA S.59); oral evidence must be direct - if it refers to a fact which could be seen, heard or perceived, it must be the evidence of a witness who says he saw, heard or perceived it (IEA S.60 / S.55 BSA); hearsay is excluded."
+          ],
+          "case_laws": [
+            {"name": "Murari Lal v. State of Madhya Pradesh", "year": "1980", "holding": "Court is not bound by expert opinion on handwriting; it may itself compare; but caution is advised."},
+            {"name": "State of Himachal Pradesh v. Jai Lal", "year": "1999", "holding": "Expert must give reasons; the opinion is not conclusive."},
+            {"name": "Ramesh Chandra Agrawal v. Regency Hospital Ltd.", "year": "2009", "holding": "Expert must be a person with special skill; the report must give data and reasoning."},
+            {"name": "Karam Chand Ganga Prasad v. Union of India", "year": "1970", "holding": "Criminal court's findings are not binding in civil proceedings."}
+          ],
+          "traps": [
+            "Expert evidence is not binding - the Court may reject it for reasons.",
+            "S.41 judgments are conclusive (judgment in rem); other judgments are only relevant, not conclusive.",
+            "Judicial notice vs proof: no proof required for facts judicially noticed.",
+            "Hearsay is inadmissible except where an express exception applies (dying declaration, business entries, etc.)."
+          ],
+          "memory_aids": ["Judgments: 40-41-42-43-44 = Bar - Conclusive - In rem - Irrelevant - Challenge (fraud/collusion)."],
+          "likely_question_angles": [
+            "Is expert opinion binding on the Court?",
+            "Which judgments are conclusive proof?",
+            "Facts that need not be proved.",
+            "Character evidence in civil v. criminal cases."
+          ]
+        }
+      ],
+      "iea_vs_bsa_changes": [
+        {"topic": "Commencement / size", "iea": "IEA 1872: 167 sections, 11 chapters", "bsa": "BSA 2023: 170 sections, 12 chapters + Schedule; in force 1 July 2024", "note": "Likely asked as date/number-of-section MCQ."},
+        {"topic": "Document", "iea": "S.3", "bsa": "S.2(1)(d): expressly includes electronic or digital records", "note": "Emails, server logs, smartphone messages, locational evidence, voice-mails."},
+        {"topic": "Evidence", "iea": "S.3", "bsa": "S.2(1)(e): oral evidence includes electronic statements by witnesses", "note": "Enables video-conference testimony."},
+        {"topic": "Electronic evidence", "iea": "S.65A-65B", "bsa": "S.61-63 + Schedule", "note": "Certificate in Parts A and B; hash value mandatory; two signatories."},
+        {"topic": "Primary evidence", "iea": "S.62 (explanations 1-4)", "bsa": "S.57 with extra explanations on electronic records", "note": "Each file / storage space of electronic record can be primary evidence; produced from proper custody."},
+        {"topic": "Inducement in confession", "iea": "S.24 (inducement, threat or promise)", "bsa": "S.22 adds 'coercion'", "note": ""},
+        {"topic": "Police confession", "iea": "S.25, S.26, S.27", "bsa": "S.23 (consolidated; discovery as proviso)", "note": "Substance unchanged."},
+        {"topic": "Co-accused confession", "iea": "S.30", "bsa": "S.24 with new Explanation", "note": "Trial in absence of an absconding accused is a joint trial."},
+        {"topic": "Dying declaration", "iea": "S.32(1)", "bsa": "S.26(1)(a)", "note": "Unchanged."},
+        {"topic": "Expert opinion", "iea": "S.45", "bsa": "S.39", "note": "Adds 'any other field'; S.39(2) recognises Examiner of Electronic Evidence."},
+        {"topic": "Burden of proof", "iea": "S.101-114", "bsa": "S.104-119", "note": "Shifted by +3; wording unchanged."},
+        {"topic": "Abetment of suicide / dowry death", "iea": "S.113A, 113B", "bsa": "S.117, 118", "note": "Aligned with BNS S.108 and S.80."},
+        {"topic": "Presumption in rape", "iea": "S.114A", "bsa": "S.120", "note": "Substance unchanged."},
+        {"topic": "Professional communications", "iea": "S.126", "bsa": "S.132", "note": "Subject of 2025 Supreme Court ruling on summoning of advocates."},
+        {"topic": "Repeal and savings", "iea": "-", "bsa": "S.170", "note": "Pending proceedings continue under the IEA."}
+      ],
+      "rapid_fire_one_liners": [
+        "BSA in force from 1 July 2024; repeals the Indian Evidence Act, 1872.",
+        "BSA: 170 sections, 12 chapters, one Schedule (electronic record certificate).",
+        "S.65B IEA = S.63 BSA.",
+        "S.63(4) certificate: Part A (person in charge) + Part B (expert) + hash value.",
+        "Pune Bar Association v. UoI (22 May 2026): S.63(4) valid; Part B can be signed by any person skilled in computer science/cyber forensics.",
+        "Anvar P.V. (2014): certificate mandatory; Navjot Sandhu overruled.",
+        "Arjun Panditrao (2020): Shafhi Mohammad overruled; certificate not needed when original device is produced.",
+        "Affidavits and arbitration proceedings are outside the Act.",
+        "Confession to police: never provable against the accused.",
+        "Discovery: only information that distinctly relates to the fact discovered.",
+        "Co-accused confession: corroborative only, never substantive.",
+        "Dying declaration need not be recorded by a Magistrate; may be sole basis of conviction.",
+        "Dowry death presumption: 'shall presume' (S.118 BSA).",
+        "Abetment of suicide within 7 years: 'may presume' (S.117 BSA).",
+        "Legitimacy: conclusive proof - birth within 280 days after dissolution.",
+        "S.109 BSA (106 IEA): special knowledge does not relieve the prosecution.",
+        "Accused's burden for exceptions: preponderance of probability.",
+        "Accomplice: competent witness; conviction on uncorroborated testimony not illegal; but corroboration is a rule of prudence.",
+        "No particular number of witnesses required (Vadivelu Thevar).",
+        "Leading questions: allowed in cross, not in chief/re-exam without permission.",
+        "Hostile witness: reliable part of evidence may still be used.",
+        "Judge's power to ask questions: S.168 BSA (165 IEA).",
+        "Judgments in rem under probate, matrimonial, admiralty, insolvency jurisdiction: conclusive.",
+        "TIP is corroborative evidence, not substantive.",
+        "Tofan Singh (2020): NDPS S.67 statements are inadmissible as confessions."
+      ],
+      "mcqs": [
+        {"q": "The Bharatiya Sakshya Adhiniyam, 2023 came into force on:", "options": ["1 January 2024", "1 July 2024", "25 December 2023", "11 August 2023"], "answer_index": 1, "explain": "BSA, BNS and BNSS came into force on 1 July 2024 (assent 25 Dec 2023)."},
+        {"q": "Which provision of the BSA corresponds to Section 65B of the Indian Evidence Act?", "options": ["Section 57", "Section 61", "Section 63", "Section 39"], "answer_index": 2, "explain": "S.63 BSA replaced S.65B IEA and added the Schedule certificate with hash value."},
+        {"q": "Under Section 63(4) BSA, the certificate must be signed by:", "options": ["Only the party tendering the record", "Only a Magistrate", "A person in charge of the device and an expert", "Only a notified Examiner of Electronic Evidence"], "answer_index": 2, "explain": "Part A is signed by the person in charge; Part B by an expert. The Supreme Court (Pune Bar Association, 2026) held an expert is not confined to a S.79A IT Act Examiner."},
+        {"q": "Which additional particular must the Section 63(4) certificate disclose, which Section 65B did not require?", "options": ["Hash value of the electronic record", "Name of the Judge", "IP address of the accused", "Date of the FIR"], "answer_index": 0, "explain": "The BSA requires disclosure of the hash value."},
+        {"q": "Which decision overruled State (NCT of Delhi) v. Navjot Sandhu on electronic evidence?", "options": ["Shafhi Mohammad", "Anvar P.V. v. P.K. Basheer", "Tomaso Bruno", "R.M. Malkani"], "answer_index": 1, "explain": "Anvar P.V. (2014) held the S.65B certificate is mandatory."},
+        {"q": "In Arjun Panditrao Khotkar (2020), the Supreme Court:", "options": ["Upheld Shafhi Mohammad", "Overruled Anvar P.V.", "Overruled Shafhi Mohammad and affirmed Anvar P.V.", "Held no certificate is ever required"], "answer_index": 2, "explain": "Certificate is mandatory for secondary evidence; not needed when the original device is produced."},
+        {"q": "A confession made to a police officer:", "options": ["Is admissible if voluntary", "Cannot be proved against the person accused", "Is admissible if corroborated", "Is admissible if made in a public place"], "answer_index": 1, "explain": "S.23(1) BSA (S.25 IEA)."},
+        {"q": "Under the proviso to S.23(2) BSA (S.27 IEA), what portion of information given by an accused in custody can be proved?", "options": ["The whole confession", "Only the incriminating part", "So much as relates distinctly to the fact discovered", "Nothing"], "answer_index": 2, "explain": "Pulukuri Kottaya - the information distinctly relating to the discovered fact."},
+        {"q": "A confession of a co-accused is:", "options": ["Substantive evidence", "Not evidence but can be taken into consideration to lend assurance", "Conclusive proof against others", "Irrelevant"], "answer_index": 1, "explain": "Kashmira Singh; Haricharan Kurmi."},
+        {"q": "Which of the following is NOT required for a valid dying declaration to be relied on?", "options": ["Voluntary and truthful", "Recorded by a Magistrate", "Declarant fit to make a statement", "Inspires confidence"], "answer_index": 1, "explain": "Laxman v. State of Maharashtra (2002) - Magistrate's presence/medical certificate are not mandatory."},
+        {"q": "Under the Indian law of evidence, a dying declaration is relevant:", "options": ["Only if the declarant was expecting death", "Whether or not the declarant was expecting death", "Only if recorded by a doctor", "Only in murder cases of women"], "answer_index": 1, "explain": "S.26(1)(a) BSA / S.32(1) IEA."},
+        {"q": "In a prosecution for dowry death, the Court:", "options": ["May presume", "Shall presume", "Must not presume", "Shall conclusively presume"], "answer_index": 1, "explain": "S.118 BSA (S.113B IEA) - 'shall presume' once the foundation of cruelty soon before death for dowry is shown."},
+        {"q": "Under S.117 BSA (S.113A IEA), where a woman commits suicide within seven years of marriage, the Court:", "options": ["Shall presume abetment", "May presume abetment", "Conclusively presumes abetment", "Must acquit"], "answer_index": 1, "explain": "'May presume' - discretionary."},
+        {"q": "Birth during a valid marriage or within how many days after its dissolution, the mother remaining unmarried, is conclusive proof of legitimacy?", "options": ["180 days", "240 days", "280 days", "300 days"], "answer_index": 2, "explain": "S.116 BSA / S.112 IEA."},
+        {"q": "The burden of proving that a case falls within a General Exception lies on:", "options": ["The prosecution", "The accused", "The Court", "The complainant"], "answer_index": 1, "explain": "S.108 BSA (S.105 IEA); standard is preponderance of probability."},
+        {"q": "S.109 BSA (S.106 IEA) - burden of proving a fact especially within knowledge:", "options": ["Relieves the prosecution entirely", "Shifts burden to the person with special knowledge, but does not relieve the prosecution of its initial burden", "Applies only in civil cases", "Applies only to documents"], "answer_index": 1, "explain": "Shambhu Nath Mehra v. State of Ajmer."},
+        {"q": "A person who has not been heard of for seven years by those who would naturally have heard of him:", "options": ["Is presumed dead on the exact date", "Is presumed dead, but the burden is on the one who affirms he is alive; no presumption as to the date of death", "Is presumed alive", "Is presumed missing"], "answer_index": 1, "explain": "S.111 BSA / S.108 IEA."},
+        {"q": "Which of the following can be proved despite a written contract under the provisos to S.92 IEA?", "options": ["An oral agreement varying the price", "Fraud, intimidation, illegality or want of due execution", "A contemporaneous oral agreement contradicting the terms", "None of the above"], "answer_index": 1, "explain": "Proviso (1) to S.92."},
+        {"q": "Secondary evidence is admissible when:", "options": ["The original is in possession of the adverse party who fails to produce after notice", "The party prefers a copy", "The original is inconvenient to produce", "A photocopy is available"], "answer_index": 0, "explain": "S.60 BSA (S.65 IEA)."},
+        {"q": "Which of the following is a primary evidence?", "options": ["Photocopy of a common original", "A document produced for inspection of the Court", "A certified copy", "An oral account of the contents"], "answer_index": 1, "explain": "S.57 BSA (S.62 IEA)."},
+        {"q": "A Will:", "options": ["Can be proved without an attesting witness", "Must be proved by examining at least one attesting witness if alive and available", "Needs no proof", "Needs two Magistrates"], "answer_index": 1, "explain": "S.68 IEA with S.63 Indian Succession Act - Janki Narayan Bhoir."},
+        {"q": "The Evidence Act does NOT apply to:", "options": ["Civil suits", "Criminal trials", "Affidavits and arbitration proceedings", "Courts-martial"], "answer_index": 2, "explain": "S.1 - applies to judicial proceedings in or before any Court; not to affidavits or proceedings before an arbitrator."},
+        {"q": "An accomplice is:", "options": ["Incompetent as a witness", "Competent, and conviction on uncorroborated testimony is not illegal, but corroboration is a rule of prudence", "Competent, but conviction on his testimony is always illegal", "Competent only in civil cases"], "answer_index": 1, "explain": "S.133 IEA read with S.114 illustration (b); Bhiva Doulu Patil."},
+        {"q": "Leading questions in examination-in-chief:", "options": ["Are always allowed", "Are not allowed if objected to, except on introductory/undisputed matters or with the Court's permission", "Are never allowed", "Are allowed only for accomplices"], "answer_index": 1, "explain": "IEA S.141-143."},
+        {"q": "The evidence of a hostile witness:", "options": ["Is wholly rejected", "Is not wholly effaced; reliable part may be accepted", "Is conclusive", "Is irrelevant"], "answer_index": 1, "explain": "Bhagwan Singh; Khujji; Sat Paul."},
+        {"q": "Test Identification Parade is:", "options": ["Substantive evidence", "Corroborative evidence", "Conclusive proof", "Inadmissible"], "answer_index": 1, "explain": "Matru v. State of U.P."},
+        {"q": "Under S.24 BSA (S.30 IEA), a trial in the absence of an absconding accused is:", "options": ["Void", "Deemed a joint trial for the purpose of the section", "A separate trial", "Not allowed"], "answer_index": 1, "explain": "New Explanation in the BSA."},
+        {"q": "In Tofan Singh v. State of T.N. (2020), the Supreme Court held that:", "options": ["NDPS officers are not police officers", "Statements to NDPS officers under S.67 are admissible as confessions", "NDPS officers are police officers; S.67 statements are inadmissible as confessions", "Only a Magistrate can record any statement"], "answer_index": 2, "explain": "Key authority on S.25 IEA / S.23 BSA in special statutes."},
+        {"q": "The BSA recognises the opinion of which expert under S.39(2)?", "options": ["Handwriting expert only", "Examiner of Electronic Evidence under S.79A IT Act", "Forensic accountant only", "Any lawyer"], "answer_index": 1, "explain": "S.39(2) BSA."},
+        {"q": "Which of the following judgments is conclusive proof?", "options": ["Judgment of a criminal court in civil proceedings", "Final judgment of a competent court in probate, matrimonial, admiralty or insolvency jurisdiction", "Judgment of a tribunal", "Any ex parte judgment"], "answer_index": 1, "explain": "S.41 IEA (S.35 BSA)."},
+        {"q": "The privilege against disclosure of advocate-client communications is contained in:", "options": ["S.122 IEA", "S.126 IEA / S.132 BSA", "S.123 IEA", "S.133 IEA"], "answer_index": 1, "explain": "S.126 IEA / S.132 BSA."}
+      ]
+    },
+    {
+      "id": "5B",
+      "title": "Environmental Law",
+      "expected_questions": 2,
+      "background": {
+        "summary": "With only 2 questions, Environmental Law is a high-yield, low-volume section. Examiners lean on (i) constitutional hooks (Art 21, 48A, 51A(g), 253), (ii) judicially evolved principles with landmark cases, (iii) the NGT Act, EPA 1986, Water Act 1974 and Air Act 1981 and (iv) recent headline judgments. A candidate who masters the principle-to-case matching table below can secure both marks.",
+        "constitutional_map": "Art 48A (DPSP: State shall protect and improve the environment and safeguard forests and wildlife) and Art 51A(g) (fundamental duty to protect and improve the natural environment) were inserted by the 42nd Amendment (1976), which also moved forests and wild animals/birds to the Concurrent List (Entries 17A and 17B). Art 253 empowers Parliament to legislate to implement international agreements - the basis of EPA 1986, Water Act and Air Act (Stockholm 1972). Art 21 includes the right to a clean and healthy environment; Art 14 and 21 together include the right against the adverse effects of climate change (M.K. Ranjitsinh, 2024). Art 32/226 are the writ routes for PIL; Art 142 is used by the Supreme Court to issue continuing mandamus."
+      },
+      "topics": [
+        {
+          "id": "5B-1",
+          "title": "Constitutional Foundations and Landmark Cases",
+          "priority": "Very High",
+          "expected_weight": "Core of both questions",
+          "summary": "The Supreme Court has read environmental protection into Art 21 and developed a body of principles by judicial creativity.",
+          "key_points": [
+            "Rural Litigation and Entitlement Kendra v. State of U.P. (Doon Valley, 1985): first case where the Court ordered closure of mining operations because of ecological damage; balance between development and environment.",
+            "Subhash Kumar v. State of Bihar (1991): right to life includes the right to pollution-free water and air; PIL is not for personal vendetta.",
+            "M.C. Mehta v. Union of India (Oleum Gas Leak, 1987): ABSOLUTE LIABILITY - enterprise engaged in hazardous or inherently dangerous activity is strictly and absolutely liable, with no exceptions of the Rylands v. Fletcher rule; deep-pocket theory (compensation correlated to the magnitude and capacity of the enterprise).",
+            "Indian Council for Enviro-Legal Action v. Union of India (Bichhri, 1996): polluter pays - the polluter must bear the cost of remedial action and compensation; burden of proof on the polluter.",
+            "Vellore Citizens' Welfare Forum v. Union of India (1996): sustainable development, precautionary principle and polluter pays are part of the environmental law of the land through Arts 21, 47, 48A, 51A(g) and customary international law; burden of proof on the developer/industry (Rio Principle 15).",
+            "A.P. Pollution Control Board v. M.V. Nayudu (1999): precautionary principle and the reversal of the burden of proof; need for expert technical bodies; Court's reliance on scientific uncertainty.",
+            "M.C. Mehta v. Kamal Nath (1997): PUBLIC TRUST doctrine - State is trustee of natural resources (air, sea, water, forests) for the public; cannot transfer to private ownership for commercial use (Span Motel case).",
+            "T.N. Godavarman Thirumulpad v. Union of India (1996-continuing): 'forest' given the dictionary meaning irrespective of classification/ownership; continuing mandamus; CAMPA and compensatory afforestation orders.",
+            "M.C. Mehta v. Union of India (Taj Trapezium case, 1996-97): Taj protection; industrial shifting; use of CNG; the Court appointed expert bodies.",
+            "M.C. Mehta v. Union of India (Ganga pollution/tanneries, 1987): ordered tanneries to set up effluent treatment plants; Municipal bodies' duty to treat sewage.",
+            "Narmada Bachao Andolan v. Union of India (2000): development projects - rehabilitation; balance of ecological costs with development.",
+            "Re: Noise Pollution (2005): right to silence/peace is part of Art 21; time restrictions on loudspeakers (10 p.m. to 6 a.m.) under the Noise Pollution (Regulation and Control) Rules, 2000.",
+            "Animal Welfare Board of India v. A. Nagaraja (2014): Art 21 'life' includes the dignity and well-being of animals; Jallikattu ban. In 2023 a Constitution Bench upheld the Tamil Nadu amendment allowing Jallikattu (Animal Welfare Board v. Union of India).",
+            "Orissa Mining Corporation v. MoEF (Niyamgiri, 2013): Gram Sabhas have the final say on religious/cultural rights under the Forest Rights Act in mining diversion.",
+            "Mantri Techzone v. Forum for Peoples' Collective Efforts (2019): 'no-development' zones; precautionary principle; polluter pays in construction.",
+            "M.K. Ranjitsinh v. Union of India (21 March 2024): Great Indian Bustard case - right to a healthy environment and the right against the adverse effects of climate change are recognised under Arts 14 and 21; balance of renewable energy transition with protection of endangered species.",
+            "Bhopal: Union Carbide Corporation v. Union of India (1989) settlement of USD 470 million; the Court dismissed the Centre's curative petition for additional compensation in March 2023."
+          ],
+          "provisions": [
+            {"ref": "Art 21", "note": "Right to clean environment; right against adverse effects of climate change (with Art 14)."},
+            {"ref": "Art 48A", "note": "DPSP - protect and improve the environment; safeguard forests and wildlife."},
+            {"ref": "Art 51A(g)", "note": "Fundamental duty - protect and improve the natural environment, have compassion for living creatures."},
+            {"ref": "Art 253", "note": "Legislation for implementing international agreements; basis for EPA 1986."},
+            {"ref": "Entries 17A, 17B, Concurrent List", "note": "Forests; protection of wild animals and birds - moved from State List by 42nd Amendment."},
+            {"ref": "Art 243G, 11th Schedule; 12th Schedule", "note": "Panchayats and municipalities - local environmental duties (soil conservation, water management, forestry, sanitation, solid waste)."}
+          ],
+          "case_laws": [],
+          "traps": [
+            "Absolute liability (Oleum Gas, 1987) is not subject to the Rylands v. Fletcher exceptions; strict liability (Rylands v. Fletcher) is.",
+            "Public trust doctrine -> Kamal Nath; Precautionary + polluter pays + sustainable development -> Vellore.",
+            "42nd Amendment inserted Arts 48A and 51A(g) - not the 44th or 86th.",
+            "Doon Valley (1985) is the first major ecological case."
+          ],
+          "memory_aids": [
+            "VOKB: Vellore (principles), Oleum (absolute liability), Kamal Nath (public trust), Bichhri (polluter pays).",
+            "42nd Amendment = 48A + 51A(g) + forests to the Concurrent List."
+          ],
+          "likely_question_angles": [
+            "Doctrine of absolute liability evolved in which case?",
+            "Public trust doctrine - which case?",
+            "Under which Article is the right to a clean environment protected?",
+            "Which amendment inserted Art 48A and Art 51A(g)?",
+            "Which case recognises a right against the adverse effects of climate change?"
+          ]
+        },
+        {
+          "id": "5B-2",
+          "title": "Principles of Environmental Law",
+          "priority": "Very High",
+          "expected_weight": "Core of both questions",
+          "summary": "These principles are recited in virtually every environmental judgment and NGT order. Learn the definition, the source and the leading case.",
+          "key_points": [
+            "Sustainable development: development that meets the needs of the present without compromising the ability of future generations to meet their own needs (Brundtland Report, 1987; Rio Principles 3-4). Vellore and Narmada Bachao Andolan applied it in India. The Supreme Court speaks of a 'golden balance' of environment and development.",
+            "Precautionary principle: lack of full scientific certainty is not a reason to postpone measures to prevent environmental degradation (Rio Principle 15). In India it also shifts the burden of proof to the developer (Vellore; Nayudu).",
+            "Polluter pays: the polluter bears the cost of pollution and restoration (Rio Principle 16) - includes costs of restoration and compensation (Bichhri; Vellore). NGT Act S.20 requires NGT to apply sustainable development, precautionary and polluter pays.",
+            "Public trust doctrine: the State holds natural resources as a trustee for the public (Kamal Nath; M.I. Builders v. Radhey Shyam Sahu, 1999; Fomento Resorts v. Minguel Martins, 2009).",
+            "Intergenerational equity: the present generation holds the planet in trust for the future (State of H.P. v. Ganesh Wood Products, 1995).",
+            "Absolute liability: Oleum Gas case, 1987.",
+            "Sic utere tuo ut alienum non laedas: use your property so as not to injure another's - nuisance and transboundary harm (Trail Smelter Arbitration, 1941).",
+            "Common but differentiated responsibilities and respective capabilities (CBDR-RC): Rio Principle 7; UNFCCC Art 3; central to India's climate position.",
+            "No-fault liability: Public Liability Insurance Act, 1991 and NGT Act S.17(3).",
+            "Environmental rule of law: Right of citizens to approach courts - wide locus standi in PIL and Citizens' suit provisions (S.19 EPA - 60-day notice)."
+          ],
+          "case_laws": [],
+          "traps": [
+            "Precautionary principle is NOT the same as polluter pays - one is about preventing harm, the other about cost allocation.",
+            "Public trust doctrine is not about liability, it is about State ownership/trusteeship of resources.",
+            "Intergenerational equity vs sustainable development - the former is the ethical basis, the latter is the policy outcome."
+          ],
+          "memory_aids": ["P-P-P: Precaution (before harm), Polluter pays (after harm), Public trust (State as trustee)."],
+          "likely_question_angles": [
+            "Match principle with case.",
+            "Which Rio principle contains the precautionary approach? (Principle 15)",
+            "Burden of proof shifts to the developer under which principle?"
+          ]
+        },
+        {
+          "id": "5B-3",
+          "title": "National Green Tribunal Act, 2010",
+          "priority": "Very High",
+          "expected_weight": "Frequent MCQ source",
+          "summary": "NGT is a specialised body (replacing the National Environment Tribunal Act 1995 and National Environment Appellate Authority Act 1997) with technical and judicial members and jurisdiction over 'substantial questions relating to environment' arising under seven laws.",
+          "key_points": [
+            "Established under Art 21 spirit and Law Commission recommendation; Act received assent in 2010; NGT is the third country (after Australia and New Zealand) to set up such a body.",
+            "Principal Bench at New Delhi; regional benches at Bhopal, Pune, Kolkata and Chennai. Chairperson must be a sitting/retired Supreme Court Judge or Chief Justice of a High Court; Judicial Members and Expert Members (minimum 10, maximum 20 full-time members each).",
+            "Original jurisdiction (S.14): all civil cases involving a substantial question relating to environment (including enforcement of any legal right relating to environment) arising out of the implementation of the enactments in Schedule I. Limitation: six months from the date the cause of action first arose, extendable by up to 60 days (S.14(3)).",
+            "Schedule I laws: Water Act 1974; Water Cess Act 1977; Forest (Conservation) Act 1980; Air Act 1981; Environment (Protection) Act 1986; Public Liability Insurance Act 1991; Biological Diversity Act 2002. NOT included: Wildlife (Protection) Act 1972, Indian Forest Act 1927, Forest Rights Act 2006.",
+            "S.15: relief, compensation and restitution for victims of pollution and environmental damage, including restoration of property and environment.",
+            "S.16: appeals against orders under Water Act, Air Act, EPA, EIA clearances etc. (e.g. EC orders) lie to the NGT.",
+            "S.17: no-fault liability for death, injury or property damage from an accident involving hazardous substances (S.17(3) read with the Public Liability Insurance Act, 1991). Strict liability on the 'person responsible'.",
+            "S.18(3): application or appeal shall be dealt with as expeditiously as possible and disposed of within six months of filing.",
+            "S.19: NGT is not bound by the CPC or the Evidence Act, but is guided by principles of natural justice; has the powers of a civil court for specified matters; may review its own decision.",
+            "S.20: NGT must apply the principles of sustainable development, the precautionary principle and the polluter pays principle.",
+            "S.22: appeal to the Supreme Court within 90 days from the communication of award/decision/order.",
+            "Suo motu powers: NGT may take suo motu cognizance (Municipal Corporation of Greater Mumbai v. Ankita Sinha, 2021). High Courts retain writ jurisdiction under Arts 226/227 (L. Chandra Kumar principle; NGT orders are subject to HC judicial review under Art 226 in appropriate cases, though the statutory appeal lies to the Supreme Court).",
+            "NGT can award compensation as 'environmental compensation' on the basis of the polluter pays principle and it can direct restoration."
+          ],
+          "case_laws": [
+            {"name": "Municipal Corporation of Greater Mumbai v. Ankita Sinha", "year": "2021", "holding": "NGT possesses suo motu powers to take cognizance of environmental matters."},
+            {"name": "Vellore Citizens' Welfare Forum", "year": "1996", "holding": "Principles that S.20 NGT Act now statutorily enjoins NGT to apply."}
+          ],
+          "traps": [
+            "The Wildlife (Protection) Act is NOT in Schedule I - NGT has no original jurisdiction under it.",
+            "Appeal from NGT lies to the Supreme Court within 90 days - not to the High Court.",
+            "Limitation is six months (+ 60 days), not three years.",
+            "NGT is not bound by the CPC and the Evidence Act but follows natural justice."
+          ],
+          "memory_aids": ["7 Acts in Schedule I: W-W-F-A-E-P-B (Water, Water Cess, Forest, Air, EPA, PLI, Biodiversity)."],
+          "likely_question_angles": [
+            "Seat of the principal bench.",
+            "Which Act is outside NGT jurisdiction?",
+            "Appeal against NGT order lies to?",
+            "Timeline for disposal and limitation."
+          ]
+        },
+        {
+          "id": "5B-4",
+          "title": "Environment (Protection) Act, 1986; Water Act, 1974; Air Act, 1981",
+          "priority": "High",
+          "expected_weight": "1 question",
+          "summary": "Three core statutes. EPA 1986 is an umbrella legislation made under Art 253 after the Stockholm Conference and the Bhopal gas tragedy; the Water and Air Acts create Pollution Control Boards.",
+          "key_points": [
+            "EPA 1986: Preamble refers to the UN Conference on the Human Environment, Stockholm 1972. Defines 'environment' (water, air and land and their inter-relationship with humans, other living creatures, plants, micro-organism and property), 'environmental pollutant' and 'hazardous substance'.",
+            "EPA S.3: Central Government has power to take all measures necessary for protecting and improving the quality of the environment and preventing, controlling and abating pollution; S.5: direction (including closure, prohibition or regulation of any industry, stoppage of electricity or water); S.6: rules to regulate environmental pollution; S.7: no person carrying on an industry shall emit pollutants in excess of prescribed standards; S.8: handling of hazardous substances only per procedural safeguards; S.9: duty to report accidents; S.10: entry and inspection powers.",
+            "EPA penalty (S.15): Following the Jan Vishwas (Amendment of Provisions) Act, 2023, imprisonment for contraventions was replaced by monetary penalties adjudicated by an adjudicating officer (penalty of not less than Rs 10,000 which may extend to Rs 15 lakh) - verify against the current text. Cognizance of offences requires a complaint by the Central Government or authorised officer, or a person who has given 60 days' notice (S.19).",
+            "Water Act 1974 (enacted under Art 252 on resolutions of States): Central and State Pollution Control Boards (CPCB/SPCBs). 'Pollution' defined; 'stream' includes river, water course, inland water, subterranean waters, sea or tidal waters. S.24: prohibition on the use of stream or well for disposal of polluting matter; S.25: consent of the SPCB required to establish an industry/treatment system that discharges sewage or trade effluent; S.33A: power of Boards to issue directions including closure; S.17: functions of SPCB. The Water (Prevention and Control of Pollution) Amendment Act, 2024 decriminalised many offences (penalties instead of imprisonment, adjudicating officer) and empowered the Centre to prescribe guidelines for the nomination of SPCB Chairpersons and exempt specified categories of industrial plants from consent.",
+            "Water Cess Act 1977 levies cess on water consumed by industries for funding of Boards.",
+            "Air Act 1981: Enacted after the Stockholm Conference; 'air pollutant' includes noise (1987 amendment). S.19: State Government may declare air pollution control areas; S.20: standards for vehicle emissions; S.21: consent of the SPCB required to establish any industrial plant in an air pollution control area; S.22: no emission beyond standards; S.22A: Board's power to approach the court for restraint; S.31A: directions including closure. The Act was also amended through Jan Vishwas 2023 to decriminalise.",
+            "EIA Notification 2006: projects categorised A (Central, MoEFCC on the advice of Expert Appraisal Committee) and B (State, SEIAA with SEAC); steps - screening, scoping, public consultation (public hearing and written responses), appraisal and grant/rejection of Environmental Clearance (EC). EIA is made under EPA S.3 and Rule 5(3) of the EP Rules.",
+            "CRZ Notification 2019: regulates activities in Coastal Regulation Zones; CRZ I (ecologically sensitive), CRZ II (urban developed), CRZ III (rural), CRZ IV (water area).",
+            "Rules made under EPA: Hazardous and Other Wastes Rules 2016; Bio-medical Waste Management Rules 2016; Plastic Waste Management Rules 2016 (amended 2021 - identified single-use plastics banned from 1 July 2022); E-Waste (Management) Rules 2022; Battery Waste Management Rules 2022; Solid Waste Management Rules 2016; Construction and Demolition Waste Rules 2016; Noise Pollution (Regulation and Control) Rules 2000; Ozone Depleting Substances Rules 2000."
+          ],
+          "case_laws": [
+            {"name": "Bhopal Gas Leak Disaster (Process) Act, 1985; Union Carbide Corporation v. Union of India", "year": "1989", "holding": "Settlement for USD 470 million; Act enacted to enable the Government to represent victims."},
+            {"name": "M.C. Mehta v. Union of India (Delhi vehicular pollution)", "year": "1998 onwards", "holding": "Directions to convert public transport to CNG; continuing mandamus on air quality."},
+            {"name": "Indian Council for Enviro-Legal Action v. Union of India", "year": "1996", "holding": "Polluting industries to bear remediation costs; polluter pays."}
+          ],
+          "traps": [
+            "EPA is made under Art 253; the Water Act under Art 252 (resolutions by States) - Air Act also under Art 253 post Stockholm.",
+            "'Air pollutant' includes noise by the 1987 amendment to the Air Act.",
+            "Consent of the SPCB (S.25 Water Act, S.21 Air Act) is required to establish or operate; not mere intimation.",
+            "EIA notification is a delegated legislation under EPA - not a statute by itself."
+          ],
+          "memory_aids": ["Water: 24 Prohibits, 25 Permits (consent). Air: 19 Declares area, 21 Consent."],
+          "likely_question_angles": [
+            "Which Article empowers Parliament to enact EPA 1986?",
+            "Which Act includes noise in 'air pollutant'?",
+            "Section giving SPCB consent power under the Water Act (S.25).",
+            "Who grants EC for Category B projects? (SEIAA)"
+          ]
+        },
+        {
+          "id": "5B-5",
+          "title": "Forests, Wildlife, Biodiversity and Tribal Rights",
+          "priority": "High",
+          "expected_weight": "1 question (often with case law)",
+          "summary": "Four statutes and one tribal-rights law dominate. Recent amendments have made this a current-affairs hotspot.",
+          "key_points": [
+            "Indian Forest Act, 1927: classifies reserved forest (S.20), village forest (S.28) and protected forest (S.29).",
+            "Forest (Conservation) Act, 1980 - renamed Van (Sanrakshan Evam Samvardhan) Adhiniyam, 1980 by the 2023 amendment: prior approval of the Central Government is required for de-reservation of forest, use of forest land for non-forest purposes, assignment by lease to private persons, and clearing of naturally grown trees for reafforestation (S.2). The 2023 amendment limits the Act to land declared/notified as forest or recorded as forest on or after 25 October 1980, and exempts certain categories: forest land along a rail line or public road up to 0.10 hectare, land within 100 km of international borders/LoC/LAC for strategic linear projects up to 10 hectares, security-related infrastructure up to 5 hectares in LWE areas, and eco-tourism, zoos and safaris. The Supreme Court (Godavarman line, interim directions in Ashok Kumar Sharma v. Union of India, 2024) directed that the broad dictionary meaning of 'forest' continues to apply until further orders.",
+            "Wild Life (Protection) Act, 1972 (as amended in 2022): reduces schedules from six to four (Schedule I and II - animals with highest/high protection; Schedule III - plants; Schedule IV - species listed in CITES Appendices); removes the 'vermin' schedule and allows the Centre to declare vermin; creates a Standing Committee of the State Board; implements CITES; regulates invasive alien species; allows voluntary surrender of captive animals. Protected areas: national parks (S.35), sanctuaries (S.18), conservation reserves (S.36A) and community reserves (S.36C). Tiger reserves under Chapter IVB (NTCA). Hunting prohibited by S.9.",
+            "Biological Diversity Act, 2002: implements the CBD (1992) and Nagoya Protocol (2010); three-tier structure: National Biodiversity Authority (Chennai), State Biodiversity Boards, Biodiversity Management Committees (local bodies); regulates access to biological resources by foreign nationals, NRIs and foreign companies; benefit sharing; People's Biodiversity Registers. Biological Diversity (Amendment) Act 2023 decriminalised offences and exempted AYUSH practitioners and codified traditional knowledge from certain requirements.",
+            "Scheduled Tribes and Other Traditional Forest Dwellers (Recognition of Forest Rights) Act, 2006: recognises individual and community forest rights; Gram Sabha is the initiating authority; right to protect, regenerate and manage community forest resources; free, prior and informed consent in forest diversion (Niyamgiri).",
+            "Compensatory Afforestation Fund Act, 2016 (CAMPA): funds collected for forest diversion are used for afforestation.",
+            "Project Tiger (1973), Project Elephant (1992), National Tiger Conservation Authority (NTCA, 2006), Wildlife Crime Control Bureau (2006)."
+          ],
+          "case_laws": [
+            {"name": "T.N. Godavarman Thirumulpad v. Union of India", "year": "1996 onwards", "holding": "Broad dictionary meaning of 'forest'; continuing mandamus; all felling banned without Central approval."},
+            {"name": "Orissa Mining Corporation v. Ministry of Environment and Forests (Niyamgiri)", "year": "2013", "holding": "Gram Sabhas must decide on religious/cultural claims affected by mining diversion."},
+            {"name": "Centre for Environmental Law, WWF-I v. Union of India", "year": "2013", "holding": "Protection of Asiatic lions; translocation (Kuno) approved."},
+            {"name": "M.K. Ranjitsinh v. Union of India", "year": "2024", "holding": "Right against adverse effects of climate change; balance of conservation of Great Indian Bustard with renewable energy."}
+          ],
+          "traps": [
+            "Wildlife Act, Forest Rights Act and Indian Forest Act 1927 are outside NGT's Schedule I.",
+            "Forest (Conservation) Act was renamed (2023) as Van (Sanrakshan Evam Samvardhan) Adhiniyam.",
+            "After the 2022 amendment the Wildlife Act has four schedules, not six.",
+            "NBA is headquartered at Chennai."
+          ],
+          "memory_aids": ["WPA 2022: 6 -> 4 schedules; vermin out; CITES in."],
+          "likely_question_angles": [
+            "Which law renamed in 2023 as Van (Sanrakshan Evam Samvardhan) Adhiniyam?",
+            "How many schedules in the Wildlife Act after 2022?",
+            "Three-tier structure under the Biological Diversity Act.",
+            "Who decides forest rights claims? (Gram Sabha as initiating authority)"
+          ]
+        },
+        {
+          "id": "5B-6",
+          "title": "International Environmental Law and Climate Framework",
+          "priority": "High",
+          "expected_weight": "Often 1 of the 2 questions",
+          "summary": "Dates and outcomes of key conferences and treaties are straight recall. India's obligations flow through Art 51(c), Art 253 and the EPA.",
+          "key_points": [
+            "Stockholm Conference, 1972 (UN Conference on the Human Environment): first major international conference; UNEP created; 26 principles. Basis for the Water Amendment and the Air Act in India and the 42nd Amendment.",
+            "Brundtland Report (Our Common Future), 1987: popularised 'sustainable development'.",
+            "Rio Earth Summit, 1992 (UNCED): Rio Declaration with 27 principles (Principle 15 precaution, Principle 16 polluter pays, Principle 7 CBDR); Agenda 21; UNFCCC; CBD; Forest Principles.",
+            "Kyoto Protocol, 1997: binding emission targets for developed countries (in force 2005); CDM; second commitment period (Doha Amendment).",
+            "Paris Agreement, 2015 (COP21; in force 2016): keep temperature rise well below 2 degrees C and pursue 1.5 degrees C; Nationally Determined Contributions (NDCs); global stocktake every five years; Article 6 on carbon markets. India's targets: net zero by 2070 (announced at COP26, Glasgow 2021); updated NDC (2022) of reducing emissions intensity of GDP by 45% from 2005 levels by 2030 and 50% non-fossil electric power capacity by 2030.",
+            "COP28 (Dubai, 2023): first global stocktake concluded; call for 'transition away from fossil fuels'; Loss and Damage Fund operationalised. COP29 (Baku, 2024): new collective quantified goal on climate finance (USD 300 billion per year by 2035). COP30 (Belem, Brazil, November 2025) is the most recent completed COP; COP31 is scheduled for November 2026 in Antalya, Turkiye with Australia presiding over negotiations - verify the outcome as it is in progress at the time of writing.",
+            "ICJ Advisory Opinion on the Obligations of States in respect of Climate Change (23 July 2025): states have binding obligations under international law, including customary law and treaties, to protect the climate system; breach can entail responsibility.",
+            "Agreement on Biodiversity Beyond National Jurisdiction (BBNJ / High Seas Treaty): entered into force on 17 January 2026 after reaching 60 ratifications.",
+            "Montreal Protocol, 1987 (ozone layer; Vienna Convention 1985); Kigali Amendment, 2016 (HFCs); Basel Convention, 1989 (hazardous wastes); Rotterdam Convention, 1998 (prior informed consent); Stockholm Convention, 2001 (POPs); Minamata Convention, 2013 (mercury); Ramsar Convention, 1971 (wetlands); CITES, 1973; CBD, 1992; Cartagena Protocol, 2000 (biosafety); Nagoya Protocol, 2010 (access and benefit sharing); UNCCD, 1994 (desertification).",
+            "Trail Smelter Arbitration (US v. Canada), 1941: no State has the right to use or permit the use of its territory in a manner that causes injury by fumes in or to the territory of another.",
+            "India: Art 51(c) - respect for international law; Art 253; international agreements become domestic law only through legislation but may be used to interpret statutes (Vishaka; Vellore)."
+          ],
+          "case_laws": [],
+          "traps": [
+            "Kyoto = binding targets on developed countries; Paris = nationally determined contributions for all.",
+            "Montreal Protocol is about ozone-depleting substances; Kigali Amendment is about HFCs.",
+            "Basel = hazardous wastes; Rotterdam = hazardous chemicals trade (PIC); Stockholm Convention = POPs; Minamata = mercury.",
+            "Stockholm 1972 (human environment) is different from the Stockholm Convention 2001 (POPs)."
+          ],
+          "memory_aids": ["72-92-97-15: Stockholm, Rio, Kyoto, Paris.", "BRMS: Basel (wastes), Rotterdam (PIC), Montreal (ozone), Stockholm 2001 (POPs)."],
+          "likely_question_angles": [
+            "Where/when was the first UN conference on the human environment?",
+            "Which treaty provides for 'binding targets' for developed countries? (Kyoto)",
+            "India's net zero target year (2070).",
+            "Which instrument deals with the ozone layer? (Montreal Protocol)"
+          ]
+        },
+        {
+          "id": "5B-7",
+          "title": "Climate, Air Quality and Other Statutory Initiatives",
+          "priority": "Medium",
+          "expected_weight": "Occasional",
+          "summary": "Newer legal instruments tested as current affairs.",
+          "key_points": [
+            "Commission for Air Quality Management in National Capital Region and Adjoining Areas Act, 2021 (CAQM): statutory body that replaced EPCA; powers to issue directions on air pollution in the NCR; GRAP (Graded Response Action Plan) is implemented under it.",
+            "National Clean Air Programme (NCAP), 2019: target to reduce PM2.5 and PM10 concentration in 131 non-attainment cities.",
+            "Energy Conservation (Amendment) Act, 2022: enables a carbon credit trading scheme; Carbon Credit Trading Scheme notified in 2023; Bureau of Energy Efficiency as administrator.",
+            "Green Credit Programme, 2023: tradeable green credits for environmentally positive actions (tree plantation, water conservation).",
+            "Public Liability Insurance Act, 1991: no-fault liability of owners handling hazardous substances; mandatory insurance; Environmental Relief Fund.",
+            "Mission LiFE (Lifestyle for Environment) launched in 2022."
+          ],
+          "case_laws": [],
+          "traps": [
+            "CAQM replaced EPCA (Environment Pollution (Prevention and Control) Authority).",
+            "PLI Act creates no-fault liability, not fault-based."
+          ],
+          "memory_aids": [],
+          "likely_question_angles": [
+            "Which statute created the CAQM?",
+            "No-fault liability under which statute?"
+          ]
+        }
+      ],
+      "recent_developments": [
+        {
+          "date": "29 July 2026",
+          "item": "Vanashakti line of cases on ex post facto environmental clearance: the Supreme Court (reported as Vanashakti III) struck down the Centre's 2021 Office Memorandum permitting retrospective environmental clearance for projects that began without prior EC and reiterated that the right to a clean environment is part of Art 21 and that prior EC is the rule. Earlier phases of the litigation date back to 2025. Verify the holding on the relief given to existing projects before relying on this in an answer.",
+          "why_it_matters": "High-probability current-affairs MCQ: 'prior environmental clearance', 'ex post facto EC', 'Art 21'."
+        },
+        {
+          "date": "21 March 2024",
+          "item": "M.K. Ranjitsinh v. Union of India: Supreme Court recognised a right against the adverse effects of climate change as part of Arts 14 and 21.",
+          "why_it_matters": "Most-cited climate-rights case; likely MCQ."
+        },
+        {
+          "date": "2023-2024",
+          "item": "Jan Vishwas (Amendment of Provisions) Act, 2023 and the Water (Prevention and Control of Pollution) Amendment Act, 2024 decriminalised many environmental offences (replacement of imprisonment with penalties through adjudicating officers).",
+          "why_it_matters": "Law-reform MCQ on 'decriminalisation'."
+        },
+        {
+          "date": "2023",
+          "item": "Van (Sanrakshan Evam Samvardhan) Adhiniyam - Forest (Conservation) Amendment Act, 2023; Biological Diversity (Amendment) Act, 2023; Constitution Bench in Animal Welfare Board v. Union of India upheld Jallikattu amendments (May 2023).",
+          "why_it_matters": "Statutory renaming and exemptions are favourite factual questions."
+        },
+        {
+          "date": "July 2025 / January 2026",
+          "item": "ICJ climate advisory opinion (23 July 2025); BBNJ (High Seas Treaty) in force 17 January 2026.",
+          "why_it_matters": "International environmental law current affairs."
+        },
+        {
+          "date": "November 2026",
+          "item": "COP31 (Antalya, Turkiye) is under way; check the final outcome before the exam.",
+          "why_it_matters": "Possible 'where was COP31 held' question."
+        }
+      ],
+      "rapid_fire_one_liners": [
+        "Art 48A (DPSP) and Art 51A(g) (Fundamental Duty) - inserted by 42nd Amendment, 1976.",
+        "Art 253 - basis of EPA 1986; Stockholm 1972 inspired it.",
+        "Oleum Gas (1987) - absolute liability; Vellore (1996) - precaution + polluter pays + sustainable development; Kamal Nath (1997) - public trust; Bichhri (1996) - polluter pays.",
+        "Doon Valley (1985) - first ecological case; Subhash Kumar (1991) - clean air/water under Art 21.",
+        "NGT: Principal Bench Delhi; Bhopal, Pune, Kolkata, Chennai; appeal to Supreme Court within 90 days; 6 months to file (+60 days).",
+        "NGT Schedule I: 7 Acts; Wildlife Act NOT included.",
+        "Water Act S.25: consent to establish; Air Act S.21: consent to establish.",
+        "Air Act: noise is an air pollutant.",
+        "EIA 2006: Category A (Centre) and B (SEIAA).",
+        "Wildlife Act 2022: four schedules; vermin schedule removed.",
+        "FCA 1980 renamed Van (Sanrakshan Evam Samvardhan) Adhiniyam in 2023.",
+        "National Biodiversity Authority is at Chennai.",
+        "Paris Agreement: 1.5 degrees C; India: net zero by 2070.",
+        "Kyoto: binding targets; Montreal: ozone; Basel: hazardous waste.",
+        "M.K. Ranjitsinh (2024): right against adverse effects of climate change."
+      ],
+      "mcqs": [
+        {"q": "Articles 48A and 51A(g) were inserted into the Constitution by the:", "options": ["24th Amendment", "42nd Amendment", "44th Amendment", "86th Amendment"], "answer_index": 1, "explain": "The 42nd Amendment (1976) also moved forests and wild animals/birds to the Concurrent List."},
+        {"q": "The rule of absolute liability for hazardous industries was laid down in:", "options": ["Rylands v. Fletcher", "M.C. Mehta v. Union of India (Oleum Gas Leak)", "Vellore Citizens' Welfare Forum", "Bhopal Gas Leak Disaster"], "answer_index": 1, "explain": "M.C. Mehta (1987) - no Rylands v. Fletcher exceptions."},
+        {"q": "The public trust doctrine was applied in India in:", "options": ["M.C. Mehta v. Kamal Nath", "Subhash Kumar v. State of Bihar", "Doon Valley case", "Narmada Bachao Andolan"], "answer_index": 0, "explain": "Kamal Nath (1997) - Span Motel."},
+        {"q": "Precautionary principle and polluter pays were treated as part of Indian environmental law in:", "options": ["Vellore Citizens' Welfare Forum v. Union of India", "Doon Valley case", "Taj Trapezium case", "Subhash Kumar"], "answer_index": 0, "explain": "Vellore (1996)."},
+        {"q": "Which Act is NOT within Schedule I of the NGT Act, 2010?", "options": ["Water Act, 1974", "Air Act, 1981", "Wildlife (Protection) Act, 1972", "Biological Diversity Act, 2002"], "answer_index": 2, "explain": "Wildlife (Protection) Act 1972, Indian Forest Act 1927 and Forest Rights Act 2006 are outside Schedule I."},
+        {"q": "An appeal from an order of the NGT lies to the Supreme Court within:", "options": ["30 days", "60 days", "90 days", "180 days"], "answer_index": 2, "explain": "S.22 NGT Act."},
+        {"q": "Which Article of the Constitution enables Parliament to enact legislation to implement international agreements?", "options": ["Article 51", "Article 252", "Article 253", "Article 254"], "answer_index": 2, "explain": "Art 253 - basis of EPA 1986."},
+        {"q": "As amended in 2022, the Wild Life (Protection) Act, 1972 has how many schedules?", "options": ["Six", "Five", "Four", "Three"], "answer_index": 2, "explain": "Reduced from six to four; vermin schedule removed."},
+        {"q": "The Forest (Conservation) Act, 1980 was renamed in 2023 as:", "options": ["Forest Rights Act", "Van (Sanrakshan Evam Samvardhan) Adhiniyam", "Green Forest Act", "National Forest Act"], "answer_index": 1, "explain": "By the 2023 amendment."},
+        {"q": "The Supreme Court in M.K. Ranjitsinh v. Union of India (2024) recognised the right against adverse effects of climate change under:", "options": ["Articles 14 and 21", "Article 19(1)(g)", "Article 25", "Article 32 only"], "answer_index": 0, "explain": "Great Indian Bustard case."},
+        {"q": "The Montreal Protocol deals with:", "options": ["Ozone-depleting substances", "Mercury", "Hazardous wastes", "Wetlands"], "answer_index": 0, "explain": "Montreal Protocol (1987). Basel - wastes; Minamata - mercury; Ramsar - wetlands."}
+      ]
+    }
+  ],
+  "revision_plan": {
+    "one_week_plan": [
+      "Day 1: Electronic evidence (S.61-63 BSA, Schedule, Anvar, Arjun, Pune Bar) + definitions.",
+      "Day 2: Confessions and discovery + admissions; solve 15 MCQs.",
+      "Day 3: Burden of proof, presumptions (S.104-120) + estoppel.",
+      "Day 4: Dying declaration + documentary evidence (primary/secondary, S.91-92).",
+      "Day 5: Witnesses + examination + relevancy, experts, judgments.",
+      "Day 6: Environmental Law - principles, cases, NGT, EPA, Water/Air, Forests/Wildlife, international law.",
+      "Day 7: Rapid-fire lists, all MCQs, and tabbing the bare Acts for the open-book exam."
+    ],
+    "last_48_hours": "Revise only rapid_fire_one_liners, the IEA vs BSA changes table and the traps for each topic. Do not start new material.",
+    "exam_day": "Attempt Evidence and Environmental questions first - they are the fastest marks in the paper. Use the bare Act index only for section numbers."
+  },
+  "sources_and_verification": [
+    "Bharatiya Sakshya Adhiniyam, 2023 (bare Act text) - verify section numbers against the official Gazette copy.",
+    "Pune Bar Association v. Union of India, W.P.(C) 599 of 2026, decided 22 May 2026 (Supreme Court) - as reported by LiveLaw, Verdictum and JSA Prism (June 2026).",
+    "AIBE XXI pattern and date (7 June 2026): Bar Council of India / allindiabarexamination.com and Careers360 reports (2026).",
+    "Vanashakti litigation: Supreme Court judgment of 29 July 2026 as reported by Down To Earth and others - read the judgment text before relying on details.",
+    "M.K. Ranjitsinh v. Union of India (2024), Vellore Citizens (1996), M.C. Mehta (1987, 1997) - reported judgments."
+  ]
+}
