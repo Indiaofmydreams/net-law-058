@@ -57,3 +57,33 @@ THINGS THAT CHANGED OUTSIDE aibe/notes/ (all additive)
 
 TAGS IN THE DATA
   [VERIFY ...] is shown as a yellow "Verify" chip so readers know what to double-check. Remove the tag from the JSON once confirmed.
+
+
+==============================================================
+ADDING MORE PARTS (adapters)  - updated
+==============================================================
+Data lives in _notes-data/aibe/. Build with:  python3 _tools/build_aibe_notes.py
+(upload the regenerated aibe/, sitemap.xml and _notes-data/ - no server build step).
+
+1. Drop the new part JSON into _notes-data/aibe/.
+2. Add an entry to registry.json:
+     {"file":"part-03-....json","subjects":[<syllabus nos>],"adapter":"partN"}
+   Parts 1 and 2 are already in canonical shape and need NO "adapter".
+   Parts 4,5,6,7 use adapters "part4".."part7" (see _tools/aibe_adapters.py).
+   A new batch with a different JSON layout needs a small adapter function added
+   to aibe_adapters.py and registered in ADAPTERS; nothing is shortened or dropped.
+3. Add a short SEO title for every chapter in seo-titles.json
+   (subject slug -> chapter number -> title, max ~52 chars). Slugs come from it.
+4. Rebuild, then check the console: it must not print "WARNING: batch wording".
+   (Writing-batch phrases such as "Part 6" are rewritten by PART_FIXES; add a
+   rule there if a new one leaks.)
+
+Subject numbers (BCI syllabus order): 1 Constitutional, 2 IPC/BNS, 3 CrPC/BNSS,
+4 CPC, 5 Evidence/BSA, 6 ADR, 7 Family, 8 PIL, 9 Administrative, 10 Ethics,
+11 Company, 12 Environmental, 13 Cyber, 14 Labour, 15 Torts/MV/Consumer,
+16 Taxation, 17 Contract/Property/NI, 18 Land Acquisition, 19 IP.
+Currently live: 1,2,3,5,7,11,12,13,17,18.  Still to come: 4 (CPC), 6 (ADR) and the rest.
+
+Rapid revision pages for adapted parts are built from generic blocks
+(list / table / pairs / groups / qa) defined in the adapter; Part 1 keeps its own markup.
+Case-name italics are computed per subject, so one subject's data never changes another's pages.
