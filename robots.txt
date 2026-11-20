@@ -7,5 +7,6 @@ Disallow: /packs.json
 # Source files for the notes generator
 Disallow: /_notes-data/
 Disallow: /_tools/
+Disallow: /blog/_src/
 
 Sitemap: https://netlawverse.in/sitemap.xml
