@@ -352,8 +352,11 @@
   }
   function devPage() { $$('[data-reveal]').forEach(function (b) { b.addEventListener('click', function () { var a = b.parentNode.querySelector('.nn-ans'); a.hidden = !a.hidden; b.textContent = a.hidden ? 'Show answer' : 'Hide answer'; }); }); }
   function rapidPage() {
-    var i = $('#nn-artq'); if (!i) return;
-    i.addEventListener('input', function () { var v = i.value.trim().toLowerCase(); $$('#nn-art tbody tr').forEach(function (r) { r.style.display = !v || r.textContent.toLowerCase().indexOf(v) > -1 ? '' : 'none'; }); });
+    var i = $('#nn-artq');
+    if (i) i.addEventListener('input', function () { var v = i.value.trim().toLowerCase(); $$('#nn-art tbody tr').forEach(function (r) { r.style.display = !v || r.textContent.toLowerCase().indexOf(v) > -1 ? '' : 'none'; }); });
+    $$('input[data-ftbl]').forEach(function (inp) {
+      inp.addEventListener('input', function () { var v = inp.value.trim().toLowerCase(); $$('#' + inp.dataset.ftbl + ' tbody tr').forEach(function (r) { r.style.display = !v || r.textContent.toLowerCase().indexOf(v) > -1 ? '' : 'none'; }); });
+    });
   }
   function mcqPage() {
     var key = B.dataset.nnSubject, qs = $$('.nn-mcq'); ST.mcq[key] = ST.mcq[key] || {};

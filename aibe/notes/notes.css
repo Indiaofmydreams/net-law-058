@@ -32,7 +32,7 @@ a.nn-chip:hover{background:#fff}
 .nn-pri.p1{background:#ff8fb0}.nn-pri.p2{background:var(--sun)}.nn-pri.p3{background:#bff1dd}.nn-pri.p4{background:#c9e3ff}.nn-pri.p5{background:#e8e4f7}
 
 /* verify chip (items the data marks [VERIFY]) */
-.nn-vf{display:inline-block;font:800 .68rem var(--sans);letter-spacing:.04em;text-transform:uppercase;padding:1px 8px;border-radius:999px;border:2px solid var(--ink);background:#ffe08a;color:var(--ink);vertical-align:.12em;margin:0 2px;cursor:help;white-space:nowrap}
+.nn-vf{display:inline-block;font:800 .68rem var(--sans);letter-spacing:.04em;text-transform:uppercase;padding:1px 8px;border-radius:999px;border:2px solid var(--ink);background:#ffe08a;color:var(--ink);vertical-align:.12em;margin:0 2px;cursor:help;white-space:normal;display:inline;-webkit-box-decoration-break:clone;box-decoration-break:clone;line-height:1.7}
 .nn-art{font-weight:800;background:var(--hl);border-bottom:2.5px solid var(--ink);border-radius:5px 5px 2px 2px;padding:0 2px;white-space:nowrap}
 .nn-case{font-style:italic;font-weight:700}
 
@@ -331,3 +331,17 @@ mark.nn-hl.flash{outline:4px solid var(--ink);outline-offset:2px}
 }
 @media print{.nn-nav{display:none!important}}
 .nn-nav:has(.nn-sw[open]){z-index:300}
+
+/* ---- generic rapid-revision blocks ---- */
+.nn-pairs{margin:0;display:grid;gap:10px}
+.nn-pairs>div{background:#fff;border:2.5px solid var(--ink);border-radius:14px;padding:12px 14px}
+.nn-pairs dt{font-weight:800;font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;opacity:.65;margin:0 0 4px}
+.nn-pairs dd{margin:0;line-height:1.65;font-weight:600}
+.nn-gh{margin:18px 0 8px;font-size:1.02rem;font-weight:800}
+.nn-scn{background:#fff;border:3px solid var(--ink);border-radius:16px;box-shadow:4px 4px 0 var(--ink);padding:14px 16px;margin:0 0 14px}
+.nn-scn p{margin:0 0 8px;line-height:1.65;font-weight:600}.nn-scn p:last-child{margin-bottom:0}
+.nn-ans-s{background:var(--hl);border-radius:10px;padding:8px 10px}
+.nn-sec>.mut{margin:-4px 0 12px}
+
+.nn-qt>span:not(.n),.nn-opt>span{min-width:0;overflow-wrap:anywhere}.nn-opts,.nn-opts li,.nn-mcq{min-width:0;max-width:100%}
+.nn-article,.nn-wide{overflow-wrap:break-word}
