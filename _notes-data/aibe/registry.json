@@ -60,6 +60,22 @@
     16
    ],
    "adapter": "part10"
+  },
+  {
+   "file": "part-09-adr-pil-ethics.json",
+   "subjects": [
+    6,
+    8,
+    10
+   ],
+   "adapter": "part9"
+  },
+  {
+   "file": "part-03-cpc.json",
+   "subjects": [
+    4
+   ],
+   "adapter": "part3"
   }
  ]
 }

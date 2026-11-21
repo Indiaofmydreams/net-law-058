@@ -69,7 +69,7 @@ Data lives in _notes-data/aibe/. Build with:  python3 _tools/build_aibe_notes.py
 2. Add an entry to registry.json:
      {"file":"part-03-....json","subjects":[<syllabus nos>],"adapter":"partN"}
    Parts 1 and 2 are already in canonical shape and need NO "adapter".
-   Parts 4,5,6,7,8,10 use adapters "part4".."part8", "part10" (see _tools/aibe_adapters.py).
+   Parts 3,4,5,6,7,8,9,10 use adapters "part3".."part10" (see _tools/aibe_adapters.py).
    A new batch with a different JSON layout needs a small adapter function added
    to aibe_adapters.py and registered in ADAPTERS; nothing is shortened or dropped.
 3. Add a short SEO title for every chapter in seo-titles.json
@@ -82,7 +82,7 @@ Subject numbers (BCI syllabus order): 1 Constitutional, 2 IPC/BNS, 3 CrPC/BNSS,
 4 CPC, 5 Evidence/BSA, 6 ADR, 7 Family, 8 PIL, 9 Administrative, 10 Ethics,
 11 Company, 12 Environmental, 13 Cyber, 14 Labour, 15 Torts/MV/Consumer,
 16 Taxation, 17 Contract/Property/NI, 18 Land Acquisition, 19 IP.
-Currently live: 1,2,3,5,7,9,11,12,13,14,15,16,17,18,19.  Still to come: 4 (CPC), 6 (ADR), 8 (PIL), 10 (Professional Ethics).
+Currently live: all 19 subjects.
 
 Rapid revision pages for adapted parts are built from generic blocks
 (list / table / pairs / groups / qa) defined in the adapter; Part 1 keeps its own markup.

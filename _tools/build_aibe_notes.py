@@ -57,7 +57,7 @@ SUBJECTS = [
     (18, 'Land Acquisition', 'land-acquisition', 2),
     (19, 'Intellectual Property Laws', 'intellectual-property-laws', 2),
 ]
-SHORT = {14: 'Labour Law', 1: 'Constitutional Law', 2: 'IPC / BNS', 3: 'CrPC / BNSS', 4: 'CPC and Limitation', 5: 'Evidence / BSA',
+SHORT = {6: 'ADR and Arbitration', 8: 'PIL', 14: 'Labour Law', 1: 'Constitutional Law', 2: 'IPC / BNS', 3: 'CrPC / BNSS', 4: 'CPC and Limitation', 5: 'Evidence / BSA',
          10: 'Professional Ethics', 15: 'Torts, MV Act, CPA', 17: 'Contract and Property', 19: 'IP Laws'}
 
 PRI = {  # priority text in the data -> (label, css class)
@@ -110,6 +110,13 @@ PART_FIXES = [
     (r'\(cross-ref Part 2 BNSS', '(cross-ref BNSS'),
     (r'Cross-over with Part 6\.', 'Cross-over with ADR.'),
     (r'see Part 8 IP module', 'see the Intellectual Property notes'),
+    (r', Part 2 \(compounding, plea bargaining, privileges\)', ', CrPC/BNSS (compounding, plea bargaining, privileges)'),
+    (r', Part 3 \(CPC s\.89', ', CPC (s.89'),
+    (r', Part 7 \(arbitration agreement as contract; stamp duty\)', ', Contract (arbitration agreement as contract; stamp duty)'),
+    (r', Part 8 \(Consumer mediation; administrative law and PIL\)', ', Consumer Protection (mediation) and Administrative Law'),
+    (r', Part 10 \(Industrial conciliation; stamp duty\)', ', Labour Law (industrial conciliation; stamp duty)'),
+    (r'\[Cross-ref Part 6\.\]', '[Cross-ref: Family Law.]'),
+    (r' \(Part \d+\)', ''),
 ]
 
 E = lambda s: html.escape(str(s), quote=False)
@@ -794,7 +801,7 @@ def build_hub(live_info, sitemap):
     faq = [
         ('Are the AIBE notes free?', 'Yes. Every note, highlight sheet and MCQ on NET Law-Verse is free and needs no sign-up or login.'),
         ('How are the AIBE notes organised?', 'Under the 19 subjects of the Bar Council of India AIBE syllabus, in syllabus order. Each subject is split into chapters, and each chapter has an overview, must-know points, key provisions, landmark cases, memory aids, exam traps and likely questions.'),
-        ('Which subjects are available now?', 'Notes are being added subject by subject. %d of 19 subjects are live: %s. The rest are marked Coming soon on the notes page.' % (n_live, ', '.join(SUBJECTS[no - 1][1] for no in sorted(live_info)))),
+        ('Which subjects are available now?', ('Notes are being added subject by subject. %d of 19 subjects are live: %s. The rest are marked Coming soon on the notes page.' if n_live < 19 else 'All %d subjects of the BCI syllabus are live: %s. New chapters and updates are added as the law changes.') % (n_live, ', '.join(SUBJECTS[no - 1][1] for no in sorted(live_info)))),
         ('Can I highlight the notes and save my highlights?', 'Yes. Select any text in a chapter and choose a colour. Highlights are saved in your browser and collected chapter by chapter on the My highlights page, where you can print or copy them.'),
         ('How do I ask a doubt?', 'Select the text you are unsure about, or use the ? button next to any point, and choose Ask a doubt. Your doubt is saved on your device and you can send it to NET Law-Verse by email in one tap.'),
         ('Are these notes enough for AIBE?', 'They are a revision aid, not a substitute for the Bare Acts. AIBE has been reported as an open-book test with unannotated Bare Acts, so use the notes to know what to look up and where. Confirm the rules for your edition in the Bar Council of India notification.'),
@@ -829,7 +836,7 @@ def build_hub(live_info, sitemap):
 <label class="nn-search big"><span class="sr-only">Search the notes</span><input type="search" id="nn-q" placeholder="Search notes: an Article, a case, a topic (try “basic structure” or “Art 21”)" autocomplete="off"></label>
 <div id="nn-results" class="nn-results" hidden></div>
 <h2 class="al-h2" id="subjects">All 19 subjects</h2>
-<p class="al-sub">Listed in the order of the AIBE syllabus. Subjects marked <b>Notes live</b> are ready to read; the others are being added one by one.</p>
+<p class="al-sub">Listed in the order of the AIBE syllabus. {'Subjects marked <b>Notes live</b> are ready to read; the others are being added one by one.' if len(live_info) < 19 else 'All 19 subjects have notes. Pick a subject to start, or search across every chapter.'}</p>
 <div class="nn-subs" data-wm>{''.join(cards)}</div>
 <h2 class="al-h2">What you get in every subject</h2><div class="al-grid">{fh}</div>
 <h2 class="al-h2">Why you can rely on these notes</h2>

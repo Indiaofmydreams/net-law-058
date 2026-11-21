@@ -553,4 +553,114 @@ def part10(d):
     return out
 
 
-ADAPTERS = {'part4': part4, 'part5': part5, 'part6': part6, 'part7': part7, 'part8': part8, 'part10': part10}
+# ------------------------------------------------------------------ Part 9: ADR (6) + PIL (8) + Professional Ethics (10)  (sections already canonical, tagged by "block")
+RX9 = {
+    6: re.compile(r'arbitrat|A&C|Lok Adalat|mediat|conciliat|s\.89|12A|\bseat\b|BALCO|\baward|Section 34|s\.34|s\.11\b|s\.29A|Permanent|Legal Services', re.I),
+    8: re.compile(r'\bPIL\b|public interest|locus|Hussainara|S\.P\. Gupta|Bandhua|Chaufal|Vishaka|Vineet|epistolary|continuing mandamus|Art 32|Art 226', re.I),
+    10: re.compile(r'advocate|Bar Council|\bBCI\b|misconduct|contempt|ethic|contingent|\bfees?\b|privilege|\blien\b|Senior|Disciplinary|officer of the court|enrolment', re.I)}
+
+
+def part9(d):
+    m = meta_of(d['meta'])
+    ei = d['exam_intelligence']
+    nos = {'ADR and Arbitration': 6, 'Public Interest Litigation': 8, 'Professional Ethics': 10}
+    names = {6: 'Alternative Dispute Resolution', 8: 'Public Interest Litigation', 10: 'Professional Ethics and Professional Misconduct'}
+    secs = {6: [], 8: [], 10: []}
+    for s in d['sections']:
+        no = nos[s['block']]
+        x = dict(s)
+        x.pop('block', None)
+        x.pop('id', None)
+        x['order'] = len(secs[no]) + 1
+        x['priority'] = pri(x.get('priority'))
+        secs[no].append(x)
+
+    def pick(lst, key=lambda x: _s(x)):
+        # an item goes to every subject whose words it uses; an item matching none goes to all three
+        out = {6: [], 8: [], 10: []}
+        for x in lst:
+            hit = [n for n in out if RX9[n].search(key(x))]
+            for n in (hit or list(out)):
+                out[n].append(x)
+        return out
+
+    def by_index(lst, cuts):
+        a, b = cuts
+        return {6: lst[:a], 8: lst[a:b], 10: lst[b:]}
+
+    dist = ei['indicative_distribution']
+    dist_by = {6: dist[:2], 8: dist[2:3], 10: dist[3:]}
+    pats, hy, tr = pick(ei.get('question_patterns', [])), pick(ei.get('high_yield_topics', [])), pick(ei.get('common_traps', []))
+    ts = ei.get('time_strategy', [])
+    howto = d.get('how_to_use', [])
+    kn = {6: d['key_numbers'][:14], 8: [], 10: d['key_numbers'][14:]}
+    ol = by_index(d['rapid_revision'].get('one_liner_cases', []), (11, 18))
+    mn = dict(zip((6, 8, 10), [[x] for x in d['rapid_revision'].get('mnemonics', [])]))
+    mn.setdefault(8, [])
+    mq = d['mcq_bank']
+    mc = {6: [q for q in mq if q['id'] <= 31], 8: [q for q in mq if 32 <= q['id'] <= 45], 10: [q for q in mq if q['id'] >= 46]}
+    dv = d['latest_developments']
+    dev_by = {6: dv[:5], 8: dv[5:8], 10: dv[8:]}
+    rel = [(x['topic'], x['link']) for x in d.get('related_topics', [])]
+    smap = d.get('section_map', {})
+    out = {}
+    for no in (6, 8, 10):
+        cards = [{'title': 'Question patterns', 'items': pats[no]}, {'title': 'High-yield topics', 'items': hy[no]},
+                 {'title': 'Time strategy', 'items': ts}, {'title': 'Common traps', 'items': tr[no]}]
+        if no == 6:
+            cards.insert(0, {'title': 'How to use these notes', 'items': howto})
+        cards = [c for c in cards if c['items']]
+        bl = []
+        if no == 6:
+            bl.append(b_table('sections', 'Arbitration and Conciliation Act: section finder', '§', ['Section', 'Topic'],
+                              [[x['section'], x['topic']] for x in smap.get('arbitration_and_conciliation_act_1996', [])], filt=True))
+        if no == 10:
+            bl.append(b_table('sections', 'Advocates Act 1961: section finder', '§', ['Section', 'Topic'],
+                              [[x['section'], x['topic']] for x in smap.get('advocates_act_1961', [])], filt=True))
+        bl.append(b_table('numbers', 'Key numbers and time-limits', '#', ['Item', 'Rule'], [[r['item'], r['value']] for r in kn[no]], filt=True))
+        bl.append(b_list('oneliners', 'One-line case revision', '⚡', ol[no]))
+        bl.append(b_list('mnemonics', 'Mnemonics', '✦', mn.get(no, [])))
+        bl.append(b_pairs('related', 'Links to other subjects', '↔', rel))
+        out[no] = dict(meta=dict(m, title=names[no]),
+                       exam={'paper_format_note': _s(ei.get('paper_format_note')), 'indicative_distribution': dist_by[no],
+                             'distribution_note': _s(ei.get('distribution_note')), 'cards': cards},
+                       sections=secs[no], dev=dev_by[no], rr=blocks(*bl), mcq=mcqs(mc[no]))
+    return out
+
+
+# ------------------------------------------------------------------ Part 3: Code of Civil Procedure and Limitation (4)
+def part3(d):
+    m = meta_of(d['meta'])
+    ec = d['exam_context']
+    fm = ec['format']
+    fmt_note = '%s questions, %s; %s; negative marking: %s; open book: %s' % (
+        fm.get('total_questions'), _s(fm.get('type')), _s(fm.get('duration')), _s(fm.get('negative_marking')).lower(), _s(fm.get('open_book')))
+    wt = ec['part_3_weightage']
+    secs, tables = [], []
+    for mod in d['modules']:
+        for s in mod['sections']:
+            provs = [_s(x) for x in s.get('key_provisions', [])]
+            secs.append({'order': len(secs) + 1, 'title': _s(s['title']), 'priority': pri(s.get('priority')),
+                         'expected_questions': eq(s.get('expected_questions') or mod.get('estimated_questions'), '1'),
+                         'articles': '; '.join(provs), 'overview': _s(s.get('summary')), 'must_know': [_s(x) for x in s.get('key_points', [])],
+                         'key_provisions': [], 'landmark_cases': cases(s.get('landmark_cases')), 'mnemonics': [_s(x) for x in s.get('memory_aids', [])],
+                         'exam_traps': [_s(x) for x in s.get('common_traps', [])], 'probable_questions': [_s(x) for x in s.get('likely_questions', [])]})
+            for t in s.get('comparison_tables', []):
+                tables.append(t)
+    cs = d['cheat_sheet']
+    bl = [b_table('numbers', 'Numbers and periods', '#', ['Item', 'Rule'], cs['numbers_and_periods'], filt=True),
+          b_table('finder', 'Section finder', '§', ['Topic', 'Where to look'], cs['section_finder'], filt=True),
+          b_pairs('distinctions', 'Pairs the examiner likes', '≠', [(x['pair'], x['points']) for x in cs['distinctions']])]
+    for i, t in enumerate(tables):
+        bl.append(b_table('cmp-%d' % i, _s(t.get('topic')) or 'Comparison', '⇄', t.get('columns', []), t.get('rows', []), filt=False))
+    bl.append(b_list('checklist', 'Final revision checklist', '✓', d.get('final_revision_checklist', [])))
+    bl.append(b_list('plan', 'Seven-day study plan', '☰', ['Day %s: %s' % (x.get('day'), x.get('focus')) for x in ec.get('study_plan_7_days', [])]))
+    dist = [{'cluster': r['area'], 'expected_questions': eq(r['approx_questions']), 'comment': 'Priority: %s.' % r['priority']} for r in wt['split_estimate']]
+    cards = [{'title': 'What the examiner tests', 'items': ec.get('examiner_lens', [])}, {'title': 'How to use these notes', 'items': d.get('how_to_use_these_notes', [])}]
+    dev = [dev_item(x.get('date'), x.get('detail'), x.get('exam_use'), topic=x.get('topic')) for x in d['latest_developments']]
+    return {4: dict(meta=dict(m, title='Code of Civil Procedure and Limitation'),
+                    exam={'paper_format_note': fmt_note, 'indicative_distribution': dist, 'distribution_note': _s(wt.get('note')), 'cards': cards},
+                    sections=secs, dev=dev, rr=blocks(*bl), mcq=mcqs(d['practice_mcqs']))}
+
+
+ADAPTERS = {'part3': part3, 'part4': part4, 'part5': part5, 'part6': part6, 'part7': part7, 'part8': part8, 'part9': part9, 'part10': part10}

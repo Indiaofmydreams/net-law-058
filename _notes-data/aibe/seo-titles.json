@@ -205,5 +205,52 @@
   "4": "GST I: Supply, Registration, ITC, Returns",
   "5": "GST II: Refunds, Demand, Appeals, Offences",
   "6": "Customs, Stamp Duty and Other Taxes"
+ },
+ "cpc-limitation": {
+  "1": "CPC 1908: Scheme and Key Definitions (s.2)",
+  "2": "Civil Court Jurisdiction and Place of Suing",
+  "3": "Res Sub Judice, Res Judicata (ss.10-11)",
+  "4": "Foreign Judgments and Foreign Courts (CPC)",
+  "5": "Suits By or Against Government (ss.79-82)",
+  "6": "Plaint: Institution, Return and Rejection",
+  "7": "Parties, Joinder and Representative Suits",
+  "8": "Summons, Written Statement, Set-off, Counter-claim",
+  "9": "Pleadings: Rules, Amendment, Verification",
+  "10": "Order IX: Non-appearance and Ex Parte Decrees",
+  "11": "Orders X-XX: First Hearing to Judgment",
+  "12": "Interim Reliefs: Injunction, Attachment, Receiver",
+  "13": "Summary Suits (O.37) and Summary Judgment",
+  "14": "Abatement, Withdrawal and Compromise (O.22-23)",
+  "15": "Special Parties: Firms, Minors, Indigent Persons",
+  "16": "Interpleader, Mortgage and Public Suits",
+  "17": "ADR in CPC: s.89, Mediation Act, O.10 R.1A",
+  "18": "Execution: Principles and Section 47",
+  "19": "Modes of Execution, Arrest and Attachment",
+  "20": "Order XXI: Attachment and Sale Procedure",
+  "21": "Obstruction and Third-Party Claims (O.21)",
+  "22": "First Appeals (ss.96-99A, Order XLI)",
+  "23": "Second Appeals and Appeals from Orders",
+  "24": "Reference, Review and Revision",
+  "25": "Judgments, Interest, Costs, Inherent Powers",
+  "26": "Commercial Courts Act 2015 and Modified CPC"
+ },
+ "adr": {
+  "1": "ADR: Mediation, Lok Adalat, s.89 CPC",
+  "2": "Mediation Act 2023 and Conciliation",
+  "3": "Arbitration Act: Agreement, s.8, s.9, s.11, Seat",
+  "4": "Arbitration Act: Tribunal, Procedure, Award",
+  "5": "Arbitration Act: s.34, Enforcement, Foreign Awards"
+ },
+ "pil": {
+  "1": "PIL: Meaning, Evolution and Constitutional Basis",
+  "2": "PIL Procedure, Locus Standi and 1988 Guidelines",
+  "3": "Landmark PILs by Theme",
+  "4": "Limits and Abuse of PIL (Chaufal Guidelines)"
+ },
+ "professional-ethics": {
+  "1": "Advocates Act 1961: Bar Councils and Enrolment",
+  "2": "Professional Misconduct (s.35) and Discipline",
+  "3": "BCI Rules: Duties to Court, Client, Colleagues",
+  "4": "Contempt, Privilege, Strikes and Legal Aid"
  }
 }
