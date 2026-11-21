@@ -245,4 +245,10 @@
     });
     filter();
   }
+
+  /* ---------- shared colour theme picker (same storage key as the landing page: nlv-theme) ---------- */
+  var sws = $$(".sw");
+  function markTheme() { var c = root.getAttribute("data-theme") || "violet"; sws.forEach(function (b) { b.setAttribute("aria-pressed", String(b.getAttribute("data-t") === c)); }); }
+  sws.forEach(function (b) { b.addEventListener("click", function () { var t = b.getAttribute("data-t"); root.setAttribute("data-theme", t); set("nlv-theme", t); markTheme(); }); });
+  markTheme();
 })();

@@ -179,3 +179,11 @@ Icons redrawn to match the supplied logo design (16 Oct 2026)
   Home: "Follow on Instagram" pill beside Share (QR dialog on mouse screens, direct link on touch), "Stay connected" section, footer link.
   App (m-app.js / m-app.css): "Follow us" card on Home (QR shown on tablets only), links in the menu and Profile.
 * sw.js: VERSION v17, new files added to the pre-cache list.
+
+
+----
+Blog redesign to match the landing page (21 Nov 2026)
+- blog/blog.css rewritten (landing look: --pink/--ink tokens, ink borders, offset shadows, Manrope, 5 nlv-theme colour themes, dark mode). Standalone: no styles.css / theme.css / script.js / theme.js / nav-resources / pwa.js on blog pages.
+- Header = landing header (logo + Home -> "/", About, FAQ, Blog; wraps under the logo on phones so Blog stays visible). Old Paper-style header (Home -> /index.html#home) removed.
+- build_blog.py now also writes sitemap-blog.xml and refreshes blog URLs in sitemap.xml. blog.js: theme picker.
+- Post "UGC NET December 2026 exam dates": removed unofficial city-slip (23 Nov) and admit-card (7 Dec) dates; sources limited to NTA + the report actually read.

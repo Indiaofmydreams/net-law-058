@@ -6,6 +6,7 @@ Writes  blog/<slug>.html           finished post pages
         blog/index.html            blog home (search, categories, saved posts)
         blog/posts.json            list of posts (used by blog/latest.js)
         blog/feed.xml              RSS feed
+        sitemap-blog.xml           blog-only sitemap (listed in robots.txt)
         sitemap.xml                blog URLs added / refreshed (everything else untouched)
 Standard library only. Safe to re-run any time. See blog/HOW-TO-WRITE-POSTS.md."""
 import json, re, sys, html, datetime, pathlib
@@ -99,7 +100,6 @@ def follow_block():
         <p>Every key section of the site on one card, each with its own QR code. Open it, save it to your phone, or send it to your study group.</p>
         <button type="button" class="bl-cta ghost sm" data-bl-poster>{I["img"]}<span>Open the card</span></button>
         <a class="bl-cta ghost sm" href="/blog/netlawverse-quick-links.png" download="NET-Law-Verse-quick-links.png">{I["dl"]}<span>Download</span></a>
-        <button type="button" class="bl-cta ghost sm" data-nl-install hidden>{I["dl"]}<span>Install app</span></button>
       </div>
     </div>
     <dialog class="bl-dlg" id="bl-poster-dlg" aria-label="NET Law-Verse quick-links card">
@@ -112,30 +112,19 @@ def follow_block():
 def nudge():
     return f'''<aside class="bl-nudge" aria-label="Follow NET Law-Verse"><div class="bl-nudge-t"><b>Enjoying this? Get the next update first.</b><span>Exam alerts and quick revision, free on Instagram and LinkedIn.</span></div><div class="bl-nudge-a"><a class="bl-cta ig sm" href="{IG}" target="_blank" rel="noopener noreferrer">{I["ig"]}<span>Instagram</span></a><a class="bl-cta li sm" href="{LI}" target="_blank" rel="noopener noreferrer">{I["li"]}<span>LinkedIn</span></a></div></aside>'''
 
-HEAD_COMMON = '''  <script>try{var t=JSON.parse(localStorage.getItem("netlaw058-theme")||"{}"),r=document.documentElement;r.dataset.scheme=["navy","blue","aqua","purple","magenta","midnight","ruby","graphite"].indexOf(t.s)>-1?t.s:"navy";r.dataset.mode=t.m||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")}catch(e){}</script>
+HEAD_COMMON = '''  <script>try{var t=localStorage.getItem("nlv-theme");document.documentElement.setAttribute("data-theme",["violet","ocean","mint","sunset","sunny"].indexOf(t)>-1?t:"violet")}catch(e){document.documentElement.setAttribute("data-theme","violet")}</script>
   <script>try{var p=JSON.parse(localStorage.getItem("nlb-prefs")||"{}"),r=document.documentElement,F={sans:'"Manrope",system-ui,sans-serif',serif:'Georgia,"Iowan Old Style","Times New Roman",serif',easy:'"Atkinson Hyperlegible",Verdana,sans-serif'},L={tight:1.55,normal:1.75,loose:2.05},W={narrow:"56ch",medium:"68ch",wide:"84ch"};if(p.s)r.style.setProperty("--bl-scale",(Math.max(80,Math.min(200,+p.s))/100).toFixed(2));if(L[p.l])r.style.setProperty("--bl-lh",L[p.l]);if(W[p.w])r.style.setProperty("--bl-measure",W[p.w]);if(F[p.f])r.style.setProperty("--bl-font",F[p.f])}catch(e){}</script>
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/disclaimer.css">
-  <link rel="stylesheet" href="/theme.css">
-  <link rel="stylesheet" href="/nav-resources.css">
   <link rel="stylesheet" href="/blog/blog.css">
   <link rel="alternate" type="application/rss+xml" title="NET Law-Verse Blog" href="/blog/feed.xml">
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/icons/icon.svg" type="image/svg+xml" sizes="any">
 <link rel="icon" href="/icons/favicon-48.png" type="image/png" sizes="48x48">
-<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="NetLawVerse">
-<meta name="application-name" content="NET Law-Verse">'''
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">'''
 
-SCRIPTS = '''<script src="/script.js" defer></script>
-<script src="/theme.js" defer></script>
-<script src="/disclaimer.js" defer></script>
-<script src="/nav-resources.js" defer></script>
-<script src="/pwa.js" defer></script>
+SCRIPTS = '''<script src="/disclaimer.js" defer></script>
 <script src="/blog/blog.js" defer></script>'''
 
 def seo(title, desc, url, typ, image="/og-site.png", extra=""):
@@ -144,8 +133,8 @@ def seo(title, desc, url, typ, image="/og-site.png", extra=""):
   <meta name="description" content="{esc(desc)}">
   <link rel="canonical" href="{url}">
   <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
-  <meta name="theme-color" content="#2d4aa9" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#0c1413" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#bfa8ff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#14183a" media="(prefers-color-scheme: dark)">
   <meta property="og:type" content="{typ}">
   <meta property="og:site_name" content="NET Law-Verse">
   <meta property="og:locale" content="en_IN">
@@ -215,12 +204,12 @@ def bar(slug, title):
       <span class="bl-pct" data-pct aria-live="polite">100%</span>
       <button type="button" class="bl-btn a-lg" id="bl-plus" aria-label="Larger text" title="Larger text (+)">A+</button>
     </div>
-    <button type="button" class="bl-btn" id="bl-set-btn" aria-expanded="false" aria-controls="bl-set">{I["aa"]}<span class="bl-lab">Reading settings</span></button>
-    <button type="button" class="bl-btn" id="bl-listen" aria-pressed="false" hidden>{I["listen"]}<span class="bl-lab">Listen</span></button>
+    <button type="button" class="bl-btn" id="bl-set-btn" title="Reading settings" aria-label="Reading settings" aria-expanded="false" aria-controls="bl-set">{I["aa"]}<span class="bl-lab">Reading settings</span></button>
+    <button type="button" class="bl-btn" id="bl-listen" title="Listen to this article" aria-label="Listen to this article" aria-pressed="false" hidden>{I["listen"]}<span class="bl-lab">Listen</span></button>
     <span class="bl-sp"></span>
     <button type="button" class="bl-btn" data-save="{esc(slug)}" data-title="{esc(title)}" aria-pressed="false">{I["mark"]}<span class="bl-lab">Save</span></button>
-    <button type="button" class="bl-btn" id="bl-share-btn" aria-expanded="false" aria-controls="bl-share">{I["share"]}<span class="bl-lab">Share</span></button>
-    <button type="button" class="bl-btn" id="bl-focus" aria-pressed="false" title="Hide menus and distractions">{I["focus"]}<span class="bl-lab">Focus</span></button>
+    <button type="button" class="bl-btn" id="bl-share-btn" title="Share" aria-label="Share this article" aria-expanded="false" aria-controls="bl-share">{I["share"]}<span class="bl-lab">Share</span></button>
+    <button type="button" class="bl-btn" id="bl-focus" aria-pressed="false" title="Focus mode: hide menus and distractions" aria-label="Focus mode">{I["focus"]}<span class="bl-lab">Focus</span></button>
     <div class="bl-player" id="bl-player" role="group" aria-label="Read aloud controls">
       <button type="button" class="bl-btn" id="bl-prev" aria-label="Previous paragraph">&laquo;</button>
       <button type="button" class="bl-btn" id="bl-pp">Pause</button>
@@ -430,6 +419,7 @@ def update_sitemap(posts):
         rows += f'\n  <url><loc>{SITE}/blog/{p["slug"]}.html</loc><lastmod>{p["updated"]}</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>'
     s = s.replace("</urlset>", rows + "\n</urlset>")
     sm.write_text(s, encoding="utf-8")
+    (ROOT / "sitemap-blog.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + rows + "\n</urlset>\n", encoding="utf-8")
 
 
 def main():
@@ -442,7 +432,7 @@ def main():
     (OUT / "feed.xml").write_text(build_feed(posts), encoding="utf-8")
     (OUT / "posts.json").write_text(json.dumps([{k: p[k] for k in ("slug", "title", "description", "date", "updated", "category", "mins")} for p in posts], ensure_ascii=False, indent=1), encoding="utf-8")
     update_sitemap(posts)
-    print(f"Built {len(posts)} post(s), blog/index.html, feed.xml, posts.json, sitemap.xml")
+    print(f"Built {len(posts)} post(s), blog/index.html, feed.xml, posts.json, sitemap-blog.xml, sitemap.xml")
 
 if __name__ == "__main__":
     main()
