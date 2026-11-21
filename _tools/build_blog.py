@@ -9,7 +9,7 @@ Writes  blog/<slug>.html           finished post pages
         sitemap-blog.xml           blog-only sitemap (listed in robots.txt)
         sitemap.xml                blog URLs added / refreshed (everything else untouched)
 Standard library only. Safe to re-run any time. See blog/HOW-TO-WRITE-POSTS.md."""
-import json, re, sys, html, datetime, pathlib
+import json, re, sys, html, datetime, pathlib, hashlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SRC = ROOT / "blog" / "_src"
@@ -19,6 +19,8 @@ IG = "https://www.instagram.com/netlawverse/"
 LI = "https://www.linkedin.com/in/net-law-verse-82264b445/"
 TODAY = datetime.date.today()
 CATS = ["UGC NET Updates", "Legal Current Affairs", "Preparation Guides"]
+def _v(name):
+    return hashlib.md5((ROOT / "blog" / name).read_bytes()).hexdigest()[:8]
 esc = lambda s: html.escape(str(s), quote=True)
 
 HEADER = (ROOT / "_tools/blog/header.html").read_text(encoding="utf-8")
@@ -116,7 +118,7 @@ HEAD_COMMON = '''  <script>try{var t=localStorage.getItem("nlv-theme");document.
   <script>try{var p=JSON.parse(localStorage.getItem("nlb-prefs")||"{}"),r=document.documentElement,F={sans:'"Manrope",system-ui,sans-serif',serif:'Georgia,"Iowan Old Style","Times New Roman",serif',easy:'"Atkinson Hyperlegible",Verdana,sans-serif'},L={tight:1.55,normal:1.75,loose:2.05},W={narrow:"56ch",medium:"68ch",wide:"84ch"};if(p.s)r.style.setProperty("--bl-scale",(Math.max(80,Math.min(200,+p.s))/100).toFixed(2));if(L[p.l])r.style.setProperty("--bl-lh",L[p.l]);if(W[p.w])r.style.setProperty("--bl-measure",W[p.w]);if(F[p.f])r.style.setProperty("--bl-font",F[p.f])}catch(e){}</script>
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/disclaimer.css">
-  <link rel="stylesheet" href="/blog/blog.css">
+  <link rel="stylesheet" href="/blog/blog.css?v=''' + _v("blog.css") + '''">
   <link rel="alternate" type="application/rss+xml" title="NET Law-Verse Blog" href="/blog/feed.xml">
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
@@ -125,7 +127,7 @@ HEAD_COMMON = '''  <script>try{var t=localStorage.getItem("nlv-theme");document.
 <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">'''
 
 SCRIPTS = '''<script src="/disclaimer.js" defer></script>
-<script src="/blog/blog.js" defer></script>'''
+<script src="/blog/blog.js?v=''' + _v("blog.js") + '''" defer></script>'''
 
 def seo(title, desc, url, typ, image="/og-site.png", extra=""):
     img = SITE + image
