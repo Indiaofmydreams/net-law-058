@@ -18,7 +18,7 @@ SITE = "https://netlawverse.in"
 IG = "https://www.instagram.com/netlawverse/"
 LI = "https://www.linkedin.com/in/net-law-verse-82264b445/"
 TODAY = datetime.date.today()
-CATS = ["UGC NET Updates", "Legal Current Affairs", "Preparation Guides"]
+CATS = ["UGC NET Updates", "CLAT PG", "AIBE", "Legal Current Affairs", "Preparation Guides"]
 def _v(name):
     return hashlib.md5((ROOT / "blog" / name).read_bytes()).hexdigest()[:8]
 esc = lambda s: html.escape(str(s), quote=True)
@@ -87,7 +87,7 @@ def follow_block():
         <p>Exam news, study notes and career updates for UGC NET aspirants, law students and young lawyers.</p>
         <div class="bl-act">
           <a class="bl-cta li" href="{LI}" target="_blank" rel="noopener noreferrer">{I["li"]}<span>Connect on LinkedIn</span></a>
-          <a class="bl-cta ghost" href="https://wa.me/?text={esc("Free UGC NET Law (058) preparation: mock tests, MCQs and notes. https://netlawverse.in/blog/")}" target="_blank" rel="noopener noreferrer">{I["wa"]}<span>Share with a friend</span></a>
+          <a class="bl-cta ghost" href="https://wa.me/?text={esc("Free law exam preparation (UGC NET, CLAT PG, AIBE): updates, notes and mock tests. https://netlawverse.in/blog/")}" target="_blank" rel="noopener noreferrer">{I["wa"]}<span>Share with a friend</span></a>
         </div>
       </div>
     </div>
@@ -358,8 +358,8 @@ def build_index(posts):
       </article>
 '''
     url = SITE + "/blog/"
-    title = "UGC NET Law Blog: Exam Updates, Legal Current Affairs & Study Guides"
-    desc = "Free UGC NET Law (058) and Paper 1 blog: latest NTA exam updates, legal current affairs with MCQs, and practical study guides. No sign-up."
+    title = "UGC NET Law, CLAT PG & AIBE Blog: Exam Updates and Study Guides"
+    desc = "Free blog for UGC NET Law (058), CLAT PG and AIBE: exam dates and patterns, syllabus guides, revision plans and legal current affairs. No sign-up."
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "Blog", "@id": url + "#blog", "url": url, "name": "NET Law-Verse Blog", "description": desc, "inLanguage": "en-IN",
          "publisher": {"@type": "Organization", "name": "NET Law-Verse", "url": SITE + "/"},
@@ -382,8 +382,8 @@ def build_index(posts):
   <section class="bl-hero slim">
     <div class="bl-wrap">
       <p class="bl-eyebrow">THE NET LAW-VERSE BLOG</p>
-      <h1>What's new for <span>UGC NET Law</span></h1>
-      <p>Exam updates from NTA, legal current affairs and study guides. Free, always.</p>
+      <h1>What's new for <span>law exams</span></h1>
+      <p>Exam updates and study guides for UGC NET Law, CLAT PG and AIBE. Free, always.</p>
     </div>
   </section>
   <div class="bl-wrap bl-split">
@@ -409,7 +409,7 @@ def build_index(posts):
 
 def build_feed(posts):
     items = "".join(f'''<item><title>{html.escape(p["title"])}</title><link>{SITE}/blog/{p["slug"]}.html</link><guid>{SITE}/blog/{p["slug"]}.html</guid><pubDate>{datetime.datetime.fromisoformat(p["updated"]).strftime("%a, %d %b %Y 06:00:00 +0530")}</pubDate><category>{html.escape(p["category"])}</category><description>{html.escape(p["description"])}</description></item>''' for p in posts[:30])
-    return f'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>NET Law-Verse Blog</title><link>{SITE}/blog/</link><description>UGC NET Law (058) exam updates, legal current affairs and study guides.</description><language>en-IN</language>{items}</channel></rss>'
+    return f'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>NET Law-Verse Blog</title><link>{SITE}/blog/</link><description>UGC NET Law (058), CLAT PG and AIBE exam updates, legal current affairs and study guides.</description><language>en-IN</language>{items}</channel></rss>'
 
 def update_sitemap(posts):
     sm = ROOT / "sitemap.xml"

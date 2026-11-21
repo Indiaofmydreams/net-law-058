@@ -1,10 +1,3 @@
-AIBE timed mock tests (21 Nov 2026)
-- New: 6 full-length AIBE mocks copied from the CLAT PG mock architecture and adapted to the real paper: 100 MCQs, 210 minutes, no negative marking, green-to-red time meter (red = last 30 min), question palette, mark for review, auto-submit, resume, result with pass-mark check (45 General/OBC, 40 SC/ST/PwD, as reported), subject analysis, review of all 100, share.
-- New files in aibe/: mock-tests.html, mock-test-1..6.html, aibe-mock-engine.js, aibe-mock.css, aibe-mock-home.js, aibe-mock-meta.js, aibe-mock-data-1..6.js.
-- Changed: aibe/index.html, practice.html (Mock tab removed; mocks live on mock-tests.html), faq.html, what-is-aibe.html, README-AIBE.txt, aibe-embed.js (app routing), all AIBE tabs/links that pointed to practice.html#mocks, _tools/build_aibe_notes.py, m-clat.js (AIBE mock route), m-app.js (AIBE section in Mock Tests tab, tile text), sitemap.xml.
-- Not wired: mock misses are not added to the practice "mistakes notebook".
-- sw.js VERSION v22.
-
 CLAT PG mocks in the app/tablet + disclaimer on every visit (10 Nov 2026, part 2)
 - CLAT PG mock tests (6 papers) now live in the phone/tablet app: Mock Test tab has a CLAT PG section with saved status (Not started / In progress / marks), CLAT Practice tab lists the sample paper and the 6 mocks, and Home/CLAT hub "Mock tests" open them in the app (#/clat/mocks, #/clat/mock/N). The papers run in the website's own CLAT engine shown inside the app (?embed=1), so timer, 0.25 negative marking, resume and results are identical to the website and progress is shared. New clat-pg/clat-embed.js and embed rules in clat-pg/clat-mock.css hide the website header/footer inside the app and route "All mock tests" / "next test" back to app screens.
 - Disclaimer (disclaimer.js): now appears every time the site or app is opened, once per visit (new tab or fresh launch of the installed app asks again; also after 6 hours in an open tab), instead of once per browser ever. Not shown to search crawlers or inside the embedded mock runner. Wording now names the Consortium of NLUs / CLAT PG and mock tests; updated date 10 November 2026.
@@ -186,3 +179,11 @@ Icons redrawn to match the supplied logo design (16 Oct 2026)
   Home: "Follow on Instagram" pill beside Share (QR dialog on mouse screens, direct link on touch), "Stay connected" section, footer link.
   App (m-app.js / m-app.css): "Follow us" card on Home (QR shown on tablets only), links in the menu and Profile.
 * sw.js: VERSION v17, new files added to the pre-cache list.
+
+
+----
+Blog redesign to match the landing page (21 Nov 2026)
+- blog/blog.css rewritten (landing look: --pink/--ink tokens, ink borders, offset shadows, Manrope, 5 nlv-theme colour themes, dark mode). Standalone: no styles.css / theme.css / script.js / theme.js / nav-resources / pwa.js on blog pages.
+- Header = landing header (logo + Home -> "/", About, FAQ, Blog; wraps under the logo on phones so Blog stays visible). Old Paper-style header (Home -> /index.html#home) removed.
+- build_blog.py now also writes sitemap-blog.xml and refreshes blog URLs in sitemap.xml. blog.js: theme picker.
+- Post "UGC NET December 2026 exam dates": removed unofficial city-slip (23 Nov) and admit-card (7 Dec) dates; sources limited to NTA + the report actually read.
