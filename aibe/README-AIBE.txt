@@ -30,7 +30,7 @@ ADDING CONTENT (same as AILET; no code changes)
   1. Practice set: copy practice/_template-set.json -> practice/set-01.json, fill in, add an entry to
      practice/index.json (see practice/_index-example.json). A set can be one subject or mixed.
   2. Mock test:    copy practice/_template-mock.json -> practice/mock-01.json (100 questions) and add an entry with
-     "type":"mock". Mocks are untimed.
+     "type":"mock" (untimed practice-arena mocks; the TIMED mocks below are separate).
   Question fields: question, options{A-D}, correct_option; optional subject_area, difficulty, explanation,
   why_other_options_are_wrong, aibe_trap, language_trick. Subject names with brackets are grouped under the
   base subject for filters and progress. Use the AIBE subject names from syllabus.html so Progress lines up.
@@ -39,6 +39,12 @@ SHARED ENGINE
   Uses ../clat-pg/practice.js and practice.css, like AILET. Storage key "aibe-practice-v1", separate from
   CLAT PG and AILET. Syllabus tracker key "aibe-syllabus-v1".
 
-NO TIMER
-  Assumed to match AILET: nothing on the AIBE practice or mock pages counts down. The real paper's 3 hours 30 minutes
-  appears only as information.
+TIMED MOCK TESTS (mock-tests.html, mock-test-1..6.html)
+  Copy of the CLAT PG mock architecture, adapted to the real AIBE paper: 100 MCQs, 210 minutes, no negative marking,
+  pass marks 45 (General/OBC) and 40 (SC/ST/PwD) as reported; confirm against the current BCI notice.
+  Files: aibe-mock-engine.js (runner + result), aibe-mock.css, aibe-mock-home.js (list page), aibe-mock-meta.js
+  (card data), aibe-mock-data-N.js (questions). Storage keys: aibe-mock-N-attempt / aibe-mock-N-result.
+  Timer: green-to-red meter, red zone = last 30 min, auto-submit at 0, resume after closing the tab.
+  Adding mock 7: add aibe-mock-data-7.js (same shape as data-6), an entry in aibe-mock-meta.js, copy
+  mock-test-6.html -> mock-test-7.html (change N, title, data script), add it to sitemap.xml and m-clat.js/m-app.js lists.
+  Practice sets (practice.html) have no clock. Mock misses are not added to the practice mistakes notebook.

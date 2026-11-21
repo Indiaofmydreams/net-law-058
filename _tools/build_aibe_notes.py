@@ -300,7 +300,7 @@ def top(depth, crumbs):
   <a class="brand" href="/" aria-label="NET Law-Verse home"><span class="logo">NL</span><span><b>NET Law-Verse</b><small>The universe of law</small></span></a>
   <nav class="cm-nav" aria-label="Exams"><a href="/">All exams</a><a href="{p['site']}clat-pg/">CLAT PG</a><a href="{p['site']}ailet/">AILET</a><a href="{p['aibe']}" aria-current="page">AIBE</a></nav>
 </header>
-<nav class="al-tabs" aria-label="AIBE sections"><a class="al-tab" href="{p['aibe']}index.html">AIBE</a><a class="al-tab" href="{p['aibe']}what-is-aibe.html">What is AIBE</a><a class="al-tab" href="{p['aibe']}syllabus.html">Syllabus</a><a class="al-tab" href="{p['notes']}" aria-current="page">Notes</a><a class="al-tab" href="{p['aibe']}practice.html">Practice</a><a class="al-tab" href="{p['aibe']}practice.html#mocks">Mock tests</a><a class="al-tab" href="{p['aibe']}practice.html#mistakes">Revision</a><a class="al-tab" href="{p['aibe']}faq.html">FAQ</a></nav>
+<nav class="al-tabs" aria-label="AIBE sections"><a class="al-tab" href="{p['aibe']}index.html">AIBE</a><a class="al-tab" href="{p['aibe']}what-is-aibe.html">What is AIBE</a><a class="al-tab" href="{p['aibe']}syllabus.html">Syllabus</a><a class="al-tab" href="{p['notes']}" aria-current="page">Notes</a><a class="al-tab" href="{p['aibe']}practice.html">Practice</a><a class="al-tab" href="{p['aibe']}mock-tests.html">Mock tests</a><a class="al-tab" href="{p['aibe']}practice.html#mistakes">Revision</a><a class="al-tab" href="{p['aibe']}faq.html">FAQ</a></nav>
 <nav class="nn-crumbs" aria-label="Breadcrumb">{bc}</nav>
 '''
 
@@ -704,7 +704,7 @@ def build_subject(no, name, slug, marks, D, seo, fmt, sitemap, index_rows):
 <p class="lead">{len(qs)} recall questions to close each study session. Tap an option to see the answer and the reason. There is no timer and no negative marking.</p>
 <div class="nn-score" aria-live="polite"><b id="nn-sc">0</b><span>/ {len(qs)} correct</span><i><u id="nn-sp"></u></i><button class="btn sm" type="button" id="nn-reset">Start over</button></div></header>
 <div class="nn-wide nn-mcqs" data-wm>{''.join(qs)}</div>
-<p class="al-fine">Want full-length papers and the mistakes notebook? Use the <a href="../../practice.html">Practice Arena</a> and <a href="../../practice.html#mocks">mock tests</a>.</p>
+<p class="al-fine">Want full-length papers and the mistakes notebook? Use the <a href="../../practice.html">Practice Arena</a> and <a href="../../mock-tests.html">mock tests</a>.</p>
 {about_card(upd)}
 </main>
 '''

@@ -7,6 +7,9 @@
   document.addEventListener('click', function (e) {
     var a = e.target.closest && e.target.closest('a[href]'); if (!a) return;
     var h = a.getAttribute('href') || '';
+    var mm, to = function (x) { try { parent.location.hash = x; } catch (er) { location.href = '/app.html#' + x.slice(1); } };
+    if (/(^|\/)mock-tests\.html/.test(h)) { e.preventDefault(); to('#/aibe/mocks'); return; }
+    if ((mm = /(^|\/)mock-test-(\d+)\.html/.exec(h))) { e.preventDefault(); to('#/aibe/mock/' + mm[2]); return; }
     if (/^#|^mailto:|^tel:|^javascript:/.test(h) || a.target === '_blank') return;
     if (/^https?:/i.test(h) && h.indexOf(location.origin) !== 0) { a.target = '_blank'; a.rel = 'noopener'; return; }
     var u; try { u = new URL(h, location.href); } catch (x) { return; }
