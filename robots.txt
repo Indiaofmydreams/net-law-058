@@ -10,3 +10,4 @@ Disallow: /_tools/
 Disallow: /blog/_src/
 
 Sitemap: https://netlawverse.in/sitemap.xml
+Sitemap: https://netlawverse.in/sitemap-blog.xml
