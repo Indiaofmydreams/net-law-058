@@ -10,7 +10,7 @@
   try { if (top !== self) return; } catch (e) { return; }
   if (/bot|crawl|spider|slurp|lighthouse|inspectiontool|google-read-aloud|mediapartners/i.test(navigator.userAgent)) return;
 
-  var URL = 'https://www.instagram.com/netlawverse/', QR = '/instagram-qr.png', KEY = 'nlw-seen', SECS = 25;
+  var URL = 'https://www.instagram.com/netlawverse/', LI = 'https://www.linkedin.com/in/net-law-verse-82264b445/', QR = '/instagram-qr.png', KEY = 'nlw-seen', SECS = 25;
   try { if (sessionStorage.getItem(KEY)) return; } catch (e) {}
 
   var css =
@@ -61,6 +61,14 @@
     '.nlw-up small{display:block;font-size:.74rem;font-weight:700;opacity:.8}' +
     '.nlw-up[hidden]{display:none}' +
     '.nlw-note{margin:0;text-align:center;font-size:.72rem;font-weight:700;opacity:.65}' +
+    '.nlw-li{display:flex;align-items:center;gap:14px;margin-top:14px;background:#eef5ff;border:2.5px solid #14183a;border-radius:18px;padding:12px 14px;box-shadow:4px 4px 0 #14183a}' +
+    '.nlw-li-t{flex:1;min-width:0}' +
+    '.nlw-li-t h3{margin:0 0 2px;font-size:1rem;font-weight:800;letter-spacing:-.02em;line-height:1.2}' +
+    '.nlw-li-t p{margin:0;font-size:.8rem;line-height:1.35;font-weight:700;opacity:.8}' +
+    '.nlw-lib{flex:none;display:inline-flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;font-weight:800;font-size:.92rem;color:#fff;background:#0a66c2;border:3px solid #14183a;border-radius:14px;padding:10px 14px;box-shadow:3px 3px 0 #14183a;transition:transform .15s,box-shadow .15s}' +
+    '.nlw-lib:hover{transform:translate(-1px,-1px);box-shadow:4px 4px 0 #14183a}' +
+    '.nlw-lib svg{width:18px;height:18px}' +
+    '@media (max-width:700px){.nlw-li{flex-direction:column;align-items:stretch;gap:10px;margin-top:12px}.nlw-lib{width:100%}}' +
     '@media (hover:none),(max-width:700px){.nlw-qr{display:none}}' +
     '@media (max-width:700px){.nlw-body{grid-template-columns:1fr;gap:16px;padding:18px 16px}.nlw-tm span{display:none}.nlw-brand small{display:none}.nlw{border-radius:22px;box-shadow:5px 5px 0 #ff5d8f}}' +
     '@media (prefers-reduced-motion:reduce){.nlw-back,.nlw{transition:none}.nlw-up{animation:none}}' +
@@ -70,6 +78,7 @@
 
   var tick = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>';
   var ig = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5.2"/><circle cx="12" cy="12" r="4.1"/><circle cx="17.3" cy="6.7" r=".6" fill="currentColor"/></svg>';
+  var lin = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M4.98 3.5a2.5 2.5 0 11-.01 5 2.5 2.5 0 01.01-5zM3 9.75h4V21H3zM9.75 9.75h3.8v1.55h.06c.53-1 1.82-2.05 3.75-2.05 4 0 4.74 2.63 4.74 6.05V21h-4v-5.1c0-1.22-.02-2.78-1.7-2.78-1.7 0-1.96 1.33-1.96 2.7V21h-4z"/></svg>';
   var mail = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M4 7.5l8 6 8-6"/></svg>';
 
   var back = document.createElement('div');
@@ -95,6 +104,8 @@
             '<li>' + tick + '<span><b>CLAT PG:</b> 6 full mock papers, a 705-case Case Law Vault, syllabus tracker and study plans</span></li>' +
             '<li>' + tick + '<span><b>Exam alerts and new papers</b> reach our followers first</span></li>' +
           '</ul>' +
+          '<div class="nlw-li"><div class="nlw-li-t"><h3>Connect on LinkedIn</h3><p>Law exam strategy, updates and study tips from NET Law-Verse.</p></div>' +
+            '<a class="nlw-lib" href="' + LI + '" target="_blank" rel="noopener noreferrer">' + lin + 'Follow on LinkedIn</a></div>' +
         '</div>' +
         '<div class="nlw-side">' +
           '<div class="nlw-ig">' +
@@ -164,6 +175,7 @@
     back.querySelector('.nlw-x').onclick = close;
     up.onclick = openLeadForm;
     back.querySelector('.nlw-follow').addEventListener('click', function () { setTimeout(close, 150); });
+    back.querySelector('.nlw-lib').addEventListener('click', function () { setTimeout(close, 150); });
     back.onclick = function (e) { if (e.target === back) close(); };
     document.addEventListener('keydown', onKey, true);
     document.body.style.overflow = 'hidden';
