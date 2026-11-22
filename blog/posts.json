@@ -9,6 +9,33 @@
   "mins": 3
  },
  {
+  "slug": "aibe-certificate-of-practice-after-passing",
+  "title": "AIBE Certificate of Practice: What Happens After You Pass",
+  "description": "After you pass AIBE, you get a Certificate of Practice. See who gets it, how it is issued and collected, what the online copy means, and what to check.",
+  "date": "2026-11-21",
+  "updated": "2026-11-21",
+  "category": "AIBE",
+  "mins": 3
+ },
+ {
+  "slug": "aibe-eligibility-registration-fee",
+  "title": "AIBE Eligibility, Registration and Fee: Who Can Apply?",
+  "description": "Who can apply for AIBE? LLB eligibility, final-year students, enrolment rules, how to register, the reported fee and documents. Verify details on the portal.",
+  "date": "2026-11-21",
+  "updated": "2026-11-21",
+  "category": "AIBE",
+  "mins": 2
+ },
+ {
+  "slug": "aibe-previous-year-questions-most-repeated-topics",
+  "title": "AIBE Previous Year Questions: How to Use Them Well",
+  "description": "AIBE previous year questions: what repeats, how to use old papers, which subjects to drill by question count, and a method that works with no negative marking.",
+  "date": "2026-11-21",
+  "updated": "2026-11-21",
+  "category": "AIBE",
+  "mins": 3
+ },
+ {
   "slug": "aibe-subject-wise-weightage-which-subjects-carry-most-marks",
   "title": "AIBE Subject-Wise Weightage: Which Subjects Carry Most Marks",
   "description": "AIBE subject-wise weightage for the 100 questions: Constitution, CrPC and CPC carry 10 each. See the full table and how to split your study time.",
@@ -18,9 +45,99 @@
   "mins": 3
  },
  {
+  "slug": "aibe-syllabus-subject-wise-topics",
+  "title": "AIBE Syllabus: 19 Subjects and What to Study First",
+  "description": "AIBE syllabus subject by subject: all 19 subjects with reported question counts out of 100, which to study first, and free notes for each one.",
+  "date": "2026-11-21",
+  "updated": "2026-11-21",
+  "category": "AIBE",
+  "mins": 2
+ },
+ {
+  "slug": "ailet-llm-eligibility-exam-pattern-syllabus",
+  "title": "AILET LLM: Eligibility, Exam Pattern and Syllabus Explained",
+  "description": "AILET LLM eligibility, pattern and syllabus: LLB with 50% (45% SC/ST/PwD), 100 MCQs in 120 minutes, 0.25 negative marking, 13 branches of law. As reported.",
+  "date": "2026-11-21",
+  "updated": "2026-11-21",
+  "category": "AILET LLM",
+  "mins": 4
+ },
+ {
+  "slug": "ailet-llm-previous-year-papers-and-cut-off-trends",
+  "title": "AILET LLM Cut-Off Trends and Previous Year Papers",
+  "description": "AILET LLM cut-off trends: reported 2024 and 2025 category-wise ranks, why they are given as ranks, and how to use previous year papers for preparation.",
+  "date": "2026-11-21",
+  "updated": "2026-11-21",
+  "category": "AILET LLM",
+  "mins": 3
+ },
+ {
+  "slug": "ailet-llm-vs-clat-pg-differences",
+  "title": "AILET LLM vs CLAT PG: Differences and Which to Take",
+  "description": "AILET LLM vs CLAT PG compared: 100 standalone MCQs vs 120 passage-based, who conducts each, which NLUs accept them, and whether you should attempt both.",
+  "date": "2026-11-21",
+  "updated": "2026-11-21",
+  "category": "AILET LLM",
+  "mins": 4
+ },
+ {
+  "slug": "best-books-and-bare-acts-for-aibe",
+  "title": "Best Books and Bare Acts for AIBE: What to Carry and Read",
+  "description": "Best books and bare acts for AIBE: which bare acts matter, how to prepare for an open-book style exam, textbooks worth using, and what to check in the notice.",
+  "date": "2026-11-21",
+  "updated": "2026-11-21",
+  "category": "AIBE",
+  "mins": 3
+ },
+ {
+  "slug": "best-books-for-clat-pg",
+  "title": "Best Books for CLAT PG: What to Read and What to Skip",
+  "description": "Best books for CLAT PG subject by subject: commonly recommended textbooks, bare acts, question banks and current-affairs sources, plus how to avoid overbuying.",
+  "date": "2026-11-21",
+  "updated": "2026-11-21",
+  "category": "CLAT PG",
+  "mins": 3
+ },
+ {
+  "slug": "best-books-for-ugc-net-law",
+  "title": "Best Books for UGC NET Law: Unit-Wise Reading List",
+  "description": "Best books for UGC NET Law paper 2, unit by unit: commonly recommended textbooks, when to use bare acts instead, and how to avoid buying too many books.",
+  "date": "2026-11-21",
+  "updated": "2026-11-21",
+  "category": "Preparation Guides",
+  "mins": 3
+ },
+ {
+  "slug": "best-books-for-ugc-net-paper-1",
+  "title": "Best Books for UGC NET Paper 1: Unit-Wise Reading List",
+  "description": "Best books for UGC NET Paper 1: commonly recommended guides, free official sources for NEP and ICT, and how to avoid overbuying. Unit-wise and exam-focused.",
+  "date": "2026-11-21",
+  "updated": "2026-11-21",
+  "category": "Preparation Guides",
+  "mins": 3
+ },
+ {
+  "slug": "can-you-clear-ugc-net-law-without-coaching",
+  "title": "Can You Clear UGC NET Law Without Coaching? Self-Study Plan",
+  "description": "Can you clear UGC NET Law without coaching? Yes, many do. Here is what self-study needs, a 12-week plan, a weekly routine and how to judge coaching.",
+  "date": "2026-11-21",
+  "updated": "2026-11-21",
+  "category": "Preparation Guides",
+  "mins": 3
+ },
+ {
   "slug": "clat-pg-2027-exam-pattern-marking-last-week-plan",
   "title": "CLAT PG 2027 on 6 Dec: Exam Pattern, Marking, Last-Week Plan",
   "description": "CLAT PG 2027 is on 6 December 2026: 120 passage-based MCQs in 2 hours, negative marking of 0.25. See the pattern, the attempt maths and a day-by-day plan.",
+  "date": "2026-11-21",
+  "updated": "2026-11-21",
+  "category": "CLAT PG",
+  "mins": 3
+ },
+ {
+  "slug": "clat-pg-counselling-process-freeze-float-withdraw",
+  "title": "CLAT PG Counselling: Freeze, Float, Exit and Seat Allotment",
+  "description": "CLAT PG counselling explained: registration, fees, five allotment rounds, freeze vs float, exit and refunds, as reported for the 2026 cycle. Verify each year.",
   "date": "2026-11-21",
   "updated": "2026-11-21",
   "category": "CLAT PG",
@@ -45,12 +162,48 @@
   "mins": 4
  },
  {
+  "slug": "clat-pg-previous-year-papers-topic-wise-analysis",
+  "title": "CLAT PG Previous Year Papers: How to Analyse, Not Just Solve",
+  "description": "CLAT PG previous year papers: how to use them, what to track, a simple error log, and why topic patterns matter more than guessing repeated questions.",
+  "date": "2026-11-21",
+  "updated": "2026-11-21",
+  "category": "CLAT PG",
+  "mins": 3
+ },
+ {
   "slug": "clat-pg-syllabus-2027-subject-wise-topics",
   "title": "CLAT PG Syllabus 2027: Subject-Wise Topics and Priorities",
   "description": "CLAT PG syllabus 2027 subject by subject: Constitutional Law, Jurisprudence, new criminal laws, Contract, Torts and more, with what to revise first.",
   "date": "2026-11-21",
   "updated": "2026-11-21",
   "category": "CLAT PG",
+  "mins": 3
+ },
+ {
+  "slug": "clat-pg-vs-ailet-vs-other-llm-entrance-exams",
+  "title": "CLAT PG vs AILET vs Other LLM Entrance Exams: Which to Take",
+  "description": "CLAT PG vs AILET LLM vs other LLM entrances: pattern, who accepts the score, how they differ, and how to decide which exams to take for your LL.M.",
+  "date": "2026-11-21",
+  "updated": "2026-11-21",
+  "category": "CLAT PG",
+  "mins": 3
+ },
+ {
+  "slug": "how-to-prepare-for-ailet-llm",
+  "title": "How to Prepare for AILET LLM: Subject-Wise Strategy",
+  "description": "How to prepare for AILET LLM: a subject-wise order, a 10-week plan, negative-marking strategy for 100 MCQs in 120 minutes, and how to use mocks to improve.",
+  "date": "2026-11-21",
+  "updated": "2026-11-21",
+  "category": "AILET LLM",
+  "mins": 3
+ },
+ {
+  "slug": "how-to-score-70-plus-in-ugc-net-paper-1",
+  "title": "How to Score 70+ in UGC NET Paper 1: A 30-Day Plan",
+  "description": "Want 70+ in UGC NET Paper 1? That is 35 right answers out of 50. Here is a 30-day plan, the quick-win units, and daily practice that builds speed and accuracy.",
+  "date": "2026-11-21",
+  "updated": "2026-11-21",
+  "category": "Preparation Guides",
   "mins": 3
  },
  {
@@ -81,9 +234,27 @@
   "mins": 5
  },
  {
+  "slug": "nlu-delhi-llm-admission-fees-seats-placements",
+  "title": "NLU Delhi LLM Admission: Process, Fees and What to Check",
+  "description": "NLU Delhi LLM admission explained: AILET, eligibility, the reported fee of about 2.5 lakh a year, merit lists, and what to verify on seats and placements.",
+  "date": "2026-11-21",
+  "updated": "2026-11-21",
+  "category": "AILET LLM",
+  "mins": 3
+ },
+ {
+  "slug": "nlu-llm-seats-and-fees-compared",
+  "title": "NLU LLM Seats and Fees Compared: What Each NLU Charges",
+  "description": "NLU LLM fees compared: reported yearly fees for NLSIU, NLU Delhi, NALSAR, NLIU and others, how seats are spread, and what to check before you choose.",
+  "date": "2026-11-21",
+  "updated": "2026-11-21",
+  "category": "CLAT PG",
+  "mins": 3
+ },
+ {
   "slug": "ugc-net-december-2026-exam-dates-schedule",
-  "title": "UGC NET December 2026 Exam Dates: NTA Schedule, City Slip and Admit Card",
-  "description": "NTA has released the UGC NET December 2026 schedule: exams on 14 to 18 and 21 December in two CBT shifts. Confirmed dates, how to find your Law (058) slot, and what to do now.",
+  "title": "UGC NET December 2026 Exam Dates: NTA Schedule",
+  "description": "NTA has released the UGC NET December 2026 schedule: 14 to 18 and 21 December in two CBT shifts. Confirmed dates, finding your Law (058) slot, and what to do now.",
   "date": "2026-11-21",
   "updated": "2026-11-21",
   "category": "UGC NET Updates",
@@ -91,11 +262,65 @@
  },
  {
   "slug": "ugc-net-law-3-week-revision-plan-december-2026",
-  "title": "UGC NET Law 058: 3-Week Revision Plan Before the December 2026 Exam",
+  "title": "UGC NET Law 058: 3-Week Revision Plan for December 2026",
   "description": "A practical 3-week revision routine for UGC NET Law (058) and Paper 1: what to revise each week, how to use mock tests and PYQs, and a final-48-hours checklist.",
   "date": "2026-11-21",
   "updated": "2026-11-21",
   "category": "Preparation Guides",
   "mins": 3
+ },
+ {
+  "slug": "ugc-net-law-cut-off-jrf-vs-assistant-professor",
+  "title": "UGC NET Law Cut-Off: JRF vs Assistant Professor vs PhD",
+  "description": "UGC NET Law cut-off explained: what JRF, Assistant Professor and PhD-only mean, session-wise Unreserved cut-offs out of 300, and how to set a safe target.",
+  "date": "2026-11-21",
+  "updated": "2026-11-21",
+  "category": "Preparation Guides",
+  "mins": 3
+ },
+ {
+  "slug": "ugc-net-law-previous-year-papers-topic-wise-analysis",
+  "title": "UGC NET Law Previous Year Papers: Unit-Wise Analysis",
+  "description": "UGC NET Law previous year papers analysed unit by unit across five papers: which units repeat, which swing, and how to use old papers to plan revision.",
+  "date": "2026-11-21",
+  "updated": "2026-11-21",
+  "category": "Preparation Guides",
+  "mins": 3
+ },
+ {
+  "slug": "ugc-net-law-syllabus-unit-wise-priority",
+  "title": "UGC NET Law Syllabus: 10 Units and Which to Study First",
+  "description": "UGC NET Law (058) syllabus unit by unit: all 10 units, what each covers, and a priority order based on how often units appeared in five papers.",
+  "date": "2026-11-21",
+  "updated": "2026-11-21",
+  "category": "Preparation Guides",
+  "mins": 4
+ },
+ {
+  "slug": "ugc-net-paper-1-previous-year-papers-unit-wise-analysis",
+  "title": "UGC NET Paper 1 Previous Year Papers: What Four Papers Show",
+  "description": "UGC NET Paper 1 previous year papers analysed: how each unit is asked, which formats repeat, and how to use four real papers for practice and revision.",
+  "date": "2026-11-21",
+  "updated": "2026-11-21",
+  "category": "Preparation Guides",
+  "mins": 3
+ },
+ {
+  "slug": "ugc-net-paper-1-syllabus-10-units-priority",
+  "title": "UGC NET Paper 1 Syllabus: 10 Units and Which to Study First",
+  "description": "UGC NET Paper 1 syllabus in plain words: all 10 units, what each covers, whether it is a knowledge or skill unit, and a sensible order to study them.",
+  "date": "2026-11-21",
+  "updated": "2026-11-21",
+  "category": "Preparation Guides",
+  "mins": 4
+ },
+ {
+  "slug": "which-ugc-net-paper-1-units-score-the-most",
+  "title": "Which UGC NET Paper 1 Units Score the Most? What Papers Show",
+  "description": "Which UGC NET Paper 1 units carry the most marks? The design is equal, so see what four papers on this site show and which units give the best return on effort.",
+  "date": "2026-11-21",
+  "updated": "2026-11-21",
+  "category": "Preparation Guides",
+  "mins": 4
  }
 ]
