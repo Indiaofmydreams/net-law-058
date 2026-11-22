@@ -18,7 +18,7 @@ SITE = "https://netlawverse.in"
 IG = "https://www.instagram.com/netlawverse/"
 LI = "https://www.linkedin.com/in/net-law-verse-82264b445/"
 TODAY = datetime.date.today()
-CATS = ["UGC NET Updates", "CLAT PG", "AIBE", "Legal Current Affairs", "Preparation Guides"]
+CATS = ["UGC NET Updates", "CLAT PG", "AILET LLM", "AIBE", "Legal Current Affairs", "Preparation Guides"]
 def _v(name):
     return hashlib.md5((ROOT / "blog" / name).read_bytes()).hexdigest()[:8]
 esc = lambda s: html.escape(str(s), quote=True)
@@ -348,9 +348,10 @@ def build_index(posts):
     cats = cat_order(posts)
     chips = '<button type="button" class="bl-chip" data-cat="all" aria-pressed="true">All</button>' + "".join(f'<button type="button" class="bl-chip" data-cat="{esc(c)}" aria-pressed="false">{esc(c)}</button>' for c in cats) + f'<button type="button" class="bl-chip" data-cat="saved" aria-pressed="false">Saved</button>'
     rows = ""
-    for p in posts[:5]:
+    for p in posts[:30]:
+        rtext = esc(" ".join([p["title"], p["description"], p["category"]] + p["tags"]).lower())
         new = (TODAY - datetime.date.fromisoformat(p["updated"])).days <= 7
-        rows += f'''<article class="bl-row">
+        rows += f'''<article class="bl-row" data-slug="{esc(p["slug"])}" data-cat="{esc(p["category"])}" data-text="{rtext}">
         <div class="bl-row-top"><span class="bl-cat">{esc(p["category"])}</span>{'<span class="bl-new">NEW</span>' if new else ''}<button type="button" class="bl-save" data-save="{esc(p["slug"])}" data-title="{esc(p["title"])}" aria-pressed="false"><span class="bl-lab bl-sr">Save</span>{I["mark"]}</button></div>
         <h3><a href="/blog/{p["slug"]}.html">{esc(p["title"])}</a></h3>
         <p>{esc(p["description"])}</p>
@@ -358,8 +359,8 @@ def build_index(posts):
       </article>
 '''
     url = SITE + "/blog/"
-    title = "UGC NET Law, CLAT PG & AIBE Blog: Exam Updates and Study Guides"
-    desc = "Free blog for UGC NET Law (058), CLAT PG and AIBE: exam dates and patterns, syllabus guides, revision plans and legal current affairs. No sign-up."
+    title = "UGC NET Law, CLAT PG, AILET & AIBE Blog: Exam Study Guides"
+    desc = "Free blog for UGC NET Law (058), Paper 1, CLAT PG, AILET LLM and AIBE: exam dates and patterns, syllabus guides, revision plans and legal current affairs."
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "Blog", "@id": url + "#blog", "url": url, "name": "NET Law-Verse Blog", "description": desc, "inLanguage": "en-IN",
          "publisher": {"@type": "Organization", "name": "NET Law-Verse", "url": SITE + "/"},
@@ -383,7 +384,7 @@ def build_index(posts):
     <div class="bl-wrap">
       <p class="bl-eyebrow">THE NET LAW-VERSE BLOG</p>
       <h1>What's new for <span>law exams</span></h1>
-      <p>Exam updates and study guides for UGC NET Law, CLAT PG and AIBE. Free, always.</p>
+      <p>Exam updates and study guides for UGC NET Law, Paper 1, CLAT PG, AILET and AIBE. Free, always.</p>
     </div>
   </section>
   <div class="bl-wrap bl-split">
@@ -409,7 +410,7 @@ def build_index(posts):
 
 def build_feed(posts):
     items = "".join(f'''<item><title>{html.escape(p["title"])}</title><link>{SITE}/blog/{p["slug"]}.html</link><guid>{SITE}/blog/{p["slug"]}.html</guid><pubDate>{datetime.datetime.fromisoformat(p["updated"]).strftime("%a, %d %b %Y 06:00:00 +0530")}</pubDate><category>{html.escape(p["category"])}</category><description>{html.escape(p["description"])}</description></item>''' for p in posts[:30])
-    return f'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>NET Law-Verse Blog</title><link>{SITE}/blog/</link><description>UGC NET Law (058), CLAT PG and AIBE exam updates, legal current affairs and study guides.</description><language>en-IN</language>{items}</channel></rss>'
+    return f'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>NET Law-Verse Blog</title><link>{SITE}/blog/</link><description>UGC NET Law (058), Paper 1, CLAT PG, AILET LLM and AIBE exam updates, legal current affairs and study guides.</description><language>en-IN</language>{items}</channel></rss>'
 
 def update_sitemap(posts):
     sm = ROOT / "sitemap.xml"
