@@ -1,0 +1,20 @@
+{
+ "_comment": "Example of what practice/index.json looks like once you have content. Copy the entries you need into index.json.",
+ "sets": [
+  {
+   "id": "cu-01",
+   "file": "set-01.json",
+   "title": "CUET PG LLM Practice Set 01",
+   "tag": "Core subjects",
+   "blurb": "One or two sentences shown on the set card."
+  },
+  {
+   "id": "cu-m01",
+   "file": "mock-01.json",
+   "type": "mock",
+   "title": "CUET PG LLM Mock Test 01",
+   "tag": "Full-length",
+   "blurb": "75 questions, 100 marks, 0.25 negative marking (real +4 and -1, divided by four). No timer."
+  }
+ ]
+}

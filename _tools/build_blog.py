@@ -18,7 +18,7 @@ SITE = "https://netlawverse.in"
 IG = "https://www.instagram.com/netlawverse/"
 LI = "https://www.linkedin.com/in/net-law-verse-82264b445/"
 TODAY = datetime.date.today()
-CATS = ["UGC NET Updates", "CLAT PG", "AILET LLM", "AIBE", "Legal Current Affairs", "Preparation Guides"]
+CATS = ["UGC NET Updates", "CLAT PG", "AILET LLM", "CUET PG", "AIBE", "Legal Current Affairs", "Preparation Guides"]
 def _v(name):
     return hashlib.md5((ROOT / "blog" / name).read_bytes()).hexdigest()[:8]
 esc = lambda s: html.escape(str(s), quote=True)
@@ -65,6 +65,7 @@ def follow_block():
         ("t-x", "PLAN", "Study Plans", "2-week, 1-month, 3-month and 6-month plans.", "/ugc-net-law-preparation-plan.html"),
         ("t-pg", "PG", "CLAT PG Practice", "Practice arena with trap-explained questions.", "/clat-pg/practice.html"),
         ("t-pg", "PG", "CLAT Case Vault", "Landmark cases: facts, issue, held, principle.", "/clat-pg/landmark-cases.html"),
+        ("t-pg", "CU", "CUET PG LLM Prep", "Syllabus, paper analysis, universities and practice.", "/cuet-pg/"),
         ("t-bar", "BAR", "AIBE Notes", "Detailed part-wise notes and mocks.", "/aibe-2027.html"),
     ]
     t = "".join(f'<a class="bl-tile {c}" href="{u}"><span class="bl-tag">{tg}</span><span class="bl-tx"><b>{esc(n)}</b><span>{esc(d)}</span></span></a>' for c, tg, n, d, u in tiles)
@@ -359,8 +360,8 @@ def build_index(posts):
       </article>
 '''
     url = SITE + "/blog/"
-    title = "UGC NET Law, CLAT PG, AILET & AIBE Blog: Exam Study Guides"
-    desc = "Free blog for UGC NET Law (058), Paper 1, CLAT PG, AILET LLM and AIBE: exam dates and patterns, syllabus guides, revision plans and legal current affairs."
+    title = "UGC NET Law, CLAT PG, AILET, CUET PG & AIBE Blog: Exam Study Guides"
+    desc = "Free blog for UGC NET Law (058), Paper 1, CLAT PG, AILET LLM, CUET PG LLM and AIBE: exam dates and patterns, syllabus guides, revision plans and legal current affairs."
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "Blog", "@id": url + "#blog", "url": url, "name": "NET Law-Verse Blog", "description": desc, "inLanguage": "en-IN",
          "publisher": {"@type": "Organization", "name": "NET Law-Verse", "url": SITE + "/"},
@@ -384,7 +385,7 @@ def build_index(posts):
     <div class="bl-wrap">
       <p class="bl-eyebrow">THE NET LAW-VERSE BLOG</p>
       <h1>What's new for <span>law exams</span></h1>
-      <p>Exam updates and study guides for UGC NET Law, Paper 1, CLAT PG, AILET and AIBE. Free, always.</p>
+      <p>Exam updates and study guides for UGC NET Law, Paper 1, CLAT PG, AILET, CUET PG and AIBE. Free, always.</p>
     </div>
   </section>
   <div class="bl-wrap bl-split">

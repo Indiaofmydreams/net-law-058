@@ -17,7 +17,7 @@ var EXAM_T = Date.UTC(2026, 11, 6, 8, 30, 0);              /* 6 December 2026, s
 var SYL_KEY = 'clat-syl-v1', SMP_KEY = 'nl-clat-sample-v1', BM_KEY = 'nl-clat-case-bm';
 var timers = [];
 function clearTimers() { while (timers.length) clearInterval(timers.pop()); }
-addEventListener('hashchange', function () { if (!/^#\/(clat|ug|aibe|sem)/.test(location.hash)) clearTimers(); });
+addEventListener('hashchange', function () { if (!/^#\/(clat|ug|aibe|sem|cuet)/.test(location.hash)) clearTimers(); });
 
 /* ---------- styles (scoped with the cx- prefix) ---------- */
 (function () {
@@ -586,7 +586,7 @@ R.clat = function (p) {
 };
 
 /* ---------- AILET: the website's AILET section shown inside the app (ailet/*.html?embed=1). Pages keep navigating inside the frame. ---------- */
-var AILET_PAGES = { what: 'what-is-ailet.html', syllabus: 'syllabus.html', practice: 'practice.html', mocks: 'mock-tests.html', revision: 'practice.html#mistakes', faq: 'faq.html' };
+var AILET_PAGES = { what: 'what-is-ailet.html', syllabus: 'syllabus.html', practice: 'practice.html', mocks: 'practice.html#mocks', revision: 'practice.html#mistakes', faq: 'faq.html' };
 function ailet(which) {
   var f = AILET_PAGES[which] || 'index.html', i = f.indexOf('#'), file = i < 0 ? f : f.slice(0, i), hash = i < 0 ? '' : f.slice(i);
   cscreen({ top: tbar('AILET', { sub: 'NLU Delhi LL.M. · no timer', la: 'cexams', right: '<a class="ib" href="#/" aria-label="Home">' + I.home + '</a>' }),
@@ -596,21 +596,24 @@ function ailet(which) {
 R.ailet = function (p) { ailet((p || [])[0]); };
 
 /* ---------- AIBE: the website's AIBE section shown inside the app (aibe/*.html?embed=1). ---------- */
-var AIBE_PAGES = { what: 'what-is-aibe.html', syllabus: 'syllabus.html', practice: 'practice.html', mocks: 'mock-tests.html', revision: 'practice.html#mistakes', faq: 'faq.html' };
+var AIBE_PAGES = { what: 'what-is-aibe.html', syllabus: 'syllabus.html', practice: 'practice.html', mocks: 'practice.html#mocks', revision: 'practice.html#mistakes', faq: 'faq.html' };
 function aibe(which) {
   var f = AIBE_PAGES[which] || 'index.html', i = f.indexOf('#'), file = i < 0 ? f : f.slice(0, i), hash = i < 0 ? '' : f.slice(i);
-  cscreen({ top: tbar('AIBE', { sub: 'All India Bar Examination · 6 timed mocks', la: 'cexams', right: '<a class="ib" href="#/" aria-label="Home">' + I.home + '</a>' }),
+  cscreen({ top: tbar('AIBE', { sub: 'All India Bar Examination · no timer', la: 'cexams', right: '<a class="ib" href="#/" aria-label="Home">' + I.home + '</a>' }),
     flush: true, exam: true, cls: 'cmv',
     body: '<iframe class="cmf" title="AIBE preparation" src="aibe/' + file + '?embed=1' + hash + '" allow="clipboard-write; web-share"></iframe>' }, 'prac', { nonav: true });
 }
-A.amocks = function () { go('/aibe/mocks'); };
-function aibeMock(n) {
-  n = +n; if (!(n >= 1 && n <= 6)) return go('/aibe/mocks');
-  cscreen({ top: tbar('AIBE Mock Test ' + n, { sub: '100 questions · 210 minutes', la: 'amocks', right: '<a class="ib" href="#/" aria-label="Home">' + I.home + '</a>' }),
+R.aibe = function (p) { aibe((p || [])[0]); };
+
+/* ---------- CUET PG: the website's CUET PG (LL.M.) section shown inside the app (cuet-pg/*.html?embed=1). ---------- */
+var CUET_PAGES = { what: 'what-is-cuet-pg.html', syllabus: 'syllabus.html', analysis: 'analysis.html', universities: 'universities.html', practice: 'practice.html', mocks: 'practice.html#mocks', revision: 'practice.html#mistakes', faq: 'faq.html' };
+function cuet(which) {
+  var f = CUET_PAGES[which] || 'index.html', i = f.indexOf('#'), file = i < 0 ? f : f.slice(0, i), hash = i < 0 ? '' : f.slice(i);
+  cscreen({ top: tbar('CUET PG', { sub: 'LL.M. · central universities · no timer', la: 'cexams', right: '<a class="ib" href="#/" aria-label="Home">' + I.home + '</a>' }),
     flush: true, exam: true, cls: 'cmv',
-    body: '<iframe class="cmf" title="AIBE Mock Test ' + n + '" src="aibe/mock-test-' + n + '.html?embed=1" allow="clipboard-write; web-share"></iframe>' }, 'prac', { nonav: true });
+    body: '<iframe class="cmf" title="CUET PG LL.M. preparation" src="cuet-pg/' + file + '?embed=1' + hash + '" allow="clipboard-write; web-share"></iframe>' }, 'prac', { nonav: true });
 }
-R.aibe = function (p) { p = p || []; if (p[0] === 'mock') return aibeMock(p[1]); aibe(p[0]); };
+R.cuet = function (p) { cuet((p || [])[0]); };
 R.ug = function () { soon('ug'); };
 
 R.sem = function () { soon('sem'); };

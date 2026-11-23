@@ -1,0 +1,681 @@
+{
+ "_comment": "Original practice questions written for NET Law-Verse. Scoring in the arena is 1 and -0.25 (the real +4 and -1 divided by four).",
+ "set_title": "CUET PG LLM Practice Set 01: Core subjects",
+ "block_size": 10,
+ "questions": [
+  {
+   "q_no": 1,
+   "subject_area": "Constitution of India",
+   "difficulty": "Moderate",
+   "question": "The doctrine of the basic structure of the Constitution was first articulated by the Supreme Court in:",
+   "options": {
+    "A": "Golak Nath v State of Punjab",
+    "B": "Kesavananda Bharati v State of Kerala",
+    "C": "Shankari Prasad v Union of India",
+    "D": "Minerva Mills v Union of India"
+   },
+   "correct_option": "B",
+   "explanation": "Kesavananda Bharati (1973), decided by a 13-judge bench, held that Parliament may amend the Constitution under Art 368 but cannot destroy its basic structure.",
+   "why_other_options_are_wrong": "A fails because Golak Nath (1967) held that fundamental rights could not be amended at all. C fails because Shankari Prasad (1951) upheld Parliament's power to amend fundamental rights. D fails because Minerva Mills (1980) applied and strengthened the doctrine; it did not originate it.",
+   "trap": "Minerva Mills is the tempting answer because it is so often cited with the doctrine."
+  },
+  {
+   "q_no": 2,
+   "subject_area": "Constitution of India",
+   "difficulty": "Moderate",
+   "question": "A High Court's power to issue writs for the enforcement of fundamental rights and for any other purpose is found in:",
+   "options": {
+    "A": "Article 32",
+    "B": "Article 136",
+    "C": "Article 227",
+    "D": "Article 226"
+   },
+   "correct_option": "D",
+   "explanation": "Article 226 empowers High Courts to issue writs for fundamental rights and 'for any other purpose', giving it wider scope than Art 32.",
+   "why_other_options_are_wrong": "A is the Supreme Court's writ power for fundamental rights only. B is the special leave jurisdiction. C is the High Court's power of superintendence over subordinate courts and tribunals.",
+   "trap": "Art 227 also sounds like a High Court power; it is superintendence, not the writ power."
+  },
+  {
+   "q_no": 3,
+   "subject_area": "Constitution of India",
+   "difficulty": "Moderate",
+   "question": "Disputes regarding the election of the President of India are inquired into and decided by:",
+   "options": {
+    "A": "The Supreme Court of India",
+    "B": "The Election Commission of India",
+    "C": "The High Court of the concerned State",
+    "D": "Parliament"
+   },
+   "correct_option": "A",
+   "explanation": "Under Art 71 the Supreme Court has exclusive jurisdiction to inquire into and decide doubts and disputes about the election of the President or Vice-President.",
+   "why_other_options_are_wrong": "B conducts the election but does not decide disputes. C has no role here, unlike in ordinary elections. D has no judicial role in such disputes."
+  },
+  {
+   "q_no": 4,
+   "subject_area": "Constitution of India",
+   "difficulty": "Moderate",
+   "question": "The Tenth Schedule (anti-defection law) was added to the Constitution by the:",
+   "options": {
+    "A": "42nd Amendment",
+    "B": "44th Amendment",
+    "C": "52nd Amendment",
+    "D": "91st Amendment"
+   },
+   "correct_option": "C",
+   "explanation": "The 52nd Amendment (1985) added the Tenth Schedule. The 91st Amendment (2003) later removed the exemption for splits and limited the size of Councils of Ministers.",
+   "why_other_options_are_wrong": "A (1976) is the 'mini-Constitution'. B (1978) restored many safeguards after the Emergency. D refined the anti-defection law but did not create it.",
+   "trap": "The 91st Amendment is often confused with it because it also touched defection."
+  },
+  {
+   "q_no": 5,
+   "subject_area": "Constitution of India",
+   "difficulty": "Moderate",
+   "question": "The right to privacy was declared a fundamental right under Article 21 by a nine-judge bench in:",
+   "options": {
+    "A": "A.K. Gopalan v State of Madras",
+    "B": "K.S. Puttaswamy v Union of India",
+    "C": "M.P. Sharma v Satish Chandra",
+    "D": "Kharak Singh v State of U.P."
+   },
+   "correct_option": "B",
+   "explanation": "Justice K.S. Puttaswamy (2017) overruled M.P. Sharma and the relevant part of Kharak Singh and held privacy to be intrinsic to life and liberty.",
+   "why_other_options_are_wrong": "A took a narrow view of Art 21. C and D had held that privacy was not a fundamental right; Puttaswamy overruled them to that extent.",
+   "trap": "Two of the wrong options are cases that denied the right."
+  },
+  {
+   "q_no": 6,
+   "subject_area": "Constitution of India",
+   "difficulty": "Moderate",
+   "question": "The right to free and compulsory education for children aged six to fourteen was inserted as Article 21A by the:",
+   "options": {
+    "A": "42nd Amendment",
+    "B": "73rd Amendment",
+    "C": "97th Amendment",
+    "D": "86th Amendment"
+   },
+   "correct_option": "D",
+   "explanation": "The Constitution (86th Amendment) Act 2002 inserted Art 21A, changed Art 45 and added the duty in Art 51A(k). The RTE Act 2009 gives effect to it.",
+   "why_other_options_are_wrong": "A (1976) added fundamental duties. B (1992) concerns Panchayats. C (2011) concerns cooperative societies."
+  },
+  {
+   "q_no": 7,
+   "subject_area": "Constitution of India",
+   "difficulty": "Moderate",
+   "question": "The writ used to challenge the legality of a person holding a public office is:",
+   "options": {
+    "A": "Quo warranto",
+    "B": "Mandamus",
+    "C": "Certiorari",
+    "D": "Prohibition"
+   },
+   "correct_option": "A",
+   "explanation": "Quo warranto asks 'by what authority' a person holds a public office and can oust an unqualified holder.",
+   "why_other_options_are_wrong": "B commands a public duty to be performed. C quashes a decision already made. D stops a body from exceeding jurisdiction.",
+   "trap": "Certiorari and prohibition are both about jurisdiction; quo warranto is about the office-holder."
+  },
+  {
+   "q_no": 8,
+   "subject_area": "Constitution of India",
+   "difficulty": "Moderate",
+   "question": "Which Article of the Constitution directs the State to endeavour to secure a Uniform Civil Code?",
+   "options": {
+    "A": "Article 40",
+    "B": "Article 48",
+    "C": "Article 44",
+    "D": "Article 50"
+   },
+   "correct_option": "C",
+   "explanation": "Article 44, a Directive Principle, directs the State to endeavour to secure a uniform civil code for citizens throughout India.",
+   "why_other_options_are_wrong": "A is about village panchayats. B is about agriculture and animal husbandry. D is about separation of the judiciary from the executive."
+  },
+  {
+   "q_no": 9,
+   "subject_area": "Constitution of India",
+   "difficulty": "Tough",
+   "question": "After the 44th Amendment, a proclamation of National Emergency under Article 352 can be made on the ground of:",
+   "options": {
+    "A": "Internal disturbance",
+    "B": "Armed rebellion",
+    "C": "Failure of constitutional machinery",
+    "D": "Financial instability"
+   },
+   "correct_option": "B",
+   "explanation": "The 44th Amendment replaced 'internal disturbance' with 'armed rebellion' as a ground, alongside war and external aggression.",
+   "why_other_options_are_wrong": "A was the original ground and was removed. C is the ground for President's Rule under Art 356. D relates to financial emergency under Art 360.",
+   "trap": "Art 352 and Art 356 grounds are routinely swapped."
+  },
+  {
+   "q_no": 10,
+   "subject_area": "Criminal Law (IPC and BNS)",
+   "difficulty": "Tough",
+   "question": "Under the Bharatiya Nyaya Sanhita 2023, the punishment for murder is provided in section:",
+   "options": {
+    "A": "101",
+    "B": "105",
+    "C": "100",
+    "D": "103"
+   },
+   "correct_option": "D",
+   "explanation": "BNS s.101 defines murder and s.103 prescribes its punishment (death or imprisonment for life, with fine). Culpable homicide is s.100, and its punishment for the non-murder kind is s.105.",
+   "why_other_options_are_wrong": "A defines murder, it does not punish it. B punishes culpable homicide not amounting to murder. C defines culpable homicide.",
+   "trap": "The question asks for punishment, not the definition: the numbers are one apart.",
+   "language_trick": "'Punishment' versus 'definition' decides the answer."
+  },
+  {
+   "q_no": 11,
+   "subject_area": "Criminal Law (IPC and BNS)",
+   "difficulty": "Moderate",
+   "question": "The offence of sedition under IPC section 124A has been replaced in the BNS by a provision on acts endangering sovereignty, unity and integrity of India. That section is:",
+   "options": {
+    "A": "Section 152",
+    "B": "Section 150",
+    "C": "Section 111",
+    "D": "Section 113"
+   },
+   "correct_option": "A",
+   "explanation": "BNS s.152 punishes acts endangering the sovereignty, unity and integrity of India and does not use the word sedition. The Supreme Court had kept s.124A in abeyance in Sudhir Vombatkere (2022).",
+   "why_other_options_are_wrong": "D is the terrorist act provision. C is organised crime. B deals with concealing a design to wage war."
+  },
+  {
+   "q_no": 12,
+   "subject_area": "Criminal Law (IPC and BNS)",
+   "difficulty": "Moderate",
+   "question": "In the BNS, liability for an act done by several persons in furtherance of the common intention of all is in section:",
+   "options": {
+    "A": "190",
+    "B": "61",
+    "C": "3(5)",
+    "D": "49"
+   },
+   "correct_option": "C",
+   "explanation": "BNS s.3(5) corresponds to IPC s.34 (common intention). BNS s.190 corresponds to s.149 (common object of an unlawful assembly).",
+   "why_other_options_are_wrong": "A is common object, a different concept from common intention. B is criminal conspiracy. D is punishment for abetment.",
+   "trap": "Common intention (s.34) and common object (s.149) are standard exam pairs."
+  },
+  {
+   "q_no": 13,
+   "subject_area": "Criminal Law (IPC and BNS)",
+   "difficulty": "Moderate",
+   "question": "The 'rarest of rare' doctrine for awarding the death penalty was laid down in:",
+   "options": {
+    "A": "Jagmohan Singh v State of U.P.",
+    "B": "Bachan Singh v State of Punjab",
+    "C": "Machhi Singh v State of Punjab",
+    "D": "Mithu v State of Punjab"
+   },
+   "correct_option": "B",
+   "explanation": "Bachan Singh (1980) upheld the death penalty's validity but restricted it to the rarest of rare cases, with life imprisonment as the rule.",
+   "why_other_options_are_wrong": "A (1973) upheld the penalty without this guideline. C (1983) later listed categories applying Bachan Singh. D struck down the mandatory death sentence in s.303 IPC."
+  },
+  {
+   "q_no": 14,
+   "subject_area": "Criminal Law (IPC and BNS)",
+   "difficulty": "Moderate",
+   "question": "Section 497 IPC (adultery) was struck down as unconstitutional in:",
+   "options": {
+    "A": "Navtej Singh Johar v Union of India",
+    "B": "Shayara Bano v Union of India",
+    "C": "K.S. Puttaswamy v Union of India",
+    "D": "Joseph Shine v Union of India"
+   },
+   "correct_option": "D",
+   "explanation": "Joseph Shine (2018) held s.497 violated Arts 14, 15 and 21. The BNS does not retain adultery as an offence.",
+   "why_other_options_are_wrong": "A read down s.377 for consensual same-sex acts. B struck down instant triple talaq. C declared privacy a fundamental right."
+  },
+  {
+   "q_no": 15,
+   "subject_area": "Criminal Procedure (CrPC and BNSS)",
+   "difficulty": "Tough",
+   "question": "Anticipatory bail under the Bharatiya Nagarik Suraksha Sanhita 2023 is provided in section:",
+   "options": {
+    "A": "482",
+    "B": "480",
+    "C": "483",
+    "D": "528"
+   },
+   "correct_option": "A",
+   "explanation": "BNSS s.482 corresponds to CrPC s.438 (anticipatory bail). Section 480 corresponds to s.437, s.483 to s.439, and s.528 to s.482 CrPC (inherent powers).",
+   "why_other_options_are_wrong": "B is bail in non-bailable cases by magistrates. C is special powers of High Court and Sessions Court on bail. D is the High Court's inherent power.",
+   "trap": "The CrPC and BNSS numbers are swapped: CrPC s.482 is inherent power; BNSS s.482 is anticipatory bail."
+  },
+  {
+   "q_no": 16,
+   "subject_area": "Criminal Procedure (CrPC and BNSS)",
+   "difficulty": "Moderate",
+   "question": "A Magistrate of the First Class may pass a sentence of imprisonment for a term not exceeding:",
+   "options": {
+    "A": "One year",
+    "B": "Five years",
+    "C": "Three years",
+    "D": "Seven years"
+   },
+   "correct_option": "C",
+   "explanation": "Under s.29 CrPC (and BNSS s.23), a Judicial Magistrate of the First Class may pass imprisonment up to three years or a fine up to Rs 50,000 (Rs 10,000 earlier), or both.",
+   "why_other_options_are_wrong": "A and B do not match the statutory limit. D is the limit for a Chief Judicial Magistrate."
+  },
+  {
+   "q_no": 17,
+   "subject_area": "Contract: General Principles",
+   "difficulty": "Moderate",
+   "question": "A general offer made to the public at large, as in Carlill v Carbolic Smoke Ball Co., can be accepted by:",
+   "options": {
+    "A": "Signing a written acceptance",
+    "B": "Performing the conditions of the offer",
+    "C": "Communicating acceptance to the offeror in writing",
+    "D": "Telephoning the offeror"
+   },
+   "correct_option": "B",
+   "explanation": "In a general offer, acceptance is by performance of the stipulated conditions, so no separate communication is needed (see s.8 Indian Contract Act).",
+   "why_other_options_are_wrong": "A, C and D assume ordinary communication of acceptance, which the court held unnecessary for this unilateral offer."
+  },
+  {
+   "q_no": 18,
+   "subject_area": "Contract: General Principles",
+   "difficulty": "Moderate",
+   "question": "An agreement with a minor is, under Indian law:",
+   "options": {
+    "A": "Voidable at the minor's option",
+    "B": "Valid if for the minor's benefit",
+    "C": "Illegal",
+    "D": "Void ab initio"
+   },
+   "correct_option": "D",
+   "explanation": "Mohori Bibee v Dharmodas Ghose (1903, Privy Council) held a minor's agreement void from the beginning, so it cannot be ratified on majority.",
+   "why_other_options_are_wrong": "A is the English law position for some contracts. B is wrong: even a beneficial contract is void if the minor is a promisor. C confuses void with illegal.",
+   "trap": "Void and voidable are the usual traps."
+  },
+  {
+   "q_no": 19,
+   "subject_area": "Contract: General Principles",
+   "difficulty": "Moderate",
+   "question": "The rule on remoteness of damages for breach of contract, adopted in s.73 of the Indian Contract Act, comes from:",
+   "options": {
+    "A": "Hadley v Baxendale",
+    "B": "Carlill v Carbolic Smoke Ball Co.",
+    "C": "Taylor v Caldwell",
+    "D": "Balfour v Balfour"
+   },
+   "correct_option": "A",
+   "explanation": "Hadley v Baxendale (1854) limits damages to losses arising naturally or within the parties' contemplation at the time of contracting.",
+   "why_other_options_are_wrong": "B concerns general offers. C is the origin of frustration. D concerns intention to create legal relations in domestic agreements."
+  },
+  {
+   "q_no": 20,
+   "subject_area": "Contract: General Principles",
+   "difficulty": "Moderate",
+   "question": "Compensation for breach of a contract where a penalty has been stipulated is dealt with in section:",
+   "options": {
+    "A": "73",
+    "B": "75",
+    "C": "74",
+    "D": "56"
+   },
+   "correct_option": "C",
+   "explanation": "Section 74 provides that the aggrieved party is entitled only to reasonable compensation not exceeding the amount named, whether it is a penalty or liquidated damages.",
+   "why_other_options_are_wrong": "A is general damages. B is compensation when a contract is rescinded. D is impossibility and frustration."
+  },
+  {
+   "q_no": 21,
+   "subject_area": "Law of Torts and Consumer Protection",
+   "difficulty": "Moderate",
+   "question": "The rule of absolute liability for hazardous industries in India was laid down in:",
+   "options": {
+    "A": "Rylands v Fletcher",
+    "B": "M.C. Mehta v Union of India (Oleum Gas Leak)",
+    "C": "Donoghue v Stevenson",
+    "D": "Kasturilal Ralia Ram Jain v State of U.P."
+   },
+   "correct_option": "B",
+   "explanation": "M.C. Mehta (1987) held that an enterprise engaged in hazardous activity is absolutely liable, with no exceptions available under Rylands v Fletcher.",
+   "why_other_options_are_wrong": "A is strict liability with exceptions. C created the neighbour principle in negligence. D dealt with state liability for sovereign functions."
+  },
+  {
+   "q_no": 22,
+   "subject_area": "Law of Torts and Consumer Protection",
+   "difficulty": "Moderate",
+   "question": "The 'neighbour principle' laid down by Lord Atkin in Donoghue v Stevenson is the foundation of the modern law of:",
+   "options": {
+    "A": "Nuisance",
+    "B": "Defamation",
+    "C": "Trespass",
+    "D": "Negligence"
+   },
+   "correct_option": "D",
+   "explanation": "The neighbour principle states that one must take reasonable care to avoid acts or omissions likely to injure persons closely and directly affected: the duty of care in negligence.",
+   "why_other_options_are_wrong": "A, B and C protect different interests (enjoyment of land, reputation, possession)."
+  },
+  {
+   "q_no": 23,
+   "subject_area": "Law of Torts and Consumer Protection",
+   "difficulty": "Tough",
+   "question": "Under the Consumer Protection (Jurisdiction) Rules 2021, a District Consumer Disputes Redressal Commission can entertain complaints where the value of goods or services paid as consideration does not exceed:",
+   "options": {
+    "A": "Rs 50 lakh",
+    "B": "Rs 20 lakh",
+    "C": "Rs 1 crore",
+    "D": "Rs 2 crore"
+   },
+   "correct_option": "A",
+   "explanation": "Under the 2021 Rules, the District Commission handles up to Rs 50 lakh, the State Commission above Rs 50 lakh up to Rs 2 crore, and the National Commission above Rs 2 crore.",
+   "why_other_options_are_wrong": "B was the District limit under the 1986 Act. C was the District limit in s.34 of the 2019 Act before the 2021 Rules. D is the limit above which only the National Commission hears complaints.",
+   "trap": "Pecuniary limits now depend on the consideration paid, not on the value of the claim."
+  },
+  {
+   "q_no": 24,
+   "subject_area": "Jurisprudence",
+   "difficulty": "Moderate",
+   "question": "The 'Pure Theory of Law' was propounded by:",
+   "options": {
+    "A": "John Austin",
+    "B": "H.L.A. Hart",
+    "C": "Hans Kelsen",
+    "D": "F.C. Savigny"
+   },
+   "correct_option": "C",
+   "explanation": "Hans Kelsen's Pure Theory seeks a theory of law free of politics, morality and sociology, built on a hierarchy of norms and the Grundnorm.",
+   "why_other_options_are_wrong": "A is the command theory. B is the concept of law as union of primary and secondary rules. D is the historical school."
+  },
+  {
+   "q_no": 25,
+   "subject_area": "Jurisprudence",
+   "difficulty": "Moderate",
+   "question": "'Law as social engineering' is associated with:",
+   "options": {
+    "A": "Eugen Ehrlich",
+    "B": "Roscoe Pound",
+    "C": "Duguit",
+    "D": "Holmes"
+   },
+   "correct_option": "B",
+   "explanation": "Roscoe Pound described law as a tool of social engineering, balancing competing interests in society.",
+   "why_other_options_are_wrong": "A is the 'living law'. C is social solidarity. D is the predictive theory (law as what courts will do)."
+  },
+  {
+   "q_no": 26,
+   "subject_area": "Jurisprudence",
+   "difficulty": "Moderate",
+   "question": "The theory that law is the product of the 'Volksgeist' (spirit of the people) is associated with:",
+   "options": {
+    "A": "Bentham",
+    "B": "Austin",
+    "C": "Kelsen",
+    "D": "Savigny"
+   },
+   "correct_option": "D",
+   "explanation": "Savigny, the founder of the historical school, held that law grows from the common consciousness of a people, like language.",
+   "why_other_options_are_wrong": "A and B belong to the analytical school; C to the pure theory."
+  },
+  {
+   "q_no": 27,
+   "subject_area": "Jurisprudence",
+   "difficulty": "Moderate",
+   "question": "According to Hohfeld, the jural correlative of a 'right' is:",
+   "options": {
+    "A": "Duty",
+    "B": "Liability",
+    "C": "Disability",
+    "D": "Immunity"
+   },
+   "correct_option": "A",
+   "explanation": "Hohfeld's correlatives: right with duty, privilege with no-right, power with liability, immunity with disability.",
+   "why_other_options_are_wrong": "B is correlative to power. C is correlative to immunity.",
+   "trap": "Power and liability are the pair students most often mix with right and duty."
+  },
+  {
+   "q_no": 28,
+   "subject_area": "Family Law (Hindu and Muslim)",
+   "difficulty": "Tough",
+   "question": "In Vineeta Sharma v Rakesh Sharma (2020), the Supreme Court held that under the Hindu Succession (Amendment) Act 2005:",
+   "options": {
+    "A": "Daughters are coparceners only if the father was alive on 9 September 2005",
+    "B": "Daughters become coparceners only on partition",
+    "C": "Daughters are coparceners by birth, whether or not the father was alive on that date",
+    "D": "Married daughters are excluded"
+   },
+   "correct_option": "C",
+   "explanation": "The Court held the daughter's coparcenary right arises by birth and is not dependent on the father being alive on 9 September 2005.",
+   "why_other_options_are_wrong": "A was the view in Prakash v Phulavati, which Vineeta Sharma overruled. B and D contradict the amended s.6."
+  },
+  {
+   "q_no": 29,
+   "subject_area": "Family Law (Hindu and Muslim)",
+   "difficulty": "Moderate",
+   "question": "Instant triple talaq (talaq-e-biddat) was held unconstitutional in:",
+   "options": {
+    "A": "Mohd Ahmed Khan v Shah Bano Begum",
+    "B": "Shayara Bano v Union of India",
+    "C": "Danial Latifi v Union of India",
+    "D": "Shamim Ara v State of U.P."
+   },
+   "correct_option": "B",
+   "explanation": "Shayara Bano (2017) set aside talaq-e-biddat by a 3:2 majority. Parliament later enacted the Muslim Women (Protection of Rights on Marriage) Act 2019.",
+   "why_other_options_are_wrong": "A concerns maintenance of a divorced Muslim woman under s.125 CrPC. C upheld the 1986 Act. D required talaq to be preceded by a reasonable cause and attempts at reconciliation."
+  },
+  {
+   "q_no": 30,
+   "subject_area": "Family Law (Hindu and Muslim)",
+   "difficulty": "Moderate",
+   "question": "Under Muslim law, mehr (dower) is best described as:",
+   "options": {
+    "A": "The price paid for the wife",
+    "B": "The consideration for the contract of marriage",
+    "C": "A gift from the wife's father",
+    "D": "An obligation imposed on the husband by law as a mark of respect to the wife"
+   },
+   "correct_option": "D",
+   "explanation": "Mehr is a sum or property the wife is entitled to from the husband; it is an incident of marriage and a mark of respect, not a price or true consideration (Abdul Kadir v Salima).",
+   "why_other_options_are_wrong": "A and B treat marriage as a sale, which the courts reject. C mixes mehr with a gift."
+  },
+  {
+   "q_no": 31,
+   "subject_area": "Property Law",
+   "difficulty": "Moderate",
+   "question": "The doctrine of lis pendens is contained in section ___ of the Transfer of Property Act 1882:",
+   "options": {
+    "A": "52",
+    "B": "41",
+    "C": "53A",
+    "D": "60"
+   },
+   "correct_option": "A",
+   "explanation": "Section 52 prevents transfer of property in litigation so as to affect the rights of a party under the court's decree.",
+   "why_other_options_are_wrong": "B is ostensible owner. C is part performance. D is the right of redemption."
+  },
+  {
+   "q_no": 32,
+   "subject_area": "Property Law",
+   "difficulty": "Moderate",
+   "question": "The maxim 'once a mortgage, always a mortgage' is connected with:",
+   "options": {
+    "A": "Doctrine of election",
+    "B": "Rule against perpetuities",
+    "C": "Clog on the equity of redemption",
+    "D": "Doctrine of part performance"
+   },
+   "correct_option": "C",
+   "explanation": "The mortgagor's right of redemption cannot be fettered; any clause that clogs it is void (s.60 TPA).",
+   "why_other_options_are_wrong": "A, B and D are separate doctrines unrelated to the redemption of a mortgage."
+  },
+  {
+   "q_no": 33,
+   "subject_area": "Company Law",
+   "difficulty": "Moderate",
+   "question": "The principle that a company is a legal person distinct from its members was established in:",
+   "options": {
+    "A": "Foss v Harbottle",
+    "B": "Salomon v Salomon & Co. Ltd",
+    "C": "Ashbury Railway Carriage Co. v Riche",
+    "D": "Royal British Bank v Turquand"
+   },
+   "correct_option": "B",
+   "explanation": "Salomon (1897) held that a duly incorporated company is a separate legal entity from its shareholders.",
+   "why_other_options_are_wrong": "A is the majority-rule and proper-plaintiff rule. C is the ultra vires doctrine. D is the rule of indoor management."
+  },
+  {
+   "q_no": 34,
+   "subject_area": "Administrative Law",
+   "difficulty": "Moderate",
+   "question": "The 'Wednesbury principle' is used in administrative law to test:",
+   "options": {
+    "A": "Delegation of legislative power",
+    "B": "Violation of audi alteram partem",
+    "C": "Separation of powers",
+    "D": "Unreasonableness of an administrative decision"
+   },
+   "correct_option": "D",
+   "explanation": "Associated Provincial Picture Houses v Wednesbury Corporation (1948) allows a court to interfere where a decision is so unreasonable that no reasonable authority could have made it.",
+   "why_other_options_are_wrong": "A, B and C are tested under different principles."
+  },
+  {
+   "q_no": 35,
+   "subject_area": "Administrative Law",
+   "difficulty": "Moderate",
+   "question": "'Nemo judex in causa sua' means:",
+   "options": {
+    "A": "No one should be a judge in his own cause",
+    "B": "Hear the other side",
+    "C": "Reasons must be recorded",
+    "D": "Justice should be seen to be done"
+   },
+   "correct_option": "A",
+   "explanation": "It is the rule against bias, one of the two pillars of natural justice.",
+   "why_other_options_are_wrong": "B is audi alteram partem. C is the duty to give reasons. D is a related statement of the appearance of fairness, not the meaning of the maxim."
+  },
+  {
+   "q_no": 36,
+   "subject_area": "Intellectual Property Rights",
+   "difficulty": "Tough",
+   "question": "Section 3(d) of the Patents Act 1970 excludes from patentability:",
+   "options": {
+    "A": "Any invention in pharmaceuticals",
+    "B": "Computer programmes in all cases",
+    "C": "New forms of a known substance without enhanced efficacy",
+    "D": "Inventions of public interest only"
+   },
+   "correct_option": "C",
+   "explanation": "Section 3(d) bars patents on mere new forms of known substances unless they show significantly enhanced efficacy. Novartis v Union of India (2013) applied it to imatinib mesylate.",
+   "why_other_options_are_wrong": "A is wrong because pharmaceutical inventions can be patented. B and D misstate separate exclusions."
+  },
+  {
+   "q_no": 37,
+   "subject_area": "Intellectual Property Rights",
+   "difficulty": "Moderate",
+   "question": "The term of copyright in a published literary work is, in India:",
+   "options": {
+    "A": "The author's life plus 50 years",
+    "B": "The author's life plus 60 years",
+    "C": "The author's life plus 70 years",
+    "D": "25 years from publication"
+   },
+   "correct_option": "B",
+   "explanation": "Section 22 of the Copyright Act 1957 gives protection for the author's lifetime plus 60 years, counted from the beginning of the next calendar year.",
+   "why_other_options_are_wrong": "A and C are terms in other countries or treaties. D is far too short for this class of work."
+  },
+  {
+   "q_no": 38,
+   "subject_area": "Law of Evidence",
+   "difficulty": "Moderate",
+   "question": "Admissibility of electronic records as evidence was governed by section ___ of the Indian Evidence Act 1872 (now section 63 of the Bharatiya Sakshya Adhiniyam 2023):",
+   "options": {
+    "A": "45A",
+    "B": "65A",
+    "C": "90A",
+    "D": "65B"
+   },
+   "correct_option": "D",
+   "explanation": "Section 65B sets the conditions and the certificate for admissibility of electronic records; Anvar P.V. and Arjun Panditrao Khotkar are the leading cases.",
+   "why_other_options_are_wrong": "A is opinion of the examiner of electronic evidence. B is special provision on proof of electronic records. C is presumption about electronic records five years old."
+  },
+  {
+   "q_no": 39,
+   "subject_area": "Civil Procedure Code",
+   "difficulty": "Moderate",
+   "question": "Section 10 of the Code of Civil Procedure 1908 deals with:",
+   "options": {
+    "A": "Stay of suit (res sub judice)",
+    "B": "Jurisdiction of civil courts",
+    "C": "Res judicata",
+    "D": "Inherent powers of the court"
+   },
+   "correct_option": "A",
+   "explanation": "Section 10 stays a later suit where the matter is directly and substantially in issue in an earlier instituted suit between the same parties.",
+   "why_other_options_are_wrong": "B is s.9. C is s.11. D is s.151.",
+   "trap": "Section 10 (pending) and s.11 (already decided) are always paired."
+  },
+  {
+   "q_no": 40,
+   "subject_area": "Environmental Law",
+   "difficulty": "Moderate",
+   "question": "The public trust doctrine was applied in Indian environmental law in:",
+   "options": {
+    "A": "Olga Tellis v Bombay Municipal Corporation",
+    "B": "Shriram Foods v Union of India",
+    "C": "M.C. Mehta v Kamal Nath",
+    "D": "Subhash Kumar v State of Bihar"
+   },
+   "correct_option": "C",
+   "explanation": "M.C. Mehta v Kamal Nath (1997) held that natural resources such as rivers and forests are held by the State in trust for the public.",
+   "why_other_options_are_wrong": "A concerns the right to livelihood under Art 21. B is a Shriram gas leak case on absolute liability. D recognised the right to a pollution-free environment as part of Art 21."
+  },
+  {
+   "q_no": 41,
+   "subject_area": "Human Rights and PIL",
+   "difficulty": "Moderate",
+   "question": "The National Human Rights Commission of India was constituted under the:",
+   "options": {
+    "A": "Article 338 of the Constitution",
+    "B": "Protection of Human Rights Act 1993",
+    "C": "Human Rights Commission Act 1948",
+    "D": "Right to Information Act 2005"
+   },
+   "correct_option": "B",
+   "explanation": "The NHRC is a statutory body created by the Protection of Human Rights Act 1993, as amended in 2019.",
+   "why_other_options_are_wrong": "A is the National Commission for Scheduled Castes in earlier form. C is a non-existent Indian Act. D is the information law."
+  },
+  {
+   "q_no": 42,
+   "subject_area": "Human Rights and PIL",
+   "difficulty": "Moderate",
+   "question": "Hussainara Khatoon v State of Bihar (1979) is associated with:",
+   "options": {
+    "A": "Bonded labour",
+    "B": "Environmental pollution",
+    "C": "Right to education",
+    "D": "Rights of undertrial prisoners and speedy trial"
+   },
+   "correct_option": "D",
+   "explanation": "The Court recognised speedy trial as part of Art 21 and ordered release of undertrial prisoners held for long periods: an early PIL.",
+   "why_other_options_are_wrong": "A is Bandhua Mukti Morcha, B is M.B. Mehta, C is Unni Krishnan."
+  },
+  {
+   "q_no": 43,
+   "subject_area": "Interpretation of Statutes",
+   "difficulty": "Moderate",
+   "question": "The rule of 'ejusdem generis' means:",
+   "options": {
+    "A": "Of the same kind or class",
+    "B": "The expression of one thing excludes another",
+    "C": "A word is known by its company",
+    "D": "The mischief rule"
+   },
+   "correct_option": "A",
+   "explanation": "When general words follow specific words of a class, the general words are read as limited to things of the same class.",
+   "why_other_options_are_wrong": "B is expressio unius. C is noscitur a sociis. D is Heydon's rule."
+  },
+  {
+   "q_no": 44,
+   "subject_area": "Public International Law",
+   "difficulty": "Moderate",
+   "question": "Under Article 38(1) of the ICJ Statute, subsidiary means for the determination of rules of law are:",
+   "options": {
+    "A": "Treaties and custom",
+    "B": "General principles of law recognised by civilised nations",
+    "C": "Judicial decisions and the teachings of highly qualified publicists",
+    "D": "Resolutions of the Security Council"
+   },
+   "correct_option": "C",
+   "explanation": "Article 38(1)(d) treats judicial decisions and the teachings of the most highly qualified publicists as subsidiary means; treaties, custom and general principles are primary sources.",
+   "why_other_options_are_wrong": "A and B are primary sources. D is not listed in Art 38."
+  }
+ ]
+}

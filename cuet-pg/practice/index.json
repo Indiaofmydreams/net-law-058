@@ -1,0 +1,11 @@
+{
+ "sets": [
+  {
+   "id": "cu-01",
+   "file": "set-01.json",
+   "title": "CUET PG LLM Practice Set 01",
+   "tag": "Core subjects",
+   "blurb": "44 standalone questions across the Constitution, Criminal Law (IPC and BNS), Contract, Torts, Jurisprudence, Family Law and more, with answers, reasoning and traps."
+  }
+ ]
+}

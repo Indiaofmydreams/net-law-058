@@ -1,0 +1,41 @@
+{
+ "_comment": "TEMPLATE, not loaded by the site (file name starts with an underscore and is not listed in index.json). Copy it, rename it (e.g. set-01.json), fill it in, then add one entry to practice/index.json. Only question, options and correct_option are required. subject_area, difficulty (Moderate/Tough/Extreme), explanation, why_other_options_are_wrong, trap and language_trick are optional; sections without text are simply not shown. Questions are standalone, so use the flat 'questions' list. A 'passages' list (like the CLAT sets) also works if you ever need passage-based questions.",
+ "set_title": "CUET PG LLM Practice Set 01",
+ "block_size": 10,
+ "questions": [
+  {
+   "q_no": 1,
+   "subject_area": "Constitutional Law",
+   "difficulty": "Tough",
+   "question": "EXAMPLE ONLY. Replace with your question text.",
+   "options": {
+    "A": "Option A text",
+    "B": "Option B text",
+    "C": "Option C text",
+    "D": "Option D text"
+   },
+   "correct_option": "B",
+   "explanation": "Why the correct option is right.",
+   "why_other_options_are_wrong": "Option A fails because ... Option C fails because ... Option D fails because ...",
+   "trap": "The tempting wrong option mixes up X and Y.",
+   "language_trick": "The word 'only' makes option C wrong."
+  },
+  {
+   "q_no": 2,
+   "subject_area": "Constitutional Law",
+   "difficulty": "Tough",
+   "question": "EXAMPLE ONLY. Replace with your question text.",
+   "options": {
+    "A": "Option A text",
+    "B": "Option B text",
+    "C": "Option C text",
+    "D": "Option D text"
+   },
+   "correct_option": "B",
+   "explanation": "Why the correct option is right.",
+   "why_other_options_are_wrong": "Option A fails because ... Option C fails because ... Option D fails because ...",
+   "trap": "",
+   "language_trick": ""
+  }
+ ]
+}

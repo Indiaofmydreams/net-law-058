@@ -1,0 +1,41 @@
+{
+ "_comment": "TEMPLATE for a full-length MOCK TEST (100 questions for the real pattern). Same format as a practice set. In practice/index.json give it \"type\":\"mock\" so it appears under Mock tests instead of Practice. No timer is involved.",
+ "set_title": "CUET PG LLM Mock Test 01",
+ "block_size": 10,
+ "questions": [
+  {
+   "q_no": 1,
+   "subject_area": "Constitutional Law",
+   "difficulty": "Tough",
+   "question": "EXAMPLE ONLY. Replace with your question text.",
+   "options": {
+    "A": "Option A text",
+    "B": "Option B text",
+    "C": "Option C text",
+    "D": "Option D text"
+   },
+   "correct_option": "B",
+   "explanation": "Why the correct option is right.",
+   "why_other_options_are_wrong": "Option A fails because ... Option C fails because ... Option D fails because ...",
+   "trap": "The tempting wrong option mixes up X and Y.",
+   "language_trick": "The word 'only' makes option C wrong."
+  },
+  {
+   "q_no": 2,
+   "subject_area": "Constitutional Law",
+   "difficulty": "Tough",
+   "question": "EXAMPLE ONLY. Replace with your question text.",
+   "options": {
+    "A": "Option A text",
+    "B": "Option B text",
+    "C": "Option C text",
+    "D": "Option D text"
+   },
+   "correct_option": "B",
+   "explanation": "Why the correct option is right.",
+   "why_other_options_are_wrong": "Option A fails because ... Option C fails because ... Option D fails because ...",
+   "trap": "",
+   "language_trick": ""
+  }
+ ]
+}

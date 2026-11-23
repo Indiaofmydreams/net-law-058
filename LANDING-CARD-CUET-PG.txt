@@ -1,0 +1,22 @@
+LANDING PAGE (exam chooser) - CUET PG CARD
+==========================================
+The exam chooser shown in your screenshots ("Your law exams, sorted.") is NOT in the zip you uploaded:
+the root index.html in the zip is the blog index. So that file could not be edited here.
+
+To add the card on your live chooser, duplicate the AILET card block and swap these values:
+
+  Badge            AL            ->  CU
+  Ribbon           New           ->  New
+  Title            AILET         ->  CUET PG
+  Subtitle         NLU Delhi LL.M. entrance   ->  Central university LL.M. entrance
+  Description      Free CUET PG LL.M. preparation: what the exam is, pattern and +4/-1 marking, a 33-subject syllabus with a
+                   progress tracker, paper analysis and trends, universities that use the score, practice questions and a
+                   revision notebook that collects every mistake. No timer, no sign-up.
+  Chips            Exam guide | Syllabus tracker | Paper analysis | Universities | Practice Arena | Revision notebook
+  Stat             75 MCQs in the paper
+  Button text      Open CUET PG
+  Link             /cuet-pg/
+  Accent colour    any unused theme colour (AILET uses pink, AIBE orange; teal/violet are in use by CLAT PG/P1)
+
+Also add "CUET PG" to the chooser's top nav / any exam list, and to nl-welcome-promo.js if it lists exams.
+Already done in the zip: /cuet-pg/ pages, sitemap.xml, ailet/aibe/clat-pg nav links, phone app (#/cuet tile + drawer), blog.
