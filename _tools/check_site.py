@@ -12,7 +12,7 @@ pages = {os.path.basename(f)[:-5] for f in glob.glob("blog/*.html")} - {"index"}
 posts = json.load(open("blog/posts.json", encoding="utf-8")); pj = [p["slug"] for p in posts]
 expected = src | UNLISTED_OK
 for s in sorted(src - pages): err.append(f"no built page for source: blog/{s}.html (run _tools/build_blog.py)")
-for s in sorted(pages - src - UNLISTED_OK): warn.append(f"blog page without source (will be dropped by a rebuild): {s}")
+for s in sorted(pages - src - UNLISTED_OK): warn.append(f"blog page without source (keep it listed by running _tools/rebuild_all.py, not build_blog.py): {s}")
 for s in sorted(expected - set(pj)): err.append(f"missing from blog/posts.json: {s}")
 for s in sorted(set(pj) - expected): err.append(f"in posts.json but no source or page: {s}")
 if len(pj) != len(set(pj)): err.append("duplicate slugs in posts.json")
