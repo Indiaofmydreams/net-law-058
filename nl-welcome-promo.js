@@ -97,11 +97,12 @@
         '<div>' +
           '<span class="nlw-kick">Welcome</span>' +
           '<h2 id="nlw-t">Your law exams, <em>sorted.</em></h2>' +
-          '<p class="nlw-sub">Everything for UGC NET and CLAT PG in one free place. Here is what you get:</p>' +
+          '<p class="nlw-sub">Everything for UGC NET, CLAT PG, AILET, CUET PG and AIBE in one free place. Here is what you get:</p>' +
           '<ul>' +
             '<li>' + tick + '<span><b>100% free, no sign-up</b> to start practising</span></li>' +
             '<li>' + tick + '<span><b>UGC NET Paper 1 and Law (058):</b> notes, MCQs, previous-year questions and mock tests</span></li>' +
             '<li>' + tick + '<span><b>CLAT PG:</b> 6 full mock papers, a 705-case Case Law Vault, syllabus tracker and study plans</span></li>' +
+            '<li>' + tick + '<span><b>AILET, CUET PG and AIBE:</b> exam guides, syllabus trackers, practice questions and untimed mocks</span></li>' +
             '<li>' + tick + '<span><b>Exam alerts and new papers</b> reach our followers first</span></li>' +
           '</ul>' +
           '<div class="nlw-li"><div class="nlw-li-t"><h3>Connect on LinkedIn</h3><p>Law exam strategy, updates and study tips from NET Law-Verse.</p></div>' +

@@ -315,15 +315,6 @@
   "mins": 4
  },
  {
-  "slug": "ai-fake-citations-supreme-court-nclt-pooja-ramesh-singh-2026",
-  "title": "AI Fake Citations: Supreme Court's 2026 Ruling Explained",
-  "description": "Supreme Court set aside NCLT and NCLAT orders built on AI-generated fake citations in Pooja Ramesh Singh v. J&K Bank.",
-  "date": "2026-11-22",
-  "updated": "2026-11-22",
-  "category": "Legal Current Affairs",
-  "mins": 3
- },
- {
   "slug": "apaar-id-supreme-court-2026-student-data-consent",
   "title": "APAAR ID Supreme Court 2026: Student Data and Consent",
   "description": "Supreme Court upholds the APAAR ID scheme in 2026 but requires an opt-out in the consent form and limits disclosure of student data.",
@@ -378,6 +369,69 @@
   "mins": 3
  },
  {
+  "slug": "cuet-pg-llm-admission-process-merit-list-counselling",
+  "title": "CUET PG LLM Admission Process: Scorecard, Merit List and Counselling",
+  "description": "CUET PG LLM admission process after the result: scorecard, university forms, merit lists, counselling, documents and what a good score means.",
+  "date": "2026-11-22",
+  "updated": "2026-11-22",
+  "category": "CUET PG",
+  "mins": 3
+ },
+ {
+  "slug": "cuet-pg-llm-eligibility-fee-registration-2027",
+  "title": "CUET PG LLM Eligibility, Fee and Registration 2027: Who Can Apply?",
+  "description": "CUET PG LLM 2027 eligibility, age limit, final-year rule, application fee and registration timeline. As per NTA's 2026 bulletin; 2027 bulletin expected in December.",
+  "date": "2026-11-22",
+  "updated": "2026-11-22",
+  "category": "CUET PG",
+  "mins": 4
+ },
+ {
+  "slug": "cuet-pg-llm-exam-pattern-marking-scheme-2027",
+  "title": "CUET PG LLM Exam Pattern and Marking Scheme: 75 Questions, +4 and -1",
+  "description": "CUET PG LLM exam pattern: 75 MCQs, 300 marks, +4 and -1 marking, 90 minutes, English and Hindi. How to attempt the paper and avoid negative marking.",
+  "date": "2026-11-22",
+  "updated": "2026-11-22",
+  "category": "CUET PG",
+  "mins": 3
+ },
+ {
+  "slug": "cuet-pg-llm-paper-analysis-trends-most-repeated-topics",
+  "title": "CUET PG LLM Paper Analysis: Difficulty, Trends and Most Repeated Topics",
+  "description": "CUET PG LLM paper analysis for 2024 to 2026: difficulty, subject-wise question estimates, question types, candidate numbers and the topics and cases that repeat.",
+  "date": "2026-11-22",
+  "updated": "2026-11-22",
+  "category": "CUET PG",
+  "mins": 3
+ },
+ {
+  "slug": "cuet-pg-llm-syllabus-2027-subject-wise-topics",
+  "title": "CUET PG LLM Syllabus 2027: Subject-Wise Topics and What to Study",
+  "description": "CUET PG LLM syllabus 2027 (COQP14): 30-plus law subjects from Constitution to International Trade, grouped as core, regular and occasional with topics to study.",
+  "date": "2026-11-22",
+  "updated": "2026-11-22",
+  "category": "CUET PG",
+  "mins": 4
+ },
+ {
+  "slug": "cuet-pg-llm-universities-list-2027",
+  "title": "Universities Accepting CUET PG LLM: Central, State and Private List",
+  "description": "Which universities accept CUET PG for LL.M.? DU, BHU, BBAU, central, state and private options, and why NLUs, NLU Delhi and Jamia are not on the list.",
+  "date": "2026-11-22",
+  "updated": "2026-11-22",
+  "category": "CUET PG",
+  "mins": 3
+ },
+ {
+  "slug": "cuet-pg-llm-vs-clat-pg-vs-ailet",
+  "title": "CUET PG LLM vs CLAT PG vs AILET: Which LL.M. Entrance Should You Take?",
+  "description": "CUET PG LLM vs CLAT PG vs AILET compared: questions, marks, negative marking, dates, seats and difficulty, and whether you can take all three.",
+  "date": "2026-11-22",
+  "updated": "2026-11-22",
+  "category": "CUET PG",
+  "mins": 3
+ },
+ {
   "slug": "death-penalty-hanging-rishi-malhotra-supreme-court-2026",
   "title": "Death by Hanging Upheld: Rishi Malhotra Ruling 2026",
   "description": "Rishi Malhotra v. Union of India (2026): Supreme Court keeps hanging, refuses to revisit Deena (1983) and finds lethal injection not shown to be more humane.",
@@ -415,8 +469,8 @@
  },
  {
   "slug": "electronic-evidence-section-63-bsa-certificate-bankers-books-evidence-bill-2026",
-  "title": "Electronic Evidence 2026: Section 63 BSA, Bankers' Books Act",
-  "description": "Electronic evidence 2026: Supreme Court upholds Section 63(4) BSA certificate; Part B expert certification open; Bankers' Books Evidence Act explained.",
+  "title": "Electronic Evidence 2026: Section 63 BSA, Bankers' Books Bill",
+  "description": "Electronic evidence in 2026: Supreme Court upholds Section 63(4) BSA certificate, Part B expert certification open, and the Bankers' Books Evidence Bill 2026.",
   "date": "2026-11-22",
   "updated": "2026-11-22",
   "category": "Legal Current Affairs",
@@ -450,6 +504,15 @@
   "mins": 4
  },
  {
+  "slug": "how-to-prepare-for-cuet-pg-llm-in-3-months",
+  "title": "How to Prepare for CUET PG LLM in 3 Months: Plan, Books and Mocks",
+  "description": "How to prepare for CUET PG LLM in 3 months: a month-by-month plan, commonly recommended books, daily hours, mocks and revision for the 75-question, +4/-1 paper.",
+  "date": "2026-11-22",
+  "updated": "2026-11-22",
+  "category": "CUET PG",
+  "mins": 3
+ },
+ {
   "slug": "human-trafficking-bonded-labour-supreme-court-directions-2026",
   "title": "Human Trafficking and Bonded Labour: Supreme Court 2026",
   "description": "Supreme Court on human trafficking and bonded labour in 2026: Prajwala victim protection plan and Surendra Manjhi directions under Articles 21 and 23.",
@@ -479,7 +542,7 @@
  {
   "slug": "kerala-to-keralam-name-change-article-3-2026",
   "title": "Kerala to Keralam: Article 3 Name Change Explained",
-  "description": "Kerala (Alteration of Name) Act 2026 explained: how Articles 3 and 4 let Parliament rename a state, the reference to the legislature and the process.",
+  "description": "Kerala (Alteration of Name) Bill 2026 explained: how Articles 3 and 4 let Parliament rename a state, the reference to the legislature and the process.",
   "date": "2026-11-22",
   "updated": "2026-11-22",
   "category": "Legal Current Affairs",
@@ -550,8 +613,8 @@
  },
  {
   "slug": "public-examinations-amendment-bill-2026-neet-paper-leak",
-  "title": "Public Examinations Amendment Act 2026: NEET Leak Law",
-  "description": "Public Examinations Amendment Act 2026 explained: tougher jail terms, two-month probe, fast-track courts and the NEET-UG 2026 paper leak behind it.",
+  "title": "Public Examinations Amendment Bill 2026: NEET Leak Law",
+  "description": "Public Examinations Amendment Bill 2026 explained: tougher jail terms, two-month probe, fast-track courts and the NEET-UG 2026 paper leak behind it.",
   "date": "2026-11-22",
   "updated": "2026-11-22",
   "category": "Legal Current Affairs",
@@ -631,8 +694,8 @@
  },
  {
   "slug": "tribunals-reforms-bill-2026-national-tribunals-commission",
-  "title": "Tribunals Reforms Act 2026: National Tribunals Commission",
-  "description": "Tribunals Reforms Act 2026 explained: the National Tribunals Commission, Articles 323A and 323B, Chandra Kumar and why it matters.",
+  "title": "Tribunals Reforms Bill 2026: National Tribunals Commission",
+  "description": "Tribunals Reforms Bill 2026 explained: the National Tribunals Commission, Articles 323A and 323B, Chandra Kumar and why it matters.",
   "date": "2026-11-22",
   "updated": "2026-11-22",
   "category": "Legal Current Affairs",
@@ -666,13 +729,13 @@
   "mins": 3
  },
  {
-  "slug": "viksit-bharat-shiksha-adhishthan-bill-ugc-aicte-ncte-2026",
-  "title": "Viksit Bharat Shiksha Adhishthan Bill: UGC Replaced?",
-  "description": "Viksit Bharat Shiksha Adhishthan Bill explained: one higher education regulator replacing UGC, AICTE, NCTE, three councils, penalties, JPC, UGC NET impact.",
+  "slug": "ai-fake-citations-supreme-court-nclt-pooja-ramesh-singh-2026",
+  "title": "AI Fake Citations: Supreme Court's 2026 Ruling Explained",
+  "description": "Supreme Court set aside NCLT and NCLAT orders built on AI-generated fake citations in Pooja Ramesh Singh v. J&K Bank.",
   "date": "2026-11-22",
   "updated": "2026-11-22",
-  "category": "UGC NET Updates",
-  "mins": 4
+  "category": "Legal Current Affairs",
+  "mins": 5
  },
  {
   "slug": "aibe-22-exam-pattern-passing-marks-last-week-plan",
@@ -929,7 +992,7 @@
  {
   "slug": "ugc-net-december-2026-exam-dates-schedule",
   "title": "UGC NET December 2026 Exam Dates: NTA Schedule",
-  "description": "NTA UGC NET December 2026 schedule: 14 to 18 and 21 December in two CBT shifts. Confirmed dates, finding your Law (058) slot and what to do now.",
+  "description": "NTA has released the UGC NET December 2026 schedule: 14 to 18 and 21 December in two CBT shifts. Confirmed dates, finding your Law (058) slot, and what to do now.",
   "date": "2026-11-21",
   "updated": "2026-11-21",
   "category": "UGC NET Updates",
