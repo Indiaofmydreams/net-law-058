@@ -18,7 +18,7 @@ SITE = "https://netlawverse.in"
 IG = "https://www.instagram.com/netlawverse/"
 LI = "https://www.linkedin.com/in/net-law-verse-82264b445/"
 TODAY = datetime.date.today()
-CATS = ["UGC NET Updates", "CLAT PG", "AILET LLM", "CUET PG", "AIBE", "Legal Current Affairs", "Preparation Guides"]
+CATS = ["UGC NET Updates", "CLAT PG", "AILET LLM", "CUET PG", "AIBE", "Legal Current Affairs", "Preparation Guides", "Law Explained"]
 def _v(name):
     return hashlib.md5((ROOT / "blog" / name).read_bytes()).hexdigest()[:8]
 esc = lambda s: html.escape(str(s), quote=True)

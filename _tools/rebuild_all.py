@@ -15,9 +15,14 @@ for f in sorted(glob.glob("blog/*.html")):
     date = g(r'<time datetime="(\d{4}-\d{2}-\d{2})"') or "2026-01-01"
     cat = html.unescape(g(r'class="bl-cat[^"]*"[^>]*>([^<]+)<')) or "Legal Current Affairs"
     stubs.append(dict(slug=slug, title=title, description=html.unescape(g(r'name="description" content="(.*?)"')), date=date, updated=date,
-                      category=cat, mins=int(g(r"(\d+) min read") or 3), tags=[], related=[], sources=[], faq=[],
+                      category=cat, mins=int(g(r"(\d+) min read") or 3), tags=[x.strip() for x in html.unescape(g(r'name="keywords" content="(.*?)"')).split(',') if x.strip()][:8], related=[], sources=[], faq=[],
                       body="<h2>x</h2><p>x</p><h2>y</h2><p>y</p><h2>z</h2><p>z</p>"))
     print("kept hand-made page (no _src):", slug)
+old = json.load(open("blog/posts.json", encoding="utf-8")) if os.path.exists("blog/posts.json") else []
+listed = have | {s["slug"] for s in stubs}
+for o in old:  # keep anything already listed in posts.json even if its source or page is not in this copy of the project
+    if o["slug"] not in listed:
+        stubs.append(dict(o, tags=[], related=[], sources=[], faq=[], body="<h2>x</h2><p>x</p><h2>y</h2><p>y</p><h2>z</h2><p>z</p>")); print("kept from posts.json:", o["slug"])
 allp = sorted(posts + stubs, key=lambda p: (p["updated"], p["date"]), reverse=True)
 for p in posts: (OUT / f"{p['slug']}.html").write_text(ns["build_post"](p, allp), encoding="utf-8")
 (OUT / "index.html").write_text(ns["build_index"](allp), encoding="utf-8")
