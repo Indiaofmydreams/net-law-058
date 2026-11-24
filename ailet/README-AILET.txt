@@ -7,7 +7,8 @@ PAGES
   what-is-ailet.html  Exam guide: at a glance, key dates, pattern, marking, tie-break, eligibility, seats,
                       other AILET papers, AILET vs CLAT PG, past-paper trends, how to prepare, sources
   syllabus.html       13 official branches + allied areas, 104 topics, cases to know, covered/revised tracker
-  practice.html       Practice Arena + Mock tests + My mistakes + Bookmarks + Progress (one page, hash tabs)
+  practice.html       Practice Arena + My mistakes + Bookmarks + Progress (one page, hash tabs; no timer)
+  mock-tests.html     Timed mock tests list (8 papers) -> mock-test-1.html ... mock-test-8.html
   faq.html            15 questions with FAQ structured data
   ailet.css, ailet-embed.js   styles; embed behaviour for the app
 
@@ -16,9 +17,25 @@ ENGINE
   AILET behaviour comes from window.PRACTICE_CFG in practice.html (storage key "ailet-practice-v1", mocks on).
   CLAT PG pages are unaffected (they set no config, so the original behaviour applies).
 
-NO TIMER
-  Nothing on the AILET practice or mock pages counts down or records time. The real paper's 120 minutes is
-  mentioned only as information.
+PRACTICE ARENA vs TIMED MOCKS
+  The Practice Arena (practice.html) has no timer. The mock tests are a separate, timed section (see below).
+
+TIMED MOCK TESTS (mock-tests.html, mock-test-1.html ... mock-test-8.html)
+  Modelled on the CLAT PG mock architecture (clat-pg/clat-mock-engine.js, ../clat-pg/clat-mock.css): intro page,
+  120-minute timer that survives refresh, green-to-red time meter, question palette (grouped by branch),
+  mark for review, clear response, negative marking (-0.25), auto-submit at zero, result analysis (score band,
+  preparation assessment, pace chart, time per branch, branch-wise table, weak topics, full answer review),
+  share buttons, report-a-question button and the NETLAWVERSE.IN watermark (watermark.css via .mt-q / .mt-rc).
+  Pattern is the official AILET LL.M. one: ONE paper of 100 standalone MCQs, 100 marks, 120 minutes, no sections.
+  Files:   ailet-mock-engine.js (engine), ailet-mock-home.js (card list), ailet-mock-meta.js (list of mocks),
+           ailet-mock-data-N.js (one per paper: window.AILETMOCK), mock-test-N.html, mock-tests.html,
+           styles in ailet.css (section "AILET timed mock tests") on top of ../clat-pg/clat-mock.css.
+  Storage: localStorage "ailet-mock-N-attempt" (in progress) and "ailet-mock-N-result" (last result).
+  Part B:  each source paper also had 2 subjective questions; they are shown as OPTIONAL writing practice on the
+           result screen (not scored), because the official LL.M. paper is MCQ only.
+  Add a 9th mock: add ailet-mock-data-9.js (same shape as data-1), an entry in ailet-mock-meta.js, copy
+           mock-test-8.html to mock-test-9.html (change the data-N, title, canonical and script src), add to sitemap.xml.
+  Old links to practice.html#mocks now redirect to mock-tests.html.
 
 ADDING CONTENT (no code changes needed)
   1. Practice set:  copy practice/_template-set.json -> practice/set-01.json, fill in, and add an entry to

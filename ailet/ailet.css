@@ -88,3 +88,21 @@ html.emb .wrap{padding-left:12px;padding-right:12px}
 .al-grid.f3{grid-template-columns:repeat(3,1fr)}
 @media(max-width:1000px){.al-grid.f3{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:640px){.al-grid.f3{grid-template-columns:1fr}}
+
+/* ---------- AILET timed mock tests (ailet/mock-test-N.html, mock-tests.html) ---------- */
+/* One paper of standalone MCQs: no passage column, so the exam grid is question + palette. */
+.cm-grid.am-grid{grid-template-columns:minmax(0,1fr) 300px}
+.am-grid .mt-q{min-height:420px}
+.am-qh{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:10px}.am-qh .cm-meta{margin:0}
+.am-grid .cm-qt{font-size:calc(1.18rem*var(--cm-fs));line-height:1.6}
+.am-grid .cm-opt{font-size:calc(1.02rem*var(--cm-fs))}
+.am-grid .cm-pgr{grid-template-columns:38px 1fr}.am-grid .cm-pgl{font-size:.68rem;letter-spacing:.02em}
+.am-grid .cm-pgb{grid-template-columns:repeat(6,1fr)}
+.am-key{margin-top:10px;font-size:.78rem;font-weight:700}.am-key summary{cursor:pointer;font-weight:800;padding:4px 0}
+.am-key ul{list-style:none;margin:6px 0 0;padding:0;display:grid;gap:4px}.am-key li{line-height:1.35}.am-key b{display:inline-block;min-width:34px}.am-key small{opacity:.65}
+.cm-exam .al-tabs{display:none}
+.am-vf{font-size:.85rem;font-weight:800;background:#fff1b8;border:2px solid var(--ink);border-radius:10px;padding:6px 10px}
+.am-wb .am-bq{border:3px solid var(--ink);border-radius:16px;background:#fff;padding:10px 14px;margin:10px 0}
+.am-bq summary{cursor:pointer;font-weight:800}.am-bq .am-bqt{font-weight:700;line-height:1.6;margin:10px 0}.am-bq h3{margin:10px 0 4px;font-size:1rem}.am-bq ol{margin:0;padding-left:20px;line-height:1.6;font-weight:600}
+@media(max-width:1180px){.cm-grid.am-grid{grid-template-columns:1fr}.am-grid .cm-side{grid-column:auto}}
+@media(max-width:820px){.am-grid .mt-q{min-height:0}.am-qh{flex-direction:column}}
