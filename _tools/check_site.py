@@ -10,11 +10,12 @@ rd = lambda p: open(p, encoding="utf-8").read()
 src = {os.path.basename(f)[:-5] for f in glob.glob("blog/_src/*.html") if not os.path.basename(f).startswith("_")}
 pages = {os.path.basename(f)[:-5] for f in glob.glob("blog/*.html")} - {"index"}
 posts = json.load(open("blog/posts.json", encoding="utf-8")); pj = [p["slug"] for p in posts]
-expected = src | UNLISTED_OK
+expected = src | (pages & set(pj)) | UNLISTED_OK   # hand-made pages count once they are listed in posts.json
 for s in sorted(src - pages): err.append(f"no built page for source: blog/{s}.html (run _tools/build_blog.py)")
-for s in sorted(pages - src - UNLISTED_OK): warn.append(f"blog page without source (keep it listed by running _tools/rebuild_all.py, not build_blog.py): {s}")
+for s in sorted(pages - src - UNLISTED_OK - set(pj)): err.append(f"blog page is not listed in posts.json (run _tools/rebuild_all.py): {s}")
+for s in sorted((pages - src) & set(pj)): warn.append(f"hand-made page (no _src), kept listed by rebuild_all.py: {s}")
 for s in sorted(expected - set(pj)): err.append(f"missing from blog/posts.json: {s}")
-for s in sorted(set(pj) - expected): err.append(f"in posts.json but no source or page: {s}")
+for s in sorted(set(pj) - src - pages - UNLISTED_OK): err.append(f"in posts.json but its page file is missing: blog/{s}.html")
 if len(pj) != len(set(pj)): err.append("duplicate slugs in posts.json")
 idx, feed, smb, sm = rd("blog/index.html"), rd("blog/feed.xml"), rd("sitemap-blog.xml"), rd("sitemap.xml")
 for s in sorted(expected):

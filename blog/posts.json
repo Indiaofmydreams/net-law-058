@@ -9,6 +9,24 @@
   "mins": 2
  },
  {
+  "slug": "aibe-bare-act-strategy-what-to-carry-and-how-to-use-it",
+  "title": "AIBE Bare Act Strategy: What to Carry and How to Use It",
+  "description": "AIBE bare act strategy: what recent sessions allowed, why clean copies matter, how to use a bare act in 3 hours 30 minutes and a 100-question plan.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "AIBE",
+  "mins": 5
+ },
+ {
+  "slug": "ailet-llm-mock-test-strategy-100-questions-120-minutes",
+  "title": "AILET LLM Mock Strategy: 100 Questions in 120 Minutes",
+  "description": "How to attempt an AILET LL.M. mock: two-pass method for 100 questions in 120 minutes, branch-wise order, the 0.25 penalty rule, pacing checkpoints and review.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "AILET LLM",
+  "mins": 5
+ },
+ {
   "slug": "army-jag-navy-air-force-legal-careers-after-llb-llm",
   "title": "Army JAG and Armed Forces Legal Careers After LLB or LLM",
   "description": "Army JAG entry explained: eligibility, age, SSB selection, training, vacancies, pay level and similar legal branches in the Navy and Air Force.",
@@ -36,6 +54,24 @@
   "mins": 2
  },
  {
+  "slug": "clat-pg-ailet-cuet-pg-together-one-combined-study-calendar",
+  "title": "CLAT PG, AILET and CUET PG Together: One Combined Study Calendar",
+  "description": "Preparing for CLAT PG, AILET and CUET PG together? Use one shared core, a common calendar and exam-specific add-ons, with dates, an overlap table and a plan.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "Preparation Guides",
+  "mins": 5
+ },
+ {
+  "slug": "clat-pg-mock-test-strategy-attempt-order-timing-skipping",
+  "title": "CLAT PG Mock Strategy: Attempt Order, Timing and Skipping Rules",
+  "description": "How to attempt a CLAT PG mock: choosing passage order, timing 120 questions in 120 minutes, skipping rules for the 0.25 penalty and a review routine that works.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "CLAT PG",
+  "mins": 6
+ },
+ {
   "slug": "clat-pg-score-to-career-plan-which-goal-fits-you",
   "title": "CLAT PG Score to Career Plan: Which Goal Fits You?",
   "description": "Plan your career from your CLAT PG score: NLU seat, PSU shortlist, teaching, judiciary, regulators, a backup plan and a one-year timeline.",
@@ -43,6 +79,105 @@
   "updated": "2026-11-24",
   "category": "CLAT PG",
   "mins": 2
+ },
+ {
+  "slug": "constitutional-law-for-llm-entrances-cases-articles-amendments",
+  "title": "Constitutional Law for LLM Entrances: Cases, Articles, Amendments",
+  "description": "How to study Constitutional Law for CLAT PG, AILET, CUET PG and UGC NET: study order, Article blocks, key cases, amendments and a revision method that sticks.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "CLAT PG",
+  "mins": 5
+ },
+ {
+  "slug": "criminal-law-for-law-exams-bns-bnss-bsa-without-confusion",
+  "title": "Criminal Law for Law Exams: BNS, BNSS, BSA Without Confusion",
+  "description": "How to study criminal law for CLAT PG, CUET PG, AIBE and UGC NET now that BNS, BNSS and BSA replace the IPC, CrPC and Evidence Act: tables, a method and traps.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "Preparation Guides",
+  "mins": 5
+ },
+ {
+  "slug": "cuet-pg-llm-mock-test-strategy-75-questions-90-minutes",
+  "title": "CUET PG LLM Mock Strategy: 75 Questions in 90 Minutes",
+  "description": "How to attempt a CUET PG LLM mock: a three-pass method for 75 questions in 90 minutes, the plus 4, minus 1 rule, subject order, checkpoints and a mock ladder.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "CUET PG",
+  "mins": 5
+ },
+ {
+  "slug": "exam-day-strategy-for-law-exams-night-before-to-last-10-minutes",
+  "title": "Exam Day Strategy for Law Exams: Night Before to the Last 10 Minutes",
+  "description": "An exam-day plan for CLAT PG, AILET, CUET PG, AIBE and UGC NET: night before, what to carry, first ten minutes, OMR and computer tips, last ten minutes.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "Preparation Guides",
+  "mins": 5
+ },
+ {
+  "slug": "how-many-mock-tests-are-enough-for-law-exams",
+  "title": "How Many Mock Tests Are Enough for a Law Exam? Exam-Wise Numbers",
+  "description": "How many mock tests to take for CLAT PG, AILET, CUET PG, AIBE and UGC NET: realistic numbers, when to start, how to space them and why review matters more.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "Preparation Guides",
+  "mins": 5
+ },
+ {
+  "slug": "how-to-analyse-a-mock-test-error-log-law-exams",
+  "title": "How to Analyse a Mock Test: The Error Log That Raises Your Score",
+  "description": "How to analyse a mock test for law exams: classify every error, track accuracy and time, and turn mistakes into a revision list that raises your score.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "Preparation Guides",
+  "mins": 6
+ },
+ {
+  "slug": "how-to-make-short-notes-for-law-exams-one-page-subject-sheet",
+  "title": "How to Make Short Notes for Law Exams: The One-Page Subject Sheet",
+  "description": "How to compress a law subject into a one-page sheet: what to include, a Contract Law sample, handwritten versus digital, and when to stop making notes.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "Preparation Guides",
+  "mins": 5
+ },
+ {
+  "slug": "how-to-memorise-case-laws-articles-and-sections",
+  "title": "How to Memorise Case Laws, Articles and Sections: 7 Methods That Work",
+  "description": "Seven methods to memorise case laws, Constitution Articles and BNS/IPC sections for law exams: case cards, number maps, mnemonics, chunking and recall drills.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "Preparation Guides",
+  "mins": 5
+ },
+ {
+  "slug": "how-to-prepare-for-a-law-exam-while-working-or-in-final-year",
+  "title": "How to Prepare for a Law Exam While Working or in Final-Year LL.B.",
+  "description": "A realistic timetable to prepare for CLAT PG, UGC NET, CUET PG or AIBE while working a job or in final-year LL.B.: weekly hours, commute use and what to cut.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "Preparation Guides",
+  "mins": 5
+ },
+ {
+  "slug": "how-to-revise-law-subjects-spaced-repetition-schedule",
+  "title": "How to Revise Law Subjects: A Spaced Repetition Schedule That Works",
+  "description": "A practical spaced repetition schedule for law subjects: when to revise after first reading, how to use recall, and a 30-day revision calendar for law exams.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "Preparation Guides",
+  "mins": 5
+ },
+ {
+  "slug": "how-to-use-practice-questions-topic-wise-first-mixed-later",
+  "title": "How to Use Practice Questions: Topic-Wise First, Mixed Sets Later",
+  "description": "How to use practice questions for law exams in four stages: topic-wise, subject-wise, mixed sets, then full mocks. Daily volume, review and bookmarks.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "Preparation Guides",
+  "mins": 5
  },
  {
   "slug": "in-house-counsel-corporate-legal-jobs-packages",
@@ -70,6 +205,33 @@
   "updated": "2026-11-24",
   "category": "CLAT PG",
   "mins": 2
+ },
+ {
+  "slug": "last-30-days-before-a-law-exam-week-by-week-checklist",
+  "title": "Last 30 Days Before a Law Exam: Week-by-Week Checklist",
+  "description": "A week-by-week checklist for the last 30 days before CLAT PG, AILET, CUET PG, AIBE or UGC NET: gaps, mocks, revision, documents, sleep and the final three days.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "Preparation Guides",
+  "mins": 5
+ },
+ {
+  "slug": "law-exam-study-plan-backward-planning-from-exam-date",
+  "title": "How to Make a Law Exam Study Plan: Plan Backwards From the Exam Date",
+  "description": "Build a law exam study plan by working backwards from the exam date: phases, subject tiers, mocks, revision, daily hours and the real 2026-27 exam dates.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "Preparation Guides",
+  "mins": 6
+ },
+ {
+  "slug": "legal-current-affairs-for-law-exams-20-minute-daily-routine",
+  "title": "Legal Current Affairs for Law Exams: A 20-Minute Daily Routine",
+  "description": "How much legal current affairs you need for CLAT PG, UGC NET, CUET PG and AIBE, plus a 20-minute daily routine with sources, a card format and weekly review.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "Preparation Guides",
+  "mins": 5
  },
  {
   "slug": "llm-abroad-vs-india-cost-roi",
@@ -106,6 +268,24 @@
   "updated": "2026-11-24",
   "category": "CLAT PG",
   "mins": 2
+ },
+ {
+  "slug": "low-mock-scores-14-day-recovery-plan-law-exams",
+  "title": "Low Mock Scores? A 14-Day Recovery Plan for Law Exams",
+  "description": "Low mock scores before a law exam? Diagnose the cause, follow a 14-day recovery plan and decide honestly whether to attempt or postpone. For CLAT PG, NET, AIBE.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "Preparation Guides",
+  "mins": 5
+ },
+ {
+  "slug": "negative-marking-law-exams-when-to-guess-or-skip",
+  "title": "Negative Marking in Law Exams: When to Guess and When to Skip",
+  "description": "Negative marking in CLAT PG, AILET, CUET PG, AIBE and UGC NET: expected-value tables, break-even accuracy and a simple rule for when to guess or skip.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "Preparation Guides",
+  "mins": 6
  },
  {
   "slug": "nlu-llm-placements-packages-average-median",
@@ -207,6 +387,15 @@
   "mins": 2
  },
  {
+  "slug": "self-study-coaching-or-test-series-how-to-decide-law-exams",
+  "title": "Self-Study, Coaching or Test Series? How to Decide for a Law Exam",
+  "description": "Should you self-study, join coaching or buy a test series for a law exam? A decision guide by situation, a checklist for judging providers and free options.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "Preparation Guides",
+  "mins": 5
+ },
+ {
   "slug": "supreme-court-law-clerk-research-associate-pay",
   "title": "Supreme Court Law Clerk-cum-Research Associate: Pay and Entry",
   "description": "Supreme Court law clerk-cum-research associate 2026-27: eligibility, ₹1 lakh consolidated pay, selection, contract term and how it helps a legal career.",
@@ -214,6 +403,42 @@
   "updated": "2026-11-24",
   "category": "CLAT PG",
   "mins": 2
+ },
+ {
+  "slug": "time-per-question-law-exams-clat-pg-ailet-cuet-aibe-ugc-net",
+  "title": "Time Per Question in Law Exams: CLAT PG, AILET, CUET PG, AIBE, NET",
+  "description": "How many seconds per question you get in CLAT PG, AILET, CUET PG, AIBE and UGC NET, and a pacing plan with checkpoints for each exam.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "Preparation Guides",
+  "mins": 6
+ },
+ {
+  "slug": "ugc-net-paper-1-and-law-058-time-split-three-hours",
+  "title": "UGC NET: How to Split 3 Hours Between Paper 1 and Law (058)",
+  "description": "How to split the three-hour UGC NET sitting between Paper 1 and Law (058): time budgets, which paper first, checkpoints and how to rehearse it in mocks.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "Preparation Guides",
+  "mins": 5
+ },
+ {
+  "slug": "ugc-net-paper-1-and-law-058-together-60-day-plan",
+  "title": "UGC NET Paper 1 and Law (058) Together: A 60-Day Plan",
+  "description": "A 60-day plan for UGC NET Paper 1 and Law (058) together: daily time split, unit priorities, mock rhythm and revision, for the next session or a late start.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "Preparation Guides",
+  "mins": 5
+ },
+ {
+  "slug": "ugc-net-paper-1-attempt-strategy-no-negative-marking",
+  "title": "UGC NET Paper 1 Attempt Strategy: Order, Timing and Guessing",
+  "description": "How to attempt UGC NET Paper 1: question order, seconds per unit, handling reasoning and passages, and why to answer every question when there is no penalty.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "Preparation Guides",
+  "mins": 5
  },
  {
   "slug": "which-psus-recruit-through-clat-pg",
