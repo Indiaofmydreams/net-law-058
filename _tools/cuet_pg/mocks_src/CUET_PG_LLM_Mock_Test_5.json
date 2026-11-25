@@ -1,0 +1,1070 @@
+{
+  "exam": "CUET (PG) 2027 - LL.M. (Law) Mock Test 5",
+  "paper_code": "COQP09 (Law) - pattern based",
+  "total_questions": 75,
+  "duration_minutes": 90,
+  "total_marks": 300,
+  "marking_scheme": {
+    "correct": 4,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "answer_distribution": {
+    "A": 19,
+    "B": 19,
+    "C": 19,
+    "D": 18
+  },
+  "questions": [
+    {
+      "id": 1,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "In Re Berubari Union (1960), the Supreme Court held that the Preamble is:",
+      "options": {
+        "A": "A source of substantive power for Parliament",
+        "B": "A part of the Constitution and enforceable",
+        "C": "A limitation on the amending power",
+        "D": "Not a part of the Constitution"
+      },
+      "answer": "D",
+      "explanation": "Berubari treated the Preamble as a key to the mind of the framers but not part of the Constitution; Kesavananda overruled this."
+    },
+    {
+      "id": 2,
+      "subject": "Constitutional Law",
+      "difficulty": "Easy",
+      "question": "The words 'Socialist', 'Secular' and 'Integrity' were added to the Preamble by the:",
+      "options": {
+        "A": "24th Amendment, 1971",
+        "B": "52nd Amendment, 1985",
+        "C": "42nd Amendment, 1976",
+        "D": "44th Amendment, 1978"
+      },
+      "answer": "C",
+      "explanation": "The 42nd Amendment is often called the 'mini-Constitution'."
+    },
+    {
+      "id": 3,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "For the purposes of Article 13, the term 'law' includes:",
+      "options": {
+        "A": "Only laws made by Parliament or State Legislatures",
+        "B": "Only statutes enacted after 1950",
+        "C": "Ordinances, bye-laws and customs with force of law",
+        "D": "Only judgments of the Supreme Court"
+      },
+      "answer": "C",
+      "explanation": "Article 13(3)(a) gives an inclusive definition covering ordinances, orders, bye-laws, rules, regulations, notifications, custom or usage."
+    },
+    {
+      "id": 4,
+      "subject": "Constitutional Law",
+      "difficulty": "Easy",
+      "question": "Untouchability is abolished and its practice forbidden in any form by:",
+      "options": {
+        "A": "Article 23",
+        "B": "Article 17",
+        "C": "Article 15(2)",
+        "D": "Article 16(4)"
+      },
+      "answer": "B",
+      "explanation": "Article 17 is enforced through the Protection of Civil Rights Act, 1955."
+    },
+    {
+      "id": 5,
+      "subject": "Constitutional Law",
+      "difficulty": "Hard",
+      "question": "In Nandini Satpathy v. P.L. Dani, the Supreme Court held that Article 20(3) extends to:",
+      "options": {
+        "A": "Questioning by the police during investigation",
+        "B": "Only witnesses who are not accused",
+        "C": "Only confessions made before a magistrate in court",
+        "D": "Only statements made in a court trial"
+      },
+      "answer": "A",
+      "explanation": "The right against self-incrimination applies from the stage of interrogation, and the accused may remain silent."
+    },
+    {
+      "id": 6,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "Freedom of the press was read into Article 19(1)(a) in:",
+      "options": {
+        "A": "Chintaman Rao v. State of M.P. (1950)",
+        "B": "Romesh Thappar v. State of Madras (1950)",
+        "C": "Ranjit Udeshi v. State of Maharashtra (1965)",
+        "D": "State of Madras v. V.G. Row (1952)"
+      },
+      "answer": "B",
+      "explanation": "The Court struck down a ban on circulation of a journal as violating freedom of speech and expression."
+    },
+    {
+      "id": 7,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "In Shamsher Singh v. State of Punjab, the Supreme Court held that the President and Governor ordinarily act on:",
+      "options": {
+        "A": "The advice of the Chief Justice",
+        "B": "Their own personal discretion in all matters of State",
+        "C": "The orders of the Election Commission",
+        "D": "The aid and advice of the Council of Ministers"
+      },
+      "answer": "D",
+      "explanation": "The President and Governors are constitutional heads, except in matters where the Constitution gives discretion."
+    },
+    {
+      "id": 8,
+      "subject": "Constitutional Law",
+      "difficulty": "Hard",
+      "question": "Unlike the President, the Governor under Article 161 cannot grant:",
+      "options": {
+        "A": "A commutation of a sentence",
+        "B": "A pardon of a sentence of death",
+        "C": "A suspension of a sentence",
+        "D": "A remission of the whole sentence"
+      },
+      "answer": "B",
+      "explanation": "The Governor can suspend, remit or commute a death sentence, but only the President can pardon it."
+    },
+    {
+      "id": 9,
+      "subject": "Constitutional Law",
+      "difficulty": "Easy",
+      "question": "Article 129 declares the Supreme Court to be:",
+      "options": {
+        "A": "A court of record",
+        "B": "A federal tribunal only",
+        "C": "A court of appeal only",
+        "D": "A constitutional commission"
+      },
+      "answer": "A",
+      "explanation": "A court of record has power to punish for its own contempt."
+    },
+    {
+      "id": 10,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "Control over district courts and courts subordinate to them is vested by Article 235 in:",
+      "options": {
+        "A": "The State Government",
+        "B": "The High Court",
+        "C": "The Supreme Court",
+        "D": "The Governor alone"
+      },
+      "answer": "B",
+      "explanation": "Article 235 secures the independence of the subordinate judiciary from the executive."
+    },
+    {
+      "id": 11,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "A joint sitting of both Houses of Parliament under Article 108 is presided over by the:",
+      "options": {
+        "A": "Prime Minister",
+        "B": "Chairman of the Rajya Sabha",
+        "C": "Vice-President",
+        "D": "Speaker of the Lok Sabha"
+      },
+      "answer": "D",
+      "explanation": "A joint sitting resolves a deadlock on an ordinary Bill; it cannot be held for Money Bills or Constitution Amendment Bills."
+    },
+    {
+      "id": 12,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "The right to live with human dignity, including protection against bonded labour, was affirmed under Article 21 in:",
+      "options": {
+        "A": "Vishaka v. State of Rajasthan",
+        "B": "Lily Thomas v. Union of India",
+        "C": "Bandhua Mukti Morcha v. Union of India",
+        "D": "Mohd. Ahmed Khan v. Shah Bano Begum"
+      },
+      "answer": "C",
+      "explanation": "The Court linked Article 21 with Directive Principles to define the minimum conditions of a dignified life."
+    },
+    {
+      "id": 13,
+      "subject": "Constitutional Law",
+      "difficulty": "Hard",
+      "question": "The majority in ADM Jabalpur v. Shivkant Shukla (1976), later declared wrong in Puttaswamy, held that during an Emergency:",
+      "options": {
+        "A": "Preventive detention was always unconstitutional",
+        "B": "Parliament could not suspend any right",
+        "C": "Enforcement of Article 21 could be suspended",
+        "D": "Courts retained full power to review detention"
+      },
+      "answer": "C",
+      "explanation": "The Puttaswamy Bench described ADM Jabalpur as seriously flawed."
+    },
+    {
+      "id": 14,
+      "subject": "Jurisprudence",
+      "difficulty": "Hard",
+      "question": "The realist theory of corporate personality, treating a group as a real entity, is associated with:",
+      "options": {
+        "A": "Friedrich Savigny",
+        "B": "Roscoe Pound",
+        "C": "Hans Kelsen",
+        "D": "Otto von Gierke"
+      },
+      "answer": "D",
+      "explanation": "Savigny's fiction theory holds that corporate personality is a legal fiction; Gierke held a group has a real will."
+    },
+    {
+      "id": 15,
+      "subject": "Jurisprudence",
+      "difficulty": "Medium",
+      "question": "The labour theory of property is associated with:",
+      "options": {
+        "A": "Thomas Hobbes",
+        "B": "John Stuart Mill",
+        "C": "John Locke",
+        "D": "David Hume"
+      },
+      "answer": "C",
+      "explanation": "Locke argued that mixing labour with unowned things creates property rights."
+    },
+    {
+      "id": 16,
+      "subject": "Jurisprudence",
+      "difficulty": "Easy",
+      "question": "The reformative theory of punishment emphasises:",
+      "options": {
+        "A": "Incapacitation of the offender",
+        "B": "Rehabilitation of the offender",
+        "C": "Retribution for the wrong",
+        "D": "Deterrence of other persons"
+      },
+      "answer": "B",
+      "explanation": "It treats crime as a social disease and aims at the reform of the criminal."
+    },
+    {
+      "id": 17,
+      "subject": "Jurisprudence",
+      "difficulty": "Medium",
+      "question": "For Austin, the sovereign is a determinate human superior who:",
+      "options": {
+        "A": "Receives habitual obedience and obeys no one",
+        "B": "Derives power from custom",
+        "C": "Is elected by the people",
+        "D": "Is bound by natural law and morality"
+      },
+      "answer": "A",
+      "explanation": "Austin's sovereign is legally unlimited and is the source of command."
+    },
+    {
+      "id": 18,
+      "subject": "Jurisprudence",
+      "difficulty": "Medium",
+      "question": "Rights over a person's own property, such as ownership, are called:",
+      "options": {
+        "A": "Rights in personam",
+        "B": "Proprietary rights",
+        "C": "Political rights",
+        "D": "Personal rights"
+      },
+      "answer": "B",
+      "explanation": "Proprietary rights relate to property; personal rights relate to a person's status, body or reputation."
+    },
+    {
+      "id": 19,
+      "subject": "Jurisprudence",
+      "difficulty": "Hard",
+      "question": "The 'entitlement theory' of justice and the idea of the minimal State are associated with:",
+      "options": {
+        "A": "Ronald Dworkin",
+        "B": "Amartya Sen",
+        "C": "John Rawls",
+        "D": "Robert Nozick"
+      },
+      "answer": "D",
+      "explanation": "Nozick's Anarchy, State, and Utopia defends a libertarian view."
+    },
+    {
+      "id": 20,
+      "subject": "Jurisprudence",
+      "difficulty": "Hard",
+      "question": "The theory of 'social solidarity' in law was propounded by:",
+      "options": {
+        "A": "Rudolf Stammler",
+        "B": "Jeremy Bentham",
+        "C": "Léon Duguit",
+        "D": "Eugen Ehrlich"
+      },
+      "answer": "C",
+      "explanation": "Duguit rejected natural rights and said law rests on the social fact of interdependence."
+    },
+    {
+      "id": 21,
+      "subject": "Law of Contract",
+      "difficulty": "Medium",
+      "question": "In Lalman Shukla v. Gauri Dutt, the claimant could not recover the reward because he:",
+      "options": {
+        "A": "Was not a resident of that town at the time",
+        "B": "Delivered the boy late",
+        "C": "Had already been paid by another person",
+        "D": "Acted without knowledge of the offer"
+      },
+      "answer": "D",
+      "explanation": "Acceptance of a general offer requires knowledge of the offer."
+    },
+    {
+      "id": 22,
+      "subject": "Law of Contract",
+      "difficulty": "Medium",
+      "question": "In Felthouse v. Bindley, the court held that:",
+      "options": {
+        "A": "Offers cannot be revoked",
+        "B": "Consideration is not required",
+        "C": "Acceptance may validly be made by silence",
+        "D": "Silence cannot be imposed as acceptance"
+      },
+      "answer": "D",
+      "explanation": "The offeror cannot make the offeree's silence an acceptance."
+    },
+    {
+      "id": 23,
+      "subject": "Law of Contract",
+      "difficulty": "Easy",
+      "question": "In Balfour v. Balfour, agreements between spouses for domestic arrangements were held to:",
+      "options": {
+        "A": "Be voidable at the wife's option",
+        "B": "Require a registered deed",
+        "C": "Lack intention to create legal relations",
+        "D": "Be void for want of any lawful consideration"
+      },
+      "answer": "C",
+      "explanation": "Social and domestic agreements are presumed not to be intended as legally binding."
+    },
+    {
+      "id": 24,
+      "subject": "Law of Contract",
+      "difficulty": "Easy",
+      "question": "Under the Indian Majority Act, 1875, a person ordinarily attains majority at:",
+      "options": {
+        "A": "21 years in all cases, irrespective of guardian",
+        "B": "18 years, or 21 if a guardian was appointed",
+        "C": "25 years for business",
+        "D": "16 years for contracts"
+      },
+      "answer": "B",
+      "explanation": "Under the Act, majority is 18 years, but 21 where a guardian of person or property has been appointed by a court."
+    },
+    {
+      "id": 25,
+      "subject": "Law of Contract",
+      "difficulty": "Medium",
+      "question": "Under Section 16 of the Contract Act, undue influence exists where one party is in a position to:",
+      "options": {
+        "A": "Dominate the will of the other",
+        "B": "Hold the other's property",
+        "C": "Appear before a court",
+        "D": "Give a large gift to the other party"
+      },
+      "answer": "A",
+      "explanation": "The dominant party uses that position to obtain an unfair advantage."
+    },
+    {
+      "id": 26,
+      "subject": "Law of Contract",
+      "difficulty": "Hard",
+      "question": "Under Section 24 of the Contract Act, where part of the object is unlawful and cannot be separated, the agreement is:",
+      "options": {
+        "A": "Void as a whole",
+        "B": "Valid in all cases",
+        "C": "Void only for the unlawful promisor",
+        "D": "Voidable at the court's option"
+      },
+      "answer": "A",
+      "explanation": "If the lawful and unlawful parts can be severed, the lawful part may be enforced."
+    },
+    {
+      "id": 27,
+      "subject": "Law of Contract",
+      "difficulty": "Easy",
+      "question": "A contract by which one party promises to save the other from loss caused by the promisor's own conduct is:",
+      "options": {
+        "A": "A contingent contract",
+        "B": "A contract of guarantee",
+        "C": "A contract of indemnity",
+        "D": "A contract of bailment"
+      },
+      "answer": "C",
+      "explanation": "Section 124 defines the contract of indemnity."
+    },
+    {
+      "id": 28,
+      "subject": "Law of Torts",
+      "difficulty": "Easy",
+      "question": "Battery in tort consists of:",
+      "options": {
+        "A": "Interference with the use and enjoyment of land",
+        "B": "Intentional application of force to a person",
+        "C": "Mere threat of immediate harm without contact",
+        "D": "Damage to another's reputation"
+      },
+      "answer": "B",
+      "explanation": "Assault is the threat; battery is the actual contact."
+    },
+    {
+      "id": 29,
+      "subject": "Law of Torts",
+      "difficulty": "Medium",
+      "question": "Conversion in tort means:",
+      "options": {
+        "A": "Transfer of goods by lawful sale",
+        "B": "Damage caused to land by a neighbour",
+        "C": "Changing of religion by force",
+        "D": "Wrongful dealing with another's goods"
+      },
+      "answer": "D",
+      "explanation": "It is an act of deliberate dealing with another's goods inconsistent with his rights of ownership."
+    },
+    {
+      "id": 30,
+      "subject": "Law of Torts",
+      "difficulty": "Hard",
+      "question": "In Sturges v. Bridgman, the court held that 'coming to the nuisance' is:",
+      "options": {
+        "A": "No defence in nuisance",
+        "B": "A defence if the plaintiff consented",
+        "C": "A complete defence",
+        "D": "A defence only for factories"
+      },
+      "answer": "A",
+      "explanation": "A defendant cannot claim that the plaintiff moved in after the nuisance began."
+    },
+    {
+      "id": 31,
+      "subject": "Law of Torts",
+      "difficulty": "Hard",
+      "question": "The 'last opportunity' rule in negligence arose in:",
+      "options": {
+        "A": "Bolton v. Stone",
+        "B": "Davies v. Mann",
+        "C": "Rylands v. Fletcher",
+        "D": "Donoghue v. Stevenson"
+      },
+      "answer": "B",
+      "explanation": "The donkey case held that the party with the last clear chance to avoid harm bears the loss."
+    },
+    {
+      "id": 32,
+      "subject": "Law of Torts",
+      "difficulty": "Medium",
+      "question": "In occupiers' liability, a person who enters premises for the occupier's business and benefit is called:",
+      "options": {
+        "A": "A trespasser",
+        "B": "An invitee",
+        "C": "A licensee",
+        "D": "A volunteer"
+      },
+      "answer": "B",
+      "explanation": "Indermaur v. Dames held that the occupier owes invitees a duty to prevent unusual danger."
+    },
+    {
+      "id": 33,
+      "subject": "Law of Torts",
+      "difficulty": "Hard",
+      "question": "In defamation, an 'innuendo' is:",
+      "options": {
+        "A": "A privileged report of court proceedings",
+        "B": "A formal apology offered by the defendant in court",
+        "C": "A hidden defamatory meaning known to some readers",
+        "D": "A statement that is true in substance"
+      },
+      "answer": "C",
+      "explanation": "A true or legal innuendo must be pleaded with the special facts known to the readers."
+    },
+    {
+      "id": 34,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "Stalking is dealt with in which section of the BNS, 2023?",
+      "options": {
+        "A": "Section 75",
+        "B": "Section 74",
+        "C": "Section 78",
+        "D": "Section 77"
+      },
+      "answer": "C",
+      "explanation": "Section 78 corresponds to Section 354D IPC; Section 77 deals with voyeurism."
+    },
+    {
+      "id": 35,
+      "subject": "Criminal Law",
+      "difficulty": "Hard",
+      "question": "Causing grievous hurt by use of acid is punishable under which section of the BNS, 2023?",
+      "options": {
+        "A": "Section 124",
+        "B": "Section 117",
+        "C": "Section 118",
+        "D": "Section 123"
+      },
+      "answer": "A",
+      "explanation": "Section 124 replaces Sections 326A and 326B IPC."
+    },
+    {
+      "id": 36,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "Theft or extortion becomes 'robbery' when the offender causes or attempts to cause:",
+      "options": {
+        "A": "Damage to property only",
+        "B": "Death, hurt or wrongful restraint",
+        "C": "Annoyance or insult to the owner",
+        "D": "Loss of reputation"
+      },
+      "answer": "B",
+      "explanation": "Robbery is defined in Section 309 BNS."
+    },
+    {
+      "id": 37,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "Dacoity is committed when robbery is committed or attempted by:",
+      "options": {
+        "A": "Five or more persons conjointly",
+        "B": "Three or more persons together",
+        "C": "Seven or more persons",
+        "D": "Two or more persons"
+      },
+      "answer": "A",
+      "explanation": "Section 310 BNS corresponds to Section 391 IPC."
+    },
+    {
+      "id": 38,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "Criminal breach of trust is defined in which section of the BNS, 2023?",
+      "options": {
+        "A": "Section 316",
+        "B": "Section 314",
+        "C": "Section 317",
+        "D": "Section 319"
+      },
+      "answer": "A",
+      "explanation": "Section 316 corresponds to Section 405 IPC."
+    },
+    {
+      "id": 39,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "Rioting under the BNS requires force or violence used by:",
+      "options": {
+        "A": "Police officers on duty",
+        "B": "An unlawful assembly or any member of it",
+        "C": "Any two persons in private",
+        "D": "A single individual in a public place"
+      },
+      "answer": "B",
+      "explanation": "Rioting is committed when an unlawful assembly or its member uses force or violence in prosecution of its common object."
+    },
+    {
+      "id": 40,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "A person abets an offence if he instigates it, engages in a conspiracy for it, or:",
+      "options": {
+        "A": "Intentionally aids its commission",
+        "B": "Merely fails to prevent it",
+        "C": "Merely knows of its planning",
+        "D": "Advises on its legality afterwards"
+      },
+      "answer": "A",
+      "explanation": "Abetment requires instigation, conspiracy or intentional aid, not mere knowledge."
+    },
+    {
+      "id": 41,
+      "subject": "Criminal Law",
+      "difficulty": "Hard",
+      "question": "Under the BNS, kidnapping from lawful guardianship applies to a female child under the age of:",
+      "options": {
+        "A": "Fourteen years",
+        "B": "Eighteen years",
+        "C": "Twenty-one years",
+        "D": "Sixteen years"
+      },
+      "answer": "B",
+      "explanation": "For a male child, the age is sixteen years."
+    },
+    {
+      "id": 42,
+      "subject": "Procedural Law",
+      "difficulty": "Hard",
+      "question": "Under Order VIII Rule 1 CPC, a written statement must be filed within thirty days, extendable at most up to:",
+      "options": {
+        "A": "Ninety days from service of summons",
+        "B": "One hundred twenty days",
+        "C": "Sixty days from service of summons",
+        "D": "One hundred eighty days"
+      },
+      "answer": "A",
+      "explanation": "Courts have no power to extend time beyond ninety days for ordinary suits."
+    },
+    {
+      "id": 43,
+      "subject": "Procedural Law",
+      "difficulty": "Medium",
+      "question": "Section 89 of the CPC empowers the court to refer disputes for:",
+      "options": {
+        "A": "Only trial by a commissioner appointed by court",
+        "B": "Only criminal prosecution",
+        "C": "Only summary disposal without a full hearing",
+        "D": "Arbitration, conciliation, mediation or Lok Adalat"
+      },
+      "answer": "D",
+      "explanation": "Section 89 promotes settlement outside court, as explained in Salem Advocate Bar Association."
+    },
+    {
+      "id": 44,
+      "subject": "Procedural Law",
+      "difficulty": "Hard",
+      "question": "Section 92 of the CPC allows a suit relating to a public charitable trust to be filed by:",
+      "options": {
+        "A": "The Advocate General or two persons with leave",
+        "B": "Any one person without leave",
+        "C": "Any police officer on a complaint of mismanagement",
+        "D": "The Registrar of the High Court"
+      },
+      "answer": "A",
+      "explanation": "It prevents frivolous suits about public trusts."
+    },
+    {
+      "id": 45,
+      "subject": "Procedural Law",
+      "difficulty": "Hard",
+      "question": "The High Court can exercise revisional jurisdiction under Section 115 CPC in cases decided by subordinate courts with:",
+      "options": {
+        "A": "A finding of fact against a party",
+        "B": "A jurisdictional error",
+        "C": "An error in appreciation of evidence",
+        "D": "A decree of the Supreme Court"
+      },
+      "answer": "B",
+      "explanation": "Revision is limited to jurisdictional errors, such as exercise of jurisdiction not vested or failure to exercise it."
+    },
+    {
+      "id": 46,
+      "subject": "Procedural Law",
+      "difficulty": "Easy",
+      "question": "A suit by or against one or more persons on behalf of numerous persons with the same interest under Order I Rule 8 is a:",
+      "options": {
+        "A": "Suit in forma pauperis",
+        "B": "Interpleader suit",
+        "C": "Summary suit",
+        "D": "Representative suit"
+      },
+      "answer": "D",
+      "explanation": "Notice must be given to all interested persons."
+    },
+    {
+      "id": 47,
+      "subject": "Procedural Law",
+      "difficulty": "Hard",
+      "question": "Under Section 479 of the BNSS, a first-time offender undergoing trial is entitled to bail after serving:",
+      "options": {
+        "A": "One-third of the maximum sentence",
+        "B": "One-fourth of the maximum sentence",
+        "C": "Two-thirds of the maximum sentence",
+        "D": "One-half of the maximum sentence"
+      },
+      "answer": "A",
+      "explanation": "Other undertrials are entitled after serving one-half of the maximum sentence."
+    },
+    {
+      "id": 48,
+      "subject": "Procedural Law",
+      "difficulty": "Medium",
+      "question": "Under Section 18 of the Limitation Act, a fresh period of limitation begins from:",
+      "options": {
+        "A": "An oral promise to pay the debt later",
+        "B": "An oral request for extension",
+        "C": "A signed written acknowledgment of liability",
+        "D": "A notice sent by the creditor"
+      },
+      "answer": "C",
+      "explanation": "The acknowledgment must be made before the original period expires."
+    },
+    {
+      "id": 49,
+      "subject": "Procedural Law",
+      "difficulty": "Medium",
+      "question": "Under Section 3 of the Limitation Act, a time-barred suit must be dismissed:",
+      "options": {
+        "A": "Only on the plaintiff's consent",
+        "B": "Only if the defendant pleads limitation",
+        "C": "Even if limitation is not set up as a defence",
+        "D": "Only after a second hearing"
+      },
+      "answer": "C",
+      "explanation": "The bar of limitation is mandatory and operates on the court."
+    },
+    {
+      "id": 50,
+      "subject": "Law of Evidence",
+      "difficulty": "Easy",
+      "question": "Facts forming part of the same transaction, even if not in issue, are relevant under the doctrine of:",
+      "options": {
+        "A": "Res gestae",
+        "B": "Res judicata",
+        "C": "Res nullius",
+        "D": "Res ipsa loquitur"
+      },
+      "answer": "A",
+      "explanation": "Section 6 of the Evidence Act (Section 4 BSA) codifies res gestae."
+    },
+    {
+      "id": 51,
+      "subject": "Law of Evidence",
+      "difficulty": "Medium",
+      "question": "In criminal proceedings, the fact that the accused is of good character is:",
+      "options": {
+        "A": "Relevant only if the prosecution proves it",
+        "B": "Relevant only for sentencing",
+        "C": "Irrelevant in all cases",
+        "D": "Relevant"
+      },
+      "answer": "D",
+      "explanation": "Section 53 makes good character relevant; bad character is irrelevant unless it is itself a fact in issue or good character is raised."
+    },
+    {
+      "id": 52,
+      "subject": "Law of Evidence",
+      "difficulty": "Hard",
+      "question": "Under Section 113B of the Evidence Act, the court shall presume dowry death if the woman was subjected to cruelty:",
+      "options": {
+        "A": "Within ten years of marriage",
+        "B": "Before her marriage",
+        "C": "At any time during the marriage",
+        "D": "Soon before her death"
+      },
+      "answer": "D",
+      "explanation": "The presumption also requires that cruelty or harassment be for, or in connection with, a demand for dowry."
+    },
+    {
+      "id": 53,
+      "subject": "Law of Evidence",
+      "difficulty": "Easy",
+      "question": "The standard of proof required in criminal trials is:",
+      "options": {
+        "A": "Proof beyond reasonable doubt",
+        "B": "Prima facie proof",
+        "C": "Preponderance of probabilities",
+        "D": "Clear and convincing proof"
+      },
+      "answer": "A",
+      "explanation": "The accused is entitled to the benefit of reasonable doubt."
+    },
+    {
+      "id": 54,
+      "subject": "International Law",
+      "difficulty": "Medium",
+      "question": "India follows the dualist approach to treaties, because treaties are domestically enforceable only after:",
+      "options": {
+        "A": "Ratification by all the States of the Union",
+        "B": "Prior approval of the Supreme Court of India",
+        "C": "Legislation by Parliament under Article 253",
+        "D": "Registration with the UN"
+      },
+      "answer": "C",
+      "explanation": "Article 253 enables Parliament to legislate to implement treaties."
+    },
+    {
+      "id": 55,
+      "subject": "International Law",
+      "difficulty": "Easy",
+      "question": "The International Court of Justice consists of how many judges?",
+      "options": {
+        "A": "Nine",
+        "B": "Twenty-one",
+        "C": "Fifteen",
+        "D": "Twelve"
+      },
+      "answer": "C",
+      "explanation": "Judges are elected for nine-year terms by the General Assembly and Security Council."
+    },
+    {
+      "id": 56,
+      "subject": "International Law",
+      "difficulty": "Easy",
+      "question": "The Exclusive Economic Zone extends up to:",
+      "options": {
+        "A": "200 nautical miles from the baselines",
+        "B": "12 nautical miles from the coast",
+        "C": "24 nautical miles from the coast",
+        "D": "350 nautical miles from the coast"
+      },
+      "answer": "A",
+      "explanation": "Under UNCLOS Article 57, the coastal State has sovereign rights over resources in the EEZ."
+    },
+    {
+      "id": 57,
+      "subject": "International Law",
+      "difficulty": "Medium",
+      "question": "The doctrine of 'rebus sic stantibus' relates to termination of treaties due to:",
+      "options": {
+        "A": "Breach of diplomatic immunity by an envoy",
+        "B": "Fundamental change of circumstances",
+        "C": "Non-payment of dues",
+        "D": "Death of a head of State"
+      },
+      "answer": "B",
+      "explanation": "Article 62 of the Vienna Convention allows this only in narrow circumstances."
+    },
+    {
+      "id": 58,
+      "subject": "International Law",
+      "difficulty": "Hard",
+      "question": "Under Article 31 of the Vienna Convention on Diplomatic Relations, a diplomatic agent enjoys:",
+      "options": {
+        "A": "Immunity only for official acts",
+        "B": "Immunity only for minor offences",
+        "C": "Full immunity from criminal jurisdiction",
+        "D": "No immunity from civil jurisdiction at all"
+      },
+      "answer": "C",
+      "explanation": "The sending State may waive the immunity."
+    },
+    {
+      "id": 59,
+      "subject": "International Law",
+      "difficulty": "Hard",
+      "question": "Hot pursuit of a foreign ship by the coastal State may begin when the ship is within the:",
+      "options": {
+        "A": "High seas beyond the EEZ",
+        "B": "Port of the flag State",
+        "C": "Territorial sea of a third State",
+        "D": "Internal waters, territorial sea or contiguous zone"
+      },
+      "answer": "D",
+      "explanation": "Article 111 of UNCLOS: pursuit must be continuous and ends once the ship enters the territorial sea of its own or another State."
+    },
+    {
+      "id": 60,
+      "subject": "Family Law",
+      "difficulty": "Medium",
+      "question": "Under the Hindu Marriage Act, sapinda relationship extends up to how many generations on the mother's side?",
+      "options": {
+        "A": "Two generations",
+        "B": "Seven generations",
+        "C": "Three generations",
+        "D": "Five generations"
+      },
+      "answer": "C",
+      "explanation": "On the father's side it extends to five generations."
+    },
+    {
+      "id": 61,
+      "subject": "Family Law",
+      "difficulty": "Easy",
+      "question": "The manager of a Hindu joint family is called the:",
+      "options": {
+        "A": "Karta",
+        "B": "Mutawalli",
+        "C": "Coparcener",
+        "D": "Shebait"
+      },
+      "answer": "A",
+      "explanation": "The Karta manages family property and affairs."
+    },
+    {
+      "id": 62,
+      "subject": "Family Law",
+      "difficulty": "Medium",
+      "question": "In Muslim law, 'hizanat' means:",
+      "options": {
+        "A": "Dower payable on marriage",
+        "B": "Custody of a minor child",
+        "C": "Divorce by mutual consent",
+        "D": "Guardianship of property"
+      },
+      "answer": "B",
+      "explanation": "A mother is entitled to the custody of a young child, but guardianship generally remains with the father."
+    },
+    {
+      "id": 63,
+      "subject": "Property Law",
+      "difficulty": "Hard",
+      "question": "Section 41 of the TPA protects a transferee who relies on the title of:",
+      "options": {
+        "A": "An ostensible owner with the owner's consent",
+        "B": "A mortgagee in possession",
+        "C": "A trespasser in wrongful possession of land",
+        "D": "A tenant at will"
+      },
+      "answer": "A",
+      "explanation": "The transferee must have taken reasonable care and acted in good faith."
+    },
+    {
+      "id": 64,
+      "subject": "Property Law",
+      "difficulty": "Hard",
+      "question": "Under Section 53 of the TPA, a transfer made to defeat or delay creditors is:",
+      "options": {
+        "A": "Void for all purposes",
+        "B": "Valid for all purposes against creditors",
+        "C": "Void against the transferee only",
+        "D": "Voidable at the option of the creditors"
+      },
+      "answer": "D",
+      "explanation": "A transfer for consideration and in good faith is protected."
+    },
+    {
+      "id": 65,
+      "subject": "Property Law",
+      "difficulty": "Easy",
+      "question": "The mortgagor's right to recover the mortgaged property on payment of the debt is the right of:",
+      "options": {
+        "A": "Subrogation",
+        "B": "Redemption",
+        "C": "Lien",
+        "D": "Foreclosure"
+      },
+      "answer": "B",
+      "explanation": "Section 60 TPA gives the mortgagor the right to redeem, which cannot be defeated by a clog on redemption."
+    },
+    {
+      "id": 66,
+      "subject": "Intellectual Property Law",
+      "difficulty": "Hard",
+      "question": "Under Section 3(k) of the Patents Act, 1970, which of the following is not patentable as such?",
+      "options": {
+        "A": "A mechanical device",
+        "B": "A computer programme per se",
+        "C": "An industrial machine tool",
+        "D": "A new chemical process"
+      },
+      "answer": "B",
+      "explanation": "Computer programmes per se, mathematical methods and algorithms are excluded."
+    },
+    {
+      "id": 67,
+      "subject": "Environmental Law",
+      "difficulty": "Medium",
+      "question": "The Air (Prevention and Control of Pollution) Act, 1981 empowers State Governments to declare:",
+      "options": {
+        "A": "Reserved forests",
+        "B": "Wildlife sanctuaries",
+        "C": "Air pollution control areas",
+        "D": "Coastal regulation zones"
+      },
+      "answer": "C",
+      "explanation": "State Boards can then regulate industries in such areas."
+    },
+    {
+      "id": 68,
+      "subject": "Company Law",
+      "difficulty": "Easy",
+      "question": "A company with only one member is called, under the Companies Act, 2013, a:",
+      "options": {
+        "A": "Guarantee association",
+        "B": "One Person Company",
+        "C": "Sole proprietorship",
+        "D": "Unlimited partnership"
+      },
+      "answer": "B",
+      "explanation": "Section 2(62) defines OPC; it must be a private company."
+    },
+    {
+      "id": 69,
+      "subject": "Banking Law",
+      "difficulty": "Hard",
+      "question": "The SARFAESI Act, 2002 allows secured creditors to enforce security interest:",
+      "options": {
+        "A": "Only with RBI approval",
+        "B": "Only after arbitration",
+        "C": "Only through a civil court decree",
+        "D": "Without the intervention of a court"
+      },
+      "answer": "D",
+      "explanation": "Banks can take possession of the secured assets after notice under Section 13."
+    },
+    {
+      "id": 70,
+      "subject": "Competition Law",
+      "difficulty": "Hard",
+      "question": "Under Section 3 of the Competition Act, 2002, an agreement among competitors to fix prices is presumed to have:",
+      "options": {
+        "A": "A reasonable restraint of trade effect",
+        "B": "The effect of an unnotified merger",
+        "C": "A lawful and beneficial trade effect",
+        "D": "An appreciable adverse effect on competition"
+      },
+      "answer": "D",
+      "explanation": "Cartels are subject to the presumption of appreciable adverse effect on competition."
+    },
+    {
+      "id": 71,
+      "subject": "Consumer Law",
+      "difficulty": "Medium",
+      "question": "Under the Consumer Protection Act, 2019, a person who buys goods for a commercial purpose is:",
+      "options": {
+        "A": "A consumer if goods exceed ₹1 lakh",
+        "B": "A consumer only for services",
+        "C": "Generally not a 'consumer'",
+        "D": "A consumer for all purposes"
+      },
+      "answer": "C",
+      "explanation": "An exception exists for goods bought exclusively for livelihood by self-employment."
+    },
+    {
+      "id": 72,
+      "subject": "Administrative Law",
+      "difficulty": "Medium",
+      "question": "The Lokpal under the Lokpal and Lokayuktas Act, 2013 consists of a Chairperson and not more than:",
+      "options": {
+        "A": "Six members",
+        "B": "Ten members",
+        "C": "Four members",
+        "D": "Eight members"
+      },
+      "answer": "D",
+      "explanation": "Fifty per cent of the members must be judicial members."
+    },
+    {
+      "id": 73,
+      "subject": "Arbitration Law",
+      "difficulty": "Hard",
+      "question": "Under Section 29A of the Arbitration Act, an award must be made within twelve months, extendable by consent of parties by:",
+      "options": {
+        "A": "Nine months",
+        "B": "Three months",
+        "C": "Twelve months",
+        "D": "Six months"
+      },
+      "answer": "D",
+      "explanation": "Beyond that, the court may extend the time on sufficient cause."
+    },
+    {
+      "id": 74,
+      "subject": "Intellectual Property Law",
+      "difficulty": "Medium",
+      "question": "A trade mark is 'deceptively similar' to another if it is likely to:",
+      "options": {
+        "A": "Deceive or cause confusion",
+        "B": "Attract customers abroad",
+        "C": "Reduce the cost of the goods",
+        "D": "Increase the sales of the goods"
+      },
+      "answer": "A",
+      "explanation": "Section 2(1)(h) of the Trade Marks Act, 1999 defines deceptive similarity."
+    },
+    {
+      "id": 75,
+      "subject": "Environmental Law",
+      "difficulty": "Medium",
+      "question": "The Chairperson of the National Green Tribunal must be:",
+      "options": {
+        "A": "A retired senior civil servant of the Union",
+        "B": "A Union Minister of Environment and Forests",
+        "C": "A sitting or retired Judge of the Supreme Court",
+        "D": "A professor of environmental science"
+      },
+      "answer": "C",
+      "explanation": "Section 4 of the NGT Act, 2010 prescribes this qualification (or a Chief Justice of a High Court)."
+    }
+  ]
+}

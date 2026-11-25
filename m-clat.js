@@ -596,20 +596,20 @@ function ailet(which) {
 R.ailet = function (p) { ailet((p || [])[0]); };
 
 /* ---------- AIBE: the website's AIBE section shown inside the app (aibe/*.html?embed=1). ---------- */
-var AIBE_PAGES = { what: 'what-is-aibe.html', syllabus: 'syllabus.html', practice: 'practice.html', mocks: 'practice.html#mocks', revision: 'practice.html#mistakes', faq: 'faq.html' };
+var AIBE_PAGES = { what: 'what-is-aibe.html', syllabus: 'syllabus.html', practice: 'practice.html', mocks: 'mock-tests.html', revision: 'practice.html#mistakes', faq: 'faq.html' };
 function aibe(which) {
   var f = AIBE_PAGES[which] || 'index.html', i = f.indexOf('#'), file = i < 0 ? f : f.slice(0, i), hash = i < 0 ? '' : f.slice(i);
-  cscreen({ top: tbar('AIBE', { sub: 'All India Bar Examination · no timer', la: 'cexams', right: '<a class="ib" href="#/" aria-label="Home">' + I.home + '</a>' }),
+  cscreen({ top: tbar('AIBE', { sub: 'All India Bar Examination · 6 timed mocks', la: 'cexams', right: '<a class="ib" href="#/" aria-label="Home">' + I.home + '</a>' }),
     flush: true, exam: true, cls: 'cmv',
     body: '<iframe class="cmf" title="AIBE preparation" src="aibe/' + file + '?embed=1' + hash + '" allow="clipboard-write; web-share"></iframe>' }, 'prac', { nonav: true });
 }
 R.aibe = function (p) { aibe((p || [])[0]); };
 
 /* ---------- CUET PG: the website's CUET PG (LL.M.) section shown inside the app (cuet-pg/*.html?embed=1). ---------- */
-var CUET_PAGES = { what: 'what-is-cuet-pg.html', syllabus: 'syllabus.html', analysis: 'analysis.html', universities: 'universities.html', practice: 'practice.html', mocks: 'practice.html#mocks', revision: 'practice.html#mistakes', faq: 'faq.html' };
+var CUET_PAGES = { what: 'what-is-cuet-pg.html', syllabus: 'syllabus.html', analysis: 'analysis.html', universities: 'universities.html', practice: 'practice.html', mocks: 'mock-tests.html', revision: 'practice.html#mistakes', faq: 'faq.html' };
 function cuet(which) {
   var f = CUET_PAGES[which] || 'index.html', i = f.indexOf('#'), file = i < 0 ? f : f.slice(0, i), hash = i < 0 ? '' : f.slice(i);
-  cscreen({ top: tbar('CUET PG', { sub: 'LL.M. · central universities · no timer', la: 'cexams', right: '<a class="ib" href="#/" aria-label="Home">' + I.home + '</a>' }),
+  cscreen({ top: tbar('CUET PG', { sub: 'LL.M. · central universities · 8 timed mocks', la: 'cexams', right: '<a class="ib" href="#/" aria-label="Home">' + I.home + '</a>' }),
     flush: true, exam: true, cls: 'cmv',
     body: '<iframe class="cmf" title="CUET PG LL.M. preparation" src="cuet-pg/' + file + '?embed=1' + hash + '" allow="clipboard-write; web-share"></iframe>' }, 'prac', { nonav: true });
 }

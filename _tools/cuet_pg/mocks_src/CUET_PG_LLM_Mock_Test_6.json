@@ -1,0 +1,1070 @@
+{
+  "exam": "CUET (PG) 2027 - LL.M. (Law) Mock Test 6",
+  "paper_code": "COQP09 (Law) - pattern based",
+  "total_questions": 75,
+  "duration_minutes": 90,
+  "total_marks": 300,
+  "marking_scheme": {
+    "correct": 4,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "answer_distribution": {
+    "A": 19,
+    "B": 19,
+    "C": 19,
+    "D": 18
+  },
+  "questions": [
+    {
+      "id": 1,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "In E.P. Royappa v. State of Tamil Nadu, arbitrariness was described as:",
+      "options": {
+        "A": "Antithetical to equality under Article 14",
+        "B": "Irrelevant to equality under Article 14",
+        "C": "A matter only for the legislature to decide",
+        "D": "A permissible ground of classification"
+      },
+      "answer": "A",
+      "explanation": "Royappa gave the dynamic, anti-arbitrariness dimension to Article 14."
+    },
+    {
+      "id": 2,
+      "subject": "Constitutional Law",
+      "difficulty": "Easy",
+      "question": "Article 15(3) permits the State to make special provisions for:",
+      "options": {
+        "A": "Only minority educational institutions",
+        "B": "Women and children",
+        "C": "Only backward classes of citizens",
+        "D": "Only Scheduled Tribes in the States"
+      },
+      "answer": "B",
+      "explanation": "Article 15(3) is an exception to the bar on discrimination on the ground of sex."
+    },
+    {
+      "id": 3,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "Reservation in promotions for Scheduled Castes and Scheduled Tribes was enabled by Article 16(4A), inserted by the:",
+      "options": {
+        "A": "77th Amendment, 1995",
+        "B": "73rd Amendment, 1992",
+        "C": "86th Amendment, 2002",
+        "D": "93rd Amendment, 2005"
+      },
+      "answer": "A",
+      "explanation": "The amendment overcame the effect of Indra Sawhney, which had barred reservation in promotions."
+    },
+    {
+      "id": 4,
+      "subject": "Constitutional Law",
+      "difficulty": "Hard",
+      "question": "The right to emergency medical treatment was read into Article 21 in:",
+      "options": {
+        "A": "Paschim Banga Khet Mazdoor Samity v. W.B. (1996)",
+        "B": "Francis Coralie Mullin v. Administrator, Delhi (1981)",
+        "C": "Mohini Jain v. State of Karnataka (1992)",
+        "D": "Unni Krishnan v. State of Andhra Pradesh (1993)"
+      },
+      "answer": "A",
+      "explanation": "The Court held that failure to provide timely medical treatment to a person in need violates the right to life."
+    },
+    {
+      "id": 5,
+      "subject": "Constitutional Law",
+      "difficulty": "Hard",
+      "question": "In Bijoe Emmanuel v. State of Kerala, students who refused to sing the national anthem were held to be protected under:",
+      "options": {
+        "A": "Article 14 read with Article 15",
+        "B": "Article 29(2) alone",
+        "C": "Articles 19(1)(a) and 25",
+        "D": "Articles 21 and 21A read together"
+      },
+      "answer": "C",
+      "explanation": "Standing respectfully without singing was held to be a protected form of silent expression and religious conviction."
+    },
+    {
+      "id": 6,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "Article 28(1) prohibits religious instruction in educational institutions:",
+      "options": {
+        "A": "Affiliated to any university",
+        "B": "Run by minorities only",
+        "C": "Wholly maintained out of State funds",
+        "D": "Run by private trusts only"
+      },
+      "answer": "C",
+      "explanation": "Institutions administered by trusts but recognised by the State may provide religious instruction voluntarily under Article 28(2) and (3)."
+    },
+    {
+      "id": 7,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "'Equal pay for equal work' was held enforceable through Articles 14 and 16 read with Article 39(d) in:",
+      "options": {
+        "A": "Randhir Singh v. Union of India",
+        "B": "Bachan Singh v. State of Punjab",
+        "C": "Kihoto Hollohan v. Zachillhu",
+        "D": "Mithu v. State of Punjab"
+      },
+      "answer": "A",
+      "explanation": "The Court made a Directive Principle enforceable by reading it into the Fundamental Rights."
+    },
+    {
+      "id": 8,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "Article 48A, inserted by the 42nd Amendment, directs the State to protect and improve:",
+      "options": {
+        "A": "Uniform laws for all citizens",
+        "B": "Village panchayats and cottage industries",
+        "C": "The education of weaker sections",
+        "D": "The environment, forests and wildlife"
+      },
+      "answer": "D",
+      "explanation": "Article 51A(g) casts a corresponding Fundamental Duty on citizens."
+    },
+    {
+      "id": 9,
+      "subject": "Constitutional Law",
+      "difficulty": "Hard",
+      "question": "In the election of the President, the electoral college does NOT include:",
+      "options": {
+        "A": "Elected members of State Legislative Assemblies",
+        "B": "Elected members of the Rajya Sabha",
+        "C": "Members of State Legislative Councils",
+        "D": "Elected members of the Lok Sabha"
+      },
+      "answer": "C",
+      "explanation": "Under Article 54, nominated members and members of Legislative Councils do not vote."
+    },
+    {
+      "id": 10,
+      "subject": "Constitutional Law",
+      "difficulty": "Easy",
+      "question": "Under Article 85, the gap between two sessions of Parliament must not exceed:",
+      "options": {
+        "A": "Three months",
+        "B": "Twelve months",
+        "C": "Six months",
+        "D": "Nine months"
+      },
+      "answer": "C",
+      "explanation": "Parliament must meet at least twice a year."
+    },
+    {
+      "id": 11,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "Under Article 100, the quorum to constitute a meeting of either House of Parliament is:",
+      "options": {
+        "A": "One-fourth of the total number of members",
+        "B": "One-half of the total number of members",
+        "C": "One-third of the total number of members",
+        "D": "One-tenth of the total number of members"
+      },
+      "answer": "D",
+      "explanation": "The quorum includes the presiding officer."
+    },
+    {
+      "id": 12,
+      "subject": "Constitutional Law",
+      "difficulty": "Hard",
+      "question": "A State Legislative Council may be created or abolished by Parliament on a resolution of the Legislative Assembly passed by:",
+      "options": {
+        "A": "A simple majority of the Assembly",
+        "B": "A two-thirds majority of the Council",
+        "C": "Unanimity of all members",
+        "D": "A special majority of the Assembly"
+      },
+      "answer": "D",
+      "explanation": "Article 169 requires a majority of the total membership and two-thirds of members present and voting; this is not a constitutional amendment under Article 368."
+    },
+    {
+      "id": 13,
+      "subject": "Constitutional Law",
+      "difficulty": "Easy",
+      "question": "The Attorney General of India holds office:",
+      "options": {
+        "A": "During the pleasure of the President",
+        "B": "For a fixed term of five years",
+        "C": "Until sixty-five years of age",
+        "D": "Until removed by Parliament"
+      },
+      "answer": "A",
+      "explanation": "Article 76 contains no fixed term or procedure for removal."
+    },
+    {
+      "id": 14,
+      "subject": "Jurisprudence",
+      "difficulty": "Medium",
+      "question": "Karl Llewellyn is a leading figure of:",
+      "options": {
+        "A": "The Pure Theory of Law",
+        "B": "Historical jurisprudence",
+        "C": "American legal realism",
+        "D": "Analytical positivism"
+      },
+      "answer": "C",
+      "explanation": "Llewellyn's The Bramble Bush advanced the realist emphasis on what courts do."
+    },
+    {
+      "id": 15,
+      "subject": "Jurisprudence",
+      "difficulty": "Hard",
+      "question": "The Critical Legal Studies movement is associated with:",
+      "options": {
+        "A": "Hans Kelsen and Joseph Raz",
+        "B": "Roberto Unger and Duncan Kennedy",
+        "C": "Savigny and Henry Maine together",
+        "D": "John Austin and Jeremy Bentham"
+      },
+      "answer": "B",
+      "explanation": "CLS argues that law is indeterminate and reflects power relations."
+    },
+    {
+      "id": 16,
+      "subject": "Jurisprudence",
+      "difficulty": "Medium",
+      "question": "Feminist jurisprudence, criticising law as reflecting male power, is associated with:",
+      "options": {
+        "A": "Lon Fuller",
+        "B": "Catharine MacKinnon",
+        "C": "Oliver Wendell Holmes",
+        "D": "Henry Maine"
+      },
+      "answer": "B",
+      "explanation": "MacKinnon argued that the State is male in the feminist sense."
+    },
+    {
+      "id": 17,
+      "subject": "Jurisprudence",
+      "difficulty": "Medium",
+      "question": "In Marxist theory, law is regarded as:",
+      "options": {
+        "A": "An independent force shaping the economy",
+        "B": "A product of divine command",
+        "C": "A neutral expression of reason alone",
+        "D": "Part of the superstructure of the economy"
+      },
+      "answer": "D",
+      "explanation": "The economic base determines the legal and political superstructure."
+    },
+    {
+      "id": 18,
+      "subject": "Jurisprudence",
+      "difficulty": "Medium",
+      "question": "The 'harm principle', that State power over an individual is justified only to prevent harm to others, is associated with:",
+      "options": {
+        "A": "Thomas Hobbes",
+        "B": "John Stuart Mill",
+        "C": "John Austin",
+        "D": "Jeremy Bentham"
+      },
+      "answer": "B",
+      "explanation": "Mill set out the principle in On Liberty (1859)."
+    },
+    {
+      "id": 19,
+      "subject": "Jurisprudence",
+      "difficulty": "Hard",
+      "question": "In the 'will theory' of rights, a right is essentially:",
+      "options": {
+        "A": "A choice or control given to the right-holder",
+        "B": "A duty imposed on another",
+        "C": "A benefit conferred by law on the right-holder",
+        "D": "A moral claim without legal force"
+      },
+      "answer": "A",
+      "explanation": "Hart favoured the will theory, while Raz favoured the interest theory."
+    },
+    {
+      "id": 20,
+      "subject": "Jurisprudence",
+      "difficulty": "Easy",
+      "question": "Penal liability arises where the purpose of the law is to:",
+      "options": {
+        "A": "Restore the status quo",
+        "B": "Compensate the victim",
+        "C": "Punish the wrongdoer",
+        "D": "Enforce a contract"
+      },
+      "answer": "C",
+      "explanation": "Remedial liability, in contrast, aims at redress or restitution."
+    },
+    {
+      "id": 21,
+      "subject": "Law of Contract",
+      "difficulty": "Medium",
+      "question": "A 'del credere' agent, for an extra commission, undertakes:",
+      "options": {
+        "A": "To guarantee payment by the buyers",
+        "B": "To deliver goods free of all taxes",
+        "C": "To store goods without any charge",
+        "D": "To sell goods only at a fixed price"
+      },
+      "answer": "A",
+      "explanation": "He becomes a surety to the principal for the buyer's payment."
+    },
+    {
+      "id": 22,
+      "subject": "Law of Contract",
+      "difficulty": "Medium",
+      "question": "Agency by estoppel arises where the principal:",
+      "options": {
+        "A": "Holds out another as his agent",
+        "B": "Appoints an agent in writing",
+        "C": "Dismisses an agent without notice",
+        "D": "Ratifies an act after death"
+      },
+      "answer": "A",
+      "explanation": "The principal is estopped from denying the agent's authority against persons who relied on the representation."
+    },
+    {
+      "id": 23,
+      "subject": "Law of Contract",
+      "difficulty": "Medium",
+      "question": "Under Section 39 of the Contract Act, when a party refuses to perform his promise in its entirety, the other party may:",
+      "options": {
+        "A": "Compel him by imprisonment",
+        "B": "Claim double the price",
+        "C": "Put an end to the contract",
+        "D": "Transfer the contract to a third person"
+      },
+      "answer": "C",
+      "explanation": "The innocent party may also elect to continue the contract."
+    },
+    {
+      "id": 24,
+      "subject": "Law of Contract",
+      "difficulty": "Hard",
+      "question": "Under Section 55 of the Contract Act, if time is of the essence and the promisor fails to perform in time, the contract is:",
+      "options": {
+        "A": "Void from the beginning",
+        "B": "Voidable at the promisee's option",
+        "C": "Enforceable at the promisor's option",
+        "D": "Illegal and punishable"
+      },
+      "answer": "B",
+      "explanation": "The promisee can treat the contract as terminated."
+    },
+    {
+      "id": 25,
+      "subject": "Law of Contract",
+      "difficulty": "Hard",
+      "question": "Under Section 69 of the Indian Partnership Act, an unregistered firm cannot:",
+      "options": {
+        "A": "Carry on any business or profession at all",
+        "B": "Sue third parties on its contracts",
+        "C": "Be sued by third parties on its contracts",
+        "D": "Hold property in the partners' names"
+      },
+      "answer": "B",
+      "explanation": "The bar does not affect suits for dissolution or rights arising otherwise than from contract."
+    },
+    {
+      "id": 26,
+      "subject": "Sale of Goods",
+      "difficulty": "Medium",
+      "question": "An unpaid seller in possession of the goods may exercise the right of:",
+      "options": {
+        "A": "Rescission of ownership",
+        "B": "Pledge of the goods",
+        "C": "Mortgage over the goods",
+        "D": "Lien over the goods"
+      },
+      "answer": "D",
+      "explanation": "Other rights include stoppage in transit and resale in certain cases."
+    },
+    {
+      "id": 27,
+      "subject": "Sale of Goods",
+      "difficulty": "Hard",
+      "question": "Under Section 18 of the Sale of Goods Act, in a contract for sale of unascertained goods, property does not pass until the goods are:",
+      "options": {
+        "A": "Marked with a number",
+        "B": "Insured against loss",
+        "C": "Ascertained",
+        "D": "Weighed and priced"
+      },
+      "answer": "C",
+      "explanation": "Ascertainment makes the goods identifiable and specific."
+    },
+    {
+      "id": 28,
+      "subject": "Law of Torts",
+      "difficulty": "Hard",
+      "question": "State of Rajasthan v. Vidhyawati held that the State is:",
+      "options": {
+        "A": "Immune for every tort of its servants and agents",
+        "B": "Liable only for torts of ministers",
+        "C": "Vicariously liable like any other employer",
+        "D": "Liable only in contract"
+      },
+      "answer": "C",
+      "explanation": "The Court held that the State is liable for a driver's negligence in a non-sovereign function."
+    },
+    {
+      "id": 29,
+      "subject": "Law of Torts",
+      "difficulty": "Medium",
+      "question": "The 'rescue doctrine' in negligence holds that a rescuer injured in a rescue:",
+      "options": {
+        "A": "Can sue the person who created the danger",
+        "B": "Can sue only the person rescued",
+        "C": "Has no remedy at all if he is a stranger",
+        "D": "Is barred by the maxim volenti non fit injuria"
+      },
+      "answer": "A",
+      "explanation": "Haynes v. Harwood held that rescuers are not deemed to consent to the risk."
+    },
+    {
+      "id": 30,
+      "subject": "Law of Torts",
+      "difficulty": "Hard",
+      "question": "Re Polemis held a defendant liable for all direct consequences of his negligent act, whether or not they were:",
+      "options": {
+        "A": "Reasonably foreseeable",
+        "B": "Intended by him",
+        "C": "Insured by him",
+        "D": "Caused by a third party"
+      },
+      "answer": "A",
+      "explanation": "The Wagon Mound (No. 1) later replaced this test with reasonable foreseeability."
+    },
+    {
+      "id": 31,
+      "subject": "Law of Torts",
+      "difficulty": "Medium",
+      "question": "The defence of fair comment in defamation applies to:",
+      "options": {
+        "A": "Any purely private matter between individuals",
+        "B": "Honest opinion on public interest matters",
+        "C": "Statements made with malice",
+        "D": "A false statement of fact made carelessly"
+      },
+      "answer": "B",
+      "explanation": "The comment must be based on true facts and be made without malice."
+    },
+    {
+      "id": 32,
+      "subject": "Law of Torts",
+      "difficulty": "Medium",
+      "question": "Slander is actionable per se, without proof of special damage, when it imputes:",
+      "options": {
+        "A": "A minor discourtesy",
+        "B": "A change in religion",
+        "C": "A criminal offence",
+        "D": "A harmless eccentricity"
+      },
+      "answer": "C",
+      "explanation": "Other slander per se categories include loathsome disease, unchastity of a woman and professional incompetence."
+    },
+    {
+      "id": 33,
+      "subject": "Law of Torts",
+      "difficulty": "Medium",
+      "question": "Abatement of a nuisance means:",
+      "options": {
+        "A": "Closure by a court order",
+        "B": "Removal of nuisance by the injured party",
+        "C": "Payment of damages by the wrongdoer",
+        "D": "Transfer of the property to the plaintiff"
+      },
+      "answer": "B",
+      "explanation": "It is a remedy by self-help, exercised without unnecessary damage and after notice, where required."
+    },
+    {
+      "id": 34,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "Kidnapping is defined in which section of the BNS, 2023?",
+      "options": {
+        "A": "Section 137",
+        "B": "Section 143",
+        "C": "Section 139",
+        "D": "Section 135"
+      },
+      "answer": "A",
+      "explanation": "Section 137 corresponds to Sections 359 to 363 IPC."
+    },
+    {
+      "id": 35,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "Criminal intimidation is dealt with in which section of the BNS, 2023?",
+      "options": {
+        "A": "Section 351",
+        "B": "Section 354",
+        "C": "Section 352",
+        "D": "Section 349"
+      },
+      "answer": "A",
+      "explanation": "Section 351 corresponds to Section 503 IPC."
+    },
+    {
+      "id": 36,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "Criminal trespass is defined in which section of the BNS, 2023?",
+      "options": {
+        "A": "Section 324",
+        "B": "Section 333",
+        "C": "Section 331",
+        "D": "Section 329"
+      },
+      "answer": "D",
+      "explanation": "Section 329 corresponds to Section 441 IPC."
+    },
+    {
+      "id": 37,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "Forgery is defined in which section of the BNS, 2023?",
+      "options": {
+        "A": "Section 340",
+        "B": "Section 335",
+        "C": "Section 336",
+        "D": "Section 338"
+      },
+      "answer": "C",
+      "explanation": "Section 336 corresponds to Section 463 IPC; Section 335 defines making a false document."
+    },
+    {
+      "id": 38,
+      "subject": "Criminal Law",
+      "difficulty": "Hard",
+      "question": "In Virsa Singh v. State of Punjab, the Supreme Court explained that murder is made out where the intended injury was:",
+      "options": {
+        "A": "Caused by a deadly weapon, in every single case",
+        "B": "Inflicted with premeditation for months",
+        "C": "Sufficient to cause death in ordinary course",
+        "D": "Likely to cause hurt in some cases"
+      },
+      "answer": "C",
+      "explanation": "Virsa Singh applies the third clause of murder, where the injury is objectively sufficient to cause death."
+    },
+    {
+      "id": 39,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "Voluntarily causing grievous hurt is punishable under which section of the BNS, 2023?",
+      "options": {
+        "A": "Section 118",
+        "B": "Section 117",
+        "C": "Section 115",
+        "D": "Section 120"
+      },
+      "answer": "B",
+      "explanation": "Section 117 corresponds to Section 325 IPC."
+    },
+    {
+      "id": 40,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "Gang rape is punishable under which section of the BNS, 2023?",
+      "options": {
+        "A": "Section 64",
+        "B": "Section 70",
+        "C": "Section 66",
+        "D": "Section 65"
+      },
+      "answer": "B",
+      "explanation": "Section 70 corresponds to Section 376D IPC."
+    },
+    {
+      "id": 41,
+      "subject": "Criminal Law",
+      "difficulty": "Hard",
+      "question": "The right of private defence of property extends to voluntarily causing death where the offence is:",
+      "options": {
+        "A": "Mischief causing minor damage",
+        "B": "Simple theft of low-value goods",
+        "C": "Robbery or house-breaking by night",
+        "D": "Criminal trespass in daytime"
+      },
+      "answer": "C",
+      "explanation": "The right extends to causing death only in specified serious offences such as robbery, house-breaking by night, arson and theft or mischief creating reasonable fear of death."
+    },
+    {
+      "id": 42,
+      "subject": "Procedural Law",
+      "difficulty": "Medium",
+      "question": "Under Section 478 of the BNSS, in a bailable offence, bail is granted:",
+      "options": {
+        "A": "At the court's absolute discretion",
+        "B": "Only to first-time offenders",
+        "C": "As a matter of right",
+        "D": "Only after one month in custody"
+      },
+      "answer": "C",
+      "explanation": "Section 478 corresponds to Section 436 CrPC."
+    },
+    {
+      "id": 43,
+      "subject": "Procedural Law",
+      "difficulty": "Hard",
+      "question": "Maintenance of wives, children and parents under the BNSS is provided in Section:",
+      "options": {
+        "A": "Section 148",
+        "B": "Section 144",
+        "C": "Section 125",
+        "D": "Section 164"
+      },
+      "answer": "B",
+      "explanation": "Section 144 BNSS corresponds to Section 125 CrPC."
+    },
+    {
+      "id": 44,
+      "subject": "Procedural Law",
+      "difficulty": "Hard",
+      "question": "The inherent powers of the High Court under the BNSS are saved in Section:",
+      "options": {
+        "A": "Section 482",
+        "B": "Section 483",
+        "C": "Section 527",
+        "D": "Section 528"
+      },
+      "answer": "D",
+      "explanation": "Section 528 BNSS corresponds to Section 482 CrPC; Section 482 BNSS now deals with anticipatory bail."
+    },
+    {
+      "id": 45,
+      "subject": "Procedural Law",
+      "difficulty": "Hard",
+      "question": "Section 356 of the BNSS provides for trial in the absence of:",
+      "options": {
+        "A": "The presiding judge",
+        "B": "The defence advocate",
+        "C": "A proclaimed offender",
+        "D": "A material witness"
+      },
+      "answer": "C",
+      "explanation": "The provision enables trial where the accused has absconded and been declared a proclaimed offender, subject to safeguards."
+    },
+    {
+      "id": 46,
+      "subject": "Procedural Law",
+      "difficulty": "Medium",
+      "question": "A Chief Judicial Magistrate can ordinarily pass a sentence of imprisonment up to:",
+      "options": {
+        "A": "Three years",
+        "B": "Seven years",
+        "C": "Ten years",
+        "D": "Five years"
+      },
+      "answer": "B",
+      "explanation": "A Magistrate of the First Class can pass up to three years."
+    },
+    {
+      "id": 47,
+      "subject": "Procedural Law",
+      "difficulty": "Easy",
+      "question": "A death sentence passed by a Sessions Court must be confirmed by:",
+      "options": {
+        "A": "The Supreme Court",
+        "B": "The Governor",
+        "C": "The President",
+        "D": "The High Court"
+      },
+      "answer": "D",
+      "explanation": "Confirmation proceedings are conducted under the Code of Criminal Procedure (BNSS)."
+    },
+    {
+      "id": 48,
+      "subject": "Procedural Law",
+      "difficulty": "Medium",
+      "question": "A 'charge' in a criminal trial is:",
+      "options": {
+        "A": "A formal statement of the offence alleged",
+        "B": "The report filed by the police station",
+        "C": "The order granting bail to the accused",
+        "D": "A summons issued to the witnesses"
+      },
+      "answer": "A",
+      "explanation": "The charge informs the accused of the offence and the particulars needed to defend."
+    },
+    {
+      "id": 49,
+      "subject": "Procedural Law",
+      "difficulty": "Easy",
+      "question": "A police officer can arrest without a warrant in a:",
+      "options": {
+        "A": "Non-cognizable offence",
+        "B": "Civil dispute",
+        "C": "Compoundable offence",
+        "D": "Cognizable offence"
+      },
+      "answer": "D",
+      "explanation": "A non-cognizable offence ordinarily requires a magistrate's order or warrant."
+    },
+    {
+      "id": 50,
+      "subject": "Law of Evidence",
+      "difficulty": "Medium",
+      "question": "Leading questions may be put without the court's permission in:",
+      "options": {
+        "A": "Cross-examination",
+        "B": "Examination-in-chief",
+        "C": "All stages equally",
+        "D": "Re-examination"
+      },
+      "answer": "A",
+      "explanation": "Section 143 of the Evidence Act allows leading questions in cross-examination."
+    },
+    {
+      "id": 51,
+      "subject": "Law of Evidence",
+      "difficulty": "Medium",
+      "question": "Under Section 126 of the Evidence Act, an advocate cannot disclose, without the client's consent:",
+      "options": {
+        "A": "The names of other clients of the advocate",
+        "B": "The court orders passed",
+        "C": "The fees charged to the client for advice",
+        "D": "Communications in professional confidence"
+      },
+      "answer": "D",
+      "explanation": "The privilege continues even after the engagement ends."
+    },
+    {
+      "id": 52,
+      "subject": "Law of Evidence",
+      "difficulty": "Medium",
+      "question": "A child of tender years is a competent witness if he:",
+      "options": {
+        "A": "Has been trained by a lawyer before the trial",
+        "B": "Is above twelve years of age",
+        "C": "Is accompanied by a parent or guardian in court",
+        "D": "Can understand questions and answer rationally"
+      },
+      "answer": "D",
+      "explanation": "Section 118 makes all persons competent unless prevented from understanding questions or giving rational answers."
+    },
+    {
+      "id": 53,
+      "subject": "Law of Evidence",
+      "difficulty": "Hard",
+      "question": "Under Section 122 of the Evidence Act, communications between spouses during marriage are:",
+      "options": {
+        "A": "Public documents",
+        "B": "Privileged from disclosure without consent",
+        "C": "Admissible only in criminal cases",
+        "D": "Always compellable"
+      },
+      "answer": "B",
+      "explanation": "Disclosure is allowed in suits between married persons and prosecutions of one against the other."
+    },
+    {
+      "id": 54,
+      "subject": "International Law",
+      "difficulty": "Hard",
+      "question": "The concept of obligations erga omnes was articulated by the ICJ in:",
+      "options": {
+        "A": "Corfu Channel Case (UK v. Albania)",
+        "B": "Nottebohm Case (Liechtenstein v. Guatemala)",
+        "C": "Lotus Case (France v. Turkey)",
+        "D": "Barcelona Traction Case (1970)"
+      },
+      "answer": "D",
+      "explanation": "The Court distinguished obligations owed to the international community as a whole."
+    },
+    {
+      "id": 55,
+      "subject": "International Law",
+      "difficulty": "Hard",
+      "question": "Genocide, under the 1948 Convention, requires intent to destroy, in whole or in part, a:",
+      "options": {
+        "A": "Political party or social class",
+        "B": "Business or professional body",
+        "C": "National, ethnical, racial or religious group",
+        "D": "Region or an economic zone"
+      },
+      "answer": "C",
+      "explanation": "Political groups are not protected under the Convention's definition."
+    },
+    {
+      "id": 56,
+      "subject": "International Law",
+      "difficulty": "Medium",
+      "question": "The rule of speciality in extradition means that the person may be tried only for:",
+      "options": {
+        "A": "Offences committed after extradition",
+        "B": "The offence for which he was extradited",
+        "C": "Political offences only",
+        "D": "Any offence in the requesting State"
+      },
+      "answer": "B",
+      "explanation": "It protects the surrendered person from trial for other offences without the consent of the surrendering State."
+    },
+    {
+      "id": 57,
+      "subject": "International Law",
+      "difficulty": "Medium",
+      "question": "The Kellogg–Briand Pact, 1928 was an agreement to:",
+      "options": {
+        "A": "Create the ICJ",
+        "B": "Establish the League of Nations",
+        "C": "Renounce war as national policy",
+        "D": "Regulate naval armaments"
+      },
+      "answer": "C",
+      "explanation": "It was signed in Paris and influenced later prohibition of aggressive war."
+    },
+    {
+      "id": 58,
+      "subject": "International Law",
+      "difficulty": "Hard",
+      "question": "Under Article 36(2) of the ICJ Statute, States may accept the Court's compulsory jurisdiction through the:",
+      "options": {
+        "A": "Optional clause declaration",
+        "B": "Resolution of the General Assembly",
+        "C": "Veto of the Security Council",
+        "D": "Advisory opinion procedure"
+      },
+      "answer": "A",
+      "explanation": "India has made a declaration under the optional clause with several reservations."
+    },
+    {
+      "id": 59,
+      "subject": "International Law",
+      "difficulty": "Hard",
+      "question": "In Nicaragua v. United States (1986), the ICJ held that the principle of non-use of force was:",
+      "options": {
+        "A": "Inapplicable to indirect force",
+        "B": "Limited to treaty parties",
+        "C": "Applicable only to UN members",
+        "D": "Part of customary international law"
+      },
+      "answer": "D",
+      "explanation": "The Court held that customary law continues independently of treaty law."
+    },
+    {
+      "id": 60,
+      "subject": "Family Law",
+      "difficulty": "Medium",
+      "question": "Under the Hindu Succession Act, 1956, the property of a Hindu male dying intestate devolves first on:",
+      "options": {
+        "A": "Class II heirs",
+        "B": "Cognates",
+        "C": "Agnates",
+        "D": "Class I heirs"
+      },
+      "answer": "D",
+      "explanation": "Class I heirs include sons, daughters, widow and mother, among others."
+    },
+    {
+      "id": 61,
+      "subject": "Family Law",
+      "difficulty": "Hard",
+      "question": "Property of a Hindu female dying intestate, not inherited from her parents or husband's family, devolves first on:",
+      "options": {
+        "A": "Her mother-in-law",
+        "B": "Her sons, daughters and husband",
+        "C": "The Government",
+        "D": "Her father's heirs"
+      },
+      "answer": "B",
+      "explanation": "Section 15(1)(a) HSA lists sons, daughters (including children of pre-deceased children) and husband together."
+    },
+    {
+      "id": 62,
+      "subject": "Family Law",
+      "difficulty": "Medium",
+      "question": "Under Sunni law, a widow with children is entitled to what share in her husband's estate?",
+      "options": {
+        "A": "One-fourth",
+        "B": "One-sixth",
+        "C": "One-half",
+        "D": "One-eighth"
+      },
+      "answer": "D",
+      "explanation": "Without children, her share is one-fourth."
+    },
+    {
+      "id": 63,
+      "subject": "Succession Law",
+      "difficulty": "Medium",
+      "question": "Under Section 63 of the Indian Succession Act, 1925, a will must be attested by:",
+      "options": {
+        "A": "At least two witnesses",
+        "B": "A notary public with a seal",
+        "C": "A magistrate of the first class",
+        "D": "One witness of the testator's choice"
+      },
+      "answer": "A",
+      "explanation": "Each witness must see the testator sign or acknowledge his signature."
+    },
+    {
+      "id": 64,
+      "subject": "Property Law",
+      "difficulty": "Hard",
+      "question": "The right of pre-emption (shufa) in Muslim law is the right to:",
+      "options": {
+        "A": "Mortgage property for a loan",
+        "B": "Lease property to a tenant",
+        "C": "Gift property to a relative",
+        "D": "Buy property before a stranger can"
+      },
+      "answer": "D",
+      "explanation": "It is based on the notion of avoiding the inconvenience of a stranger as co-sharer or neighbour."
+    },
+    {
+      "id": 65,
+      "subject": "Family Law",
+      "difficulty": "Medium",
+      "question": "A waqf is the permanent dedication of property for:",
+      "options": {
+        "A": "Commercial ventures",
+        "B": "Religious, pious or charitable purposes",
+        "C": "Government revenue purposes",
+        "D": "Private enjoyment of the founder's heirs only"
+      },
+      "answer": "B",
+      "explanation": "The ownership of waqf property is vested in God, and a mutawalli manages it."
+    },
+    {
+      "id": 66,
+      "subject": "Information Technology Law",
+      "difficulty": "Medium",
+      "question": "Identity theft is punishable under which section of the IT Act, 2000?",
+      "options": {
+        "A": "Section 66C",
+        "B": "Section 66A",
+        "C": "Section 66F",
+        "D": "Section 66B"
+      },
+      "answer": "A",
+      "explanation": "Section 66F deals with cyber terrorism and Section 66A was struck down in Shreya Singhal."
+    },
+    {
+      "id": 67,
+      "subject": "Labour & Women Law",
+      "difficulty": "Medium",
+      "question": "Under the POSH Act, 2013, an Internal Committee must be constituted at every workplace with at least:",
+      "options": {
+        "A": "Ten employees",
+        "B": "Fifty employees",
+        "C": "Fifteen employees",
+        "D": "Five employees"
+      },
+      "answer": "A",
+      "explanation": "Establishments with fewer than ten employees fall under the Local Committee at the district level."
+    },
+    {
+      "id": 68,
+      "subject": "Insolvency Law",
+      "difficulty": "Hard",
+      "question": "Under the IBC, 2016, the minimum default amount for initiating corporate insolvency (since 2020) is:",
+      "options": {
+        "A": "₹10 lakh",
+        "B": "₹1 lakh",
+        "C": "₹1 crore",
+        "D": "₹10 crore"
+      },
+      "answer": "C",
+      "explanation": "The threshold was raised from ₹1 lakh to ₹1 crore in March 2020."
+    },
+    {
+      "id": 69,
+      "subject": "Environmental Law",
+      "difficulty": "Medium",
+      "question": "The Forest Rights Act, 2006 recognises the rights of:",
+      "options": {
+        "A": "Timber merchants holding licences",
+        "B": "Mining companies in forest areas",
+        "C": "Forest officers in reserved forests",
+        "D": "Forest-dwelling Scheduled Tribes and other traditional forest dwellers"
+      },
+      "answer": "D",
+      "explanation": "The Act recognises individual and community forest rights."
+    },
+    {
+      "id": 70,
+      "subject": "Environmental Law",
+      "difficulty": "Medium",
+      "question": "The National Biodiversity Authority is established under the:",
+      "options": {
+        "A": "Environment (Protection) Act, 1986",
+        "B": "Biological Diversity Act, 2002",
+        "C": "Forest (Conservation) Act, 1980",
+        "D": "Wild Life (Protection) Act, 1972"
+      },
+      "answer": "B",
+      "explanation": "The Act implements the Convention on Biological Diversity, 1992."
+    },
+    {
+      "id": 71,
+      "subject": "Property Law",
+      "difficulty": "Hard",
+      "question": "Under RERA, 2016, registration of a real estate project is required where the land exceeds:",
+      "options": {
+        "A": "500 square metres or eight apartments",
+        "B": "100 square metres or two apartments",
+        "C": "1,000 square metres or twenty apartments",
+        "D": "50 square metres or four apartments"
+      },
+      "answer": "A",
+      "explanation": "Section 3 of the Act sets this threshold."
+    },
+    {
+      "id": 72,
+      "subject": "Property Law",
+      "difficulty": "Hard",
+      "question": "Under the LARR Act, 2013, acquisition for private companies requires the consent of at least:",
+      "options": {
+        "A": "67 per cent of the affected families",
+        "B": "80 per cent of the affected families",
+        "C": "100 per cent of the affected families",
+        "D": "51 per cent of the affected families"
+      },
+      "answer": "B",
+      "explanation": "For public-private partnership projects the consent threshold is 70 per cent."
+    },
+    {
+      "id": 73,
+      "subject": "Company Law",
+      "difficulty": "Hard",
+      "question": "Under Section 188 of the Companies Act, 2013, related party transactions require:",
+      "options": {
+        "A": "Approval of the Registrar of Companies only",
+        "B": "No approval of any kind",
+        "C": "Approval of the Tribunal alone in every case",
+        "D": "Board approval, and shareholders' above limits"
+      },
+      "answer": "D",
+      "explanation": "Interested directors and members cannot vote on the related party resolution."
+    },
+    {
+      "id": 74,
+      "subject": "Right to Information",
+      "difficulty": "Easy",
+      "question": "The Central Information Commission under the RTI Act is headed by the:",
+      "options": {
+        "A": "Comptroller and Auditor General",
+        "B": "Chief Information Commissioner",
+        "C": "Registrar General",
+        "D": "Lokpal"
+      },
+      "answer": "B",
+      "explanation": "The Commission hears second appeals and complaints under the Act."
+    },
+    {
+      "id": 75,
+      "subject": "Securities Law",
+      "difficulty": "Medium",
+      "question": "Insider trading in India is prohibited under the:",
+      "options": {
+        "A": "Information Technology Act, 2000 and rules",
+        "B": "Companies Act alone",
+        "C": "SEBI Insider Trading Regulations, 2015",
+        "D": "Banking Regulation Act, 1949 and its rules"
+      },
+      "answer": "C",
+      "explanation": "The SEBI Act, 1992 empowers SEBI to regulate and penalise insider trading."
+    }
+  ]
+}

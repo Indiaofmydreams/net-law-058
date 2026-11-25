@@ -1,0 +1,1070 @@
+{
+  "exam": "CUET (PG) 2027 - LL.M. (Law) Mock Test 7",
+  "paper_code": "COQP09 (Law) - pattern based",
+  "total_questions": 75,
+  "duration_minutes": 90,
+  "total_marks": 300,
+  "marking_scheme": {
+    "correct": 4,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "answer_distribution": {
+    "A": 19,
+    "B": 19,
+    "C": 19,
+    "D": 18
+  },
+  "questions": [
+    {
+      "id": 1,
+      "subject": "Constitutional Law",
+      "difficulty": "Hard",
+      "question": "In Anuradha Bhasin v. Union of India, the Supreme Court held that restrictions on internet access can be imposed only if they are:",
+      "options": {
+        "A": "Proportionate and open to judicial review",
+        "B": "Approved by the Prime Minister alone",
+        "C": "Applied uniformly to all States and territories equally",
+        "D": "Notified only after six months"
+      },
+      "answer": "A",
+      "explanation": "The Court held that freedom of speech through the internet and the right to trade online are protected under Articles 19(1)(a) and 19(1)(g)."
+    },
+    {
+      "id": 2,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "In Navtej Singh Johar v. Union of India (2018), the Supreme Court read down Section 377 IPC to the extent it criminalised:",
+      "options": {
+        "A": "Consensual sexual acts between adults",
+        "B": "Non-consensual sexual acts of any kind",
+        "C": "Sexual acts with animals in private",
+        "D": "Sexual acts with minors of any sex"
+      },
+      "answer": "A",
+      "explanation": "The Court overruled Suresh Kumar Koushal and held that Section 377 stays for non-consensual acts, minors and animals."
+    },
+    {
+      "id": 3,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "Section 497 IPC (adultery) was struck down as unconstitutional in:",
+      "options": {
+        "A": "Shayara Bano v. Union of India (2017)",
+        "B": "Joseph Shine v. Union of India (2018)",
+        "C": "Navtej Singh Johar v. Union of India (2018)",
+        "D": "Independent Thought v. Union of India (2017)"
+      },
+      "answer": "B",
+      "explanation": "The Court held that the provision treated a married woman as her husband's property and violated Articles 14, 15 and 21."
+    },
+    {
+      "id": 4,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "Transgender persons were recognised as a 'third gender' with constitutional protection in:",
+      "options": {
+        "A": "NALSA v. Union of India (2014)",
+        "B": "Lata Singh v. State of Uttar Pradesh (2006)",
+        "C": "Suresh Kumar Koushal v. Naz Foundation (2013)",
+        "D": "Pramati Educational Trust v. Union of India (2014)"
+      },
+      "answer": "A",
+      "explanation": "The NALSA judgment recognised gender identity as part of Articles 14, 15, 16 and 21."
+    },
+    {
+      "id": 5,
+      "subject": "Constitutional Law",
+      "difficulty": "Hard",
+      "question": "In Lily Thomas v. Union of India (2013), the Supreme Court held that a legislator convicted and sentenced to at least two years' imprisonment is:",
+      "options": {
+        "A": "Not disqualified until the Speaker decides",
+        "B": "Disqualified from the date of conviction",
+        "C": "Disqualified once the sentence ends",
+        "D": "Disqualified only after the appeal is decided"
+      },
+      "answer": "B",
+      "explanation": "The Court struck down Section 8(4) of the Representation of the People Act, which had allowed sitting members to continue pending appeal."
+    },
+    {
+      "id": 6,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "Article 245(2) provides that a law made by Parliament shall not be invalid merely because it has:",
+      "options": {
+        "A": "Extra-territorial operation",
+        "B": "Financial implications for States",
+        "C": "Delegated provisions inside it",
+        "D": "Retrospective operation in effect"
+      },
+      "answer": "A",
+      "explanation": "Parliament may thus legislate with extra-territorial operation, subject to a nexus with India."
+    },
+    {
+      "id": 7,
+      "subject": "Constitutional Law",
+      "difficulty": "Hard",
+      "question": "Under Article 254(1), where a State law on a Concurrent List subject conflicts with a Union law, the:",
+      "options": {
+        "A": "State law always prevails in its own territory",
+        "B": "Law enacted earlier in time prevails",
+        "C": "Union law prevails to the extent of repugnancy",
+        "D": "Supreme Court must choose between the two"
+      },
+      "answer": "C",
+      "explanation": "Under Article 254(2), a State law reserved for the President's assent may prevail in that State."
+    },
+    {
+      "id": 8,
+      "subject": "Constitutional Law",
+      "difficulty": "Hard",
+      "question": "Under Article 252, Parliament may legislate on a State subject for two or more States if:",
+      "options": {
+        "A": "The Supreme Court so directs it",
+        "B": "The Rajya Sabha passes a resolution by special majority",
+        "C": "The President declares an emergency",
+        "D": "Those States pass resolutions requesting it"
+      },
+      "answer": "D",
+      "explanation": "Such a law applies only to the requesting States, and to others that later adopt it."
+    },
+    {
+      "id": 9,
+      "subject": "Constitutional Law",
+      "difficulty": "Hard",
+      "question": "Under Article 249, Parliament may legislate on a State List subject in the national interest on a resolution of the Rajya Sabha supported by:",
+      "options": {
+        "A": "A simple majority of members present",
+        "B": "Two-thirds of the total membership",
+        "C": "Two-thirds of members present and voting",
+        "D": "Three-fourths of the total membership"
+      },
+      "answer": "C",
+      "explanation": "The resolution remains in force for one year, renewable."
+    },
+    {
+      "id": 10,
+      "subject": "Constitutional Law",
+      "difficulty": "Hard",
+      "question": "A new All-India Service can be created under Article 312 if:",
+      "options": {
+        "A": "All State Governors unanimously agree to it",
+        "B": "The Supreme Court recommends the service",
+        "C": "The Lok Sabha passes a resolution by a simple majority",
+        "D": "Rajya Sabha resolution by two-thirds majority"
+      },
+      "answer": "D",
+      "explanation": "Parliament then creates the service by law."
+    },
+    {
+      "id": 11,
+      "subject": "Constitutional Law",
+      "difficulty": "Hard",
+      "question": "In L. Chandra Kumar v. Union of India, the Supreme Court held that decisions of administrative tribunals are subject to review by:",
+      "options": {
+        "A": "Only the President, through an order",
+        "B": "The Election Commission of India",
+        "C": "High Courts under Articles 226 and 227",
+        "D": "Only Parliament, through legislation"
+      },
+      "answer": "C",
+      "explanation": "Judicial review by the High Courts and Supreme Court was held to be part of the basic structure."
+    },
+    {
+      "id": 12,
+      "subject": "Constitutional Law",
+      "difficulty": "Easy",
+      "question": "The Parliament of India consists of:",
+      "options": {
+        "A": "The Prime Minister and Council of Ministers",
+        "B": "The President and the Lok Sabha only",
+        "C": "The Lok Sabha and Rajya Sabha only",
+        "D": "The President and the two Houses"
+      },
+      "answer": "D",
+      "explanation": "Article 79 provides that the President is a part of Parliament."
+    },
+    {
+      "id": 13,
+      "subject": "Constitutional Law",
+      "difficulty": "Easy",
+      "question": "The official language of the Union under Article 343 is:",
+      "options": {
+        "A": "English in Roman script",
+        "B": "Sanskrit in Devanagari script",
+        "C": "Hindi and English equally",
+        "D": "Hindi in Devanagari script"
+      },
+      "answer": "D",
+      "explanation": "English may continue for official purposes as provided by law."
+    },
+    {
+      "id": 14,
+      "subject": "Jurisprudence",
+      "difficulty": "Hard",
+      "question": "The eleven 'incidents of ownership', such as the rights to possess, use and manage, were catalogued by:",
+      "options": {
+        "A": "F.W. Maitland",
+        "B": "A.M. Honoré",
+        "C": "H.L.A. Hart",
+        "D": "John Austin"
+      },
+      "answer": "B",
+      "explanation": "Honoré's analysis is a widely cited treatment of the concept of ownership."
+    },
+    {
+      "id": 15,
+      "subject": "Jurisprudence",
+      "difficulty": "Medium",
+      "question": "A 'corporation sole' consists of:",
+      "options": {
+        "A": "Two or more partners carrying on a firm",
+        "B": "A group of shareholders of a limited company",
+        "C": "A trust administered by several trustees",
+        "D": "A single office-holder with perpetual succession"
+      },
+      "answer": "D",
+      "explanation": "Examples include the Administrator General and some religious offices."
+    },
+    {
+      "id": 16,
+      "subject": "Jurisprudence",
+      "difficulty": "Medium",
+      "question": "The term 'codification' of law was coined by:",
+      "options": {
+        "A": "Lord Macaulay",
+        "B": "Henry Maine",
+        "C": "Jeremy Bentham",
+        "D": "John Austin"
+      },
+      "answer": "C",
+      "explanation": "Bentham advocated a complete, systematic code of laws."
+    },
+    {
+      "id": 17,
+      "subject": "Jurisprudence",
+      "difficulty": "Easy",
+      "question": "Obiter dicta of a court are:",
+      "options": {
+        "A": "Binding on all lower courts",
+        "B": "Persuasive but not binding",
+        "C": "Part of the operative order",
+        "D": "Binding on the same court"
+      },
+      "answer": "B",
+      "explanation": "Only the ratio decidendi has binding force as precedent."
+    },
+    {
+      "id": 18,
+      "subject": "Jurisprudence",
+      "difficulty": "Hard",
+      "question": "The 'sources thesis', that the existence of law depends on social facts and not on morality, is associated with:",
+      "options": {
+        "A": "Ronald Dworkin",
+        "B": "Joseph Raz",
+        "C": "Lon Fuller",
+        "D": "John Finnis"
+      },
+      "answer": "B",
+      "explanation": "Raz is a leading exclusive legal positivist."
+    },
+    {
+      "id": 19,
+      "subject": "Jurisprudence",
+      "difficulty": "Easy",
+      "question": "Locke identified the natural rights of man as life, liberty and:",
+      "options": {
+        "A": "Happiness",
+        "B": "Fraternity",
+        "C": "Property",
+        "D": "Equality"
+      },
+      "answer": "C",
+      "explanation": "Locke's Second Treatise of Government influenced later constitutional thought."
+    },
+    {
+      "id": 20,
+      "subject": "Jurisprudence",
+      "difficulty": "Medium",
+      "question": "In Roman law, the 'jus gentium' was the law:",
+      "options": {
+        "A": "Of Roman citizens only, in Rome itself",
+        "B": "Common to all peoples and foreigners",
+        "C": "Of the Roman emperor and his court alone",
+        "D": "Of the Church and clergy alone"
+      },
+      "answer": "B",
+      "explanation": "It was administered by the praetor peregrinus between foreigners and between foreigners and citizens."
+    },
+    {
+      "id": 21,
+      "subject": "Law of Contract",
+      "difficulty": "Hard",
+      "question": "Under Section 68 of the Contract Act, a person who supplies necessaries to one incapable of contracting is entitled to:",
+      "options": {
+        "A": "Reimbursement from that person's property",
+        "B": "Specific performance of the supply",
+        "C": "Nothing at all, since the contract is void",
+        "D": "Payment from the guardian in his own person"
+      },
+      "answer": "A",
+      "explanation": "The liability is on the property of the minor or person of unsound mind, not on the person himself."
+    },
+    {
+      "id": 22,
+      "subject": "Law of Contract",
+      "difficulty": "Medium",
+      "question": "Under Section 72 of the Contract Act, money paid by mistake or under coercion must be:",
+      "options": {
+        "A": "Divided equally between the two",
+        "B": "Retained by the recipient",
+        "C": "Repaid or returned",
+        "D": "Forfeited to the State"
+      },
+      "answer": "C",
+      "explanation": "Section 72 is a quasi-contractual obligation."
+    },
+    {
+      "id": 23,
+      "subject": "Law of Contract",
+      "difficulty": "Medium",
+      "question": "Under Section 65 of the Contract Act, a person who has received any advantage under an agreement discovered to be void must:",
+      "options": {
+        "A": "Restore it or make compensation for it",
+        "B": "Retain it without any liability to anyone",
+        "C": "Pay a penalty to the State",
+        "D": "Transfer it to the court registry"
+      },
+      "answer": "A",
+      "explanation": "The section applies when the agreement is found void or becomes void."
+    },
+    {
+      "id": 24,
+      "subject": "Law of Contract",
+      "difficulty": "Medium",
+      "question": "A contract to perform the promise or discharge the liability of a third person in case of his default is a:",
+      "options": {
+        "A": "Contract of guarantee",
+        "B": "Contract of indemnity",
+        "C": "Contract of agency",
+        "D": "Contract of pledge"
+      },
+      "answer": "A",
+      "explanation": "Section 126 defines guarantee, with a surety, a principal debtor and a creditor."
+    },
+    {
+      "id": 25,
+      "subject": "Law of Contract",
+      "difficulty": "Medium",
+      "question": "Bailment is the delivery of goods for some purpose, on a contract that they shall:",
+      "options": {
+        "A": "Be insured by the Government for loss",
+        "B": "Be returned on accomplishing the purpose",
+        "C": "Become the absolute property of the bailee",
+        "D": "Be sold to a third party at once by the bailee"
+      },
+      "answer": "B",
+      "explanation": "Section 148 defines bailment; the bailor is the person delivering, the bailee the person receiving the goods."
+    },
+    {
+      "id": 26,
+      "subject": "Law of Contract",
+      "difficulty": "Medium",
+      "question": "Under Section 151, a bailee must take of the goods bailed as much care as:",
+      "options": {
+        "A": "A government officer would take",
+        "B": "An ordinarily prudent person takes of his own",
+        "C": "The bailor would take of it in a public place",
+        "D": "A professional warehouse would take"
+      },
+      "answer": "B",
+      "explanation": "The standard is that of a man of ordinary prudence in similar circumstances with his own goods."
+    },
+    {
+      "id": 27,
+      "subject": "Law of Contract",
+      "difficulty": "Easy",
+      "question": "A pledge is the bailment of goods as security for:",
+      "options": {
+        "A": "Payment of a debt or performance of a promise",
+        "B": "Hire of a vehicle for a long journey abroad",
+        "C": "Registration of a partnership firm and its deed",
+        "D": "Sale of agricultural goods at a mandi"
+      },
+      "answer": "A",
+      "explanation": "Section 172 defines pledge; the bailor is the pawnor, the bailee the pawnee."
+    },
+    {
+      "id": 28,
+      "subject": "Law of Torts",
+      "difficulty": "Hard",
+      "question": "In Read v. J. Lyons & Co., the House of Lords held that the rule in Rylands v. Fletcher requires:",
+      "options": {
+        "A": "Natural use of the defendant's land",
+        "B": "Proof of fraud by the defendant himself",
+        "C": "Escape of the thing from the defendant's control",
+        "D": "Intention to harm the plaintiff directly and personally"
+      },
+      "answer": "C",
+      "explanation": "Injury to a person inside the defendant's premises, without an escape, was held not to attract strict liability."
+    },
+    {
+      "id": 29,
+      "subject": "Law of Torts",
+      "difficulty": "Hard",
+      "question": "The doctrine of trespass ab initio applies where a person entering under lawful authority:",
+      "options": {
+        "A": "Obtains the owner's consent later",
+        "B": "Pays rent regularly to the owner",
+        "C": "Afterwards abuses that authority",
+        "D": "Leaves before being asked to go"
+      },
+      "answer": "C",
+      "explanation": "Six Carpenters' Case (1610): the entry is treated as unlawful from the beginning."
+    },
+    {
+      "id": 30,
+      "subject": "Law of Torts",
+      "difficulty": "Medium",
+      "question": "Pasley v. Freeman established the tort of:",
+      "options": {
+        "A": "Nuisance",
+        "B": "Deceit",
+        "C": "Negligence",
+        "D": "Conversion"
+      },
+      "answer": "B",
+      "explanation": "A false statement, made knowingly to induce action, gives rise to an action in deceit."
+    },
+    {
+      "id": 31,
+      "subject": "Law of Torts",
+      "difficulty": "Hard",
+      "question": "In Poonam Verma v. Ashwin Patel, a doctor was held negligent for:",
+      "options": {
+        "A": "Closing his clinic earlier than the usual hour",
+        "B": "Charging excessive fees from patients",
+        "C": "Refusing a free consultation to the poor",
+        "D": "Treating in a system he was not qualified in"
+      },
+      "answer": "D",
+      "explanation": "A homoeopath who prescribed allopathic medicines was held negligent per se."
+    },
+    {
+      "id": 32,
+      "subject": "Law of Torts",
+      "difficulty": "Hard",
+      "question": "Palsgraf v. Long Island Railroad Co. established that the duty of care is owed to:",
+      "options": {
+        "A": "All persons in the world",
+        "B": "Only contracting parties",
+        "C": "Only paying passengers",
+        "D": "Foreseeable plaintiffs"
+      },
+      "answer": "D",
+      "explanation": "Cardozo J. held that duty is owed only to those within the zone of foreseeable danger."
+    },
+    {
+      "id": 33,
+      "subject": "Law of Torts",
+      "difficulty": "Medium",
+      "question": "The 'classical trinity' of passing off requires goodwill, misrepresentation and:",
+      "options": {
+        "A": "Intention to defraud",
+        "B": "Damage",
+        "C": "Registration",
+        "D": "Copyright"
+      },
+      "answer": "B",
+      "explanation": "The trinity was stated in Reckitt & Colman v. Borden (the Jif Lemon case)."
+    },
+    {
+      "id": 34,
+      "subject": "Criminal Law",
+      "difficulty": "Hard",
+      "question": "The line 'they also serve who only stand and wait', in the context of common intention, was used in:",
+      "options": {
+        "A": "Virsa Singh v. State of Punjab",
+        "B": "Reg v. Govinda",
+        "C": "Barendra Kumar Ghosh v. King Emperor",
+        "D": "State of Maharashtra v. M.H. George"
+      },
+      "answer": "C",
+      "explanation": "A person standing guard can share liability for the criminal act under common intention."
+    },
+    {
+      "id": 35,
+      "subject": "Criminal Law",
+      "difficulty": "Hard",
+      "question": "In R v. Dudley and Stephens, the court held that necessity is:",
+      "options": {
+        "A": "No defence to a charge of murder",
+        "B": "A complete defence to murder",
+        "C": "A defence reducing murder to theft",
+        "D": "Relevant only to sentencing"
+      },
+      "answer": "A",
+      "explanation": "The shipwrecked sailors who killed the cabin boy were convicted of murder."
+    },
+    {
+      "id": 36,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "Under the BNS, sexual intercourse with a woman below what age is rape irrespective of her consent?",
+      "options": {
+        "A": "Eighteen years",
+        "B": "Sixteen years",
+        "C": "Twenty-one years",
+        "D": "Fourteen years"
+      },
+      "answer": "A",
+      "explanation": "The age of consent is eighteen years under the BNS."
+    },
+    {
+      "id": 37,
+      "subject": "Criminal Law",
+      "difficulty": "Hard",
+      "question": "Causing death by negligence (other than rash driving) under Section 106(1) BNS is punishable with imprisonment up to:",
+      "options": {
+        "A": "Ten years and fine",
+        "B": "Five years and fine",
+        "C": "Two years and fine",
+        "D": "Seven years and fine"
+      },
+      "answer": "B",
+      "explanation": "A registered medical practitioner acting in a medical procedure is liable to up to two years."
+    },
+    {
+      "id": 38,
+      "subject": "Criminal Law",
+      "difficulty": "Hard",
+      "question": "The distinction between common intention and common object is that common object requires:",
+      "options": {
+        "A": "A pre-arranged plan between two or more persons",
+        "B": "A single offender acting entirely alone",
+        "C": "A criminal conspiracy recorded in writing",
+        "D": "An unlawful assembly of five or more persons"
+      },
+      "answer": "D",
+      "explanation": "Common intention needs a prior meeting of minds; common object can arise on the spot."
+    },
+    {
+      "id": 39,
+      "subject": "Criminal Law",
+      "difficulty": "Hard",
+      "question": "Under the BNS, a Judge acting judicially in good faith is protected even if he:",
+      "options": {
+        "A": "Acts out of personal malice against a party",
+        "B": "Acts without any authority at all",
+        "C": "Takes a bribe for the order",
+        "D": "Acts under a mistake as to his jurisdiction"
+      },
+      "answer": "D",
+      "explanation": "The protection requires good faith and a belief that he is acting within his powers."
+    },
+    {
+      "id": 40,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "The general exception of compulsion by threats does NOT extend to:",
+      "options": {
+        "A": "Mischief",
+        "B": "Cheating",
+        "C": "Murder",
+        "D": "Theft"
+      },
+      "answer": "C",
+      "explanation": "It also excludes offences against the State punishable with death."
+    },
+    {
+      "id": 41,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "An act done by accident, without criminal intention or knowledge, in the doing of a lawful act in a lawful manner is:",
+      "options": {
+        "A": "An offence if harm results",
+        "B": "Not an offence",
+        "C": "A civil wrong only, not criminal",
+        "D": "A minor offence of negligence"
+      },
+      "answer": "B",
+      "explanation": "Accident is a general exception in criminal law."
+    },
+    {
+      "id": 42,
+      "subject": "Procedural Law",
+      "difficulty": "Medium",
+      "question": "Under Section 47 of the CPC, questions relating to execution of a decree between the parties must be decided by:",
+      "options": {
+        "A": "A separate civil suit always",
+        "B": "The Collector of the district",
+        "C": "The executing court, not a fresh suit",
+        "D": "The Registrar of the High Court"
+      },
+      "answer": "C",
+      "explanation": "The section avoids multiplicity of proceedings."
+    },
+    {
+      "id": 43,
+      "subject": "Procedural Law",
+      "difficulty": "Hard",
+      "question": "A foreign judgment is conclusive under Section 13 of the CPC except where it was:",
+      "options": {
+        "A": "Passed after hearing both parties",
+        "B": "Based on the merits of the case",
+        "C": "Given by a court of competent jurisdiction",
+        "D": "Obtained by fraud"
+      },
+      "answer": "D",
+      "explanation": "Other exceptions include want of jurisdiction, violation of natural justice and breach of Indian law."
+    },
+    {
+      "id": 44,
+      "subject": "Procedural Law",
+      "difficulty": "Hard",
+      "question": "Under Order XXIII Rule 1 of the CPC, a plaintiff may withdraw a suit with liberty to file afresh if it fails because of:",
+      "options": {
+        "A": "The defendant's absence",
+        "B": "A formal defect",
+        "C": "A change of advocate",
+        "D": "Expiry of limitation"
+      },
+      "answer": "B",
+      "explanation": "The court must be satisfied that the suit must fail by reason of a formal defect or that there are sufficient grounds."
+    },
+    {
+      "id": 45,
+      "subject": "Procedural Law",
+      "difficulty": "Medium",
+      "question": "Under Section 24 of the CPC, suits may be transferred between courts by the:",
+      "options": {
+        "A": "Registrar of the Supreme Court",
+        "B": "Advocate General",
+        "C": "High Court or District Court",
+        "D": "Governor of the State"
+      },
+      "answer": "C",
+      "explanation": "The Supreme Court has separate powers of transfer under Section 25."
+    },
+    {
+      "id": 46,
+      "subject": "Procedural Law",
+      "difficulty": "Medium",
+      "question": "Under Order XVIII Rule 4 of the CPC, examination-in-chief of a witness is recorded by:",
+      "options": {
+        "A": "Oral statement only",
+        "B": "Video conference only",
+        "C": "Telephonic dictation",
+        "D": "Affidavit"
+      },
+      "answer": "D",
+      "explanation": "Cross-examination and re-examination are still done in court."
+    },
+    {
+      "id": 47,
+      "subject": "Procedural Law",
+      "difficulty": "Hard",
+      "question": "Under Order XIV of the CPC, issues are framed from:",
+      "options": {
+        "A": "The prayer of the plaint only",
+        "B": "Affidavits of the witnesses filed with the plaint",
+        "C": "Propositions affirmed by one, denied by other",
+        "D": "Suggestions of the court alone"
+      },
+      "answer": "C",
+      "explanation": "Issues are of fact or law; they define the controversy to be tried."
+    },
+    {
+      "id": 48,
+      "subject": "Procedural Law",
+      "difficulty": "Medium",
+      "question": "Under Section 34 of the CPC, interest on the principal sum adjudged may be awarded:",
+      "options": {
+        "A": "Never in a money suit",
+        "B": "Only when the contract so provides",
+        "C": "Only after the decree is finally passed",
+        "D": "From the suit date to the decree date"
+      },
+      "answer": "D",
+      "explanation": "The rate is discretionary, subject to a cap for commercial transactions."
+    },
+    {
+      "id": 49,
+      "subject": "Procedural Law",
+      "difficulty": "Medium",
+      "question": "Under Order XXII of the CPC, if the sole plaintiff dies and no legal representative is brought on record in time, the suit:",
+      "options": {
+        "A": "Is dismissed on merits",
+        "B": "Is transferred to the State",
+        "C": "Abates",
+        "D": "Becomes void"
+      },
+      "answer": "C",
+      "explanation": "Abatement can be set aside for sufficient cause shown."
+    },
+    {
+      "id": 50,
+      "subject": "Law of Evidence",
+      "difficulty": "Medium",
+      "question": "Under Section 91 of the Evidence Act, where the terms of a contract are reduced to writing, they must be proved by:",
+      "options": {
+        "A": "Oral evidence of the witnesses",
+        "B": "The opinion of an expert alone",
+        "C": "The affidavit of its author",
+        "D": "The document itself"
+      },
+      "answer": "D",
+      "explanation": "Section 91 bars oral evidence to prove the terms of a written document."
+    },
+    {
+      "id": 51,
+      "subject": "Law of Evidence",
+      "difficulty": "Easy",
+      "question": "Under Section 105 of the Evidence Act, the burden of proving that the case falls within a general exception lies on:",
+      "options": {
+        "A": "The complainant",
+        "B": "The prosecution",
+        "C": "The accused",
+        "D": "The court"
+      },
+      "answer": "C",
+      "explanation": "The court shall presume absence of circumstances bringing the case within an exception."
+    },
+    {
+      "id": 52,
+      "subject": "Law of Evidence",
+      "difficulty": "Medium",
+      "question": "Under Section 24 of the Evidence Act, a confession caused by inducement, threat or promise from a person in authority is:",
+      "options": {
+        "A": "Irrelevant in a criminal proceeding",
+        "B": "Admissible after cross-examination",
+        "C": "Fully admissible against the accused",
+        "D": "Admissible only with corroboration"
+      },
+      "answer": "A",
+      "explanation": "The inducement must relate to the charge and give grounds to the accused to believe he would gain an advantage."
+    },
+    {
+      "id": 53,
+      "subject": "Law of Evidence",
+      "difficulty": "Medium",
+      "question": "Under Section 114 of the Evidence Act, the court may presume the existence of a fact likely to have happened, having regard to:",
+      "options": {
+        "A": "The opinion of the police",
+        "B": "The common course of natural events",
+        "C": "Past decisions of the same judge",
+        "D": "The wishes of the plaintiff"
+      },
+      "answer": "B",
+      "explanation": "Section 114 also covers human conduct and public and private business."
+    },
+    {
+      "id": 54,
+      "subject": "International Law",
+      "difficulty": "Medium",
+      "question": "Under the Outer Space Treaty, 1967, outer space and celestial bodies are:",
+      "options": {
+        "A": "Open to private sale by any State",
+        "B": "Owned by the first State to reach them",
+        "C": "Not subject to national appropriation",
+        "D": "Divided among the permanent members"
+      },
+      "answer": "C",
+      "explanation": "The Treaty treats space as the province of all mankind."
+    },
+    {
+      "id": 55,
+      "subject": "International Law",
+      "difficulty": "Easy",
+      "question": "The Chicago Convention, 1944 established the:",
+      "options": {
+        "A": "International Telecommunication Union",
+        "B": "International Civil Aviation Organization",
+        "C": "International Maritime Organization",
+        "D": "World Meteorological Organization"
+      },
+      "answer": "B",
+      "explanation": "ICAO is a specialised agency of the UN, headquartered in Montreal."
+    },
+    {
+      "id": 56,
+      "subject": "International Law",
+      "difficulty": "Hard",
+      "question": "The principle that no State may use its territory to cause injury to another State was affirmed in the:",
+      "options": {
+        "A": "Trail Smelter Arbitration",
+        "B": "Alabama Claims Arbitration",
+        "C": "Island of Palmas Case",
+        "D": "Rainbow Warrior Case"
+      },
+      "answer": "A",
+      "explanation": "The Trail Smelter award (1941) is the classic authority on transboundary environmental harm."
+    },
+    {
+      "id": 57,
+      "subject": "International Law",
+      "difficulty": "Easy",
+      "question": "The International Covenant on Civil and Political Rights was adopted by the UN General Assembly in:",
+      "options": {
+        "A": "1975",
+        "B": "1966",
+        "C": "1950",
+        "D": "1948"
+      },
+      "answer": "B",
+      "explanation": "It entered into force in 1976; India acceded in 1979."
+    },
+    {
+      "id": 58,
+      "subject": "International Law",
+      "difficulty": "Medium",
+      "question": "The principle of distinction in international humanitarian law requires parties to a conflict to distinguish between:",
+      "options": {
+        "A": "Land forces and air forces",
+        "B": "Political and military leaders",
+        "C": "Treaties and customs",
+        "D": "Combatants and civilians"
+      },
+      "answer": "D",
+      "explanation": "Attacks may be directed only at military objectives."
+    },
+    {
+      "id": 59,
+      "subject": "International Law",
+      "difficulty": "Hard",
+      "question": "Under UNCLOS, a coastal State's continental shelf may extend, where conditions permit, up to:",
+      "options": {
+        "A": "350 nautical miles",
+        "B": "24 nautical miles",
+        "C": "100 nautical miles",
+        "D": "500 nautical miles"
+      },
+      "answer": "A",
+      "explanation": "Beyond 200 nautical miles, the limit is 350 nm or 100 nm from the 2,500-metre isobath."
+    },
+    {
+      "id": 60,
+      "subject": "Family Law",
+      "difficulty": "Medium",
+      "question": "Under the Guardians and Wards Act, 1890, in appointing a guardian, the paramount consideration is:",
+      "options": {
+        "A": "The welfare of the minor",
+        "B": "The religion of the guardian",
+        "C": "The property of the minor",
+        "D": "The wishes of the father"
+      },
+      "answer": "A",
+      "explanation": "The welfare principle overrides personal law preferences."
+    },
+    {
+      "id": 61,
+      "subject": "Family Law",
+      "difficulty": "Hard",
+      "question": "In Shabnam Hashmi v. Union of India, the Supreme Court held that the adoption provisions of the Juvenile Justice Act are:",
+      "options": {
+        "A": "Confined to Hindus under the HAMA",
+        "B": "Confined to Christians and Parsis",
+        "C": "Available to all irrespective of religion",
+        "D": "Confined to Muslim families"
+      },
+      "answer": "C",
+      "explanation": "The Court described the law as an enabling provision for all persons wishing to adopt."
+    },
+    {
+      "id": 62,
+      "subject": "Family Law",
+      "difficulty": "Hard",
+      "question": "The Muslim Women (Protection of Rights on Divorce) Act, 1986 was enacted after the decision in:",
+      "options": {
+        "A": "Mohd. Ahmed Khan v. Shah Bano Begum",
+        "B": "Vineeta Sharma v. Rakesh Sharma",
+        "C": "Shayara Bano v. Union of India",
+        "D": "Danial Latifi v. Union of India"
+      },
+      "answer": "A",
+      "explanation": "The Act was later read down in Danial Latifi to ensure a fair provision for the divorced woman's future."
+    },
+    {
+      "id": 63,
+      "subject": "Property Law",
+      "difficulty": "Medium",
+      "question": "Under Section 6(a) of the TPA, a mere chance of an heir-apparent succeeding to an estate (spes successionis) is:",
+      "options": {
+        "A": "Not transferable",
+        "B": "Transferable only by registered deed",
+        "C": "Freely transferable",
+        "D": "Transferable only to relatives"
+      },
+      "answer": "A",
+      "explanation": "A mere expectancy or chance of inheritance cannot be transferred."
+    },
+    {
+      "id": 64,
+      "subject": "Property Law",
+      "difficulty": "Medium",
+      "question": "Under Section 10 of the TPA, a condition absolutely restraining the transferee from alienating the property is:",
+      "options": {
+        "A": "Valid",
+        "B": "Valid for ten years",
+        "C": "Voidable",
+        "D": "Void"
+      },
+      "answer": "D",
+      "explanation": "Partial restraints for a limited time or to a specific class may be valid."
+    },
+    {
+      "id": 65,
+      "subject": "Property Law",
+      "difficulty": "Hard",
+      "question": "Under Section 14 of the TPA, a transfer cannot vest an interest later than the life of persons living at transfer, plus:",
+      "options": {
+        "A": "Ten years after the last death",
+        "B": "The minority of the ultimate beneficiary",
+        "C": "The lifetime of the next heir",
+        "D": "Twenty-one years in all cases"
+      },
+      "answer": "B",
+      "explanation": "This is the rule against perpetuities."
+    },
+    {
+      "id": 66,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "Free legal aid for the poor is provided as a Directive Principle under:",
+      "options": {
+        "A": "Article 38",
+        "B": "Article 43",
+        "C": "Article 39A",
+        "D": "Article 41"
+      },
+      "answer": "C",
+      "explanation": "Article 39A was inserted by the 42nd Amendment; the Legal Services Authorities Act, 1987 gives effect to it."
+    },
+    {
+      "id": 67,
+      "subject": "Legal System",
+      "difficulty": "Medium",
+      "question": "The Law Commission of India is:",
+      "options": {
+        "A": "A non-statutory executive body",
+        "B": "A statutory body under the Advocates Act",
+        "C": "A constitutional body under Article 124",
+        "D": "A tribunal under Article 323A"
+      },
+      "answer": "A",
+      "explanation": "It is constituted by Government resolution for a fixed term to recommend law reforms."
+    },
+    {
+      "id": 68,
+      "subject": "Legal Profession",
+      "difficulty": "Medium",
+      "question": "Under Section 35 of the Advocates Act, 1961, a complaint of professional misconduct against an advocate is first dealt with by:",
+      "options": {
+        "A": "The High Court directly, as a first complaint",
+        "B": "The Bar Council of India directly",
+        "C": "The district magistrate of the area",
+        "D": "A State Bar Council disciplinary committee"
+      },
+      "answer": "D",
+      "explanation": "An appeal lies to the Bar Council of India and then to the Supreme Court."
+    },
+    {
+      "id": 69,
+      "subject": "Commercial Law",
+      "difficulty": "Hard",
+      "question": "Under Section 12A of the Commercial Courts Act, 2015, before instituting a commercial suit without urgent relief, the plaintiff must exhaust:",
+      "options": {
+        "A": "Arbitration under the Act",
+        "B": "Review before the tribunal",
+        "C": "Appeal to the High Court",
+        "D": "Pre-institution mediation"
+      },
+      "answer": "D",
+      "explanation": "Patil Automation v. Rakheja Engineers (2022) held Section 12A to be mandatory."
+    },
+    {
+      "id": 70,
+      "subject": "Dispute Resolution",
+      "difficulty": "Hard",
+      "question": "Under the Mediation Act, 2023, a registered mediated settlement agreement is enforceable:",
+      "options": {
+        "A": "Only with the Registrar's approval",
+        "B": "Like a decree of a court",
+        "C": "Only after a fresh suit",
+        "D": "Only as a moral obligation"
+      },
+      "answer": "B",
+      "explanation": "The Act also provides for pre-litigation mediation and community mediation."
+    },
+    {
+      "id": 71,
+      "subject": "Education Law",
+      "difficulty": "Medium",
+      "question": "Under the RTE Act, 2009, private unaided schools must reserve what proportion of entry-level seats for disadvantaged children?",
+      "options": {
+        "A": "Fifty per cent of the seats",
+        "B": "Fifteen per cent of the seats",
+        "C": "Ten per cent of the seats",
+        "D": "Twenty-five per cent of seats"
+      },
+      "answer": "D",
+      "explanation": "Section 12(1)(c) was upheld in Society for Unaided Private Schools of Rajasthan v. Union of India."
+    },
+    {
+      "id": 72,
+      "subject": "Gender & Law",
+      "difficulty": "Medium",
+      "question": "Under the Transgender Persons (Protection of Rights) Act, 2019, identity is recognised through:",
+      "options": {
+        "A": "A certificate of identity issued by the District Magistrate",
+        "B": "An order of the Lok Adalat",
+        "C": "A declaration by the Gram Sabha",
+        "D": "A decree of the High Court"
+      },
+      "answer": "A",
+      "explanation": "A revised certificate may be issued after surgery to change gender."
+    },
+    {
+      "id": 73,
+      "subject": "Human Rights Law",
+      "difficulty": "Medium",
+      "question": "The Chairperson of the National Human Rights Commission is a:",
+      "options": {
+        "A": "Retired Chief Election Commissioner",
+        "B": "Retired Comptroller and Auditor General",
+        "C": "Former Chief Justice or Supreme Court Judge",
+        "D": "Serving Union Law Minister"
+      },
+      "answer": "C",
+      "explanation": "The 2019 amendment allows any former Judge of the Supreme Court to be appointed."
+    },
+    {
+      "id": 74,
+      "subject": "Education Law",
+      "difficulty": "Easy",
+      "question": "The Right to Education Act, 2009 applies to children aged:",
+      "options": {
+        "A": "Six to fourteen years",
+        "B": "Three to six years",
+        "C": "Fourteen to eighteen years",
+        "D": "Six to eighteen years"
+      },
+      "answer": "A",
+      "explanation": "The Act gives effect to Article 21A."
+    },
+    {
+      "id": 75,
+      "subject": "Right to Information",
+      "difficulty": "Medium",
+      "question": "Section 4 of the RTI Act obliges public authorities to:",
+      "options": {
+        "A": "Charge for all information supplied",
+        "B": "Proactively disclose information",
+        "C": "Refuse all information requests",
+        "D": "Delay disclosure until asked twice"
+      },
+      "answer": "B",
+      "explanation": "Suo motu disclosure reduces the need for individual requests."
+    }
+  ]
+}

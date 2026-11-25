@@ -10,7 +10,7 @@ esc = lambda s: html.escape(str(s), quote=True)
 
 TABS = [("index.html", "CUET PG"), ("what-is-cuet-pg.html", "What is CUET PG LLM"), ("syllabus.html", "Syllabus"),
         ("analysis.html", "Paper analysis"), ("universities.html", "Universities"), ("practice.html", "Practice"),
-        ("practice.html#mocks", "Mock tests"), ("practice.html#mistakes", "Revision"), ("faq.html", "FAQ"),
+        ("mock-tests.html", "Mock tests"), ("practice.html#mistakes", "Revision"), ("faq.html", "FAQ"),
         ("/blog/?q=cuet", "Articles")]
 
 NAV = ('<nav class="cm-nav" aria-label="Exams"><a href="/">All exams</a><a href="../clat-pg/">CLAT PG</a>'

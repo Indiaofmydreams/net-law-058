@@ -1,0 +1,1070 @@
+{
+  "exam": "CUET (PG) 2027 - LL.M. (Law) Mock Test 3",
+  "paper_code": "COQP09 (Law) - pattern based",
+  "total_questions": 75,
+  "duration_minutes": 90,
+  "total_marks": 300,
+  "marking_scheme": {
+    "correct": 4,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "answer_distribution": {
+    "A": 19,
+    "B": 19,
+    "C": 19,
+    "D": 18
+  },
+  "questions": [
+    {
+      "id": 1,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "The right to livelihood was held to be part of the right to life under Article 21 in:",
+      "options": {
+        "A": "Olga Tellis v. Bombay Municipal Corporation (1985)",
+        "B": "I.C. Golaknath v. State of Punjab (1967)",
+        "C": "A.K. Gopalan v. State of Madras (1950)",
+        "D": "Kharak Singh v. State of Uttar Pradesh and Others (1962)"
+      },
+      "answer": "A",
+      "explanation": "Pavement dwellers could not be evicted without a fair procedure, since deprivation of livelihood deprives them of life."
+    },
+    {
+      "id": 2,
+      "subject": "Constitutional Law",
+      "difficulty": "Hard",
+      "question": "The 'instrumentality or agency of the State' test for determining who is 'State' under Article 12 was laid down in:",
+      "options": {
+        "A": "Sukhdev Singh v. Bhagatram Sardar Singh",
+        "B": "University of Madras v. Santa Bai",
+        "C": "Ajay Hasia v. Khalid Mujib Sehravardi",
+        "D": "Pradeep Kumar Biswas v. Indian Institute of Chemical Biology"
+      },
+      "answer": "C",
+      "explanation": "Ajay Hasia (1981) laid down tests such as State financial support, deep and pervasive control and functional character."
+    },
+    {
+      "id": 3,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "The balance and harmony between Fundamental Rights and Directive Principles was held to be a basic feature in:",
+      "options": {
+        "A": "Waman Rao v. Union of India (1980)",
+        "B": "Minerva Mills Ltd. v. Union of India (1980)",
+        "C": "Shankari Prasad v. Union of India (1951)",
+        "D": "Sajjan Singh v. State of Rajasthan (1965)"
+      },
+      "answer": "B",
+      "explanation": "Minerva Mills struck down parts of the 42nd Amendment that gave primacy to Directive Principles over Articles 14 and 19."
+    },
+    {
+      "id": 4,
+      "subject": "Constitutional Law",
+      "difficulty": "Easy",
+      "question": "The President may seek the advisory opinion of the Supreme Court on a question of law or fact under:",
+      "options": {
+        "A": "Article 131",
+        "B": "Article 136",
+        "C": "Article 141",
+        "D": "Article 143"
+      },
+      "answer": "D",
+      "explanation": "Article 143 gives advisory jurisdiction; the opinion is not binding on the President."
+    },
+    {
+      "id": 5,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "The Comptroller and Auditor General of India can be removed from office in the same manner as:",
+      "options": {
+        "A": "A Judge of the Supreme Court",
+        "B": "A Governor of a State",
+        "C": "The Attorney General of India",
+        "D": "The Chief Election Commissioner of India"
+      },
+      "answer": "A",
+      "explanation": "Article 148(1) gives the CAG security of tenure equal to a Supreme Court Judge."
+    },
+    {
+      "id": 6,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "Which of the following is NOT a ground for reasonable restrictions on freedom of speech under Article 19(2)?",
+      "options": {
+        "A": "Public health",
+        "B": "Contempt of court",
+        "C": "Defamation",
+        "D": "Public order"
+      },
+      "answer": "A",
+      "explanation": "Article 19(2) lists sovereignty and integrity, security of the State, friendly relations with foreign States, public order, decency or morality, contempt of court, defamation and incitement to an offence."
+    },
+    {
+      "id": 7,
+      "subject": "Constitutional Law",
+      "difficulty": "Easy",
+      "question": "Article 24 prohibits the employment of children below the age of fourteen years in:",
+      "options": {
+        "A": "Domestic work performed in their own homes",
+        "B": "Agricultural work on their family's own farms",
+        "C": "Apprenticeship in government training schools",
+        "D": "Factories, mines and hazardous employment"
+      },
+      "answer": "D",
+      "explanation": "Article 24 is part of the Right against Exploitation (Articles 23 and 24)."
+    },
+    {
+      "id": 8,
+      "subject": "Constitutional Law",
+      "difficulty": "Easy",
+      "question": "The number of languages listed in the Eighth Schedule of the Constitution is:",
+      "options": {
+        "A": "Twenty-two",
+        "B": "Twenty-eight",
+        "C": "Eighteen",
+        "D": "Twenty-four"
+      },
+      "answer": "A",
+      "explanation": "The Eighth Schedule has 22 languages after the 92nd Amendment added Bodo, Dogri, Maithili and Santhali."
+    },
+    {
+      "id": 9,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "Superintendence, direction and control of elections to Parliament and State Legislatures is vested by Article 324 in:",
+      "options": {
+        "A": "The Election Commission of India",
+        "B": "The Delimitation Commission",
+        "C": "The Ministry of Law and Justice",
+        "D": "The Supreme Court of India"
+      },
+      "answer": "A",
+      "explanation": "Article 324 creates an independent Election Commission."
+    },
+    {
+      "id": 10,
+      "subject": "Constitutional Law",
+      "difficulty": "Hard",
+      "question": "A resolution to impeach the President under Article 61 must be passed by a majority of:",
+      "options": {
+        "A": "Two-thirds of the members present and voting",
+        "B": "A simple majority of the House",
+        "C": "Three-fourths of the total membership of the House",
+        "D": "Two-thirds of the total membership of the House"
+      },
+      "answer": "D",
+      "explanation": "Notice of at least fourteen days, signed by one-fourth of the House members, is also required."
+    },
+    {
+      "id": 11,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "The right of minorities to establish and administer educational institutions is guaranteed by:",
+      "options": {
+        "A": "Article 28(3)",
+        "B": "Article 30(1)",
+        "C": "Article 26(a)",
+        "D": "Article 29(1)"
+      },
+      "answer": "B",
+      "explanation": "Article 30(1) protects the choice of minorities, whether based on religion or language."
+    },
+    {
+      "id": 12,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "Under Article 248, the residuary power of legislation vests in:",
+      "options": {
+        "A": "The Inter-State Council",
+        "B": "Parliament",
+        "C": "The State Legislatures",
+        "D": "The President alone"
+      },
+      "answer": "B",
+      "explanation": "Matters not enumerated in the State or Concurrent Lists fall under Parliament's exclusive power."
+    },
+    {
+      "id": 13,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "The principle of collective responsibility of the Council of Ministers to the Lok Sabha is contained in:",
+      "options": {
+        "A": "Article 78",
+        "B": "Article 74(1)",
+        "C": "Article 75(3)",
+        "D": "Article 88"
+      },
+      "answer": "C",
+      "explanation": "A vote of no confidence against one minister is treated as a vote against the whole Council."
+    },
+    {
+      "id": 14,
+      "subject": "Jurisprudence",
+      "difficulty": "Medium",
+      "question": "The famous movement 'from status to contract' in the evolution of societies was described by:",
+      "options": {
+        "A": "Emile Durkheim",
+        "B": "Henry Maine",
+        "C": "Max Weber",
+        "D": "Karl Marx"
+      },
+      "answer": "B",
+      "explanation": "Maine's Ancient Law (1861) traced a shift from fixed status relations to freely negotiated contracts."
+    },
+    {
+      "id": 15,
+      "subject": "Jurisprudence",
+      "difficulty": "Hard",
+      "question": "The 'veil of ignorance' and the 'original position' are devices used in the theory of justice of:",
+      "options": {
+        "A": "John Rawls",
+        "B": "Amartya Sen",
+        "C": "Robert Nozick",
+        "D": "Ronald Dworkin"
+      },
+      "answer": "A",
+      "explanation": "In A Theory of Justice, Rawls reasons about principles chosen behind a veil of ignorance."
+    },
+    {
+      "id": 16,
+      "subject": "Jurisprudence",
+      "difficulty": "Medium",
+      "question": "The classification of law into eternal, natural, divine and human law is associated with:",
+      "options": {
+        "A": "John Austin",
+        "B": "Hugo Grotius",
+        "C": "Jeremy Bentham",
+        "D": "St. Thomas Aquinas"
+      },
+      "answer": "D",
+      "explanation": "Aquinas, in Summa Theologica, linked human law to natural law and reason."
+    },
+    {
+      "id": 17,
+      "subject": "Jurisprudence",
+      "difficulty": "Hard",
+      "question": "The interest theory of rights, treating law as a protection of social interests, was advanced by:",
+      "options": {
+        "A": "Rudolf von Jhering",
+        "B": "Wesley Hohfeld",
+        "C": "Henry Maine",
+        "D": "Hans Kelsen"
+      },
+      "answer": "A",
+      "explanation": "Jhering emphasised that law serves social purposes and protects interests."
+    },
+    {
+      "id": 18,
+      "subject": "Jurisprudence",
+      "difficulty": "Medium",
+      "question": "In Pramatha Nath Mullick v. Pradyumna Kumar Mullick, the Privy Council recognised that a Hindu idol is:",
+      "options": {
+        "A": "Only a trust without legal personality",
+        "B": "A res nullius belonging to the State",
+        "C": "A juristic person holding property",
+        "D": "A natural person with full capacity"
+      },
+      "answer": "C",
+      "explanation": "The idol is a juristic person; its interests are managed by a shebait."
+    },
+    {
+      "id": 19,
+      "subject": "Jurisprudence",
+      "difficulty": "Medium",
+      "question": "The two essential elements of possession in law are:",
+      "options": {
+        "A": "Locus standi and cause of action",
+        "B": "Corpus and animus possidendi",
+        "C": "Ratio decidendi and obiter dicta",
+        "D": "Actus reus and mens rea"
+      },
+      "answer": "B",
+      "explanation": "Corpus is physical control and animus is the intention to hold as one's own."
+    },
+    {
+      "id": 20,
+      "subject": "Jurisprudence",
+      "difficulty": "Medium",
+      "question": "Which of the following is NOT an essential of a valid custom as a source of law?",
+      "options": {
+        "A": "Reasonableness in content",
+        "B": "Legislative approval",
+        "C": "Certainty of its terms",
+        "D": "Antiquity of long usage"
+      },
+      "answer": "B",
+      "explanation": "A custom must be ancient, certain, continuous, reasonable and not opposed to public policy; legislative approval is not required."
+    },
+    {
+      "id": 21,
+      "subject": "Law of Contract",
+      "difficulty": "Medium",
+      "question": "In Pharmaceutical Society of Great Britain v. Boots Cash Chemists, the display of goods on shelves was held to be:",
+      "options": {
+        "A": "A contract of bailment",
+        "B": "A binding offer to sell",
+        "C": "An invitation to offer",
+        "D": "A completed acceptance"
+      },
+      "answer": "C",
+      "explanation": "The customer makes the offer at the cash desk, and the shopkeeper may accept or refuse it."
+    },
+    {
+      "id": 22,
+      "subject": "Law of Contract",
+      "difficulty": "Medium",
+      "question": "Under Section 4 of the Indian Contract Act, communication of acceptance is complete as against the proposer when:",
+      "options": {
+        "A": "It is read by the proposer",
+        "B": "It is reduced to writing and registered with a notary public",
+        "C": "It is acknowledged in writing",
+        "D": "It is put in transmission beyond the acceptor's power"
+      },
+      "answer": "D",
+      "explanation": "The postal rule: acceptance binds the proposer once posted, but binds the acceptor only on reaching the proposer."
+    },
+    {
+      "id": 23,
+      "subject": "Law of Contract",
+      "difficulty": "Medium",
+      "question": "Under Section 20 of the Indian Contract Act, an agreement is void where both parties are under:",
+      "options": {
+        "A": "A mistake as to a point of Indian law",
+        "B": "A mistake as to the market price of goods",
+        "C": "A mistake as to a fact essential to the agreement",
+        "D": "A mistake as to the other party's motives"
+      },
+      "answer": "C",
+      "explanation": "Bilateral mistake of fact makes the agreement void, but mistake of Indian law does not."
+    },
+    {
+      "id": 24,
+      "subject": "Law of Contract",
+      "difficulty": "Hard",
+      "question": "Anticipatory breach of contract was recognised in the case of:",
+      "options": {
+        "A": "Hochster v. De La Tour",
+        "B": "Hadley v. Baxendale",
+        "C": "Carlill v. Carbolic Smoke Ball Co.",
+        "D": "Taylor v. Caldwell"
+      },
+      "answer": "A",
+      "explanation": "The innocent party may sue at once when the other renounces the contract before performance is due."
+    },
+    {
+      "id": 25,
+      "subject": "Law of Contract",
+      "difficulty": "Hard",
+      "question": "Under Section 74 of the Indian Contract Act, where a sum is named as payable on breach, the aggrieved party is entitled to:",
+      "options": {
+        "A": "The entire sum named, as a penalty",
+        "B": "No compensation if loss is not proved",
+        "C": "Reasonable compensation up to the amount named",
+        "D": "Only the actual loss proved with no limit"
+      },
+      "answer": "C",
+      "explanation": "Indian law does not distinguish between liquidated damages and penalty; courts award reasonable compensation."
+    },
+    {
+      "id": 26,
+      "subject": "Law of Contract",
+      "difficulty": "Medium",
+      "question": "Under Section 128 of the Contract Act, the liability of a surety is, unless otherwise provided:",
+      "options": {
+        "A": "Secondary and arising only after a court judgment",
+        "B": "Limited to half of the debt",
+        "C": "Extinguished on the debtor's default",
+        "D": "Co-extensive with that of the principal debtor"
+      },
+      "answer": "D",
+      "explanation": "The creditor can proceed against the surety without first suing the principal debtor."
+    },
+    {
+      "id": 27,
+      "subject": "Sale of Goods",
+      "difficulty": "Medium",
+      "question": "The maxim 'nemo dat quod non habet', reflected in Section 27 of the Sale of Goods Act, means that:",
+      "options": {
+        "A": "Every seller must deliver the goods before payment",
+        "B": "A seller can never recover the price",
+        "C": "A buyer must inspect the goods before purchase",
+        "D": "No one can give a better title than he has"
+      },
+      "answer": "D",
+      "explanation": "Subject to exceptions such as sale by a mercantile agent or estoppel, a non-owner cannot pass good title."
+    },
+    {
+      "id": 28,
+      "subject": "Law of Torts",
+      "difficulty": "Easy",
+      "question": "Private nuisance is an unlawful interference with a person's:",
+      "options": {
+        "A": "Use or enjoyment of land",
+        "B": "Freedom of movement",
+        "C": "Right to free speech",
+        "D": "Right to vote"
+      },
+      "answer": "A",
+      "explanation": "It includes smells, noise and vibrations that unreasonably affect neighbours."
+    },
+    {
+      "id": 29,
+      "subject": "Law of Torts",
+      "difficulty": "Medium",
+      "question": "In tort, 'assault' consists of:",
+      "options": {
+        "A": "Any actual physical contact whatsoever",
+        "B": "Creating apprehension of immediate harmful contact",
+        "C": "Damaging another person's reputation",
+        "D": "Wrongfully taking another's goods"
+      },
+      "answer": "B",
+      "explanation": "Battery requires actual contact; assault requires only the reasonable fear of it."
+    },
+    {
+      "id": 30,
+      "subject": "Law of Torts",
+      "difficulty": "Medium",
+      "question": "The essential element of false imprisonment, as shown in Bird v. Jones, is:",
+      "options": {
+        "A": "Total restraint of the person's liberty",
+        "B": "Physical injury caused to the plaintiff by the defendant",
+        "C": "Partial obstruction of a route",
+        "D": "Malice against the plaintiff"
+      },
+      "answer": "A",
+      "explanation": "Partial restraint, where there is a reasonable means of escape, is not false imprisonment."
+    },
+    {
+      "id": 31,
+      "subject": "Law of Torts",
+      "difficulty": "Hard",
+      "question": "Which of the following is an essential of the tort of malicious prosecution?",
+      "options": {
+        "A": "Conviction of the plaintiff by the trial court",
+        "B": "Pendency of the prosecution against the plaintiff",
+        "C": "Prosecution ending in favour of the plaintiff",
+        "D": "Existence of reasonable cause"
+      },
+      "answer": "C",
+      "explanation": "The plaintiff must also prove absence of reasonable and probable cause, malice, and damage."
+    },
+    {
+      "id": 32,
+      "subject": "Law of Torts",
+      "difficulty": "Medium",
+      "question": "In Nichols v. Marsland, the defendants escaped liability because the flood was caused by:",
+      "options": {
+        "A": "An act of God",
+        "B": "The plaintiff's contributory negligence",
+        "C": "A statutory authority",
+        "D": "A third party's wrongful act"
+      },
+      "answer": "A",
+      "explanation": "Extraordinary rainfall not reasonably foreseeable amounted to an act of God."
+    },
+    {
+      "id": 33,
+      "subject": "Law of Torts",
+      "difficulty": "Hard",
+      "question": "The standard of care of a doctor in negligence under the Bolam test is that of:",
+      "options": {
+        "A": "An ordinary person on the street",
+        "B": "A reasonable body of medical opinion",
+        "C": "The hospital's own administrator",
+        "D": "The most skilled specialist in the field"
+      },
+      "answer": "B",
+      "explanation": "A doctor is not negligent if he acts in accordance with a practice accepted as proper by a responsible body of medical men."
+    },
+    {
+      "id": 34,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "The Bharatiya Nyaya Sanhita, 2023 contains a total of:",
+      "options": {
+        "A": "531 sections",
+        "B": "358 sections",
+        "C": "170 sections",
+        "D": "511 sections"
+      },
+      "answer": "B",
+      "explanation": "The BNS has 358 sections; the BNSS has 531 and the BSA has 170."
+    },
+    {
+      "id": 35,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "In the stages of a crime, which of the following is generally NOT punishable?",
+      "options": {
+        "A": "Abetment of the offence",
+        "B": "Criminal conspiracy",
+        "C": "Mere preparation",
+        "D": "Attempt to commit it"
+      },
+      "answer": "C",
+      "explanation": "Preparation is punishable only where the law specifically provides, as in preparing to wage war."
+    },
+    {
+      "id": 36,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "Criminal conspiracy is dealt with in which section of the BNS, 2023?",
+      "options": {
+        "A": "Section 61",
+        "B": "Section 45",
+        "C": "Section 49",
+        "D": "Section 111"
+      },
+      "answer": "A",
+      "explanation": "Section 61 BNS corresponds to Section 120A and 120B IPC."
+    },
+    {
+      "id": 37,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "Cheating is defined in which section of the BNS, 2023?",
+      "options": {
+        "A": "Section 318",
+        "B": "Section 303",
+        "C": "Section 316",
+        "D": "Section 319"
+      },
+      "answer": "A",
+      "explanation": "Section 318 corresponds to Sections 415 and 420 IPC; Section 316 deals with criminal breach of trust."
+    },
+    {
+      "id": 38,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "Abetment of suicide is punishable under which section of the BNS, 2023?",
+      "options": {
+        "A": "Section 106",
+        "B": "Section 108",
+        "C": "Section 105",
+        "D": "Section 109"
+      },
+      "answer": "B",
+      "explanation": "Section 108 corresponds to Section 306 IPC."
+    },
+    {
+      "id": 39,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "Where A aims to kill B but accidentally kills C, A's liability is explained by the doctrine of:",
+      "options": {
+        "A": "Vicarious liability",
+        "B": "Constructive liability",
+        "C": "Strict liability",
+        "D": "Transferred malice"
+      },
+      "answer": "D",
+      "explanation": "Malice is transferred from the intended victim to the actual victim."
+    },
+    {
+      "id": 40,
+      "subject": "Criminal Law",
+      "difficulty": "Hard",
+      "question": "Which of the following amounts to 'grievous hurt'?",
+      "options": {
+        "A": "A minor cut on the finger of the hand",
+        "B": "A bruise on the forearm of the victim",
+        "C": "Temporary swelling of the cheek and lip",
+        "D": "Permanent loss of sight of one eye"
+      },
+      "answer": "D",
+      "explanation": "Grievous hurt includes emasculation, permanent privation of sight or hearing, fracture or dislocation of a bone or tooth."
+    },
+    {
+      "id": 41,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "'Mens rea' is generally NOT required for an offence that is of:",
+      "options": {
+        "A": "Cheating by personation",
+        "B": "Strict liability",
+        "C": "Murder by poisoning",
+        "D": "Theft of property"
+      },
+      "answer": "B",
+      "explanation": "Strict liability offences, usually regulatory in nature, do not require proof of a guilty mind."
+    },
+    {
+      "id": 42,
+      "subject": "Procedural Law",
+      "difficulty": "Medium",
+      "question": "Section 10 of the CPC, 1908 bars a court from proceeding with a suit where:",
+      "options": {
+        "A": "The plaintiff seeks only declaratory relief without consequential relief",
+        "B": "The suit is filed after the limitation period has run out",
+        "C": "The matter is directly in issue in an earlier pending suit",
+        "D": "The defendant fails to appear on the date fixed"
+      },
+      "answer": "C",
+      "explanation": "Section 10 codifies the rule of res sub judice to prevent multiplicity of proceedings."
+    },
+    {
+      "id": 43,
+      "subject": "Procedural Law",
+      "difficulty": "Hard",
+      "question": "A 'necessary party' in a civil suit is one:",
+      "options": {
+        "A": "Who has no interest in the subject matter",
+        "B": "Whose presence is merely convenient to the court",
+        "C": "Who is named by the court as an observer",
+        "D": "Without whom no effective decree can be passed"
+      },
+      "answer": "D",
+      "explanation": "A proper party is one whose presence helps in complete adjudication, but whose absence does not defeat the decree."
+    },
+    {
+      "id": 44,
+      "subject": "Procedural Law",
+      "difficulty": "Hard",
+      "question": "An application to set aside an ex parte decree under Order IX Rule 13 CPC must be made within:",
+      "options": {
+        "A": "Thirty days from the date of the decree",
+        "B": "Fifteen days from the date of decree",
+        "C": "Sixty days from the date of the decree",
+        "D": "Ninety days from the date of decree"
+      },
+      "answer": "A",
+      "explanation": "The period is thirty days from the date of the decree, or from knowledge where summons was not duly served."
+    },
+    {
+      "id": 45,
+      "subject": "Procedural Law",
+      "difficulty": "Medium",
+      "question": "The power of a civil court to review its own decree is conferred by:",
+      "options": {
+        "A": "Section 115 of the CPC",
+        "B": "Section 151 of the CPC",
+        "C": "Section 114 of the CPC",
+        "D": "Section 100 of the CPC"
+      },
+      "answer": "C",
+      "explanation": "Review lies on discovery of new evidence, mistake apparent on the face of the record, or any other sufficient reason."
+    },
+    {
+      "id": 46,
+      "subject": "Procedural Law",
+      "difficulty": "Hard",
+      "question": "Under the BNSS, 2023, information of a cognizable offence given by electronic communication must be signed by the informant within:",
+      "options": {
+        "A": "Fifteen days",
+        "B": "One day",
+        "C": "Three days",
+        "D": "Seven days"
+      },
+      "answer": "C",
+      "explanation": "This provision allows e-FIRs, which are recorded on being signed within three days."
+    },
+    {
+      "id": 47,
+      "subject": "Procedural Law",
+      "difficulty": "Hard",
+      "question": "Under the BNSS, 2023, the court must pronounce judgment in a criminal trial within how many days of the conclusion of arguments?",
+      "options": {
+        "A": "Sixty days",
+        "B": "Forty-five days",
+        "C": "Fifteen days",
+        "D": "Thirty days"
+      },
+      "answer": "B",
+      "explanation": "The BNSS fixes the time limit to speed up trials, with a possible extension for written reasons."
+    },
+    {
+      "id": 48,
+      "subject": "Procedural Law",
+      "difficulty": "Medium",
+      "question": "Section 14 of the Limitation Act, 1963 provides for the exclusion of time spent:",
+      "options": {
+        "A": "In obtaining the legal opinion of an advocate on merits",
+        "B": "Bona fide prosecuting a case in a wrong court",
+        "C": "In waiting for the opponent's reply to a notice",
+        "D": "On negotiating a settlement outside the court"
+      },
+      "answer": "B",
+      "explanation": "The plaintiff must have acted in good faith and with due diligence."
+    },
+    {
+      "id": 49,
+      "subject": "Procedural Law",
+      "difficulty": "Medium",
+      "question": "The principle 'bail is the rule and jail is the exception' was laid down in:",
+      "options": {
+        "A": "Gudikanti Narasimhulu v. Public Prosecutor",
+        "B": "Hussainara Khatoon v. State of Bihar",
+        "C": "Maneka Gandhi v. Union of India",
+        "D": "State of Rajasthan v. Balchand"
+      },
+      "answer": "D",
+      "explanation": "Justice Krishna Iyer stated this principle in Balchand (1977); courts must consider gravity, flight risk and tampering of evidence."
+    },
+    {
+      "id": 50,
+      "subject": "Law of Evidence",
+      "difficulty": "Medium",
+      "question": "Under Section 106 of the Indian Evidence Act, the burden of proving a fact especially within the knowledge of a person lies on:",
+      "options": {
+        "A": "The prosecution always",
+        "B": "The court's registrar",
+        "C": "That person",
+        "D": "The opposite party's counsel"
+      },
+      "answer": "C",
+      "explanation": "Section 106 (Section 109 BSA) does not relieve the prosecution of its primary burden."
+    },
+    {
+      "id": 51,
+      "subject": "Law of Evidence",
+      "difficulty": "Medium",
+      "question": "'Conclusive proof' means that:",
+      "options": {
+        "A": "The fact is proved only by documents and records",
+        "B": "The court may presume the fact until it is disproved by evidence",
+        "C": "The court must regard it as proved, allowing no disproof",
+        "D": "The fact must be proved beyond reasonable doubt"
+      },
+      "answer": "C",
+      "explanation": "Conclusive proof bars any evidence to the contrary."
+    },
+    {
+      "id": 52,
+      "subject": "Law of Evidence",
+      "difficulty": "Easy",
+      "question": "Primary evidence of a document means:",
+      "options": {
+        "A": "The original document itself, produced in court",
+        "B": "A certified copy issued by a competent public officer",
+        "C": "A copy made from the original by a mechanical process",
+        "D": "An oral account of its contents"
+      },
+      "answer": "A",
+      "explanation": "Copies and oral accounts are secondary evidence, allowed only in specified situations."
+    },
+    {
+      "id": 53,
+      "subject": "Law of Evidence",
+      "difficulty": "Medium",
+      "question": "Facts of which the court takes 'judicial notice':",
+      "options": {
+        "A": "Are always disputed facts",
+        "B": "Must be proved by two witnesses",
+        "C": "Need not be proved",
+        "D": "Are proved only by expert opinion"
+      },
+      "answer": "C",
+      "explanation": "Section 57 of the Evidence Act lists facts which courts must judicially notice, such as laws in force in India."
+    },
+    {
+      "id": 54,
+      "subject": "International Law",
+      "difficulty": "Medium",
+      "question": "A 'reservation' to a treaty is a statement made by a State that purports to:",
+      "options": {
+        "A": "Seek the prior approval of the UN Security Council",
+        "B": "Exclude or modify the effect of some provisions",
+        "C": "Extend the treaty to non-parties",
+        "D": "Terminate the treaty on all parties"
+      },
+      "answer": "B",
+      "explanation": "Article 2(1)(d) of the Vienna Convention on the Law of Treaties, 1969 defines reservation; it must not be incompatible with the treaty's object and purpose."
+    },
+    {
+      "id": 55,
+      "subject": "International Law",
+      "difficulty": "Hard",
+      "question": "The 'constitutive theory' of recognition holds that a State becomes a State:",
+      "options": {
+        "A": "Only through recognition by other States",
+        "B": "Only on admission to the United Nations",
+        "C": "Automatically on fulfilling the criteria of statehood",
+        "D": "Only after a plebiscite in its territory"
+      },
+      "answer": "A",
+      "explanation": "The declaratory theory, in contrast, says recognition merely acknowledges an existing State."
+    },
+    {
+      "id": 56,
+      "subject": "International Law",
+      "difficulty": "Medium",
+      "question": "The rule of 'double criminality' in extradition requires that the act be:",
+      "options": {
+        "A": "Committed within the requested State",
+        "B": "An offence in both the requesting and requested State",
+        "C": "Punishable only by death in either State",
+        "D": "A political offence in the requesting or requested State"
+      },
+      "answer": "B",
+      "explanation": "Extradition is generally denied unless the conduct is criminal in both jurisdictions."
+    },
+    {
+      "id": 57,
+      "subject": "International Law",
+      "difficulty": "Easy",
+      "question": "The number of non-permanent members of the UN Security Council is:",
+      "options": {
+        "A": "Ten",
+        "B": "Five",
+        "C": "Seven",
+        "D": "Fifteen"
+      },
+      "answer": "A",
+      "explanation": "The Council has fifteen members: five permanent and ten elected non-permanent members serving two-year terms."
+    },
+    {
+      "id": 58,
+      "subject": "International Law",
+      "difficulty": "Easy",
+      "question": "The number of Geneva Conventions adopted in 1949 on the protection of victims of war is:",
+      "options": {
+        "A": "Six",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four"
+      },
+      "answer": "D",
+      "explanation": "They cover wounded soldiers on land, shipwrecked sailors, prisoners of war and civilians."
+    },
+    {
+      "id": 59,
+      "subject": "International Law",
+      "difficulty": "Medium",
+      "question": "Universal jurisdiction in international law is traditionally exercised over:",
+      "options": {
+        "A": "Breach of contract",
+        "B": "Traffic offences",
+        "C": "Tax evasion",
+        "D": "Piracy"
+      },
+      "answer": "D",
+      "explanation": "Pirates are regarded as enemies of all mankind (hostis humani generis), permitting any State to prosecute them."
+    },
+    {
+      "id": 60,
+      "subject": "Family Law",
+      "difficulty": "Medium",
+      "question": "The Dayabhaga school of Hindu law is mainly followed in:",
+      "options": {
+        "A": "Punjab and Haryana",
+        "B": "Maharashtra and Gujarat",
+        "C": "Bengal and Assam",
+        "D": "Tamil Nadu and Kerala"
+      },
+      "answer": "C",
+      "explanation": "Dayabhaga differs from Mitakshara in that sons do not acquire a right by birth in ancestral property."
+    },
+    {
+      "id": 61,
+      "subject": "Family Law",
+      "difficulty": "Medium",
+      "question": "In Muslim law, 'Ijma' refers to:",
+      "options": {
+        "A": "Reasoning by analogy from the Quran",
+        "B": "The consensus of jurists on a point of law",
+        "C": "The customs of a particular locality or tribe",
+        "D": "The sayings of the Prophet"
+      },
+      "answer": "B",
+      "explanation": "The four main sources are the Quran, Sunnah, Ijma and Qiyas."
+    },
+    {
+      "id": 62,
+      "subject": "Family Law",
+      "difficulty": "Easy",
+      "question": "Under the Hindu Marriage Act, 1955, the minimum age of the bridegroom is:",
+      "options": {
+        "A": "Eighteen years",
+        "B": "Nineteen years",
+        "C": "Twenty-five years",
+        "D": "Twenty-one years"
+      },
+      "answer": "D",
+      "explanation": "Section 5(iii) sets the age at 21 for males and 18 for females."
+    },
+    {
+      "id": 63,
+      "subject": "Family Law",
+      "difficulty": "Medium",
+      "question": "Under the Special Marriage Act, 1954, public notice of the intended marriage must be given for:",
+      "options": {
+        "A": "Fifteen days",
+        "B": "Seven days",
+        "C": "Sixty days",
+        "D": "Thirty days"
+      },
+      "answer": "D",
+      "explanation": "Objections may be raised within thirty days, after which the marriage can be solemnised."
+    },
+    {
+      "id": 64,
+      "subject": "Property Law",
+      "difficulty": "Medium",
+      "question": "Under Section 123 of the Transfer of Property Act, a gift of immovable property must be made by:",
+      "options": {
+        "A": "A will executed by the donor at the time of death",
+        "B": "An unregistered note signed by the donee and one witness",
+        "C": "A registered instrument attested by two witnesses",
+        "D": "An oral declaration made before the donee"
+      },
+      "answer": "C",
+      "explanation": "Section 123 requires registration and attestation by at least two witnesses."
+    },
+    {
+      "id": 65,
+      "subject": "Property Law",
+      "difficulty": "Hard",
+      "question": "In a usufructuary mortgage, the mortgagee:",
+      "options": {
+        "A": "Acquires title immediately on repayment of the whole loan amount",
+        "B": "Has no right to possession of the property",
+        "C": "Takes possession and the rents in lieu of interest",
+        "D": "Can sell the property on default without a court"
+      },
+      "answer": "C",
+      "explanation": "Under Section 58(d) TPA, the mortgagee may recover the debt from the rents and profits."
+    },
+    {
+      "id": 66,
+      "subject": "Intellectual Property Law",
+      "difficulty": "Hard",
+      "question": "The first compulsory licence in India under the Patents Act, 1970 was granted for the drug:",
+      "options": {
+        "A": "Tamiflu (oseltamivir)",
+        "B": "Nexavar (sorafenib)",
+        "C": "Viagra (sildenafil citrate)",
+        "D": "Glivec (imatinib mesylate)"
+      },
+      "answer": "B",
+      "explanation": "The Controller granted it to Natco Pharma in 2012 against Bayer's patent on Nexavar."
+    },
+    {
+      "id": 67,
+      "subject": "Intellectual Property Law",
+      "difficulty": "Medium",
+      "question": "The tort of 'passing off' mainly protects:",
+      "options": {
+        "A": "The design of an industrial article or product",
+        "B": "Goodwill attached to an unregistered mark",
+        "C": "The copyright of a literary work",
+        "D": "A patent granted by the State"
+      },
+      "answer": "B",
+      "explanation": "A passing off action lies where a defendant misrepresents his goods or services as those of the plaintiff."
+    },
+    {
+      "id": 68,
+      "subject": "Environmental Law",
+      "difficulty": "Hard",
+      "question": "In T.N. Godavarman Thirumulpad v. Union of India, the Supreme Court gave the word 'forest' under the Forest (Conservation) Act, 1980:",
+      "options": {
+        "A": "A meaning limited to notified national parks and sanctuaries",
+        "B": "A meaning limited to reserved forests",
+        "C": "Its dictionary meaning, regardless of ownership",
+        "D": "A meaning limited to State-owned land"
+      },
+      "answer": "C",
+      "explanation": "The Court extended protection to all areas recorded as forest, irrespective of ownership or classification."
+    },
+    {
+      "id": 69,
+      "subject": "Company Law",
+      "difficulty": "Hard",
+      "question": "Under Section 135 of the Companies Act, 2013, a covered company must spend on CSR at least:",
+      "options": {
+        "A": "10% of its paid-up capital",
+        "B": "2% of its average net profits of the preceding three years",
+        "C": "5% of its net profit of the current financial year alone",
+        "D": "1% of its turnover in the preceding year"
+      },
+      "answer": "B",
+      "explanation": "The CSR obligation applies to companies meeting thresholds of net worth, turnover or net profit."
+    },
+    {
+      "id": 70,
+      "subject": "Administrative Law",
+      "difficulty": "Hard",
+      "question": "In re Delhi Laws Act (1951), the Supreme Court held that the legislature cannot delegate:",
+      "options": {
+        "A": "Its essential legislative functions",
+        "B": "Its power to make rules and regulations",
+        "C": "Its power to frame administrative details",
+        "D": "Its power to fix dates for commencement"
+      },
+      "answer": "A",
+      "explanation": "Delegation is allowed, but essential legislative policy must be laid down by the legislature itself."
+    },
+    {
+      "id": 71,
+      "subject": "Consumer Law",
+      "difficulty": "Hard",
+      "question": "Under the Consumer Protection Act, 2019 and the 2021 Rules, the National Commission hears complaints where the value of goods or services paid as consideration exceeds:",
+      "options": {
+        "A": "Rupees five crore",
+        "B": "Rupees fifty lakh",
+        "C": "Rupees one crore",
+        "D": "Rupees two crore"
+      },
+      "answer": "D",
+      "explanation": "The District Commission hears up to fifty lakh, and the State Commission fifty lakh to two crore."
+    },
+    {
+      "id": 72,
+      "subject": "Banking & Negotiable Instruments",
+      "difficulty": "Hard",
+      "question": "Under Section 138 of the Negotiable Instruments Act, 1881, after receipt of a demand notice for a dishonoured cheque, the drawer must pay within:",
+      "options": {
+        "A": "Thirty days",
+        "B": "Seven days",
+        "C": "Forty-five days",
+        "D": "Fifteen days"
+      },
+      "answer": "D",
+      "explanation": "The notice must be given within thirty days of receiving information of dishonour; failure to pay attracts prosecution."
+    },
+    {
+      "id": 73,
+      "subject": "Information Technology Law",
+      "difficulty": "Hard",
+      "question": "Section 79 of the Information Technology Act, 2000 provides to intermediaries:",
+      "options": {
+        "A": "Conditional exemption for third-party content",
+        "B": "Absolute immunity from all liability",
+        "C": "No protection against any claim",
+        "D": "Immunity only for the government and its agencies"
+      },
+      "answer": "A",
+      "explanation": "The safe harbour is lost if the intermediary fails to observe due diligence or to act on actual knowledge."
+    },
+    {
+      "id": 74,
+      "subject": "Legal Services",
+      "difficulty": "Medium",
+      "question": "An award made by a Lok Adalat under the Legal Services Authorities Act, 1987:",
+      "options": {
+        "A": "Needs a fresh trial for enforcement",
+        "B": "Is only a recommendation without any legal effect",
+        "C": "Is deemed to be a decree of a civil court",
+        "D": "Can be appealed to the High Court"
+      },
+      "answer": "C",
+      "explanation": "The award is final and binding, and no appeal lies against it."
+    },
+    {
+      "id": 75,
+      "subject": "Human Rights Law",
+      "difficulty": "Easy",
+      "question": "The Universal Declaration of Human Rights was adopted by the UN General Assembly on:",
+      "options": {
+        "A": "24 October 1945",
+        "B": "16 December 1966",
+        "C": "26 January 1950",
+        "D": "10 December 1948"
+      },
+      "answer": "D",
+      "explanation": "10 December is observed every year as Human Rights Day."
+    }
+  ]
+}

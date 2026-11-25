@@ -1,0 +1,1070 @@
+{
+  "exam": "CUET (PG) 2027 - LL.M. (Law) Mock Test 4",
+  "paper_code": "COQP09 (Law) - pattern based",
+  "total_questions": 75,
+  "duration_minutes": 90,
+  "total_marks": 300,
+  "marking_scheme": {
+    "correct": 4,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "answer_distribution": {
+    "A": 19,
+    "B": 19,
+    "C": 19,
+    "D": 18
+  },
+  "questions": [
+    {
+      "id": 1,
+      "subject": "Constitutional Law",
+      "difficulty": "Hard",
+      "question": "Laws placed in the Ninth Schedule after 24 April 1973 are open to review on the touchstone of the basic structure, as held in:",
+      "options": {
+        "A": "Sajjan Singh v. State of Rajasthan (1965)",
+        "B": "State of Bihar v. Kameshwar Singh (1952)",
+        "C": "Shankari Prasad v. Union of India (1951)",
+        "D": "I.R. Coelho v. State of Tamil Nadu (2007)"
+      },
+      "answer": "D",
+      "explanation": "A nine-judge Bench held that Article 31B immunity does not shield laws that damage the basic structure."
+    },
+    {
+      "id": 2,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "Under the doctrine of eclipse, a pre-Constitution law inconsistent with a Fundamental Right is:",
+      "options": {
+        "A": "Enforceable only in the State that originally enacted it",
+        "B": "Dormant, not dead, until the inconsistency is removed",
+        "C": "Void from its inception for all purposes and persons",
+        "D": "Permanently repealed with effect from commencement"
+      },
+      "answer": "B",
+      "explanation": "In Bhikaji Narain Dhakras v. State of M.P., the law was held to be overshadowed rather than void, and revived once the inconsistency ceased."
+    },
+    {
+      "id": 3,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "The doctrine of 'pith and substance' is applied to decide:",
+      "options": {
+        "A": "Whether a statute is retrospective in operation or not",
+        "B": "Whether a law violates the procedure under Article 21",
+        "C": "Which legislature is competent where entries in the Lists overlap",
+        "D": "Whether the President has assented to a Bill"
+      },
+      "answer": "C",
+      "explanation": "The Court looks at the true nature and character of the law to determine its legislative competence."
+    },
+    {
+      "id": 4,
+      "subject": "Constitutional Law",
+      "difficulty": "Hard",
+      "question": "In T.K. Rangarajan v. Government of Tamil Nadu, the Supreme Court held that government employees have:",
+      "options": {
+        "A": "No fundamental right to strike",
+        "B": "A fundamental right to strike subject to public order",
+        "C": "A fundamental right to strike under Article 19(1)(c)",
+        "D": "A fundamental right to strike only in essential services"
+      },
+      "answer": "A",
+      "explanation": "The right to form associations does not include a right to strike, which is at best a statutory or moral right."
+    },
+    {
+      "id": 5,
+      "subject": "Constitutional Law",
+      "difficulty": "Easy",
+      "question": "Under Article 22(4), a person cannot be preventively detained beyond three months without the opinion of:",
+      "options": {
+        "A": "The Law Commission",
+        "B": "An Advisory Board",
+        "C": "The Chief Justice of India",
+        "D": "The State Legislature"
+      },
+      "answer": "B",
+      "explanation": "The Advisory Board consists of persons qualified to be High Court Judges."
+    },
+    {
+      "id": 6,
+      "subject": "Constitutional Law",
+      "difficulty": "Hard",
+      "question": "Passive euthanasia and 'living wills' were recognised as part of the right to die with dignity under Article 21 in:",
+      "options": {
+        "A": "Common Cause v. Union of India (2018)",
+        "B": "Naresh Marotrao Sakhare v. Union of India (1995)",
+        "C": "P. Rathinam v. Union of India (1994)",
+        "D": "Gian Kaur v. State of Punjab (1996)"
+      },
+      "answer": "A",
+      "explanation": "A Constitution Bench held that the right to life includes the right to die with dignity in cases of terminal illness."
+    },
+    {
+      "id": 7,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "The right of voters to cast a 'None of the Above' (NOTA) vote was recognised in:",
+      "options": {
+        "A": "Association for Democratic Reforms v. Union of India (2002)",
+        "B": "People's Union for Civil Liberties v. Union of India (2013)",
+        "C": "Kuldip Nayar v. Union of India (2006)",
+        "D": "Lily Thomas v. Union of India (2013)"
+      },
+      "answer": "B",
+      "explanation": "The Court held that negative voting promotes free expression and the secrecy of the ballot."
+    },
+    {
+      "id": 8,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "A Judge of the Supreme Court can be removed from office only on the ground of:",
+      "options": {
+        "A": "Loss of confidence of the Council of Ministers",
+        "B": "Proved misbehaviour or incapacity",
+        "C": "A resolution of the Bar Council of India",
+        "D": "Pendency of a criminal case against him"
+      },
+      "answer": "B",
+      "explanation": "Article 124(4) requires an address by each House, supported by a special majority, presented to the President."
+    },
+    {
+      "id": 9,
+      "subject": "Constitutional Law",
+      "difficulty": "Easy",
+      "question": "A Judge of a High Court holds office until the age of:",
+      "options": {
+        "A": "Sixty-two years",
+        "B": "Sixty-five years",
+        "C": "Sixty-eight years",
+        "D": "Sixty years"
+      },
+      "answer": "A",
+      "explanation": "Article 217 sets sixty-two years for High Court Judges, while Supreme Court Judges retire at sixty-five."
+    },
+    {
+      "id": 10,
+      "subject": "Constitutional Law",
+      "difficulty": "Easy",
+      "question": "Under Article 280, the President constitutes a Finance Commission at the expiration of every:",
+      "options": {
+        "A": "Third year",
+        "B": "Fifth year",
+        "C": "Seventh year",
+        "D": "Tenth year"
+      },
+      "answer": "B",
+      "explanation": "The Commission recommends the distribution of tax proceeds between the Union and the States."
+    },
+    {
+      "id": 11,
+      "subject": "Constitutional Law",
+      "difficulty": "Hard",
+      "question": "In In re: Article 370 of the Constitution (December 2023), the Supreme Court held that the abrogation of Article 370 was:",
+      "options": {
+        "A": "Unconstitutional and void",
+        "B": "Constitutionally valid",
+        "C": "Valid only for Ladakh",
+        "D": "Valid only after a referendum"
+      },
+      "answer": "B",
+      "explanation": "A Constitution Bench upheld the Presidential Orders of 2019 and the reorganisation of the State into Union Territories."
+    },
+    {
+      "id": 12,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "The maxim 'what cannot be done directly cannot be done indirectly' underlies the doctrine of:",
+      "options": {
+        "A": "Colourable legislation",
+        "B": "Severability",
+        "C": "Harmonious construction",
+        "D": "Territorial nexus"
+      },
+      "answer": "A",
+      "explanation": "A legislature cannot do indirectly, under the guise of a competent entry, what it is not allowed to do directly."
+    },
+    {
+      "id": 13,
+      "subject": "Constitutional Law",
+      "difficulty": "Hard",
+      "question": "The 103rd Amendment, providing 10% reservation for economically weaker sections, was upheld in:",
+      "options": {
+        "A": "M. Nagaraj v. Union of India (2006)",
+        "B": "Ashoka Kumar Thakur v. Union of India (2008)",
+        "C": "Janhit Abhiyan v. Union of India (2022)",
+        "D": "Indra Sawhney v. Union of India (1992)"
+      },
+      "answer": "C",
+      "explanation": "A Constitution Bench upheld the amendment by a 3:2 majority."
+    },
+    {
+      "id": 14,
+      "subject": "Jurisprudence",
+      "difficulty": "Medium",
+      "question": "Hugo Grotius is regarded as the father of:",
+      "options": {
+        "A": "Historical jurisprudence",
+        "B": "Legal positivism",
+        "C": "Legal realism",
+        "D": "Modern international law"
+      },
+      "answer": "D",
+      "explanation": "His De Jure Belli ac Pacis (1625) laid the foundation of modern international law."
+    },
+    {
+      "id": 15,
+      "subject": "Jurisprudence",
+      "difficulty": "Hard",
+      "question": "The concept of 'living law' is associated with:",
+      "options": {
+        "A": "Montesquieu",
+        "B": "Jeremy Bentham",
+        "C": "Eugen Ehrlich",
+        "D": "John Austin"
+      },
+      "answer": "C",
+      "explanation": "Ehrlich held that the centre of gravity of legal development lies in society, not in legislation or judicial decisions."
+    },
+    {
+      "id": 16,
+      "subject": "Jurisprudence",
+      "difficulty": "Medium",
+      "question": "'Jus in re aliena' refers to rights:",
+      "options": {
+        "A": "Available only to aliens in a State",
+        "B": "Over the property of another person",
+        "C": "Of a person over his own property",
+        "D": "Arising only from a sale contract"
+      },
+      "answer": "B",
+      "explanation": "Mortgages, leases and easements are examples of rights in the property of another."
+    },
+    {
+      "id": 17,
+      "subject": "Jurisprudence",
+      "difficulty": "Medium",
+      "question": "A 'legal fiction' is:",
+      "options": {
+        "A": "An assumption of truth though it may be untrue",
+        "B": "A false statement made in court to deceive the judge",
+        "C": "A rule which bars proof of any fact",
+        "D": "A statute declared void by the court"
+      },
+      "answer": "A",
+      "explanation": "Legal fictions, such as adoption creating a parent-child relationship, serve to advance justice."
+    },
+    {
+      "id": 18,
+      "subject": "Jurisprudence",
+      "difficulty": "Hard",
+      "question": "The Hart–Devlin debate concerned:",
+      "options": {
+        "A": "The validity of customary law",
+        "B": "Legal enforcement of morality",
+        "C": "The doctrine of precedent",
+        "D": "Separation of judicial powers"
+      },
+      "answer": "B",
+      "explanation": "Following the Wolfenden Report, Lord Devlin defended, and Hart opposed, enforcement of morality by criminal law."
+    },
+    {
+      "id": 19,
+      "subject": "Jurisprudence",
+      "difficulty": "Medium",
+      "question": "Aristotle's classification of justice distinguishes distributive justice from:",
+      "options": {
+        "A": "Procedural justice",
+        "B": "Utilitarian justice",
+        "C": "Corrective justice",
+        "D": "Social contract justice"
+      },
+      "answer": "C",
+      "explanation": "Distributive justice allocates honours and goods; corrective justice rectifies wrongs between persons."
+    },
+    {
+      "id": 20,
+      "subject": "Jurisprudence",
+      "difficulty": "Easy",
+      "question": "Vicarious liability means the liability:",
+      "options": {
+        "A": "Of a person for his own intentional wrong",
+        "B": "Arising only on a criminal conviction",
+        "C": "Of one person for the wrongful act of another",
+        "D": "Without any wrongful act by anyone"
+      },
+      "answer": "C",
+      "explanation": "An employer is liable for the torts of an employee committed in the course of employment."
+    },
+    {
+      "id": 21,
+      "subject": "Law of Contract",
+      "difficulty": "Medium",
+      "question": "In an auction sale, the bid made by a bidder is regarded in law as:",
+      "options": {
+        "A": "An invitation to offer",
+        "B": "A counter-offer",
+        "C": "An acceptance",
+        "D": "An offer"
+      },
+      "answer": "D",
+      "explanation": "The auctioneer invites offers, and the fall of the hammer is acceptance (Section 64, Sale of Goods Act)."
+    },
+    {
+      "id": 22,
+      "subject": "Law of Contract",
+      "difficulty": "Medium",
+      "question": "Under Section 2(d) of the Indian Contract Act, past consideration is:",
+      "options": {
+        "A": "Valid consideration",
+        "B": "No consideration at all",
+        "C": "Valid only for minors",
+        "D": "Valid only between relatives"
+      },
+      "answer": "A",
+      "explanation": "The words 'has done or abstained from doing' include past acts, unlike the English rule."
+    },
+    {
+      "id": 23,
+      "subject": "Law of Contract",
+      "difficulty": "Medium",
+      "question": "Under Section 5 of the Indian Contract Act, a proposal may be revoked at any time before:",
+      "options": {
+        "A": "Consideration is paid by the proposee in full",
+        "B": "The proposee reads and understands the letter",
+        "C": "Its acceptance is complete as against the proposer",
+        "D": "It reaches the person to whom it is addressed and is read"
+      },
+      "answer": "C",
+      "explanation": "Once acceptance is complete against the proposer, the proposal can no longer be revoked."
+    },
+    {
+      "id": 24,
+      "subject": "Law of Contract",
+      "difficulty": "Hard",
+      "question": "In Derry v. Peek, fraud was defined as a false statement made knowingly, without belief in its truth, or:",
+      "options": {
+        "A": "Recklessly, careless whether it be true or false",
+        "B": "Innocently, on reasonable grounds",
+        "C": "Under a bona fide mistake of law",
+        "D": "Negligently, but in good faith"
+      },
+      "answer": "A",
+      "explanation": "Derry v. Peek (1889) held that an honest belief, however unreasonable, negates fraud."
+    },
+    {
+      "id": 25,
+      "subject": "Sale of Goods",
+      "difficulty": "Medium",
+      "question": "Under Section 12 of the Sale of Goods Act, 1930, breach of a warranty entitles the buyer only to:",
+      "options": {
+        "A": "Claim damages",
+        "B": "Rescind the contract and recover the price",
+        "C": "Reject the goods and repudiate the contract",
+        "D": "Refuse payment of the whole price"
+      },
+      "answer": "A",
+      "explanation": "Breach of a condition may allow repudiation, but breach of a warranty gives a claim for damages alone."
+    },
+    {
+      "id": 26,
+      "subject": "Law of Contract",
+      "difficulty": "Medium",
+      "question": "Under Section 25 of the Indian Partnership Act, 1932, every partner is liable for the acts of the firm:",
+      "options": {
+        "A": "Only if he signed the contract",
+        "B": "Only in proportion to his profit share",
+        "C": "Only to the extent of his capital",
+        "D": "Jointly and severally"
+      },
+      "answer": "D",
+      "explanation": "A third party may recover the full amount from any partner personally."
+    },
+    {
+      "id": 27,
+      "subject": "Law of Contract",
+      "difficulty": "Medium",
+      "question": "Substitution of a new contract for an existing one, with the consent of all parties, is called:",
+      "options": {
+        "A": "Remission",
+        "B": "Alteration",
+        "C": "Rescission",
+        "D": "Novation"
+      },
+      "answer": "D",
+      "explanation": "Section 62 of the Indian Contract Act: the original contract need not then be performed."
+    },
+    {
+      "id": 28,
+      "subject": "Law of Torts",
+      "difficulty": "Easy",
+      "question": "Trespass to land is actionable:",
+      "options": {
+        "A": "Only on proof of actual loss",
+        "B": "Per se, without proof of damage",
+        "C": "Only if committed with malice",
+        "D": "Only against public authorities"
+      },
+      "answer": "B",
+      "explanation": "Every unauthorised entry on another's land is actionable even if no harm results."
+    },
+    {
+      "id": 29,
+      "subject": "Law of Torts",
+      "difficulty": "Medium",
+      "question": "A statement made in the course of proceedings in Parliament enjoys:",
+      "options": {
+        "A": "Absolute privilege",
+        "B": "No privilege at all",
+        "C": "Privilege only if made without malice",
+        "D": "Qualified privilege only"
+      },
+      "answer": "A",
+      "explanation": "Absolute privilege is a complete defence to defamation, irrespective of malice."
+    },
+    {
+      "id": 30,
+      "subject": "Law of Torts",
+      "difficulty": "Hard",
+      "question": "The three-stage test for duty of care (foreseeability, proximity and fair, just and reasonable) was laid down in:",
+      "options": {
+        "A": "Bolton v. Stone",
+        "B": "Hedley Byrne & Co. v. Heller & Partners",
+        "C": "Anns v. Merton London Borough Council",
+        "D": "Caparo Industries plc v. Dickman"
+      },
+      "answer": "D",
+      "explanation": "Caparo (1990) replaced the broad two-stage approach of Anns."
+    },
+    {
+      "id": 31,
+      "subject": "Law of Torts",
+      "difficulty": "Medium",
+      "question": "As a general rule, an employer is NOT vicariously liable for the torts of:",
+      "options": {
+        "A": "A servant acting in the course of employment",
+        "B": "An independent contractor",
+        "C": "A partner in the firm's ordinary business",
+        "D": "An agent acting within his authority"
+      },
+      "answer": "B",
+      "explanation": "An independent contractor controls how the work is done, though exceptions exist for hazardous work."
+    },
+    {
+      "id": 32,
+      "subject": "Law of Torts",
+      "difficulty": "Medium",
+      "question": "Liability for negligent misstatement causing economic loss was established in:",
+      "options": {
+        "A": "Hedley Byrne & Co. v. Heller & Partners (1964)",
+        "B": "Bourhill v. Young (1942)",
+        "C": "Grant v. Australian Knitting Works (1936)",
+        "D": "Overseas Tankship v. Morts Dock Engineering (1961)"
+      },
+      "answer": "A",
+      "explanation": "A special relationship and reliance can create a duty to take care in giving advice."
+    },
+    {
+      "id": 33,
+      "subject": "Law of Torts",
+      "difficulty": "Hard",
+      "question": "Exemplary damages in tort are intended to:",
+      "options": {
+        "A": "Reimburse the plaintiff's legal costs",
+        "B": "Compensate only the actual pecuniary loss",
+        "C": "Restore the plaintiff's lost property",
+        "D": "Punish and deter oppressive conduct"
+      },
+      "answer": "D",
+      "explanation": "Rookes v. Barnard limited them to oppressive acts by government servants and conduct calculated to make profit."
+    },
+    {
+      "id": 34,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "Defamation is defined in which section of the BNS, 2023?",
+      "options": {
+        "A": "Section 352",
+        "B": "Section 356",
+        "C": "Section 353",
+        "D": "Section 351"
+      },
+      "answer": "B",
+      "explanation": "Section 356 corresponds to Section 499 IPC; Section 351 deals with criminal intimidation."
+    },
+    {
+      "id": 35,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "Extortion is defined in which section of the BNS, 2023?",
+      "options": {
+        "A": "Section 309",
+        "B": "Section 303",
+        "C": "Section 308",
+        "D": "Section 304"
+      },
+      "answer": "C",
+      "explanation": "Section 308 corresponds to Sections 383 and 384 IPC; Section 309 deals with robbery."
+    },
+    {
+      "id": 36,
+      "subject": "Criminal Law",
+      "difficulty": "Hard",
+      "question": "As enacted, Section 106(2) of the BNS punishes a driver who causes death by rash driving and flees without reporting, with imprisonment up to:",
+      "options": {
+        "A": "Five years and fine",
+        "B": "Ten years and fine",
+        "C": "Seven years and fine",
+        "D": "Two years or fine"
+      },
+      "answer": "B",
+      "explanation": "This is a new provision on 'hit and run', whose implementation was kept in abeyance after protests."
+    },
+    {
+      "id": 37,
+      "subject": "Criminal Law",
+      "difficulty": "Hard",
+      "question": "A 'terrorist act' is defined in which section of the BNS, 2023?",
+      "options": {
+        "A": "Section 113",
+        "B": "Section 111",
+        "C": "Section 115",
+        "D": "Section 112"
+      },
+      "answer": "A",
+      "explanation": "Section 113 brings the offence of terrorism into the ordinary penal code; Section 111 deals with organised crime."
+    },
+    {
+      "id": 38,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "Voluntary intoxication is generally:",
+      "options": {
+        "A": "A defence only for offences against property",
+        "B": "No defence to an offence",
+        "C": "A complete defence to every offence",
+        "D": "A defence only for first offenders"
+      },
+      "answer": "B",
+      "explanation": "Only involuntary intoxication, which renders the person incapable of knowing the nature of the act, is a defence."
+    },
+    {
+      "id": 39,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "An assembly of at least how many persons, with a common unlawful object, constitutes an unlawful assembly?",
+      "options": {
+        "A": "Five",
+        "B": "Ten",
+        "C": "Seven",
+        "D": "Three"
+      },
+      "answer": "A",
+      "explanation": "Section 189 BNS (earlier Section 141 IPC) requires five or more persons."
+    },
+    {
+      "id": 40,
+      "subject": "Criminal Law",
+      "difficulty": "Hard",
+      "question": "The offence of bigamy does not apply where the first spouse has been continually absent for:",
+      "options": {
+        "A": "Two years and untraceable",
+        "B": "Five years and not heard of as alive",
+        "C": "Three years and untraceable",
+        "D": "Seven years and not heard of as alive"
+      },
+      "answer": "D",
+      "explanation": "The exception requires an absence of seven years during which the spouse has not been heard of, with disclosure to the second spouse."
+    },
+    {
+      "id": 41,
+      "subject": "Criminal Law",
+      "difficulty": "Easy",
+      "question": "The maxim 'ignorantia juris non excusat' means that:",
+      "options": {
+        "A": "Ignorance of the law is no excuse",
+        "B": "A mistake of fact is always punishable",
+        "C": "Ignorance of fact is no excuse",
+        "D": "A child's ignorance excuses liability"
+      },
+      "answer": "A",
+      "explanation": "Every person is presumed to know the law of the land."
+    },
+    {
+      "id": 42,
+      "subject": "Procedural Law",
+      "difficulty": "Medium",
+      "question": "Under Section 20 of the CPC, a suit may be instituted where the defendant resides or where:",
+      "options": {
+        "A": "The cause of action arises wholly or in part",
+        "B": "The plaintiff's advocate ordinarily practises in court",
+        "C": "The decree-holder owns some property",
+        "D": "The High Court chooses to sit"
+      },
+      "answer": "A",
+      "explanation": "Section 20 is the residuary provision on territorial jurisdiction for suits not covered by Sections 15 to 19."
+    },
+    {
+      "id": 43,
+      "subject": "Procedural Law",
+      "difficulty": "Medium",
+      "question": "A pleading in a civil suit must contain:",
+      "options": {
+        "A": "Only the prayer for relief",
+        "B": "Both facts and legal arguments",
+        "C": "Material facts, but not the evidence",
+        "D": "Evidence, but not the material facts"
+      },
+      "answer": "C",
+      "explanation": "Order VI Rule 2 requires a concise statement of the material facts on which the party relies."
+    },
+    {
+      "id": 44,
+      "subject": "Procedural Law",
+      "difficulty": "Hard",
+      "question": "In a summary suit under Order XXXVII of the CPC, the defendant can defend the suit only:",
+      "options": {
+        "A": "After the plaintiff leads evidence",
+        "B": "With the leave of the court",
+        "C": "After depositing the whole decretal amount",
+        "D": "Through a senior advocate"
+      },
+      "answer": "B",
+      "explanation": "If leave is refused or the defendant fails to apply, the plaintiff is entitled to a decree."
+    },
+    {
+      "id": 45,
+      "subject": "Procedural Law",
+      "difficulty": "Easy",
+      "question": "A first appeal from an original decree lies under:",
+      "options": {
+        "A": "Section 115 of the CPC",
+        "B": "Section 96 of the CPC",
+        "C": "Section 100 of the CPC",
+        "D": "Section 104 of the CPC"
+      },
+      "answer": "B",
+      "explanation": "Section 100 provides for second appeals, Section 104 for appeals from orders and Section 115 for revision."
+    },
+    {
+      "id": 46,
+      "subject": "Procedural Law",
+      "difficulty": "Medium",
+      "question": "Section 144 of the Code of Civil Procedure deals with:",
+      "options": {
+        "A": "Review",
+        "B": "Reference",
+        "C": "Restitution",
+        "D": "Revision"
+      },
+      "answer": "C",
+      "explanation": "Restitution puts the parties back where they were once a decree is varied or reversed."
+    },
+    {
+      "id": 47,
+      "subject": "Procedural Law",
+      "difficulty": "Hard",
+      "question": "In Arnesh Kumar v. State of Bihar, the Supreme Court directed police not to arrest automatically in offences punishable with imprisonment up to:",
+      "options": {
+        "A": "Seven years",
+        "B": "Ten years",
+        "C": "Five years",
+        "D": "Three years"
+      },
+      "answer": "A",
+      "explanation": "The Court required a notice of appearance and recorded reasons for arrest, now reflected in the BNSS."
+    },
+    {
+      "id": 48,
+      "subject": "Procedural Law",
+      "difficulty": "Hard",
+      "question": "Plea bargaining is NOT available for an offence punishable with:",
+      "options": {
+        "A": "Imprisonment extending up to seven years",
+        "B": "Imprisonment extending up to three years",
+        "C": "Death, life, or over seven years' term",
+        "D": "Imprisonment up to one year or fine only"
+      },
+      "answer": "C",
+      "explanation": "It is also barred for offences affecting the socio-economic condition of the country and offences against women or children below fourteen."
+    },
+    {
+      "id": 49,
+      "subject": "Procedural Law",
+      "difficulty": "Hard",
+      "question": "Under Section 17 of the Limitation Act, 1963, where a suit is based on fraud, limitation starts from the date of:",
+      "options": {
+        "A": "Discovery of the fraud",
+        "B": "Passing of the decree",
+        "C": "Filing of the complaint",
+        "D": "The fraudulent act itself"
+      },
+      "answer": "A",
+      "explanation": "Section 17 postpones the start of limitation until the fraud or mistake is discovered."
+    },
+    {
+      "id": 50,
+      "subject": "Law of Evidence",
+      "difficulty": "Medium",
+      "question": "An admission under the law of evidence is:",
+      "options": {
+        "A": "Always conclusive proof of the whole fact admitted by him",
+        "B": "Admissible only in criminal cases",
+        "C": "Inadmissible against its maker",
+        "D": "Not conclusive proof, but may operate as estoppel"
+      },
+      "answer": "D",
+      "explanation": "An admission can be explained or rebutted unless it creates an estoppel."
+    },
+    {
+      "id": 51,
+      "subject": "Law of Evidence",
+      "difficulty": "Medium",
+      "question": "The opinion of a handwriting expert is, as a rule of prudence:",
+      "options": {
+        "A": "Conclusive and binding on the court",
+        "B": "Inadmissible in all cases of disputed writing",
+        "C": "Not conclusive; corroboration is advisable",
+        "D": "Admissible only in civil cases"
+      },
+      "answer": "C",
+      "explanation": "Expert opinion is relevant under Section 45 (Section 39 BSA) but the court is not bound by it."
+    },
+    {
+      "id": 52,
+      "subject": "Law of Evidence",
+      "difficulty": "Hard",
+      "question": "Under Section 112 of the Evidence Act, birth during a valid marriage is conclusive proof of legitimacy unless:",
+      "options": {
+        "A": "The marriage is dissolved afterwards",
+        "B": "The child is adopted later",
+        "C": "The mother remarries",
+        "D": "Non-access between the spouses is proved"
+      },
+      "answer": "D",
+      "explanation": "Nandlal Wasudeo Badwaik v. Lata Nandlal held that DNA evidence cannot override the conclusive presumption where access exists."
+    },
+    {
+      "id": 53,
+      "subject": "Law of Evidence",
+      "difficulty": "Hard",
+      "question": "Under Section 27 of the Evidence Act, information received from an accused in police custody is admissible only to the extent that it:",
+      "options": {
+        "A": "Is confessional in nature",
+        "B": "Is recorded by a magistrate",
+        "C": "Leads to the discovery of a fact",
+        "D": "Is signed by the accused"
+      },
+      "answer": "C",
+      "explanation": "Pulukuri Kottaya v. Emperor clarified that only the part distinctly relating to the discovery is provable."
+    },
+    {
+      "id": 54,
+      "subject": "International Law",
+      "difficulty": "Medium",
+      "question": "Under Article 27 of the Vienna Convention on the Law of Treaties, a State may not invoke its internal law as:",
+      "options": {
+        "A": "A basis for recognising States",
+        "B": "A ground for lawfully entering into a treaty",
+        "C": "Evidence of a rule of customary international law",
+        "D": "A justification for failing to perform a treaty"
+      },
+      "answer": "D",
+      "explanation": "The rule reinforces pacta sunt servanda."
+    },
+    {
+      "id": 55,
+      "subject": "International Law",
+      "difficulty": "Medium",
+      "question": "The right of innocent passage through the territorial sea is available to:",
+      "options": {
+        "A": "Only ships of the coastal State",
+        "B": "Only merchant ships of allied States",
+        "C": "Only vessels with UN permission",
+        "D": "Ships of all States"
+      },
+      "answer": "D",
+      "explanation": "UNCLOS Articles 17–19 give ships of all States this right, so long as passage is not prejudicial to the coastal State."
+    },
+    {
+      "id": 56,
+      "subject": "International Law",
+      "difficulty": "Medium",
+      "question": "Article 51 of the UN Charter recognises the inherent right of States to:",
+      "options": {
+        "A": "Secede from the United Nations",
+        "B": "Veto Security Council resolutions",
+        "C": "Self-defence against an armed attack",
+        "D": "Seize foreign vessels on the high seas"
+      },
+      "answer": "C",
+      "explanation": "The right lasts until the Security Council takes measures to maintain peace."
+    },
+    {
+      "id": 57,
+      "subject": "International Law",
+      "difficulty": "Medium",
+      "question": "The 'Responsibility to Protect' (R2P) doctrine was endorsed by UN member States at the:",
+      "options": {
+        "A": "2015 Paris Summit",
+        "B": "2005 World Summit",
+        "C": "1945 San Francisco Conference",
+        "D": "1992 Rio Summit"
+      },
+      "answer": "B",
+      "explanation": "R2P concerns genocide, war crimes, ethnic cleansing and crimes against humanity."
+    },
+    {
+      "id": 58,
+      "subject": "International Law",
+      "difficulty": "Hard",
+      "question": "Under the doctrine of restrictive immunity, a State is NOT immune for acts:",
+      "options": {
+        "A": "Of a commercial nature (jure gestionis)",
+        "B": "Of a sovereign nature (jure imperii)",
+        "C": "Done within its own territory",
+        "D": "Done by its head of State in office"
+      },
+      "answer": "A",
+      "explanation": "Immunity is confined to sovereign acts (jure imperii)."
+    },
+    {
+      "id": 59,
+      "subject": "International Law",
+      "difficulty": "Easy",
+      "question": "The World Trade Organization came into existence on:",
+      "options": {
+        "A": "15 April 1994",
+        "B": "1 January 2001",
+        "C": "1 January 1948",
+        "D": "1 January 1995"
+      },
+      "answer": "D",
+      "explanation": "The WTO replaced the GATT framework following the Uruguay Round."
+    },
+    {
+      "id": 60,
+      "subject": "Family Law",
+      "difficulty": "Medium",
+      "question": "Under the Hindu Marriage Act, 1955, desertion is a ground of divorce if continuous for at least:",
+      "options": {
+        "A": "One year",
+        "B": "Seven years",
+        "C": "Two years",
+        "D": "Three years"
+      },
+      "answer": "C",
+      "explanation": "Section 13(1)(ib) requires desertion without reasonable cause for a continuous period of not less than two years immediately preceding the petition."
+    },
+    {
+      "id": 61,
+      "subject": "Family Law",
+      "difficulty": "Medium",
+      "question": "A valid adoption under the Hindu Adoptions and Maintenance Act, 1956 requires:",
+      "options": {
+        "A": "Consent of the village panchayat",
+        "B": "Prior permission of the High Court",
+        "C": "Actual giving and taking of the child",
+        "D": "Registration of the deed before a magistrate"
+      },
+      "answer": "C",
+      "explanation": "Section 11(vi): the child must be actually given and taken with intent to transfer the child from the family of its birth."
+    },
+    {
+      "id": 62,
+      "subject": "Family Law",
+      "difficulty": "Hard",
+      "question": "Talaq-e-ahsan consists of:",
+      "options": {
+        "A": "A decree of the court on petition",
+        "B": "A written deed attested by a magistrate",
+        "C": "Three pronouncements made in a single sitting at once",
+        "D": "A single pronouncement in a tuhr followed by iddat"
+      },
+      "answer": "D",
+      "explanation": "It is the most approved form of talaq, and the husband can revoke it during iddat."
+    },
+    {
+      "id": 63,
+      "subject": "Family Law",
+      "difficulty": "Medium",
+      "question": "A Muslim can bequeath by will, without the consent of the heirs, not more than:",
+      "options": {
+        "A": "Two-thirds of his estate",
+        "B": "One-fourth of his estate",
+        "C": "One-half of his estate",
+        "D": "One-third of his estate"
+      },
+      "answer": "D",
+      "explanation": "A bequest above one-third requires the consent of the heirs after the testator's death."
+    },
+    {
+      "id": 64,
+      "subject": "Property Law",
+      "difficulty": "Medium",
+      "question": "Under Section 107 of the TPA, a lease of immovable property from year to year, or for a term exceeding one year, can be made only by:",
+      "options": {
+        "A": "An oral agreement",
+        "B": "A registered instrument",
+        "C": "An unregistered writing",
+        "D": "Mere delivery of possession"
+      },
+      "answer": "B",
+      "explanation": "Other leases may be made by oral agreement accompanied by delivery of possession."
+    },
+    {
+      "id": 65,
+      "subject": "Succession Law",
+      "difficulty": "Hard",
+      "question": "In V. Tulasamma v. Sesha Reddy, the Supreme Court held that under Section 14(1) of the HSA, a Hindu woman's limited estate in property given for maintenance becomes:",
+      "options": {
+        "A": "An absolute estate",
+        "B": "A life estate only",
+        "C": "An estate for her minor child",
+        "D": "A contingent estate"
+      },
+      "answer": "A",
+      "explanation": "Section 14(1) was held to convert limited estates held in lieu of maintenance into full ownership."
+    },
+    {
+      "id": 66,
+      "subject": "Intellectual Property Law",
+      "difficulty": "Medium",
+      "question": "Under the Designs Act, 2000, registration of a design is initially valid for ten years and extendable by:",
+      "options": {
+        "A": "Ten years",
+        "B": "Two years",
+        "C": "Seven years",
+        "D": "Five years"
+      },
+      "answer": "D",
+      "explanation": "The total period of protection can therefore be fifteen years."
+    },
+    {
+      "id": 67,
+      "subject": "Intellectual Property Law",
+      "difficulty": "Medium",
+      "question": "Under the Copyright Act, 1957, fair dealing with a literary work for private study or research is:",
+      "options": {
+        "A": "An infringement if the copy is made for profit",
+        "B": "Permitted only on payment of a licence fee",
+        "C": "An infringement unless the author consents",
+        "D": "Not an infringement of copyright"
+      },
+      "answer": "D",
+      "explanation": "Section 52 lists acts which do not constitute infringement."
+    },
+    {
+      "id": 68,
+      "subject": "Environmental Law",
+      "difficulty": "Hard",
+      "question": "The classic definition of 'sustainable development' comes from the 1987 report of the:",
+      "options": {
+        "A": "Club of Rome",
+        "B": "Kyoto Conference",
+        "C": "Brundtland Commission",
+        "D": "Stockholm Conference"
+      },
+      "answer": "C",
+      "explanation": "Our Common Future defined it as development that meets present needs without compromising future generations."
+    },
+    {
+      "id": 69,
+      "subject": "Company Law",
+      "difficulty": "Medium",
+      "question": "The maximum number of members in a private company under the Companies Act, 2013 is:",
+      "options": {
+        "A": "One hundred",
+        "B": "Fifty",
+        "C": "Two hundred",
+        "D": "Five hundred"
+      },
+      "answer": "C",
+      "explanation": "Section 2(68) restricts a private company to 200 members, excluding employee-members and ex-employees."
+    },
+    {
+      "id": 70,
+      "subject": "Administrative Law",
+      "difficulty": "Hard",
+      "question": "The doctrine of promissory estoppel was applied against the Government in:",
+      "options": {
+        "A": "Motilal Padampat Sugar Mills (1979)",
+        "B": "A.K. Kraipak v. Union of India (1969)",
+        "C": "Maneka Gandhi v. Union of India (1978)",
+        "D": "Ridge v. Baldwin (1964)"
+      },
+      "answer": "A",
+      "explanation": "The Supreme Court held that the doctrine applies against the Government, and no detriment need be proved."
+    },
+    {
+      "id": 71,
+      "subject": "Insolvency Law",
+      "difficulty": "Hard",
+      "question": "Under the Insolvency and Bankruptcy Code, 2016, the corporate insolvency resolution process must ordinarily be completed within:",
+      "options": {
+        "A": "365 days, extendable by 180 days",
+        "B": "180 days, extendable by 90 days",
+        "C": "270 days, non-extendable",
+        "D": "90 days, extendable by 30 days"
+      },
+      "answer": "B",
+      "explanation": "The overall limit including litigation is 330 days."
+    },
+    {
+      "id": 72,
+      "subject": "Juvenile Justice",
+      "difficulty": "Medium",
+      "question": "Under the Juvenile Justice Act, 2015, a preliminary assessment for being tried as an adult in heinous offences applies to a child aged:",
+      "options": {
+        "A": "14 to 18 years",
+        "B": "12 to 16 years",
+        "C": "16 to 18 years",
+        "D": "10 to 14 years"
+      },
+      "answer": "C",
+      "explanation": "The Juvenile Justice Board assesses mental and physical capacity and ability to understand consequences."
+    },
+    {
+      "id": 73,
+      "subject": "Arbitration Law",
+      "difficulty": "Hard",
+      "question": "An application to set aside an arbitral award under Section 34 must be made within three months, extendable by a further:",
+      "options": {
+        "A": "Fifteen days",
+        "B": "Thirty days",
+        "C": "Ninety days",
+        "D": "Sixty days"
+      },
+      "answer": "B",
+      "explanation": "The proviso allows the court to condone delay for up to thirty days on sufficient cause."
+    },
+    {
+      "id": 74,
+      "subject": "Contempt of Courts",
+      "difficulty": "Medium",
+      "question": "Under Section 12 of the Contempt of Courts Act, 1971, simple imprisonment for contempt may extend to:",
+      "options": {
+        "A": "Two years",
+        "B": "Three months",
+        "C": "Six months",
+        "D": "One year"
+      },
+      "answer": "C",
+      "explanation": "The maximum fine is two thousand rupees; an apology may lead to remission."
+    },
+    {
+      "id": 75,
+      "subject": "Disability Law",
+      "difficulty": "Medium",
+      "question": "Under the Rights of Persons with Disabilities Act, 2016, a 'person with benchmark disability' has not less than:",
+      "options": {
+        "A": "Twenty per cent of a specified disability",
+        "B": "Sixty per cent of a specified disability",
+        "C": "Eighty per cent of a specified disability",
+        "D": "Forty per cent of a specified disability"
+      },
+      "answer": "D",
+      "explanation": "Persons with benchmark disabilities are entitled to reservation in jobs and education."
+    }
+  ]
+}

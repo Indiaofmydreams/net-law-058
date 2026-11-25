@@ -1,0 +1,1070 @@
+{
+  "exam": "CUET (PG) 2027 - LL.M. (Law) Mock Test 8",
+  "paper_code": "COQP09 (Law) - pattern based",
+  "total_questions": 75,
+  "duration_minutes": 90,
+  "total_marks": 300,
+  "marking_scheme": {
+    "correct": 4,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "answer_distribution": {
+    "A": 19,
+    "B": 19,
+    "C": 19,
+    "D": 18
+  },
+  "questions": [
+    {
+      "id": 1,
+      "subject": "Constitutional Law",
+      "difficulty": "Hard",
+      "question": "The 39th Amendment, which placed the Prime Minister's election beyond judicial scrutiny, was struck down in:",
+      "options": {
+        "A": "Indira Nehru Gandhi v. Raj Narain (1975)",
+        "B": "I.C. Golaknath v. State of Punjab (1967)",
+        "C": "Minerva Mills Ltd. v. Union of India (1980)",
+        "D": "Kesavananda Bharati v. State of Kerala (1973)"
+      },
+      "answer": "A",
+      "explanation": "The Court held that free and fair elections form part of the basic structure."
+    },
+    {
+      "id": 2,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "Under Article 311(2), a civil servant cannot be dismissed or removed without:",
+      "options": {
+        "A": "A reasonable opportunity of being heard",
+        "B": "A vote in the State Legislature",
+        "C": "A recommendation from the High Court",
+        "D": "The consent of the State Governor"
+      },
+      "answer": "A",
+      "explanation": "An inquiry in which he is informed of the charges and given a chance to defend is required."
+    },
+    {
+      "id": 3,
+      "subject": "Constitutional Law",
+      "difficulty": "Hard",
+      "question": "In State of West Bengal v. Anwar Ali Sarkar, a law giving the Government unguided discretion to send cases to special courts was struck down under:",
+      "options": {
+        "A": "Article 21",
+        "B": "Article 32",
+        "C": "Article 19",
+        "D": "Article 14"
+      },
+      "answer": "D",
+      "explanation": "The Court held that the classification was not based on any intelligible differentia."
+    },
+    {
+      "id": 4,
+      "subject": "Constitutional Law",
+      "difficulty": "Hard",
+      "question": "In Subramanian Swamy v. Union of India (2016), the Supreme Court upheld the constitutional validity of:",
+      "options": {
+        "A": "Criminal defamation under the IPC",
+        "B": "Unnatural offences under Section 377 of the IPC",
+        "C": "Adultery under Section 497 of the IPC",
+        "D": "Sedition under Section 124A of the IPC"
+      },
+      "answer": "A",
+      "explanation": "Reputation was held to be part of the right to life under Article 21 and the restriction to be reasonable."
+    },
+    {
+      "id": 5,
+      "subject": "Constitutional Law",
+      "difficulty": "Easy",
+      "question": "Disputes between the Union and one or more States fall within the original jurisdiction of the Supreme Court under:",
+      "options": {
+        "A": "Article 132",
+        "B": "Article 134",
+        "C": "Article 131",
+        "D": "Article 129"
+      },
+      "answer": "C",
+      "explanation": "The jurisdiction is exclusive and extends to disputes involving a question of law or fact on which a legal right depends."
+    },
+    {
+      "id": 6,
+      "subject": "Constitutional Law",
+      "difficulty": "Easy",
+      "question": "Special leave to appeal to the Supreme Court from any court or tribunal in India is granted under:",
+      "options": {
+        "A": "Article 136",
+        "B": "Article 132",
+        "C": "Article 133",
+        "D": "Article 135"
+      },
+      "answer": "A",
+      "explanation": "Article 136 is discretionary and is exercised sparingly."
+    },
+    {
+      "id": 7,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "Article 142 empowers the Supreme Court to pass any decree or order necessary for:",
+      "options": {
+        "A": "Amending the Constitution of India in part",
+        "B": "Dissolving a State Legislature before term",
+        "C": "Doing complete justice in a pending matter",
+        "D": "Dismissing the Council of Ministers at will"
+      },
+      "answer": "C",
+      "explanation": "The power cannot be used to override express statutory provisions."
+    },
+    {
+      "id": 8,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "Article 227 gives each High Court the power of superintendence over:",
+      "options": {
+        "A": "All courts and tribunals within its territory",
+        "B": "Only courts of civil jurisdiction and appeal",
+        "C": "Only courts in the State capital",
+        "D": "Only the district courts within its own State"
+      },
+      "answer": "A",
+      "explanation": "L. Chandra Kumar held this power to be part of the basic structure."
+    },
+    {
+      "id": 9,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "The Constitution (106th Amendment) Act, 2023 provides for reservation of one-third of seats for women in:",
+      "options": {
+        "A": "Panchayats and Municipalities only",
+        "B": "Union Territory Assemblies only",
+        "C": "The Rajya Sabha and State Legislative Councils",
+        "D": "The Lok Sabha and State Legislative Assemblies"
+      },
+      "answer": "D",
+      "explanation": "The reservation will come into effect after the next delimitation exercise."
+    },
+    {
+      "id": 10,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "The total number of Ministers in a State Council of Ministers cannot exceed what proportion of the strength of the Legislative Assembly?",
+      "options": {
+        "A": "Twenty-five per cent",
+        "B": "Fifteen per cent",
+        "C": "Twenty per cent",
+        "D": "Ten per cent"
+      },
+      "answer": "B",
+      "explanation": "The 91st Amendment inserted Article 164(1A); a State must have at least twelve Ministers."
+    },
+    {
+      "id": 11,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "The Ninth Schedule and Article 15(4) were added to the Constitution by the:",
+      "options": {
+        "A": "Twenty-fourth Constitutional Amendment, 1971",
+        "B": "Fourth Constitutional Amendment, 1955",
+        "C": "First Constitutional Amendment, 1951",
+        "D": "Forty-second Constitutional Amendment, 1976"
+      },
+      "answer": "C",
+      "explanation": "The First Amendment followed the decision in State of Madras v. Champakam Dorairajan."
+    },
+    {
+      "id": 12,
+      "subject": "Constitutional Law",
+      "difficulty": "Hard",
+      "question": "In the Aadhaar judgment (Puttaswamy, 2018), the Supreme Court struck down:",
+      "options": {
+        "A": "The whole of the Aadhaar Act",
+        "B": "Section 139AA of the Income Tax Act",
+        "C": "Section 57 (use by private entities)",
+        "D": "Section 7 on welfare subsidies"
+      },
+      "answer": "C",
+      "explanation": "The majority upheld the Aadhaar Act as a Money Bill and limited its use for private contracts."
+    },
+    {
+      "id": 13,
+      "subject": "Constitutional Law",
+      "difficulty": "Hard",
+      "question": "In Kaushal Kishore v. State of U.P. (2023), the Supreme Court held that the grounds in Article 19(2) are:",
+      "options": {
+        "A": "Exhaustive, allowing no additional restrictions",
+        "B": "Illustrative only, so courts may add other grounds",
+        "C": "Applicable only to the press",
+        "D": "Inapplicable to public officials"
+      },
+      "answer": "A",
+      "explanation": "The Court also held that Fundamental Rights such as Articles 19 and 21 can be enforced against private persons in appropriate cases."
+    },
+    {
+      "id": 14,
+      "subject": "Jurisprudence",
+      "difficulty": "Medium",
+      "question": "In Dicey's view, the 'rule of law' means the absence of:",
+      "options": {
+        "A": "Ordinary law courts in the country",
+        "B": "Arbitrary power",
+        "C": "Customary rights of individuals",
+        "D": "Equality before the ordinary courts"
+      },
+      "answer": "B",
+      "explanation": "Dicey stressed supremacy of regular law as opposed to wide discretionary authority."
+    },
+    {
+      "id": 15,
+      "subject": "Jurisprudence",
+      "difficulty": "Easy",
+      "question": "The doctrine of separation of powers was elaborated by Montesquieu in:",
+      "options": {
+        "A": "The Spirit of the Laws",
+        "B": "Leviathan",
+        "C": "Two Treatises of Government",
+        "D": "The Social Contract"
+      },
+      "answer": "A",
+      "explanation": "Montesquieu argued that liberty requires legislative, executive and judicial powers to be separate."
+    },
+    {
+      "id": 16,
+      "subject": "Jurisprudence",
+      "difficulty": "Medium",
+      "question": "Hobbes, in Leviathan, argued that life in the state of nature is:",
+      "options": {
+        "A": "Governed by natural equality and justice",
+        "B": "Peaceful and harmonious by nature",
+        "C": "Solitary, poor, nasty, brutish and short",
+        "D": "Free from all fear and scarcity"
+      },
+      "answer": "C",
+      "explanation": "People therefore enter a social contract and submit to a sovereign."
+    },
+    {
+      "id": 17,
+      "subject": "Jurisprudence",
+      "difficulty": "Medium",
+      "question": "A decision rendered 'per incuriam' is one given:",
+      "options": {
+        "A": "Unanimously on all the issues",
+        "B": "Without considering a binding precedent",
+        "C": "By a full Bench of the court",
+        "D": "After full hearing of both parties"
+      },
+      "answer": "B",
+      "explanation": "Such a decision does not have binding force as precedent."
+    },
+    {
+      "id": 18,
+      "subject": "Jurisprudence",
+      "difficulty": "Medium",
+      "question": "In The Republic, justice for Plato consists in:",
+      "options": {
+        "A": "Maximising pleasure for the most",
+        "B": "Equal distribution of wealth to all citizens",
+        "C": "Obedience to the will of the majority",
+        "D": "Each class performing its proper function"
+      },
+      "answer": "D",
+      "explanation": "Plato's just State has rulers, auxiliaries and producers, each doing its own work."
+    },
+    {
+      "id": 19,
+      "subject": "Jurisprudence",
+      "difficulty": "Easy",
+      "question": "Decisions of a High Court of another State are, for a High Court, only:",
+      "options": {
+        "A": "Overruling authority",
+        "B": "Irrelevant to any case",
+        "C": "Binding precedent",
+        "D": "Persuasive precedent"
+      },
+      "answer": "D",
+      "explanation": "Only decisions of the Supreme Court bind all courts under Article 141."
+    },
+    {
+      "id": 20,
+      "subject": "Jurisprudence",
+      "difficulty": "Hard",
+      "question": "Rudolf Stammler is associated with the idea of:",
+      "options": {
+        "A": "Pure legal positivism alone",
+        "B": "Law as the command of the sovereign",
+        "C": "Natural law with a variable content",
+        "D": "Living law of society"
+      },
+      "answer": "C",
+      "explanation": "Stammler proposed 'natural law with changing content' guided by the social ideal of a community of free-willing people."
+    },
+    {
+      "id": 21,
+      "subject": "Law of Contract",
+      "difficulty": "Hard",
+      "question": "In Central Inland Water Transport Corporation v. Brojo Nath Ganguly, a clause permitting termination of employment on notice was held:",
+      "options": {
+        "A": "A valid exercise of freedom of contract",
+        "B": "Void for want of consideration",
+        "C": "Unconscionable and void under Section 23",
+        "D": "Voidable for undue influence only"
+      },
+      "answer": "C",
+      "explanation": "The Court applied the doctrine of unequal bargaining power to a standard form of employment contract."
+    },
+    {
+      "id": 22,
+      "subject": "Law of Contract",
+      "difficulty": "Medium",
+      "question": "Under Section 28 of the Contract Act, an agreement absolutely restraining a party from enforcing his rights through ordinary legal proceedings is:",
+      "options": {
+        "A": "Valid in every case",
+        "B": "Void to that extent",
+        "C": "Valid if made in writing",
+        "D": "Voidable at the court's option"
+      },
+      "answer": "B",
+      "explanation": "Arbitration agreements and agreements fixing limitation on rights to sue are saved in certain circumstances."
+    },
+    {
+      "id": 23,
+      "subject": "Law of Contract",
+      "difficulty": "Easy",
+      "question": "Under Section 29 of the Contract Act, an agreement whose meaning is not certain or capable of being made certain is:",
+      "options": {
+        "A": "Void",
+        "B": "Illegal",
+        "C": "Voidable",
+        "D": "Valid"
+      },
+      "answer": "A",
+      "explanation": "Uncertainty of terms renders the agreement void."
+    },
+    {
+      "id": 24,
+      "subject": "Specific Relief",
+      "difficulty": "Hard",
+      "question": "Under Section 6 of the Specific Relief Act, 1963, a person dispossessed of immovable property without consent may sue for recovery within:",
+      "options": {
+        "A": "Three months of dispossession",
+        "B": "Six months of dispossession",
+        "C": "One year of dispossession",
+        "D": "Twelve years of dispossession"
+      },
+      "answer": "B",
+      "explanation": "The suit is summary in nature, and no appeal lies from the decree, though a suit on title can follow."
+    },
+    {
+      "id": 25,
+      "subject": "Specific Relief",
+      "difficulty": "Hard",
+      "question": "A perpetual injunction under Section 38 of the Specific Relief Act, 1963 is granted:",
+      "options": {
+        "A": "At any stage on an oral request by a party",
+        "B": "Only to restrain criminal acts",
+        "C": "By a decree made at the hearing on the merits",
+        "D": "Only by the Registrar of the court in chambers"
+      },
+      "answer": "C",
+      "explanation": "A temporary injunction, in contrast, continues until a stated time or further orders."
+    },
+    {
+      "id": 26,
+      "subject": "Sale of Goods",
+      "difficulty": "Hard",
+      "question": "Under Section 19 of the Sale of Goods Act, in a contract for specific or ascertained goods, the intention as to when property passes is found from:",
+      "options": {
+        "A": "The date of payment only",
+        "B": "The seller's own declaration to the buyer alone",
+        "C": "The place of delivery only",
+        "D": "The contract terms, conduct and circumstances"
+      },
+      "answer": "D",
+      "explanation": "The intention of the parties governs, subject to the rules in Sections 20 to 24."
+    },
+    {
+      "id": 27,
+      "subject": "Sale of Goods",
+      "difficulty": "Hard",
+      "question": "Under Section 24 of the Sale of Goods Act, goods delivered 'on approval' become the buyer's when he:",
+      "options": {
+        "A": "Transports them to his own home",
+        "B": "Pays a deposit to the seller",
+        "C": "Signifies approval or keeps them too long",
+        "D": "Inspects them once at the shop"
+      },
+      "answer": "C",
+      "explanation": "Property passes also when he retains the goods beyond the fixed or a reasonable time without giving notice of rejection."
+    },
+    {
+      "id": 28,
+      "subject": "Law of Torts",
+      "difficulty": "Hard",
+      "question": "In Indian Medical Association v. V.P. Shantha, the Supreme Court held that medical services rendered for consideration come within the:",
+      "options": {
+        "A": "Consumer Protection Act",
+        "B": "Workmen's Compensation Act",
+        "C": "Indian Medical Council Act only",
+        "D": "Fatal Accidents Act, 1855"
+      },
+      "answer": "A",
+      "explanation": "Services rendered free of charge are excluded, but those under contract of personal service are also excluded."
+    },
+    {
+      "id": 29,
+      "subject": "Law of Torts",
+      "difficulty": "Medium",
+      "question": "The maxim 'actio personalis moritur cum persona' means that:",
+      "options": {
+        "A": "A personal action dies with the person",
+        "B": "Every action must be a personal one",
+        "C": "A person cannot sue himself",
+        "D": "A right of action passes to the State"
+      },
+      "answer": "A",
+      "explanation": "In India, the rule has been modified by statute, so that claims for property damage survive."
+    },
+    {
+      "id": 30,
+      "subject": "Law of Torts",
+      "difficulty": "Hard",
+      "question": "In Vaughan v. Taff Vale Railway Co., the railway company was not liable for fire from its engine because it acted under:",
+      "options": {
+        "A": "Volenti non fit injuria",
+        "B": "Contributory negligence",
+        "C": "Statutory authority",
+        "D": "Act of God"
+      },
+      "answer": "C",
+      "explanation": "Statutory authority is a defence where all reasonable care was taken to avoid damage."
+    },
+    {
+      "id": 31,
+      "subject": "Law of Torts",
+      "difficulty": "Hard",
+      "question": "In Cope v. Sharpe, the defence of necessity was held to apply to:",
+      "options": {
+        "A": "Murder to save one's own life",
+        "B": "Trespass to prevent greater harm",
+        "C": "Defamation of a business rival",
+        "D": "Conversion committed for profit"
+      },
+      "answer": "B",
+      "explanation": "A gamekeeper's entry on land to stop a fire spreading was justified."
+    },
+    {
+      "id": 32,
+      "subject": "Law of Torts",
+      "difficulty": "Hard",
+      "question": "Wilkinson v. Downton established liability for:",
+      "options": {
+        "A": "Defamation in permanent form",
+        "B": "Strict liability for animals",
+        "C": "Intentionally causing nervous shock",
+        "D": "Negligent misstatement of fact"
+      },
+      "answer": "C",
+      "explanation": "A practical joke causing severe emotional distress to the plaintiff gave rise to damages."
+    },
+    {
+      "id": 33,
+      "subject": "Law of Torts",
+      "difficulty": "Medium",
+      "question": "Under the 'eggshell skull' rule, a defendant must take the plaintiff:",
+      "options": {
+        "A": "Only after a medical examination",
+        "B": "Only if he is of ordinary health",
+        "C": "As he finds him",
+        "D": "As the law presumes him to be"
+      },
+      "answer": "C",
+      "explanation": "The defendant is liable for the full extent of the harm even if the plaintiff was unusually vulnerable."
+    },
+    {
+      "id": 34,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "Waging war against the Government of India is punishable under which section of the BNS, 2023?",
+      "options": {
+        "A": "Section 148",
+        "B": "Section 147",
+        "C": "Section 149",
+        "D": "Section 150"
+      },
+      "answer": "B",
+      "explanation": "Section 147 corresponds to Section 121 IPC."
+    },
+    {
+      "id": 35,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "Under the Prevention of Corruption Act, 1988 (as amended in 2018), giving a bribe to a public servant is:",
+      "options": {
+        "A": "An offence only for public servants",
+        "B": "An offence only above ₹1 lakh",
+        "C": "An offence",
+        "D": "Not an offence"
+      },
+      "answer": "C",
+      "explanation": "The 2018 amendment made bribe-giving a specific offence, with exceptions for coerced givers who report promptly."
+    },
+    {
+      "id": 36,
+      "subject": "Criminal Law",
+      "difficulty": "Hard",
+      "question": "Under Section 37 of the NDPS Act, bail for specified offences requires the court to be satisfied that the accused is:",
+      "options": {
+        "A": "Not guilty and unlikely to reoffend",
+        "B": "Of good financial standing",
+        "C": "A first-time offender only",
+        "D": "Under eighteen years of age"
+      },
+      "answer": "A",
+      "explanation": "The Public Prosecutor must also be given an opportunity to oppose the bail application."
+    },
+    {
+      "id": 37,
+      "subject": "Criminal Law",
+      "difficulty": "Hard",
+      "question": "Section 29 of the POCSO Act, 2012 raises a presumption that the accused:",
+      "options": {
+        "A": "Is innocent until the victim testifies in court",
+        "B": "Is a minor himself",
+        "C": "Has confessed to the police",
+        "D": "Has committed the offence unless disproved"
+      },
+      "answer": "D",
+      "explanation": "The presumption applies to offences under Sections 3, 5, 7 and 9 of the Act."
+    },
+    {
+      "id": 38,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "Under Section 3 of the Dowry Prohibition Act, 1961, giving or taking dowry carries a minimum imprisonment of:",
+      "options": {
+        "A": "Two years",
+        "B": "Five years",
+        "C": "One year",
+        "D": "Seven years"
+      },
+      "answer": "B",
+      "explanation": "The minimum fine is ₹15,000 or the value of the dowry, whichever is more."
+    },
+    {
+      "id": 39,
+      "subject": "Criminal Law",
+      "difficulty": "Hard",
+      "question": "In Vijay Madanlal Choudhary v. Union of India (2022), the Supreme Court:",
+      "options": {
+        "A": "Struck down the entire PMLA as unconstitutional",
+        "B": "Held PMLA to be a Money Bill only",
+        "C": "Banned the ED from summoning accused persons",
+        "D": "Upheld arrest powers and twin bail conditions"
+      },
+      "answer": "D",
+      "explanation": "The Court upheld Sections 19 and 45 of the PMLA."
+    },
+    {
+      "id": 40,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "Under the Protection of Women from Domestic Violence Act, 2005, an aggrieved woman has the right to:",
+      "options": {
+        "A": "Dissolve the marriage automatically",
+        "B": "Refuse all maintenance claims",
+        "C": "Own the husband's property outright",
+        "D": "Reside in the shared household"
+      },
+      "answer": "D",
+      "explanation": "Section 17 gives the right to reside in the shared household whether or not she has title."
+    },
+    {
+      "id": 41,
+      "subject": "Criminal Law",
+      "difficulty": "Hard",
+      "question": "Section 18 of the SC/ST (Prevention of Atrocities) Act bars:",
+      "options": {
+        "A": "Trial by a Special Court",
+        "B": "Appeals to the High Court",
+        "C": "Anticipatory bail",
+        "D": "Registration of any FIR"
+      },
+      "answer": "C",
+      "explanation": "The Supreme Court in Prathvi Raj Chauhan (2020) upheld the bar, subject to a prima facie case."
+    },
+    {
+      "id": 42,
+      "subject": "Procedural Law",
+      "difficulty": "Hard",
+      "question": "In Lalita Kumari v. Government of U.P., the Supreme Court held that registration of an FIR is mandatory where information discloses:",
+      "options": {
+        "A": "A non-cognizable offence",
+        "B": "A complaint of mere annoyance",
+        "C": "A civil dispute only",
+        "D": "A cognizable offence"
+      },
+      "answer": "D",
+      "explanation": "A preliminary inquiry is permissible only in certain categories such as matrimonial or commercial disputes."
+    },
+    {
+      "id": 43,
+      "subject": "Procedural Law",
+      "difficulty": "Hard",
+      "question": "In Gurbaksh Singh Sibbia v. State of Punjab, the Supreme Court held that anticipatory bail is:",
+      "options": {
+        "A": "Available only after the arrest",
+        "B": "Not limited to a fixed period",
+        "C": "Restricted to offences under the IPC only",
+        "D": "Always limited to thirty days"
+      },
+      "answer": "B",
+      "explanation": "The Constitution Bench rejected a rigid time-limit and left the matter to the court's discretion."
+    },
+    {
+      "id": 44,
+      "subject": "Procedural Law",
+      "difficulty": "Hard",
+      "question": "Confessions and statements recorded by a Magistrate during investigation are provided for in Section:",
+      "options": {
+        "A": "Section 183 of the BNSS",
+        "B": "Section 187 of the BNSS",
+        "C": "Section 173 of the BNSS",
+        "D": "Section 180 of the BNSS"
+      },
+      "answer": "A",
+      "explanation": "Section 183 BNSS corresponds to Section 164 CrPC."
+    },
+    {
+      "id": 45,
+      "subject": "Procedural Law",
+      "difficulty": "Medium",
+      "question": "A statement made to the police during investigation can ordinarily be used at trial only to:",
+      "options": {
+        "A": "Establish the motive alone",
+        "B": "Contradict the witness",
+        "C": "Prove the offence itself",
+        "D": "Convict the accused"
+      },
+      "answer": "B",
+      "explanation": "Section 180 BNSS (earlier Section 161 CrPC) bars its use as substantive evidence except as provided."
+    },
+    {
+      "id": 46,
+      "subject": "Procedural Law",
+      "difficulty": "Hard",
+      "question": "The power to examine the accused to explain the circumstances appearing against him in the evidence is in Section:",
+      "options": {
+        "A": "Section 351 of the BNSS",
+        "B": "Section 345 of the BNSS",
+        "C": "Section 360 of the BNSS",
+        "D": "Section 355 of the BNSS"
+      },
+      "answer": "A",
+      "explanation": "Section 351 BNSS corresponds to Section 313 CrPC."
+    },
+    {
+      "id": 47,
+      "subject": "Procedural Law",
+      "difficulty": "Medium",
+      "question": "The limitation period for a suit for specific performance of a contract under the Limitation Act, 1963 is:",
+      "options": {
+        "A": "One year",
+        "B": "Six years",
+        "C": "Twelve years",
+        "D": "Three years"
+      },
+      "answer": "D",
+      "explanation": "Article 54 prescribes three years from the date fixed for performance or from refusal."
+    },
+    {
+      "id": 48,
+      "subject": "Procedural Law",
+      "difficulty": "Medium",
+      "question": "Section 9 of the Arbitration and Conciliation Act, 1996 allows a party to seek from the court:",
+      "options": {
+        "A": "Transfer of the arbitrator",
+        "B": "Review of the award",
+        "C": "A final decree on the merits",
+        "D": "Interim measures of protection"
+      },
+      "answer": "D",
+      "explanation": "A party can apply before, during or after arbitral proceedings but before enforcement of the award."
+    },
+    {
+      "id": 49,
+      "subject": "Procedural Law",
+      "difficulty": "Hard",
+      "question": "Order II Rule 2 of the CPC requires the plaintiff to:",
+      "options": {
+        "A": "Claim all reliefs from one cause of action",
+        "B": "File only one prayer in each suit",
+        "C": "Sue only in the capital city",
+        "D": "Serve notice on every citizen"
+      },
+      "answer": "A",
+      "explanation": "A relief omitted intentionally cannot be claimed in a later suit on the same cause of action."
+    },
+    {
+      "id": 50,
+      "subject": "Law of Evidence",
+      "difficulty": "Hard",
+      "question": "In Sharad Birdhichand Sarda v. State of Maharashtra, the Supreme Court laid down tests for conviction based on:",
+      "options": {
+        "A": "Expert opinions",
+        "B": "Dying declarations",
+        "C": "Confessions to police",
+        "D": "Circumstantial evidence"
+      },
+      "answer": "D",
+      "explanation": "The five 'golden principles' require that the circumstances form a complete chain pointing only to the guilt of the accused."
+    },
+    {
+      "id": 51,
+      "subject": "Law of Evidence",
+      "difficulty": "Medium",
+      "question": "Under Section 154 of the Evidence Act, the court may permit a party to cross-examine his own witness who is:",
+      "options": {
+        "A": "A relative of the accused",
+        "B": "Declared hostile",
+        "C": "Giving formal evidence only",
+        "D": "A police officer on duty"
+      },
+      "answer": "B",
+      "explanation": "The court's permission is required."
+    },
+    {
+      "id": 52,
+      "subject": "Law of Evidence",
+      "difficulty": "Medium",
+      "question": "Under Section 165 of the Evidence Act, a Judge may put questions to a witness:",
+      "options": {
+        "A": "Only in criminal trials",
+        "B": "Only with the advocates' permission",
+        "C": "At any time, to discover relevant facts",
+        "D": "Only after the arguments are heard"
+      },
+      "answer": "C",
+      "explanation": "The Judge cannot, however, compel a witness to answer questions that he may lawfully refuse."
+    },
+    {
+      "id": 53,
+      "subject": "Law of Evidence",
+      "difficulty": "Medium",
+      "question": "A test identification parade is held to:",
+      "options": {
+        "A": "Prove the guilt of the accused",
+        "B": "Test a witness's ability to identify the accused",
+        "C": "Record a confession by the accused",
+        "D": "Obtain a medical report on the accused"
+      },
+      "answer": "B",
+      "explanation": "It is a measure of investigation and is not substantive evidence by itself."
+    },
+    {
+      "id": 54,
+      "subject": "International Law",
+      "difficulty": "Easy",
+      "question": "The UN Charter establishes how many principal organs?",
+      "options": {
+        "A": "Six",
+        "B": "Four",
+        "C": "Seven",
+        "D": "Five"
+      },
+      "answer": "A",
+      "explanation": "They are the General Assembly, Security Council, ECOSOC, Trusteeship Council, ICJ and the Secretariat."
+    },
+    {
+      "id": 55,
+      "subject": "International Law",
+      "difficulty": "Medium",
+      "question": "Article 2(4) of the UN Charter prohibits:",
+      "options": {
+        "A": "The threat or use of force against another State",
+        "B": "Membership of more than one organisation",
+        "C": "Recognition of newly formed States by others",
+        "D": "Trade between States that are in a dispute"
+      },
+      "answer": "A",
+      "explanation": "The prohibition is subject to self-defence and Security Council authorisation."
+    },
+    {
+      "id": 56,
+      "subject": "International Law",
+      "difficulty": "Medium",
+      "question": "Enforcement action in response to threats to the peace is provided in which Chapter of the UN Charter?",
+      "options": {
+        "A": "Chapter XIV",
+        "B": "Chapter VII",
+        "C": "Chapter VI",
+        "D": "Chapter I"
+      },
+      "answer": "B",
+      "explanation": "Chapter VII authorises the Security Council to take measures including sanctions and force."
+    },
+    {
+      "id": 57,
+      "subject": "International Law",
+      "difficulty": "Medium",
+      "question": "The Rome Statute of the International Criminal Court entered into force in:",
+      "options": {
+        "A": "1998",
+        "B": "1945",
+        "C": "2010",
+        "D": "2002"
+      },
+      "answer": "D",
+      "explanation": "The Statute was adopted in 1998; India is not a party."
+    },
+    {
+      "id": 58,
+      "subject": "International Law",
+      "difficulty": "Medium",
+      "question": "The Paris Agreement, 2015 aims to limit the global temperature rise to well below:",
+      "options": {
+        "A": "3°C above pre-industrial levels",
+        "B": "2°C above pre-industrial levels",
+        "C": "5°C above pre-industrial levels",
+        "D": "4°C above pre-industrial levels"
+      },
+      "answer": "B",
+      "explanation": "It also pursues efforts to limit the increase to 1.5°C."
+    },
+    {
+      "id": 59,
+      "subject": "International Law",
+      "difficulty": "Medium",
+      "question": "The right of peoples to self-determination is affirmed in Article 1(2) of the:",
+      "options": {
+        "A": "Treaty of Versailles",
+        "B": "Geneva Convention, 1949",
+        "C": "Statute of the ICJ",
+        "D": "UN Charter"
+      },
+      "answer": "D",
+      "explanation": "It is also in Article 1 of the ICCPR and ICESCR."
+    },
+    {
+      "id": 60,
+      "subject": "Property Law",
+      "difficulty": "Medium",
+      "question": "Under Section 23 of the Registration Act, 1908, a document must ordinarily be presented for registration within:",
+      "options": {
+        "A": "Six months of execution",
+        "B": "Two months of execution",
+        "C": "Four months of execution",
+        "D": "One month of execution"
+      },
+      "answer": "C",
+      "explanation": "A further period of four months is allowed on payment of a fine."
+    },
+    {
+      "id": 61,
+      "subject": "Property Law",
+      "difficulty": "Medium",
+      "question": "Under Section 15 of the Indian Easements Act, an easement is acquired by prescription after uninterrupted enjoyment for:",
+      "options": {
+        "A": "Twelve years",
+        "B": "Five years",
+        "C": "Thirty years",
+        "D": "Twenty years"
+      },
+      "answer": "D",
+      "explanation": "The enjoyment must be peaceable, open and as of right."
+    },
+    {
+      "id": 62,
+      "subject": "Property Law",
+      "difficulty": "Medium",
+      "question": "A 'trust' under the Indian Trusts Act, 1882 arises out of:",
+      "options": {
+        "A": "Confidence accepted by the owner of property",
+        "B": "A statute of the State alone",
+        "C": "A custom of the community alone",
+        "D": "A decree of the High Court alone"
+      },
+      "answer": "A",
+      "explanation": "A trust is an obligation annexed to ownership and accepted by the owner for the benefit of another."
+    },
+    {
+      "id": 63,
+      "subject": "Family Law",
+      "difficulty": "Easy",
+      "question": "In Muslim law, a gift of property made during the donor's lifetime is called:",
+      "options": {
+        "A": "Waqf",
+        "B": "Wasiyat",
+        "C": "Hiba",
+        "D": "Mehr"
+      },
+      "answer": "C",
+      "explanation": "Wasiyat is a bequest operating after death; waqf is a dedication to God."
+    },
+    {
+      "id": 64,
+      "subject": "Family Law",
+      "difficulty": "Medium",
+      "question": "Under the Mitakshara law, a son acquires a right in ancestral property:",
+      "options": {
+        "A": "On the father's death",
+        "B": "On attaining majority",
+        "C": "By birth",
+        "D": "On his own marriage"
+      },
+      "answer": "C",
+      "explanation": "Under the 2005 amendment, daughters also have the same right by birth."
+    },
+    {
+      "id": 65,
+      "subject": "Family Law",
+      "difficulty": "Medium",
+      "question": "Under Section 18 of the Hindu Adoptions and Maintenance Act, a Hindu wife is entitled to maintenance from her husband:",
+      "options": {
+        "A": "Only for five years after separation",
+        "B": "For life, unless she is disqualified",
+        "C": "Only on a court order every year",
+        "D": "Only if she has no children"
+      },
+      "answer": "B",
+      "explanation": "She loses the right if she ceases to be a Hindu, is unchaste or lives separately without justification."
+    },
+    {
+      "id": 66,
+      "subject": "Intellectual Property Law",
+      "difficulty": "Medium",
+      "question": "The TRIPS Agreement, administered by the WTO, came into effect in:",
+      "options": {
+        "A": "1967",
+        "B": "1995",
+        "C": "2001",
+        "D": "1948"
+      },
+      "answer": "B",
+      "explanation": "TRIPS sets minimum standards for IPR protection of WTO members."
+    },
+    {
+      "id": 67,
+      "subject": "Intellectual Property Law",
+      "difficulty": "Easy",
+      "question": "The Berne Convention, 1886 deals with the protection of:",
+      "options": {
+        "A": "Literary and artistic works",
+        "B": "Trade marks and service marks",
+        "C": "Patents and utility models",
+        "D": "Industrial designs and models"
+      },
+      "answer": "A",
+      "explanation": "The Convention is administered by WIPO."
+    },
+    {
+      "id": 68,
+      "subject": "Intellectual Property Law",
+      "difficulty": "Hard",
+      "question": "The Protection of Plant Varieties and Farmers' Rights Act, 2001 allows farmers to:",
+      "options": {
+        "A": "Save and sell farm-saved seed, except branded",
+        "B": "Sell only to the Government at a fixed price",
+        "C": "Import seeds without any quarantine control",
+        "D": "Patent any seed variety"
+      },
+      "answer": "A",
+      "explanation": "The Act protects breeders' and farmers' rights."
+    },
+    {
+      "id": 69,
+      "subject": "Intellectual Property Law",
+      "difficulty": "Hard",
+      "question": "Under Section 3(j) of the Patents Act, 1970, which of the following is not patentable?",
+      "options": {
+        "A": "New chemical processes of manufacture",
+        "B": "Micro-organisms and their processes",
+        "C": "Plants and animals, except micro-organisms",
+        "D": "New machines and mechanical devices"
+      },
+      "answer": "C",
+      "explanation": "Micro-organisms and non-biological and microbiological processes are not excluded."
+    },
+    {
+      "id": 70,
+      "subject": "Commercial Law",
+      "difficulty": "Medium",
+      "question": "The Foreign Exchange Management Act, 1999 replaced the:",
+      "options": {
+        "A": "Banking Regulation Act, 1949",
+        "B": "Foreign Exchange Regulation Act, 1973",
+        "C": "Reserve Bank of India Act, 1934",
+        "D": "Customs Act, 1962"
+      },
+      "answer": "B",
+      "explanation": "FEMA moved from a criminal regime to a civil one for most violations."
+    },
+    {
+      "id": 71,
+      "subject": "Maritime Law",
+      "difficulty": "Hard",
+      "question": "Under the Admiralty (Jurisdiction and Settlement of Maritime Claims) Act, 2017, admiralty jurisdiction is vested in:",
+      "options": {
+        "A": "Only the Supreme Court of India",
+        "B": "The Ministry of Shipping",
+        "C": "District courts of inland States",
+        "D": "The High Courts of coastal States"
+      },
+      "answer": "D",
+      "explanation": "The Act gives High Courts admiralty jurisdiction over maritime claims within their territorial limits."
+    },
+    {
+      "id": 72,
+      "subject": "Competition Law",
+      "difficulty": "Hard",
+      "question": "The CCI can penalise a cartel up to:",
+      "options": {
+        "A": "Ten lakh rupees only per violation",
+        "B": "Thrice profit or 10% of turnover, if higher",
+        "C": "Fifty per cent of the company's assets",
+        "D": "One year's salary of all its directors"
+      },
+      "answer": "B",
+      "explanation": "Penalty under Section 27 of the Competition Act is calculated for each year of the cartel's continuance."
+    },
+    {
+      "id": 73,
+      "subject": "Insolvency Law",
+      "difficulty": "Hard",
+      "question": "Under the IBC, 2016, the moratorium under Section 14 prohibits:",
+      "options": {
+        "A": "Filing of tax returns by the debtor",
+        "B": "Sale of the debtor's goods in ordinary course",
+        "C": "Payment of employees' salaries",
+        "D": "Suits and recovery actions against the debtor"
+      },
+      "answer": "D",
+      "explanation": "The moratorium protects the corporate debtor from claims during the insolvency resolution process."
+    },
+    {
+      "id": 74,
+      "subject": "Consumer Law",
+      "difficulty": "Medium",
+      "question": "Under the Consumer Protection Act, 2019, the CCPA can order:",
+      "options": {
+        "A": "Transfer of all consumer disputes to foreign courts",
+        "B": "Dissolution of any company",
+        "C": "Imprisonment of consumers who complain",
+        "D": "Recall of unsafe goods and refund of prices"
+      },
+      "answer": "D",
+      "explanation": "The Authority can also impose penalties for misleading advertisements."
+    },
+    {
+      "id": 75,
+      "subject": "Right to Information",
+      "difficulty": "Medium",
+      "question": "Under Section 19 of the RTI Act, the first appeal lies to:",
+      "options": {
+        "A": "The High Court of the concerned State",
+        "B": "A senior officer in the authority",
+        "C": "The Lokpal of India as first appeal",
+        "D": "The Supreme Court of India directly"
+      },
+      "answer": "B",
+      "explanation": "A second appeal lies to the Information Commission."
+    }
+  ]
+}

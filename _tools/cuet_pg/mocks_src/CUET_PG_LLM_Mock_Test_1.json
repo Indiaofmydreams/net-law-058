@@ -1,0 +1,1070 @@
+{
+  "exam": "CUET (PG) 2027 - LL.M. (Law) Mock Test",
+  "paper_code": "COQP09 (Law) - pattern based",
+  "total_questions": 75,
+  "duration_minutes": 90,
+  "total_marks": 300,
+  "marking_scheme": {
+    "correct": 4,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "answer_distribution": {
+    "A": 19,
+    "B": 19,
+    "C": 19,
+    "D": 18
+  },
+  "questions": [
+    {
+      "id": 1,
+      "subject": "Constitutional Law",
+      "difficulty": "Easy",
+      "question": "The 'basic structure' doctrine was first propounded by the Supreme Court in:",
+      "options": {
+        "A": "Maneka Gandhi v. Union of India (1978)",
+        "B": "I.C. Golaknath v. State of Punjab (1967)",
+        "C": "Kesavananda Bharati v. State of Kerala (1973)",
+        "D": "Minerva Mills Ltd. v. Union of India (1980)"
+      },
+      "answer": "C",
+      "explanation": "A 13-judge Bench in Kesavananda Bharati held that Parliament's amending power under Article 368 cannot alter the basic structure of the Constitution."
+    },
+    {
+      "id": 2,
+      "subject": "Constitutional Law",
+      "difficulty": "Easy",
+      "question": "The Right to Education was made a Fundamental Right under Article 21A by the:",
+      "options": {
+        "A": "42nd Constitutional Amendment Act, 1976",
+        "B": "44th Constitutional Amendment Act, 1978",
+        "C": "73rd Constitutional Amendment Act, 1992",
+        "D": "86th Constitutional Amendment Act, 2002"
+      },
+      "answer": "D",
+      "explanation": "The 86th Amendment inserted Article 21A, providing free and compulsory education to children aged six to fourteen years."
+    },
+    {
+      "id": 3,
+      "subject": "Constitutional Law",
+      "difficulty": "Easy",
+      "question": "Which writ is issued to inquire into the legality of a person's claim to a public office?",
+      "options": {
+        "A": "Habeas corpus",
+        "B": "Certiorari",
+        "C": "Mandamus",
+        "D": "Quo warranto"
+      },
+      "answer": "D",
+      "explanation": "Quo warranto ('by what authority') prevents illegal usurpation of a public office."
+    },
+    {
+      "id": 4,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "Which Article of the Constitution did Dr. B.R. Ambedkar describe as the 'heart and soul' of the Constitution?",
+      "options": {
+        "A": "Article 226",
+        "B": "Article 32",
+        "C": "Article 14",
+        "D": "Article 368"
+      },
+      "answer": "B",
+      "explanation": "Article 32 guarantees the right to move the Supreme Court for enforcement of Fundamental Rights and is itself a Fundamental Right."
+    },
+    {
+      "id": 5,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "After the 44th Amendment, a Proclamation of National Emergency under Article 352 must be approved by both Houses of Parliament within:",
+      "options": {
+        "A": "Six months",
+        "B": "One month",
+        "C": "Fifteen days",
+        "D": "Two months"
+      },
+      "answer": "B",
+      "explanation": "Post the 44th Amendment, approval is required within one month by a special majority of each House."
+    },
+    {
+      "id": 6,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "The Supreme Court held that the 'procedure established by law' under Article 21 must be just, fair and reasonable in:",
+      "options": {
+        "A": "Maneka Gandhi v. Union of India",
+        "B": "A.K. Gopalan v. State of Madras",
+        "C": "Kharak Singh v. State of U.P.",
+        "D": "A.D.M. Jabalpur v. Shivkant Shukla"
+      },
+      "answer": "A",
+      "explanation": "Maneka Gandhi linked Articles 14, 19 and 21 and rejected the narrow Gopalan view of Article 21."
+    },
+    {
+      "id": 7,
+      "subject": "Constitutional Law",
+      "difficulty": "Easy",
+      "question": "In the Rajya Sabha, one-third of the members retire after every:",
+      "options": {
+        "A": "Fifth year",
+        "B": "Second year",
+        "C": "Third year",
+        "D": "First year"
+      },
+      "answer": "B",
+      "explanation": "Rajya Sabha is a permanent House; members have a six-year term and one-third retire every second year."
+    },
+    {
+      "id": 8,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "An amendment affecting the representation of States in Parliament requires, under Article 368, a special majority and:",
+      "options": {
+        "A": "Ratification by legislatures of at least one-half of the States",
+        "B": "Ratification by legislatures of at least two-thirds of the States",
+        "C": "Approval through a nationwide referendum by voters",
+        "D": "Prior consent of all the Governors of the States"
+      },
+      "answer": "A",
+      "explanation": "Article 368(2) proviso lists federal provisions that need ratification by at least half of the States."
+    },
+    {
+      "id": 9,
+      "subject": "Constitutional Law",
+      "difficulty": "Easy",
+      "question": "The Directive Principle directing the State to secure a Uniform Civil Code for citizens is contained in:",
+      "options": {
+        "A": "Article 40",
+        "B": "Article 44",
+        "C": "Article 51",
+        "D": "Article 48"
+      },
+      "answer": "B",
+      "explanation": "Article 44 (Part IV) says the State shall endeavour to secure a Uniform Civil Code throughout India."
+    },
+    {
+      "id": 10,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "Fundamental Duties (Article 51A) were added to the Constitution on the recommendation of the:",
+      "options": {
+        "A": "Sarkaria Commission",
+        "B": "Swaran Singh Committee",
+        "C": "Balwant Rai Mehta Committee",
+        "D": "Venkatachaliah Commission"
+      },
+      "answer": "B",
+      "explanation": "The 42nd Amendment (1976) inserted Part IVA based on the Swaran Singh Committee's recommendation."
+    },
+    {
+      "id": 11,
+      "subject": "Constitutional Law",
+      "difficulty": "Hard",
+      "question": "Under Article 14, a classification is permissible only if it is based on an intelligible differentia and:",
+      "options": {
+        "A": "Bears a rational nexus to the object of the law",
+        "B": "Is expressly enumerated in the Constitution's Preamble",
+        "C": "Applies uniformly to every person within the State",
+        "D": "Receives approval by two-thirds of the legislature"
+      },
+      "answer": "A",
+      "explanation": "The 'twin test' of reasonable classification: intelligible differentia + rational nexus to the object of the law."
+    },
+    {
+      "id": 12,
+      "subject": "Constitutional Law",
+      "difficulty": "Hard",
+      "question": "The Right to Privacy was declared a Fundamental Right under Article 21 by a nine-judge Bench in:",
+      "options": {
+        "A": "People's Union for Civil Liberties v. Union of India (1997)",
+        "B": "Govind v. State of Madhya Pradesh (1975)",
+        "C": "R. Rajagopal v. State of Tamil Nadu (1994)",
+        "D": "Justice K.S. Puttaswamy (Retd.) v. Union of India (2017)"
+      },
+      "answer": "D",
+      "explanation": "Puttaswamy overruled M.P. Sharma and Kharak Singh to the extent they denied privacy as a fundamental right."
+    },
+    {
+      "id": 13,
+      "subject": "Jurisprudence",
+      "difficulty": "Easy",
+      "question": "The 'Pure Theory of Law' is associated with:",
+      "options": {
+        "A": "Friedrich Carl von Savigny",
+        "B": "John Austin",
+        "C": "Hans Kelsen",
+        "D": "Roscoe Pound"
+      },
+      "answer": "C",
+      "explanation": "Kelsen sought a science of law free from politics, sociology and morality, built around the Grundnorm."
+    },
+    {
+      "id": 14,
+      "subject": "Jurisprudence",
+      "difficulty": "Easy",
+      "question": "The theory that law is the command of the sovereign backed by sanction was propounded by:",
+      "options": {
+        "A": "H.L.A. Hart",
+        "B": "Henry Maine",
+        "C": "Ronald Dworkin",
+        "D": "John Austin"
+      },
+      "answer": "D",
+      "explanation": "Austin's analytical positivism defined law as a command issued by a sovereign to subjects, enforced by sanction."
+    },
+    {
+      "id": 15,
+      "subject": "Jurisprudence",
+      "difficulty": "Medium",
+      "question": "The Historical School of jurisprudence is chiefly associated with:",
+      "options": {
+        "A": "Jeremy Bentham",
+        "B": "Rudolf von Jhering",
+        "C": "F.C. von Savigny",
+        "D": "Sir Henry Maine"
+      },
+      "answer": "C",
+      "explanation": "Savigny argued law grows out of the 'Volksgeist' (spirit of the people) and is not made arbitrarily."
+    },
+    {
+      "id": 16,
+      "subject": "Jurisprudence",
+      "difficulty": "Medium",
+      "question": "In Hohfeld's scheme of jural relations, the correlative of a 'right' (claim) is:",
+      "options": {
+        "A": "Liberty",
+        "B": "Duty",
+        "C": "Immunity",
+        "D": "Power"
+      },
+      "answer": "B",
+      "explanation": "Hohfeld paired right–duty, privilege–no right, power–liability, and immunity–disability."
+    },
+    {
+      "id": 17,
+      "subject": "Jurisprudence",
+      "difficulty": "Medium",
+      "question": "The idea of 'law as social engineering' is associated with:",
+      "options": {
+        "A": "Karl Llewellyn",
+        "B": "Oliver Wendell Holmes",
+        "C": "Hans Kelsen",
+        "D": "Roscoe Pound"
+      },
+      "answer": "D",
+      "explanation": "Pound viewed law as a means of balancing competing social interests."
+    },
+    {
+      "id": 18,
+      "subject": "Jurisprudence",
+      "difficulty": "Hard",
+      "question": "The 'rule of recognition' as a secondary rule of law was developed by:",
+      "options": {
+        "A": "Ronald Dworkin",
+        "B": "Lon L. Fuller",
+        "C": "H.L.A. Hart",
+        "D": "John Salmond"
+      },
+      "answer": "C",
+      "explanation": "In The Concept of Law, Hart distinguished primary rules of obligation from secondary rules: recognition, change and adjudication."
+    },
+    {
+      "id": 19,
+      "subject": "Jurisprudence",
+      "difficulty": "Medium",
+      "question": "The term 'ratio decidendi' refers to:",
+      "options": {
+        "A": "The principle underlying a judicial decision",
+        "B": "The facts stated in the headnote of a report",
+        "C": "The final order of a court on costs",
+        "D": "A passing remark made by a judge in a judgment"
+      },
+      "answer": "A",
+      "explanation": "Ratio decidendi is binding precedent; obiter dicta are incidental observations without binding force."
+    },
+    {
+      "id": 20,
+      "subject": "Law of Contract",
+      "difficulty": "Easy",
+      "question": "Under Section 2(h) of the Indian Contract Act, 1872, a contract is:",
+      "options": {
+        "A": "An agreement between two competent parties",
+        "B": "A proposal accepted in writing",
+        "C": "Any promise made for consideration",
+        "D": "An agreement enforceable by law"
+      },
+      "answer": "D",
+      "explanation": "Section 2(h) defines contract as an agreement enforceable by law."
+    },
+    {
+      "id": 21,
+      "subject": "Law of Contract",
+      "difficulty": "Medium",
+      "question": "Carlill v. Carbolic Smoke Ball Co. established that:",
+      "options": {
+        "A": "Acceptance must always be communicated in writing",
+        "B": "Advertisements are always mere invitations to treat",
+        "C": "Silence can always amount to valid acceptance by offeree",
+        "D": "A general offer is accepted by performing its terms"
+      },
+      "answer": "D",
+      "explanation": "A unilateral offer to the world at large is accepted by conduct; notice of acceptance is not required."
+    },
+    {
+      "id": 22,
+      "subject": "Law of Contract",
+      "difficulty": "Medium",
+      "question": "Under the Indian law, an agreement with a minor is:",
+      "options": {
+        "A": "Void ab initio",
+        "B": "Voidable at the minor's option",
+        "C": "Enforceable against the minor's guardian",
+        "D": "Valid but unenforceable"
+      },
+      "answer": "A",
+      "explanation": "Mohori Bibee v. Dharmodas Ghose (1903) held minor's agreements are absolutely void."
+    },
+    {
+      "id": 23,
+      "subject": "Law of Contract",
+      "difficulty": "Medium",
+      "question": "The doctrine of frustration of contract is codified in which section of the Indian Contract Act?",
+      "options": {
+        "A": "Section 73",
+        "B": "Section 62",
+        "C": "Section 56",
+        "D": "Section 53"
+      },
+      "answer": "C",
+      "explanation": "Section 56 makes an agreement to do an impossible act void, and covers supervening impossibility (Taylor v. Caldwell principle)."
+    },
+    {
+      "id": 24,
+      "subject": "Law of Contract",
+      "difficulty": "Hard",
+      "question": "The rule on remoteness of damages, reflected in Section 73 of the Contract Act, originated from:",
+      "options": {
+        "A": "Rylands v. Fletcher",
+        "B": "Donoghue v. Stevenson",
+        "C": "Salomon v. Salomon",
+        "D": "Hadley v. Baxendale"
+      },
+      "answer": "D",
+      "explanation": "Hadley v. Baxendale limits recovery to losses arising naturally or within the parties' contemplation."
+    },
+    {
+      "id": 25,
+      "subject": "Law of Contract",
+      "difficulty": "Medium",
+      "question": "An agreement in restraint of trade is declared void by:",
+      "options": {
+        "A": "Section 27 of the Indian Contract Act",
+        "B": "Section 26 of the Indian Contract Act",
+        "C": "Section 23 of the Indian Contract Act",
+        "D": "Section 28 of the Indian Contract Act"
+      },
+      "answer": "A",
+      "explanation": "Section 27 voids agreements restraining anyone from a lawful profession, trade or business, subject to the sale-of-goodwill exception."
+    },
+    {
+      "id": 26,
+      "subject": "Sale of Goods",
+      "difficulty": "Easy",
+      "question": "The maxim 'caveat emptor' means:",
+      "options": {
+        "A": "Let the buyer beware",
+        "B": "Let the court decide",
+        "C": "Let the seller beware",
+        "D": "Let the agent act"
+      },
+      "answer": "A",
+      "explanation": "The buyer must examine goods before purchase; exceptions are carved out in Section 16 of the Sale of Goods Act, 1930."
+    },
+    {
+      "id": 27,
+      "subject": "Law of Torts",
+      "difficulty": "Medium",
+      "question": "The rule of strict liability for escape of dangerous things from one's land was laid down in:",
+      "options": {
+        "A": "Donoghue v. Stevenson",
+        "B": "Bird v. Holbrook",
+        "C": "Rylands v. Fletcher",
+        "D": "Bolton v. Stone"
+      },
+      "answer": "C",
+      "explanation": "Rylands v. Fletcher (1868) imposed liability without proof of negligence for non-natural use of land."
+    },
+    {
+      "id": 28,
+      "subject": "Law of Torts",
+      "difficulty": "Medium",
+      "question": "The doctrine of 'absolute liability', without exceptions, was evolved in India in:",
+      "options": {
+        "A": "M.C. Mehta v. Union of India (Oleum Gas Leak)",
+        "B": "Vellore Citizens Forum v. Union of India",
+        "C": "Indian Council for Enviro-Legal Action v. Union of India",
+        "D": "Bhopal Gas Leak Disaster v. Union of India"
+      },
+      "answer": "A",
+      "explanation": "The Court held that enterprises engaged in hazardous activity bear absolute liability for harm caused."
+    },
+    {
+      "id": 29,
+      "subject": "Law of Torts",
+      "difficulty": "Easy",
+      "question": "The 'neighbour principle' and modern law of negligence originate from:",
+      "options": {
+        "A": "Hedley Byrne v. Heller",
+        "B": "Wagon Mound",
+        "C": "Donoghue v. Stevenson",
+        "D": "Ashby v. White"
+      },
+      "answer": "C",
+      "explanation": "Lord Atkin's neighbour principle established the duty of care in negligence."
+    },
+    {
+      "id": 30,
+      "subject": "Law of Torts",
+      "difficulty": "Easy",
+      "question": "The defence expressed as 'volenti non fit injuria' means:",
+      "options": {
+        "A": "The thing speaks for itself, shifting the burden",
+        "B": "Consent to the risk bars any claim for harm",
+        "C": "No man should be a judge in his own cause",
+        "D": "Where there is a right there is a remedy"
+      },
+      "answer": "B",
+      "explanation": "Voluntary assumption of risk with full knowledge bars the claim."
+    },
+    {
+      "id": 31,
+      "subject": "Law of Torts",
+      "difficulty": "Easy",
+      "question": "Defamation in a permanent form, such as writing or printing, is called:",
+      "options": {
+        "A": "Libel",
+        "B": "Trespass",
+        "C": "Nuisance",
+        "D": "Slander"
+      },
+      "answer": "A",
+      "explanation": "Libel is defamation in permanent form; slander is in transient form such as spoken words."
+    },
+    {
+      "id": 32,
+      "subject": "Criminal Law",
+      "difficulty": "Easy",
+      "question": "The Bharatiya Nyaya Sanhita, 2023 came into force on 1 July 2024 and replaced the:",
+      "options": {
+        "A": "Arms Act, 1959",
+        "B": "Indian Evidence Act, 1872",
+        "C": "Code of Criminal Procedure, 1973",
+        "D": "Indian Penal Code, 1860"
+      },
+      "answer": "D",
+      "explanation": "BNS, BNSS and BSA replaced IPC, CrPC and the Indian Evidence Act respectively."
+    },
+    {
+      "id": 33,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "Punishment for murder under the Bharatiya Nyaya Sanhita, 2023 is provided in Section:",
+      "options": {
+        "A": "105",
+        "B": "109",
+        "C": "101",
+        "D": "103"
+      },
+      "answer": "D",
+      "explanation": "Section 101 defines murder, Section 103 prescribes punishment (earlier IPC Section 302); Section 105 deals with culpable homicide not amounting to murder."
+    },
+    {
+      "id": 34,
+      "subject": "Criminal Law",
+      "difficulty": "Easy",
+      "question": "The maxim 'actus non facit reum nisi mens sit rea' signifies that:",
+      "options": {
+        "A": "The accused is presumed innocent until proved guilty",
+        "B": "An act alone is no crime without a guilty mind",
+        "C": "Every legal wrong must have a legal remedy",
+        "D": "Ignorance of law is never an excuse in court"
+      },
+      "answer": "B",
+      "explanation": "It captures the requirement of both actus reus and mens rea for criminal liability."
+    },
+    {
+      "id": 35,
+      "subject": "Criminal Law",
+      "difficulty": "Hard",
+      "question": "The offence of sedition under the IPC has been replaced in the BNS by a provision on:",
+      "options": {
+        "A": "Acts endangering the sovereignty, unity and integrity of India",
+        "B": "Waging war against any Asiatic power at peace with India",
+        "C": "Promoting enmity between different religious or racial groups",
+        "D": "Unlawful assembly armed with deadly weapons and ammunition"
+      },
+      "answer": "A",
+      "explanation": "Section 152 BNS penalises acts endangering the sovereignty, unity and integrity of India and omits the word 'sedition'."
+    },
+    {
+      "id": 36,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "Under the BNS, nothing is an offence if done by a child under the age of:",
+      "options": {
+        "A": "Fourteen years",
+        "B": "Seven years",
+        "C": "Twelve years",
+        "D": "Ten years"
+      },
+      "answer": "B",
+      "explanation": "Absolute immunity applies to a child below seven; between seven and twelve, immunity depends on maturity of understanding."
+    },
+    {
+      "id": 37,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "An essential ingredient of the offence of theft is that the property must be:",
+      "options": {
+        "A": "Movable",
+        "B": "Registered",
+        "C": "Of high value",
+        "D": "Immovable"
+      },
+      "answer": "A",
+      "explanation": "Theft requires dishonest taking of movable property out of another's possession without consent."
+    },
+    {
+      "id": 38,
+      "subject": "Criminal Law",
+      "difficulty": "Hard",
+      "question": "Which of the following is a new offence in the BNS with no direct counterpart in the IPC?",
+      "options": {
+        "A": "Cheating",
+        "B": "Organised crime",
+        "C": "Extortion",
+        "D": "Criminal conspiracy"
+      },
+      "answer": "B",
+      "explanation": "Section 111 BNS defines and punishes organised crime, which the IPC did not address."
+    },
+    {
+      "id": 39,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "Which of the following is a newly introduced form of punishment under the BNS?",
+      "options": {
+        "A": "Penal servitude",
+        "B": "Transportation",
+        "C": "Whipping",
+        "D": "Community service"
+      },
+      "answer": "D",
+      "explanation": "Community service has been introduced for certain petty offences; transportation was replaced earlier by imprisonment for life."
+    },
+    {
+      "id": 40,
+      "subject": "Procedural Law",
+      "difficulty": "Easy",
+      "question": "The Bharatiya Nagarik Suraksha Sanhita, 2023 replaced the:",
+      "options": {
+        "A": "Indian Evidence Act, 1872",
+        "B": "Limitation Act, 1963",
+        "C": "Code of Criminal Procedure, 1973",
+        "D": "Code of Civil Procedure, 1908"
+      },
+      "answer": "C",
+      "explanation": "BNSS governs criminal procedure with effect from 1 July 2024."
+    },
+    {
+      "id": 41,
+      "subject": "Procedural Law",
+      "difficulty": "Easy",
+      "question": "Section 9 of the Code of Civil Procedure, 1908 provides that civil courts shall have jurisdiction to try:",
+      "options": {
+        "A": "All suits, including those of a purely criminal nature",
+        "B": "All civil suits unless expressly or impliedly barred",
+        "C": "Only suits concerning immovable property and its title",
+        "D": "Only suits above a prescribed pecuniary value"
+      },
+      "answer": "B",
+      "explanation": "Civil courts have inherent jurisdiction over civil suits, excluding those barred by statute."
+    },
+    {
+      "id": 42,
+      "subject": "Procedural Law",
+      "difficulty": "Medium",
+      "question": "The doctrine of res judicata is contained in which section of the CPC?",
+      "options": {
+        "A": "Section 12",
+        "B": "Section 10",
+        "C": "Section 11",
+        "D": "Section 13"
+      },
+      "answer": "C",
+      "explanation": "Section 11 bars a court from trying a matter already directly and substantially in issue and finally decided; Section 10 deals with res sub judice."
+    },
+    {
+      "id": 43,
+      "subject": "Procedural Law",
+      "difficulty": "Medium",
+      "question": "Under the Limitation Act, 1963, the limitation period for a suit for possession of immovable property based on title is:",
+      "options": {
+        "A": "Six years",
+        "B": "Thirty years",
+        "C": "Twelve years",
+        "D": "Three years"
+      },
+      "answer": "C",
+      "explanation": "Article 65 prescribes twelve years from the time possession becomes adverse to the plaintiff."
+    },
+    {
+      "id": 44,
+      "subject": "Procedural Law",
+      "difficulty": "Medium",
+      "question": "A 'Zero FIR' refers to an FIR that:",
+      "options": {
+        "A": "Is filed only against persons not yet identified",
+        "B": "Can be lodged at any police station, whatever its area",
+        "C": "Is closed once the investigation yields no result",
+        "D": "Is registered only after a magistrate's order"
+      },
+      "answer": "B",
+      "explanation": "The police station receiving the complaint registers it and then transfers it to the police station having jurisdiction."
+    },
+    {
+      "id": 45,
+      "subject": "Procedural Law",
+      "difficulty": "Hard",
+      "question": "Anticipatory bail is provided for in which section of the BNSS, 2023?",
+      "options": {
+        "A": "Section 483",
+        "B": "Section 478",
+        "C": "Section 482",
+        "D": "Section 480"
+      },
+      "answer": "C",
+      "explanation": "Section 482 BNSS corresponds to Section 438 CrPC."
+    },
+    {
+      "id": 46,
+      "subject": "Law of Evidence",
+      "difficulty": "Easy",
+      "question": "The Indian Evidence Act, 1872 has been replaced by the:",
+      "options": {
+        "A": "Bharatiya Sakshya Adhiniyam, 2023",
+        "B": "Bharatiya Nyaya Sanhita, 2023",
+        "C": "Information Technology Act, 2000",
+        "D": "Bharatiya Nagarik Suraksha Sanhita, 2023"
+      },
+      "answer": "A",
+      "explanation": "The Bharatiya Sakshya Adhiniyam also gives express recognition to electronic records as documents."
+    },
+    {
+      "id": 47,
+      "subject": "Law of Evidence",
+      "difficulty": "Medium",
+      "question": "Admissibility of a dying declaration rests on the maxim:",
+      "options": {
+        "A": "Actus curiae neminem gravabit",
+        "B": "Nemo moriturus praesumitur mentiri",
+        "C": "Qui facit per alium facit per se",
+        "D": "Ignorantia juris non excusat"
+      },
+      "answer": "B",
+      "explanation": "A person on the verge of death is presumed not to lie."
+    },
+    {
+      "id": 48,
+      "subject": "Law of Evidence",
+      "difficulty": "Medium",
+      "question": "A confession made by an accused to a police officer is:",
+      "options": {
+        "A": "Admissible with a magistrate's approval",
+        "B": "Admissible if made voluntarily",
+        "C": "Inadmissible against the accused",
+        "D": "Admissible only for sentencing"
+      },
+      "answer": "C",
+      "explanation": "Section 25 of the Evidence Act (Section 23 BSA) bars proof of confessions made to police officers."
+    },
+    {
+      "id": 49,
+      "subject": "Law of Evidence",
+      "difficulty": "Medium",
+      "question": "As a general rule, the burden of proof lies on the person who:",
+      "options": {
+        "A": "Denies the claim in the pleadings",
+        "B": "Asserts the affirmative of an issue",
+        "C": "Is economically stronger",
+        "D": "Is called first by the court"
+      },
+      "answer": "B",
+      "explanation": "He who asserts must prove; the burden shifts only as provided by law."
+    },
+    {
+      "id": 50,
+      "subject": "International Law",
+      "difficulty": "Easy",
+      "question": "The principal judicial organ of the United Nations, the International Court of Justice, has its seat at:",
+      "options": {
+        "A": "New York",
+        "B": "Geneva",
+        "C": "The Hague",
+        "D": "Brussels"
+      },
+      "answer": "C",
+      "explanation": "The ICJ sits in the Peace Palace at The Hague, Netherlands."
+    },
+    {
+      "id": 51,
+      "subject": "International Law",
+      "difficulty": "Medium",
+      "question": "The sources of international law are enumerated in which provision?",
+      "options": {
+        "A": "Article 2 of the UN Charter",
+        "B": "Article 53 of the Vienna Convention",
+        "C": "Article 38 of the ICJ Statute",
+        "D": "Article 51 of the UN Charter"
+      },
+      "answer": "C",
+      "explanation": "Article 38(1) lists treaties, custom, general principles, and judicial decisions and teachings as subsidiary means."
+    },
+    {
+      "id": 52,
+      "subject": "International Law",
+      "difficulty": "Easy",
+      "question": "The principle 'pacta sunt servanda' means:",
+      "options": {
+        "A": "Agreements must be kept",
+        "B": "States are sovereign equals",
+        "C": "Treaties must be ratified",
+        "D": "Custom overrides treaty"
+      },
+      "answer": "A",
+      "explanation": "It is the foundation of treaty law codified in Article 26 of the Vienna Convention on the Law of Treaties, 1969."
+    },
+    {
+      "id": 53,
+      "subject": "International Law",
+      "difficulty": "Hard",
+      "question": "Peremptory norms of general international law from which no derogation is permitted are known as:",
+      "options": {
+        "A": "Erga omnes",
+        "B": "Opinio juris",
+        "C": "Jus cogens",
+        "D": "Soft law"
+      },
+      "answer": "C",
+      "explanation": "Article 53 of the Vienna Convention on the Law of Treaties makes treaties conflicting with jus cogens void."
+    },
+    {
+      "id": 54,
+      "subject": "International Law",
+      "difficulty": "Medium",
+      "question": "Under UNCLOS, 1982, the breadth of the territorial sea of a coastal State can extend up to:",
+      "options": {
+        "A": "200 nautical miles",
+        "B": "24 nautical miles",
+        "C": "12 nautical miles",
+        "D": "3 nautical miles"
+      },
+      "answer": "C",
+      "explanation": "The territorial sea is up to 12 nm; the contiguous zone 24 nm; the EEZ 200 nm."
+    },
+    {
+      "id": 55,
+      "subject": "International Law",
+      "difficulty": "Medium",
+      "question": "A receiving State may at any time declare a diplomatic agent to be:",
+      "options": {
+        "A": "Amicus curiae",
+        "B": "Terra nullius",
+        "C": "Hostis humani generis",
+        "D": "Persona non grata"
+      },
+      "answer": "D",
+      "explanation": "Article 9 of the Vienna Convention on Diplomatic Relations, 1961 permits this without giving reasons."
+    },
+    {
+      "id": 56,
+      "subject": "Family Law",
+      "difficulty": "Medium",
+      "question": "Under Section 13B of the Hindu Marriage Act, 1955, the statutory interval between the first and second motions for divorce by mutual consent is:",
+      "options": {
+        "A": "One year",
+        "B": "Two years",
+        "C": "Six months",
+        "D": "Three months"
+      },
+      "answer": "C",
+      "explanation": "The period is six months, which the Supreme Court has held to be directory and waivable in appropriate cases."
+    },
+    {
+      "id": 57,
+      "subject": "Family Law",
+      "difficulty": "Easy",
+      "question": "In Muslim law, 'Mehr' means:",
+      "options": {
+        "A": "Property the wife inherits from her parents",
+        "B": "Maintenance payable to the wife after divorce",
+        "C": "A gift made by a father to his daughter at marriage",
+        "D": "A sum the husband must pay the wife on marriage"
+      },
+      "answer": "D",
+      "explanation": "Mehr (dower) is an obligation imposed on the husband as a mark of respect to the wife."
+    },
+    {
+      "id": 58,
+      "subject": "Family Law",
+      "difficulty": "Medium",
+      "question": "Talaq-e-biddat (instant triple talaq) was declared unconstitutional in:",
+      "options": {
+        "A": "Shayara Bano v. Union of India (2017)",
+        "B": "Shamim Ara v. State of U.P. (2002)",
+        "C": "Shah Bano Begum v. Mohd. Ahmed Khan (1985)",
+        "D": "Danial Latifi v. Union of India (2001)"
+      },
+      "answer": "A",
+      "explanation": "A majority of the Constitution Bench held the practice to be manifestly arbitrary and violative of Article 14."
+    },
+    {
+      "id": 59,
+      "subject": "Property Law",
+      "difficulty": "Medium",
+      "question": "Under Section 54 of the Transfer of Property Act, 1882, sale of tangible immovable property of value ₹100 and above can be made only by:",
+      "options": {
+        "A": "A registered instrument",
+        "B": "An unregistered written deed",
+        "C": "An oral agreement",
+        "D": "Mere delivery of possession"
+      },
+      "answer": "A",
+      "explanation": "Sale of immovable property of ₹100 or more requires a registered instrument."
+    },
+    {
+      "id": 60,
+      "subject": "Property Law",
+      "difficulty": "Medium",
+      "question": "An 'easement' under the Indian Easements Act, 1882 is a right which the owner of land has:",
+      "options": {
+        "A": "To lease another's land to third parties",
+        "B": "Over another's land for enjoying his own land",
+        "C": "To collect rent from another person's land",
+        "D": "To possess another's land permanently"
+      },
+      "answer": "B",
+      "explanation": "Easements such as right of way and light and air are rights over land belonging to another, attached to dominant heritage."
+    },
+    {
+      "id": 61,
+      "subject": "Family Law",
+      "difficulty": "Hard",
+      "question": "In Vineeta Sharma v. Rakesh Sharma (2020), the Supreme Court held that daughters:",
+      "options": {
+        "A": "Have no coparcenary rights in joint family property",
+        "B": "Are coparceners by birth, even if the father died before 2005",
+        "C": "Hold rights only in the father's self-acquired property",
+        "D": "Become coparceners only if the father was alive in 2005"
+      },
+      "answer": "B",
+      "explanation": "The right is by birth and the 2005 amendment has retroactive effect, so the father's survival is irrelevant."
+    },
+    {
+      "id": 62,
+      "subject": "Intellectual Property Law",
+      "difficulty": "Easy",
+      "question": "Under the Patents Act, 1970, the term of a patent is:",
+      "options": {
+        "A": "14 years from the date of grant",
+        "B": "25 years from date of publication",
+        "C": "10 years from date of filing",
+        "D": "20 years from date of filing"
+      },
+      "answer": "D",
+      "explanation": "Section 53 provides a term of twenty years from the date of filing of the application."
+    },
+    {
+      "id": 63,
+      "subject": "Intellectual Property Law",
+      "difficulty": "Medium",
+      "question": "Under the Copyright Act, 1957, the term of copyright in a published literary work is:",
+      "options": {
+        "A": "The lifetime of the author plus 60 years",
+        "B": "The lifetime of the author plus 50 years",
+        "C": "60 years from first publication",
+        "D": "25 years from the date of creation"
+      },
+      "answer": "A",
+      "explanation": "Section 22 gives the author's lifetime plus sixty years, counted from the beginning of the year following death."
+    },
+    {
+      "id": 64,
+      "subject": "Intellectual Property Law",
+      "difficulty": "Medium",
+      "question": "A registered trade mark in India is valid initially for:",
+      "options": {
+        "A": "5 years, renewable",
+        "B": "7 years, non-renewable",
+        "C": "15 years, renewable",
+        "D": "10 years, renewable"
+      },
+      "answer": "D",
+      "explanation": "Under the Trade Marks Act, 1999, registration lasts ten years and can be renewed indefinitely."
+    },
+    {
+      "id": 65,
+      "subject": "Environmental Law",
+      "difficulty": "Medium",
+      "question": "The National Green Tribunal was established under the:",
+      "options": {
+        "A": "Forest (Conservation) Act, 1980",
+        "B": "National Green Tribunal Act, 2010",
+        "C": "Water (Prevention and Control of Pollution) Act, 1974",
+        "D": "Environment (Protection) Act, 1986"
+      },
+      "answer": "B",
+      "explanation": "The NGT handles disputes on environmental matters under the Act's seven scheduled statutes."
+    },
+    {
+      "id": 66,
+      "subject": "Environmental Law",
+      "difficulty": "Hard",
+      "question": "The 'polluter pays' principle was applied in India in:",
+      "options": {
+        "A": "Subhash Kumar v. State of Bihar",
+        "B": "Rural Litigation and Entitlement Kendra v. State of U.P.",
+        "C": "T.N. Godavarman v. Union of India",
+        "D": "Indian Council for Enviro-Legal Action v. Union of India"
+      },
+      "answer": "D",
+      "explanation": "In the Bichhri (Rajasthan) case, the Court held polluters liable to bear the cost of remedial measures."
+    },
+    {
+      "id": 67,
+      "subject": "Company Law",
+      "difficulty": "Medium",
+      "question": "Separate legal personality of a company was established by:",
+      "options": {
+        "A": "Salomon v. Salomon & Co. Ltd.",
+        "B": "Foss v. Harbottle",
+        "C": "Carlill v. Carbolic Smoke Ball Co.",
+        "D": "Donoghue v. Stevenson"
+      },
+      "answer": "A",
+      "explanation": "The House of Lords held the company a distinct person from its shareholders (1897)."
+    },
+    {
+      "id": 68,
+      "subject": "Company Law",
+      "difficulty": "Medium",
+      "question": "The minimum number of members required to form a public company under the Companies Act, 2013 is:",
+      "options": {
+        "A": "Two",
+        "B": "Ten",
+        "C": "Seven",
+        "D": "Five"
+      },
+      "answer": "C",
+      "explanation": "A private company needs at least two members; a public company needs at least seven."
+    },
+    {
+      "id": 69,
+      "subject": "Administrative Law",
+      "difficulty": "Easy",
+      "question": "The maxim 'audi alteram partem' requires that:",
+      "options": {
+        "A": "Appeals must be allowed in every case",
+        "B": "No one should be condemned unheard",
+        "C": "No one should be a judge in his own cause",
+        "D": "Decisions must be in writing"
+      },
+      "answer": "B",
+      "explanation": "It is the rule of fair hearing, a pillar of natural justice."
+    },
+    {
+      "id": 70,
+      "subject": "Administrative Law",
+      "difficulty": "Easy",
+      "question": "The rule against bias is expressed in the maxim:",
+      "options": {
+        "A": "Ubi jus ibi remedium",
+        "B": "Delegatus non potest delegare",
+        "C": "Audi alteram partem",
+        "D": "Nemo judex in causa sua"
+      },
+      "answer": "D",
+      "explanation": "No person shall be a judge in his own cause."
+    },
+    {
+      "id": 71,
+      "subject": "Information Technology Law",
+      "difficulty": "Medium",
+      "question": "Section 66A of the Information Technology Act, 2000 was struck down in:",
+      "options": {
+        "A": "Shreya Singhal v. Union of India (2015)",
+        "B": "Anuradha Bhasin v. Union of India (2020)",
+        "C": "Puttaswamy v. Union of India (2017)",
+        "D": "People's Union for Civil Liberties v. Union of India (1997)"
+      },
+      "answer": "A",
+      "explanation": "The Court held Section 66A violated Article 19(1)(a) and was not saved by Article 19(2)."
+    },
+    {
+      "id": 72,
+      "subject": "Labour Law",
+      "difficulty": "Hard",
+      "question": "The 'triple test' for determining whether an establishment is an 'industry' was laid down in:",
+      "options": {
+        "A": "State of Bombay v. Hospital Mazdoor Sabha",
+        "B": "Bangalore Water Supply Board v. A. Rajappa",
+        "C": "Management of Safdarjung Hospital v. Kuldip Singh",
+        "D": "Hussainbhai v. Alath Factory Employees Union"
+      },
+      "answer": "B",
+      "explanation": "The test looks at systematic activity, cooperation between employer and employee, and production or distribution of goods and services."
+    },
+    {
+      "id": 73,
+      "subject": "Women and Law",
+      "difficulty": "Medium",
+      "question": "The Sexual Harassment of Women at Workplace Act, 2013 was preceded by guidelines laid down in:",
+      "options": {
+        "A": "Medha Kotwal Lele v. Union of India",
+        "B": "Apparel Export Promotion Council v. A.K. Chopra",
+        "C": "Vishaka v. State of Rajasthan",
+        "D": "Bodhisattwa Gautam v. Subhra Chakraborty"
+      },
+      "answer": "C",
+      "explanation": "Vishaka (1997) laid down binding guidelines using international conventions such as CEDAW."
+    },
+    {
+      "id": 74,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "The principle that no person shall be prosecuted and punished for the same offence more than once is protected by:",
+      "options": {
+        "A": "Article 20(2)",
+        "B": "Article 22(1)",
+        "C": "Article 20(1)",
+        "D": "Article 20(3)"
+      },
+      "answer": "A",
+      "explanation": "Article 20(2) embodies the rule against double jeopardy; Article 20(1) bars ex post facto penal laws; Article 20(3) protects against self-incrimination."
+    },
+    {
+      "id": 75,
+      "subject": "Consumer Law",
+      "difficulty": "Medium",
+      "question": "The Central Consumer Protection Authority (CCPA) and provisions on product liability were introduced by the:",
+      "options": {
+        "A": "Consumer Protection Act, 1986",
+        "B": "Competition Act, 2002",
+        "C": "Sale of Goods Act, 1930",
+        "D": "Consumer Protection Act, 2019"
+      },
+      "answer": "D",
+      "explanation": "The 2019 Act replaced the 1986 Act and created the CCPA to regulate unfair trade practices and misleading advertisements."
+    }
+  ]
+}

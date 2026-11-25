@@ -1,0 +1,1070 @@
+{
+  "exam": "CUET (PG) 2027 - LL.M. (Law) Mock Test 2",
+  "paper_code": "COQP09 (Law) - pattern based",
+  "total_questions": 75,
+  "duration_minutes": 90,
+  "total_marks": 300,
+  "marking_scheme": {
+    "correct": 4,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "answer_distribution": {
+    "A": 19,
+    "B": 19,
+    "C": 19,
+    "D": 18
+  },
+  "questions": [
+    {
+      "id": 1,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "In Indra Sawhney v. Union of India (1992), the Supreme Court upheld 27% OBC reservation and capped total reservations, as a general rule, at:",
+      "options": {
+        "A": "Sixty per cent",
+        "B": "Forty per cent",
+        "C": "Fifty per cent",
+        "D": "Thirty-three per cent"
+      },
+      "answer": "C",
+      "explanation": "The Mandal Commission case fixed the 50% ceiling, allowing breach only in extraordinary situations, and introduced the creamy layer exclusion."
+    },
+    {
+      "id": 2,
+      "subject": "Constitutional Law",
+      "difficulty": "Hard",
+      "question": "Federalism and secularism were held to be basic features, and limits on the misuse of Article 356 were laid down, in:",
+      "options": {
+        "A": "S.R. Bommai v. Union of India (1994)",
+        "B": "Kihoto Hollohan v. Zachillhu (1992)",
+        "C": "Shamsher Singh v. State of Punjab (1974)",
+        "D": "Indira Gandhi v. Raj Narain (1975)"
+      },
+      "answer": "A",
+      "explanation": "Bommai made a Presidential Proclamation under Article 356 subject to judicial review."
+    },
+    {
+      "id": 3,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "Besides enforcement of Fundamental Rights, High Courts may issue writs under Article 226 for:",
+      "options": {
+        "A": "Any other purpose",
+        "B": "Central statutes only",
+        "C": "Service matters only",
+        "D": "Disputes between States"
+      },
+      "answer": "A",
+      "explanation": "Article 226 is wider than Article 32 because High Courts can issue writs 'for any other purpose', i.e. to enforce legal rights."
+    },
+    {
+      "id": 4,
+      "subject": "Constitutional Law",
+      "difficulty": "Hard",
+      "question": "The Ninety-ninth Constitutional Amendment and the NJAC Act were struck down in:",
+      "options": {
+        "A": "Kesavananda Bharati v. State of Kerala (1973)",
+        "B": "Supreme Court Advocates-on-Record Association v. Union of India (2015)",
+        "C": "Supreme Court Advocates-on-Record Association v. Union of India (1993)",
+        "D": "Union of India v. Sankalchand Himatlal Sheth (1977)"
+      },
+      "answer": "B",
+      "explanation": "The Fourth Judges Case held that the NJAC violated judicial independence, a basic feature, and restored the collegium."
+    },
+    {
+      "id": 5,
+      "subject": "Constitutional Law",
+      "difficulty": "Easy",
+      "question": "A 'Money Bill' is defined in which Article of the Constitution?",
+      "options": {
+        "A": "Article 110",
+        "B": "Article 112",
+        "C": "Article 109",
+        "D": "Article 111"
+      },
+      "answer": "A",
+      "explanation": "Article 110 defines Money Bill; Article 109 prescribes the special procedure in Rajya Sabha."
+    },
+    {
+      "id": 6,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "An ordinance promulgated under Article 123 ceases to operate at the expiry of how long after Parliament reassembles?",
+      "options": {
+        "A": "Six weeks",
+        "B": "Six months",
+        "C": "Three months",
+        "D": "One year"
+      },
+      "answer": "A",
+      "explanation": "It also lapses earlier if both Houses disapprove it by resolution."
+    },
+    {
+      "id": 7,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "The right to speedy trial was read into Article 21 in:",
+      "options": {
+        "A": "Sunil Batra v. Delhi Administration",
+        "B": "Hussainara Khatoon v. State of Bihar",
+        "C": "Olga Tellis v. Bombay Municipal Corporation",
+        "D": "Francis Coralie Mullin v. Administrator, Delhi"
+      },
+      "answer": "B",
+      "explanation": "The case on undertrial prisoners in Bihar held that a speedy trial is an essential part of the fair procedure required by Article 21."
+    },
+    {
+      "id": 8,
+      "subject": "Constitutional Law",
+      "difficulty": "Hard",
+      "question": "The 'essential religious practices' test under Article 25 originated in:",
+      "options": {
+        "A": "The Shirur Mutt case (1954)",
+        "B": "The S.R. Bommai case (1994)",
+        "C": "The Bijoe Emmanuel case (1986)",
+        "D": "The Ramesh Prabhoo case (1996)"
+      },
+      "answer": "A",
+      "explanation": "The Shirur Mutt case (1954) held that the Constitution protects practices integral to a religion."
+    },
+    {
+      "id": 9,
+      "subject": "Constitutional Law",
+      "difficulty": "Easy",
+      "question": "The 73rd Constitutional Amendment inserted a new Part IX in the Constitution dealing with:",
+      "options": {
+        "A": "Municipalities",
+        "B": "Co-operative societies",
+        "C": "Panchayats",
+        "D": "Administrative tribunals"
+      },
+      "answer": "C",
+      "explanation": "Part IX (Articles 243–243O) provides for Panchayati Raj; municipalities are in Part IXA through the 74th Amendment."
+    },
+    {
+      "id": 10,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "Adjudication of disputes relating to waters of inter-State rivers is provided for in:",
+      "options": {
+        "A": "Article 263",
+        "B": "Article 265",
+        "C": "Article 261",
+        "D": "Article 262"
+      },
+      "answer": "D",
+      "explanation": "Article 262 empowers Parliament to provide by law for adjudication of inter-State water disputes and to bar court jurisdiction over them."
+    },
+    {
+      "id": 11,
+      "subject": "Constitutional Law",
+      "difficulty": "Easy",
+      "question": "Disqualification of legislators on the ground of defection is governed by the:",
+      "options": {
+        "A": "Twelfth Schedule",
+        "B": "Eleventh Schedule",
+        "C": "Tenth Schedule",
+        "D": "Ninth Schedule"
+      },
+      "answer": "C",
+      "explanation": "The 52nd Amendment (1985) added the Tenth Schedule; Kihoto Hollohan upheld its validity."
+    },
+    {
+      "id": 12,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "The GST Council was constituted under which Article, inserted by the 101st Amendment?",
+      "options": {
+        "A": "Article 280",
+        "B": "Article 268A",
+        "C": "Article 279A",
+        "D": "Article 270"
+      },
+      "answer": "C",
+      "explanation": "Article 279A provides for the Goods and Services Tax Council."
+    },
+    {
+      "id": 13,
+      "subject": "Constitutional Law",
+      "difficulty": "Medium",
+      "question": "After the 44th Constitutional Amendment, the right to property is:",
+      "options": {
+        "A": "A fundamental right under Article 19",
+        "B": "A constitutional right under Article 300A",
+        "C": "A statutory right under the Transfer of Property Act",
+        "D": "A directive principle under Article 39"
+      },
+      "answer": "B",
+      "explanation": "Article 31 and Article 19(1)(f) were repealed; Article 300A states no person shall be deprived of property save by authority of law."
+    },
+    {
+      "id": 14,
+      "subject": "Jurisprudence",
+      "difficulty": "Medium",
+      "question": "'Law is the body of principles recognised and applied by the State in the administration of justice' is the definition given by:",
+      "options": {
+        "A": "Salmond",
+        "B": "Blackstone",
+        "C": "Gray",
+        "D": "Holland"
+      },
+      "answer": "A",
+      "explanation": "Salmond's definition is a conception of law based on its function in courts."
+    },
+    {
+      "id": 15,
+      "subject": "Jurisprudence",
+      "difficulty": "Easy",
+      "question": "The utilitarian principle of 'the greatest happiness of the greatest number' is chiefly associated with:",
+      "options": {
+        "A": "John Locke",
+        "B": "Jean-Jacques Rousseau",
+        "C": "Immanuel Kant",
+        "D": "Jeremy Bentham"
+      },
+      "answer": "D",
+      "explanation": "Bentham made utility the test of law and morality."
+    },
+    {
+      "id": 16,
+      "subject": "Jurisprudence",
+      "difficulty": "Hard",
+      "question": "The 'inner morality of law', consisting of eight desiderata, was propounded by:",
+      "options": {
+        "A": "Lon L. Fuller",
+        "B": "Herbert L.A. Hart",
+        "C": "John Austin",
+        "D": "Hans Kelsen"
+      },
+      "answer": "A",
+      "explanation": "In The Morality of Law, Fuller listed generality, publicity, non-retroactivity, clarity and similar requirements for a legal system."
+    },
+    {
+      "id": 17,
+      "subject": "Jurisprudence",
+      "difficulty": "Hard",
+      "question": "'Law as integrity' and the view of rights as 'trumps' are associated with:",
+      "options": {
+        "A": "Prof. H.L.A. Hart",
+        "B": "John Finnis",
+        "C": "Joseph Raz",
+        "D": "Ronald Dworkin"
+      },
+      "answer": "D",
+      "explanation": "Dworkin criticised legal positivism in Taking Rights Seriously and Law's Empire."
+    },
+    {
+      "id": 18,
+      "subject": "Jurisprudence",
+      "difficulty": "Medium",
+      "question": "The realist view that law is a prediction of what courts will do in fact is associated with:",
+      "options": {
+        "A": "Sir William Blackstone",
+        "B": "Oliver Wendell Holmes",
+        "C": "Hans Kelsen",
+        "D": "Albert Venn Dicey"
+      },
+      "answer": "B",
+      "explanation": "Holmes advanced this view in 'The Path of the Law' (1897)."
+    },
+    {
+      "id": 19,
+      "subject": "Jurisprudence",
+      "difficulty": "Easy",
+      "question": "A right available against the world at large is called:",
+      "options": {
+        "A": "A right in personam",
+        "B": "A right in rem",
+        "C": "A right ad rem",
+        "D": "A right in re aliena"
+      },
+      "answer": "B",
+      "explanation": "Rights in rem (such as ownership) bind everyone, while rights in personam bind specific persons."
+    },
+    {
+      "id": 20,
+      "subject": "Jurisprudence",
+      "difficulty": "Medium",
+      "question": "Under Article 141, the law declared by the Supreme Court is binding on:",
+      "options": {
+        "A": "All courts within the territory of India",
+        "B": "Only the High Courts in India",
+        "C": "Only courts hearing the same parties",
+        "D": "Only subordinate courts of a State"
+      },
+      "answer": "A",
+      "explanation": "Article 141 gives the doctrine of precedent a constitutional footing in India."
+    },
+    {
+      "id": 21,
+      "subject": "Law of Contract",
+      "difficulty": "Medium",
+      "question": "Which of the following does NOT vitiate free consent under Section 14 of the Indian Contract Act?",
+      "options": {
+        "A": "Inadequacy of consideration",
+        "B": "Misrepresentation by a party",
+        "C": "Undue influence by a party",
+        "D": "Coercion by a party"
+      },
+      "answer": "A",
+      "explanation": "Section 14 lists coercion, undue influence, fraud, misrepresentation and mistake; inadequacy of consideration does not affect validity (Section 25 Explanation 2)."
+    },
+    {
+      "id": 22,
+      "subject": "Law of Contract",
+      "difficulty": "Medium",
+      "question": "Under Section 2(d) of the Indian Contract Act, consideration may move from:",
+      "options": {
+        "A": "Only the promisor before the contract",
+        "B": "Only the promisee, never a third party",
+        "C": "The promisee or any other person",
+        "D": "A stranger to the contract alone"
+      },
+      "answer": "C",
+      "explanation": "Unlike English law, Indian law does not require that consideration move from the promisee."
+    },
+    {
+      "id": 23,
+      "subject": "Law of Contract",
+      "difficulty": "Medium",
+      "question": "The doctrine of privity of contract means that:",
+      "options": {
+        "A": "A contract binds only the promisor",
+        "B": "Every contract must be registered",
+        "C": "Consideration is unnecessary between relatives",
+        "D": "A stranger to a contract cannot sue upon it"
+      },
+      "answer": "D",
+      "explanation": "Dunlop Pneumatic Tyre Co. v. Selfridge affirmed that only parties can enforce a contract, subject to exceptions such as trusts and family arrangements."
+    },
+    {
+      "id": 24,
+      "subject": "Law of Contract",
+      "difficulty": "Hard",
+      "question": "After the 2018 amendment to the Specific Relief Act, 1963, specific performance of a contract is:",
+      "options": {
+        "A": "Available only for immovable property",
+        "B": "A general remedy courts must ordinarily grant",
+        "C": "Barred whenever damages are available",
+        "D": "A purely discretionary equitable remedy"
+      },
+      "answer": "B",
+      "explanation": "The amendment replaced the earlier discretionary approach in Section 10 and made specific performance the rule, with exceptions."
+    },
+    {
+      "id": 25,
+      "subject": "Law of Contract",
+      "difficulty": "Medium",
+      "question": "Section 70 of the Indian Contract Act deals with:",
+      "options": {
+        "A": "Rights of a finder of lost goods",
+        "B": "Restitution for non-gratuitous benefit",
+        "C": "Compensation for loss caused by breach",
+        "D": "Contracts of indemnity and guarantee"
+      },
+      "answer": "B",
+      "explanation": "Section 70 embodies the principle of quantum meruit and restitution."
+    },
+    {
+      "id": 26,
+      "subject": "Law of Contract",
+      "difficulty": "Hard",
+      "question": "In Gherulal Parakh v. Mahadeodas Maiya, the Supreme Court held that agreements collateral to wagering agreements are:",
+      "options": {
+        "A": "Not void, hence enforceable",
+        "B": "Voidable at the loser's option",
+        "C": "Void like the wagering agreement itself",
+        "D": "Illegal and punishable as offences"
+      },
+      "answer": "A",
+      "explanation": "Section 30 declares only wagers void; collateral transactions are not hit by it, unless unlawful under other law."
+    },
+    {
+      "id": 27,
+      "subject": "Sale of Goods",
+      "difficulty": "Medium",
+      "question": "In an 'agreement to sell' under the Sale of Goods Act, 1930, the transfer of property in goods takes place:",
+      "options": {
+        "A": "Immediately on making the agreement, even before delivery",
+        "B": "Only when the buyer resells the goods",
+        "C": "At a future time or on a condition being fulfilled",
+        "D": "Only on payment of the price in full"
+      },
+      "answer": "C",
+      "explanation": "In a completed 'sale' the property passes at once; an agreement to sell creates only a right to damages for breach until property passes."
+    },
+    {
+      "id": 28,
+      "subject": "Law of Torts",
+      "difficulty": "Easy",
+      "question": "'Injuria sine damno' means:",
+      "options": {
+        "A": "Injury suffered with the victim's consent",
+        "B": "Harm caused by an unavoidable accident",
+        "C": "Actual loss without violation of a legal right",
+        "D": "Violation of a legal right without actual loss"
+      },
+      "answer": "D",
+      "explanation": "Ashby v. White held that infringement of a legal right is actionable per se."
+    },
+    {
+      "id": 29,
+      "subject": "Law of Torts",
+      "difficulty": "Easy",
+      "question": "The maxim 'res ipsa loquitur' means:",
+      "options": {
+        "A": "Every wrong has a remedy",
+        "B": "The thing speaks for itself",
+        "C": "Let the master answer for it",
+        "D": "Consent bars the claim"
+      },
+      "answer": "B",
+      "explanation": "It allows negligence to be inferred from the facts, as in Byrne v. Boadle."
+    },
+    {
+      "id": 30,
+      "subject": "Law of Torts",
+      "difficulty": "Hard",
+      "question": "For criminal liability of doctors for medical negligence, Jacob Mathew v. State of Punjab requires:",
+      "options": {
+        "A": "Gross negligence or recklessness",
+        "B": "A deviation from textbook practice",
+        "C": "Any error of clinical judgment",
+        "D": "Absence of written consent"
+      },
+      "answer": "A",
+      "explanation": "The Court held mere negligence is not enough for criminal liability; gross negligence or recklessness is required."
+    },
+    {
+      "id": 31,
+      "subject": "Law of Torts",
+      "difficulty": "Medium",
+      "question": "Under modern law, contributory negligence of the plaintiff ordinarily results in:",
+      "options": {
+        "A": "A complete bar to any recovery",
+        "B": "Proportionate reduction of damages",
+        "C": "Transfer of liability to a third party",
+        "D": "Doubling of damages payable"
+      },
+      "answer": "B",
+      "explanation": "Apportionment replaced the harsh common-law rule in Butterfield v. Forrester that barred recovery."
+    },
+    {
+      "id": 32,
+      "subject": "Law of Torts",
+      "difficulty": "Hard",
+      "question": "State immunity in tort for acts done in exercise of sovereign powers was recognised in India in:",
+      "options": {
+        "A": "Nilabati Behera v. State of Orissa",
+        "B": "Rudul Sah v. State of Bihar",
+        "C": "State of Rajasthan v. Vidhyawati",
+        "D": "Kasturi Lal v. State of U.P."
+      },
+      "answer": "D",
+      "explanation": "Kasturi Lal (1965) distinguished sovereign and non-sovereign functions; later cases confined the immunity, especially for fundamental rights violations."
+    },
+    {
+      "id": 33,
+      "subject": "Law of Torts",
+      "difficulty": "Medium",
+      "question": "In The Wagon Mound (No. 1), the test for remoteness of damage was held to be:",
+      "options": {
+        "A": "Reasonable foreseeability of the damage",
+        "B": "Directness of the consequences",
+        "C": "Gravity of the defendant's fault",
+        "D": "Market value of the property that was harmed"
+      },
+      "answer": "A",
+      "explanation": "The Privy Council replaced the direct-consequence test of Re Polemis with reasonable foreseeability."
+    },
+    {
+      "id": 34,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "The 'rarest of rare' doctrine for imposing the death penalty was laid down in:",
+      "options": {
+        "A": "Jagmohan Singh v. State of U.P. (1973)",
+        "B": "Bachan Singh v. State of Punjab (1980)",
+        "C": "Mithu v. State of Punjab (1983)",
+        "D": "Rajendra Prasad v. State of U.P. (1979)"
+      },
+      "answer": "B",
+      "explanation": "A Constitution Bench upheld the death penalty but restricted it to the rarest of rare cases, requiring special reasons."
+    },
+    {
+      "id": 35,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "Section 3(5) of the BNS, 2023 (earlier Section 34 IPC) deals with:",
+      "options": {
+        "A": "Criminal conspiracy to commit offences",
+        "B": "Offences by members of an unlawful assembly",
+        "C": "Acts done jointly with common intention",
+        "D": "Abetment of an offence to the public"
+      },
+      "answer": "C",
+      "explanation": "Section 3(5) fixes joint liability for criminal acts done in furtherance of the common intention of all."
+    },
+    {
+      "id": 36,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "Dowry death is dealt with in which section of the BNS, 2023?",
+      "options": {
+        "A": "Section 85",
+        "B": "Section 80",
+        "C": "Section 78",
+        "D": "Section 87"
+      },
+      "answer": "B",
+      "explanation": "Section 80 BNS corresponds to Section 304B IPC; Section 85 deals with cruelty by a husband or his relatives."
+    },
+    {
+      "id": 37,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "The offence of rape is defined in which section of the BNS, 2023?",
+      "options": {
+        "A": "Section 65",
+        "B": "Section 67",
+        "C": "Section 61",
+        "D": "Section 63"
+      },
+      "answer": "D",
+      "explanation": "Section 63 corresponds to Section 375 IPC; Section 64 prescribes punishment."
+    },
+    {
+      "id": 38,
+      "subject": "Criminal Law",
+      "difficulty": "Hard",
+      "question": "Murder by a group of five or more persons acting in concert on grounds such as race, caste or community is punishable under the BNS with:",
+      "options": {
+        "A": "Imprisonment up to ten years and fine",
+        "B": "Imprisonment for life without fine",
+        "C": "Death or life imprisonment, and fine",
+        "D": "Imprisonment up to seven years only"
+      },
+      "answer": "C",
+      "explanation": "Section 103(2) BNS creates this new aggravated form of murder (mob lynching)."
+    },
+    {
+      "id": 39,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "Culpable homicide amounts to murder when the act is done with:",
+      "options": {
+        "A": "The intention of causing death",
+        "B": "Grave and sudden provocation",
+        "C": "Negligence and no other intention",
+        "D": "Knowledge that death is merely possible"
+      },
+      "answer": "A",
+      "explanation": "Intention to cause death is the first limb of murder; provocation reduces murder to culpable homicide."
+    },
+    {
+      "id": 40,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "The defence of unsoundness of mind in criminal law is based on:",
+      "options": {
+        "A": "The doctrine of transferred malice",
+        "B": "The M'Naghten Rules",
+        "C": "The rule in R v. Dudley and Stephens",
+        "D": "The Wednesbury principle"
+      },
+      "answer": "B",
+      "explanation": "The M'Naghten Rules (1843) require that the accused did not know the nature of the act or that it was wrong."
+    },
+    {
+      "id": 41,
+      "subject": "Criminal Law",
+      "difficulty": "Medium",
+      "question": "The right of private defence of the body extends to voluntarily causing death where there is a reasonable apprehension of:",
+      "options": {
+        "A": "Mischief to low-value property",
+        "B": "Insult by words alone",
+        "C": "Simple hurt to the person",
+        "D": "Death or grievous hurt"
+      },
+      "answer": "D",
+      "explanation": "Death may be caused in defence only in the situations specifically enumerated, such as death, grievous hurt and rape."
+    },
+    {
+      "id": 42,
+      "subject": "Procedural Law",
+      "difficulty": "Easy",
+      "question": "Under Section 80 of the CPC, notice before filing a suit against the Government must be given at least:",
+      "options": {
+        "A": "Three months before",
+        "B": "One month before",
+        "C": "Two months before",
+        "D": "Six months before"
+      },
+      "answer": "C",
+      "explanation": "Section 80 requires two months' notice, though urgent relief may be sought with the court's leave."
+    },
+    {
+      "id": 43,
+      "subject": "Procedural Law",
+      "difficulty": "Medium",
+      "question": "A second appeal under Section 100 of the CPC lies only on:",
+      "options": {
+        "A": "Any question of fact or law",
+        "B": "A question of fact",
+        "C": "A substantial question of law",
+        "D": "The quantum of costs"
+      },
+      "answer": "C",
+      "explanation": "The High Court must formulate the substantial question of law before hearing a second appeal."
+    },
+    {
+      "id": 44,
+      "subject": "Procedural Law",
+      "difficulty": "Medium",
+      "question": "A plaint is liable to be rejected under Order VII Rule 11 of the CPC where it:",
+      "options": {
+        "A": "Is signed by an authorised advocate",
+        "B": "Does not disclose a cause of action",
+        "C": "Includes a prayer for costs",
+        "D": "Claims relief in the alternative"
+      },
+      "answer": "B",
+      "explanation": "Rejection also follows if relief is undervalued, insufficiently stamped, or barred by law."
+    },
+    {
+      "id": 45,
+      "subject": "Procedural Law",
+      "difficulty": "Medium",
+      "question": "Section 151 of the CPC saves the inherent powers of the court to:",
+      "options": {
+        "A": "Enlarge the limitation period for suits",
+        "B": "Transfer suits to other States",
+        "C": "Hear appeals against its own decree",
+        "D": "Make orders necessary for the ends of justice"
+      },
+      "answer": "D",
+      "explanation": "Inherent powers cannot be used to override express provisions of the Code."
+    },
+    {
+      "id": 46,
+      "subject": "Procedural Law",
+      "difficulty": "Medium",
+      "question": "Section 5 of the Limitation Act, 1963 permits condonation of delay for:",
+      "options": {
+        "A": "All proceedings, including suits",
+        "B": "Execution petitions and plaints only",
+        "C": "Plaints, but not appeals or applications",
+        "D": "Appeals and applications, but not suits"
+      },
+      "answer": "D",
+      "explanation": "Section 5 covers appeals and applications, but not suits."
+    },
+    {
+      "id": 47,
+      "subject": "Procedural Law",
+      "difficulty": "Hard",
+      "question": "Under Section 187 of the BNSS, 2023, an accused gets default bail if investigation of an offence punishable with death or life imprisonment is not completed in:",
+      "options": {
+        "A": "One hundred twenty days",
+        "B": "Ninety days",
+        "C": "Sixty days",
+        "D": "One hundred eighty days"
+      },
+      "answer": "B",
+      "explanation": "The 90-day period applies to offences punishable with death, life or imprisonment of ten years or more; 60 days for others."
+    },
+    {
+      "id": 48,
+      "subject": "Procedural Law",
+      "difficulty": "Hard",
+      "question": "The Supreme Court laid down eleven requirements to be followed in all cases of arrest and detention in:",
+      "options": {
+        "A": "Vishaka v. State of Rajasthan",
+        "B": "Kesavananda Bharati v. State of Kerala",
+        "C": "D.K. Basu v. State of West Bengal",
+        "D": "Maneka Gandhi v. Union of India"
+      },
+      "answer": "C",
+      "explanation": "D.K. Basu (1997) laid down safeguards to prevent custodial torture."
+    },
+    {
+      "id": 49,
+      "subject": "Procedural Law",
+      "difficulty": "Medium",
+      "question": "The three essential conditions for grant of a temporary injunction are:",
+      "options": {
+        "A": "Notice to defendant, hearing and written arguments",
+        "B": "Jurisdiction, pecuniary valuation, territorial limit and court fee",
+        "C": "Locus standi, cause of action, limitation and costs",
+        "D": "Prima facie case, balance of convenience, irreparable injury"
+      },
+      "answer": "D",
+      "explanation": "These tests are applied under Order XXXIX Rules 1 and 2 of the CPC."
+    },
+    {
+      "id": 50,
+      "subject": "Law of Evidence",
+      "difficulty": "Easy",
+      "question": "Hearsay evidence is, as a general rule:",
+      "options": {
+        "A": "Inadmissible, subject to statutory exceptions",
+        "B": "Admissible if the witness is a public servant",
+        "C": "Admissible only in civil cases",
+        "D": "Always admissible"
+      },
+      "answer": "A",
+      "explanation": "Exceptions include res gestae, dying declarations and admissions."
+    },
+    {
+      "id": 51,
+      "subject": "Law of Evidence",
+      "difficulty": "Medium",
+      "question": "The rule of estoppel by representation prevents a person from:",
+      "options": {
+        "A": "Claiming costs on withdrawal of the suit by him",
+        "B": "Calling any witness at the trial of the case",
+        "C": "Denying what he led another to believe",
+        "D": "Filing a second appeal against a decree"
+      },
+      "answer": "C",
+      "explanation": "Section 115 of the Evidence Act (Section 121 BSA) bars denial of a representation intentionally made and relied upon."
+    },
+    {
+      "id": 52,
+      "subject": "Law of Evidence",
+      "difficulty": "Hard",
+      "question": "Admissibility of secondary electronic records, as held in Anvar P.V. v. P.K. Basheer, requires:",
+      "options": {
+        "A": "A certificate under Section 65B",
+        "B": "Prior permission of the High Court",
+        "C": "A notarised copy of the device invoice",
+        "D": "An affidavit from the opposite party"
+      },
+      "answer": "A",
+      "explanation": "Under the BSA, 2023, the corresponding requirement is in Section 63."
+    },
+    {
+      "id": 53,
+      "subject": "Law of Evidence",
+      "difficulty": "Medium",
+      "question": "Conviction on the uncorroborated testimony of an accomplice is:",
+      "options": {
+        "A": "Permitted only in cases of offences against the State",
+        "B": "Legally possible, but corroboration is prudent",
+        "C": "Valid without any caution",
+        "D": "Absolutely barred by statute"
+      },
+      "answer": "B",
+      "explanation": "Section 133 makes an accomplice a competent witness; Section 114 illustration (b) cautions against reliance without corroboration."
+    },
+    {
+      "id": 54,
+      "subject": "International Law",
+      "difficulty": "Medium",
+      "question": "Which of the following is NOT a criterion of statehood under the Montevideo Convention, 1933?",
+      "options": {
+        "A": "Capacity to enter into relations with other States",
+        "B": "A permanent population",
+        "C": "Admission to the United Nations",
+        "D": "A defined territory"
+      },
+      "answer": "C",
+      "explanation": "The criteria are population, territory, government and capacity to enter relations; UN membership is not a condition."
+    },
+    {
+      "id": 55,
+      "subject": "International Law",
+      "difficulty": "Hard",
+      "question": "The 'Lotus principle' holds that States may act:",
+      "options": {
+        "A": "Only with prior authorisation of the Security Council",
+        "B": "Unless a prohibitive rule of international law exists",
+        "C": "Only where a treaty or convention expressly permits it",
+        "D": "Only within their own territorial waters"
+      },
+      "answer": "B",
+      "explanation": "In the S.S. Lotus case (1927), the PCIJ said restrictions on State independence cannot be presumed."
+    },
+    {
+      "id": 56,
+      "subject": "International Law",
+      "difficulty": "Hard",
+      "question": "The requirement of a 'genuine link' for diplomatic protection of nationals arose in:",
+      "options": {
+        "A": "Corfu Channel Case (1949)",
+        "B": "Nottebohm Case (1955)",
+        "C": "Asylum Case (1950)",
+        "D": "Anglo-Norwegian Fisheries Case (1951)"
+      },
+      "answer": "B",
+      "explanation": "The ICJ held that Liechtenstein could not espouse Nottebohm's claim since his nationality lacked a genuine connection."
+    },
+    {
+      "id": 57,
+      "subject": "International Law",
+      "difficulty": "Medium",
+      "question": "Formation of customary international law requires State practice and:",
+      "options": {
+        "A": "Opinio juris",
+        "B": "Rebus sic stantibus",
+        "C": "Uti possidetis",
+        "D": "Pacta sunt servanda"
+      },
+      "answer": "A",
+      "explanation": "The North Sea Continental Shelf cases stressed that practice must be accompanied by a belief that it is legally obligatory."
+    },
+    {
+      "id": 58,
+      "subject": "International Law",
+      "difficulty": "Medium",
+      "question": "Which of the following is outside the subject-matter jurisdiction of the ICC under the Rome Statute?",
+      "options": {
+        "A": "Genocide",
+        "B": "War crimes",
+        "C": "Piracy",
+        "D": "Crimes against humanity"
+      },
+      "answer": "C",
+      "explanation": "The ICC tries genocide, crimes against humanity, war crimes and the crime of aggression."
+    },
+    {
+      "id": 59,
+      "subject": "International Law",
+      "difficulty": "Medium",
+      "question": "The principle of non-refoulement prohibits:",
+      "options": {
+        "A": "Returning a refugee to a place of persecution",
+        "B": "Granting diplomatic immunity to every refugee",
+        "C": "Expelling a foreign ambassador at will",
+        "D": "Recognising a State before it is formed"
+      },
+      "answer": "A",
+      "explanation": "It is enshrined in Article 33 of the 1951 Refugee Convention and is widely regarded as customary law."
+    },
+    {
+      "id": 60,
+      "subject": "Family Law",
+      "difficulty": "Medium",
+      "question": "Judicial separation under the Hindu Marriage Act, 1955 is provided in Section:",
+      "options": {
+        "A": "Section 9",
+        "B": "Section 11",
+        "C": "Section 12",
+        "D": "Section 10"
+      },
+      "answer": "D",
+      "explanation": "Section 9 deals with restitution of conjugal rights and Section 11 with void marriages."
+    },
+    {
+      "id": 61,
+      "subject": "Family Law",
+      "difficulty": "Medium",
+      "question": "The iddat period of a divorced Muslim woman subject to menstruation is:",
+      "options": {
+        "A": "Three menstrual courses",
+        "B": "One lunar year",
+        "C": "Four months and ten days",
+        "D": "Forty days"
+      },
+      "answer": "A",
+      "explanation": "Four months and ten days applies to a widow; for divorced women it is three menstrual courses."
+    },
+    {
+      "id": 62,
+      "subject": "Family Law",
+      "difficulty": "Hard",
+      "question": "In Gita Hariharan v. Reserve Bank of India, the word 'after' in Section 6(a) of the Hindu Minority and Guardianship Act was read as:",
+      "options": {
+        "A": "Subject to the order of",
+        "B": "Immediately upon the death of",
+        "C": "In the absence of",
+        "D": "With the written consent of"
+      },
+      "answer": "C",
+      "explanation": "The Court held that the mother can act as natural guardian even during the father's lifetime if he is absent from the minor's care."
+    },
+    {
+      "id": 63,
+      "subject": "Property Law",
+      "difficulty": "Medium",
+      "question": "Under the doctrine of lis pendens (Section 52, TPA), a transfer of the disputed property during the suit:",
+      "options": {
+        "A": "Requires prior permission of the trial court",
+        "B": "Remains subject to the outcome of the suit",
+        "C": "Becomes valid after the decree",
+        "D": "Is void from the beginning"
+      },
+      "answer": "B",
+      "explanation": "The transferee is bound by the decree passed in the pending suit."
+    },
+    {
+      "id": 64,
+      "subject": "Property Law",
+      "difficulty": "Hard",
+      "question": "The doctrine of part performance (Section 53A, TPA) protects:",
+      "options": {
+        "A": "A mortgagee who has not advanced the mortgage money",
+        "B": "An agent who signed the deed on behalf of the principal",
+        "C": "A tenant holding over after the lease expires",
+        "D": "A transferee in possession under a written contract"
+      },
+      "answer": "D",
+      "explanation": "It is a shield and not a sword; the transferee can resist the transferor's claim for possession."
+    },
+    {
+      "id": 65,
+      "subject": "Succession Law",
+      "difficulty": "Easy",
+      "question": "A will is said to be 'ambulatory', which means that it:",
+      "options": {
+        "A": "Binds the executors during the testator's life",
+        "B": "Operates immediately on execution",
+        "C": "Can be revoked by the testator before his death",
+        "D": "Must be registered to be valid"
+      },
+      "answer": "C",
+      "explanation": "A will takes effect only after the testator's death and may be changed at any time."
+    },
+    {
+      "id": 66,
+      "subject": "Intellectual Property Law",
+      "difficulty": "Hard",
+      "question": "The Novartis AG v. Union of India (2013) decision interpreted Section 3(d) of the Patents Act regarding:",
+      "options": {
+        "A": "Damages for infringement of pharmaceutical patents",
+        "B": "Compulsory licensing of drug patents",
+        "C": "The term of pharmaceutical patents",
+        "D": "Patentability of new forms of known substances"
+      },
+      "answer": "D",
+      "explanation": "The Court held that a new form of a known substance must show enhanced therapeutic efficacy."
+    },
+    {
+      "id": 67,
+      "subject": "Intellectual Property Law",
+      "difficulty": "Easy",
+      "question": "The first product registered as a Geographical Indication in India was:",
+      "options": {
+        "A": "Basmati Rice",
+        "B": "Mysore Silk",
+        "C": "Darjeeling Tea",
+        "D": "Kanchipuram Silk"
+      },
+      "answer": "C",
+      "explanation": "Darjeeling Tea was registered in 2004–05 under the Geographical Indications of Goods Act, 1999."
+    },
+    {
+      "id": 68,
+      "subject": "Intellectual Property Law",
+      "difficulty": "Medium",
+      "question": "The 'special rights' of an author under Section 57 of the Copyright Act, 1957 are known as:",
+      "options": {
+        "A": "Moral rights",
+        "B": "Economic rights",
+        "C": "Neighbouring rights",
+        "D": "Statutory licence rights"
+      },
+      "answer": "A",
+      "explanation": "Moral rights include the right to claim authorship and to restrain distortion of the work."
+    },
+    {
+      "id": 69,
+      "subject": "Environmental Law",
+      "difficulty": "Hard",
+      "question": "The precautionary principle was held to be part of Indian environmental law in:",
+      "options": {
+        "A": "Rural Litigation and Entitlement Kendra v. State of U.P.",
+        "B": "Subhash Kumar v. State of Bihar",
+        "C": "Olga Tellis v. Bombay Municipal Corporation",
+        "D": "Vellore Citizens' Welfare Forum v. Union of India"
+      },
+      "answer": "D",
+      "explanation": "Vellore (1996) also applied sustainable development and the polluter pays principle."
+    },
+    {
+      "id": 70,
+      "subject": "Environmental Law",
+      "difficulty": "Medium",
+      "question": "The Environment (Protection) Act, 1986 was enacted to give effect to decisions of the:",
+      "options": {
+        "A": "2015 Paris Climate Conference",
+        "B": "1997 Kyoto Conference on Climate",
+        "C": "1992 Rio Conference on Environment and Development",
+        "D": "Stockholm Conference on Human Environment, 1972"
+      },
+      "answer": "D",
+      "explanation": "Parliament enacted it under Article 253 to implement international decisions."
+    },
+    {
+      "id": 71,
+      "subject": "Company Law",
+      "difficulty": "Medium",
+      "question": "The doctrine of indoor management protects:",
+      "options": {
+        "A": "Minority shareholders from oppression",
+        "B": "Directors from personal liability",
+        "C": "Persons dealing in good faith with a company",
+        "D": "Promoters from pre-incorporation contracts"
+      },
+      "answer": "C",
+      "explanation": "Royal British Bank v. Turquand held that outsiders may assume that internal procedures have been complied with."
+    },
+    {
+      "id": 72,
+      "subject": "Administrative Law",
+      "difficulty": "Hard",
+      "question": "'Wednesbury unreasonableness' is established where a decision is:",
+      "options": {
+        "A": "Contrary to the political interests of the ruling party",
+        "B": "Made without hearing a formal appeal",
+        "C": "So unreasonable no reasonable authority could make it",
+        "D": "Delayed beyond the period in the statute"
+      },
+      "answer": "C",
+      "explanation": "Associated Provincial Picture Houses v. Wednesbury Corporation (1948) set a high threshold for judicial review on reasonableness."
+    },
+    {
+      "id": 73,
+      "subject": "Right to Information",
+      "difficulty": "Medium",
+      "question": "Under the RTI Act, 2005, information concerning life or liberty of a person must be provided within:",
+      "options": {
+        "A": "Fifteen days",
+        "B": "Seven days",
+        "C": "Twenty-four hours",
+        "D": "Forty-eight hours"
+      },
+      "answer": "D",
+      "explanation": "The general period is thirty days; Section 7(1) requires forty-eight hours for life or liberty matters."
+    },
+    {
+      "id": 74,
+      "subject": "Arbitration Law",
+      "difficulty": "Hard",
+      "question": "Section 16 of the Arbitration and Conciliation Act, 1996 empowers the arbitral tribunal to:",
+      "options": {
+        "A": "Transfer the dispute to a civil court",
+        "B": "Rule on its own jurisdiction",
+        "C": "Appoint a substitute arbitrator",
+        "D": "Execute its award as a decree"
+      },
+      "answer": "B",
+      "explanation": "This is the principle of competence-competence (Kompetenz-Kompetenz), including objections to the arbitration agreement."
+    },
+    {
+      "id": 75,
+      "subject": "Information Technology Law",
+      "difficulty": "Medium",
+      "question": "Under the Digital Personal Data Protection Act, 2023, the individual to whom personal data relates is called a:",
+      "options": {
+        "A": "Data Controller",
+        "B": "Data Fiduciary",
+        "C": "Data Processor",
+        "D": "Data Principal"
+      },
+      "answer": "D",
+      "explanation": "A Data Fiduciary determines the purpose and means of processing; the Data Principal is the individual."
+    }
+  ]
+}
