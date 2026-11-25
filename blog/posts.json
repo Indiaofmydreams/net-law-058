@@ -486,6 +486,15 @@
   "mins": 4
  },
  {
+  "slug": "blooms-taxonomy-revised-learning-objectives-ugc-net-paper-1",
+  "title": "Bloom's Taxonomy Revised: Cognitive, Affective, Psychomotor",
+  "description": "Bloom's taxonomy for UGC NET Paper 1: original and revised cognitive levels, affective and psychomotor domains, writing learning objectives with action verbs.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "UGC NET Paper 1",
+  "mins": 4
+ },
+ {
   "slug": "cheque-bounce-section-138-ni-act-notice-complaint-penalty",
   "title": "Cheque Bounce Section 138: Notice, Complaint, Penalty",
   "description": "Cheque bounce under Section 138 NI Act: demand notice in 30 days, 15 days to pay, complaint in one month, penalty, interim compensation and defences.",
@@ -502,6 +511,24 @@
   "updated": "2026-11-24",
   "category": "Law Explained",
   "mins": 5
+ },
+ {
+  "slug": "communication-models-barriers-mass-media-ugc-net-paper-1",
+  "title": "Communication for UGC NET: Models, Barriers, Mass Media",
+  "description": "Communication for UGC NET Paper 1: Shannon-Weaver, Berlo, Lasswell models, verbal and non-verbal types, barriers, classroom communication and mass media.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "UGC NET Paper 1",
+  "mins": 4
+ },
+ {
+  "slug": "comprehension-passage-strategy-ugc-net-paper-1-how-to-solve",
+  "title": "How to Solve Comprehension Passages in UGC NET Paper 1",
+  "description": "UGC NET Paper 1 comprehension strategy: how to read passages fast, question types, inference vs fact, elimination, time per passage and common mistakes.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "UGC NET Paper 1",
+  "mins": 4
  },
  {
   "slug": "copyright-vs-trademark-vs-patent-difference-registration",
@@ -522,6 +549,24 @@
   "mins": 4
  },
  {
+  "slug": "data-interpretation-tables-graphs-pie-charts-tricks-ugc-net",
+  "title": "Data Interpretation for UGC NET: Tables, Bar, Line, Pie Charts",
+  "description": "Data interpretation for UGC NET Paper 1: read tables, bar, line and pie charts, with percentage change, ratio and average shortcuts and solved examples.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "UGC NET Paper 1",
+  "mins": 4
+ },
+ {
+  "slug": "deductive-inductive-arguments-fallacies-square-of-opposition-ugc-net",
+  "title": "Deductive vs Inductive Arguments and Fallacies: UGC NET",
+  "description": "Deductive vs inductive reasoning for UGC NET Paper 1: validity, soundness, square of opposition, laws of thought, formal and informal fallacies.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "UGC NET Paper 1",
+  "mins": 5
+ },
+ {
   "slug": "divorce-in-india-mutual-consent-vs-contested-process",
   "title": "Divorce in India: Mutual Consent vs Contested Process",
   "description": "Divorce in India explained: Hindu Marriage Act grounds, mutual consent under Section 13B, six-month period, contested divorce, maintenance and custody.",
@@ -540,6 +585,24 @@
   "mins": 5
  },
  {
+  "slug": "environmental-laws-india-sustainable-development-goals-energy-ugc-net",
+  "title": "Environmental Laws, SDGs and Energy: UGC NET Paper 1",
+  "description": "Environmental laws in India (Water Act, Air Act, EP Act, NGT), SDGs, sustainable development, renewable energy and conservation facts for UGC NET Paper 1.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "UGC NET Paper 1",
+  "mins": 4
+ },
+ {
+  "slug": "evaluation-assessment-formative-summative-cce-ugc-net-paper-1",
+  "title": "Evaluation Systems: Formative, Summative, CCE for UGC NET",
+  "description": "Evaluation for UGC NET Paper 1: formative vs summative, norm vs criterion referenced, CCE, grading, test qualities, measurement scales and examples.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "UGC NET Paper 1",
+  "mins": 4
+ },
+ {
   "slug": "five-writs-habeas-corpus-mandamus-certiorari-prohibition-quo-warranto",
   "title": "Five Writs in India: Meaning, Differences and Cases",
   "description": "The five constitutional writs explained: meaning, when issued, Article 32 vs 226, differences between certiorari and prohibition, key cases and examples.",
@@ -556,6 +619,15 @@
   "updated": "2026-11-24",
   "category": "Law Explained",
   "mins": 5
+ },
+ {
+  "slug": "higher-education-india-history-commissions-radhakrishnan-kothari-ugc-net",
+  "title": "Higher Education in India: History and Commissions for UGC NET",
+  "description": "History of higher education in India for UGC NET Paper 1: Nalanda, Macaulay, Wood's Despatch, Hunter, Radhakrishnan, Kothari, NPE 1986 and key commissions.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "UGC NET Paper 1",
+  "mins": 4
  },
  {
   "slug": "how-to-become-a-judge-in-india-civil-judge-to-supreme-court",
@@ -630,6 +702,33 @@
   "mins": 5
  },
  {
+  "slug": "ict-basics-computer-memory-internet-abbreviations-ugc-net-paper-1",
+  "title": "ICT Basics for UGC NET: Computers, Memory, Internet",
+  "description": "ICT basics for UGC NET Paper 1: computer generations, memory, units, number systems, software, networks, internet terms and common abbreviations.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "UGC NET Paper 1",
+  "mins": 4
+ },
+ {
+  "slug": "ict-in-education-swayam-diksha-egovernance-cyber-safety-ugc-net",
+  "title": "ICT in Education: SWAYAM, DIKSHA, e-Governance, Cyber Safety",
+  "description": "ICT in education for UGC NET Paper 1: SWAYAM, NPTEL, DIKSHA, NDLI, e-PG Pathshala, Digital India, e-governance types, cyber threats and the IT Act.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "UGC NET Paper 1",
+  "mins": 4
+ },
+ {
+  "slug": "indian-logic-pramanas-anumana-nyaya-syllogism-hetvabhasa-ugc-net",
+  "title": "Indian Logic for UGC NET: Pramanas, Anumana, Hetvabhasa",
+  "description": "Indian logic for UGC NET Paper 1: six pramanas, Nyaya five-step syllogism, vyapti, kinds of anumana and five hetvabhasas with examples and school-wise views.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "UGC NET Paper 1",
+  "mins": 4
+ },
+ {
   "slug": "law-of-limitation-how-to-calculate-section-5-condonation-of-delay",
   "title": "Law of Limitation: How to Calculate, Section 5, Exclusions",
   "description": "Limitation Act, 1963 explained: how time is counted, common periods, Section 5 condonation, Sections 12, 14, 17 exclusions and acknowledgment.",
@@ -639,6 +738,33 @@
   "mins": 5
  },
  {
+  "slug": "learner-characteristics-adolescent-adult-erikson-piaget-ugc-net",
+  "title": "Learner Characteristics: Piaget, Erikson, Knowles for UGC NET",
+  "description": "Learner characteristics for UGC NET Paper 1: adolescent and adult learners, Piaget, Erikson, Knowles andragogy, learning styles and individual differences.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "UGC NET Paper 1",
+  "mins": 4
+ },
+ {
+  "slug": "learning-theories-pavlov-skinner-bandura-vygotsky-ugc-net-paper-1",
+  "title": "Learning Theories for UGC NET: Pavlov, Skinner, Bandura",
+  "description": "Learning theories for UGC NET Paper 1: Pavlov, Thorndike, Skinner, Gestalt, Bandura, Vygotsky, Bruner, Maslow and Rogers, with key terms and exam traps.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "UGC NET Paper 1",
+  "mins": 4
+ },
+ {
+  "slug": "mathematical-reasoning-formulas-number-series-percentage-ugc-net",
+  "title": "Mathematical Reasoning for UGC NET: Series, Percentage, Ratio",
+  "description": "Mathematical reasoning for UGC NET Paper 1: number series, ratio, percentage, profit and loss, interest, speed and work formulas with solved examples.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "UGC NET Paper 1",
+  "mins": 4
+ },
+ {
   "slug": "murder-vs-culpable-homicide-bns-sections-101-105-difference",
   "title": "Murder vs Culpable Homicide: BNS Sections 100, 101, 103, 105",
   "description": "Murder vs culpable homicide under the BNS (old IPC 299, 300): sections, intention and knowledge, exceptions, punishment and key cases.",
@@ -646,6 +772,33 @@
   "updated": "2026-11-24",
   "category": "Law Explained",
   "mins": 5
+ },
+ {
+  "slug": "natural-hazards-disaster-management-act-2005-ndma-ugc-net-paper-1",
+  "title": "Disaster Management for UGC NET: Hazards, NDMA, DM Act 2005",
+  "description": "Disaster management for UGC NET Paper 1: natural and human-made disasters, earthquakes, floods, cyclones, DM Act 2005, NDMA and the Sendai Framework.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "UGC NET Paper 1",
+  "mins": 4
+ },
+ {
+  "slug": "nep-2020-regulators-ugc-aicte-naac-nirf-ugc-net-paper-1",
+  "title": "NEP 2020 and Regulators: UGC, AICTE, NAAC, NIRF for UGC NET",
+  "description": "NEP 2020 for UGC NET Paper 1: 5+3+3+4 structure, four-year UG, multiple entry and exit, ABC, and the roles of UGC, AICTE, NAAC, NBA, NIRF and NCTE.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "UGC NET Paper 1",
+  "mins": 4
+ },
+ {
+  "slug": "pollution-greenhouse-gases-ozone-climate-treaties-ugc-net-paper-1",
+  "title": "Pollution, Climate Change and Treaties: UGC NET Unit 9",
+  "description": "Environment for UGC NET Paper 1: air, water, soil pollution, greenhouse gases, ozone depletion, Kyoto, Paris, Montreal and India's climate targets.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "UGC NET Paper 1",
+  "mins": 4
  },
  {
   "slug": "private-limited-vs-public-limited-vs-llp-vs-opc-which-to-choose",
@@ -664,6 +817,78 @@
   "updated": "2026-11-24",
   "category": "Law Explained",
   "mins": 5
+ },
+ {
+  "slug": "research-ethics-plagiarism-thesis-writing-citation-ugc-net-paper-1",
+  "title": "Research Ethics, Plagiarism, Citations for UGC NET Paper 1",
+  "description": "Research ethics for UGC NET Paper 1: plagiarism, informed consent, thesis structure, APA and other citation styles, UGC regulations, Shodhganga, NRF and more.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "UGC NET Paper 1",
+  "mins": 4
+ },
+ {
+  "slug": "research-process-steps-hypothesis-variables-ugc-net-paper-1",
+  "title": "Research Process, Hypothesis and Variables: UGC NET Paper 1",
+  "description": "Research steps, hypothesis, variables and literature review for UGC NET Paper 1: null vs alternative hypothesis, Type I and II errors with examples.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "UGC NET Paper 1",
+  "mins": 4
+ },
+ {
+  "slug": "sampling-methods-research-tools-validity-reliability-ugc-net-paper-1",
+  "title": "Sampling Methods and Research Tools: Validity and Reliability",
+  "description": "Sampling and research tools for UGC NET Paper 1: probability and non-probability sampling, questionnaire, interview, scales, validity and reliability.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "UGC NET Paper 1",
+  "mins": 4
+ },
+ {
+  "slug": "syllogism-venn-diagrams-tricks-logical-reasoning-ugc-net-paper-1",
+  "title": "Syllogism and Venn Diagrams: Logical Reasoning for UGC NET",
+  "description": "Syllogism and Venn diagrams for UGC NET Paper 1: all, no, some statements, valid conclusions, rules, solved examples and common errors in logical reasoning.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "UGC NET Paper 1",
+  "mins": 5
+ },
+ {
+  "slug": "teaching-methods-teacher-centred-learner-centred-ugc-net-paper-1",
+  "title": "Teaching Methods for UGC NET Paper 1: Types and Differences",
+  "description": "Teaching methods for UGC NET Paper 1: lecture, discussion, demonstration, project, inquiry, cooperative learning, levels of teaching and factors, with examples.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "UGC NET Paper 1",
+  "mins": 4
+ },
+ {
+  "slug": "types-of-research-fundamental-applied-action-qualitative-quantitative-ugc-net",
+  "title": "Types of Research for UGC NET: Fundamental, Applied, Action",
+  "description": "Types of research for UGC NET Paper 1: fundamental, applied, action, descriptive, experimental, historical, qualitative vs quantitative and mixed methods.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "UGC NET Paper 1",
+  "mins": 4
+ },
+ {
+  "slug": "ugc-net-paper-1-30-day-study-plan-time-management",
+  "title": "UGC NET Paper 1 30-Day Study Plan and Time Management",
+  "description": "A 30-day UGC NET Paper 1 study plan: week-wise unit schedule, daily routine, mock test strategy, revision method and time management during the exam.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "UGC NET Paper 1",
+  "mins": 4
+ },
+ {
+  "slug": "ugc-net-paper-1-exam-pattern-marking-qualifying-marks-jrf-assistant-professor",
+  "title": "UGC NET Paper 1 Pattern, Marks and Qualifying Criteria",
+  "description": "UGC NET Paper 1 exam pattern: 50 questions, 100 marks, 10 units, JRF, Assistant Professor and PhD categories, and qualifying marks. Check NTA's notice.",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "category": "UGC NET Paper 1",
+  "mins": 4
  },
  {
   "slug": "void-voidable-illegal-contracts-difference",
@@ -1144,8 +1369,8 @@
  },
  {
   "slug": "electronic-evidence-section-63-bsa-certificate-bankers-books-evidence-bill-2026",
-  "title": "Electronic Evidence 2026: Section 63 BSA, Bankers' Books Bill",
-  "description": "Electronic evidence in 2026: Supreme Court upholds Section 63(4) BSA certificate, Part B expert certification open, and the Bankers' Books Evidence Bill 2026.",
+  "title": "Electronic Evidence 2026: Section 63 BSA, Bankers' Books Act",
+  "description": "Electronic evidence 2026: Supreme Court upholds Section 63(4) BSA certificate; Part B expert certification open; Bankers' Books Evidence Act explained.",
   "date": "2026-11-22",
   "updated": "2026-11-22",
   "category": "Legal Current Affairs",
@@ -1217,7 +1442,7 @@
  {
   "slug": "kerala-to-keralam-name-change-article-3-2026",
   "title": "Kerala to Keralam: Article 3 Name Change Explained",
-  "description": "Kerala (Alteration of Name) Bill 2026 explained: how Articles 3 and 4 let Parliament rename a state, the reference to the legislature and the process.",
+  "description": "Kerala (Alteration of Name) Act 2026 explained: how Articles 3 and 4 let Parliament rename a state, the reference to the legislature and the process.",
   "date": "2026-11-22",
   "updated": "2026-11-22",
   "category": "Legal Current Affairs",
@@ -1288,8 +1513,8 @@
  },
  {
   "slug": "public-examinations-amendment-bill-2026-neet-paper-leak",
-  "title": "Public Examinations Amendment Bill 2026: NEET Leak Law",
-  "description": "Public Examinations Amendment Bill 2026 explained: tougher jail terms, two-month probe, fast-track courts and the NEET-UG 2026 paper leak behind it.",
+  "title": "Public Examinations Amendment Act 2026: NEET Leak Law",
+  "description": "Public Examinations Amendment Act 2026 explained: tougher jail terms, two-month probe, fast-track courts and the NEET-UG 2026 paper leak behind it.",
   "date": "2026-11-22",
   "updated": "2026-11-22",
   "category": "Legal Current Affairs",
@@ -1369,8 +1594,8 @@
  },
  {
   "slug": "tribunals-reforms-bill-2026-national-tribunals-commission",
-  "title": "Tribunals Reforms Bill 2026: National Tribunals Commission",
-  "description": "Tribunals Reforms Bill 2026 explained: the National Tribunals Commission, Articles 323A and 323B, Chandra Kumar and why it matters.",
+  "title": "Tribunals Reforms Act 2026: National Tribunals Commission",
+  "description": "Tribunals Reforms Act 2026 explained: the National Tribunals Commission, Articles 323A and 323B, Chandra Kumar and why it matters.",
   "date": "2026-11-22",
   "updated": "2026-11-22",
   "category": "Legal Current Affairs",
@@ -1676,7 +1901,7 @@
  {
   "slug": "ugc-net-december-2026-exam-dates-schedule",
   "title": "UGC NET December 2026 Exam Dates: NTA Schedule",
-  "description": "NTA has released the UGC NET December 2026 schedule: 14 to 18 and 21 December in two CBT shifts. Confirmed dates, finding your Law (058) slot, and what to do now.",
+  "description": "NTA UGC NET December 2026 schedule: 14 to 18 and 21 December in two CBT shifts. Confirmed dates, finding your Law (058) slot and what to do now.",
   "date": "2026-11-21",
   "updated": "2026-11-21",
   "category": "UGC NET Updates",
