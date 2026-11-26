@@ -11,7 +11,7 @@
  */
 'use strict';
 
-const VERSION = 'v22';
+const VERSION = 'v23';
 const PREFIX = 'nl058-';
 const SHELL = PREFIX + 'offline-' + VERSION;
 const BASE = new URL('./', self.registration.scope).href;

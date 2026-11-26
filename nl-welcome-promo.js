@@ -147,6 +147,7 @@
     close();
     /* hand over to the existing study-updates form; wait a beat so the click that got us here finishes first */
     setTimeout(function () {
+      if (window.NLM && NLM.A && NLM.A.updates) { NLM.A.updates(); return; }   /* inside the phone/tablet app: its own study-updates sheet */
       var box = document.querySelector('.nll'), tab = box && box.querySelector('.nll-tab');
       if (!tab) return;
       box.classList.add('on');
@@ -160,7 +161,7 @@
     document.body.appendChild(back);
 
     var up = back.querySelector('.nlw-up');
-    if (!document.querySelector('.nll')) up.hidden = true;   /* already signed up, or hidden for this visit: Instagram only */
+    if (!document.querySelector('.nll') && !(window.NLM && NLM.A && NLM.A.updates)) up.hidden = true;   /* already signed up, or hidden for this visit: Instagram only */
 
     var sec = back.querySelector('.nlw-sec'), fg = back.querySelector('.fg'), bar = back.querySelector('.nlw-bar span');
     var C = 113.1, t0 = Date.now(), total = SECS * 1000;

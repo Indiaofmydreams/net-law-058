@@ -1,3 +1,22 @@
+27 NOV 2026 - PHONE + TABLET APP: AIBE, AILET, CUET PG, BLOG, REVISE, WELCOME POP-UP
+  NEW FILES: m-exams.js, m-blog.js, m-modern.css
+  CHANGED:   m-app.js, m-clat.js, app.html, sw.js (v23), nl-welcome-promo.js,
+             aibe/aibe-embed.js, ailet/ailet-embed.js, cuet-pg/cuet-embed.js
+  - Bottom bar is now Home | Exams | Mocks | Notes | Blog. My progress, Revise and every exam are in the menu and tablet sidebar.
+  - Home shows all six exams, a Latest-from-the-blog strip, Revise & read, and LinkedIn next to Instagram.
+  - AIBE, AILET and CUET PG are native in-app hubs: pattern, countdown (AILET 13 Dec 2026, CUET PG window 2 Mar 2027 tentative,
+    both from your own pages), progress, syllabus, notes/guides, practice, mocks, revision notebook, FAQ, related blog posts.
+  - FIXED: mock-test links inside the AIBE, AILET and CUET PG sections used to reopen the exam's landing page; they now open the mock.
+  - AIBE chapter notes (216 chapters, 19 subjects) are searchable inside the app.
+  - Mocks tab lists NET, CLAT PG, AILET, CUET PG and AIBE with saved status (same localStorage keys as the website).
+  - Blog in the app reads blog/posts.json (new posts appear automatically): search, categories, save for later, share. Articles open
+    inside the app with the website header hidden.
+  - Revise screen: bookmarks, mistake notebooks, rapid-recall sheets and case vault in one place.
+  - Instagram + LinkedIn welcome pop-up now appears after the disclaimer in the app too (bottom sheet on phones);
+    its study-updates button opens the app's own sheet.
+  - Share button in the top bar of every main screen, hub, article and on article cards. Not shown during a running mock.
+  - m-clat.js no longer defines the old AILET/AIBE/CUET routes (they are in m-exams.js).
+-------------------------------------------------------------------------------------------------
 CLAT PG mocks in the app/tablet + disclaimer on every visit (10 Nov 2026, part 2)
 - CLAT PG mock tests (6 papers) now live in the phone/tablet app: Mock Test tab has a CLAT PG section with saved status (Not started / In progress / marks), CLAT Practice tab lists the sample paper and the 6 mocks, and Home/CLAT hub "Mock tests" open them in the app (#/clat/mocks, #/clat/mock/N). The papers run in the website's own CLAT engine shown inside the app (?embed=1), so timer, 0.25 negative marking, resume and results are identical to the website and progress is shared. New clat-pg/clat-embed.js and embed rules in clat-pg/clat-mock.css hide the website header/footer inside the app and route "All mock tests" / "next test" back to app screens.
 - Disclaimer (disclaimer.js): now appears every time the site or app is opened, once per visit (new tab or fresh launch of the installed app asks again; also after 6 hours in an open tab), instead of once per browser ever. Not shown to search crawlers or inside the embedded mock runner. Wording now names the Consortium of NLUs / CLAT PG and mock tests; updated date 10 November 2026.

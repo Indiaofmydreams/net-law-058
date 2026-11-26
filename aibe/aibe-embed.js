@@ -8,6 +8,7 @@
     var a = e.target.closest && e.target.closest('a[href]'); if (!a) return;
     var h = a.getAttribute('href') || '';
     var mm, to = function (x) { try { parent.location.hash = x; } catch (er) { location.href = '/app.html#' + x.slice(1); } };
+    if ((mm = /(?:^|\/)blog\/([a-z0-9-]+)\.html/.exec(h))) { e.preventDefault(); to('#/blog/' + mm[1]); return; }
     if (/(^|\/)mock-tests\.html/.test(h)) { e.preventDefault(); to('#/aibe/mocks'); return; }
     if ((mm = /(^|\/)mock-test-(\d+)\.html/.exec(h))) { e.preventDefault(); to('#/aibe/mock/' + mm[2]); return; }
     if (/^#|^mailto:|^tel:|^javascript:/.test(h) || a.target === '_blank') return;
