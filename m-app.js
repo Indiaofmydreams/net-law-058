@@ -253,7 +253,7 @@ function devFont(){if(document.getElementById('dvf'))return;const l=document.cre
 function wisCard(){const L=dohaList();if(!L.length)return`<a class="wis" id="wis" href="#/wisdom">${I.quote}<p class="dv" style="font-family:inherit;font-size:1.0625rem;line-height:1.4;font-weight:800">Wisdom for the journey</p><p class="tr">A doha for every aspirant, to read when you begin or when you need to pause.</p><span class="by"><span></span><em>Read more ${I.chevR}</em></span></a>`;
   devFont();const x=L[dayNo()%L.length];return`<a class="wis" id="wis" href="#/wisdom">${I.quote}<p class="dv" lang="hi">${esc(x.t)}</p><p class="tr">${esc(x.m)}</p><span class="by">${esc(x.a)}<em>More dohas ${I.chevR}</em></span></a>`}
 const EXLIST=[['#/subjects/1','b','cap','UGC NET','Paper 1 · General'],['#/subjects','a','scale','UGC NET','Paper 2 · Law 058'],['#/clat','a','target','CLAT PG','LL.M. · 6 mocks'],['#/ailet','b','target','AILET','NLU Delhi · 8 mocks'],['#/cuet','a','target','CUET PG','Central univ. · 8 mocks'],['#/aibe','b','brief','AIBE','Bar exam · 6 mocks']];
-const exGrid=()=>`<div class="exg">${EXLIST.map(e=>`<a class="ext ${e[1]}" href="${e[0]}"><span class="bgi">${sv(P[e[2]],96)}</span><span class="gi">${I[e[2]]}</span><b>${e[3]}</b><small>${e[4]}</small><span class="go">${I.chevR}</span></a>`).join('')}</div>`;
+const exGrid=()=>`<div class="exg">${EXLIST.map(e=>`<a class="ext ${e[1]}" href="${e[0]}"><b>${e[3]}</b><small>${e[4]}</small><span class="go">${I.chevR}</span></a>`).join('')}</div>`;
 /* blog: posts.json is fetched once and shared by Home, the exam hubs and the Blog screens */
 const bgSave=()=>ls.set('nl-m-blogbm',S.bgbm);
 S.bgbm=ls.get('nl-m-blogbm',{});

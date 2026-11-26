@@ -1,3 +1,10 @@
+27 NOV 2026 (later) - SHARE BUTTON, REMINDER, HOME TILES, LOGO + NAV FIXES
+  NEW FILE: m-nudge.js (loaded by app.html).  CHANGED: m-app.js, m-modern.css, app.html
+  - Small round Share button on every main screen (phone + tablet); slides away while scrolling; hidden on focused screens.
+  - One reminder after 60 seconds of use per visit (Share / Not now); skipped for 7 days after a share.
+  - Home exam tiles: watermark icons removed, exam name in capitals.
+  - Header logo: corner dot no longer clipped. Bottom bar can no longer push the Blog tab off-screen.
+-------------------------------------------------------------------------------------------------
 27 NOV 2026 - PHONE + TABLET APP: AIBE, AILET, CUET PG, BLOG, REVISE, WELCOME POP-UP
   NEW FILES: m-exams.js, m-blog.js, m-modern.css
   CHANGED:   m-app.js, m-clat.js, app.html, sw.js (v23), nl-welcome-promo.js,
