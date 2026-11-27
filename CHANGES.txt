@@ -1,3 +1,11 @@
+27 NOV 2026 (evening) - TWILIGHT LOOK, FIVE-EXAM SHARING
+  NEW/CHANGED: m-themes.css, m-modern.css, m-app.js, theme.css, theme.js, nl-share.js, og-site.png
+  - New "Twilight" colour scheme (deep indigo, soft lavender outlines, gentle pink + blue accents), light and dark.
+    It is the app default; it is applied once to existing users, who can switch back any time under Appearance.
+    theme.css / theme.js only gained the Twilight name so embedded pages match; the website palette list is unchanged.
+  - Share text, hashtags and the share preview image (og-site.png, used by all pages) now cover UGC NET, CLAT PG, AILET, CUET PG and AIBE.
+  - Share button is a slim edge tab so it covers less content.
+-------------------------------------------------------------------------------------------------
 27 NOV 2026 (later) - SHARE BUTTON, REMINDER, HOME TILES, LOGO + NAV FIXES
   NEW FILE: m-nudge.js (loaded by app.html).  CHANGED: m-app.js, m-modern.css, app.html
   - Small round Share button on every main screen (phone + tablet); slides away while scrolling; hidden on focused screens.

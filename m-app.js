@@ -94,8 +94,11 @@ const ST=Object.assign({view:isTab?'list':'card',exp:0,fs:1},ls.get('nl-m-set',{
 const saveST=()=>ls.set('nl-m-set',ST);
 const BM=ls.get('nl-m-bm',{});const saveBM=()=>ls.set('nl-m-bm',BM);
 const POS=ls.get('nl-m-pos',{});const savePOS=()=>ls.set('nl-m-pos',POS);
-const SCHEMES=[['navy','Royal Navy','#607bd2'],['blue','Blue','#6095d2'],['aqua','Aqua','#359cbb'],['purple','Purple','#9560d2'],['magenta','Magenta','#d260a1'],['midnight','Midnight HC','#4d47eb'],['ruby','Ruby HC','#e11948'],['graphite','Graphite HC','#1e6ee6']];
-function setTheme(s,m){const r=document.documentElement,t=ls.get('netlaw058-theme',{});if(s)t.s=s;if(m)t.m=m;ls.set('netlaw058-theme',t);r.dataset.scheme=t.s||'navy';r.dataset.mode=t.m||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
+const SCHEMES=[['twilight','Twilight','#8f84f5'],['navy','Royal Navy','#607bd2'],['blue','Blue','#6095d2'],['aqua','Aqua','#359cbb'],['purple','Purple','#9560d2'],['magenta','Magenta','#d260a1'],['midnight','Midnight HC','#4d47eb'],['ruby','Ruby HC','#e11948'],['graphite','Graphite HC','#1e6ee6']];
+function setTheme(s,m){const r=document.documentElement,t=ls.get('netlaw058-theme',{});
+  /* the app's new look (Twilight) is applied once for everyone; after that the person's own choice in Appearance is respected */
+  if(!s&&!ls.get('nl-m-twv',0)){t.s='twilight';ls.set('nl-m-twv',1)}
+  if(s)t.s=s;if(m)t.m=m;ls.set('netlaw058-theme',t);r.dataset.scheme=t.s||'twilight';r.dataset.mode=t.m||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
 const mt=$('meta[name=theme-color]');if(mt)mt.content=getComputedStyle(r).getPropertyValue('--deep').trim()||'#17234a'}
 
 /* ---------- question bank (same loading rules as bank-loader.js) ---------- */

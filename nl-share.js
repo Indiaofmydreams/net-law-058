@@ -49,18 +49,18 @@
   var SITE = {
     name: "NET Law-Verse", brand: "NET Law-Verse: The Universe of Law", url: "https://netlawverse.in/", host: "netlawverse.in",
     image: "https://netlawverse.in/og-site.png",
-    headline: "UGC NET Law (058) & Paper 1: free preparation",
+    headline: "Free law exam preparation: UGC NET, CLAT PG, AILET, CUET PG & AIBE",
     features: [
       "9,000+ MCQs with explanations",
-      "17 mock tests with instant result analysis",
-      "Unit-wise notes and syllabus",
+      "45 mock tests across five exams with instant result analysis",
+      "Notes, syllabus trackers and a revision notebook",
       "Study plans from 6 months to 2 weeks",
-      "Cut-off trends, daily quiz, works offline"
+      "Law exam blog, cut-off trends, works offline"
     ],
     promise: "100% free. No sign-up.",
-    hashtags: "UGCNET,UGCNETLaw"
+    hashtags: "UGCNET,CLATPG,AILET,CUETPG,AIBE"
   };
-  var FEATURE_LINE = "Free on " + SITE.name + ": 9,000+ MCQs, 17 mock tests, notes and study plans. No sign-up.";
+  var FEATURE_LINE = "Free on " + SITE.name + ": UGC NET, CLAT PG, AILET, CUET PG and AIBE: MCQs, mock tests, notes and revision. No sign-up.";
 
   /* topic MCQ pages, so a shared question lands on a page with a proper preview */
   var UNIT_SLUG = {
@@ -112,7 +112,7 @@
       kind: "site", heading: "Share NET Law-Verse", title: SITE.name + ": " + SITE.headline,
       desc: SITE.features.join(". ") + ". " + SITE.promise, url: SITE.url, image: SITE.url + "og-site.png",
       text: function (ch) { return "\uD83D\uDCDA " + B(ch, SITE.name + ": " + SITE.headline) + "\n\n" + featureBlock(ch) + "\n\n" + SITE.promise + " \uD83D\uDC47"; },
-      short: "Free UGC NET Law (058) & Paper 1 prep: 9,000+ MCQs, 17 mock tests, notes, study plans. No sign-up."
+      short: "Free UGC NET, CLAT PG, AILET, CUET PG & AIBE prep: MCQs, mock tests, notes, revision. No sign-up."
     };
   }
   function pageTitle() {
@@ -239,7 +239,7 @@
         var ws = chips.map(function (t) { return g.measureText(t).width + 56; }), tot = ws.reduce(function (a, b) { return a + b; }, 0) + 20 * (chips.length - 1), x = cx - tot / 2;
         chips.forEach(function (t, i) { rr(x, 750, ws[i], 64, 32); g.fillStyle = "rgba(255,255,255,.16)"; g.fill(); g.fillStyle = "#fff"; g.fillText(t, x + ws[i] / 2, 783); x += ws[i] + 20; });
         g.fillStyle = "#fff"; g.font = "800 58px " + F; g.fillText("Can you beat it?", W / 2, 900);
-        g.fillStyle = "#c3cff5"; g.font = "600 32px " + F; g.fillText("Free MCQs, mock tests, notes and study plans", W / 2, 960);
+        g.fillStyle = "#c3cff5"; g.font = "600 32px " + F; g.fillText("Free MCQs, mock tests, notes and revision", W / 2, 960);
         rr(W / 2 - 250, 990, 500, 62, 31); g.fillStyle = "#fff"; g.fill(); g.fillStyle = "#2a459d"; g.font = "800 32px " + F; g.fillText(SITE.host, W / 2, 1022);
         if (cv.toBlob) cv.toBlob(function (b) { b ? ok(b) : no(); }, "image/png"); else no();
       } catch (e) { no(e); }
@@ -483,7 +483,7 @@
       var dv = clean(bq.innerHTML.replace(/<br\s*\/?>/gi, "\n").replace(/<[^>]+>/g, "")).replace(/\s*\n\s*/g, " "), meaning = tr ? clean(tr.textContent) : "";
       var sec = fig.closest("section,article"), hd = sec && sec.querySelector("h2,h3"), au = hd ? clean(hd.textContent) : "";
       var p = text({ kind: "wisdom", heading: "Share this doha", title: "Wisdom for the journey", desc: meaning, url: SITE.url + "wisdom.html",
-        lines: ["\uD83D\uDCDC " + dv, meaning, au ? "\u2014 " + au : "", "", "From NET Law-Verse: free UGC NET Law (058) & Paper 1 preparation \uD83D\uDC47"], short: cut(dv, 120) });
+        lines: ["\uD83D\uDCDC " + dv, meaning, au ? "\u2014 " + au : "", "", "From NET Law-Verse: free law exam preparation (UGC NET, CLAT PG, AILET, CUET PG, AIBE) \uD83D\uDC47"], short: cut(dv, 120) });
       var w = doc.createElement("div"); w.style.margin = "10px 0 0"; w.innerHTML = btn(p, { label: "Share this doha", aria: "Share this doha" }); fig.appendChild(w);
     });
     /* footer strip: shares the whole site */
@@ -493,7 +493,7 @@
       var links = CH.filter(function (c) { return !c.mobile || isMobile; }).map(function (c) {
         return '<a class="nls-ci" style="--nlc:' + c.c + '" href="' + esc(chHref(c, sp)) + '" target="_blank" rel="noopener noreferrer" aria-label="Share NET Law-Verse on ' + c.name + '" title="' + c.name + '">' + IC[c.id] + "</a>";
       }).join("");
-      box.innerHTML = '<div><b>Know someone preparing for UGC NET?</b><span class="d">Share NET Law-Verse with a friend: free MCQs, mock tests, notes and study plans.</span></div><div class="nls-row">' + links +
+      box.innerHTML = '<div><b>Know someone preparing for a law exam?</b><span class="d">Share NET Law-Verse with a friend: free MCQs, mock tests, notes and study plans.</span></div><div class="nls-row">' + links +
         '<button type="button" class="nls-ci" style="--nlc:#4a5568" data-nls-site aria-label="More ways to share" title="Copy link or more apps">' + IC.copy + "</button></div>";
       ft.insertBefore(box, ft.firstChild);
     }

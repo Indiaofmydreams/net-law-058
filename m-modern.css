@@ -118,10 +118,10 @@ a.card:active,.tile:active{transform:scale(.985)}
 #nav a>span:not(.ni){max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 
 /* ---- small always-available share button + one-minute reminder ---- */
-.sfab{position:fixed;right:var(--sfab-r,12px);bottom:calc(var(--sfab-b,84px) + env(safe-area-inset-bottom));z-index:30;display:grid;place-items:center;width:40px;height:40px;padding:0;border:0;border-radius:50%;background:var(--gB);color:#fff;box-shadow:0 8px 18px -6px rgba(0,0,0,.45),0 0 0 3px color-mix(in srgb,var(--page) 80%,transparent);opacity:.94;transition:transform .25s,opacity .25s;cursor:pointer}
+.sfab{position:fixed;right:calc(var(--sfab-r,12px) - 12px);bottom:calc(var(--sfab-b,84px) + env(safe-area-inset-bottom));z-index:30;display:grid;place-items:center;width:34px;height:42px;padding:0 0 0 3px;border:0;border-radius:21px 0 0 21px;background:var(--gB);color:#fff;box-shadow:0 8px 18px -6px rgba(0,0,0,.45),0 0 0 3px color-mix(in srgb,var(--page) 80%,transparent);opacity:.94;transition:transform .25s,opacity .25s;cursor:pointer}
 .sfab[hidden]{display:none}
 .sfab:active{transform:scale(.92)}
-.sfab.away{transform:translateX(64px);opacity:0;pointer-events:none}
+.sfab.away{transform:translateX(48px);opacity:0;pointer-events:none}
 .sfab svg{width:19px;height:19px}
 .snudge{position:fixed;left:50%;bottom:calc(var(--sfab-b,84px) + env(safe-area-inset-bottom) + 52px);z-index:55;display:flex;align-items:center;gap:12px;width:min(440px,calc(100vw - 24px));padding:12px 14px;border-radius:20px;background:var(--surface);color:var(--text);border:1px solid var(--card);box-shadow:0 18px 40px -12px rgba(0,0,0,.45);transform:translate(-50%,24px);opacity:0;transition:transform .3s,opacity .3s}
 .snudge.on{transform:translate(-50%,0);opacity:1}
@@ -133,5 +133,19 @@ a.card:active,.tile:active{transform:scale(.985)}
 .sn-b button{border:0;font:inherit;font-weight:800;font-size:.8125rem;border-radius:11px;min-height:34px;padding:0 14px;cursor:pointer}
 .sn-go{background:var(--gA);color:#fff}
 .sn-x{background:transparent;color:var(--mut)}
-@media(min-width:768px){.snudge{left:auto;right:24px;transform:translateY(24px)}.snudge.on{transform:none}.sfab{width:44px;height:44px}}
+@media(min-width:768px){.snudge{left:auto;right:24px;transform:translateY(24px)}.snudge.on{transform:none}.sfab{width:38px;height:46px}}
 @media(prefers-reduced-motion:reduce){.snudge,.sfab{transition:none}}
+
+/* ---- Twilight finishing: soft lavender outlines, gentle glow, a touch of pink. Soft, not heavy. ---- */
+[data-scheme=twilight] #view:not(.flush){background:linear-gradient(180deg,color-mix(in srgb,var(--glow1) 55%,var(--soft)) 0,var(--soft) 340px)}
+[data-scheme=twilight] .card,[data-scheme=twilight] .rows,[data-scheme=twilight] .tile,[data-scheme=twilight] .pc,[data-scheme=twilight] .bcard,[data-scheme=twilight] .xh-t,[data-scheme=twilight] .xh-pg a,[data-scheme=twilight] .xh-tip,[data-scheme=twilight] .cx-s{border:1.5px solid color-mix(in srgb,var(--ac) 26%,var(--line))}
+[data-scheme=twilight] .row{border-bottom-color:color-mix(in srgb,var(--ac) 14%,var(--line))}
+[data-mode=dark][data-scheme=twilight] .card,[data-mode=dark][data-scheme=twilight] .rows,[data-mode=dark][data-scheme=twilight] .tile,[data-mode=dark][data-scheme=twilight] .pc,[data-mode=dark][data-scheme=twilight] .bcard,[data-mode=dark][data-scheme=twilight] .xh-t{box-shadow:0 14px 30px -18px rgba(4,5,26,.9)}
+[data-scheme=twilight] .chip.on{background:var(--pink);color:#1b1850;box-shadow:0 6px 14px -8px var(--pink)}
+[data-scheme=twilight] .ext,[data-scheme=twilight] .bigt{border:1.5px solid rgba(255,255,255,.22)}
+[data-scheme=twilight] #nav{border-top-color:color-mix(in srgb,var(--ac) 22%,var(--line))}
+[data-scheme=twilight] #nav a.on .ni{box-shadow:0 8px 18px -8px var(--c3-deep),0 0 0 2px color-mix(in srgb,var(--pink) 55%,transparent)}
+[data-scheme=twilight] .sfab{background:linear-gradient(145deg,var(--pink),var(--c3-deep));box-shadow:-6px 8px 18px -8px rgba(0,0,0,.45)}
+[data-scheme=twilight] .nlm::after{background:var(--pink)}
+[data-scheme=twilight] .hring .fg{stroke:var(--pink)}
+[data-scheme=twilight] .pk{background:color-mix(in srgb,var(--pink) 22%,var(--tint));color:var(--ac-d)}

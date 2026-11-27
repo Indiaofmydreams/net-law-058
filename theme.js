@@ -1,4 +1,4 @@
-(()=>{const K='netlaw058-theme',d=document.documentElement,OK=['navy','blue','aqua','purple','magenta','midnight','ruby','graphite'],NM={navy:'Royal Navy',blue:'Blue',aqua:'Aqua',purple:'Purple',magenta:'Magenta',midnight:'Midnight HC',ruby:'Ruby HC',graphite:'Graphite HC'};
+(()=>{const K='netlaw058-theme',d=document.documentElement,OK=['navy','blue','aqua','purple','magenta','midnight','ruby','graphite','twilight'],NM={navy:'Royal Navy',blue:'Blue',aqua:'Aqua',purple:'Purple',magenta:'Magenta',midnight:'Midnight HC',ruby:'Ruby HC',graphite:'Graphite HC'};
 let t={};try{t=JSON.parse(localStorage.getItem(K)||'{}')}catch{}
 const say=m=>window.announce&&window.announce(m),mode=()=>t.m||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
 const btn=document.getElementById('pal-btn'),pop=document.getElementById('pal-pop'),mb=document.getElementById('mode-btn');
