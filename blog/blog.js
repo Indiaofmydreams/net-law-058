@@ -259,3 +259,12 @@
   sws.forEach(function (b) { b.addEventListener("click", function () { var t = b.getAttribute("data-t"); root.setAttribute("data-theme", t); set("nlv-theme", t); markTheme(); }); });
   markTheme();
 })();
+
+/* install bar: loaded for readers on the open web only (never inside the app or ?embed=1); see /nl-install-bar.js */
+(function () {
+  try {
+    if (window.top !== window.self || /[?&]embed=1/.test(location.search)) return;
+    var s = document.createElement("script"); s.src = "/nl-install-bar.js"; s.defer = true;
+    (document.body || document.documentElement).appendChild(s);
+  } catch (e) { }
+})();
